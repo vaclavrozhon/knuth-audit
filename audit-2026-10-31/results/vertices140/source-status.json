@@ -1,0 +1,81 @@
+{
+  "at_utc": "2026-11-02T19:32:15.309767+00:00",
+  "checker_sha256": "255da43775fb7c704bf6de66e512c9bb8715e387312dd4dac8208cc9084301d8",
+  "files": {
+    "sources/vertices140/bnf-sru.xml": "d30a5cbb86c98e2136764575aaccf995c0fdf0a6c282b60aea1d50e561ee4bea",
+    "sources/vertices140/bnf-title.xml": "6825bde972eeee189b5a5645b3541bb9ed050e99148bfb4dc1cceceb650de035",
+    "sources/vertices140/book-google.html": "6d4afb6ba1ca1cdfd6fd68e72a617823df82ff2f58b0eb48d2fe942b1fa4e6cb",
+    "sources/vertices140/count_vertices140-build1.cpp": "1160f692d8c21aae01a1f30d0683c496ac95ded245356d2fae5250f9e452c6f6",
+    "sources/vertices140/fr1582023.html": "d9be83f7407008423f54c035a50d53ffd136add3e6395b5f94b347866daa33b3",
+    "sources/vertices140/langford-cambridge.html": "782e464a7b28372562b97c8421e849bac79d63372b5d5a4ff2de0460c8cf2ccd",
+    "sources/vertices140/langford1959.pdf": "2c8e4618e2067c62e77ae0366ade5ea3d34784152897046b81c672751b63b4db",
+    "sources/vertices140/preview-retrieval.json": "b2bfde09e9bc10b2352dacf0fd80f07f0768ad457aad0556ab918af6d2cd6569",
+    "sources/vertices140/retrieval-followup.json": "b62761f4e977998addbef5170b97ce9db08b62281dbea09bdd2182d224c92caf",
+    "sources/vertices140/retrieval-history.json": "b4a9297999c8bb2b2f883a85c4f07fc7ce50c321426135ef20b80b5a5876360d",
+    "sources/vertices140/retrieval-history2.json": "939c296343b14dd82558e864ee7c872a2259477f0a4154b160c2821d74cec7e7",
+    "sources/vertices140/retrieval.json": "6102f15375f53a8918a15e83a20aa93dc8e990e2847c4c57b1e73534125231ef",
+    "sources/vertices140/trioker-rules-page2.png": "fa3a5e46c3620e44d1c1147c50fdeb2f3c16dff3d588d13d12642940de743546",
+    "sources/vertices140/trioker-rules-page3.png": "8564fe792250b9bcd061d837a97ef0cc8990b06a5a4178f6cebddb82db0260de",
+    "sources/vertices140/trioker-rules.pdf": "76ffad0d69c037390ee01dd72b5eadc68aa4f7271469b31f4fd9d3e135d92f36",
+    "sources/vertices140/trioker-rules.txt": "b097ee32685d9eb0f96bf0d9984901bc2d60ff050f08074708474802e44e53f2",
+    "sources/vertices140/us3608906-page1.png": "3c8f0ecad1b644ba4314790e877630af3216cec56ea9c74db95f7832358d5c0c",
+    "sources/vertices140/us3608906-page5.png": "8311992a63710810776b4e8707cbf21514ae0577b4e4aa185978ca26a0b0ee6a",
+    "sources/vertices140/us3608906.html": "e0b994adc3b8c38b32eb9a3e25d1899876b73804eafae44eea204c6b64142882",
+    "sources/vertices140/us3608906.pdf": "73f2d3a4f5391a034e2969feaebee06f9894969bc253176999fb60abe126698e",
+    "sources/vertices140/us3608906.txt": "89169e622609f5f80a573bfc1d32171ffbef78f203c891bbdddb7206f66e6569"
+  },
+  "bnf": {
+    "record": "https://catalogue.bnf.fr/ark:/12148/cb346060085",
+    "title": "Surprenants triangles",
+    "authors": "M. Odier, Y. Roussel",
+    "publisher": "CEDIC",
+    "year": "1976",
+    "isbn": "2-7124-0601-X"
+  },
+  "title_typo": {
+    "printed": "Surprenant Triangles",
+    "correct": "Surprenants triangles",
+    "book_and_author_draft": true,
+    "original_rulebook_pdf_page3_also_spells_plural": true
+  },
+  "patent": {
+    "us": "3608906",
+    "inventor": "Marc Odier",
+    "patented": "1971-09-28",
+    "original_pdf_pages_viewed": [
+      1,
+      5
+    ],
+    "cites_french_patent": "1582023",
+    "french_filing_metadata": "1968-01-08",
+    "french_publication_metadata": "1969-09-26"
+  },
+  "original_rules": {
+    "pdf": "sources/vertices140/trioker-rules.pdf",
+    "pdf_pages_viewed": [
+      2,
+      3
+    ],
+    "corner_matching_rule_verified": true,
+    "trioker_name_verified": true,
+    "copyright_margin": "1968 Odier; Robert Laffont"
+  },
+  "multimatch": {
+    "url": "https://www.gamepuzzles.com/edgemtch.htm",
+    "observed_via": "web tool, November2 2026",
+    "statement": "Manufacturer lists Multimatch IV as24 corner-colored triangular pieces covering all combinations of four colors.",
+    "raw_archive_available": false,
+    "raw_http_request_status": 403
+  },
+  "langford_metadata": {
+    "author": "C. Dudley Langford",
+    "title": "2829. Dominoes numbered in the corners",
+    "journal": "The Mathematical Gazette43(344),May1959,120–122",
+    "doi": "10.2307/3610194"
+  },
+  "historical_gaps": [
+    "The original Langford1959 article (Gazette43,120–122) is identified, but its full text remains unavailable locally. The PDF link redirected to an access page; the public preview returned403. The attribution has not been checked against the article content.",
+    "The original French patent1582023 text was not obtained. Its1968 filing/1969 publication dates come from the patent index; the retrieved original US patent explicitly attributes the earlier vertex-matching construction to that French patent. The parenthetical1968 is compatible with filing and is not classified as an error."
+  ],
+  "physical_taocp_print_verified": false
+}

@@ -1,0 +1,222 @@
+{
+  "accessed_utc": "2026-11-03T22:58:35.581565+00:00",
+  "scope": "AlgorithmB385-386,exercise4,research21 and complete erratum2000census below1e9; exact source-read limits retained.",
+  "book": {
+    "edition": "3rd,firstprinting1997",
+    "printed_visually_read": [
+      385,
+      386,
+      412,
+      413,
+      657,
+      658,
+      661
+    ],
+    "file_page_offset": 12
+  },
+  "primary_sources": [
+    {
+      "name": "pollard-1975-rho",
+      "url": "https://pages.cs.wisc.edu/~cs812-1/pollardrho.pdf",
+      "visually_read": "331-334,all4pages",
+      "file": "sources/pollard-1975-rho.pdf",
+      "bytes": 203045,
+      "sha256": "453e73eb1ed658c4f9c63e99b4230fcd91523bb760d57a6270bd44153fe4e31d"
+    },
+    {
+      "name": "brent-1980-cycle-finding",
+      "url": "https://maths-people.anu.edu.au/~brent/pd/rpb051i.pdf",
+      "visually_read": "176-184,all9pages",
+      "file": "sources/brent-1980-cycle-finding.pdf",
+      "bytes": 469990,
+      "sha256": "a72c5bf2944226bcc86ab5799f984f791acddf9151c1364c033e61f39d14923e"
+    },
+    {
+      "name": "brent-pollard-1981-F8",
+      "url": "https://maths-people.anu.edu.au/~brent/pd/rpb061.pdf",
+      "visually_read": "627-630,all4pages",
+      "file": "sources/brent-pollard-1981-F8.pdf",
+      "bytes": 379975,
+      "sha256": "e4fc0d6a0ca45c6eb9956bdad4fff33f3db3e8e237a5889674e050cb424466e3"
+    },
+    {
+      "name": "brent-1982-F8-prime",
+      "url": "https://maths-people.anu.edu.au/~brent/pd/rpb066.pdf",
+      "visually_read": "253-255,all3pages",
+      "file": "sources/brent-1982-F8-prime.pdf",
+      "bytes": 157641,
+      "sha256": "b1cc81c9552be87cc8c9bf4776233266b9344f4a70051cf09798a61a3d66f09e"
+    },
+    {
+      "name": "heath-brown-2017-quadratic-iterations",
+      "url": "https://arxiv.org/pdf/1701.02707",
+      "visually_read": "PDF1-5 only;v2",
+      "file": "sources/heath-brown-2017-quadratic-iterations.pdf",
+      "bytes": 189237,
+      "sha256": "9b05ee6acc9d0975c0a50b2ba302d86d5f35b38db38c5a748c7b9fbe119a8760"
+    },
+    {
+      "name": "rudolph-2025-rho-maps",
+      "url": "https://arxiv.org/pdf/2506.12844v1",
+      "visually_read": "PDF1-2,15 only;v1",
+      "file": "sources/rudolph-2025-rho-maps.pdf",
+      "bytes": 256584,
+      "sha256": "f2de10bb7d6f602bd4319c79a4d1fdde2637457b6c99b6ababffb45d1e863cf3"
+    },
+    {
+      "name": "Arney–Bender1982",
+      "url": "https://msp.org/pjm/1982/103-2/pjm-v103-n2-p03-s.pdf",
+      "visually_read": "Printed269-273,PDF2-6 only; definitions and model tables; later proofs not read",
+      "file": "sources/arney-bender-1982-random-maps.pdf",
+      "bytes": 2732508,
+      "sha256": "e671c392ada8b60d38f176f18ebcea35cff3835706d55602b62225ddedbb7495"
+    }
+  ],
+  "bach": {
+    "url": "https://www.sciencedirect.com/science/article/pii/089054019190001I",
+    "doi": "10.1016/0890-5401(91)90001-I",
+    "bibliography": "Information and Computation90(1991),139-155",
+    "read": "Publisher metadata and abstract only; originalPDF403. Mirror OCR not accepted as checked proof."
+  },
+  "errata": {
+    "layers": [
+      "all2-prepre",
+      "all2-pre",
+      "all2",
+      "err2"
+    ],
+    "known": [
+      "385 Arney-Bender citation1998-05-14",
+      "386 larger experiment2000-12-28",
+      "658 Brent attribution1998-05-14",
+      "658 approximate equality signs2015-05-22"
+    ],
+    "visual_evidence": [
+      "images/factoring-all2-prepre-p21.png",
+      "images/factoring-all2-prepre-p41.png",
+      "images/factoring-all2-pre-p15.png"
+    ]
+  },
+  "files": [
+    {
+      "file": "verify_factoring_rho.py",
+      "bytes": 8761,
+      "sha256": "8202d2300a3b2d27b8235e7bc5eca52b6d12c6f5e6ff6b5f63d0241a976ca5cd"
+    },
+    {
+      "file": "verify_factoring_rho_census.cpp",
+      "bytes": 1723,
+      "sha256": "49fd0075ae14eeafa3950cc7b6f446736e369d1889854dd0460885f007008936"
+    },
+    {
+      "file": "verify_factoring_rho_extended.cpp",
+      "bytes": 2477,
+      "sha256": "4f2e75dfb9c70e414473a02119426402cd872753eda56c6bf1713371318c2392"
+    },
+    {
+      "file": "results/factoring-rho.json",
+      "bytes": 7048,
+      "sha256": "6fa2e205dbd2e559d22f1f33d6e1f7a77df7ab49fdc61fb60ec9211ba96fb736"
+    },
+    {
+      "file": "results/factoring-rho.log",
+      "bytes": 142,
+      "sha256": "efbaad28eb5b9ec9e78ff66d9a9a2bfe82a50b62255c5abd1da18098da91788f"
+    },
+    {
+      "file": "results/factoring-rho-initial.log",
+      "bytes": 533,
+      "sha256": "e88751a1c5b4e48fa0afcc9df7c4c9bc965e3a20069d59eabd5d5bca89427fb9"
+    },
+    {
+      "file": "results/factoring-rho-census.csv",
+      "bytes": 1493320,
+      "sha256": "8273aed1c190e49df8d0b7f0b30d825f73812c79dc58f8bdd44fd4854e039cbc"
+    },
+    {
+      "file": "results/factoring-rho-census.log",
+      "bytes": 140,
+      "sha256": "bfd7432b0e88c171ac28bf7ed68c74fea28d313cc6fd1cd2413f95a34ca7eb01"
+    },
+    {
+      "file": "notes/factoring-rho.md",
+      "bytes": 20068,
+      "sha256": "1dac52a607d7ce8812867aa0e16bde46391208dd518fcd59cb16f2fc298cd4fe"
+    },
+    {
+      "file": "verify_rho_prime_counts.cpp",
+      "bytes": 1311,
+      "sha256": "e3a46cb63ba63a6d4bde59378f0a32252872bee61a9e1f01a99576819339f8fd"
+    },
+    {
+      "file": "verify_rho_aggregate.py",
+      "bytes": 4128,
+      "sha256": "0da10309099b21f7183551a7b9d6b1f24aa835bc7b5f4fce2cac596fe1dcc6a9"
+    },
+    {
+      "file": "results/factoring-rho-extended.csv",
+      "bytes": 127011,
+      "sha256": "2b001208d44fb00f980813edc3f964fdf6fb4354fbbd490a08531edd5876b3b6"
+    },
+    {
+      "file": "results/factoring-rho-extended.log",
+      "bytes": 76590,
+      "sha256": "03b79f8c590b8224278168aebfb8f83a2b16cdc079d754c0b3bdc7cfc28e33e4"
+    },
+    {
+      "file": "results/rho-prime-counts.csv",
+      "bytes": 48637,
+      "sha256": "d2bcaf4063b98b4f24911164c27616eb84033f17fd56f66851b6812dee6bf684"
+    },
+    {
+      "file": "results/rho-prime-counts.log",
+      "bytes": 55,
+      "sha256": "7ac9ad3048c5e026ab4a1e902ddfb3d0aba8874159026ebd9bad1aa133cb3b71"
+    },
+    {
+      "file": "results/rho-aggregate.json",
+      "bytes": 1398,
+      "sha256": "8e3adee396b5070ac6da42e6f660c85a1031c8b00ac1928d3ec88547fa29fc6a"
+    }
+  ],
+  "verification": {
+    "small_census": {
+      "primes": 78498,
+      "two_independent_detectors_every_prime": true,
+      "tool_session": 46245,
+      "pid": null,
+      "exit_code": 0
+    },
+    "finite_and_constants": {
+      "wrapper_pid": 1260961,
+      "python_pid": 1260962,
+      "tool_session": 42767,
+      "time_limit_seconds": 180,
+      "exit_code": 0,
+      "seconds": 3.259737991
+    },
+    "extended": {
+      "status": "completed_independent_counts_and_aggregate_validated",
+      "wrapper_pid": 1260603,
+      "child_pid": 1260604,
+      "tool_session": 15357,
+      "time_limit_seconds": 28800,
+      "checkpoints": "results/factoring-rho-extended.csv",
+      "log": "results/factoring-rho-extended.log",
+      "exit_code": 0,
+      "tool_exit_code": 143,
+      "iteration_seconds": 26796.612924714,
+      "primes_total": 50847534,
+      "validation": "results/rho-aggregate.json",
+      "independent_count_seconds": 7.02155,
+      "completion_evidence": "Wrapperexit0,999segments,ALLSEGMENTSCOMPLETE; independent counts/aggregate passed. No rerun."
+    }
+  },
+  "limitations": [
+    "Research21 not solved; absence of located solution is not a proof of current open status.",
+    "Bach full original unavailable; Heath-Brown theorem external and only1-5read; Rudolph only1-2/15read.",
+    "Fixed phase has two certified differing subsequential limits; book approximation and2015erratum respected.",
+    "F8 stated prime certified;62digitcofactor primality not independently checked.",
+    "New p>=1e6 iterates computed once by reviewed detector; only small census has two detectors per prime. Independent global prime counts and published external extrema agree."
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "checked_at_utc": "2026-11-02T02:31:09.535238+00:00",
+  "status": "verified",
+  "source_sha256": "919b8cd0d7de89de1bf33b03376e61dfe6ff726095f6985c3b2ea6f45a36e5d7",
+  "wrapper_sha256": "afd1e380243ebf5166be37f074e367cc70f9b7a688396030c4f5ce0130ac55a0",
+  "accepted": [
+    {
+      "label": "n3",
+      "solutions": 0,
+      "native": {
+        "solutions": 0,
+        "initialization_mems": 1346,
+        "search_mems": 1353,
+        "updates": 89,
+        "bytes": 1352,
+        "nodes": 5,
+        "profile": [
+          1,
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "label": "n4",
+      "solutions": 33,
+      "native": {
+        "solutions": 33,
+        "initialization_mems": 11992,
+        "search_mems": 99884,
+        "updates": 7119,
+        "bytes": 8960,
+        "nodes": 132,
+        "profile": [
+          1,
+          11,
+          26,
+          61,
+          33
+        ]
+      }
+    },
+    {
+      "label": "n5",
+      "solutions": 2082,
+      "native": {
+        "solutions": 2082,
+        "initialization_mems": 90394,
+        "search_mems": 22524519,
+        "updates": 1669124,
+        "bytes": 54708,
+        "nodes": 9094,
+        "profile": [
+          1,
+          35,
+          275,
+          1471,
+          5230,
+          2082
+        ]
+      }
+    },
+    {
+      "label": "n6",
+      "solutions": 320098,
+      "native": {
+        "solutions": 320098,
+        "initialization_mems": 629203,
+        "search_mems": 13683582719,
+        "updates": 1037061143,
+        "bytes": 315256,
+        "nodes": 1720791,
+        "profile": [
+          1,
+          110,
+          2341,
+          26911,
+          234329,
+          1137001,
+          320098
+        ]
+      }
+    },
+    {
+      "label": "rainbow",
+      "solutions": 98556,
+      "native": {
+        "solutions": 98556,
+        "initialization_mems": 1741202,
+        "search_mems": 12019710355,
+        "updates": 942632380,
+        "bytes": 510340,
+        "nodes": 766784,
+        "profile": [
+          1,
+          62,
+          483,
+          3058,
+          12927,
+          46122,
+          121299,
+          205526,
+          278750,
+          98556
+        ]
+      }
+    },
+    {
+      "label": "rainbow-no-sudoku",
+      "solutions": 42669,
+      "native": {
+        "solutions": 42669,
+        "initialization_mems": 1736378,
+        "search_mems": 7647475148,
+        "updates": 599696485,
+        "bytes": 508900,
+        "nodes": 438802,
+        "profile": [
+          1,
+          61,
+          419,
+          2434,
+          9882,
+          33542,
+          83371,
+          120593,
+          145830,
+          42669
+        ]
+      }
+    },
+    {
+      "label": "n7",
+      "solutions": 132418528,
+      "native": {
+        "solutions": 132418528,
+        "initialization_mems": 4164034,
+        "search_mems": 24619131223049,
+        "updates": 1894211822180,
+        "bytes": 1742684,
+        "nodes": 983498562,
+        "profile": [
+          1,
+          351,
+          19492,
+          496099,
+          9236523,
+          112947605,
+          728379963,
+          132418528
+        ]
+      }
+    }
+  ],
+  "original_wrapper_pid": 789648,
+  "finished_at_utc": "2026-11-02T02:15:29.458102+00:00",
+  "book_unit": "Page72 explicitly defines Gmu as gigamems, not updates.",
+  "benchmark_gap": "Native n7 search24.619T mems; printed1.9Tmu remains unreproduced. Updates1.894T are a different unit.",
+  "new_searches": 0
+}

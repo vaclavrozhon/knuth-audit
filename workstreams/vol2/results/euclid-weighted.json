@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "pid": 1233741,
+  "pairs": 9216,
+  "product_certificates": 41068,
+  "weighted_inputs": 101376,
+  "original_failures": 12983,
+  "counterexample_family": 127,
+  "seconds": 15.65018462302396,
+  "scope": "Exact rational squared inequalities. Corrected theta=sqrt(lambda*mu*v) and alternatively normalized z_j/d. General proof in C0141 note.",
+  "example": {
+    "u": 4,
+    "v": 2,
+    "quotients": [
+      1,
+      1
+    ],
+    "lambda": "9/4",
+    "mu": 1,
+    "theta": "3/2",
+    "absolute_residuals": [
+      "2",
+      "11/4",
+      "9/4"
+    ]
+  }
+}

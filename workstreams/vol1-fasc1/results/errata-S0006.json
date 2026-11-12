@@ -1,0 +1,113 @@
+{
+  "checked_at_utc": "2026-11-06T21:53:17.864307+00:00",
+  "target": "Fgetws returns success zero at EOF before the first requested wyde.",
+  "search_terms": [
+    "Fgetws",
+    "mmix-io",
+    "end of file",
+    "EOF",
+    "page 42"
+  ],
+  "sources": [
+    {
+      "path": "errata/originals/err1f1.textxt",
+      "sha256": "07db671be6fcbc6c473ddc6593f6a16cce5833fb5f8a499ab7e2e3eee163dae3",
+      "matches": [
+        {
+          "line": 438,
+          "context": "\\endchange\n\n\\amendpage 1f1.42 line 5 (07.02.22)\nan error \\becomes a serious error\n\\endchange\n\n\\bugonpage 1f1.44 line 2 of exercise 12 (09.01.05)\n\\.{Blank} \\becomes \\.{Blanks}\n\\endchange"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/err1f1.txt",
+      "sha256": "7d6366838076d106c09e85a4f93f1b151e94c9af9f6874ea27aa6f106cdf84b6",
+      "matches": [
+        {
+          "line": 210,
+          "context": "  not hange that global register. If x = 0, or if x is a base address that hasn't\n  already o urred, a new global register is allo ated (as large as possible).\n Page 42 line 5                                                             22 Feb 2007\n  an error  ya serious error\nxPage 44 line 2 of exer ise 12                                              05 Jan 2009\n  Blank y Blanks\nxPage 44 repla ement for line 2 of exer ise 13                              10 Jan 2010\n                                   Þ¿×    « tjnÌÌ ¾×\n"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all1f1.txt",
+      "sha256": "c0b1a7c575ffcbced2bc6a7048143a16286a081908850ad0956258dd2f84b18e",
+      "matches": [
+        {
+          "line": 245,
+          "context": "Page 40 line 11                                                               29 Jul 2006\n  TRAP 0,Halt,0    y TRAP 0,Halt,0;\n Page 42 line 5                                                              22 Feb 2007\n  an error y  a serious error\nxPage 44 line 2 of exer ise 12                                               05 Jan 2009\n  Blank y Blanks\nxPage 44 repla ement for line 2 of exer ise 13                               10 Jan 2010\n                                    Þ¿×   « tjnÌÌ ¾×\n"
+        }
+      ]
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmixware-errata.html",
+      "sha256": "740b68475c94774ee2d143b0baa2d98111664e2e2c69ce3a29117311f8c4957e",
+      "matches": [
+        {
+          "line": 100,
+          "context": "<dt>page 41, line 15 (15 Feb 2002)</dt>\n<dd>change \"<tt>GET</tt>\" to \"<tt>PUT rJ,$255; GET</tt>\"</dd>\n<dt>page 42, lines 2 and 3 (15 Feb 2002)***</dt>\n<dd>change \"(i) $255 is set ... not zero; (ii)\" to \"(i)\"; also change\n\"(iii)\" to \"(ii)\" on line 4 and \"(iv)\" to \"(iii)\" on line 5</dd>\n<dt>page 42, new paragraph to follow the second paragraph of section 36 (31 May 2011)***</dt>\n<dd>When a forced trap occurs on a store instruction because of memory\nprotection failure, the settings of rYY and rZZ are undefined. They do not\nnecessarily correspond to the virtual address rY and octabyte to be stored rZ"
+        },
+        {
+          "line": 103,
+          "context": "<dd>change \"(i) $255 is set ... not zero; (ii)\" to \"(i)\"; also change\n\"(iii)\" to \"(ii)\" on line 4 and \"(iv)\" to \"(iii)\" on line 5</dd>\n<dt>page 42, new paragraph to follow the second paragraph of section 36 (31 May 2011)***</dt>\n<dd>When a forced trap occurs on a store instruction because of memory\nprotection failure, the settings of rYY and rZZ are undefined. They do not\nnecessarily correspond to the virtual address rY and octabyte to be stored rZ\nthat are supplied to a trip handler after a tripped store instruction, because\na forced trap aborts its instruction as soon as possible.</dd>\n<dt>page 42, line 2 of section 37 (15 Jun 2002)</dt>"
+        },
+        {
+          "line": 109,
+          "context": "that are supplied to a trip handler after a tripped store instruction, because\na forced trap aborts its instruction as soon as possible.</dd>\n<dt>page 42, line 2 of section 37 (15 Jun 2002)</dt>\n<dd>change \"the the\" to \"the\"</dd>\n<dt>page 43, line 11 (15 Jun 2002)</dt>\n<dd>change \"<tt>GET $1,rK</tt>\" to \"<tt>LDOU $1,savedK</tt>\"</dd>\n<dt>page 43, line 12 (15 Jun 2002)</dt>\n<dd>change this line to simply \"<tt>SADD $2,$1,$0; ANDN $1,$0,$1</tt>\"</dd>\n<dt>page 43, line 15 (09 Nov 2005)</dt>"
+        },
+        {
+          "line": 276,
+          "context": "<dd>change \"buf\" to \"(unsigned char *)buf\"</dd>\n<dt>page 143, line 15 (21 Mar 2009)***</dt>\n<dd>change \"int eof;\" to \"int eof=0;\"</dd>\n<dt>page 143, line 24 (04 June 2011)</dt>\n<dd>change \"buf\" to \"(unsigned char *)buf\"</dd>\n<dt>page 145, after line 11 of section 20 (15 Jun 2002)</dt>\n<dd>insert a copy of line 6 (\"if (sfile[handle].mode ... ~#1;\") here</dd>\n<dt>page 148, new paragraph to follow line 7 (19 Jul 2011)</dt>\n<dd>Many I/O devices communicate via bytes or wydes or tetras instead of octabytes. So these prototype routines have a <i>size</i> parameter, to distinguish between the various kinds of quantities that <tt>MMIX</tt> wants to read from and write to the memory-mapped addresses.</dd>"
+        },
+        {
+          "line": 643,
+          "context": "<dd>change \"program.\" to \"program. This option should be used whenever the\nsimulator is not being used interactively, because the simulator will not\nrecognize end of file when standard input has been defined in any other\nway.</dd>\n<dt>page 334, line 7 from the bottom (10 Sep 2013)<dt>\n<dd>change \"250 instructions have been executed\" to \"$250\\upsilon$ have elapsed\"</dd>\n<dt>page 336, line 3 (09 Mar 2013)</dt>\n<dd>change \"is a string\" to \"is the address of the first byte of a string\"</dd>\n<dt>page 336, line 7 (12 Jan 2002)</dt>"
+        },
+        {
+          "line": 730,
+          "context": "<dt>page 394, line 18 (24 Jul 2000)***</dt>\n<dd>change \"fgets(stdin_buf,256,stdin);\" to\n\"if (!fgets(stdin_buf,256,stdin)) panic(<tt>\"End of file on standard input;\nuse the -f option, not &lt;\"</tt>);\"</dd>\n<dt>page 395, replacement for line 7 (15 Feb 2002)***</dt>\n<dd><tt>g[255]=g[rJ];<br>\nif (op==TRIP) w=g[rW], x=g[rX], a=g[255];</tt></dd>\n<dt>page 396, new code to replace the former code for section 127 (10 Sep 2013)***</dt>\n<dd>if sclock.l || sclock.h || !resuming) {<br>"
+        },
+        {
+          "line": 816,
+          "context": "<dd>change \"multibyte``function\" to \"multibyte function\"</dd>\n<dt>page 444, line 3 (30 Apr 2001)***</dt>\n<dd>change \"do ... EOF)\" to \"while (j!='\\n' && j!=EOF) j=fgetc(src_file)\"</dd>\n<dt>page 444, line 5 of section 37 (10 May 2000)</dt>\n<dd>change \"char\" to \"Char\"</dd>\n<dt>page 444, line 6 of section 38 (15 Aug 2011)***</dt>\n<dd>change <tt>j=*p++-'0'</tt> to <tt>j=0</tt></dd>\n<dt>page 444, replacement for lines 14--18 of section 38 (15 Aug 2011)***</dt>\n<dd><tt>for (p++,k=0;*p &amp;&amp; *p!='\\\"' &amp;&amp; k&lt;FILENAME_MAX; p++,k++)<br>"
+        }
+      ]
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmixware-current.html",
+      "sha256": "13614aa34f4ad039b12d331064d993292837bc12bf7fd2073ff34bfa41ae9834",
+      "matches": []
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmix-upstream-bugs.html",
+      "sha256": "a9b8c36c7fe466afd03a42ac900cd1e3c13250b7bd9ef575d0f331e31960a61a",
+      "matches": []
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmix-upstream-rounding.html",
+      "sha256": "f864c5fc573f7049aaf2d3682c72ee09f78dfb3d7445a19dc891282f99314c1b",
+      "matches": []
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmix-arith-upstream-warnings.ch",
+      "sha256": "b4a916e0962e2f79828d6afca1a5a40775e82b725f45ec28664a3e66f6b093b4",
+      "matches": []
+    },
+    {
+      "path": "errata/text/all1.txt",
+      "sha256": "b641d6e48aaf2d77fc98a3c4a8a798d8156516b97095ec345a976e65d9c79aef",
+      "matches": []
+    },
+    {
+      "path": "errata/originals/err1.textxt",
+      "sha256": "f752c0a5fcf49686906e39fa5a1dab28b53adc8226b0a7e1a1b6cf850592bc91",
+      "matches": []
+    }
+  ],
+  "semantic_review": "All matched contexts read. MMIXware page143 initializes eof=0 (2009), already present in both sources; it does not fix a false successful return after actual EOF. Other stdin EOF/-f corrections describe the separate interactive adapter; assembler EOF matches concern source input. Fascicle page42 correction concerns serious Fread errors. No corresponding Fgetws empty-EOF return correction in ten layers; no worldwide novelty claim.",
+  "additional_web_queries": [
+    "site:mmix.cs.hm.edu \"Fgetws\" \"end of file\"",
+    "site:www-cs-faculty.stanford.edu/~knuth \"Fgetws\"",
+    "site:mmix.cs.hm.edu \"mmix_fgetws\" bug"
+  ]
+}

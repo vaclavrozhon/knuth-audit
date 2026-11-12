@@ -1,0 +1,195 @@
+{
+  "status": "verified",
+  "checked_at_utc": "2026-11-01T16:15:23.249242+00:00",
+  "source_sha256": "81ec12864d55ab2ce4c1c75a471617263d46b64417f92f606db6d2f51c202031",
+  "linked_lists": {
+    "full_permutations": [
+      {
+        "n": 1,
+        "permutations": 1,
+        "classes": 1,
+        "singleton_classes": 1
+      },
+      {
+        "n": 2,
+        "permutations": 2,
+        "classes": 2,
+        "singleton_classes": 2
+      },
+      {
+        "n": 3,
+        "permutations": 6,
+        "classes": 5,
+        "singleton_classes": 4
+      },
+      {
+        "n": 4,
+        "permutations": 24,
+        "classes": 14,
+        "singleton_classes": 8
+      },
+      {
+        "n": 5,
+        "permutations": 120,
+        "classes": 42,
+        "singleton_classes": 16
+      },
+      {
+        "n": 6,
+        "permutations": 720,
+        "classes": 132,
+        "singleton_classes": 32
+      },
+      {
+        "n": 7,
+        "permutations": 5040,
+        "classes": 429,
+        "singleton_classes": 64
+      },
+      {
+        "n": 8,
+        "permutations": 40320,
+        "classes": 1430,
+        "singleton_classes": 128
+      }
+    ],
+    "partial_deletion_sequences": 16072,
+    "arbitrary_restoration_counterexample": {
+      "left": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "right": [
+        3,
+        2,
+        3,
+        0
+      ]
+    },
+    "diagrams": [
+      {
+        "deleted": [],
+        "left": [
+          4,
+          0,
+          1,
+          2,
+          3
+        ],
+        "right": [
+          1,
+          2,
+          3,
+          4,
+          0
+        ]
+      },
+      {
+        "deleted": [
+          3
+        ],
+        "left": [
+          4,
+          0,
+          1,
+          2,
+          2
+        ],
+        "right": [
+          1,
+          2,
+          4,
+          4,
+          0
+        ]
+      },
+      {
+        "deleted": [
+          3,
+          2
+        ],
+        "left": [
+          4,
+          0,
+          1,
+          2,
+          1
+        ],
+        "right": [
+          1,
+          4,
+          4,
+          4,
+          0
+        ]
+      },
+      {
+        "deleted": [
+          3,
+          2,
+          4
+        ],
+        "left": [
+          1,
+          0,
+          1,
+          2,
+          1
+        ],
+        "right": [
+          1,
+          0,
+          4,
+          4,
+          0
+        ]
+      },
+      {
+        "deleted": [
+          3,
+          2,
+          4,
+          1
+        ],
+        "left": [
+          0,
+          0,
+          1,
+          2,
+          1
+        ],
+        "right": [
+          0,
+          0,
+          4,
+          4,
+          0
+        ]
+      }
+    ],
+    "zodiac_example": "RLINK(LEO)=PISCES; LLINK(AQUARIUS)=0"
+  },
+  "incidence": {
+    "example_rref": {
+      "rank": 6,
+      "unique_solution": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    "fractional_counterexample": [
+      "1/2",
+      "1/2",
+      "1/2"
+    ],
+    "simple_graphs_through_five_vertices": 1100,
+    "transposed_zero_one_matrices": 689
+  },
+  "scope": "DLX1\u20135, formulas(1)\u2013(8), and illustrated list states. General proofs are in DANCING_LINKS_FOUNDATIONS.md."
+}

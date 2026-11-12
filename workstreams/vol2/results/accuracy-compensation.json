@@ -1,0 +1,224 @@
+{
+  "kahan": {
+    "matrix": [
+      "-delta*gamma*sigma - delta*sigma - gamma*sigma + 1",
+      "delta*eta*gamma*sigma + delta*eta*gamma + delta*eta*sigma + delta*gamma + eta*gamma*sigma + eta*gamma - eta + gamma",
+      "sigma*(delta + 1)*(gamma + 1)",
+      "(-delta - 1)*(eta*gamma*sigma + eta*gamma + eta*sigma + gamma)"
+    ],
+    "injection": [
+      "(eta + 1)*(-delta*gamma*sigma - delta*gamma - delta*sigma - gamma*sigma - gamma + 1)",
+      "(delta + 1)*(eta + 1)*(gamma*sigma + gamma + sigma)"
+    ],
+    "quadratic_counts": [
+      {
+        "n": 1,
+        "quadratic_monomials": 4,
+        "quadratic_polynomial": "-d1*g1 - d1*s1 - e1*g1 - g1*s1"
+      },
+      {
+        "n": 2,
+        "quadratic_monomials": 10,
+        "quadratic_polynomial": "-d1*g1 - d1*s1 - d2*s2 - e1*g1 - e2*g1 - e2*s1 + g1*g2 - g1*s1 + g2*s1 - g2*s2"
+      },
+      {
+        "n": 3,
+        "quadratic_monomials": 14,
+        "quadratic_polynomial": "-d1*g1 - d1*s1 - d2*s2 - d3*s3 - e1*g1 - e2*g1 - e2*s1 - e3*s2 + g1*g2 - g1*s1 + g2*s1 - g2*s2 + g3*s2 - g3*s3"
+      },
+      {
+        "n": 4,
+        "quadratic_monomials": 18,
+        "quadratic_polynomial": "-d1*g1 - d1*s1 - d2*s2 - d3*s3 - d4*s4 - e1*g1 - e2*g1 - e2*s1 - e3*s2 - e4*s3 + g1*g2 - g1*s1 + g2*s1 - g2*s2 + g3*s2 - g3*s3 + g4*s3 - g4*s4"
+      },
+      {
+        "n": 5,
+        "quadratic_monomials": 22,
+        "quadratic_polynomial": "-d1*g1 - d1*s1 - d2*s2 - d3*s3 - d4*s4 - d5*s5 - e1*g1 - e2*g1 - e2*s1 - e3*s2 - e4*s3 - e5*s4 + g1*g2 - g1*s1 + g2*s1 - g2*s2 + g3*s2 - g3*s3 + g4*s3 - g4*s4 + g5*s4 - g5*s5"
+      },
+      {
+        "n": 6,
+        "quadratic_monomials": 26,
+        "quadratic_polynomial": "-d1*g1 - d1*s1 - d2*s2 - d3*s3 - d4*s4 - d5*s5 - d6*s6 - e1*g1 - e2*g1 - e2*s1 - e3*s2 - e4*s3 - e5*s4 - e6*s5 + g1*g2 - g1*s1 + g2*s1 - g2*s2 + g3*s2 - g3*s3 + g4*s3 - g4*s4 + g5*s4 - g5*s5 + g6*s5 - g6*s6"
+      },
+      {
+        "n": 7,
+        "quadratic_monomials": 30,
+        "quadratic_polynomial": "-d1*g1 - d1*s1 - d2*s2 - d3*s3 - d4*s4 - d5*s5 - d6*s6 - d7*s7 - e1*g1 - e2*g1 - e2*s1 - e3*s2 - e4*s3 - e5*s4 - e6*s5 - e7*s6 + g1*g2 - g1*s1 + g2*s1 - g2*s2 + g3*s2 - g3*s3 + g4*s3 - g4*s4 + g5*s4 - g5*s5 + g6*s5 - g6*s6 + g7*s6 - g7*s7"
+      },
+      {
+        "n": 8,
+        "quadratic_monomials": 34,
+        "quadratic_polynomial": "-d1*g1 - d1*s1 - d2*s2 - d3*s3 - d4*s4 - d5*s5 - d6*s6 - d7*s7 - d8*s8 - e1*g1 - e2*g1 - e2*s1 - e3*s2 - e4*s3 - e5*s4 - e6*s5 - e7*s6 - e8*s7 + g1*g2 - g1*s1 + g2*s1 - g2*s2 + g3*s2 - g3*s3 + g4*s3 - g4*s4 + g5*s4 - g5*s5 + g6*s5 - g6*s6 + g7*s6 - g7*s7 + g8*s7 - g8*s8"
+      }
+    ],
+    "claim": "Printed4n differs from4n+2 for n>=2; asymptotic result unaffected."
+  },
+  "calculator": {
+    "series": [
+      "107",
+      "-209827/20",
+      "52779997/80",
+      "-24113109013/800"
+    ],
+    "rows": [
+      {
+        "precision": 8,
+        "y": "1/1000",
+        "rounded_argument": "24999953/25000000",
+        "exact_argument": "19999962999931/20000000000000",
+        "reference": "106.98950930971982217850841270426",
+        "quotient": "1337367/12500",
+        "squared_power_quotient": "2674867/25000",
+        "horner": "5349467/50000",
+        "argument_error": "-0.00017008822872741131593709013238747",
+        "quotient_arithmetic_error": "0.000020778508905232807524385874083660",
+        "horner_arithmetic_error": "7.7850890523280752438587408366026E-7"
+      },
+      {
+        "precision": 8,
+        "y": "1/10000",
+        "rounded_argument": "24999999/25000000",
+        "exact_argument": "199999996299999931/200000000000000000",
+        "reference": "106.99989508656597496610862438180",
+        "quotient": "107",
+        "squared_power_quotient": "107",
+        "horner": "534999/5000",
+        "argument_error": "-0.00012192624839929638739223205185063",
+        "quotient_arithmetic_error": "0.00022683968242433027876785025610184",
+        "horner_arithmetic_error": "0.000026839682424330278767850256101845"
+      },
+      {
+        "precision": 8,
+        "y": "1/100000",
+        "rounded_argument": "99999999/100000000",
+        "exact_argument": "1999999999629999999931/2000000000000000000000",
+        "reference": "106.99999895086500659749959485861",
+        "quotient": "107",
+        "squared_power_quotient": "107",
+        "horner": "2139999/20000",
+        "argument_error": "-0.000055660845158102660203795528360955",
+        "quotient_arithmetic_error": "0.000056709980151505160608936914520725",
+        "horner_arithmetic_error": "0.0000067099801515051606089369145207245"
+      },
+      {
+        "precision": 8,
+        "y": "1/1000000",
+        "rounded_argument": "99999999/100000000",
+        "exact_argument": "19999999999962999999999931/20000000000000000000000000",
+        "reference": "106.99999998950865000065974996247",
+        "quotient": "107",
+        "squared_power_quotient": "107",
+        "horner": "2139999/20000",
+        "argument_error": "-0.000056699488801505820358899384379338",
+        "quotient_arithmetic_error": "0.000056709980151505160608936914520725",
+        "horner_arithmetic_error": "0.0000067099801515051606089369145207245"
+      },
+      {
+        "precision": 10,
+        "y": "1/1000",
+        "rounded_argument": "9999981499/10000000000",
+        "exact_argument": "19999962999931/20000000000000",
+        "reference": "106.98950930971982217850841270426",
+        "quotient": "1069895141/10000000",
+        "squared_power_quotient": "1069895141/10000000",
+        "horner": "1069895089/10000000",
+        "argument_error": "-5.4746414734441625525779288928094E-7",
+        "quotient_arithmetic_error": "0.0000053377443251659078425535345854673",
+        "horner_arithmetic_error": "1.3774432516590784255353458546729E-7"
+      },
+      {
+        "precision": 10,
+        "y": "1/10000",
+        "rounded_argument": "2499999953/2500000000",
+        "exact_argument": "199999996299999931/200000000000000000",
+        "reference": "106.99989508656597496610862438180",
+        "quotient": "107",
+        "squared_power_quotient": "107",
+        "horner": "534999467/5000000",
+        "argument_error": "-0.0000017012958224619991718716716181083",
+        "quotient_arithmetic_error": "0.00010661472984749589054748987586933",
+        "horner_arithmetic_error": "1.4729847495890547489875869327692E-8"
+      },
+      {
+        "precision": 10,
+        "y": "1/100000",
+        "rounded_argument": "2499999999/2500000000",
+        "exact_argument": "1999999999629999999931/2000000000000000000000",
+        "reference": "106.99999895086500659749959485861",
+        "quotient": "107",
+        "squared_power_quotient": "107",
+        "horner": "53499999/500000",
+        "argument_error": "-0.0000012192649748398999251376511187312",
+        "quotient_arithmetic_error": "0.0000022683999682424003302790372785007",
+        "horner_arithmetic_error": "2.6839996824240033027903727850073E-7"
+      },
+      {
+        "precision": 10,
+        "y": "1/1000000",
+        "rounded_argument": "9999999999/10000000000",
+        "exact_argument": "19999999999962999999999931/20000000000000000000000000",
+        "reference": "106.99999998950865000065974996247",
+        "quotient": "107",
+        "squared_power_quotient": "107",
+        "horner": "213999999/2000000",
+        "argument_error": "-5.5660864801580975512307984798288E-7",
+        "quotient_arithmetic_error": "5.6709999801515000516060998936914E-7",
+        "horner_arithmetic_error": "6.7099998015150005160609989369143E-8"
+      },
+      {
+        "precision": 12,
+        "y": "1/1000",
+        "rounded_argument": "249999537499/250000000000",
+        "exact_argument": "19999962999931/20000000000000",
+        "reference": "106.98950930971982217850841270426",
+        "quotient": "26747377303/250000000",
+        "squared_power_quotient": "53494757849/500000000",
+        "horner": "106989509307/1000000000",
+        "argument_error": "-3.1186461113529540330710189346292E-9",
+        "quotient_arithmetic_error": "-9.4601176067155458671187284879017E-8",
+        "horner_arithmetic_error": "3.9882393284454132881271512098337E-10"
+      },
+      {
+        "precision": 12,
+        "y": "1/10000",
+        "rounded_argument": "999999981499/1000000000000",
+        "exact_argument": "199999996299999931/200000000000000000",
+        "reference": "106.99989508656597496610862438180",
+        "quotient": "53499945949/500000000",
+        "squared_power_quotient": "106999945949/1000000000",
+        "horner": "2674997377/25000000",
+        "argument_error": "-5.6690361633954731606330168422629E-9",
+        "quotient_arithmetic_error": "-0.0000031828969388027131512211627319383",
+        "horner_arithmetic_error": "-8.9693880271315122116273193831897E-10"
+      },
+      {
+        "precision": 12,
+        "y": "1/100000",
+        "rounded_argument": "249999999953/250000000000",
+        "exact_argument": "1999999999629999999931/2000000000000000000000",
+        "reference": "106.99999895086500659749959485861",
+        "quotient": "107",
+        "squared_power_quotient": "107",
+        "horner": "53499999467/500000000",
+        "argument_error": "-1.7012999582245789149174477350004E-8",
+        "quotient_arithmetic_error": "0.0000010661479929847461942905606371195",
+        "horner_arithmetic_error": "1.4799298474619429056063711951667E-10"
+      },
+      {
+        "precision": 12,
+        "y": "1/1000000",
+        "rounded_argument": "249999999999/250000000000",
+        "exact_argument": "19999999999962999999999931/20000000000000000000000000",
+        "reference": "106.99999998950865000065974996247",
+        "quotient": "107",
+        "squared_power_quotient": "107",
+        "horner": "5349999999/50000000",
+        "argument_error": "-1.2192649997483989962800137653708E-8",
+        "quotient_arithmetic_error": "2.2683999996824240000330279039973E-8",
+        "horner_arithmetic_error": "2.6839999968242400003302790399728E-9"
+      }
+    ],
+    "scope": "Controlled exact decimal emulations, not observations from physical calculators. Display decimals approximate; all operations/errors computed as Fractions."
+  }
+}

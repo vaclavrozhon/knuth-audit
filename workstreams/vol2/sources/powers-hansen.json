@@ -1,0 +1,224 @@
+{
+  "block": "V2-X0063",
+  "checked_at_utc": "2026-11-04T05:33:29.455601+00:00",
+  "edition": 3,
+  "printing": 1,
+  "physical_copy_verified": false,
+  "book_visual_pages": [
+    473,
+    474,
+    475,
+    476,
+    477,
+    478,
+    479,
+    483,
+    694,
+    695
+  ],
+  "scope": "473Hansen through477firstparagraph,19–22,l0definition479;478/other477and479 only read,not closed",
+  "primary_read": {
+    "Hansen": "GDZ original129–136 entire visually,PDF page2=129;Satz3read,proofauditpending. Received1958-05-29,published1959.",
+    "Knuth_P139": "Author original TeX lines1–240 and321–330; vita P139 metadata via official web. Private naming conversations not independently substantiated."
+  },
+  "errata": {
+    "layers": [
+      "all2-prepre",
+      "all2-pre",
+      "all2",
+      "err2",
+      "err2-2e",
+      "err2.textxt"
+    ],
+    "extraction": "sources/powers-basic-errata.txt",
+    "known": [
+      "2006-10-23:p475 list of multisets includes Mj",
+      "2000-12-18:p483 answer19(a) missing factor p after product; evidence added with X0064"
+    ],
+    "candidate_C0225": "No corresponding correction found;implicit-domain reading remains possible."
+  },
+  "verification": {
+    "blocks": [
+      "partition",
+      "structure",
+      "construction"
+    ],
+    "seconds": 8.270953678991646,
+    "session": 23733,
+    "pids": [
+      1351343,
+      1351345,
+      1351347
+    ],
+    "exit_codes": [
+      0,
+      0,
+      0
+    ],
+    "timeout_seconds": 240,
+    "mathematical_tests_repeated": false
+  },
+  "raw_source_preservation": "Downloaded TeX and pdftotext outputs preserved literally,including original whitespace.",
+  "artifacts": [
+    {
+      "path": "images/hansen-1959-p129.png",
+      "bytes": 678697,
+      "sha256": "8457dcf28e6aa1f6dc4f74ea2cdb38001059eb49d5ed6ad5c96c5176032c9198"
+    },
+    {
+      "path": "images/hansen-1959-p130.png",
+      "bytes": 472837,
+      "sha256": "9dfca1f0949e757382cd70e52b37a12ddf7dbdb9ca4ed394b1c3d95aa4794c0b"
+    },
+    {
+      "path": "images/hansen-1959-p131.png",
+      "bytes": 539208,
+      "sha256": "2bd794cd5cbe2fbdd409c09da6ddaca099f35d3e72e62d73e18777b506197eb9"
+    },
+    {
+      "path": "images/hansen-1959-p132.png",
+      "bytes": 610280,
+      "sha256": "6bdcd9988a5d9868b6edcf99b31ba2d71948ecca93a6ec8ae2b3aedb01c4377a"
+    },
+    {
+      "path": "images/hansen-1959-p133.png",
+      "bytes": 618816,
+      "sha256": "bf57f8924d2f95c1eb7f116cd7d83a27053d1f08656b831f0af716cca8a050ee"
+    },
+    {
+      "path": "images/hansen-1959-p134.png",
+      "bytes": 689299,
+      "sha256": "890fc2537fc30249dcbd7d4fc6656206ef48154f90dcde89d299b16c21046463"
+    },
+    {
+      "path": "images/hansen-1959-p135.png",
+      "bytes": 532265,
+      "sha256": "aa61ece3fa905d290f6a63acedc7b77c060f1f3647be5110d264ab9e78f86388"
+    },
+    {
+      "path": "images/hansen-1959-p136.png",
+      "bytes": 214574,
+      "sha256": "bb6afcaf04497dfec166fa326db3d0cbe0c84a4141a5bfb1e954034797bd29f8"
+    },
+    {
+      "path": "images/vol2-p473.png",
+      "bytes": 273288,
+      "sha256": "232215814c1f9ad871e264e9f6aec681b97b2950d23f54f0c273aa6ed85a36f5"
+    },
+    {
+      "path": "images/vol2-p474.png",
+      "bytes": 265045,
+      "sha256": "cc0d24a868c275a5c26ad2d16ec65d5f168947eaa650e4d36188f2a0362ec8fe"
+    },
+    {
+      "path": "images/vol2-p475.png",
+      "bytes": 301227,
+      "sha256": "61a33304e56263b14d07892b9608f1ce34eef49b4e3c2925ccef4ee5dbc6c6b2"
+    },
+    {
+      "path": "images/vol2-p476.png",
+      "bytes": 291770,
+      "sha256": "7185f909c77e92a09628d86ff187a380854a42ec82ef426114d8f2bd2b36d55c"
+    },
+    {
+      "path": "images/vol2-p477.png",
+      "bytes": 298641,
+      "sha256": "1466e4962251cd265aeb9459119bf5aff2961773cb94da471c1b44e90ad31d3c"
+    },
+    {
+      "path": "images/vol2-p478.png",
+      "bytes": 312001,
+      "sha256": "cc4ef420396fc5b0d530729f9f454ad0ace1d1980965ea88e3f149fbd4aa4b1f"
+    },
+    {
+      "path": "images/vol2-p479.png",
+      "bytes": 317133,
+      "sha256": "21fbbd9c6f954276128c168a2fcf83200ed54439259fe7bfa879fc72536b443f"
+    },
+    {
+      "path": "images/vol2-p483.png",
+      "bytes": 319261,
+      "sha256": "934257a50b0a1845b2e1d442e5ce5d43d6eeb466a507c28d62b2f084b908cb0c"
+    },
+    {
+      "path": "images/vol2-p694.png",
+      "bytes": 395117,
+      "sha256": "bca76d8470401c80230acc8b66e77971dfd6ed3e7ad54d45f3686a90b3e70236"
+    },
+    {
+      "path": "images/vol2-p695.png",
+      "bytes": 377546,
+      "sha256": "581885fcda9a9728bc2f4df9dae4ea1d72a552601ae17aaee4b3d4022d4471bd"
+    },
+    {
+      "path": "notes/powers-hansen.md",
+      "bytes": 16816,
+      "sha256": "362562d9e446bbe06b99771aabf930e0fc21a6e943974d02700ae66101997357"
+    },
+    {
+      "path": "reports/C0225-dirichlet-zero-domain.txt",
+      "bytes": 817,
+      "sha256": "5ef5dc2679eecf97ff6da987f783f90e7cf76f394cf200a1de7323bc29445f4b"
+    },
+    {
+      "path": "results/powers-hansen.json",
+      "bytes": 13865,
+      "sha256": "b1c37111b0c4211baf835061ed131f168313faa0deadb4011245c4beaa089722"
+    },
+    {
+      "path": "results/powers-hansen.log",
+      "bytes": 6500,
+      "sha256": "9edf3b69f3c3976f2d52b6581c31873c3d2b37159ebc1bf89bc01c4944b791ae"
+    },
+    {
+      "path": "sources/hansen-1959-access.json",
+      "bytes": 3140,
+      "sha256": "a47670001b62d3b6bbe0e55366336944cca69e823a82a612146dd43f3393e542"
+    },
+    {
+      "path": "sources/hansen-1959-gdz-manifest.json",
+      "bytes": 249566,
+      "sha256": "1f1d33ada857cbc59103e9b55bcb1fba8c430365c0402740c42df05455058fb9"
+    },
+    {
+      "path": "sources/hansen-1959.json",
+      "bytes": 2374,
+      "sha256": "9001aa3a72fce2e5392c41286af5a46b2d1e122878e93977c0fbe17adbb755b9"
+    },
+    {
+      "path": "sources/hansen-1959.pdf",
+      "bytes": 8652894,
+      "sha256": "ca4d2641c70b457794e3ad8908f063eb8ca513e1149c21acf825fedca2c4ce5f"
+    },
+    {
+      "path": "sources/hansen-1959.txt",
+      "bytes": 1669,
+      "sha256": "3380b9540038c72bb7dd0a39198d93d8776e617b5abb8f79928ddefc78c13419"
+    },
+    {
+      "path": "sources/knuth-1991-multilanguages.json",
+      "bytes": 328,
+      "sha256": "a1775701a94ec25a9bd1c8ef9bc7c66e47e261313fa5e98b30a0ec1a50b83924"
+    },
+    {
+      "path": "sources/knuth-1991-multilanguages.tex",
+      "bytes": 36149,
+      "sha256": "bbec72ec952b19eb062641508d2acee1a58fd2b299da12d12d47c00b245b7448"
+    },
+    {
+      "path": "sources/knuth-1991-multilanguages.tex.gz",
+      "bytes": 13275,
+      "sha256": "43ee7e6afa2f6e07f239096c27169329bc0080ddd1bbdb43673beb02fa847b86"
+    },
+    {
+      "path": "sources/powers-basic-errata.txt",
+      "bytes": 39852,
+      "sha256": "8b5f49e0db8cda41d67694029f01f512ca3e81553fe089f35b35ee3a26eec0f3"
+    },
+    {
+      "path": "verify_powers_hansen.py",
+      "bytes": 9843,
+      "sha256": "d4c49fcffe8ac49a7484eba51f82e5dbbb20e7356840146cbcbe8845b94db606"
+    }
+  ]
+}

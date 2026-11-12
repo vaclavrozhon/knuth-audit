@@ -1,0 +1,140 @@
+{
+  "at_utc": "2026-11-02T20:17:55.179467+00:00",
+  "checker_sha256": "49bfb9786fc193ae6a7158af40213959b8189b23c7ee7d62994cc7fb8d5ee383",
+  "geometry_sha256": "263d4f0706e148a89f7884edd1860e84105d0d0eaf6e85cd919919d1d899448a",
+  "figures_sha256": "c97d1639a8193f8dd52f22d69758534a42e6c600f81c58dcb2d296fa7ab0a1da",
+  "draft_trace_sha256": "ff4a20065914b9b8dbb5822fc23cdf36f155be71b239c9e9401ce31cbf1ab3cf",
+  "draft_pdf_sha256": "751f23a5fee9f0134d00159a29696ba1fa5dd34ab1438b306574fcf1ec448528",
+  "all_288_draft_corners_equal": true,
+  "all_printed_side_words_correct": true,
+  "cases": {
+    "hole5": {
+      "draft_all_96_corners_equal": true,
+      "sides": {
+        "bottom": "aaabba",
+        "top": "aaabba",
+        "left": "aababa",
+        "right": "acacaa"
+      },
+      "restricted_growth_strings": {
+        "bottom": "000110",
+        "top": "000110",
+        "left": "001010",
+        "right": "010100"
+      },
+      "hole_filler_words": {
+        "(2, 2)": "cccc"
+      },
+      "general_reflection_periods": [
+        [
+          10,
+          0
+        ],
+        [
+          0,
+          10
+        ]
+      ],
+      "checked_reflection_fundamental_cells": 100,
+      "special_periods": [
+        [
+          10,
+          -2
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      "special_fundamental_cells": 50,
+      "special_block_shift": "Column q has origin (5q,-q), with b/c exchanged for odd q.",
+      "special_holes_filled_by": "cccc in original blocks, bbbb in exchanged blocks"
+    },
+    "rect4x6": {
+      "draft_all_96_corners_equal": true,
+      "sides": {
+        "bottom": "abcbbca",
+        "top": "acbccba",
+        "left": "abbca",
+        "right": "accba"
+      },
+      "restricted_growth_strings": {
+        "bottom": "0121120",
+        "top": "0121120",
+        "left": "01120",
+        "right": "01120"
+      },
+      "hole_filler_words": {},
+      "general_reflection_periods": [
+        [
+          12,
+          0
+        ],
+        [
+          0,
+          8
+        ]
+      ],
+      "checked_reflection_fundamental_cells": 96,
+      "vertical_partitions_top_down": {
+        "left": "01220",
+        "right": "01220"
+      },
+      "special_periods": [
+        [
+          12,
+          0
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          6,
+          4
+        ]
+      ],
+      "special_checked_cells": 96,
+      "special_block_colors": "b/c exchanged exactly when qx+qy is odd"
+    },
+    "rect3x8": {
+      "draft_all_96_corners_equal": true,
+      "sides": {
+        "bottom": "abbcccbba",
+        "top": "aababacaa",
+        "left": "aaaa",
+        "right": "aaaa"
+      },
+      "restricted_growth_strings": {
+        "bottom": "011222110",
+        "top": "001010200",
+        "left": "0000",
+        "right": "0000"
+      },
+      "hole_filler_words": {},
+      "general_reflection_periods": [
+        [
+          16,
+          0
+        ],
+        [
+          0,
+          6
+        ]
+      ],
+      "checked_reflection_fundamental_cells": 96,
+      "special_periods": [
+        [
+          8,
+          0
+        ],
+        [
+          0,
+          6
+        ]
+      ],
+      "special_fundamental_cells": 48
+    }
+  },
+  "proof_scope": "Periodic boundary certificates plus universal folding proof in the notes."
+}

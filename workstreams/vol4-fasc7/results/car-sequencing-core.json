@@ -1,0 +1,411 @@
+{
+  "features": {
+    "A": [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "B": [
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "C": [
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "D": [
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "E": [
+      1,
+      1,
+      0,
+      0,
+      1
+    ],
+    "F": [
+      0,
+      1,
+      1,
+      1,
+      0
+    ]
+  },
+  "capacities": [
+    [
+      2,
+      5
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      5
+    ]
+  ],
+  "totals": [
+    4,
+    7,
+    5,
+    2,
+    1
+  ],
+  "original_sequence": "ABABACDCEF",
+  "all_window_checks": [
+    {
+      "feature": 0,
+      "start": 0,
+      "bits": "01010",
+      "count": 2,
+      "cap": 2
+    },
+    {
+      "feature": 0,
+      "start": 1,
+      "bits": "10100",
+      "count": 2,
+      "cap": 2
+    },
+    {
+      "feature": 0,
+      "start": 2,
+      "bits": "01001",
+      "count": 2,
+      "cap": 2
+    },
+    {
+      "feature": 0,
+      "start": 3,
+      "bits": "10010",
+      "count": 2,
+      "cap": 2
+    },
+    {
+      "feature": 0,
+      "start": 4,
+      "bits": "00101",
+      "count": 2,
+      "cap": 2
+    },
+    {
+      "feature": 0,
+      "start": 5,
+      "bits": "01010",
+      "count": 2,
+      "cap": 2
+    },
+    {
+      "feature": 1,
+      "start": 0,
+      "bits": "101",
+      "count": 2,
+      "cap": 2
+    },
+    {
+      "feature": 1,
+      "start": 1,
+      "bits": "010",
+      "count": 1,
+      "cap": 2
+    },
+    {
+      "feature": 1,
+      "start": 2,
+      "bits": "101",
+      "count": 2,
+      "cap": 2
+    },
+    {
+      "feature": 1,
+      "start": 3,
+      "bits": "011",
+      "count": 2,
+      "cap": 2
+    },
+    {
+      "feature": 1,
+      "start": 4,
+      "bits": "110",
+      "count": 2,
+      "cap": 2
+    },
+    {
+      "feature": 1,
+      "start": 5,
+      "bits": "101",
+      "count": 2,
+      "cap": 2
+    },
+    {
+      "feature": 1,
+      "start": 6,
+      "bits": "011",
+      "count": 2,
+      "cap": 2
+    },
+    {
+      "feature": 1,
+      "start": 7,
+      "bits": "111",
+      "count": 3,
+      "cap": 2
+    },
+    {
+      "feature": 2,
+      "start": 0,
+      "bits": "01",
+      "count": 1,
+      "cap": 1
+    },
+    {
+      "feature": 2,
+      "start": 1,
+      "bits": "10",
+      "count": 1,
+      "cap": 1
+    },
+    {
+      "feature": 2,
+      "start": 2,
+      "bits": "01",
+      "count": 1,
+      "cap": 1
+    },
+    {
+      "feature": 2,
+      "start": 3,
+      "bits": "10",
+      "count": 1,
+      "cap": 1
+    },
+    {
+      "feature": 2,
+      "start": 4,
+      "bits": "01",
+      "count": 1,
+      "cap": 1
+    },
+    {
+      "feature": 2,
+      "start": 5,
+      "bits": "10",
+      "count": 1,
+      "cap": 1
+    },
+    {
+      "feature": 2,
+      "start": 6,
+      "bits": "01",
+      "count": 1,
+      "cap": 1
+    },
+    {
+      "feature": 2,
+      "start": 7,
+      "bits": "10",
+      "count": 1,
+      "cap": 1
+    },
+    {
+      "feature": 2,
+      "start": 8,
+      "bits": "01",
+      "count": 1,
+      "cap": 1
+    },
+    {
+      "feature": 3,
+      "start": 0,
+      "bits": "000",
+      "count": 0,
+      "cap": 1
+    },
+    {
+      "feature": 3,
+      "start": 1,
+      "bits": "000",
+      "count": 0,
+      "cap": 1
+    },
+    {
+      "feature": 3,
+      "start": 2,
+      "bits": "000",
+      "count": 0,
+      "cap": 1
+    },
+    {
+      "feature": 3,
+      "start": 3,
+      "bits": "000",
+      "count": 0,
+      "cap": 1
+    },
+    {
+      "feature": 3,
+      "start": 4,
+      "bits": "001",
+      "count": 1,
+      "cap": 1
+    },
+    {
+      "feature": 3,
+      "start": 5,
+      "bits": "010",
+      "count": 1,
+      "cap": 1
+    },
+    {
+      "feature": 3,
+      "start": 6,
+      "bits": "100",
+      "count": 1,
+      "cap": 1
+    },
+    {
+      "feature": 3,
+      "start": 7,
+      "bits": "001",
+      "count": 1,
+      "cap": 1
+    },
+    {
+      "feature": 4,
+      "start": 0,
+      "bits": "00000",
+      "count": 0,
+      "cap": 1
+    },
+    {
+      "feature": 4,
+      "start": 1,
+      "bits": "00000",
+      "count": 0,
+      "cap": 1
+    },
+    {
+      "feature": 4,
+      "start": 2,
+      "bits": "00000",
+      "count": 0,
+      "cap": 1
+    },
+    {
+      "feature": 4,
+      "start": 3,
+      "bits": "00000",
+      "count": 0,
+      "cap": 1
+    },
+    {
+      "feature": 4,
+      "start": 4,
+      "bits": "00001",
+      "count": 1,
+      "cap": 1
+    },
+    {
+      "feature": 4,
+      "start": 5,
+      "bits": "00010",
+      "count": 1,
+      "cap": 1
+    }
+  ],
+  "only_violation": {
+    "feature": 1,
+    "start": 7,
+    "bits": "111",
+    "count": 3,
+    "cap": 2
+  },
+  "redundant_bounds": [
+    {
+      "ell": 1,
+      "feature": 0,
+      "prefix_length": 5,
+      "required_ones": 2,
+      "max_zeroes": 3
+    },
+    {
+      "ell": 1,
+      "feature": 1,
+      "prefix_length": 7,
+      "required_ones": 5,
+      "max_zeroes": 2
+    },
+    {
+      "ell": 2,
+      "feature": 1,
+      "prefix_length": 4,
+      "required_ones": 3,
+      "max_zeroes": 1
+    },
+    {
+      "ell": 3,
+      "feature": 1,
+      "prefix_length": 1,
+      "required_ones": 1,
+      "max_zeroes": 0
+    },
+    {
+      "ell": 1,
+      "feature": 2,
+      "prefix_length": 8,
+      "required_ones": 4,
+      "max_zeroes": 4
+    },
+    {
+      "ell": 2,
+      "feature": 2,
+      "prefix_length": 6,
+      "required_ones": 3,
+      "max_zeroes": 3
+    },
+    {
+      "ell": 3,
+      "feature": 2,
+      "prefix_length": 4,
+      "required_ones": 2,
+      "max_zeroes": 2
+    },
+    {
+      "ell": 4,
+      "feature": 2,
+      "prefix_length": 2,
+      "required_ones": 1,
+      "max_zeroes": 1
+    },
+    {
+      "ell": 1,
+      "feature": 3,
+      "prefix_length": 7,
+      "required_ones": 1,
+      "max_zeroes": 6
+    }
+  ],
+  "solution_witnesses_reused": "results/F7-C0003-evidence.json",
+  "proof": "notes/car-sequencing-core-and-exercises-017-021.md"
+}

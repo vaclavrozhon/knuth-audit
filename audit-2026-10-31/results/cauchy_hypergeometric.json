@@ -1,0 +1,103 @@
+{
+  "exercises": "MPR 130-132",
+  "F010_density_parentheses": {
+    "page": 393,
+    "answer": "130(e)",
+    "printed": "(z-q*y/p)^2",
+    "corrected": "((z-q*y)/p)^2",
+    "example": "p=q=1/2,z=1,y=0: printed joint density 1/pi^2, actual 2/(5*pi^2)."
+  },
+  "F011_residue_integral": {
+    "page": 393,
+    "answer": "130(e)",
+    "printed": "1/[p(1+z^2)]",
+    "corrected": "pi/[p(1+z^2)]",
+    "example": "p=q=1/2,z=0: integral=4 integral (1+y^2)^(-2) dy=2*pi, not 2."
+  },
+  "cauchy_quadrature_cases": [
+    {
+      "p": "0.25",
+      "z": "0.0",
+      "integral": "12.56637061435917295385057"
+    },
+    {
+      "p": "0.25",
+      "z": "0.3",
+      "integral": "11.52878038014603023289043"
+    },
+    {
+      "p": "0.25",
+      "z": "1.0",
+      "integral": "6.283185307179586476925287"
+    },
+    {
+      "p": "0.25",
+      "z": "3.0",
+      "integral": "1.256637061435917295385057"
+    },
+    {
+      "p": "0.5",
+      "z": "0.0",
+      "integral": "6.283185307179586476925287"
+    },
+    {
+      "p": "0.5",
+      "z": "0.3",
+      "integral": "5.764390190073015116445217"
+    },
+    {
+      "p": "0.5",
+      "z": "1.0",
+      "integral": "3.141592653589793238462643"
+    },
+    {
+      "p": "0.5",
+      "z": "3.0",
+      "integral": "0.6283185307179586476925287"
+    },
+    {
+      "p": "0.75",
+      "z": "0.0",
+      "integral": "4.188790204786390984616858"
+    },
+    {
+      "p": "0.75",
+      "z": "0.3",
+      "integral": "3.842926793382010077630145"
+    },
+    {
+      "p": "0.75",
+      "z": "1.0",
+      "integral": "2.094395102393195492308429"
+    },
+    {
+      "p": "0.75",
+      "z": "3.0",
+      "integral": "0.4188790204786390984616858"
+    }
+  ],
+  "symbolic_integral": "pi*(p + q)/(p*(-I*p - I*q + z)*(I*p + I*q + z))",
+  "icauchy_no_finding": {
+    "nonzero_convolution": "2*c/(n^2+4)",
+    "probability_sum_zero": "0.162282600666355976484335932968"
+  },
+  "F012_hypergeometric_parameter": {
+    "page": 393,
+    "answer": "132(a)",
+    "printed_upper_parameters": "-K,-N",
+    "corrected_upper_parameters": "-K,-n",
+    "example": "N=4,K=2,n=1: printed g(z)=1/2+2*z+z^2, actual g(z)=(1+z)/2."
+  },
+  "F013_variance_factor": {
+    "page": 393,
+    "answer": "132(b)",
+    "missing_factor": "K",
+    "corrected": "n*K*(N-n)*(N-K)/(N^3-N^2)",
+    "example": "N=4,K=2,n=1 is a fair Bernoulli: variance 1/4, printed formula 1/8."
+  },
+  "exact_hypergeometric_distributions_checked": 3306,
+  "printed_variance_mismatches": 2470,
+  "corrected_hypergeometric_polynomials_checked": 1767,
+  "source_scope": "130 errors corroborated in author PS; 132 is not in the retrieved 2019 Pre-Fascicle 5A, so currently PDF evidence only.",
+  "limitations": "Cauchy normalization, characteristic function and scale stability follow by calculus/residues. This program does not validate every sentence or bibliographical claim in the answers. Singular hypergeometric parameter conventions are not audited."
+}

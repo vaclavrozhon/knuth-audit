@@ -1,0 +1,163 @@
+{
+  "accessed_utc": "2026-11-03T22:53:16.892949+00:00",
+  "scope": "Exercises4.5.4-24,26,27 closed with stated source limits; own57prime certificates and exact agreement with primary external complete census.",
+  "book_visually_read": [
+    414,
+    663,
+    664
+  ],
+  "book_djvu_offset": 12,
+  "errata_visual_pdf_pages": {
+    "all2-prepre": [
+      41
+    ],
+    "err2": [
+      10
+    ]
+  },
+  "errata_files": [
+    {
+      "path": "errata/text/all2-prepre.txt",
+      "bytes": 137797,
+      "sha256": "62a1ff323ca421f2640e2337f922dbf8cfc8e86c20d9b11acfc91221721c6f58"
+    },
+    {
+      "path": "errata/text/all2-pre.txt",
+      "bytes": 58401,
+      "sha256": "c1735b70547678d739eae3a8d7b02872c737218eed7706a0aba8fb6fc21a6529"
+    },
+    {
+      "path": "errata/text/all2.txt",
+      "bytes": 38902,
+      "sha256": "1c4d7f2259e147db0ebe84b4bf0ce8864b307afb4ccfbe48efcb1f5f5999ac58"
+    },
+    {
+      "path": "errata/text/err2.txt",
+      "bytes": 35603,
+      "sha256": "1b5c93712c3c467a48679e0040ba6c5869998b25184dbd125a5d096ce96e9ab0"
+    },
+    {
+      "path": "errata/originals/err2.textxt",
+      "bytes": 48721,
+      "sha256": "8faa21566312314ec6bda0f8956913deb312517fd9fa688dcc0bf19e1f21962e"
+    }
+  ],
+  "errata_result": "No correction to C0156 orC0157. Known22Aug2002Proth citation typography,7Apr2003small k,23Nov1998Young fullcitation,29Jul2024addition54792.",
+  "web_sources": [
+    {
+      "url": "https://molecularscience.usc.edu/papers/",
+      "scope": "Indexed author bibliography only; FOCS1978pp75-83. Direct landing502/connectionclosed."
+    },
+    {
+      "url": "https://mikael-monet.net/share/papers/adleman1978.pdf",
+      "scope": "Indexed first page75 and title only. LocalDNSfailure/web502. Page78 not read."
+    },
+    {
+      "url": "https://cr.yp.to/bib/entries.html#1914/pocklington",
+      "scope": "Bibliographic record only; original1914paper not obtained."
+    },
+    {
+      "url": "https://cir.nii.ac.jp/crid/1574231874752327296?lang=en",
+      "scope": "Metadata title/18(1914)29-30 only."
+    },
+    {
+      "url": "https://fr.wikisource.org/wiki/Page:Comptes_rendus_hebdomadaires_des_séances_de_l’Académie_des_sciences,_tome_087,_1878.djvu/932",
+      "scope": "Initial navigation only. Later original Proth926 visually obtained; missing+1 is already in original print, not merely transcription. See proth-history.json."
+    },
+    {
+      "url": "https://cormack.uwaterloo.ca/PAPERSx.html",
+      "scope": "Author bibliography confirms1980title and35(152)1419-1421; article not read."
+    },
+    {
+      "url": "https://www.numdam.org/item/JMPA_1847_1_12__497_0/",
+      "scope": "Reused prior Jacobi block, no new source dependency."
+    }
+  ],
+  "source_queue": [
+    {
+      "name": "Robinson1958",
+      "url": "https://www.ams.org/proc/1958-009-05/S0002-9939-1958-0096614-7/S0002-9939-1958-0096614-7.pdf",
+      "result": "AMS403; OEISselected scans subsequently obtained. Exact pages and limits in proth-history.json."
+    },
+    {
+      "name": "DubnerKeller1995",
+      "url": "https://www.ams.org/mcom/1995-64-209/S0025-5718-1995-1270618-1/S0025-5718-1995-1270618-1.pdf",
+      "result": "403; no retry"
+    },
+    {
+      "name": "Young1998",
+      "url": "https://www.ams.org/mcom/1998-67-224/S0025-5718-98-00989-2/S0025-5718-98-00989-2.pdf",
+      "result": "403; no retry; exact bibliographic code located in Utah bibliography, not fullpaperread"
+    },
+    {
+      "name": "BLS1975forlater394",
+      "url": "https://electronicsandbooks.com/edt/manual/Magazine/M/Mathematics%20of%20Computation/1960-2002/pdf/1975_v029_n130/2005583.pdf",
+      "result": "No route to host; not obtained"
+    },
+    {
+      "name": "BjornRiesel2005erratum",
+      "url": "https://citeseerx.ist.psu.edu/document?doi=3827d0ac6b7d8e75aa87c98e7113072cbaba06c3&repid=rep1&type=pdf",
+      "result": "Search-index text identifies54792omitted fromYoung; fullopen403, not visuallyread"
+    },
+    {
+      "name": "JacobiPrimes2017authorversion",
+      "url": "https://dalspaceb.library.dal.ca/server/api/core/bitstreams/1a533cb8-50e7-4fe4-ac97-73b0619c5b6f/content",
+      "result": "Connection reset; indexedtable agreeswith3-list+54792, not reliedupon asproof"
+    },
+    {
+      "name": "Prothsearch",
+      "url": "https://www.prothsearch.com/",
+      "result": "HTTPSfails; original HTTP/riesel1.html obtained and two rows compared exactly. See proth-history.json."
+    },
+    {
+      "name": "OEISlead",
+      "url": "https://oeis.org/A002254",
+      "result": "Searchlead givesBallingerKeller primarylist link; sequence agreement not used as proof ofcompleteness"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "verify_primality_deterministic.py",
+      "bytes": 6437,
+      "sha256": "675789e106c1466f55a0fc5de194fe2b99636a22a208ece424075a1dac4d7a43"
+    },
+    {
+      "path": "results/primality-deterministic.json",
+      "bytes": 3604,
+      "sha256": "1c9e230cbc7e558d69159892c0bdd173461a7ffa44da7349bcb84f62e3819aab"
+    },
+    {
+      "path": "results/primality-deterministic.log",
+      "bytes": 1408,
+      "sha256": "d6ef9bd95c09f526e0fd9ba7eacc634c6ae0667677c3cd5cf2af8f5b0bddeb5c"
+    },
+    {
+      "path": "verify_proth_listed_primes.py",
+      "bytes": 3318,
+      "sha256": "bcf09ea6ac25b6477f053c7b039dab88ec71e4272ff6a29278d6f600c9e10f9b"
+    },
+    {
+      "path": "results/proth-listed-primes.json",
+      "bytes": 22549,
+      "sha256": "5de2ea7a1501882f5253ae7bc00b3584ff283458cd697ddf157d7cfae3e1c22e"
+    },
+    {
+      "path": "results/proth-listed-primes.log",
+      "bytes": 9765,
+      "sha256": "1e398e26c0fe77670852fc11d0a4ede04e6b38887e040a433b4ed7d957036ee5"
+    },
+    {
+      "path": "notes/primality-deterministic.md",
+      "bytes": 12916,
+      "sha256": "e94de10e1dff546a59fc909c88d59e3c53a408c481b6b25854bbcad435f458a0"
+    }
+  ],
+  "ongoing_results": "Proth listed-prime certificates completed2026-11-03:57entries,114passes; no gap census.",
+  "new_findings": [
+    "V2-C0156",
+    "V2-C0157"
+  ],
+  "limitations": "Physical latest printing and priority unverified. Historical original papers only partly obtained; exact read scope in sources/proth-history.json. Completeness through300000 accepted from primary project census, not independently recomputed. No reports sent.",
+  "audit_annotation_correction": "2026-11-03: p414 visually reread; printed r<=f+1, not strict <. Corrected prose and boundary label only; all numerical values and proof unchanged. Original execution log retains old label.",
+  "historical_completion": "sources/proth-history.json"
+}

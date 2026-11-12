@@ -1,0 +1,123 @@
+{
+  "reviewed_at_utc": "2026-11-06T10:54:00.471589+00:00",
+  "scope": "A/B and exercises1–9,13–15; normal methods and remaining shared-page content are not included.",
+  "new_findings": [],
+  "reaffirmed_findings": [
+    "V2-C0052"
+  ],
+  "known_errata": [
+    "V2-X0116"
+  ],
+  "new_mathematical_computation": "None. Existing complete program and log read; no archived enumeration restarted.",
+  "accepted_archived_counts": {
+    "integer_models": 20480,
+    "integer_counts": 1648640,
+    "alias_distributions": 31816,
+    "threshold_probes": 567028,
+    "gram_models": 280,
+    "singular_gram_models": 228
+  },
+  "resolved_reading_ambiguity": "Original585 answer4 correctly has minimum >= x; a magnified original scan resolves the initial small-preview misreading. No finding created.",
+  "inputs": [
+    {
+      "path": "workstreams/vol2/notes/sequential-distributions-ab-2026-11-06.md",
+      "sha256": "2b36ea4dd59e8ffaee7cb3421f49252d9d137fd8b7fa722060e4317285a63270"
+    },
+    {
+      "path": "workstreams/vol2/sources/sequential-2026-11-06/distributions-ab-source-review.json",
+      "sha256": "bfc7f17db3a9502c2d7b696052875ed50c7dd1cde63f8b5c573695f147bce526"
+    },
+    {
+      "path": "workstreams/vol2/notes/distributions-basic.md",
+      "sha256": "819412413922ce78c818f72b0e78754a80207029ee46a11aea98861958c339e5"
+    },
+    {
+      "path": "workstreams/vol2/verify_distributions_basic.py",
+      "sha256": "83c0a5fcf44492d65f1d1642fb0e71f3b315b7c553a275a88a7e4816d2bba1ce"
+    },
+    {
+      "path": "workstreams/vol2/results/distributions-basic.json",
+      "sha256": "670e6afd44912a398316947c44dcd87244688208489979403a0a5ec29b4df359"
+    },
+    {
+      "path": "workstreams/vol2/results/distributions-basic.log",
+      "sha256": "ce42b0fac50d25073735d4103ad252e0789473dbc454344165c47199badc6378"
+    },
+    {
+      "path": "workstreams/vol2/sources/matias-vitter-ni-2003.json",
+      "sha256": "6306d8b0d911d08767ca143099ad5e69208d54cae7bf312cfecdc449b0ffe886"
+    },
+    {
+      "path": "workstreams/vol2/sources/sequential-2026-11-06/matias-vitter-ni-2003.pdf",
+      "sha256": "a9085d770d5e4ac9d4cbf93bdac2026f6f17fd88308e91ada2ef1069b272c139"
+    },
+    {
+      "path": "workstreams/vol2/sources/sequential-2026-11-06/matias-vitter-ni-2003.txt",
+      "sha256": "88337e681d0248f416dbc36a075a425f4bd604037917099a29e6b2b65ce0586f"
+    },
+    {
+      "path": "workstreams/vol2/sources/sequential-2026-11-06/matias-vitter-ni-2003-access.json",
+      "sha256": "f48690633b59dbfe62ad3dfb4522240fa05c80e8dcaeee65aa671e3f027d4584"
+    },
+    {
+      "path": "workstreams/vol2/images/matias-vitter-ni-2003-p4.png",
+      "sha256": "9006538588415317280ed541c33d864d584581081ff015db366f2eaa4bc91dd0"
+    },
+    {
+      "path": "workstreams/vol2/images/matias-vitter-ni-2003-p17.png",
+      "sha256": "014bc045381fcfe5267552eb00752e20e25a299b6e7a4578998c4cae3e1bfe2e"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p585-answer4-detail.png",
+      "sha256": "88c17ddd6a3506c5834abe7edfbb5cb6839e2b81e1aa0a31f5eeecca5b98e0d8"
+    },
+    {
+      "path": "workstreams/vol2/images/all2-prepre-distributions-ab-07.png",
+      "sha256": "e211fd98a1a30b082dce60c67764700069801a6c923be42513d0257056297216"
+    },
+    {
+      "path": "workstreams/vol2/images/all2-prepre-distributions-ab-08.png",
+      "sha256": "5df58fc959c5a6b6c19eada60f42a17122c00d641cc5483d4bac1edfc764384a"
+    },
+    {
+      "path": "workstreams/vol2/images/all2-prepre-p32.png",
+      "sha256": "555de036864e003b38d046440e137133d56ea8db2ebc9b409700cc068a9b6b24"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p119.png",
+      "sha256": "05c013ae40dd9beb2657bc1fe75a7a1a965acbacec9ee4f334f60c9d7fc138ed"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p120.png",
+      "sha256": "4d1feb09dd2f7eed99e20465391eb39043db41810f9bb1b3d2494ee027750cf5"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p121.png",
+      "sha256": "a159f7ee9c9a7367804d1d7a6858cfa41807adca9497d60425bc7f541a1bbc8f"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p122.png",
+      "sha256": "baf04012c7eb9974d12cdaa0b504450d4dc0d5dc7c7db31c2e0e3a882d997e9a"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p138.png",
+      "sha256": "27f3338d16d54c4538f55e3aa88cebcdbb873b3895fb111ca8f9abe7c9fd742a"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p139.png",
+      "sha256": "6596493ef7a7a7000b799eb7c53fe3c47b3dba2a3869309afba8946fef54865f"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p584.png",
+      "sha256": "995f3aab851af4adcdbef10960d2cf73ab918caedacafbd9277509e9399e3b22"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p585.png",
+      "sha256": "24640ada19cb144c2ff8a4eb57286956f7b200597e5acb92e120d42b8c72dab2"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p586.png",
+      "sha256": "3ee10729b319572e334986df53c5fbdfe525ae5b67c74142c460ecb5013833bd"
+    }
+  ]
+}

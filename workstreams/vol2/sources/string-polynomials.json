@@ -1,0 +1,278 @@
+{
+  "accessed_utc": "2026-11-04T00:43:14.707600+00:00",
+  "scope": "4.6.1-17/18/19: free associative polynomials and integer matrix gcd",
+  "book": {
+    "edition": 3,
+    "printing": 1,
+    "printed_pages_visually_read": [
+      436,
+      437,
+      438,
+      675,
+      676,
+      677
+    ],
+    "file_page_offset": 12
+  },
+  "verification": {
+    "result": "results/string-polynomials.json",
+    "successful_seconds": 2.9630217180238105,
+    "processes": [
+      {
+        "label": "string-polynomials",
+        "command": "timeout 180 python3 -u workstreams/vol2/verify_string_polynomials.py",
+        "time_limit_seconds": 180,
+        "started_at_utc": "2026-11-04T00:30:50.972519+00:00",
+        "log": "results/string-polynomials.log",
+        "pid": 1325894,
+        "status": "passed",
+        "exit_code": 0,
+        "finished_at_utc": "2026-11-04T00:30:54.018587+00:00",
+        "tool_session": 56816
+      }
+    ]
+  },
+  "findings": {
+    "V2-C0200": "candidate: zero witnesses, with explicit interpretive qualifications",
+    "V2-C0201": "confirmed: no maximum degree for two constant inputs"
+  },
+  "primary_sources": [
+    {
+      "url": "https://webhomes.maths.ed.ac.uk/~v1ranick/papers/cohnweak.pdf",
+      "local": "sources/cohn-1963.pdf",
+      "doi": "10.1090/S0002-9947-1963-0153696-8",
+      "visually_read_pdf_pages": [
+        2,
+        3,
+        4,
+        9,
+        10,
+        11,
+        12,
+        26
+      ],
+      "scope": "Printed332–334,339–342,356; section4 including Theorem4.1 proof. Not a full audit of the entire article."
+    },
+    {
+      "url": "https://doi.org/10.1017/S0305004100034812",
+      "local": "sources/cohn-1961-metadata.json",
+      "scope": "Publisher extract and bibliographic metadata only; full PDF endpoint returned HTML."
+    },
+    {
+      "url": "https://math.berkeley.edu/~gbergman/papers/",
+      "local": "sources/bergman-1969-metadata.json",
+      "doi": "10.1090/S0002-9947-1969-0236208-5",
+      "scope": "Author bibliography and publisher-deposited metadata only. Full article403; 1967 thesis not obtained. General centralizer theorem external, not used in own homogeneous proof."
+    },
+    {
+      "url": "https://archive.org/download/thoriedesnombr01caheuoft/thoriedesnombr01caheuoft.pdf",
+      "local": "sources/cahen-1914.pdf",
+      "metadata_url": "https://archive.org/metadata/thoriedesnombr01caheuoft",
+      "visually_read_pdf_pages": [
+        11,
+        356,
+        357,
+        358
+      ],
+      "scope": "Title and printed336–338, section376 definition and canonical-form construction. Faded numerical entries not fully transcribed."
+    }
+  ],
+  "errata": {
+    "layers": [
+      "all2-prepre",
+      "all2-pre",
+      "all2",
+      "err2",
+      "err2.textxt",
+      "err2-2e"
+    ],
+    "search_log": "sources/string-polynomials-errata.txt",
+    "known_corrections": [
+      "2000 deg(u) to deg(U) in17",
+      "2000 S2 product invariant",
+      "2010 C1–C4 to S1–S4",
+      "2001 UV=I in19",
+      "2002 index in T3"
+    ],
+    "visually_read": "all2-prepre PDF42",
+    "result": "No matching correction for C0200/201 found."
+  },
+  "limitations": "Latest physical printing and priority unverified. Unsent draft only. External general Bergman theorem not re-proved; selected source passages clearly distinguished from whole-paper audits.",
+  "artifacts": [
+    {
+      "path": "notes/string-polynomials.md",
+      "bytes": 14148,
+      "sha256": "5cc4759c9367051ce1b8c15f334483ead88361a123a20b207d75f87ce2195450"
+    },
+    {
+      "path": "notes/C0200-string-zero-witnesses.md",
+      "bytes": 967,
+      "sha256": "68f2b96d92553dfce44e6d55c36e7f4f7344787bfed669795fcf934675e59381"
+    },
+    {
+      "path": "notes/C0201-string-constant-maximum.md",
+      "bytes": 1058,
+      "sha256": "8220d20446c9a67230cd5fff5a1ce7fac3c67b8d5bdcd328b86295b1cf738468"
+    },
+    {
+      "path": "reports/C0201-string-constant-maximum-draft.txt",
+      "bytes": 975,
+      "sha256": "a5d13f9f317bc6217e34179672d1823c48955cb59d0be9a459ac60a588baf988"
+    },
+    {
+      "path": "verify_string_polynomials.py",
+      "bytes": 10319,
+      "sha256": "1d29579f893a768bdd3ee004bdfa8f54539d9cc4a76dd4b248bc724eb7db79a4"
+    },
+    {
+      "path": "results/string-polynomials.json",
+      "bytes": 1475,
+      "sha256": "0fdf6b7eb080c81e24c6cebf863de8fcf04236b335985dacb5e41c1a3e4c5d80"
+    },
+    {
+      "path": "results/string-polynomials.log",
+      "bytes": 1020,
+      "sha256": "fd61b373cab03f496026bcf9ed027a76beb446b18ccbaa7a3207b65afff96733"
+    },
+    {
+      "path": "sources/string-polynomials-errata.txt",
+      "bytes": 12280,
+      "sha256": "e598e929a3097eb56fae5a7d2be1bdf3f93f16f573430e1eb50c110f49b52464"
+    },
+    {
+      "path": "sources/cohn-1961-metadata.json",
+      "bytes": 4930,
+      "sha256": "3a54ee30c1ad02a5064d981794155241a5b47b8083c8064fbaa82c97ccd82399"
+    },
+    {
+      "path": "sources/cohn-1963-metadata.json",
+      "bytes": 4953,
+      "sha256": "0d79c0cbcdb15235b1c477972418b8d97ceb7d11feef82320a669454dca0064c"
+    },
+    {
+      "path": "sources/cohn-1963.pdf",
+      "bytes": 1988412,
+      "sha256": "f424460c26513717563a2b1aacfa34c6719ec0da7bf1dc046d29945971601d24"
+    },
+    {
+      "path": "sources/bergman-1969-metadata.json",
+      "bytes": 6508,
+      "sha256": "1b5cff109d56cb674e6924a813faf44001a309bdcd888097e8d4e6ea15407174"
+    },
+    {
+      "path": "sources/cahen-1914.pdf",
+      "bytes": 12236004,
+      "sha256": "290682b4ef84bf508898442eacd006c36a034a06ce5c98c94500bb95b9589ab4"
+    },
+    {
+      "path": "sources/cahen-1914.txt",
+      "bytes": 742744,
+      "sha256": "bc597187ffd5800aae5e83df1acdd4c5797d4327a73f3488f2206cabd92dd9d5"
+    },
+    {
+      "path": "sources/cahen-1914-scandata.xml",
+      "bytes": 232086,
+      "sha256": "511e8a60f5c96a5905dd0252f80399816c488f520dc67657476ed7fb0ab8d413"
+    },
+    {
+      "path": "sources/cahen-1914-ia-metadata.json",
+      "bytes": 83458,
+      "sha256": "1b6c36256a2e6e2d81399b4c3cc84dfff7c6c358128af42a6ec573baa285f66c"
+    },
+    {
+      "path": "images/vol2-p436.png",
+      "bytes": 742587,
+      "sha256": "f8055ffac81d355f0c0bd242e6a67e43767874efea6f3e7b99a264892c91bb7a"
+    },
+    {
+      "path": "images/vol2-p437.png",
+      "bytes": 707067,
+      "sha256": "afbe30e7e6c156db8e179b43e22ea77b6fbe7f069aba795bb44839a451f7357f"
+    },
+    {
+      "path": "images/vol2-p438.png",
+      "bytes": 663784,
+      "sha256": "6d6438df99f6dd031082feda4716af8c5c46c5fc35dae9e87667ac301745dda4"
+    },
+    {
+      "path": "images/vol2-p675.png",
+      "bytes": 617910,
+      "sha256": "171a39b65628da661c9584df2ef79ecb3be30dd9ba3b37c414dfd16b876227b6"
+    },
+    {
+      "path": "images/vol2-p676.png",
+      "bytes": 647128,
+      "sha256": "83bf61ed51814a81b97104472bcce1d5e45aa4944a9b94591b9817c059052834"
+    },
+    {
+      "path": "images/vol2-p677.png",
+      "bytes": 685692,
+      "sha256": "e2e242c68d54ff1e1e99142150862887add721f7b714eee56aca34b87a50170e"
+    },
+    {
+      "path": "images/cohn-1963-02.png",
+      "bytes": 318938,
+      "sha256": "aec6589c937273040a9562725631c1a600eda2a97059ba61555cf6ca1246302e"
+    },
+    {
+      "path": "images/cohn-1963-03.png",
+      "bytes": 308372,
+      "sha256": "9a3a8372bac88d35723d9c7eeeead433be2bbc9356c216f02eb6480559e1146c"
+    },
+    {
+      "path": "images/cohn-1963-04.png",
+      "bytes": 287328,
+      "sha256": "45a4662884ef06deeee7325a8d58ec3cac961036b14dd79fcf96a603f3bfe18d"
+    },
+    {
+      "path": "images/cohn-1963-09.png",
+      "bytes": 192680,
+      "sha256": "be5bde5ca12534f82c91f017252521e45d42233958ec19057d3772dc48631bf3"
+    },
+    {
+      "path": "images/cohn-1963-10.png",
+      "bytes": 228151,
+      "sha256": "ef774db03171decb9f8ab5b4d645e28c6a99d257fcbac54b55e8a577413eadd2"
+    },
+    {
+      "path": "images/cohn-1963-11.png",
+      "bytes": 228127,
+      "sha256": "7ce8240658347990fded472464f7d2130a31c96e71042b0f9107972fd0a401a1"
+    },
+    {
+      "path": "images/cohn-1963-12.png",
+      "bytes": 291795,
+      "sha256": "95a23495761a72891d78cf9a83c2032d549fa3b14b218fd0e536a5599141aca2"
+    },
+    {
+      "path": "images/cohn-1963-26.png",
+      "bytes": 269937,
+      "sha256": "55701af4cb0f5b8553e19ea54d52217cd28343ef05f3500e964f368b9f50747e"
+    },
+    {
+      "path": "images/cahen-1914-011.png",
+      "bytes": 230709,
+      "sha256": "ce9abda547d4047eaa1020168df23f76bbce89e6a17488a4ebc51ba65d8ec80c"
+    },
+    {
+      "path": "images/cahen-1914-356.png",
+      "bytes": 396641,
+      "sha256": "807df8a6b5da9eec737d8b2c6a20b7c5cb36c3ca676912267c097b277b103e58"
+    },
+    {
+      "path": "images/cahen-1914-357.png",
+      "bytes": 273297,
+      "sha256": "4ca2054a6ddc7921ee43910211bd626d4f1e51b61c53418c662966ea236c7336"
+    },
+    {
+      "path": "images/cahen-1914-358.png",
+      "bytes": 434247,
+      "sha256": "c6e446305bb4d782561aac372eee26d621727e6f50ce2fd62d2b0959ea9f596d"
+    },
+    {
+      "path": "images/string-all2-prepre-42.png",
+      "bytes": 152366,
+      "sha256": "370288e52635c4c5539556ff30e003a85f4c8d9a277dce4b38657c790699dd94"
+    }
+  ]
+}

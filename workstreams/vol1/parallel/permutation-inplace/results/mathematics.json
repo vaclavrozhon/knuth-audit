@@ -1,0 +1,122 @@
+{
+  "tables": {
+    "table3_columns": 15,
+    "table4_columns": 13,
+    "status": "all cells and named variables agree"
+  },
+  "ex12": {
+    "rectangles": 600,
+    "dimensions": "1..25, m!=n",
+    "largest_entries": 600,
+    "scatter_and_gather_checked": true
+  },
+  "canonical_and_variance": [
+    {
+      "n": 0,
+      "count": 1,
+      "mean": "0",
+      "variance": "0",
+      "fixed_points": [
+        []
+      ]
+    },
+    {
+      "n": 1,
+      "count": 1,
+      "mean": "1",
+      "variance": "0",
+      "fixed_points": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "n": 2,
+      "count": 2,
+      "mean": "5/2",
+      "variance": "1/4",
+      "fixed_points": []
+    },
+    {
+      "n": 3,
+      "count": 6,
+      "mean": "13/3",
+      "variance": "8/9",
+      "fixed_points": []
+    },
+    {
+      "n": 4,
+      "count": 24,
+      "mean": "77/12",
+      "variance": "287/144",
+      "fixed_points": []
+    },
+    {
+      "n": 5,
+      "count": 120,
+      "mean": "87/10",
+      "variance": "361/100",
+      "fixed_points": []
+    },
+    {
+      "n": 6,
+      "count": 720,
+      "mean": "223/20",
+      "variance": "20779/3600",
+      "fixed_points": []
+    },
+    {
+      "n": 7,
+      "count": 5040,
+      "mean": "481/35",
+      "variance": "93736/11025",
+      "fixed_points": []
+    },
+    {
+      "n": 8,
+      "count": 40320,
+      "mean": "4609/280",
+      "variance": "926539/78400",
+      "fixed_points": []
+    }
+  ],
+  "complete_halted_programs": [
+    {
+      "program": "I",
+      "n": 3986,
+      "radix": 64,
+      "time_including_halt": 59793
+    },
+    {
+      "program": "I",
+      "n": 3986,
+      "radix": 100,
+      "time_including_halt": 59793
+    },
+    {
+      "program": "J-original",
+      "n": 3985,
+      "radix": 64,
+      "time_including_halt": 67748
+    },
+    {
+      "program": "J-original",
+      "n": 3985,
+      "radix": 100,
+      "time_including_halt": 67748
+    },
+    {
+      "program": "J-2024",
+      "n": 3985,
+      "radix": 64,
+      "time_including_halt": 67748
+    },
+    {
+      "program": "J-2024",
+      "n": 3985,
+      "radix": 100,
+      "time_including_halt": 67748
+    }
+  ]
+}

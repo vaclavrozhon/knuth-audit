@@ -1,0 +1,990 @@
+{
+  "checks": [
+    {
+      "kind": "two-way",
+      "n": 2,
+      "p": 1,
+      "W": 5,
+      "models": 0,
+      "csp_nodes": 6
+    },
+    {
+      "kind": "two-way",
+      "n": 2,
+      "p": 2,
+      "W": 6,
+      "models": 2,
+      "csp_nodes": 7
+    },
+    {
+      "kind": "two-way",
+      "n": 2,
+      "p": 2,
+      "W": 6,
+      "models": 2,
+      "csp_nodes": 7
+    },
+    {
+      "kind": "two-way",
+      "n": 2,
+      "p": 3,
+      "W": 9,
+      "models": 24,
+      "csp_nodes": 40
+    },
+    {
+      "kind": "two-way",
+      "n": 2,
+      "p": 3,
+      "W": 9,
+      "models": 24,
+      "csp_nodes": 40
+    },
+    {
+      "kind": "two-way",
+      "n": 2,
+      "p": 4,
+      "W": 9,
+      "models": 0,
+      "csp_nodes": 52
+    },
+    {
+      "kind": "two-way",
+      "n": 3,
+      "p": 1,
+      "W": 5,
+      "models": 0,
+      "csp_nodes": 6
+    },
+    {
+      "kind": "two-way",
+      "n": 3,
+      "p": 2,
+      "W": 6,
+      "models": 0,
+      "csp_nodes": 7
+    },
+    {
+      "kind": "two-way",
+      "n": 3,
+      "p": 2,
+      "W": 6,
+      "models": 2,
+      "csp_nodes": 7
+    },
+    {
+      "kind": "two-way",
+      "n": 3,
+      "p": 3,
+      "W": 9,
+      "models": 0,
+      "csp_nodes": 10
+    },
+    {
+      "kind": "two-way",
+      "n": 3,
+      "p": 3,
+      "W": 9,
+      "models": 6,
+      "csp_nodes": 10
+    },
+    {
+      "kind": "two-way",
+      "n": 3,
+      "p": 4,
+      "W": 12,
+      "models": 0,
+      "csp_nodes": 33
+    },
+    {
+      "kind": "two-way",
+      "n": 3,
+      "p": 4,
+      "W": 12,
+      "models": 4,
+      "csp_nodes": 24
+    },
+    {
+      "kind": "two-way",
+      "n": 4,
+      "p": 1,
+      "W": 5,
+      "models": 0,
+      "csp_nodes": 1
+    },
+    {
+      "kind": "two-way",
+      "n": 4,
+      "p": 2,
+      "W": 6,
+      "models": 0,
+      "csp_nodes": 1
+    },
+    {
+      "kind": "two-way",
+      "n": 4,
+      "p": 2,
+      "W": 6,
+      "models": 2,
+      "csp_nodes": 7
+    },
+    {
+      "kind": "two-way",
+      "n": 4,
+      "p": 3,
+      "W": 9,
+      "models": 0,
+      "csp_nodes": 9
+    },
+    {
+      "kind": "two-way",
+      "n": 4,
+      "p": 3,
+      "W": 9,
+      "models": 6,
+      "csp_nodes": 10
+    },
+    {
+      "kind": "two-way",
+      "n": 4,
+      "p": 4,
+      "W": 12,
+      "models": 0,
+      "csp_nodes": 13
+    },
+    {
+      "kind": "two-way",
+      "n": 4,
+      "p": 4,
+      "W": 12,
+      "models": 4,
+      "csp_nodes": 13
+    },
+    {
+      "kind": "diagonal",
+      "n": 2,
+      "p": 1,
+      "W": 5,
+      "models": 0,
+      "csp_nodes": 6
+    },
+    {
+      "kind": "diagonal",
+      "n": 2,
+      "p": 2,
+      "W": 6,
+      "models": 0,
+      "csp_nodes": 7
+    },
+    {
+      "kind": "diagonal",
+      "n": 2,
+      "p": 3,
+      "W": 9,
+      "models": 36,
+      "csp_nodes": 64
+    },
+    {
+      "kind": "diagonal",
+      "n": 2,
+      "p": 3,
+      "W": 9,
+      "models": 36,
+      "csp_nodes": 64
+    },
+    {
+      "kind": "diagonal",
+      "n": 2,
+      "p": 4,
+      "W": 9,
+      "models": 0,
+      "csp_nodes": 64
+    },
+    {
+      "kind": "diagonal",
+      "n": 3,
+      "p": 1,
+      "W": 5,
+      "models": 0,
+      "csp_nodes": 6
+    },
+    {
+      "kind": "diagonal",
+      "n": 3,
+      "p": 2,
+      "W": 6,
+      "models": 0,
+      "csp_nodes": 7
+    },
+    {
+      "kind": "diagonal",
+      "n": 3,
+      "p": 3,
+      "W": 9,
+      "models": 0,
+      "csp_nodes": 15
+    },
+    {
+      "kind": "diagonal",
+      "n": 3,
+      "p": 3,
+      "W": 9,
+      "models": 18,
+      "csp_nodes": 28
+    },
+    {
+      "kind": "diagonal",
+      "n": 3,
+      "p": 4,
+      "W": 12,
+      "models": 0,
+      "csp_nodes": 34
+    },
+    {
+      "kind": "diagonal",
+      "n": 3,
+      "p": 4,
+      "W": 12,
+      "models": 8,
+      "csp_nodes": 37
+    },
+    {
+      "kind": "diagonal",
+      "n": 4,
+      "p": 1,
+      "W": 5,
+      "models": 0,
+      "csp_nodes": 6
+    },
+    {
+      "kind": "diagonal",
+      "n": 4,
+      "p": 2,
+      "W": 6,
+      "models": 0,
+      "csp_nodes": 7
+    },
+    {
+      "kind": "diagonal",
+      "n": 4,
+      "p": 3,
+      "W": 9,
+      "models": 0,
+      "csp_nodes": 10
+    },
+    {
+      "kind": "diagonal",
+      "n": 4,
+      "p": 3,
+      "W": 9,
+      "models": 18,
+      "csp_nodes": 28
+    },
+    {
+      "kind": "diagonal",
+      "n": 4,
+      "p": 4,
+      "W": 12,
+      "models": 0,
+      "csp_nodes": 17
+    },
+    {
+      "kind": "diagonal",
+      "n": 4,
+      "p": 4,
+      "W": 12,
+      "models": 8,
+      "csp_nodes": 31
+    },
+    {
+      "kind": "two-way",
+      "n": 2,
+      "p": 3,
+      "W": 9,
+      "models": 24,
+      "csp_nodes": 40
+    },
+    {
+      "kind": "two-way",
+      "n": 5,
+      "p": 3,
+      "W": 9,
+      "models": 6,
+      "csp_nodes": 10
+    }
+  ],
+  "comparisons": 39,
+  "total_small_models": 230,
+  "examples": [
+    {
+      "kind": "two-way",
+      "p": 2,
+      "rank": 3402,
+      "rows": [
+        "SPEND",
+        "SPIES"
+      ],
+      "all_words": [
+        "SPEND",
+        "SPIES",
+        "SPEED",
+        "SPINS",
+        "DEEPS",
+        "SNIPS"
+      ]
+    },
+    {
+      "kind": "two-way",
+      "p": 3,
+      "rank": 4378,
+      "rows": [
+        "WAVES",
+        "LINED",
+        "LEPER"
+      ],
+      "all_words": [
+        "WAVES",
+        "LINED",
+        "LEPER",
+        "WIPED",
+        "LEVER",
+        "LANES",
+        "SEPAL",
+        "DEVIL",
+        "RENEW"
+      ]
+    },
+    {
+      "kind": "two-way",
+      "p": 4,
+      "rank": 4492,
+      "rows": [
+        "LOOPS",
+        "POUTS",
+        "TROTS",
+        "TOONS"
+      ],
+      "all_words": [
+        "LOOPS",
+        "POUTS",
+        "TROTS",
+        "TOONS",
+        "LOONS",
+        "PROPS",
+        "TOOTS",
+        "TOUTS",
+        "STOOL",
+        "STOOP",
+        "SNOOT",
+        "SPURT"
+      ]
+    },
+    {
+      "kind": "two-way",
+      "p": 5,
+      "rank": 5091,
+      "rows": [
+        "SPOOL",
+        "STROP",
+        "STAID",
+        "SNORT",
+        "SNOOT"
+      ],
+      "all_words": [
+        "SPOOL",
+        "STROP",
+        "STAID",
+        "SNORT",
+        "SNOOT",
+        "START",
+        "STOOL",
+        "SNOOP",
+        "SNOOD",
+        "SPRIT",
+        "LOANS",
+        "PIONS",
+        "DROPS",
+        "TOOTS",
+        "TORTS"
+      ]
+    },
+    {
+      "kind": "two-way",
+      "p": 6,
+      "rank": 4533,
+      "rows": [
+        "DIMES",
+        "MULES",
+        "RIPER",
+        "SIRED",
+        "AIDED",
+        "FINED"
+      ],
+      "all_words": [
+        "DIMES",
+        "MULES",
+        "RIPER",
+        "SIRED",
+        "AIDED",
+        "FINED",
+        "DUPED",
+        "MIRED",
+        "RIDES",
+        "SINES",
+        "AIMER",
+        "FILED",
+        "SEPIA",
+        "SERIF",
+        "REDID",
+        "DENIM",
+        "DEMUR",
+        "DELIS"
+      ]
+    },
+    {
+      "kind": "two-way",
+      "p": 7,
+      "rank": 4606,
+      "rows": [
+        "MILES",
+        "LINTS",
+        "CARES",
+        "LAMED",
+        "PIPED",
+        "SANER",
+        "LIVER"
+      ],
+      "all_words": [
+        "MILES",
+        "LINTS",
+        "CARES",
+        "LAMED",
+        "PIPED",
+        "SANER",
+        "LIVER",
+        "MIRED",
+        "LAMER",
+        "CAPER",
+        "LINES",
+        "PAVES",
+        "SILTS",
+        "LINED",
+        "STRAP",
+        "SEMIS",
+        "SEPAL",
+        "DENIM",
+        "DEVIL",
+        "RELIC",
+        "RENAL"
+      ]
+    },
+    {
+      "kind": "two-way",
+      "p": 8,
+      "rank": 5109,
+      "rows": [
+        "SUPER",
+        "ROVED",
+        "TILED",
+        "LICIT",
+        "CODED",
+        "ROPED",
+        "TIMED",
+        "DOMED"
+      ],
+      "all_words": [
+        "SUPER",
+        "ROVED",
+        "TILED",
+        "LICIT",
+        "CODED",
+        "ROPED",
+        "TIMED",
+        "DOMED",
+        "SOLID",
+        "RICED",
+        "TIDED",
+        "LOPED",
+        "COMER",
+        "RIMED",
+        "TOPED",
+        "DUVET",
+        "RELIC",
+        "DECOR",
+        "DIDOT",
+        "TEPID",
+        "DEMOS",
+        "DEMUR",
+        "DEPOT",
+        "DEVIL"
+      ]
+    },
+    {
+      "kind": "two-way",
+      "p": 9,
+      "rank": 4237,
+      "rows": [
+        "FORTH",
+        "LURES",
+        "MIRES",
+        "POLLS",
+        "SLATS",
+        "SPOTS",
+        "SOAPS",
+        "PLOTS",
+        "LOOTS"
+      ],
+      "all_words": [
+        "FORTH",
+        "LURES",
+        "MIRES",
+        "POLLS",
+        "SLATS",
+        "SPOTS",
+        "SOAPS",
+        "PLOTS",
+        "LOOTS",
+        "FURLS",
+        "LILTS",
+        "MOATS",
+        "PLOPS",
+        "SPATS",
+        "SOOTH",
+        "SLOTS",
+        "PORES",
+        "LORES",
+        "HEROS",
+        "SELLS",
+        "SLAPS",
+        "STOOP",
+        "STALL",
+        "SPOOF",
+        "STOOL",
+        "STRUM",
+        "STRIP"
+      ]
+    },
+    {
+      "kind": "two-way",
+      "p": 10,
+      "rank": 5149,
+      "rows": [
+        "TIMES",
+        "FUROR",
+        "RUNES",
+        "MIMED",
+        "CAPED",
+        "PACED",
+        "LAVER",
+        "FINES",
+        "LIMED",
+        "MIRES"
+      ],
+      "all_words": [
+        "TIMES",
+        "FUROR",
+        "RUNES",
+        "MIMED",
+        "CAPED",
+        "PACED",
+        "LAVER",
+        "FINES",
+        "LIMED",
+        "MIRES",
+        "TUNED",
+        "FUMED",
+        "RIPER",
+        "MACES",
+        "CAVED",
+        "PANES",
+        "LIMES",
+        "FIRER",
+        "LIMOS",
+        "MIRED",
+        "SONIC",
+        "REMAP",
+        "SEPAL",
+        "DECAF",
+        "DEVIL",
+        "DENIM",
+        "REMIT",
+        "SERIF",
+        "DEMUR",
+        "SERUM"
+      ]
+    },
+    {
+      "kind": "diagonal",
+      "p": 3,
+      "rank": 2000,
+      "rows": [
+        "MILES",
+        "GALLS",
+        "BULLS"
+      ],
+      "all_words": [
+        "MILES",
+        "GALLS",
+        "BULLS",
+        "MALES",
+        "GULLS",
+        "BILLS",
+        "MULES",
+        "GILLS",
+        "BALLS"
+      ]
+    },
+    {
+      "kind": "diagonal",
+      "p": 4,
+      "rank": 1499,
+      "rows": [
+        "FIRES",
+        "PONDS",
+        "WALKS",
+        "LOCKS"
+      ],
+      "all_words": [
+        "FIRES",
+        "PONDS",
+        "WALKS",
+        "LOCKS",
+        "FOLKS",
+        "PACES",
+        "WORDS",
+        "LINKS",
+        "FOLDS",
+        "PICKS",
+        "WORKS",
+        "LANES"
+      ]
+    },
+    {
+      "kind": "diagonal",
+      "p": 5,
+      "rank": 1410,
+      "rows": [
+        "LIVES",
+        "FIRED",
+        "DIKES",
+        "WAVED",
+        "TIRES"
+      ],
+      "all_words": [
+        "LIVES",
+        "FIRED",
+        "DIKES",
+        "WAVED",
+        "TIRES",
+        "LIKES",
+        "FIVES",
+        "DARED",
+        "WIVES",
+        "TIRED",
+        "LIVED",
+        "FIRES",
+        "DIVED",
+        "WIRES",
+        "TAKES"
+      ]
+    },
+    {
+      "kind": "diagonal",
+      "p": 6,
+      "rank": 1506,
+      "rows": [
+        "BIRDS",
+        "MARKS",
+        "POLES",
+        "WAVES",
+        "WINES",
+        "FONTS"
+      ],
+      "all_words": [
+        "BIRDS",
+        "MARKS",
+        "POLES",
+        "WAVES",
+        "WINES",
+        "FONTS",
+        "BALES",
+        "MOVES",
+        "PANTS",
+        "WINDS",
+        "WORKS",
+        "FIRES",
+        "BONES",
+        "MINES",
+        "PARTS",
+        "WORDS",
+        "WALKS",
+        "FIVES"
+      ]
+    },
+    {
+      "kind": "diagonal",
+      "p": 7,
+      "rank": 1574,
+      "rows": [
+        "LIKED",
+        "WARES",
+        "MINES",
+        "WINDS",
+        "MALES",
+        "LOVES",
+        "FIVES"
+      ],
+      "all_words": [
+        "LIKED",
+        "WARES",
+        "MINES",
+        "WINDS",
+        "MALES",
+        "LOVES",
+        "FIVES",
+        "LANDS",
+        "WINES",
+        "MILES",
+        "WAVED",
+        "MOVES",
+        "LIKES",
+        "FIRES",
+        "LIVES",
+        "WIVES",
+        "MAKES",
+        "WIRES",
+        "MINED",
+        "LANES",
+        "FOLDS"
+      ]
+    },
+    {
+      "kind": "diagonal",
+      "p": 8,
+      "rank": 1626,
+      "rows": [
+        "WAXES",
+        "SITES",
+        "MINED",
+        "BOXES",
+        "CAVES",
+        "TALES",
+        "WIRED",
+        "MALES"
+      ],
+      "all_words": [
+        "WAXES",
+        "SITES",
+        "MINED",
+        "BOXES",
+        "CAVES",
+        "TALES",
+        "WIRED",
+        "MALES",
+        "WINES",
+        "SIXES",
+        "MOVED",
+        "BALES",
+        "CARES",
+        "TILES",
+        "WAXED",
+        "MATES",
+        "WARES",
+        "SALES",
+        "MIXED",
+        "BITES",
+        "CONES",
+        "TAXES",
+        "WAVED",
+        "MILES"
+      ]
+    },
+    {
+      "kind": "diagonal",
+      "p": 9,
+      "rank": 1506,
+      "rows": [
+        "CENTS",
+        "HOLDS",
+        "BOILS",
+        "BALLS",
+        "MALES",
+        "WINES",
+        "FINDS",
+        "LORDS",
+        "CARES"
+      ],
+      "all_words": [
+        "CENTS",
+        "HOLDS",
+        "BOILS",
+        "BALLS",
+        "MALES",
+        "WINES",
+        "FINDS",
+        "LORDS",
+        "CARES",
+        "COILS",
+        "HOLES",
+        "BALES",
+        "BANDS",
+        "MINDS",
+        "WIRES",
+        "FORTS",
+        "LANDS",
+        "CELLS",
+        "CARDS",
+        "HERDS",
+        "BONES",
+        "BOLTS",
+        "MAIDS",
+        "WALLS",
+        "FILLS",
+        "LINES",
+        "CONES"
+      ]
+    },
+    {
+      "kind": "diagonal",
+      "p": 10,
+      "rank": 1438,
+      "rows": [
+        "LOOKS",
+        "ROADS",
+        "BEATS",
+        "BEADS",
+        "HOLDS",
+        "COOLS",
+        "FOLKS",
+        "WINES",
+        "GASES",
+        "BOLTS"
+      ],
+      "all_words": [
+        "LOOKS",
+        "ROADS",
+        "BEATS",
+        "BEADS",
+        "HOLDS",
+        "COOLS",
+        "FOLKS",
+        "WINES",
+        "GASES",
+        "BOLTS",
+        "LOADS",
+        "READS",
+        "BELLS",
+        "BOOKS",
+        "HOLES",
+        "CONES",
+        "FISTS",
+        "WALKS",
+        "GOODS",
+        "BOATS",
+        "LOSES",
+        "ROLES",
+        "BOOTS",
+        "BEAKS",
+        "HEADS",
+        "COATS",
+        "FOLDS",
+        "WOODS",
+        "GILLS",
+        "BANKS"
+      ]
+    }
+  ],
+  "illustrations": [
+    {
+      "kind": "two-way",
+      "rows": [
+        "RAPID",
+        "RATED",
+        "LACES",
+        "ROBES"
+      ],
+      "rank": 5321,
+      "all_words": [
+        "RAPID",
+        "RATED",
+        "LACES",
+        "ROBES",
+        "RACED",
+        "RABID",
+        "LOPES",
+        "RATES",
+        "DECOR",
+        "DEBAR",
+        "SEPAL",
+        "SITAR"
+      ]
+    },
+    {
+      "kind": "diagonal",
+      "rows": [
+        "SLANT",
+        "FLUNK",
+        "BLINK"
+      ],
+      "rank": 2935,
+      "all_words": [
+        "SLANT",
+        "FLUNK",
+        "BLINK",
+        "SLINK",
+        "FLANK",
+        "BLUNT",
+        "SLUNK",
+        "FLINT",
+        "BLANK"
+      ]
+    }
+  ],
+  "historical_example": [
+    "TINE",
+    "SALE",
+    "MALE",
+    "VINE",
+    "TALE",
+    "SANE",
+    "MINE",
+    "VILE",
+    "TILE",
+    "SINE",
+    "MANE",
+    "VALE"
+  ],
+  "counterexamples": [
+    {
+      "example": "tiny",
+      "printed_formula": false,
+      "models": 1,
+      "input_sha256": "773ed7c3625a7134c6ebea2f7aa3141a9a5bad2d4e63fbeaaf94d393c1ce4c4d",
+      "native_returncode": 0
+    },
+    {
+      "example": "tiny",
+      "printed_formula": true,
+      "models": 0,
+      "input_sha256": "9ada76386af2cfda2d511c92d6047df919b21c799b701f9e55a2925892296eb7",
+      "native_returncode": 0
+    },
+    {
+      "example": "printed",
+      "printed_formula": false,
+      "models": 1,
+      "input_sha256": "e8325d6e1c675d6894fd97da189a5c503ca2073e0c0989b498ae748e1282c520",
+      "native_returncode": 0
+    },
+    {
+      "example": "printed",
+      "printed_formula": true,
+      "models": 0,
+      "input_sha256": "c99bcb01bb74fe01f9d80a66143f2f1d7cd634e1ca75984544927822ddd67bb6",
+      "native_returncode": 0
+    }
+  ],
+  "native_binary_sha256": "317a401448733049a4577e5d86bbd1b6bf2f230c89754697bd175ae515cfcd38",
+  "source_sha256": "3e2b11c6b36be8c77f1207da019d65dc488ef1b4d3d0f676a96ac848d6bfe393",
+  "seconds": 5.610529941011919
+}

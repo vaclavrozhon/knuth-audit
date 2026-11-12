@@ -1,0 +1,73 @@
+{
+  "reviewed_at_utc": "2026-11-06T11:48:13.138840+00:00",
+  "read_original_pages": [
+    119,
+    132,
+    141,
+    589,
+    590
+  ],
+  "scope": "Exercise 3.4.1-31, historical Wallace claims on 132 and explicit remaining historical gap on 119. Following 3.4.2 answers on 590 not yet included.",
+  "primary_sources": [
+    {
+      "artifact": "workstreams/vol2/sources/brent-1997-wallace.pdf",
+      "url": "https://maths-people.anu.edu.au/~brent/pd/rpb170tr.pdf",
+      "sha256": "8457bb73dd9ea94c657eb23c851fc4586ba8e0b2b36c7af09a4abd028c5096a6",
+      "scope": "Full nine-page text read, original page 7 visually reread. Reports speed and empirical tests of related variants; not an independent reproduction or validation of the exact TAOCP recipe."
+    },
+    {
+      "artifact": "workstreams/vol2/sources/brent-2008-wallace.pdf",
+      "url": "https://maths-people.anu.edu.au/~brent/pd/rpb213.pdf",
+      "sha256": "30f885b18095e5e72642d79d1d50d4abcba37b39f7e6238ff9216b58b484f036",
+      "scope": "Section 5 read; original pages 2–4 visually reread. Random-sign mechanism and remaining higher-order correlations distinguished. Local manuscript dated 2003; publication 2008."
+    }
+  ],
+  "primary_metadata_read": [
+    {
+      "url": "https://maths-people.anu.edu.au/~brent/pub/pub213.html",
+      "publication": "Computer Journal 51 (2008), 579–584",
+      "scope": "Author record confirms publication date despite earlier manuscript header."
+    },
+    {
+      "url": "https://maths-people.anu.edu.au/~brent/pub/pub185.html",
+      "publication": "LNCS 1470 (1998), 1–20",
+      "scope": "Author record confirms 1999 erratum citation; full 20-page text not audited."
+    }
+  ],
+  "quick_access_attempts": [
+    {
+      "url": "https://users.monash.edu.au/~dld/CSWallacePublications/CSWallace_1976-1996_pseudo-RNG_papers",
+      "result": "Not accessible via web tool on November 6. Earlier November 1 institutional metadata retained; that earlier publisher PDF attempt returned 403."
+    }
+  ],
+  "errata": {
+    "layers": [
+      "all2-prepre",
+      "all2-pre",
+      "all2",
+      "err2",
+      "err2.textxt"
+    ],
+    "freshness": "November 6 copies already refreshed during sequential pass.",
+    "search": "Original pages 119/132/590; Wallace, sine, random sign, rpb170, LNCS1470.",
+    "known_editorial_change": "1999-07-08 updates Brent reference at end of answer 31; no new error card for this bibliography update.",
+    "no_matching_correction_found": [
+      "V2-C0058"
+    ]
+  },
+  "bibliography_skips": [
+    "Full Wallace 1996 article and full Brent 1998 article not read in this review.",
+    "Absolute priority of Wallace direct-generation ideas not independently established; earlier 1994 report is acknowledged."
+  ],
+  "expensive_reproduction_skips": [
+    "Historical vector-machine timings and large 1997 statistical tests not repeated; the fact that such tests were reported is verified from the primary preprint."
+  ],
+  "factual_gaps": [
+    "Original 119 global historical claim about other practical direct generators remains unverified."
+  ],
+  "scope_limits": [
+    "C0058 uses a common angle per pool and first 682 X entries as outputs, including the printed positive scale.",
+    "Randomizing sine sign removes this mean-matrix mechanism; it does not prove full statistical quality.",
+    "Existing simulations and finite matrix checks reviewed without rerunning."
+  ]
+}

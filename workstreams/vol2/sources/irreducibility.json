@@ -1,0 +1,220 @@
+{
+  "accessed_utc": "2026-11-04T03:47:06.716924+00:00",
+  "scope": "4.6.2-38/39 exact proofs and41 research-exercise audit; no universal height-ratio bound proved",
+  "book": {
+    "edition": 3,
+    "printing": 1,
+    "printed_pages_visually_read": [
+      460,
+      461,
+      690,
+      691
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://arxiv.org/pdf/0904.3057",
+      "title": "John Abbott, Bounds on Factors in Z[x]",
+      "version": "PDF carries arXiv0904.3057v1,20Apr2009 and cover date16Oct2018",
+      "pdf_pages_textually_read": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        31,
+        32
+      ],
+      "scope": "Sections7.2-7.8 and conclusion; factor vectors and reversal convention read, not whole-paper or extremality audit",
+      "visually_read": false
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0747717112001691",
+      "title": "Abbott, Bounds on Factors in Z[x]",
+      "doi": "10.1016/j.jsc.2012.09.004",
+      "scope": "Publisher metadata: JSC50(2013),532-563; published full text not read"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/0196677481900365",
+      "title": "Cantor, Irreducible polynomials with integral coefficients have succinct certificates",
+      "doi": "10.1016/0196-6774(81)90036-5",
+      "scope": "Publisher metadata and abstract; own complete proof above, original full article not read"
+    },
+    {
+      "url": "https://gdz.sub.uni-goettingen.de/id/PPN243919689_0132",
+      "title": "Perron, Neue Kriterien fur die Irreduzibilitat algebraischer Gleichungen",
+      "doi": "10.1515/crll.1907.132.288",
+      "scope": "Volume contents and article metadata132(1907),288-307; full article not read; EuDML149269 returned403"
+    },
+    {
+      "url": "https://magma.maths.usyd.edu.au/~watkins/papers/BIG_CONSTANT.pdf",
+      "scope": "Reference64 only, Rouche1862; bibliography is indirect evidence about original Rouche article"
+    },
+    {
+      "url": "https://smf.emath.fr/system/files/filepdf/G182-BD.pdf",
+      "scope": "Research-article bibliography reference30 only; Rouche1862 and Gallica link"
+    },
+    {
+      "url": "https://books.google.com/books/about/Journal_de_l_Ecole_polytechnique.html?id=om39u7QgPhEC",
+      "scope": "Bound-volume metadata37-40 dated1858 only; cannot date individual papers, PDF403"
+    },
+    {
+      "url": "https://babel.hathitrust.org/cgi/pt?id=coo.31924069342180",
+      "scope": "403; not read"
+    },
+    {
+      "url": "https://gallica.bnf.fr/ark:/12148/bpt6k433694t/f246.item",
+      "scope": "Unavailable, as was text endpoint; not read"
+    },
+    {
+      "url": "https://www.mathunion.org/fileadmin/ICM/Proceedings/ICM1950.1/ICM1950.1.ocr.pdf",
+      "scope": "Search excerpt only, full PDF too large for web tool; no Brauer full-paper reading claimed"
+    }
+  ],
+  "limitations": [
+    "Local outgoing DNS unavailable; remote PDF screenshots returned no image data.",
+    "Rouche1858/1862 originals and full Perron/Cantor/Brauer papers not read.",
+    "Question41 remains a research question: limited current search cannot certify its present open status.",
+    "Finite factor-height examples do not establish unbounded ratios; no extremality of source searches verified."
+  ],
+  "errata": {
+    "layers": [
+      "errata/text/all2-prepre.txt",
+      "errata/text/all2-pre.txt",
+      "errata/text/all2.txt",
+      "errata/text/err2.txt",
+      "errata/text/err2-2e.txt",
+      "errata/originals/err2.textxt"
+    ],
+    "log": "sources/irreducibility-errata.txt",
+    "conclusion": "No matching correction located.1981 second-edition replacement repeats r powers and final divisibility direction."
+  },
+  "verification": {
+    "result": "results/irreducibility.json",
+    "blocks": [
+      "perron",
+      "certificates",
+      "factor_height"
+    ],
+    "elapsed_seconds": 1.052403682959266,
+    "timeout_seconds_per_block": 240,
+    "successful_exit_codes": [
+      0,
+      0,
+      0
+    ],
+    "prior_failures": [
+      "Own Field.powmod API typo; corrected to power.",
+      "Own star-symmetry convention error; corrected to reverse(g)(-x)."
+    ],
+    "repeated_successful_tests": false
+  },
+  "artifacts": [
+    {
+      "path": "images/vol2-p460.png",
+      "bytes": 386711,
+      "sha256": "b0833604e2609d5aeafc62a88f411db710409052da6754172516f834e4fbcb6a"
+    },
+    {
+      "path": "images/vol2-p461.png",
+      "bytes": 373739,
+      "sha256": "655b81bf9e72fda37e9fb2dccf49ec56aa38cb8b12e7c0b29f2d25c116f4358a"
+    },
+    {
+      "path": "images/vol2-p690.png",
+      "bytes": 389228,
+      "sha256": "fc27f84b81f4989eb063a89b73a6aa91b6e2792415fab6d4f720c09dbe932034"
+    },
+    {
+      "path": "images/vol2-p691.png",
+      "bytes": 201721,
+      "sha256": "13ee9377b64bc3d283282ff9215e5017a1422509d4d53fc3abec0f0af7c1fa6d"
+    },
+    {
+      "path": "notes/irreducibility.md",
+      "bytes": 13081,
+      "sha256": "41723849beb7c064957bb5f41c9feb982d2f577a4d898f473801bbb34fbd0703"
+    },
+    {
+      "path": "verify_irreducibility.py",
+      "bytes": 6962,
+      "sha256": "e37575dee0d50d1c4c7eabc6f4931979ee65cace79e24813a8f1816bc9ee2e09"
+    },
+    {
+      "path": "verify_berlekamp.py",
+      "bytes": 18458,
+      "sha256": "54b821a8c5b66725c67f1d7a63005ca429b5e26ea6aaa003b9158f8ea4462543"
+    },
+    {
+      "path": "verify_fast_sturm.py",
+      "bytes": 13606,
+      "sha256": "126e5345b76f17096318143bf0a08420aeb3e9003666d6ed50bceaf53dc93635"
+    },
+    {
+      "path": "sources/irreducibility-errata.txt",
+      "bytes": 34567,
+      "sha256": "dc264f7b13527e4270862e0b754227715f15695ae101c3249ef1c673055e2121"
+    },
+    {
+      "path": "results/irreducibility.json",
+      "bytes": 8115,
+      "sha256": "2c597a703eb5022dd69ac5ea150164155d1df0fec2e3dfc37c593ca754367224"
+    },
+    {
+      "path": "results/irreducibility-perron.log",
+      "bytes": 291,
+      "sha256": "1085075d7a6155bfa4915eb8a8f49a2569a29227d643090c9fbdb5a0abd3997a"
+    },
+    {
+      "path": "results/irreducibility-factor_height-symmetry-failure.log",
+      "bytes": 814,
+      "sha256": "0dd285a7cc617890ce32f9598cbb66c61a0b04cd207de1e16821f6af2ca2806f"
+    },
+    {
+      "path": "results/irreducibility-certificates.log",
+      "bytes": 1340,
+      "sha256": "8e001535bc2cf286d8a198cfc95546f903530f4cc23471cd05d8b88090070be6"
+    },
+    {
+      "path": "results/irreducibility-factor_height.log",
+      "bytes": 1743,
+      "sha256": "055bf688fe5ad34b228a98d928bba87d0b263a180f7208357f3fa76263b04413"
+    },
+    {
+      "path": "results/irreducibility-factor_height-api-failure.log",
+      "bytes": 972,
+      "sha256": "33c4804c7c110de7758f83b1f33f86c15f869e2dd0a15f21b9ce94ce521479c4"
+    },
+    {
+      "path": "notes/C0219-perron-absolute-values.md",
+      "bytes": 855,
+      "sha256": "939dfe9234d9de45b6b1f5919d3c8676dc1e9198451e1f2974fcf9a4eb290d44"
+    },
+    {
+      "path": "reports/C0219-perron-absolute-values-draft.txt",
+      "bytes": 713,
+      "sha256": "6d5f68ad405f2ca826bfbd5f8d0b167f3993991224935cc41513caa85e045aeb"
+    },
+    {
+      "path": "notes/C0220-cantor-divisibility-direction.md",
+      "bytes": 951,
+      "sha256": "77f2673c4ff0ebfd990bdf117c724171cf09db5b394137cd12b376b19487b1f5"
+    },
+    {
+      "path": "reports/C0220-cantor-divisibility-direction-draft.txt",
+      "bytes": 719,
+      "sha256": "11912e40bcab0d7a96d95ff285cd925736ea28360d89907022f13d703d634571"
+    },
+    {
+      "path": "notes/C0221-rouche-reference.md",
+      "bytes": 1177,
+      "sha256": "0f879e8f9d191740432bb3b8c79d6bf6bbbd8446b2c7f56ad6d8d27869390925"
+    },
+    {
+      "path": "reports/C0221-rouche-reference-draft.txt",
+      "bytes": 757,
+      "sha256": "c055a7393b0ed98b213e2bdda91418a26f15af9df22fd15e87f7ca6b095f07ed"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "status": "finished",
+  "pid": 697793,
+  "started_at_utc": "2026-11-01T15:55:50.897448+00:00",
+  "command": [
+    "/usr/bin/python3",
+    "audit-2026-10-31/run_langford_mems.py"
+  ],
+  "source_sha256": "3d6e779daa32b67e4fb50a3d08b5f76b1892a39a8074475ac8e639d5aba8a84d",
+  "binary": "/tmp/knuth-vol4b-langmem-xwiiu3w2/langford-mems",
+  "binary_sha256": "a9bda055182e79b6705366a43523348cb5dfff297d92dc219fae528c3c35c88a",
+  "validation_sha256": "e940be09940b0607e55333596e822e16092d06176fbd494b72c99477fa70843d",
+  "time_limit_seconds_per_case": 172800,
+  "cases": [
+    {
+      "label": "n17-L21",
+      "status": "finished",
+      "command": [
+        "/tmp/knuth-vol4b-langmem-xwiiu3w2/langford-mems",
+        "17",
+        "L21"
+      ],
+      "source_sha256": "3d6e779daa32b67e4fb50a3d08b5f76b1892a39a8074475ac8e639d5aba8a84d",
+      "started_at_utc": "2026-11-01T15:55:50.898152+00:00",
+      "timeout_seconds": 172800,
+      "pid": 697796,
+      "returncode": 0,
+      "elapsed_seconds": 9090.343030097982,
+      "finished_at_utc": "2026-11-01T18:27:21.243664+00:00",
+      "result_sha256": "b9901dcb98aeca5adf21dfe841bb324d680cf39d5060b69369e78c76222a0d9d",
+      "nodes": 160392399085,
+      "mems": 3782936715158,
+      "mems_without_cached_L5_read": 3943329114242
+    },
+    {
+      "label": "n17-L20",
+      "status": "finished",
+      "command": [
+        "/tmp/knuth-vol4b-langmem-xwiiu3w2/langford-mems",
+        "17",
+        "L20"
+      ],
+      "source_sha256": "3d6e779daa32b67e4fb50a3d08b5f76b1892a39a8074475ac8e639d5aba8a84d",
+      "started_at_utc": "2026-11-01T18:27:21.257833+00:00",
+      "timeout_seconds": 172800,
+      "pid": 741135,
+      "returncode": 0,
+      "elapsed_seconds": 17712.62784142699,
+      "finished_at_utc": "2026-11-01T23:23:09.780273+00:00",
+      "result_sha256": "15ecbedd8edaf62fae98792f26d046bb8ade150bce92ce7944711c5fbf03486b",
+      "nodes": 330438173533,
+      "mems": 7743279734667,
+      "mems_without_cached_L5_read": 8073717908199
+    },
+    {
+      "label": "n17-L",
+      "status": "finished",
+      "command": [
+        "/tmp/knuth-vol4b-langmem-xwiiu3w2/langford-mems",
+        "17",
+        "L"
+      ],
+      "source_sha256": "3d6e779daa32b67e4fb50a3d08b5f76b1892a39a8074475ac8e639d5aba8a84d",
+      "started_at_utc": "2026-11-01T23:23:09.783330+00:00",
+      "timeout_seconds": 172800,
+      "pid": 845134,
+      "returncode": 0,
+      "elapsed_seconds": 117685.30413120001,
+      "finished_at_utc": "2026-11-03T21:49:42.478136+00:00",
+      "result_sha256": "99fa6b13e0935ecd471d91a27beb4ee3d7123b48c148a3ab30a7c9e316805ce1",
+      "nodes": 1290377222573,
+      "mems": 23692476652390,
+      "mems_without_cached_L5_read": 24982853874962
+    }
+  ],
+  "finished_at_utc": "2026-11-03T21:49:42.509000+00:00"
+}

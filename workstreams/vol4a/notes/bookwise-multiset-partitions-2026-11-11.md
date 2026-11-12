@@ -1,0 +1,13 @@
+# Multiset partitions and universal cycles
+
+Reviewed main 428 from “Partitions of a multiset” through 431, exercises 68–82, and answers 778–780 through answer 82. Section 7.2.1.5 is complete under the audit scope, with the exact exceptions in this and earlier block records.
+
+Checked the five n=4 multiset examples, vector representation, stack example, and Algorithm M's residual/lexicographic invariants. In particular, the first represented component of a current part stays positive; removing a zero residual sets the change flag before subsequent components are maximized. Checked M5's predecessor step, backtracking, maximal storage and the at-most-r modifications. The known Fascicle 3 repairs are already incorporated in the book.
+
+Checked the radix-sorting correspondence and inverse, all four permutations and descent indices in Table 1, the adjusted one-dimensional partitions and the zero-partition example in answer 78. Checked the two special block-count formulas, unordered two-part formula, dynamic program, logarithmic-derivative recurrence, paired-element recurrence, secondary recurrence, q_n generating function and Peirce identity. The fixed-block Labelle expression was read as a cited formula with its first simple cases checked. The last asymptotic truncation in answer 76 is false: F0109 uses only a positive omitted term and the fixed-shift Bell ratio to disprove it.
+
+Checked the overlap digraph, its balanced degrees and repeated-last-symbol exit tree, the distinction between a cycle of partitions and a cycle of letters, and the explicitly stated pair of equivalent n=4 cycles. The n=5 card cycle does contain all 52 set partitions and has the stated suit counts. A targeted check was made because the printed success probability 47/52 appeared overly conservative: for the displayed cycle, treating J as S changes only the window SCDHJ at position 5, from 01234 to 01230, which collides with the window at position 6. The original decoder therefore succeeds on 51/52 starts (and 50/52 observations permit unambiguous identification without guessing). This is recorded in results/card-cycle-probability-check.json but is NOT a confirmed finding: 47/52 remains a valid conservative guarantee, and the informal sentence does not specify a decoder or claim optimality. No numerical census of possible decks was run.
+
+The domino solution's three sums are each 118/15 and use all 15 unordered non-double tiles once. Known diagram and attribution errata were retained. Exact research, cited-asymptotic and census exceptions are listed separately.
+
+Next: section 7.2.1.6, main 440/file 457, exercises from the tree section, answers from 780/file 797. Shared main 440 and answer 780 remain gray until their tree-section portions are read.

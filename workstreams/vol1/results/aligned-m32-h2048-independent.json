@@ -1,0 +1,32 @@
+{
+  "status": "verified",
+  "trace": "workstreams/vol1/parallel/aligned-allocation-proof/continuation/joint-profiles/recursive-counterfamily/trace-m32-h2048.txt.gz",
+  "budget": 1179680,
+  "maximum_allowed": 32,
+  "maximum_seen": 32,
+  "operations": 5554555,
+  "allocations": 2851455,
+  "releases": 2703100,
+  "peak_live": 1179648,
+  "peak_live_operation": 1179648,
+  "final_live": 1179641,
+  "maximum_endpoint": 7088928,
+  "last_allocation_start": 7088896,
+  "last_allocation_length": 32,
+  "six_times_budget": 7078080,
+  "strictly_exceeds_six_times_budget": true,
+  "endpoint_minus_six_times_budget": 10848,
+  "elapsed_seconds": 20.500238564,
+  "allocation_counts_by_length": {
+    "1": 1179648,
+    "2": 196608,
+    "3": 728995,
+    "4": 81903,
+    "5": 303400,
+    "8": 46674,
+    "9": 170710,
+    "16": 26261,
+    "17": 90023,
+    "32": 27233
+  }
+}

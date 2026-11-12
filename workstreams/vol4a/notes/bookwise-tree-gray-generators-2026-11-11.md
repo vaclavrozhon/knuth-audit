@@ -1,0 +1,11 @@
+# Gray codes and degree-constrained tree generators
+
+Reviewed main 446–449; exercises 20–25, 36–38, 40 and 45 with their answers (784–786 through answer 25; 790–792 relevant answers; answer 45 on 793). Exercise 44 and main 450 were already checked in X0167. Remaining content sharing pages 473,476,786,790,792,793 is not certified wholesale here.
+
+Checked Algorithm N's endo-order turns, goal-bit reversals and boundary termination; the n=4 list; the rotation/associativity correspondence; and the recursive insertion argument for Algorithm L. Checked L's direction and backpointer invariants, context pointer p, and three-link rotations. The n=4 link/backpointer/preorder/coforest data were checked against the operations. The incorrect dual column is a known 2019 erratum and is excluded; the published replacement diagrams were inspected. Reconstructed the postorder-numbered arrays of answer 24 and their backpointer/scope relation for the introductory 15-node forest.
+
+Checked the degree-prefix condition with its known k=0 repair, the ternary Algorithm T, the suffix sorting/spreading in Algorithm G, the colex successor interpretation and pointer operations of Algorithm K, and the up/down detach-and-graft operations of Algorithm M. The latter preserve preorder while transferring a sibling group and updating its parent pointers. The parity argument in answer 40 establishes the final-state descriptions in answer 23; the direction state after termination supports reverse restarting.
+
+Checked the Fuss–Catalan count, ballot recurrence and displayed small triangle, the forest factorial formula, kernel recurrences, the subforest interpretation and the active-block insertion argument in answer 37. This exposed the concrete issues F0111–F0116, documented separately. No broad census was used: the decisive traces use at most five small trees. Checked L's 9-mem leading average and the aggregate K and B* memory formulas, including 8.75-9.375/n and 67/12+73/(24n). Exact exceptions, including the explicitly heuristic M estimate, are in the companion record.
+
+Next: the lattice exercises 26–35 and answers from 786, then the remaining counting/probability material from main 451. Exercises 36–38,40,44,45 have already been checked.

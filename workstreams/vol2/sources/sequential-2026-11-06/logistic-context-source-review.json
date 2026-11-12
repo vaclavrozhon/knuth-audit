@@ -1,0 +1,69 @@
+{
+  "reviewed_at_utc": "2026-11-06T11:40:50.281515+00:00",
+  "read_original_pages": [
+    138,
+    140,
+    588
+  ],
+  "scope": "3.4.1 G and exercise 24. Original 588 was reviewed in the preceding discrete block and contains no answer 24.",
+  "primary_sources": [
+    {
+      "artifact": "workstreams/vol2/sources/eckhardt-1987-monte-carlo.pdf",
+      "url": "https://mcnp-green.lanl.gov/pdf_files/Article_1987_LAS_Eckhardt_131--141.pdf",
+      "sha256": "1473d104cceb469839cf60987ca7a99cd8aa9de416d84b67ef061c956753de75",
+      "scope": "Original 135–136 visually reread, including complete May 21, 1947 letter; earliest unpublished priority not established."
+    },
+    {
+      "artifact": "workstreams/vol2/sources/hormann-derflinger-1993-rejection.pdf",
+      "url": "https://statmath.wu.ac.at/papers/92-11-25.wh-der.ps.gz",
+      "sha256": "7881ccd99dc4d8816fc13b4fb34563010f716ec194b973d129b9051ce35bf2e1",
+      "scope": "Full five-page preprint text reread, original page 2 visually checked; large table and million-sample tests not reproduced."
+    },
+    {
+      "artifact": "workstreams/vol2/sources/devroye-1986.pdf",
+      "url": "https://luc.devroye.org/LucDevroye-NonUniformRandomVariateGeneration-10.1007_978-1-4613-8643-8-1986-.pdf",
+      "sha256": "a7c2ef2863fd1b0592021ba75eae9928bee0950e92baff1f9aa7675eccbce656",
+      "scope": "Original 1–3 and 769 reread; ideal real-arithmetic cost model and random-bit construction, not a current-machine benchmark."
+    },
+    {
+      "artifact": "workstreams/vol2/sources/von-neumann-1951-random-digits.pdf",
+      "url": "https://mcnp-green.lanl.gov/pdf_files/InBook_Computing_1961_Neumann_JohnVonNeumannCollectedWorks_VariousTechniquesUsedinConnectionwithRandomDigits.pdf",
+      "sha256": "662943f84a8c0808159755e874cf3470f3e411043eb980a31df0f7392ec6aa4a",
+      "scope": "Original 768–770 visually reread; Ulam attribution, angle doubling, roundoff qualification and exercise 23 origin checked."
+    },
+    {
+      "artifact": "workstreams/vol2/sources/galias-2021-logistic.pdf",
+      "url": "https://www.zet.agh.edu.pl/~galias/ps/tcasii2021lpublished.pdf",
+      "sha256": "a0a7c0c0d67bf3e0edfcf1f92bca50cf05e7a0c86f4a707d6bf82b024972c197",
+      "scope": "Full text reread and tables II/III visually checked. Large complete binary64 census not independently validated; most binary64 basin proportions are statistical estimates."
+    }
+  ],
+  "errata": {
+    "layers": [
+      "all2-prepre",
+      "all2-pre",
+      "all2",
+      "err2",
+      "err2.textxt"
+    ],
+    "freshness": "November 6 copies already refreshed in this pass; no further fetch.",
+    "search": "Original pages 140/588; logistic, Ulam, von Neumann; adjacent page and exercise corrections inspected.",
+    "no_matching_correction_found": [
+      "V2-C0053"
+    ],
+    "unrelated_changes": "Exercise 25 bit notation in 2005 and 2024; answer 21 factors in 2005."
+  },
+  "bibliography_skips": [
+    "Absolute historical priority of the rejection method is not established by the dated 1947 letter.",
+    "Full Knuth–Yao 1976 paper not read; earlier indexed primary author bibliography confirms 357–428."
+  ],
+  "expensive_reproduction_skips": [
+    "Hörmann–Derflinger large-modulus table and million-sample statistical experiments not rerun.",
+    "Galias 2021 full binary64 census reports about 500 single-core days at parameter 4; not independently reproduced."
+  ],
+  "limits": [
+    "Existing logistic runs reviewed through code, logs and recorded outputs; no new graph census or trajectory replay.",
+    "Eight binary64 cycle-detector limits do not establish periods or a 50-million lower bound.",
+    "Research exercise 24 is closed only for the explicitly stated models, not every arithmetic."
+  ]
+}

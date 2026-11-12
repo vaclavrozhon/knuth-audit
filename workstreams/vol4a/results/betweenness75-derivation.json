@@ -1,0 +1,2298 @@
+{
+  "kind": "symbolic Horn derivation on fixed named witnesses",
+  "no_distinctness_assumptions": true,
+  "e": {
+    "six_relations": {
+      "goals": [
+        [
+          "u",
+          "t",
+          "v"
+        ],
+        [
+          "u",
+          "t",
+          "z"
+        ],
+        [
+          "v",
+          "t",
+          "z"
+        ],
+        [
+          "u",
+          "w",
+          "v"
+        ],
+        [
+          "u",
+          "w",
+          "z"
+        ],
+        [
+          "v",
+          "w",
+          "z"
+        ]
+      ],
+      "missing": [],
+      "derived_fact_count": 215,
+      "steps": [
+        {
+          "fact": [
+            "u",
+            "x",
+            "v"
+          ],
+          "rule": "hypothesis",
+          "premises": [],
+          "substitution": null,
+          "id": 1
+        },
+        {
+          "fact": [
+            "u",
+            "y",
+            "z"
+          ],
+          "rule": "hypothesis",
+          "premises": [],
+          "substitution": null,
+          "id": 2
+        },
+        {
+          "fact": [
+            "v",
+            "y",
+            "z"
+          ],
+          "rule": "hypothesis",
+          "premises": [],
+          "substitution": null,
+          "id": 3
+        },
+        {
+          "fact": [
+            "u",
+            "w",
+            "y"
+          ],
+          "rule": "median",
+          "premises": [],
+          "substitution": [
+            "w",
+            "y",
+            "u",
+            "v"
+          ],
+          "id": 4
+        },
+        {
+          "fact": [
+            "v",
+            "w",
+            "y"
+          ],
+          "rule": "median",
+          "premises": [],
+          "substitution": [
+            "w",
+            "y",
+            "u",
+            "v"
+          ],
+          "id": 5
+        },
+        {
+          "fact": [
+            "u",
+            "w",
+            "v"
+          ],
+          "rule": "median",
+          "premises": [],
+          "substitution": [
+            "w",
+            "y",
+            "u",
+            "v"
+          ],
+          "id": 6
+        },
+        {
+          "fact": [
+            "u",
+            "p",
+            "w"
+          ],
+          "rule": "median",
+          "premises": [],
+          "substitution": [
+            "p",
+            "w",
+            "u",
+            "x"
+          ],
+          "id": 7
+        },
+        {
+          "fact": [
+            "u",
+            "p",
+            "x"
+          ],
+          "rule": "median",
+          "premises": [],
+          "substitution": [
+            "p",
+            "w",
+            "u",
+            "x"
+          ],
+          "id": 8
+        },
+        {
+          "fact": [
+            "v",
+            "q",
+            "w"
+          ],
+          "rule": "median",
+          "premises": [],
+          "substitution": [
+            "q",
+            "w",
+            "v",
+            "x"
+          ],
+          "id": 9
+        },
+        {
+          "fact": [
+            "v",
+            "q",
+            "x"
+          ],
+          "rule": "median",
+          "premises": [],
+          "substitution": [
+            "q",
+            "w",
+            "v",
+            "x"
+          ],
+          "id": 10
+        },
+        {
+          "fact": [
+            "p",
+            "r",
+            "x"
+          ],
+          "rule": "median",
+          "premises": [],
+          "substitution": [
+            "r",
+            "p",
+            "x",
+            "z"
+          ],
+          "id": 11
+        },
+        {
+          "fact": [
+            "p",
+            "r",
+            "z"
+          ],
+          "rule": "median",
+          "premises": [],
+          "substitution": [
+            "r",
+            "p",
+            "x",
+            "z"
+          ],
+          "id": 12
+        },
+        {
+          "fact": [
+            "q",
+            "s",
+            "x"
+          ],
+          "rule": "median",
+          "premises": [],
+          "substitution": [
+            "s",
+            "q",
+            "x",
+            "z"
+          ],
+          "id": 13
+        },
+        {
+          "fact": [
+            "q",
+            "s",
+            "z"
+          ],
+          "rule": "median",
+          "premises": [],
+          "substitution": [
+            "s",
+            "q",
+            "x",
+            "z"
+          ],
+          "id": 14
+        },
+        {
+          "fact": [
+            "r",
+            "t",
+            "s"
+          ],
+          "rule": "median",
+          "premises": [],
+          "substitution": [
+            "t",
+            "r",
+            "s",
+            "z"
+          ],
+          "id": 15
+        },
+        {
+          "fact": [
+            "r",
+            "t",
+            "z"
+          ],
+          "rule": "median",
+          "premises": [],
+          "substitution": [
+            "t",
+            "r",
+            "s",
+            "z"
+          ],
+          "id": 16
+        },
+        {
+          "fact": [
+            "s",
+            "t",
+            "z"
+          ],
+          "rule": "median",
+          "premises": [],
+          "substitution": [
+            "t",
+            "r",
+            "s",
+            "z"
+          ],
+          "id": 17
+        },
+        {
+          "fact": [
+            "p",
+            "x",
+            "v"
+          ],
+          "rule": "D",
+          "premises": [
+            1,
+            8
+          ],
+          "substitution": [
+            "u",
+            "p",
+            "x",
+            "v"
+          ],
+          "id": 18
+        },
+        {
+          "fact": [
+            "u",
+            "p",
+            "y"
+          ],
+          "rule": "N",
+          "premises": [
+            4,
+            7
+          ],
+          "substitution": [
+            "u",
+            "p",
+            "w",
+            "y"
+          ],
+          "id": 19
+        },
+        {
+          "fact": [
+            "u",
+            "w",
+            "z"
+          ],
+          "rule": "N",
+          "premises": [
+            2,
+            4
+          ],
+          "substitution": [
+            "u",
+            "w",
+            "y",
+            "z"
+          ],
+          "id": 20
+        },
+        {
+          "fact": [
+            "u",
+            "p",
+            "z"
+          ],
+          "rule": "N",
+          "premises": [
+            2,
+            19
+          ],
+          "substitution": [
+            "u",
+            "p",
+            "y",
+            "z"
+          ],
+          "id": 21
+        },
+        {
+          "fact": [
+            "u",
+            "q",
+            "v"
+          ],
+          "rule": "N",
+          "premises": [
+            1,
+            10
+          ],
+          "substitution": [
+            "v",
+            "q",
+            "x",
+            "u"
+          ],
+          "id": 22
+        },
+        {
+          "fact": [
+            "q",
+            "x",
+            "u"
+          ],
+          "rule": "D",
+          "premises": [
+            1,
+            10
+          ],
+          "substitution": [
+            "v",
+            "q",
+            "x",
+            "u"
+          ],
+          "id": 23
+        },
+        {
+          "fact": [
+            "v",
+            "q",
+            "y"
+          ],
+          "rule": "N",
+          "premises": [
+            5,
+            9
+          ],
+          "substitution": [
+            "v",
+            "q",
+            "w",
+            "y"
+          ],
+          "id": 24
+        },
+        {
+          "fact": [
+            "v",
+            "w",
+            "z"
+          ],
+          "rule": "N",
+          "premises": [
+            3,
+            5
+          ],
+          "substitution": [
+            "v",
+            "w",
+            "y",
+            "z"
+          ],
+          "id": 25
+        },
+        {
+          "fact": [
+            "v",
+            "q",
+            "z"
+          ],
+          "rule": "N",
+          "premises": [
+            3,
+            24
+          ],
+          "substitution": [
+            "v",
+            "q",
+            "y",
+            "z"
+          ],
+          "id": 26
+        },
+        {
+          "fact": [
+            "p",
+            "x",
+            "q"
+          ],
+          "rule": "D",
+          "premises": [
+            18,
+            10
+          ],
+          "substitution": [
+            "v",
+            "q",
+            "x",
+            "p"
+          ],
+          "id": 27
+        },
+        {
+          "fact": [
+            "u",
+            "r",
+            "x"
+          ],
+          "rule": "N",
+          "premises": [
+            8,
+            11
+          ],
+          "substitution": [
+            "x",
+            "r",
+            "p",
+            "u"
+          ],
+          "id": 28
+        },
+        {
+          "fact": [
+            "u",
+            "r",
+            "z"
+          ],
+          "rule": "N",
+          "premises": [
+            21,
+            12
+          ],
+          "substitution": [
+            "z",
+            "r",
+            "p",
+            "u"
+          ],
+          "id": 29
+        },
+        {
+          "fact": [
+            "u",
+            "t",
+            "z"
+          ],
+          "rule": "N",
+          "premises": [
+            29,
+            16
+          ],
+          "substitution": [
+            "z",
+            "t",
+            "r",
+            "u"
+          ],
+          "id": 30
+        },
+        {
+          "fact": [
+            "v",
+            "s",
+            "z"
+          ],
+          "rule": "N",
+          "premises": [
+            26,
+            14
+          ],
+          "substitution": [
+            "z",
+            "s",
+            "q",
+            "v"
+          ],
+          "id": 31
+        },
+        {
+          "fact": [
+            "v",
+            "t",
+            "z"
+          ],
+          "rule": "N",
+          "premises": [
+            31,
+            17
+          ],
+          "substitution": [
+            "z",
+            "t",
+            "s",
+            "v"
+          ],
+          "id": 32
+        },
+        {
+          "fact": [
+            "q",
+            "x",
+            "r"
+          ],
+          "rule": "D",
+          "premises": [
+            27,
+            11
+          ],
+          "substitution": [
+            "p",
+            "r",
+            "x",
+            "q"
+          ],
+          "id": 33
+        },
+        {
+          "fact": [
+            "q",
+            "s",
+            "r"
+          ],
+          "rule": "N",
+          "premises": [
+            33,
+            13
+          ],
+          "substitution": [
+            "q",
+            "s",
+            "x",
+            "r"
+          ],
+          "id": 34
+        },
+        {
+          "fact": [
+            "q",
+            "t",
+            "r"
+          ],
+          "rule": "N",
+          "premises": [
+            34,
+            15
+          ],
+          "substitution": [
+            "r",
+            "t",
+            "s",
+            "q"
+          ],
+          "id": 35
+        },
+        {
+          "fact": [
+            "q",
+            "r",
+            "u"
+          ],
+          "rule": "N",
+          "premises": [
+            23,
+            28
+          ],
+          "substitution": [
+            "u",
+            "r",
+            "x",
+            "q"
+          ],
+          "id": 36
+        },
+        {
+          "fact": [
+            "q",
+            "t",
+            "u"
+          ],
+          "rule": "N",
+          "premises": [
+            36,
+            35
+          ],
+          "substitution": [
+            "q",
+            "t",
+            "r",
+            "u"
+          ],
+          "id": 37
+        },
+        {
+          "fact": [
+            "u",
+            "t",
+            "v"
+          ],
+          "rule": "N",
+          "premises": [
+            22,
+            37
+          ],
+          "substitution": [
+            "u",
+            "t",
+            "q",
+            "v"
+          ],
+          "id": 38
+        }
+      ]
+    },
+    "after_uniqueness": {
+      "goals": [
+        [
+          "x",
+          "y",
+          "z"
+        ],
+        [
+          "p",
+          "r",
+          "p"
+        ],
+        [
+          "q",
+          "s",
+          "q"
+        ]
+      ],
+      "missing": [],
+      "derived_fact_count": 265,
+      "steps": [
+        {
+          "fact": [
+            "u",
+            "x",
+            "v"
+          ],
+          "rule": "hypothesis",
+          "premises": [],
+          "substitution": null,
+          "id": 1
+        },
+        {
+          "fact": [
+            "u",
+            "y",
+            "z"
+          ],
+          "rule": "hypothesis",
+          "premises": [],
+          "substitution": null,
+          "id": 2
+        },
+        {
+          "fact": [
+            "v",
+            "y",
+            "z"
+          ],
+          "rule": "hypothesis",
+          "premises": [],
+          "substitution": null,
+          "id": 3
+        },
+        {
+          "fact": [
+            "u",
+            "w",
+            "y"
+          ],
+          "rule": "median",
+          "premises": [],
+          "substitution": [
+            "w",
+            "y",
+            "u",
+            "v"
+          ],
+          "id": 4
+        },
+        {
+          "fact": [
+            "v",
+            "w",
+            "y"
+          ],
+          "rule": "median",
+          "premises": [],
+          "substitution": [
+            "w",
+            "y",
+            "u",
+            "v"
+          ],
+          "id": 5
+        },
+        {
+          "fact": [
+            "u",
+            "w",
+            "v"
+          ],
+          "rule": "median",
+          "premises": [],
+          "substitution": [
+            "w",
+            "y",
+            "u",
+            "v"
+          ],
+          "id": 6
+        },
+        {
+          "fact": [
+            "u",
+            "p",
+            "w"
+          ],
+          "rule": "median",
+          "premises": [],
+          "substitution": [
+            "p",
+            "w",
+            "u",
+            "x"
+          ],
+          "id": 7
+        },
+        {
+          "fact": [
+            "w",
+            "p",
+            "x"
+          ],
+          "rule": "median",
+          "premises": [],
+          "substitution": [
+            "p",
+            "w",
+            "u",
+            "x"
+          ],
+          "id": 8
+        },
+        {
+          "fact": [
+            "u",
+            "p",
+            "x"
+          ],
+          "rule": "median",
+          "premises": [],
+          "substitution": [
+            "p",
+            "w",
+            "u",
+            "x"
+          ],
+          "id": 9
+        },
+        {
+          "fact": [
+            "v",
+            "q",
+            "w"
+          ],
+          "rule": "median",
+          "premises": [],
+          "substitution": [
+            "q",
+            "w",
+            "v",
+            "x"
+          ],
+          "id": 10
+        },
+        {
+          "fact": [
+            "w",
+            "q",
+            "x"
+          ],
+          "rule": "median",
+          "premises": [],
+          "substitution": [
+            "q",
+            "w",
+            "v",
+            "x"
+          ],
+          "id": 11
+        },
+        {
+          "fact": [
+            "v",
+            "q",
+            "x"
+          ],
+          "rule": "median",
+          "premises": [],
+          "substitution": [
+            "q",
+            "w",
+            "v",
+            "x"
+          ],
+          "id": 12
+        },
+        {
+          "fact": [
+            "p",
+            "r",
+            "x"
+          ],
+          "rule": "median",
+          "premises": [],
+          "substitution": [
+            "r",
+            "p",
+            "x",
+            "z"
+          ],
+          "id": 13
+        },
+        {
+          "fact": [
+            "p",
+            "r",
+            "z"
+          ],
+          "rule": "median",
+          "premises": [],
+          "substitution": [
+            "r",
+            "p",
+            "x",
+            "z"
+          ],
+          "id": 14
+        },
+        {
+          "fact": [
+            "x",
+            "r",
+            "z"
+          ],
+          "rule": "median",
+          "premises": [],
+          "substitution": [
+            "r",
+            "p",
+            "x",
+            "z"
+          ],
+          "id": 15
+        },
+        {
+          "fact": [
+            "q",
+            "s",
+            "x"
+          ],
+          "rule": "median",
+          "premises": [],
+          "substitution": [
+            "s",
+            "q",
+            "x",
+            "z"
+          ],
+          "id": 16
+        },
+        {
+          "fact": [
+            "q",
+            "s",
+            "z"
+          ],
+          "rule": "median",
+          "premises": [],
+          "substitution": [
+            "s",
+            "q",
+            "x",
+            "z"
+          ],
+          "id": 17
+        },
+        {
+          "fact": [
+            "r",
+            "t",
+            "s"
+          ],
+          "rule": "median",
+          "premises": [],
+          "substitution": [
+            "t",
+            "r",
+            "s",
+            "z"
+          ],
+          "id": 18
+        },
+        {
+          "fact": [
+            "r",
+            "t",
+            "z"
+          ],
+          "rule": "median",
+          "premises": [],
+          "substitution": [
+            "t",
+            "r",
+            "s",
+            "z"
+          ],
+          "id": 19
+        },
+        {
+          "fact": [
+            "s",
+            "t",
+            "z"
+          ],
+          "rule": "median",
+          "premises": [],
+          "substitution": [
+            "t",
+            "r",
+            "s",
+            "z"
+          ],
+          "id": 20
+        },
+        {
+          "fact": [
+            "p",
+            "x",
+            "v"
+          ],
+          "rule": "D",
+          "premises": [
+            1,
+            9
+          ],
+          "substitution": [
+            "u",
+            "p",
+            "x",
+            "v"
+          ],
+          "id": 21
+        },
+        {
+          "fact": [
+            "u",
+            "p",
+            "y"
+          ],
+          "rule": "N",
+          "premises": [
+            4,
+            7
+          ],
+          "substitution": [
+            "u",
+            "p",
+            "w",
+            "y"
+          ],
+          "id": 22
+        },
+        {
+          "fact": [
+            "u",
+            "w",
+            "z"
+          ],
+          "rule": "N",
+          "premises": [
+            2,
+            4
+          ],
+          "substitution": [
+            "u",
+            "w",
+            "y",
+            "z"
+          ],
+          "id": 23
+        },
+        {
+          "fact": [
+            "w",
+            "y",
+            "z"
+          ],
+          "rule": "D",
+          "premises": [
+            2,
+            4
+          ],
+          "substitution": [
+            "u",
+            "w",
+            "y",
+            "z"
+          ],
+          "id": 24
+        },
+        {
+          "fact": [
+            "u",
+            "p",
+            "z"
+          ],
+          "rule": "N",
+          "premises": [
+            2,
+            22
+          ],
+          "substitution": [
+            "u",
+            "p",
+            "y",
+            "z"
+          ],
+          "id": 25
+        },
+        {
+          "fact": [
+            "u",
+            "q",
+            "v"
+          ],
+          "rule": "N",
+          "premises": [
+            1,
+            12
+          ],
+          "substitution": [
+            "v",
+            "q",
+            "x",
+            "u"
+          ],
+          "id": 26
+        },
+        {
+          "fact": [
+            "q",
+            "x",
+            "u"
+          ],
+          "rule": "D",
+          "premises": [
+            1,
+            12
+          ],
+          "substitution": [
+            "v",
+            "q",
+            "x",
+            "u"
+          ],
+          "id": 27
+        },
+        {
+          "fact": [
+            "v",
+            "q",
+            "y"
+          ],
+          "rule": "N",
+          "premises": [
+            5,
+            10
+          ],
+          "substitution": [
+            "v",
+            "q",
+            "w",
+            "y"
+          ],
+          "id": 28
+        },
+        {
+          "fact": [
+            "v",
+            "w",
+            "z"
+          ],
+          "rule": "N",
+          "premises": [
+            3,
+            5
+          ],
+          "substitution": [
+            "v",
+            "w",
+            "y",
+            "z"
+          ],
+          "id": 29
+        },
+        {
+          "fact": [
+            "v",
+            "q",
+            "z"
+          ],
+          "rule": "N",
+          "premises": [
+            3,
+            28
+          ],
+          "substitution": [
+            "v",
+            "q",
+            "y",
+            "z"
+          ],
+          "id": 30
+        },
+        {
+          "fact": [
+            "p",
+            "x",
+            "q"
+          ],
+          "rule": "D",
+          "premises": [
+            21,
+            12
+          ],
+          "substitution": [
+            "v",
+            "q",
+            "x",
+            "p"
+          ],
+          "id": 31
+        },
+        {
+          "fact": [
+            "u",
+            "r",
+            "x"
+          ],
+          "rule": "N",
+          "premises": [
+            9,
+            13
+          ],
+          "substitution": [
+            "x",
+            "r",
+            "p",
+            "u"
+          ],
+          "id": 32
+        },
+        {
+          "fact": [
+            "r",
+            "p",
+            "w"
+          ],
+          "rule": "D",
+          "premises": [
+            8,
+            13
+          ],
+          "substitution": [
+            "x",
+            "r",
+            "p",
+            "w"
+          ],
+          "id": 33
+        },
+        {
+          "fact": [
+            "s",
+            "q",
+            "w"
+          ],
+          "rule": "D",
+          "premises": [
+            11,
+            16
+          ],
+          "substitution": [
+            "x",
+            "s",
+            "q",
+            "w"
+          ],
+          "id": 34
+        },
+        {
+          "fact": [
+            "u",
+            "r",
+            "z"
+          ],
+          "rule": "N",
+          "premises": [
+            25,
+            14
+          ],
+          "substitution": [
+            "z",
+            "r",
+            "p",
+            "u"
+          ],
+          "id": 35
+        },
+        {
+          "fact": [
+            "u",
+            "t",
+            "z"
+          ],
+          "rule": "N",
+          "premises": [
+            35,
+            19
+          ],
+          "substitution": [
+            "z",
+            "t",
+            "r",
+            "u"
+          ],
+          "id": 36
+        },
+        {
+          "fact": [
+            "v",
+            "s",
+            "z"
+          ],
+          "rule": "N",
+          "premises": [
+            30,
+            17
+          ],
+          "substitution": [
+            "z",
+            "s",
+            "q",
+            "v"
+          ],
+          "id": 37
+        },
+        {
+          "fact": [
+            "v",
+            "t",
+            "z"
+          ],
+          "rule": "N",
+          "premises": [
+            37,
+            20
+          ],
+          "substitution": [
+            "z",
+            "t",
+            "s",
+            "v"
+          ],
+          "id": 38
+        },
+        {
+          "fact": [
+            "q",
+            "x",
+            "r"
+          ],
+          "rule": "D",
+          "premises": [
+            31,
+            13
+          ],
+          "substitution": [
+            "p",
+            "r",
+            "x",
+            "q"
+          ],
+          "id": 39
+        },
+        {
+          "fact": [
+            "q",
+            "s",
+            "r"
+          ],
+          "rule": "N",
+          "premises": [
+            39,
+            16
+          ],
+          "substitution": [
+            "q",
+            "s",
+            "x",
+            "r"
+          ],
+          "id": 40
+        },
+        {
+          "fact": [
+            "q",
+            "t",
+            "r"
+          ],
+          "rule": "N",
+          "premises": [
+            40,
+            18
+          ],
+          "substitution": [
+            "r",
+            "t",
+            "s",
+            "q"
+          ],
+          "id": 41
+        },
+        {
+          "fact": [
+            "q",
+            "r",
+            "u"
+          ],
+          "rule": "N",
+          "premises": [
+            27,
+            32
+          ],
+          "substitution": [
+            "u",
+            "r",
+            "x",
+            "q"
+          ],
+          "id": 42
+        },
+        {
+          "fact": [
+            "q",
+            "t",
+            "u"
+          ],
+          "rule": "N",
+          "premises": [
+            42,
+            41
+          ],
+          "substitution": [
+            "q",
+            "t",
+            "r",
+            "u"
+          ],
+          "id": 43
+        },
+        {
+          "fact": [
+            "u",
+            "t",
+            "v"
+          ],
+          "rule": "N",
+          "premises": [
+            26,
+            43
+          ],
+          "substitution": [
+            "u",
+            "t",
+            "q",
+            "v"
+          ],
+          "id": 44
+        },
+        {
+          "fact": [
+            "r",
+            "w",
+            "z"
+          ],
+          "rule": "unique_median_t_equals_w",
+          "premises": [
+            44,
+            36,
+            38,
+            6,
+            23,
+            29,
+            19
+          ],
+          "substitution": null,
+          "id": 45
+        },
+        {
+          "fact": [
+            "s",
+            "w",
+            "z"
+          ],
+          "rule": "unique_median_t_equals_w",
+          "premises": [
+            44,
+            36,
+            38,
+            6,
+            23,
+            29,
+            20
+          ],
+          "substitution": null,
+          "id": 46
+        },
+        {
+          "fact": [
+            "x",
+            "w",
+            "z"
+          ],
+          "rule": "N",
+          "premises": [
+            15,
+            45
+          ],
+          "substitution": [
+            "z",
+            "w",
+            "r",
+            "x"
+          ],
+          "id": 47
+        },
+        {
+          "fact": [
+            "p",
+            "r",
+            "w"
+          ],
+          "rule": "D",
+          "premises": [
+            14,
+            45
+          ],
+          "substitution": [
+            "z",
+            "w",
+            "r",
+            "p"
+          ],
+          "id": 48
+        },
+        {
+          "fact": [
+            "q",
+            "s",
+            "w"
+          ],
+          "rule": "D",
+          "premises": [
+            17,
+            46
+          ],
+          "substitution": [
+            "z",
+            "w",
+            "s",
+            "q"
+          ],
+          "id": 49
+        },
+        {
+          "fact": [
+            "p",
+            "r",
+            "p"
+          ],
+          "rule": "D",
+          "premises": [
+            48,
+            33
+          ],
+          "substitution": [
+            "w",
+            "p",
+            "r",
+            "p"
+          ],
+          "id": 50
+        },
+        {
+          "fact": [
+            "q",
+            "s",
+            "q"
+          ],
+          "rule": "D",
+          "premises": [
+            49,
+            34
+          ],
+          "substitution": [
+            "w",
+            "q",
+            "s",
+            "q"
+          ],
+          "id": 51
+        },
+        {
+          "fact": [
+            "x",
+            "y",
+            "z"
+          ],
+          "rule": "N",
+          "premises": [
+            47,
+            24
+          ],
+          "substitution": [
+            "z",
+            "y",
+            "w",
+            "x"
+          ],
+          "id": 52
+        }
+      ]
+    }
+  },
+  "f": {
+    "goals": [
+      [
+        "p",
+        "q",
+        "p"
+      ]
+    ],
+    "missing": [],
+    "derived_fact_count": 153,
+    "steps": [
+      {
+        "fact": [
+          "q",
+          "q",
+          "r"
+        ],
+        "rule": "endpoint",
+        "premises": [],
+        "substitution": null,
+        "id": 1
+      },
+      {
+        "fact": [
+          "q",
+          "q",
+          "s"
+        ],
+        "rule": "endpoint",
+        "premises": [],
+        "substitution": null,
+        "id": 2
+      },
+      {
+        "fact": [
+          "u",
+          "r",
+          "y"
+        ],
+        "rule": "median",
+        "premises": [],
+        "substitution": [
+          "r",
+          "y",
+          "u",
+          "v"
+        ],
+        "id": 3
+      },
+      {
+        "fact": [
+          "v",
+          "r",
+          "y"
+        ],
+        "rule": "median",
+        "premises": [],
+        "substitution": [
+          "r",
+          "y",
+          "u",
+          "v"
+        ],
+        "id": 4
+      },
+      {
+        "fact": [
+          "u",
+          "r",
+          "v"
+        ],
+        "rule": "median",
+        "premises": [],
+        "substitution": [
+          "r",
+          "y",
+          "u",
+          "v"
+        ],
+        "id": 5
+      },
+      {
+        "fact": [
+          "u",
+          "s",
+          "z"
+        ],
+        "rule": "median",
+        "premises": [],
+        "substitution": [
+          "s",
+          "z",
+          "u",
+          "v"
+        ],
+        "id": 6
+      },
+      {
+        "fact": [
+          "v",
+          "s",
+          "z"
+        ],
+        "rule": "median",
+        "premises": [],
+        "substitution": [
+          "s",
+          "z",
+          "u",
+          "v"
+        ],
+        "id": 7
+      },
+      {
+        "fact": [
+          "u",
+          "s",
+          "v"
+        ],
+        "rule": "median",
+        "premises": [],
+        "substitution": [
+          "s",
+          "z",
+          "u",
+          "v"
+        ],
+        "id": 8
+      },
+      {
+        "fact": [
+          "x",
+          "t",
+          "y"
+        ],
+        "rule": "median",
+        "premises": [],
+        "substitution": [
+          "t",
+          "x",
+          "y",
+          "z"
+        ],
+        "id": 9
+      },
+      {
+        "fact": [
+          "x",
+          "t",
+          "z"
+        ],
+        "rule": "median",
+        "premises": [],
+        "substitution": [
+          "t",
+          "x",
+          "y",
+          "z"
+        ],
+        "id": 10
+      },
+      {
+        "fact": [
+          "y",
+          "t",
+          "z"
+        ],
+        "rule": "median",
+        "premises": [],
+        "substitution": [
+          "t",
+          "x",
+          "y",
+          "z"
+        ],
+        "id": 11
+      },
+      {
+        "fact": [
+          "r",
+          "p",
+          "x"
+        ],
+        "rule": "median",
+        "premises": [],
+        "substitution": [
+          "p",
+          "x",
+          "r",
+          "s"
+        ],
+        "id": 12
+      },
+      {
+        "fact": [
+          "s",
+          "p",
+          "x"
+        ],
+        "rule": "median",
+        "premises": [],
+        "substitution": [
+          "p",
+          "x",
+          "r",
+          "s"
+        ],
+        "id": 13
+      },
+      {
+        "fact": [
+          "r",
+          "p",
+          "s"
+        ],
+        "rule": "median",
+        "premises": [],
+        "substitution": [
+          "p",
+          "x",
+          "r",
+          "s"
+        ],
+        "id": 14
+      },
+      {
+        "fact": [
+          "t",
+          "q",
+          "u"
+        ],
+        "rule": "median",
+        "premises": [],
+        "substitution": [
+          "q",
+          "t",
+          "u",
+          "v"
+        ],
+        "id": 15
+      },
+      {
+        "fact": [
+          "t",
+          "q",
+          "v"
+        ],
+        "rule": "median",
+        "premises": [],
+        "substitution": [
+          "q",
+          "t",
+          "u",
+          "v"
+        ],
+        "id": 16
+      },
+      {
+        "fact": [
+          "u",
+          "q",
+          "v"
+        ],
+        "rule": "median",
+        "premises": [],
+        "substitution": [
+          "q",
+          "t",
+          "u",
+          "v"
+        ],
+        "id": 17
+      },
+      {
+        "fact": [
+          "s",
+          "r",
+          "y"
+        ],
+        "rule": "E",
+        "premises": [
+          8,
+          3,
+          4
+        ],
+        "substitution": [
+          "u",
+          "s",
+          "v",
+          "r",
+          "y"
+        ],
+        "id": 18
+      },
+      {
+        "fact": [
+          "q",
+          "r",
+          "y"
+        ],
+        "rule": "E",
+        "premises": [
+          17,
+          3,
+          4
+        ],
+        "substitution": [
+          "u",
+          "q",
+          "v",
+          "r",
+          "y"
+        ],
+        "id": 19
+      },
+      {
+        "fact": [
+          "r",
+          "s",
+          "z"
+        ],
+        "rule": "E",
+        "premises": [
+          5,
+          6,
+          7
+        ],
+        "substitution": [
+          "u",
+          "r",
+          "v",
+          "s",
+          "z"
+        ],
+        "id": 20
+      },
+      {
+        "fact": [
+          "q",
+          "s",
+          "z"
+        ],
+        "rule": "E",
+        "premises": [
+          17,
+          6,
+          7
+        ],
+        "substitution": [
+          "u",
+          "q",
+          "v",
+          "s",
+          "z"
+        ],
+        "id": 21
+      },
+      {
+        "fact": [
+          "r",
+          "q",
+          "t"
+        ],
+        "rule": "E",
+        "premises": [
+          5,
+          15,
+          16
+        ],
+        "substitution": [
+          "u",
+          "r",
+          "v",
+          "q",
+          "t"
+        ],
+        "id": 22
+      },
+      {
+        "fact": [
+          "s",
+          "q",
+          "t"
+        ],
+        "rule": "E",
+        "premises": [
+          8,
+          15,
+          16
+        ],
+        "substitution": [
+          "u",
+          "s",
+          "v",
+          "q",
+          "t"
+        ],
+        "id": 23
+      },
+      {
+        "fact": [
+          "r",
+          "p",
+          "z"
+        ],
+        "rule": "N",
+        "premises": [
+          20,
+          14
+        ],
+        "substitution": [
+          "r",
+          "p",
+          "s",
+          "z"
+        ],
+        "id": 24
+      },
+      {
+        "fact": [
+          "s",
+          "p",
+          "y"
+        ],
+        "rule": "N",
+        "premises": [
+          18,
+          14
+        ],
+        "substitution": [
+          "s",
+          "p",
+          "r",
+          "y"
+        ],
+        "id": 25
+      },
+      {
+        "fact": [
+          "r",
+          "p",
+          "t"
+        ],
+        "rule": "E",
+        "premises": [
+          10,
+          12,
+          24
+        ],
+        "substitution": [
+          "x",
+          "t",
+          "z",
+          "p",
+          "r"
+        ],
+        "id": 26
+      },
+      {
+        "fact": [
+          "s",
+          "p",
+          "t"
+        ],
+        "rule": "E",
+        "premises": [
+          9,
+          13,
+          25
+        ],
+        "substitution": [
+          "x",
+          "t",
+          "y",
+          "p",
+          "s"
+        ],
+        "id": 27
+      },
+      {
+        "fact": [
+          "p",
+          "q",
+          "t"
+        ],
+        "rule": "E",
+        "premises": [
+          14,
+          22,
+          23
+        ],
+        "substitution": [
+          "r",
+          "p",
+          "s",
+          "q",
+          "t"
+        ],
+        "id": 28
+      },
+      {
+        "fact": [
+          "q",
+          "p",
+          "r"
+        ],
+        "rule": "D",
+        "premises": [
+          26,
+          28
+        ],
+        "substitution": [
+          "t",
+          "q",
+          "p",
+          "r"
+        ],
+        "id": 29
+      },
+      {
+        "fact": [
+          "q",
+          "p",
+          "s"
+        ],
+        "rule": "D",
+        "premises": [
+          27,
+          28
+        ],
+        "substitution": [
+          "t",
+          "q",
+          "p",
+          "s"
+        ],
+        "id": 30
+      },
+      {
+        "fact": [
+          "q",
+          "p",
+          "y"
+        ],
+        "rule": "N",
+        "premises": [
+          19,
+          29
+        ],
+        "substitution": [
+          "q",
+          "p",
+          "r",
+          "y"
+        ],
+        "id": 31
+      },
+      {
+        "fact": [
+          "q",
+          "p",
+          "z"
+        ],
+        "rule": "N",
+        "premises": [
+          21,
+          30
+        ],
+        "substitution": [
+          "q",
+          "p",
+          "s",
+          "z"
+        ],
+        "id": 32
+      },
+      {
+        "fact": [
+          "q",
+          "p",
+          "t"
+        ],
+        "rule": "E",
+        "premises": [
+          11,
+          31,
+          32
+        ],
+        "substitution": [
+          "y",
+          "t",
+          "z",
+          "p",
+          "q"
+        ],
+        "id": 33
+      },
+      {
+        "fact": [
+          "p",
+          "q",
+          "r"
+        ],
+        "rule": "E",
+        "premises": [
+          33,
+          22,
+          1
+        ],
+        "substitution": [
+          "t",
+          "p",
+          "q",
+          "q",
+          "r"
+        ],
+        "id": 34
+      },
+      {
+        "fact": [
+          "p",
+          "q",
+          "s"
+        ],
+        "rule": "E",
+        "premises": [
+          33,
+          23,
+          2
+        ],
+        "substitution": [
+          "t",
+          "p",
+          "q",
+          "q",
+          "s"
+        ],
+        "id": 35
+      },
+      {
+        "fact": [
+          "p",
+          "q",
+          "p"
+        ],
+        "rule": "E",
+        "premises": [
+          14,
+          34,
+          35
+        ],
+        "substitution": [
+          "r",
+          "p",
+          "s",
+          "q",
+          "p"
+        ],
+        "id": 36
+      }
+    ]
+  }
+}

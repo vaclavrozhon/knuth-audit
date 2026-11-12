@@ -1,0 +1,437 @@
+{
+  "accessed_utc": "2026-11-04T03:08:03.566922+00:00",
+  "scope": "Own proofs of exercises18–20,22–27,40 and basic integer F/Hensel/modular gcd, excluding Bombieri21/LLL/multivariate455 and unreviewed historical claims.",
+  "book": {
+    "edition": 3,
+    "printing": 1,
+    "printed_pages_visually_read": [
+      450,
+      451,
+      452,
+      453,
+      454,
+      455,
+      457,
+      458,
+      459,
+      460,
+      682,
+      683,
+      684,
+      685,
+      686,
+      690
+    ]
+  },
+  "sources": [
+    {
+      "local": "sources/landau-1905-petrovitch.pdf",
+      "url": "https://www.numdam.org/item/10.24033/bsmf.760.pdf",
+      "printed_pages_visually_read": [
+        251,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259
+      ],
+      "cover_visually_read": true,
+      "scope": "Parseval/Jensen/norm and general product-of-roots bound; remaining pages not audited."
+    }
+  ],
+  "unavailable_sources_log": "sources/integer-factorization-downloads.json",
+  "errata": {
+    "layers": [
+      "all2-prepre",
+      "all2-pre",
+      "all2",
+      "err2",
+      "err2-2e",
+      "err2.textxt"
+    ],
+    "log": "sources/integer-factorization-errata.txt",
+    "new_findings": [
+      "C0213",
+      "C0214",
+      "C0215"
+    ],
+    "precision_candidate": "C0216",
+    "matching_corrections_found": false
+  },
+  "verification": {
+    "result": "results/integer-factorization.json",
+    "completed_blocks": 7,
+    "timed_blocks": 5,
+    "recovered_completed_blocks": [
+      "hensel",
+      "bounds"
+    ],
+    "timed_subtotal_seconds": 0.8638684279867448,
+    "elapsed_total_seconds": null,
+    "timeout_seconds_per_block": 240,
+    "scope": "Two completed general parts recovered from earlier combined runs that later failed; partial times not recorded. Initial normalization/transcription errors and rounding discrepancy retained in logs. Exact checks except explicitly numerical Graeffe norm values; not a performance benchmark."
+  },
+  "artifacts": [
+    {
+      "path": "images/landau-1905-01.png",
+      "bytes": 146084,
+      "sha256": "13193fb5b6b10025f2d93aaf6e165fc10d89014b2d1c748cc4afe81f5a6aea7f"
+    },
+    {
+      "path": "images/landau-1905-02.png",
+      "bytes": 140719,
+      "sha256": "7c4370dbe82a54763894c632e918933258c88846326a044baf1be55edde631c5"
+    },
+    {
+      "path": "images/landau-1905-05.png",
+      "bytes": 156046,
+      "sha256": "b8ed4cf33389d1c09a9e4abe951c30cbe9cd5ef3c8c031b4eb9a689b6844f922"
+    },
+    {
+      "path": "images/landau-1905-06.png",
+      "bytes": 134476,
+      "sha256": "0e36c59aa562ddf72d027575365a6c891158461db22987b394d057e9b31b5c26"
+    },
+    {
+      "path": "images/landau-1905-07.png",
+      "bytes": 188198,
+      "sha256": "744a31317943773cb7675091dcf30936ecf4dc9c70867aba29cb792c4066d1a4"
+    },
+    {
+      "path": "images/landau-1905-08.png",
+      "bytes": 151565,
+      "sha256": "ae4511a242cf9977fa87ee95e42c3d8fd57c8ec33e14e3863877d081b2431f0b"
+    },
+    {
+      "path": "images/landau-1905-09.png",
+      "bytes": 143627,
+      "sha256": "337ea1b3febe3a370251896ec9a5db74edcac1076d0dd642d7004ffb5ea31e9e"
+    },
+    {
+      "path": "images/landau-1905-10.png",
+      "bytes": 111681,
+      "sha256": "d776c25e2e829e72b4b649d75843f9f2a004385c801730ac1ac5f12b945d2616"
+    },
+    {
+      "path": "images/vol2-p450.png",
+      "bytes": 367558,
+      "sha256": "780f6facdea32602af800a2393bb9c2d75a9286e29a1cdc36f2862b6bdd3894b"
+    },
+    {
+      "path": "images/vol2-p451.png",
+      "bytes": 361664,
+      "sha256": "832d418a14585d6082b11b876ffcea0126140e5f896d010a67f35a0946ac2b48"
+    },
+    {
+      "path": "images/vol2-p452.png",
+      "bytes": 347025,
+      "sha256": "20b151ecfcdd68e49adf12503e0b0a1478fcd4543fb79db45f2689c4b316003b"
+    },
+    {
+      "path": "images/vol2-p453.png",
+      "bytes": 357044,
+      "sha256": "3071514afb8a19f165fdb947bc78640350876916271ad9fa9cecff90bcc0f7d2"
+    },
+    {
+      "path": "images/vol2-p454.png",
+      "bytes": 323560,
+      "sha256": "be2a7ba365f5f4225ec231b5dfa1c643ef6fda2b61194687ce4ef7c6175678d5"
+    },
+    {
+      "path": "images/vol2-p455.png",
+      "bytes": 343219,
+      "sha256": "d65d277800dc147b095cebf6cf9fb8d4013b152834d8aab30d5c8c1b7908f206"
+    },
+    {
+      "path": "images/vol2-p457.png",
+      "bytes": 319040,
+      "sha256": "18481aba80c0156e0d3e20a2e529d78ed84f1f3355c4c5611fe4e64403117cbf"
+    },
+    {
+      "path": "images/vol2-p458.png",
+      "bytes": 316552,
+      "sha256": "e115f8649f10a966abdc406f6ddc46a472fdffc1aec9ec070c8b1b75d4d49275"
+    },
+    {
+      "path": "images/vol2-p459.png",
+      "bytes": 337516,
+      "sha256": "d7a20260a475a3806bde87b79deac3b0693d4bc50f97ef9ca4950e8673b3ee41"
+    },
+    {
+      "path": "images/vol2-p460.png",
+      "bytes": 386711,
+      "sha256": "b0833604e2609d5aeafc62a88f411db710409052da6754172516f834e4fbcb6a"
+    },
+    {
+      "path": "images/vol2-p682.png",
+      "bytes": 341991,
+      "sha256": "f383e1eb411660450f2d9785f8d689b97124ea5d810305f8fba1e76566bfae48"
+    },
+    {
+      "path": "images/vol2-p683.png",
+      "bytes": 359775,
+      "sha256": "5590f9e1f63198c99414d6d348a6d96ec470be3ba1256b45128f5ba3a77bda5e"
+    },
+    {
+      "path": "images/vol2-p684.png",
+      "bytes": 336138,
+      "sha256": "9166d26892bf618a427b49a77adff52c61b919aa1bb6c90075e1e72a45d38f00"
+    },
+    {
+      "path": "images/vol2-p685-binary-lift-detail.png",
+      "bytes": 355123,
+      "sha256": "b366d30df7529b9b57857d9143866df04984e631a142e5120562b87d79b5b989"
+    },
+    {
+      "path": "images/vol2-p685.png",
+      "bytes": 398074,
+      "sha256": "ed8d41833b1122519fe7bbcae47456f865dde1821f823f9e48da0f62f3b69356"
+    },
+    {
+      "path": "images/vol2-p686.png",
+      "bytes": 376719,
+      "sha256": "0232e1be8e78774de74643d69265e7b2827cfdd2e3dbac62c7991449637653d9"
+    },
+    {
+      "path": "images/vol2-p690.png",
+      "bytes": 389228,
+      "sha256": "fc27f84b81f4989eb063a89b73a6aa91b6e2792415fab6d4f720c09dbe932034"
+    },
+    {
+      "path": "notes/C0213-discriminant-degree-drop.md",
+      "bytes": 988,
+      "sha256": "9375ab5fdbab4dd7ff531e591ccf0dc856bdf331ff45665642e584ad4b14c570"
+    },
+    {
+      "path": "notes/C0214-graeffe-limit-phase.md",
+      "bytes": 914,
+      "sha256": "e348bcf39f4be0384fd3cd881cf79901e2a2cce836afeb87641d00cb9fd3bfc7"
+    },
+    {
+      "path": "notes/C0215-weak-bound-constant-filter.md",
+      "bytes": 1161,
+      "sha256": "ed4f0dcb0be934f37018fab3dc5f22eb64da669c16579e59ee5994c743d6f294"
+    },
+    {
+      "path": "notes/C0216-graeffe-table-rounding.md",
+      "bytes": 966,
+      "sha256": "40dbaeecd8151f4860f0f7febae1adaff0145b8859f63661bf566b5bb7a0cf73"
+    },
+    {
+      "path": "notes/integer-factorization.md",
+      "bytes": 20800,
+      "sha256": "e1141459a72284c10c4637b165158940b0d5b844613331d54219d1a84d55277c"
+    },
+    {
+      "path": "reports/C0213-discriminant-degree-drop-draft.txt",
+      "bytes": 688,
+      "sha256": "b82535bad32608e8834e278836d31eae88698d69a7186585bbb03d0bbc828da0"
+    },
+    {
+      "path": "reports/C0214-graeffe-limit-phase-draft.txt",
+      "bytes": 644,
+      "sha256": "0141fb1377b7862284a5e8fe06e95728a4116e64af9fbbdc6c2cf47edc4de1d8"
+    },
+    {
+      "path": "reports/C0215-weak-bound-constant-filter-draft.txt",
+      "bytes": 952,
+      "sha256": "14bf380ea4954d21769479bc15f3066578468fbfab512a07d09d03c06a2bc83b"
+    },
+    {
+      "path": "reports/C0216-graeffe-table-rounding-draft.txt",
+      "bytes": 631,
+      "sha256": "3b6f24bac0c73ab87461310b549d13098c113c028cf913414401a107fb84cebb"
+    },
+    {
+      "path": "results/integer-factorization-basic.log",
+      "bytes": 341,
+      "sha256": "814305a6482d94ac412ac1241336e3488442014ea3b65e212322ea4dd6bbe5a2"
+    },
+    {
+      "path": "results/integer-factorization-bounds-rounding.log",
+      "bytes": 720,
+      "sha256": "fb113e7a9a0c5573df9ae208cf00ef0686a7fdae2ec9e04ac9beb4808dc32729"
+    },
+    {
+      "path": "results/integer-factorization-graeffe.log",
+      "bytes": 986,
+      "sha256": "ebf761e6b2af5954c5e885ac52ec3f0acc1c99a36b2ee25bb9ee4e8c0f65afbe"
+    },
+    {
+      "path": "results/integer-factorization-hensel-initial.log",
+      "bytes": 1358,
+      "sha256": "4b6bfd766827f881384ca3ec7047d0c4551c4e45934594c43206c2ac228bff48"
+    },
+    {
+      "path": "results/integer-factorization-hensel-transcription.log",
+      "bytes": 640,
+      "sha256": "a5ff93df376a00ab4d1be8de3de3f03e2687e926bfc93a63ace929a88f1b6f29"
+    },
+    {
+      "path": "results/integer-factorization-hensel_book.log",
+      "bytes": 208,
+      "sha256": "ee321f4579076633d7a4f1d5db108b1ebee61d59266f0b7ec1839a7dc0046a18"
+    },
+    {
+      "path": "results/integer-factorization-modular.log",
+      "bytes": 364,
+      "sha256": "336374cd4d7de065d9b45b3f3f69194a2b38c9d792e336c147522522fdc368f3"
+    },
+    {
+      "path": "results/integer-factorization-recombine.log",
+      "bytes": 464,
+      "sha256": "645682ad447c8be1b68a4bc0b51c1e4c916e4cdcd2aa439348040f7e229ffb1d"
+    },
+    {
+      "path": "results/integer-factorization.json",
+      "bytes": 5032,
+      "sha256": "da5b530c1573abedd6c38a09ec773d951c0e2d7914c452dc69d47952f18275b2"
+    },
+    {
+      "path": "sources/integer-factorization-downloads.json",
+      "bytes": 1080,
+      "sha256": "2e29ac572836706b78dfd62cbf150a4393ecbbd53d84a244b034b5300e9a47e6"
+    },
+    {
+      "path": "sources/integer-factorization-errata.txt",
+      "bytes": 50065,
+      "sha256": "d11d19a2a7729ff836433e4f7c923c648f89d8bf0785a7eccdf73f9f89a77b11"
+    },
+    {
+      "path": "sources/integer-factorization-p450.txt",
+      "bytes": 3017,
+      "sha256": "d656f063e1da71dac3c928f631b6edfa6e7edcab57b0f5fb82707bafb7e22bfa"
+    },
+    {
+      "path": "sources/integer-factorization-p451.txt",
+      "bytes": 3169,
+      "sha256": "ca7c7c91179a3b46ffdab6d4e4dfdec8d6d06fc143ac305c0799748f780f8705"
+    },
+    {
+      "path": "sources/integer-factorization-p452.txt",
+      "bytes": 3074,
+      "sha256": "fe2b5bc2312aa0f5cdd75c610979b4b4976ac66dc92a75ac77daf582d24ba395"
+    },
+    {
+      "path": "sources/integer-factorization-p453.txt",
+      "bytes": 3131,
+      "sha256": "75a29bcd8089345af1612aba4464305b59edbb45dfdae1de86465e81f61f2342"
+    },
+    {
+      "path": "sources/integer-factorization-p454.txt",
+      "bytes": 2704,
+      "sha256": "d2ab71fbaa82bec29ea664926b5c73a9431e75f405ffe6fe4b274e03b0c9d10f"
+    },
+    {
+      "path": "sources/integer-factorization-p455.txt",
+      "bytes": 3092,
+      "sha256": "6986ab885ae5b3a95dcf3398c69e369c940378799b2f51dce8cd817a9bc4e771"
+    },
+    {
+      "path": "sources/integer-factorization-p456.txt",
+      "bytes": 3154,
+      "sha256": "3f8c53465a0fdfce66214ee903dfe0c8a04ff67803173117ae4a4fd58959f000"
+    },
+    {
+      "path": "sources/integer-factorization-p457.txt",
+      "bytes": 3041,
+      "sha256": "ba3f8e04ca52c3167fb655d0c63f35fae4898a4130d0f111ece1a7a9d36d71e8"
+    },
+    {
+      "path": "sources/integer-factorization-p458.txt",
+      "bytes": 2791,
+      "sha256": "73eb3fb859a84833e482467781824de849752c33a90637ef95531f6b611f0a81"
+    },
+    {
+      "path": "sources/integer-factorization-p459.txt",
+      "bytes": 3217,
+      "sha256": "0a481e63f0de7c351b97f22f240ac2f9a86d59b3f2dfe8e142c230f95dedf8da"
+    },
+    {
+      "path": "sources/integer-factorization-p460.txt",
+      "bytes": 3724,
+      "sha256": "16809983adbff66b8d724310ffba711cb70924614a3433a0cd0d16a966338bce"
+    },
+    {
+      "path": "sources/integer-factorization-p461.txt",
+      "bytes": 3294,
+      "sha256": "2c9fb4a06b438e1a8e614056db9ad1e35237bef7771d314f620521587eb55566"
+    },
+    {
+      "path": "sources/integer-factorization-p682.txt",
+      "bytes": 3233,
+      "sha256": "f7e8fc3569cbd0665545f03cf34c279ffe60c157002a11b74b17c94261239693"
+    },
+    {
+      "path": "sources/integer-factorization-p683.txt",
+      "bytes": 3275,
+      "sha256": "97ab230e22d8512aaa9fd2ab41e4e5f1bd919113198087d63ff5fcd9d743b36a"
+    },
+    {
+      "path": "sources/integer-factorization-p684.txt",
+      "bytes": 2615,
+      "sha256": "c9cf1a586400d394fc72ea807fbf1ee3cf93376f9cd9d04f3a38e8f853bc2776"
+    },
+    {
+      "path": "sources/integer-factorization-p685.txt",
+      "bytes": 3767,
+      "sha256": "0ac3e6660a827e15fc0d006c980a7137519a29db0c69531aa2ad10593ace3cf0"
+    },
+    {
+      "path": "sources/integer-factorization-p686.txt",
+      "bytes": 3593,
+      "sha256": "e952394c6b5dad1a404d69f4092dd6f53335bbc6be2cce4c52de8f1942651985"
+    },
+    {
+      "path": "sources/integer-factorization-p688.txt",
+      "bytes": 3755,
+      "sha256": "96e73b187766be75c867affcec7d20e2cb5e54047d43199e266eb233221b0a46"
+    },
+    {
+      "path": "sources/integer-factorization-p689.txt",
+      "bytes": 3776,
+      "sha256": "7ab64021a0321ddff01031d6341afdbfb28cb3309be331fdc8c7c8938ad0dfbb"
+    },
+    {
+      "path": "sources/integer-factorization-p690.txt",
+      "bytes": 3911,
+      "sha256": "fc2842eb976f9069ef4bb3b4f775855a23e673654a433b9087d0765f348660d8"
+    },
+    {
+      "path": "sources/landau-1905-petrovitch.pdf",
+      "bytes": 528835,
+      "sha256": "12affba234bd4c8a75d31b6b8f357340c8976e7f49efb6db7b00fc1c92fa6341"
+    },
+    {
+      "path": "sources/landau-1905-petrovitch.txt",
+      "bytes": 18340,
+      "sha256": "27ea727b031c1e68e793fdf5abcd1c5fa7f2bd3ae162b2f3804db7c545a7eb8b"
+    },
+    {
+      "path": "sources/polynomial-factorization-errata.txt",
+      "bytes": 71419,
+      "sha256": "f89710743f4d0e130086a9c10b5be38f0932a97aa58792de07ed570ab10a4c72"
+    },
+    {
+      "path": "verify_berlekamp.py",
+      "bytes": 18458,
+      "sha256": "54b821a8c5b66725c67f1d7a63005ca429b5e26ea6aaa003b9158f8ea4462543"
+    },
+    {
+      "path": "verify_euclid_reconstruction.py",
+      "bytes": 3490,
+      "sha256": "d96a05d4261ceb835cc99c40d4662c5a767c0e93329bcf0cdd44bd8e760e1e52"
+    },
+    {
+      "path": "verify_fast_sturm.py",
+      "bytes": 13606,
+      "sha256": "126e5345b76f17096318143bf0a08420aeb3e9003666d6ed50bceaf53dc93635"
+    },
+    {
+      "path": "verify_integer_factorization.py",
+      "bytes": 17995,
+      "sha256": "2af302930d1fc8036998e6fcf8f56482c9e79ef99f1c81b37fd247f732a1d863"
+    }
+  ]
+}

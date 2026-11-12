@@ -1,0 +1,332 @@
+{
+  "accessed_at_utc": "2026-11-03T20:21:00.615773+00:00",
+  "scope": "Exercise44 and both versions of47; sevenrelatedmessages405. New challenge not solved.",
+  "book_visually_read": [
+    405,
+    417,
+    669,
+    670
+  ],
+  "errata_visually_read": [
+    "all2-pre file11",
+    "all2-pre file16"
+  ],
+  "downloads_manifest": "sources/rsa-advanced-downloads.json",
+  "primary_reading": [
+    {
+      "source": "Hastad1986preview",
+      "pages": "403visual",
+      "result": "1986footer/copyright,abstract"
+    },
+    {
+      "source": "Hastadlaterauthorversion",
+      "pages": "Introduction,sections2–3,Application1;text;3–5visual",
+      "result": "LLLbound,rootreduction,smallerlattice;notfullpaperaudit"
+    },
+    {
+      "source": "Knuthnews2012",
+      "url": "https://www-cs.stanford.edu/~knuth/news12.html",
+      "scope": "New Secret Message section"
+    },
+    {
+      "source": "NFSHomeNews",
+      "url": "https://escatter11.fullerton.edu/nfs/old_news.php",
+      "scope": "5Aug/15Sep2012 announcements;forum373/374loginredirect,notread"
+    },
+    {
+      "source": "FactorDB",
+      "scope": "Proposed old factors independentlycertified; replacementC does notproveglobalunsolvedstatus"
+    },
+    {
+      "source": "sytelustaocp",
+      "scope": "Independent2026reproductionusedasnavigational/transcriptionaid;allownnumbersreverified"
+    }
+  ],
+  "errata_search": {
+    "date": "2026-11-03T20:21:00.615773+00:00",
+    "files": [
+      "../../errata/text/all2-prepre.txt",
+      "../../errata/text/all2-pre.txt",
+      "../../errata/text/all2.txt",
+      "../../errata/text/err2.txt",
+      "../../errata/originals/err2.textxt"
+    ],
+    "terms": [
+      "417",
+      "669",
+      "670",
+      "671",
+      "218",
+      "Hastad",
+      "Håstad",
+      "44",
+      "47",
+      "low exponent"
+    ],
+    "known_corrections": [
+      "417replacement47and671newanswer23Oct2012"
+    ],
+    "new_findings": [
+      "V2-C0168"
+    ]
+  },
+  "checks": {
+    "lattice": {
+      "status": "passed",
+      "seconds": 3.1400444770115428
+    },
+    "challenge": {
+      "status": "passed",
+      "seconds": 1.2492859560297802
+    },
+    "integer_roots": {
+      "status": "passed",
+      "seconds": 3.1667100350023247
+    }
+  },
+  "counts": {
+    "lattice_cases": 9,
+    "transform_entries": 870,
+    "root_bisection_nodes": 1561,
+    "root_extra_cases": 4,
+    "prime_factors": 3,
+    "ecpp_links": 19,
+    "terminal_lucas_primes": 35
+  },
+  "processes": [
+    {
+      "label": "rsa-advanced",
+      "pid": 1301446,
+      "command": "PYTHONPATH=/tmp/knuth-vol2-or9kgh/python-deps timeout 240 python3 -u workstreams/vol2/verify_rsa_advanced.py",
+      "time_limit_seconds": 240,
+      "started_at_utc": "2026-11-03T20:14:52.575741+00:00",
+      "log": "results/rsa-advanced-serialization-error.log",
+      "checkpoints": "results/rsa-advanced.json",
+      "status": "failed",
+      "scope": "Exact lattice validation nine cases and original/replacement challenge; three prime certificates proposed separately by GP.",
+      "exit_code": 1,
+      "tool_session": 12935,
+      "child_pid": 1301447,
+      "finished_at_utc": "2026-11-03T20:15:48.414345+00:00",
+      "failure": "All9 lattice cases printed passed, but checkpoint JSON failed Python4300digit conversion limit. No result values survived; rerun required to produce reviewable certificate after serialization fix."
+    },
+    {
+      "label": "rsa-advanced",
+      "pid": 1301558,
+      "command": "PYTHONPATH=/tmp/knuth-vol2-or9kgh/python-deps timeout 240 python3 -u workstreams/vol2/verify_rsa_advanced.py",
+      "time_limit_seconds": 240,
+      "started_at_utc": "2026-11-03T20:15:48.531164+00:00",
+      "log": "results/rsa-advanced.log",
+      "checkpoints": "results/rsa-advanced.json",
+      "status": "completed",
+      "scope": "Rerun after JSONinteger digitlimit failure; math unchanged, missing reviewable lattice outputs needed.",
+      "exit_code": 0,
+      "tool_session": 21055,
+      "child_pid": 1301559,
+      "finished_at_utc": "2026-11-03T20:17:03.171042+00:00"
+    },
+    {
+      "label": "rsa-advanced-roots",
+      "pid": 1301690,
+      "command": "PYTHONPATH=/tmp/knuth-vol2-or9kgh/python-deps timeout 60 python3 -u workstreams/vol2/verify_rsa_advanced.py",
+      "time_limit_seconds": 60,
+      "started_at_utc": "2026-11-03T20:17:03.290047+00:00",
+      "log": "results/rsa-advanced-roots.log",
+      "checkpoints": "results/rsa-advanced.json",
+      "status": "completed",
+      "scope": "New third checkpoint only: independent exact Sturm recovery of integer roots, previous successful lattice/challenge checkpoints skipped.",
+      "exit_code": 0,
+      "tool_session": 9193,
+      "child_pid": 1301691,
+      "finished_at_utc": "2026-11-03T20:20:33.710440+00:00"
+    }
+  ],
+  "limitations": [
+    "LLL algorithmic theorem and Sturm root counting external standard inputs",
+    "New318digit challenge not factored/decrypted",
+    "Direct NFS forum login required; only public news read",
+    "Physical latest printing and priority not verified"
+  ],
+  "artifacts": [
+    {
+      "file": "images/all2-pre-rsa-advanced-p11.png",
+      "bytes": 175587,
+      "sha256": "c152e066e5074f119f116a003c3b6a62f6ad31f20571c00191a5f961144f7ff2"
+    },
+    {
+      "file": "images/all2-pre-rsa-advanced-p16.png",
+      "bytes": 171426,
+      "sha256": "5193734ed74390c8e39f6ae3f7dc8174dc3e8b402974dd925b96d6ded3c29bc4"
+    },
+    {
+      "file": "images/hastad-1986-preview-p1.png",
+      "bytes": 131248,
+      "sha256": "85b6e9b3d48d13aa1c4c6744a85c725f8fc0b0daeab1882f3b89f6793b43a1bb"
+    },
+    {
+      "file": "images/hastad-low-degree-author-p3.png",
+      "bytes": 162241,
+      "sha256": "df854a3f2a7cbb870c7d8c6a9cfd9bfe9170bf1fcc4e0c587ebe6b41f44b28a9"
+    },
+    {
+      "file": "images/hastad-low-degree-author-p4.png",
+      "bytes": 136949,
+      "sha256": "02076d8f525e9304c1250ef7139b329c9fde750a2d36bcd237c8287527b86756"
+    },
+    {
+      "file": "images/hastad-low-degree-author-p5.png",
+      "bytes": 161382,
+      "sha256": "d80e30b5356b3a08330109ce2577fe806481480fbe4bac7a172da6621596e29f"
+    },
+    {
+      "file": "images/vol2-p405.png",
+      "bytes": 802583,
+      "sha256": "c7b274aa72d4daf3dfa4e93170a2b18eb9ba713ad9c865f7fe532a14d3c3955d"
+    },
+    {
+      "file": "images/vol2-p417.png",
+      "bytes": 423595,
+      "sha256": "bfa53ad49eecb2cd3cca44dfab3cf5c48f364f28911a2f5d632ea30c04fc677e"
+    },
+    {
+      "file": "images/vol2-p669.png",
+      "bytes": 686748,
+      "sha256": "b41fd874ca271d6ac532a83694dce8aa1f92a9280ce35f7a6658b57e2426fc6e"
+    },
+    {
+      "file": "images/vol2-p670.png",
+      "bytes": 617444,
+      "sha256": "c55cb1df3aa9b3f2d6b175a6adfc14f14cc78adb732093efa253bfc0b0fee112"
+    },
+    {
+      "file": "notes/C0168-hastad-year.md",
+      "bytes": 1191,
+      "sha256": "bad64908f95f9c0dc4a44245087e72221f0907c19683c80cd235e49214bd6006"
+    },
+    {
+      "file": "notes/rsa-advanced.md",
+      "bytes": 10994,
+      "sha256": "a466ca7f8d115bf92c6bcbf2df177a06c20f4cdc23d304d6fa9638c5fd1a6dc2"
+    },
+    {
+      "file": "reports/C0168-hastad-year-draft.txt",
+      "bytes": 818,
+      "sha256": "3a6de853443d4715efbac29db69193f64706e31eb52cefa966ff1b19ae2a9318"
+    },
+    {
+      "file": "results/rsa-advanced-roots.log",
+      "bytes": 146,
+      "sha256": "e7d03b46063052fac1671d6b7ec493a9dd53cde7c32bb24de3633e33bcf013f1"
+    },
+    {
+      "file": "results/rsa-advanced-serialization-error.log",
+      "bytes": 1939,
+      "sha256": "e2e2b85797fcafb4ae035b5ded2f4b9c4615a4f83d7d6b76c3fc2fe98d2d673f"
+    },
+    {
+      "file": "results/rsa-advanced.json",
+      "bytes": 70376,
+      "sha256": "65be7becf44d9d80c71870c2d2114ff64636ce30a366dc4f1ca5f249743b2d7a"
+    },
+    {
+      "file": "results/rsa-advanced.log",
+      "bytes": 502,
+      "sha256": "879ffd1146ecfa7576b65ad69e17790d63719d0e3f43cf4b5b658d9699b9c750"
+    },
+    {
+      "file": "results/rsa47-certificates.json",
+      "bytes": 7013,
+      "sha256": "24f7f91764a61b101fcf65596aa16123f5e851262df9d1d2c6247227cacf7ce8"
+    },
+    {
+      "file": "results/rsa47-original-plaintext.txt",
+      "bytes": 173,
+      "sha256": "de2d8046eb74514912d980390f07dcf4b3303484699d12a0d094a9b65524a603"
+    },
+    {
+      "file": "sources/hastad-1986-preview.pdf",
+      "bytes": 120365,
+      "sha256": "4b257047eabb81c621c4b105c26bc0d737c28d9b3c43aa6f3258af4daf7f680b"
+    },
+    {
+      "file": "sources/hastad-1986-preview.txt",
+      "bytes": 6321,
+      "sha256": "19331a32d9dbc642e73915b7f4f37d3e1365c00af158d130ec7247915c4e368c"
+    },
+    {
+      "file": "sources/hastad-1986-publisher.html.gz",
+      "bytes": 55520,
+      "sha256": "e34b4f11ee7ef2be591160fb233dedd91c3d4a351849118ac872171a077215c2"
+    },
+    {
+      "file": "sources/hastad-low-degree-author.pdf",
+      "bytes": 154741,
+      "sha256": "fb699c243c4e4dba162b82e3dde03cb2f0eea8b0465bf38801c812150598dccb"
+    },
+    {
+      "file": "sources/hastad-low-degree-author.txt",
+      "bytes": 22489,
+      "sha256": "74aa50c7f1b1422ca81959a56f4d3ad64429d93091c638fa1d8cba8e1b64b7cd"
+    },
+    {
+      "file": "sources/knuth-newn-decimal.txt",
+      "bytes": 989,
+      "sha256": "9ef1cfa4bb9b0c3bfb9edbc164643e79cf4ffdbd77e8f421a04b29adf727f2f0"
+    },
+    {
+      "file": "sources/knuth-newn-hex.txt",
+      "bytes": 827,
+      "sha256": "a43a569903d99c26a08ec0f4012ba9dea3bb3844e770266627b0d91c3234e217"
+    },
+    {
+      "file": "sources/knuth-news2012.html.gz",
+      "bytes": 5707,
+      "sha256": "db8703f77d6f75f7ce0943bd8947fd2b4cfd802fcdc931898554e3c256d6e986"
+    },
+    {
+      "file": "sources/nfs-news.html.gz",
+      "bytes": 25597,
+      "sha256": "e5854660660f5c58ed6c802e90a6300599f0263c5844cb5f6daeed3a5b2e61fd"
+    },
+    {
+      "file": "sources/rsa-advanced-downloads.json",
+      "bytes": 4493,
+      "sha256": "8324c45c6147d0ed65adab68bc7a4d6d28fa4bf3bc13274b75956b933a3fbef3"
+    },
+    {
+      "file": "sources/rsa47-factordb-original.json",
+      "bytes": 286,
+      "sha256": "d969722d5babcffc8cfe41f79141db8e5369fd22182a656ea27a8b81a96a93b0"
+    },
+    {
+      "file": "sources/rsa47-factordb-replacement.json",
+      "bytes": 376,
+      "sha256": "69e88472fa55492ffbf3a1fa251aede08ea4cae4e7928d675034adfa45e4753e"
+    },
+    {
+      "file": "sources/rsa47-independent-reproduction.md",
+      "bytes": 3382,
+      "sha256": "ee99630a37453679d2014bf34b699ab36972cc82144a51740ac09861f3c32075"
+    },
+    {
+      "file": "sources/rsa47-inputs.json",
+      "bytes": 2500,
+      "sha256": "b66a276d9dc232edd6e6372316ba162665024df8665f4327138ef290b991799b"
+    },
+    {
+      "file": "verify_rsa_advanced.py",
+      "bytes": 12296,
+      "sha256": "df5781f872bf83aec319dfa8439a3bb8cda79ce83b1f7f247292c70d40198154"
+    },
+    {
+      "file": "sources/knuth-newn-decimal.txt.gz",
+      "bytes": 534,
+      "sha256": "1599da9fa8151e8ff4dc23842842b11d9179ebfe4198f2cdb35a2542dfde0561"
+    },
+    {
+      "file": "sources/knuth-newn-hex.txt.gz",
+      "bytes": 496,
+      "sha256": "470dbf1b39a02c622c6cf29e678bcad963240ec1da6b344f379bba9412e7e531"
+    }
+  ]
+}

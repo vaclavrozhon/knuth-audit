@@ -1,0 +1,118 @@
+{
+  "accessed_utc": "2026-11-03T13:36:52.547065+00:00",
+  "scope": "Own general proof of Collins63 via elementary Dixon density; primary normalization check of Porter60, confirmed C0145 epsilon range and C0146 variance notation. Lochs1961 historical addition remains pending.",
+  "book_visual": [
+    "images/vol2-p369.png",
+    "images/vol2-p370.png",
+    "images/vol2-p372.png",
+    "images/vol2-p373.png",
+    "images/euclid-average-errata-p20.png"
+  ],
+  "sources": [
+    {
+      "url": "https://www.cs.drexel.edu/~johnsojr/2012-13/fall/cs300/resources/Collins1974.pdf",
+      "doi": "10.1137/0203001",
+      "files": [
+        {
+          "file": "sources/collins-1974-euclidean.pdf",
+          "bytes": 1023610,
+          "sha256": "08e54d162f654eb983d019c20e8192d1893e5e3946b9f6e2498253e18003a185"
+        },
+        {
+          "file": "sources/collins-1974-euclidean.txt",
+          "bytes": 29611,
+          "sha256": "e96643966724860d9e6a2c91dbea8b5bdf9da53a099dff0059a1817b20660cb3"
+        }
+      ],
+      "read_scope": "All10 pages textually; original6-10 visually. Definitions17/18, Theorems3/4/6-9 checked; own proof uses corrected reciprocal zeta factor and lower count, not source typographical slips.",
+      "retrieval_note": "Server certificate chain could not be verified by urllib or system curl. Public PDF retrieved with per-request curl -k; no persistent TLS configuration changed."
+    },
+    {
+      "url": "https://www.cs.drexel.edu/~jjohnson/2017-18/winter/cs300/resources/Dixon1971.pdf",
+      "doi": "10.1080/00029890.1971.11992763",
+      "files": [
+        {
+          "file": "sources/dixon-1971-estimate.pdf",
+          "bytes": 848418,
+          "sha256": "e584cb73ca10dee06a56ead8ac8154a52eb9b934496bcb0e5610b56073d62c68"
+        },
+        {
+          "file": "sources/dixon-1971-estimate.txt",
+          "bytes": 999,
+          "sha256": "911b0664036e9b156b087b89840f49c90a4e1713b2067ffef3e684046d4e68e8"
+        }
+      ],
+      "read_scope": "All article material printed374-376 (PDF2-4) visually read. PDF text layer has only footer/legal text; not treated as article OCR. Elementary proof reconstructed in note.",
+      "retrieval_note": "Same per-request TLS exception as Collins for public Drexel copy."
+    },
+    {
+      "url": "https://arxiv.org/pdf/1502.07616v1",
+      "version_date": "2015-02-26",
+      "files": [
+        {
+          "file": "sources/morris-euclid-1502.07616.pdf",
+          "bytes": 271174,
+          "sha256": "81bc47430b5bf5bcf37777a05a0f45a5583efac46582cccf155cfea161e31b17"
+        },
+        {
+          "file": "sources/morris-euclid-1502.07616.txt",
+          "bytes": 85165,
+          "sha256": "5b710c7706a4bc79087c71080d72f6fbfd08910ed59db3e8a87206fd664a5d6c"
+        }
+      ],
+      "read_scope": "Introduction and result statement; section5 moment argument14-18 textually, 2/3/14/16/17/18 visually. External support for corrected random variable and moment limit; entire spectral/Tauberian proof not independently audited."
+    },
+    {
+      "url": "https://www.mathnet.ru/php/getFT.phtml?jrnid=sm&option_lang=eng&paperid=8718&what=fullteng",
+      "doi": "10.1070/SM8718",
+      "read_scope": "Web PDF text of introduction644-646, equations1-3 and Theorems1/2. Exact +1 normalization and constant compared to book. Forty-page proof not independently checked.",
+      "access": "Web open/click returned PDF text; local curl403, no local PDF. Screenshots failed or returned no visible image; no visual reading claimed."
+    },
+    {
+      "url": "https://londmathsoc.onlinelibrary.wiley.com/doi/pdf/10.1112/S0025579300004459",
+      "doi": "10.1112/S0025579300004459",
+      "read_scope": "Publisher bibliographic metadata only:1975,22(1),20-28. PDF link redirected to abstract page; original proof not obtained."
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0747717108800363",
+      "doi": "10.1016/S0747-7171(08)80036-3",
+      "read_scope": "Publisher indexed abstract and metadata only: Norton1990,10(1),53-58, uniform square model. Broken formula rendering not used as exact source; constant independently derived earlier."
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022314X84710882",
+      "doi": "10.1006/jnth.1994.1088",
+      "read_scope": "Publisher indexed abstract specifies all pairs with bounded larger input, positive log variance. Full page fetch403, original paper not obtained."
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/0022314X70900442",
+      "doi": "10.1016/0022-314X(70)90044-2",
+      "read_scope": "Publisher indexed metadata only; direct fetch403. Strong concentration not independently reproved; own1971 recap visually available."
+    }
+  ],
+  "errata": {
+    "files": [
+      "../../errata/text/all2-prepre.txt",
+      "../../errata/text/all2-pre.txt",
+      "../../errata/text/all2.txt",
+      "../../errata/text/err2.txt",
+      "sources/err2.textxt"
+    ],
+    "known_entries": [
+      "2000-01-13 p372 correction57 and Lochs priority; p373 Norton attribution",
+      "2000-02-07 p373 equality sign",
+      "2005-05-21 p373 variance addition itself contains C0146"
+    ],
+    "no_later_correction_found": [
+      "C0145 epsilon range",
+      "C0146 variance of tau_n"
+    ]
+  },
+  "numeric_runs": [],
+  "access_limits": [
+    "Porter original proof unavailable",
+    "Dixon1970 and Hensley1994 full originals unavailable",
+    "Bykovskii-Frolenkov only introductory PDF text read",
+    "Lochs eudml.org/doc/177113403; separate public GDZ holding discovered for next block"
+  ],
+  "physical_printing_and_priority": "Not verified; reports are unsent drafts."
+}

@@ -1,0 +1,77 @@
+{
+  "checked_at_utc": "2026-11-07T00:25:28.228156+00:00",
+  "sources": [
+    {
+      "url": "https://www.gtfp.cs.rhul.ac.uk/pulskamp/NBernoulli/correspondence_petersburg_game.pdf",
+      "local_file": "audit-2026-10-31/sources/nicolaus-bernoulli-1713-correspondence.pdf",
+      "sha256": "dc6770d316eb0aba52c8a2bced14ac417a40b57dd61846c4f4f5e15c34b0b1a8",
+      "bytes": 161049,
+      "inspected_file_pages": [
+        1
+      ],
+      "verified_scope": "Primary translated letter of9September1713; geometric-payment question and explicit originalp402 attribution. Full original Montmort edition not inspected."
+    },
+    {
+      "url": "https://theparticle.com/cs/bc/dsci/Bernoulli_1738.pdf",
+      "local_file": "audit-2026-10-31/sources/daniel-bernoulli-1738-1954-translation.pdf",
+      "sha256": "e998b9d83bc936a684a428bfac2e08f75590f7b3147e6436af89dc33b396fc0a",
+      "bytes": 470630,
+      "inspected_file_pages": [
+        2,
+        10
+      ],
+      "verified_scope": "Translated primary article, printedp23/p31: original volumeV andpp175–192, cousin attribution, Montmortp402 and geometric-payment paradox. Entire utility theory and original dated volume not audited."
+    },
+    {
+      "url": "https://unina2.on-line.it/sebina/repository/catalogazione/documenti/An%20Introduction%20To%20Probability%20Theory%20And%20Its%20Applications%202.pdf",
+      "local_file": "audit-2026-10-31/sources/feller1971-vol2-contents.pdf",
+      "sha256": "38fc9923795040b4e248d375ef49bc7c2abfca15d2c6f85cea4eed182b0f3102",
+      "bytes": 108397,
+      "inspected_file_pages": [
+        5
+      ],
+      "verified_scope": "University table of contents: existence and heading ofXII.2. Edition1971/second edition read fromPDF title metadata; section body not inherited."
+    }
+  ],
+  "bibliography_skips": [
+    {
+      "exercise": "MPR:67",
+      "file_pages": [
+        400
+      ],
+      "reference": "Casanova, Histoire de ma vie: loss in1754 and the name martingale",
+      "reason": "The precise autobiographical passage was not immediately available; the historical assertion is not verified.",
+      "mathematical_dependency": false
+    },
+    {
+      "exercise": "MPR:67",
+      "file_pages": [
+        400
+      ],
+      "reference": "Montmort1713, original p402 beyond the inspected primary correspondence translation",
+      "reason": "The translated letter and its page attribution are checked; the original entire edition was not inspected.",
+      "mathematical_dependency": false
+    },
+    {
+      "exercise": "MPR:67",
+      "file_pages": [
+        400
+      ],
+      "reference": "Original1730/1731 dating of Bernoulli volumeV and historical origin of the name St.Petersburg paradox",
+      "reason": "The inspected1954 primary translation verifies author/content, volumeV, pp175–192 and publication1738; original volume dating and causal naming history were not fully checked. No bibliographic error is asserted.",
+      "mathematical_dependency": false
+    },
+    {
+      "exercise": "MPR:68",
+      "file_pages": [
+        401
+      ],
+      "reference": "Feller, Volume2, second edition1971, SectionXII.2, exact content",
+      "reason": "Edition and section heading confirmed in university table of contents. The section text was not immediately available; the full mathematical proof is supplied locally.",
+      "mathematical_dependency": false
+    }
+  ],
+  "new_calculations": 0,
+  "old_runs_repeated": 0,
+  "download_note": "The initial probabilityandfinance download returned403; the corresponding primary translation was successfully saved from the university mirror. Other two PDFs also saved and hashed."
+}

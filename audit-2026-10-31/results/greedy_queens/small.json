@@ -1,0 +1,94 @@
+{
+  "status": "verified",
+  "checked_at_utc": "2026-11-01T18:45:56.050668+00:00",
+  "source_sha256": "d469de51f58a12fa6eb6392c389fc02861d14d1f6f8ea2c1707b8cff1f37d320",
+  "mex_cells": 12720,
+  "mex_algorithms": "Literal four-set recurrence and independent four-line color sets",
+  "greedy_terms": 10000,
+  "book_prefix": [
+    1,
+    3,
+    5,
+    2,
+    4,
+    9,
+    11,
+    13,
+    15,
+    6,
+    8,
+    19,
+    7,
+    22,
+    10,
+    25,
+    27,
+    29,
+    31,
+    12,
+    14,
+    35,
+    37,
+    39,
+    41,
+    16,
+    18,
+    45
+  ],
+  "corrected_index_checks": 75,
+  "counterexample": {
+    "i": 2,
+    "q_i": 3,
+    "a_i_qi": 5,
+    "a_qi_i": 1,
+    "top_left_4x4": [
+      [
+        1,
+        3,
+        2,
+        6
+      ],
+      [
+        2,
+        4,
+        5,
+        1
+      ],
+      [
+        3,
+        1,
+        6,
+        2
+      ],
+      [
+        4,
+        2,
+        3,
+        5
+      ]
+    ]
+  },
+  "bit_accesses": {
+    "histogram": {
+      "3": 4246,
+      "4": 1224,
+      "6": 89,
+      "7": 751,
+      "8": 1386,
+      "9": 1270,
+      "10": 602,
+      "11": 212,
+      "12": 64,
+      "13": 125,
+      "15": 6,
+      "16": 3,
+      "17": 17,
+      "18": 3,
+      "19": 2
+    },
+    "max": 19,
+    "average": 5.7207
+  },
+  "finding": "F111: answer37(a) needs a[q_i,i]=1, not a[i,q_i]=1.",
+  "scope": "Exact finite checks supplement the general proofs in GREEDY_QUEENS_NOTES.md; the 2026 external computer-assisted theorem is not independently certified here."
+}

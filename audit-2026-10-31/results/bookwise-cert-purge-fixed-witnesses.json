@@ -1,0 +1,65 @@
+{
+  "scope": "Fixed local witnesses only; no independent full CDCL implementation.",
+  "F224": {
+    "input": [
+      "not a"
+    ],
+    "candidate": [],
+    "printed_initialization_finds_conflict": true,
+    "correct_initialization_finds_conflict": false,
+    "satisfying_assignment": {
+      "a": false
+    }
+  },
+  "F225": {
+    "input": [
+      "a",
+      "not a"
+    ],
+    "trail": [
+      "x0",
+      "a"
+    ],
+    "printed_marked_clause_indices": [
+      1
+    ],
+    "correct_marked_clause_indices": [
+      0,
+      1
+    ],
+    "printed_core_has_model": {
+      "a": false
+    }
+  },
+  "F226": {
+    "protected": 2,
+    "tied": 6,
+    "target": 4,
+    "retained_with_omitted_zero_bucket_and_correct_tie_rule": 6,
+    "correct_retained": 4
+  },
+  "F227": {
+    "protected": 2,
+    "tied": 6,
+    "target": 4,
+    "printed_discard": 2,
+    "printed_retained": 6,
+    "correct_discard": 4,
+    "book_example_printed_retained": 3095,
+    "book_example_correct_retained": 3126
+  },
+  "F228": {
+    "current_depth": 0,
+    "printed_accesses_nonexistent_decision_level": 2,
+    "corrected_depth": 0
+  },
+  "F229": {
+    "existing": 6252,
+    "protected": 12,
+    "target": 3126,
+    "printed_number_to_forget": 3114,
+    "printed_retained": 3138,
+    "correct_number_to_forget": 3126,
+    "correct_number_of_unprotected_clauses_to_keep": 3114
+  }
+}

@@ -1,0 +1,786 @@
+{
+  "scope": "Every printed row of the fixed 48-state example, plus five fixed Ising instances of at most 32 configurations each. Not a general proof or parameter sweep.",
+  "source": "sources/file-020.txt",
+  "source_sha256": "98144201a4ecd820fdca742c25503f88ed0286780ffb4a31ef2f7236071657a0",
+  "table_rows": [
+    {
+      "word": "BCAED",
+      "projections": [
+        "BAD",
+        "BE",
+        "CED"
+      ],
+      "membership_bits": [
+        0,
+        1,
+        0
+      ],
+      "printed_energy": -1,
+      "derived_energy": -1
+    },
+    {
+      "word": "BCUED",
+      "projections": [
+        "BUD",
+        "BE",
+        "CED"
+      ],
+      "membership_bits": [
+        1,
+        1,
+        0
+      ],
+      "printed_energy": -2,
+      "derived_energy": -2
+    },
+    {
+      "word": "BLIED",
+      "projections": [
+        "BID",
+        "BE",
+        "LED"
+      ],
+      "membership_bits": [
+        0,
+        1,
+        1
+      ],
+      "printed_energy": -2,
+      "derived_energy": -2
+    },
+    {
+      "word": "SCAED",
+      "projections": [
+        "SAD",
+        "SE",
+        "CED"
+      ],
+      "membership_bits": [
+        0,
+        1,
+        0
+      ],
+      "printed_energy": -1,
+      "derived_energy": -1
+    },
+    {
+      "word": "SCUED",
+      "projections": [
+        "SUD",
+        "SE",
+        "CED"
+      ],
+      "membership_bits": [
+        0,
+        1,
+        0
+      ],
+      "printed_energy": -1,
+      "derived_energy": -1
+    },
+    {
+      "word": "SLIED",
+      "projections": [
+        "SID",
+        "SE",
+        "LED"
+      ],
+      "membership_bits": [
+        0,
+        1,
+        1
+      ],
+      "printed_energy": -2,
+      "derived_energy": -2
+    },
+    {
+      "word": "BCAEN",
+      "projections": [
+        "BAN",
+        "BE",
+        "CEN"
+      ],
+      "membership_bits": [
+        1,
+        1,
+        0
+      ],
+      "printed_energy": -2,
+      "derived_energy": -2
+    },
+    {
+      "word": "BCUEN",
+      "projections": [
+        "BUN",
+        "BE",
+        "CEN"
+      ],
+      "membership_bits": [
+        0,
+        1,
+        0
+      ],
+      "printed_energy": -1,
+      "derived_energy": -1
+    },
+    {
+      "word": "BLIEN",
+      "projections": [
+        "BIN",
+        "BE",
+        "LEN"
+      ],
+      "membership_bits": [
+        0,
+        1,
+        0
+      ],
+      "printed_energy": -1,
+      "derived_energy": -1
+    },
+    {
+      "word": "SCAEN",
+      "projections": [
+        "SAN",
+        "SE",
+        "CEN"
+      ],
+      "membership_bits": [
+        0,
+        1,
+        0
+      ],
+      "printed_energy": -1,
+      "derived_energy": -1
+    },
+    {
+      "word": "SCUEN",
+      "projections": [
+        "SUN",
+        "SE",
+        "CEN"
+      ],
+      "membership_bits": [
+        0,
+        1,
+        0
+      ],
+      "printed_energy": -1,
+      "derived_energy": -1
+    },
+    {
+      "word": "SLIEN",
+      "projections": [
+        "SIN",
+        "SE",
+        "LEN"
+      ],
+      "membership_bits": [
+        1,
+        1,
+        0
+      ],
+      "printed_energy": -2,
+      "derived_energy": -2
+    },
+    {
+      "word": "BCAOD",
+      "projections": [
+        "BAD",
+        "BO",
+        "COD"
+      ],
+      "membership_bits": [
+        0,
+        0,
+        1
+      ],
+      "printed_energy": -1,
+      "derived_energy": -1
+    },
+    {
+      "word": "BCUOD",
+      "projections": [
+        "BUD",
+        "BO",
+        "COD"
+      ],
+      "membership_bits": [
+        1,
+        0,
+        1
+      ],
+      "printed_energy": -2,
+      "derived_energy": -2
+    },
+    {
+      "word": "BLIOD",
+      "projections": [
+        "BID",
+        "BO",
+        "LOD"
+      ],
+      "membership_bits": [
+        0,
+        0,
+        0
+      ],
+      "printed_energy": 0,
+      "derived_energy": 0
+    },
+    {
+      "word": "SCAOD",
+      "projections": [
+        "SAD",
+        "SO",
+        "COD"
+      ],
+      "membership_bits": [
+        0,
+        1,
+        1
+      ],
+      "printed_energy": -2,
+      "derived_energy": -2
+    },
+    {
+      "word": "SCUOD",
+      "projections": [
+        "SUD",
+        "SO",
+        "COD"
+      ],
+      "membership_bits": [
+        0,
+        1,
+        1
+      ],
+      "printed_energy": -2,
+      "derived_energy": -2
+    },
+    {
+      "word": "SLIOD",
+      "projections": [
+        "SID",
+        "SO",
+        "LOD"
+      ],
+      "membership_bits": [
+        0,
+        1,
+        0
+      ],
+      "printed_energy": -1,
+      "derived_energy": -1
+    },
+    {
+      "word": "BCAON",
+      "projections": [
+        "BAN",
+        "BO",
+        "CON"
+      ],
+      "membership_bits": [
+        1,
+        0,
+        1
+      ],
+      "printed_energy": -2,
+      "derived_energy": -2
+    },
+    {
+      "word": "BCUON",
+      "projections": [
+        "BUN",
+        "BO",
+        "CON"
+      ],
+      "membership_bits": [
+        0,
+        0,
+        1
+      ],
+      "printed_energy": -1,
+      "derived_energy": -1
+    },
+    {
+      "word": "BLION",
+      "projections": [
+        "BIN",
+        "BO",
+        "LON"
+      ],
+      "membership_bits": [
+        0,
+        0,
+        0
+      ],
+      "printed_energy": 0,
+      "derived_energy": 0
+    },
+    {
+      "word": "SCAON",
+      "projections": [
+        "SAN",
+        "SO",
+        "CON"
+      ],
+      "membership_bits": [
+        0,
+        1,
+        1
+      ],
+      "printed_energy": -2,
+      "derived_energy": -2
+    },
+    {
+      "word": "SCUON",
+      "projections": [
+        "SUN",
+        "SO",
+        "CON"
+      ],
+      "membership_bits": [
+        0,
+        1,
+        1
+      ],
+      "printed_energy": -2,
+      "derived_energy": -2
+    },
+    {
+      "word": "SLION",
+      "projections": [
+        "SIN",
+        "SO",
+        "LON"
+      ],
+      "membership_bits": [
+        1,
+        1,
+        0
+      ],
+      "printed_energy": -2,
+      "derived_energy": -2
+    },
+    {
+      "word": "BCIED",
+      "projections": [
+        "BID",
+        "BE",
+        "CED"
+      ],
+      "membership_bits": [
+        0,
+        1,
+        0
+      ],
+      "printed_energy": -1,
+      "derived_energy": -1
+    },
+    {
+      "word": "BLAED",
+      "projections": [
+        "BAD",
+        "BE",
+        "LED"
+      ],
+      "membership_bits": [
+        0,
+        1,
+        1
+      ],
+      "printed_energy": -2,
+      "derived_energy": -2
+    },
+    {
+      "word": "BLUED",
+      "projections": [
+        "BUD",
+        "BE",
+        "LED"
+      ],
+      "membership_bits": [
+        1,
+        1,
+        1
+      ],
+      "printed_energy": -3,
+      "derived_energy": -3
+    },
+    {
+      "word": "SCIED",
+      "projections": [
+        "SID",
+        "SE",
+        "CED"
+      ],
+      "membership_bits": [
+        0,
+        1,
+        0
+      ],
+      "printed_energy": -1,
+      "derived_energy": -1
+    },
+    {
+      "word": "SLAED",
+      "projections": [
+        "SAD",
+        "SE",
+        "LED"
+      ],
+      "membership_bits": [
+        0,
+        1,
+        1
+      ],
+      "printed_energy": -2,
+      "derived_energy": -2
+    },
+    {
+      "word": "SLUED",
+      "projections": [
+        "SUD",
+        "SE",
+        "LED"
+      ],
+      "membership_bits": [
+        0,
+        1,
+        1
+      ],
+      "printed_energy": -2,
+      "derived_energy": -2
+    },
+    {
+      "word": "BCIEN",
+      "projections": [
+        "BIN",
+        "BE",
+        "CEN"
+      ],
+      "membership_bits": [
+        0,
+        1,
+        0
+      ],
+      "printed_energy": -1,
+      "derived_energy": -1
+    },
+    {
+      "word": "BLAEN",
+      "projections": [
+        "BAN",
+        "BE",
+        "LEN"
+      ],
+      "membership_bits": [
+        1,
+        1,
+        0
+      ],
+      "printed_energy": -2,
+      "derived_energy": -2
+    },
+    {
+      "word": "BLUEN",
+      "projections": [
+        "BUN",
+        "BE",
+        "LEN"
+      ],
+      "membership_bits": [
+        0,
+        1,
+        0
+      ],
+      "printed_energy": -1,
+      "derived_energy": -1
+    },
+    {
+      "word": "SCIEN",
+      "projections": [
+        "SIN",
+        "SE",
+        "CEN"
+      ],
+      "membership_bits": [
+        1,
+        1,
+        0
+      ],
+      "printed_energy": -2,
+      "derived_energy": -2
+    },
+    {
+      "word": "SLAEN",
+      "projections": [
+        "SAN",
+        "SE",
+        "LEN"
+      ],
+      "membership_bits": [
+        0,
+        1,
+        0
+      ],
+      "printed_energy": -1,
+      "derived_energy": -1
+    },
+    {
+      "word": "SLUEN",
+      "projections": [
+        "SUN",
+        "SE",
+        "LEN"
+      ],
+      "membership_bits": [
+        0,
+        1,
+        0
+      ],
+      "printed_energy": -1,
+      "derived_energy": -1
+    },
+    {
+      "word": "BCIOD",
+      "projections": [
+        "BID",
+        "BO",
+        "COD"
+      ],
+      "membership_bits": [
+        0,
+        0,
+        1
+      ],
+      "printed_energy": -1,
+      "derived_energy": -1
+    },
+    {
+      "word": "BLAOD",
+      "projections": [
+        "BAD",
+        "BO",
+        "LOD"
+      ],
+      "membership_bits": [
+        0,
+        0,
+        0
+      ],
+      "printed_energy": 0,
+      "derived_energy": 0
+    },
+    {
+      "word": "BLUOD",
+      "projections": [
+        "BUD",
+        "BO",
+        "LOD"
+      ],
+      "membership_bits": [
+        1,
+        0,
+        0
+      ],
+      "printed_energy": -1,
+      "derived_energy": -1
+    },
+    {
+      "word": "SCIOD",
+      "projections": [
+        "SID",
+        "SO",
+        "COD"
+      ],
+      "membership_bits": [
+        0,
+        1,
+        1
+      ],
+      "printed_energy": -2,
+      "derived_energy": -2
+    },
+    {
+      "word": "SLAOD",
+      "projections": [
+        "SAD",
+        "SO",
+        "LOD"
+      ],
+      "membership_bits": [
+        0,
+        1,
+        0
+      ],
+      "printed_energy": -1,
+      "derived_energy": -1
+    },
+    {
+      "word": "SLUOD",
+      "projections": [
+        "SUD",
+        "SO",
+        "LOD"
+      ],
+      "membership_bits": [
+        0,
+        1,
+        0
+      ],
+      "printed_energy": -1,
+      "derived_energy": -1
+    },
+    {
+      "word": "BCION",
+      "projections": [
+        "BIN",
+        "BO",
+        "CON"
+      ],
+      "membership_bits": [
+        0,
+        0,
+        1
+      ],
+      "printed_energy": -1,
+      "derived_energy": -1
+    },
+    {
+      "word": "BLAON",
+      "projections": [
+        "BAN",
+        "BO",
+        "LON"
+      ],
+      "membership_bits": [
+        1,
+        0,
+        0
+      ],
+      "printed_energy": -1,
+      "derived_energy": -1
+    },
+    {
+      "word": "BLUON",
+      "projections": [
+        "BUN",
+        "BO",
+        "LON"
+      ],
+      "membership_bits": [
+        0,
+        0,
+        0
+      ],
+      "printed_energy": 0,
+      "derived_energy": 0
+    },
+    {
+      "word": "SCION",
+      "projections": [
+        "SIN",
+        "SO",
+        "CON"
+      ],
+      "membership_bits": [
+        1,
+        1,
+        1
+      ],
+      "printed_energy": -3,
+      "derived_energy": -3
+    },
+    {
+      "word": "SLAON",
+      "projections": [
+        "SAN",
+        "SO",
+        "LON"
+      ],
+      "membership_bits": [
+        0,
+        1,
+        0
+      ],
+      "printed_energy": -1,
+      "derived_energy": -1
+    },
+    {
+      "word": "SLUON",
+      "projections": [
+        "SUN",
+        "SO",
+        "LON"
+      ],
+      "membership_bits": [
+        0,
+        1,
+        0
+      ],
+      "printed_energy": -1,
+      "derived_energy": -1
+    }
+  ],
+  "energy_histogram": {
+    "-3": 2,
+    "-2": 18,
+    "-1": 24,
+    "0": 4
+  },
+  "ising_checks": [
+    {
+      "N": 1,
+      "z": 0.5,
+      "B": 2,
+      "configurations": 2,
+      "partition": 4.25,
+      "energy_per_particle": -1.7647058823529411,
+      "mean_magnetization": 0.8823529411764707,
+      "all_formulas_agree": true
+    },
+    {
+      "N": 2,
+      "z": 0.5,
+      "B": -1,
+      "configurations": 4,
+      "partition": 9.5,
+      "energy_per_particle": -1.1842105263157894,
+      "mean_magnetization": -0.7894736842105263,
+      "all_formulas_agree": true
+    },
+    {
+      "N": 5,
+      "z": 0.5,
+      "B": 0,
+      "configurations": 32,
+      "partition": 78.125,
+      "energy_per_particle": -0.48,
+      "mean_magnetization": 0.0,
+      "all_formulas_agree": true
+    },
+    {
+      "N": 4,
+      "z": 1.0,
+      "B": 2,
+      "configurations": 16,
+      "partition": 16.0,
+      "energy_per_particle": 0.0,
+      "mean_magnetization": 0.0,
+      "all_formulas_agree": true
+    },
+    {
+      "N": 5,
+      "z": 2.0,
+      "B": 1,
+      "configurations": 32,
+      "partition": 119.189453125,
+      "energy_per_particle": 0.6163211798443261,
+      "mean_magnetization": -0.24486685784514542,
+      "all_formulas_agree": true
+    }
+  ],
+  "general_proof": "notes/statistical-mechanics-and-exercise-012.md"
+}

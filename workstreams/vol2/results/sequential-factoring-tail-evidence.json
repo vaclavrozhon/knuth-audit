@@ -1,0 +1,3573 @@
+{
+  "schema_version": 1,
+  "volume": "vol2",
+  "section": "4.5.4",
+  "checkpoint": "V2-X0149",
+  "updated_at_utc": "2026-11-06T18:29:18.293449+00:00",
+  "review_mode": "statement_and_exercise_arguments",
+  "printed_question_pages": [
+    415,
+    416,
+    417
+  ],
+  "printed_answer_pages": [
+    665,
+    666,
+    667,
+    668,
+    669,
+    670,
+    671
+  ],
+  "revisited_main_pages": [
+    36
+  ],
+  "scope": "Remaining8 exercises paired, plus the forward cryptographic reference. Section4.6 answers beginning at the bottom of671 are not covered.",
+  "claims": [
+    {
+      "id": "4.5.4-TAIL-digits-0-value",
+      "printed_page": 665,
+      "claim": "The displayed P_0 equals10000000000000000000000000000000000000000000000009, has50 digits and48 copies of0.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-digits.md",
+        "results/prime-digits.json"
+      ],
+      "argument_section": "Hodnoty a konečné důkazy",
+      "scope_note": "Existing complete enumerations and certificate validation reused; no rerun.",
+      "source_locator": "digits.0"
+    },
+    {
+      "id": "4.5.4-TAIL-digits-0-prime",
+      "printed_page": 665,
+      "claim": "P_0 is prime by the saved ECPP/Lucas certificate.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-digits.md",
+        "results/prime-digits.json"
+      ],
+      "argument_section": "Hodnoty a konečné důkazy",
+      "scope_note": "Existing complete enumerations and certificate validation reused; no rerun.",
+      "source_locator": "digits.0"
+    },
+    {
+      "id": "4.5.4-TAIL-digits-0-count",
+      "printed_page": 665,
+      "claim": "No50-digit prime has more copies of0 than P_0.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-digits.md",
+        "results/prime-digits.json"
+      ],
+      "argument_section": "Hodnoty a konečné důkazy",
+      "scope_note": "Existing complete enumerations and certificate validation reused; no rerun.",
+      "source_locator": "digits.0"
+    },
+    {
+      "id": "4.5.4-TAIL-digits-0-maximum",
+      "printed_page": 665,
+      "claim": "No larger50-digit prime has the same number of copies of0.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-digits.md",
+        "results/prime-digits.json"
+      ],
+      "argument_section": "Hodnoty a konečné důkazy",
+      "scope_note": "Existing complete enumerations and certificate validation reused; no rerun.",
+      "source_locator": "digits.0"
+    },
+    {
+      "id": "4.5.4-TAIL-digits-1-value",
+      "printed_page": 665,
+      "claim": "The displayed P_1 equals11141111111111111111111111111111111111111111111111, has50 digits and49 copies of1.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-digits.md",
+        "results/prime-digits.json"
+      ],
+      "argument_section": "Hodnoty a konečné důkazy",
+      "scope_note": "Existing complete enumerations and certificate validation reused; no rerun.",
+      "source_locator": "digits.1"
+    },
+    {
+      "id": "4.5.4-TAIL-digits-1-prime",
+      "printed_page": 665,
+      "claim": "P_1 is prime by the saved ECPP/Lucas certificate.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-digits.md",
+        "results/prime-digits.json"
+      ],
+      "argument_section": "Hodnoty a konečné důkazy",
+      "scope_note": "Existing complete enumerations and certificate validation reused; no rerun.",
+      "source_locator": "digits.1"
+    },
+    {
+      "id": "4.5.4-TAIL-digits-1-count",
+      "printed_page": 665,
+      "claim": "No50-digit prime has more copies of1 than P_1.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-digits.md",
+        "results/prime-digits.json"
+      ],
+      "argument_section": "Hodnoty a konečné důkazy",
+      "scope_note": "Existing complete enumerations and certificate validation reused; no rerun.",
+      "source_locator": "digits.1"
+    },
+    {
+      "id": "4.5.4-TAIL-digits-1-maximum",
+      "printed_page": 665,
+      "claim": "No larger50-digit prime has the same number of copies of1.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-digits.md",
+        "results/prime-digits.json"
+      ],
+      "argument_section": "Hodnoty a konečné důkazy",
+      "scope_note": "Existing complete enumerations and certificate validation reused; no rerun.",
+      "source_locator": "digits.1"
+    },
+    {
+      "id": "4.5.4-TAIL-digits-2-value",
+      "printed_page": 665,
+      "claim": "The displayed P_2 equals22522222222222222222222222222222222222222222222229, has50 digits and48 copies of2.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-digits.md",
+        "results/prime-digits.json"
+      ],
+      "argument_section": "Hodnoty a konečné důkazy",
+      "scope_note": "Existing complete enumerations and certificate validation reused; no rerun.",
+      "source_locator": "digits.2"
+    },
+    {
+      "id": "4.5.4-TAIL-digits-2-prime",
+      "printed_page": 665,
+      "claim": "P_2 is prime by the saved ECPP/Lucas certificate.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-digits.md",
+        "results/prime-digits.json"
+      ],
+      "argument_section": "Hodnoty a konečné důkazy",
+      "scope_note": "Existing complete enumerations and certificate validation reused; no rerun.",
+      "source_locator": "digits.2"
+    },
+    {
+      "id": "4.5.4-TAIL-digits-2-count",
+      "printed_page": 665,
+      "claim": "No50-digit prime has more copies of2 than P_2.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-digits.md",
+        "results/prime-digits.json"
+      ],
+      "argument_section": "Hodnoty a konečné důkazy",
+      "scope_note": "Existing complete enumerations and certificate validation reused; no rerun.",
+      "source_locator": "digits.2"
+    },
+    {
+      "id": "4.5.4-TAIL-digits-2-maximum",
+      "printed_page": 665,
+      "claim": "No larger50-digit prime has the same number of copies of2.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-digits.md",
+        "results/prime-digits.json"
+      ],
+      "argument_section": "Hodnoty a konečné důkazy",
+      "scope_note": "Existing complete enumerations and certificate validation reused; no rerun.",
+      "source_locator": "digits.2"
+    },
+    {
+      "id": "4.5.4-TAIL-digits-3-value",
+      "printed_page": 665,
+      "claim": "The displayed P_3 equals53333333333333333333333333333333333333333333333333, has50 digits and49 copies of3.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-digits.md",
+        "results/prime-digits.json"
+      ],
+      "argument_section": "Hodnoty a konečné důkazy",
+      "scope_note": "Existing complete enumerations and certificate validation reused; no rerun.",
+      "source_locator": "digits.3"
+    },
+    {
+      "id": "4.5.4-TAIL-digits-3-prime",
+      "printed_page": 665,
+      "claim": "P_3 is prime by the saved ECPP/Lucas certificate.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-digits.md",
+        "results/prime-digits.json"
+      ],
+      "argument_section": "Hodnoty a konečné důkazy",
+      "scope_note": "Existing complete enumerations and certificate validation reused; no rerun.",
+      "source_locator": "digits.3"
+    },
+    {
+      "id": "4.5.4-TAIL-digits-3-count",
+      "printed_page": 665,
+      "claim": "No50-digit prime has more copies of3 than P_3.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-digits.md",
+        "results/prime-digits.json"
+      ],
+      "argument_section": "Hodnoty a konečné důkazy",
+      "scope_note": "Existing complete enumerations and certificate validation reused; no rerun.",
+      "source_locator": "digits.3"
+    },
+    {
+      "id": "4.5.4-TAIL-digits-3-maximum",
+      "printed_page": 665,
+      "claim": "No larger50-digit prime has the same number of copies of3.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-digits.md",
+        "results/prime-digits.json"
+      ],
+      "argument_section": "Hodnoty a konečné důkazy",
+      "scope_note": "Existing complete enumerations and certificate validation reused; no rerun.",
+      "source_locator": "digits.3"
+    },
+    {
+      "id": "4.5.4-TAIL-digits-4-value",
+      "printed_page": 665,
+      "claim": "The displayed P_4 equals64444444444444444444444444444444444444444444444441, has50 digits and48 copies of4.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-digits.md",
+        "results/prime-digits.json"
+      ],
+      "argument_section": "Hodnoty a konečné důkazy",
+      "scope_note": "Existing complete enumerations and certificate validation reused; no rerun.",
+      "source_locator": "digits.4"
+    },
+    {
+      "id": "4.5.4-TAIL-digits-4-prime",
+      "printed_page": 665,
+      "claim": "P_4 is prime by the saved ECPP/Lucas certificate.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-digits.md",
+        "results/prime-digits.json"
+      ],
+      "argument_section": "Hodnoty a konečné důkazy",
+      "scope_note": "Existing complete enumerations and certificate validation reused; no rerun.",
+      "source_locator": "digits.4"
+    },
+    {
+      "id": "4.5.4-TAIL-digits-4-count",
+      "printed_page": 665,
+      "claim": "No50-digit prime has more copies of4 than P_4.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-digits.md",
+        "results/prime-digits.json"
+      ],
+      "argument_section": "Hodnoty a konečné důkazy",
+      "scope_note": "Existing complete enumerations and certificate validation reused; no rerun.",
+      "source_locator": "digits.4"
+    },
+    {
+      "id": "4.5.4-TAIL-digits-4-maximum",
+      "printed_page": 665,
+      "claim": "No larger50-digit prime has the same number of copies of4.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-digits.md",
+        "results/prime-digits.json"
+      ],
+      "argument_section": "Hodnoty a konečné důkazy",
+      "scope_note": "Existing complete enumerations and certificate validation reused; no rerun.",
+      "source_locator": "digits.4"
+    },
+    {
+      "id": "4.5.4-TAIL-digits-5-value",
+      "printed_page": 665,
+      "claim": "The displayed P_5 equals85555555555555555555555555555555555555555555555559, has50 digits and48 copies of5.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-digits.md",
+        "results/prime-digits.json"
+      ],
+      "argument_section": "Hodnoty a konečné důkazy",
+      "scope_note": "Existing complete enumerations and certificate validation reused; no rerun.",
+      "source_locator": "digits.5"
+    },
+    {
+      "id": "4.5.4-TAIL-digits-5-prime",
+      "printed_page": 665,
+      "claim": "P_5 is prime by the saved ECPP/Lucas certificate.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-digits.md",
+        "results/prime-digits.json"
+      ],
+      "argument_section": "Hodnoty a konečné důkazy",
+      "scope_note": "Existing complete enumerations and certificate validation reused; no rerun.",
+      "source_locator": "digits.5"
+    },
+    {
+      "id": "4.5.4-TAIL-digits-5-count",
+      "printed_page": 665,
+      "claim": "No50-digit prime has more copies of5 than P_5.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-digits.md",
+        "results/prime-digits.json"
+      ],
+      "argument_section": "Hodnoty a konečné důkazy",
+      "scope_note": "Existing complete enumerations and certificate validation reused; no rerun.",
+      "source_locator": "digits.5"
+    },
+    {
+      "id": "4.5.4-TAIL-digits-5-maximum",
+      "printed_page": 665,
+      "claim": "No larger50-digit prime has the same number of copies of5.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-digits.md",
+        "results/prime-digits.json"
+      ],
+      "argument_section": "Hodnoty a konečné důkazy",
+      "scope_note": "Existing complete enumerations and certificate validation reused; no rerun.",
+      "source_locator": "digits.5"
+    },
+    {
+      "id": "4.5.4-TAIL-digits-6-value",
+      "printed_page": 665,
+      "claim": "The displayed P_6 equals68666666666666666666666666666666666666666666666669, has50 digits and48 copies of6.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-digits.md",
+        "results/prime-digits.json"
+      ],
+      "argument_section": "Hodnoty a konečné důkazy",
+      "scope_note": "Existing complete enumerations and certificate validation reused; no rerun.",
+      "source_locator": "digits.6"
+    },
+    {
+      "id": "4.5.4-TAIL-digits-6-prime",
+      "printed_page": 665,
+      "claim": "P_6 is prime by the saved ECPP/Lucas certificate.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-digits.md",
+        "results/prime-digits.json"
+      ],
+      "argument_section": "Hodnoty a konečné důkazy",
+      "scope_note": "Existing complete enumerations and certificate validation reused; no rerun.",
+      "source_locator": "digits.6"
+    },
+    {
+      "id": "4.5.4-TAIL-digits-6-count",
+      "printed_page": 665,
+      "claim": "No50-digit prime has more copies of6 than P_6.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-digits.md",
+        "results/prime-digits.json"
+      ],
+      "argument_section": "Hodnoty a konečné důkazy",
+      "scope_note": "Existing complete enumerations and certificate validation reused; no rerun.",
+      "source_locator": "digits.6"
+    },
+    {
+      "id": "4.5.4-TAIL-digits-6-maximum",
+      "printed_page": 665,
+      "claim": "No larger50-digit prime has the same number of copies of6.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-digits.md",
+        "results/prime-digits.json"
+      ],
+      "argument_section": "Hodnoty a konečné důkazy",
+      "scope_note": "Existing complete enumerations and certificate validation reused; no rerun.",
+      "source_locator": "digits.6"
+    },
+    {
+      "id": "4.5.4-TAIL-digits-7-value",
+      "printed_page": 665,
+      "claim": "The displayed P_7 equals77777777777777777777777797777777777777777777777777, has50 digits and49 copies of7.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-digits.md",
+        "results/prime-digits.json"
+      ],
+      "argument_section": "Hodnoty a konečné důkazy",
+      "scope_note": "Existing complete enumerations and certificate validation reused; no rerun.",
+      "source_locator": "digits.7"
+    },
+    {
+      "id": "4.5.4-TAIL-digits-7-prime",
+      "printed_page": 665,
+      "claim": "P_7 is prime by the saved ECPP/Lucas certificate.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-digits.md",
+        "results/prime-digits.json"
+      ],
+      "argument_section": "Hodnoty a konečné důkazy",
+      "scope_note": "Existing complete enumerations and certificate validation reused; no rerun.",
+      "source_locator": "digits.7"
+    },
+    {
+      "id": "4.5.4-TAIL-digits-7-count",
+      "printed_page": 665,
+      "claim": "No50-digit prime has more copies of7 than P_7.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-digits.md",
+        "results/prime-digits.json"
+      ],
+      "argument_section": "Hodnoty a konečné důkazy",
+      "scope_note": "Existing complete enumerations and certificate validation reused; no rerun.",
+      "source_locator": "digits.7"
+    },
+    {
+      "id": "4.5.4-TAIL-digits-7-maximum",
+      "printed_page": 665,
+      "claim": "No larger50-digit prime has the same number of copies of7.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-digits.md",
+        "results/prime-digits.json"
+      ],
+      "argument_section": "Hodnoty a konečné důkazy",
+      "scope_note": "Existing complete enumerations and certificate validation reused; no rerun.",
+      "source_locator": "digits.7"
+    },
+    {
+      "id": "4.5.4-TAIL-digits-8-value",
+      "printed_page": 665,
+      "claim": "The displayed P_8 equals88888888888988888888888888888888888888888888888881, has50 digits and48 copies of8.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-digits.md",
+        "results/prime-digits.json"
+      ],
+      "argument_section": "Hodnoty a konečné důkazy",
+      "scope_note": "Existing complete enumerations and certificate validation reused; no rerun.",
+      "source_locator": "digits.8"
+    },
+    {
+      "id": "4.5.4-TAIL-digits-8-prime",
+      "printed_page": 665,
+      "claim": "P_8 is prime by the saved ECPP/Lucas certificate.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-digits.md",
+        "results/prime-digits.json"
+      ],
+      "argument_section": "Hodnoty a konečné důkazy",
+      "scope_note": "Existing complete enumerations and certificate validation reused; no rerun.",
+      "source_locator": "digits.8"
+    },
+    {
+      "id": "4.5.4-TAIL-digits-8-count",
+      "printed_page": 665,
+      "claim": "No50-digit prime has more copies of8 than P_8.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-digits.md",
+        "results/prime-digits.json"
+      ],
+      "argument_section": "Hodnoty a konečné důkazy",
+      "scope_note": "Existing complete enumerations and certificate validation reused; no rerun.",
+      "source_locator": "digits.8"
+    },
+    {
+      "id": "4.5.4-TAIL-digits-8-maximum",
+      "printed_page": 665,
+      "claim": "No larger50-digit prime has the same number of copies of8.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-digits.md",
+        "results/prime-digits.json"
+      ],
+      "argument_section": "Hodnoty a konečné důkazy",
+      "scope_note": "Existing complete enumerations and certificate validation reused; no rerun.",
+      "source_locator": "digits.8"
+    },
+    {
+      "id": "4.5.4-TAIL-digits-9-value",
+      "printed_page": 665,
+      "claim": "The displayed P_9 equals99999999999999999999999999999999999999999999991999, has50 digits and49 copies of9.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-digits.md",
+        "results/prime-digits.json"
+      ],
+      "argument_section": "Hodnoty a konečné důkazy",
+      "scope_note": "Existing complete enumerations and certificate validation reused; no rerun.",
+      "source_locator": "digits.9"
+    },
+    {
+      "id": "4.5.4-TAIL-digits-9-prime",
+      "printed_page": 665,
+      "claim": "P_9 is prime by the saved ECPP/Lucas certificate.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-digits.md",
+        "results/prime-digits.json"
+      ],
+      "argument_section": "Hodnoty a konečné důkazy",
+      "scope_note": "Existing complete enumerations and certificate validation reused; no rerun.",
+      "source_locator": "digits.9"
+    },
+    {
+      "id": "4.5.4-TAIL-digits-9-count",
+      "printed_page": 665,
+      "claim": "No50-digit prime has more copies of9 than P_9.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-digits.md",
+        "results/prime-digits.json"
+      ],
+      "argument_section": "Hodnoty a konečné důkazy",
+      "scope_note": "Existing complete enumerations and certificate validation reused; no rerun.",
+      "source_locator": "digits.9"
+    },
+    {
+      "id": "4.5.4-TAIL-digits-9-maximum",
+      "printed_page": 665,
+      "claim": "No larger50-digit prime has the same number of copies of9.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-digits.md",
+        "results/prime-digits.json"
+      ],
+      "argument_section": "Hodnoty a konečné důkazy",
+      "scope_note": "Existing complete enumerations and certificate validation reused; no rerun.",
+      "source_locator": "digits.9"
+    },
+    {
+      "id": "4.5.4-TAIL-digits-proof-01",
+      "printed_page": 665,
+      "claim": "The two enumerations include leading-zero and50-digit restrictions and apply the two objectives in the specified order.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-digits.md"
+      ],
+      "argument_section": "Hodnoty a konečné důkazy",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-digits-proof-02",
+      "printed_page": 665,
+      "claim": "Every excluded competitor has a proper divisor or a failing strong-test witness, not a probable-prime decision.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-digits.md"
+      ],
+      "argument_section": "Hodnoty a konečné důkazy",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-digits-proof-03",
+      "printed_page": 665,
+      "claim": "At most two differing decimal positions suffice because each winner has48 or49 copies.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-digits.md"
+      ],
+      "argument_section": "Hodnoty a konečné důkazy",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-digits-proof-04",
+      "printed_page": 665,
+      "claim": "The ECPP chains terminate in separately validated Lucas certificates; their existing validation is reused.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-digits.md"
+      ],
+      "argument_section": "Hodnoty a konečné důkazy",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-chain-printed_links-0",
+      "printed_page": 415,
+      "claim": "3 is the least prime successor2^0*2+1.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-chains.md",
+        "results/prime-chains.json"
+      ],
+      "argument_section": "1–2",
+      "scope_note": "Saved prime certificate and every smaller-exponent exclusion reused; no new search.",
+      "source_locator": "printed_links[0]",
+      "source_layer": "Original example"
+    },
+    {
+      "id": "4.5.4-TAIL-chain-printed_links-1",
+      "printed_page": 415,
+      "claim": "7 is the least prime successor2^1*3+1.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-chains.md",
+        "results/prime-chains.json"
+      ],
+      "argument_section": "1–2",
+      "scope_note": "Saved prime certificate and every smaller-exponent exclusion reused; no new search.",
+      "source_locator": "printed_links[1]",
+      "source_layer": "Original example"
+    },
+    {
+      "id": "4.5.4-TAIL-chain-printed_links-2",
+      "printed_page": 415,
+      "claim": "29 is the least prime successor2^2*7+1.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-chains.md",
+        "results/prime-chains.json"
+      ],
+      "argument_section": "1–2",
+      "scope_note": "Saved prime certificate and every smaller-exponent exclusion reused; no new search.",
+      "source_locator": "printed_links[2]",
+      "source_layer": "Original example"
+    },
+    {
+      "id": "4.5.4-TAIL-chain-printed_links-3",
+      "printed_page": 415,
+      "claim": "59 is the least prime successor2^1*29+1.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-chains.md",
+        "results/prime-chains.json"
+      ],
+      "argument_section": "1–2",
+      "scope_note": "Saved prime certificate and every smaller-exponent exclusion reused; no new search.",
+      "source_locator": "printed_links[3]",
+      "source_layer": "Original example"
+    },
+    {
+      "id": "4.5.4-TAIL-chain-printed_links-4",
+      "printed_page": 415,
+      "claim": "1889 is the least prime successor2^5*59+1.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-chains.md",
+        "results/prime-chains.json"
+      ],
+      "argument_section": "1–2",
+      "scope_note": "Saved prime certificate and every smaller-exponent exclusion reused; no new search.",
+      "source_locator": "printed_links[4]",
+      "source_layer": "Original example"
+    },
+    {
+      "id": "4.5.4-TAIL-chain-printed_links-5",
+      "printed_page": 415,
+      "claim": "3779 is the least prime successor2^1*1889+1.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-chains.md",
+        "results/prime-chains.json"
+      ],
+      "argument_section": "1–2",
+      "scope_note": "Saved prime certificate and every smaller-exponent exclusion reused; no new search.",
+      "source_locator": "printed_links[5]",
+      "source_layer": "Original example"
+    },
+    {
+      "id": "4.5.4-TAIL-chain-printed_links-6",
+      "printed_page": 415,
+      "claim": "7559 is the least prime successor2^1*3779+1.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-chains.md",
+        "results/prime-chains.json"
+      ],
+      "argument_section": "1–2",
+      "scope_note": "Saved prime certificate and every smaller-exponent exclusion reused; no new search.",
+      "source_locator": "printed_links[6]",
+      "source_layer": "Original example"
+    },
+    {
+      "id": "4.5.4-TAIL-chain-printed_links-7",
+      "printed_page": 415,
+      "claim": "4058207223809 is the least prime successor2^29*7559+1.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-chains.md",
+        "results/prime-chains.json"
+      ],
+      "argument_section": "1–2",
+      "scope_note": "Saved prime certificate and every smaller-exponent exclusion reused; no new search.",
+      "source_locator": "printed_links[7]",
+      "source_layer": "Original example"
+    },
+    {
+      "id": "4.5.4-TAIL-chain-printed_links-8",
+      "printed_page": 415,
+      "claim": "32465657790473 is the least prime successor2^3*4058207223809+1.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-chains.md",
+        "results/prime-chains.json"
+      ],
+      "argument_section": "1–2",
+      "scope_note": "Saved prime certificate and every smaller-exponent exclusion reused; no new search.",
+      "source_locator": "printed_links[8]",
+      "source_layer": "Original example"
+    },
+    {
+      "id": "4.5.4-TAIL-chain-printed_links-9",
+      "printed_page": 415,
+      "claim": "4462046030502692971872257 is the least prime successor2^37*32465657790473+1.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-chains.md",
+        "results/prime-chains.json"
+      ],
+      "argument_section": "1–2",
+      "scope_note": "Saved prime certificate and every smaller-exponent exclusion reused; no new search.",
+      "source_locator": "printed_links[9]",
+      "source_layer": "Original example"
+    },
+    {
+      "id": "4.5.4-TAIL-chain-printed_links-10",
+      "printed_page": 415,
+      "claim": "9582170887127842377060195852353537 is the least prime successor2^31*4462046030502692971872257+1.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-chains.md",
+        "results/prime-chains.json"
+      ],
+      "argument_section": "1–2",
+      "scope_note": "Saved prime certificate and every smaller-exponent exclusion reused; no new search.",
+      "source_locator": "printed_links[10]",
+      "source_layer": "Original example"
+    },
+    {
+      "id": "4.5.4-TAIL-chain-printed_links-11",
+      "printed_page": 415,
+      "claim": "2066678528579921308409812579227882652882296135112078218441270655539079806279302783351291332069672615937 is the least prime successor2^227*9582170887127842377060195852353537+1.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-chains.md",
+        "results/prime-chains.json"
+      ],
+      "argument_section": "1–2",
+      "scope_note": "Saved prime certificate and every smaller-exponent exclusion reused; no new search.",
+      "source_locator": "printed_links[11]",
+      "source_layer": "Original example"
+    },
+    {
+      "id": "4.5.4-TAIL-chain-extension_links-0",
+      "printed_page": 665,
+      "claim": "473499262483004603669041819388821603199357691120395259072356548568106834556876934857387804054383868124996554503531943205725542273856657033570110619785032818774158067038881313714047650693114773216476828957291000104364564776842448600929087806900337144246487058339379389888045007660839026154165171653190440134171937202591698795605651958565642994567469858817 is the least prime successor2^835*2066678528579921308409812579227882652882296135112078218441270655539079806279302783351291332069672615937+1.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-chains.md",
+        "results/prime-chains.json"
+      ],
+      "argument_section": "1–2",
+      "scope_note": "Saved prime certificate and every smaller-exponent exclusion reused; no new search.",
+      "source_locator": "extension_links[0]",
+      "source_layer": "Bounded supplementary construction"
+    },
+    {
+      "id": "4.5.4-TAIL-chain-extension_links-1",
+      "printed_page": 665,
+      "claim": "19668389864872500557560203790497858277784492418873798407026612403944566893365351322116868514901310836920700982678919663050434757651618869728107413733749722845223292398631963057602012174833030924955644631702803467805757838961272217158156264530315202755743516127681944466901139382567960961717373223867237148005010940960999146246286142747282353242557953406503238201229315676231109030713491457 is the least prime successor2^115*473499262483004603669041819388821603199357691120395259072356548568106834556876934857387804054383868124996554503531943205725542273856657033570110619785032818774158067038881313714047650693114773216476828957291000104364564776842448600929087806900337144246487058339379389888045007660839026154165171653190440134171937202591698795605651958565642994567469858817+1.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-chains.md",
+        "results/prime-chains.json"
+      ],
+      "argument_section": "1–2",
+      "scope_note": "Saved prime certificate and every smaller-exponent exclusion reused; no new search.",
+      "source_locator": "extension_links[1]",
+      "source_layer": "Bounded supplementary construction"
+    },
+    {
+      "id": "4.5.4-TAIL-chains-01",
+      "printed_page": 665,
+      "claim": "The q-1 factorization gives a complete Lucas certificate for every successor.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-chains.md"
+      ],
+      "argument_section": "1–3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-chains-02",
+      "printed_page": 665,
+      "claim": "For odd p, the primitive-root fraction is at least one third, giving constant expected witness attempts.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-chains.md"
+      ],
+      "argument_section": "1–3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-chains-03",
+      "printed_page": 665,
+      "claim": "The34-digit omitted value has exactly30 internal omitted decimal digits and the stated95/37 endpoints.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-chains.md"
+      ],
+      "argument_section": "1–3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-chains-04",
+      "printed_page": 665,
+      "claim": "Its least successor uses exponent227 and has103 decimal digits.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-chains.md"
+      ],
+      "argument_section": "1–3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-chains-05",
+      "printed_page": 665,
+      "claim": "The stored bounded construction has15 vertices; no global maximum is asserted.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-chains.md"
+      ],
+      "argument_section": "1–3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-chains-06",
+      "printed_page": 665,
+      "claim": "A successor of2 must be a Fermat prime by the odd-factor identity.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-chains.md"
+      ],
+      "argument_section": "1–3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-chains-07",
+      "printed_page": 665,
+      "claim": "The non-successor discussion explicitly extends from prime vertices to arbitrary positive odd coefficients.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-chains.md"
+      ],
+      "argument_section": "1–3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-cover-78557-3",
+      "printed_page": 666,
+      "claim": "Prime3 is a proper divisor of78557*2^k+1 whenever k=0 modulo2.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-chains.md",
+        "results/prime-chains.json"
+      ],
+      "argument_section": "4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-cover-78557-5",
+      "printed_page": 666,
+      "claim": "Prime5 is a proper divisor of78557*2^k+1 whenever k=1 modulo4.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-chains.md",
+        "results/prime-chains.json"
+      ],
+      "argument_section": "4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-cover-78557-7",
+      "printed_page": 666,
+      "claim": "Prime7 is a proper divisor of78557*2^k+1 whenever k=1 modulo3.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-chains.md",
+        "results/prime-chains.json"
+      ],
+      "argument_section": "4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-cover-78557-13",
+      "printed_page": 666,
+      "claim": "Prime13 is a proper divisor of78557*2^k+1 whenever k=11 modulo12.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-chains.md",
+        "results/prime-chains.json"
+      ],
+      "argument_section": "4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-cover-78557-19",
+      "printed_page": 666,
+      "claim": "Prime19 is a proper divisor of78557*2^k+1 whenever k=15 modulo18.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-chains.md",
+        "results/prime-chains.json"
+      ],
+      "argument_section": "4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-cover-78557-37",
+      "printed_page": 666,
+      "claim": "Prime37 is a proper divisor of78557*2^k+1 whenever k=27 modulo36.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-chains.md",
+        "results/prime-chains.json"
+      ],
+      "argument_section": "4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-cover-78557-73",
+      "printed_page": 666,
+      "claim": "Prime73 is a proper divisor of78557*2^k+1 whenever k=3 modulo9.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-chains.md",
+        "results/prime-chains.json"
+      ],
+      "argument_section": "4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-cover-78557-all",
+      "printed_page": 666,
+      "claim": "The displayed residue classes cover every nonnegative exponent for coefficient78557.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-chains.md"
+      ],
+      "argument_section": "4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-cover-271129-3",
+      "printed_page": 666,
+      "claim": "Prime3 is a proper divisor of271129*2^k+1 whenever k=1 modulo2.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-chains.md",
+        "results/prime-chains.json"
+      ],
+      "argument_section": "4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-cover-271129-5",
+      "printed_page": 666,
+      "claim": "Prime5 is a proper divisor of271129*2^k+1 whenever k=0 modulo4.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-chains.md",
+        "results/prime-chains.json"
+      ],
+      "argument_section": "4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-cover-271129-7",
+      "printed_page": 666,
+      "claim": "Prime7 is a proper divisor of271129*2^k+1 whenever k=2 modulo3.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-chains.md",
+        "results/prime-chains.json"
+      ],
+      "argument_section": "4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-cover-271129-13",
+      "printed_page": 666,
+      "claim": "Prime13 is a proper divisor of271129*2^k+1 whenever k=6 modulo12.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-chains.md",
+        "results/prime-chains.json"
+      ],
+      "argument_section": "4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-cover-271129-17",
+      "printed_page": 666,
+      "claim": "Prime17 is a proper divisor of271129*2^k+1 whenever k=6 modulo8.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-chains.md",
+        "results/prime-chains.json"
+      ],
+      "argument_section": "4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-cover-271129-241",
+      "printed_page": 666,
+      "claim": "Prime241 is a proper divisor of271129*2^k+1 whenever k=10 modulo24.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-chains.md",
+        "results/prime-chains.json"
+      ],
+      "argument_section": "4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-cover-271129-all",
+      "printed_page": 666,
+      "claim": "The displayed residue classes cover every nonnegative exponent for coefficient271129.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-chains.md"
+      ],
+      "argument_section": "4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-chains-tail-01",
+      "printed_page": 666,
+      "claim": "Adding140100870*t to78557 preserves all covering congruences and oddness, yielding infinitely many covered coefficients.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-chains.md"
+      ],
+      "argument_section": "4–6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-chains-tail-02",
+      "printed_page": 666,
+      "claim": "The coefficient271129 itself has a saved recursive prime certificate.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-chains.md"
+      ],
+      "argument_section": "4–6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-chains-tail-03",
+      "printed_page": 666,
+      "claim": "All12 listed Cunningham values are prime, and their successor relation is q=2p+1.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-chains.md"
+      ],
+      "argument_section": "4–6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-chains-tail-04",
+      "printed_page": 666,
+      "claim": "The next Cunningham value is divisible by19; the original k<12 boundary is correct.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-chains.md"
+      ],
+      "argument_section": "4–6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-chains-tail-05",
+      "printed_page": 666,
+      "claim": "Keller's original page670 supports the historical69 remaining candidates.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-chains.md"
+      ],
+      "argument_section": "4–6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-chains-tail-06",
+      "printed_page": 666,
+      "claim": "C0181 corrects only the journal volume of Keller's article to41.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-chains.md"
+      ],
+      "argument_section": "4–6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-chains-open",
+      "printed_page": 666,
+      "claim": "General successor existence and forecasts of what may never be decidable are not proved theorems here.",
+      "status": "research_not_claimed",
+      "evidence": [
+        "notes/prime-chains.md"
+      ],
+      "argument_section": "3",
+      "scope_note": "The open-ended construction task has a certified finite answer; no global longest-chain claim is made."
+    },
+    {
+      "id": "4.5.4-TAIL-shamir-model-01",
+      "printed_page": 666,
+      "claim": "The unit-cost model permits arbitrary-length integer addition, subtraction, multiplication and floor division.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/shamir-factor.md"
+      ],
+      "argument_section": "1–2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-shamir-model-02",
+      "printed_page": 666,
+      "claim": "Remainders and the constants0,1,2 are constructed from permitted operations.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/shamir-factor.md"
+      ],
+      "argument_section": "1–2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-shamir-model-03",
+      "printed_page": 666,
+      "claim": "The equality-only test of positivity handles x=1 before dividing by x-1.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/shamir-factor.md"
+      ],
+      "argument_section": "1–2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-shamir-model-04",
+      "printed_page": 666,
+      "claim": "Packing nonnegative coefficients below A allows exact base-A coefficient extraction.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/shamir-factor.md"
+      ],
+      "argument_section": "1–2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-shamir-model-05",
+      "printed_page": 666,
+      "claim": "The chosen A exceeds every needed binomial coefficient throughout the factorial computation.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/shamir-factor.md"
+      ],
+      "argument_section": "1–2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-shamir-model-06",
+      "printed_page": 666,
+      "claim": "Repeated halving and squaring construct the initial binary scale in O(log n) permitted steps.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/shamir-factor.md"
+      ],
+      "argument_section": "1–2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-shamir-model-07",
+      "printed_page": 666,
+      "claim": "The invariant t=A^m,u=(A+1)^m,v=m! is preserved by doubling the binary prefix.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/shamir-factor.md"
+      ],
+      "argument_section": "1–2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-shamir-model-08",
+      "printed_page": 666,
+      "claim": "Extracting the central binomial coefficient converts (m!)^2 into (2m)!.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/shamir-factor.md"
+      ],
+      "argument_section": "1–2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-shamir-model-09",
+      "printed_page": 666,
+      "claim": "The optional next bit updates all three quantities with a constant number of steps.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/shamir-factor.md"
+      ],
+      "argument_section": "1–2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-shamir-model-10",
+      "printed_page": 666,
+      "claim": "The factorial algorithm uses a fixed number of registers and O(log n) unit operations.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/shamir-factor.md"
+      ],
+      "argument_section": "1–2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-shamir-factor-01",
+      "printed_page": 666,
+      "claim": "The least h with n dividing h! satisfies gcd(h,n)>1.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/shamir-factor.md"
+      ],
+      "argument_section": "3–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-shamir-factor-02",
+      "printed_page": 666,
+      "claim": "For prime n, h=n; for composite n>4, h<=n-2.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/shamir-factor.md"
+      ],
+      "argument_section": "3–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-shamir-factor-03",
+      "printed_page": 666,
+      "claim": "The exceptional n=4 is handled by the preliminary gcd branch.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/shamir-factor.md"
+      ],
+      "argument_section": "3–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-shamir-factor-04",
+      "printed_page": 666,
+      "claim": "The power-of-two bracket b! nonzero and (2b)! zero modulo n is found in O(log n) steps.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/shamir-factor.md"
+      ],
+      "argument_section": "3–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-shamir-factor-05",
+      "printed_page": 666,
+      "claim": "A nontrivial gcd(n,b!) is proper because n does not divide b!.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/shamir-factor.md"
+      ],
+      "argument_section": "3–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-shamir-factor-06",
+      "printed_page": 666,
+      "claim": "When gcd(n,b!)=1, the central-binomial test is equivalent to factorial divisibility only on the stated interval.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/shamir-factor.md"
+      ],
+      "argument_section": "3–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-shamir-factor-07",
+      "printed_page": 666,
+      "claim": "The first successful central index is ceil(h/2) in(b/2,b].",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/shamir-factor.md"
+      ],
+      "argument_section": "3–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-shamir-factor-08",
+      "printed_page": 666,
+      "claim": "The repaired Fibonacci initialization m=b-s brackets that index and initializes powers by exact division.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/shamir-factor.md"
+      ],
+      "argument_section": "3–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-shamir-factor-09",
+      "printed_page": 666,
+      "claim": "Extending the test to true beyond b preserves monotonicity without evaluating invalid binomial indices.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/shamir-factor.md"
+      ],
+      "argument_section": "3–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-shamir-factor-10",
+      "printed_page": 666,
+      "claim": "The simultaneous Fibonacci updates preserve the power invariants.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/shamir-factor.md"
+      ],
+      "argument_section": "3–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-shamir-factor-11",
+      "printed_page": 666,
+      "claim": "Both outcomes preserve m<z0<=min(m+s,b).",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/shamir-factor.md"
+      ],
+      "argument_section": "3–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-shamir-factor-12",
+      "printed_page": 666,
+      "claim": "At s=1, the two final gcd candidates include the required factor and are proper for composite n.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/shamir-factor.md"
+      ],
+      "argument_section": "3–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-shamir-factor-13",
+      "printed_page": 666,
+      "claim": "Each Fibonacci stage has constant unit cost; the register count remains fixed.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/shamir-factor.md"
+      ],
+      "argument_section": "3–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-shamir-factor-14",
+      "printed_page": 666,
+      "claim": "C0176's n=35 transition violates the printed upper invariant after the known2002 correction.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/shamir-factor.md"
+      ],
+      "argument_section": "3–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-shamir-factor-15",
+      "printed_page": 666,
+      "claim": "That invariant counterexample alone is not asserted to be an incorrect final f(35) output.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/shamir-factor.md"
+      ],
+      "argument_section": "3–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-shamir-tail-01",
+      "printed_page": 416,
+      "claim": "The sum of logarithms across one factorization-tree level is at most log n.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/shamir-factor.md"
+      ],
+      "argument_section": "6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-shamir-tail-02",
+      "printed_page": 416,
+      "claim": "Every branch has logarithmic depth, giving O((log n)^2) unit operations for complete factorization.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/shamir-factor.md"
+      ],
+      "argument_section": "6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-shamir-tail-03",
+      "printed_page": 416,
+      "claim": "The packed registers may have O(n^2) bits; this is not a logarithmic bit-time algorithm.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/shamir-factor.md"
+      ],
+      "argument_section": "6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-shamir-robinson",
+      "printed_page": 666,
+      "claim": "The Robinson floor identity follows from the stated product and a tail error below1.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/shamir-factor.md"
+      ],
+      "argument_section": "6",
+      "scope_note": "The alternative fast implementation is not independently developed; the main factorial construction is proved."
+    },
+    {
+      "id": "4.5.4-TAIL-shamir-research",
+      "printed_page": 666,
+      "claim": "The faster-time and extremal-prime-factor research addenda are not solved.",
+      "status": "partial",
+      "evidence": [
+        "notes/shamir-factor.md"
+      ],
+      "argument_section": "6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-shamir-history",
+      "printed_page": 666,
+      "claim": "The MIT report and Davis attribution support the model, algorithms and identity.",
+      "status": "primary_source_recorded",
+      "evidence": [
+        "notes/shamir-factor.md"
+      ],
+      "argument_section": "6",
+      "scope_note": "The separate journal typesetting was not obtained."
+    },
+    {
+      "id": "4.5.4-TAIL-prime-count-ab-01",
+      "printed_page": 666,
+      "claim": "Every N-survivor up to N^3 is1, a prime, or a product of two primes greater than N.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-count.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-prime-count-ab-02",
+      "printed_page": 666,
+      "claim": "This partition gives pi(N^3)=pi(N)+f(N^3,N)-1-f2(N^3,N).",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-count.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-prime-count-ab-03",
+      "printed_page": 666,
+      "claim": "Ordering the two primes counts each semiprime exactly once, including squares.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-count.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-prime-count-ab-04",
+      "printed_page": 666,
+      "claim": "The number of partners for p is pi(N^3/p)-pi(p)+1.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-count.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-prime-count-ab-05",
+      "printed_page": 666,
+      "claim": "Summing pi(p)-1 produces the displayed difference of two binomial coefficients.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-count.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-prime-count-ab-06",
+      "printed_page": 666,
+      "claim": "All needed quotient arguments are below N^2.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-count.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-prime-count-ab-07",
+      "printed_page": 666,
+      "claim": "The seven partner counts for N=10 are24,21,16,15,14,11,11 and give f2=63.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-count.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-prime-count-cd-01",
+      "printed_page": 667,
+      "claim": "Dividing deleted multiples by the current prime proves the survivor recurrence.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-count.md"
+      ],
+      "argument_section": "2–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-prime-count-cd-02",
+      "printed_page": 667,
+      "claim": "Every recursion node has a squarefree product and a Mobius sign.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-count.md"
+      ],
+      "argument_section": "2–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-prime-count-cd-03",
+      "printed_page": 667,
+      "claim": "The ordinary leaves are exactly squarefree k<N and contribute mu(k)*floor(N^3/k).",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-count.md"
+      ],
+      "argument_section": "2–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-prime-count-cd-04",
+      "printed_page": 667,
+      "claim": "The special leaves are exactly kp_j crossing N with all prime factors of k greater than p_j.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-count.md"
+      ],
+      "argument_section": "2–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-prime-count-cd-05",
+      "printed_page": 667,
+      "claim": "Their remaining sieve argument is p_(j-1), as in the known correction.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-count.md"
+      ],
+      "argument_section": "2–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-prime-count-cd-06",
+      "printed_page": 667,
+      "claim": "The strict and nonstrict leaf boundaries must be changed together; the printed convention is consistent.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-count.md"
+      ],
+      "argument_section": "2–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-prime-count-cd-07",
+      "printed_page": 667,
+      "claim": "For N=10 the ordinary sum is-9 and the signed special sum is-237.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-count.md"
+      ],
+      "argument_section": "2–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-prime-count-cd-08",
+      "printed_page": 667,
+      "claim": "Consequently f(1000,10)=228 and pi(1000)=168.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-count.md"
+      ],
+      "argument_section": "2–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-prime-count-cd-09",
+      "printed_page": 667,
+      "claim": "Sum-tree updates and prefixes require O(log N) operations.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-count.md"
+      ],
+      "argument_section": "2–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-prime-count-cd-10",
+      "printed_page": 667,
+      "claim": "The printed shifted leaf indexing is correct with a separately counted1 and the stated prefix length.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-count.md"
+      ],
+      "argument_section": "2–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-prime-count-cd-11",
+      "printed_page": 667,
+      "claim": "The elementary finite Euler-product bound gives a prime reciprocal sum O(log log N).",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-count.md"
+      ],
+      "argument_section": "2–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-prime-count-cd-12",
+      "printed_page": 667,
+      "claim": "There are at most N*pi(N) special-leaf candidates.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-count.md"
+      ],
+      "argument_section": "2–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-prime-count-cd-13",
+      "printed_page": 667,
+      "claim": "The full time is O(N^2 log N log log N), with O(log N)-bit arithmetic quantities.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-count.md"
+      ],
+      "argument_section": "2–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-prime-count-cd-14",
+      "printed_page": 667,
+      "claim": "Precomputed least prime factors and Mobius values need O(N) words.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-count.md"
+      ],
+      "argument_section": "2–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-prime-count-cd-15",
+      "printed_page": 667,
+      "claim": "Each block's prefix totals are updated only after its queries at the current sieve level.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-count.md"
+      ],
+      "argument_section": "2–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-prime-count-cd-16",
+      "printed_page": 667,
+      "claim": "The exact k interval assigns each quotient query to one block.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-count.md"
+      ],
+      "argument_section": "2–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-prime-count-cd-17",
+      "printed_page": 667,
+      "claim": "These k intervals are disjoint across blocks for a fixed prime, avoiding an extra factor N.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-count.md"
+      ],
+      "argument_section": "2–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-prime-count-cd-18",
+      "printed_page": 667,
+      "claim": "Two coordinated segmented sieves also compute f2 in O(N) words.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-count.md"
+      ],
+      "argument_section": "2–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-prime-count-cd-19",
+      "printed_page": 667,
+      "claim": "The recorded time bound implies O(N^(2+epsilon)) for every fixed positive epsilon.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-count.md"
+      ],
+      "argument_section": "2–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-count-history-analytic",
+      "printed_page": 667,
+      "claim": "The O(x^(1/2+epsilon)) analytic prime-count method is an explicitly cited external theorem.",
+      "status": "external_theorem",
+      "evidence": [
+        "notes/prime-count.md"
+      ],
+      "argument_section": "6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-count-history-record20",
+      "printed_page": 667,
+      "claim": "The exact pi(10^20) value agrees with the primary table.",
+      "status": "external_computation",
+      "evidence": [
+        "notes/prime-count.md"
+      ],
+      "argument_section": "6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-count-history-record23",
+      "printed_page": 667,
+      "claim": "The pi(10^23) table value is a later blue annotation, not an original2006 entry.",
+      "status": "external_computation",
+      "evidence": [
+        "notes/prime-count.md"
+      ],
+      "argument_section": "6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-count-history-record24",
+      "printed_page": 667,
+      "claim": "Platt reports a rigorous unconditional pi(10^24) computation; it was not rerun locally.",
+      "status": "external_computation",
+      "evidence": [
+        "notes/prime-count.md"
+      ],
+      "argument_section": "6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-count-history-record29",
+      "printed_page": 667,
+      "claim": "The2022 pi(10^29) value and attribution agree with the authors' record.",
+      "status": "external_computation",
+      "evidence": [
+        "notes/prime-count.md"
+      ],
+      "argument_section": "6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-count-history-hkm",
+      "printed_page": 667,
+      "claim": "The2022 Hirsch-Kessler-Mendlovic addition is supported by its title and introduction, not an independent proof of the full paper.",
+      "status": "primary_source_recorded",
+      "evidence": [
+        "notes/prime-count.md"
+      ],
+      "argument_section": "6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-lenstra-01",
+      "printed_page": 667,
+      "claim": "The inverse rbar exists and gives nonzero unit residues rprime and u.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/lenstra-residues.md"
+      ],
+      "argument_section": "1–3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-lenstra-02",
+      "printed_page": 667,
+      "claim": "Every desired divisor and its complement correspond uniquely to nonnegative lambda,mu.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/lenstra-residues.md"
+      ],
+      "argument_section": "1–3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-lenstra-03",
+      "printed_page": 667,
+      "claim": "The product equation implies the displayed linear congruence modulo s.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/lenstra-residues.md"
+      ],
+      "argument_section": "1–3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-lenstra-04",
+      "printed_page": 667,
+      "claim": "Theta=ceil(sqrt(N/s)) gives the required product bound; the printed floor does not establish it.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/lenstra-residues.md"
+      ],
+      "argument_section": "1–3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-lenstra-05",
+      "printed_page": 667,
+      "claim": "The Euclidean vectors retain the congruence, alternating signs and determinant magnitude s.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/lenstra-residues.md"
+      ],
+      "argument_section": "1–3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-lenstra-06",
+      "printed_page": 667,
+      "claim": "The adjusted last exact quotient ends at(-s,0) and adds at most one Euclidean step.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/lenstra-residues.md"
+      ],
+      "argument_section": "1–3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-lenstra-07",
+      "printed_page": 667,
+      "claim": "A sign change on the nonpositive-coefficient subsequence produces the weighted small linear combination.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/lenstra-residues.md"
+      ],
+      "argument_section": "1–3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-lenstra-08",
+      "printed_page": 667,
+      "claim": "The intermediate positive-coefficient vector supplies the alternative bound2T.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/lenstra-residues.md"
+      ],
+      "argument_section": "1–3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-lenstra-09",
+      "printed_page": 667,
+      "claim": "The initial and final vectors include the zero-lambda and zero-mu boundaries.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/lenstra-residues.md"
+      ],
+      "argument_section": "1–3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-lenstra-10",
+      "printed_page": 667,
+      "claim": "All desired solutions lie in one enumerated congruence interval for z.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/lenstra-residues.md"
+      ],
+      "argument_section": "1–3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-lenstra-11",
+      "printed_page": 667,
+      "claim": "The substitutions A=v3*(lambda*s+r) and B=v1*(mu*s+rprime) have sum H and product v1*v3*N.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/lenstra-residues.md"
+      ],
+      "argument_section": "1–3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-lenstra-12",
+      "printed_page": 667,
+      "claim": "Solving the quadratic gives denominator2*v3*s for lambda and2*v1*s for mu.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/lenstra-residues.md"
+      ],
+      "argument_section": "1–3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-lenstra-13",
+      "printed_page": 667,
+      "claim": "The repaired formulas are reversible for nonnegative-square discriminant and positive integral lambda,mu.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/lenstra-residues.md"
+      ],
+      "argument_section": "1–3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-lenstra-14",
+      "printed_page": 667,
+      "claim": "C0177's printed denominator can output4 as a divisor of14.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/lenstra-residues.md"
+      ],
+      "argument_section": "1–3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-lenstra-15",
+      "printed_page": 667,
+      "claim": "C0178 is the false auxiliary floor bound; no general failure of the floor-only algorithm is claimed.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/lenstra-residues.md"
+      ],
+      "argument_section": "1–3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-lenstra-cost-01",
+      "printed_page": 668,
+      "claim": "The enumeration may repeat a valid divisor, as acknowledged in the answer.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/lenstra-residues.md"
+      ],
+      "argument_section": "3–5",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-lenstra-cost-02",
+      "printed_page": 668,
+      "claim": "Each vector contributes O(1+Theta/s) candidate z values.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/lenstra-residues.md"
+      ],
+      "argument_section": "3–5",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-lenstra-cost-03",
+      "printed_page": 668,
+      "claim": "O(log s) Euclidean vectors give O(sqrt(ceil(N/s^3))*log s) arithmetic operations.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/lenstra-residues.md"
+      ],
+      "argument_section": "3–5",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-lenstra-cost-04",
+      "printed_page": 668,
+      "claim": "All intermediate bit lengths are O(log N), allowing constant multiples of that length.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/lenstra-residues.md"
+      ],
+      "argument_section": "3–5",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-lenstra-cost-05",
+      "printed_page": 668,
+      "claim": "Integer square root is explicitly counted as an arithmetic operation; its bit implementation has its own cost.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/lenstra-residues.md"
+      ],
+      "argument_section": "3–5",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-lenstra-cost-06",
+      "printed_page": 668,
+      "claim": "The original Lenstra algorithmic section supports the derivation and differs at the erroneous book denominator.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/lenstra-residues.md"
+      ],
+      "argument_section": "3–5",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-algebra-01",
+      "printed_page": 416,
+      "claim": "CRT gives (p+1)(q+1)/4 squares including zero and (p-1)(q-1)/4 unit squares.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-algebra-02",
+      "printed_page": 416,
+      "claim": "Squaring is a permutation on each odd-order nonzero-square component and fixes zero.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-algebra-03",
+      "printed_page": 416,
+      "claim": "Every square therefore has exactly one canonical square root in Q.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-algebra-04",
+      "printed_page": 416,
+      "claim": "The m=209 examples satisfy the modulus and prime-interval assumptions inherited from3.5P.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-algebra-05",
+      "printed_page": 416,
+      "claim": "The parity-negation identity needs nonzero tau; zero and nonunits have separate gcd branches.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-algebra-06",
+      "printed_page": 416,
+      "claim": "Modular halving gives tau(v/2)=(tau(v)+m*lambda(v))/2.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-algebra-07",
+      "printed_page": 416,
+      "claim": "The sum-parity identity follows by the integer carry multiple of odd m.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-algebra-08",
+      "printed_page": 416,
+      "claim": "The unit Jacobi-positive class splits into disjoint Qstar and minus Qstar.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-algebra-09",
+      "printed_page": 416,
+      "claim": "The sign chi is invariant under multiplication by4.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-algebra-10",
+      "printed_page": 416,
+      "claim": "The canonical root of v^2*y is chi(v)*tau(v) on the nonzero-chi classes.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-a-01",
+      "printed_page": 668,
+      "claim": "Uniform x has four preimages per unit square, two per nonzero nonunit square and one for zero.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-a-02",
+      "printed_page": 668,
+      "claim": "Consequently the oracle promise on uniform Q does not imply the printed mean for x^4 samples.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-a-03",
+      "printed_page": 668,
+      "claim": "The saved m=209 oracle succeeds on31/60 uniform squares but only93/209 of the x^4 sampling distribution.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-a-04",
+      "printed_page": 668,
+      "claim": "For the printed majority size, that counterexample makes the correct answer probability below3*10^-7.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-a-05",
+      "printed_page": 668,
+      "claim": "The repaired membership algorithm first handles zero, proper gcd and Jacobi-negative input.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-a-06",
+      "printed_page": 668,
+      "claim": "Its sample size is ceil(8*epsilon^-2*log(2/delta)).",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-a-07",
+      "printed_page": 668,
+      "claim": "The nonunit-square proportion theta is at most four times the proper-gcd sampling probability rho.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-a-08",
+      "printed_page": 668,
+      "claim": "If rho is large, the gcd branch succeeds with the required high probability.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-a-09",
+      "printed_page": 668,
+      "claim": "If rho is small, the oracle retains a positive margin on uniform unit squares.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-a-10",
+      "printed_page": 668,
+      "claim": "Conditional on all samples being units, the samples remain independent and uniform in the unit group.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-a-11",
+      "printed_page": 668,
+      "claim": "The two Jacobi-positive sign classes produce opposite parity and the correct majority direction.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-a-12",
+      "printed_page": 668,
+      "claim": "Hoeffding gives the stated error and O(epsilon^-2*log(2/delta)*(T(G)+r^2)) time.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-b-setup-01",
+      "printed_page": 668,
+      "claim": "A dyadic eta between epsilon/8 and epsilon/4 permits finite explicit grids.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-b-setup-02",
+      "printed_page": 668,
+      "claim": "Trial division up to B either factors m or makes both primes larger than every sample-index difference.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-b-setup-03",
+      "printed_page": 668,
+      "claim": "In the latter branch, nonunits have sufficiently small mass to preserve oracle bias on Qstar.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-b-setup-04",
+      "printed_page": 668,
+      "claim": "A Jacobi-negative x makes its canonical square root different from both x and minus x.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-b-setup-05",
+      "printed_page": 668,
+      "claim": "Recovering that root yields the two proper gcd factors.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-b-setup-06",
+      "printed_page": 668,
+      "claim": "Uniform a,b and their rare-zero events are analyzed without conditioning away pairwise independence.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-b-setup-07",
+      "printed_page": 668,
+      "claim": "All O(eta^-4) initial approximation/parity branches are enumerated, including the true one.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-b-setup-08",
+      "printed_page": 668,
+      "claim": "The simultaneous halving updates preserve and shrink both approximation errors.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-b-setup-09",
+      "printed_page": 668,
+      "claim": "The two linear sample families give uniform individual inputs and pairwise-independent pairs by invertible determinants.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-b-votes-01",
+      "printed_page": 669,
+      "claim": "The correct vote uses floor(alpha_t+j*beta_t+beta_(t+1)), not the printed product; C0182 has a valid local witness.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "3–6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-b-votes-02",
+      "printed_page": 669,
+      "claim": "The numerical approximation error is uniformly bounded outside explicit endpoint bands.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "3–6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-b-votes-03",
+      "printed_page": 669,
+      "claim": "The signed vote handles chi=-1 by flipping the predicted canonical-root parity.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "3–6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-b-votes-04",
+      "printed_page": 669,
+      "claim": "The auxiliary error variable must use lambda(chi(u)*u); C0184's printed expectation fails even for a perfect oracle.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "3–6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-b-votes-05",
+      "printed_page": 669,
+      "claim": "The corrected error variable depends only on its own multiplier and fresh oracle coins.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "3–6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-b-votes-06",
+      "printed_page": 669,
+      "claim": "Its mean is at least eta and its variance at most1 under the recorded constants.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "3–6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-b-votes-07",
+      "printed_page": 669,
+      "claim": "Chebyshev bounds each majority failure by1/(n_t*eta^2).",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "3–6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-b-votes-08",
+      "printed_page": 669,
+      "claim": "The union bound includes both votes at every stage starting at zero.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "3–6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-b-votes-09",
+      "printed_page": 669,
+      "claim": "The printed C0185 bound omits stage zero; for r=8 its own stated terms sum to19/18.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "3–6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-b-votes-10",
+      "printed_page": 669,
+      "claim": "That upper-bound arithmetic error does not establish actual failure probability above9/10.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "3–6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-b-votes-11",
+      "printed_page": 669,
+      "claim": "Using ideal stage errors bounds the first actual error without invalid conditional independence assumptions.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "3–6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-b-votes-12",
+      "printed_page": 669,
+      "claim": "Chi values are reused after two stages because the multipliers differ by a square.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "3–6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-b-votes-13",
+      "printed_page": 669,
+      "claim": "The membership precomputation's errors have a separate union bound.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "3–6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-b-votes-14",
+      "printed_page": 669,
+      "claim": "After r stages, nearest-integer recovery determines the exact tau value.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "3–6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-b-votes-15",
+      "printed_page": 669,
+      "claim": "Each reconstructed branch must produce a proper gcd, not merely a root with the right square.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "3–6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-b-votes-16",
+      "printed_page": 669,
+      "claim": "A trial succeeds with probability greater than one half, so expected repetition count is constant.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "3–6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-b-votes-17",
+      "printed_page": 669,
+      "claim": "Fresh coins are kept for different oracle positions even when their numerical inputs coincide.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "3–6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-b-votes-18",
+      "printed_page": 669,
+      "claim": "The short approximation precision and streamed recovered bits give the recorded word-operation bound.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "3–6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-b-votes-19",
+      "printed_page": 669,
+      "claim": "The total time is O(r^2*(epsilon^-6+epsilon^-4*log(1/epsilon)*(T(G)+r^2))).",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "3–6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-external-optimization",
+      "printed_page": 669,
+      "claim": "The stronger Fischlin-Schnorr Theorem8 is an explicit external input, unnecessary for the proved main construction.",
+      "status": "external_theorem",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "8",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-composed-cost",
+      "printed_page": 669,
+      "claim": "The P4 composition uses predictor time T_bit=T(test)+O(N*R^2); substituting that cost gives the recorded bound.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md",
+        "notes/cryptographic.md"
+      ],
+      "argument_section": "8 /4",
+      "scope_note": "T(G) is not silently treated both as the original test time and as the transformed predictor time."
+    },
+    {
+      "id": "4.5.4-TAIL-bbs-rsa-external",
+      "printed_page": 669,
+      "claim": "The analogous RSA least-significant-bit result is supported as a cited external result.",
+      "status": "external_theorem",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "argument_section": "8",
+      "scope_note": "The full optimized RSA construction is not independently re-proved in this audit block."
+    },
+    {
+      "id": "4.5.4-TAIL-norm1-01",
+      "printed_page": 670,
+      "claim": "Two sets of(p+1)/2 elements prove existence of a solution over an odd prime field.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/norm-equations.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-norm1-02",
+      "printed_page": 670,
+      "claim": "At least one nonzero derivative gives p lifts from p^e to p^(e+1).",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/norm-equations.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-norm1-03",
+      "printed_page": 670,
+      "claim": "CRT combines the prime-power solutions; no factorization is needed for this existence proof.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/norm-equations.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-norm1-04",
+      "printed_page": 670,
+      "claim": "The norm product uses x1*x2+a*y1*y2 in its first coordinate.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/norm-equations.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-norm1-05",
+      "printed_page": 670,
+      "claim": "The inverse of a unit-norm pair is norm^-1 times(x,-y).",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/norm-equations.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-norm1-06",
+      "printed_page": 670,
+      "claim": "Multiplication by a fixed unit-norm pair bijects the two norm fibers.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/norm-equations.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-norm1-07",
+      "printed_page": 670,
+      "claim": "The printed minus sign in C0169 fails for a=2 and the stated small pairs, including modulo5.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/norm-equations.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-norm1-08",
+      "printed_page": 670,
+      "claim": "For split a there are p-1 solutions of each nonzero norm; for nonsplit a there are p+1.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/norm-equations.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-norm1-09",
+      "printed_page": 670,
+      "claim": "Lifting gives the full product formula over prime powers.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/norm-equations.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-norm1-10",
+      "printed_page": 670,
+      "claim": "C0172's minus branch modulo8 has the solution(2,1); only the plus branch demonstrates nonexistence.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/norm-equations.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-norm3-01",
+      "printed_page": 670,
+      "claim": "The two-dimensional lattice has determinant magnitude |m|*sqrt(|a|).",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/norm-equations.md"
+      ],
+      "argument_section": "3–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-norm3-02",
+      "printed_page": 670,
+      "claim": "Gauss reduction and the reduced angle bound give min Q<=|m|*sqrt(4|a|/3).",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/norm-equations.md"
+      ],
+      "argument_section": "3–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-norm3-03",
+      "printed_page": 670,
+      "claim": "C0170 omits |m|; a=2,s=17,z=6 gives minimum2 above sqrt(8/3).",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/norm-equations.md"
+      ],
+      "argument_section": "3–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-norm3-04",
+      "printed_page": 670,
+      "claim": "The norm quotient t is an integer and satisfies |t|<=sqrt(4|a|/3).",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/norm-equations.md"
+      ],
+      "argument_section": "3–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-norm3-05",
+      "printed_page": 670,
+      "claim": "The explicit alpha pair has norm s*t and is nonzero.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/norm-equations.md"
+      ],
+      "argument_section": "3–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-norm3-06",
+      "printed_page": 670,
+      "claim": "The m=0 and a=0 degeneracies have direct constructions.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/norm-equations.md"
+      ],
+      "argument_section": "3–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-norm3-07",
+      "printed_page": 670,
+      "claim": "A shortest vector is primitive, allowing the zero-norm branch to find a root or proper gcd.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/norm-equations.md"
+      ],
+      "argument_section": "3–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-norm3-08",
+      "printed_page": 670,
+      "claim": "For a=1 the difference-of-squares formula solves the equation using invertibility of2.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/norm-equations.md"
+      ],
+      "argument_section": "3–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-norm3-09",
+      "printed_page": 670,
+      "claim": "For a=-1 the required progression modulo4n is a unit class and the sum-of-two-squares construction applies to its primes.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/norm-equations.md"
+      ],
+      "argument_section": "3–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-norm-sampling-01",
+      "printed_page": 671,
+      "claim": "The nonzero-coordinate sampling in C0171 is not uniform across nonzero norms; n=7,a=3 supplies exact unequal counts.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/norm-equations.md"
+      ],
+      "argument_section": "2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-norm-sampling-02",
+      "printed_page": 671,
+      "claim": "Sampling both coordinates over all residues makes unit norms conditionally uniform by the fiber count.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/norm-equations.md"
+      ],
+      "argument_section": "2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-norm-sampling-03",
+      "printed_page": 671,
+      "claim": "The proper-gcd, zero-norm and nonunit-coordinate branches must be adjusted with that sampling change.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/norm-equations.md"
+      ],
+      "argument_section": "2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-norm-sampling-04",
+      "printed_page": 671,
+      "claim": "The distribution counterexample alone does not prove that the original method is inefficient.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/norm-equations.md"
+      ],
+      "argument_section": "2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-norm-recursion-01",
+      "printed_page": 671,
+      "claim": "The centered representative satisfies |a|<=n/2.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/norm-equations.md"
+      ],
+      "argument_section": "4–5",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-norm-recursion-02",
+      "printed_page": 671,
+      "claim": "A found modular square root is checked directly before using it.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/norm-equations.md"
+      ],
+      "argument_section": "4–5",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-norm-recursion-03",
+      "printed_page": 671,
+      "claim": "For s=1 the sampled pair inverse already gives the answer.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/norm-equations.md"
+      ],
+      "argument_section": "4–5",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-norm-recursion-04",
+      "printed_page": 671,
+      "claim": "The gcd of m or t with n either splits the problem or permits the required inverse.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/norm-equations.md"
+      ],
+      "argument_section": "4–5",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-norm-recursion-05",
+      "printed_page": 671,
+      "claim": "For t=0, primitiveness supplies a root of a or a proper factor.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/norm-equations.md"
+      ],
+      "argument_section": "4–5",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-norm-recursion-06",
+      "printed_page": 671,
+      "claim": "The recursive solution X^2-tY^2=a either gives a factor, a square root, or an invertible Y.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/norm-equations.md"
+      ],
+      "argument_section": "4–5",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-norm-recursion-07",
+      "printed_page": 671,
+      "claim": "The pair beta=(X/Y,1/Y) has norm t with respect to the original a.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/norm-equations.md"
+      ],
+      "argument_section": "4–5",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-norm-recursion-08",
+      "printed_page": 671,
+      "claim": "Composing alpha*beta^-1*(u,v)^-1 has norm b.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/norm-equations.md"
+      ],
+      "argument_section": "4–5",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-norm-recursion-09",
+      "printed_page": 671,
+      "claim": "The square-root shrinkage gives O(log log n) coefficient levels down to plus or minus1.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/norm-equations.md"
+      ],
+      "argument_section": "4–5",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-norm-recursion-10",
+      "printed_page": 671,
+      "claim": "A discovered divisor and its quotient are not assumed coprime.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/norm-equations.md"
+      ],
+      "argument_section": "4–5",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-norm-recursion-11",
+      "printed_page": 671,
+      "claim": "Repeated gcd stripping separates the prime supports into coprime components.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/norm-equations.md"
+      ],
+      "argument_section": "4–5",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-norm-recursion-12",
+      "printed_page": 671,
+      "claim": "The joint derivative gcd allows lifting even if neither derivative coefficient is separately invertible.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/norm-equations.md"
+      ],
+      "argument_section": "4–5",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-norm-recursion-13",
+      "printed_page": 671,
+      "claim": "Repeated squaring of the lifting modulus has polynomial bit length and reaches the required component.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/norm-equations.md"
+      ],
+      "argument_section": "4–5",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-norm-recursion-14",
+      "printed_page": 671,
+      "claim": "The recursive component products are bounded by n and CRT recombination is valid.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/norm-equations.md"
+      ],
+      "argument_section": "4–5",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-norm-conditional-time",
+      "printed_page": 671,
+      "claim": "Conditional polynomial time follows from named ERH prime-count estimates, modular roots and two-dimensional reduction.",
+      "status": "conditional_argument",
+      "evidence": [
+        "notes/norm-equations.md"
+      ],
+      "argument_section": "6",
+      "scope_note": "These external analytic estimates are assumptions of the complexity conclusion, not consequences of the finite tests."
+    },
+    {
+      "id": "4.5.4-TAIL-norm-unconditional-gap",
+      "printed_page": 671,
+      "claim": "The independently described unconditional AEM algorithm has not been reconstructed here.",
+      "status": "partial",
+      "evidence": [
+        "notes/norm-equations.md"
+      ],
+      "argument_section": "6",
+      "scope_note": "The author review supports its existence; that bibliographic support does not complete our own unconditional algorithmic argument."
+    },
+    {
+      "id": "4.5.4-TAIL-dlog-relations-01",
+      "printed_page": 671,
+      "claim": "Each smooth power gives a whole exponent-vector relation modulo p-1.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/discrete-log.md"
+      ],
+      "argument_section": "1–2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-dlog-relations-02",
+      "printed_page": 671,
+      "claim": "One common integer combination of rows must produce each coordinate basis vector.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/discrete-log.md"
+      ],
+      "argument_section": "1–2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-dlog-relations-03",
+      "printed_page": 671,
+      "claim": "The logarithm of a factor-base prime uses the original power exponents r_i in that combination.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/discrete-log.md"
+      ],
+      "argument_section": "1–2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-dlog-relations-04",
+      "printed_page": 671,
+      "claim": "C0173's p=7,a=3 example returns1 instead of the correct logarithm2.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/discrete-log.md"
+      ],
+      "argument_section": "1–2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-dlog-relations-05",
+      "printed_page": 671,
+      "claim": "Independent coordinate coefficients do not give a simultaneous row combination.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/discrete-log.md"
+      ],
+      "argument_section": "1–2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-dlog-relations-06",
+      "printed_page": 671,
+      "claim": "The modulus p-1 is composite, so an arbitrary nonzero pivot cannot be inverted.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/discrete-log.md"
+      ],
+      "argument_section": "1–2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-dlog-relations-07",
+      "printed_page": 671,
+      "claim": "The Bezout two-row transform is unimodular and preserves the full integer lattice.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/discrete-log.md"
+      ],
+      "argument_section": "1–2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-dlog-relations-08",
+      "printed_page": 671,
+      "claim": "Reducing rows above the positive pivots bounds intermediate bit lengths polynomially.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/discrete-log.md"
+      ],
+      "argument_section": "1–2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-dlog-relations-09",
+      "printed_page": 671,
+      "claim": "Index one yields every unit basis vector and its explicit coefficient certificate.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/discrete-log.md"
+      ],
+      "argument_section": "1–2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-dlog-relations-10",
+      "printed_page": 671,
+      "claim": "Membership tests allow redundant relation rows to be discarded without factoring p-1.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/discrete-log.md"
+      ],
+      "argument_section": "1–2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-dlog-generation-01",
+      "printed_page": 671,
+      "claim": "A proper subgroup has a nonzero prime-order linear character vanishing on it.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/discrete-log.md"
+      ],
+      "argument_section": "3–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-dlog-generation-02",
+      "printed_page": 671,
+      "claim": "Choose a factor-base coordinate with nonzero character coefficient.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/discrete-log.md"
+      ],
+      "argument_section": "3–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-dlog-generation-03",
+      "printed_page": 671,
+      "claim": "Pair each small smooth v with q_j*v; at least one exponent vector is outside that subgroup.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/discrete-log.md"
+      ],
+      "argument_section": "3–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-dlog-generation-04",
+      "printed_page": 671,
+      "claim": "Every smooth integer occurs at most twice as an endpoint, giving the stated lower count.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/discrete-log.md"
+      ],
+      "argument_section": "3–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-dlog-generation-05",
+      "printed_page": 671,
+      "claim": "Random exponents give exactly uniform nonzero residues because a is primitive.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/discrete-log.md"
+      ],
+      "argument_section": "3–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-dlog-generation-06",
+      "printed_page": 671,
+      "claim": "Every trial enlarges a proper subgroup with the recorded conditional probability, for any prior history.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/discrete-log.md"
+      ],
+      "argument_section": "3–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-dlog-generation-07",
+      "printed_page": 671,
+      "claim": "Each enlargement at least doubles subgroup size, bounding their number by d*log2(p-1).",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/discrete-log.md"
+      ],
+      "argument_section": "3–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-dlog-generation-08",
+      "printed_page": 671,
+      "claim": "A central binomial coefficient divides the lcm up to2m, yielding an elementary lower bound for psi.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/discrete-log.md"
+      ],
+      "argument_section": "3–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-dlog-generation-09",
+      "printed_page": 671,
+      "claim": "Subtracting repeated prime powers gives pi(x)>=c*x/log x for large x.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/discrete-log.md"
+      ],
+      "argument_section": "3–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-dlog-generation-10",
+      "printed_page": 671,
+      "claim": "Products of k distinct factor-base primes give binom(d,k) distinct bounded smooth integers.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/discrete-log.md"
+      ],
+      "argument_section": "3–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-dlog-generation-11",
+      "printed_page": 671,
+      "claim": "The chosen B and k yield Psi>=exp(log p-O(sqrt(log p*log log p))).",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/discrete-log.md"
+      ],
+      "argument_section": "3–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-dlog-generation-12",
+      "printed_page": 671,
+      "claim": "The expected relation collection and integer elimination cost is exp(O(sqrt(log p*log log p))).",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/discrete-log.md"
+      ],
+      "argument_section": "3–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-dlog-generation-13",
+      "printed_page": 671,
+      "claim": "The proof uses no unproved smoothness hypothesis or random-matrix rank assumption.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/discrete-log.md"
+      ],
+      "argument_section": "3–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-dlog-generation-14",
+      "printed_page": 671,
+      "claim": "Markov converts the expectation into the required almost-always p^epsilon cutoff guarantee.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/discrete-log.md"
+      ],
+      "argument_section": "3–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-dlog-target-01",
+      "printed_page": 671,
+      "claim": "The shifted target b*a^r is uniform and has the same smoothness lower bound.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/discrete-log.md"
+      ],
+      "argument_section": "5–6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-dlog-target-02",
+      "printed_page": 671,
+      "claim": "Its factorization yields the target logarithm modulo p-1 after subtracting r.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/discrete-log.md"
+      ],
+      "argument_section": "5–6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-dlog-target-03",
+      "printed_page": 671,
+      "claim": "The representative0 is returned as p-1 under the book's exponent convention.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/discrete-log.md"
+      ],
+      "argument_section": "5–6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-dlog-target-04",
+      "printed_page": 671,
+      "claim": "A final power check validates the output.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/discrete-log.md"
+      ],
+      "argument_section": "5–6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-dlog-target-05",
+      "printed_page": 671,
+      "claim": "The known1998 final-modulus correction is incorporated and is not C0173.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/discrete-log.md"
+      ],
+      "argument_section": "5–6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-dlog-target-06",
+      "printed_page": 671,
+      "claim": "The original Adleman article is source support; our full-factor-base proof covers the different book implementation.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/discrete-log.md"
+      ],
+      "argument_section": "5–6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-dlog-target-07",
+      "printed_page": 671,
+      "claim": "The improved constant in the Coppersmith-Odlyzko-Schroeppel abstract is explicitly heuristic and is not used in our unconditional bound.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/discrete-log.md"
+      ],
+      "argument_section": "5–6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-crossref36-01",
+      "printed_page": 36,
+      "claim": "The bit-mask dot product in equation17 is the stated binary parity.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md",
+        "notes/cryptographic.md"
+      ],
+      "argument_section": "1–8 /4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-crossref36-02",
+      "printed_page": 36,
+      "claim": "Setting the mask to1 gives the simple BBS least-significant-bit rule.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md",
+        "notes/cryptographic.md"
+      ],
+      "argument_section": "1–8 /4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-crossref36-03",
+      "printed_page": 36,
+      "claim": "Squaring permutes the unit quadratic residues for the stated distinct Blum primes.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md",
+        "notes/cryptographic.md"
+      ],
+      "argument_section": "1–8 /4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-crossref36-04",
+      "printed_page": 36,
+      "claim": "The3.5F and4.5.4-43 reductions now provide the requested forward cross-reference.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md",
+        "notes/cryptographic.md"
+      ],
+      "argument_section": "1–8 /4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-crossref36-05",
+      "printed_page": 36,
+      "claim": "The modulus distribution must be the same in the random source and in the factoring average.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md",
+        "notes/cryptographic.md"
+      ],
+      "argument_section": "1–8 /4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-crossref36-06",
+      "printed_page": 36,
+      "claim": "The reductions are conditional implications and do not prove hardness of factoring.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md",
+        "notes/cryptographic.md"
+      ],
+      "argument_section": "1–8 /4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-TAIL-crossref36-quantitative",
+      "printed_page": 36,
+      "claim": "The precise historical100-year interpretation and comparison of sufficient modulus sizes are not independently quantified.",
+      "status": "partial",
+      "evidence": [
+        "notes/sequential-factoring-tail-2026-11-06.md"
+      ],
+      "argument_section": "Návrat ke straně36 a další kurzor",
+      "scope_note": "A larger sufficient parameter is not proved necessary; no current security recommendation is inferred."
+    },
+    {
+      "id": "4.5.4-TAIL-gauss-quote",
+      "printed_page": 417,
+      "claim": "The exact closing Gauss translation has not been compared with the original Article329.",
+      "status": "bibliography_skip",
+      "evidence": [
+        "notes/sequential-factoring-tail-2026-11-06.md"
+      ],
+      "argument_section": "Návrat ke straně36 a další kurzor",
+      "scope_note": ""
+    }
+  ],
+  "exercises": [
+    {
+      "id": "4.5.4-38",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-digits.md"
+      ],
+      "review_scope": "Whole question, answer and applicable additions paired; existing closed evidence reused.",
+      "scope_note": "Named external inputs, computation limits and historical-source scope remain explicit."
+    },
+    {
+      "id": "4.5.4-39",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-chains.md"
+      ],
+      "review_scope": "Whole question, answer and applicable additions paired; existing closed evidence reused.",
+      "scope_note": "Named external inputs, computation limits and historical-source scope remain explicit."
+    },
+    {
+      "id": "4.5.4-40",
+      "status": "partial",
+      "evidence": [
+        "notes/shamir-factor.md"
+      ],
+      "review_scope": "Whole question, answer and applicable additions paired; existing closed evidence reused.",
+      "scope_note": "The main algorithm is proved; the faster-time and extremal-prime-factor addenda are not solved."
+    },
+    {
+      "id": "4.5.4-41",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/prime-count.md"
+      ],
+      "review_scope": "Whole question, answer and applicable additions paired; existing closed evidence reused.",
+      "scope_note": "Named external inputs, computation limits and historical-source scope remain explicit."
+    },
+    {
+      "id": "4.5.4-42",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/lenstra-residues.md"
+      ],
+      "review_scope": "Whole question, answer and applicable additions paired; existing closed evidence reused.",
+      "scope_note": "Named external inputs, computation limits and historical-source scope remain explicit."
+    },
+    {
+      "id": "4.5.4-43",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/bbs.md"
+      ],
+      "review_scope": "Whole question, answer and applicable additions paired; existing closed evidence reused.",
+      "scope_note": "Named external inputs, computation limits and historical-source scope remain explicit."
+    },
+    {
+      "id": "4.5.4-45",
+      "status": "partial",
+      "evidence": [
+        "notes/norm-equations.md"
+      ],
+      "review_scope": "Whole question, answer and applicable additions paired; existing closed evidence reused.",
+      "scope_note": "The own construction has conditional ERH polynomial time; the cited unconditional algorithm is not independently reconstructed."
+    },
+    {
+      "id": "4.5.4-46",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/discrete-log.md"
+      ],
+      "review_scope": "Whole question, answer and applicable additions paired; existing closed evidence reused.",
+      "scope_note": "Named external inputs, computation limits and historical-source scope remain explicit."
+    }
+  ],
+  "next_cursor": {
+    "printed_page": 418,
+    "file_page": 430,
+    "target": "4.6 Polynomial Arithmetic"
+  },
+  "new_computation": [],
+  "new_confirmed_findings": []
+}

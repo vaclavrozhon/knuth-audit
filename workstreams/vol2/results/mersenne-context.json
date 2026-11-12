@@ -1,0 +1,243 @@
+{
+  "passed": true,
+  "seconds": 0.026472434983588755,
+  "original_entries": 36,
+  "old_additions": 11,
+  "new_additions_with_C0163_repair": 5,
+  "exponent_primality_checks": 52,
+  "digit_count_checks": 52,
+  "direct_integer_digit_count_checks": 23,
+  "log10_2_interval": {
+    "lower": "14034380687371972740539187138946445466622005633249404560394742313516738224692983029439641819531260523260020803584/46621203499725568272651559780626130394487762840507955653589515829652067249419256495846704305050903162016252845007",
+    "upper": "42103142062115918221617561416839336399866016899748213681184226970503191837707222979818147583109816019560407766877/139863610499176704817954646725974501365073050055112067667473562370491705757326458437875688969716085112791213921296",
+    "terms_per_log": 64
+  },
+  "digit_counts": [
+    {
+      "exponent": 2,
+      "digits": 1
+    },
+    {
+      "exponent": 3,
+      "digits": 1
+    },
+    {
+      "exponent": 5,
+      "digits": 2
+    },
+    {
+      "exponent": 7,
+      "digits": 3
+    },
+    {
+      "exponent": 13,
+      "digits": 4
+    },
+    {
+      "exponent": 17,
+      "digits": 6
+    },
+    {
+      "exponent": 19,
+      "digits": 6
+    },
+    {
+      "exponent": 31,
+      "digits": 10
+    },
+    {
+      "exponent": 61,
+      "digits": 19
+    },
+    {
+      "exponent": 89,
+      "digits": 27
+    },
+    {
+      "exponent": 107,
+      "digits": 33
+    },
+    {
+      "exponent": 127,
+      "digits": 39
+    },
+    {
+      "exponent": 521,
+      "digits": 157
+    },
+    {
+      "exponent": 607,
+      "digits": 183
+    },
+    {
+      "exponent": 1279,
+      "digits": 386
+    },
+    {
+      "exponent": 2203,
+      "digits": 664
+    },
+    {
+      "exponent": 2281,
+      "digits": 687
+    },
+    {
+      "exponent": 3217,
+      "digits": 969
+    },
+    {
+      "exponent": 4253,
+      "digits": 1281
+    },
+    {
+      "exponent": 4423,
+      "digits": 1332
+    },
+    {
+      "exponent": 9689,
+      "digits": 2917
+    },
+    {
+      "exponent": 9941,
+      "digits": 2993
+    },
+    {
+      "exponent": 11213,
+      "digits": 3376
+    },
+    {
+      "exponent": 19937,
+      "digits": 6002
+    },
+    {
+      "exponent": 21701,
+      "digits": 6533
+    },
+    {
+      "exponent": 23209,
+      "digits": 6987
+    },
+    {
+      "exponent": 44497,
+      "digits": 13395
+    },
+    {
+      "exponent": 86243,
+      "digits": 25962
+    },
+    {
+      "exponent": 110503,
+      "digits": 33265
+    },
+    {
+      "exponent": 132049,
+      "digits": 39751
+    },
+    {
+      "exponent": 216091,
+      "digits": 65050
+    },
+    {
+      "exponent": 756839,
+      "digits": 227832
+    },
+    {
+      "exponent": 859433,
+      "digits": 258716
+    },
+    {
+      "exponent": 1257787,
+      "digits": 378632
+    },
+    {
+      "exponent": 1398269,
+      "digits": 420921
+    },
+    {
+      "exponent": 2976221,
+      "digits": 895932
+    },
+    {
+      "exponent": 3021377,
+      "digits": 909526
+    },
+    {
+      "exponent": 6972593,
+      "digits": 2098960
+    },
+    {
+      "exponent": 13466917,
+      "digits": 4053946
+    },
+    {
+      "exponent": 20996011,
+      "digits": 6320430
+    },
+    {
+      "exponent": 24036583,
+      "digits": 7235733
+    },
+    {
+      "exponent": 25964951,
+      "digits": 7816230
+    },
+    {
+      "exponent": 30402457,
+      "digits": 9152052
+    },
+    {
+      "exponent": 32582657,
+      "digits": 9808358
+    },
+    {
+      "exponent": 37156667,
+      "digits": 11185272
+    },
+    {
+      "exponent": 42643801,
+      "digits": 12837064
+    },
+    {
+      "exponent": 43112609,
+      "digits": 12978189
+    },
+    {
+      "exponent": 57885161,
+      "digits": 17425170
+    },
+    {
+      "exponent": 74207281,
+      "digits": 22338618
+    },
+    {
+      "exponent": 77232917,
+      "digits": 23249425
+    },
+    {
+      "exponent": 82589933,
+      "digits": 24862048
+    },
+    {
+      "exponent": 136279841,
+      "digits": 41024320
+    }
+  ],
+  "C0163": {
+    "wrong_exponent": 77232017,
+    "exponent_factorization": [
+      19,
+      29,
+      140167
+    ],
+    "proper_divisor_of_M": 524287,
+    "exponent_quotient": 4064843,
+    "corrected_exponent": 77232917
+  },
+  "M8191": {
+    "proper_factor": 338193759479,
+    "division_remainder": 0,
+    "cofactor_bits": 8153,
+    "cofactor_sha256": "70e205b91de73f1f9c55ae794b47befd81fb48057b8b94c49a4ece94ed31202d"
+  },
+  "scope": "52 prime exponents and exact digit counts. Primality of large M_p relies on identified external verification records; earlier local Lucas checks through exponent11213 are not rerun."
+}

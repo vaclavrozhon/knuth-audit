@@ -1,0 +1,260 @@
+{
+  "at_utc": "2026-11-03T17:35:37.389960+00:00",
+  "runner_sha256": "c203b7842561ee766b83f237a6c7d4cb0e5c880f5ae98a9fc60662f1f12a454d",
+  "binary_sha256": "c1b4f11e48a2836c85c869d37c633e72f04718f6d8de46ed189b04a69dfe34be",
+  "runs": [
+    {
+      "label": "pentomino-6x10",
+      "command": [
+        "/tmp/knuth-vol4b-preprocess225-compiler-4uroe6zy/dlx-pre",
+        "v15",
+        "d0"
+      ],
+      "timeout_seconds": 30,
+      "input_sha256": "0078459c60764b05d1bd52e1fbac6e753b5adcf685c7f7c7340100f0b3e64a6c",
+      "metadata": {
+        "h": 6,
+        "w": 10,
+        "onesided": false,
+        "pieces": [
+          "O",
+          "P",
+          "Q",
+          "R",
+          "S",
+          "T",
+          "U",
+          "V",
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ],
+        "options": 2032,
+        "xcenters": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ]
+      },
+      "nice": 15,
+      "status": "completed",
+      "returncode": 0,
+      "stdout_sha256": "71c223adeec1f62d76e78fa04bc88dd5864eebf9bd0c76e810c922d608534bd9",
+      "stderr_sha256": "1c3ad66d98fbf6a602ee99a25d50d95fc3967af128441d2e02806c349f073ba6",
+      "wall_seconds": 0.6230530359898694
+    },
+    {
+      "label": "pentomino-6x15",
+      "command": [
+        "/tmp/knuth-vol4b-preprocess225-compiler-4uroe6zy/dlx-pre",
+        "v15",
+        "d0"
+      ],
+      "timeout_seconds": 30,
+      "input_sha256": "c8147af53341482c661cc0731caeac8e3f0f9baae3fb991bc03cb236f935f609",
+      "metadata": {
+        "h": 6,
+        "w": 15,
+        "onesided": true,
+        "pieces": [
+          "O",
+          "P",
+          "p",
+          "Q",
+          "q",
+          "R",
+          "r",
+          "S",
+          "s",
+          "T",
+          "U",
+          "V",
+          "W",
+          "X",
+          "Y",
+          "y",
+          "Z",
+          "z"
+        ],
+        "options": 3308,
+        "xcenters": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ]
+        ]
+      },
+      "nice": 15,
+      "status": "completed",
+      "returncode": 0,
+      "stdout_sha256": "c953bc3f19cc17ea55230b445036d707c8f84525be1cfa27fbb9950f25eb3bef",
+      "stderr_sha256": "bb0a1246f693f52893c483c7c8c9e298ae86c94fd2b0c5b19db88fb16e9232c9",
+      "wall_seconds": 1.18040639400715
+    },
+    {
+      "label": "pentomino3x20",
+      "command": [
+        "/tmp/knuth-vol4b-preprocess225-compiler-4uroe6zy/dlx-pre",
+        "v15",
+        "d0"
+      ],
+      "timeout_seconds": 30,
+      "input_sha256": "0950b15740e3f747d25ed4e9cb1d9c7a548ece327a6c0b73db7faa370067187b",
+      "metadata": {
+        "accepted_input": "results/pentomino_main/full.dlx",
+        "input_sha256": "0950b15740e3f747d25ed4e9cb1d9c7a548ece327a6c0b73db7faa370067187b"
+      },
+      "nice": 15,
+      "status": "completed",
+      "returncode": 0,
+      "stdout_sha256": "e01ab97e906c529a8ca6f6bcff19372593cdfdc5136179a20c7efe04fc42dfa5",
+      "stderr_sha256": "f251690dbdc53ca0920b1181f36ee5a6abb41e1c69afcfa8dcc73dbb1d1aa503",
+      "wall_seconds": 0.26628801197512075
+    },
+    {
+      "label": "macmahon126",
+      "command": [
+        "/tmp/knuth-vol4b-preprocess225-compiler-4uroe6zy/dlx-pre",
+        "v15",
+        "d0"
+      ],
+      "timeout_seconds": 30,
+      "input_sha256": "c51258a58e31615f479ed4922d854f934e874a455e3619ff0d8f07654d8c0c35",
+      "metadata": {
+        "accepted_input": "results/triangles124_126/native/full-original.dlx",
+        "input_sha256": "c51258a58e31615f479ed4922d854f934e874a455e3619ff0d8f07654d8c0c35"
+      },
+      "nice": 15,
+      "status": "completed",
+      "returncode": 0,
+      "stdout_sha256": "856b18a6bd4aff818537db8576617f6dc4a032009fa479d3b02c275f018a52be",
+      "stderr_sha256": "3419ef009c034d79cb57addb838286ed76bd1ea826d9c80f98cd0c5078622314",
+      "wall_seconds": 0.09902944503119215
+    },
+    {
+      "label": "sudoku114-original",
+      "command": [
+        "/tmp/knuth-vol4b-preprocess225-compiler-4uroe6zy/dlx-pre",
+        "v15",
+        "d0"
+      ],
+      "timeout_seconds": 30,
+      "input_sha256": "6e223d77ae1186041fd1cef0d2781a8bc2fc1cf47a51544493125db1cca8d4bf",
+      "metadata": {
+        "primary": 585,
+        "secondary": 90,
+        "options": 5410,
+        "generator_sha256": "50c4ab867c8ac4d1efae92af2547636c7bbe75c489bc25241a91f4d3f32e6729"
+      },
+      "nice": 15,
+      "status": "completed",
+      "returncode": 0,
+      "stdout_sha256": "b6c89ea8bfe0a249242e253794b304c08754bbc6902ed6efc575993f8098a2ca",
+      "stderr_sha256": "598465c084d4a1ca0986efafd3544a8e2c568ff959f35206192f3e740d946bf7",
+      "wall_seconds": 2.2597424120176584
+    },
+    {
+      "label": "y15x15",
+      "command": [
+        "/tmp/knuth-vol4b-preprocess225-compiler-4uroe6zy/dlx-pre",
+        "v15",
+        "d0"
+      ],
+      "timeout_seconds": 30,
+      "input_sha256": "9d356832d01131c2320eb2161607b2f5bc6e3096a367503833ad520e4c1d8530",
+      "metadata": {
+        "options": 1344,
+        "center_or_H_restrictions": false
+      },
+      "nice": 15,
+      "status": "completed",
+      "returncode": 0,
+      "stdout_sha256": "e6564dc3ecc74b62301f38dcd920ab1da3b1d7d6ea6243c79129e80b7837ad02",
+      "stderr_sha256": "7f14155e2653372174c78503b74e07d0d56b1f1677cb199ff286f29b8805f51f",
+      "wall_seconds": 0.0771084830048494
+    }
+  ],
+  "full_solution_searches": 0
+}

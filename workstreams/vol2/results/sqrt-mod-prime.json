@@ -1,0 +1,166 @@
+{
+  "blocks": {
+    "shifts": {
+      "status": "passed",
+      "started_at_utc": "2026-11-04T02:07:10.408256+00:00",
+      "pid": 1334161,
+      "elapsed_seconds": 1.9598552859970368,
+      "stats": {
+        "shift_gcds": 37417,
+        "shift_distributions": 567
+      },
+      "shift_examples": [
+        {
+          "p": 5,
+          "u": 1,
+          "successes": 2,
+          "total": 5
+        },
+        {
+          "p": 5,
+          "u": 4,
+          "successes": 4,
+          "total": 5
+        }
+      ],
+      "erratum_affine_counterexamples": [
+        {
+          "p": 5,
+          "u": 1,
+          "t": 0,
+          "successful_s": []
+        },
+        {
+          "p": 7,
+          "u": 1,
+          "t": 3,
+          "successful_s": [
+            2,
+            5
+          ]
+        }
+      ],
+      "first_gcd_counterexample": {
+        "p": 5,
+        "u": 1,
+        "gcd": [
+          4,
+          0,
+          1
+        ]
+      }
+    },
+    "algorithms": {
+      "status": "passed",
+      "started_at_utc": "2026-11-04T02:07:12.896728+00:00",
+      "pid": 1334166,
+      "elapsed_seconds": 1.180821007990744,
+      "stats": {
+        "direct_3_mod_4": 19705,
+        "nonresidue_trial_means": 167,
+        "atkin_5_mod_8": 9498,
+        "shanks_invariant_states": 81656,
+        "shanks_instances": 46480
+      }
+    },
+    "cipolla": {
+      "status": "passed",
+      "started_at_utc": "2026-11-04T02:07:14.603044+00:00",
+      "pid": 1334168,
+      "elapsed_seconds": 0.11155742697883397,
+      "stats": {
+        "cipolla_instances": 18425,
+        "cipolla_trial_distributions": 567
+      }
+    },
+    "average": {
+      "status": "passed",
+      "started_at_utc": "2026-11-04T02:07:15.246878+00:00",
+      "pid": 1334170,
+      "elapsed_seconds": 0.039592762012034655,
+      "stats": {
+        "cyclic_states": 16382
+      },
+      "exact_cost_distributions": [
+        {
+          "e": 2,
+          "inputs": 2,
+          "max": 4,
+          "mean": "2"
+        },
+        {
+          "e": 3,
+          "inputs": 4,
+          "max": 9,
+          "mean": "19/4"
+        },
+        {
+          "e": 4,
+          "inputs": 8,
+          "max": 15,
+          "mean": "65/8"
+        },
+        {
+          "e": 5,
+          "inputs": 16,
+          "max": 22,
+          "mean": "193/16"
+        },
+        {
+          "e": 6,
+          "inputs": 32,
+          "max": 30,
+          "mean": "529/32"
+        },
+        {
+          "e": 7,
+          "inputs": 64,
+          "max": 39,
+          "mean": "1377/64"
+        },
+        {
+          "e": 8,
+          "inputs": 128,
+          "max": 49,
+          "mean": "3457/128"
+        },
+        {
+          "e": 9,
+          "inputs": 256,
+          "max": 60,
+          "mean": "8449/256"
+        },
+        {
+          "e": 10,
+          "inputs": 512,
+          "max": 72,
+          "mean": "20225/512"
+        },
+        {
+          "e": 11,
+          "inputs": 1024,
+          "max": 85,
+          "mean": "47617/1024"
+        },
+        {
+          "e": 12,
+          "inputs": 2048,
+          "max": 99,
+          "mean": "110593/2048"
+        },
+        {
+          "e": 13,
+          "inputs": 4096,
+          "max": 114,
+          "mean": "253953/4096"
+        },
+        {
+          "e": 14,
+          "inputs": 8192,
+          "max": 130,
+          "mean": "577537/8192"
+        }
+      ]
+    }
+  }
+}

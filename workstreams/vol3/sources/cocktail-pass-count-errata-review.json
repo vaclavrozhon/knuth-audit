@@ -1,0 +1,75 @@
+{
+  "scope": "V3-C0027 candidate: terminal verification-pass convention in §5.4.8 answer9, printed696, linked from §5.2.2-9 and Figure16 on110. No claim that the proved u-coordinate reduction is false.",
+  "checked_at_utc": "2026-11-07T02:25:00.989789+00:00",
+  "edition": "Volume3, second edition, first printing1998; printed=file-11.",
+  "originals": [
+    "workstreams/vol3/images/exchanging-file-121.png",
+    "workstreams/vol3/images/cocktail-cross-reference-1.png",
+    "workstreams/vol3/images/cocktail-cross-reference-2.png",
+    "workstreams/vol3/images/cocktail-cross-reference-3.png"
+  ],
+  "queries": [
+    "modern printed110,134,353,356,696 with section/answer context",
+    "global cocktail/shaker/Iverson/elevator/pass-count semantic search",
+    "historical answer9 matches distinguished by surrounding chapter content rather than page number alone"
+  ],
+  "layers": [
+    {
+      "name": "all3-prepre",
+      "source": "errata/text/all3-prepre.txt",
+      "conclusion": "Known Figure16 caption joke(2002),353 floor-direction typography(2008),356 exercise6 figure reference(2003), and696 §5.4.9 answer2 index typo(2001) are unrelated. No correction to §5.4.8 answer9 found.",
+      "relevant_entries": [
+        {
+          "printed_page": 110,
+          "text": "Page 110             aption to Figure 16 is not an error                         22 Aug 2002\n        o ktail-shaker short [shi ℄ y o ktail-shaker short [shi ℄\n    [Let's drink a toast to all al oholi shorting methods, and forgive authors who o asionally\n    make weird attempts at humor.℄"
+        },
+        {
+          "printed_page": 353,
+          "text": "Page 353   line 16                                                            25 Nov 2008\n   oor i + 1 y oor i \u0006 1"
+        },
+        {
+          "printed_page": 356,
+          "text": "xPage 356 line 1 of exer ise 6                                                 10 Jan 2003\n    Fig. 87 y Fig. 88\n\f                         CHANGES TO VOLUME 3: SORTING AND SEARCHING                  17"
+        },
+        {
+          "printed_page": 696,
+          "text": "xPage 696      line 7 of answer 2                                              15 Mar 2001\n  k + 1 = qi q y k + 1 = ai q\n                         ( +1)                                ( +1)"
+        }
+      ]
+    },
+    {
+      "name": "all3-pre",
+      "source": "errata/text/all3-pre.txt",
+      "conclusion": "The2021 modern-hardware addition on110 and index entry changes do not address pass counting.",
+      "relevant_entries": [
+        {
+          "printed_page": 110,
+          "text": "Page 110 new senten e in paragraph before line 3                  18 Aug 2021\n  Modern omputers have however led to its rebirth, for sorting short les in a\n  a he-eÆ ient manner, without expensive bran h-predi tion errors."
+        }
+      ]
+    },
+    {
+      "name": "all3",
+      "source": "errata/text/all3.txt",
+      "conclusion": "No matching correction found.",
+      "relevant_entries": []
+    },
+    {
+      "name": "err3",
+      "source": "errata/text/err3.txt",
+      "conclusion": "No matching correction found.",
+      "relevant_entries": []
+    },
+    {
+      "name": "err3-1e",
+      "source": "errata/text/err3-1e.txt",
+      "conclusion": "Global semantic and historical answer-context searches found no matching correction. Historical page numbers were not equated with1998 pagination.",
+      "relevant_entries": [
+        {
+          "context": "Historical global semantic check",
+          "result": "No matching cocktail-shaker pass-count or terminal-verification correction found. Old page696 answer45 concerns another section; old page666 answer9 is a self-organizing-search formula and is not this exercise. Relevant early bubble BOUND=1 amendment is already in our printing."
+        }
+      ]
+    }
+  ]
+}

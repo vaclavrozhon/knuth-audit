@@ -1,0 +1,65 @@
+{
+  "finding": "F162",
+  "method": "Exact four-atom proof, no numerical program run.",
+  "alpha": 0,
+  "n": 1,
+  "iid_values": [
+    -1,
+    1
+  ],
+  "marginal_weights": [
+    "1/2",
+    "1/2"
+  ],
+  "atoms": [
+    {
+      "X1": -1,
+      "X2": -1,
+      "weight": "1/4",
+      "D1": 1,
+      "D2": 1,
+      "equal_values": true,
+      "distance_comparison": true,
+      "original_mean_event": true
+    },
+    {
+      "X1": -1,
+      "X2": 1,
+      "weight": "1/4",
+      "D1": 1,
+      "D2": 1,
+      "equal_values": false,
+      "distance_comparison": true,
+      "original_mean_event": true
+    },
+    {
+      "X1": 1,
+      "X2": -1,
+      "weight": "1/4",
+      "D1": 1,
+      "D2": 1,
+      "equal_values": false,
+      "distance_comparison": true,
+      "original_mean_event": true
+    },
+    {
+      "X1": 1,
+      "X2": 1,
+      "weight": "1/4",
+      "D1": 1,
+      "D2": 1,
+      "equal_values": true,
+      "distance_comparison": true,
+      "original_mean_event": true
+    }
+  ],
+  "distance_comparison_probability": "1",
+  "equal_distance_probability": "1",
+  "equal_values_probability": "1/2",
+  "printed_right_side": "3/4",
+  "original_claim_probability": "1",
+  "correction": "Replace the local equality by ≥, or use equality of the two absolute distances.",
+  "severity": "low",
+  "numerical_runs": 0,
+  "updated_at_utc": "2026-11-06T21:40:07.203687+00:00"
+}

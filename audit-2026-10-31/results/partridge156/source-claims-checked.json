@@ -1,0 +1,224 @@
+{
+  "at_utc": "2026-11-03T11:30:42.871064+00:00",
+  "checker_sha256": "61e9553b1372e62755878f41c02933f3e5ba3a52d7e9067d54e7ec4c59bbbdf5",
+  "dependencies": {
+    "extract_jigsaw.py": "012a8cdc37835f26901339b783237350bc64f332b4e64365208e57ae3cd287ce"
+  },
+  "accepted_prior_hashes": {
+    "partridge.cpp": "65509ab1de8720e4e3d70facfc6ad25788646b136285bb94b6e6171fe3418785",
+    "check_partridge.py": "7caf5759945299bfe1fadab0640528d9933976d96916d510989fab8ab9326bd5",
+    "results/partridge/ordinary8-wedge.json": "da9ed2d72649e4a27ce349c874d3af29f43dbea47cf471f534959410e5d5e5f2",
+    "results/partridge/ordinary8-wedge.verified.json": "9237b1da053c8c22a11032ebc21b386ab8b9beca5e540864be637612d9b2c5c4",
+    "results/partridge/ordinary8-wedge.models.jsonl": "e182b4cca1e01b46d630bc0c98499dffdef0e4035fab4fb9ef14cab87a1ba886",
+    "results/partridge/ordinary8-mcc-dimensions.json": "d970e4cb592258dd30f5a90cddba2acf5fc91f115d29521a371ece4860e8325e",
+    "sources/knuth-programs/dlx3.w": "0acc801044d60d9d951663e9270c420b8b43c40ad6f7c2819c65bd5dff9820b7"
+  },
+  "source_trace_hashes": {
+    "results/path153/original-480.xml": "2849b818f1b3bbc608a3e8b1796c90ab86bd1ac4339fc2c3e23ff7726d755378",
+    "results/path153/draft-170.xml": "9158b6240c029697db32c5777c6855eac02e6d01d86d037c97ac32bdd3add9fe"
+  },
+  "glyph_segments": {
+    "original": [
+      [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      ]
+    ],
+    "draft": [
+      [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      ]
+    ]
+  },
+  "all2566_unit_contexts_match": true,
+  "diagonal_context_counts": {
+    "right": 234,
+    "left": 234
+  },
+  "antidiagonal_reflection_pairs": 234,
+  "selected_one_per_orbit": 2332,
+  "accepted_raw_count": 18656,
+  "mcc": {
+    "items": 1304,
+    "options": 7367,
+    "item_occurrences": 198386,
+    "entries_including_spacers": 205753,
+    "options_by_size": {
+      "1": 171,
+      "2": 1225,
+      "3": 1156,
+      "4": 1089,
+      "5": 1024,
+      "6": 961,
+      "7": 900,
+      "8": 841
+    },
+    "max_square_option_items": 65
+  },
+  "board_bytes": 288,
+  "published_cost_ratio_arithmetic": 2087.659574468085,
+  "ratio_caveat": "Arithmetic only; original historical costs and runtime not independently reproduced.",
+  "new_searches": 0,
+  "completed_census_not_restarted": true
+}

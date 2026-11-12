@@ -1,0 +1,329 @@
+{
+  "at_utc": "2026-11-02T11:20:59.879428+00:00",
+  "source_sha256": "07cb0b2269a735ffa01901e12602a42a2e4634addf5945f66173302b64a992d8",
+  "model_sha256": "d1e48fa58641f66aaf2e5248054c8c4b93a2690883e1d887b49fc3bfe838526b",
+  "white": {
+    "choices": 2760681,
+    "accepted_white_patterns": 80,
+    "geometric_orbits": 20,
+    "white_occurrences": 32,
+    "boundary_occurrences": 20,
+    "internal_white_edges": 6,
+    "inventory": {
+      "aaaa": 1,
+      "aaab": 2,
+      "aabb": 4,
+      "abab": 3,
+      "abbb": 8,
+      "bbbb": 6
+    },
+    "aaaa_always_on_boundary": true,
+    "geometric_action_free": true,
+    "four_anchor_cells": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "white_vectors": [
+      "aaabaaaaaaabbbaabbbaabbbaabbbaaaaaabbbbbbbbbbbbbbbbbbbaaaa",
+      "aaabaaaaaaabbbaabbbaabbbaabbbaaaaababbbbbbbbbbbbbbbbbbaaaa",
+      "aabaaaaaaaabbbaabbbaabbbaabbbaaaaaabbbbbbbbbbbbbbbbbbbaaaa",
+      "aabaaaaaaaabbbaabbbaabbbaabbbaaaaabbbabbbbbbbbbbbbbbbbaaaa",
+      "aabbaaaaaaabbbaabbbaabbbaaabbaaaaaabbbbbbbbbbbbbbbbbbbaaaa",
+      "aabbaaaaaaabbbaabbbaabbbaabbaaaaaaabbbbbbbbbbbbbbbbbbbaaaa",
+      "aabbaaaaaaabbbaabbbaabbbaabbbaaaaaababbbbbbbbbbbbbbbbbaaaa",
+      "aabbaaaaaaabbbaabbbaabbbaabbbaaaaaabbbbbbbbbbbbbbbabbbaaaa",
+      "aabbaaaaaaabbbaabbbaabbbaabbbaaaaaabbbbbbbbbbbbbbbbbbaaaaa",
+      "aabbaaaaaaabbbaabbbaabbbaabbbaaaaabbbabbbabbbbbbbbbbbbaaaa",
+      "aabbaabbbaaaaaaabbbaabbbaabbbaaaaaabbbabbbbbbbbbbbbbbbaaaa",
+      "aabbaabbbaabbbaabbbaaaaaaaabbaaaaabbbbbbbbbbbbbbbbabbbaaaa",
+      "aabbaabbbaabbbaabbbaaaaaaabbaaaaaabbbbbbbbbbbbbbbbbbbaaaaa",
+      "aabbaabbbaabbbaabbbaaaaaaabbbaaaaaabbbbbbbbbbbbbbbabbbaaaa",
+      "aabbaabbbaabbbaabbbaaaaaaabbbaaaaaabbbbbbbbbbbbbbbbbbaaaaa",
+      "aabbaabbbaabbbaabbbaaaaaaabbbaaaaabbbbbbbbbbbbabbbabbbaaaa",
+      "aabbaabbbaabbbaabbbaaaaaaabbbaaaaabbbbbbbbbbbbbbbabbbaaaaa",
+      "abaaaaaaaaabbbaabbbaabbbaabbbaaaaabbabbbbbbbbbbbbbbbbbaaaa",
+      "abaaaaaaaaabbbaabbbaabbbaabbbaaaaabbbabbbbbbbbbbbbbbbbaaaa",
+      "abbaaaaaaaabbbaabbbaabbbaaabbaaaaabbbabbbbbbbbbbbbbbbbaaaa",
+      "abbaaaaaaaabbbaabbbaabbbaabbaaaaaabbbabbbbbbbbbbbbbbbbaaaa",
+      "abbaaaaaaaabbbaabbbaabbbaabbbaaaaaabbbabbbbbbbbbbbbbbbaaaa",
+      "abbaaaaaaaabbbaabbbaabbbaabbbaaaaabababbbbbbbbbbbbbbbbaaaa",
+      "abbaaaaaaaabbbaabbbaabbbaabbbaaaaabbbabbbbbbbbbbbbabbbaaaa",
+      "abbaaaaaaaabbbaabbbaabbbaabbbaaaaabbbabbbbbbbbbbbbbbbaaaaa",
+      "abbaaabbbaaaaaaabbbaabbbaabbbaaaaabbbabbbabbbbbbbbbbbbaaaa",
+      "abbaaabbbaabbbaabbbaaaaaaaabbaaaaabbbbbbbbbbbbbbbbabbbaaaa",
+      "abbaaabbbaabbbaabbbaaaaaaabbaaaaaabbbbbbbbbbbbbbbbbbbaaaaa",
+      "abbaaabbbaabbbaabbbaaaaaaabbbaaaaabbbabbbbbbbbbbbbabbbaaaa",
+      "abbaaabbbaabbbaabbbaaaaaaabbbaaaaabbbabbbbbbbbbbbbbbbaaaaa",
+      "abbaaabbbaabbbaabbbaaaaaaabbbaaaaabbbbbbbbbbbbabbbabbbaaaa",
+      "abbaaabbbaabbbaabbbaaaaaaabbbaaaaabbbbbbbbbbbbbbbabbbaaaaa",
+      "abbbaaaaaaabbbaabbbaabbbaaabbaaaaaabbbabbbbbbbbbbbbbbbaaaa",
+      "abbbaaaaaaabbbaabbbaabbbaaabbaaaaaabbbbbbbbbbbbbbbabbbaaaa",
+      "abbbaaaaaaabbbaabbbaabbbaaabbaaaaabbbabbbabbbbbbbbbbbbaaaa",
+      "abbbaaaaaaabbbaabbbaabbbaaabbaaaaabbbabbbbbbbbbbbbabbbaaaa",
+      "abbbaaaaaaabbbaabbbaabbbaabbaaaaaaabbbabbbbbbbbbbbbbbbaaaa",
+      "abbbaaaaaaabbbaabbbaabbbaabbaaaaaaabbbbbbbbbbbbbbbbbbaaaaa",
+      "abbbaaaaaaabbbaabbbaabbbaabbaaaaaabbbabbbabbbbbbbbbbbbaaaa",
+      "abbbaaaaaaabbbaabbbaabbbaabbaaaaaabbbabbbbbbbbbbbbbbbaaaaa",
+      "abbbaaaaaaabbbaabbbaabbbaabbbaaaaaaabbabbbbbbbbbbbbbbbaaaa",
+      "abbbaaaaaaabbbaabbbaabbbaabbbaaaaaabababbbbbbbbbbbbbbbaaaa",
+      "abbbaaaaaaabbbaabbbaabbbaabbbaaaaaabbbabbbabbbbbbbbbbbaaaa",
+      "abbbaaaaaaabbbaabbbaabbbaabbbaaaaaabbbabbbbbbbbbbbabbbaaaa",
+      "abbbaaaaaaabbbaabbbaabbbaabbbaaaaaabbbabbbbbbbbbbbbbbaaaaa",
+      "abbbaaaaaaabbbaabbbaabbbaabbbaaaaabababbbabbbbbbbbbbbbaaaa",
+      "abbbaaaaaaabbbaabbbaabbbaabbbaaaaabbaabbbabbbbbbbbbbbbaaaa",
+      "abbbaaaaaaabbbaabbbaabbbaabbbaaaaabbbabbbabbbabbbbbbbbaaaa",
+      "abbbaaaaaaabbbaabbbaabbbaabbbaaaaabbbabbbabbbbbbbbabbbaaaa",
+      "abbbaaaaaaabbbaabbbaabbbaabbbaaaaabbbabbbabbbbbbbbbbbaaaaa",
+      "abbbaabbbaaaaaaabbbaabbbaabbbaaaaaabbbabbbabbbbbbbbbbbaaaa",
+      "abbbaabbbaaaaaaabbbaabbbaabbbaaaaabbbabbbabbbabbbbbbbbaaaa",
+      "abbbaabbbaabbbaaaaaaabbbaaabbaaaaabbbbbbbbbbbbabbbabbbaaaa",
+      "abbbaabbbaabbbaaaaaaabbbaabbaaaaaabbbbbbbbbbbbbbbabbbaaaaa",
+      "abbbaabbbaabbbaaaaaaabbbaabbbaaaaabbbbbbbbabbbabbbabbbaaaa",
+      "abbbaabbbaabbbaaaaaaabbbaabbbaaaaabbbbbbbbbbbabbbabbbaaaaa",
+      "abbbaabbbaabbbaabbbaaaaaaaaabaaaaabbbbbbbbbbbbbbbbabbbaaaa",
+      "abbbaabbbaabbbaabbbaaaaaaaaabaaaaabbbbbbbbbbbbbbbbbabbaaaa",
+      "abbbaabbbaabbbaabbbaaaaaaaabaaaaaabbbbbbbbbbbbbbbbabbbaaaa",
+      "abbbaabbbaabbbaabbbaaaaaaaabaaaaaabbbbbbbbbbbbbbbbbbbaaaaa",
+      "abbbaabbbaabbbaabbbaaaaaaaabbaaaaaabbbbbbbbbbbbbbbabbbaaaa",
+      "abbbaabbbaabbbaabbbaaaaaaaabbaaaaabbbabbbbbbbbbbbbabbbaaaa",
+      "abbbaabbbaabbbaabbbaaaaaaaabbaaaaabbbbbbbbbbbbbbbabbbaaaaa",
+      "abbbaabbbaabbbaabbbaaaaaaaabbaaaaabbbbbbbbbbbbbbbbababaaaa",
+      "abbbaabbbaabbbaabbbaaaaaaabaaaaaaabbbbbbbbbbbbbbbbbbabaaaa",
+      "abbbaabbbaabbbaabbbaaaaaaabaaaaaaabbbbbbbbbbbbbbbbbbbaaaaa",
+      "abbbaabbbaabbbaabbbaaaaaaabbaaaaaaabbbbbbbbbbbbbbbbbbaaaaa",
+      "abbbaabbbaabbbaabbbaaaaaaabbaaaaaabbbabbbbbbbbbbbbbbbaaaaa",
+      "abbbaabbbaabbbaabbbaaaaaaabbaaaaaabbbbbbbbbbbbabbbabbbaaaa",
+      "abbbaabbbaabbbaabbbaaaaaaabbaaaaaabbbbbbbbbbbbbbbbbabaaaaa",
+      "abbbaabbbaabbbaabbbaaaaaaabbbaaaaaabbbbbbbbbbbabbbabbbaaaa",
+      "abbbaabbbaabbbaabbbaaaaaaabbbaaaaaabbbbbbbbbbbbbbabbbaaaaa",
+      "abbbaabbbaabbbaabbbaaaaaaabbbaaaaabbbabbbbbbbbabbbabbbaaaa",
+      "abbbaabbbaabbbaabbbaaaaaaabbbaaaaabbbabbbbbbbbbbbabbbaaaaa",
+      "abbbaabbbaabbbaabbbaaaaaaabbbaaaaabbbbbbbbabbbabbbabbbaaaa",
+      "abbbaabbbaabbbaabbbaaaaaaabbbaaaaabbbbbbbbbbbabbbabbbaaaaa",
+      "abbbaabbbaabbbaabbbaaaaaaabbbaaaaabbbbbbbbbbbbabbbaabbaaaa",
+      "abbbaabbbaabbbaabbbaaaaaaabbbaaaaabbbbbbbbbbbbabbbababaaaa",
+      "abbbaabbbaabbbaabbbaaaaaaabbbaaaaabbbbbbbbbbbbbbbababaaaaa",
+      "abbbaabbbaabbbaabbbaaaaaaabbbaaaaabbbbbbbbbbbbbbbabbaaaaaa"
+    ],
+    "run_sha256": "8051bc2bd778f175cff5bcdfca07580f2c4a45c2e53f4618f22ce0c97812f89d"
+  },
+  "figure": {
+    "wedges": 96,
+    "tiles": [
+      {
+        "cell": [
+          0,
+          0
+        ],
+        "colors": "aaba",
+        "type": "aaab"
+      },
+      {
+        "cell": [
+          0,
+          1
+        ],
+        "colors": "bbca",
+        "type": "abbc"
+      },
+      {
+        "cell": [
+          0,
+          2
+        ],
+        "colors": "ccca",
+        "type": "accc"
+      },
+      {
+        "cell": [
+          0,
+          3
+        ],
+        "colors": "ccaa",
+        "type": "aacc"
+      },
+      {
+        "cell": [
+          1,
+          0
+        ],
+        "colors": "aaaa",
+        "type": "aaaa"
+      },
+      {
+        "cell": [
+          1,
+          1
+        ],
+        "colors": "abab",
+        "type": "abab"
+      },
+      {
+        "cell": [
+          1,
+          2
+        ],
+        "colors": "acac",
+        "type": "acac"
+      },
+      {
+        "cell": [
+          1,
+          3
+        ],
+        "colors": "abac",
+        "type": "abac"
+      },
+      {
+        "cell": [
+          2,
+          0
+        ],
+        "colors": "abba",
+        "type": "aabb"
+      },
+      {
+        "cell": [
+          2,
+          1
+        ],
+        "colors": "bccb",
+        "type": "bbcc"
+      },
+      {
+        "cell": [
+          2,
+          2
+        ],
+        "colors": "cbcc",
+        "type": "bccc"
+      },
+      {
+        "cell": [
+          2,
+          3
+        ],
+        "colors": "ccab",
+        "type": "abcc"
+      },
+      {
+        "cell": [
+          3,
+          0
+        ],
+        "colors": "abbb",
+        "type": "abbb"
+      },
+      {
+        "cell": [
+          3,
+          1
+        ],
+        "colors": "bcbc",
+        "type": "bcbc"
+      },
+      {
+        "cell": [
+          3,
+          2
+        ],
+        "colors": "bbbb",
+        "type": "bbbb"
+      },
+      {
+        "cell": [
+          3,
+          3
+        ],
+        "colors": "bcac",
+        "type": "acbc"
+      },
+      {
+        "cell": [
+          4,
+          0
+        ],
+        "colors": "accb",
+        "type": "accb"
+      },
+      {
+        "cell": [
+          4,
+          1
+        ],
+        "colors": "cccc",
+        "type": "cccc"
+      },
+      {
+        "cell": [
+          4,
+          2
+        ],
+        "colors": "cbbb",
+        "type": "bbbc"
+      },
+      {
+        "cell": [
+          4,
+          3
+        ],
+        "colors": "baac",
+        "type": "aacb"
+      },
+      {
+        "cell": [
+          5,
+          0
+        ],
+        "colors": "aabc",
+        "type": "aabc"
+      },
+      {
+        "cell": [
+          5,
+          1
+        ],
+        "colors": "babc",
+        "type": "abcb"
+      },
+      {
+        "cell": [
+          5,
+          2
+        ],
+        "colors": "bacb",
+        "type": "acbb"
+      },
+      {
+        "cell": [
+          5,
+          3
+        ],
+        "colors": "caaa",
+        "type": "aaac"
+      }
+    ],
+    "colors": "abccaaaaaaabccaabbbaaccbaabbcaaaaaabccabcbbcbcbcbcccbaaaaa",
+    "trace_sha256": "9a7eb03c00cfa9aab1e58114c54e72e9ad01e78e72713d584bf050093a0314fa",
+    "book_sha256": "6ce7187daa4f7dfa09814551a461fac81a833c93c140699fced8fd5897347552",
+    "boundary_edges": 20,
+    "matched_internal_edges": 38
+  },
+  "unfiltered_options": 1944,
+  "cyclic_types": 24,
+  "burnside_type_count": 24
+}

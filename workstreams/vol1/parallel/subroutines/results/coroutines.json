@@ -1,0 +1,27 @@
+{
+  "checks": 9398,
+  "cases": {
+    "original_decoder": 222,
+    "corrected_comparison": 222,
+    "start_in": 3,
+    "inverse_encoder": 1006,
+    "three_link_transfers": 12
+  },
+  "known_comparison_counterexamples": [
+    {
+      "input": "A.",
+      "initial_CI": 0,
+      "actual": "A",
+      "expected": "A."
+    },
+    {
+      "input": "0.A.",
+      "initial_CI": -1,
+      "actual": ".A.",
+      "expected": "."
+    }
+  ],
+  "sample_shortest_encoding": "A2B5E3426FGZYW3210PQ89R.",
+  "scope": "Original program incl. asynchronous I/O and contracts; 2006 comparison correction; first-character loss; independently written minimum-length inverse encoder; three-coroutine linkage.",
+  "limits": "Finite checks supplement general proofs. Historical IBM/CDC instruction semantics are checked separately against primary manuals."
+}

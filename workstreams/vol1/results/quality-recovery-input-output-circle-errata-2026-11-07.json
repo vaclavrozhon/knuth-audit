@@ -1,0 +1,343 @@
+{
+  "volume": "vol1",
+  "reviewed_at_utc": "2026-11-07T00:46:50.561796+00:00",
+  "scope": "Every circular-buffer claim from p.218 Multiple buffers through the first paragraph on p.224; full A/R/B and linkage; every part of9–14, complete schedules and retained C0033. Remaining main text224–225 and16–19 continue separately.",
+  "proof": "notes/quality-recovery-section-1.4.4-circle-2026-11-07.md",
+  "proof_sha256": "7ead3f72eb20116255b449ac9d95117d13511174be87fa6690689752fc19e826",
+  "reused_artifacts": [
+    {
+      "path": "notes/input-output-root-review.md",
+      "sha256": "3018a75b9aea25f7ff1cb3d6013e66bd9ff3c36fba774248f6c4e07111840bc4",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "3018a75b9aea25f7ff1cb3d6013e66bd9ff3c36fba774248f6c4e07111840bc4",
+      "matches": true
+    },
+    {
+      "path": "parallel/input-output/notes/circle.md",
+      "sha256": "98b000c0ee2e7d37aa1510a56c6428dcacc63db679b8df551870adec62537303",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "f046f9681706b908d640d60104a35b6de21cebda806dff558fa02e7affd8270f",
+      "matches": false,
+      "difference_explanation": "The2026-11-05 sequential pass corrected the old Fig25 arrow claim in this prose note; its full current contents were read directly. The actual RELEASE label correction is now further separated in X1019. No program or old result changed."
+    },
+    {
+      "path": "parallel/input-output/notes/comparison.md",
+      "sha256": "609782e56ebce109144999afa6f4719d320d4d1b9fe94f15a1217b837294e7a3",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "609782e56ebce109144999afa6f4719d320d4d1b9fe94f15a1217b837294e7a3",
+      "matches": true
+    },
+    {
+      "path": "parallel/input-output/programs.py",
+      "sha256": "f4942a48e082be73c26676f5307cfd593960ca92525d0db153d052676ccd07be",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "f4942a48e082be73c26676f5307cfd593960ca92525d0db153d052676ccd07be",
+      "matches": true
+    },
+    {
+      "path": "parallel/input-output/io_model.py",
+      "sha256": "41f9232c14b4e8b575f03558ccd9d3a5dbab4404ccd54fc8dad3315f123e77de",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "41f9232c14b4e8b575f03558ccd9d3a5dbab4404ccd54fc8dad3315f123e77de",
+      "matches": true
+    },
+    {
+      "path": "parallel/input-output/check_circle.py",
+      "sha256": "8883fd84664ae466d65379be17129b4aa982db570db1535d3636ec86984eb201",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "8883fd84664ae466d65379be17129b4aa982db570db1535d3636ec86984eb201",
+      "matches": true
+    },
+    {
+      "path": "parallel/input-output/check_comparison.py",
+      "sha256": "0303ae482d394d2bdbbc06a1b3a0f407fc93558274e20ce1c799c4df7b854d86",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "0303ae482d394d2bdbbc06a1b3a0f407fc93558274e20ce1c799c4df7b854d86",
+      "matches": true
+    },
+    {
+      "path": "parallel/input-output/results/circle.json",
+      "sha256": "70f92535b3af91866b61da662b3a352090e02ec36cc9f0b43e3d84966f386374",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "70f92535b3af91866b61da662b3a352090e02ec36cc9f0b43e3d84966f386374",
+      "matches": true
+    },
+    {
+      "path": "parallel/input-output/results/comparison.json",
+      "sha256": "f01accd26f52a7948515baa485c7dc4601341cc0638e1ad6b3c34bcd03bd352f",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "f01accd26f52a7948515baa485c7dc4601341cc0638e1ad6b3c34bcd03bd352f",
+      "matches": true
+    },
+    {
+      "path": "parallel/input-output/results/comparison-errata-search.json",
+      "sha256": "451cd540d5eaa86498df8b93ea35014f2dc0829171434f6a87486d9ad9010174",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "451cd540d5eaa86498df8b93ea35014f2dc0829171434f6a87486d9ad9010174",
+      "matches": true
+    },
+    {
+      "path": "parallel/input-output/reports/CONTROL-input-end-clobbers-CI.txt",
+      "sha256": "604035e39d31c8eb002f1e4eb5d6971e8a5bbbbda58198452e185229a557c52a",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "604035e39d31c8eb002f1e4eb5d6971e8a5bbbbda58198452e185229a557c52a",
+      "matches": true
+    },
+    {
+      "path": "mixal.py",
+      "sha256": "e0b0b5f8cabb9d42d6fc453e92a6619ecda7fc2fe7879448f14d6f7f8595798b",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "e0b0b5f8cabb9d42d6fc453e92a6619ecda7fc2fe7879448f14d6f7f8595798b",
+      "matches": true
+    },
+    {
+      "path": "mix_machine.py",
+      "sha256": "5fda9d6efe247f7bb637c1725e8426d9a0d449b71129bfd3263fd9a21e6b8eac",
+      "prior_manifest": "results/artifact-manifest-mixal-crypt-easter.json",
+      "prior_sha256": "5fda9d6efe247f7bb637c1725e8426d9a0d449b71129bfd3263fd9a21e6b8eac",
+      "matches": true
+    },
+    {
+      "path": "mix_io.py",
+      "sha256": "2e9acf99129a3db88f8ece13c6965e22ff3445d5a309acfa110664cc1a494995",
+      "prior_manifest": "results/artifact-manifest-mixal-crypt-easter.json",
+      "prior_sha256": "2e9acf99129a3db88f8ece13c6965e22ff3445d5a309acfa110664cc1a494995",
+      "matches": true
+    },
+    {
+      "path": "parallel/input-output/images/p218.png",
+      "sha256": "bd7060982f5f7c02a28c3da7861eea44ecca405973d5104a2590ad5f4d9d63d6",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "bd7060982f5f7c02a28c3da7861eea44ecca405973d5104a2590ad5f4d9d63d6",
+      "matches": true
+    },
+    {
+      "path": "parallel/input-output/images/p219.png",
+      "sha256": "79b1147d430be198766d5cf6528d1235c55bf0f4d5bc930f683336e8b9128dae",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "79b1147d430be198766d5cf6528d1235c55bf0f4d5bc930f683336e8b9128dae",
+      "matches": true
+    },
+    {
+      "path": "parallel/input-output/images/p220.png",
+      "sha256": "fc54c71549903f12169971ffc7395d3cb08c31d8289362d997fbf67cae6fc888",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "fc54c71549903f12169971ffc7395d3cb08c31d8289362d997fbf67cae6fc888",
+      "matches": true
+    },
+    {
+      "path": "parallel/input-output/images/p221.png",
+      "sha256": "dc2793093e7d06ea8c20c75cee1885a8529e696f6efc9380ed7133410cb94a3e",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "dc2793093e7d06ea8c20c75cee1885a8529e696f6efc9380ed7133410cb94a3e",
+      "matches": true
+    },
+    {
+      "path": "parallel/input-output/images/p222.png",
+      "sha256": "49e1288b43ae5c789dd3a837fafb0531a7067a3abef58acf6d6d331e9e506e90",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "49e1288b43ae5c789dd3a837fafb0531a7067a3abef58acf6d6d331e9e506e90",
+      "matches": true
+    },
+    {
+      "path": "parallel/input-output/images/p223.png",
+      "sha256": "5e66e0a7d14dffcacab02fcda2b575b66942dfb5e320f2d2c7ca159f6e51c701",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "5e66e0a7d14dffcacab02fcda2b575b66942dfb5e320f2d2c7ca159f6e51c701",
+      "matches": true
+    },
+    {
+      "path": "parallel/input-output/images/p224.png",
+      "sha256": "2ab1cb1b6a1ebae0c7ed82a459f0a99e217855d355ba7ca674ece1cddceb9dba",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "2ab1cb1b6a1ebae0c7ed82a459f0a99e217855d355ba7ca674ece1cddceb9dba",
+      "matches": true
+    },
+    {
+      "path": "parallel/input-output/images/p225.png",
+      "sha256": "aaf421d38cb7a2e8803751cbdfe3d4664ef4ce669a4c7456fa36008ca8492865",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "aaf421d38cb7a2e8803751cbdfe3d4664ef4ce669a4c7456fa36008ca8492865",
+      "matches": true
+    },
+    {
+      "path": "parallel/input-output/images/p226.png",
+      "sha256": "b992c87e077ed01d5d5f18cf340e4687d03f28df192c24021e56088cc4e14a51",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "b992c87e077ed01d5d5f18cf340e4687d03f28df192c24021e56088cc4e14a51",
+      "matches": true
+    },
+    {
+      "path": "parallel/input-output/images/p227.png",
+      "sha256": "7f2069b82471fea3936c5cea9fd48335f866b31f1e3eee80b99df7b946797518",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "7f2069b82471fea3936c5cea9fd48335f866b31f1e3eee80b99df7b946797518",
+      "matches": true
+    },
+    {
+      "path": "parallel/input-output/images/p533.png",
+      "sha256": "32f53655bcc7f12edcbf6c9bcdf882b0c3aa2171f1a25a49df4d497f90c1078f",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "32f53655bcc7f12edcbf6c9bcdf882b0c3aa2171f1a25a49df4d497f90c1078f",
+      "matches": true
+    },
+    {
+      "path": "parallel/input-output/images/all1-prepre-p17.png",
+      "sha256": "69155aa0f3a637b16a7f3b0cc4283f3ac48a4f013836639e3fe0c15d2af323c8",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "69155aa0f3a637b16a7f3b0cc4283f3ac48a4f013836639e3fe0c15d2af323c8",
+      "matches": true
+    },
+    {
+      "path": "parallel/input-output/images/all1-prepre-p18.png",
+      "sha256": "5b4023d61e952fca01f99e5384051767220769a8dc490d8fdc4d02c5178d5506",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "5b4023d61e952fca01f99e5384051767220769a8dc490d8fdc4d02c5178d5506",
+      "matches": true
+    },
+    {
+      "path": "parallel/input-output/images/all1-pre-p11.png",
+      "sha256": "2b86389f6a655049f2acb6085f66f166b1c776b7a55d340a1993aaeca547d3de",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "2b86389f6a655049f2acb6085f66f166b1c776b7a55d340a1993aaeca547d3de",
+      "matches": true
+    },
+    {
+      "path": "parallel/input-output/images/all1-p14.png",
+      "sha256": "7edc6c6676d8e24e083a63ea2610ecd03af053d63ebba37029d15d4b3f698f56",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "7edc6c6676d8e24e083a63ea2610ecd03af053d63ebba37029d15d4b3f698f56",
+      "matches": true
+    },
+    {
+      "path": "parallel/input-output/images/err1-p12.png",
+      "sha256": "bc90623e7f46d903f3883224ba7f2f292157800350830392ccf86aa8a6fc1b59",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "bc90623e7f46d903f3883224ba7f2f292157800350830392ccf86aa8a6fc1b59",
+      "matches": true
+    }
+  ],
+  "additional_reviewed_artifacts": [
+    {
+      "path": "notes/sequential-input-output-2026-11-05.md",
+      "sha256": "3049913bbdc692c3c3d2906b99a9101fa1a1538dfc765fc0fec04d0747017547",
+      "note": "Historical sequential review; Fig25 label statement superseded here."
+    }
+  ],
+  "errata_layers": [
+    {
+      "path": "errata/text/all1-prepre.txt",
+      "sha256": "1a3c3ac6137b9e98f427de0a344efca46fd83b7a3e6e8fe2fa38e94525ca0c31",
+      "matching_blocks": [
+        {
+          "printed_page": 223,
+          "text": "Page 223 repla ement for Fig. 25                                                 08 Aug 1997\n\n          ASSIGN                                                                  RELEASE\n\n          A1.                       A2.                   A3.                       R1.\n     Wait for n < N          CURRENT      NEXTG       Advan e NEXTG              In rease n\n\n\n                   BUFFER CONTROL\n\n                   Yes\n       B1.                B2. No         B3.              B4.            B5.        B6.\n     Compute             n = 0?     Initiate I/O        Compute        Advan e   De rease n\n                                                                         NEXTR"
+        },
+        {
+          "printed_page": 225,
+          "text": "Page 225 exer ise 1                                                              19 De 2001\n    Would   y (a) Would\n    What if y (b) What if\n\f  18      CHANGES TO VOLUME 1: FUNDAMENTAL ALGORITHMS"
+        },
+        {
+          "printed_page": 225,
+          "text": "xPage 225 line 5                                                              14 Feb 1999\n  ne essary y ne essary."
+        }
+      ],
+      "comparison_topic_matches": [
+        {
+          "line": 807,
+          "text": "                   BUFFER CONTROL"
+        },
+        {
+          "line": 1961,
+          "text": " But if : : : program.)     y  But the omparison indi ator isn't initialized; and if the"
+        },
+        {
+          "line": 1962,
+          "text": "   nal period is pre eded by a repli ation digit, it won't be noti ed. [Note: The most"
+        },
+        {
+          "line": 1964,
+          "text": " insert \\CMPA PERIOD\" between lines 26 and 27, \\CMPX PERIOD\" between lines 59 and 60."
+        },
+        {
+          "line": 1965,
+          "text": " The state of the omparison indi ator should then be ome part of the oroutine har-"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all1-pre.txt",
+      "sha256": "89d231245ff44164e09a39903faac35a2dc5e89956857abcc974991c99a887e5",
+      "matching_blocks": [
+        {
+          "printed_page": 221,
+          "text": "Page 221      line 13 (in 32nd to 40th printings only)                          08 May 2019\n    depi ted in Fig. 24            y\n                           depi ted in Fig. 27\nx"
+        }
+      ],
+      "comparison_topic_matches": [
+        {
+          "line": 428,
+          "text": "      Figure 12 shows a omparison of 1n f (x) dx and nk=1 f (k ), when n = 7."
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all1.txt",
+      "sha256": "b641d6e48aaf2d77fc98a3c4a8a798d8156516b97095ec345a976e65d9c79aef",
+      "matching_blocks": [
+        {
+          "printed_page": 533,
+          "text": "xPage 533 in answer 14                                                           28 Mar 2026\n  line 1: If N = 1 y If N = 1 and n = 0\n  line 5: not greater than N y not greater than N n"
+        }
+      ],
+      "comparison_topic_matches": [
+        {
+          "line": 686,
+          "text": "xPage 533 in answer 14                                                           28 Mar 2026"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/err1.txt",
+      "sha256": "ecae8755d7d9f86c5dbcbd782767f0cf8e6bf7f89d9c57ed0a27ad2344461f30",
+      "matching_blocks": [
+        {
+          "printed_page": 533,
+          "text": "xPage 533 in answer 14                                                           28 Mar 2026\n  line 1: If N = 1 y If N = 1 and n = 0\n  line 5: not greater than N y not greater than N n"
+        }
+      ],
+      "comparison_topic_matches": [
+        {
+          "line": 607,
+          "text": "xPage 533 in answer 14                                                           28 Mar 2026"
+        }
+      ]
+    }
+  ],
+  "current_errata_tex": {
+    "path": "errata/originals/err1.textxt",
+    "sha256": "f752c0a5fcf49686906e39fa5a1dab28b53adc8226b0a7e1a1b6cf850592bc91",
+    "matches": [
+      {
+        "line": 1069,
+        "text": "\n\\bugonpage 1.533 in answer 14 (26.03.28)\nline 1: If $N=1$ \\becomes If $N=1$ and $n=0$\\nl\nline 5: not greater than $N$ \\becomes not greater than $N-n$\n\\endchange"
+      },
+      {
+        "line": 1229,
+        "text": "Conversion operations of \\MIX, 138, 212. % 54th\nDemuth, Howard B\\period\\ (= Bud), 120. % 52nd\nEllipses ($@\\cdots$ or $\\ldots{}$), 8, 27, 34, 46. % 53rd\nEmpty string, 8. % 53rd\nEven function: $f(z)=f(-z)$, 112. % 53rd"
+      }
+    ]
+  },
+  "known_erratum_reconciliation": {
+    "location": "Printed223 Figure25, standalone RELEASE box",
+    "original": "B1. Increase n",
+    "published_replacement": "R1. Increase n",
+    "date": "1997-08-08",
+    "arrow": "Both original and replacement correctly return B6 to B2.",
+    "classification": "Known label correction; no new finding."
+  },
+  "new_mathematical_runs": 0,
+  "new_book_findings": 0,
+  "new_open_mathematical_gaps": [],
+  "old_runs_repeated": false
+}

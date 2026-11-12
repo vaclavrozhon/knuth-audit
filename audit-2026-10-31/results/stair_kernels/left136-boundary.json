@@ -1,0 +1,28 @@
+{
+  "rows": [
+    "WRITE",
+    "WHOLE"
+  ],
+  "down": [
+    "WHILE",
+    "WROTE"
+  ],
+  "rank": 136,
+  "checks": [
+    {
+      "kernel": "WHWETIRWELOHET",
+      "options": 26,
+      "native_solutions": 0,
+      "input_sha256": "65615428ca311f055a680b676bf84a2a483358721dbb1689809013372c5c9462"
+    },
+    {
+      "kernel": "WRWELOHWETIREL",
+      "options": 14,
+      "native_solutions": 0,
+      "input_sha256": "205e4c2b667d72307b7c0f5fc52ab1906d2a30662ed5704dad83be3d1f8563e4"
+    }
+  ],
+  "native_binary_sha256": "317a401448733049a4577e5d86bbd1b6bf2f230c89754697bd175ae515cfcd38",
+  "source_sha256": "e0d5571f7cc3886696645ea54effb7ae9ac1e364015f2752378ae7c46d4d42c7",
+  "interpretation": "The all-eight-distinct model implicit in the numerical examples needs a p>=4 restriction, or a separate short-period branch. Literal membership-only kernels have no such restriction."
+}

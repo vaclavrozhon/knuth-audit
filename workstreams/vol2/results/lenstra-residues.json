@@ -1,0 +1,295 @@
+{
+  "pid": 1310968,
+  "status": "passed",
+  "blocks": [
+    {
+      "status": "passed",
+      "formula_case": {
+        "N": 14,
+        "r": 1,
+        "s": 3,
+        "printed": [
+          1,
+          4,
+          7
+        ],
+        "corrected": [
+          1,
+          7
+        ],
+        "states": 5,
+        "attempts": 7,
+        "theta": 2,
+        "r_prime": 2,
+        "u": 2,
+        "w": 1,
+        "trace": [
+          {
+            "v1": 0,
+            "v3": 3,
+            "candidates": []
+          },
+          {
+            "v1": 1,
+            "v3": 2,
+            "candidates": []
+          },
+          {
+            "v1": -1,
+            "v3": 1,
+            "candidates": []
+          },
+          {
+            "v1": 2,
+            "v3": 1,
+            "candidates": [
+              {
+                "k": 0,
+                "z": 2,
+                "D": 9,
+                "sign": -1,
+                "lambda": 1,
+                "mu": 1,
+                "output": 4
+              }
+            ]
+          },
+          {
+            "v1": -3,
+            "v3": 0,
+            "candidates": []
+          }
+        ]
+      },
+      "floor_case": {
+        "N": 36,
+        "r": 1,
+        "s": 5,
+        "lambda": 1,
+        "mu": 1,
+        "lambda_mu_s": 5,
+        "theta_squared": 4
+      },
+      "name": "counterexamples",
+      "seconds": 0.00011923699639737606
+    },
+    {
+      "status": "passed",
+      "N_inclusive": [
+        3,
+        160
+      ],
+      "instances": 293751,
+      "empty_classes": 260545,
+      "outputs": 35483,
+      "states": 1919937,
+      "quadratic_or_endpoint_attempts": 722390,
+      "floor_variant_mismatches": 0,
+      "sha256": "48fc8052d603350db5cd6344ff239cd4c0335e7764741f33a67936f3f15f201e",
+      "name": "exhaustive_small",
+      "seconds": 12.81758334801998
+    },
+    {
+      "status": "passed",
+      "cases": [
+        {
+          "N": "11147220843925340160000000",
+          "s": "223385881",
+          "N_bits": 84,
+          "exponents_2_3_5_7": [
+            30,
+            18,
+            7,
+            3
+          ],
+          "all_divisors": 18848,
+          "instances": 52,
+          "outputs": 26,
+          "attempts": 1892,
+          "max_states": 25
+        },
+        {
+          "N": "2340916377224321433600000000",
+          "s": "1327787819",
+          "N_bits": 91,
+          "exponents_2_3_5_7": [
+            31,
+            19,
+            8,
+            4
+          ],
+          "all_divisors": 28800,
+          "instances": 52,
+          "outputs": 26,
+          "attempts": 2044,
+          "max_states": 27
+        },
+        {
+          "N": "491592439217107501056000000000",
+          "s": "7892266673",
+          "N_bits": 99,
+          "exponents_2_3_5_7": [
+            32,
+            20,
+            9,
+            5
+          ],
+          "all_divisors": 41580,
+          "instances": 52,
+          "outputs": 26,
+          "attempts": 2132,
+          "max_states": 29
+        },
+        {
+          "N": "825875297884740601774080000000",
+          "s": "9382203059",
+          "N_bits": 100,
+          "exponents_2_3_5_7": [
+            33,
+            21,
+            7,
+            6
+          ],
+          "all_divisors": 41888,
+          "instances": 51,
+          "outputs": 26,
+          "attempts": 2160,
+          "max_states": 29
+        },
+        {
+          "N": "72233991068636204236800000000",
+          "s": "4164669479",
+          "N_bits": 96,
+          "exponents_2_3_5_7": [
+            34,
+            22,
+            8,
+            3
+          ],
+          "all_divisors": 28980,
+          "instances": 52,
+          "outputs": 26,
+          "attempts": 2048,
+          "max_states": 27
+        },
+        {
+          "N": "62424436725981904896000000000",
+          "s": "3966902819",
+          "N_bits": 96,
+          "exponents_2_3_5_7": [
+            35,
+            18,
+            9,
+            4
+          ],
+          "all_divisors": 34200,
+          "instances": 48,
+          "outputs": 26,
+          "attempts": 1948,
+          "max_states": 31
+        },
+        {
+          "N": "104873053699649600225280000000",
+          "s": "4715792017",
+          "N_bits": 97,
+          "exponents_2_3_5_7": [
+            36,
+            19,
+            7,
+            5
+          ],
+          "all_divisors": 35520,
+          "instances": 52,
+          "outputs": 26,
+          "attempts": 2196,
+          "max_states": 31
+        },
+        {
+          "N": "22023341276926416047308800000000",
+          "s": "28030299547",
+          "N_bits": 105,
+          "exponents_2_3_5_7": [
+            37,
+            20,
+            8,
+            6
+          ],
+          "all_divisors": 50274,
+          "instances": 52,
+          "outputs": 26,
+          "attempts": 2380,
+          "max_states": 31
+        },
+        {
+          "N": "1926239761830298779648000000000",
+          "s": "12442379891",
+          "N_bits": 101,
+          "exponents_2_3_5_7": [
+            38,
+            21,
+            9,
+            3
+          ],
+          "all_divisors": 34320,
+          "instances": 52,
+          "outputs": 26,
+          "attempts": 2260,
+          "max_states": 29
+        },
+        {
+          "N": "3236082799874901949808640000000",
+          "s": "14791306933",
+          "N_bits": 102,
+          "exponents_2_3_5_7": [
+            39,
+            22,
+            7,
+            4
+          ],
+          "all_divisors": 36800,
+          "instances": 52,
+          "outputs": 26,
+          "attempts": 2308,
+          "max_states": 37
+        },
+        {
+          "N": "2796614765323989339340800000000",
+          "s": "14088915193",
+          "N_bits": 102,
+          "exponents_2_3_5_7": [
+            40,
+            18,
+            8,
+            5
+          ],
+          "all_divisors": 42066,
+          "instances": 52,
+          "outputs": 26,
+          "attempts": 2184,
+          "max_states": 31
+        },
+        {
+          "N": "587289100718037761261568000000000",
+          "s": "83743411531",
+          "N_bits": 109,
+          "exponents_2_3_5_7": [
+            41,
+            19,
+            9,
+            6
+          ],
+          "all_divisors": 58800,
+          "instances": 49,
+          "outputs": 26,
+          "attempts": 2356,
+          "max_states": 33
+        }
+      ],
+      "instances": 616,
+      "sha256": "ea3c72564a1bc3e288cb836ba3bb5b45be12fa8e074fd88e4ba24e4cac531351",
+      "name": "large_exact",
+      "seconds": 1.4495280489791185
+    }
+  ],
+  "seconds": 14.269406802020967
+}

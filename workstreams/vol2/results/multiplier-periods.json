@@ -1,0 +1,1994 @@
+{
+  "status": "passed",
+  "counts": {
+    "orbits": 278784,
+    "crt": 278784,
+    "primitive_prime_power": 6447,
+    "order_lcm": 30881,
+    "binary_conjugacy": 5456,
+    "half_period": 1198373,
+    "gcd_identity": 18174,
+    "polynomial_root_bound": 3734
+  },
+  "max_tails": [
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      6,
+      1
+    ],
+    [
+      7,
+      1
+    ],
+    [
+      8,
+      3
+    ],
+    [
+      9,
+      2
+    ],
+    [
+      10,
+      1
+    ],
+    [
+      11,
+      1
+    ],
+    [
+      12,
+      2
+    ],
+    [
+      13,
+      1
+    ],
+    [
+      14,
+      1
+    ],
+    [
+      15,
+      1
+    ],
+    [
+      16,
+      4
+    ],
+    [
+      17,
+      1
+    ],
+    [
+      18,
+      2
+    ],
+    [
+      19,
+      1
+    ],
+    [
+      20,
+      2
+    ],
+    [
+      21,
+      1
+    ],
+    [
+      22,
+      1
+    ],
+    [
+      23,
+      1
+    ],
+    [
+      24,
+      3
+    ],
+    [
+      25,
+      2
+    ],
+    [
+      26,
+      1
+    ],
+    [
+      27,
+      3
+    ],
+    [
+      28,
+      2
+    ],
+    [
+      29,
+      1
+    ],
+    [
+      30,
+      1
+    ],
+    [
+      31,
+      1
+    ],
+    [
+      32,
+      5
+    ]
+  ],
+  "theorem_d": [
+    3,
+    11,
+    13,
+    19,
+    21,
+    27,
+    29,
+    37,
+    53,
+    59,
+    61,
+    67,
+    69,
+    77,
+    83,
+    91,
+    109,
+    117,
+    123,
+    131,
+    133,
+    139,
+    141,
+    147,
+    163,
+    171,
+    173,
+    179,
+    181,
+    187,
+    189,
+    197
+  ],
+  "primitive_at_both_prime_powers": [
+    3,
+    13,
+    27,
+    37,
+    53,
+    67,
+    77,
+    83,
+    117,
+    123,
+    133,
+    147,
+    163,
+    173,
+    187,
+    197
+  ],
+  "table_entries": 92,
+  "table": [
+    {
+      "base": 2,
+      "exponent": 15,
+      "sign": -1,
+      "modulus": 32767,
+      "maximum_order": 150,
+      "multipliers": [
+        3,
+        5,
+        6
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        5
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 15,
+      "sign": 1,
+      "modulus": 32769,
+      "maximum_order": 330,
+      "multipliers": [
+        5,
+        7,
+        13
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        5,
+        11
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 16,
+      "sign": -1,
+      "modulus": 65535,
+      "maximum_order": 256,
+      "multipliers": [
+        7,
+        14,
+        19
+      ],
+      "order_prime_divisors": [
+        2
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 16,
+      "sign": 1,
+      "modulus": 65537,
+      "maximum_order": 65536,
+      "multipliers": [
+        3,
+        5,
+        6
+      ],
+      "order_prime_divisors": [
+        2
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 17,
+      "sign": -1,
+      "modulus": 131071,
+      "maximum_order": 131070,
+      "multipliers": [
+        3,
+        6,
+        12
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        5,
+        17,
+        257
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 17,
+      "sign": 1,
+      "modulus": 131073,
+      "maximum_order": 43690,
+      "multipliers": [
+        5,
+        7,
+        10
+      ],
+      "order_prime_divisors": [
+        2,
+        5,
+        17,
+        257
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 18,
+      "sign": -1,
+      "modulus": 262143,
+      "maximum_order": 72,
+      "multipliers": [
+        5,
+        10,
+        11
+      ],
+      "order_prime_divisors": [
+        2,
+        3
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 18,
+      "sign": 1,
+      "modulus": 262145,
+      "maximum_order": 108,
+      "multipliers": [
+        3,
+        6,
+        7
+      ],
+      "order_prime_divisors": [
+        2,
+        3
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 19,
+      "sign": -1,
+      "modulus": 524287,
+      "maximum_order": 524286,
+      "multipliers": [
+        3,
+        6,
+        7
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        7,
+        19,
+        73
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 19,
+      "sign": 1,
+      "modulus": 524289,
+      "maximum_order": 174762,
+      "multipliers": [
+        11,
+        17,
+        22
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        7,
+        19,
+        73
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 20,
+      "sign": -1,
+      "modulus": 1048575,
+      "maximum_order": 120,
+      "multipliers": [
+        7,
+        13,
+        14
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        5
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 20,
+      "sign": 1,
+      "modulus": 1048577,
+      "maximum_order": 61680,
+      "multipliers": [
+        5,
+        6,
+        7
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        5,
+        257
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 21,
+      "sign": -1,
+      "modulus": 2097151,
+      "maximum_order": 1008,
+      "multipliers": [
+        11,
+        15,
+        17
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        7
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 21,
+      "sign": 1,
+      "modulus": 2097153,
+      "maximum_order": 5418,
+      "multipliers": [
+        5,
+        10,
+        11
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        7,
+        43
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 22,
+      "sign": -1,
+      "modulus": 4194303,
+      "maximum_order": 2728,
+      "multipliers": [
+        7,
+        13,
+        14
+      ],
+      "order_prime_divisors": [
+        2,
+        11,
+        31
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 22,
+      "sign": 1,
+      "modulus": 4194305,
+      "maximum_order": 6336,
+      "multipliers": [
+        7,
+        13,
+        14
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        11
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 23,
+      "sign": -1,
+      "modulus": 8388607,
+      "maximum_order": 178480,
+      "multipliers": [
+        3,
+        6,
+        11
+      ],
+      "order_prime_divisors": [
+        2,
+        5,
+        23,
+        97
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 23,
+      "sign": 1,
+      "modulus": 8388609,
+      "maximum_order": 2796202,
+      "multipliers": [
+        5,
+        7,
+        11
+      ],
+      "order_prime_divisors": [
+        2,
+        23,
+        89,
+        683
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 24,
+      "sign": -1,
+      "modulus": 16777215,
+      "maximum_order": 240,
+      "multipliers": [
+        23,
+        29,
+        31
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        5
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 24,
+      "sign": 1,
+      "modulus": 16777217,
+      "maximum_order": 5376,
+      "multipliers": [
+        3,
+        5,
+        6
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        7
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 25,
+      "sign": -1,
+      "modulus": 33554431,
+      "maximum_order": 1800,
+      "multipliers": [
+        7,
+        11,
+        13
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        5
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 25,
+      "sign": 1,
+      "modulus": 33554433,
+      "maximum_order": 20250,
+      "multipliers": [
+        17,
+        19,
+        23
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        5
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 26,
+      "sign": -1,
+      "modulus": 67108863,
+      "maximum_order": 8190,
+      "multipliers": [
+        7,
+        11,
+        14
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        5,
+        7,
+        13
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 26,
+      "sign": 1,
+      "modulus": 67108865,
+      "maximum_order": 4836,
+      "multipliers": [
+        3,
+        6,
+        11
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        13,
+        31
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 27,
+      "sign": -1,
+      "modulus": 134217727,
+      "maximum_order": 262656,
+      "multipliers": [
+        5,
+        10,
+        11
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        19
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 27,
+      "sign": 1,
+      "modulus": 134217729,
+      "maximum_order": 87210,
+      "multipliers": [
+        13,
+        14,
+        23
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        5,
+        17,
+        19
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 28,
+      "sign": -1,
+      "modulus": 268435455,
+      "maximum_order": 1008,
+      "multipliers": [
+        17,
+        23,
+        34
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        7
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 28,
+      "sign": 1,
+      "modulus": 268435457,
+      "maximum_order": 15790320,
+      "multipliers": [
+        3,
+        12,
+        19
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        5,
+        7,
+        13,
+        241
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 29,
+      "sign": -1,
+      "modulus": 536870911,
+      "maximum_order": 39672,
+      "multipliers": [
+        3,
+        5,
+        6
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        19,
+        29
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 29,
+      "sign": 1,
+      "modulus": 536870913,
+      "maximum_order": 3033168,
+      "multipliers": [
+        7,
+        14,
+        17
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        29,
+        2179
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 30,
+      "sign": -1,
+      "modulus": 1073741823,
+      "maximum_order": 1650,
+      "multipliers": [
+        5,
+        10,
+        13
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        5,
+        11
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 30,
+      "sign": 1,
+      "modulus": 1073741825,
+      "maximum_order": 1320,
+      "multipliers": [
+        3,
+        6,
+        7
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        5,
+        11
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 31,
+      "sign": -1,
+      "modulus": 2147483647,
+      "maximum_order": 2147483646,
+      "multipliers": [
+        7,
+        11,
+        14
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        7,
+        11,
+        31,
+        151,
+        331
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 31,
+      "sign": 1,
+      "modulus": 2147483649,
+      "maximum_order": 715827882,
+      "multipliers": [
+        5,
+        11,
+        20
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        7,
+        11,
+        31,
+        151,
+        331
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 32,
+      "sign": -1,
+      "modulus": 4294967295,
+      "maximum_order": 65536,
+      "multipliers": [
+        7,
+        11,
+        14
+      ],
+      "order_prime_divisors": [
+        2
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 32,
+      "sign": 1,
+      "modulus": 4294967297,
+      "maximum_order": 33502080,
+      "multipliers": [
+        7,
+        14,
+        15
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        5,
+        17449
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 33,
+      "sign": -1,
+      "modulus": 8589934591,
+      "maximum_order": 2397912,
+      "multipliers": [
+        3,
+        6,
+        12
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        11,
+        31,
+        293
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 33,
+      "sign": 1,
+      "modulus": 8589934593,
+      "maximum_order": 646536,
+      "multipliers": [
+        5,
+        10,
+        13
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        11,
+        31,
+        79
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 34,
+      "sign": -1,
+      "modulus": 17179869183,
+      "maximum_order": 131070,
+      "multipliers": [
+        5,
+        7,
+        10
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        5,
+        17,
+        257
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 34,
+      "sign": 1,
+      "modulus": 17179869185,
+      "maximum_order": 368424,
+      "multipliers": [
+        3,
+        6,
+        11
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        7,
+        17,
+        43
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 35,
+      "sign": -1,
+      "modulus": 34359738367,
+      "maximum_order": 1106280,
+      "multipliers": [
+        3,
+        6,
+        11
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        5,
+        7,
+        439
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 35,
+      "sign": 1,
+      "modulus": 34359738369,
+      "maximum_order": 1034040,
+      "multipliers": [
+        13,
+        19,
+        23
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        5,
+        7,
+        1231
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 36,
+      "sign": -1,
+      "modulus": 68719476735,
+      "maximum_order": 216,
+      "multipliers": [
+        11,
+        22,
+        29
+      ],
+      "order_prime_divisors": [
+        2,
+        3
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 36,
+      "sign": 1,
+      "modulus": 68719476737,
+      "maximum_order": 581040,
+      "multipliers": [
+        3,
+        5,
+        6
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        5,
+        269
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 37,
+      "sign": -1,
+      "modulus": 137438953471,
+      "maximum_order": 616318176,
+      "multipliers": [
+        5,
+        7,
+        10
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        37,
+        167,
+        1039
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 37,
+      "sign": 1,
+      "modulus": 137438953473,
+      "maximum_order": 206248656,
+      "multipliers": [
+        5,
+        10,
+        11
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        37,
+        116131
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 38,
+      "sign": -1,
+      "modulus": 274877906943,
+      "maximum_order": 524286,
+      "multipliers": [
+        5,
+        7,
+        10
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        7,
+        19,
+        73
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 38,
+      "sign": 1,
+      "modulus": 274877906945,
+      "maximum_order": 525312,
+      "multipliers": [
+        11,
+        21,
+        22
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        19
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 39,
+      "sign": -1,
+      "modulus": 549755813887,
+      "maximum_order": 12743640,
+      "multipliers": [
+        11,
+        17,
+        22
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        5,
+        7,
+        13,
+        389
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 39,
+      "sign": 1,
+      "modulus": 549755813889,
+      "maximum_order": 22366890,
+      "multipliers": [
+        11,
+        17,
+        22
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        5,
+        7,
+        13,
+        2731
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 40,
+      "sign": -1,
+      "modulus": 1099511627775,
+      "maximum_order": 61680,
+      "multipliers": [
+        7,
+        14,
+        23
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        5,
+        257
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 40,
+      "sign": 1,
+      "modulus": 1099511627777,
+      "maximum_order": 4278255360,
+      "multipliers": [
+        6,
+        7,
+        12
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        5,
+        17,
+        65537
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 41,
+      "sign": -1,
+      "modulus": 2199023255551,
+      "maximum_order": 26815350376,
+      "multipliers": [
+        3,
+        5,
+        6
+      ],
+      "order_prime_divisors": [
+        2,
+        41,
+        59,
+        163,
+        8501
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 41,
+      "sign": 1,
+      "modulus": 2199023255553,
+      "maximum_order": 8831418696,
+      "multipliers": [
+        23,
+        31,
+        43
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        41,
+        2991673
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 42,
+      "sign": -1,
+      "modulus": 4398046511103,
+      "maximum_order": 43344,
+      "multipliers": [
+        5,
+        10,
+        11
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        7,
+        43
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 42,
+      "sign": 1,
+      "modulus": 4398046511105,
+      "maximum_order": 245616,
+      "multipliers": [
+        3,
+        6,
+        11
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        7,
+        17,
+        43
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 43,
+      "sign": -1,
+      "modulus": 8796093022207,
+      "maximum_order": 1186422030,
+      "multipliers": [
+        5,
+        10,
+        13
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        5,
+        43,
+        113,
+        2713
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 43,
+      "sign": 1,
+      "modulus": 8796093022209,
+      "maximum_order": 2932031007402,
+      "multipliers": [
+        5,
+        7,
+        11
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        7,
+        43,
+        127,
+        337,
+        5419
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 44,
+      "sign": -1,
+      "modulus": 17592186044415,
+      "maximum_order": 196416,
+      "multipliers": [
+        7,
+        13,
+        14
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        11,
+        31
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 44,
+      "sign": 1,
+      "modulus": 17592186044417,
+      "maximum_order": 5863084832,
+      "multipliers": [
+        3,
+        5,
+        6
+      ],
+      "order_prime_divisors": [
+        2,
+        11,
+        1913,
+        8707
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 45,
+      "sign": -1,
+      "modulus": 35184372088831,
+      "maximum_order": 466200,
+      "multipliers": [
+        11,
+        13,
+        15
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        5,
+        7,
+        37
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 45,
+      "sign": 1,
+      "modulus": 35184372088833,
+      "maximum_order": 207207000,
+      "multipliers": [
+        37,
+        61,
+        71
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        23
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 46,
+      "sign": -1,
+      "modulus": 70368744177663,
+      "maximum_order": 10849263760,
+      "multipliers": [
+        11,
+        19,
+        22
+      ],
+      "order_prime_divisors": [
+        2,
+        5,
+        23,
+        89,
+        97,
+        683
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 46,
+      "sign": 1,
+      "modulus": 70368744177665,
+      "maximum_order": 5993064,
+      "multipliers": [
+        21,
+        37,
+        39
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        7,
+        11,
+        23,
+        47
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 47,
+      "sign": -1,
+      "modulus": 140737488355327,
+      "maximum_order": 1989679200,
+      "multipliers": [
+        7,
+        14,
+        21
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        5,
+        31,
+        47,
+        569
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 47,
+      "sign": 1,
+      "modulus": 140737488355329,
+      "maximum_order": 497305612560,
+      "multipliers": [
+        7,
+        13,
+        14
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        5,
+        47,
+        2887,
+        15271
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 48,
+      "sign": -1,
+      "modulus": 281474976710655,
+      "maximum_order": 26880,
+      "multipliers": [
+        37,
+        41,
+        43
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        5,
+        7
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 48,
+      "sign": 1,
+      "modulus": 281474976710657,
+      "maximum_order": 22787457024,
+      "multipliers": [
+        3,
+        5,
+        6
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        115903
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 59,
+      "sign": -1,
+      "modulus": 576460752303423487,
+      "maximum_order": 4885233465012400,
+      "multipliers": [
+        3,
+        5,
+        6
+      ],
+      "order_prime_divisors": [
+        2,
+        5,
+        59,
+        61,
+        421,
+        8060489
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 59,
+      "sign": 1,
+      "modulus": 576460752303423489,
+      "maximum_order": 229915481040,
+      "multipliers": [
+        11,
+        19,
+        22
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        5,
+        7,
+        37,
+        59,
+        20897
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 60,
+      "sign": -1,
+      "modulus": 1152921504606846975,
+      "maximum_order": 6600,
+      "multipliers": [
+        17,
+        29,
+        34
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        5,
+        11
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 60,
+      "sign": 1,
+      "modulus": 1152921504606846977,
+      "maximum_order": 4562284560,
+      "multipliers": [
+        3,
+        5,
+        6
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        5,
+        17,
+        19,
+        229,
+        257
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 63,
+      "sign": -1,
+      "modulus": 9223372036854775807,
+      "maximum_order": 119536704,
+      "multipliers": [
+        5,
+        10,
+        11
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        7,
+        23,
+        1289
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 63,
+      "sign": 1,
+      "modulus": 9223372036854775809,
+      "maximum_order": 3317822978904,
+      "multipliers": [
+        11,
+        22,
+        23
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        7,
+        43,
+        73,
+        699053
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 64,
+      "sign": -1,
+      "modulus": 18446744073709551615,
+      "maximum_order": 17153064960,
+      "multipliers": [
+        7,
+        11,
+        14
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        5,
+        17449
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 2,
+      "exponent": 64,
+      "sign": 1,
+      "modulus": 18446744073709551617,
+      "maximum_order": 72057331223781120,
+      "multipliers": [
+        13,
+        15,
+        19
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        5,
+        7,
+        17,
+        47,
+        373,
+        2998279
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 10,
+      "exponent": 6,
+      "sign": -1,
+      "modulus": 999999,
+      "maximum_order": 180,
+      "multipliers": [
+        2,
+        5,
+        17
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        5
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 10,
+      "exponent": 6,
+      "sign": 1,
+      "modulus": 1000001,
+      "maximum_order": 9900,
+      "multipliers": [
+        2,
+        6,
+        12
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        5,
+        11
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 10,
+      "exponent": 7,
+      "sign": -1,
+      "modulus": 9999999,
+      "maximum_order": 237048,
+      "multipliers": [
+        11,
+        13,
+        22
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        7,
+        17,
+        83
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 10,
+      "exponent": 7,
+      "sign": 1,
+      "modulus": 10000001,
+      "maximum_order": 909090,
+      "multipliers": [
+        2,
+        6,
+        7
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        5,
+        7,
+        13,
+        37
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 10,
+      "exponent": 8,
+      "sign": -1,
+      "modulus": 99999999,
+      "maximum_order": 30600,
+      "multipliers": [
+        5,
+        13,
+        20
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        5,
+        17
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 10,
+      "exponent": 8,
+      "sign": 1,
+      "modulus": 100000001,
+      "maximum_order": 5882352,
+      "multipliers": [
+        3,
+        6,
+        11
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        7,
+        41,
+        61
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 10,
+      "exponent": 9,
+      "sign": -1,
+      "modulus": 999999999,
+      "maximum_order": 667332,
+      "multipliers": [
+        2,
+        5,
+        13
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        37,
+        167
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 10,
+      "exponent": 9,
+      "sign": 1,
+      "modulus": 1000000001,
+      "maximum_order": 525780,
+      "multipliers": [
+        2,
+        5,
+        6
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        5,
+        23,
+        127
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 10,
+      "exponent": 10,
+      "sign": -1,
+      "modulus": 9999999999,
+      "maximum_order": 109080,
+      "multipliers": [
+        7,
+        14,
+        17
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        5,
+        101
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 10,
+      "exponent": 10,
+      "sign": 1,
+      "modulus": 10000000001,
+      "maximum_order": 8248200,
+      "multipliers": [
+        7,
+        11,
+        13
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        5,
+        59,
+        233
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 10,
+      "exponent": 11,
+      "sign": -1,
+      "modulus": 99999999999,
+      "maximum_order": 12317712,
+      "multipliers": [
+        7,
+        14,
+        19
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        11,
+        41,
+        569
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 10,
+      "exponent": 11,
+      "sign": 1,
+      "modulus": 100000000001,
+      "maximum_order": 2721180,
+      "multipliers": [
+        2,
+        5,
+        6
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        19,
+        31
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 10,
+      "exponent": 12,
+      "sign": -1,
+      "modulus": 999999999999,
+      "maximum_order": 9900,
+      "multipliers": [
+        2,
+        5,
+        17
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        5,
+        11
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 10,
+      "exponent": 12,
+      "sign": 1,
+      "modulus": 1000000000001,
+      "maximum_order": 1699830000,
+      "multipliers": [
+        13,
+        14,
+        19
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        5,
+        11,
+        17,
+        101
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 10,
+      "exponent": 16,
+      "sign": -1,
+      "modulus": 9999999999999999,
+      "maximum_order": 7499998800,
+      "multipliers": [
+        5,
+        20,
+        23
+      ],
+      "order_prime_divisors": [
+        2,
+        3,
+        5,
+        7,
+        17,
+        41,
+        61
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    },
+    {
+      "base": 10,
+      "exponent": 16,
+      "sign": 1,
+      "modulus": 10000000000000001,
+      "maximum_order": 107578240,
+      "multipliers": [
+        3,
+        6,
+        12
+      ],
+      "order_prime_divisors": [
+        2,
+        5,
+        7,
+        11,
+        37,
+        59
+      ],
+      "scope": "Maximum period with a coprime seed; statistical quality not asserted."
+    }
+  ]
+}

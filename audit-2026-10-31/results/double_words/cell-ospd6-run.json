@@ -1,0 +1,36 @@
+{
+  "config": {
+    "label": "cell-ospd6",
+    "method": "cell",
+    "n": 6,
+    "ospd": true,
+    "expected_total": 2038753
+  },
+  "status": "finished",
+  "wrapper_pid": 862563,
+  "started_at_utc": "2026-11-02T00:41:02.423977+00:00",
+  "command": [
+    "timeout",
+    "172800",
+    "/tmp/knuth-vol4b-double-f029zfai/cell",
+    "audit-2026-10-31/results/double_words/cell-ospd6.words",
+    "audit-2026-10-31/results/double_words/cell-ospd6.words"
+  ],
+  "input_sha256": "a1cd9eceab7eaabe9470f470fb6b26b042b9fe80a7e04c03ae2307dec0b01af8",
+  "binary_sha256": "7cbf28e83cd0d5efa6d74bc68d5fbc7476847055a9176991d5768e2fb47803e4",
+  "source_sha256": {
+    "run_double_word_job.py": "29c086ab33ce55969b85b768d482b4d06cf1265022b012e2a6b51a712cfa35a2",
+    "double_word_tools.py": "1b845cdce9d1cc1eabda096df16b6115edbbc8edc22dd412755d1855a462e3e3",
+    "build_double_word_programs.py": "a092243004604c155d86641216087fb473f066fefbeb57750e36a0c32552abf4"
+  },
+  "pid": 862568,
+  "validated_solutions": 2038753,
+  "validated_double": 389514,
+  "elapsed_seconds": 26197.529724616004,
+  "returncode": 0,
+  "finished_at_utc": "2026-11-02T07:57:39.954509+00:00",
+  "stdout_sha256": "eba438f9f3817e6feb38cf97731284f01faa7a1f4ab7bf66f3071ab3cc548e39",
+  "log_sha256": "9f28ed7605a540725269936920ac5a0dc647d30168dc0770b8c53550830a8998",
+  "models_sha256": "6898d611903fe8db62370715837e2c074ecaeeb312f1a3b5497de65163bf00a0",
+  "result_sha256": "cd4a1a5dcfc37a5a5a20047f82305ce78f8ca288958a4e8ca80f493b265067ec"
+}

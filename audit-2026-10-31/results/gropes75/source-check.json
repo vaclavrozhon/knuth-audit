@@ -1,0 +1,282 @@
+{
+  "checked_at_utc": "2026-11-01T23:37:04.455656+00:00",
+  "source_sha256": "a35672c704af927af7ad55a656d185c8d36b08a44ad7099e6a8f657b6ac81782",
+  "originals": {
+    "stein-crossref.json": "ddf759c5690e599ef3e27deda60c49a01f91f48fb3168bae119b2a7e797550e0",
+    "bennett-crossref.json": "8259e349d02e35a67489e1b90ac541350fd65d553a524de8040a2a12b18c373c",
+    "schroder1876-volume.pdf": "d1487ce4b525cf46263318c28a056d6b0e37b2a3f12896a80c07f9626cb50d17",
+    "cannon1978.pdf": "b342ec668f2df3256afe1558ea5ed0a80fdfc49b9560479f7e76abbb6deabb0b",
+    "bennett1978-metadata.xml": "4176a90a3a42e16e8ef25f2da08b7d3a3e42d5888d519cbbe970fc308684dbf8",
+    "mendelsohn1971-book.pdf": "1af2efc11ba9cfea4b78a014e27c302e53b3d4d93846eead77e45c7acbde9657",
+    "stein-openalex.json": "d8045836c3aa38a99ad7e7777b383a59d04fe27ba1e2331c63879c83765cb835"
+  },
+  "attempts": [
+    {
+      "manifest": "sources/gropes75/fetch-alternatives.json",
+      "name": "schroder1876-volume.pdf",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Mathematische_Annalen_%28IA_bub_gb_AAcPAAAAIAAJ%29.pdf",
+      "at_utc": "2026-11-01T23:31:28.988163+00:00",
+      "status": 403,
+      "final_url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Mathematische_Annalen_%28IA_bub_gb_AAcPAAAAIAAJ%29.pdf",
+      "bytes": 126,
+      "content_type": "text/plain"
+    },
+    {
+      "manifest": "sources/gropes75/fetch-alternatives.json",
+      "name": "stein-discovery.html",
+      "url": "https://scispace.com/papers/on-the-foundations-of-quasigroups-3h8ofl3rlg",
+      "at_utc": "2026-11-01T23:31:28.988810+00:00",
+      "status": 403,
+      "final_url": "https://scispace.com/papers/on-the-foundations-of-quasigroups-3h8ofl3rlg",
+      "bytes": 919,
+      "content_type": "text/html"
+    },
+    {
+      "manifest": "sources/gropes75/fetch-alternatives.json",
+      "name": "stein-crossref.json",
+      "url": "https://api.crossref.org/works/10.1090/S0002-9947-1957-0094404-6",
+      "at_utc": "2026-11-01T23:31:28.989367+00:00",
+      "status": 200,
+      "final_url": "https://api.crossref.org/works/10.1090/S0002-9947-1957-0094404-6",
+      "bytes": 15931,
+      "content_type": "application/json",
+      "sha256": "ddf759c5690e599ef3e27deda60c49a01f91f48fb3168bae119b2a7e797550e0"
+    },
+    {
+      "manifest": "sources/gropes75/fetch-alternatives.json",
+      "name": "bennett-crossref.json",
+      "url": "https://api.crossref.org/works/10.1016/0012-365X(78)90192-9",
+      "at_utc": "2026-11-01T23:31:28.991895+00:00",
+      "status": 200,
+      "final_url": "https://api.crossref.org/works/10.1016/0012-365X(78)90192-9",
+      "bytes": 4105,
+      "content_type": "application/json",
+      "sha256": "8259e349d02e35a67489e1b90ac541350fd65d553a524de8040a2a12b18c373c"
+    },
+    {
+      "manifest": "sources/gropes75/fetch-final.json",
+      "name": "schroder1876-volume.pdf",
+      "url": "https://archive.org/download/bub_gb_AAcPAAAAIAAJ/bub_gb_AAcPAAAAIAAJ.pdf",
+      "at_utc": "2026-11-01T23:31:56.888947+00:00",
+      "status": 200,
+      "final_url": "https://dn760109.eu.archive.org/0/items/bub_gb_AAcPAAAAIAAJ/bub_gb_AAcPAAAAIAAJ.pdf",
+      "bytes": 43492075,
+      "content_type": "application/pdf",
+      "sha256": "d1487ce4b525cf46263318c28a056d6b0e37b2a3f12896a80c07f9626cb50d17"
+    },
+    {
+      "manifest": "sources/gropes75/fetch-final.json",
+      "name": "bennett1978-plain.txt",
+      "url": "https://api.elsevier.com/content/article/PII:0012365X78901929?httpAccept=text/plain",
+      "at_utc": "2026-11-01T23:31:56.889572+00:00",
+      "status": 400,
+      "final_url": "https://api.elsevier.com/content/article/PII:0012365X78901929?httpAccept=text/plain",
+      "bytes": 159,
+      "content_type": "text/xml;charset=UTF-8"
+    },
+    {
+      "manifest": "sources/gropes75/fetch-final.json",
+      "name": "stein1957-http.pdf",
+      "url": "http://www.ams.org/tran/1957-085-01/S0002-9947-1957-0094404-6/S0002-9947-1957-0094404-6.pdf",
+      "at_utc": "2026-11-01T23:31:56.894930+00:00",
+      "status": 403,
+      "final_url": "http://www.ams.org/tran/1957-085-01/S0002-9947-1957-0094404-6/S0002-9947-1957-0094404-6.pdf",
+      "bytes": 29013,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "manifest": "sources/gropes75/fetch-followup.json",
+      "name": "bennett1978.pdf",
+      "url": "https://api.elsevier.com/content/article/pii/0012365X78901929?httpAccept=application/pdf",
+      "at_utc": "2026-11-01T23:29:27.075377+00:00",
+      "status": 406,
+      "final_url": "https://api.elsevier.com/content/article/pii/0012365X78901929?httpAccept=application/pdf",
+      "bytes": 162,
+      "content_type": "text/xml"
+    },
+    {
+      "manifest": "sources/gropes75/fetch-followup.json",
+      "name": "stein1957.pdf",
+      "url": "https://www.ams.org/tran/1957-085-01/S0002-9947-1957-0094404-6/S0002-9947-1957-0094404-6.pdf",
+      "at_utc": "2026-11-01T23:29:27.076159+00:00",
+      "status": 403,
+      "final_url": "https://www.ams.org/tran/1957-085-01/S0002-9947-1957-0094404-6/S0002-9947-1957-0094404-6.pdf",
+      "bytes": 29056,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "manifest": "sources/gropes75/fetch-followup.json",
+      "name": "cannon1978.pdf",
+      "url": "https://www.maths.ed.ac.uk/~v1ranick/papers/cannon2.pdf",
+      "at_utc": "2026-11-01T23:29:27.078318+00:00",
+      "status": 200,
+      "final_url": "https://webhomes.maths.ed.ac.uk/~v1ranick/papers/cannon2.pdf",
+      "bytes": 3628761,
+      "content_type": "application/pdf",
+      "sha256": "b342ec668f2df3256afe1558ea5ed0a80fdfc49b9560479f7e76abbb6deabb0b"
+    },
+    {
+      "manifest": "sources/gropes75/fetch-gdz.json",
+      "name": "schroder1876-p289.jpg",
+      "url": "https://gdz.sub.uni-goettingen.de/content/PPN235181684_0010/1000/0/00000295.jpg",
+      "at_utc": "2026-11-01T23:30:59.866196+00:00",
+      "status": 500,
+      "final_url": "https://gdz.sub.uni-goettingen.de/content/PPN235181684_0010/1000/0/00000295.jpg",
+      "bytes": 7609,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "manifest": "sources/gropes75/fetch-gdz.json",
+      "name": "schroder1876-p305.jpg",
+      "url": "https://gdz.sub.uni-goettingen.de/content/PPN235181684_0010/1000/0/00000311.jpg",
+      "at_utc": "2026-11-01T23:30:59.870880+00:00",
+      "status": 500,
+      "final_url": "https://gdz.sub.uni-goettingen.de/content/PPN235181684_0010/1000/0/00000311.jpg",
+      "bytes": 7609,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "manifest": "sources/gropes75/fetch-gdz.json",
+      "name": "schroder1876-p306.jpg",
+      "url": "https://gdz.sub.uni-goettingen.de/content/PPN235181684_0010/1000/0/00000312.jpg",
+      "at_utc": "2026-11-01T23:30:59.872955+00:00",
+      "status": 500,
+      "final_url": "https://gdz.sub.uni-goettingen.de/content/PPN235181684_0010/1000/0/00000312.jpg",
+      "bytes": 7609,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "manifest": "sources/gropes75/fetch-gdz.json",
+      "name": "schroder1876-p307.jpg",
+      "url": "https://gdz.sub.uni-goettingen.de/content/PPN235181684_0010/1000/0/00000313.jpg",
+      "at_utc": "2026-11-01T23:30:59.873675+00:00",
+      "status": 500,
+      "final_url": "https://gdz.sub.uni-goettingen.de/content/PPN235181684_0010/1000/0/00000313.jpg",
+      "bytes": 7609,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "manifest": "sources/gropes75/fetch-gdz.json",
+      "name": "schroder1876-p317.jpg",
+      "url": "https://gdz.sub.uni-goettingen.de/content/PPN235181684_0010/1000/0/00000323.jpg",
+      "at_utc": "2026-11-01T23:31:00.113091+00:00",
+      "status": 500,
+      "final_url": "https://gdz.sub.uni-goettingen.de/content/PPN235181684_0010/1000/0/00000323.jpg",
+      "bytes": 7609,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "manifest": "sources/gropes75/fetch-gdz.json",
+      "name": "bennett1978-metadata.xml",
+      "url": "https://api.elsevier.com/content/article/pii/0012365X78901929?httpAccept=text/xml",
+      "at_utc": "2026-11-01T23:31:00.130619+00:00",
+      "status": 200,
+      "final_url": "https://api.elsevier.com/content/article/pii/0012365X78901929?httpAccept=text/xml",
+      "bytes": 1896,
+      "content_type": "text/xml;charset=UTF-8",
+      "sha256": "4176a90a3a42e16e8ef25f2da08b7d3a3e42d5888d519cbbe970fc308684dbf8"
+    },
+    {
+      "manifest": "sources/gropes75/fetch-initial.json",
+      "name": "mendelsohn1971-book.pdf",
+      "url": "https://www.chilton-computing.org.uk/acl/pdfs/computers_in_number_theory.pdf",
+      "at_utc": "2026-11-01T23:27:40.667142+00:00",
+      "status": 200,
+      "final_url": "https://www.chilton-computing.org.uk/acl/pdfs/computers_in_number_theory.pdf",
+      "bytes": 53228014,
+      "content_type": "application/pdf",
+      "sha256": "1af2efc11ba9cfea4b78a014e27c302e53b3d4d93846eead77e45c7acbde9657"
+    },
+    {
+      "manifest": "sources/gropes75/fetch-initial.json",
+      "name": "stein1957.pdf",
+      "url": "https://www.ams.org/journals/tran/1957-085-01/S0002-9947-1957-0094404-6/S0002-9947-1957-0094404-6.pdf",
+      "at_utc": "2026-11-01T23:27:40.669973+00:00",
+      "status": 403,
+      "final_url": "https://www.ams.org/journals/tran/1957-085-01/S0002-9947-1957-0094404-6/S0002-9947-1957-0094404-6.pdf",
+      "bytes": 29104,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "manifest": "sources/gropes75/fetch-initial.json",
+      "name": "bennett1978.pdf",
+      "url": "https://www.sciencedirect.com/science/article/pii/0012365X78901929/pdf",
+      "at_utc": "2026-11-01T23:27:40.676062+00:00",
+      "status": 403,
+      "final_url": "https://www.sciencedirect.com/science/article/pii/0012365X78901929/pdf",
+      "bytes": 832979,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "manifest": "sources/gropes75/fetch-initial.json",
+      "name": "schroder1876.pdf",
+      "url": "https://link.springer.com/content/pdf/10.1007/BF01442318.pdf",
+      "at_utc": "2026-11-01T23:27:40.678654+00:00",
+      "status": 200,
+      "final_url": "https://link.springer.com/article/10.1007/BF01442318",
+      "bytes": 223340,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "manifest": "sources/gropes75/fetch-openalex.json",
+      "name": "stein-openalex.json",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1090/S0002-9947-1957-0094404-6",
+      "status": 200,
+      "bytes": 11147,
+      "sha256": "d8045836c3aa38a99ad7e7777b383a59d04fe27ba1e2331c63879c83765cb835",
+      "at_utc": "2026-11-01T23:33:14.453998+00:00"
+    },
+    {
+      "manifest": "sources/gropes75/fetch-public-downloads.json",
+      "name": "schroder1876-volume-commons.pdf",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Mathematische_Annalen_(IA_bub_gb_AAcPAAAAIAAJ).pdf",
+      "at_utc": "2026-11-01T23:32:48.728077+00:00",
+      "status": 403,
+      "final_url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Mathematische_Annalen_(IA_bub_gb_AAcPAAAAIAAJ).pdf",
+      "bytes": 126,
+      "content_type": "text/plain"
+    },
+    {
+      "manifest": "sources/gropes75/fetch-public-downloads.json",
+      "name": "stein1957-download.pdf",
+      "url": "https://www.ams.org/journals/tran/1957-085-01/S0002-9947-1957-0094404-6/S0002-9947-1957-0094404-6.pdf?download=1",
+      "at_utc": "2026-11-01T23:32:48.728716+00:00",
+      "status": 403,
+      "final_url": "https://www.ams.org/journals/tran/1957-085-01/S0002-9947-1957-0094404-6/S0002-9947-1957-0094404-6.pdf?download=1",
+      "bytes": 29174,
+      "content_type": "text/html; charset=UTF-8"
+    }
+  ],
+  "additional_metadata": {
+    "file": "sources/gropes75/schroder1876-mets.xml",
+    "url": "https://gdz.sub.uni-goettingen.de/mets/PPN235181684_0010.xml",
+    "sha256": "f8de4fcc26fd08cfd705975cac9492e2d6b5b716159fa56dc9e4e1e53dc5a3b7"
+  },
+  "evidence_images": {
+    "images/mendelsohn1971-p323.png": "c28992a8b8208ed2447c75fb430bd67fe83fd61e51e17099d07acfdfe203c541",
+    "images/mendelsohn1971-p325.png": "5357abef258058a75cf28ab5a7e6669b62779fb4f17e41aa8895df28072333c2",
+    "images/mendelsohn1971-p331.png": "82a3bf0bb7402690cdf09cc58f26ac0c9c25e7570bc96f7f4847565b18ffe40f",
+    "images/cannon1978-p860.png": "4b526a92a4c9ed2f4b90f087f782018ecff7e706058e47b5724f00ba39fb42f6",
+    "images/cannon1978-p861.png": "f19383a4bc5ba404b54d34f436544ec1b4e0d94f499680814e5f322ea5eeb185",
+    "images/schroder1876-p289.png": "bd667abe6076c2c2513d1e62a10a4bf3583bae74bf4710e91ad0a24c576f55a2",
+    "images/schroder1876-p305.png": "5d4ed35b0203662912aab81d5a86b5a24a7b900b20d27896f016dfc57d447d9b",
+    "images/schroder1876-p306.png": "756334022807b06e7ad99efae2ac4e076522a0e341c95832381d3c33c117c67d",
+    "images/schroder1876-p307.png": "0ca953803bb0a5a56e57c813ee3e747574d9ccd10aa3ca6fdc31e75839b01a24",
+    "images/vol4b-p132.png": "495387a67968488e0a9ba10a2d12a132c5df1f8b3e7bde31d17171d2e259c7f6",
+    "images/vol4b-p432.png": "37d1dd7718b069fd1e0a9804fd4882b8d6463b1f08d0ec2cf31451d1ca50bf95",
+    "images/fasc5c-gropes-p68.png": "df3f339981f1271fe12f9193c7fdc4a61d35ec401f9921e2251cd822932ea242",
+    "images/fasc5c-dominosa-p136.png": "7d013bb5b574040e1ba1ab6e458472e9b69cfccb1c18a98682127dda042e0a73"
+  },
+  "source_page_mapping": {
+    "mendelsohn": "printed323--338 = PDF319--334",
+    "schroder": "printed289--317 = PDF297--325",
+    "cannon": "printed832--866 = PDF1--35"
+  },
+  "findings": [
+    "Original Schroder305--306 defines the inverse operations and C0/C1/C2; mathematical citation matches.",
+    "Original Mendelsohn Theorems1,5 match the correspondence and nontrivial existence spectrum; n=1 is independently trivial under the book definition.",
+    "Original Cannon Supplement13 introduces the unrelated topological grope; the bibliographic range/year matches E038.",
+    "Original Bennett full article and Stein section8 are still unavailable. Their Crossref bibliographic records are verified; metadata and indexed excerpts are not treated as full original-page verification.",
+    "Caltech1968 anecdote is author testimony, not independently documented history. Priority of Schroder is not asserted."
+  ]
+}

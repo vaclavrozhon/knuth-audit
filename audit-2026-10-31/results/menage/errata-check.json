@@ -1,0 +1,49 @@
+{
+  "checked_at_utc": "2026-11-01T16:10:20.082307+00:00",
+  "pattern": "m.nage|ménage|Kaplansky|Wyman|Touchard|curious identity|4b\\.418|4f5\\.226|Page 418|Page 226|answer 14\\b",
+  "conclusion": "No matching correction to the finite menage identity found.",
+  "files": [
+    {
+      "path": "errata/originals/err4b.textxt",
+      "sha256": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+      "hits": []
+    },
+    {
+      "path": "errata/originals/err4f5.textxt",
+      "sha256": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b",
+      "hits": [
+        {
+          "line": 807,
+          "text": "%\\amendpage 4f5.207 last line of answer 14 (20.12.22)"
+        },
+        {
+          "line": 916,
+          "text": "\\improvepage 4f5.226 line 2 of answer 12 (21.07.30)"
+        },
+        {
+          "line": 920,
+          "text": "\\amendpage 4f5.226 append new paragraph to answer 12 (20.03.27)"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all4b.txt",
+      "sha256": "b1a3425486f403fb4158585d5bbfef0159fd20b12e2e7d47b64e393e1ae8a303",
+      "hits": []
+    },
+    {
+      "path": "errata/text/all4f5.txt",
+      "sha256": "0dd38c4cda72b01baefb797611c9bbab7713ff0c107a1df884afc89fe9bb91c3",
+      "hits": [
+        {
+          "line": 540,
+          "text": " Page 226 line 2 of answer 12                                                    30 Jul 2021"
+        },
+        {
+          "line": 542,
+          "text": " Page 226    append new paragraph to answer 12                                  27 Mar 2020"
+        }
+      ]
+    }
+  ]
+}

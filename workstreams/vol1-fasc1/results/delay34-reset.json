@@ -1,0 +1,63 @@
+{
+  "checked_at_utc": "2026-11-07T00:41:34.461183+00:00",
+  "scope": "Finite native execution of the exact printed Delay at two input boundaries; timer expiry uses the documented debugger breakpoint and resetting rI models only the allowed handler effect. Coinductive proof is separate; no timeout inference.",
+  "initial_counter": 20,
+  "main_prefix_oops": 2,
+  "counter_at_Delay": 18,
+  "reset_counter": 60,
+  "reset_count": 3,
+  "runs": {
+    "18": {
+      "source_sha256": "78a4f32b66277bfae5290be47e4889de914343b227ccdce36829af0b71da39ea",
+      "trace": "results/delay34-delta18-trace.txt",
+      "listing": "results/delay34-delta18-listing.txt",
+      "process_returncode_from_debugger_quit": 2,
+      "object_sha256": null,
+      "object_hash_note": "Temporary object was removed after the wrapper initially treated the documented q exit value2 as a command failure. The completed trace/listing are preserved; execution was not repeated.",
+      "live_state_at_every_expiry": {
+        "next_pc": "#134",
+        "rI": 0,
+        "ref_time": 0,
+        "delta": 18,
+        "t": 2,
+        "delay_go": "#13c"
+      },
+      "oops_at_expiry": [
+        20,
+        80,
+        140,
+        200
+      ],
+      "all_live_state_samples_agree": true,
+      "program_return_not_reached": true,
+      "native_seconds": 0.0016023850184865296
+    },
+    "17": {
+      "source_sha256": "fde4a34ba4bd0d2fe85dd39ffae30b4be1ada76f557a815fb7ec39c9cf0613b4",
+      "object_sha256": "1d35bddc19b641f3346006abe3e154d82ff06233d90ddaf585ba6d54e02ec092",
+      "trace": "results/delay34-delta17-trace.txt",
+      "listing": "results/delay34-delta17-listing.txt",
+      "process_returncode_from_debugger_quit": 1,
+      "live_state_at_every_expiry": {
+        "next_pc": "#134",
+        "rI": 0,
+        "ref_time": 1,
+        "delta": 17,
+        "t": 1,
+        "delay_go": "#13c"
+      },
+      "oops_at_expiry": [
+        20,
+        80,
+        140,
+        200
+      ],
+      "all_live_state_samples_agree": true,
+      "program_return_not_reached": true,
+      "native_seconds": 0.00121606100583449
+    }
+  },
+  "own_harness_note": "The first completed delta18 replay returned process status2, the live$255 value at debugger q. The generic success-code assertion initially rejected it after all200instructions; native execution succeeded as intended and was not rerun. The wrapper now accepts the expected q status per case.",
+  "elapsed_seconds": 1.4221348149585538,
+  "infinite_extension_argument": "After each resetrI=60 the next instruction is PBP at#134, t>0. The20 loop GETs read59,56,...,2; all exceed ref0or1. After60instructions rI=0 and exactly the same live state recurs before PBP. No return instruction occurs; repeated handler resets extend this cycle indefinitely."
+}

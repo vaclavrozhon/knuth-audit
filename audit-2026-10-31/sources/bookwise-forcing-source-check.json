@@ -1,0 +1,62 @@
+{
+  "checked_at_utc": "2026-11-12T02:56:15.941670+00:00",
+  "errata_ranges": {
+    "4B": [
+      [
+        286,
+        288
+      ],
+      [
+        357,
+        358
+      ],
+      [
+        633,
+        634
+      ]
+    ],
+    "4F6": [
+      [
+        102,
+        104
+      ],
+      [
+        173,
+        174
+      ],
+      [
+        269,
+        270
+      ]
+    ]
+  },
+  "new_findings": [
+    "F238",
+    "F239"
+  ],
+  "known_errata": [
+    "2016 references417/418 to173 incorporated.",
+    "2016 weak-forcing augmentation423 incorporated.",
+    "2016 auxiliary-variable qualification426 incorporated.",
+    "2020 time range428 incorporated."
+  ],
+  "errata_files": [
+    "errata/text/all4b.txt",
+    "errata/text/err4b.txt",
+    "errata/text/all4f6.txt",
+    "errata/text/err4f6.txt",
+    "errata/originals/err4b.textxt",
+    "errata/originals/err4f6.textxt"
+  ],
+  "refresh_manifests": [
+    "integration/2026-11-10-bookwise/errata/vol4b-manifest.json",
+    "integration/2026-11-10-bookwise/errata/vol4b-sat-manifest.json"
+  ],
+  "public_searches": [
+    "Knuth \"418\" \"hidden weighted\" errata",
+    "Knuth \"428\" \"monotone\" \"propagation\" erratum"
+  ],
+  "public_search_result": "No relevant correction surfaced; unrelated hits and copies of the text are not evidence of priority.",
+  "fixed_check": "audit-2026-10-31/results/bookwise-sat418-fixed-matrices.json",
+  "scope": "Printed arguments; two fixed matrices only. Cited monotone lower bound accepted; automaton forward references await436."
+}

@@ -1,0 +1,69 @@
+{
+  "built_at_utc": "2026-11-02T05:50:12.351533+00:00",
+  "builder_sha256": "be1572d526bc3be201fe5f15da37b1de0e940a105f6347732e16ec7578fd0008",
+  "commands": [
+    [
+      "ctangle",
+      "gb_flip.w",
+      "gb_flip.ch"
+    ],
+    [
+      "ctangle",
+      "dlx2-original.w"
+    ],
+    [
+      "cc",
+      "-O2",
+      "-Wno-implicit-int",
+      "-Wno-implicit-function-declaration",
+      "dlx2-original.c",
+      "gb_flip.c",
+      "-o",
+      "dlx2-original"
+    ],
+    [
+      "ctangle",
+      "dlx2-symmetry122.w"
+    ],
+    [
+      "cc",
+      "-O2",
+      "-Wno-implicit-int",
+      "-Wno-implicit-function-declaration",
+      "dlx2-symmetry122.c",
+      "gb_flip.c",
+      "-o",
+      "dlx2-symmetry122"
+    ]
+  ],
+  "sources": {
+    "dlx2.w": {
+      "path": "sources/knuth-programs/dlx2.w",
+      "sha256": "02333262bfc49008cb132ee68efbad72157fec3722ea7b7c004e67dd98b5bcdb"
+    },
+    "gb_flip.w": {
+      "path": "sources/knuth-programs/gb_flip.w",
+      "sha256": "8e4faad04360d1ca35fad7c6c49281b63d3074f9f329444031f9ab09fd94611d"
+    },
+    "gb_flip.ch": {
+      "path": "sources/knuth-programs/gb_flip.ch",
+      "sha256": "40f772938571cddea4929a85677f5c1ad70c1a9076e101e7e0ece1f7ed24ab20"
+    },
+    "boilerplate.w": {
+      "path": "sources/knuth-programs/boilerplate.w",
+      "sha256": "ef08ba0e208b7a3e8eac07f1fa285f4c06a5848d6dcf1d808e7babbfb42156a8"
+    }
+  },
+  "binaries": {
+    "original": {
+      "binary": "/tmp/knuth-vol4b-symmetry122-native-ukh0j3mc/dlx2-original",
+      "sha256": "317a401448733049a4577e5d86bbd1b6bf2f230c89754697bd175ae515cfcd38"
+    },
+    "symmetry122": {
+      "binary": "/tmp/knuth-vol4b-symmetry122-native-ukh0j3mc/dlx2-symmetry122",
+      "sha256": "c10f27d568faf7020ab26f65d2669035ebed151a351c424c36aec2fc9a0903c4"
+    }
+  },
+  "patch_sha256": "7aca99f90a36839115a20aefa2b920e42a65b1223afacd0dc1fddc60154bff30",
+  "scope": "Original DLX2 plus precisely the answer122 threshold/CTH/partial rollback changes. Every primary CTH defaults to zero. No input option reordering."
+}

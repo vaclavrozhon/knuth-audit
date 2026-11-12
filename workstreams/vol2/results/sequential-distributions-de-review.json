@@ -1,0 +1,123 @@
+{
+  "reviewed_at_utc": "2026-11-06T11:18:41.811109+00:00",
+  "scope": "Sequential review of 3.4.1 D/E and exercise 16; mathematics accepted after known Student correction. Original 134 historical timing comparison remains unverified.",
+  "checked_item": "V2-X0119",
+  "known_errata": [
+    "V2-X0120"
+  ],
+  "new_findings": [],
+  "accepted_archived_counts": {
+    "exponential_series_coefficients": 16,
+    "binary_table_lengths": 7,
+    "small_gamma_cover_intervals": 200,
+    "beta_order_statistic_moments": 576,
+    "symbolic_transformation_checks": 4
+  },
+  "new_mathematical_computation": "None. Existing proof, full verifier, all three PASS log blocks and result scopes reviewed; no old computation restarted.",
+  "inputs": [
+    {
+      "path": "workstreams/vol2/notes/sequential-distributions-de-2026-11-06.md",
+      "sha256": "76e4a61e9b69d958c657a1ff94708c7a9ddda7256cddbbc2d9b6515d0bb0db68"
+    },
+    {
+      "path": "workstreams/vol2/sources/sequential-2026-11-06/distributions-de-source-review.json",
+      "sha256": "96f7bdf297807a102e61bb5efdbf5434ef1f96c68265c9f61048b76b2d227c73"
+    },
+    {
+      "path": "workstreams/vol2/notes/distributions-other.md",
+      "sha256": "84594efbe955c1fda2c2f830318fd2b07e6927b0dfac525c31b28c46f8fab626"
+    },
+    {
+      "path": "workstreams/vol2/notes/distribution-context.md",
+      "sha256": "15e15de43e438b29c8b00d73dcf9881528aaba80fe084f0287164962cdba141d"
+    },
+    {
+      "path": "workstreams/vol2/verify_distributions_other.py",
+      "sha256": "4ca1272fd6c054d3e5d9a9763b4e455eb867a2298af899b0f22a9b7323ad92c6"
+    },
+    {
+      "path": "workstreams/vol2/results/distributions-other.json",
+      "sha256": "9fa61b5595ffc52c28814ea3b35629011da6aa948f38731ac3f5362bfa7d097c"
+    },
+    {
+      "path": "workstreams/vol2/results/distributions-other.log",
+      "sha256": "0391b1e29ea72c6859d96c255f4baa2ca7639467893bc214b85ac330fcc59e5e"
+    },
+    {
+      "path": "workstreams/vol2/sources/sibuya-1962-generators.json",
+      "sha256": "249bd802065ce808cad1cb9936db637090dec0be0c1442bb9499740e7b177e53"
+    },
+    {
+      "path": "workstreams/vol2/sources/sibuya-1962-generators.pdf",
+      "sha256": "8cd30a055da259be3cd0050f661612a0f5769fe3e38c98e8e367cee46749d7f0"
+    },
+    {
+      "path": "workstreams/vol2/sources/wilson-hilferty-1931.json",
+      "sha256": "5abf494a77548711ae93c19377a2a477e006cfe3cb7a9f7ced3ac0b9067c84dc"
+    },
+    {
+      "path": "workstreams/vol2/sources/distribution-context-bibliography.json",
+      "sha256": "e22231f9fd54cecce72df7ae525867331fd8d7e8b7214d866819d1ad49e0a0ef"
+    },
+    {
+      "path": "workstreams/vol2/images/continuous-errata-pre-p5.png",
+      "sha256": "ed9151edd5ff978e3b39870892655acfb6693ed3cc6729ebaf939c53871385d5"
+    },
+    {
+      "path": "workstreams/vol2/images/normal-errata-prepre-p8.png",
+      "sha256": "5df58fc959c5a6b6c19eada60f42a17122c00d641cc5483d4bac1edfc764384a"
+    },
+    {
+      "path": "workstreams/vol2/images/wilson-hilferty1931-p686.png",
+      "sha256": "3f6b6d10948a6fd038574d2dc8a448fb867cebb340e2c7f963155c16a4e9156b"
+    },
+    {
+      "path": "workstreams/vol2/images/wilson-hilferty1931-p688.png",
+      "sha256": "1eb1595fd6d223eff57112188b2449c64f8e3925d2c92bfcf0366fdac3291ab8"
+    },
+    {
+      "path": "workstreams/vol2/images/sibuya1962-1.png",
+      "sha256": "8afd83d8165732f1b9dfe9fdab1c1e768107e15165af2837e897a19f6ca2f583"
+    },
+    {
+      "path": "workstreams/vol2/images/sibuya1962-2.png",
+      "sha256": "cec52a54f0e401ae1511ec617e28bd632ae2391f5e731b811cde16304a6246a6"
+    },
+    {
+      "path": "workstreams/vol2/images/sibuya1962-3.png",
+      "sha256": "f1459c27f6939d0a5e0fb09ae325f5fc430cefcfa1a3d0f48441d4cd1f0c2d7e"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p132.png",
+      "sha256": "3fa537f3a2fffd333af968da4735e6bb906283ae15fc805b14d455f971085c89"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p133.png",
+      "sha256": "2a61ed2b037fdccfc0c9a4e8478583d445d6eea8ecfa4d462154f996cca27f66"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p134.png",
+      "sha256": "9662d484bf95b9591e2cfe15d1c55c713d848fdc0bc17c2b87beb890b27ff6c2"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p135.png",
+      "sha256": "93d1d56d3aa72f9d1a09f8cee788489d7f96ff7043df534eaf79ab7b595ca37b"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p136.png",
+      "sha256": "07ff0056798bbf6fda0c749739b38382ce0861ef60df5cf0662e9dfc7a4e4256"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p140.png",
+      "sha256": "c9e02123557af4d23e531b331b3963f10019154431ab3a5b33ed82c8dae8aa6e"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p586.png",
+      "sha256": "3ee10729b319572e334986df53c5fbdfe525ae5b67c74142c460ecb5013833bd"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p587.png",
+      "sha256": "49b573bc53161c431a5a8084b51469a05c7ad061a720a91cfa5ebfa9373e6152"
+    }
+  ]
+}

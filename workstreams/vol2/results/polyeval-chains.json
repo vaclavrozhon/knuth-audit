@@ -1,0 +1,97 @@
+{
+  "examples": {
+    "exercise25_intermediate_products": 4,
+    "exercise25_output": "2*a1**2*a2 + 4*a1*a2*x + 2*a1 + 2*a2*x**2 - a8 + 2*x",
+    "exercise26_generic_map": true,
+    "exercise26_missing_polynomial": "x^3+1",
+    "C0238": "lambda1=x+x, lambda2=a*lambda1; A1=1, R1 empty, R-prime excludes0"
+  },
+  "normalization": {
+    "normalization_identities": 4,
+    "equation27": [
+      {
+        "n": 3,
+        "multiplications": 3,
+        "additions": 3,
+        "chain_steps": 2,
+        "parameter_steps": 4
+      },
+      {
+        "n": 5,
+        "multiplications": 4,
+        "additions": 5,
+        "chain_steps": 3,
+        "parameter_steps": 6
+      },
+      {
+        "n": 7,
+        "multiplications": 5,
+        "additions": 7,
+        "chain_steps": 4,
+        "parameter_steps": 8
+      },
+      {
+        "n": 9,
+        "multiplications": 6,
+        "additions": 9,
+        "chain_steps": 5,
+        "parameter_steps": 10
+      },
+      {
+        "n": 11,
+        "multiplications": 7,
+        "additions": 11,
+        "chain_steps": 6,
+        "parameter_steps": 12
+      }
+    ]
+  },
+  "algebraic_relations": [
+    {
+      "inputs": [
+        "a**2",
+        "a**3"
+      ],
+      "degree": 3,
+      "relation": "X0**3 - X1**2",
+      "matrix_shape": [
+        9,
+        10
+      ],
+      "integer_coefficients": true
+    },
+    {
+      "inputs": [
+        "a + b",
+        "a*b",
+        "a**2 + b**2"
+      ],
+      "degree": 2,
+      "relation": "X0**2 - 2*X1 - X2",
+      "matrix_shape": [
+        15,
+        10
+      ],
+      "integer_coefficients": true
+    },
+    {
+      "inputs": [
+        "a**2 + b",
+        "a*b",
+        "a + b**2"
+      ],
+      "degree": 4,
+      "relation": "-X0**3 + X0**2*X2**2 - 2*X0*X1**2*X2 + X0*X1*X2 + X0*X2 + X1**4 - 3*X1**3 + 3*X1**2 - X1 - X2**3",
+      "matrix_shape": [
+        45,
+        35
+      ],
+      "integer_coefficients": true
+    }
+  ],
+  "status": "passed",
+  "pid": 1596703,
+  "seconds": 0.2389428879832849,
+  "completed_at_utc": "2026-11-04T12:53:51.596443+00:00",
+  "scope": "Exact witnesses, not a finite-case proof of general lower bounds."
+}

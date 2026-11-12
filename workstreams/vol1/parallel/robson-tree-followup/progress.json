@@ -1,0 +1,68 @@
+{
+  "updated_utc": "2026-11-02T01:38:33.773926+00:00",
+  "status": "frozen-euler-primary-handoff",
+  "scope": [
+    "Robson IPL2 (1973) 12-14 for V1-X0398",
+    "Robson CACM20 (1977) 431-433 for V1-X0461",
+    "Schorr-Waite 1967 / RC1450 1965 for X0450/X0456",
+    "Morris 1979, Lindstrom 1973, Dwyer 1973/1974 for X0398",
+    "Kinkelin1860 and Glaisher1877 primary texts for 1.2.11.2-7",
+    "de Bruijn Asymptotic Methods in Analysis section3.7",
+    "Steffensen Interpolation1927 section14",
+    "Seki Collected Works1974 pages39-42 and original Katsuyo sanpo"
+  ],
+  "shared_files": "read-only",
+  "completed": [
+    "Stable Robson source audit: neither target article in thesis, exact publisher metadata, full-text gaps retained",
+    "Book332/423/567/604 and thesis7-8 directly viewed",
+    "Four errata layers searched",
+    "Read previous source notes before new retrievals",
+    "Directly viewed Schorr oral history title and p17 (2018 retrospective, not original algorithm)",
+    "Directly viewed Oxford archive index PDF44: Morris CSC-78-02; physical catalog only",
+    "Public CHM catalog search now reproducible through read-only form; RC1450 returned zero records",
+    "Separate algorithms handoff frozen; X0456 citation content supported by indexed original section4, X0450 exact date and all traversal originals partial",
+    "Kinkelin original 122-138 and Glaisher original 43-47 directly read in full; both citation contents and facsimiles checked",
+    "Original volume titles and Messenger monthly publication schedule directly read",
+    "Constant normalizations and convergent-series derivations compared with accepted general proof",
+    "Four errata layers searched and relevant original pages directly read",
+    "Constants handoff, links, source inventory, all new hashes and all 75 old frozen hashes verified; constants packet frozen",
+    "Directly read de Bruijn1958 section3.7 with title and preceding definitions; constant normalization matches",
+    "Directly read Steffensen1927 complete section14 pp129-138 plus title/verso; cited remainder criterion matches",
+    "Directly read selected Seki1712 original coefficient table, posthumous afterword and colophon; exact1974 pages still unavailable",
+    "Euler-primary source inventory, four-layer errata search, links and hashes verified; frozen separately"
+  ],
+  "next": [
+    "Await root review or further source assignment; no further work in frozen packets"
+  ],
+  "running_tests": {},
+  "robson_frozen_manifest": {
+    "files": 18,
+    "sha256": "2d2146e078e1636a18d48fc29a2b2d45abe3bd85b33fafcdec2f34c1ade6f8fa"
+  },
+  "algorithms_frozen_manifest": {
+    "files": 57,
+    "sha256": "53a265e5ae6ff93778cee23b1b4d4ca4b6e5a67a5f89eb48ac24f4f31b7ade96"
+  },
+  "constants_frozen_manifest": {
+    "path": "workstreams/vol1/parallel/robson-tree-followup/MANIFEST-constants.sha256",
+    "files": 61,
+    "bytes": 53420799,
+    "sha256": "ddd6f6cd84dee68a56963f6caeff7c156547a1d99e04cf12f3e2f0cc91c1a193"
+  },
+  "remaining_limits": [
+    "Original Robson traversal/copy articles remain unavailable",
+    "Morris/Lindstrom/Dwyer originals and Deutsch RC1450 remain unavailable",
+    "Schorr indexed original section4 content read; facsimile and page503 unavailable",
+    "Seki Collected Works1974 pp39-42 and imprint unread;1712 original checked separately"
+  ],
+  "schorr_live_reference": {
+    "path": "workstreams/vol1/parallel/robson-tree-followup/results/schorr-live-cache-reference.json",
+    "sha256": "6932428997463126c474ea91f2d615bf526669247e36cc84d4eed0fb93971bec"
+  },
+  "euler_primary_frozen_manifest": {
+    "path": "workstreams/vol1/parallel/robson-tree-followup/MANIFEST-euler-primary.sha256",
+    "files": 68,
+    "bytes": 45673499,
+    "sha256": "e7e1f7b63c8a30ab063fcc636c4b39181c7eef67c1ae5c0bbd64b1b08d57223e"
+  }
+}

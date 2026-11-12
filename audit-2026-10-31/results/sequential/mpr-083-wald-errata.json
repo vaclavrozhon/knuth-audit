@@ -1,0 +1,288 @@
+{
+  "checked_at_utc": "2026-11-07T01:05:01.087843+00:00",
+  "scope": "Entire MPR83, originalp20/p382 and historicalFascicle5p20/p194; Wald identity and all proof lines",
+  "search_pattern": "Page[ \\t]+(?:20|194|382)\\b|\\\\(?:bugonpage|amendpage|improvepage)[ \\t]+4(?:b|f[56])\\.(?:20|194|382)\\b|(?:answer|exercise|exer[ \\t]+ise)[ \\t]+83\\b|Wald|Janson|cumulative|cumulativ",
+  "layers": [
+    {
+      "path": "errata/text/err4b.txt",
+      "sha256": "2a3450bf3c79d28ad3c2d96468344c96995cf0afb74961f257c311bb9c821e1c",
+      "matches": []
+    },
+    {
+      "path": "errata/text/all4b.txt",
+      "sha256": "b1a3425486f403fb4158585d5bbfef0159fd20b12e2e7d47b64e393e1ae8a303",
+      "matches": []
+    },
+    {
+      "path": "errata/text/err4f5.txt",
+      "sha256": "5a716c34e2063eb46005593d53e89dbbd912b5677e0a6ab11753f2a5ee38b557",
+      "matches": [
+        {
+          "line": 394,
+          "context": [
+            " Page 186 last line of answer 24                                              24 Jul 2022",
+            "  332.℄ y 332. See also S. Janson, Statisti s and Probability Letters 171 (2021) 109020,",
+            "  10 pages.℄",
+            "",
+            "          CHANGES TO V4F5: MATH PRELIMINARIES, BACKTRACKING ET AL                              9",
+            " Page 193      rst line of answer 72                                                 21 Jun 2022    Nobel",
+            "  all paths y all paths to (r; b)",
+            "                                                                                                    Agrawal"
+          ]
+        },
+        {
+          "line": 402,
+          "context": [
+            "                                                                                                    Boyd",
+            "xPage 194 in answer 83                                                               16 Aug 2020",
+            "  line 2: min(m; N ) y Nn (x0 ; : : : ; xn 1 ) = [ n < m ℄ \u0001 Nn (x0 ; : : : ; xn 1 )",
+            "                              0",
+            "  line 3: Sn y SN",
+            " Page 196 in answer 101                                                              09 Jun 2022",
+            "  By 1.2.10{(25), therefore, and setting t = \u0012=\u0016, y Set t = \u0012=\u0016, and note that pk ln(1",
+            "  t=pk ) \u0015 p ln(1 t=p) \u0015 \u00161 ln(1 t\u0016) = \u0012t ln(1 \u0012). By 1.2.10{(25), therefore,"
+          ]
+        },
+        {
+          "line": 529,
+          "context": [
+            "    [the entries for COLOR(x) in nodes x = 6; 11; 16; 19; 22; 25 should be zero, not `|'.℄",
+            "xPage 241      line 2 of answer 83                                                       01 Jan 2020",
+            "    j>N      yj>N      1",
+            "",
+            " Page 242      line 6 of answer 87                                                      25 May 2021",
+            "    items w0 and appending 1 : : : n 0    y items w\b and appending : : : n\b   1",
+            "",
+            "xPage 243      in answer 90                                                              18 Apr 2021"
+          ]
+        },
+        {
+          "line": 987,
+          "context": [
+            "Cheng, Chung-Kuan (             ), 331.      Inverse permutations, 27, 38{39, 146.",
+            "Chung Graham, Fan Rong King                  Janson, Carl Svante, vi, 186, 194, 196, 200.",
+            "      (          ), 384.                     Kajitani, Yoji (            ), 331.",
+            "Chuzzlewit, Martin, 356.                     Kernels of a graph (maximal independent",
+            "Clique hints, 100, 114, 171.                      sets), 143, 244, 269.",
+            "CoÆn, Stewart Temple, 324.                   Kleiman, Mark Philip, 384.",
+            "Conne ted omponents, 134, 142{143, 151,      Kilomem (K\u0016): One thousand memory",
+            "      162, 167, 244, 248, 250.                    a esses, 75."
+          ]
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all4f5.txt",
+      "sha256": "0dd38c4cda72b01baefb797611c9bbab7713ff0c107a1df884afc89fe9bb91c3",
+      "matches": [
+        {
+          "line": 446,
+          "context": [
+            " Page 186 last line of answer 24                                              24 Jul 2022",
+            "  332.℄ y 332. See also S. Janson, Statisti s and Probability Letters 171 (2021) 109020,",
+            "  10 pages.℄",
+            " Page 191 new answer 63                                                             16 Aug 2020",
+            "  63.  If ! is the event `Z0 = a and Z1 = b', we have Z0 (!) = a and E(Z1 j Z0 )(!) =",
+            "  (pa1 + 2pa2 )=(pa0 + pa1 + pa2 ). Hen e p01 = p02 = p20 = p21 = 0, and p10 = p12 . Those",
+            "    onditions are ne essary and suÆ ient for E(Z1 j Z0 ) = Z0 .",
+            " Page 193      rst line of answer 72                                                 21 Jun 2022"
+          ]
+        },
+        {
+          "line": 454,
+          "context": [
+            "  all paths y all paths to (r; b)",
+            "xPage 194 in answer 83 0                                                             16 Aug 2020",
+            "  line 2: min(m; N ) y Nn (x0 ; : : : ; xn 1 ) = [ n < m ℄ \u0001 Nn (x0 ; : : : ; xn 1 )",
+            "  line 3: Sn y SN",
+            " Page 196 in answer 101                                                              09 Jun 2022",
+            "  By 1.2.10{(25), therefore, and setting t = \u0012=\u0016, y Set t = \u0012=\u0016, and note that pk ln(1",
+            "  t=pk ) \u0015 p ln(1 t=p) \u0015 \u00161 ln(1 t\u0016) = \u0012t ln(1 \u0012). By 1.2.10{(25), therefore,",
+            " Page 200 lines 7 and 8 of answer 114                                                05 Jan 2022"
+          ]
+        },
+        {
+          "line": 583,
+          "context": [
+            "    [the entries for COLOR(x) in nodes x = 6; 11; 16; 19; 22; 25 should be zero, not `|'.℄",
+            "xPage 241      line 2 of answer 83                                                         01 Jan 2020",
+            "    j>N      yj>N      1",
+            "",
+            " Page 242     line 6 of answer 87                                                        25 May 2021",
+            "  items w0 and appending 1 : : : n 0 y items w\b and appending 1 : : : n\b",
+            "xPage 243 in answer 90                                                                    18 Apr 2021",
+            "  line 12: LOVED|GIVES y LOVED|GIVEN"
+          ]
+        },
+        {
+          "line": 1046,
+          "context": [
+            "Cheng, Chung-Kuan (             ), 331.      Inverse permutations, 27, 38{39, 146.",
+            "Chung Graham, Fan Rong King                  Janson, Carl Svante, vi, 186, 194, 196, 200.",
+            "      (          ), 384.                     Kajitani, Yoji (            ), 331.",
+            "Chuzzlewit, Martin, 356.                     Kernels of a graph (maximal independent",
+            "Clique hints, 100, 114, 171.                      sets), 143, 244, 269.",
+            "CoÆn, Stewart Temple, 324.                   Kleiman, Mark Philip, 384.",
+            "Conne ted omponents, 134, 142{143, 151,      Kilomem (K\u0016): One thousand memory",
+            "      162, 167, 244, 248, 250.                    a esses, 75."
+          ]
+        }
+      ]
+    },
+    {
+      "path": "errata/text/err4f6.txt",
+      "sha256": "0a065b32ef4f8e427a178a77e0fe81b7caad77389ecec060c8793567cd5a3eb2",
+      "matches": [
+        {
+          "line": 451,
+          "context": [
+            "  11{19; see OEIS sequen e A003166 for many further results.℄",
+            "xPage 194 line 6 of answer 56                                                  21 Jun 2022",
+            "  on the left be uk and vl as y on the left be uk and those on the right be vl , as",
+            " Page 196 lines 17{18                                                          15 De 2016",
+            "  arXiv:1410.2736 [ s.DS℄ (2014), 10 pages y LNCS 9136 (2015), 167{176",
+            " Page 200 line 2                                                              08 Apr 2017",
+            "  size less than 16 \u0002 18. y size 15 \u0002 18 or 16 \u0002 17.",
+            " Page 202 line       3 of answer 85                                           03 Mar 2021"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all4f6.txt",
+      "sha256": "468af6337a650d3b8b132fa854a21a4a460d891d3497986318ba1830581dddb8",
+      "matches": [
+        {
+          "line": 515,
+          "context": [
+            "  11{19; see OEIS sequen e A003166 for many further results.℄",
+            "xPage 194 line 6 of answer 56                                                  21 Jun 2022",
+            "  on the left be uk and vl as y on the left be uk and those on the right be vl , as",
+            " Page 196 lines 17{18                                                          15 De 2016",
+            "  arXiv:1410.2736 [ s.DS℄ (2014), 10 pages y LNCS 9136 (2015), 167{176",
+            " Page 199 lines 11 and 7                                                      08 Apr 2017",
+            "  tarnishing y tainting",
+            " Page 200 line 2                                                              08 Apr 2017"
+          ]
+        }
+      ]
+    }
+  ],
+  "tex_sources": [
+    {
+      "path": "errata/originals/err4b.textxt",
+      "sha256": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+      "matches": []
+    },
+    {
+      "path": "errata/originals/err4f5.textxt",
+      "sha256": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b",
+      "matches": [
+        {
+          "line": 751,
+          "context": [
+            "332. See also",
+            "%S.~Janson, \\arXiv:2009.13781 [math.PR] (2020), 12~pages.]",
+            "S.~Janson, {\\sl Statistics and Probability Letters\\/ \\bf171} (2021)",
+            "109020, 10~pages.]",
+            "\\endchange",
+            "",
+            "\\improvepage 4f5.191 new answer 63 (20.08.16)",
+            "\\ans63. If $\\omega$ is the event `$Z_0=a$ and $Z_1=b$', we have"
+          ]
+        },
+        {
+          "line": 752,
+          "context": [
+            "%S.~Janson, \\arXiv:2009.13781 [math.PR] (2020), 12~pages.]",
+            "S.~Janson, {\\sl Statistics and Probability Letters\\/ \\bf171} (2021)",
+            "109020, 10~pages.]",
+            "\\endchange",
+            "",
+            "\\improvepage 4f5.191 new answer 63 (20.08.16)",
+            "\\ans63. If $\\omega$ is the event `$Z_0=a$ and $Z_1=b$', we have",
+            "$Z_0(\\omega)=a$ and $\\E(Z_1\\given"
+          ]
+        },
+        {
+          "line": 768,
+          "context": [
+            "",
+            "\\bugonpage 4f5.194 in answer 83 (20.08.16)",
+            "line 2: $\\min(m,N)$ \\becomes",
+            "$N'_n(x_0,\\ldots,x_{n-1})=\\[n<m]\\cdot N_n(x_0,\\ldots,x_{n-1})$\\nl",
+            "line 3: $S_n$ \\becomes $S_N$",
+            "\\endchange",
+            "",
+            "\\amendpage 4f5.196 in answer 101 (22.06.09)"
+          ]
+        },
+        {
+          "line": 1002,
+          "context": [
+            "",
+            "\\bugonpage 4f5.241 line 2 of answer 83 (20.01.01)",
+            "$j>N$ \\becomes $j>N_1$",
+            "\\endchange",
+            "",
+            "\\amendpage 4f5.242 line 6 of answer 87 (21.05.25)",
+            "items~$w'$ and appending $c_1\\ldots c_n{}'$ \\becomes",
+            "items~$w\\@$ and appending $c_1\\ldots c_n\\!\\@$"
+          ]
+        },
+        {
+          "line": 2112,
+          "context": [
+            "Inverse permutations, 27, 38--39, 146. % 3rd",
+            "Janson, Carl Svante, vi, 186, 194, 196, 200. % 3rd",
+            "Kajitani, Yoji (\\JC48:48:0:40% J1965",
+            "<00000c00001800c00f00003c00f00ffffffe00f80ffffffe00f80f00003c00f00f00003c%",
+            " 00f00f00003c00f00f00003c00f18f00003c00f3cf00003cffffeffffffc7fffeffffffc%",
+            " 00f00f00003c00f00f00031800f00f00070000f00f000f8001f00f001fc001f00f00ffc0%",
+            " 01f00f07fe0001f00f7ff00003fc0f00f00003fe0f00f00003f70f00f00003f78f00f030%",
+            " 07f7cf00f07807f3cf7ffffc07f3cf3ffffc07f18f00f0000ef00f00f0000ef00f00f000%"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "errata/originals/err4f6.textxt",
+      "sha256": "150809ff5caee54008a0a52523130b723ec1fdea7fe5cb8259b2a8349c4a8bfa",
+      "matches": [
+        {
+          "line": 857,
+          "context": [
+            "",
+            "\\bugonpage 4f6.194 line 6 of answer 56 (22.06.21)",
+            "on the left be $u_k$ and $v_l$ as \\becomes",
+            "on the left be $u_k$ and those on the right be $v_l$, as",
+            "\\endchange",
+            "",
+            "\\amendpage 4f6.196 lines 17--18 (16.12.15)",
+            "{\\ninepoint{\\tt arXiv:1410.2736} [cs.DS]} (2014), 10~pages \\becomes"
+          ]
+        }
+      ]
+    }
+  ],
+  "known_corrections": [
+    {
+      "id": "E127",
+      "source": "errata/originals/err4f5.textxt",
+      "date": "2020-08-16",
+      "historical_page": 194,
+      "exercise": "MPR83",
+      "changes": [
+        "Replace the stopping-rule description min(m,N) by Nprime_n=[n<m]N_n.",
+        "Replace S_n by S_N in the next line."
+      ],
+      "already_in_4b": true,
+      "original_errata_image": "audit-2026-10-31/images/sequential/all4f5-10.png"
+    }
+  ],
+  "new_findings": [
+    "F168"
+  ],
+  "conclusion": "All matches inspected. Historical83 corrections affect only the stopping-rule line and S_N, and are already incorporated in4B. They do not fix the first-line summand index n instead of k (F168). Other83 matches belong to Dancing Links; Janson matches concern24 or the index; Fascicle6p194 concerns56. No applicable correction to F168 was found in all six saved layers and three TeX sources.",
+  "local_snapshot_note": "Saved all4b snapshot16April2026; no live refresh claim."
+}

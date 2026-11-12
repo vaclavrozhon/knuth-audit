@@ -1,0 +1,67 @@
+{
+  "checked_at_utc": "2026-11-02T12:39:14.010697+00:00",
+  "source_sha256": "5ff8cff0d9790bf3e485a80ae0daf912f4d0cf2a3db7245296c26362c70f9c7a",
+  "local_files": {
+    "errata/text/all4b.txt": "b1a3425486f403fb4158585d5bbfef0159fd20b12e2e7d47b64e393e1ae8a303",
+    "errata/text/err4b.txt": "2a3450bf3c79d28ad3c2d96468344c96995cf0afb74961f257c311bb9c821e1c",
+    "errata/text/all4f5.txt": "0dd38c4cda72b01baefb797611c9bbab7713ff0c107a1df884afc89fe9bb91c3",
+    "errata/text/err4f5.txt": "5a716c34e2063eb46005593d53e89dbbd912b5677e0a6ab11753f2a5ee38b557",
+    "errata/originals/err4b.textxt": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+    "errata/originals/err4f5.textxt": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b"
+  },
+  "remote_check_source": "results/borders127_128/errata-check.json",
+  "remote_check_source_sha256": "0532a05036e3372dea02d78135258483c0c391cf9d8071a0227800f902f05408",
+  "remote_verified_at_utc": "2026-11-02T08:06:36.705568+00:00",
+  "remote_files": [
+    {
+      "file": "all4b.ps.gz",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/all4b.ps.gz",
+      "sha256": "61c41e43dc337c1259f9ff690bfef718da2a656abdb110c6e7875c11f9566eea",
+      "unchanged": true
+    },
+    {
+      "file": "all4f5.ps.gz",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/all4f5.ps.gz",
+      "sha256": "4c3edee8aa4c92f69bc5eb243ffe03779ae56c1e89a0ad36f85a2ac770fcbb83",
+      "unchanged": true
+    },
+    {
+      "file": "err4b.textxt",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/err4b.textxt",
+      "sha256": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+      "unchanged": true
+    },
+    {
+      "file": "err4f5.textxt",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/err4f5.textxt",
+      "sha256": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b",
+      "unchanged": true
+    }
+  ],
+  "search_patterns": [
+    "(?:Page|page)\\s+(?:139|450|451|137|258|259|75|154|155)\\b",
+    "(?:4b|4f5)\\.(?:139|450|451|137|258|259)\\b",
+    "(?:answer|exercise)\\s+135\\b",
+    "Nelson|Fink|Risue|Philpott|triaconta|Dario|1993|39\\s+(?:such|problem)|61\\s+(?:such|solution)"
+  ],
+  "contexts_sha256": "a604fee458d2c95cd0d4a3fc377cde86df138bb1f56246d418195217b2e23d6c",
+  "page_mapping": {
+    "question4B": 139,
+    "answer4B": [
+      450,
+      451
+    ],
+    "questionF5": 137,
+    "answerF5": [
+      258,
+      259
+    ],
+    "questionDraft5C": 75,
+    "answerDraft5C": [
+      154,
+      155
+    ]
+  },
+  "correction135_found": false,
+  "conclusion": "All28 contexts inspected. Same-number corrections concern MPR135; adjacent-page corrections concern133/136. No correction to DLX135 found. The136 matrices are an explicitly deferred next exercise."
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "version": "original-2013-and-2025-identical",
+    "command": [
+      "ctangle",
+      "workstreams/vol1-fasc1/sources/mmix-io-20250620.w",
+      "-",
+      "mmix-io.c"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "version": "original-2013-and-2025-identical",
+    "command": [
+      "gcc",
+      "-O0",
+      "-std=c11",
+      "driver.c",
+      "-o",
+      "driver"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "version": "audit-empty-eof",
+    "command": [
+      "ctangle",
+      "workstreams/vol1-fasc1/sources/mmix-io-20250620.w",
+      "workstreams/vol1-fasc1/sources/audit-fgetws-empty-eof.ch",
+      "mmix-io.c"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "version": "audit-empty-eof",
+    "command": [
+      "gcc",
+      "-O0",
+      "-std=c11",
+      "driver.c",
+      "-o",
+      "driver"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+]

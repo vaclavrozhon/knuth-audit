@@ -1,0 +1,57 @@
+{
+  "sat134": {
+    "initial": {
+      "ADDR": 0,
+      "CAP": 4,
+      "K": 2,
+      "BSIZE": 4
+    },
+    "after_first_resize_as_printed": {
+      "ADDR": 0,
+      "CAP": 8,
+      "K": 2,
+      "BSIZE": 4
+    },
+    "next_full_size": 8,
+    "printed_second_requested_capacity": 8,
+    "correct_second_requested_capacity": 16
+  },
+  "x2": {
+    "clauses": [
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "F": 2,
+    "free_variables": [
+      1
+    ],
+    "encoded_free_literals": [
+      2,
+      3
+    ],
+    "before_VAL": {
+      "1": 0,
+      "2": 4294967294,
+      "3": 4294967294
+    },
+    "printed_after_VAL": {
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    "corrected_after_VAL": {
+      "1": 0,
+      "2": 4294967294,
+      "3": 4294967294
+    },
+    "effect": "Both really true variables are erased; the free variable is not the addressed entry."
+  }
+}

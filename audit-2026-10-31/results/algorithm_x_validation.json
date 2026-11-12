@@ -1,0 +1,80 @@
+{
+  "status": "pass",
+  "distinct_incidence_matrices": 5075,
+  "matrices_by_item_count": {
+    "0": 1,
+    "1": 2,
+    "2": 8,
+    "3": 120,
+    "4": 4944
+  },
+  "policies": [
+    "first remaining item",
+    "MRV with first-item tie break"
+  ],
+  "oracle": "All subsets of options independently checked; exact solution sets match. Link restoration asserted after every solve.",
+  "limitations": "Nonempty distinct options; at most four items and five options. Operation counts additionally calibrated against hand counts and complete-graph recurrences.",
+  "complete_graph_calibration": [
+    {
+      "vertices": 0,
+      "updates": 0,
+      "solutions": 1
+    },
+    {
+      "vertices": 1,
+      "updates": 1,
+      "solutions": 0
+    },
+    {
+      "vertices": 2,
+      "updates": 3,
+      "solutions": 1
+    },
+    {
+      "vertices": 3,
+      "updates": 9,
+      "solutions": 0
+    },
+    {
+      "vertices": 4,
+      "updates": 22,
+      "solutions": 3
+    },
+    {
+      "vertices": 5,
+      "updates": 57,
+      "solutions": 0
+    },
+    {
+      "vertices": 6,
+      "updates": 141,
+      "solutions": 15
+    },
+    {
+      "vertices": 7,
+      "updates": 385,
+      "solutions": 0
+    },
+    {
+      "vertices": 8,
+      "updates": 1044,
+      "solutions": 105
+    },
+    {
+      "vertices": 9,
+      "updates": 3153,
+      "solutions": 0
+    },
+    {
+      "vertices": 10,
+      "updates": 9487,
+      "solutions": 945
+    },
+    {
+      "vertices": 11,
+      "updates": 31641,
+      "solutions": 0
+    }
+  ],
+  "seconds": 1.893
+}

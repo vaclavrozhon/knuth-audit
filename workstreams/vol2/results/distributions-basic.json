@@ -1,0 +1,73 @@
+{
+  "integer_choices": {
+    "models": 20480,
+    "individual_counts": 1648640,
+    "examples": [
+      {
+        "m": 12,
+        "k": 4,
+        "lower_half_probability": "1/2"
+      },
+      {
+        "m": 256,
+        "k": 86,
+        "lower_half_probability": "129/256"
+      },
+      {
+        "m": 12,
+        "k": 8,
+        "lower_half_probability": "2/3"
+      },
+      {
+        "m": 256,
+        "k": 170,
+        "lower_half_probability": "85/128"
+      },
+      {
+        "m": 256,
+        "k": 171,
+        "lower_half_probability": "171/256"
+      }
+    ],
+    "formula": "m=q*k+s; Pr(U mod k < k/2)=(q*ceil(k/2)+min(s,ceil(k/2)))/m"
+  },
+  "alias_choices": {
+    "exhaustive_distributions": 31816,
+    "threshold_probes": 567028,
+    "dice_probability_vector": [
+      "0",
+      "0",
+      "1/36",
+      "1/18",
+      "1/12",
+      "1/9",
+      "5/36",
+      "1/6",
+      "5/36",
+      "1/9",
+      "1/12",
+      "1/18",
+      "1/36",
+      "0",
+      "0",
+      "0"
+    ],
+    "last_entry_convention": "P=1, unused Y=self; stop before redundant deletion/reinsertion"
+  },
+  "continuous_identities": {
+    "disk_cdf": "2*(x*sqrt(1 - x**2) + asin(x))/pi",
+    "normal_second_derivative": "sqrt(2)*(x**2 - 1)*exp(-x**2/2)/sqrt(pi)",
+    "polar_mean": "1.27323954473516268615107010698011489627567716592365158998134",
+    "polar_standard_deviation": "0.589829970027161011291324840480011426611207459392885453201816",
+    "logistic_cdf": "2*asin(sqrt(x))/pi",
+    "printed_logistic_total_mass": "sqrt(2)*sqrt(pi)/2",
+    "printed_logistic_total_mass_decimal": "1.25331413731550025120788264240552262650349337030496915831496",
+    "scope": "Symbolic local identities supplement the elementary distribution proofs; no simulation as proof."
+  },
+  "covariance": {
+    "exact_gram_models": 280,
+    "singular_models": 228,
+    "dimensions": "1..7",
+    "factorization": "C=L*diag(d)*L^T, so A=L*diag(sqrt(d)) gives A*A^T=C, including zero pivots."
+  }
+}

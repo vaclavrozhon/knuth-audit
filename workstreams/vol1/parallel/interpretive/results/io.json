@@ -1,0 +1,285 @@
+{
+  "cases": 1184,
+  "radices": 37,
+  "physical_delays": [
+    0,
+    17
+  ],
+  "max_assembly_word": 3965,
+  "due_boundaries": [
+    {
+      "b": 64,
+      "unit": 16,
+      "clock": 4999,
+      "transfer": false
+    },
+    {
+      "b": 64,
+      "unit": 16,
+      "clock": 5000,
+      "transfer": true
+    },
+    {
+      "b": 64,
+      "unit": 16,
+      "clock": 5001,
+      "transfer": true
+    },
+    {
+      "b": 64,
+      "unit": 18,
+      "clock": 3749,
+      "transfer": false
+    },
+    {
+      "b": 64,
+      "unit": 18,
+      "clock": 3750,
+      "transfer": true
+    },
+    {
+      "b": 64,
+      "unit": 18,
+      "clock": 3751,
+      "transfer": true
+    },
+    {
+      "b": 100,
+      "unit": 16,
+      "clock": 4999,
+      "transfer": false
+    },
+    {
+      "b": 100,
+      "unit": 16,
+      "clock": 5000,
+      "transfer": true
+    },
+    {
+      "b": 100,
+      "unit": 16,
+      "clock": 5001,
+      "transfer": true
+    },
+    {
+      "b": 100,
+      "unit": 18,
+      "clock": 3749,
+      "transfer": false
+    },
+    {
+      "b": 100,
+      "unit": 18,
+      "clock": 3750,
+      "transfer": true
+    },
+    {
+      "b": 100,
+      "unit": 18,
+      "clock": 3751,
+      "transfer": true
+    }
+  ],
+  "diagnostics": [
+    [
+      "IN",
+      1000,
+      18,
+      "FERROR"
+    ],
+    [
+      "OUT",
+      2000,
+      16,
+      "FERROR"
+    ],
+    [
+      "IOC",
+      0,
+      16,
+      "FERROR"
+    ],
+    [
+      "IOC",
+      1,
+      18,
+      "ADDRERROR"
+    ],
+    [
+      "JBUS",
+      0,
+      17,
+      "FERROR"
+    ],
+    [
+      "IN",
+      3485,
+      16,
+      "MEMERROR"
+    ],
+    [
+      "OUT",
+      3477,
+      18,
+      "MEMERROR"
+    ],
+    [
+      "IN",
+      -1,
+      16,
+      "MEMERROR"
+    ]
+  ],
+  "representative_cases": [
+    {
+      "name": "overlap_and_fast_wait",
+      "b": 64,
+      "delayed": false,
+      "physical_delay": 0,
+      "simulated_u": 10002,
+      "host_u": 487,
+      "host_steps": 324
+    },
+    {
+      "name": "implicit_same_unit_wait",
+      "b": 64,
+      "delayed": false,
+      "physical_delay": 0,
+      "simulated_u": 25002,
+      "host_u": 760,
+      "host_steps": 508
+    },
+    {
+      "name": "immediate_halt",
+      "b": 64,
+      "delayed": false,
+      "physical_delay": 0,
+      "simulated_u": 10001,
+      "host_u": 403,
+      "host_steps": 268
+    },
+    {
+      "name": "printer_control",
+      "b": 64,
+      "delayed": false,
+      "physical_delay": 0,
+      "simulated_u": 25001,
+      "host_u": 590,
+      "host_steps": 395
+    },
+    {
+      "name": "ready_branch",
+      "b": 64,
+      "delayed": false,
+      "physical_delay": 0,
+      "simulated_u": 10003,
+      "host_u": 592,
+      "host_steps": 395
+    },
+    {
+      "name": "indexed_buffer",
+      "b": 64,
+      "delayed": false,
+      "physical_delay": 0,
+      "simulated_u": 10002,
+      "host_u": 623,
+      "host_steps": 415
+    },
+    {
+      "name": "flags_preserved",
+      "b": 64,
+      "delayed": false,
+      "physical_delay": 0,
+      "simulated_u": 10008,
+      "host_u": 872,
+      "host_steps": 555
+    },
+    {
+      "name": "boundary_buffers",
+      "b": 64,
+      "delayed": false,
+      "physical_delay": 0,
+      "simulated_u": 17502,
+      "host_u": 655,
+      "host_steps": 437
+    },
+    {
+      "name": "overlap_and_fast_wait",
+      "b": 64,
+      "delayed": false,
+      "physical_delay": 17,
+      "simulated_u": 10002,
+      "host_u": 513,
+      "host_steps": 350
+    },
+    {
+      "name": "implicit_same_unit_wait",
+      "b": 64,
+      "delayed": false,
+      "physical_delay": 17,
+      "simulated_u": 25002,
+      "host_u": 812,
+      "host_steps": 560
+    },
+    {
+      "name": "immediate_halt",
+      "b": 64,
+      "delayed": false,
+      "physical_delay": 17,
+      "simulated_u": 10001,
+      "host_u": 429,
+      "host_steps": 294
+    },
+    {
+      "name": "printer_control",
+      "b": 64,
+      "delayed": false,
+      "physical_delay": 17,
+      "simulated_u": 25001,
+      "host_u": 629,
+      "host_steps": 434
+    },
+    {
+      "name": "ready_branch",
+      "b": 64,
+      "delayed": false,
+      "physical_delay": 17,
+      "simulated_u": 10003,
+      "host_u": 605,
+      "host_steps": 408
+    },
+    {
+      "name": "indexed_buffer",
+      "b": 64,
+      "delayed": false,
+      "physical_delay": 17,
+      "simulated_u": 10002,
+      "host_u": 649,
+      "host_steps": 441
+    },
+    {
+      "name": "flags_preserved",
+      "b": 64,
+      "delayed": false,
+      "physical_delay": 17,
+      "simulated_u": 10008,
+      "host_u": 898,
+      "host_steps": 581
+    },
+    {
+      "name": "boundary_buffers",
+      "b": 64,
+      "delayed": false,
+      "physical_delay": 17,
+      "simulated_u": 17502,
+      "host_u": 694,
+      "host_steps": 476
+    }
+  ],
+  "limits": [
+    "Integer MIX and units16/18 only",
+    "CLOCK and ready times must remain representable",
+    "Undefined early buffer access not assigned a universal hardware meaning",
+    "Physical host I/O waited synchronously at simulated transfer time; logical device remains busy until ready"
+  ]
+}

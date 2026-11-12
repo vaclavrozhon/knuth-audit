@@ -1,0 +1,58 @@
+{
+  "checked_at_utc": "2026-11-12T00:32:13.140566+00:00",
+  "fresh_errata_manifests": [
+    "integration/2026-11-10-bookwise/errata/vol4b-manifest.json",
+    "integration/2026-11-10-bookwise/errata/vol4b-sat-manifest.json"
+  ],
+  "scope": "4B 201–204, questions 321–323, answers 559–566; corresponding Fascicle 6 pages 17–20,137–139,195–202.",
+  "known_corrections": [
+    "SAT68 question/answer replaced 2026-02-26",
+    "SAT84 update 2024",
+    "Fasc6 70 rotor diagram, 64 citation and 74 rectangle bounds incorporated"
+  ],
+  "originals_inspected": [
+    "images/bookwise-sort-p559.png",
+    "images/bookwise-life-p560.png",
+    "images/bookwise-life-581.png",
+    "images/bookwise-life-582.png",
+    "images/bookwise-life-583.png",
+    "images/bookwise-life-584.png",
+    "images/bookwise-life-p565.png",
+    "images/bookwise-fasc6a-sort-p196.png",
+    "images/bookwise-fasc6a-eater-p200.png",
+    "images/bookwise-life-main-221.png",
+    "images/bookwise-life-main-222.png",
+    "images/bookwise-life-main-223.png",
+    "images/bookwise-life-main-224.png"
+  ],
+  "author_draft": {
+    "url": "https://www-cs-faculty.stanford.edu/~knuth/fasc6a.ps.gz",
+    "printed_pages": [
+      196,
+      200
+    ],
+    "result": "Same two sorting-index errors and missing eater clause."
+  },
+  "author_program": {
+    "local": "sources/bookwise-sat-mintime-sort.w",
+    "provenance": "sources/bookwise-sat-mintime-sort.provenance.json",
+    "result": "Separate untouched-wire loop includes n; trailing-ones mask has n+1−j bits, both correct."
+  },
+  "public_queries": [
+    "Knuth trailing 1s sorting network",
+    "Knuth answer 64 unused sorting clauses",
+    "Knuth answer 77 Life errata",
+    "Knuth g + h + i f Life"
+  ],
+  "public_result": "No matching correction located. Only primary book/draft/program sources used for conclusions.",
+  "finding_ids": [
+    "F200",
+    "F201",
+    "F202"
+  ],
+  "author_eater_program": {
+    "path": "sources/bookwise-sat-life-grid-eater.ch",
+    "provenance": "sources/bookwise-sat-life.provenance.json",
+    "result": "Both prose and emitted clauses omit NOT g OR NOT h."
+  }
+}

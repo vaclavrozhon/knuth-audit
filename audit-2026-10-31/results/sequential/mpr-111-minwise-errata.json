@@ -1,0 +1,250 @@
+{
+  "updated_at_utc": "2026-11-07T02:40:10.032587+00:00",
+  "scope": "Complete MPR111; all family/table/sketch/estimation claims and F173 membership error",
+  "snapshot": "Local official snapshots including all4b dated16April2026; no live refresh claimed.",
+  "search_patterns": "(?:Page\\s+(?:23|198|199|387)\\b|4(?:b|f5|f6)\\.(?:23|198|199|387)\\b|(?:answer|exer\\s*ise|exercise)\\s+\\{?111\\b|MPR.{0,5}111|minwise|minhash|Jaccard|Broder|Mulmuley|sketch|empty set)",
+  "text_sources": [
+    {
+      "path": "errata/text/err4b.txt",
+      "sha256": "2a3450bf3c79d28ad3c2d96468344c96995cf0afb74961f257c311bb9c821e1c",
+      "matches": [
+        {
+          "line": 182,
+          "context": [
+            "     line 3: (if xn is blank)  y (where xn is onsidered to be blank)",
+            "    Page 136 append a senten e to exer ise 111                                30 Mar 2023",
+            "     (Crossword puzzle diagrams are bla k-and-white grids su h as those in exer ise 1.3.2{",
+            "     23.)",
+            "xPage 138 line 8 of exer ise 121                                                           07 Jan 2023",
+            "  (2, 3, 3, 57) y (2, 2, 3, 57)",
+            "xPage 145 line 4 of exer ise 165                                                           02 Jan 2025",
+            "  Would it better y Would it be better"
+          ]
+        },
+        {
+          "line": 409,
+          "context": [
+            "x",
+            "Page 443         last line of answer 111                                                    04 Nov 2023",
+            "    591 G\u0016    y     550 G\u0016",
+            "x",
+            "Page 443     rst line of answer 112( )                                                      08 Apr 2023",
+            "    140 ways    y",
+            "                416 ways",
+            "x"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all4b.txt",
+      "sha256": "b1a3425486f403fb4158585d5bbfef0159fd20b12e2e7d47b64e393e1ae8a303",
+      "matches": [
+        {
+          "line": 208,
+          "context": [
+            "",
+            "    Page 136 append a senten e to exer ise 111                                30 Mar 2023",
+            "     (Crossword puzzle diagrams are bla k-and-white grids su h as those in exer ise 1.3.2{",
+            "     23.)",
+            "xPage 138 line 8 of exer ise 121                                                           07 Jan 2023",
+            "  (2, 3, 3, 57) y (2, 2, 3, 57)",
+            "Page 142 line 7                                                                            13 Feb 2023",
+            "     the boundary of    y the boundary path of"
+          ]
+        },
+        {
+          "line": 453,
+          "context": [
+            "  found in 20 G\u0016       y   found in 23 G\u0016",
+            "xPage 443 last line of answer 111                                                         04 Nov 2023",
+            "  591 G\u0016     y    550 G\u0016",
+            "x                rst line of answer 112( )                                                08 Apr 2023",
+            "             y",
+            " Page 443",
+            "",
+            "  140 ways          416 ways"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "errata/text/err4f5.txt",
+      "sha256": "5a716c34e2063eb46005593d53e89dbbd912b5677e0a6ab11753f2a5ee38b557",
+      "matches": [
+        {
+          "line": 130,
+          "context": [
+            "    72.   [M21 ℄ y x 72. [M23 ℄",
+            "xPage 23      line 6 of exer ise 112                                               26 Feb 2020",
+            "    mina2\u0019 a\u0019 = 1 y mina2A a\u0019 = 1",
+            " Page 24 line 4 of exer ise 121                                                   31 May 2021",
+            "               Y from X, y divergen e of X from Y ,",
+            "    divergen e of",
+            "",
+            "xPage 26 bottom line                                                              06 May 2021"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all4f5.txt",
+      "sha256": "0dd38c4cda72b01baefb797611c9bbab7713ff0c107a1df884afc89fe9bb91c3",
+      "matches": [
+        {
+          "line": 141,
+          "context": [
+            "    72.   [M21 ℄ y x 72. [M23 ℄",
+            "xPage 23       line 6 of exer ise 112                                                   26 Feb 2020",
+            "    mina2\u0019 a\u0019 = 1 y mina2A a\u0019 = 1",
+            " Page 24   line 4 of exer ise 121                                                      31 May 2021",
+            "  divergen e of Y from X , y divergen e of X from Y ,",
+            "",
+            "xPage 26 bottom line                                                                   06 May 2021",
+            "    pk 1 \u0014 pk \u0015 pk 1 y pk 1 \u0014 pk \u0015 pk+1"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "errata/text/err4f6.txt",
+      "sha256": "0a065b32ef4f8e427a178a77e0fe81b7caad77389ecec060c8793567cd5a3eb2",
+      "matches": []
+    },
+    {
+      "path": "errata/text/all4f6.txt",
+      "sha256": "468af6337a650d3b8b132fa854a21a4a460d891d3497986318ba1830581dddb8",
+      "matches": [
+        {
+          "line": 519,
+          "context": [
+            "  arXiv:1410.2736 [ s.DS℄ (2014), 10 pages y LNCS 9136 (2015), 167{176",
+            " Page 199 lines 11 and 7                                                      08 Apr 2017",
+            "  tarnishing y tainting",
+            " Page 200 line 2                                                              08 Apr 2017",
+            "  size less than 16 \u0002 18. y size 15 \u0002 18 or 16 \u0002 17.",
+            " Page 202 line      3 of answer 85                                            03 Mar 2021",
+            "  (August 2013), #P16 y (2013), #P16, 1{19",
+            "xPage 204 bottom line and top lines of page 205                                11 Jan 2016"
+          ]
+        }
+      ]
+    }
+  ],
+  "tex_sources": [
+    {
+      "path": "errata/originals/err4b.textxt",
+      "sha256": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+      "matches": [
+        {
+          "line": 125,
+          "context": [
+            "\\planforpage 0.666 line 3 (17.11.20)",
+            "Plans for the future represent a third kind of item. In such notes I~sketched",
+            "my intentions about things that I wasn't ready to flesh out further when",
+            "I~wrote them down. You can identify these items because they're written in",
+            "slanted type, and preceded by a bunch of dots",
+            "`\\hbox to 6em{\\leaders\\hbox to 5pt{\\hss.\\hss}\\hfill}' leading to the date on",
+            "which I recorded the plan in my files.",
+            "\\endchange"
+          ]
+        },
+        {
+          "line": 424,
+          "context": [
+            "",
+            "\\amendpage 4b.136 append a sentence to exercise 111 (23.03.30)",
+            "\\ninepoint (Crossword puzzle diagrams",
+            "are black-and-white grids such as those in exercise 1.3.2--23.)",
+            "\\endchange",
+            "",
+            "\\bugonpage 4b.138 line 8 of exercise 121 (23.01.07)",
+            "\\ninepoint (2, 3, 3, 57) \\becomes (2, 2, 3, 57)"
+          ]
+        },
+        {
+          "line": 843,
+          "context": [
+            "",
+            "\\bugonpage 4b.443 last line of answer 111 (23.11.04)",
+            "591~G$\\mu$ \\becomes 550~G$\\mu$",
+            "\\endchange",
+            "",
+            "\\bugonpage 4b.443 first line of answer {112(c)} (23.04.08)",
+            "140 ways \\becomes 416 ways",
+            "\\endchange"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "errata/originals/err4f5.textxt",
+      "sha256": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b",
+      "matches": [
+        {
+          "line": 131,
+          "context": [
+            "\\planforpage 0.666 line 3 (17.11.20)",
+            "Plans for the future represent a third kind of item. In such notes I~sketched",
+            "my intentions about things that I wasn't ready to flesh out further when",
+            "I~wrote them down. You can identify these items because they're written in",
+            "slanted type, and preceded by a bunch of dots",
+            "`\\hbox to 6em{\\leaders\\hbox to 5pt{\\hss.\\hss}\\hfill}' leading to the date on",
+            "which I recorded the plan in my files.",
+            "\\endchange"
+          ]
+        },
+        {
+          "line": 275,
+          "context": [
+            "",
+            "\\bugonpage 4f5.23 line 6 of exercise 112 (20.02.26)",
+            "\\ninepoint",
+            "$\\min_{a\\in\\pi}a\\pi=\\infty$ \\becomes",
+            "$\\min_{a\\in A}a\\pi=\\infty$",
+            "\\endchange",
+            "",
+            "\\amendpage 4f5.24 line 4 of exercise 121 (21.05.31)"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "errata/originals/err4f6.textxt",
+      "sha256": "150809ff5caee54008a0a52523130b723ec1fdea7fe5cb8259b2a8349c4a8bfa",
+      "matches": [
+        {
+          "line": 131,
+          "context": [
+            "\\planforpage 0.666 line 3 (17.11.20)",
+            "Plans for the future represent a third kind of item. In such notes I~sketched",
+            "my intentions about things that I wasn't ready to flesh out further when",
+            "I~wrote them down. You can identify these items because they're written in",
+            "slanted type, and preceded by a bunch of dots",
+            "`\\hbox to 6em{\\leaders\\hbox to 5pt{\\hss.\\hss}\\hfill}' leading to the date on",
+            "which I recorded the plan in my files.",
+            "\\endchange"
+          ]
+        },
+        {
+          "line": 867,
+          "context": [
+            "",
+            "\\improvepage 4f6.199 lines $-11$ and $-7$ (17.04.08)",
+            "tarnishing \\becomes tainting",
+            "\\endchange",
+            "",
+            "\\amendpage 4f6.200 line 2 (17.04.08)",
+            "size less than $16\\times18$. \\becomes",
+            "size $15\\times18$ or $16\\times17$."
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "All matches assessed:4B exercise111 corrections onp136/443 concern crossword problems, Fascicle5 p23 concerns112, Fascicle6 p199 wording is unrelated; generic sketched intentions does not concern minwise sketches. No applicable111 correction.",
+  "known_errata": [],
+  "new_findings": [
+    "F173"
+  ]
+}

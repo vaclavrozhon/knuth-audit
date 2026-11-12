@@ -1,0 +1,337 @@
+{
+  "accessed_utc": "2026-11-04T00:02:10.726833+00:00",
+  "scope": "Algorithm C, determinant identities, exercises11–16 and24; remaining section/history open.",
+  "book": {
+    "edition": 3,
+    "printing": 1,
+    "year": 1997,
+    "printed_pages_visually_read_for_this_scope": [
+      428,
+      429,
+      430,
+      431,
+      432,
+      433,
+      436,
+      438,
+      673,
+      674,
+      675
+    ],
+    "file_page_offset": 12
+  },
+  "findings": [
+    {
+      "id": "V2-C0193",
+      "status": "confirmed"
+    },
+    {
+      "id": "V2-C0194",
+      "status": "confirmed"
+    },
+    {
+      "id": "V2-C0195",
+      "status": "candidate"
+    },
+    {
+      "id": "V2-C0196",
+      "status": "confirmed"
+    },
+    {
+      "id": "V2-C0197",
+      "status": "confirmed"
+    },
+    {
+      "id": "V2-C0198",
+      "status": "candidate"
+    }
+  ],
+  "verification": {
+    "result_file": "results/subresultants.json",
+    "successful_block_seconds": 0.7259963939432055,
+    "input_pairs": 241,
+    "original_input_minors": 3561,
+    "scalings": 120,
+    "grid_polynomials": 240,
+    "reduced_determinants": 100,
+    "root_product_cases": 60,
+    "processes": [
+      {
+        "label": "subresultants",
+        "pid": 1322690,
+        "command": "timeout 180 python3 -u workstreams/vol2/verify_subresultants.py",
+        "time_limit_seconds": 180,
+        "started_at_utc": "2026-11-03T23:51:43.656546+00:00",
+        "log": "results/subresultants.log",
+        "status": "passed",
+        "exit_code": 0,
+        "finished_at_utc": "2026-11-03T23:51:44.456778+00:00"
+      },
+      {
+        "label": "subresultants-addenda",
+        "command": "timeout 180 python3 -u workstreams/vol2/verify_subresultants.py --resume",
+        "time_limit_seconds": 180,
+        "started_at_utc": "2026-11-03T23:53:50.878785+00:00",
+        "log": "results/subresultants-addenda.log",
+        "reason": "New primitive-input valuation witness and reduced-resultant checks; four successful blocks reused.",
+        "pid": 1322854,
+        "status": "passed",
+        "exit_code": 0,
+        "finished_at_utc": "2026-11-03T23:53:50.973301+00:00"
+      },
+      {
+        "label": "subresultants-growth",
+        "command": "timeout 120 python3 -u workstreams/vol2/verify_subresultants.py --resume",
+        "time_limit_seconds": 120,
+        "started_at_utc": "2026-11-03T23:57:33.886014+00:00",
+        "log": "results/subresultants-growth.log",
+        "reason": "New concern: literal N^3 bound and bound on raw rather than normalized intermediates; previous six checkpoints reused.",
+        "pid": 1323140,
+        "status": "passed",
+        "exit_code": 0,
+        "finished_at_utc": "2026-11-03T23:57:33.967643+00:00"
+      }
+    ]
+  },
+  "errata": {
+    "layers": [
+      "all2-prepre",
+      "all2-pre",
+      "all2",
+      "err2",
+      "err2.textxt",
+      "err2-2e"
+    ],
+    "search_log": "sources/subresultants-errata-search.txt",
+    "visually_read_extra": "err2-2e PDF122, replacement for old printed620, dated1995-04-20; reproduces C0194, does not fix it.",
+    "known_relevant": [
+      "1998-06-23 p432 remove third b6^3",
+      "2022-11-21 p431 C rows d2^3, D row e1^2",
+      "2022-12-08 p432 C index n2-nj-1",
+      "2022-12-08 p673 corrected resultant exponents",
+      "2022-01-17 p675 grid points indexed s_jk"
+    ]
+  },
+  "external_sources": [
+    {
+      "url": "https://iiif.library.cmu.edu/file/Traub_box00027_fld00059_bdl0001_doc0001/Traub_box00027_fld00059_bdl0001_doc0001.pdf",
+      "file": "sources/brown-traub-1971.pdf",
+      "scope": "Original journal scan from author archive at CMU; PDF1/printed505 visually read, next-page introduction read textually; whole 10-page paper not independently reaudited."
+    },
+    {
+      "url": "https://link.springer.com/chapter/10.1007/978-3-7091-3406-1_12",
+      "scope": "Publisher chapter metadata and abstract read; explicitly describes resultant calculus for algebraic-number arithmetic; full 15-page chapter not obtained."
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1145%2F322217.322225",
+      "file": "sources/schwartz-1980-metadata.json",
+      "scope": "Publisher-deposited metadata: 27(4),701–717,1980; does not verify complexity theorem."
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1016%2F0020-0190%2878%2990067-4",
+      "file": "sources/demillo-lipton-1978-metadata.json",
+      "scope": "Publisher-deposited metadata: IPL7(4),193–195,June1978; full paper not read."
+    }
+  ],
+  "unavailable": [
+    {
+      "url": "https://pages.cs.wisc.edu/~cs787-1/Schwartz1980.pdf",
+      "response": "404"
+    },
+    {
+      "url": "https://citeseerx.ist.psu.edu/document?doi=b913cf330852035f49b4ec5fe2db86c47d8a98fd&repid=rep1&type=pdf",
+      "response": "404"
+    },
+    {
+      "url": "https://dl.acm.org/doi/pdf/10.1145/322217.322225",
+      "response": "403"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/0020019078900674",
+      "response": "403"
+    }
+  ],
+  "limitations": "Latest physical printing and priority unverified; two interpretation candidates retained. Schwartz complexity and remaining historical citations not closed; no reports sent.",
+  "artifacts": [
+    {
+      "path": "notes/subresultants.md",
+      "bytes": 19887,
+      "sha256": "1267be47cb29b7b42b0025a85b3335ffc03bd73b789fbbd7a83ace4a3363d84c"
+    },
+    {
+      "path": "verify_subresultants.py",
+      "bytes": 13091,
+      "sha256": "66afefb68203ba23427fe947e1b2c006c6a5828950885d7e96ff34bc7b7efc3f"
+    },
+    {
+      "path": "results/subresultants.json",
+      "bytes": 6462,
+      "sha256": "1d585f9ce4bd0e5839edf1db92025049680e898dbd9a1ac9f8a65fd844b2889a"
+    },
+    {
+      "path": "results/subresultants.log",
+      "bytes": 139,
+      "sha256": "38456ebcf4b37ab947a0e340229f85cf81e46494e9715252d9e8e63e857e107e"
+    },
+    {
+      "path": "results/subresultants-addenda.log",
+      "bytes": 153,
+      "sha256": "c7a0980a7aee8f7aec55b3867c1ede5c743fc69f5ca59f045a6e4cf5c7f0b20b"
+    },
+    {
+      "path": "results/subresultants-growth.log",
+      "bytes": 145,
+      "sha256": "7cae09a603b38bd017d94943b57cdae0bfb4e2bcfa89d5c085eb510275c4bdb6"
+    },
+    {
+      "path": "sources/subresultants-errata-search.txt",
+      "bytes": 8299,
+      "sha256": "6e530b7666224d626dab25fd27b66f9075047360df728d4b810e526b40b738c9"
+    },
+    {
+      "path": "sources/subresultants-downloads.json",
+      "bytes": 430,
+      "sha256": "2cea4f8f7b98e53b3b54b4e59ab195cc215c35b0bb4b8c6b72cef902fb5f6d43"
+    },
+    {
+      "path": "sources/subresultants-findings.json",
+      "bytes": 3381,
+      "sha256": "9c1162502c6a7b3dc285b195764ab1e777671e00e2789a604a6f84a10f166a5c"
+    },
+    {
+      "path": "sources/brown-traub-1971.pdf",
+      "bytes": 1012856,
+      "sha256": "43e3bf3ed1757645729d0e37d2567d04e0d987e6706b6ed31e23f61cce0fcdfd"
+    },
+    {
+      "path": "sources/brown-traub-1971.txt",
+      "bytes": 26385,
+      "sha256": "bc7842a92b6dfdb1fed08eebd64505e3be6156b966d81bdf2b95a8b3ede37453"
+    },
+    {
+      "path": "sources/schwartz-1980-metadata.json",
+      "bytes": 9059,
+      "sha256": "fb38b6313cf77735ce462942cc48e1156154ed55e423927aa5c381782cf748e8"
+    },
+    {
+      "path": "sources/demillo-lipton-1978-metadata.json",
+      "bytes": 5606,
+      "sha256": "ff5c4551df655866a9e4066d165b1e246190b1fc6d51193628816c2ab3763960"
+    },
+    {
+      "path": "images/brown-traub-1971-01.png",
+      "bytes": 448839,
+      "sha256": "fac0bc226a18a44cf10822dffb0878a39f4c127186f607246f91e2b8ff756809"
+    },
+    {
+      "path": "images/err2-2e-p122.png",
+      "bytes": 198890,
+      "sha256": "3f3e673294c7a13493ad6736c8cae91bc457bb30b65af4a9a430a0f988346bd6"
+    },
+    {
+      "path": "images/vol2-p428.png",
+      "bytes": 638416,
+      "sha256": "010c366c92f3b35c164dec67702d8b6d96e1a341f97e302030fe6c0da3a17ee5"
+    },
+    {
+      "path": "images/vol2-p429.png",
+      "bytes": 575501,
+      "sha256": "97ecab9c8a9fa14eb2ae9db7a6984123a8932973e1b5a18b85b58229bf2ea79a"
+    },
+    {
+      "path": "images/vol2-p430.png",
+      "bytes": 438514,
+      "sha256": "4dadd3959ca1a1262eb79df2203279eca6fae5effff3cef1f5ee3343eb06a7ef"
+    },
+    {
+      "path": "images/vol2-p431.png",
+      "bytes": 403945,
+      "sha256": "deac48e92659f1384d307e6a903a9474f06c2f11b45327f769b2cea838d34d83"
+    },
+    {
+      "path": "images/vol2-p432.png",
+      "bytes": 529508,
+      "sha256": "a5bc0f44b97008600af3d5f33093d32f5a6f8dc819c6180b6d0198730bc25f2f"
+    },
+    {
+      "path": "images/vol2-p433.png",
+      "bytes": 613282,
+      "sha256": "768bde7eab3ebe277e6aae9566708233befd510387ccfae8933d1781bd37edf4"
+    },
+    {
+      "path": "images/vol2-p436.png",
+      "bytes": 742587,
+      "sha256": "f8055ffac81d355f0c0bd242e6a67e43767874efea6f3e7b99a264892c91bb7a"
+    },
+    {
+      "path": "images/vol2-p438.png",
+      "bytes": 663784,
+      "sha256": "6d6438df99f6dd031082feda4716af8c5c46c5fc35dae9e87667ac301745dda4"
+    },
+    {
+      "path": "images/vol2-p673.png",
+      "bytes": 743132,
+      "sha256": "db5e2c89ff75577fa9ce60095e6a4cb061839436d7cb4b5d7a9737a1011921d9"
+    },
+    {
+      "path": "images/vol2-p674.png",
+      "bytes": 726394,
+      "sha256": "cf77d1c1b2f15e82ed7b8823005e4ed6101abfa9dd6fd18838feea3070fcacb4"
+    },
+    {
+      "path": "images/vol2-p675.png",
+      "bytes": 617910,
+      "sha256": "171a39b65628da661c9584df2ef79ecb3be30dd9ba3b37c414dfd16b876227b6"
+    },
+    {
+      "path": "notes/C0193-subresultant-scaling-indices.md",
+      "bytes": 834,
+      "sha256": "dfc33b01319dddd1d6cac004688114193cc77614b3a749f352202396e7ebe8c8"
+    },
+    {
+      "path": "reports/C0193-subresultant-scaling-indices-draft.txt",
+      "bytes": 667,
+      "sha256": "dcde83cddc687f25473d00e3c6923a6c34ca00232e97647c133fcb0f4e5abbae"
+    },
+    {
+      "path": "notes/C0194-grid-probability-denominator.md",
+      "bytes": 868,
+      "sha256": "2f574e4a620e63474fcbc5b33d578bc6f1bf00fd24b52da93764f241b0d99e15"
+    },
+    {
+      "path": "reports/C0194-grid-probability-denominator-draft.txt",
+      "bytes": 660,
+      "sha256": "9cb3a8effa7a19bbdc00f6566e954f0c5307b22a79614764d4217d8267a1b7d7"
+    },
+    {
+      "path": "notes/C0195-grid-coefficient-choice.md",
+      "bytes": 932,
+      "sha256": "6c92bd68d9d4e3aec3a7697bddaf1c3b1aa16bd394174a122c7a8a84ad171ca7"
+    },
+    {
+      "path": "notes/C0196-pseudoremainder-valuation-case.md",
+      "bytes": 830,
+      "sha256": "53dd71a0308af3678584675eef3c607af864af8a69f19586cc81b198a88aca9d"
+    },
+    {
+      "path": "reports/C0196-pseudoremainder-valuation-case-draft.txt",
+      "bytes": 754,
+      "sha256": "49da2ae7922c9e6035190a72c8ff748be2d0bdbc9cefa7848c3c83d8192d3422"
+    },
+    {
+      "path": "notes/C0197-pseudoremainder-growth-constant.md",
+      "bytes": 883,
+      "sha256": "8aede27c5aa32fe769f38d3cdc566c7e821bd5530ee6e483a7c8c0a3cb5d88f8"
+    },
+    {
+      "path": "reports/C0197-pseudoremainder-growth-constant-draft.txt",
+      "bytes": 829,
+      "sha256": "bd60e8f1d0d62716fbf0c9eb0eff4ce5ce383ef879858de1a3857454711de408"
+    },
+    {
+      "path": "notes/C0198-subresultant-raw-growth.md",
+      "bytes": 882,
+      "sha256": "8ff4ababbc68e7f2570619821b37e759d8d6995c224c6c4e4daedb121bad178e"
+    }
+  ]
+}

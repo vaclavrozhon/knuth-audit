@@ -1,0 +1,188 @@
+{
+  "review_date": "2026-11-10",
+  "ranges": {
+    "second_edition": [
+      [
+        248,
+        267
+      ],
+      [
+        676,
+        680
+      ]
+    ],
+    "first_edition_context": [
+      [
+        253,
+        272
+      ],
+      [
+        644,
+        648
+      ]
+    ]
+  },
+  "layers": {
+    "all3-prepre": [
+      {
+        "page": 250,
+        "text": "xPage 250    line 22                                                 21 Nov 2003\n  15,000000 y 15000000"
+      },
+      {
+        "page": 257,
+        "text": "xPage 257 in Fig. 66                                                 04 Feb 2009\n  [delete the label T =leaf ℄"
+      },
+      {
+        "page": 257,
+        "text": "Page 257 line      16                                               04 Feb 2009\n  re ord pointed to by LOSER; y re ord stored in this external node;"
+      },
+      {
+        "page": 257,
+        "text": "Page 257 bottom two lines                                           04 Feb 2009\n  Q LOC(X [0℄), and RQ 0. y and Q LOC(X [0℄).\n\f  14      CHANGES TO VOLUME 3: SORTING AND SEARCHING"
+      },
+      {
+        "page": 258,
+        "text": "Page 258    repla ement for steps R2{R6                             04 Feb 2009\n  R2. [End of run?℄ If RN(Q) = RC, go on to step R3. (Otherwise RN(Q) = RC + 1\n      and we have just ompleted run number RC; any spe ial a tions required by\n      a merging pattern for subsequent passes of the sort would be done at this\n      point.) If RC = RMAX, stop; otherwise set RC RC + 1.\n  R3. [Output top of tree.℄ (Now Q points to the \\ hampion,\" and RN(Q) = RC.)\n      If RC 6= 0, output RECORD(Q) and set LASTKEY KEY(Q).\n  R4. [Input new re ord.℄ If the input    le is exhausted, set RN(Q) RMAX + 1\n      and go on to step R5. Otherwise set RECORD(Q) to the next re ord from the\n      input le. If KEY(Q) < LASTKEY (so that this new re ord does not belong to\n      the urrent run), set RMAX RN(Q) RC + 1.\n  R5. [Prepare to update.℄ (Now Q points to a new re ord.) Set T         PE(Q).\n      (Variable T is a pointer that will move up the tree.)\n  R6. [Set new loser.℄ Set L    LOSER(T). If RN(L) < RN(Q) or if RN(L) = RN(Q)\n      and KEY(L) < KEY(Q), then set LOSER(T) Q and Q L. (Variable Q\n      keeps tra k of the urrent winner.)"
+      },
+      {
+        "page": 262,
+        "text": "xPage 262 line 13                                                    10 Jan 2003\n  685{687 y 685{688"
+      },
+      {
+        "page": 263,
+        "text": "Page 263 the rating of exer ise 11                                  04 Feb 2009\n  [\n  M25   ℄y[  M20   ℄"
+      },
+      {
+        "page": 263,
+        "text": "Page 263    line 2 of exer ise 12                                      04 Feb 2009\n  how often are inter hanges made in step R6? y\n  how often does step R6 set LOSER Q?"
+      },
+      {
+        "page": 264,
+        "text": "Page 264 line 2 of exer ise 23                                         11 May 1999\n  the same order that y the same order as"
+      },
+      {
+        "page": 676,
+        "text": "Page 676       lines 1 and 2 of answer 66                                           14 Feb 2005\n  no pair sequen e : : : 10 omparisons. y\n  every pair sequen e beginning with (1; 2)(2; 3)(3; 4)(4; 5)(1; 5) will avoid at least one\n  subsequent omparison."
+      },
+      {
+        "page": 676,
+        "text": "Page 676       repla ement for answer 67                                            14 Feb 2005\n    67.   Suppose i = j for exa tly tj values of i. For the restri ted ase we need to prove\n  that Pj tj =(2 + j ) is minimized when (t ; t ; : : : ; tN ) = (N 1; : : : ; 2; 1). Gil Kalai\n                                               0    1               2\n  has shown that the a hievable ve tors (t ; t ; : : : ; tN ) are always lexi ographi ally\n                                                0       1           2\n  \u0015 (N 1; : : : ; 2; 1); see Graphs and Combinatori s (1985), 65{79.\n                                                                1"
+      },
+      {
+        "page": 677,
+        "text": "Page 677       answer 8                                                             04 Feb 2009\n  line 3: RQ y RC\n  line 4: RQ y RC\n  line 5: step R3. y step R3. (Further optimization is possible be ause of answer 10.)"
+      },
+      {
+        "page": 677,
+        "text": "Page 677       line 3 of answer 9                                                   04 Feb 2009\n  RN(T) = RQ y RN(L) = RN(Q)"
+      },
+      {
+        "page": 677,
+        "text": "Page 677       line 3 of answer 9                                                   03 Feb 2010\n  KEY(LOSER(T)) versus KEY(Q) y KEY(L) versus KEY(Q)"
+      },
+      {
+        "page": 677,
+        "text": "Page 677       repla ement for answer 10                                            04 Feb 2009\n    10.   Let \u0001j \u0011 LOC(X [ j ℄), and suppose we add the unne essary assignment `LOSER(\u00010)\n  Q' at the beginning of step R3. The me hanism of Algorithm R ensures that the follow-\n  ing onditions are true just after we've done that assignment: The values of LOSER(\u00010),\n  : : : , LOSER(\u0001(P 1)) are a permutation of f\u00010; \u00011; : : : ; \u0001(P 1)g; and there exists a\n  permutation of the pointers f LOSER(\u0001j ) j RN(LOSER(\u0001j )) = 0g that orresponds to an\n\f    36           CHANGES TO VOLUME 3: SORTING AND SEARCHING\n\n    a tual tournament. In other words, when RN(\u0001j ) is zero, the value of KEY(\u0001j ) is irrele-\n    vant; we may permute su h \\winners\" among themselves. After P iterations all RN(\u0001j )\n    will be nonzero, so the entire tree will be onsistent. (The answer to the hint is \\yes.\")\n         David P. Kanter observes that we an go dire tly from R6 to R4 as soon as RN(Q) =\n    0, thereby avoiding all omparisons that involve uninitialized keys when N \u0015 P ."
+      },
+      {
+        "page": 678,
+        "text": "Page 678 answer 15                                                                                                 05 Feb 2009\n  but only : : : exhausted. y whenever all re ords in memory belong to the same run\n  at the moment the input is exhausted (for example, in a one-pass sort)."
+      }
+    ],
+    "all3-pre": [
+      {
+        "page": 253,
+        "text": "Page 253 new senten e at end of the       aption for Fig. 62               20 Jan 2013\n  There are P = 12 external nodes.\n                                                                           20 Apr 2019\n  onsists of repla ing : : : , and hanging y repla es : : : , and hanges"
+      },
+      {
+        "page": 253,
+        "text": "Page 253 lines 1 and 2 after the      aption for Fig. 62\n\n\n\n\n                 2                                                         20 Jan 2013\n  XyK"
+      },
+      {
+        "page": 261,
+        "text": "Page 261 line      and page 262 line 1\n\n                [6 times℄"
+      },
+      {
+        "page": 264,
+        "text": "xPage 264 line 2 of exer ise 17                                            20 Jan 2013\n  K \u0015 K \u0015 \u0001 \u0001 \u0001 \u0015 KN y K > K > \u0001 \u0001 \u0001 > K N\n    1     2                       1       2"
+      },
+      {
+        "page": 677,
+        "text": "Page 677 line 2 of answer 11                                              20 Jan 2013\n  sequen e. y sequen e; hen e the probability is 1/2, given that LASTKEY 6= 1."
+      }
+    ],
+    "all3": [
+      {
+        "page": 680,
+        "text": "Page 680        bottom illustration (was damaged in some re ent printings)              27 Nov 2024\n     1.     1\n            6      2\n           10      7    3\n           13     11    8\n           18     14   12     4\n           20     19   15     9\n           24     21   22    16\n           29     25   26    23\n                  30   31    27    5\n                             32   17\n                                  28\n                                  33\n\n\n\n\nx"
+      }
+    ],
+    "err3": [
+      {
+        "page": 680,
+        "text": "Page 680          bottom illustration (was damaged in some re ent printings)            27 Nov 2024\n        1.    1\n              6     2\n             10     7    3\n             13    11    8\n             18    14   12    4\n             20    19   15    9\n             24    21   22   16\n             29    25   26   23\n                   30   31   27    5\n                             32   17\n                                  28\n                                  33\n\n\n\n\nx"
+      }
+    ],
+    "err3-1e": [
+      {
+        "page": 259,
+        "text": "Page 259 lines 4{7                                                              21 Sep 1976\n has not yet : : : m = 8. This increase y\n is di\u000ecult to analyze precisely, but T. O. Espelid has shown how to extend the\n snowplow analogy to obtain an approximate formula for the behavior [BIT 16\n\f                           CHANGES TO VOLUME 3: SORTING AND SEARCHING                                      33\n  (1976), 133{142]. According to his formula, which agrees well with empirical\n  tests, the run length will be about\n                                            \u0012                              \u0013\n                                                2 P\n                          2P + (m 1:5) 2P + (2m 3)b b;+   ( m       2)  b\n\n  when b is the block size and m \u0015 2. Such an increase"
+      },
+      {
+        "page": 259,
+        "text": "Page 259 line 19                                                                                  17 Jan 1997\n  next string y next run"
+      },
+      {
+        "page": 260,
+        "text": "Page 260 new paragraph to be inserted just before Table 2                                         28 Feb 1978\n       The ideas of delayed run-reconstitution and natural selection can be com-\n  bined, as discussed by T. C. Ting and Y. W. Wang in Comp. J. 20 (1977),\n  298{301."
+      },
+      {
+        "page": 260,
+        "text": "xPage 260 line 7                                                                                  21 Nov 1997\n  4:69445P y 4:69446P"
+      },
+      {
+        "page": 262,
+        "text": "xPage 262 line 7p                                                                                 27 May 1978\n  (4e 10)P y (4e 10)P"
+      },
+      {
+        "page": 264,
+        "text": "xPage 264 line 7                                                                                  27 May 1978\n  beings y begins"
+      },
+      {
+        "page": 265,
+        "text": "Page 265 line 10                                                                                 14 May 1976\n  [Hint: See : : : Theorem 4.5.3L.] y"
+      },
+      {
+        "page": 266,
+        "text": "xPage 266 line 6                                                                                    01 Jul 1975\n  other P . y other P .]"
+      },
+      {
+        "page": 267,
+        "text": "Page 267 and following . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23 May 1995\n  The material on tape sorting in Sections 5.4.2{5.4.8 will be substantially short-\n  ened in order to make room for other material that is now of much greater\n  relevance."
+      },
+      {
+        "page": 645,
+        "text": "Page 645 new paragraph after answer 10                                                 28 Feb 1978\n         Purists might complain that the algorithm compares KEY values that haven't been\n  initialized. If such behavior is too shocking, it can be avoided by setting all KEYs to 0,\n  say, in step R1."
+      },
+      {
+        "page": 647,
+        "text": "Page 647 new paragraph to insert before answer 27                                     24 May 1995\n         The formula in (b) is due to P. Appell, Archiv der Math. und Physik 65 (1880),\n  171{175. We have, incidentally, [[ kr ]] = (r + k)! [xk zr ] exf (z), where f (z) = z=2+ z2=3+\n  \u0001 \u0001 \u0001 = z 1 ln(1 z) 1; hence cr = [zr ] (r + 1 + f (z)) ef (z)."
+      },
+      {
+        "page": 648,
+        "text": "Page 648 replacement for lines 1{3 of answer 7                                        04 Nov 1996\n     7. Let p =P2x and1 zkp=\u0001 k 1=2p+1 . Then xpp+1 = x2pp+1z, so we2 have          the convergent\n  series p = 2 k\u00150 k z =(1 kp) = 2 2 p 2                            + O(p 2 3p ) by Eq. 1.2.6{21."
+      }
+    ]
+  },
+  "public_screen": {
+    "date": "2026-11-10",
+    "queries": [
+      "Knuth \"natural selection\" \"random order\" reservoir",
+      "Knuth \"5.4.1\" \"23\" error",
+      "\"natural selection\" \"reservoir\" \"ln\" sorting",
+      "Knuth \"5.4.1-22\" errata",
+      "Knuth \"679\" \"reservoir\" correction"
+    ],
+    "result": "No matching correction found in these limited searches; no absolute priority claim."
+  }
+}

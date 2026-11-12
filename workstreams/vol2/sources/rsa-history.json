@@ -1,0 +1,141 @@
+{
+  "accessed_at_utc": "2026-11-03T23:07:11.978702+00:00",
+  "scope": "TAOCP2 405 X.509 citation and 407 Cocks historical addendum; no new arithmetic run",
+  "downloads_manifest": "sources/rsa-history-downloads.json",
+  "primary_reading": [
+    {
+      "source": "ITU Blue Book VIII.8, Geneva1989",
+      "file": "sources/itu-bluebook-viii8-1989.pdf",
+      "visual_pdf_pages": [
+        2,
+        84,
+        85,
+        86
+      ],
+      "printed_pages": "title and74–76 AnnexC; AnnexD not audited"
+    },
+    {
+      "source": "ITU official X.509(1988) reedition",
+      "file": "sources/itu-x509-1988-reedition.pdf",
+      "visual_pdf_pages": [
+        2,
+        25,
+        26,
+        27
+      ],
+      "printed_pages": "notes and23–25 AnnexC"
+    },
+    {
+      "source": "Cocks20November1973",
+      "file": "sources/cocks-1973-transcription.pdf",
+      "visual_pdf_pages": [
+        1
+      ],
+      "limitation": "Reformatted transcription, not facsimile"
+    },
+    {
+      "source": "CESG official historical announcement, archive copy4February1998",
+      "file": "sources/cesg-history-release.html.gz",
+      "reading": "WholeHTMLtext; December1997 public confirmation distinguished from later technical-paper availability",
+      "limitation": "Mirror, not current official host; HTMLreadable copy normalized"
+    }
+  ],
+  "conclusions": [
+    "X.509 full citation confirmed",
+    "Cocks exponent N=PQ and1973 date confirmed by report transcription",
+    "December1997 disclosure supported by preserved CESGannouncement",
+    "No new finding; 1999 and2010 changes known errata"
+  ],
+  "artifacts": [
+    {
+      "file": "notes/rsa-history.md",
+      "bytes": 4982,
+      "sha256": "46b5be6c1533aab64d0f4867da78e04c84690520dfde0656794904db97af4747"
+    },
+    {
+      "file": "sources/rsa-history-downloads.json",
+      "bytes": 1904,
+      "sha256": "5bcaf8c7d7085122a437b408992978c824b8792b2e964526c9a9f536650be1d6"
+    },
+    {
+      "file": "sources/cesg-history-release.html",
+      "bytes": 2519,
+      "sha256": "1aef30f7cd3b3aa07b57e7f4b4d077cd59236db9c8a20ed59fcfcb8a3014bd5b"
+    },
+    {
+      "file": "sources/cesg-history-release.html.gz",
+      "bytes": 1167,
+      "sha256": "69131e7d55f5edc3d23be0db63a542b38525b0f6fc964bda2b16647e86ac0195"
+    },
+    {
+      "file": "sources/cocks-1973-transcription.pdf",
+      "bytes": 11992,
+      "sha256": "ad25ca41dca1af23aa96bf0af51928603d3f4fe7f1fef10d3a4b3c57fac0b0d7"
+    },
+    {
+      "file": "sources/cocks-1973-transcription.txt",
+      "bytes": 2576,
+      "sha256": "c2918b980133979cb12f4642eb25580948c9ec4c8ffc81bfedcfd571db050249"
+    },
+    {
+      "file": "sources/itu-x509-1988-reedition.pdf",
+      "bytes": 579560,
+      "sha256": "13e7ced4bbbf46c6e65fab527c329fd12b38f408f9fe1ca3cd86a6187b47c0c9"
+    },
+    {
+      "file": "sources/itu-x509-1988-reedition.txt",
+      "bytes": 91042,
+      "sha256": "ef8725930a51590ed80981b0b3fa55c5451a90738ee13ee811c2b1f9fc7c0d32"
+    },
+    {
+      "file": "sources/itu-bluebook-viii8-1989.pdf",
+      "bytes": 6872569,
+      "sha256": "22cf58ff6281fdebebf45dba7c939c458eba91aa15a23fbd8f8b1fc06eeaea75"
+    },
+    {
+      "file": "sources/itu-bluebook-viii8-1989.txt",
+      "bytes": 642292,
+      "sha256": "013c72a7b35b0161e1f704e60e848616b4d738b71557ddfdb35cd682b91030c6"
+    },
+    {
+      "file": "images/cocks-1973-transcription.png",
+      "bytes": 275288,
+      "sha256": "ec28aecf5dabf7ff43bb50a47273f9e334930088858d05dbcb3514fa7519eec4"
+    },
+    {
+      "file": "images/itu-bluebook-title.png",
+      "bytes": 82334,
+      "sha256": "bc85149649969a94d979214acacf4f3247378038574a7bf815ef4dc96d6acf2f"
+    },
+    {
+      "file": "images/itu-bluebook-annexc-084.png",
+      "bytes": 160761,
+      "sha256": "5a28965f1f60ebdcf124148eb4750df8263c1555481636a972e876eff7f8af22"
+    },
+    {
+      "file": "images/itu-bluebook-annexc-085.png",
+      "bytes": 208027,
+      "sha256": "9f84e9d3e3958b62330390801631d082ded01dcaa2b29e60c6d14775c7315963"
+    },
+    {
+      "file": "images/itu-bluebook-annexc-086.png",
+      "bytes": 182803,
+      "sha256": "46395eb958aeaeb44621c3f42138152cfcf0f65a08ccf10baf5edf3103c1d5ef"
+    },
+    {
+      "file": "images/itu-x509-1988-annexc-25.png",
+      "bytes": 261368,
+      "sha256": "dac60396a873e79c3529865656913a9ebf9f128315adbf78b19affe370f25adf"
+    },
+    {
+      "file": "images/itu-x509-1988-annexc-26.png",
+      "bytes": 246983,
+      "sha256": "8957e173bd37f7a3b96aac575730feedd35339919dd9066db6d2fa9eb1afa9ba"
+    },
+    {
+      "file": "images/itu-x509-1988-annexc-27.png",
+      "bytes": 289531,
+      "sha256": "2026880a9c1995a0653fb2cfc168832381fd386b432fcd78dc829fdd04517c75"
+    }
+  ]
+}

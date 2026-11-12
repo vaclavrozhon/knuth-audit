@@ -1,0 +1,62 @@
+{
+  "checked_at_utc": "2026-11-12T01:40:13.959615+00:00",
+  "errata_ranges": {
+    "4B": [
+      [
+        245,
+        256
+      ],
+      [
+        338,
+        341
+      ],
+      [
+        596,
+        601
+      ]
+    ],
+    "4F6": [
+      [
+        61,
+        72
+      ],
+      [
+        154,
+        157
+      ],
+      [
+        232,
+        237
+      ]
+    ]
+  },
+  "new_findings": [
+    "F215",
+    "F216",
+    "F217",
+    "F218",
+    "F219",
+    "F220",
+    "F221",
+    "F222",
+    "F223"
+  ],
+  "official_program": "https://www-cs-faculty.stanford.edu/~knuth/programs/sat13.w",
+  "program_provenance": "audit-2026-10-31/sources/bookwise-sat13.w.provenance.json",
+  "program_scope": "Relevant unit-input, watches, activity heap, binary closure, and on-the-fly subsumption source inspected; not compiled or run. BaseSAT13 does not contain the reflection extension.",
+  "known_errata": [
+    "2025 page247 d>0 qualification.",
+    "2026-03-17 C9 reason subscript correction.",
+    "2026-03-26 answer263 conflict initialization replacement and rating264.",
+    "F6 updates toTable3, reason notation, C9 literal, answer257, answer263, BIMP queueRH→LH, answer271 are incorporated or recorded separately."
+  ],
+  "draft": "fasc6a2015 pages233–236/files241–244 have the nine issues; draftBIMP also has the separately known RH→LH typo.",
+  "public_searches": [
+    "Knuth \"answer 260\" \"trail\"",
+    "Knuth \"answer 262\" activity",
+    "Knuth \"answer 267\" correction",
+    "Knuth \"answer 272\" reflection"
+  ],
+  "search_result": "No matching correction found; unrelated hits not used as evidence.",
+  "checks": "Nine fixed local witnesses, no general SAT census or full independent implementation."
+}

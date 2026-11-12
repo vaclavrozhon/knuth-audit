@@ -1,0 +1,68 @@
+{
+  "checked_at_utc": "2026-11-06T20:13:02.896620+00:00",
+  "scope": "Three exact atoms; no census or numerical exponential approximation.",
+  "atoms": [
+    {
+      "probability": "1/2",
+      "Y0": 0,
+      "Y1": 1,
+      "Y2": 0,
+      "a1": "-1",
+      "b1": "1",
+      "a2": "-1/4",
+      "b2": "1/4",
+      "sum_width_squares": "17/4"
+    },
+    {
+      "probability": "3/10",
+      "Y0": 0,
+      "Y1": -1,
+      "Y2": 2,
+      "a1": "-1",
+      "b1": "1",
+      "a2": "-3",
+      "b2": "2",
+      "sum_width_squares": "29"
+    },
+    {
+      "probability": "1/5",
+      "Y0": 0,
+      "Y1": -1,
+      "Y2": -3,
+      "a1": "-1",
+      "b1": "1",
+      "a2": "-3",
+      "b2": "2",
+      "sum_width_squares": "29"
+    }
+  ],
+  "EY1": "0",
+  "EY2_given_Y1": {
+    "1": "0",
+    "-1": "0"
+  },
+  "tail_threshold": "1",
+  "tail_probability": "4/5",
+  "pointwise_first_branch_exponential": "exp(-8/17)",
+  "averaged_exponential": "(exp(-8/17)+exp(-2/29))/2",
+  "strict_rational_upper_bound": "11106/14167",
+  "upper_bound_less_than_tail": true,
+  "reason": "exp(u)>1+u+u²/2 at u=8/17 and exp(u)>1+u at u=2/29.",
+  "F161": {
+    "n": 1,
+    "c1": "1",
+    "c": "1/2",
+    "t": "1",
+    "Y1_values": [
+      "-1/2",
+      "1/2"
+    ],
+    "probabilities": [
+      "1/2",
+      "1/2"
+    ],
+    "printed_product_expectation": "exp(1/4)",
+    "printed_claimed_constant": "exp(1/8)",
+    "correct_factor_denominator": 8
+  }
+}

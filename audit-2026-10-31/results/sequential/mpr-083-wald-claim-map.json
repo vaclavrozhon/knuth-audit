@@ -1,0 +1,109 @@
+{
+  "description": "Complete MPR83 and both proof routes, every printed step, all infinite and degenerate cases.",
+  "ledger_ids": [
+    "D184",
+    "F168",
+    "E127"
+  ],
+  "claims": [
+    {
+      "id": "MPR083.01",
+      "file_pages": [
+        40,
+        402
+      ],
+      "claim": "Complete pathwise stopping-indicator identity for every finite or infinite N",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex083.md"
+    },
+    {
+      "id": "MPR083.02",
+      "file_pages": [
+        40,
+        402
+      ],
+      "claim": "Independence from the entire past and every factorization",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex083.md"
+    },
+    {
+      "id": "MPR083.03",
+      "file_pages": [
+        40,
+        402
+      ],
+      "claim": "Every nonnegative sum/interchange and exact infinite-equality scope",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex083.md"
+    },
+    {
+      "id": "MPR083.04",
+      "file_pages": [
+        40,
+        402
+      ],
+      "claim": "Constant means, zero means and all degenerate cases",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex083.md"
+    },
+    {
+      "id": "MPR083.05",
+      "file_pages": [
+        402
+      ],
+      "claim": "Two-outcome counterexample to the printed summand and full corrected martingale",
+      "status": "confirmed",
+      "proof": "audit-2026-10-31/notes/F168-wald-martingale-summand.md"
+    },
+    {
+      "id": "MPR083.06",
+      "file_pages": [
+        40,
+        402
+      ],
+      "claim": "Known historical correction and exact truncated horizon min(N,m−1)",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex083.md"
+    },
+    {
+      "id": "MPR083.07",
+      "file_pages": [
+        40,
+        402
+      ],
+      "claim": "Complete optional-stopping route with separate monotone limits",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex083.md"
+    },
+    {
+      "id": "MPR083.08",
+      "file_pages": [
+        40,
+        402
+      ],
+      "claim": "Precisely verified primary metadata and explicit remaining bibliography exception",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex083.md"
+    }
+  ],
+  "bibliography_skips": [
+    {
+      "exercise": "MPR:83",
+      "file_pages": [
+        402
+      ],
+      "reference": "Wald1944/1945: original hypotheses, the historical comparison somewhat different/proved more, and unconfirmed1944 metadata",
+      "reason": "The primary archive identified both titles and the1945 issue pages, but full article contents were not immediately accessible. No historical theorem is used by the independent proof.",
+      "mathematical_dependency": false
+    }
+  ],
+  "new_findings": [
+    "F168"
+  ],
+  "known_corrections": [
+    "E127"
+  ],
+  "new_calculations": 0,
+  "old_runs_repeated": 0,
+  "updated_at_utc": "2026-11-07T01:08:35.874919+00:00"
+}

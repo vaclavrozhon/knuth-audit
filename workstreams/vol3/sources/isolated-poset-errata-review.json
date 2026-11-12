@@ -1,0 +1,47 @@
+{
+  "checked_at_utc": "2026-11-06T17:24:51.179708+00:00",
+  "finding": "V3-C0017",
+  "scope": "Second-edition answer5.1.2-11 on pp.598–599, exercise on p.31; historical first-edition answers near pp.582–583.",
+  "layers": [
+    {
+      "path": "errata/text/all3-prepre.txt",
+      "assessment": "The2006 answer11 entry preserves order among identical cycles; it does not add letters for isolated vertices."
+    },
+    {
+      "path": "errata/text/all3-pre.txt",
+      "assessment": "No relevant isolated-vertex or empty-cycle correction found."
+    },
+    {
+      "path": "errata/text/all3.txt",
+      "assessment": "No relevant isolated-vertex or empty-cycle correction found."
+    },
+    {
+      "path": "errata/text/err3.txt",
+      "assessment": "No relevant isolated-vertex or empty-cycle correction found."
+    },
+    {
+      "path": "errata/text/err3-1e.txt",
+      "assessment": "No relevant isolated-vertex or empty-cycle correction found."
+    }
+  ],
+  "queries": [
+    "isolat",
+    "partial order",
+    "arbitrary partial",
+    "ordered pairs",
+    "topologi",
+    "Page31/598/599 and historical581/582/583"
+  ],
+  "known_related_entries": [
+    {
+      "page": 31,
+      "text": "xPage 31             line 5                                                                         20 Jul 2001\n    notion of y notion of \\topologi al sorting\""
+    },
+    {
+      "page": 598,
+      "text": "xPage 598       line 2 of answer 11                                                  01 Jan 2006\n  if and only if : : : and that y if and only if we have \u001bp \u0001 \u0001 \u0001 \u001bp t = \u001b \u0001 \u0001 \u0001 \u001bt and\n                                                              (1)         ( )     1\n  p(i) < p(j ) whenever \u001bp i = \u001bp j for i < j . We also want to show that,\n                                ( )   ( )"
+    }
+  ],
+  "typesetting": "workstreams/vol3/images/multisets-file-610.png",
+  "conclusion": "Candidate only: an implicit empty-cycle convention has not been excluded; the existential result is proved with private letters."
+}

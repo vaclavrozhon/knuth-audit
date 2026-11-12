@@ -1,0 +1,190 @@
+{
+  "status": "resolved_checker_omission",
+  "resolution": "The checker omitted propagation of newly forced singleton domains. After adding the printed rule, every table matches. This was not a book error.",
+  "initial_differences": {
+    "(0, 0)": {
+      "actual": [
+        "AR",
+        "LA",
+        "MO",
+        "NE",
+        "TN"
+      ],
+      "printed": [
+        "LA"
+      ]
+    },
+    "(0, 1)": {
+      "actual": [
+        "KS",
+        "MO",
+        "TX"
+      ],
+      "printed": [
+        "TX"
+      ]
+    },
+    "(0, 2)": {
+      "actual": [
+        "KS",
+        "NE",
+        "NM"
+      ],
+      "printed": [
+        "NM"
+      ]
+    },
+    "(0, 3)": {
+      "actual": [
+        "AZ",
+        "MO",
+        "NE",
+        "SD",
+        "WY"
+      ],
+      "printed": [
+        "AZ"
+      ]
+    },
+    "(0, 4)": {
+      "actual": [
+        "CA",
+        "IA",
+        "ID",
+        "IL",
+        "KS",
+        "MN",
+        "MO",
+        "MT",
+        "ND",
+        "NE",
+        "NV",
+        "SD",
+        "UT",
+        "WY"
+      ],
+      "printed": [
+        "CA",
+        "NV"
+      ]
+    },
+    "(1, 0)": {
+      "actual": [
+        "AR",
+        "KS",
+        "MO"
+      ],
+      "printed": [
+        "AR"
+      ]
+    },
+    "(1, 3)": {
+      "actual": [
+        "NE",
+        "UT",
+        "WY"
+      ],
+      "printed": [
+        "UT"
+      ]
+    },
+    "(1, 4)": {
+      "actual": [
+        "IA",
+        "ID",
+        "MO",
+        "MT",
+        "NE",
+        "NV",
+        "SD",
+        "UT",
+        "WY"
+      ],
+      "printed": [
+        "ID",
+        "NV"
+      ]
+    },
+    "(2, 0)": {
+      "actual": [
+        "NE",
+        "TN"
+      ],
+      "printed": [
+        "TN"
+      ]
+    },
+    "(2, 3)": {
+      "actual": [
+        "SD",
+        "WY"
+      ],
+      "printed": [
+        "WY"
+      ]
+    },
+    "(2, 4)": {
+      "actual": [
+        "IA",
+        "ID",
+        "MN",
+        "MT",
+        "ND",
+        "NE",
+        "SD",
+        "WY"
+      ],
+      "printed": [
+        "ID",
+        "MT"
+      ]
+    },
+    "(3, 0)": {
+      "actual": [
+        "IA",
+        "KY",
+        "MO"
+      ],
+      "printed": [
+        "KY"
+      ]
+    },
+    "(3, 2)": {
+      "actual": [
+        "IA",
+        "MO"
+      ],
+      "printed": [
+        "IA"
+      ]
+    },
+    "(3, 3)": {
+      "actual": [
+        "IA",
+        "MN",
+        "NE",
+        "SD"
+      ],
+      "printed": [
+        "SD"
+      ]
+    },
+    "(3, 4)": {
+      "actual": [
+        "IA",
+        "MN",
+        "MO",
+        "MT",
+        "ND",
+        "NE",
+        "SD",
+        "WI",
+        "WY"
+      ],
+      "printed": [
+        "MT",
+        "ND"
+      ]
+    }
+  }
+}

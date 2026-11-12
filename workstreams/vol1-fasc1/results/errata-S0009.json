@@ -1,0 +1,139 @@
+{
+  "checked_at_utc": "2026-11-07T03:32:48.084412+00:00",
+  "target": "scan_const loses decimal exponent positions when more than769 significant digits precede a decimal point or exponent. Correct value1 becomes0.1 at the first omitted digit.",
+  "sources": [
+    {
+      "path": "errata/originals/err1f1.textxt",
+      "sha256": "07db671be6fcbc6c473ddc6593f6a16cce5833fb5f8a499ab7e2e3eee163dae3",
+      "matches": [
+        {
+          "line": 934,
+          "context": "Granlund, Torbj\\\"orn Mikhael, 95. % 6th\nHamming, Richard Wesley, distance, 26. % 2nd\nHexadecimal constants, iii, 37. % 2nd\nIngalls, Daniel Henry Holmes, Jr\\period, 109. % 5th\nInput-output operations, 18, 31, 40--43, 92. % 2nd\n\\.{IS} (define a symbol), 29--30, 34, 39. % 2nd"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/err1f1.txt",
+      "sha256": "7d6366838076d106c09e85a4f93f1b151e94c9af9f6874ea27aa6f106cdf84b6",
+      "matches": []
+    },
+    {
+      "path": "errata/text/all1f1.txt",
+      "sha256": "c0b1a7c575ffcbced2bc6a7048143a16286a081908850ad0956258dd2f84b18e",
+      "matches": []
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmixware-errata.html",
+      "sha256": "740b68475c94774ee2d143b0baa2d98111664e2e2c69ce3a29117311f8c4957e",
+      "matches": [
+        {
+          "line": 227,
+          "context": "<dt>page 90, line 19 (15 Jun 2002)***</dt>\n<dd>change \"*p=r\" to \"*p=r-1\"</dd>\n<dt>page 94, new paragraph to follow line 24 (26 Nov 2002)</dt>\n<dd>The value of <i>exceptions</i> set by <i>scan_const</i> is not\nnecessarily correct.</dd>\n<dt>page 95, line 4 of section 71 (23 Dec 1999)***</dt>"
+        },
+        {
+          "line": 228,
+          "context": "<dd>change \"*p=r\" to \"*p=r-1\"</dd>\n<dt>page 94, new paragraph to follow line 24 (26 Nov 2002)</dt>\n<dd>The value of <i>exceptions</i> set by <i>scan_const</i> is not\nnecessarily correct.</dd>\n<dt>page 95, line 4 of section 71 (23 Dec 1999)***</dt>\n<dd>change \"val.h=0x600000\" to \"val.h=0x600000, exp=0x3fe\"</dd>"
+        },
+        {
+          "line": 230,
+          "context": "<dd>The value of <i>exceptions</i> set by <i>scan_const</i> is not\nnecessarily correct.</dd>\n<dt>page 95, line 4 of section 71 (23 Dec 1999)***</dt>\n<dd>change \"val.h=0x600000\" to \"val.h=0x600000, exp=0x3fe\"</dd>\n<dt>page 96, lines 23-24 of section 73 (21 Mar 2009)***</dt>\n<dd>these lines should say \"exp=0;\" and then \"if (*p=='e' &amp;&amp; !NaN) &lt;Scan an exponent 77&gt;\"</dd>"
+        },
+        {
+          "line": 232,
+          "context": "<dt>page 95, line 4 of section 71 (23 Dec 1999)***</dt>\n<dd>change \"val.h=0x600000\" to \"val.h=0x600000, exp=0x3fe\"</dd>\n<dt>page 96, lines 23-24 of section 73 (21 Mar 2009)***</dt>\n<dd>these lines should say \"exp=0;\" and then \"if (*p=='e' &amp;&amp; !NaN) &lt;Scan an exponent 77&gt;\"</dd>\n<dt>page 97, line 16 (21 Mar 2009)</dt>\n<dd>change \"&lt;1000\" to \"&lt;100000000\"</dd>"
+        },
+        {
+          "line": 234,
+          "context": "<dt>page 96, lines 23-24 of section 73 (21 Mar 2009)***</dt>\n<dd>these lines should say \"exp=0;\" and then \"if (*p=='e' &amp;&amp; !NaN) &lt;Scan an exponent 77&gt;\"</dd>\n<dt>page 97, line 16 (21 Mar 2009)</dt>\n<dd>change \"&lt;1000\" to \"&lt;100000000\"</dd>\n<dt>pages 93, 117, ..., 521, mini-index entries for strlen (29 Jul 2000)</dt>\n<dd>change \"int\" to \"size_t\"</dd>"
+        }
+      ]
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmixware-current.html",
+      "sha256": "13614aa34f4ad039b12d331064d993292837bc12bf7fd2073ff34bfa41ae9834",
+      "matches": []
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmix-upstream-bugs.html",
+      "sha256": "a9b8c36c7fe466afd03a42ac900cd1e3c13250b7bd9ef575d0f331e31960a61a",
+      "matches": []
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmix-upstream-rounding.html",
+      "sha256": "f864c5fc573f7049aaf2d3682c72ee09f78dfb3d7445a19dc891282f99314c1b",
+      "matches": []
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmix-arith-upstream-warnings.ch",
+      "sha256": "b4a916e0962e2f79828d6afca1a5a40775e82b725f45ec28664a3e66f6b093b4",
+      "matches": [
+        {
+          "line": 86,
+          "context": "@x\n    if (q>buf0 || *p!='0')\n       if (q<buf_max) *q++=*p;\n       else if (*(q-1)=='0') *(q-1)=*p;\n@y\n    if (q>buf0 || *p!='0') {"
+        },
+        {
+          "line": 90,
+          "context": "@y\n    if (q>buf0 || *p!='0') {\n         if (q<buf_max) *q++=*p;\n         else if (*(q-1)=='0') *(q-1)=*p;\n    }\n@z"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all1.txt",
+      "sha256": "b641d6e48aaf2d77fc98a3c4a8a798d8156516b97095ec345a976e65d9c79aef",
+      "matches": []
+    },
+    {
+      "path": "errata/originals/err1.textxt",
+      "sha256": "f752c0a5fcf49686906e39fa5a1dab28b53adc8226b0a7e1a1b6cf850592bc91",
+      "matches": []
+    },
+    {
+      "path": "errata/text/all1-pre.txt",
+      "sha256": "89d231245ff44164e09a39903faac35a2dc5e89956857abcc974991c99a887e5",
+      "matches": []
+    },
+    {
+      "path": "errata/text/all1-prepre.txt",
+      "sha256": "1a3c3ac6137b9e98f427de0a344efca46fd83b7a3e6e8fe2fa38e94525ca0c31",
+      "matches": [
+        {
+          "line": 1978,
+          "context": "x\nPage 532 lines 3{8 of answer 3, right olumn                                  04 Sep 2008\n            BUFMAX CON ENDBUF1                      * BUFFER AREAS\n            * BUFFER AREAS                          OUTBUF1 ORIG *+100\n            OUTBUF1 ORIG *+100\n            ENDBUF1 CON ENDBUF2"
+        },
+        {
+          "line": 1985,
+          "context": "                                                    OUTBUF2 ORIG *+100\n            OUTBUF2 ORIG *+100                      ENDBUF2 CON ENDBUF1\n            ENDBUF2 CON ENDBUF1                     BUFMAX CON ENDBUF1\nx\nPage 532 line 1 of answer 7                                                   16 Jul 1998\n One way      y"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/err1-2e.txt",
+      "sha256": "1778c2089c0d317e283c6d28203b3a03b8db531c0d23faa9558661074e78a52a",
+      "matches": []
+    }
+  ],
+  "original_pages": [
+    "images/scan-constant-contract-arith30.png",
+    "images/scan-constant-loop-arith31.png",
+    "images/scan-constant-buffer-arith32.png"
+  ],
+  "semantic_review": "The2002 exceptions disclaimer concerns event flags, not val. The1999 standard-NaN exponent repair,2009 exponent initialization/NaN guard and larger exponent clamp are already present and do not count omitted integer positions. The public warning change only adds braces around the same buffer logic. The typeset derivative additionally initializes zeros, which also leaves the lost integer positions unchanged. The2015 arithmetic-rounding report targets fplus alignment, and the2025 simulator buffer overrun targets debugger command b; neither is this conversion. No matching value/position correction in all13 inspected layers.",
+  "current_primary_web_checks": [
+    {
+      "url": "https://cs.stanford.edu/~knuth/mmixware-errata.html",
+      "result": "Reopened; input-conversion corrections at originalpp94–97 read in full, no omitted-integer-place repair."
+    },
+    {
+      "url": "https://mmix.cs.hm.edu/bugs/index.html",
+      "result": "Reopened complete bug index; only arithmetic rounding report, no matching scan_const issue."
+    },
+    {
+      "query": "scan_const buf_max; MMIX scan_const decimal integer digits overflow bug",
+      "domains": [
+        "mmix.cs.hm.edu",
+        "cs.stanford.edu"
+      ],
+      "result": "Primary-source results reproduce existing contract/code, warning patch and unrelated rounding/buffer reports; no matching correction."
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "pointer": {
+    "arithmetic_cases": 10920,
+    "batch_instructions": 1140,
+    "seed": 43312,
+    "rows": [
+      {
+        "N": 2,
+        "instructions": 19,
+        "groups": 6
+      },
+      {
+        "N": 4,
+        "instructions": 37,
+        "groups": 21
+      },
+      {
+        "N": 8,
+        "instructions": 73,
+        "groups": 49
+      },
+      {
+        "N": 16,
+        "instructions": 145,
+        "groups": 117
+      },
+      {
+        "N": 32,
+        "instructions": 289,
+        "groups": 247
+      },
+      {
+        "N": 64,
+        "instructions": 577,
+        "groups": 503
+      }
+    ],
+    "seconds": 0.389
+  },
+  "rectangular": {
+    "cases": 480,
+    "max_n_bits": 103425,
+    "seed": 43313,
+    "seconds": 0.032
+  }
+}

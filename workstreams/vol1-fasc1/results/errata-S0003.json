@@ -1,0 +1,111 @@
+{
+  "checked_at_utc": "2026-11-06T20:24:54.215199+00:00",
+  "target": "froot classifies negative quiet/signaling NaNs as negative numbers before its NaN dispatch.",
+  "search_terms": [
+    "froot",
+    "FSQRT",
+    "square root",
+    "NaN",
+    "signaling",
+    "quiet"
+  ],
+  "sources": [
+    {
+      "path": "errata/originals/err1f1.textxt",
+      "sha256": "07db671be6fcbc6c473ddc6593f6a16cce5833fb5f8a499ab7e2e3eee163dae3",
+      "matches": [
+        {
+          "line": 930,
+          "text": "\\.{FSQRT} (floating square root), 13, 100. % 2nd"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/err1f1.txt",
+      "sha256": "7d6366838076d106c09e85a4f93f1b151e94c9af9f6874ea27aa6f106cdf84b6",
+      "matches": [
+        {
+          "line": 520,
+          "text": "FSQRT ( oating square root), 13, 100.          Semi olon (;), 40."
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all1f1.txt",
+      "sha256": "c0b1a7c575ffcbced2bc6a7048143a16286a081908850ad0956258dd2f84b18e",
+      "matches": [
+        {
+          "line": 564,
+          "text": "FSQRT ( oating square root), 13, 100.          Pool_Segment , 36."
+        }
+      ]
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmixware-errata.html",
+      "sha256": "740b68475c94774ee2d143b0baa2d98111664e2e2c69ce3a29117311f8c4957e",
+      "matches": [
+        {
+          "line": 50,
+          "text": "<dd>change \"does not define the representations of NaNs\" to \"does not fully define the result of operations with NaNs\"</dd>"
+        },
+        {
+          "line": 124,
+          "text": "the interval counter decreases every 2 nanoseconds. It causes an</dd>"
+        },
+        {
+          "line": 233,
+          "text": "<dd>these lines should say \"exp=0;\" and then \"if (*p=='e' &amp;&amp; !NaN) &lt;Scan an exponent 77&gt;\"</dd>"
+        },
+        {
+          "line": 295,
+          "text": "<dt>page 157, mini-index entry for froot (05 Apr 2000)</dt>"
+        },
+        {
+          "line": 595,
+          "text": "<dt>page 309, cases fsqrt, fint, fix, and flot (05 Aug 2000)***</dt>"
+        },
+        {
+          "line": 597,
+          "text": "<dt>page 309, mini-index entry for froot (05 Apr 2000)</dt>"
+        },
+        {
+          "line": 660,
+          "text": "<dt>page 345, mini-index entry for froot (05 Apr 2000)</dt>"
+        },
+        {
+          "line": 697,
+          "text": "<dt>page 379, mini-index entry for froot (05 Apr 2000)</dt>"
+        }
+      ]
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmixware-current.html",
+      "sha256": "13614aa34f4ad039b12d331064d993292837bc12bf7fd2073ff34bfa41ae9834",
+      "matches": []
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmix-upstream-bugs.html",
+      "sha256": "a9b8c36c7fe466afd03a42ac900cd1e3c13250b7bd9ef575d0f331e31960a61a",
+      "matches": []
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmix-upstream-rounding.html",
+      "sha256": "f864c5fc573f7049aaf2d3682c72ee09f78dfb3d7445a19dc891282f99314c1b",
+      "matches": []
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmix-arith-upstream-warnings.ch",
+      "sha256": "b4a916e0962e2f79828d6afca1a5a40775e82b725f45ec28664a3e66f6b093b4",
+      "matches": []
+    }
+  ],
+  "semantic_review": "Primary MMIX standard-NaN and FSQRT paragraphs read in full, alongside both original froot bodies and the original typeset MMIX-ARITH page40. Author errata matches concern NaN explanatory wording, source-register preservation, mini-index cross-references and mode selection; none changes the early negative guard. Community rounding correction concerns other arithmetic branches. No matching correction in these eight saved public layers; no claim of global novelty.",
+  "additional_web_queries": [
+    "MMIX froot \"NaN\" \"negative\"",
+    "site:mmix.cs.hm.edu FSQRT NaN bug"
+  ],
+  "additional_primary_pages": [
+    "https://mmix.cs.hm.edu/doc/instructions/farith.html",
+    "https://mmix.cs.hm.edu/bugs/index.html"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "build_directory": "/tmp/knuth-vol4b-lex-ijrb7pkr",
+  "commands": [
+    [
+      "ctangle",
+      "gb_flip.w",
+      "gb_flip.ch"
+    ],
+    [
+      "ctangle",
+      "dlx1.w",
+      "dlx1-lexicographic.ch",
+      "lex.c"
+    ],
+    [
+      "cc",
+      "-O2",
+      "-Wno-implicit-int",
+      "-Wno-implicit-function-declaration",
+      "lex.c",
+      "gb_flip.c",
+      "-o",
+      "lex"
+    ],
+    [
+      "ctangle",
+      "dlx1.w",
+      "dlx1-nomrv.ch",
+      "first.c"
+    ],
+    [
+      "cc",
+      "-O2",
+      "-Wno-implicit-int",
+      "-Wno-implicit-function-declaration",
+      "first.c",
+      "gb_flip.c",
+      "-o",
+      "first"
+    ]
+  ],
+  "sources": {
+    "dlx1.w": {
+      "path": "sources/knuth-programs/dlx1.w",
+      "sha256": "a5ca5db64c2efe759bdb134ff257a883283f29178b98d526a3f36f06b1ffb697"
+    },
+    "gb_flip.w": {
+      "path": "sources/knuth-programs/gb_flip.w",
+      "sha256": "8e4faad04360d1ca35fad7c6c49281b63d3074f9f329444031f9ab09fd94611d"
+    },
+    "gb_flip.ch": {
+      "path": "sources/knuth-programs/gb_flip.ch",
+      "sha256": "40f772938571cddea4929a85677f5c1ad70c1a9076e101e7e0ece1f7ed24ab20"
+    },
+    "boilerplate.w": {
+      "path": "sources/knuth-programs/boilerplate.w",
+      "sha256": "ef08ba0e208b7a3e8eac07f1fa285f4c06a5848d6dcf1d808e7babbfb42156a8"
+    },
+    "dlx1-lexicographic.ch": {
+      "path": "dlx1-lexicographic.ch",
+      "sha256": "9171b17bc87d18d14070767ef723cdb4f48c7725f5d05b43594c30e13db7c004"
+    },
+    "dlx1-nomrv.ch": {
+      "path": "dlx1-nomrv.ch",
+      "sha256": "df3664449250f181e9576c45908097e85d7906a0e71e4ac66825fde2c009c161"
+    }
+  },
+  "binaries": {
+    "lex": {
+      "path": "/tmp/knuth-vol4b-lex-ijrb7pkr/lex",
+      "sha256": "68ea90c851b66d29f8935ff469cfe011c5f9e2e692c90487be8ab71064b2988b"
+    },
+    "first": {
+      "path": "/tmp/knuth-vol4b-lex-ijrb7pkr/first",
+      "sha256": "9aaa282ca8678a3fecfadef0641dce02ab2a99f7ccd2f16d2efaa9541bd90ade"
+    }
+  },
+  "scope": "Both are audit adaptations of the original DLX1: first changes only branch selection; lex adds the answer36 LL mechanism."
+}

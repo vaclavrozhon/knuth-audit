@@ -1,0 +1,221 @@
+{
+  "checked_at_utc": "2026-11-01T19:45:00.059531+00:00",
+  "remote_checks": [
+    {
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/all4b.ps.gz",
+      "file": "errata/originals/all4b.ps.gz",
+      "sha256": "61c41e43dc337c1259f9ff690bfef718da2a656abdb110c6e7875c11f9566eea",
+      "local_sha256": "61c41e43dc337c1259f9ff690bfef718da2a656abdb110c6e7875c11f9566eea",
+      "status": "unchanged",
+      "http_last_modified": "Fri, 17 Apr 2026 06:28:39 GMT"
+    },
+    {
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/all4f5.ps.gz",
+      "file": "errata/originals/all4f5.ps.gz",
+      "sha256": "4c3edee8aa4c92f69bc5eb243ffe03779ae56c1e89a0ad36f85a2ac770fcbb83",
+      "local_sha256": "4c3edee8aa4c92f69bc5eb243ffe03779ae56c1e89a0ad36f85a2ac770fcbb83",
+      "status": "unchanged",
+      "http_last_modified": "Wed, 27 Jul 2022 05:22:26 GMT"
+    },
+    {
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/err4b.textxt",
+      "file": "errata/originals/err4b.textxt",
+      "sha256": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+      "local_sha256": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+      "status": "unchanged",
+      "http_last_modified": "Fri, 17 Apr 2026 06:27:21 GMT"
+    },
+    {
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/err4f5.textxt",
+      "file": "errata/originals/err4f5.textxt",
+      "sha256": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b",
+      "local_sha256": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b",
+      "status": "unchanged",
+      "http_last_modified": "Wed, 27 Jul 2022 05:22:16 GMT"
+    }
+  ],
+  "pattern": "4b\\.(74|75|76|77|128|424|425|426)\\b|4f5\\.(74|75|76|77|126|127|232|233|234)\\b|Page (74|75|76|77|128|424|425|426|126|127|232|233|234)\\b|sudoku|hidden|naked|non.?neighbors|ans(43|44|45|46|47|48|49|50)\\b|answer (43|44|45|46|47|48|49|50)\\b|exercise (43|44|45|46|47|48|49|50)\\b",
+  "files": [
+    {
+      "path": "errata/originals/err4b.textxt",
+      "sha256": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+      "hits": [
+        {
+          "line": 635,
+          "context": "\\endchange\n\n\\improvepage 4b.320 the title of exercise 44 (24.11.16)\n\\ninepoint (Maximum ones.) \\becomes ({\\it Maximum ones}.)\n\\endchange\n\n\\amendpage 4b.322 rewording of exercise 68 (26.02.26)\n\\ninepoint\\textindent{\\bf68.}[{\\it39\\/}]\\kern6pt\nFind a maximum-length mobile Life path on the chessboard\nin which 6 to 10 cells are always alive.\n\\endchange\n"
+        },
+        {
+          "line": 740,
+          "context": "\\endchange\n\n\\amendpage 4b.406 append new line to answer 48 (23.02.18)\nSee {\\sl Journal of Automated Reasoning\\/ \\bf67} (2023), 12:1--12:10.\n\\endchange\n\n\\bugonpage 4b.407 in answer 58 (25.02.14)\nline 3: every path \\becomes every shortest path\\nl\nlines 12--13: Otherwise make $w$ \\dots~if $u\\ne\\Lambda$. \\becomes\n Otherwise make $w$ a resource (see below), and\nset $u\\gets\\.{LINK($u$)}$; return to~$(*)$ if $u\\ne\\Lambda$,\notherwise append \\.S to \\.R (see below) and set $d\\gets d+1$."
+        },
+        {
+          "line": 885,
+          "context": "30,258,432 solutions in 171~gigamems.\\ (Those solutions were first enumerated\nin 2005 by E.~Russell; see {\\tt\nwww.afjarvis.org.uk/sudoku/sudgroup.html}.)\n\\endchange\n\n\\amendpage 4b.444 line 1 of answer 115 (23.01.02)\n$b'_{yk}$ and $B'_{y'l}$ \\becomes $b'_{yk}$\n\\endchange\n\n\\bugonpage 4b.446 new solution for answer {121(c)} (23.01.08)\n\\indent(c) With $\\delta RU$ in the middle, another solution has\n$C_{k-1}$, $D_{k-1}$, $A_{k-1}$, $B_{k-1}$ at the corners. With $\\delta LD$,"
+        },
+        {
+          "line": 1610,
+          "context": "\\endchange\n\n\\bugonpage 4b.557 in answer 49 (26.03.17)\nline 2: $\\bar a_2^2$, $\\bar a_3^2$ \\becomes $\\bar a_3^2$\\nl\nline 9: at least three of these five \\becomes\n        at least two of those five\n\\endchange\n\n\\amendpage 4b.561 replacement for answer 68 (26.02.26)\n\\ans68. (Solution by Ben {Chaffin}.) Exhaustive enumeration is feasible\nwith {bitwise computations} (and without {\\mc SAT}). The longest paths\nachievable with (6, 7, 8, 9, 10) live starting cells have"
+        },
+        {
+          "line": 2096,
+          "context": "{\\mc SCRABBLE}\\regtm\\ dictionary, \\see OSPD4. % 4th\nSearch trees, 31, 32, 35, 37--39, 46--48, 52, 54, 73, 98--100, 104--107, 126, 147, 212--213, 216--218, 239, 308, 336, 399, 406, 407, 412, 434. % 3rd\nSelf-equivalent sudoku solutions, 111, 137. % 3rd\nSequential lists, 39--43, 220--221, 328, 534. % 3rd [because of reformatting pages 534--535]\nSet splitting, \\see 2-colorability of hypergraphs. % 3rd\nShuffles, 1, 8, 364. % 3rd\nSignature of a subproblem, 120--122, 154, 484. % 3rd\nSingle-loop solutions, 178, 539. % 3rd\nSlack options, 71, 478. % 3rd\nSlack variables, 71. % 3rd\nSnake cycles, 146, 161, 465. % 3rd\nSnake paths, 145. % 3rd"
+        },
+        {
+          "line": 2111,
+          "context": "Strassen, Volker, 386. % 3rd\nSubstrings, 37, 57. % 3rd\nSudoku, symmetries of, 74, 111, 137. % 3rd\n\\sub with knights and bishops, 146. % 3rd\nsup: supremum (least upper bound), 20, 395. % 3rd\nTagged vertices, 414. % 3rd\nTetraboloes, 163. % 3rd\n\\.{TOP} field, 67--69, 88--90, 120, 125, 127, 417--418, 474--475, 481. % 3rd\nTwintree structure, 172. % 3rd\nTwo stacks, 534. % 3rd [because of reformatting pages 534--535]\n\\.{ULINK} field, 67--69, 88--90, 95--97, 109--110, 120, 417--418, 433--434, 474--475, 481. % 3rd\n\\.{UNDO} stack, 44--46. % 3rd"
+        }
+      ]
+    },
+    {
+      "path": "errata/originals/err4f5.textxt",
+      "sha256": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b",
+      "hits": [
+        {
+          "line": 395,
+          "context": "\\endchange\n\n\\amendpage 4f5.56 new rating for exercise 46 (20.08.17)\n\\ninepoint [{\\it M30\\/}] \\becomes [{\\it M35\\/}]\n\\endchange\n\n\\amendpage 4f5.58 new rating for exercise 69 (19.12.05)\n\\ninepoint [{\\it40\\/}] \\becomes [{\\it41\\/}]\n\\endchange\n\n\\bugonpage 4f5.59 in {9(D)} of Table 666 (20.10.24)\n\\ninepoint $[61\\dts67]$ \\becomes $[59\\dts67]$"
+        },
+        {
+          "line": 522,
+          "context": "\\endchange\n\n\\bugonpage 4f5.126 in exercise 49 (21.08.09)\n[the bipartite graph should have an edge between $u_7$ and $v_1$]\n\\endchange\n\n\\amendpage 4f5.127 last sentence of exercise 53 (22.03.21)\n\\ninepoint Show that \\dots\\ problems. \\becomes\nShow that exactly 13 essentially different 4-clue shidoku problems\nhave a unique solution.\n\\endchange\n"
+        },
+        {
+          "line": 526,
+          "context": "\\endchange\n\n\\amendpage 4f5.127 last sentence of exercise 53 (22.03.21)\n\\ninepoint Show that \\dots\\ problems. \\becomes\nShow that exactly 13 essentially different 4-clue shidoku problems\nhave a unique solution.\n\\endchange\n\n\\bugonpage 4f5.127 line 1 of exercise 57 (21.09.10)\n\\ninepoint has 27 \\becomes has at most\n\\endchange\n"
+        },
+        {
+          "line": 532,
+          "context": "\\endchange\n\n\\bugonpage 4f5.127 line 1 of exercise 57 (21.09.10)\n\\ninepoint has 27 \\becomes has at most\n\\endchange\n\n\\amendpage 4f5.130 last line of exercise 76 (21.09.19)\n\\ninepoint an identity element \\becomes the identity element 0\n\\endchange\n\n\\amendpage 4f5.130 an additional sentence in exercise 77 (20.03.02)\n(In such a case we say that $G$ is {\\it embedded\\/} in~$H$.)"
+        },
+        {
+          "line": 855,
+          "context": "\\endchange\n\n\\bugonpage 4f5.212 line 1 of answer 44 (20.05.30)\n$r\\gets m+1$ \\becomes $r\\gets5$\n\\endchange\n\n\\bugonpage 4f5.213 line $-5$ of answer 45 (20.05.30)\ngo to C6 \\becomes go to C5\n\\endchange\n\n\\amendpage 4f5.213 replacement for last paragraph of answer 46 (21.02.08)\nSo the answer is ``No.'' But we can come close: Aaron Windsor used a"
+        },
+        {
+          "line": 859,
+          "context": "\\endchange\n\n\\bugonpage 4f5.213 line $-5$ of answer 45 (20.05.30)\ngo to C6 \\becomes go to C5\n\\endchange\n\n\\amendpage 4f5.213 replacement for last paragraph of answer 46 (21.02.08)\nSo the answer is ``No.'' But we can come close: Aaron Windsor used a\n{\\mc SAT} solver in 2021 to discover a binary commafree code for $n=12$\nthat contains a representative of every cycle class except [000011001011].\n\\endchange\n"
+        },
+        {
+          "line": 863,
+          "context": "\\endchange\n\n\\amendpage 4f5.213 replacement for last paragraph of answer 46 (21.02.08)\nSo the answer is ``No.'' But we can come close: Aaron Windsor used a\n{\\mc SAT} solver in 2021 to discover a binary commafree code for $n=12$\nthat contains a representative of every cycle class except [000011001011].\n\\endchange\n\n\\bugonpage 4f5.213 line 8 of answer 47 (20.05.30)\n1002, 2201, 2001, \\becomes\n1002, 1102, 2001,\n\\endchange"
+        },
+        {
+          "line": 869,
+          "context": "\\endchange\n\n\\bugonpage 4f5.213 line 8 of answer 47 (20.05.30)\n1002, 2201, 2001, \\becomes\n1002, 1102, 2001,\n\\endchange\n\n\\amendpage 4f5.214 replacement for answer 48 (21.02.08)\n\\ans48. Algorithm C isn't fast enough to solve this problem.\nBut Aaron Windsor used a {\\mc SAT} solver in 2021 to find such a code\nof size $139=(5^4-5^2)/4-11$, and to prove that no such code of size 140 exists.\n(He also found, rather quickly, that an optimum ternary commafree"
+        },
+        {
+          "line": 874,
+          "context": "\\endchange\n\n\\amendpage 4f5.214 replacement for answer 48 (21.02.08)\n\\ans48. Algorithm C isn't fast enough to solve this problem.\nBut Aaron Windsor used a {\\mc SAT} solver in 2021 to find such a code\nof size $139=(5^4-5^2)/4-11$, and to prove that no such code of size 140 exists.\n(He also found, rather quickly, that an optimum ternary commafree\ncode for $n=6$ contains $(3^6-3^3-3^2+3^1)/6-3=113$ codewords.)\n\\endchange\n\n\\amendpage 4f5.217 line $-3$ of answer 61 (21.09.18)\n\\#R44. \\becomes \\#R44, 1--16."
+        },
+        {
+          "line": 875,
+          "context": "\n\\amendpage 4f5.214 replacement for answer 48 (21.02.08)\n\\ans48. Algorithm C isn't fast enough to solve this problem.\nBut Aaron Windsor used a {\\mc SAT} solver in 2021 to find such a code\nof size $139=(5^4-5^2)/4-11$, and to prove that no such code of size 140 exists.\n(He also found, rather quickly, that an optimum ternary commafree\ncode for $n=6$ contains $(3^6-3^3-3^2+3^1)/6-3=113$ codewords.)\n\\endchange\n\n\\amendpage 4f5.217 line $-3$ of answer 61 (21.09.18)\n\\#R44. \\becomes \\#R44, 1--16.\n\\endchange"
+        },
+        {
+          "line": 951,
+          "context": "\\endchange\n\n\\amendpage 4f5.234 replacement for answer 52 (19.12.14)\n\\ans52. (Solution by F. Stappers.)\nPuzzles claiming to be ``the world's hardest sudoku'' keep appearing in\nonline forums. Rated by search tree size with Algorithm~X, the toughest\namong nearly 27,000 such extreme puzzles\nis shown here in a canonical form.\n(It's number 6539 in a list available from\n{\\tt sites.google.com/site/sudoeleven/} (2011).)\n% 1000 trials, seeds 314???\nIts random\\-ized search tree sizes"
+        },
+        {
+          "line": 953,
+          "context": "\\amendpage 4f5.234 replacement for answer 52 (19.12.14)\n\\ans52. (Solution by F. Stappers.)\nPuzzles claiming to be ``the world's hardest sudoku'' keep appearing in\nonline forums. Rated by search tree size with Algorithm~X, the toughest\namong nearly 27,000 such extreme puzzles\nis shown here in a canonical form.\n(It's number 6539 in a list available from\n{\\tt sites.google.com/site/sudoeleven/} (2011).)\n% 1000 trials, seeds 314???\nIts random\\-ized search tree sizes\nare $24400\\pm1900$\\dash---astonishingly\nhigh for sudoku; and its mean running time is about 12~M$\\mu$.)"
+        },
+        {
+          "line": 962,
+          "context": "Its random\\-ized search tree sizes\nare $24400\\pm1900$\\dash---astonishingly\nhigh for sudoku; and its mean running time is about 12~M$\\mu$.)\n{\\hangindent-1in \\hangafter0\\tighten\\parfillskip=0pt\\hfil\n\\def\\epsfsize#1#2{.85#1}%\n\\smash{\\rlap{\\quad\\raise2pt\\hbox{\\epsfbox{\\figdir/v4b.2898}}}}\\par}\n\\endchange\n\n\\bugonpage 4f5.236 lines 6 and 7 (21.02.05)\nThere are only two solutions \\dots\\ symmetric. \\becomes\nInclude `$\\ast_j{:}k$' in option $(0,j,k)$.\nThere are only four solutions, found in 3~G$\\mu$,"
+        },
+        {
+          "line": 976,
+          "context": "\n\\bugonpage 4f5.237 bottom line (22.06.29)\nin the \\.{SUDOKU} answer, swap $\\.D\\swap\\.U$ in the top row\n\\endchange\n\n\\bugonpage 4f5.239 last line of answer 70 (21.05.25)\n63]; \\becomes 63;\n\\endchange\n\n\\bugonpage 4f5.239 line $-3$ of answer 72 (20.07.04)\n1292687 packings \\becomes 1292697 packings\n\\endchange"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all4b.txt",
+      "sha256": "b1a3425486f403fb4158585d5bbfef0159fd20b12e2e7d47b64e393e1ae8a303",
+      "hits": [
+        {
+          "line": 193,
+          "context": "Page 112 the line before (108)                                              03 Jul 2023\n  remarkable pairing     y remarkable Langford pairing\nPage 126 in exer ise 20                                                      03 Apr 2026\n Hint:     y\n           (Option j should be ompatible with option       k if and only if 0 \u0014j\u0014k<\n m.) Hint:\n Page 127 line 1 of exer ise 33                                             12 O t 2025\n  onstru t     y\n              eÆ iently onstru t\nPage 135 lines 8 and 9 of exer ise 103                                      03 Jan 2023\n twelve-tone row   y  twelve-tone row\n Page 135 in exer ise 104                                                   15 Sep 2025"
+        },
+        {
+          "line": 197,
+          "context": "           (Option j should be ompatible with option       k if and only if 0 \u0014j\u0014k<\n m.) Hint:\n Page 127 line 1 of exer ise 33                                             12 O t 2025\n  onstru t     y\n              eÆ iently onstru t\nPage 135 lines 8 and 9 of exer ise 103                                      03 Jan 2023\n twelve-tone row   y  twelve-tone row\n Page 135 in exer ise 104                                                   15 Sep 2025\n  line 2: whenever k is not a multiple of p y\n  line 3: (if xn is blank)  y (where xn is onsidered to be blank)\n\n     6        CHANGES TO VOLUME 4B: COMBINATORIAL ALGORITHMS, PART 2"
+        },
+        {
+          "line": 388,
+          "context": " [arXiv:2112.03336 [math.CO℄ (2021), 14 pages℄.     y     [Optimization Letters 17 (2023),\n 1229{1240℄.\nPage 406 append new line to answer 48                                           18 Feb 2023\n See Journal of Automated Reasoning 67 (2023), 12:1{12:10.\nx\nPage 407 in answer 58                                                           14 Feb 2025\n line 3: every path y       every shortest path\n lines 12{13: Otherwise make w : : : if u 6= \u0003.   y      Otherwise make w a resour e (see\n below), and set u LINK(u); return to (\u0003) if u 6= \u0003, otherwise append S to R (see\n below) and set d d + 1.\nPage 408 repla ement for line 10                                                14 Feb 2025\n LINK(w)        S, and S     w. (It works, although S does double duty!)"
+        },
+        {
+          "line": 483,
+          "context": "         With that top row and with = transposition, Algorithm C produ es 30,258,432\n    solutions in 171 gigamems. (Those solutions were rst enumerated in 2005 by E. Russell;\n    see www.afjarvis.org.uk/sudoku/sudgroup.html.)\n\n    12   CHANGES TO VOLUME 4B: COMBINATORIAL ALGORITHMS, PART 2\n\nPage 444    line 1 of answer 115                                              02 Jan 2023\n              y\n b0yk and By0 0 l     b0yk\nx\nPage 446 new solution for answer 121( )                                       08 Jan 2023\n       ( ) With ÆRU in the middle, another solution has Ck 1 , Dk 1 , Ak 1 , Bk 1 at"
+        },
+        {
+          "line": 1079,
+          "context": " \u001f (G) \u0015 7=2    y         \u001f\u0003 (G) \u0014 7=2\nx\nPage 557 in answer 49                                                                  17 Mar 2026\n              2  y\n line 2: a\u00162 , a\u001632          2\n                           a\u00163\n line 9: at least three of these ve    y          at least two of those ve\nPage 561 repla ement for answer 68                                                     26 Feb 2026\n 68. (Solution by Ben ChaÆn.) Exhaustive enumeration is feasible with bitwise\n   omputations (and without SAT). The longest paths a hievable with (6, 7, 8, 9,\n 10) live starting ells have (8, 9, 10, 11, 11) generations; starting patterns that\n a hieve length 11 are shown. Roughly (69%, 8%, 10%, 4%, 13%) of all starts"
+        },
+        {
+          "line": 1441,
+          "context": " Progress, display of, 73, 126, 214, 329, 339.     Strassen, Volker, 386.\n Propagation algorithm, 412.                       Substrings, 37, 57.\n Pur ell, Mi hael, 370.                            Sudoku, symmetries of, 74, 111, 137.\n Qn on guration, 145.                                with knights and bishops, 146.\n Ramakrishnan, Kajamalai Gopalaswamy               sup: supremum (least upper bound),\n      (xW{WV UxWWÂW                                20, 395.\n        WÍq~h), 199.                             Tagged verti es, 414.\n Random sampling, 46, 385.                         Tetraboloes, 163.\n RB random instan es, 333{334.                     TOP eld, 67{69, 88{90, 120, 125, 127,\n Re urren e relations, 101{103, 148, 335, 361,           417{418, 474{475, 481.\n      364, 380, 385, 394, 395, 408, 411, 418,      Twintree stru ture, 172.\n      467, 547, 553, 579, 580, 607.                Two sta ks, 534."
+        },
+        {
+          "line": 1465,
+          "context": "      212{213, 216{218, 239, 308, 336,                   556, 569, 574, 602, 653.\n      399, 406, 407, 412, 434.                     University of Dresden (T. U. Dresden), 34.\n Self-equivalent sudoku solutions, 111, 137.       Unmat hable (blank) olor, 88{89, 463.\n Sequential lists, 39{43, 220{221, 328, 534.       Unsatis ability, erti ates of, 253{255,\n Set splitting, see 2- olorability of                    341, 353, 360, 362.\n      hypergraphs.                                 Unsatis able ore, 341, 549.\n Shu\u000fes, 1, 8, 364.                                Utility elds in SGB format, 414.\n Signature of a subproblem, 120{122,               Vall\u0013ee Poussin, Charles Jean E\u0013 tienne\n      154, 484.                                          Gustave Ni olas de La, 388.\n Single-loop solutions, 178, 539.                  waerden (j; k; n) problem, 188{189, 216,\n Sla k options, 71, 478.                                 219, 221, 223{226, 229, 247{250, 253,\n Sla k variables, 71.                                    255{259, 281, 296, 299, 305, 311{313,"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all4f5.txt",
+      "sha256": "0dd38c4cda72b01baefb797611c9bbab7713ff0c107a1df884afc89fe9bb91c3",
+      "hits": [
+        {
+          "line": 272,
+          "context": "    say (a1 ; : : : ; ak ), : : : (a1 ; : : : ; ak ). y\n    say a1 , : : : , ak , then undelete them in exa tly the same order a1 , : : : , ak .\nxPage 126      in exer ise 49                                                              09 Aug 2021\n    [the bipartite graph should have an edge between u7 and v1 ℄\n\n      CHANGES TO V4F5: MATH PRELIMINARIES, BACKTRACKING ET AL                                    7\nPage 127       last senten e of exer ise 53                                          21 Mar 2022\n    Show that : : : problems. y Show that exa tly 13 essentially di erent 4- lue shidoku\n    problems have a unique solution.\nx\nPage 127       line 1 of exer ise 57                                                 10 Sep 2021\n    has 27 y has at most"
+        },
+        {
+          "line": 276,
+          "context": "\n      CHANGES TO V4F5: MATH PRELIMINARIES, BACKTRACKING ET AL                                    7\nPage 127       last senten e of exer ise 53                                          21 Mar 2022\n    Show that : : : problems. y Show that exa tly 13 essentially di erent 4- lue shidoku\n    problems have a unique solution.\nx\nPage 127       line 1 of exer ise 57                                                 10 Sep 2021\n    has 27 y has at most\nPage 130       last line of exer ise 76                                              19 Sep 2021\n    an identity element y the identity element 0\nPage 130   an additional senten e in exer ise 77                                     02 Mar 2020\n (In su h a ase we say that G is embedded in H .)"
+        },
+        {
+          "line": 280,
+          "context": "    problems have a unique solution.\nx\nPage 127       line 1 of exer ise 57                                                 10 Sep 2021\n    has 27 y has at most\nPage 130       last line of exer ise 76                                              19 Sep 2021\n    an identity element y the identity element 0\nPage 130   an additional senten e in exer ise 77                                     02 Mar 2020\n (In su h a ase we say that G is embedded in H .)\nPage 133 in exer ise 103(b)                                                          30 Mar 2022\n How many solutions y How many inequivalent solutions\nPage 135 line 1 of exer ise 116                                                      25 May 2021\n    Given a graph on verti es V y Given a graph G on verti es V"
+        },
+        {
+          "line": 503,
+          "context": "xPage 212 line 2 of answer 38                                                22 De 2020\n  z2 = j y zk 1 = j\nxPage 212 line 1 of answer 44                                               30 May 2020\n  r m+1 y r 5\nxPage 213 line 5 of answer 45                                               30 May 2020\n  go to C6 y go to C5\n Page 213 repla ement for last paragraph of answer 46                        08 Feb 2021\n  So the answer is \\No.\" But we an ome lose: Aaron Windsor used a SAT solver in\n  2021 to dis over a binary ommafree ode for n = 12 that ontains a representative of\n  every y le lass ex ept [000011001011℄.\nxPage 213 line 8 of answer 47                                               30 May 2020\n  1002, 2201, 2001, y 1002, 1102, 2001,"
+        },
+        {
+          "line": 505,
+          "context": "xPage 212 line 1 of answer 44                                               30 May 2020\n  r m+1 y r 5\nxPage 213 line 5 of answer 45                                               30 May 2020\n  go to C6 y go to C5\n Page 213 repla ement for last paragraph of answer 46                        08 Feb 2021\n  So the answer is \\No.\" But we an ome lose: Aaron Windsor used a SAT solver in\n  2021 to dis over a binary ommafree ode for n = 12 that ontains a representative of\n  every y le lass ex ept [000011001011℄.\nxPage 213 line 8 of answer 47                                               30 May 2020\n  1002, 2201, 2001, y 1002, 1102, 2001,\n Page 214 repla ement for answer 48                                          08 Feb 2021\n  48. Algorithm C isn't fast enough to solve this problem. But Aaron Windsor used a"
+        },
+        {
+          "line": 507,
+          "context": "xPage 213 line 5 of answer 45                                               30 May 2020\n  go to C6 y go to C5\n Page 213 repla ement for last paragraph of answer 46                        08 Feb 2021\n  So the answer is \\No.\" But we an ome lose: Aaron Windsor used a SAT solver in\n  2021 to dis over a binary ommafree ode for n = 12 that ontains a representative of\n  every y le lass ex ept [000011001011℄.\nxPage 213 line 8 of answer 47                                               30 May 2020\n  1002, 2201, 2001, y 1002, 1102, 2001,\n Page 214 repla ement for answer 48                                          08 Feb 2021\n  48. Algorithm C isn't fast enough to solve this problem. But Aaron Windsor used a\n  SAT solver in 2021 to nd su h a ode of size 139 = (54 52 )=4 11, and to prove\n  that no su h ode of size 140 exists. (He also found, rather qui kly, that an optimum"
+        },
+        {
+          "line": 511,
+          "context": "  2021 to dis over a binary ommafree ode for n = 12 that ontains a representative of\n  every y le lass ex ept [000011001011℄.\nxPage 213 line 8 of answer 47                                               30 May 2020\n  1002, 2201, 2001, y 1002, 1102, 2001,\n Page 214 repla ement for answer 48                                          08 Feb 2021\n  48. Algorithm C isn't fast enough to solve this problem. But Aaron Windsor used a\n  SAT solver in 2021 to nd su h a ode of size 139 = (54 52 )=4 11, and to prove\n  that no su h ode of size 140 exists. (He also found, rather qui kly, that an optimum\n  ternary ommafree ode for n = 6 ontains (36 33 32 + 31 )=6 3 = 113 odewords.)\n Page 217 line     3 of answer 61                                            18 Sep 2021\n  #R44. y #R44, 1{16.\nxPage 221 line 3 of answer 73                                                12 De 2019"
+        },
+        {
+          "line": 513,
+          "context": "xPage 213 line 8 of answer 47                                               30 May 2020\n  1002, 2201, 2001, y 1002, 1102, 2001,\n Page 214 repla ement for answer 48                                          08 Feb 2021\n  48. Algorithm C isn't fast enough to solve this problem. But Aaron Windsor used a\n  SAT solver in 2021 to nd su h a ode of size 139 = (54 52 )=4 11, and to prove\n  that no su h ode of size 140 exists. (He also found, rather qui kly, that an optimum\n  ternary ommafree ode for n = 6 ontains (36 33 32 + 31 )=6 3 = 113 odewords.)\n Page 217 line     3 of answer 61                                            18 Sep 2021\n  #R44. y #R44, 1{16.\nxPage 221 line 3 of answer 73                                                12 De 2019\n    roots    y roofs\nxPage 222  line 1 of step R6                                                12 May 2020"
+        },
+        {
+          "line": 555,
+          "context": "  G3. [Found?℄ If k > n      r go to G4. Otherwise if ak = bk+n = k n = 0, go to G5.\n       Otherwise set k k + 1 and repeat this step.\n Page 234 repla ement for answer 52                                              14 De 2019\n  52. (Solution by F. Stappers.) Puzzles laiming to be \\the world's         1 2 3        4\n  hardest sudoku\" keep appearing in online forums. Rated by sear h 5 4 2 1 6\n  tree size with Algorithm X, the toughest among nearly 27,000 su h 7\n  extreme puzzles is shown here in a anoni al form. (It's number                   7       3 1\n  6539 in a list available from sites.google. om/site/sudoeleven/ 4 5 5 4 37\n  (2011).) Its randomized sear h tree sizes are 24400 \u0006 1900 | astonish-      8\n  ingly high for sudoku; and its mean running time is about 12 M\u0016.)             9 4\n\nxPage 236 lines 6 and 7                                                          05 Feb 2021"
+        },
+        {
+          "line": 557,
+          "context": " Page 234 repla ement for answer 52                                              14 De 2019\n  52. (Solution by F. Stappers.) Puzzles laiming to be \\the world's         1 2 3        4\n  hardest sudoku\" keep appearing in online forums. Rated by sear h 5 4 2 1 6\n  tree size with Algorithm X, the toughest among nearly 27,000 su h 7\n  extreme puzzles is shown here in a anoni al form. (It's number                   7       3 1\n  6539 in a list available from sites.google. om/site/sudoeleven/ 4 5 5 4 37\n  (2011).) Its randomized sear h tree sizes are 24400 \u0006 1900 | astonish-      8\n  ingly high for sudoku; and its mean running time is about 12 M\u0016.)             9 4\n\nxPage 236 lines 6 and 7                                                          05 Feb 2021\n  There are only two solutions : : : symmetri . y In lude `\u0003j :k' in option (0; j; k).\n  There are only four solutions, found in 3 G\u0016, entrally symmetri and redu ing under"
+        },
+        {
+          "line": 562,
+          "context": "  6539 in a list available from sites.google. om/site/sudoeleven/ 4 5 5 4 37\n  (2011).) Its randomized sear h tree sizes are 24400 \u0006 1900 | astonish-      8\n  ingly high for sudoku; and its mean running time is about 12 M\u0016.)             9 4\n\nxPage 236 lines 6 and 7                                                          05 Feb 2021\n  There are only two solutions : : : symmetri . y In lude `\u0003j :k' in option (0; j; k).\n  There are only four solutions, found in 3 G\u0016, entrally symmetri and redu ing under\n  transposition to only two.\nxPage 237 bottom line                                                            29 Jun 2022\n  in the SUDOKU answer, swap D $ U in the top row\nxPage 239 last line of answer 70                                                25 May 2021\n  63℄; y 63;"
+        },
+        {
+          "line": 569,
+          "context": "  transposition to only two.\nxPage 237 bottom line                                                            29 Jun 2022\n  in the SUDOKU answer, swap D $ U in the top row\nxPage 239 last line of answer 70                                                25 May 2021\n  63℄; y 63;\n\n       CHANGES TO V4F5: MATH PRELIMINARIES, BACKTRACKING ET AL                                       13\nxPage 239   line 3 of answer 72                                     04 Jul 2020\n  1292687 pa kings y 1292697 pa kings\n Page 240 repla ement for last line of answer 74                   18 De 2021\n      [See www.solitairelaboratory. om/puzzlelaboratory/DominoGG.html.℄\nxPage 241 line 2 of answer 77                                      02 Mar 2020"
+        }
+      ]
+    }
+  ],
+  "assessment": "Relevant known change: F5 exercise49 adds edge u7-v1 on2021-08-09, incorporated in4B. No listed correction to the answer48a singleton at(row5,value5), or the answer49(a,b) index/variable inconsistencies. Absence is limited to these official public errata."
+}

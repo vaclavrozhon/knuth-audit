@@ -1,0 +1,7 @@
+{
+  "initial_attempt": "509 cases agreed with subset oracle and pointer restoration, but coverage assertion failed: chosen row not hidden by C4 was not exercised.",
+  "change": "Added five-row red/blue/green instance with prices0,1,5,2,0 and K1,2,5. This specifically exercises equality cost=TH0.",
+  "retry_reason": "New targeted input closes a real uncovered threshold boundary; the previous run did not pass the full test.",
+  "final": "512 cases pass in1.705s, nice15. The successful suite is now frozen.",
+  "source_checker_development": "The first source-check attempt used an incorrect hand-computed expectation14->15 at the six-value prefix. The direct sorted-list computation gave14; corrected the expected value to14 and reran the failed check. The book correctly asks for first detection at prefix7, where the bound is16. This was a verifier expectation error, not a source error."
+}

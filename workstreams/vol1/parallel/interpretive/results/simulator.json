@@ -1,0 +1,101 @@
+{
+  "counts": {
+    "fields_and_signs": 12148,
+    "branches": 2088,
+    "address_transfer": 384,
+    "diagnostics": 1328,
+    "all_radices": 5867,
+    "shift_boundaries": 1110,
+    "move_zero_destination": 296,
+    "timings": 6
+  },
+  "total_success": 21899,
+  "timings": [
+    {
+      "radix": 64,
+      "instruction": "Word(sign=1, digits=(15, 40, 0, 5, 8))",
+      "host_u": 97,
+      "simulated_u": 2
+    },
+    {
+      "radix": 64,
+      "instruction": "Word(sign=1, digits=(15, 40, 0, 13, 8))",
+      "host_u": 102,
+      "simulated_u": 2
+    },
+    {
+      "radix": 64,
+      "instruction": "Word(sign=1, digits=(15, 40, 1, 5, 8))",
+      "host_u": 112,
+      "simulated_u": 2
+    },
+    {
+      "radix": 64,
+      "instruction": "Word(sign=1, digits=(0, 7, 0, 2, 48))",
+      "host_u": 55,
+      "simulated_u": 1
+    },
+    {
+      "radix": 64,
+      "instruction": "Word(sign=1, digits=(0, 0, 0, 2, 48))",
+      "host_u": 57,
+      "simulated_u": 1
+    },
+    {
+      "radix": 64,
+      "instruction": "Word(sign=1, digits=(0, 7, 1, 2, 48))",
+      "host_u": 70,
+      "simulated_u": 1
+    }
+  ],
+  "answer8_fetches": [
+    3499,
+    3500
+  ],
+  "assembly_last_word": {
+    "64": 3871,
+    "100": 3871,
+    "65": 3871,
+    "66": 3871,
+    "67": 3871,
+    "68": 3871,
+    "69": 3871,
+    "70": 3871,
+    "71": 3871,
+    "72": 3871,
+    "73": 3871,
+    "74": 3871,
+    "75": 3871,
+    "76": 3871,
+    "77": 3871,
+    "78": 3871,
+    "79": 3871,
+    "80": 3871,
+    "81": 3871,
+    "82": 3871,
+    "83": 3871,
+    "84": 3871,
+    "85": 3871,
+    "86": 3871,
+    "87": 3871,
+    "88": 3871,
+    "89": 3871,
+    "90": 3871,
+    "91": 3871,
+    "92": 3871,
+    "93": 3871,
+    "94": 3871,
+    "95": 3871,
+    "96": 3871,
+    "97": 3871,
+    "98": 3871,
+    "99": 3871
+  },
+  "limits": [
+    "integer MIX only",
+    "DIV overflow yields unspecified A/X and is excluded",
+    "original I/O absent; tested separately",
+    "timing excludes BEGIN initialization",
+    "Own exercise9 extension credits HLT explicitly; NUM/CHAR use known corrected table cost 10"
+  ]
+}

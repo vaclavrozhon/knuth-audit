@@ -1,0 +1,793 @@
+{
+  "status": "verified",
+  "pid": 697507,
+  "started_at_utc": "2026-11-01T15:53:02.655377+00:00",
+  "command": [
+    "/usr/bin/python3",
+    "audit-2026-10-31/check_langford_mems.py"
+  ],
+  "compile_command": [
+    "g++",
+    "-O3",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "audit-2026-10-31/langford_mems.cpp",
+    "-o",
+    "/tmp/knuth-vol4b-langmem-xwiiu3w2/langford-mems"
+  ],
+  "source_sha256": "3d6e779daa32b67e4fb50a3d08b5f76b1892a39a8074475ac8e639d5aba8a84d",
+  "binary": "/tmp/knuth-vol4b-langmem-xwiiu3w2/langford-mems",
+  "small_cases": [
+    {
+      "n": 1,
+      "loose": false,
+      "variant": 0,
+      "nodes": 1,
+      "representatives": 0,
+      "mems": 6,
+      "mems_without_cached_L5_read": 6,
+      "profile": [
+        1,
+        0
+      ],
+      "mode": "L",
+      "full_model_set_verified": true
+    },
+    {
+      "n": 1,
+      "loose": false,
+      "variant": 1,
+      "nodes": 1,
+      "representatives": 0,
+      "mems": 7,
+      "mems_without_cached_L5_read": 7,
+      "profile": [
+        1,
+        0
+      ],
+      "mode": "L20",
+      "full_model_set_verified": true
+    },
+    {
+      "n": 1,
+      "loose": false,
+      "variant": 2,
+      "nodes": 1,
+      "representatives": 0,
+      "mems": 7,
+      "mems_without_cached_L5_read": 7,
+      "profile": [
+        1,
+        0
+      ],
+      "mode": "L21",
+      "full_model_set_verified": true
+    },
+    {
+      "n": 2,
+      "loose": false,
+      "variant": 0,
+      "nodes": 3,
+      "representatives": 0,
+      "mems": 39,
+      "mems_without_cached_L5_read": 41,
+      "profile": [
+        1,
+        2,
+        0
+      ],
+      "mode": "L",
+      "full_model_set_verified": true
+    },
+    {
+      "n": 2,
+      "loose": false,
+      "variant": 1,
+      "nodes": 2,
+      "representatives": 0,
+      "mems": 32,
+      "mems_without_cached_L5_read": 33,
+      "profile": [
+        1,
+        1,
+        0
+      ],
+      "mode": "L20",
+      "full_model_set_verified": true
+    },
+    {
+      "n": 2,
+      "loose": false,
+      "variant": 2,
+      "nodes": 2,
+      "representatives": 0,
+      "mems": 33,
+      "mems_without_cached_L5_read": 34,
+      "profile": [
+        1,
+        1,
+        0
+      ],
+      "mode": "L21",
+      "full_model_set_verified": true
+    },
+    {
+      "n": 3,
+      "loose": false,
+      "variant": 0,
+      "nodes": 10,
+      "representatives": 2,
+      "mems": 144,
+      "mems_without_cached_L5_read": 153,
+      "profile": [
+        1,
+        3,
+        4,
+        2
+      ],
+      "mode": "L",
+      "full_model_set_verified": true
+    },
+    {
+      "n": 3,
+      "loose": false,
+      "variant": 1,
+      "nodes": 9,
+      "representatives": 2,
+      "mems": 152,
+      "mems_without_cached_L5_read": 160,
+      "profile": [
+        1,
+        3,
+        3,
+        2
+      ],
+      "mode": "L20",
+      "full_model_set_verified": true
+    },
+    {
+      "n": 3,
+      "loose": false,
+      "variant": 2,
+      "nodes": 4,
+      "representatives": 1,
+      "mems": 69,
+      "mems_without_cached_L5_read": 72,
+      "profile": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "mode": "L21",
+      "full_model_set_verified": true
+    },
+    {
+      "n": 4,
+      "loose": false,
+      "variant": 0,
+      "nodes": 27,
+      "representatives": 2,
+      "mems": 431,
+      "mems_without_cached_L5_read": 457,
+      "profile": [
+        1,
+        4,
+        9,
+        11,
+        2
+      ],
+      "mode": "L",
+      "full_model_set_verified": true
+    },
+    {
+      "n": 4,
+      "loose": false,
+      "variant": 1,
+      "nodes": 23,
+      "representatives": 2,
+      "mems": 424,
+      "mems_without_cached_L5_read": 446,
+      "profile": [
+        1,
+        4,
+        9,
+        7,
+        2
+      ],
+      "mode": "L20",
+      "full_model_set_verified": true
+    },
+    {
+      "n": 4,
+      "loose": false,
+      "variant": 2,
+      "nodes": 13,
+      "representatives": 1,
+      "mems": 242,
+      "mems_without_cached_L5_read": 254,
+      "profile": [
+        1,
+        4,
+        4,
+        3,
+        1
+      ],
+      "mode": "L21",
+      "full_model_set_verified": true
+    },
+    {
+      "n": 4,
+      "loose": true,
+      "variant": 2,
+      "nodes": 9,
+      "representatives": 1,
+      "mems": 173,
+      "mems_without_cached_L5_read": 181,
+      "profile": [
+        1,
+        1,
+        3,
+        3,
+        1
+      ],
+      "mode": "loose21",
+      "full_model_set_verified": true
+    },
+    {
+      "n": 5,
+      "loose": false,
+      "variant": 0,
+      "nodes": 84,
+      "representatives": 0,
+      "mems": 1426,
+      "mems_without_cached_L5_read": 1509,
+      "profile": [
+        1,
+        5,
+        16,
+        34,
+        28,
+        0
+      ],
+      "mode": "L",
+      "full_model_set_verified": true
+    },
+    {
+      "n": 5,
+      "loose": false,
+      "variant": 1,
+      "nodes": 67,
+      "representatives": 0,
+      "mems": 1327,
+      "mems_without_cached_L5_read": 1393,
+      "profile": [
+        1,
+        5,
+        16,
+        29,
+        16,
+        0
+      ],
+      "mode": "L20",
+      "full_model_set_verified": true
+    },
+    {
+      "n": 5,
+      "loose": false,
+      "variant": 2,
+      "nodes": 33,
+      "representatives": 0,
+      "mems": 667,
+      "mems_without_cached_L5_read": 699,
+      "profile": [
+        1,
+        5,
+        7,
+        12,
+        8,
+        0
+      ],
+      "mode": "L21",
+      "full_model_set_verified": true
+    },
+    {
+      "n": 5,
+      "loose": true,
+      "variant": 2,
+      "nodes": 28,
+      "representatives": 2,
+      "mems": 540,
+      "mems_without_cached_L5_read": 567,
+      "profile": [
+        1,
+        5,
+        6,
+        6,
+        8,
+        2
+      ],
+      "mode": "loose21",
+      "full_model_set_verified": true
+    },
+    {
+      "n": 6,
+      "loose": false,
+      "variant": 0,
+      "nodes": 342,
+      "representatives": 0,
+      "mems": 5929,
+      "mems_without_cached_L5_read": 6270,
+      "profile": [
+        1,
+        6,
+        25,
+        73,
+        140,
+        97,
+        0
+      ],
+      "mode": "L",
+      "full_model_set_verified": true
+    },
+    {
+      "n": 6,
+      "loose": false,
+      "variant": 1,
+      "nodes": 260,
+      "representatives": 0,
+      "mems": 5279,
+      "mems_without_cached_L5_read": 5538,
+      "profile": [
+        1,
+        6,
+        25,
+        73,
+        100,
+        55,
+        0
+      ],
+      "mode": "L20",
+      "full_model_set_verified": true
+    },
+    {
+      "n": 6,
+      "loose": false,
+      "variant": 2,
+      "nodes": 136,
+      "representatives": 0,
+      "mems": 2812,
+      "mems_without_cached_L5_read": 2947,
+      "profile": [
+        1,
+        6,
+        25,
+        32,
+        43,
+        29,
+        0
+      ],
+      "mode": "L21",
+      "full_model_set_verified": true
+    },
+    {
+      "n": 6,
+      "loose": true,
+      "variant": 2,
+      "nodes": 104,
+      "representatives": 10,
+      "mems": 2066,
+      "mems_without_cached_L5_read": 2169,
+      "profile": [
+        1,
+        6,
+        23,
+        16,
+        27,
+        21,
+        10
+      ],
+      "mode": "loose21",
+      "full_model_set_verified": true
+    },
+    {
+      "n": 7,
+      "loose": false,
+      "variant": 0,
+      "nodes": 1630,
+      "representatives": 52,
+      "mems": 28254,
+      "mems_without_cached_L5_read": 29883,
+      "profile": [
+        1,
+        7,
+        36,
+        136,
+        379,
+        628,
+        391,
+        52
+      ],
+      "mode": "L",
+      "full_model_set_verified": true
+    },
+    {
+      "n": 7,
+      "loose": false,
+      "variant": 1,
+      "nodes": 1157,
+      "representatives": 52,
+      "mems": 23544,
+      "mems_without_cached_L5_read": 24700,
+      "profile": [
+        1,
+        7,
+        36,
+        136,
+        346,
+        381,
+        198,
+        52
+      ],
+      "mode": "L20",
+      "full_model_set_verified": true
+    },
+    {
+      "n": 7,
+      "loose": false,
+      "variant": 2,
+      "nodes": 578,
+      "representatives": 26,
+      "mems": 11980,
+      "mems_without_cached_L5_read": 12557,
+      "profile": [
+        1,
+        7,
+        36,
+        58,
+        143,
+        203,
+        104,
+        26
+      ],
+      "mode": "L21",
+      "full_model_set_verified": true
+    },
+    {
+      "n": 7,
+      "loose": true,
+      "variant": 2,
+      "nodes": 304,
+      "representatives": 0,
+      "mems": 6444,
+      "mems_without_cached_L5_read": 6747,
+      "profile": [
+        1,
+        7,
+        10,
+        40,
+        87,
+        101,
+        58,
+        0
+      ],
+      "mode": "loose21",
+      "full_model_set_verified": true
+    },
+    {
+      "n": 8,
+      "loose": false,
+      "variant": 0,
+      "nodes": 8787,
+      "representatives": 300,
+      "mems": 153437,
+      "mems_without_cached_L5_read": 162223,
+      "profile": [
+        1,
+        8,
+        49,
+        229,
+        821,
+        2182,
+        3265,
+        1932,
+        300
+      ],
+      "mode": "L",
+      "full_model_set_verified": true
+    },
+    {
+      "n": 8,
+      "loose": false,
+      "variant": 1,
+      "nodes": 5672,
+      "representatives": 300,
+      "mems": 117391,
+      "mems_without_cached_L5_read": 123062,
+      "profile": [
+        1,
+        8,
+        49,
+        229,
+        813,
+        1740,
+        1677,
+        855,
+        300
+      ],
+      "mode": "L20",
+      "full_model_set_verified": true
+    },
+    {
+      "n": 8,
+      "loose": false,
+      "variant": 2,
+      "nodes": 2737,
+      "representatives": 150,
+      "mems": 57696,
+      "mems_without_cached_L5_read": 60432,
+      "profile": [
+        1,
+        8,
+        49,
+        203,
+        352,
+        729,
+        820,
+        425,
+        150
+      ],
+      "mode": "L21",
+      "full_model_set_verified": true
+    },
+    {
+      "n": 8,
+      "loose": true,
+      "variant": 2,
+      "nodes": 1437,
+      "representatives": 78,
+      "mems": 30425,
+      "mems_without_cached_L5_read": 31861,
+      "profile": [
+        1,
+        8,
+        13,
+        66,
+        231,
+        427,
+        381,
+        232,
+        78
+      ],
+      "mode": "loose21",
+      "full_model_set_verified": true
+    },
+    {
+      "n": 9,
+      "loose": false,
+      "variant": 0,
+      "nodes": 50759,
+      "representatives": 0,
+      "mems": 904368,
+      "mems_without_cached_L5_read": 955126,
+      "profile": [
+        1,
+        9,
+        64,
+        358,
+        1579,
+        5456,
+        13766,
+        19262,
+        10264,
+        0
+      ],
+      "mode": "L",
+      "full_model_set_verified": true
+    },
+    {
+      "n": 9,
+      "loose": false,
+      "variant": 1,
+      "nodes": 29232,
+      "representatives": 0,
+      "mems": 628861,
+      "mems_without_cached_L5_read": 658092,
+      "profile": [
+        1,
+        9,
+        64,
+        358,
+        1579,
+        5219,
+        9223,
+        8565,
+        4214,
+        0
+      ],
+      "mode": "L20",
+      "full_model_set_verified": true
+    },
+    {
+      "n": 9,
+      "loose": false,
+      "variant": 2,
+      "nodes": 14261,
+      "representatives": 0,
+      "mems": 312651,
+      "mems_without_cached_L5_read": 326911,
+      "profile": [
+        1,
+        9,
+        64,
+        321,
+        659,
+        2052,
+        4469,
+        4528,
+        2158,
+        0
+      ],
+      "mode": "L21",
+      "full_model_set_verified": true
+    },
+    {
+      "n": 9,
+      "loose": true,
+      "variant": 2,
+      "nodes": 6472,
+      "representatives": 258,
+      "mems": 140933,
+      "mems_without_cached_L5_read": 147404,
+      "profile": [
+        1,
+        9,
+        61,
+        125,
+        455,
+        905,
+        1958,
+        1758,
+        942,
+        258
+      ],
+      "mode": "loose21",
+      "full_model_set_verified": true
+    },
+    {
+      "n": 10,
+      "loose": false,
+      "variant": 0,
+      "nodes": 326781,
+      "representatives": 0,
+      "mems": 5857067,
+      "mems_without_cached_L5_read": 6183847,
+      "profile": [
+        1,
+        10,
+        81,
+        529,
+        2787,
+        11802,
+        40069,
+        94913,
+        120565,
+        56024,
+        0
+      ],
+      "mode": "L",
+      "full_model_set_verified": true
+    },
+    {
+      "n": 10,
+      "loose": false,
+      "variant": 1,
+      "nodes": 171981,
+      "representatives": 0,
+      "mems": 3755495,
+      "mems_without_cached_L5_read": 3927475,
+      "profile": [
+        1,
+        10,
+        81,
+        529,
+        2787,
+        11772,
+        35057,
+        52873,
+        46735,
+        22136,
+        0
+      ],
+      "mode": "L20",
+      "full_model_set_verified": true
+    },
+    {
+      "n": 10,
+      "loose": false,
+      "variant": 2,
+      "nodes": 80674,
+      "representatives": 0,
+      "mems": 1796039,
+      "mems_without_cached_L5_read": 1876712,
+      "profile": [
+        1,
+        10,
+        81,
+        529,
+        2098,
+        4933,
+        14352,
+        24191,
+        23643,
+        10836,
+        0
+      ],
+      "mode": "L21",
+      "full_model_set_verified": true
+    },
+    {
+      "n": 10,
+      "loose": true,
+      "variant": 2,
+      "nodes": 31874,
+      "representatives": 1004,
+      "mems": 713776,
+      "mems_without_cached_L5_read": 745649,
+      "profile": [
+        1,
+        10,
+        86,
+        508,
+        963,
+        2277,
+        5018,
+        8847,
+        8986,
+        4174,
+        1004
+      ],
+      "mode": "loose21",
+      "full_model_set_verified": true
+    }
+  ],
+  "binary_sha256": "a9bda055182e79b6705366a43523348cb5dfff297d92dc219fae528c3c35c88a",
+  "loose15_command": [
+    "/tmp/knuth-vol4b-langmem-xwiiu3w2/langford-mems",
+    "15",
+    "loose21"
+  ],
+  "loose15_pid": 697582,
+  "loose15_elapsed_seconds": 25.833019357989542,
+  "loose15_returncode": 0,
+  "finished_at_utc": "2026-11-01T15:53:41.671052+00:00",
+  "loose15_summary": {
+    "n": 15,
+    "loose": true,
+    "variant": 2,
+    "nodes": 396535288,
+    "representatives": 0,
+    "mems": 9537980169,
+    "mems_without_cached_L5_read": 9934515456,
+    "profile": [
+      1,
+      15,
+      203,
+      2155,
+      6540,
+      59496,
+      468923,
+      2698609,
+      9613257,
+      27645415,
+      54176853,
+      92487498,
+      103444585,
+      78136327,
+      27795411,
+      0
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "status": "verified",
+  "checked_at_utc": "2026-11-01T19:15:02.984772+00:00",
+  "source_sha256": "ada978a4e00032f5624519f675ae1eae197da2e22d38067884f832f9c8055c0f",
+  "totals": {
+    "distinct_option_runs": 9028,
+    "checkpoint_bound_checks": 67540,
+    "factor_two_bound_checks": 33770,
+    "prefix_family_checks": 33770,
+    "transient_bound_violations": 2351,
+    "repeated_option_runs": 392
+  },
+  "singleton": {
+    "solutions": 1,
+    "peak": 2,
+    "peak_after_compression": 1,
+    "frontier_max": 0,
+    "checkpoint_bound_checks": 2,
+    "transient_bound_violations": 1,
+    "factor_two_bound_checks": 1,
+    "prefix_family_checks": 1,
+    "trace": [
+      {
+        "k": 1,
+        "row": 1,
+        "past": 0,
+        "future": 0,
+        "frontier": 0,
+        "nu": 0,
+        "bound": 1,
+        "before": 1,
+        "after_N3": 2,
+        "after_N4": 1
+      }
+    ]
+  },
+  "empty_problem": {
+    "solutions": 1,
+    "peak": 1,
+    "peak_after_compression": 1,
+    "frontier_max": 0,
+    "checkpoint_bound_checks": 0,
+    "transient_bound_violations": 0,
+    "factor_two_bound_checks": 0,
+    "prefix_family_checks": 0,
+    "trace": []
+  },
+  "scope": "Literal descending array insertion and swap deletion; all row-index solution families compared after every compressed prefix. The bound 2^nu holds at the iteration checkpoints; transient size needs a factor two."
+}

@@ -1,0 +1,400 @@
+{
+  "pid": 1287269,
+  "checkpoints": {
+    "identities": {
+      "exact_UV_indices": 5408,
+      "addition_identities": 45968,
+      "lifting_cases": 600,
+      "scope": "Includes negative and zero P,Q,D; special lifting includes primes2 and3.",
+      "passed": true,
+      "seconds": 0.3876074809813872
+    },
+    "criterion": {
+      "cases": 16972,
+      "prime_witnesses": 922,
+      "nonunit_Q_rejections": 2482,
+      "full_rank_checks": 14490,
+      "independent_matrix_checks": 58152,
+      "fibonacci_example": [
+        0,
+        1,
+        1,
+        2,
+        3,
+        5,
+        8,
+        13,
+        21,
+        11,
+        9,
+        20,
+        6,
+        3,
+        9,
+        12,
+        21,
+        10,
+        8,
+        18,
+        3,
+        21,
+        1,
+        22,
+        0
+      ],
+      "N_range": "all odd3..511",
+      "P_Q_range": [
+        -5,
+        5
+      ],
+      "passed": true,
+      "seconds": 8.111785550951026
+    },
+    "lucas_lehmer": {
+      "all_exponents_3_to_31": [
+        {
+          "q": 3,
+          "residue": 0,
+          "prime": true
+        },
+        {
+          "q": 4,
+          "residue": 14,
+          "prime": false
+        },
+        {
+          "q": 5,
+          "residue": 0,
+          "prime": true
+        },
+        {
+          "q": 6,
+          "residue": 23,
+          "prime": false
+        },
+        {
+          "q": 7,
+          "residue": 0,
+          "prime": true
+        },
+        {
+          "q": 8,
+          "residue": 149,
+          "prime": false
+        },
+        {
+          "q": 9,
+          "residue": 205,
+          "prime": false
+        },
+        {
+          "q": 10,
+          "residue": 95,
+          "prime": false
+        },
+        {
+          "q": 11,
+          "residue": 1736,
+          "prime": false
+        },
+        {
+          "q": 12,
+          "residue": 779,
+          "prime": false
+        },
+        {
+          "q": 13,
+          "residue": 0,
+          "prime": true
+        },
+        {
+          "q": 14,
+          "residue": 4193,
+          "prime": false
+        },
+        {
+          "q": 15,
+          "residue": 20400,
+          "prime": false
+        },
+        {
+          "q": 16,
+          "residue": 25439,
+          "prime": false
+        },
+        {
+          "q": 17,
+          "residue": 0,
+          "prime": true
+        },
+        {
+          "q": 18,
+          "residue": 221468,
+          "prime": false
+        },
+        {
+          "q": 19,
+          "residue": 0,
+          "prime": true
+        },
+        {
+          "q": 20,
+          "residue": 1036394,
+          "prime": false
+        },
+        {
+          "q": 21,
+          "residue": 840107,
+          "prime": false
+        },
+        {
+          "q": 22,
+          "residue": 1751891,
+          "prime": false
+        },
+        {
+          "q": 23,
+          "residue": 6107895,
+          "prime": false
+        },
+        {
+          "q": 24,
+          "residue": 5639594,
+          "prime": false
+        },
+        {
+          "q": 25,
+          "residue": 8772568,
+          "prime": false
+        },
+        {
+          "q": 26,
+          "residue": 66322529,
+          "prime": false
+        },
+        {
+          "q": 27,
+          "residue": 60611448,
+          "prime": false
+        },
+        {
+          "q": 28,
+          "residue": 99083624,
+          "prime": false
+        },
+        {
+          "q": 29,
+          "residue": 458738443,
+          "prime": false
+        },
+        {
+          "q": 30,
+          "residue": 989927528,
+          "prime": false
+        },
+        {
+          "q": 31,
+          "residue": 0,
+          "prime": true
+        }
+      ],
+      "listed_prime_certificates": [
+        {
+          "q": 3,
+          "squarings": 1,
+          "scalar_residue": 0,
+          "quadratic_trace": 0,
+          "quadratic_norm": 1
+        },
+        {
+          "q": 5,
+          "squarings": 3,
+          "scalar_residue": 0,
+          "quadratic_trace": 0,
+          "quadratic_norm": 1
+        },
+        {
+          "q": 7,
+          "squarings": 5,
+          "scalar_residue": 0,
+          "quadratic_trace": 0,
+          "quadratic_norm": 1
+        },
+        {
+          "q": 13,
+          "squarings": 11,
+          "scalar_residue": 0,
+          "quadratic_trace": 0,
+          "quadratic_norm": 1
+        },
+        {
+          "q": 17,
+          "squarings": 15,
+          "scalar_residue": 0,
+          "quadratic_trace": 0,
+          "quadratic_norm": 1
+        },
+        {
+          "q": 19,
+          "squarings": 17,
+          "scalar_residue": 0,
+          "quadratic_trace": 0,
+          "quadratic_norm": 1
+        },
+        {
+          "q": 31,
+          "squarings": 29,
+          "scalar_residue": 0,
+          "quadratic_trace": 0,
+          "quadratic_norm": 1
+        },
+        {
+          "q": 61,
+          "squarings": 59,
+          "scalar_residue": 0,
+          "quadratic_trace": 0,
+          "quadratic_norm": 1
+        },
+        {
+          "q": 89,
+          "squarings": 87,
+          "scalar_residue": 0,
+          "quadratic_trace": 0,
+          "quadratic_norm": 1
+        },
+        {
+          "q": 107,
+          "squarings": 105,
+          "scalar_residue": 0,
+          "quadratic_trace": 0,
+          "quadratic_norm": 1
+        },
+        {
+          "q": 127,
+          "squarings": 125,
+          "scalar_residue": 0,
+          "quadratic_trace": 0,
+          "quadratic_norm": 1
+        },
+        {
+          "q": 521,
+          "squarings": 519,
+          "scalar_residue": 0,
+          "quadratic_trace": 0,
+          "quadratic_norm": 1
+        },
+        {
+          "q": 607,
+          "squarings": 605,
+          "scalar_residue": 0,
+          "quadratic_trace": 0,
+          "quadratic_norm": 1
+        },
+        {
+          "q": 1279,
+          "squarings": 1277,
+          "scalar_residue": 0,
+          "quadratic_trace": 0,
+          "quadratic_norm": 1
+        },
+        {
+          "q": 2203,
+          "squarings": 2201,
+          "scalar_residue": 0,
+          "quadratic_trace": 0,
+          "quadratic_norm": 1
+        },
+        {
+          "q": 2281,
+          "squarings": 2279,
+          "scalar_residue": 0,
+          "quadratic_trace": 0,
+          "quadratic_norm": 1
+        },
+        {
+          "q": 3217,
+          "squarings": 3215,
+          "scalar_residue": 0,
+          "quadratic_trace": 0,
+          "quadratic_norm": 1
+        },
+        {
+          "q": 4253,
+          "squarings": 4251,
+          "scalar_residue": 0,
+          "quadratic_trace": 0,
+          "quadratic_norm": 1
+        },
+        {
+          "q": 4423,
+          "squarings": 4421,
+          "scalar_residue": 0,
+          "quadratic_trace": 0,
+          "quadratic_norm": 1
+        },
+        {
+          "q": 9689,
+          "squarings": 9687,
+          "scalar_residue": 0,
+          "quadratic_trace": 0,
+          "quadratic_norm": 1
+        },
+        {
+          "q": 9941,
+          "squarings": 9939,
+          "scalar_residue": 0,
+          "quadratic_trace": 0,
+          "quadratic_norm": 1
+        },
+        {
+          "q": 11213,
+          "squarings": 11211,
+          "scalar_residue": 0,
+          "quadratic_trace": 0,
+          "quadratic_norm": 1
+        }
+      ],
+      "scope": "22 odd listed exponents through11213; exponent2 handled directly. Larger published primes not recomputed here.",
+      "passed": true,
+      "seconds": 50.848812431970146
+    },
+    "precheck": {
+      "counterexamples": [
+        {
+          "N": 5,
+          "P": 1,
+          "Q": -1,
+          "D": 5,
+          "QD": -5,
+          "gcd": 5,
+          "abs_QD_exceeds_N": false,
+          "N_is_prime": true
+        },
+        {
+          "N": 3,
+          "P": 1,
+          "Q": 1,
+          "D": -3,
+          "QD": -3,
+          "gcd": 3,
+          "abs_QD_exceeds_N": false,
+          "N_is_prime": true
+        },
+        {
+          "N": 3,
+          "P": 1,
+          "Q": 0,
+          "D": 1,
+          "QD": 0,
+          "gcd": 3,
+          "abs_QD_exceeds_N": false,
+          "N_is_prime": true
+        }
+      ],
+      "correction": "Conclude composite only when 1<gcd(N,QD)<N.",
+      "passed": true,
+      "seconds": 3.3863005228340626e-05
+    }
+  },
+  "passed": true
+}

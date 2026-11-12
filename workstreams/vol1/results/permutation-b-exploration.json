@@ -1,0 +1,24 @@
+[
+  {
+    "corrected": false,
+    "core_time": 1045,
+    "output": [
+      "    (A    C    F    G    )        (B    C    D    )        (A    E    D    )                                            ",
+      "    (F    A    D    E    )        (B    G    F    A    E    )                  =                                        ",
+      "    (C    E    B    )        (D    G    A    )        (     A    )                                                      "
+    ],
+    "exception": null,
+    "instructions": 754
+  },
+  {
+    "corrected": true,
+    "core_time": 983,
+    "output": [
+      "    (A    C    F    G    )        (B    C    D    )        (A    E    D    )                                            ",
+      "    (F    A    D    E    )        (B    G    F    A    E    )                  =                                        ",
+      "    (C    E    B    )        (D    G    A    )                                                                          "
+    ],
+    "exception": null,
+    "instructions": 715
+  }
+]

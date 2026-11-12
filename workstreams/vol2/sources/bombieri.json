@@ -1,0 +1,196 @@
+{
+  "accessed_utc": "2026-11-04T03:18:16.015042+00:00",
+  "scope": "Complete own mathematical proof of4.6.2–21; primary text-source reading explicitly limited.",
+  "book": {
+    "edition": 3,
+    "printing": 1,
+    "printed_pages_visually_read": [
+      458,
+      683,
+      684
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://arxiv.org/pdf/math/9307202",
+      "title": "Zeilberger: Chu identity and Bombieri inequality",
+      "version": "Author version with 1994 revision and publication statement, 2 PDF pages",
+      "pages_textually_read": [
+        1,
+        2
+      ],
+      "visually_read": false
+    },
+    {
+      "url": "https://www.scmsa.eu/BB_Publications/BB_Degot_Differential_Identities.pdf",
+      "title": "Beauzamy–Dégot: Differential Identities",
+      "version": "October1993 author preprint, cover+11pages",
+      "pages_textually_read": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "visually_read": false
+    },
+    {
+      "url": "https://www.scmsa.eu/cvbb.pdf",
+      "title": "Author publication list, updated2026",
+      "pages_textually_read": [
+        8
+      ],
+      "entries": [
+        67,
+        74
+      ],
+      "facts": {
+        "74": "TransAMS347(7),1995,2607–2619",
+        "67": "JSC13(5),1992,463–472"
+      },
+      "visually_read": false
+    },
+    {
+      "url": "https://www.researchgate.net/publication/265259474_Differential_identities",
+      "title": "Author-uploaded published Differential identities",
+      "scope": "Article header and metadata only;347(7),July1995,2607–2619; publisher PDF403, downloadlink404",
+      "visually_read": false
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0747717110800069",
+      "title": "Products of polynomials and a priori estimates for coefficients in polynomial decompositions: A sharp result",
+      "scope": "Publisher indexed metadata and abstract;JSC13(5),May1992,463–472. Proposition5 fulltext unavailable.",
+      "visually_read": false
+    },
+    {
+      "url": "https://www.scmsa.eu/archives/ART_quantitative_estimates_1992.pdf",
+      "title": "Beauzamy–Enflo–Wang Quantitative Estimates",
+      "version": "June1992 author preprint",
+      "scope": "Relevant text of printed10 with norm/product bound; not the single-author JSC1992 paper.",
+      "visually_read": false
+    }
+  ],
+  "download_failures": "sources/bombieri-downloads.json",
+  "web_access_limitation": "Local DNS failures; web PDF text readable, screenshot calls returned only text markers, not image payloads. No visual source-page reading claimed.",
+  "errata": {
+    "layers": [
+      "all2-prepre",
+      "all2-pre",
+      "all2",
+      "err2",
+      "err2-2e",
+      "err2.textxt"
+    ],
+    "log": "sources/bombieri-errata.txt",
+    "known_corrections": [
+      "1998-04-14 u_j",
+      "1999-06-06 squared1",
+      "2005-02-03 squarednorms"
+    ],
+    "new_findings": [
+      "C0217",
+      "C0218"
+    ],
+    "matching_corrections_found": false
+  },
+  "verification": {
+    "result": "results/bombieri.json",
+    "successful_blocks": 4,
+    "elapsed_seconds": 5.676311814109795,
+    "timeout_seconds_per_block": 240,
+    "first_session": 28013,
+    "first_exit_code": 1,
+    "successful_remaining_session": 36654,
+    "remaining_exit_code": 0,
+    "scope": "Own conjugation placement corrected; completed identity not repeated. Driver KeyError occurred before launching tests and was corrected. Numerical asymptotic illustrations separate from exact algebraic checks."
+  },
+  "artifacts": [
+    {
+      "path": "images/vol2-p458.png",
+      "bytes": 316552,
+      "sha256": "e115f8649f10a966abdc406f6ddc46a472fdffc1aec9ec070c8b1b75d4d49275"
+    },
+    {
+      "path": "images/vol2-p683.png",
+      "bytes": 359775,
+      "sha256": "5590f9e1f63198c99414d6d348a6d96ec470be3ba1256b45128f5ba3a77bda5e"
+    },
+    {
+      "path": "images/vol2-p684.png",
+      "bytes": 336138,
+      "sha256": "9166d26892bf618a427b49a77adff52c61b919aa1bb6c90075e1e72a45d38f00"
+    },
+    {
+      "path": "notes/C0217-bombieri-gaussian-dimension.md",
+      "bytes": 777,
+      "sha256": "6e10658a1fe0f3e46f6eb25ce84d9200c07404a0def9c0240fefc3970ef0fa2f"
+    },
+    {
+      "path": "notes/C0218-beauzamy-degot-volume.md",
+      "bytes": 941,
+      "sha256": "ad8eabc0656d0267136cfd8fc3b497880d0a3648e6f439cd41d0381d71a1b94d"
+    },
+    {
+      "path": "notes/bombieri.md",
+      "bytes": 12555,
+      "sha256": "5ecf876eeb991981fc26c8907c1b56ca8d40a8a7cae38402e1494d5cc21b5668"
+    },
+    {
+      "path": "reports/C0217-bombieri-gaussian-dimension-draft.txt",
+      "bytes": 746,
+      "sha256": "37e251263443f409841e35c452c8c4ded8fb20b526a97c1156c937028d8056e4"
+    },
+    {
+      "path": "reports/C0218-beauzamy-degot-volume-draft.txt",
+      "bytes": 583,
+      "sha256": "818de0ef22452a949e89bfb8d39c4a0cfa52334015ad6ac99bbb0610614acab9"
+    },
+    {
+      "path": "results/bombieri-bounds.log",
+      "bytes": 503,
+      "sha256": "29ef7291c57a76525d78d719df96bbd7f4cbab0b0517677edd146580bf8c0e8a"
+    },
+    {
+      "path": "results/bombieri-gaussian.log",
+      "bytes": 343,
+      "sha256": "f2f041b3fe5138a94fc77359ad9a8eb6e9c7d928c0d69a228b0d91e49d34c719"
+    },
+    {
+      "path": "results/bombieri-identity.log",
+      "bytes": 206,
+      "sha256": "6ee7902ee11d6df5ec7a02858163c7f585a6c038c1bc2aa04d56055c19eb9f20"
+    },
+    {
+      "path": "results/bombieri-norms-conjugation.log",
+      "bytes": 578,
+      "sha256": "46f8bcd8387b483cfdc1ceb2f072c43203955d952ac1e0b2b7dc93089ee035f2"
+    },
+    {
+      "path": "results/bombieri-norms.log",
+      "bytes": 306,
+      "sha256": "1dc9c8ff72a799cbb54808ed461d54281026fdedf6783855cabcea8f3c5c6764"
+    },
+    {
+      "path": "results/bombieri.json",
+      "bytes": 1922,
+      "sha256": "0a4491fdd32e329e2d1a3e26b74244e1d404854ce66ad8fb05f037a556c79691"
+    },
+    {
+      "path": "sources/bombieri-downloads.json",
+      "bytes": 3113,
+      "sha256": "64d968004fe7a98a6a2eb09337185bf0605a98ba6094323d3970812e99956bb9"
+    },
+    {
+      "path": "sources/bombieri-errata.txt",
+      "bytes": 20225,
+      "sha256": "9431e3bb652f6350588ad8978550595b750d1f04d5081528f4ae2abd67b03ced"
+    },
+    {
+      "path": "verify_bombieri.py",
+      "bytes": 9248,
+      "sha256": "2d5615eed03189f85c77c1a861044cd133099ddd5a1be4342a8e647508821263"
+    }
+  ]
+}

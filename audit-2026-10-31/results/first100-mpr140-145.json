@@ -1,0 +1,60 @@
+{
+  "checked_at_utc": "2026-11-07T11:04:39.062549+00:00",
+  "scope": "Small exact confirmation of concrete doubts, no permutation census.",
+  "mpr140a": [
+    {
+      "n": 4,
+      "exact_unmarked_expectation": "43/24",
+      "decimal": 1.7916666666666667,
+      "n_times_difference_from_2": -0.8333333333333334,
+      "independent_formulas_equal": true
+    },
+    {
+      "n": 8,
+      "exact_unmarked_expectation": "11119/4480",
+      "decimal": 2.481919642857143,
+      "n_times_difference_from_2": 3.8553571428571427,
+      "independent_formulas_equal": true
+    },
+    {
+      "n": 16,
+      "exact_unmarked_expectation": "1204110227/492011520",
+      "decimal": 2.4473212070319006,
+      "n_times_difference_from_2": 7.157139312510406,
+      "independent_formulas_equal": true
+    },
+    {
+      "n": 32,
+      "exact_unmarked_expectation": "111286523869513289069/51273853927266713600",
+      "decimal": 2.1704341559223557,
+      "n_times_difference_from_2": 5.4538929895153805,
+      "independent_formulas_equal": true
+    }
+  ],
+  "mpr140e": {
+    "n": 100,
+    "epsilon": "1/4",
+    "m": 5,
+    "k": 51,
+    "base": "50 zeros followed by50 ones",
+    "delta_range": [
+      "-1/4",
+      "1/4"
+    ],
+    "Delta": 1,
+    "P_star": 1,
+    "P_starstar": 0
+  },
+  "mpr145": {
+    "n": 3,
+    "m": 2,
+    "k": [
+      0,
+      0,
+      2
+    ],
+    "coefficient_ratio": 1,
+    "printed_ratio": 3,
+    "corrected_ratio": 1
+  }
+}

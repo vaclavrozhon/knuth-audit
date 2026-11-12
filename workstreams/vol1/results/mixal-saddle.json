@@ -1,0 +1,665 @@
+{
+  "checks": 9381,
+  "binary_exhaustive": [
+    {
+      "m": 1,
+      "n": 1,
+      "matrices": 2,
+      "probability": "1",
+      "mean_times_including_hlt": [
+        "21",
+        "29"
+      ]
+    },
+    {
+      "m": 1,
+      "n": 4,
+      "matrices": 16,
+      "probability": "1",
+      "mean_times_including_hlt": [
+        "793/16",
+        "783/8"
+      ]
+    },
+    {
+      "m": 4,
+      "n": 1,
+      "matrices": 16,
+      "probability": "1",
+      "mean_times_including_hlt": [
+        "445/8",
+        "795/16"
+      ]
+    },
+    {
+      "m": 2,
+      "n": 2,
+      "matrices": 16,
+      "probability": "7/8",
+      "mean_times_including_hlt": [
+        "48",
+        "133/2"
+      ]
+    },
+    {
+      "m": 2,
+      "n": 3,
+      "matrices": 64,
+      "probability": "13/16",
+      "mean_times_including_hlt": [
+        "3951/64",
+        "3019/32"
+      ]
+    },
+    {
+      "m": 3,
+      "n": 2,
+      "matrices": 64,
+      "probability": "13/16",
+      "mean_times_including_hlt": [
+        "4723/64",
+        "5269/64"
+      ]
+    },
+    {
+      "m": 3,
+      "n": 3,
+      "matrices": 512,
+      "probability": "169/256",
+      "mean_times_including_hlt": [
+        "6551/64",
+        "60059/512"
+      ]
+    }
+  ],
+  "distinct_exhaustive": [
+    {
+      "m": 1,
+      "n": 3,
+      "matrices": 6,
+      "probability": "1",
+      "mean_times_including_hlt": [
+        "233/6",
+        "218/3"
+      ]
+    },
+    {
+      "m": 3,
+      "n": 1,
+      "matrices": 6,
+      "probability": "1",
+      "mean_times_including_hlt": [
+        "335/6",
+        "143/3"
+      ]
+    },
+    {
+      "m": 2,
+      "n": 2,
+      "matrices": 24,
+      "probability": "2/3",
+      "mean_times_including_hlt": [
+        "337/6",
+        "269/4"
+      ]
+    },
+    {
+      "m": 2,
+      "n": 3,
+      "matrices": 720,
+      "probability": "1/2",
+      "mean_times_including_hlt": [
+        "1745/24",
+        "5633/60"
+      ]
+    },
+    {
+      "m": 3,
+      "n": 2,
+      "matrices": 720,
+      "probability": "1/2",
+      "mean_times_including_hlt": [
+        "769/9",
+        "5063/60"
+      ]
+    }
+  ],
+  "all_zero_profiles": [
+    {
+      "solution": 1,
+      "time_including_hlt": 138,
+      "instructions": [
+        {
+          "location": 200,
+          "row": [
+            "START",
+            "ENT1",
+            "72"
+          ],
+          "executions": 1,
+          "time": 1
+        },
+        {
+          "location": 201,
+          "row": [
+            "ROWMIN",
+            "ENT2",
+            "8"
+          ],
+          "executions": 1,
+          "time": 1
+        },
+        {
+          "location": 202,
+          "row": [
+            "2H",
+            "LDX",
+            "A10,1"
+          ],
+          "executions": 1,
+          "time": 2
+        },
+        {
+          "location": 203,
+          "row": [
+            "",
+            "ENT3",
+            "0"
+          ],
+          "executions": 1,
+          "time": 1
+        },
+        {
+          "location": 204,
+          "row": [
+            "4H",
+            "INC3",
+            "1"
+          ],
+          "executions": 8,
+          "time": 8
+        },
+        {
+          "location": 205,
+          "row": [
+            "",
+            "ST2",
+            "LIST,3"
+          ],
+          "executions": 8,
+          "time": 16
+        },
+        {
+          "location": 206,
+          "row": [
+            "1H",
+            "DEC1",
+            "1"
+          ],
+          "executions": 8,
+          "time": 8
+        },
+        {
+          "location": 207,
+          "row": [
+            "",
+            "DEC2",
+            "1"
+          ],
+          "executions": 8,
+          "time": 8
+        },
+        {
+          "location": 208,
+          "row": [
+            "",
+            "J2Z",
+            "COLMAX"
+          ],
+          "executions": 8,
+          "time": 8
+        },
+        {
+          "location": 209,
+          "row": [
+            "3H",
+            "CMPX",
+            "A10,1"
+          ],
+          "executions": 7,
+          "time": 14
+        },
+        {
+          "location": 210,
+          "row": [
+            "",
+            "JL",
+            "1B"
+          ],
+          "executions": 7,
+          "time": 7
+        },
+        {
+          "location": 211,
+          "row": [
+            "",
+            "JG",
+            "2B"
+          ],
+          "executions": 7,
+          "time": 7
+        },
+        {
+          "location": 212,
+          "row": [
+            "",
+            "JMP",
+            "4B"
+          ],
+          "executions": 7,
+          "time": 7
+        },
+        {
+          "location": 213,
+          "row": [
+            "COLMAX",
+            "LD2",
+            "LIST,3"
+          ],
+          "executions": 1,
+          "time": 2
+        },
+        {
+          "location": 214,
+          "row": [
+            "",
+            "INC2",
+            "64"
+          ],
+          "executions": 1,
+          "time": 1
+        },
+        {
+          "location": 215,
+          "row": [
+            "1H",
+            "CMPX",
+            "A10,2"
+          ],
+          "executions": 9,
+          "time": 18
+        },
+        {
+          "location": 216,
+          "row": [
+            "",
+            "JL",
+            "NO"
+          ],
+          "executions": 9,
+          "time": 9
+        },
+        {
+          "location": 217,
+          "row": [
+            "",
+            "DEC2",
+            "8"
+          ],
+          "executions": 9,
+          "time": 9
+        },
+        {
+          "location": 218,
+          "row": [
+            "",
+            "J2P",
+            "1B"
+          ],
+          "executions": 9,
+          "time": 9
+        },
+        {
+          "location": 219,
+          "row": [
+            "YES",
+            "INC1",
+            "A10+8,2"
+          ],
+          "executions": 1,
+          "time": 1
+        },
+        {
+          "location": 220,
+          "row": [
+            "",
+            "HLT",
+            ""
+          ],
+          "executions": 1,
+          "time": 1
+        }
+      ]
+    },
+    {
+      "solution": 2,
+      "time_including_hlt": 524,
+      "instructions": [
+        {
+          "location": 200,
+          "row": [
+            "PHASE1",
+            "ENT1",
+            "8"
+          ],
+          "executions": 1,
+          "time": 1
+        },
+        {
+          "location": 201,
+          "row": [
+            "3H",
+            "ENT2",
+            "64,1"
+          ],
+          "executions": 8,
+          "time": 8
+        },
+        {
+          "location": 202,
+          "row": [
+            "",
+            "JMP",
+            "2F"
+          ],
+          "executions": 8,
+          "time": 8
+        },
+        {
+          "location": 203,
+          "row": [
+            "1H",
+            "CMPX",
+            "A10,2"
+          ],
+          "executions": 64,
+          "time": 128
+        },
+        {
+          "location": 204,
+          "row": [
+            "",
+            "JGE",
+            "*+2"
+          ],
+          "executions": 64,
+          "time": 64
+        },
+        {
+          "location": 205,
+          "row": [
+            "2H",
+            "LDX",
+            "A10,2"
+          ],
+          "executions": 8,
+          "time": 16
+        },
+        {
+          "location": 206,
+          "row": [
+            "",
+            "DEC2",
+            "8"
+          ],
+          "executions": 72,
+          "time": 72
+        },
+        {
+          "location": 207,
+          "row": [
+            "",
+            "J2P",
+            "1B"
+          ],
+          "executions": 72,
+          "time": 72
+        },
+        {
+          "location": 208,
+          "row": [
+            "",
+            "STX",
+            "CMAX+8,2"
+          ],
+          "executions": 8,
+          "time": 16
+        },
+        {
+          "location": 209,
+          "row": [
+            "",
+            "J2Z",
+            "1F"
+          ],
+          "executions": 8,
+          "time": 8
+        },
+        {
+          "location": 210,
+          "row": [
+            "",
+            "CMPA",
+            "CMAX+8,2"
+          ],
+          "executions": 7,
+          "time": 14
+        },
+        {
+          "location": 211,
+          "row": [
+            "",
+            "JLE",
+            "*+2"
+          ],
+          "executions": 7,
+          "time": 7
+        },
+        {
+          "location": 212,
+          "row": [
+            "1H",
+            "LDA",
+            "CMAX+8,2"
+          ],
+          "executions": 1,
+          "time": 2
+        },
+        {
+          "location": 213,
+          "row": [
+            "",
+            "DEC1",
+            "1"
+          ],
+          "executions": 8,
+          "time": 8
+        },
+        {
+          "location": 214,
+          "row": [
+            "",
+            "J1P",
+            "3B"
+          ],
+          "executions": 8,
+          "time": 8
+        },
+        {
+          "location": 215,
+          "row": [
+            "PHASE2",
+            "ENT3",
+            "72"
+          ],
+          "executions": 1,
+          "time": 1
+        },
+        {
+          "location": 216,
+          "row": [
+            "3H",
+            "ENT2",
+            "0,3"
+          ],
+          "executions": 1,
+          "time": 1
+        },
+        {
+          "location": 217,
+          "row": [
+            "",
+            "ENT4",
+            "8"
+          ],
+          "executions": 1,
+          "time": 1
+        },
+        {
+          "location": 218,
+          "row": [
+            "1H",
+            "CMPA",
+            "A10,2"
+          ],
+          "executions": 8,
+          "time": 16
+        },
+        {
+          "location": 219,
+          "row": [
+            "",
+            "JG",
+            "NO"
+          ],
+          "executions": 8,
+          "time": 8
+        },
+        {
+          "location": 220,
+          "row": [
+            "",
+            "JL",
+            "2F"
+          ],
+          "executions": 8,
+          "time": 8
+        },
+        {
+          "location": 221,
+          "row": [
+            "",
+            "CMPA",
+            "CMAX,4"
+          ],
+          "executions": 8,
+          "time": 16
+        },
+        {
+          "location": 222,
+          "row": [
+            "",
+            "JNE",
+            "2F"
+          ],
+          "executions": 8,
+          "time": 8
+        },
+        {
+          "location": 223,
+          "row": [
+            "",
+            "ENT1",
+            "A10,2"
+          ],
+          "executions": 8,
+          "time": 8
+        },
+        {
+          "location": 224,
+          "row": [
+            "2H",
+            "DEC4",
+            "1"
+          ],
+          "executions": 8,
+          "time": 8
+        },
+        {
+          "location": 225,
+          "row": [
+            "",
+            "DEC2",
+            "1"
+          ],
+          "executions": 8,
+          "time": 8
+        },
+        {
+          "location": 226,
+          "row": [
+            "",
+            "J4P",
+            "1B"
+          ],
+          "executions": 8,
+          "time": 8
+        },
+        {
+          "location": 227,
+          "row": [
+            "",
+            "HLT",
+            ""
+          ],
+          "executions": 1,
+          "time": 1
+        }
+      ]
+    }
+  ],
+  "9x8": {
+    "probability_distinct": "1/1430",
+    "probability_binary": "924744796234036231/18446744073709551616",
+    "binary_mean_times_including_hlt": [
+      "5373183144946623404755099/4722366482869645213696",
+      "2837553720337707036078043/4722366482869645213696"
+    ],
+    "binary_mean_times_decimal": [
+      1137.8157888503172,
+      600.8753726825132
+    ],
+    "distinct_time_intervals_including_hlt": {
+      "solution1": [
+        "26864429/40040",
+        "2443127/3640"
+      ],
+      "solution2": [
+        "1074634266928985/1940444535744",
+        "1074932796857561/1940444535744"
+      ]
+    },
+    "distinct_time_intervals_decimal": {
+      "solution1": [
+        670.9397852147852,
+        671.1887362637362
+      ],
+      "solution2": [
+        553.8082883244853,
+        553.9621344783313
+      ]
+    },
+    "all_rows_average_scan_length": "535086028033889/393910240756032",
+    "selected_row_average_scan_length": "31448415930439/19894456603840"
+  }
+}

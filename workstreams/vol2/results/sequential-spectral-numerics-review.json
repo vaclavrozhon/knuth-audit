@@ -1,0 +1,186 @@
+{
+  "reviewed_at_utc": "2026-11-06T09:44:57.098855+00:00",
+  "scope": "Sequential numerical D/E review, table1, exercises8/11 and period claims. Archived minimum searches accepted after program/log review; only short certificate validation run.",
+  "new_findings": [],
+  "reaffirmed_findings": [
+    "V2-C0041",
+    "V2-C0043"
+  ],
+  "retained_candidates": [
+    "V2-C0042"
+  ],
+  "short_validation": {
+    "table_certificates": 145,
+    "minimum_witnesses": 336,
+    "stored_intervals_checked": 303,
+    "randu_stronger_congruence_witnesses": 8,
+    "seconds": 0.23957788100233302
+  },
+  "new_argument": "Period of the combined output, not only its joint state; proof in note and short modular witness in certificate result.",
+  "inputs": [
+    {
+      "path": "workstreams/vol2/spectral.py",
+      "sha256": "d6563e7eff568aa4bd8f50fb187267ee6b42c55a9245d47189c0381c5b5cec2a"
+    },
+    {
+      "path": "workstreams/vol2/spectral_independent.py",
+      "sha256": "a77fc9a3f9bc060e7ffb8e01a185e64c4047cf7341bb2d4ef8cdceb349b5cd04"
+    },
+    {
+      "path": "workstreams/vol2/verify_spectral_table.py",
+      "sha256": "19b7b5aa1b3fa72d317694bf0d5c4a4aeeb9ba34e0c7ba0264840879cf85b513"
+    },
+    {
+      "path": "workstreams/vol2/verify_spectral_details.py",
+      "sha256": "bf5cf3e30cacb83d995915d1004c6503401f8a5867694688f037d58a43ef3d43"
+    },
+    {
+      "path": "workstreams/vol2/verify_waterman.py",
+      "sha256": "7af53ceb14e778e89969ca65418b825d956100a669c2d0d30b82ba7452cc5994"
+    },
+    {
+      "path": "workstreams/vol2/verify_sequential_spectral_certificates.py",
+      "sha256": "f73106aac8927a8890980b977740a96051fcce499355dee7c4daba725f6b063c"
+    },
+    {
+      "path": "workstreams/vol2/results/sequential-spectral-certificates.json",
+      "sha256": "bdb007c45e2b36bad26a90b2a9f47c5b75edfa09fb23f794662bc027a14eed27"
+    },
+    {
+      "path": "workstreams/vol2/sources/sequential-2026-11-06/spectral-numerics-source-review.json",
+      "sha256": "582f7eb8544a463144ef14c0f505dda9ab8d1f5964121e1259c63c8a8db18a44"
+    },
+    {
+      "path": "workstreams/vol2/notes/spectral-tables.md",
+      "sha256": "d53136f48a7ae37e51759c376b0e1deafa84396295a2e1c7bb404268df1afd3a"
+    },
+    {
+      "path": "workstreams/vol2/notes/spectral-extensions.md",
+      "sha256": "c291e17a8b5d6fa34b3ce4b68ab8f27d1b6a761b3af4ee73a97c54bf7baa69c3"
+    },
+    {
+      "path": "workstreams/vol2/results/spectral-table.json",
+      "sha256": "a4d77943c8813393060366b9f44ae6f473f59e95a0936a8660456ebcd9f1d1c9"
+    },
+    {
+      "path": "workstreams/vol2/results/spectral-details.json",
+      "sha256": "bbf90c7fca121b7ce6b504a18d349b5b04bfaee5647e378a585512e130368910"
+    },
+    {
+      "path": "workstreams/vol2/results/waterman.json",
+      "sha256": "fba993bdd71d5f2664bbee5c3292e3de0120a6ca9c85f30f51714757c180fcca"
+    },
+    {
+      "path": "workstreams/vol2/results/spectral-extensions.json",
+      "sha256": "c116178e3334a6ae8d6844439eb6d49f5ffae1afcd82469ae1eafcd9ec3d78c0"
+    },
+    {
+      "path": "workstreams/vol2/results/spectral-table.log",
+      "sha256": "943ed0a62cbca8222e23fedbcc3e6c91f935bcac405b396840d9cd0c48330c6f"
+    },
+    {
+      "path": "workstreams/vol2/results/spectral-details.log",
+      "sha256": "10f36b4423450c506e4961a90a97fa123aeb996ff73451cb59a852a67c7c288e"
+    },
+    {
+      "path": "workstreams/vol2/results/waterman.log",
+      "sha256": "210a55e5275dd24bee431066e19fe472bc38cb68c52c204952b394bdcad76b1a"
+    },
+    {
+      "path": "workstreams/vol2/sources/park-miller-1988.pdf",
+      "sha256": "69b0a6f2df4a794b982de14e3af12d97047668ee5e11dd098a6bacb6f85c28f6"
+    },
+    {
+      "path": "workstreams/vol2/sources/lecuyer-combined-1988.pdf",
+      "sha256": "c435404b0ef18afa278942a9ddde95051fef95e0891774f5a44e82a85ac6263f"
+    },
+    {
+      "path": "workstreams/vol2/sources/luscher-1993-ranlux.pdf",
+      "sha256": "d681bb0d226e9b3f67ddc09bdc41493abaf2c9d47af338488ed82e22b5787b48"
+    },
+    {
+      "path": "workstreams/vol2/sources/sequential-2026-11-06/neumaier-2017-basis-reduction.pdf",
+      "sha256": "af0d6dcc0d4cf68d89a7fcf5415c7c973b6c36aa659f37e454ee1083ca980f84"
+    },
+    {
+      "path": "workstreams/vol2/sources/sequential-2026-11-06/neumaier-2017-basis-reduction.txt",
+      "sha256": "9e870c2ef01254b9b0ecdad6d0223cdd8d4c1328fcb6c8362a719075f97b7655"
+    },
+    {
+      "path": "workstreams/vol2/images/neumaier-2017-definition.png",
+      "sha256": "43c961659cd1452ed48a56933e045e9ef14e5d4ce6910787636364c86505c35e"
+    },
+    {
+      "path": "workstreams/vol2/images/neumaier-2017-hermite-table.png",
+      "sha256": "3a44fc06b5aee9a5e6f37850e7d4ded3c27f320de33298d48c5c47bcecb60cc7"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p103.png",
+      "sha256": "9e4bda09ec6cffd08261fa753f10c9a403b94fc9588a96d81eeebb525bda435f"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p104.png",
+      "sha256": "2b38cbacdd4ef40e858bcb4420f8a1e03357f3a0b8edbf7b5a49308129e7ca54"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p105.png",
+      "sha256": "0e4b0208a37fba9c87229e9e56a6a5d1ec934e1ad5f2777ba8ab65e9cde9390e"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p106.png",
+      "sha256": "63e2d91576aa8b769326ba53cc0f148b529ec96358f7c4dc23a3e4029866e774"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p107.png",
+      "sha256": "02ee2ecc465ad1a8378434b975b96d6407d67d6f67dd7a3ba170fbd6dcc5cc5b"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p108.png",
+      "sha256": "c6537a7b22e96c7b84b71f1f86d2304fd4130543f48e741635844f38b0edec47"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p109.png",
+      "sha256": "ff67c5ec643877b35f5f307fe6f9ac919cfcceed9f311882059acd134006d3ff"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p115.png",
+      "sha256": "e31e2046f7ecc193898ceea6e43c3f80f455c7de64abe06c3b390c6067b78c08"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p116.png",
+      "sha256": "90b677f56617d45b3328ec0fc9a7a49e0df933e5e723b0a2be61efddd3cf83e2"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p578.png",
+      "sha256": "daf169e3ee57c3a415c75f651460d90be35b448e24d0061523936f356573afae"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p579.png",
+      "sha256": "75d23269f4933bc5bff35329827c4dba8f7f74e9761956478ed125ae4078d6e4"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p580.png",
+      "sha256": "2d4a93f522a402d19c5edbae5a50e5bf8208eb1e370a3469c73feea0bf871e22"
+    },
+    {
+      "path": "errata/text/all2-prepre.txt",
+      "sha256": "62a1ff323ca421f2640e2337f922dbf8cfc8e86c20d9b11acfc91221721c6f58"
+    },
+    {
+      "path": "errata/text/all2-pre.txt",
+      "sha256": "c1735b70547678d739eae3a8d7b02872c737218eed7706a0aba8fb6fc21a6529"
+    },
+    {
+      "path": "errata/text/all2.txt",
+      "sha256": "1c4d7f2259e147db0ebe84b4bf0ce8864b307afb4ccfbe48efcb1f5f5999ac58"
+    },
+    {
+      "path": "errata/text/err2.txt",
+      "sha256": "1b5c93712c3c467a48679e0040ba6c5869998b25184dbd125a5d096ce96e9ab0"
+    },
+    {
+      "path": "errata/originals/err2.textxt",
+      "sha256": "8faa21566312314ec6bda0f8956913deb312517fd9fa688dcc0bf19e1f21962e"
+    }
+  ]
+}

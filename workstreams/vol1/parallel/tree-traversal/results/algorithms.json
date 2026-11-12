@@ -1,0 +1,59 @@
+{
+  "shape_cases": 626,
+  "insertions": 1716,
+  "copies_into_existing_contexts": 585,
+  "detachments": 286,
+  "comparisons": 16900,
+  "minimal_inorder_collision": {
+    "n": 3,
+    "first": [
+      null,
+      [
+        [
+          null,
+          null
+        ],
+        null
+      ]
+    ],
+    "second": [
+      [
+        null,
+        [
+          null,
+          null
+        ]
+      ],
+      null
+    ],
+    "inorder_masks": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ]
+  },
+  "unqualified_root_postsuccessor": [
+    {
+      "shape": [
+        null,
+        null
+      ],
+      "returned": 1,
+      "expected": -1
+    }
+  ],
+  "sha256": {
+    "tree_algorithms.py": "18c8a39f10af8e70834fc4a08bcf9e2f8c5294686fac3a3d2e34e7546cead032",
+    "tree_shapes.py": "c365cc92ef1843799f30f3ecad5dd52e8861826456103fc491e99924cb3f0421",
+    "check_algorithms.py": "b082641943b2af7fc183d23250112a6c284f5feba6f661be316951c861947c10"
+  }
+}

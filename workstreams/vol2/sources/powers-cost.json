@@ -1,0 +1,254 @@
+{
+  "block": "V2-X0068",
+  "checked_at_utc": "2026-11-04T06:42:03.481978+00:00",
+  "edition": 3,
+  "printing": 1,
+  "physical_copy_verified": false,
+  "book_visual_pages": [
+    484,
+    696
+  ],
+  "scope": "Exercises30–32: exact least subtraction improvement, signed multiplication counterexample, finite weighted optimization algorithm, complete multiplicative-cost proof and corrected additive asymptotics.",
+  "primary_read": {
+    "GrahamYaoYao": "Original1978 scanned article115–119, all visually read. OCR extraction empty.",
+    "Zantema": "1989 report cover and printed1–3,5–12 visually read;1991 institutional metadata/abstract and Crossref. Not whole1991 journal version.",
+    "Erdos": "1960 p81 final remark visually read; previous whole-article audit reused.",
+    "McCarthy": "1986 bibliographic metadata and abstract only; full text unavailable, empirical tables not reproduced.",
+    "Schoenhage": "Published abstract reports extension to addition/subtraction; full sharper proof external."
+  },
+  "errata": {
+    "introducing_entries": [
+      "1996-08-24 second edition p638 answer30 introduces the incorrect signed count.",
+      "1996-10-18 second edition p638 answer35 introduces the unqualified additive asymptotic equality."
+    ],
+    "later_corrections_found": [],
+    "findings": [
+      "V2-C0226",
+      "V2-C0227"
+    ]
+  },
+  "verification": {
+    "blocks": [
+      "signed",
+      "cost_models",
+      "inequalities"
+    ],
+    "seconds": 4.821794260060415,
+    "session": 22572,
+    "pids": [
+      1366707,
+      1366709,
+      1366716
+    ],
+    "exit_codes": [
+      0,
+      0,
+      0
+    ],
+    "timeout_seconds": 300,
+    "mathematical_tests_repeated": false
+  },
+  "errata_source_hashes": [
+    {
+      "path_from_repository": "errata/text/all2-prepre.txt",
+      "sha256": "62a1ff323ca421f2640e2337f922dbf8cfc8e86c20d9b11acfc91221721c6f58"
+    },
+    {
+      "path_from_repository": "errata/text/all2-pre.txt",
+      "sha256": "c1735b70547678d739eae3a8d7b02872c737218eed7706a0aba8fb6fc21a6529"
+    },
+    {
+      "path_from_repository": "errata/text/all2.txt",
+      "sha256": "1c4d7f2259e147db0ebe84b4bf0ce8864b307afb4ccfbe48efcb1f5f5999ac58"
+    },
+    {
+      "path_from_repository": "errata/text/err2.txt",
+      "sha256": "1b5c93712c3c467a48679e0040ba6c5869998b25184dbd125a5d096ce96e9ab0"
+    },
+    {
+      "path_from_repository": "errata/text/err2-2e.txt",
+      "sha256": "cf2d9ced25e86f6fd9be0e4f82700a979fc174dff6860e7a4b7950292c24e154"
+    },
+    {
+      "path_from_repository": "errata/originals/err2.textxt",
+      "sha256": "8faa21566312314ec6bda0f8956913deb312517fd9fa688dcc0bf19e1f21962e"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "notes/powers-cost.md",
+      "bytes": 18439,
+      "sha256": "fa5b8ea95909d8ff4653873a2bad566a06add3187d8c0e677530e140eafab53b"
+    },
+    {
+      "path": "verify_powers_cost.py",
+      "bytes": 7873,
+      "sha256": "30f8faad6558789bc18f92fbbf20ebbcc9a7f0e3529db192757c87996e523911"
+    },
+    {
+      "path": "results/powers-cost.json",
+      "bytes": 28335,
+      "sha256": "aa659bfbc4a157e9e341e86c04e3e685e5e7d87cbd21d752403b619fcf6c7e3a"
+    },
+    {
+      "path": "results/powers-cost.log",
+      "bytes": 7390,
+      "sha256": "2f81b4fd4ea79235adda39d4c11045e8c5341397856455b5d2bc3a843935e7de"
+    },
+    {
+      "path": "reports/C0226-signed-power-count.txt",
+      "bytes": 1309,
+      "sha256": "20bda4944880cd0bcca185eb84055386bffad16609c32837fcfa6adb49c73c2c"
+    },
+    {
+      "path": "reports/C0227-additive-cost-parity.txt",
+      "bytes": 1195,
+      "sha256": "4785a39a66532dab1c4131653823de8464b4533e9a2a2a1eb6a612003bb1faa6"
+    },
+    {
+      "path": "sources/powers-cost-sources-access.json",
+      "bytes": 3477,
+      "sha256": "17a0d9624ee673b2b5ae15957d1b6cf1aec15818f6be77e276d9db227232dcfc"
+    },
+    {
+      "path": "sources/graham-yao-yao-1978.pdf",
+      "bytes": 158256,
+      "sha256": "ac953fe04a1ba2f6645279e79405418414e5e156b27e398c1a924a62834ea80f"
+    },
+    {
+      "path": "sources/graham-yao-yao-1978.txt",
+      "bytes": 5,
+      "sha256": "2e9faebbd47a57f8d00d2f73a2e412bbf5353a95a112f2278b24f69ee5d14b62"
+    },
+    {
+      "path": "sources/zantema-cost-page.html",
+      "bytes": 192258,
+      "sha256": "74cefc4ae1eb45a4ce7edf70d9c4ecc1a5e12e5748cad425192c5c887a97314a"
+    },
+    {
+      "path": "sources/zantema-1989.pdf",
+      "bytes": 695549,
+      "sha256": "350b9c18dfb4815970beb5481920f5a9677e572a1a5bb2f5932288c3d60ba4dd"
+    },
+    {
+      "path": "sources/zantema-1989.txt",
+      "bytes": 25,
+      "sha256": "c30b0131124bde0ba2adde1d09c45eb953842cb9b556b82629a85c81db9652d6"
+    },
+    {
+      "path": "sources/zantema-1991-crossref.json",
+      "bytes": 2972,
+      "sha256": "50e3c7d29b307b4f82f33578d2cd2a7e2363b473edfa98e5fb0b97fee6e1a4f6"
+    },
+    {
+      "path": "sources/powers-basic-errata.txt",
+      "bytes": 39852,
+      "sha256": "8b5f49e0db8cda41d67694029f01f512ca3e81553fe089f35b35ee3a26eec0f3"
+    },
+    {
+      "path": "images/vol2-p484.png",
+      "bytes": 363811,
+      "sha256": "d13acc5ab62cc317fbcfe7a8be203532aea9b0a2db37711b68f8c42888c0452d"
+    },
+    {
+      "path": "images/vol2-p696.png",
+      "bytes": 388218,
+      "sha256": "3fb1e24143e2eed5d6a17a12331ad2d398cb66df552a5b8f65f20eb923423101"
+    },
+    {
+      "path": "images/erdos-1960-spread03.png",
+      "bytes": 837966,
+      "sha256": "7a5d669b9a27f120b3fef40d9bf24ff1a3292a8fe0b8eec815da8e5887f5d3dc"
+    },
+    {
+      "path": "images/graham-yao-yao-1978-p115.png",
+      "bytes": 90256,
+      "sha256": "f7b8973e1a70ce876c5311ac08fe1ba6428536a854ac878fb5fdec5333b77b32"
+    },
+    {
+      "path": "images/graham-yao-yao-1978-p116.png",
+      "bytes": 81733,
+      "sha256": "33976144a5d84b6814388051fdf3062c4e3b802ed23a11c07826f3efa9d46feb"
+    },
+    {
+      "path": "images/graham-yao-yao-1978-p117.png",
+      "bytes": 86400,
+      "sha256": "40d1e2ba0240e6e0d6802ff8410fde6705d1d755e6d0520506cc7c52d61eac4d"
+    },
+    {
+      "path": "images/graham-yao-yao-1978-p118.png",
+      "bytes": 79119,
+      "sha256": "66ae7157982b33c3abb3e70adea3f747d3ecc07bb2a13957481c77a7977702d9"
+    },
+    {
+      "path": "images/graham-yao-yao-1978-p119.png",
+      "bytes": 54877,
+      "sha256": "21c54be8e87e74ec96f43b744acf76e59ea52acf348c903b947747e7548734ab"
+    },
+    {
+      "path": "images/zantema-1989-file02.png",
+      "bytes": 40365,
+      "sha256": "d943ebdc31183644eb99be908bf28c24ecac6c772bd335f46e0c39cc7814183f"
+    },
+    {
+      "path": "images/zantema-1989-file03.png",
+      "bytes": 24467,
+      "sha256": "64cc63763e5134953f9987b3dbb5cdabea6030fab95359a8c58f07d93f98ed29"
+    },
+    {
+      "path": "images/zantema-1989-file04.png",
+      "bytes": 61020,
+      "sha256": "847e76e32ed47d193e17fc684ec4ddb3ff56605e7a9d39d72150e47d5d109c74"
+    },
+    {
+      "path": "images/zantema-1989-file05.png",
+      "bytes": 115474,
+      "sha256": "1a4fa84e50141002225c7885c9e9df2a32dfbb9f0767d9af2d2531860b16dcb9"
+    },
+    {
+      "path": "images/zantema-1989-file06.png",
+      "bytes": 124065,
+      "sha256": "0032c4a21e095bb6122387a4f8ac1a73c2bd8e6efc47e93b3d5825c765121584"
+    },
+    {
+      "path": "images/zantema-1989-file08.png",
+      "bytes": 96581,
+      "sha256": "3284de10758dc92001263bfb518c51b5ef64e45ad6a06bdaeb7c9b8e2110da35"
+    },
+    {
+      "path": "images/zantema-1989-file09.png",
+      "bytes": 59958,
+      "sha256": "21a4ab7a375ad2d105d03aaa42d6df511a05c40e436600246cacaf8fc408321c"
+    },
+    {
+      "path": "images/zantema-1989-file10.png",
+      "bytes": 70011,
+      "sha256": "5791e8ca0d77d08e910db39da3cbc00dc933989dac92d523f7ff96cf0d9c773c"
+    },
+    {
+      "path": "images/zantema-1989-file11.png",
+      "bytes": 96443,
+      "sha256": "24303acb6ad1793a3b6b59388a75e01efa4a30cd4bb6da3e854ddf78b22a92e8"
+    },
+    {
+      "path": "images/zantema-1989-file12.png",
+      "bytes": 94651,
+      "sha256": "f40a7b3fb0085a0908b698980240552e51eaad82478223b1dda3e89b5a44149d"
+    },
+    {
+      "path": "images/zantema-1989-file13.png",
+      "bytes": 91549,
+      "sha256": "12890def1f6436ebafb9ce19ad42bfd9e593b5d86511077c08e8a5f6ca21cb2e"
+    },
+    {
+      "path": "images/zantema-1989-file14.png",
+      "bytes": 80372,
+      "sha256": "29bb2734cea253946937bf460a2aa7d611011fdda2fdc2f1c4ca49eb3deaba3d"
+    },
+    {
+      "path": "images/zantema-1989-file15.png",
+      "bytes": 77222,
+      "sha256": "bafae5f5e823d0ea6d8172759e7c4cfc82f73e067b5a9176cdcdb62f9fa388e2"
+    }
+  ]
+}

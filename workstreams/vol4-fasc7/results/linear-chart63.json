@@ -1,0 +1,322 @@
+{
+  "chart_rows": {
+    "T+": [
+      "j=B",
+      "j=C",
+      "j<A",
+      "l=B",
+      "l<A",
+      "l<C",
+      "r=C",
+      "r<A",
+      "r<B"
+    ],
+    "T-": [
+      "j=B",
+      "j=C",
+      "j<A",
+      "l=B",
+      "l<A",
+      "l>C",
+      "r=C",
+      "r<A",
+      "r>B"
+    ],
+    "T-arrow-down": [
+      "j=B",
+      "j<A",
+      "j>C",
+      "l=B",
+      "l<A",
+      "r=C",
+      "r<A",
+      "m=C",
+      "m<B"
+    ],
+    "T-arrow-up": [
+      "j=C",
+      "j<A",
+      "j>B",
+      "l=B",
+      "l<A",
+      "r=C",
+      "r<A",
+      "m=B",
+      "m<C"
+    ],
+    "V-I+": [
+      "j=A",
+      "j=B",
+      "l=A",
+      "l<B"
+    ],
+    "V-IO": [
+      "j=B",
+      "j>A",
+      "l=A",
+      "l<B",
+      "r=A",
+      "r<B"
+    ],
+    "V-+O": [
+      "j=A",
+      "j=B",
+      "r=A",
+      "r<B"
+    ],
+    "V-O-": [
+      "j=A",
+      "j=B",
+      "l=B",
+      "l<A"
+    ],
+    "V-OI": [
+      "j=A",
+      "j>B",
+      "l=B",
+      "l<A",
+      "r=B",
+      "r<A"
+    ],
+    "V--I": [
+      "j=A",
+      "j=B",
+      "r=B",
+      "r<A"
+    ],
+    "W-O+I": [
+      "j=A",
+      "j=B",
+      "l=C",
+      "r=C",
+      "l<A",
+      "r<B",
+      "a=A",
+      "b=B",
+      "a<B",
+      "b<A"
+    ],
+    "W--+-": [
+      "j=A",
+      "j=B",
+      "j=C",
+      "a<B",
+      "b>C",
+      "c<A"
+    ],
+    "W-+-+": [
+      "j=A",
+      "j=B",
+      "j=C",
+      "a>B",
+      "b<C",
+      "c>A"
+    ],
+    "Y-arrow": [
+      "j=B",
+      "j=C",
+      "j>A",
+      "l=A",
+      "l<B",
+      "r=A",
+      "r<C"
+    ],
+    "Y----": [
+      "j=A",
+      "j=B",
+      "j=C",
+      "a>C",
+      "b>B",
+      "c>A"
+    ],
+    "Y-+++": [
+      "j=A",
+      "j=B",
+      "j=C",
+      "a<C",
+      "b<B",
+      "c<A"
+    ]
+  },
+  "row_scope": "W-O+I endpoint assertions require front points on the two outer carriers; their identification with neighboring J vertices is not generally valid.",
+  "known_corrections": {
+    "date": "2026-10-22",
+    "T-arrow-down": [
+      "m=C",
+      "m<B"
+    ],
+    "T-arrow-up": [
+      "m=B",
+      "m<C"
+    ]
+  },
+  "endpoint_counter_under_adjacent_vertex_reading": {
+    "strong_witness_reused": "results/reutersvard59-spatial.json",
+    "W": "v10",
+    "W_point": [
+      8,
+      16
+    ],
+    "W_neighbors": [
+      "v11",
+      "v03",
+      "v09"
+    ],
+    "T": "v09",
+    "T_point": [
+      6,
+      14
+    ],
+    "T_neighbors": [
+      "v10",
+      "v08",
+      "v02"
+    ],
+    "local_words": {
+      "v10": "O+I",
+      "v09": "OOI"
+    },
+    "common_foreground_face": [
+      "v00",
+      "v03",
+      "v10",
+      "v09",
+      "v02"
+    ],
+    "contradictory_requirements": [
+      "z_v09=h_F(6,14)",
+      "z_v09>h_F(6,14)"
+    ],
+    "front_physical_edge": 6,
+    "hidden_stem_edge": 104,
+    "front_depth": "-14397/200",
+    "artificial_T_depth": "1441/80",
+    "gap": "35999/400",
+    "possible_repair": "Use independent front samples on the two arrow carriers, or follow barT subdivisions to a physical endpoint. The printed text does not define a,b explicitly."
+  },
+  "bounded_background_face": {
+    "walk": [
+      "v23",
+      "v24",
+      "v25",
+      "v29",
+      "v39",
+      "v38",
+      "v47",
+      "v43",
+      "v42",
+      "v37",
+      "v27",
+      "v28"
+    ],
+    "point": [
+      "15",
+      "23"
+    ],
+    "right_ray_crossings": [
+      "17"
+    ],
+    "all_nine_hexagon_tests": [
+      {
+        "center": [
+          4,
+          20
+        ],
+        "offset": [
+          "11",
+          "3"
+        ],
+        "outside": true
+      },
+      {
+        "center": [
+          9,
+          27
+        ],
+        "offset": [
+          "6",
+          "-4"
+        ],
+        "outside": true
+      },
+      {
+        "center": [
+          14,
+          34
+        ],
+        "offset": [
+          "1",
+          "-11"
+        ],
+        "outside": true
+      },
+      {
+        "center": [
+          19,
+          41
+        ],
+        "offset": [
+          "-4",
+          "-18"
+        ],
+        "outside": true
+      },
+      {
+        "center": [
+          20,
+          30
+        ],
+        "offset": [
+          "-5",
+          "-7"
+        ],
+        "outside": true
+      },
+      {
+        "center": [
+          21,
+          19
+        ],
+        "offset": [
+          "-6",
+          "4"
+        ],
+        "outside": true
+      },
+      {
+        "center": [
+          22,
+          8
+        ],
+        "offset": [
+          "-7",
+          "15"
+        ],
+        "outside": true
+      },
+      {
+        "center": [
+          16,
+          12
+        ],
+        "offset": [
+          "-1",
+          "11"
+        ],
+        "outside": true
+      },
+      {
+        "center": [
+          10,
+          16
+        ],
+        "offset": [
+          "5",
+          "7"
+        ],
+        "outside": true
+      }
+    ]
+  },
+  "work_scope": "Only exact two-edge interpolation,16-row transcription,and9 point/hexagon tests; no realization/count rerun."
+}

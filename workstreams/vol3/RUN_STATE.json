@@ -1,0 +1,146 @@
+{
+  "volume": "vol3",
+  "status": "complete_under_agreed_scope",
+  "review_mode": "printed_argument_review",
+  "branch": "main",
+  "working_directory": ".",
+  "current_focus": "Complete under the agreed review scope; the entire bookwise continuation is now complete.",
+  "cursor": {
+    "phase": "Complete",
+    "target": "workstreams/vol3/notes/bookwise-completion-2026-11-10.md"
+  },
+  "running_processes": [],
+  "next_actions": [],
+  "updated_at_utc": "2026-11-12T05:37:54.111189+00:00",
+  "proof_cursor": {
+    "file_page": 132,
+    "printed_page": 121,
+    "section": "5.2.2",
+    "target": "Lower121: worst inputs and complete exercises25-27/answer632, then random-pivot modification(27) and subsequent Quicksort variants. Reuse all closed probability/limit/cost arguments. Named C0031 domain ambiguity stays partial."
+  },
+  "reading_cursor": {
+    "file_page": 150,
+    "printed_page": 139,
+    "section": "5.2.3"
+  },
+  "earliest_open_argument": {
+    "file_page": 16,
+    "printed_page": 5,
+    "item_ids": [
+      "V3-P0010",
+      "V3-P0011"
+    ],
+    "reason": "Unspecified computational-cost assumptions; partial, not confirmed errors."
+  },
+  "quality_recovery": {
+    "date": "2026-11-06",
+    "status": "continued_after_restart",
+    "sample_items": [
+      "V3-P0021",
+      "V3-P0052",
+      "V3-P0056",
+      "V3-P0057"
+    ],
+    "added_inventory_items": [
+      "V3-P0376",
+      "V3-P0377"
+    ],
+    "reopened_items": [
+      "V3-P0365"
+    ],
+    "sample_is_not_global_certification": true,
+    "evidence": [
+      "workstreams/vol3/notes/quality-recovery-2026-11-06.md",
+      "workstreams/vol3/notes/quality-recovery-addenda.md",
+      "workstreams/vol3/sources/quality-recovery-external-theorems.json"
+    ],
+    "examples_read": [
+      "workstreams/vol1/notes/binomial-inequality.md",
+      "audit-2026-10-31/SAT_ALGORITHM_NOTES.md",
+      "audit-2026-10-31/COGRAPH_NOTES.md"
+    ]
+  },
+  "archived_draft": "workstreams/vol3/notes/tableaux-proof-draft-47-54.md",
+  "saved_unintegrated_work": {
+    "status": "accepted_in_X0091_under_current_standard",
+    "files": [
+      "workstreams/vol3/notes/exchanging-proof-quicksort-worst-25-26.md",
+      "workstreams/vol3/notes/exchanging-proof-quicksort-best-27.md"
+    ],
+    "reserved_item_ids": [
+      "V3-P1076–V3-P1081",
+      "V3-P1082–V3-P1088"
+    ],
+    "scope": "Complete written arguments for25-26 and27, including general worst-cost induction, weighted-tree reduction, the global best-case lower bound for all M>=1 and k>=0, and the full546u witness. Saved immediately before STOP; no inventory/ledger/UI update or final reread was performed. They are not included in checkpoint1075 counts."
+  },
+  "last_completed_block": "V3-X0121",
+  "argument_inventory_is_historical": true,
+  "agreed_task_block_complete": true,
+  "current_review_page_counts": {
+    "volume": "vol3",
+    "total": 791,
+    "reviewed": 65,
+    "not_reviewed": 726,
+    "pages_with_errors": 20,
+    "whole_volume_complete": false
+  },
+  "first100_task": {
+    "status": "complete",
+    "printed_pages": [
+      1,
+      100
+    ],
+    "evidence": "workstreams/vol3/notes/first100-completion-2026-11-07.md",
+    "completed_at_utc": "2026-11-07T09:43:28.009239+00:00"
+  },
+  "forward_dependencies": [
+    {
+      "from": "5.2.3-37",
+      "to": "6.3 Eq.(13), exercise28",
+      "status": "checked",
+      "evidence": "workstreams/vol3/notes/bookwise-digital-searching-2026-11-10.md"
+    },
+    {
+      "from": "5.4.3-13",
+      "to": "5.4.6-6",
+      "status": "checked",
+      "evidence": "workstreams/vol3/notes/bookwise-practical-tapes-2026-11-10.md"
+    },
+    {
+      "from": "5.4.4-18",
+      "to": "5.4.8 bounded-memory tape model",
+      "status": "reviewed_with_explicit_sketch_limit",
+      "evidence": "workstreams/vol3/notes/bookwise-two-tapes-2026-11-10.md"
+    },
+    {
+      "from": "5.4.6-12(a)",
+      "to": "5.4.9 lookahead-key buffers",
+      "status": "mechanism_checked_with_explicit_minimality_limit",
+      "evidence": "workstreams/vol3/notes/bookwise-disks-2026-11-10.md"
+    },
+    {
+      "from": "6.2.2-45",
+      "to": "6.2.3 balanced-tree operations",
+      "status": "checked",
+      "evidence": "workstreams/vol3/notes/bookwise-balanced-trees-2026-11-10.md"
+    },
+    {
+      "from": "6.2.2-46",
+      "to": "6.2.3-21",
+      "status": "implementation_checked_average_theorem_external",
+      "evidence": "workstreams/vol3/notes/bookwise-balanced-trees-2026-11-10.md"
+    }
+  ],
+  "whole_volume_complete": true,
+  "completion_note": "workstreams/vol3/notes/bookwise-completion-2026-11-10.md",
+  "historical_next_book_handoff": {
+    "current_focus": "All available pages reviewed; see completion note and exact block exceptions.",
+    "next_actions": [
+      "Continue Volume4A; do not reopen completed Volume3 without a specific reason."
+    ],
+    "resume_target": null
+  },
+  "resume_target": null,
+  "automatic_follow_up": false,
+  "bookwise_project_result": "integration/2026-11-10-bookwise/RESULT.md"
+}

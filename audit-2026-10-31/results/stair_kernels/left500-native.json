@@ -1,0 +1,30 @@
+{
+  "kind": "left",
+  "W": 500,
+  "wrapper_pid": 871631,
+  "started_utc": "2026-11-02T01:20:55.284755+00:00",
+  "command": [
+    "timeout",
+    "4h",
+    "/tmp/knuth-vol4b-colored-4ulh1ceo/dlx2-original",
+    "v129",
+    "m1"
+  ],
+  "input": "audit-2026-10-31/results/stair_kernels/left500-native.dlx",
+  "input_sha256": "7165c5ab4b532a0161ea485ef2b36306c0e3b84a05043ac936a5388002360efe",
+  "binary_sha256": "317a401448733049a4577e5d86bbd1b6bf2f230c89754697bd175ae515cfcd38",
+  "script_sha256": "98edf5cd211ea46593d10a39b1ef8637efc21085f0ecf03813ceb880269db74f",
+  "kernel_module_sha256": "24151737774caae2cb60491ef532260d712977954033c97e3f4ae6f59a94ecd0",
+  "wordlist_sha256": "52a04f4fb860953c2a29c2769014bd8b12d090a19e7577a460a2a2586bd6d4ce",
+  "status": "completed",
+  "pid": 871638,
+  "returncode": 0,
+  "finished_utc": "2026-11-02T01:37:06.561144+00:00",
+  "seconds": 971.275563113013,
+  "solutions": 5372478,
+  "kernels": 136771,
+  "stdout_sha256": "21ac059841b5c8b71190b3ffdf9a8e655dea25323d4cf122dfbe15acf222bd1a",
+  "stderr_sha256": "c892897a3acb6ae52c01713f0276f14bae8916f73f60042282fd2975d9863ebd",
+  "join_set_sha256": "d29639712e8343bd6ce0d8a5320fa2d097658ecf13f218592c7bcf18c0e50600",
+  "complete_sets_equal": true
+}

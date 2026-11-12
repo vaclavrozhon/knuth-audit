@@ -1,0 +1,44 @@
+{
+  "checked_at_utc": "2026-11-11T20:09:43.868931+00:00",
+  "edition": "Volume 4A, first edition, first printing, 2011; inventory/books.json",
+  "originals": [
+    "images/bookwise-p388.png",
+    "images/bookwise-p743.png",
+    "images/bookwise-p744.png",
+    "images/bookwise-p745.png"
+  ],
+  "errata": [
+    "errata/text/all4a-pre.txt",
+    "errata/text/all4a.txt",
+    "errata/text/err4a.txt",
+    "errata/text/all4f3.txt",
+    "errata/text/err4f3.txt"
+  ],
+  "pages_screened": "4A 387–389,743–746; Fascicle 3 33–35,106–109",
+  "retrieval_manifests": [
+    "integration/2026-11-10-bookwise/errata/vol4a-manifest.json",
+    "integration/2026-11-10-bookwise/errata/vol4a-fasc3-manifest.json"
+  ],
+  "public_queries": [
+    "Knuth \"743\" \"octahedron\"",
+    "Knuth \"97\" \"dual\" \"743\" errata",
+    "Knuth \"101\" \"weight\" \"744\" errata",
+    "Knuth \"kappa\" \"5=7\" \"101\"",
+    "Knuth \"102\" \"ideal\" \"388\" errata",
+    "Knuth \"subcubes\" \"103\" errata",
+    "Knuth \"1-shadow\" \"weight\" correction",
+    "Knuth \"745\" \"107\" errata determinant"
+  ],
+  "public_result": "No explicit matching correction found. The known 2010 answer-97 dual-pair correction, 2006 answer-107 2-combinations correction, and 2022 cribbage corrections are separate. McKay–Robinson original equation (8) confirms the full graph-vertex product used in F0079. Absolute novelty is not established.",
+  "primary_source": "sources/mckay-robinson-euler-1998.provenance.json",
+  "findings": [
+    "V4A-F0073",
+    "V4A-F0074",
+    "V4A-F0075",
+    "V4A-F0076",
+    "V4A-F0077",
+    "V4A-F0078",
+    "V4A-F0079",
+    "V4A-F0080"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "config": {
+    "label": "dlx-all-sgb5",
+    "method": "all",
+    "n": 5,
+    "ospd": false,
+    "expected_total": 323264
+  },
+  "status": "finished",
+  "wrapper_pid": 862562,
+  "started_at_utc": "2026-11-02T00:41:03.224897+00:00",
+  "command": [
+    "timeout",
+    "172800",
+    "/tmp/knuth-vol4b-double-f029zfai/dlx2-kludge",
+    "v137",
+    "m1"
+  ],
+  "input_sha256": "35c877713ba6dc2d8bb24e563a1a845539b6019d47a42ed1f715e0d1856363e2",
+  "binary_sha256": "054a967dfebc8e3cb2307656155aa72d39eb83de630694b355e1d8e1dd4e9d25",
+  "source_sha256": {
+    "run_double_word_job.py": "29c086ab33ce55969b85b768d482b4d06cf1265022b012e2a6b51a712cfa35a2",
+    "double_word_tools.py": "1b845cdce9d1cc1eabda096df16b6115edbbc8edc22dd412755d1855a462e3e3",
+    "build_double_word_programs.py": "a092243004604c155d86641216087fb473f066fefbeb57750e36a0c32552abf4"
+  },
+  "pid": 862572,
+  "validated_solutions": 323264,
+  "validated_double": 323264,
+  "elapsed_seconds": 54995.86639926201,
+  "returncode": 0,
+  "finished_at_utc": "2026-11-02T18:53:21.959073+00:00",
+  "stdout_sha256": "86dc5077b1747adb575ee2731f9d121e11044b31f0cfd4e376c74ae0bb2abbf1",
+  "log_sha256": "9844abdc08c5074b8ced29c02ca337844444a85a3065a53600f7480ac74d3aa1",
+  "models_sha256": "18b32b3b401c80241c18ac0e09582e686c18c7f908ff8fef8b8665e357dae6e2",
+  "result_sha256": "2c91ce5bbc8be8e8b6aee536d8eca2c8ab0510408e20fe17ef9d673f51658794"
+}

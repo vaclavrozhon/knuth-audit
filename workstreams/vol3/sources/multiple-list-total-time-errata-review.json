@@ -1,0 +1,35 @@
+{
+  "checked_at_utc": "2026-11-07T01:54:45.684611+00:00",
+  "finding": "V3-C0026",
+  "scope": "Volume 3 second-edition first-printing p.101/file112, combined expected Program M plus exercise35 times for M=N and M=N/2",
+  "layers": [
+    {
+      "path": "errata/text/all3-prepre.txt",
+      "assessment": "Modern 98-105 and 625-627 contexts and the numerical 44.99/41.95/44.62/41.89/52.74 were checked. Known changes concern LD4 on100 (2008), typography625/626, factorial coefficients/index in37, average time38 and asymptotic wording (2000). None changes the total time coefficients or Program35 ST3 frequency M-E. Relevant PDF31 was viewed."
+    },
+    {
+      "path": "errata/text/all3-pre.txt",
+      "assessment": "Modern 99-102,625-627, multiple-list and numerical total-time terms checked. The nearby102 correction concerns the separate two-way insertion exercise6; no applicable combined-cost correction."
+    },
+    {
+      "path": "errata/text/all3.txt",
+      "assessment": "Current layer checked for modern101,625-627 and all five total-time numbers; no applicable correction."
+    },
+    {
+      "path": "errata/text/err3.txt",
+      "assessment": "Current short layer checked for modern101,625-627 and all five total-time numbers; no applicable correction."
+    },
+    {
+      "path": "errata/text/err3-1e.txt",
+      "assessment": "Historical99-104 and603-605 contexts checked, allowing shifted pagination. The1996 renumbering maps formulas9-15 to13-19;102 fixes a missing delta in4M-3delta. Historical604 replaces the separate ProgramS and the37 generating-function derivation. No correction to list concatenation or the total-time coefficients appears; the numerical terms also have no hits."
+    }
+  ],
+  "typesetting": [
+    "workstreams/vol3/images/insertion-file-112.png",
+    "workstreams/vol3/images/insertion-file-636.png",
+    "workstreams/vol3/images/insertion-file-637.png",
+    "workstreams/vol3/images/insertion-file-638.png",
+    "workstreams/vol3/images/insertion-errata-41-file031.png"
+  ],
+  "conclusion": "All instructions of35 give4N+7M-2E+2. Expected empty lists are M(1-1/M)^N. The combined limiting coefficients are44.624442... and41.885769..., rounding to44.62 and41.89. The third52.74 and standalone M coefficients are correct. Confirmed low local numerical error in supplied sources, not a claim of historical priority."
+}

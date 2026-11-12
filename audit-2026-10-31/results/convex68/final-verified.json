@@ -1,0 +1,82 @@
+{
+  "checked_at_utc": "2026-11-02T00:50:58.750496+00:00",
+  "status": "verified",
+  "case": {
+    "expected": 5406376,
+    "methods": {
+      "cell-mask": {
+        "status": "finished",
+        "command": [
+          "/tmp/knuth-vol4b-convex68-_bnmv0eg/cell-mask",
+          "audit-2026-10-31/results/convex68/n9-no-square.masks"
+        ],
+        "started_at_utc": "2026-11-01T22:18:04.518047+00:00",
+        "input_sha256": "ba8f2bfe1a604e98582a1b2d589651cf51db3448e4bc3452f7712ea9ef587a39",
+        "pid": 808851,
+        "finished_at_utc": "2026-11-01T22:18:07.102386+00:00",
+        "elapsed_seconds": 2.5838157599791884,
+        "output": {
+          "solutions": 5406376,
+          "calls": 2440717,
+          "cache_hits": 416135,
+          "component_splits": 4675,
+          "cached_states": 216537
+        },
+        "stdout_sha256": "b891e4cf2bb8d977e468a695011a3e77ce225d8f8640ab9f1495583349e6f8b9",
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "dlx1": {
+        "status": "finished",
+        "command": [
+          "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+          "v129"
+        ],
+        "started_at_utc": "2026-11-01T23:59:17.014256+00:00",
+        "input_sha256": "4faa57d76aa496b27222a2797ec6cfb46606bf44ad0821089df8a1c26ee3f907",
+        "pid": 853845,
+        "finished_at_utc": "2026-11-02T00:41:42.155982+00:00",
+        "elapsed_seconds": 2545.140821715002,
+        "output": {
+          "solutions": 5406376,
+          "initialization_mems": 6462030,
+          "search_mems": 4389003822377,
+          "updates": 344265643801,
+          "bytes": 1930340,
+          "nodes": 83027265,
+          "profile": [
+            1,
+            118,
+            2017,
+            28899,
+            191381,
+            1428652,
+            6308453,
+            21785011,
+            47876357,
+            5406376
+          ]
+        },
+        "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stderr_sha256": "059f6ffa0d95336e42519231ca69f58fd74574ffc1cf7d57ff39d7b1b88c5626"
+      }
+    },
+    "independent_counts_equal": true
+  },
+  "full_count_state_sha256": "80be3d3497f28abad4f454c8c8c7c16b7be27153471eefe650ab3f760eb78a0b",
+  "source_sha256": "f16dab47dcf099f39169b8d5968f6e6550886aca16920f5520005a443b4319bc",
+  "original_sources": {
+    "wrapper": "acf8396e78bd5f382dc4b2a595ae4addf5b4c77f745d823b1c2522cd174da002",
+    "mask_solver": "b69c6c2320ec8ad6592caf04d3856404a18431d7f8729173e3c354b1ef7365ed"
+  },
+  "complete_counts": {
+    "n2": 2,
+    "n3": 10,
+    "n4": 117,
+    "n5": 2908,
+    "n6": 162616,
+    "n7": 18187302,
+    "n9": 8113709,
+    "n9-no-square": 5406376
+  },
+  "scope": "Last pending independent full count5406376 verified; native83027265 nodes and complete profile. All count jobs terminal. Combine with already checked general proof, full placements, symmetries and bibliography to close exercise68."
+}

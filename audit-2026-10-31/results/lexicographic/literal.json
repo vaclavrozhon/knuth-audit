@@ -1,0 +1,49 @@
+{
+  "status": "verified",
+  "checked_at_utc": "2026-11-01T19:01:44.591745+00:00",
+  "source_sha256": "e2cf21f5200680b9a713a4d5182d4c469ae0ec4b366d6cd54811d900b3a58d89",
+  "spacer_sha256": "962edcc4f4cd080c67dd1085052ca42bc8147c510c374bd55c21c2802a26ecd7",
+  "counts": {
+    "distinct_option_runs": 9028,
+    "solutions": 10464,
+    "witness_rollbacks": 4359,
+    "repeated_option_runs": 392
+  },
+  "state_checks": {
+    "residual_columns": 69287,
+    "X2_states": 38992,
+    "exact_cover_uncover_restorations": 63108,
+    "row_descriptions": 310359,
+    "branch_priority_checks": 14749
+  },
+  "empty_root": [
+    {
+      "total_items": 0,
+      "primary_items": 0,
+      "options": 0,
+      "printed_state": {
+        "level": 0,
+        "LL": 1,
+        "next_item": 0
+      },
+      "corrected_solutions": [
+        []
+      ]
+    },
+    {
+      "total_items": 2,
+      "primary_items": 0,
+      "options": 0,
+      "printed_state": {
+        "level": 0,
+        "LL": 1,
+        "next_item": 0
+      },
+      "corrected_solutions": [
+        []
+      ]
+    }
+  ],
+  "scope": "All families of up to four distinct options on up to four items, every positive primary prefix, both option orders; four-option multisets on up to three items. All solutions and their canonical lexicographic order.",
+  "interpretation": "The answer X2 otherwise clause is nested under RLINK(0)=0. For an empty initial problem, explicitly visit the empty solution."
+}

@@ -1,0 +1,322 @@
+{
+  "at_utc": "2026-11-03T16:06:36.779001+00:00",
+  "checker_sha256": "2682df03ff97167f5c33ed39c95b9b057e3143a32351fe095fad16e92f812ad6",
+  "dependencies": {
+    "extract_jigsaw.py": "012a8cdc37835f26901339b783237350bc64f332b4e64365208e57ae3cd287ce",
+    "puzzle_xcc.py": "6706745a67c4d0ddfbcec4ee952dac7824a45b9c2c83c18a32e92bef7e431cc2",
+    "results/unsat_3d_matching.json": "fbd5d7d2300a4e68a36436108f2fb0fc475bf956be5978b3b987c7224b26d9e9",
+    "results/determinant_matching.json": "394cb98707b85416b87ca1959dc4a434170c49cab3e65d637cd121779c90303f",
+    "results/circular_matching.json": "7cb0e86e26047ddecb794a3e251a48dec945e05215d24782c5b4c302dde43464",
+    "results/algorithm_x_validation.json": "a4cfb0d2a09087a6561c84d66424903ba37839284d885f8b89a914bdfb91cf0c"
+  },
+  "trace_hashes": {
+    "results/matching193_198/original-169.xml": "b73855239158bf67a38d5893015dbf4d61444905d37dbbbd37252aeb974b60a5",
+    "results/matching193_198/draft-91.xml": "3340580be0ea3e478eca54c51538fc51a5445a280fc5d40ad42f78d1a8e9f62c"
+  },
+  "matrices": {
+    "book": {
+      "matrices": [
+        [
+          [
+            "t",
+            "u",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "v+w"
+          ],
+          [
+            "x",
+            "y+z",
+            "0"
+          ]
+        ],
+        [
+          [
+            "t",
+            "u",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "v"
+          ],
+          [
+            "0",
+            "y+z",
+            "0"
+          ]
+        ],
+        [
+          [
+            "0",
+            "u",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "w"
+          ],
+          [
+            "x",
+            "y",
+            "0"
+          ]
+        ],
+        [
+          [
+            "0",
+            "u",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "y",
+            "0"
+          ]
+        ],
+        [
+          [
+            "t",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "v+w"
+          ],
+          [
+            "x",
+            "z",
+            "0"
+          ]
+        ],
+        [
+          [
+            "t",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "v"
+          ],
+          [
+            "0",
+            "z",
+            "0"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "w"
+          ],
+          [
+            "x",
+            "0",
+            "0"
+          ]
+        ]
+      ],
+      "source_cells": 63,
+      "source_glyphs": 71,
+      "excluded_c_indices_1_based": [
+        [],
+        [
+          3
+        ],
+        [
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "header_sets_checked_visually": true
+    },
+    "author_draft": {
+      "matrices": [
+        [
+          [
+            "t",
+            "u",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "v+w"
+          ],
+          [
+            "x",
+            "y+z",
+            "0"
+          ]
+        ],
+        [
+          [
+            "t",
+            "u",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "v"
+          ],
+          [
+            "0",
+            "y+z",
+            "0"
+          ]
+        ],
+        [
+          [
+            "0",
+            "u",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "w"
+          ],
+          [
+            "x",
+            "y",
+            "0"
+          ]
+        ],
+        [
+          [
+            "0",
+            "u",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "y",
+            "0"
+          ]
+        ],
+        [
+          [
+            "t",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "v+w"
+          ],
+          [
+            "x",
+            "z",
+            "0"
+          ]
+        ],
+        [
+          [
+            "t",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "v"
+          ],
+          [
+            "0",
+            "z",
+            "0"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "w"
+          ],
+          [
+            "x",
+            "0",
+            "0"
+          ]
+        ]
+      ],
+      "source_cells": 63,
+      "source_glyphs": 71,
+      "excluded_c_indices_1_based": [
+        [],
+        [
+          3
+        ],
+        [
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "header_sets_checked_visually": true
+    }
+  },
+  "wall_seconds": 0.16246359000797383,
+  "solver_calls": 0,
+  "old_censuses_rerun": 0,
+  "general_proofs": "MATCHING199_201_SOURCE_NOTES.md"
+}

@@ -1,0 +1,175 @@
+{
+  "scope": "Exact verification of the ten printed base terms and fourteen printed increments only; no permutation enumeration or asymptotic experiment.",
+  "rho": "5/2",
+  "base_checks": [
+    {
+      "k": 1,
+      "ceil_rho_power": 3,
+      "a_k": 3,
+      "gcd_with_previous_product": 1,
+      "rejected_integers": []
+    },
+    {
+      "k": 2,
+      "ceil_rho_power": 7,
+      "a_k": 7,
+      "gcd_with_previous_product": 1,
+      "rejected_integers": []
+    },
+    {
+      "k": 3,
+      "ceil_rho_power": 16,
+      "a_k": 16,
+      "gcd_with_previous_product": 1,
+      "rejected_integers": []
+    },
+    {
+      "k": 4,
+      "ceil_rho_power": 40,
+      "a_k": 41,
+      "gcd_with_previous_product": 1,
+      "rejected_integers": [
+        {
+          "integer": 40,
+          "gcd_with_previous_product": 8
+        }
+      ]
+    },
+    {
+      "k": 5,
+      "ceil_rho_power": 98,
+      "a_k": 101,
+      "gcd_with_previous_product": 1,
+      "rejected_integers": [
+        {
+          "integer": 98,
+          "gcd_with_previous_product": 14
+        },
+        {
+          "integer": 99,
+          "gcd_with_previous_product": 3
+        },
+        {
+          "integer": 100,
+          "gcd_with_previous_product": 4
+        }
+      ]
+    },
+    {
+      "k": 6,
+      "ceil_rho_power": 245,
+      "a_k": 247,
+      "gcd_with_previous_product": 1,
+      "rejected_integers": [
+        {
+          "integer": 245,
+          "gcd_with_previous_product": 7
+        },
+        {
+          "integer": 246,
+          "gcd_with_previous_product": 246
+        }
+      ]
+    },
+    {
+      "k": 7,
+      "ceil_rho_power": 611,
+      "a_k": 613,
+      "gcd_with_previous_product": 1,
+      "rejected_integers": [
+        {
+          "integer": 611,
+          "gcd_with_previous_product": 13
+        },
+        {
+          "integer": 612,
+          "gcd_with_previous_product": 12
+        }
+      ]
+    },
+    {
+      "k": 8,
+      "ceil_rho_power": 1526,
+      "a_k": 1529,
+      "gcd_with_previous_product": 1,
+      "rejected_integers": [
+        {
+          "integer": 1526,
+          "gcd_with_previous_product": 14
+        },
+        {
+          "integer": 1527,
+          "gcd_with_previous_product": 3
+        },
+        {
+          "integer": 1528,
+          "gcd_with_previous_product": 8
+        }
+      ]
+    },
+    {
+      "k": 9,
+      "ceil_rho_power": 3815,
+      "a_k": 3821,
+      "gcd_with_previous_product": 1,
+      "rejected_integers": [
+        {
+          "integer": 3815,
+          "gcd_with_previous_product": 7
+        },
+        {
+          "integer": 3816,
+          "gcd_with_previous_product": 24
+        },
+        {
+          "integer": 3817,
+          "gcd_with_previous_product": 11
+        },
+        {
+          "integer": 3818,
+          "gcd_with_previous_product": 2
+        },
+        {
+          "integer": 3819,
+          "gcd_with_previous_product": 57
+        },
+        {
+          "integer": 3820,
+          "gcd_with_previous_product": 4
+        }
+      ]
+    },
+    {
+      "k": 10,
+      "ceil_rho_power": 9537,
+      "a_k": 9539,
+      "gcd_with_previous_product": 1,
+      "rejected_integers": [
+        {
+          "integer": 9537,
+          "gcd_with_previous_product": 33
+        },
+        {
+          "integer": 9538,
+          "gcd_with_previous_product": 38
+        }
+      ]
+    }
+  ],
+  "increments": [
+    1,
+    3,
+    7,
+    21,
+    48,
+    112,
+    336,
+    861,
+    1968,
+    4592,
+    13776,
+    33936,
+    86961,
+    198768
+  ]
+}

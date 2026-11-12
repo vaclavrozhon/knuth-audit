@@ -1,0 +1,74 @@
+{
+  "finite_distributions": 1020,
+  "constant_cutoff_checks": 5796,
+  "L_bound_checks": 1020,
+  "periodic_strategies": 120,
+  "independent_hazard_chain_states": 954,
+  "three_point_region_checks": 1210,
+  "heavy_tail_optima_checked": 101,
+  "heavy_tail_n10": [
+    10,
+    23,
+    "4749593/334620"
+  ],
+  "Luby_terms_and_position_checks": 300000,
+  "Sigma_checks": 1568,
+  "gap_checks": 1519,
+  "F027_iterations": [
+    {
+      "j": 1,
+      "survival": "1/2",
+      "printed_sum": "1",
+      "correct_truncated_sum": "1"
+    },
+    {
+      "j": 2,
+      "survival": "1/4",
+      "printed_sum": "7/4",
+      "correct_truncated_sum": "3/2"
+    },
+    {
+      "j": 3,
+      "survival": "1/8",
+      "printed_sum": "19/8",
+      "correct_truncated_sum": "7/4"
+    },
+    {
+      "j": 4,
+      "survival": "1/16",
+      "printed_sum": "47/16",
+      "correct_truncated_sum": "15/8"
+    }
+  ],
+  "F027_true_mean": 2,
+  "F028": "P_j=product_(i<j)(1-q_Ni) is Pr(X>T_(j-1)), not Pr(X>T_j). At j=1 in the F027 example: 1 versus 1/2.",
+  "F029": "Answer 306(h) starts with N*=infinity but then asserts a truncated mean exceeds l(n). In the 306(j) distribution, N*=infinity and l(2)=4, whereas every truncated mean is <3. The proof should instead begin with E_infinity=infinity.",
+  "F029_shifted_geometric_first_five": [
+    [
+      2,
+      "4",
+      "2"
+    ],
+    [
+      3,
+      "10/3",
+      "5/2"
+    ],
+    [
+      4,
+      "22/7",
+      "11/4"
+    ],
+    [
+      5,
+      "46/15",
+      "23/8"
+    ],
+    [
+      6,
+      "94/31",
+      "47/16"
+    ]
+  ],
+  "scope": "Exact rational distributions and finite sequence identities. General proofs, infinite tails, and universal constants are in RESTART_NOTES.md."
+}

@@ -1,0 +1,212 @@
+{
+  "accessed_utc": "2026-11-03T16:44:09.547124+00:00",
+  "scope": "TAOCP2firstprinting1997,391-394basicprimality;exercises9,10,17.",
+  "book_visually_read": [
+    391,
+    392,
+    393,
+    394,
+    412,
+    413,
+    659,
+    661
+  ],
+  "book_djvu_offset": 12,
+  "primary_sources": [
+    {
+      "name": "Alford–Granville–Pomerance1994",
+      "url": "https://www.math.stonybrook.edu/~moira/mat331-spr10/papers/1994%20AlfordThere%20are%20Infinitely%20Many%20Carmichael.pdf",
+      "file": "sources/alford-granville-pomerance-1994-published.pdf",
+      "read_scope": "Visually printed703-705,718-722;PDF2-4,17-21. Cover metadata text read. Middle analytic proof not independently audited; Theorem1 explicit external dependency.",
+      "bytes": 1850240,
+      "sha256": "694852bd26d80b0df048f37b62a25b510800965f5882cfa71242782070bfdf87"
+    },
+    {
+      "name": "Pinch2008ANTSVIIIposter",
+      "url": "https://antsmath.org/ANTSVIII/files/pinch-poster.pdf",
+      "file": "sources/pinch-2008-carmichael-poster.pdf",
+      "read_scope": "One-page poster visually read; row1e12 checked against own complete census, higher rows not recomputed.",
+      "bytes": 32142,
+      "sha256": "59bf7175309077e3c436d22fe1115697e9d7dad0b82eb4f4977b54558a398a7a"
+    },
+    {
+      "name": "Shallue–Webster2024v3",
+      "url": "https://arxiv.org/pdf/2401.14495",
+      "file": "sources/carmichael-tabulation-2024.pdf",
+      "read_scope": "PDF1,4,8,13 visually; sections2-5.2 and8 read as text. Own simple census based on elementary final-prime progression, not authors code;1e22 census not recomputed.",
+      "bytes": 229654,
+      "sha256": "4d39890f99d3ebd6d80c6289436a03dc77512dc3fd08d2588ba60c1607d219ed"
+    },
+    {
+      "name": "Fermat1894volII",
+      "url": "https://archive.org/download/oeuvresdefermat942ferm/oeuvresdefermat942ferm.pdf",
+      "file": "sources/fermat-1894-primality-excerpts.pdf",
+      "read_scope": "Visually printed205-206,209,212-213,217; originalPDF225,226,229,232,233,237. Unmodified six-page excerpt. Also text208,214-216 read, no visual claim.",
+      "bytes": 572880,
+      "sha256": "e2dacd3979d0bb09bab79476640bcd32915ea412462de47a5d29dc000368b45f",
+      "original": {
+        "file": "/tmp/knuth-vol2-or9kgh/fermat-volume2-1894.pdf",
+        "bytes": 25521022,
+        "sha256": "cc0987dd6122ae505bd7fd7194d191499e0b10c7800f71dbd7857e7cd95de072"
+      }
+    },
+    {
+      "name": "Euler–Goldbach2016",
+      "url": "https://eterna.unibas.ch/publbez/article/download/1192/1333/2062",
+      "file": "sources/euler-goldbach-2016-primality-excerpts.pdf",
+      "read_scope": "Visually printed203-204 and719-720; originalPDF212,213,728,729. Letter54,28Aug1742. Unmodified four-page excerpt; not wholeletter/book. OriginalFuss1843p145 not visually read.",
+      "bytes": 566168,
+      "sha256": "c84e97a0b90eeb8ae4abafcc7b5b347ccfeccf9a16dce8e7d169cd6c49d56c3c",
+      "original": {
+        "file": "/tmp/knuth-vol2-or9kgh/euler-goldbach-2016.pdf",
+        "bytes": 31981720,
+        "sha256": "addcc426ad2d610779252c8e08d66a22cc790d739c9d816e677188f4d7c0c443"
+      },
+      "extraction": "mutool clean -gggg -z, originalpages212,213,728,729; all four rendered pages pixel-identical to originals at110dpi."
+    },
+    {
+      "name": "Dickson1919volI",
+      "url": "https://archive.org/download/historyoftheoryo01dick/historyoftheoryo01dick.pdf",
+      "file": "sources/dickson-1919-primality-excerpts.pdf",
+      "read_scope": "Visually printed59,375,381; originalPDF77,393,399. Unmodified three-page excerpt.",
+      "bytes": 458614,
+      "sha256": "bc5c2c24ba451a67642903e21af0bac3b8e1cd29a32a479f0bde2813b3b45822",
+      "original": {
+        "file": "/tmp/knuth-vol2-or9kgh/historyoftheoryo01dick.pdf",
+        "bytes": 40508718,
+        "sha256": "6568600faf73728c2c93b4f583b74b6cd2788290c9c6d8c4eab69adbb1af499a"
+      }
+    }
+  ],
+  "bibliography_only": [
+    {
+      "name": "AGPofficialAnnals139",
+      "url": "https://annals.math.princeton.edu/1994/193-3/p06",
+      "scope": "Officialissue139(1994)703-722 resolves erroneous scan header140."
+    },
+    {
+      "name": "Pratt1975SIAM4(3),214-220",
+      "url": "https://epubs.siam.org/doi/10.1137/0204018",
+      "scope": "Publisher metadata,abstract,proofsystem and bibliography inclLehmer1927; nofullPDF."
+    },
+    {
+      "name": "Brillhart–Selfridge1967",
+      "url": "https://ftp.math.utah.edu/pub/tex/bib/mathcomp1960.bib",
+      "scope": "AcademicbibliographyentryBrillhart:1967:SFR;21(97),87-96."
+    },
+    {
+      "name": "Shalluecode",
+      "url": "https://github.com/ashallue/tabulate_car",
+      "scope": "ReadrepositorylandingandREADMEonly;noexternalcodeexecuted/copied. Site announces2026replacement, irrelevant to ownexactcensus."
+    }
+  ],
+  "access_limits": [
+    {
+      "url": "https://www.wilbourhall.org/pdfs/Fermat_VOL2.pdf",
+      "result": "RemoteDisconnected; publicInternetArchivecopyobtained"
+    },
+    {
+      "url": "https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society/volume-33/issue-3/Tests-for-primality-by-the-converse-of-Fermats-theorem/bams/1183492108.full",
+      "result": "Security check required; no bypass"
+    },
+    {
+      "url": "https://www.ams.org/journals/mcom/1967-21-097/S0025-5718-1967-0222002-9/",
+      "result": "Guessed landing URL inaccessible; not used asbibliographic evidence"
+    }
+  ],
+  "errata": {
+    "layers": [
+      "all2-prepre",
+      "all2-pre",
+      "all2",
+      "err2"
+    ],
+    "visually_read": "all2-preprePDF22,41",
+    "known": [
+      "392negative4wording20Jul2000",
+      "394negative3prime->nonprime20Jun2000",
+      "659answer9brackets18May2002",
+      "661answer17SICOMP7->4,20Apr2009"
+    ],
+    "files": [
+      {
+        "file": "errata/text/all2-prepre.txt",
+        "sha256": "62a1ff323ca421f2640e2337f922dbf8cfc8e86c20d9b11acfc91221721c6f58"
+      },
+      {
+        "file": "errata/text/all2-pre.txt",
+        "sha256": "c1735b70547678d739eae3a8d7b02872c737218eed7706a0aba8fb6fc21a6529"
+      },
+      {
+        "file": "errata/text/all2.txt",
+        "sha256": "1c4d7f2259e147db0ebe84b4bf0ce8864b307afb4ccfbe48efcb1f5f5999ac58"
+      },
+      {
+        "file": "errata/text/err2.txt",
+        "sha256": "1b5c93712c3c467a48679e0040ba6c5869998b25184dbd125a5d096ce96e9ab0"
+      },
+      {
+        "file": "errata/originals/err2.textxt",
+        "sha256": "8faa21566312314ec6bda0f8956913deb312517fd9fa688dcc0bf19e1f21962e"
+      }
+    ]
+  },
+  "computational_scope": {
+    "carmichael_bound_exclusive": 1000000000000,
+    "count": 8241,
+    "independent_trial_prime_count": 2649,
+    "direct_integer_census_below": 1000000,
+    "certificate_nodes": 39,
+    "modular_certificate_checks": 154,
+    "pratt_printed_tree_nodes": 13,
+    "rho_iterations": 6432966,
+    "checkpoints": 4
+  },
+  "artifacts": [
+    {
+      "file": "verify_primality_basic.py",
+      "bytes": 8778,
+      "sha256": "829618d994c598c2c77e5e18310022f3bce8764579e13b2c96a187c90343caaa"
+    },
+    {
+      "file": "generate_primality_certificates.py",
+      "bytes": 1438,
+      "sha256": "075d2ff32a984cde75703f0448f2b46483d47a2cf7c187a6a5acc6d6973eaf61"
+    },
+    {
+      "file": "verify_primality_rho.cpp",
+      "bytes": 909,
+      "sha256": "51cbe7f19a952ec6704fd9bb9cb75dff5e7400192042be4f14c6af4016601d86"
+    },
+    {
+      "file": "verify_carmichael_census.cpp",
+      "bytes": 2749,
+      "sha256": "49bb56d7344467e59e54acce2eeed7d14623862c8f1f497848259cda2692a49b"
+    },
+    {
+      "file": "results/primality-basic.json",
+      "bytes": 3196,
+      "sha256": "6f0a559362200179bfe8b5e53995a2d674b184373309f8db7e6e705667823536"
+    },
+    {
+      "file": "results/primality-certificates.json",
+      "bytes": 8680,
+      "sha256": "7863ee17e2f9384787e285f57b953822aea8135bd14d296eecb4dd362a845536"
+    },
+    {
+      "file": "results/primality-rho.csv",
+      "bytes": 76,
+      "sha256": "cd0d4d28bb8cddcbf9b0404c10af2136ca61d31c6523b5a5c4b1728241dad9b6"
+    },
+    {
+      "file": "results/carmichael-census.csv",
+      "bytes": 249924,
+      "sha256": "ec9e319aed331bbbcf10e0fba38e2a89c626fcabc555377cfcd1bb45321dd311"
+    },
+    {
+      "file": "results/carmichael-census.log",
+      "bytes": 76022,
+      "sha256": "8bab3908e9cdde866f96f866c0d9d904c3ff1f7de15db5d4d74dadab22fa751d"
+    }
+  ]
+}

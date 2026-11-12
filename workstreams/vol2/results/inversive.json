@@ -1,0 +1,205 @@
+{
+  "status": "all_checks_passed",
+  "prime_parameter_cases": 74836,
+  "prime_orbit_states": 3322025,
+  "matrix_checks": 49938,
+  "prime_counts": [
+    {
+      "p": 2,
+      "full_period_pairs": 1,
+      "formula": 1
+    },
+    {
+      "p": 3,
+      "full_period_pairs": 2,
+      "formula": 2
+    },
+    {
+      "p": 5,
+      "full_period_pairs": 4,
+      "formula": 4
+    },
+    {
+      "p": 7,
+      "full_period_pairs": 12,
+      "formula": 12
+    },
+    {
+      "p": 11,
+      "full_period_pairs": 20,
+      "formula": 20
+    },
+    {
+      "p": 13,
+      "full_period_pairs": 36,
+      "formula": 36
+    },
+    {
+      "p": 17,
+      "full_period_pairs": 48,
+      "formula": 48
+    },
+    {
+      "p": 19,
+      "full_period_pairs": 72,
+      "formula": 72
+    },
+    {
+      "p": 23,
+      "full_period_pairs": 88,
+      "formula": 88
+    },
+    {
+      "p": 29,
+      "full_period_pairs": 112,
+      "formula": 112
+    },
+    {
+      "p": 31,
+      "full_period_pairs": 240,
+      "formula": 240
+    },
+    {
+      "p": 37,
+      "full_period_pairs": 324,
+      "formula": 324
+    },
+    {
+      "p": 41,
+      "full_period_pairs": 240,
+      "formula": 240
+    },
+    {
+      "p": 43,
+      "full_period_pairs": 420,
+      "formula": 420
+    },
+    {
+      "p": 47,
+      "full_period_pairs": 368,
+      "formula": 368
+    },
+    {
+      "p": 53,
+      "full_period_pairs": 468,
+      "formula": 468
+    },
+    {
+      "p": 59,
+      "full_period_pairs": 464,
+      "formula": 464
+    },
+    {
+      "p": 61,
+      "full_period_pairs": 900,
+      "formula": 900
+    },
+    {
+      "p": 67,
+      "full_period_pairs": 1056,
+      "formula": 1056
+    },
+    {
+      "p": 71,
+      "full_period_pairs": 840,
+      "formula": 840
+    },
+    {
+      "p": 73,
+      "full_period_pairs": 1296,
+      "formula": 1296
+    },
+    {
+      "p": 79,
+      "full_period_pairs": 1248,
+      "formula": 1248
+    },
+    {
+      "p": 83,
+      "full_period_pairs": 984,
+      "formula": 984
+    },
+    {
+      "p": 89,
+      "full_period_pairs": 1056,
+      "formula": 1056
+    },
+    {
+      "p": 97,
+      "full_period_pairs": 2016,
+      "formula": 2016
+    },
+    {
+      "p": 101,
+      "full_period_pairs": 1600,
+      "formula": 1600
+    }
+  ],
+  "power_two_parameters": 5460,
+  "power_two_states": 599184,
+  "power_two_rows": [
+    {
+      "e": 3,
+      "parameters": 4,
+      "period": 4
+    },
+    {
+      "e": 4,
+      "parameters": 16,
+      "period": 8
+    },
+    {
+      "e": 5,
+      "parameters": 64,
+      "period": 16
+    },
+    {
+      "e": 6,
+      "parameters": 256,
+      "period": 32
+    },
+    {
+      "e": 7,
+      "parameters": 1024,
+      "period": 64
+    },
+    {
+      "e": 8,
+      "parameters": 4096,
+      "period": 128
+    }
+  ],
+  "parity_preserving_boundary_cases": 2720,
+  "doubling_identity_checks": 38400,
+  "plane_parameters": 75,
+  "lag_cases": 5081,
+  "nonzero_determinants": 1201827,
+  "rational_identity_checks": 8414,
+  "C0013": {
+    "a": 1,
+    "c": 2,
+    "n": 1,
+    "q": [
+      0,
+      1,
+      2,
+      5
+    ],
+    "printed_left": 4,
+    "printed_right": 8,
+    "correction": "q_(n+1)+a*q_(n-1) in both consecutive places"
+  },
+  "C0014": {
+    "p": 7,
+    "a": 1,
+    "c": 1,
+    "b": 2,
+    "u": 1,
+    "t": 6,
+    "actual_pole": 6,
+    "printed_evaluation_point": 1,
+    "F_squared_at_1": 5,
+    "correction": "Evaluate at x=-u_j after the 2005 denominator correction"
+  },
+  "scope": "Exhaustive finite checks support general proofs. No statistical quality guarantee follows solely from period."
+}

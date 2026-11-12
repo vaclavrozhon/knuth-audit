@@ -1,0 +1,282 @@
+{
+  "prefix": {
+    "printed": [
+      {
+        "literal": 1,
+        "degree": 4,
+        "restored": [],
+        "retained_before_reset": [],
+        "stack": [
+          1
+        ],
+        "stored_size": 3,
+        "decisions": [
+          {
+            "processed": 1,
+            "candidate_size": 3,
+            "stored_size": 3,
+            "unfixed": [
+              3,
+              4,
+              5
+            ],
+            "true": []
+          }
+        ]
+      },
+      {
+        "literal": 2,
+        "degree": 2,
+        "restored": [],
+        "retained_before_reset": [
+          1
+        ],
+        "stack": [
+          2
+        ],
+        "stored_size": 3,
+        "decisions": []
+      },
+      {
+        "literal": -4,
+        "degree": 8,
+        "restored": [
+          2
+        ],
+        "retained_before_reset": [],
+        "stack": [
+          -4
+        ],
+        "stored_size": 2,
+        "decisions": [
+          {
+            "processed": -4,
+            "candidate_size": 2,
+            "stored_size": 2,
+            "unfixed": [
+              -1,
+              3,
+              5
+            ],
+            "true": []
+          }
+        ]
+      },
+      {
+        "literal": -3,
+        "degree": 6,
+        "restored": [],
+        "retained_before_reset": [
+          -4
+        ],
+        "stack": [
+          -3
+        ],
+        "stored_size": 1,
+        "decisions": [
+          {
+            "processed": -3,
+            "candidate_size": 1,
+            "stored_size": 1,
+            "unfixed": [
+              -1,
+              5
+            ],
+            "true": []
+          }
+        ]
+      }
+    ],
+    "corrected": [
+      {
+        "literal": 1,
+        "degree": 4,
+        "restored": [],
+        "retained_before_reset": [],
+        "stack": [
+          1
+        ],
+        "stored_size": 3,
+        "decisions": [
+          {
+            "processed": 1,
+            "candidate_size": 3,
+            "stored_size": 3,
+            "unfixed": [
+              3,
+              4,
+              5
+            ],
+            "true": []
+          }
+        ]
+      },
+      {
+        "literal": 2,
+        "degree": 2,
+        "restored": [],
+        "retained_before_reset": [
+          1
+        ],
+        "stack": [
+          1,
+          2
+        ],
+        "stored_size": 3,
+        "decisions": []
+      },
+      {
+        "literal": -4,
+        "degree": 8,
+        "restored": [
+          2,
+          1
+        ],
+        "retained_before_reset": [],
+        "stack": [
+          -4
+        ],
+        "stored_size": 3,
+        "decisions": [
+          {
+            "processed": -4,
+            "candidate_size": 3,
+            "stored_size": 3,
+            "unfixed": [
+              -1,
+              3,
+              5
+            ],
+            "true": []
+          }
+        ]
+      },
+      {
+        "literal": -3,
+        "degree": 6,
+        "restored": [],
+        "retained_before_reset": [
+          -4
+        ],
+        "stack": [
+          -4,
+          -3
+        ],
+        "stored_size": 2,
+        "decisions": [
+          {
+            "processed": -3,
+            "candidate_size": 2,
+            "stored_size": 2,
+            "unfixed": [
+              -1,
+              5
+            ],
+            "true": []
+          }
+        ]
+      }
+    ]
+  },
+  "unit_count": {
+    "printed": [
+      {
+        "literal": -1,
+        "degree": 2,
+        "restored": [],
+        "retained_before_reset": [],
+        "stack": [
+          -1,
+          -2,
+          3
+        ],
+        "stored_size": 2,
+        "decisions": [
+          {
+            "processed": -1,
+            "candidate_size": 2,
+            "stored_size": 2,
+            "unfixed": [
+              3
+            ],
+            "true": []
+          },
+          {
+            "processed": -2,
+            "candidate_size": 1,
+            "stored_size": 2,
+            "unfixed": [
+              3
+            ],
+            "true": []
+          }
+        ]
+      },
+      {
+        "literal": 4,
+        "degree": 4,
+        "restored": [
+          3,
+          -2,
+          -1
+        ],
+        "retained_before_reset": [],
+        "stack": [
+          4
+        ],
+        "stored_size": 4,
+        "decisions": []
+      }
+    ],
+    "corrected": [
+      {
+        "literal": -1,
+        "degree": 2,
+        "restored": [],
+        "retained_before_reset": [],
+        "stack": [
+          -1,
+          -2,
+          3
+        ],
+        "stored_size": 1,
+        "decisions": [
+          {
+            "processed": -1,
+            "candidate_size": 2,
+            "stored_size": 2,
+            "unfixed": [
+              3
+            ],
+            "true": []
+          },
+          {
+            "processed": -2,
+            "candidate_size": 1,
+            "stored_size": 1,
+            "unfixed": [
+              3
+            ],
+            "true": []
+          }
+        ]
+      },
+      {
+        "literal": 4,
+        "degree": 4,
+        "restored": [
+          3,
+          -2,
+          -1
+        ],
+        "retained_before_reset": [],
+        "stack": [
+          4
+        ],
+        "stored_size": 3,
+        "decisions": []
+      }
+    ]
+  },
+  "scope": "Two local state invariants, tested independently. The prefix case uses unconditional decrement to isolate that omission; the count case preserves the prefix."
+}

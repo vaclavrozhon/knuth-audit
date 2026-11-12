@@ -1,0 +1,186 @@
+{
+  "at_utc": "2026-11-03T17:43:44.013315+00:00",
+  "pattern": "\\b(?:225|109|110|111|152|475|150|283)\\b|00.*22|forced|forcing|one.sided|5410|2426|3157|2339|1537",
+  "files": [
+    {
+      "file": "errata/text/all4b.txt",
+      "sha256": "b1a3425486f403fb4158585d5bbfef0159fd20b12e2e7d47b64e393e1ae8a303",
+      "matching_lines": [
+        177,
+        183,
+        185,
+        187,
+        189,
+        208,
+        304,
+        453,
+        463,
+        541,
+        795,
+        834,
+        852,
+        1105,
+        1361,
+        1374,
+        1376,
+        1386,
+        1441,
+        1448,
+        1451,
+        1452,
+        1462,
+        1465
+      ]
+    },
+    {
+      "file": "errata/text/err4b.txt",
+      "sha256": "2a3450bf3c79d28ad3c2d96468344c96995cf0afb74961f257c311bb9c821e1c",
+      "matching_lines": [
+        162,
+        168,
+        170,
+        172,
+        174,
+        182,
+        409,
+        419,
+        492,
+        750,
+        789,
+        807,
+        1063,
+        1289,
+        1291,
+        1301,
+        1330,
+        1355,
+        1381,
+        1400,
+        1410,
+        1413,
+        1414
+      ]
+    },
+    {
+      "file": "errata/text/all4f5.txt",
+      "sha256": "0dd38c4cda72b01baefb797611c9bbab7713ff0c107a1df884afc89fe9bb91c3",
+      "matching_lines": [
+        236,
+        259,
+        265,
+        341,
+        342,
+        343,
+        345,
+        460,
+        512,
+        617,
+        620,
+        657,
+        704,
+        705,
+        1035,
+        1055,
+        1057,
+        1094,
+        1095,
+        1113
+      ]
+    },
+    {
+      "file": "errata/text/err4f5.txt",
+      "sha256": "5a716c34e2063eb46005593d53e89dbbd912b5677e0a6ab11753f2a5ee38b557",
+      "matching_lines": [
+        196,
+        216,
+        222,
+        290,
+        291,
+        294,
+        299,
+        409,
+        462,
+        564,
+        603,
+        653,
+        658,
+        976,
+        996,
+        998,
+        1035,
+        1036,
+        1054
+      ]
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "sha256": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+      "matching_lines": [
+        379,
+        383,
+        387,
+        391,
+        396,
+        424,
+        602,
+        843,
+        856,
+        957,
+        1212,
+        1261,
+        1263,
+        1285,
+        1658,
+        1891,
+        1897,
+        1904,
+        2045,
+        2083,
+        2096,
+        2111,
+        2116,
+        2119,
+        2214
+      ]
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "sha256": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b",
+      "matching_lines": [
+        445,
+        447,
+        494,
+        507,
+        594,
+        595,
+        598,
+        602,
+        781,
+        870,
+        1063,
+        1069,
+        1108,
+        1193,
+        1196,
+        2038,
+        2221,
+        2339,
+        2351
+      ]
+    }
+  ],
+  "known": [
+    {
+      "id": "E101",
+      "entry": "2021-12-08: Fascicle5p150question225 adds one-sided to6x15; already in book152, missing draft88"
+    }
+  ],
+  "no_correction_found": [
+    "F146: main111 cell00 forced by22 is impossible;11 is the observed forcing item"
+  ],
+  "freshness_evidence": [
+    "results/gould189_192/live-fascicle5-errata-check.json",
+    "sources/snakes172/retrieval.json",
+    "sources/snakes172/retrieval-additional.json"
+  ]
+}

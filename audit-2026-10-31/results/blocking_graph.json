@@ -1,0 +1,32 @@
+{
+  "source_review": "2026-11-12: original p.579 has lprime -> l; previous graph was transposed.",
+  "F025_status": "dismissed",
+  "binary_resolution_comparisons": 36,
+  "F025_binary_witness": {
+    "printed_rule_allows_xy": false
+  },
+  "F026": {
+    "status": "confirmed",
+    "formula": [
+      [
+        1,
+        -2,
+        3
+      ],
+      [
+        -1,
+        2,
+        -3
+      ]
+    ],
+    "component": [
+      -3,
+      -2,
+      -1,
+      1,
+      2,
+      3
+    ]
+  },
+  "scope": "Three targeted witness formulas; original orientation checked against direct resolution. No repeated exhaustive census."
+}

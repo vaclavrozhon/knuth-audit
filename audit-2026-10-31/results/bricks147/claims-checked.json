@@ -1,0 +1,278 @@
+{
+  "at_utc": "2026-11-03T07:40:50.857918+00:00",
+  "checker_sha256": "7ee65d1b8042d8c63560f9e0e494901335574a6b0c9e1de17039f5672d098781",
+  "geometry_sha256": "140542c1806da220d16df7b301e586a493d3b3eeb695ec8b7d5c24a9366bd1a2",
+  "all_larger_cases": {
+    "2x2x3": {
+      "normalized_models": 102,
+      "orbits": 22,
+      "histograms": {
+        "100": [
+          0,
+          1,
+          6,
+          0
+        ],
+        "000": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "101": [
+          0,
+          2,
+          6,
+          1
+        ],
+        "001": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "111": [
+          0,
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    "2x2x4": {
+      "normalized_models": 244,
+      "orbits": 48,
+      "histograms": {
+        "100": [
+          0,
+          11,
+          12,
+          2
+        ],
+        "001": [
+          0,
+          2,
+          2,
+          4
+        ],
+        "101": [
+          0,
+          3,
+          4,
+          1
+        ],
+        "111": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "000": [
+          0,
+          1,
+          3,
+          1
+        ],
+        "110": [
+          0,
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    "2x2x5": {
+      "normalized_models": 278,
+      "orbits": 45,
+      "histograms": {
+        "000": [
+          0,
+          2,
+          5,
+          1
+        ],
+        "100": [
+          0,
+          18,
+          9,
+          0
+        ],
+        "101": [
+          0,
+          5,
+          4,
+          0
+        ],
+        "001": [
+          0,
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    "2x3x3": {
+      "normalized_models": 356,
+      "orbits": 42,
+      "histograms": {
+        "110": [
+          4,
+          8,
+          1,
+          0
+        ],
+        "100": [
+          1,
+          4,
+          1,
+          2
+        ],
+        "111": [
+          2,
+          15,
+          4,
+          0
+        ]
+      }
+    },
+    "2x3x4": {
+      "normalized_models": 170,
+      "orbits": 38,
+      "histograms": {
+        "110": [
+          6,
+          8,
+          1,
+          0
+        ],
+        "010": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "001": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "011": [
+          0,
+          4,
+          2,
+          0
+        ],
+        "000": [
+          0,
+          7,
+          0,
+          0
+        ],
+        "100": [
+          0,
+          6,
+          0,
+          0
+        ]
+      }
+    },
+    "2x3x5": {
+      "normalized_models": 8,
+      "orbits": 2,
+      "histograms": {
+        "111": [
+          0,
+          2,
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "differences": [
+    {
+      "case": "2x2x4",
+      "faces": "aa × bc × dd",
+      "repeat_axes": "101",
+      "printed": [
+        0,
+        3,
+        4,
+        2
+      ],
+      "corrected": [
+        0,
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "case": "2x2x4",
+      "faces": "aa × bc × de",
+      "repeat_axes": "100",
+      "printed": [
+        0,
+        11,
+        14,
+        2
+      ],
+      "corrected": [
+        0,
+        11,
+        12,
+        2
+      ]
+    },
+    {
+      "case": "2x2x4",
+      "faces": "ab × cd × ee",
+      "repeat_axes": "001",
+      "printed": [
+        0,
+        2,
+        2,
+        3
+      ],
+      "corrected": [
+        0,
+        2,
+        2,
+        4
+      ]
+    },
+    {
+      "case": "2x2x4",
+      "faces": "ab × cd × ef",
+      "repeat_axes": "000",
+      "printed": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "corrected": [
+        0,
+        1,
+        3,
+        1
+      ]
+    }
+  ],
+  "all_other_histograms_agree": true,
+  "normalized_2x2x4_total_unchanged": 244,
+  "total_2x2x4_orbits_unchanged": 48,
+  "question_figure_all24_glyphs_valid": true,
+  "question_trace_hashes": {
+    "results/bricks147/original-163.xml": "4a2af573f7440d1f52564754d389e97ccdc860d3d527a058b2fb1ba99ba9760a",
+    "results/bricks147/draft-85.xml": "10b72976194cbeb136dd3dc2516777368a87221efcc2461cb4602c330ea5ac0c"
+  },
+  "prototype_two_models_same_eight_types_excluding_prototype": true,
+  "prototype_isomorphisms": 24,
+  "opposite_pair_inventory": 6,
+  "case135_correct": true,
+  "top_selector_correct": true,
+  "catalogue_completeness": "l<=m<=n; volume<=30. l=1 forces mn<=6, and1x1xn needs n<=2. Remaining cases are2x2x2..7,2x3x3..5,3x3x3; all completely enumerated.",
+  "figure_diagnostic": "Initial extractor expected aabbcc in fixed tensor-axis order; actual aaccbb is equivalent by color renaming. Corrected expectation before acceptance; not a book error."
+}

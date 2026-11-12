@@ -1,0 +1,22 @@
+{
+  "checked_at_utc": "2026-11-06T18:01:44.467614+00:00",
+  "findings": [
+    "MMIX-C0003",
+    "MMIX-C0013"
+  ],
+  "errata_sources": [
+    "errata/originals/err1f1.textxt",
+    "errata/text/all1f1.txt",
+    "errata/text/err1f1.txt"
+  ],
+  "prior_evidence_reused": "results/errata-first-32.json",
+  "terms": [
+    "printed18 trip/rY/NEG",
+    "printed78 res IS $2",
+    "printed81 StackRoom line097",
+    "printed117 answer5 register count"
+  ],
+  "result": "No applicable correction found. 2009 line068 correction and p116 indentation correction concern other statements.",
+  "primary_source": "sources/mmix-20131017-metadata.json",
+  "implementation_scope": "Only operand-installation, NEG overflow/trip and marginal destination/PUSHJ paths read; no full simulator audit/build/run."
+}

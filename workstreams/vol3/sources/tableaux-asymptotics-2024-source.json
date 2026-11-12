@@ -1,0 +1,15 @@
+{
+  "checked_at_utc": "2026-11-06",
+  "context": "The 16 Nov 2024 addition after Volume 3 equation (53), page 64",
+  "primary_sources": [
+    "https://arxiv.org/abs/2410.16334",
+    "https://arxiv.org/html/2410.16334v1"
+  ],
+  "title": "The O(1/n^85) Asymptotic expansion of OEIS sequence A85",
+  "authors": ["Shalosh B. Ekhad", "Manuel Kauers", "Doron Zeilberger"],
+  "date": "2024-10-19",
+  "page_count": 4,
+  "verified_scope": "The primary text and metadata substantiate the authors, date, length, and the stated availability of an expansion through remainder O(n^-85). The paper uses the involution recurrence and points to a separate coefficient file. The audit derives the book's displayed 7/24 coefficient independently.",
+  "explicitly_not_reproduced": "The complete 169-coefficient computation, its computer-algebra packages, and numerical examples in the article. No external program was run; the bibliographic check does not certify every coefficient.",
+  "evidence": "workstreams/vol3/notes/tableaux-proof-asymptotics-63-64.md"
+}

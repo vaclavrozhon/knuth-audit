@@ -1,0 +1,23 @@
+{
+  "left_cap_layer_sizes": [
+    1,
+    9,
+    45,
+    165,
+    495,
+    1287,
+    3003,
+    6435,
+    12870
+  ],
+  "stable_masks": 12870,
+  "full_column_transfer_arcs": 735471,
+  "stable_masks_sha256": "613959720a6519131c9dfd3abde2bfc4a6a365d6b6aaffd16fb35814a6a4d2a9",
+  "full_column_successful_signatures": 205920,
+  "full_column_branch_nodes": 257400,
+  "base_n": 8,
+  "base_nodes": 849139,
+  "extra_n7_nodes": 591739,
+  "formula": "849139+(n-8)*257400 = 257400*n-1210061, n>=8; direct base n7 agrees.",
+  "proof": "Each eight-column cap permits every weight8 frontier. The reflected right cap has the same property. Full columns preserve these masks. Therefore extra full columns each add257400 nodes, and the two caps contribute a constant."
+}

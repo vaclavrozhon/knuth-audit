@@ -1,0 +1,32 @@
+{
+  "height": 16,
+  "reachable_layer_sizes": [
+    1,
+    2,
+    5,
+    14,
+    42,
+    132,
+    429,
+    1430,
+    4862,
+    8502,
+    11050,
+    12310,
+    12750,
+    12854,
+    12869,
+    12870,
+    12870
+  ],
+  "first_full_balanced_layer": 15,
+  "balanced_masks": 12870,
+  "full_column_transfer_arcs": 265729,
+  "balanced_mask_sha256": "6333bd0cf3d83e7f1d05ec4d7508c185578b62aa1bfae87504f44b928a26b4b1",
+  "full_column_successful_signatures": 102960,
+  "full_column_branch_nodes": 154440,
+  "base_n": 30,
+  "base_nodes": 1977345,
+  "formula": "1977345 + (n-30)*154440 = 154440*n-2655855, n>=30",
+  "proof": "Left and reflected right boundary sets stabilize after15 columns. For n>=30, extending the middle adds one column with both boundary sets balanced; the two fixed end contributions do not change."
+}

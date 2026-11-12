@@ -1,0 +1,179 @@
+{
+  "reviewed_at_utc": "2026-11-06T10:21:55.458244+00:00",
+  "scope": "Mathematical F and exercises25–30/32. Exercise30 final bounds proved, printed optimizer transfer remains partial/candidate. G and31 continue separately.",
+  "reaffirmed_findings": [
+    "V2-C0049",
+    "V2-C0050",
+    "V2-C0051"
+  ],
+  "new_candidates": [
+    "V2-C0244"
+  ],
+  "new_computation_scope": "Two targeted interval optimizer examples and bounded floating navigation only; no archived successful enumeration rerun.",
+  "accepted_archived_counts": {
+    "cyclotomic_squared_sums": 2400,
+    "shifts": 4800,
+    "modulus_reductions": 2283,
+    "weight_class_bounds": 13534,
+    "dual_vectors": 119343,
+    "dyadic_classes": 81390,
+    "primitive_Gauss_sums": 111,
+    "polynomial_root_counts": 19791,
+    "CF_product_models": 7805,
+    "combined_states": 4000
+  },
+  "inputs": [
+    {
+      "path": "workstreams/vol2/notes/sequential-spectral-discrepancy-2026-11-06.md",
+      "sha256": "2d00b96f28e18543eac54dcd2f4cb33f33fb999309cc85880a6b8ada3d8a695b"
+    },
+    {
+      "path": "workstreams/vol2/sources/sequential-2026-11-06/spectral-discrepancy-source-review.json",
+      "sha256": "df6cbbdadc1539e23c8fd431e2e15b006d053e83a63cd63a9d874657c5ca4b9b"
+    },
+    {
+      "path": "workstreams/vol2/verify_spectral_discrepancy.py",
+      "sha256": "28e26e9dca13161d643a6dd593cbba856d95cf69739fd1942362447573831ef5"
+    },
+    {
+      "path": "workstreams/vol2/notes/spectral-discrepancy.md",
+      "sha256": "b3f7b1031936308cca2b4cb181fd0bff11d4b7445079da475b56d12154d68ff0"
+    },
+    {
+      "path": "workstreams/vol2/results/spectral-discrepancy.json",
+      "sha256": "b382b1ab00cd5e802d7eeca9ba761a3b138af6206a53db0be35a3ee4d24ddcca"
+    },
+    {
+      "path": "workstreams/vol2/results/spectral-discrepancy.log",
+      "sha256": "dc7c1b0df6ca3b3e852b482396d3855e496468683ca98b65e62be5be74133815"
+    },
+    {
+      "path": "workstreams/vol2/check_sequential_spectral_product.py",
+      "sha256": "2ca666daffe62d736821eb72bbb0fc1ae73cd99e2f66932a158d18f72e37232b"
+    },
+    {
+      "path": "workstreams/vol2/results/sequential-spectral-product-example.json",
+      "sha256": "cd3299c61f868763f4e8ac824bed84f2a639b603898d77ad5b56c96d7bb61162"
+    },
+    {
+      "path": "workstreams/vol2/results/sequential-spectral-product-full-period.json",
+      "sha256": "d6c9dbe8edf35f7357418d62ac3654a042e1f485d1584d8784eb64100b2dee65"
+    },
+    {
+      "path": "workstreams/vol2/results/sequential-spectral-product-screen.json",
+      "sha256": "a5b198d3bc57b31cc45264851f381788162f2b7f32439afe752f0c009ae72f36"
+    },
+    {
+      "path": "workstreams/vol2/results/spectral-table.json",
+      "sha256": "a4d77943c8813393060366b9f44ae6f473f59e95a0936a8660456ebcd9f1d1c9"
+    },
+    {
+      "path": "workstreams/vol2/sources/niederreiter-pseudo-aleatoires-1979.json",
+      "sha256": "3638e454d2265006090b965f06bb3ff13099288c6474ed21897169c7c1adddb3"
+    },
+    {
+      "path": "workstreams/vol2/sources/niederreiter-pseudo-aleatoires-1979.pdf",
+      "sha256": "624dca615979a9094db57d2c0c2ab1a92276e204f0cc818243454a781cee2786"
+    },
+    {
+      "path": "workstreams/vol2/sources/niederreiter-pseudo-aleatoires-1979.txt",
+      "sha256": "01311883f9ae5c97247a9997d7750a3be9cc064e40db314f84f45d5d773fa0d6"
+    },
+    {
+      "path": "errata/text/all2-prepre.txt",
+      "sha256": "62a1ff323ca421f2640e2337f922dbf8cfc8e86c20d9b11acfc91221721c6f58"
+    },
+    {
+      "path": "errata/text/all2-pre.txt",
+      "sha256": "c1735b70547678d739eae3a8d7b02872c737218eed7706a0aba8fb6fc21a6529"
+    },
+    {
+      "path": "errata/text/all2.txt",
+      "sha256": "1c4d7f2259e147db0ebe84b4bf0ce8864b307afb4ccfbe48efcb1f5f5999ac58"
+    },
+    {
+      "path": "errata/text/err2.txt",
+      "sha256": "1b5c93712c3c467a48679e0040ba6c5869998b25184dbd125a5d096ce96e9ab0"
+    },
+    {
+      "path": "errata/originals/err2.textxt",
+      "sha256": "8faa21566312314ec6bda0f8956913deb312517fd9fa688dcc0bf19e1f21962e"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p109.png",
+      "sha256": "ff67c5ec643877b35f5f307fe6f9ac919cfcceed9f311882059acd134006d3ff"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p110.png",
+      "sha256": "bf0b7a8851e21d65ebf427f4ecff833d6a8adace60aeed51e4f984ec2440e845"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p111.png",
+      "sha256": "318c79f1ab14e4cbb61bc75d85d18ee034c75afc2f70f8063665f46c140ed304"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p112.png",
+      "sha256": "f90ad31ad8b502561223b28de8a5b0c398f1961f544ff90116c5bcce9a8fe2bb"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p113.png",
+      "sha256": "3357ee696fec15bea780c7982d25a074518fa3420c364cc136a04ab47b18efd3"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p114.png",
+      "sha256": "4c245cf49f178af419250b0c2807d631ac4a81b515eb92f1a0ac2bf1577597df"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p115.png",
+      "sha256": "e31e2046f7ecc193898ceea6e43c3f80f455c7de64abe06c3b390c6067b78c08"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p117.png",
+      "sha256": "907b0183221f10c1f13bfe06f849693cff88de0e6e82e78bb8b1423449461a6b"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p118.png",
+      "sha256": "df561b27f95b7fb4a74d94f9b0abe6b8cd147c51ec25f73dbb2c80ef210a264b"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p582.png",
+      "sha256": "d15a61ee09a3eab34b5a149e533da278fd45a7272b77626e722f5e96d61fda7c"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p583.png",
+      "sha256": "134a2dcf7457201572288e0ab0a1aa30ac8fb34e704409a1a431020f4be1de4c"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p584.png",
+      "sha256": "995f3aab851af4adcdbef10960d2cf73ab918caedacafbd9277509e9399e3b22"
+    },
+    {
+      "path": "workstreams/vol2/images/all2-prepre-spectral-f-06.png",
+      "sha256": "6c90898511e45d11fed1fbe7786217c99a263b4d822de8705acd620fca9527e5"
+    },
+    {
+      "path": "workstreams/vol2/images/all2-prepre-spectral-f-07.png",
+      "sha256": "e211fd98a1a30b082dce60c67764700069801a6c923be42513d0257056297216"
+    },
+    {
+      "path": "workstreams/vol2/images/all2-prepre-p32.png",
+      "sha256": "555de036864e003b38d046440e137133d56ea8db2ebc9b409700cc068a9b6b24"
+    },
+    {
+      "path": "workstreams/vol2/images/niederreiter1979-06.png",
+      "sha256": "82dcb0fc51c58482ca9a43a36fc7897ea67205c0bc996fc9988ab015b548288a"
+    },
+    {
+      "path": "workstreams/vol2/images/niederreiter1979-07.png",
+      "sha256": "2371818453b9b1100ffcad0416ec7ca43138ae83e94d30a6b1f5739c7e87691d"
+    },
+    {
+      "path": "workstreams/vol2/images/niederreiter1979-08.png",
+      "sha256": "f2cf18042e25dddfa357a747d8e1c4af5cec9aa163b5d3878c1d8599a4259ff6"
+    },
+    {
+      "path": "workstreams/vol2/images/niederreiter1979-09.png",
+      "sha256": "fe59814e3a2360733cf2586d784072bdfedad963385146e8c0a7249fd4c45c89"
+    }
+  ]
+}

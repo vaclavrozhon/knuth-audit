@@ -1,0 +1,142 @@
+{
+  "block": "V2-X0074",
+  "finding": "V2-C0231",
+  "checked_at_utc": "2026-11-04T10:33:50.394146+00:00",
+  "edition": 3,
+  "printing": 1,
+  "scope": "Entire new exercise4.7-29, added2024-04-01, and its answer. General proof includes zero constants; b determinant exactly1.",
+  "physical_copy_verified": false,
+  "original_first_printing_contains_exercise": false,
+  "visual_evidence": [
+    "all2 PDF9: exercise",
+    "all2 PDF12: answer",
+    "err2 PDF8: exercise",
+    "Gessel–Xin2006 p14: constant/product/composition rules"
+  ],
+  "primary_read": {
+    "GesselXin2006": "Section4 rules, p14, text and original PDF; bibliography entry8. Other48page content not fully audited.",
+    "Gessel1979": "Citation corroborated by2006 bibliography; full original not obtained."
+  },
+  "verification": {
+    "status": "passed",
+    "seconds": 0.6745502590201795,
+    "wrapper_seconds": 0.7469826290034689,
+    "pid": 1585434,
+    "exit_code": 0,
+    "timeout_seconds": 120,
+    "transformation_cases": 1024,
+    "zero_constant_cases": 700,
+    "independent_b_matrices": 12,
+    "repeated": false
+  },
+  "errata": {
+    "searched": "All six layers; new2024 exercise present inall2/err2/TeX, absent older layers; no later exponent correction.",
+    "current_tex_identical_to_archive": true,
+    "new_findings": [
+      "V2-C0231: both n(n+1)/2 exponents should be n(n-1)/2."
+    ]
+  },
+  "errata_source_hashes": [
+    {
+      "path_from_repository": "errata/text/all2-prepre.txt",
+      "sha256": "62a1ff323ca421f2640e2337f922dbf8cfc8e86c20d9b11acfc91221721c6f58"
+    },
+    {
+      "path_from_repository": "errata/text/all2-pre.txt",
+      "sha256": "c1735b70547678d739eae3a8d7b02872c737218eed7706a0aba8fb6fc21a6529"
+    },
+    {
+      "path_from_repository": "errata/text/all2.txt",
+      "sha256": "1c4d7f2259e147db0ebe84b4bf0ce8864b307afb4ccfbe48efcb1f5f5999ac58"
+    },
+    {
+      "path_from_repository": "errata/text/err2.txt",
+      "sha256": "1b5c93712c3c467a48679e0040ba6c5869998b25184dbd125a5d096ce96e9ab0"
+    },
+    {
+      "path_from_repository": "errata/text/err2-2e.txt",
+      "sha256": "cf2d9ced25e86f6fd9be0e4f82700a979fc174dff6860e7a4b7950292c24e154"
+    },
+    {
+      "path_from_repository": "errata/originals/err2.textxt",
+      "sha256": "8faa21566312314ec6bda0f8956913deb312517fd9fa688dcc0bf19e1f21962e"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "notes/series-determinant.md",
+      "sha256": "e3e73cd7ddd778bcde968ad2dd9fc3a53b2706f5449b1f72aedf800dae2f0936",
+      "bytes": 6839
+    },
+    {
+      "path": "reports/C0231-bivariate-determinant-exponents.txt",
+      "sha256": "cf81035c812dff92b3df739d95a7f44704d828e1e002bd3195c80941a79f2942",
+      "bytes": 1360
+    },
+    {
+      "path": "verify_series_determinant.py",
+      "sha256": "36504472952b537c3df4927896e831386a8fd036c6f8746edc7dda8a7fc92241",
+      "bytes": 3555
+    },
+    {
+      "path": "results/series-determinant.json",
+      "sha256": "2cb134001be013d033e4bbd46869560d555d6749a7ca3c8e91cdfa5761f54841",
+      "bytes": 981
+    },
+    {
+      "path": "results/series-determinant.log",
+      "sha256": "a79eb2248c1761154824c54147ba7b4c1ac68b96940e77e2060cdf3a36ba472b",
+      "bytes": 707
+    },
+    {
+      "path": "results/series-determinant-run.json",
+      "sha256": "b5adf03f0ec0ad4f537b636b067d008a5a97e7ac73cb04f6043c07345f9b2848",
+      "bytes": 485
+    },
+    {
+      "path": "sources/series-determinant-source-access.json",
+      "sha256": "b00876657aa41ea1063ac83c1fc249456285ba614232a9bcef9c7f0952afb73d",
+      "bytes": 631
+    },
+    {
+      "path": "sources/series-determinant-current-err2.textxt",
+      "sha256": "8faa21566312314ec6bda0f8956913deb312517fd9fa688dcc0bf19e1f21962e",
+      "bytes": 48721
+    },
+    {
+      "path": "sources/series-determinant-errata.txt",
+      "sha256": "32e124086f9073281bba3a464fbd911b5add4627b7d6221450492848671df48e",
+      "bytes": 7876
+    },
+    {
+      "path": "sources/gessel-xin-2006.pdf",
+      "sha256": "6b5336264de93c952731968b0eedf91d0c8553d90e30510bd909e17b974ca5c5",
+      "bytes": 346943
+    },
+    {
+      "path": "sources/gessel-xin-2006.txt",
+      "sha256": "1707a412d16caf4accd54c2a42f40d041a670bfa709723c3573d6145118ecb8c",
+      "bytes": 154318
+    },
+    {
+      "path": "images/gessel-xin-2006-p14.png",
+      "sha256": "67344713f68a38df9af57cb9daab0a52e7663c5ef90912842b1707c30ec0d2aa",
+      "bytes": 266337
+    },
+    {
+      "path": "images/series-determinant-all2-p12.png",
+      "sha256": "be82776b10b51ebd721c8ebcd701ec169af9d952f5740e00a53130ecd9a9fa50",
+      "bytes": 211734
+    },
+    {
+      "path": "images/series-determinant-err2-p08.png",
+      "sha256": "62f6a7e04631d056b3a5680e91620fe505e275b6dd3616f37c40e4d5dbed4c32",
+      "bytes": 186289
+    },
+    {
+      "path": "images/powers-open-all2-p09.png",
+      "sha256": "5fbeb8cf4387405a0fbaf980b120a9c90721e47c7771e719084638f4ebee558f",
+      "bytes": 161864
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "arithmetic": {
+    "status": "passed",
+    "seconds": 294.3336914309766,
+    "result": {
+      "small_pairs": 2116,
+      "large_pairs": 108,
+      "alias_pairs": 92,
+      "normalizations": 272,
+      "max_input_bits": 1024,
+      "rows": [
+        {
+          "base": 2,
+          "peak_nodes": 4045,
+          "stats": {
+            "word_products": 11022665,
+            "trial_decrements": 5070,
+            "add_backs": 4598,
+            "division_steps": 50220,
+            "rational_gcd_steps": 21669
+          }
+        },
+        {
+          "base": 3,
+          "peak_nodes": 2575,
+          "stats": {
+            "word_products": 6027388,
+            "trial_decrements": 7002,
+            "add_backs": 3010,
+            "division_steps": 36607,
+            "rational_gcd_steps": 23197
+          }
+        },
+        {
+          "base": 10,
+          "peak_nodes": 1273,
+          "stats": {
+            "word_products": 1746680,
+            "trial_decrements": 2742,
+            "add_backs": 312,
+            "division_steps": 20398,
+            "rational_gcd_steps": 22034
+          }
+        },
+        {
+          "base": 256,
+          "peak_nodes": 541,
+          "stats": {
+            "word_products": 689415,
+            "trial_decrements": 284,
+            "add_backs": 0,
+            "division_steps": 17597,
+            "rational_gcd_steps": 23839
+          }
+        },
+        {
+          "base": 4294967296,
+          "peak_nodes": 546,
+          "stats": {
+            "word_products": 2993631,
+            "trial_decrements": 0,
+            "add_backs": 0,
+            "division_steps": 58031,
+            "rational_gcd_steps": 57088
+          }
+        }
+      ]
+    }
+  },
+  "allocation": {
+    "status": "passed",
+    "seconds": 0.38752736800233833,
+    "result": {
+      "fault_injections": 251,
+      "per_operation": [
+        [
+          "add",
+          39
+        ],
+        [
+          "subtract",
+          40
+        ],
+        [
+          "multiply",
+          31
+        ],
+        [
+          "divide",
+          40
+        ],
+        [
+          "compare",
+          7
+        ],
+        [
+          "construct",
+          94
+        ]
+      ],
+      "real_exhaustion": true,
+      "fragmented_live_digits": 500,
+      "nonadjacent_links": 86
+    }
+  },
+  "matrices": {
+    "status": "passed",
+    "seconds": 0.29534457498812117,
+    "result": {
+      "hilbert_inversions": [
+        {
+          "order": 1,
+          "peak_nodes": 15,
+          "inverse_largest_integer": 1
+        },
+        {
+          "order": 2,
+          "peak_nodes": 28,
+          "inverse_largest_integer": 12
+        },
+        {
+          "order": 3,
+          "peak_nodes": 44,
+          "inverse_largest_integer": 192
+        },
+        {
+          "order": 4,
+          "peak_nodes": 77,
+          "inverse_largest_integer": 6480
+        },
+        {
+          "order": 5,
+          "peak_nodes": 130,
+          "inverse_largest_integer": 179200
+        }
+      ],
+      "inverse_entries": 55
+    }
+  }
+}

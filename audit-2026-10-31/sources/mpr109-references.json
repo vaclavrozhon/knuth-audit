@@ -1,0 +1,54 @@
+{
+  "updated_at_utc": "2026-11-07T02:27:05.083648+00:00",
+  "sources": [
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/mana.19620240306",
+      "scope": "Primary publisher verifies author, volume24,1962 and pages193–200."
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/cms/asset/18eb6224-29e2-4674-9c2f-427dc5cd0610/mana.19620240306.fp.png",
+      "local_path": "audit-2026-10-31/sources/nawrotzki-1962-first-page.png",
+      "bytes": 137114,
+      "sha256": "a259e629f91de895cf61ddb2d483e08ca7d9bbf97781c97538bcdb0ed06b322e",
+      "original_viewed": true,
+      "scope": "Original title, author and introductory monotone-coupling subject; not the entire historical theorem."
+    },
+    {
+      "url": "https://www.jstor.org/stable/i312822",
+      "scope": "IMS journal archive table of contents verifies V.Strassen, title, volume36(1965),423–439."
+    },
+    {
+      "url": "https://projecteuclid.org/journals/annals-of-mathematical-statistics/volume-36/issue-2/The-Existence-of-Probability-Measures-with-Given-Marginals/10.1214/aoms/1177700153.full",
+      "scope": "Service/security page; no article content obtained."
+    }
+  ],
+  "bibliography_skips": [
+    {
+      "exercise": "MPR:109",
+      "file_pages": [
+        406
+      ],
+      "reference": "Complete historical theorem/proof scope of Nawrotzki, Mathematische Nachrichten24(1962),193–200",
+      "reason": "Publisher metadata and the original first page were quickly available and inspected; the complete article was not. The finite mathematical claim has a complete independent proof.",
+      "mathematical_dependency": false
+    },
+    {
+      "exercise": "MPR:109",
+      "file_pages": [
+        406
+      ],
+      "reference": "Complete historical theorem/proof scope of Strassen, Annals of Mathematical Statistics36(1965),423–439",
+      "reason": "The IMS archive table of contents confirms the citation. Project Euclid returned a service/security page and the direct download was not a PDF; no invalid PDF was saved. The finite result is proved independently.",
+      "mathematical_dependency": false
+    },
+    {
+      "exercise": "MPR:109",
+      "file_pages": [
+        42
+      ],
+      "reference": "Exact placement and full scope of the forward cross-reference to Section7.5.3",
+      "reason": "The referenced section was not independently inspected. The exact finite max-flow/min-cut statement explicitly supplied by this exercise is proved from compactness and residual reachability, so no mathematical premise is left unproved.",
+      "mathematical_dependency": false
+    }
+  ]
+}

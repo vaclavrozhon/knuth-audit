@@ -1,0 +1,12068 @@
+{
+  "canonical_rays": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      0,
+      -1
+    ],
+    [
+      1,
+      -1
+    ]
+  ],
+  "positive_axis_directions": {
+    "4": 0,
+    "2": 4,
+    "1": 2
+  },
+  "tables": [
+    {
+      "kind": "T",
+      "directions": [
+        0,
+        1,
+        3
+      ],
+      "rows": [
+        "O+I",
+        "O-I",
+        "OII",
+        "OOI"
+      ],
+      "domains": [
+        "O",
+        "+-IO",
+        "I"
+      ],
+      "witnesses": [
+        {
+          "bar": [
+            0,
+            3
+          ],
+          "stem": 1
+        }
+      ]
+    },
+    {
+      "kind": "T",
+      "directions": [
+        0,
+        1,
+        4
+      ],
+      "rows": [
+        "+IO",
+        "-IO",
+        "IIO",
+        "OIO"
+      ],
+      "domains": [
+        "+-IO",
+        "I",
+        "O"
+      ],
+      "witnesses": [
+        {
+          "bar": [
+            1,
+            4
+          ],
+          "stem": 0
+        }
+      ]
+    },
+    {
+      "kind": "T",
+      "directions": [
+        0,
+        2,
+        3
+      ],
+      "rows": [
+        "O+I",
+        "O-I",
+        "OII",
+        "OOI"
+      ],
+      "domains": [
+        "O",
+        "+-IO",
+        "I"
+      ],
+      "witnesses": [
+        {
+          "bar": [
+            0,
+            3
+          ],
+          "stem": 2
+        }
+      ]
+    },
+    {
+      "kind": "T",
+      "directions": [
+        0,
+        2,
+        5
+      ],
+      "rows": [
+        "+IO",
+        "-IO",
+        "IIO",
+        "OIO"
+      ],
+      "domains": [
+        "+-IO",
+        "I",
+        "O"
+      ],
+      "witnesses": [
+        {
+          "bar": [
+            2,
+            5
+          ],
+          "stem": 0
+        }
+      ]
+    },
+    {
+      "kind": "T",
+      "directions": [
+        0,
+        3,
+        4
+      ],
+      "rows": [
+        "IO+",
+        "IO-",
+        "IOI",
+        "IOO"
+      ],
+      "domains": [
+        "I",
+        "O",
+        "+-IO"
+      ],
+      "witnesses": [
+        {
+          "bar": [
+            0,
+            3
+          ],
+          "stem": 4
+        }
+      ]
+    },
+    {
+      "kind": "T",
+      "directions": [
+        0,
+        3,
+        5
+      ],
+      "rows": [
+        "IO+",
+        "IO-",
+        "IOI",
+        "IOO"
+      ],
+      "domains": [
+        "I",
+        "O",
+        "+-IO"
+      ],
+      "witnesses": [
+        {
+          "bar": [
+            0,
+            3
+          ],
+          "stem": 5
+        }
+      ]
+    },
+    {
+      "kind": "T",
+      "directions": [
+        1,
+        2,
+        4
+      ],
+      "rows": [
+        "O+I",
+        "O-I",
+        "OII",
+        "OOI"
+      ],
+      "domains": [
+        "O",
+        "+-IO",
+        "I"
+      ],
+      "witnesses": [
+        {
+          "bar": [
+            1,
+            4
+          ],
+          "stem": 2
+        }
+      ]
+    },
+    {
+      "kind": "T",
+      "directions": [
+        1,
+        2,
+        5
+      ],
+      "rows": [
+        "+IO",
+        "-IO",
+        "IIO",
+        "OIO"
+      ],
+      "domains": [
+        "+-IO",
+        "I",
+        "O"
+      ],
+      "witnesses": [
+        {
+          "bar": [
+            2,
+            5
+          ],
+          "stem": 1
+        }
+      ]
+    },
+    {
+      "kind": "T",
+      "directions": [
+        1,
+        3,
+        4
+      ],
+      "rows": [
+        "O+I",
+        "O-I",
+        "OII",
+        "OOI"
+      ],
+      "domains": [
+        "O",
+        "+-IO",
+        "I"
+      ],
+      "witnesses": [
+        {
+          "bar": [
+            1,
+            4
+          ],
+          "stem": 3
+        }
+      ]
+    },
+    {
+      "kind": "T",
+      "directions": [
+        1,
+        4,
+        5
+      ],
+      "rows": [
+        "IO+",
+        "IO-",
+        "IOI",
+        "IOO"
+      ],
+      "domains": [
+        "I",
+        "O",
+        "+-IO"
+      ],
+      "witnesses": [
+        {
+          "bar": [
+            1,
+            4
+          ],
+          "stem": 5
+        }
+      ]
+    },
+    {
+      "kind": "T",
+      "directions": [
+        2,
+        3,
+        5
+      ],
+      "rows": [
+        "O+I",
+        "O-I",
+        "OII",
+        "OOI"
+      ],
+      "domains": [
+        "O",
+        "+-IO",
+        "I"
+      ],
+      "witnesses": [
+        {
+          "bar": [
+            2,
+            5
+          ],
+          "stem": 3
+        }
+      ]
+    },
+    {
+      "kind": "T",
+      "directions": [
+        2,
+        4,
+        5
+      ],
+      "rows": [
+        "O+I",
+        "O-I",
+        "OII",
+        "OOI"
+      ],
+      "domains": [
+        "O",
+        "+-IO",
+        "I"
+      ],
+      "witnesses": [
+        {
+          "bar": [
+            2,
+            5
+          ],
+          "stem": 4
+        }
+      ]
+    },
+    {
+      "kind": "V",
+      "directions": [
+        0,
+        1
+      ],
+      "rows": [
+        "+I"
+      ],
+      "domains": [
+        "+",
+        "I"
+      ],
+      "witnesses": [
+        "046"
+      ]
+    },
+    {
+      "kind": "V",
+      "directions": [
+        0,
+        2
+      ],
+      "rows": [
+        "OI"
+      ],
+      "domains": [
+        "O",
+        "I"
+      ],
+      "witnesses": [
+        "154"
+      ]
+    },
+    {
+      "kind": "V",
+      "directions": [
+        0,
+        4
+      ],
+      "rows": [
+        "IO"
+      ],
+      "domains": [
+        "I",
+        "O"
+      ],
+      "witnesses": [
+        "462"
+      ]
+    },
+    {
+      "kind": "V",
+      "directions": [
+        0,
+        5
+      ],
+      "rows": [
+        "+O"
+      ],
+      "domains": [
+        "+",
+        "O"
+      ],
+      "witnesses": [
+        "540"
+      ]
+    },
+    {
+      "kind": "V",
+      "directions": [
+        1,
+        2
+      ],
+      "rows": [
+        "O+"
+      ],
+      "domains": [
+        "O",
+        "+"
+      ],
+      "witnesses": [
+        "310"
+      ]
+    },
+    {
+      "kind": "V",
+      "directions": [
+        1,
+        3
+      ],
+      "rows": [
+        "-O",
+        "I-",
+        "IO"
+      ],
+      "domains": [
+        "-I",
+        "-O"
+      ],
+      "witnesses": [
+        "6",
+        "~754",
+        "~237"
+      ]
+    },
+    {
+      "kind": "V",
+      "directions": [
+        1,
+        5
+      ],
+      "rows": [
+        "-I",
+        "O-",
+        "OI"
+      ],
+      "domains": [
+        "-O",
+        "-I"
+      ],
+      "witnesses": [
+        "3",
+        "~157",
+        "~762"
+      ]
+    },
+    {
+      "kind": "V",
+      "directions": [
+        2,
+        3
+      ],
+      "rows": [
+        "+I"
+      ],
+      "domains": [
+        "+",
+        "I"
+      ],
+      "witnesses": [
+        "015"
+      ]
+    },
+    {
+      "kind": "V",
+      "directions": [
+        2,
+        4
+      ],
+      "rows": [
+        "OI"
+      ],
+      "domains": [
+        "O",
+        "I"
+      ],
+      "witnesses": [
+        "231"
+      ]
+    },
+    {
+      "kind": "V",
+      "directions": [
+        3,
+        4
+      ],
+      "rows": [
+        "O+"
+      ],
+      "domains": [
+        "O",
+        "+"
+      ],
+      "witnesses": [
+        "620"
+      ]
+    },
+    {
+      "kind": "V",
+      "directions": [
+        3,
+        5
+      ],
+      "rows": [
+        "-O",
+        "I-",
+        "IO"
+      ],
+      "domains": [
+        "-I",
+        "-O"
+      ],
+      "witnesses": [
+        "5",
+        "~467",
+        "~731"
+      ]
+    },
+    {
+      "kind": "V",
+      "directions": [
+        4,
+        5
+      ],
+      "rows": [
+        "+I"
+      ],
+      "domains": [
+        "+",
+        "I"
+      ],
+      "witnesses": [
+        "023"
+      ]
+    },
+    {
+      "kind": "W",
+      "directions": [
+        0,
+        1,
+        2
+      ],
+      "rows": [
+        "-+-",
+        "I+O"
+      ],
+      "domains": [
+        "-I",
+        "+",
+        "-O"
+      ],
+      "witnesses": [
+        "2",
+        "~376"
+      ]
+    },
+    {
+      "kind": "W",
+      "directions": [
+        0,
+        1,
+        5
+      ],
+      "rows": [
+        "-++"
+      ],
+      "domains": [
+        "-",
+        "+",
+        "+"
+      ],
+      "witnesses": [
+        "102"
+      ]
+    },
+    {
+      "kind": "W",
+      "directions": [
+        0,
+        4,
+        5
+      ],
+      "rows": [
+        "--+",
+        "OI+"
+      ],
+      "domains": [
+        "-O",
+        "-I",
+        "+"
+      ],
+      "witnesses": [
+        "1",
+        "~573"
+      ]
+    },
+    {
+      "kind": "W",
+      "directions": [
+        1,
+        2,
+        3
+      ],
+      "rows": [
+        "+-+"
+      ],
+      "domains": [
+        "+",
+        "-",
+        "+"
+      ],
+      "witnesses": [
+        "204"
+      ]
+    },
+    {
+      "kind": "W",
+      "directions": [
+        2,
+        3,
+        4
+      ],
+      "rows": [
+        "-+-",
+        "I+O"
+      ],
+      "domains": [
+        "-I",
+        "+",
+        "-O"
+      ],
+      "witnesses": [
+        "4",
+        "~675"
+      ]
+    },
+    {
+      "kind": "W",
+      "directions": [
+        3,
+        4,
+        5
+      ],
+      "rows": [
+        "+-+"
+      ],
+      "domains": [
+        "+",
+        "-",
+        "+"
+      ],
+      "witnesses": [
+        "401"
+      ]
+    },
+    {
+      "kind": "Y",
+      "directions": [
+        0,
+        2,
+        4
+      ],
+      "rows": [
+        "+++"
+      ],
+      "domains": [
+        "+",
+        "+",
+        "+"
+      ],
+      "witnesses": [
+        "0"
+      ]
+    },
+    {
+      "kind": "Y",
+      "directions": [
+        1,
+        3,
+        5
+      ],
+      "rows": [
+        "---",
+        "-OI",
+        "I-O",
+        "OI-"
+      ],
+      "domains": [
+        "-IO",
+        "-IO",
+        "-IO"
+      ],
+      "witnesses": [
+        "~7",
+        "546",
+        "315",
+        "623"
+      ]
+    }
+  ],
+  "all_V_angle_checks": [
+    {
+      "octants": "3",
+      "directions": [
+        1,
+        5
+      ],
+      "word": "OI",
+      "angle_degrees": 120
+    },
+    {
+      "octants": "5",
+      "directions": [
+        3,
+        5
+      ],
+      "word": "IO",
+      "angle_degrees": 120
+    },
+    {
+      "octants": "6",
+      "directions": [
+        1,
+        3
+      ],
+      "word": "IO",
+      "angle_degrees": 120
+    },
+    {
+      "octants": "023",
+      "directions": [
+        4,
+        5
+      ],
+      "word": "+I",
+      "angle_degrees": 60
+    },
+    {
+      "octants": "231",
+      "directions": [
+        2,
+        4
+      ],
+      "word": "OI",
+      "angle_degrees": 120
+    },
+    {
+      "octants": "310",
+      "directions": [
+        1,
+        2
+      ],
+      "word": "O+",
+      "angle_degrees": 60
+    },
+    {
+      "octants": "~467",
+      "directions": [
+        3,
+        5
+      ],
+      "word": "I-",
+      "angle_degrees": 120
+    },
+    {
+      "octants": "~754",
+      "directions": [
+        1,
+        3
+      ],
+      "word": "-O",
+      "angle_degrees": 120
+    },
+    {
+      "octants": "046",
+      "directions": [
+        0,
+        1
+      ],
+      "word": "+I",
+      "angle_degrees": 60
+    },
+    {
+      "octants": "~157",
+      "directions": [
+        1,
+        5
+      ],
+      "word": "-I",
+      "angle_degrees": 120
+    },
+    {
+      "octants": "462",
+      "directions": [
+        0,
+        4
+      ],
+      "word": "IO",
+      "angle_degrees": 120
+    },
+    {
+      "octants": "620",
+      "directions": [
+        3,
+        4
+      ],
+      "word": "O+",
+      "angle_degrees": 60
+    },
+    {
+      "octants": "~731",
+      "directions": [
+        3,
+        5
+      ],
+      "word": "-O",
+      "angle_degrees": 120
+    },
+    {
+      "octants": "015",
+      "directions": [
+        2,
+        3
+      ],
+      "word": "+I",
+      "angle_degrees": 60
+    },
+    {
+      "octants": "154",
+      "directions": [
+        0,
+        2
+      ],
+      "word": "OI",
+      "angle_degrees": 120
+    },
+    {
+      "octants": "~237",
+      "directions": [
+        1,
+        3
+      ],
+      "word": "I-",
+      "angle_degrees": 120
+    },
+    {
+      "octants": "540",
+      "directions": [
+        0,
+        5
+      ],
+      "word": "+O",
+      "angle_degrees": 60
+    },
+    {
+      "octants": "~762",
+      "directions": [
+        1,
+        5
+      ],
+      "word": "O-",
+      "angle_degrees": 120
+    }
+  ],
+  "every_endpoint_marginal_domain_case": [
+    {
+      "table": 0,
+      "domains": [
+        "O",
+        "+",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "O+I"
+      }
+    },
+    {
+      "table": 0,
+      "domains": [
+        "O",
+        "+-IO",
+        "I"
+      ],
+      "free_ports": [
+        1
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "O+I"
+      }
+    },
+    {
+      "table": 0,
+      "domains": [
+        "O",
+        "-",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "O-I"
+      }
+    },
+    {
+      "table": 0,
+      "domains": [
+        "O",
+        "-I",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "0": "O-I",
+        "1": "OII"
+      }
+    },
+    {
+      "table": 0,
+      "domains": [
+        "O",
+        "-O",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "0": "O-I",
+        "1": "OOI"
+      }
+    },
+    {
+      "table": 0,
+      "domains": [
+        "O",
+        "I",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "OII"
+      }
+    },
+    {
+      "table": 0,
+      "domains": [
+        "O",
+        "O",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "OOI"
+      }
+    },
+    {
+      "table": 1,
+      "domains": [
+        "+",
+        "I",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "+IO"
+      }
+    },
+    {
+      "table": 1,
+      "domains": [
+        "+-IO",
+        "I",
+        "O"
+      ],
+      "free_ports": [
+        0
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "+IO"
+      }
+    },
+    {
+      "table": 1,
+      "domains": [
+        "-I",
+        "I",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "0": "-IO",
+        "1": "IIO"
+      }
+    },
+    {
+      "table": 1,
+      "domains": [
+        "-IO",
+        "I",
+        "O"
+      ],
+      "free_ports": [
+        0
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "-IO"
+      }
+    },
+    {
+      "table": 1,
+      "domains": [
+        "-O",
+        "I",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "0": "-IO",
+        "1": "OIO"
+      }
+    },
+    {
+      "table": 1,
+      "domains": [
+        "I",
+        "I",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "IIO"
+      }
+    },
+    {
+      "table": 1,
+      "domains": [
+        "O",
+        "I",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "OIO"
+      }
+    },
+    {
+      "table": 2,
+      "domains": [
+        "O",
+        "+",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "O+I"
+      }
+    },
+    {
+      "table": 2,
+      "domains": [
+        "O",
+        "+-IO",
+        "I"
+      ],
+      "free_ports": [
+        1
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "O+I"
+      }
+    },
+    {
+      "table": 2,
+      "domains": [
+        "O",
+        "-I",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "0": "O-I",
+        "1": "OII"
+      }
+    },
+    {
+      "table": 2,
+      "domains": [
+        "O",
+        "-IO",
+        "I"
+      ],
+      "free_ports": [
+        1
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "O-I"
+      }
+    },
+    {
+      "table": 2,
+      "domains": [
+        "O",
+        "-O",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "0": "O-I",
+        "1": "OOI"
+      }
+    },
+    {
+      "table": 2,
+      "domains": [
+        "O",
+        "I",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "OII"
+      }
+    },
+    {
+      "table": 2,
+      "domains": [
+        "O",
+        "O",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "OOI"
+      }
+    },
+    {
+      "table": 3,
+      "domains": [
+        "+",
+        "I",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "+IO"
+      }
+    },
+    {
+      "table": 3,
+      "domains": [
+        "+-IO",
+        "I",
+        "O"
+      ],
+      "free_ports": [
+        0
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "+IO"
+      }
+    },
+    {
+      "table": 3,
+      "domains": [
+        "-I",
+        "I",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "0": "-IO",
+        "1": "IIO"
+      }
+    },
+    {
+      "table": 3,
+      "domains": [
+        "-IO",
+        "I",
+        "O"
+      ],
+      "free_ports": [
+        0
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "-IO"
+      }
+    },
+    {
+      "table": 3,
+      "domains": [
+        "-O",
+        "I",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "0": "-IO",
+        "1": "OIO"
+      }
+    },
+    {
+      "table": 3,
+      "domains": [
+        "I",
+        "I",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "IIO"
+      }
+    },
+    {
+      "table": 3,
+      "domains": [
+        "O",
+        "I",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "OIO"
+      }
+    },
+    {
+      "table": 4,
+      "domains": [
+        "I",
+        "O",
+        "+"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "IO+"
+      }
+    },
+    {
+      "table": 4,
+      "domains": [
+        "I",
+        "O",
+        "+-IO"
+      ],
+      "free_ports": [
+        2
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "IO+"
+      }
+    },
+    {
+      "table": 4,
+      "domains": [
+        "I",
+        "O",
+        "-I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        2
+      ],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "0": "IO-",
+        "1": "IOI"
+      }
+    },
+    {
+      "table": 4,
+      "domains": [
+        "I",
+        "O",
+        "-IO"
+      ],
+      "free_ports": [
+        2
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "IO-"
+      }
+    },
+    {
+      "table": 4,
+      "domains": [
+        "I",
+        "O",
+        "-O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        2
+      ],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "0": "IO-",
+        "1": "IOO"
+      }
+    },
+    {
+      "table": 4,
+      "domains": [
+        "I",
+        "O",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "IOI"
+      }
+    },
+    {
+      "table": 4,
+      "domains": [
+        "I",
+        "O",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "IOO"
+      }
+    },
+    {
+      "table": 5,
+      "domains": [
+        "I",
+        "O",
+        "+"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "IO+"
+      }
+    },
+    {
+      "table": 5,
+      "domains": [
+        "I",
+        "O",
+        "+-IO"
+      ],
+      "free_ports": [
+        2
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "IO+"
+      }
+    },
+    {
+      "table": 5,
+      "domains": [
+        "I",
+        "O",
+        "-"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "IO-"
+      }
+    },
+    {
+      "table": 5,
+      "domains": [
+        "I",
+        "O",
+        "-I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        2
+      ],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "0": "IO-",
+        "1": "IOI"
+      }
+    },
+    {
+      "table": 5,
+      "domains": [
+        "I",
+        "O",
+        "-O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        2
+      ],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "0": "IO-",
+        "1": "IOO"
+      }
+    },
+    {
+      "table": 5,
+      "domains": [
+        "I",
+        "O",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "IOI"
+      }
+    },
+    {
+      "table": 5,
+      "domains": [
+        "I",
+        "O",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "IOO"
+      }
+    },
+    {
+      "table": 6,
+      "domains": [
+        "O",
+        "+",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "O+I"
+      }
+    },
+    {
+      "table": 6,
+      "domains": [
+        "O",
+        "+-IO",
+        "I"
+      ],
+      "free_ports": [
+        1
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "O+I"
+      }
+    },
+    {
+      "table": 6,
+      "domains": [
+        "O",
+        "-I",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "0": "O-I",
+        "1": "OII"
+      }
+    },
+    {
+      "table": 6,
+      "domains": [
+        "O",
+        "-IO",
+        "I"
+      ],
+      "free_ports": [
+        1
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "O-I"
+      }
+    },
+    {
+      "table": 6,
+      "domains": [
+        "O",
+        "-O",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "0": "O-I",
+        "1": "OOI"
+      }
+    },
+    {
+      "table": 6,
+      "domains": [
+        "O",
+        "I",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "OII"
+      }
+    },
+    {
+      "table": 6,
+      "domains": [
+        "O",
+        "O",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "OOI"
+      }
+    },
+    {
+      "table": 7,
+      "domains": [
+        "+",
+        "I",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "+IO"
+      }
+    },
+    {
+      "table": 7,
+      "domains": [
+        "+-IO",
+        "I",
+        "O"
+      ],
+      "free_ports": [
+        0
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "+IO"
+      }
+    },
+    {
+      "table": 7,
+      "domains": [
+        "-",
+        "I",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "-IO"
+      }
+    },
+    {
+      "table": 7,
+      "domains": [
+        "-I",
+        "I",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "0": "-IO",
+        "1": "IIO"
+      }
+    },
+    {
+      "table": 7,
+      "domains": [
+        "-O",
+        "I",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "0": "-IO",
+        "1": "OIO"
+      }
+    },
+    {
+      "table": 7,
+      "domains": [
+        "I",
+        "I",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "IIO"
+      }
+    },
+    {
+      "table": 7,
+      "domains": [
+        "O",
+        "I",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "OIO"
+      }
+    },
+    {
+      "table": 8,
+      "domains": [
+        "O",
+        "+",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "O+I"
+      }
+    },
+    {
+      "table": 8,
+      "domains": [
+        "O",
+        "+-IO",
+        "I"
+      ],
+      "free_ports": [
+        1
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "O+I"
+      }
+    },
+    {
+      "table": 8,
+      "domains": [
+        "O",
+        "-",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "O-I"
+      }
+    },
+    {
+      "table": 8,
+      "domains": [
+        "O",
+        "-I",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "0": "O-I",
+        "1": "OII"
+      }
+    },
+    {
+      "table": 8,
+      "domains": [
+        "O",
+        "-O",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "0": "O-I",
+        "1": "OOI"
+      }
+    },
+    {
+      "table": 8,
+      "domains": [
+        "O",
+        "I",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "OII"
+      }
+    },
+    {
+      "table": 8,
+      "domains": [
+        "O",
+        "O",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "OOI"
+      }
+    },
+    {
+      "table": 9,
+      "domains": [
+        "I",
+        "O",
+        "+"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "IO+"
+      }
+    },
+    {
+      "table": 9,
+      "domains": [
+        "I",
+        "O",
+        "+-IO"
+      ],
+      "free_ports": [
+        2
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "IO+"
+      }
+    },
+    {
+      "table": 9,
+      "domains": [
+        "I",
+        "O",
+        "-"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "IO-"
+      }
+    },
+    {
+      "table": 9,
+      "domains": [
+        "I",
+        "O",
+        "-I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        2
+      ],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "0": "IO-",
+        "1": "IOI"
+      }
+    },
+    {
+      "table": 9,
+      "domains": [
+        "I",
+        "O",
+        "-O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        2
+      ],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "0": "IO-",
+        "1": "IOO"
+      }
+    },
+    {
+      "table": 9,
+      "domains": [
+        "I",
+        "O",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "IOI"
+      }
+    },
+    {
+      "table": 9,
+      "domains": [
+        "I",
+        "O",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "IOO"
+      }
+    },
+    {
+      "table": 10,
+      "domains": [
+        "O",
+        "+",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "O+I"
+      }
+    },
+    {
+      "table": 10,
+      "domains": [
+        "O",
+        "+-IO",
+        "I"
+      ],
+      "free_ports": [
+        1
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "O+I"
+      }
+    },
+    {
+      "table": 10,
+      "domains": [
+        "O",
+        "-",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "O-I"
+      }
+    },
+    {
+      "table": 10,
+      "domains": [
+        "O",
+        "-I",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "0": "O-I",
+        "1": "OII"
+      }
+    },
+    {
+      "table": 10,
+      "domains": [
+        "O",
+        "-O",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "0": "O-I",
+        "1": "OOI"
+      }
+    },
+    {
+      "table": 10,
+      "domains": [
+        "O",
+        "I",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "OII"
+      }
+    },
+    {
+      "table": 10,
+      "domains": [
+        "O",
+        "O",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "OOI"
+      }
+    },
+    {
+      "table": 11,
+      "domains": [
+        "O",
+        "+",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "O+I"
+      }
+    },
+    {
+      "table": 11,
+      "domains": [
+        "O",
+        "+-IO",
+        "I"
+      ],
+      "free_ports": [
+        1
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "O+I"
+      }
+    },
+    {
+      "table": 11,
+      "domains": [
+        "O",
+        "-I",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "0": "O-I",
+        "1": "OII"
+      }
+    },
+    {
+      "table": 11,
+      "domains": [
+        "O",
+        "-IO",
+        "I"
+      ],
+      "free_ports": [
+        1
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "O-I"
+      }
+    },
+    {
+      "table": 11,
+      "domains": [
+        "O",
+        "-O",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "0": "O-I",
+        "1": "OOI"
+      }
+    },
+    {
+      "table": 11,
+      "domains": [
+        "O",
+        "I",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "OII"
+      }
+    },
+    {
+      "table": 11,
+      "domains": [
+        "O",
+        "O",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "OOI"
+      }
+    },
+    {
+      "table": 12,
+      "domains": [
+        "+",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "+I"
+      }
+    },
+    {
+      "table": 13,
+      "domains": [
+        "O",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "OI"
+      }
+    },
+    {
+      "table": 14,
+      "domains": [
+        "I",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "IO"
+      }
+    },
+    {
+      "table": 15,
+      "domains": [
+        "+",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "+O"
+      }
+    },
+    {
+      "table": 16,
+      "domains": [
+        "O",
+        "+"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "O+"
+      }
+    },
+    {
+      "table": 17,
+      "domains": [
+        "-",
+        "-"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 17,
+      "domains": [
+        "-",
+        "-O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        0
+      ],
+      "Boolean_relation": [
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            0
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "1": "-O"
+      }
+    },
+    {
+      "table": 17,
+      "domains": [
+        "-",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "-O"
+      }
+    },
+    {
+      "table": 17,
+      "domains": [
+        "-I",
+        "-"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        1
+      ],
+      "Boolean_relation": [
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            0
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "1": "I-"
+      }
+    },
+    {
+      "table": 17,
+      "domains": [
+        "-I",
+        "-O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0,
+        1
+      ],
+      "fixed_ports": [],
+      "Boolean_relation": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "01": "-O",
+        "10": "I-",
+        "11": "IO"
+      }
+    },
+    {
+      "table": 17,
+      "domains": [
+        "-I",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        1
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "0": "-O",
+        "1": "IO"
+      }
+    },
+    {
+      "table": 17,
+      "domains": [
+        "I",
+        "-"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "I-"
+      }
+    },
+    {
+      "table": 17,
+      "domains": [
+        "I",
+        "-O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        0
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "0": "I-",
+        "1": "IO"
+      }
+    },
+    {
+      "table": 17,
+      "domains": [
+        "I",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "IO"
+      }
+    },
+    {
+      "table": 18,
+      "domains": [
+        "-",
+        "-"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 18,
+      "domains": [
+        "-",
+        "-I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        0
+      ],
+      "Boolean_relation": [
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            0
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "1": "-I"
+      }
+    },
+    {
+      "table": 18,
+      "domains": [
+        "-",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "-I"
+      }
+    },
+    {
+      "table": 18,
+      "domains": [
+        "-O",
+        "-"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        1
+      ],
+      "Boolean_relation": [
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            0
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "1": "O-"
+      }
+    },
+    {
+      "table": 18,
+      "domains": [
+        "-O",
+        "-I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0,
+        1
+      ],
+      "fixed_ports": [],
+      "Boolean_relation": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "01": "-I",
+        "10": "O-",
+        "11": "OI"
+      }
+    },
+    {
+      "table": 18,
+      "domains": [
+        "-O",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        1
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "0": "-I",
+        "1": "OI"
+      }
+    },
+    {
+      "table": 18,
+      "domains": [
+        "O",
+        "-"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "O-"
+      }
+    },
+    {
+      "table": 18,
+      "domains": [
+        "O",
+        "-I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        0
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "0": "O-",
+        "1": "OI"
+      }
+    },
+    {
+      "table": 18,
+      "domains": [
+        "O",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "OI"
+      }
+    },
+    {
+      "table": 19,
+      "domains": [
+        "+",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "+I"
+      }
+    },
+    {
+      "table": 20,
+      "domains": [
+        "O",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "OI"
+      }
+    },
+    {
+      "table": 21,
+      "domains": [
+        "O",
+        "+"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "O+"
+      }
+    },
+    {
+      "table": 22,
+      "domains": [
+        "-",
+        "-"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 22,
+      "domains": [
+        "-",
+        "-O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        0
+      ],
+      "Boolean_relation": [
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            0
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "1": "-O"
+      }
+    },
+    {
+      "table": 22,
+      "domains": [
+        "-",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "-O"
+      }
+    },
+    {
+      "table": 22,
+      "domains": [
+        "-I",
+        "-"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        1
+      ],
+      "Boolean_relation": [
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            0
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "1": "I-"
+      }
+    },
+    {
+      "table": 22,
+      "domains": [
+        "-I",
+        "-O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0,
+        1
+      ],
+      "fixed_ports": [],
+      "Boolean_relation": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "01": "-O",
+        "10": "I-",
+        "11": "IO"
+      }
+    },
+    {
+      "table": 22,
+      "domains": [
+        "-I",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        1
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "0": "-O",
+        "1": "IO"
+      }
+    },
+    {
+      "table": 22,
+      "domains": [
+        "I",
+        "-"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "I-"
+      }
+    },
+    {
+      "table": 22,
+      "domains": [
+        "I",
+        "-O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        0
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "0": "I-",
+        "1": "IO"
+      }
+    },
+    {
+      "table": 22,
+      "domains": [
+        "I",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "IO"
+      }
+    },
+    {
+      "table": 23,
+      "domains": [
+        "+",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "+I"
+      }
+    },
+    {
+      "table": 24,
+      "domains": [
+        "-",
+        "+",
+        "-"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "-+-"
+      }
+    },
+    {
+      "table": 24,
+      "domains": [
+        "-",
+        "+",
+        "-O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        2
+      ],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "0": "-+-"
+      }
+    },
+    {
+      "table": 24,
+      "domains": [
+        "-",
+        "+",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 24,
+      "domains": [
+        "-I",
+        "+",
+        "-"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "0": "-+-"
+      }
+    },
+    {
+      "table": 24,
+      "domains": [
+        "-I",
+        "+",
+        "-O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0,
+        2
+      ],
+      "fixed_ports": [
+        1
+      ],
+      "Boolean_relation": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "00": "-+-",
+        "11": "I+O"
+      }
+    },
+    {
+      "table": 24,
+      "domains": [
+        "-I",
+        "+",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            0
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "1": "I+O"
+      }
+    },
+    {
+      "table": 24,
+      "domains": [
+        "I",
+        "+",
+        "-"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 24,
+      "domains": [
+        "I",
+        "+",
+        "-O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        2
+      ],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            0
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "1": "I+O"
+      }
+    },
+    {
+      "table": 24,
+      "domains": [
+        "I",
+        "+",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "I+O"
+      }
+    },
+    {
+      "table": 25,
+      "domains": [
+        "-",
+        "+",
+        "+"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "-++"
+      }
+    },
+    {
+      "table": 26,
+      "domains": [
+        "-",
+        "-",
+        "+"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "--+"
+      }
+    },
+    {
+      "table": 26,
+      "domains": [
+        "-",
+        "-I",
+        "+"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "0": "--+"
+      }
+    },
+    {
+      "table": 26,
+      "domains": [
+        "-",
+        "I",
+        "+"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 26,
+      "domains": [
+        "-O",
+        "-",
+        "+"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "0": "--+"
+      }
+    },
+    {
+      "table": 26,
+      "domains": [
+        "-O",
+        "-I",
+        "+"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0,
+        1
+      ],
+      "fixed_ports": [
+        2
+      ],
+      "Boolean_relation": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "00": "--+",
+        "11": "OI+"
+      }
+    },
+    {
+      "table": 26,
+      "domains": [
+        "-O",
+        "I",
+        "+"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            0
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "1": "OI+"
+      }
+    },
+    {
+      "table": 26,
+      "domains": [
+        "O",
+        "-",
+        "+"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 26,
+      "domains": [
+        "O",
+        "-I",
+        "+"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            0
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "1": "OI+"
+      }
+    },
+    {
+      "table": 26,
+      "domains": [
+        "O",
+        "I",
+        "+"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "OI+"
+      }
+    },
+    {
+      "table": 27,
+      "domains": [
+        "+",
+        "-",
+        "+"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "+-+"
+      }
+    },
+    {
+      "table": 28,
+      "domains": [
+        "-",
+        "+",
+        "-"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "-+-"
+      }
+    },
+    {
+      "table": 28,
+      "domains": [
+        "-",
+        "+",
+        "-O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        2
+      ],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "0": "-+-"
+      }
+    },
+    {
+      "table": 28,
+      "domains": [
+        "-",
+        "+",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 28,
+      "domains": [
+        "-I",
+        "+",
+        "-"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "0": "-+-"
+      }
+    },
+    {
+      "table": 28,
+      "domains": [
+        "-I",
+        "+",
+        "-O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0,
+        2
+      ],
+      "fixed_ports": [
+        1
+      ],
+      "Boolean_relation": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "00": "-+-",
+        "11": "I+O"
+      }
+    },
+    {
+      "table": 28,
+      "domains": [
+        "-I",
+        "+",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            0
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "1": "I+O"
+      }
+    },
+    {
+      "table": 28,
+      "domains": [
+        "I",
+        "+",
+        "-"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 28,
+      "domains": [
+        "I",
+        "+",
+        "-O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        2
+      ],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            0
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "1": "I+O"
+      }
+    },
+    {
+      "table": 28,
+      "domains": [
+        "I",
+        "+",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "I+O"
+      }
+    },
+    {
+      "table": 29,
+      "domains": [
+        "+",
+        "-",
+        "+"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "+-+"
+      }
+    },
+    {
+      "table": 30,
+      "domains": [
+        "+",
+        "+",
+        "+"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "+++"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-",
+        "-",
+        "-"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "---"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-",
+        "-",
+        "-I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        2
+      ],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "0": "---"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-",
+        "-",
+        "-IO"
+      ],
+      "free_ports": [
+        2
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "---"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-",
+        "-",
+        "-O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        2
+      ],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "0": "---"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-",
+        "-",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-",
+        "-",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-",
+        "-I",
+        "-"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "0": "---"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-",
+        "-I",
+        "-I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1,
+        2
+      ],
+      "fixed_ports": [
+        0
+      ],
+      "Boolean_relation": [
+        [
+          0,
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "00": "---"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-",
+        "-I",
+        "-IO"
+      ],
+      "free_ports": [
+        2
+      ],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        0
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "0": "---"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-",
+        "-I",
+        "-O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1,
+        2
+      ],
+      "fixed_ports": [
+        0
+      ],
+      "Boolean_relation": [
+        [
+          0,
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "00": "---"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-",
+        "-I",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-",
+        "-I",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-",
+        "-IO",
+        "-"
+      ],
+      "free_ports": [
+        1
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "---"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-",
+        "-IO",
+        "-I"
+      ],
+      "free_ports": [
+        1
+      ],
+      "binary_ports": [
+        2
+      ],
+      "fixed_ports": [
+        0
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "0": "---",
+        "1": "-OI"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-",
+        "-IO",
+        "-IO"
+      ],
+      "free_ports": [
+        1,
+        2
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        0
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "---"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-",
+        "-IO",
+        "-O"
+      ],
+      "free_ports": [
+        1
+      ],
+      "binary_ports": [
+        2
+      ],
+      "fixed_ports": [
+        0
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "0": "---"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-",
+        "-IO",
+        "I"
+      ],
+      "free_ports": [
+        1
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "-OI"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-",
+        "-IO",
+        "O"
+      ],
+      "free_ports": [
+        1
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-",
+        "-O",
+        "-"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "0": "---"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-",
+        "-O",
+        "-I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1,
+        2
+      ],
+      "fixed_ports": [
+        0
+      ],
+      "Boolean_relation": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "00": "---",
+        "11": "-OI"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-",
+        "-O",
+        "-IO"
+      ],
+      "free_ports": [
+        2
+      ],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        0
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "0": "---",
+        "1": "-OI"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-",
+        "-O",
+        "-O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1,
+        2
+      ],
+      "fixed_ports": [
+        0
+      ],
+      "Boolean_relation": [
+        [
+          0,
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "00": "---"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-",
+        "-O",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            0
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "1": "-OI"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-",
+        "-O",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-",
+        "I",
+        "-"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-",
+        "I",
+        "-I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        2
+      ],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-",
+        "I",
+        "-IO"
+      ],
+      "free_ports": [
+        2
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-",
+        "I",
+        "-O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        2
+      ],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-",
+        "I",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-",
+        "I",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-",
+        "O",
+        "-"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-",
+        "O",
+        "-I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        2
+      ],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            0
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "1": "-OI"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-",
+        "O",
+        "-IO"
+      ],
+      "free_ports": [
+        2
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "-OI"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-",
+        "O",
+        "-O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        2
+      ],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-",
+        "O",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "-OI"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-",
+        "O",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-I",
+        "-",
+        "-"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "0": "---"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-I",
+        "-",
+        "-I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0,
+        2
+      ],
+      "fixed_ports": [
+        1
+      ],
+      "Boolean_relation": [
+        [
+          0,
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "00": "---"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-I",
+        "-",
+        "-IO"
+      ],
+      "free_ports": [
+        2
+      ],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        1
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "0": "---",
+        "1": "I-O"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-I",
+        "-",
+        "-O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0,
+        2
+      ],
+      "fixed_ports": [
+        1
+      ],
+      "Boolean_relation": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "00": "---",
+        "11": "I-O"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-I",
+        "-",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-I",
+        "-",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            0
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "1": "I-O"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-I",
+        "-I",
+        "-"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0,
+        1
+      ],
+      "fixed_ports": [
+        2
+      ],
+      "Boolean_relation": [
+        [
+          0,
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "00": "---"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-I",
+        "-I",
+        "-I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0,
+        1,
+        2
+      ],
+      "fixed_ports": [],
+      "Boolean_relation": [
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "000": "---"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-I",
+        "-I",
+        "-IO"
+      ],
+      "free_ports": [
+        2
+      ],
+      "binary_ports": [
+        0,
+        1
+      ],
+      "fixed_ports": [],
+      "Boolean_relation": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "00": "---",
+        "10": "I-O"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-I",
+        "-I",
+        "-O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0,
+        1,
+        2
+      ],
+      "fixed_ports": [],
+      "Boolean_relation": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "000": "---",
+        "101": "I-O"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-I",
+        "-I",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0,
+        1
+      ],
+      "fixed_ports": [
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-I",
+        "-I",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0,
+        1
+      ],
+      "fixed_ports": [
+        2
+      ],
+      "Boolean_relation": [
+        [
+          1,
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "10": "I-O"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-I",
+        "-IO",
+        "-"
+      ],
+      "free_ports": [
+        1
+      ],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        2
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "0": "---"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-I",
+        "-IO",
+        "-I"
+      ],
+      "free_ports": [
+        1
+      ],
+      "binary_ports": [
+        0,
+        2
+      ],
+      "fixed_ports": [],
+      "Boolean_relation": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "00": "---",
+        "01": "-OI"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-I",
+        "-IO",
+        "-IO"
+      ],
+      "free_ports": [
+        1,
+        2
+      ],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [],
+      "Boolean_relation": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "0": "---",
+        "1": "I-O"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-I",
+        "-IO",
+        "-O"
+      ],
+      "free_ports": [
+        1
+      ],
+      "binary_ports": [
+        0,
+        2
+      ],
+      "fixed_ports": [],
+      "Boolean_relation": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "00": "---",
+        "11": "I-O"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-I",
+        "-IO",
+        "I"
+      ],
+      "free_ports": [
+        1
+      ],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        2
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "0": "-OI"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-I",
+        "-IO",
+        "O"
+      ],
+      "free_ports": [
+        1
+      ],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        2
+      ],
+      "Boolean_relation": [
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            0
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "1": "I-O"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-I",
+        "-O",
+        "-"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0,
+        1
+      ],
+      "fixed_ports": [
+        2
+      ],
+      "Boolean_relation": [
+        [
+          0,
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "00": "---"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-I",
+        "-O",
+        "-I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0,
+        1,
+        2
+      ],
+      "fixed_ports": [],
+      "Boolean_relation": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "000": "---",
+        "011": "-OI"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-I",
+        "-O",
+        "-IO"
+      ],
+      "free_ports": [
+        2
+      ],
+      "binary_ports": [
+        0,
+        1
+      ],
+      "fixed_ports": [],
+      "Boolean_relation": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "00": "---",
+        "01": "-OI",
+        "10": "I-O"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-I",
+        "-O",
+        "-O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0,
+        1,
+        2
+      ],
+      "fixed_ports": [],
+      "Boolean_relation": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "000": "---",
+        "101": "I-O"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-I",
+        "-O",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0,
+        1
+      ],
+      "fixed_ports": [
+        2
+      ],
+      "Boolean_relation": [
+        [
+          0,
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "01": "-OI"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-I",
+        "-O",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0,
+        1
+      ],
+      "fixed_ports": [
+        2
+      ],
+      "Boolean_relation": [
+        [
+          1,
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "10": "I-O"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-I",
+        "I",
+        "-"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-I",
+        "I",
+        "-I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0,
+        2
+      ],
+      "fixed_ports": [
+        1
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-I",
+        "I",
+        "-IO"
+      ],
+      "free_ports": [
+        2
+      ],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        1
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-I",
+        "I",
+        "-O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0,
+        2
+      ],
+      "fixed_ports": [
+        1
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-I",
+        "I",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-I",
+        "I",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-I",
+        "O",
+        "-"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-I",
+        "O",
+        "-I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0,
+        2
+      ],
+      "fixed_ports": [
+        1
+      ],
+      "Boolean_relation": [
+        [
+          0,
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "01": "-OI"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-I",
+        "O",
+        "-IO"
+      ],
+      "free_ports": [
+        2
+      ],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        1
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "0": "-OI"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-I",
+        "O",
+        "-O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0,
+        2
+      ],
+      "fixed_ports": [
+        1
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-I",
+        "O",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "0": "-OI"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-I",
+        "O",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-IO",
+        "-",
+        "-"
+      ],
+      "free_ports": [
+        0
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "---"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-IO",
+        "-",
+        "-I"
+      ],
+      "free_ports": [
+        0
+      ],
+      "binary_ports": [
+        2
+      ],
+      "fixed_ports": [
+        1
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "0": "---"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-IO",
+        "-",
+        "-IO"
+      ],
+      "free_ports": [
+        0,
+        2
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        1
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "---"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-IO",
+        "-",
+        "-O"
+      ],
+      "free_ports": [
+        0
+      ],
+      "binary_ports": [
+        2
+      ],
+      "fixed_ports": [
+        1
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "0": "---",
+        "1": "I-O"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-IO",
+        "-",
+        "I"
+      ],
+      "free_ports": [
+        0
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-IO",
+        "-",
+        "O"
+      ],
+      "free_ports": [
+        0
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "I-O"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-IO",
+        "-I",
+        "-"
+      ],
+      "free_ports": [
+        0
+      ],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        2
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "0": "---",
+        "1": "OI-"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-IO",
+        "-I",
+        "-I"
+      ],
+      "free_ports": [
+        0
+      ],
+      "binary_ports": [
+        1,
+        2
+      ],
+      "fixed_ports": [],
+      "Boolean_relation": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "00": "---",
+        "10": "OI-"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-IO",
+        "-I",
+        "-IO"
+      ],
+      "free_ports": [
+        0,
+        2
+      ],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [],
+      "Boolean_relation": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "0": "---",
+        "1": "OI-"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-IO",
+        "-I",
+        "-O"
+      ],
+      "free_ports": [
+        0
+      ],
+      "binary_ports": [
+        1,
+        2
+      ],
+      "fixed_ports": [],
+      "Boolean_relation": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "00": "---",
+        "01": "I-O",
+        "10": "OI-"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-IO",
+        "-I",
+        "I"
+      ],
+      "free_ports": [
+        0
+      ],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-IO",
+        "-I",
+        "O"
+      ],
+      "free_ports": [
+        0
+      ],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        2
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "0": "I-O"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-IO",
+        "-IO",
+        "-"
+      ],
+      "free_ports": [
+        0,
+        1
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "---"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-IO",
+        "-IO",
+        "-I"
+      ],
+      "free_ports": [
+        0,
+        1
+      ],
+      "binary_ports": [
+        2
+      ],
+      "fixed_ports": [],
+      "Boolean_relation": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "0": "---",
+        "1": "-OI"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-IO",
+        "-IO",
+        "-IO"
+      ],
+      "free_ports": [
+        0,
+        1,
+        2
+      ],
+      "binary_ports": [],
+      "fixed_ports": [],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "---"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-IO",
+        "-IO",
+        "-O"
+      ],
+      "free_ports": [
+        0,
+        1
+      ],
+      "binary_ports": [
+        2
+      ],
+      "fixed_ports": [],
+      "Boolean_relation": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "0": "---",
+        "1": "I-O"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-IO",
+        "-IO",
+        "I"
+      ],
+      "free_ports": [
+        0,
+        1
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "-OI"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-IO",
+        "-IO",
+        "O"
+      ],
+      "free_ports": [
+        0,
+        1
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "I-O"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-IO",
+        "-O",
+        "-"
+      ],
+      "free_ports": [
+        0
+      ],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        2
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "0": "---"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-IO",
+        "-O",
+        "-I"
+      ],
+      "free_ports": [
+        0
+      ],
+      "binary_ports": [
+        1,
+        2
+      ],
+      "fixed_ports": [],
+      "Boolean_relation": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "00": "---",
+        "11": "-OI"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-IO",
+        "-O",
+        "-IO"
+      ],
+      "free_ports": [
+        0,
+        2
+      ],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [],
+      "Boolean_relation": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "0": "---",
+        "1": "-OI"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-IO",
+        "-O",
+        "-O"
+      ],
+      "free_ports": [
+        0
+      ],
+      "binary_ports": [
+        1,
+        2
+      ],
+      "fixed_ports": [],
+      "Boolean_relation": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "00": "---",
+        "01": "I-O"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-IO",
+        "-O",
+        "I"
+      ],
+      "free_ports": [
+        0
+      ],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        2
+      ],
+      "Boolean_relation": [
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            0
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "1": "-OI"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-IO",
+        "-O",
+        "O"
+      ],
+      "free_ports": [
+        0
+      ],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        2
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "0": "I-O"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-IO",
+        "I",
+        "-"
+      ],
+      "free_ports": [
+        0
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "OI-"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-IO",
+        "I",
+        "-I"
+      ],
+      "free_ports": [
+        0
+      ],
+      "binary_ports": [
+        2
+      ],
+      "fixed_ports": [
+        1
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "0": "OI-"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-IO",
+        "I",
+        "-IO"
+      ],
+      "free_ports": [
+        0,
+        2
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        1
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "OI-"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-IO",
+        "I",
+        "-O"
+      ],
+      "free_ports": [
+        0
+      ],
+      "binary_ports": [
+        2
+      ],
+      "fixed_ports": [
+        1
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "0": "OI-"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-IO",
+        "I",
+        "I"
+      ],
+      "free_ports": [
+        0
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-IO",
+        "I",
+        "O"
+      ],
+      "free_ports": [
+        0
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-IO",
+        "O",
+        "-"
+      ],
+      "free_ports": [
+        0
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-IO",
+        "O",
+        "-I"
+      ],
+      "free_ports": [
+        0
+      ],
+      "binary_ports": [
+        2
+      ],
+      "fixed_ports": [
+        1
+      ],
+      "Boolean_relation": [
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            0
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "1": "-OI"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-IO",
+        "O",
+        "-IO"
+      ],
+      "free_ports": [
+        0,
+        2
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        1
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "-OI"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-IO",
+        "O",
+        "-O"
+      ],
+      "free_ports": [
+        0
+      ],
+      "binary_ports": [
+        2
+      ],
+      "fixed_ports": [
+        1
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-IO",
+        "O",
+        "I"
+      ],
+      "free_ports": [
+        0
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "-OI"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-IO",
+        "O",
+        "O"
+      ],
+      "free_ports": [
+        0
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-O",
+        "-",
+        "-"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "0": "---"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-O",
+        "-",
+        "-I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0,
+        2
+      ],
+      "fixed_ports": [
+        1
+      ],
+      "Boolean_relation": [
+        [
+          0,
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "00": "---"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-O",
+        "-",
+        "-IO"
+      ],
+      "free_ports": [
+        2
+      ],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        1
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "0": "---"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-O",
+        "-",
+        "-O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0,
+        2
+      ],
+      "fixed_ports": [
+        1
+      ],
+      "Boolean_relation": [
+        [
+          0,
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "00": "---"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-O",
+        "-",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-O",
+        "-",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-O",
+        "-I",
+        "-"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0,
+        1
+      ],
+      "fixed_ports": [
+        2
+      ],
+      "Boolean_relation": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "00": "---",
+        "11": "OI-"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-O",
+        "-I",
+        "-I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0,
+        1,
+        2
+      ],
+      "fixed_ports": [],
+      "Boolean_relation": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "000": "---",
+        "110": "OI-"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-O",
+        "-I",
+        "-IO"
+      ],
+      "free_ports": [
+        2
+      ],
+      "binary_ports": [
+        0,
+        1
+      ],
+      "fixed_ports": [],
+      "Boolean_relation": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "00": "---",
+        "11": "OI-"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-O",
+        "-I",
+        "-O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0,
+        1,
+        2
+      ],
+      "fixed_ports": [],
+      "Boolean_relation": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "000": "---",
+        "110": "OI-"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-O",
+        "-I",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0,
+        1
+      ],
+      "fixed_ports": [
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-O",
+        "-I",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0,
+        1
+      ],
+      "fixed_ports": [
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-O",
+        "-IO",
+        "-"
+      ],
+      "free_ports": [
+        1
+      ],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        2
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "0": "---",
+        "1": "OI-"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-O",
+        "-IO",
+        "-I"
+      ],
+      "free_ports": [
+        1
+      ],
+      "binary_ports": [
+        0,
+        2
+      ],
+      "fixed_ports": [],
+      "Boolean_relation": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "00": "---",
+        "01": "-OI",
+        "10": "OI-"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-O",
+        "-IO",
+        "-IO"
+      ],
+      "free_ports": [
+        1,
+        2
+      ],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [],
+      "Boolean_relation": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "0": "---",
+        "1": "OI-"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-O",
+        "-IO",
+        "-O"
+      ],
+      "free_ports": [
+        1
+      ],
+      "binary_ports": [
+        0,
+        2
+      ],
+      "fixed_ports": [],
+      "Boolean_relation": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "00": "---",
+        "10": "OI-"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-O",
+        "-IO",
+        "I"
+      ],
+      "free_ports": [
+        1
+      ],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        2
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "0": "-OI"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-O",
+        "-IO",
+        "O"
+      ],
+      "free_ports": [
+        1
+      ],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-O",
+        "-O",
+        "-"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0,
+        1
+      ],
+      "fixed_ports": [
+        2
+      ],
+      "Boolean_relation": [
+        [
+          0,
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "00": "---"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-O",
+        "-O",
+        "-I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0,
+        1,
+        2
+      ],
+      "fixed_ports": [],
+      "Boolean_relation": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "000": "---",
+        "011": "-OI"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-O",
+        "-O",
+        "-IO"
+      ],
+      "free_ports": [
+        2
+      ],
+      "binary_ports": [
+        0,
+        1
+      ],
+      "fixed_ports": [],
+      "Boolean_relation": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "00": "---",
+        "01": "-OI"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-O",
+        "-O",
+        "-O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0,
+        1,
+        2
+      ],
+      "fixed_ports": [],
+      "Boolean_relation": [
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "000": "---"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-O",
+        "-O",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0,
+        1
+      ],
+      "fixed_ports": [
+        2
+      ],
+      "Boolean_relation": [
+        [
+          0,
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "01": "-OI"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-O",
+        "-O",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0,
+        1
+      ],
+      "fixed_ports": [
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-O",
+        "I",
+        "-"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            0
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "1": "OI-"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-O",
+        "I",
+        "-I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0,
+        2
+      ],
+      "fixed_ports": [
+        1
+      ],
+      "Boolean_relation": [
+        [
+          1,
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "10": "OI-"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-O",
+        "I",
+        "-IO"
+      ],
+      "free_ports": [
+        2
+      ],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        1
+      ],
+      "Boolean_relation": [
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            0
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "1": "OI-"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-O",
+        "I",
+        "-O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0,
+        2
+      ],
+      "fixed_ports": [
+        1
+      ],
+      "Boolean_relation": [
+        [
+          1,
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "10": "OI-"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-O",
+        "I",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-O",
+        "I",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-O",
+        "O",
+        "-"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-O",
+        "O",
+        "-I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0,
+        2
+      ],
+      "fixed_ports": [
+        1
+      ],
+      "Boolean_relation": [
+        [
+          0,
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "01": "-OI"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-O",
+        "O",
+        "-IO"
+      ],
+      "free_ports": [
+        2
+      ],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        1
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "0": "-OI"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-O",
+        "O",
+        "-O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0,
+        2
+      ],
+      "fixed_ports": [
+        1
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-O",
+        "O",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "0": "-OI"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "-O",
+        "O",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        0
+      ],
+      "fixed_ports": [
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "I",
+        "-",
+        "-"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "I",
+        "-",
+        "-I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        2
+      ],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "I",
+        "-",
+        "-IO"
+      ],
+      "free_ports": [
+        2
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "I-O"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "I",
+        "-",
+        "-O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        2
+      ],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            0
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "1": "I-O"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "I",
+        "-",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "I",
+        "-",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "I-O"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "I",
+        "-I",
+        "-"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "I",
+        "-I",
+        "-I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1,
+        2
+      ],
+      "fixed_ports": [
+        0
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "I",
+        "-I",
+        "-IO"
+      ],
+      "free_ports": [
+        2
+      ],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        0
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "0": "I-O"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "I",
+        "-I",
+        "-O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1,
+        2
+      ],
+      "fixed_ports": [
+        0
+      ],
+      "Boolean_relation": [
+        [
+          0,
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "01": "I-O"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "I",
+        "-I",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "I",
+        "-I",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "0": "I-O"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "I",
+        "-IO",
+        "-"
+      ],
+      "free_ports": [
+        1
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "I",
+        "-IO",
+        "-I"
+      ],
+      "free_ports": [
+        1
+      ],
+      "binary_ports": [
+        2
+      ],
+      "fixed_ports": [
+        0
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "I",
+        "-IO",
+        "-IO"
+      ],
+      "free_ports": [
+        1,
+        2
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        0
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "I-O"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "I",
+        "-IO",
+        "-O"
+      ],
+      "free_ports": [
+        1
+      ],
+      "binary_ports": [
+        2
+      ],
+      "fixed_ports": [
+        0
+      ],
+      "Boolean_relation": [
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            0
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "1": "I-O"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "I",
+        "-IO",
+        "I"
+      ],
+      "free_ports": [
+        1
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "I",
+        "-IO",
+        "O"
+      ],
+      "free_ports": [
+        1
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "I-O"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "I",
+        "-O",
+        "-"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "I",
+        "-O",
+        "-I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1,
+        2
+      ],
+      "fixed_ports": [
+        0
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "I",
+        "-O",
+        "-IO"
+      ],
+      "free_ports": [
+        2
+      ],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        0
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "0": "I-O"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "I",
+        "-O",
+        "-O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1,
+        2
+      ],
+      "fixed_ports": [
+        0
+      ],
+      "Boolean_relation": [
+        [
+          0,
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "01": "I-O"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "I",
+        "-O",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "I",
+        "-O",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "0": "I-O"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "I",
+        "I",
+        "-"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "I",
+        "I",
+        "-I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        2
+      ],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "I",
+        "I",
+        "-IO"
+      ],
+      "free_ports": [
+        2
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "I",
+        "I",
+        "-O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        2
+      ],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "I",
+        "I",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "I",
+        "I",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "I",
+        "O",
+        "-"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "I",
+        "O",
+        "-I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        2
+      ],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "I",
+        "O",
+        "-IO"
+      ],
+      "free_ports": [
+        2
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "I",
+        "O",
+        "-O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        2
+      ],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "I",
+        "O",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "I",
+        "O",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "O",
+        "-",
+        "-"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "O",
+        "-",
+        "-I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        2
+      ],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "O",
+        "-",
+        "-IO"
+      ],
+      "free_ports": [
+        2
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "O",
+        "-",
+        "-O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        2
+      ],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "O",
+        "-",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "O",
+        "-",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "O",
+        "-I",
+        "-"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            0
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "1": "OI-"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "O",
+        "-I",
+        "-I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1,
+        2
+      ],
+      "fixed_ports": [
+        0
+      ],
+      "Boolean_relation": [
+        [
+          1,
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "10": "OI-"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "O",
+        "-I",
+        "-IO"
+      ],
+      "free_ports": [
+        2
+      ],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        0
+      ],
+      "Boolean_relation": [
+        [
+          1
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            0
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "1": "OI-"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "O",
+        "-I",
+        "-O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1,
+        2
+      ],
+      "fixed_ports": [
+        0
+      ],
+      "Boolean_relation": [
+        [
+          1,
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "10": "OI-"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "O",
+        "-I",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "O",
+        "-I",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "O",
+        "-IO",
+        "-"
+      ],
+      "free_ports": [
+        1
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "OI-"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "O",
+        "-IO",
+        "-I"
+      ],
+      "free_ports": [
+        1
+      ],
+      "binary_ports": [
+        2
+      ],
+      "fixed_ports": [
+        0
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "0": "OI-"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "O",
+        "-IO",
+        "-IO"
+      ],
+      "free_ports": [
+        1,
+        2
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        0
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "OI-"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "O",
+        "-IO",
+        "-O"
+      ],
+      "free_ports": [
+        1
+      ],
+      "binary_ports": [
+        2
+      ],
+      "fixed_ports": [
+        0
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "0": "OI-"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "O",
+        "-IO",
+        "I"
+      ],
+      "free_ports": [
+        1
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "O",
+        "-IO",
+        "O"
+      ],
+      "free_ports": [
+        1
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "O",
+        "-O",
+        "-"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "O",
+        "-O",
+        "-I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1,
+        2
+      ],
+      "fixed_ports": [
+        0
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "O",
+        "-O",
+        "-IO"
+      ],
+      "free_ports": [
+        2
+      ],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        0
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "O",
+        "-O",
+        "-O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1,
+        2
+      ],
+      "fixed_ports": [
+        0
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "O",
+        "-O",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "O",
+        "-O",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        1
+      ],
+      "fixed_ports": [
+        0,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "O",
+        "I",
+        "-"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "OI-"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "O",
+        "I",
+        "-I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        2
+      ],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "0": "OI-"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "O",
+        "I",
+        "-IO"
+      ],
+      "free_ports": [
+        2
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [
+        []
+      ],
+      "clauses_as_forbidden_partial_assignments": [],
+      "extension_witnesses": {
+        "": "OI-"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "O",
+        "I",
+        "-O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        2
+      ],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [
+        [
+          0
+        ]
+      ],
+      "clauses_as_forbidden_partial_assignments": [
+        [
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "extension_witnesses": {
+        "0": "OI-"
+      }
+    },
+    {
+      "table": 31,
+      "domains": [
+        "O",
+        "I",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "O",
+        "I",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "O",
+        "O",
+        "-"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "O",
+        "O",
+        "-I"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        2
+      ],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "O",
+        "O",
+        "-IO"
+      ],
+      "free_ports": [
+        2
+      ],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "O",
+        "O",
+        "-O"
+      ],
+      "free_ports": [],
+      "binary_ports": [
+        2
+      ],
+      "fixed_ports": [
+        0,
+        1
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "O",
+        "O",
+        "I"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    },
+    {
+      "table": 31,
+      "domains": [
+        "O",
+        "O",
+        "O"
+      ],
+      "free_ports": [],
+      "binary_ports": [],
+      "fixed_ports": [
+        0,
+        1,
+        2
+      ],
+      "Boolean_relation": [],
+      "clauses_as_forbidden_partial_assignments": [
+        []
+      ],
+      "extension_witnesses": {}
+    }
+  ],
+  "counts": {
+    "empty_endpoint_intersection": 524,
+    "complete_local_domain_cases": 367
+  },
+  "scope": "One globally oriented orthogonal-axis catalog. Its180degree screen rotation gives the other global parity. These catalogs must not be mixed locally."
+}

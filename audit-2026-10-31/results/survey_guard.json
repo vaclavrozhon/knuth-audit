@@ -1,0 +1,52 @@
+{
+  "F046": "Guard pi_l=pi_not_l=0 must precede S6/S8; the only guard in S3 can be bypassed.",
+  "algorithm_S_trace": [
+    {
+      "i": 0,
+      "pi": [
+        "1/2",
+        "1/2"
+      ],
+      "eta": [
+        "1",
+        "1"
+      ],
+      "delta": "1/2",
+      "S3_visited": false
+    },
+    {
+      "i": 1,
+      "pi": [
+        "0",
+        "0"
+      ],
+      "eta": [
+        "1",
+        "1"
+      ],
+      "delta": "0",
+      "S3_visited": false,
+      "next_step": "S8, with undefined 0/0 field"
+    }
+  ],
+  "initial_draw_grid": 400,
+  "answer362_trace": [
+    {
+      "literal": 1,
+      "clauses": [
+        []
+      ],
+      "pending": [
+        -1
+      ]
+    },
+    {
+      "literal": -1,
+      "clauses": [
+        []
+      ],
+      "pending": []
+    }
+  ],
+  "proposed_fix": "After S5 terminate unsuccessfully if either polarity pair has both flexibilities zero; also reject conflicting initial units in362."
+}

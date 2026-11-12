@@ -1,0 +1,78 @@
+{
+  "reviewed_at_utc": "2026-11-06T09:27:29.127738+00:00",
+  "scope": "Original93–103,115–116,577–580; all four errata layers and current TeX. Original page577 is distinguished from the replacement in2003.",
+  "errata_inputs": [
+    {
+      "path": "errata/text/all2-prepre.txt",
+      "sha256": "62a1ff323ca421f2640e2337f922dbf8cfc8e86c20d9b11acfc91221721c6f58"
+    },
+    {
+      "path": "errata/text/all2-pre.txt",
+      "sha256": "c1735b70547678d739eae3a8d7b02872c737218eed7706a0aba8fb6fc21a6529"
+    },
+    {
+      "path": "errata/text/all2.txt",
+      "sha256": "1c4d7f2259e147db0ebe84b4bf0ce8864b307afb4ccfbe48efcb1f5f5999ac58"
+    },
+    {
+      "path": "errata/text/err2.txt",
+      "sha256": "1b5c93712c3c467a48679e0040ba6c5869998b25184dbd125a5d096ce96e9ab0"
+    },
+    {
+      "path": "errata/originals/err2.textxt",
+      "sha256": "8faa21566312314ec6bda0f8956913deb312517fd9fa688dcc0bf19e1f21962e"
+    }
+  ],
+  "entries": [
+    {
+      "source": "errata/text/all2-prepre.txt",
+      "printed_page": 103,
+      "entry": "Page 103 lines 6{8 of step S7                                                25 Aug 1999\n  In hundreds : : : dimensions. y Usually jzj j \u0014 1, but L. C. Killingbe k noti ed\n  in 1999 that larger values o ur for about 0.00001 of all multipliers when m = 264 ."
+    },
+    {
+      "source": "errata/text/all2-prepre.txt",
+      "printed_page": 115,
+      "entry": "xPage 115      line 1 of exer ise 8                                               16 Feb 1999\n    [M16 ℄ Line 18 y [M18 ℄ Line 10"
+    },
+    {
+      "source": "errata/text/all2-prepre.txt",
+      "printed_page": 577,
+      "entry": "xPage 577 repla ement for last three lines of answer 3                          04 Jul 2003\n                           m = 9, a = 4 or 7, \u0017 = \u0017 = 5;\n                                                   2\n                                                   2\n                                                            2\n                                                            3\n                           m = 9q , a = 3q + 1 or 6q + 1, \u001742 = 2."
+    },
+    {
+      "source": "errata/text/all2-prepre.txt",
+      "printed_page": 578,
+      "entry": "xPage 578 line 4 of answer 8                                                   16 Feb 1999\n  the bound (39) y the bound (40)"
+    },
+    {
+      "source": "errata/text/all2-pre.txt",
+      "printed_page": 579,
+      "entry": "Page 579              bottom line                                                       10 Jul 2012\n    5   (1848)        y  13 (1848)"
+    }
+  ],
+  "keyword_check": [
+    "hyperplane",
+    "poten",
+    "Minkow",
+    "Hermite",
+    "spectral",
+    "quotient"
+  ],
+  "primary_definition_comparison": {
+    "url": "https://www.iro.umontreal.ca/~lecuyer/myftp/papers/lattester-guide-2025.pdf",
+    "scope_read": "Search-indexed introduction only. It defines the spectral test using a shortest nonzero dual-lattice vector and hyperplanes covering the entire lattice.",
+    "access_limit": "Web open returned Anubis access denied; direct download returned HTML. No PDF saved and no full-paper reading claimed.",
+    "query": "spectral test finite point set lattice periodic extension hyperplanes definition L Ecuyer",
+    "inference": "Supports the standard periodic-lattice interpretation; it does not establish whether Knuth intended the preliminary finite-set wording literally."
+  },
+  "bibliography_skips": [
+    "Givens quotation source not independently traced.",
+    "Gauss1801 section171; Gram1883; Kaib–Schnorr1996; original Hermite publication and personal Gosper/Dieter attribution not newly obtained."
+  ],
+  "mathematical_and_factual_limits": [
+    "C0243 remains an interpretive candidate; later text explicitly defines the periodic lattice.",
+    "Original93 all-known-bad-generators historical claim lacks a defined comparison set.",
+    "Original102 usual intermediate-integer magnitudes and the1999 S7 frequency estimate are not independently reproduced.",
+    "Original95 practical significance and bits-of-accuracy statements are qualitative advice, not a proved independence guarantee."
+  ]
+}

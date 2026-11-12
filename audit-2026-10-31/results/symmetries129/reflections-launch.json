@@ -1,0 +1,12 @@
+{
+  "launched_at_utc": "2026-11-02T09:08:45.851261+00:00",
+  "wrapper_pid": 999528,
+  "command": [
+    "/usr/bin/python3",
+    "-u",
+    "audit-2026-10-31/run_symmetry129_reflections.py"
+  ],
+  "source_sha256": "1efe1d9d35c98db8f795c8d2fc0be3855bf55794046037be45e5aa8c95d0b7df",
+  "timeout_seconds_per_case": 172800,
+  "purpose": "27 previously missing native counterparts:18 TB strong,6 TB weak,3 both-axis. Exhaustive model validation for small strong/intersection cases, samples for TB weak."
+}

@@ -1,0 +1,140 @@
+{
+  "accessed_utc": "2026-11-03T18:41:46.074976+00:00",
+  "scope": "General exercise15 and TheoremL mathematical audit409-411; C0160 ancillary gcd precheck. Mersenne historical list/context409 not yet closed.",
+  "book_visually_read": [
+    409,
+    410,
+    411,
+    413,
+    660,
+    661
+  ],
+  "errata_files": [
+    "errata/text/all2-prepre.txt",
+    "errata/text/all2-pre.txt",
+    "errata/text/all2.txt",
+    "errata/text/err2.txt",
+    "errata/originals/err2.textxt"
+  ],
+  "errata_result": "Known2010addition of series(2) to Lehmer citation. No correction of answer15 precheck found. Record-list updates retained for separate context audit.",
+  "web_sources": [
+    {
+      "name": "Lehmer1930 publisher metadata",
+      "url": "https://www.jstor.org/stable/1968235",
+      "doi": "10.2307/1968235",
+      "scope": "Bibliography31(3),419-448 confirmed. PDF URL returned3038-byte HTML, not PDF. Page443 and full article not read."
+    },
+    {
+      "name": "Lucas1878 primary article transcription",
+      "url": "https://fr.scribd.com/document/842433229/Lucas-ThoriedesFonctions-1878",
+      "scope": "Public OCR of original article, relevant315-316 passage read: recurrence4,14,194 and exponent13 example. Not visual, not whole paper."
+    },
+    {
+      "name": "Lucas1878 fragment reproduction",
+      "url": "https://commons.wikimedia.org/wiki/File:LucasTheorieDesFonctions1878.png",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/LucasTheorieDesFonctions1878.png",
+      "scope": "Metadata only; direct imageHTTP403, no local image, no visual-read claim."
+    },
+    {
+      "name": "GIMPS current list snapshot",
+      "url": "https://www.mersenne.org/primes/",
+      "file": "sources/gimps-known-primes-2026-11-03.html.gz",
+      "scope": "Initial historical rows read; comprehensive context audit pending. Possible book disagreements1984vs1985 for216091 and AprilvsSeptember1996 for1257787 require original announcements before classification.",
+      "storage": "Unmodified HTTP response, losslessly gzip-compressed.",
+      "response_bytes": 80442,
+      "response_sha256": "7ad04a0ade64bd3eabecf49beebcc22b28663d6a32171b2dcc8b7b1de7bf4b31"
+    },
+    {
+      "name": "GIMPS milestones snapshot",
+      "url": "https://www.mersenne.org/report_milestones/",
+      "file": "sources/gimps-milestones-2026-11-03.html.gz",
+      "scope": "Current primary census status read, external calculation not reproduced. Context and exercise16 still pending.",
+      "storage": "Unmodified HTTP response, losslessly gzip-compressed.",
+      "response_bytes": 56204,
+      "response_sha256": "942057f086aa51bdae9d18ec723360a14da6b03b4be72c4cab7e95201229b42d"
+    }
+  ],
+  "run": {
+    "command": "timeout 180 python3 -u workstreams/vol2/verify_primality_lucas.py",
+    "pid": 1287268,
+    "child_pid": 1287269,
+    "tool_session": 55487,
+    "time_limit_seconds": 180,
+    "exit_code": 0,
+    "checkpoints": 4,
+    "result": "results/primality-lucas.json",
+    "log": "results/primality-lucas.log"
+  },
+  "artifacts": [
+    {
+      "file": "notes/primality-lucas.md",
+      "bytes": 11287,
+      "sha256": "3f0fce55222e907464be3a80156943abe268a2b9b8d3863cd9b023db5859d4af"
+    },
+    {
+      "file": "verify_primality_lucas.py",
+      "bytes": 8198,
+      "sha256": "1fee1f4cce04aa44077c395d469dc971261fb8010ed89be31a3a545494d9df92"
+    },
+    {
+      "file": "results/primality-lucas.json",
+      "bytes": 8304,
+      "sha256": "2e9398e367e7647a4d3ca50711eed9391638792150cff8ff60893d34ca8719cf"
+    },
+    {
+      "file": "notes/C0160-lucas-gcd-boundary.md",
+      "bytes": 1487,
+      "sha256": "9175ee263dcca805d3e25ce9b779a77c549ef8f854159538d607a9c6ed064f9f"
+    },
+    {
+      "file": "reports/C0160-lucas-gcd-boundary-draft.txt",
+      "bytes": 815,
+      "sha256": "692a443a734f9cb52ce0ea449885e5da9b780e75aba43413e36890a2b8270426"
+    },
+    {
+      "file": "results/primality-lucas.log",
+      "bytes": 4609,
+      "sha256": "501d4189357401501850ad589a9a9801cdd5791300c628b7721e87479220a777"
+    },
+    {
+      "file": "sources/gimps-known-primes-2026-11-03.html.gz",
+      "bytes": 10303,
+      "sha256": "fc41bff32b314f1c958eca8b0b11d8dd3d53047ca15dfab255ed908cd91b7a2f"
+    },
+    {
+      "file": "sources/gimps-milestones-2026-11-03.html.gz",
+      "bytes": 7806,
+      "sha256": "4a2c7a9f9006cacf9125b3f3772bacfcf0461b46f3ff1738aa5c30e38a9aa784"
+    },
+    {
+      "file": "images/vol2-p409.png",
+      "bytes": 706817,
+      "sha256": "56b9750c25737c0e86a2af534102107097d4a260277dde5729d30d14d75d5e42"
+    },
+    {
+      "file": "images/vol2-p410.png",
+      "bytes": 487592,
+      "sha256": "f173780b36b4e31f5ef2c150ccc6e2be2210e391cec168d72988fcfffd00e850"
+    },
+    {
+      "file": "images/vol2-p411.png",
+      "bytes": 497830,
+      "sha256": "c38a88d76725320628ea8e8b09acbb7e88eedf48dfaeca9c6dfdbe7fa5f0bc0d"
+    },
+    {
+      "file": "images/vol2-p413.png",
+      "bytes": 403928,
+      "sha256": "de1d1a711a8b45a155b12864ae2e8a3d8e90ca9fb4b53deab2573b3312463dd5"
+    },
+    {
+      "file": "images/vol2-p660.png",
+      "bytes": 665229,
+      "sha256": "c725cc7cec216034c89dc87eab416faf66bd1dfa17ee5d829927a5ab27190804"
+    },
+    {
+      "file": "images/vol2-p661.png",
+      "bytes": 438286,
+      "sha256": "471304a6f154f59fd456894b676d7911eba179072c8718d0f725458a8e56d11b"
+    }
+  ]
+}

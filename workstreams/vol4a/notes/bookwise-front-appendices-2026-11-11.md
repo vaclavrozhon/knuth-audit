@@ -1,0 +1,15 @@
+# Front matter and appendices A–D
+
+Reviewed all preliminary file pages 1–17 and printed 817–833, with the three introductory answers on 514. New finding: F0133, the two incorrect set-family quantifiers on 826.
+
+The edition statement is first printing, January 2011. Read the preface, notational conventions, exercise-rating explanation and contents, and inspected the cover and Bach illustration. The existing explicit checks of the three word counts and the small notation examples are retained from `first-pass-file001-040.md`; the known clarifications of the length parameter and exercise ratings are excluded. The Poincare conjecture is accepted as the cited external theorem, not a new proof task. The intentionally silent quotations on 817 are not omissions.
+
+Appendix A: all 34 decimal strings, including rounding signs, match the accepted Volume 1 transcription after whitespace removal. The 31 rows of harmonic, Bernoulli and Fibonacci numbers agree with the same previously checked data. The paired 2021 change of the Bernoulli convention is known and internally consistent. The rational-argument harmonic formulas on 821 agree with the already checked Gauss formula and its specializations, with the natural domain away from poles. The hexadecimal table was read, but its final digits were not independently recalculated; the earlier octal certificate is not presented as a certificate for this higher binary precision. No numerical verifier was rerun.
+
+Appendix B: checked the displayed meanings, domains, strict and weak inequalities, negative rising/falling powers, graph operations, set-family operations, and scalar/bitwise distinctions against their definitions. The known incorrect gamma denominator and binomial upper argument on 824 and minimal-element arrow on 826 are excluded. F0133 records the universal conditions where existential ones are required for the subset and superset operations; the main answer on 669 is correct. Standard functions are read on their natural domains.
+
+Appendix C was read as a locator list for the reviewed algorithms, programs and theorems. The known later addition of Algorithm 7.2.1.5P is excluded. No new exhaustive inventory was constructed.
+
+Appendix D: checked the formulations and the equivalences involving bipartite matching, exact cover, independent sets, vertex covers, graph kernels, colorings, paths, topological order, orthogonal arrays and Gray codes. The known Boolean-matrix and Horn-clause errors on 830 and complement-notation change on 831 are excluded. In the nearest-common-ancestor entry, the name and path paraphrase supply the requirement that the requested node itself be a common ancestor; its abbreviated displayed condition is not promoted to a finding by ignoring that context.
+
+The review does not independently authenticate the preface's autobiographical statements, epigraph transcriptions, art provenance or every bibliographical locator. Next: the main Index and Glossary, printed 834–884/file 851–901, then offline volume-end checks.

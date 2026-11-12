@@ -1,0 +1,47 @@
+{
+  "checked_at_utc": "2026-11-11T19:24:04.070366+00:00",
+  "edition": "Volume 4A, first edition, first printing, 2011; inventory/books.json",
+  "originals": [
+    "images/bookwise-p321.png",
+    "images/bookwise-p341.png",
+    "images/bookwise-p343.png",
+    "images/bookwise-p344.png",
+    "images/bookwise-p715.png",
+    "images/bookwise-p716.png",
+    "images/bookwise-p718.png"
+  ],
+  "errata": [
+    "errata/text/all4a-pre.txt",
+    "errata/text/all4a.txt",
+    "errata/text/err4a.txt",
+    "errata/text/all4f2.txt",
+    "errata/text/err4f2.txt"
+  ],
+  "pages_screened": "4A 339–344,352–355,715–722; Fascicle 2 59–64,72–75,113–120",
+  "retrieval_manifests": [
+    "integration/2026-11-10-bookwise/errata/vol4a-manifest.json",
+    "integration/2026-11-10-bookwise/errata/vol4a-fasc2-manifest.json"
+  ],
+  "public_queries": [
+    "\"Knuth\" \"Lines 31–38\"",
+    "\"Knuth\" \"answer 78\" \"34\"",
+    "\"Knuth\" \"codewords cost\"",
+    "\"Knuth\" \"341\" \"7\" errata permutations",
+    "\"Knuth\" \"answer 91\" \"matchings\"",
+    "\"Knuth\" \"718\" \"inversion\" errata",
+    "\"Knuth\" \"permutations satisfying (49)\""
+  ],
+  "public_result": "Earlier Knuth draft repeats the erroneous line range, matching coefficient and inversion-table wording. No explicit matching correction found; absolute novelty is not established. MMIX primary documentation confirms the MXOR operand convention and probable-branch behavior.",
+  "primary_references": [
+    "https://www.mmix.cs.hm.edu/doc/mmix-doc.pdf",
+    "https://mmix.cs.hm.edu/doc/instructions-en.html"
+  ],
+  "findings": [
+    "V4A-F0063",
+    "V4A-F0064",
+    "V4A-F0065"
+  ],
+  "dismissed": {
+    "V4A-F0066": "Original page 343, visually checked after the initial note, retains the inverse-position primes lost by OCR."
+  }
+}

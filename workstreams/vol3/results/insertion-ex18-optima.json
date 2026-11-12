@@ -1,0 +1,108 @@
+{
+  "scope": "Single direct evaluation of the proved positive-real optimizer for all18 printed numerical entries in answer5.2.1-18. No search or algorithm simulation.",
+  "formula": "log2(h_s)=2s+(2^s−1)(log2(4N/pi)−2t)/(2^t−1)",
+  "rows": [
+    {
+      "N": 1000,
+      "t": 3,
+      "h_descending_index": [
+        57.63928914210504,
+        6.131869014577737
+      ],
+      "printed": [
+        57.64,
+        6.13
+      ],
+      "rounded_equal": [
+        true,
+        true
+      ],
+      "positive_and_strictly_increasing_by_index": true,
+      "all_actual_increments_less_than_N": true
+    },
+    {
+      "N": 1000,
+      "t": 4,
+      "h_descending_index": [
+        135.29841601749376,
+        22.05230616033862,
+        4.451482477772381
+      ],
+      "printed": [
+        135.3,
+        22.05,
+        4.45
+      ],
+      "rounded_equal": [
+        true,
+        true,
+        true
+      ],
+      "positive_and_strictly_increasing_by_index": true,
+      "all_actual_increments_less_than_N": true
+    },
+    {
+      "N": 1000,
+      "t": 5,
+      "h_descending_index": [
+        284.45860503231404,
+        67.22697331673989,
+        16.340893697519782,
+        4.028208411879738
+      ],
+      "printed": [
+        284.46,
+        67.23,
+        16.34,
+        4.03
+      ],
+      "rounded_equal": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "positive_and_strictly_increasing_by_index": true,
+      "all_actual_increments_less_than_N": true
+    },
+    {
+      "N": 1000,
+      "t": 10,
+      "h_descending_index": [
+        9164.738823360645,
+        12294.05309643678,
+        7119.550658242872,
+        2708.9521814432724,
+        835.4985883268699,
+        231.99996295115943,
+        61.126427920817534,
+        15.68807195858041,
+        3.9738352208035708
+      ],
+      "printed": [
+        9164.74,
+        12294.05,
+        7119.55,
+        2708.95,
+        835.5,
+        232.0,
+        61.13,
+        15.69,
+        3.97
+      ],
+      "rounded_equal": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "positive_and_strictly_increasing_by_index": false,
+      "all_actual_increments_less_than_N": false
+    }
+  ]
+}

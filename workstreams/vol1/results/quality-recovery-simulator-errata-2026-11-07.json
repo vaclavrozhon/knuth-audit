@@ -1,0 +1,457 @@
+{
+  "volume": "vol1",
+  "reviewed_at_utc": "2026-11-07T00:13:15.008234+00:00",
+  "scope": "Whole1.4.3 introduction200–202 and every main assertion/instruction of1.4.3.1 through212; all eight original exercises/answers530 and added2025 exercise9.",
+  "proof": "notes/quality-recovery-section-1.4.3.1-2026-11-07.md",
+  "reused_artifacts": [
+    {
+      "path": "notes/interpretive-root-review.md",
+      "sha256": "0337cf2055639eda97ad9e89ac770d45ed2d22e811c9813fc4145b6e8608a9a3",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "0337cf2055639eda97ad9e89ac770d45ed2d22e811c9813fc4145b6e8608a9a3",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/NOTES.md",
+      "sha256": "92f3c41dde05652b6b3af5f63686f495457410413526f1d00d7abfa8ad88ea26",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "92f3c41dde05652b6b3af5f63686f495457410413526f1d00d7abfa8ad88ea26",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/UNIT_STATUS.json",
+      "sha256": "982bb8dd56f734be91ce90753ba94605ff6a9922b66313827996eeb1caaa9318",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "982bb8dd56f734be91ce90753ba94605ff6a9922b66313827996eeb1caaa9318",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/programs.py",
+      "sha256": "f16d8844e2695a425131d613b5b77ae71c61df00240267c6ff9d3e436f6c51b5",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "f16d8844e2695a425131d613b5b77ae71c61df00240267c6ff9d3e436f6c51b5",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/io_program.py",
+      "sha256": "c1908968c41da424287cfc3300f268c1fac09ad3155193c5cf2e1632aa955385",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "c1908968c41da424287cfc3300f268c1fac09ad3155193c5cf2e1632aa955385",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/check_simulator.py",
+      "sha256": "733b01b67261b79ae9d2a0a71b10ab62542ad80320b3d42992f5234fbe488c68",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "733b01b67261b79ae9d2a0a71b10ab62542ad80320b3d42992f5234fbe488c68",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/check_go_spec.py",
+      "sha256": "c9160fab156991a279e250b808cd1e8f475cd88618d8f2d94767e15d7c57f606",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "c9160fab156991a279e250b808cd1e8f475cd88618d8f2d94767e15d7c57f606",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/check_extensions.py",
+      "sha256": "1c514154bf0af4bc7c4849d33f171400bdd932addf491a68746658e6a4d9640a",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "1c514154bf0af4bc7c4849d33f171400bdd932addf491a68746658e6a4d9640a",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/check_io.py",
+      "sha256": "7b79c01263f1b37f4bf4d929ef0566bb5382be86d697edd29192100006112264",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "7b79c01263f1b37f4bf4d929ef0566bb5382be86d697edd29192100006112264",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/results/simulator.json",
+      "sha256": "8a567ca4b5fb7f818b50e34da8f97e504e94746349b2829979bfe51dc996085b",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "8a567ca4b5fb7f818b50e34da8f97e504e94746349b2829979bfe51dc996085b",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/results/go-spec.json",
+      "sha256": "b01ef81501131394e505e8f268dd06206d083578c723e79602d509519573ed40",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "b01ef81501131394e505e8f268dd06206d083578c723e79602d509519573ed40",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/results/io.json",
+      "sha256": "495e3c353e9b41b1517d268ec139f8962276c9c425c257324d5230ffe45c22d0",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "495e3c353e9b41b1517d268ec139f8962276c9c425c257324d5230ffe45c22d0",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/results/extensions.json",
+      "sha256": "5bf5d681b02b3257aaf297c303d79b9e26b381027c60d288dc4400de1e8c7520",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "5bf5d681b02b3257aaf297c303d79b9e26b381027c60d288dc4400de1e8c7520",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/sources/coverage.json",
+      "sha256": "a24de0fd9e9d741a9ea21972025cf051bafe41f83f3aa451d001bc23e1a95e9d",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "a24de0fd9e9d741a9ea21972025cf051bafe41f83f3aa451d001bc23e1a95e9d",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/sources/downloads.json",
+      "sha256": "c7f2d48db0c2f7934935f80c175a6fd0b5455b899fbe6947351e242deb8984db",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "c7f2d48db0c2f7934935f80c175a6fd0b5455b899fbe6947351e242deb8984db",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/sources/randell-russell1964.pdf",
+      "sha256": "1f913634448d98f4c9f7a7215f68f0b7bb253dad39a9eeb7f6bfe644e5ba1f0c",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "1f913634448d98f4c9f7a7215f68f0b7bb253dad39a9eeb7f6bfe644e5ba1f0c",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/sources/randell-russell1964.txt",
+      "sha256": "9ef67632315d05fe89ec0d130cae0a6eb3b4bbc3ef988ead8a0cea708aec1fc8",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "9ef67632315d05fe89ec0d130cae0a6eb3b4bbc3ef988ead8a0cea708aec1fc8",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/sources/tex.web",
+      "sha256": "c62ab513ef167e93f71a23bd34f311e243210afd7c7a0f9b779614b71e398324",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "c62ab513ef167e93f71a23bd34f311e243210afd7c7a0f9b779614b71e398324",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/sources/dvips.texi",
+      "sha256": "e2e784ac9d619dfadef8ed2f8442636ed6133dcdb41e611a29e638dbab488051",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "e2e784ac9d619dfadef8ed2f8442636ed6133dcdb41e611a29e638dbab488051",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/sources/postscript1990.pdf",
+      "sha256": "60248ac21704d284b45c04345a684b16d7420c691dd32de385d4ed9e3201a3e2",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "60248ac21704d284b45c04345a684b16d7420c691dd32de385d4ed9e3201a3e2",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/sources/postscript1990.txt",
+      "sha256": "e3472a790acfaffdd9c32aa05ab2592f4979ae867dd8a3dda15ccab68e20dad6",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "e3472a790acfaffdd9c32aa05ab2592f4979ae867dd8a3dda15ccab68e20dad6",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/images/vol1-p200.png",
+      "sha256": "24351fd93e0649b0fa9f218cf9986592aa359375e233be1e7e5f3b109efc86cb",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "24351fd93e0649b0fa9f218cf9986592aa359375e233be1e7e5f3b109efc86cb",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/images/vol1-p201.png",
+      "sha256": "c853f331023913d45d0da9f816d94547c40dcaa19eb885e49c2d0221c805feed",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "c853f331023913d45d0da9f816d94547c40dcaa19eb885e49c2d0221c805feed",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/images/vol1-p202.png",
+      "sha256": "6b777219fbea4ca7ebb69621b3ec9e3eb8977b80492cf5f027c32affddee4a2d",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "6b777219fbea4ca7ebb69621b3ec9e3eb8977b80492cf5f027c32affddee4a2d",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/images/vol1-p203.png",
+      "sha256": "2a1388a4ef4e1e6d3c43af063a668827b8bdf22562eaa98e9cf4b4378bab7d5a",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "2a1388a4ef4e1e6d3c43af063a668827b8bdf22562eaa98e9cf4b4378bab7d5a",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/images/vol1-p204.png",
+      "sha256": "91cb8e48297430ebe1f78406e9d0c390b0075c52d452b44620a6b28a47123866",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "91cb8e48297430ebe1f78406e9d0c390b0075c52d452b44620a6b28a47123866",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/images/vol1-p205.png",
+      "sha256": "fe63d994ecec1a079cb643b86f8fb76d2b99fbd5a882cfe0e7c3b33b9a6037fa",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "fe63d994ecec1a079cb643b86f8fb76d2b99fbd5a882cfe0e7c3b33b9a6037fa",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/images/vol1-p206.png",
+      "sha256": "88504291b93365d2973bfe29fa73ddcd17610c67cde548b8f9c9019d9455d967",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "88504291b93365d2973bfe29fa73ddcd17610c67cde548b8f9c9019d9455d967",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/images/vol1-p207.png",
+      "sha256": "a1885562fc144769207cb0d8f5632ec78a52ee73b5096c0d6f0b0397c7d34759",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "a1885562fc144769207cb0d8f5632ec78a52ee73b5096c0d6f0b0397c7d34759",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/images/vol1-p208.png",
+      "sha256": "f33d8e61dfa9e454da3f3df4f5ab067544cc039bff1dbf4299def52d0590f73d",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "f33d8e61dfa9e454da3f3df4f5ab067544cc039bff1dbf4299def52d0590f73d",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/images/vol1-p209.png",
+      "sha256": "dabc0cccfbb3b2d3549142064730d5d9c7a6ed51bbe9146b8ad827b362325170",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "dabc0cccfbb3b2d3549142064730d5d9c7a6ed51bbe9146b8ad827b362325170",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/images/vol1-p210.png",
+      "sha256": "fe6275f69c6e2aabb3358804ed92126acbcbe99d4038163524391e4d056061e9",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "fe6275f69c6e2aabb3358804ed92126acbcbe99d4038163524391e4d056061e9",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/images/vol1-p211.png",
+      "sha256": "053d00e8ea691ba9b077611071d593ddaccedd626c968b29b056d05d9d620344",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "053d00e8ea691ba9b077611071d593ddaccedd626c968b29b056d05d9d620344",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/images/vol1-p212.png",
+      "sha256": "850be7062efd0302787fd50dbaf5453b7fba729b6bbf9a6cc00913c1943870e8",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "850be7062efd0302787fd50dbaf5453b7fba729b6bbf9a6cc00913c1943870e8",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/images/vol1-p530.png",
+      "sha256": "a0158829afed50f0ae28b1d99d7451249b43d8e949abc1adc226ba1db5f15b55",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "a0158829afed50f0ae28b1d99d7451249b43d8e949abc1adc226ba1db5f15b55",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/images/randell-russell-filep49.png",
+      "sha256": "430772c07ea1b3e1fa5d4e8da86f93ba24d76aaf69da9a368de58eb9aafe084a",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "430772c07ea1b3e1fa5d4e8da86f93ba24d76aaf69da9a368de58eb9aafe084a",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/images/randell-russell-filep50.png",
+      "sha256": "3f663d44b7fa2d63c488856530c71ca6675e288a30cefcf5df9197474abd7ff4",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "3f663d44b7fa2d63c488856530c71ca6675e288a30cefcf5df9197474abd7ff4",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/images/postscript1990-filep1.png",
+      "sha256": "ca4dbcb52e1c233fa22f2cd4db6c50eaa4fdb5a6f654c07cd4e6add7eaaeecc6",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "ca4dbcb52e1c233fa22f2cd4db6c50eaa4fdb5a6f654c07cd4e6add7eaaeecc6",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/images/postscript1990-filep2.png",
+      "sha256": "6e6719ee2f2c29159ee7b7fe14013456b362e114506e452b7a66af53f38bf336",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "6e6719ee2f2c29159ee7b7fe14013456b362e114506e452b7a66af53f38bf336",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/images/postscript1990-filep32.png",
+      "sha256": "c95488ba38b184ee25f4d79306e344e1d0665be68d0c194aebf45dff0c27453d",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "c95488ba38b184ee25f4d79306e344e1d0665be68d0c194aebf45dff0c27453d",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/images/errata-all1-prepre-p17.png",
+      "sha256": "24ce9f0663dc12b542f199936e719545f247d09ff96bdf452fef20bb51f0855d",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "24ce9f0663dc12b542f199936e719545f247d09ff96bdf452fef20bb51f0855d",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/images/errata-all1-p8.png",
+      "sha256": "65d1b3f7a97223e4a89279dae76ff6d2779819ec14b6aee41a9f96e3e4d14330",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "65d1b3f7a97223e4a89279dae76ff6d2779819ec14b6aee41a9f96e3e4d14330",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/images/errata-err1-p8.png",
+      "sha256": "65c3111dd095dd72835a0a6af72141487bfc91cb0abd88f454e92236924ffec3",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "65c3111dd095dd72835a0a6af72141487bfc91cb0abd88f454e92236924ffec3",
+      "matches": true
+    },
+    {
+      "path": "mixal.py",
+      "sha256": "e0b0b5f8cabb9d42d6fc453e92a6619ecda7fc2fe7879448f14d6f7f8595798b",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "e0b0b5f8cabb9d42d6fc453e92a6619ecda7fc2fe7879448f14d6f7f8595798b",
+      "matches": true
+    },
+    {
+      "path": "mix_machine.py",
+      "sha256": "5fda9d6efe247f7bb637c1725e8426d9a0d449b71129bfd3263fd9a21e6b8eac",
+      "prior_manifest": "results/artifact-manifest-mixal-crypt-easter.json",
+      "prior_sha256": "5fda9d6efe247f7bb637c1725e8426d9a0d449b71129bfd3263fd9a21e6b8eac",
+      "matches": true
+    },
+    {
+      "path": "mix_io.py",
+      "sha256": "2e9acf99129a3db88f8ece13c6965e22ff3445d5a309acfa110664cc1a494995",
+      "prior_manifest": "results/artifact-manifest-mixal-crypt-easter.json",
+      "prior_sha256": "2e9acf99129a3db88f8ece13c6965e22ff3445d5a309acfa110664cc1a494995",
+      "matches": true
+    }
+  ],
+  "recovery_context": [
+    {
+      "path": "notes/quality-recovery-section-1.4.3.1-2026-11-07.md",
+      "sha256": "5fe09829cef55c1980f7a0704e01db89308617f86f76757966b812aae9620b10"
+    },
+    {
+      "path": "notes/sequential-interpreters-2026-11-05.md",
+      "sha256": "f6cbd1968be2a7da4bec35c0074efb4a31c830cf2c8ea0d59314e66846ca7556"
+    },
+    {
+      "path": "sources/sequential-2026-11-05/interpreters-errata-extract.json",
+      "sha256": "fc9373fae0bca20e7c3493dcd97e5c56b8ef5e15072cb437bcf673ccccf52b78"
+    }
+  ],
+  "original_images": [
+    "parallel/interpretive/images/vol1-p200.png",
+    "parallel/interpretive/images/vol1-p201.png",
+    "parallel/interpretive/images/vol1-p202.png",
+    "parallel/interpretive/images/vol1-p203.png",
+    "parallel/interpretive/images/vol1-p204.png",
+    "parallel/interpretive/images/vol1-p205.png",
+    "parallel/interpretive/images/vol1-p206.png",
+    "parallel/interpretive/images/vol1-p207.png",
+    "parallel/interpretive/images/vol1-p208.png",
+    "parallel/interpretive/images/vol1-p209.png",
+    "parallel/interpretive/images/vol1-p210.png",
+    "parallel/interpretive/images/vol1-p211.png",
+    "parallel/interpretive/images/vol1-p212.png",
+    "parallel/interpretive/images/vol1-p530.png"
+  ],
+  "direct_primary_images": [
+    "parallel/interpretive/images/randell-russell-filep49.png",
+    "parallel/interpretive/images/randell-russell-filep50.png",
+    "parallel/interpretive/images/postscript1990-filep1.png",
+    "parallel/interpretive/images/postscript1990-filep2.png",
+    "parallel/interpretive/images/postscript1990-filep32.png"
+  ],
+  "direct_errata_images": [
+    "parallel/interpretive/images/errata-all1-prepre-p17.png",
+    "parallel/interpretive/images/errata-all1-p8.png",
+    "parallel/interpretive/images/errata-err1-p8.png"
+  ],
+  "layers": [
+    {
+      "path": "errata/text/all1-prepre.txt",
+      "sha256": "1a3c3ac6137b9e98f427de0a344efca46fd83b7a3e6e8fe2fa38e94525ca0c31",
+      "bytes": 143588,
+      "selected_page_blocks": [
+        {
+          "page": 202,
+          "text": "Page 202 line 22                                                                 07 Aug 1997\n TeX:     yTEX:"
+        },
+        {
+          "page": 202,
+          "text": "Page 202 line 25                                                                 11 Jul 1997\n PostS ript R [Adobe         y\n                           PostS ript R [Adobe"
+        },
+        {
+          "page": 202,
+          "text": "Page 202 line 3                                                          08 Nov 2005\n simulator (or sometimes an emulator )            y\n                                            simulator (or sometimes an emulator )\n\nx"
+        },
+        {
+          "page": 204,
+          "text": "Page 204 line 009 of the program                                         14 Feb 1999\n see line 033y   (see line 033)\nx"
+        },
+        {
+          "page": 205,
+          "text": "Page 205 line 042 of the program                                         03 Sep 2008\n    SPEC(1) y SPEC(10)"
+        },
+        {
+          "page": 208,
+          "text": "Page 208 lines 161 and 164 of the program                                        19 De 2001\n  Let rI1 indi ate the A register.        y rI1       index of simulated rA."
+        },
+        {
+          "page": 211,
+          "text": "xPage 211 line 11                                                                30 De 1997\n  as does ENTA -5,1\" y as does \\ENTA -5,1\""
+        },
+        {
+          "page": 211,
+          "text": "xPage 211 line 5 in 3rd, 4th, 5th printings                                      16 De 1998\n  1.3.1{??    y\n             1.3.1{26"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all1-pre.txt",
+      "sha256": "89d231245ff44164e09a39903faac35a2dc5e89956857abcc974991c99a887e5",
+      "bytes": 63766,
+      "selected_page_blocks": []
+    },
+    {
+      "path": "errata/text/all1.txt",
+      "sha256": "b641d6e48aaf2d77fc98a3c4a8a798d8156516b97095ec345a976e65d9c79aef",
+      "bytes": 45229,
+      "selected_page_blocks": [
+        {
+          "page": 212,
+          "text": "Page 212 new exer ise                                                                01 Jan 2025\n      [20 ℄ Write the SPEC routine, whi h is missing from the program in the text\n      9.\n  (operation ode 5). It's OK to let NUM and CHAR simulate themselves."
+        }
+      ]
+    },
+    {
+      "path": "errata/text/err1.txt",
+      "sha256": "ecae8755d7d9f86c5dbcbd782767f0cf8e6bf7f89d9c57ed0a27ad2344461f30",
+      "bytes": 41067,
+      "selected_page_blocks": [
+        {
+          "page": 212,
+          "text": "Page 212 new exer ise                                                    01 Jan 2025\n   9. [20 ℄ Write the SPEC routine, whi h is missing from the program in the text\n  (operation ode 5). It's OK to let NUM and CHAR simulate themselves."
+        }
+      ]
+    }
+  ],
+  "new_mathematical_runs": 0,
+  "old_runs_repeated": 0,
+  "new_findings": 0,
+  "new_mathematical_gaps": 0,
+  "complete_section_evidence_review": true,
+  "mathematical_scope": "All dispatch/field/sign/register/memory/clock invariants, every integer operator, concrete FCHECK reorganization, full SHIFT/MOVE/GO, exact timing, complete actual MIX I/O and NUM/CHAR/HLT; termination and physical bounds.",
+  "retained_limits": [
+    "Original1.4.3 historical claims and exact unavailable publications remain partial inX0225; bibliography skips explicit.",
+    "Unidentified8422/178 test and fivefold anecdote are testimony, not reproduced benchmarks.",
+    "Finite representable clocks/ready times, defined integer MIX behavior and completing physical devices.",
+    "Original TIME/dispatch cost excludes initialization and later added TICK; arbitrary initial host overflow can add one first-cycle normalization instruction.",
+    "Delayed transfer occurs at the first simulated boundary at/after half-time; conflicting busy-buffer use has no asserted unique hardware outcome.",
+    "Original errors are sentinels, not a reconstructed continuation policy; DIV overflow A/X unspecified.",
+    "Current TeX/dvips successor sources and electronically revised PostScript2ed are identified exactly."
+  ],
+  "remaining_scope": "Entire1.4.3.2, all seven exercises and complete self-tracer; oldest mathematical gap1.2.1/p16 unchanged."
+}

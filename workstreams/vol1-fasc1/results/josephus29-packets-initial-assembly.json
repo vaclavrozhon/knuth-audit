@@ -1,0 +1,18 @@
+{
+  "scope": "Own initial assembly failure, before any instruction execution; missing local alias t in reused formatter corrected. Not a book finding.",
+  "source_sha256": "486e650ba32854e7050a7f50df87cf854650191a07e74fd73feeaceba5a965d0",
+  "failed_step": {
+    "command": [
+      "workstreams/vol1-fasc1/results/josephus29-packets-new-5qlpzhkv/mmixal",
+      "-o",
+      "packets.mmo",
+      "-l",
+      "packets.lst",
+      "packets.mms"
+    ],
+    "returncode": 3,
+    "stdout": "",
+    "stderr": "\"packets.mms\", line 1 warning: trailing characters of long input line have been dropped\n(say `-b <number>' to increase the length of my input buffer)\n\"packets.mms\", line 2 warning: trailing characters dropped\n\"packets.mms\", line 113: X field is undefined!\n\"packets.mms\", line 114: Y field is undefined!\n\"packets.mms\", line 118: X field is undefined!\n(3 errors were found.)\n",
+    "elapsed_seconds": 0.002067433961201459
+  }
+}

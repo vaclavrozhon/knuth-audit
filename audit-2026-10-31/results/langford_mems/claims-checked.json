@@ -1,0 +1,78 @@
+{
+  "checked_at_utc": "2026-11-01T23:32:48.604019+00:00",
+  "loose15": {
+    "verified": true,
+    "result_sha256": "a63ea2fab8560938908e93106b292c7d0a6ba60882dd4f835d44c052e0743e86",
+    "nodes": 396535288,
+    "mems_with_cached_L5_read": 9537980169,
+    "uncached_mems_with_repaired_L4": 9934515456,
+    "extra_reads_bound_for_original_L4": 3375,
+    "original_uncached_mems_interval": [
+      9934515456,
+      9934518831
+    ],
+    "rounded_book_gigamems": "9.93"
+  },
+  "large_cases": [
+    {
+      "mode": "L21",
+      "status": "finished",
+      "printed_rounding_intervals": {
+        "nodes_interval": [
+          155000000000,
+          165000000000
+        ],
+        "mems_interval": [
+          3935000000000,
+          3945000000000
+        ],
+        "per_node": "24.6"
+      },
+      "nodes": 160392399085,
+      "uncached_mems": 3943329114242,
+      "cached_mems": 3782936715158,
+      "exact_uncached_mems_per_node": "3943329114242/160392399085",
+      "nodes_match_printed_rounding": true,
+      "mems_match_printed_rounding": true,
+      "per_node_matches_printed_rounding": true
+    },
+    {
+      "mode": "L20",
+      "status": "finished",
+      "printed_rounding_intervals": {
+        "nodes_interval": [
+          325000000000,
+          335000000000
+        ],
+        "mems_interval": [
+          8050000000000,
+          8150000000000
+        ],
+        "per_node": "24.4"
+      },
+      "nodes": 330438173533,
+      "uncached_mems": 8073717908199,
+      "cached_mems": 7743279734667,
+      "exact_uncached_mems_per_node": "8073717908199/330438173533",
+      "nodes_match_printed_rounding": true,
+      "mems_match_printed_rounding": true,
+      "per_node_matches_printed_rounding": true
+    },
+    {
+      "mode": "L",
+      "status": "running",
+      "printed_rounding_intervals": {
+        "nodes_interval": [
+          1285000000000,
+          1295000000000
+        ],
+        "mems_interval": [
+          24950000000000,
+          25050000000000
+        ],
+        "per_node": "19.4"
+      }
+    }
+  ],
+  "all_large_cases_finished": false
+}

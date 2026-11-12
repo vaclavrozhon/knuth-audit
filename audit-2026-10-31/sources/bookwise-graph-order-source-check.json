@@ -1,0 +1,74 @@
+{
+  "checked_at_utc": "2026-11-12T02:25:51.639643+00:00",
+  "errata_ranges": {
+    "4B": [
+      [
+        281,
+        283
+      ],
+      [
+        353,
+        355
+      ],
+      [
+        626,
+        630
+      ]
+    ],
+    "4F6": [
+      [
+        97,
+        99
+      ],
+      [
+        169,
+        171
+      ],
+      [
+        262,
+        266
+      ]
+    ]
+  },
+  "known_errata": [
+    "2025 clarification of n in answer388.",
+    "2024 contributor middle initial correction in392, unrelated to F230/F231.",
+    "2016 replacement390 retains F051/F052.",
+    "2022 shortened prefix index391 incorporated.",
+    "2020 conjunction in396 and2019 reference pages399 incorporated.",
+    "2025 encoding-label clarification main283."
+  ],
+  "new_findings": [
+    "F230",
+    "F231",
+    "F232"
+  ],
+  "reused_findings": [
+    "F051",
+    "F052"
+  ],
+  "originals": [
+    "books/taocp-vol4b-ed1-print2-2022.pdf",
+    "audit-2026-10-31/sources/fasc6a.pdf"
+  ],
+  "draft_pages": [
+    170,
+    263,
+    264
+  ],
+  "errata_files": [
+    "errata/text/all4b.txt",
+    "errata/text/err4b.txt",
+    "errata/text/all4f6.txt",
+    "errata/text/err4f6.txt",
+    "errata/originals/err4b.textxt",
+    "errata/originals/err4f6.textxt"
+  ],
+  "refresh_manifests": [
+    "integration/2026-11-10-bookwise/errata/vol4b-manifest.json",
+    "integration/2026-11-10-bookwise/errata/vol4b-sat-manifest.json"
+  ],
+  "new_check": "audit-2026-10-31/results/bookwise-sat392-iv.json",
+  "public_search": "Two focused Stanford-domain searches for392/627 and394 returned no relevant report; no priority inference.",
+  "scope": "Printed pairing and fixed-grid repair; earlier graph/phrase computations accepted without repeats. Performance comparisons not replicated."
+}

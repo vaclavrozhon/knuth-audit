@@ -1,0 +1,90 @@
+{
+  "checked_at_utc": "2026-11-12T03:40:51.143079+00:00",
+  "new_findings": [
+    "F248",
+    "F249",
+    "F250"
+  ],
+  "errata_ranges": {
+    "4B": [
+      [
+        298,
+        302
+      ],
+      [
+        363,
+        365
+      ],
+      [
+        644,
+        648
+      ]
+    ],
+    "4F6": [
+      [
+        114,
+        118
+      ],
+      [
+        179,
+        181
+      ],
+      [
+        280,
+        284
+      ]
+    ]
+  },
+  "errata_files": [
+    "errata/text/all4b.txt",
+    "errata/text/err4b.txt",
+    "errata/text/all4f6.txt",
+    "errata/text/err4f6.txt",
+    "errata/originals/err4b.textxt",
+    "errata/originals/err4f6.textxt"
+  ],
+  "refresh_manifests": [
+    "integration/2026-11-10-bookwise/errata/vol4b-manifest.json",
+    "integration/2026-11-10-bookwise/errata/vol4b-sat-manifest.json"
+  ],
+  "draft_pages": [
+    281,
+    284
+  ],
+  "known_errata": [
+    "2023: exercise486 ten initial captures -> eleven.",
+    "2026: answer483 M12 has3071 vertices.",
+    "2026: answer488 Gardner pages12–16.",
+    "2024: answer495 attribution changed to Lubiw; earlier column index unchanged.",
+    "2020: answers484/485 selector indices already corrected in 4B.",
+    "2018: answer494 reference to475(d) already incorporated."
+  ],
+  "public_searches": [
+    "Knuth \"quenching\" \"485\" error",
+    "Knuth \"495\" \"12 22 13\"",
+    "Knuth \"492\" \"648\" errata",
+    "site:cs.stanford.edu/~knuth quench sat",
+    "Knuth \"graph quenching\" commutativity",
+    "\"TAOCP\" \"485\" \"quenching\""
+  ],
+  "public_search_result": "No matching correction. Official program index locates the archived supporting program.",
+  "program_archive": {
+    "url": "https://www-cs-faculty.stanford.edu/~knuth/programs/SATexamples.tgz",
+    "downloaded_utc": "2026-11-01T00:10:36.494354+00:00",
+    "sha256": "4d9cc6a62a06e47e6f1cc04adf93d146649e274bfe1705392c494e17263b2305",
+    "bytes": 60174387
+  },
+  "program_members": [
+    "./sources/sat-graph-quench.w",
+    "./sources/sat-graph-quench-noncomm-latebinding-random.ch"
+  ],
+  "program_inspected_not_executed": true,
+  "new_checks": [
+    "audit-2026-10-31/results/bookwise-quenching485-fixed-graph.json",
+    "audit-2026-10-31/results/bookwise-quenching486-printed-wins.json"
+  ],
+  "program_hashes": {
+    "bookwise-sat-graph-quench.w": "0ab5bf2166eb5659e76ed20dfb0f72fc54c056f5ab7734f3d03cefaeed57a149",
+    "bookwise-sat-graph-quench-noncomm-latebinding-random.ch": "94bae9dc77f25136cb713c9f4c340a2716703037a43c43ea9c6fa157a971ec1d"
+  }
+}

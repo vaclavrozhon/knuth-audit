@@ -1,0 +1,4458 @@
+{
+  "status": "candidate_pending_independent_review",
+  "scope": "Sufficiency of the quantitative conditions in corrected answer40; not the qualitative stability definition onp11.",
+  "vertices": [
+    [
+      -3,
+      0,
+      0
+    ],
+    [
+      3,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      1
+    ],
+    [
+      1,
+      3,
+      -1
+    ],
+    [
+      -2,
+      -2,
+      10
+    ],
+    [
+      2,
+      2,
+      10
+    ],
+    [
+      -4,
+      1,
+      11
+    ],
+    [
+      -3,
+      2,
+      9
+    ],
+    [
+      -2,
+      4,
+      20
+    ],
+    [
+      2,
+      -4,
+      20
+    ],
+    [
+      5,
+      2,
+      21
+    ],
+    [
+      3,
+      3,
+      19
+    ]
+  ],
+  "edges": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      8,
+      9
+    ],
+    [
+      8,
+      10
+    ],
+    [
+      8,
+      11
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      9,
+      11
+    ],
+    [
+      10,
+      11
+    ]
+  ],
+  "tetrahedron_scalar_triples": [
+    -42,
+    -40,
+    -84
+  ],
+  "disjoint_depth_slabs": [
+    [
+      -1,
+      1
+    ],
+    [
+      9,
+      11
+    ],
+    [
+      19,
+      21
+    ]
+  ],
+  "all216_vertex_edge_checks": [
+    {
+      "vertex": 0,
+      "edge": [
+        0,
+        1
+      ],
+      "projected_orientation": 0,
+      "parameter": 0,
+      "on_projected_segment": true,
+      "depth_difference": 0
+    },
+    {
+      "vertex": 0,
+      "edge": [
+        0,
+        2
+      ],
+      "projected_orientation": 0,
+      "parameter": 0,
+      "on_projected_segment": true,
+      "depth_difference": 0
+    },
+    {
+      "vertex": 0,
+      "edge": [
+        0,
+        3
+      ],
+      "projected_orientation": 0,
+      "parameter": 0,
+      "on_projected_segment": true,
+      "depth_difference": 0
+    },
+    {
+      "vertex": 0,
+      "edge": [
+        1,
+        2
+      ],
+      "projected_orientation": 24
+    },
+    {
+      "vertex": 0,
+      "edge": [
+        1,
+        3
+      ],
+      "projected_orientation": 18
+    },
+    {
+      "vertex": 0,
+      "edge": [
+        2,
+        3
+      ],
+      "projected_orientation": -7
+    },
+    {
+      "vertex": 0,
+      "edge": [
+        4,
+        5
+      ],
+      "projected_orientation": 12
+    },
+    {
+      "vertex": 0,
+      "edge": [
+        4,
+        6
+      ],
+      "projected_orientation": -1
+    },
+    {
+      "vertex": 0,
+      "edge": [
+        4,
+        7
+      ],
+      "projected_orientation": 2
+    },
+    {
+      "vertex": 0,
+      "edge": [
+        5,
+        6
+      ],
+      "projected_orientation": 7
+    },
+    {
+      "vertex": 0,
+      "edge": [
+        5,
+        7
+      ],
+      "projected_orientation": 10
+    },
+    {
+      "vertex": 0,
+      "edge": [
+        6,
+        7
+      ],
+      "projected_orientation": -2
+    },
+    {
+      "vertex": 0,
+      "edge": [
+        8,
+        9
+      ],
+      "projected_orientation": -24
+    },
+    {
+      "vertex": 0,
+      "edge": [
+        8,
+        10
+      ],
+      "projected_orientation": -30
+    },
+    {
+      "vertex": 0,
+      "edge": [
+        8,
+        11
+      ],
+      "projected_orientation": -21
+    },
+    {
+      "vertex": 0,
+      "edge": [
+        9,
+        10
+      ],
+      "projected_orientation": 42
+    },
+    {
+      "vertex": 0,
+      "edge": [
+        9,
+        11
+      ],
+      "projected_orientation": 39
+    },
+    {
+      "vertex": 0,
+      "edge": [
+        10,
+        11
+      ],
+      "projected_orientation": 12
+    },
+    {
+      "vertex": 1,
+      "edge": [
+        0,
+        1
+      ],
+      "projected_orientation": 0,
+      "parameter": 1,
+      "on_projected_segment": true,
+      "depth_difference": 0
+    },
+    {
+      "vertex": 1,
+      "edge": [
+        0,
+        2
+      ],
+      "projected_orientation": -24
+    },
+    {
+      "vertex": 1,
+      "edge": [
+        0,
+        3
+      ],
+      "projected_orientation": -18
+    },
+    {
+      "vertex": 1,
+      "edge": [
+        1,
+        2
+      ],
+      "projected_orientation": 0,
+      "parameter": 0,
+      "on_projected_segment": true,
+      "depth_difference": 0
+    },
+    {
+      "vertex": 1,
+      "edge": [
+        1,
+        3
+      ],
+      "projected_orientation": 0,
+      "parameter": 0,
+      "on_projected_segment": true,
+      "depth_difference": 0
+    },
+    {
+      "vertex": 1,
+      "edge": [
+        2,
+        3
+      ],
+      "projected_orientation": -1
+    },
+    {
+      "vertex": 1,
+      "edge": [
+        4,
+        5
+      ],
+      "projected_orientation": -12
+    },
+    {
+      "vertex": 1,
+      "edge": [
+        4,
+        6
+      ],
+      "projected_orientation": -19
+    },
+    {
+      "vertex": 1,
+      "edge": [
+        4,
+        7
+      ],
+      "projected_orientation": -22
+    },
+    {
+      "vertex": 1,
+      "edge": [
+        5,
+        6
+      ],
+      "projected_orientation": 13
+    },
+    {
+      "vertex": 1,
+      "edge": [
+        5,
+        7
+      ],
+      "projected_orientation": 10
+    },
+    {
+      "vertex": 1,
+      "edge": [
+        6,
+        7
+      ],
+      "projected_orientation": -8
+    },
+    {
+      "vertex": 1,
+      "edge": [
+        8,
+        9
+      ],
+      "projected_orientation": 24
+    },
+    {
+      "vertex": 1,
+      "edge": [
+        8,
+        10
+      ],
+      "projected_orientation": -18
+    },
+    {
+      "vertex": 1,
+      "edge": [
+        8,
+        11
+      ],
+      "projected_orientation": -15
+    },
+    {
+      "vertex": 1,
+      "edge": [
+        9,
+        10
+      ],
+      "projected_orientation": 6
+    },
+    {
+      "vertex": 1,
+      "edge": [
+        9,
+        11
+      ],
+      "projected_orientation": -3
+    },
+    {
+      "vertex": 1,
+      "edge": [
+        10,
+        11
+      ],
+      "projected_orientation": 6
+    },
+    {
+      "vertex": 2,
+      "edge": [
+        0,
+        1
+      ],
+      "projected_orientation": 24
+    },
+    {
+      "vertex": 2,
+      "edge": [
+        0,
+        2
+      ],
+      "projected_orientation": 0,
+      "parameter": 1,
+      "on_projected_segment": true,
+      "depth_difference": 0
+    },
+    {
+      "vertex": 2,
+      "edge": [
+        0,
+        3
+      ],
+      "projected_orientation": 7
+    },
+    {
+      "vertex": 2,
+      "edge": [
+        1,
+        2
+      ],
+      "projected_orientation": 0,
+      "parameter": 1,
+      "on_projected_segment": true,
+      "depth_difference": 0
+    },
+    {
+      "vertex": 2,
+      "edge": [
+        1,
+        3
+      ],
+      "projected_orientation": 1
+    },
+    {
+      "vertex": 2,
+      "edge": [
+        2,
+        3
+      ],
+      "projected_orientation": 0,
+      "parameter": 0,
+      "on_projected_segment": true,
+      "depth_difference": 0
+    },
+    {
+      "vertex": 2,
+      "edge": [
+        4,
+        5
+      ],
+      "projected_orientation": 16
+    },
+    {
+      "vertex": 2,
+      "edge": [
+        4,
+        6
+      ],
+      "projected_orientation": -18
+    },
+    {
+      "vertex": 2,
+      "edge": [
+        4,
+        7
+      ],
+      "projected_orientation": -14
+    },
+    {
+      "vertex": 2,
+      "edge": [
+        5,
+        6
+      ],
+      "projected_orientation": -14
+    },
+    {
+      "vertex": 2,
+      "edge": [
+        5,
+        7
+      ],
+      "projected_orientation": -10
+    },
+    {
+      "vertex": 2,
+      "edge": [
+        6,
+        7
+      ],
+      "projected_orientation": -1
+    },
+    {
+      "vertex": 2,
+      "edge": [
+        8,
+        9
+      ],
+      "projected_orientation": 16
+    },
+    {
+      "vertex": 2,
+      "edge": [
+        8,
+        10
+      ],
+      "projected_orientation": 4
+    },
+    {
+      "vertex": 2,
+      "edge": [
+        8,
+        11
+      ],
+      "projected_orientation": 2
+    },
+    {
+      "vertex": 2,
+      "edge": [
+        9,
+        10
+      ],
+      "projected_orientation": 36
+    },
+    {
+      "vertex": 2,
+      "edge": [
+        9,
+        11
+      ],
+      "projected_orientation": 22
+    },
+    {
+      "vertex": 2,
+      "edge": [
+        10,
+        11
+      ],
+      "projected_orientation": 1
+    },
+    {
+      "vertex": 3,
+      "edge": [
+        0,
+        1
+      ],
+      "projected_orientation": 18
+    },
+    {
+      "vertex": 3,
+      "edge": [
+        0,
+        2
+      ],
+      "projected_orientation": -7
+    },
+    {
+      "vertex": 3,
+      "edge": [
+        0,
+        3
+      ],
+      "projected_orientation": 0,
+      "parameter": 1,
+      "on_projected_segment": true,
+      "depth_difference": 0
+    },
+    {
+      "vertex": 3,
+      "edge": [
+        1,
+        2
+      ],
+      "projected_orientation": -1
+    },
+    {
+      "vertex": 3,
+      "edge": [
+        1,
+        3
+      ],
+      "projected_orientation": 0,
+      "parameter": 1,
+      "on_projected_segment": true,
+      "depth_difference": 0
+    },
+    {
+      "vertex": 3,
+      "edge": [
+        2,
+        3
+      ],
+      "projected_orientation": 0,
+      "parameter": 1,
+      "on_projected_segment": true,
+      "depth_difference": 0
+    },
+    {
+      "vertex": 3,
+      "edge": [
+        4,
+        5
+      ],
+      "projected_orientation": 8
+    },
+    {
+      "vertex": 3,
+      "edge": [
+        4,
+        6
+      ],
+      "projected_orientation": -19
+    },
+    {
+      "vertex": 3,
+      "edge": [
+        4,
+        7
+      ],
+      "projected_orientation": -17
+    },
+    {
+      "vertex": 3,
+      "edge": [
+        5,
+        6
+      ],
+      "projected_orientation": -7
+    },
+    {
+      "vertex": 3,
+      "edge": [
+        5,
+        7
+      ],
+      "projected_orientation": -5
+    },
+    {
+      "vertex": 3,
+      "edge": [
+        6,
+        7
+      ],
+      "projected_orientation": -3
+    },
+    {
+      "vertex": 3,
+      "edge": [
+        8,
+        9
+      ],
+      "projected_orientation": 20
+    },
+    {
+      "vertex": 3,
+      "edge": [
+        8,
+        10
+      ],
+      "projected_orientation": -1
+    },
+    {
+      "vertex": 3,
+      "edge": [
+        8,
+        11
+      ],
+      "projected_orientation": -2
+    },
+    {
+      "vertex": 3,
+      "edge": [
+        9,
+        10
+      ],
+      "projected_orientation": 27
+    },
+    {
+      "vertex": 3,
+      "edge": [
+        9,
+        11
+      ],
+      "projected_orientation": 14
+    },
+    {
+      "vertex": 3,
+      "edge": [
+        10,
+        11
+      ],
+      "projected_orientation": 2
+    },
+    {
+      "vertex": 4,
+      "edge": [
+        0,
+        1
+      ],
+      "projected_orientation": -12
+    },
+    {
+      "vertex": 4,
+      "edge": [
+        0,
+        2
+      ],
+      "projected_orientation": -10
+    },
+    {
+      "vertex": 4,
+      "edge": [
+        0,
+        3
+      ],
+      "projected_orientation": -11
+    },
+    {
+      "vertex": 4,
+      "edge": [
+        1,
+        2
+      ],
+      "projected_orientation": 26
+    },
+    {
+      "vertex": 4,
+      "edge": [
+        1,
+        3
+      ],
+      "projected_orientation": 19
+    },
+    {
+      "vertex": 4,
+      "edge": [
+        2,
+        3
+      ],
+      "projected_orientation": -8
+    },
+    {
+      "vertex": 4,
+      "edge": [
+        4,
+        5
+      ],
+      "projected_orientation": 0,
+      "parameter": 0,
+      "on_projected_segment": true,
+      "depth_difference": 0
+    },
+    {
+      "vertex": 4,
+      "edge": [
+        4,
+        6
+      ],
+      "projected_orientation": 0,
+      "parameter": 0,
+      "on_projected_segment": true,
+      "depth_difference": 0
+    },
+    {
+      "vertex": 4,
+      "edge": [
+        4,
+        7
+      ],
+      "projected_orientation": 0,
+      "parameter": 0,
+      "on_projected_segment": true,
+      "depth_difference": 0
+    },
+    {
+      "vertex": 4,
+      "edge": [
+        5,
+        6
+      ],
+      "projected_orientation": 20
+    },
+    {
+      "vertex": 4,
+      "edge": [
+        5,
+        7
+      ],
+      "projected_orientation": 20
+    },
+    {
+      "vertex": 4,
+      "edge": [
+        6,
+        7
+      ],
+      "projected_orientation": -5
+    },
+    {
+      "vertex": 4,
+      "edge": [
+        8,
+        9
+      ],
+      "projected_orientation": -24
+    },
+    {
+      "vertex": 4,
+      "edge": [
+        8,
+        10
+      ],
+      "projected_orientation": -42
+    },
+    {
+      "vertex": 4,
+      "edge": [
+        8,
+        11
+      ],
+      "projected_orientation": -30
+    },
+    {
+      "vertex": 4,
+      "edge": [
+        9,
+        10
+      ],
+      "projected_orientation": 30
+    },
+    {
+      "vertex": 4,
+      "edge": [
+        9,
+        11
+      ],
+      "projected_orientation": 30
+    },
+    {
+      "vertex": 4,
+      "edge": [
+        10,
+        11
+      ],
+      "projected_orientation": 15
+    },
+    {
+      "vertex": 5,
+      "edge": [
+        0,
+        1
+      ],
+      "projected_orientation": 12
+    },
+    {
+      "vertex": 5,
+      "edge": [
+        0,
+        2
+      ],
+      "projected_orientation": -14
+    },
+    {
+      "vertex": 5,
+      "edge": [
+        0,
+        3
+      ],
+      "projected_orientation": -7
+    },
+    {
+      "vertex": 5,
+      "edge": [
+        1,
+        2
+      ],
+      "projected_orientation": -2
+    },
+    {
+      "vertex": 5,
+      "edge": [
+        1,
+        3
+      ],
+      "projected_orientation": -1
+    },
+    {
+      "vertex": 5,
+      "edge": [
+        2,
+        3
+      ],
+      "projected_orientation": 0,
+      "parameter": 2,
+      "on_projected_segment": false,
+      "depth_difference": -13
+    },
+    {
+      "vertex": 5,
+      "edge": [
+        4,
+        5
+      ],
+      "projected_orientation": 0,
+      "parameter": 1,
+      "on_projected_segment": true,
+      "depth_difference": 0
+    },
+    {
+      "vertex": 5,
+      "edge": [
+        4,
+        6
+      ],
+      "projected_orientation": -20
+    },
+    {
+      "vertex": 5,
+      "edge": [
+        4,
+        7
+      ],
+      "projected_orientation": -20
+    },
+    {
+      "vertex": 5,
+      "edge": [
+        5,
+        6
+      ],
+      "projected_orientation": 0,
+      "parameter": 0,
+      "on_projected_segment": true,
+      "depth_difference": 0
+    },
+    {
+      "vertex": 5,
+      "edge": [
+        5,
+        7
+      ],
+      "projected_orientation": 0,
+      "parameter": 0,
+      "on_projected_segment": true,
+      "depth_difference": 0
+    },
+    {
+      "vertex": 5,
+      "edge": [
+        6,
+        7
+      ],
+      "projected_orientation": -5
+    },
+    {
+      "vertex": 5,
+      "edge": [
+        8,
+        9
+      ],
+      "projected_orientation": 24
+    },
+    {
+      "vertex": 5,
+      "edge": [
+        8,
+        10
+      ],
+      "projected_orientation": -6
+    },
+    {
+      "vertex": 5,
+      "edge": [
+        8,
+        11
+      ],
+      "projected_orientation": -6
+    },
+    {
+      "vertex": 5,
+      "edge": [
+        9,
+        10
+      ],
+      "projected_orientation": 18
+    },
+    {
+      "vertex": 5,
+      "edge": [
+        9,
+        11
+      ],
+      "projected_orientation": 6
+    },
+    {
+      "vertex": 5,
+      "edge": [
+        10,
+        11
+      ],
+      "projected_orientation": 3
+    },
+    {
+      "vertex": 6,
+      "edge": [
+        0,
+        1
+      ],
+      "projected_orientation": 6
+    },
+    {
+      "vertex": 6,
+      "edge": [
+        0,
+        2
+      ],
+      "projected_orientation": 7
+    },
+    {
+      "vertex": 6,
+      "edge": [
+        0,
+        3
+      ],
+      "projected_orientation": 7
+    },
+    {
+      "vertex": 6,
+      "edge": [
+        1,
+        2
+      ],
+      "projected_orientation": 25
+    },
+    {
+      "vertex": 6,
+      "edge": [
+        1,
+        3
+      ],
+      "projected_orientation": 19
+    },
+    {
+      "vertex": 6,
+      "edge": [
+        2,
+        3
+      ],
+      "projected_orientation": -7
+    },
+    {
+      "vertex": 6,
+      "edge": [
+        4,
+        5
+      ],
+      "projected_orientation": 20
+    },
+    {
+      "vertex": 6,
+      "edge": [
+        4,
+        6
+      ],
+      "projected_orientation": 0,
+      "parameter": 1,
+      "on_projected_segment": true,
+      "depth_difference": 0
+    },
+    {
+      "vertex": 6,
+      "edge": [
+        4,
+        7
+      ],
+      "projected_orientation": 5
+    },
+    {
+      "vertex": 6,
+      "edge": [
+        5,
+        6
+      ],
+      "projected_orientation": 0,
+      "parameter": 1,
+      "on_projected_segment": true,
+      "depth_difference": 0
+    },
+    {
+      "vertex": 6,
+      "edge": [
+        5,
+        7
+      ],
+      "projected_orientation": 5
+    },
+    {
+      "vertex": 6,
+      "edge": [
+        6,
+        7
+      ],
+      "projected_orientation": 0,
+      "parameter": 0,
+      "on_projected_segment": true,
+      "depth_difference": 0
+    },
+    {
+      "vertex": 6,
+      "edge": [
+        8,
+        9
+      ],
+      "projected_orientation": -28
+    },
+    {
+      "vertex": 6,
+      "edge": [
+        8,
+        10
+      ],
+      "projected_orientation": -25
+    },
+    {
+      "vertex": 6,
+      "edge": [
+        8,
+        11
+      ],
+      "projected_orientation": -17
+    },
+    {
+      "vertex": 6,
+      "edge": [
+        9,
+        10
+      ],
+      "projected_orientation": 51
+    },
+    {
+      "vertex": 6,
+      "edge": [
+        9,
+        11
+      ],
+      "projected_orientation": 47
+    },
+    {
+      "vertex": 6,
+      "edge": [
+        10,
+        11
+      ],
+      "projected_orientation": 11
+    },
+    {
+      "vertex": 7,
+      "edge": [
+        0,
+        1
+      ],
+      "projected_orientation": 12
+    },
+    {
+      "vertex": 7,
+      "edge": [
+        0,
+        2
+      ],
+      "projected_orientation": 6
+    },
+    {
+      "vertex": 7,
+      "edge": [
+        0,
+        3
+      ],
+      "projected_orientation": 8
+    },
+    {
+      "vertex": 7,
+      "edge": [
+        1,
+        2
+      ],
+      "projected_orientation": 18
+    },
+    {
+      "vertex": 7,
+      "edge": [
+        1,
+        3
+      ],
+      "projected_orientation": 14
+    },
+    {
+      "vertex": 7,
+      "edge": [
+        2,
+        3
+      ],
+      "projected_orientation": -5
+    },
+    {
+      "vertex": 7,
+      "edge": [
+        4,
+        5
+      ],
+      "projected_orientation": 20
+    },
+    {
+      "vertex": 7,
+      "edge": [
+        4,
+        6
+      ],
+      "projected_orientation": -5
+    },
+    {
+      "vertex": 7,
+      "edge": [
+        4,
+        7
+      ],
+      "projected_orientation": 0,
+      "parameter": 1,
+      "on_projected_segment": true,
+      "depth_difference": 0
+    },
+    {
+      "vertex": 7,
+      "edge": [
+        5,
+        6
+      ],
+      "projected_orientation": -5
+    },
+    {
+      "vertex": 7,
+      "edge": [
+        5,
+        7
+      ],
+      "projected_orientation": 0,
+      "parameter": 1,
+      "on_projected_segment": true,
+      "depth_difference": 0
+    },
+    {
+      "vertex": 7,
+      "edge": [
+        6,
+        7
+      ],
+      "projected_orientation": 0,
+      "parameter": 1,
+      "on_projected_segment": true,
+      "depth_difference": 0
+    },
+    {
+      "vertex": 7,
+      "edge": [
+        8,
+        9
+      ],
+      "projected_orientation": -16
+    },
+    {
+      "vertex": 7,
+      "edge": [
+        8,
+        10
+      ],
+      "projected_orientation": -16
+    },
+    {
+      "vertex": 7,
+      "edge": [
+        8,
+        11
+      ],
+      "projected_orientation": -11
+    },
+    {
+      "vertex": 7,
+      "edge": [
+        9,
+        10
+      ],
+      "projected_orientation": 48
+    },
+    {
+      "vertex": 7,
+      "edge": [
+        9,
+        11
+      ],
+      "projected_orientation": 41
+    },
+    {
+      "vertex": 7,
+      "edge": [
+        10,
+        11
+      ],
+      "projected_orientation": 8
+    },
+    {
+      "vertex": 8,
+      "edge": [
+        0,
+        1
+      ],
+      "projected_orientation": 24
+    },
+    {
+      "vertex": 8,
+      "edge": [
+        0,
+        2
+      ],
+      "projected_orientation": 8
+    },
+    {
+      "vertex": 8,
+      "edge": [
+        0,
+        3
+      ],
+      "projected_orientation": 13
+    },
+    {
+      "vertex": 8,
+      "edge": [
+        1,
+        2
+      ],
+      "projected_orientation": 8
+    },
+    {
+      "vertex": 8,
+      "edge": [
+        1,
+        3
+      ],
+      "projected_orientation": 7
+    },
+    {
+      "vertex": 8,
+      "edge": [
+        2,
+        3
+      ],
+      "projected_orientation": -2
+    },
+    {
+      "vertex": 8,
+      "edge": [
+        4,
+        5
+      ],
+      "projected_orientation": 24
+    },
+    {
+      "vertex": 8,
+      "edge": [
+        4,
+        6
+      ],
+      "projected_orientation": -12
+    },
+    {
+      "vertex": 8,
+      "edge": [
+        4,
+        7
+      ],
+      "projected_orientation": -6
+    },
+    {
+      "vertex": 8,
+      "edge": [
+        5,
+        6
+      ],
+      "projected_orientation": -16
+    },
+    {
+      "vertex": 8,
+      "edge": [
+        5,
+        7
+      ],
+      "projected_orientation": -10
+    },
+    {
+      "vertex": 8,
+      "edge": [
+        6,
+        7
+      ],
+      "projected_orientation": 1
+    },
+    {
+      "vertex": 8,
+      "edge": [
+        8,
+        9
+      ],
+      "projected_orientation": 0,
+      "parameter": 0,
+      "on_projected_segment": true,
+      "depth_difference": 0
+    },
+    {
+      "vertex": 8,
+      "edge": [
+        8,
+        10
+      ],
+      "projected_orientation": 0,
+      "parameter": 0,
+      "on_projected_segment": true,
+      "depth_difference": 0
+    },
+    {
+      "vertex": 8,
+      "edge": [
+        8,
+        11
+      ],
+      "projected_orientation": 0,
+      "parameter": 0,
+      "on_projected_segment": true,
+      "depth_difference": 0
+    },
+    {
+      "vertex": 8,
+      "edge": [
+        9,
+        10
+      ],
+      "projected_orientation": 48
+    },
+    {
+      "vertex": 8,
+      "edge": [
+        9,
+        11
+      ],
+      "projected_orientation": 36
+    },
+    {
+      "vertex": 8,
+      "edge": [
+        10,
+        11
+      ],
+      "projected_orientation": 3
+    },
+    {
+      "vertex": 9,
+      "edge": [
+        0,
+        1
+      ],
+      "projected_orientation": -24
+    },
+    {
+      "vertex": 9,
+      "edge": [
+        0,
+        2
+      ],
+      "projected_orientation": -32
+    },
+    {
+      "vertex": 9,
+      "edge": [
+        0,
+        3
+      ],
+      "projected_orientation": -31
+    },
+    {
+      "vertex": 9,
+      "edge": [
+        1,
+        2
+      ],
+      "projected_orientation": 16
+    },
+    {
+      "vertex": 9,
+      "edge": [
+        1,
+        3
+      ],
+      "projected_orientation": 11
+    },
+    {
+      "vertex": 9,
+      "edge": [
+        2,
+        3
+      ],
+      "projected_orientation": -6
+    },
+    {
+      "vertex": 9,
+      "edge": [
+        4,
+        5
+      ],
+      "projected_orientation": -24
+    },
+    {
+      "vertex": 9,
+      "edge": [
+        4,
+        6
+      ],
+      "projected_orientation": -8
+    },
+    {
+      "vertex": 9,
+      "edge": [
+        4,
+        7
+      ],
+      "projected_orientation": -14
+    },
+    {
+      "vertex": 9,
+      "edge": [
+        5,
+        6
+      ],
+      "projected_orientation": 36
+    },
+    {
+      "vertex": 9,
+      "edge": [
+        5,
+        7
+      ],
+      "projected_orientation": 30
+    },
+    {
+      "vertex": 9,
+      "edge": [
+        6,
+        7
+      ],
+      "projected_orientation": -11
+    },
+    {
+      "vertex": 9,
+      "edge": [
+        8,
+        9
+      ],
+      "projected_orientation": 0,
+      "parameter": 1,
+      "on_projected_segment": true,
+      "depth_difference": 0
+    },
+    {
+      "vertex": 9,
+      "edge": [
+        8,
+        10
+      ],
+      "projected_orientation": -48
+    },
+    {
+      "vertex": 9,
+      "edge": [
+        8,
+        11
+      ],
+      "projected_orientation": -36
+    },
+    {
+      "vertex": 9,
+      "edge": [
+        9,
+        10
+      ],
+      "projected_orientation": 0,
+      "parameter": 0,
+      "on_projected_segment": true,
+      "depth_difference": 0
+    },
+    {
+      "vertex": 9,
+      "edge": [
+        9,
+        11
+      ],
+      "projected_orientation": 0,
+      "parameter": 0,
+      "on_projected_segment": true,
+      "depth_difference": 0
+    },
+    {
+      "vertex": 9,
+      "edge": [
+        10,
+        11
+      ],
+      "projected_orientation": 15
+    },
+    {
+      "vertex": 10,
+      "edge": [
+        0,
+        1
+      ],
+      "projected_orientation": 12
+    },
+    {
+      "vertex": 10,
+      "edge": [
+        0,
+        2
+      ],
+      "projected_orientation": -26
+    },
+    {
+      "vertex": 10,
+      "edge": [
+        0,
+        3
+      ],
+      "projected_orientation": -16
+    },
+    {
+      "vertex": 10,
+      "edge": [
+        1,
+        2
+      ],
+      "projected_orientation": -14
+    },
+    {
+      "vertex": 10,
+      "edge": [
+        1,
+        3
+      ],
+      "projected_orientation": -10
+    },
+    {
+      "vertex": 10,
+      "edge": [
+        2,
+        3
+      ],
+      "projected_orientation": 3
+    },
+    {
+      "vertex": 10,
+      "edge": [
+        4,
+        5
+      ],
+      "projected_orientation": -12
+    },
+    {
+      "vertex": 10,
+      "edge": [
+        4,
+        6
+      ],
+      "projected_orientation": -29
+    },
+    {
+      "vertex": 10,
+      "edge": [
+        4,
+        7
+      ],
+      "projected_orientation": -32
+    },
+    {
+      "vertex": 10,
+      "edge": [
+        5,
+        6
+      ],
+      "projected_orientation": 3
+    },
+    {
+      "vertex": 10,
+      "edge": [
+        5,
+        7
+      ],
+      "projected_orientation": 0,
+      "parameter": "-3/5",
+      "on_projected_segment": false,
+      "depth_difference": "-52/5"
+    },
+    {
+      "vertex": 10,
+      "edge": [
+        6,
+        7
+      ],
+      "projected_orientation": -8
+    },
+    {
+      "vertex": 10,
+      "edge": [
+        8,
+        9
+      ],
+      "projected_orientation": 48
+    },
+    {
+      "vertex": 10,
+      "edge": [
+        8,
+        10
+      ],
+      "projected_orientation": 0,
+      "parameter": 1,
+      "on_projected_segment": true,
+      "depth_difference": 0
+    },
+    {
+      "vertex": 10,
+      "edge": [
+        8,
+        11
+      ],
+      "projected_orientation": -3
+    },
+    {
+      "vertex": 10,
+      "edge": [
+        9,
+        10
+      ],
+      "projected_orientation": 0,
+      "parameter": 1,
+      "on_projected_segment": true,
+      "depth_difference": 0
+    },
+    {
+      "vertex": 10,
+      "edge": [
+        9,
+        11
+      ],
+      "projected_orientation": -15
+    },
+    {
+      "vertex": 10,
+      "edge": [
+        10,
+        11
+      ],
+      "projected_orientation": 0,
+      "parameter": 0,
+      "on_projected_segment": true,
+      "depth_difference": 0
+    },
+    {
+      "vertex": 11,
+      "edge": [
+        0,
+        1
+      ],
+      "projected_orientation": 18
+    },
+    {
+      "vertex": 11,
+      "edge": [
+        0,
+        2
+      ],
+      "projected_orientation": -15
+    },
+    {
+      "vertex": 11,
+      "edge": [
+        0,
+        3
+      ],
+      "projected_orientation": -6
+    },
+    {
+      "vertex": 11,
+      "edge": [
+        1,
+        2
+      ],
+      "projected_orientation": -9
+    },
+    {
+      "vertex": 11,
+      "edge": [
+        1,
+        3
+      ],
+      "projected_orientation": -6
+    },
+    {
+      "vertex": 11,
+      "edge": [
+        2,
+        3
+      ],
+      "projected_orientation": 2
+    },
+    {
+      "vertex": 11,
+      "edge": [
+        4,
+        5
+      ],
+      "projected_orientation": 0,
+      "parameter": "5/4",
+      "on_projected_segment": false,
+      "depth_difference": -9
+    },
+    {
+      "vertex": 11,
+      "edge": [
+        4,
+        6
+      ],
+      "projected_orientation": -25
+    },
+    {
+      "vertex": 11,
+      "edge": [
+        4,
+        7
+      ],
+      "projected_orientation": -25
+    },
+    {
+      "vertex": 11,
+      "edge": [
+        5,
+        6
+      ],
+      "projected_orientation": -5
+    },
+    {
+      "vertex": 11,
+      "edge": [
+        5,
+        7
+      ],
+      "projected_orientation": -5
+    },
+    {
+      "vertex": 11,
+      "edge": [
+        6,
+        7
+      ],
+      "projected_orientation": -5
+    },
+    {
+      "vertex": 11,
+      "edge": [
+        8,
+        9
+      ],
+      "projected_orientation": 36
+    },
+    {
+      "vertex": 11,
+      "edge": [
+        8,
+        10
+      ],
+      "projected_orientation": 3
+    },
+    {
+      "vertex": 11,
+      "edge": [
+        8,
+        11
+      ],
+      "projected_orientation": 0,
+      "parameter": 1,
+      "on_projected_segment": true,
+      "depth_difference": 0
+    },
+    {
+      "vertex": 11,
+      "edge": [
+        9,
+        10
+      ],
+      "projected_orientation": 15
+    },
+    {
+      "vertex": 11,
+      "edge": [
+        9,
+        11
+      ],
+      "projected_orientation": 0,
+      "parameter": 1,
+      "on_projected_segment": true,
+      "depth_difference": 0
+    },
+    {
+      "vertex": 11,
+      "edge": [
+        10,
+        11
+      ],
+      "projected_orientation": 0,
+      "parameter": 1,
+      "on_projected_segment": true,
+      "depth_difference": 0
+    }
+  ],
+  "all153_edge_pair_checks": [
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "projected_direction_determinant": 24,
+      "offset_determinant": 0
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "projected_direction_determinant": 18,
+      "offset_determinant": 0
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "projected_direction_determinant": 24,
+      "offset_determinant": 0
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "projected_direction_determinant": 18,
+      "offset_determinant": 0
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "projected_direction_determinant": -6,
+      "offset_determinant": -24
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "projected_direction_determinant": 24,
+      "offset_determinant": 12
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "projected_direction_determinant": 18,
+      "offset_determinant": 12
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "projected_direction_determinant": 24,
+      "offset_determinant": 12
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "projected_direction_determinant": -6,
+      "offset_determinant": -12
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "projected_direction_determinant": 0,
+      "offset_determinant": -12
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "projected_direction_determinant": 6,
+      "offset_determinant": -6
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "projected_direction_determinant": -48,
+      "offset_determinant": -24
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          8,
+          10
+        ]
+      ],
+      "projected_direction_determinant": -12,
+      "offset_determinant": -24
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          8,
+          11
+        ]
+      ],
+      "projected_direction_determinant": -6,
+      "offset_determinant": -24
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "projected_direction_determinant": 36,
+      "offset_determinant": 24
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          9,
+          11
+        ]
+      ],
+      "projected_direction_determinant": 42,
+      "offset_determinant": 24
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "projected_direction_determinant": 6,
+      "offset_determinant": -12
+    },
+    {
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "projected_direction_determinant": -7,
+      "offset_determinant": 0
+    },
+    {
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "projected_direction_determinant": 24,
+      "offset_determinant": 24
+    },
+    {
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "projected_direction_determinant": 17,
+      "offset_determinant": 24
+    },
+    {
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "projected_direction_determinant": -7,
+      "offset_determinant": 0
+    },
+    {
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "projected_direction_determinant": -4,
+      "offset_determinant": 10
+    },
+    {
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "projected_direction_determinant": 17,
+      "offset_determinant": 10
+    },
+    {
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "projected_direction_determinant": 16,
+      "offset_determinant": 10
+    },
+    {
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "projected_direction_determinant": 21,
+      "offset_determinant": 14
+    },
+    {
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "projected_direction_determinant": 20,
+      "offset_determinant": 14
+    },
+    {
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "projected_direction_determinant": -1,
+      "offset_determinant": -7
+    },
+    {
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "projected_direction_determinant": -40,
+      "offset_determinant": -8
+    },
+    {
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          8,
+          10
+        ]
+      ],
+      "projected_direction_determinant": -34,
+      "offset_determinant": -8
+    },
+    {
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          8,
+          11
+        ]
+      ],
+      "projected_direction_determinant": -23,
+      "offset_determinant": -8
+    },
+    {
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "projected_direction_determinant": 6,
+      "offset_determinant": 32
+    },
+    {
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          9,
+          11
+        ]
+      ],
+      "projected_direction_determinant": 17,
+      "offset_determinant": 32
+    },
+    {
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "projected_direction_determinant": 11,
+      "offset_determinant": 26
+    },
+    {
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "projected_direction_determinant": 25,
+      "offset_determinant": 18
+    },
+    {
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "projected_direction_determinant": 18,
+      "offset_determinant": 18
+    },
+    {
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "projected_direction_determinant": -7,
+      "offset_determinant": -7
+    },
+    {
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "projected_direction_determinant": 4,
+      "offset_determinant": 11
+    },
+    {
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "projected_direction_determinant": 18,
+      "offset_determinant": 11
+    },
+    {
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "projected_direction_determinant": 19,
+      "offset_determinant": 11
+    },
+    {
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "projected_direction_determinant": 14,
+      "offset_determinant": 7
+    },
+    {
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "projected_direction_determinant": 15,
+      "offset_determinant": 7
+    },
+    {
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "projected_direction_determinant": 1,
+      "offset_determinant": -7
+    },
+    {
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "projected_direction_determinant": -44,
+      "offset_determinant": -13
+    },
+    {
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          8,
+          10
+        ]
+      ],
+      "projected_direction_determinant": -29,
+      "offset_determinant": -13
+    },
+    {
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          8,
+          11
+        ]
+      ],
+      "projected_direction_determinant": -19,
+      "offset_determinant": -13
+    },
+    {
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "projected_direction_determinant": 15,
+      "offset_determinant": 31
+    },
+    {
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          9,
+          11
+        ]
+      ],
+      "projected_direction_determinant": 25,
+      "offset_determinant": 31
+    },
+    {
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "projected_direction_determinant": 10,
+      "offset_determinant": 16
+    },
+    {
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "projected_direction_determinant": -1,
+      "offset_determinant": 0
+    },
+    {
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "projected_direction_determinant": -1,
+      "offset_determinant": 0
+    },
+    {
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "projected_direction_determinant": -28,
+      "offset_determinant": -26
+    },
+    {
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "projected_direction_determinant": -1,
+      "offset_determinant": -26
+    },
+    {
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "projected_direction_determinant": -8,
+      "offset_determinant": -26
+    },
+    {
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "projected_direction_determinant": 27,
+      "offset_determinant": 2
+    },
+    {
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "projected_direction_determinant": 20,
+      "offset_determinant": 2
+    },
+    {
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "projected_direction_determinant": -7,
+      "offset_determinant": -25
+    },
+    {
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "projected_direction_determinant": 8,
+      "offset_determinant": -8
+    },
+    {
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          8,
+          10
+        ]
+      ],
+      "projected_direction_determinant": -22,
+      "offset_determinant": -8
+    },
+    {
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          8,
+          11
+        ]
+      ],
+      "projected_direction_determinant": -17,
+      "offset_determinant": -8
+    },
+    {
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "projected_direction_determinant": -30,
+      "offset_determinant": -16
+    },
+    {
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          9,
+          11
+        ]
+      ],
+      "projected_direction_determinant": -25,
+      "offset_determinant": -16
+    },
+    {
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "projected_direction_determinant": 5,
+      "offset_determinant": 14
+    },
+    {
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "projected_direction_determinant": -1,
+      "offset_determinant": -1
+    },
+    {
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "projected_direction_determinant": -20,
+      "offset_determinant": -19
+    },
+    {
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "projected_direction_determinant": 0,
+      "offset_determinant": -19
+    },
+    {
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "projected_direction_determinant": -5,
+      "offset_determinant": -19
+    },
+    {
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "projected_direction_determinant": 20,
+      "offset_determinant": 1
+    },
+    {
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "projected_direction_determinant": 15,
+      "offset_determinant": 1
+    },
+    {
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "projected_direction_determinant": -5,
+      "offset_determinant": -19
+    },
+    {
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "projected_direction_determinant": 4,
+      "offset_determinant": -7
+    },
+    {
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          8,
+          10
+        ]
+      ],
+      "projected_direction_determinant": -17,
+      "offset_determinant": -7
+    },
+    {
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          8,
+          11
+        ]
+      ],
+      "projected_direction_determinant": -13,
+      "offset_determinant": -7
+    },
+    {
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "projected_direction_determinant": -21,
+      "offset_determinant": -11
+    },
+    {
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          9,
+          11
+        ]
+      ],
+      "projected_direction_determinant": -17,
+      "offset_determinant": -11
+    },
+    {
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "projected_direction_determinant": 4,
+      "offset_determinant": 10
+    },
+    {
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "projected_direction_determinant": 8,
+      "offset_determinant": 8
+    },
+    {
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "projected_direction_determinant": 1,
+      "offset_determinant": 8
+    },
+    {
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "projected_direction_determinant": 3,
+      "offset_determinant": 8
+    },
+    {
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "projected_direction_determinant": -7,
+      "offset_determinant": 0
+    },
+    {
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "projected_direction_determinant": -5,
+      "offset_determinant": 0
+    },
+    {
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "projected_direction_determinant": 2,
+      "offset_determinant": 7
+    },
+    {
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "projected_direction_determinant": -4,
+      "offset_determinant": 2
+    },
+    {
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          8,
+          10
+        ]
+      ],
+      "projected_direction_determinant": 5,
+      "offset_determinant": 2
+    },
+    {
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          8,
+          11
+        ]
+      ],
+      "projected_direction_determinant": 4,
+      "offset_determinant": 2
+    },
+    {
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "projected_direction_determinant": 9,
+      "offset_determinant": 6
+    },
+    {
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          9,
+          11
+        ]
+      ],
+      "projected_direction_determinant": 8,
+      "offset_determinant": 6
+    },
+    {
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "projected_direction_determinant": -1,
+      "offset_determinant": -3
+    },
+    {
+      "edges": [
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "projected_direction_determinant": 20,
+      "offset_determinant": 0
+    },
+    {
+      "edges": [
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "projected_direction_determinant": 20,
+      "offset_determinant": 0
+    },
+    {
+      "edges": [
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "projected_direction_determinant": 20,
+      "offset_determinant": 0
+    },
+    {
+      "edges": [
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "projected_direction_determinant": 20,
+      "offset_determinant": 0
+    },
+    {
+      "edges": [
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "projected_direction_determinant": 0,
+      "offset_determinant": -20
+    },
+    {
+      "edges": [
+        [
+          4,
+          5
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "projected_direction_determinant": -48,
+      "offset_determinant": -24
+    },
+    {
+      "edges": [
+        [
+          4,
+          5
+        ],
+        [
+          8,
+          10
+        ]
+      ],
+      "projected_direction_determinant": -36,
+      "offset_determinant": -24
+    },
+    {
+      "edges": [
+        [
+          4,
+          5
+        ],
+        [
+          8,
+          11
+        ]
+      ],
+      "projected_direction_determinant": -24,
+      "offset_determinant": -24
+    },
+    {
+      "edges": [
+        [
+          4,
+          5
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "projected_direction_determinant": 12,
+      "offset_determinant": 24
+    },
+    {
+      "edges": [
+        [
+          4,
+          5
+        ],
+        [
+          9,
+          11
+        ]
+      ],
+      "projected_direction_determinant": 24,
+      "offset_determinant": 24
+    },
+    {
+      "edges": [
+        [
+          4,
+          5
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "projected_direction_determinant": 12,
+      "offset_determinant": 12
+    },
+    {
+      "edges": [
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "projected_direction_determinant": -5,
+      "offset_determinant": 0
+    },
+    {
+      "edges": [
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "projected_direction_determinant": 20,
+      "offset_determinant": 20
+    },
+    {
+      "edges": [
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "projected_direction_determinant": 15,
+      "offset_determinant": 20
+    },
+    {
+      "edges": [
+        [
+          4,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "projected_direction_determinant": -5,
+      "offset_determinant": 0
+    },
+    {
+      "edges": [
+        [
+          4,
+          6
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "projected_direction_determinant": 4,
+      "offset_determinant": 12
+    },
+    {
+      "edges": [
+        [
+          4,
+          6
+        ],
+        [
+          8,
+          10
+        ]
+      ],
+      "projected_direction_determinant": -17,
+      "offset_determinant": 12
+    },
+    {
+      "edges": [
+        [
+          4,
+          6
+        ],
+        [
+          8,
+          11
+        ]
+      ],
+      "projected_direction_determinant": -13,
+      "offset_determinant": 12
+    },
+    {
+      "edges": [
+        [
+          4,
+          6
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "projected_direction_determinant": -21,
+      "offset_determinant": 8
+    },
+    {
+      "edges": [
+        [
+          4,
+          6
+        ],
+        [
+          9,
+          11
+        ]
+      ],
+      "projected_direction_determinant": -17,
+      "offset_determinant": 8
+    },
+    {
+      "edges": [
+        [
+          4,
+          6
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "projected_direction_determinant": 4,
+      "offset_determinant": 29
+    },
+    {
+      "edges": [
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "projected_direction_determinant": 25,
+      "offset_determinant": 20
+    },
+    {
+      "edges": [
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "projected_direction_determinant": 20,
+      "offset_determinant": 20
+    },
+    {
+      "edges": [
+        [
+          4,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "projected_direction_determinant": -5,
+      "offset_determinant": -5
+    },
+    {
+      "edges": [
+        [
+          4,
+          7
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "projected_direction_determinant": -8,
+      "offset_determinant": 6
+    },
+    {
+      "edges": [
+        [
+          4,
+          7
+        ],
+        [
+          8,
+          10
+        ]
+      ],
+      "projected_direction_determinant": -26,
+      "offset_determinant": 6
+    },
+    {
+      "edges": [
+        [
+          4,
+          7
+        ],
+        [
+          8,
+          11
+        ]
+      ],
+      "projected_direction_determinant": -19,
+      "offset_determinant": 6
+    },
+    {
+      "edges": [
+        [
+          4,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "projected_direction_determinant": -18,
+      "offset_determinant": 14
+    },
+    {
+      "edges": [
+        [
+          4,
+          7
+        ],
+        [
+          9,
+          11
+        ]
+      ],
+      "projected_direction_determinant": -11,
+      "offset_determinant": 14
+    },
+    {
+      "edges": [
+        [
+          4,
+          7
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "projected_direction_determinant": 7,
+      "offset_determinant": 32
+    },
+    {
+      "edges": [
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "projected_direction_determinant": -5,
+      "offset_determinant": 0
+    },
+    {
+      "edges": [
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "projected_direction_determinant": -5,
+      "offset_determinant": 0
+    },
+    {
+      "edges": [
+        [
+          5,
+          6
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "projected_direction_determinant": 52,
+      "offset_determinant": 16
+    },
+    {
+      "edges": [
+        [
+          5,
+          6
+        ],
+        [
+          8,
+          10
+        ]
+      ],
+      "projected_direction_determinant": 19,
+      "offset_determinant": 16
+    },
+    {
+      "edges": [
+        [
+          5,
+          6
+        ],
+        [
+          8,
+          11
+        ]
+      ],
+      "projected_direction_determinant": 11,
+      "offset_determinant": 16
+    },
+    {
+      "edges": [
+        [
+          5,
+          6
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "projected_direction_determinant": -33,
+      "offset_determinant": -36
+    },
+    {
+      "edges": [
+        [
+          5,
+          6
+        ],
+        [
+          9,
+          11
+        ]
+      ],
+      "projected_direction_determinant": -41,
+      "offset_determinant": -36
+    },
+    {
+      "edges": [
+        [
+          5,
+          6
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "projected_direction_determinant": -8,
+      "offset_determinant": -3
+    },
+    {
+      "edges": [
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "projected_direction_determinant": -5,
+      "offset_determinant": -5
+    },
+    {
+      "edges": [
+        [
+          5,
+          7
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "projected_direction_determinant": 40,
+      "offset_determinant": 10
+    },
+    {
+      "edges": [
+        [
+          5,
+          7
+        ],
+        [
+          8,
+          10
+        ]
+      ],
+      "projected_direction_determinant": 10,
+      "offset_determinant": 10
+    },
+    {
+      "edges": [
+        [
+          5,
+          7
+        ],
+        [
+          8,
+          11
+        ]
+      ],
+      "projected_direction_determinant": 5,
+      "offset_determinant": 10
+    },
+    {
+      "edges": [
+        [
+          5,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "projected_direction_determinant": -30,
+      "offset_determinant": -30
+    },
+    {
+      "edges": [
+        [
+          5,
+          7
+        ],
+        [
+          9,
+          11
+        ]
+      ],
+      "projected_direction_determinant": -35,
+      "offset_determinant": -30
+    },
+    {
+      "edges": [
+        [
+          5,
+          7
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "projected_direction_determinant": -5,
+      "offset_determinant": 0
+    },
+    {
+      "edges": [
+        [
+          6,
+          7
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "projected_direction_determinant": -12,
+      "offset_determinant": -1
+    },
+    {
+      "edges": [
+        [
+          6,
+          7
+        ],
+        [
+          8,
+          10
+        ]
+      ],
+      "projected_direction_determinant": -9,
+      "offset_determinant": -1
+    },
+    {
+      "edges": [
+        [
+          6,
+          7
+        ],
+        [
+          8,
+          11
+        ]
+      ],
+      "projected_direction_determinant": -6,
+      "offset_determinant": -1
+    },
+    {
+      "edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "projected_direction_determinant": 3,
+      "offset_determinant": 11
+    },
+    {
+      "edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          11
+        ]
+      ],
+      "projected_direction_determinant": 6,
+      "offset_determinant": 11
+    },
+    {
+      "edges": [
+        [
+          6,
+          7
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "projected_direction_determinant": 3,
+      "offset_determinant": 8
+    },
+    {
+      "edges": [
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          10
+        ]
+      ],
+      "projected_direction_determinant": 48,
+      "offset_determinant": 0
+    },
+    {
+      "edges": [
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          11
+        ]
+      ],
+      "projected_direction_determinant": 36,
+      "offset_determinant": 0
+    },
+    {
+      "edges": [
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "projected_direction_determinant": 48,
+      "offset_determinant": 0
+    },
+    {
+      "edges": [
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          11
+        ]
+      ],
+      "projected_direction_determinant": 36,
+      "offset_determinant": 0
+    },
+    {
+      "edges": [
+        [
+          8,
+          9
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "projected_direction_determinant": -12,
+      "offset_determinant": -48
+    },
+    {
+      "edges": [
+        [
+          8,
+          10
+        ],
+        [
+          8,
+          11
+        ]
+      ],
+      "projected_direction_determinant": 3,
+      "offset_determinant": 0
+    },
+    {
+      "edges": [
+        [
+          8,
+          10
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "projected_direction_determinant": 48,
+      "offset_determinant": 48
+    },
+    {
+      "edges": [
+        [
+          8,
+          10
+        ],
+        [
+          9,
+          11
+        ]
+      ],
+      "projected_direction_determinant": 51,
+      "offset_determinant": 48
+    },
+    {
+      "edges": [
+        [
+          8,
+          10
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "projected_direction_determinant": 3,
+      "offset_determinant": 0
+    },
+    {
+      "edges": [
+        [
+          8,
+          11
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "projected_direction_determinant": 33,
+      "offset_determinant": 36
+    },
+    {
+      "edges": [
+        [
+          8,
+          11
+        ],
+        [
+          9,
+          11
+        ]
+      ],
+      "projected_direction_determinant": 36,
+      "offset_determinant": 36
+    },
+    {
+      "edges": [
+        [
+          8,
+          11
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "projected_direction_determinant": 3,
+      "offset_determinant": 3
+    },
+    {
+      "edges": [
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          11
+        ]
+      ],
+      "projected_direction_determinant": 15,
+      "offset_determinant": 0
+    },
+    {
+      "edges": [
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "projected_direction_determinant": 15,
+      "offset_determinant": 0
+    },
+    {
+      "edges": [
+        [
+          9,
+          11
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "projected_direction_determinant": 15,
+      "offset_determinant": 15
+    }
+  ],
+  "projected_edge_supporting_lines": [
+    {
+      "edge": [
+        0,
+        1
+      ],
+      "line_coefficients": [
+        0,
+        -6,
+        0
+      ],
+      "squared_distance_of_supporting_line_from_origin": 0
+    },
+    {
+      "edge": [
+        0,
+        2
+      ],
+      "line_coefficients": [
+        4,
+        -3,
+        12
+      ],
+      "squared_distance_of_supporting_line_from_origin": "144/25"
+    },
+    {
+      "edge": [
+        0,
+        3
+      ],
+      "line_coefficients": [
+        3,
+        -4,
+        9
+      ],
+      "squared_distance_of_supporting_line_from_origin": "81/25"
+    },
+    {
+      "edge": [
+        1,
+        2
+      ],
+      "line_coefficients": [
+        4,
+        3,
+        -12
+      ],
+      "squared_distance_of_supporting_line_from_origin": "144/25"
+    },
+    {
+      "edge": [
+        1,
+        3
+      ],
+      "line_coefficients": [
+        3,
+        2,
+        -9
+      ],
+      "squared_distance_of_supporting_line_from_origin": "81/13"
+    },
+    {
+      "edge": [
+        2,
+        3
+      ],
+      "line_coefficients": [
+        -1,
+        -1,
+        4
+      ],
+      "squared_distance_of_supporting_line_from_origin": 8
+    },
+    {
+      "edge": [
+        4,
+        5
+      ],
+      "line_coefficients": [
+        4,
+        -4,
+        0
+      ],
+      "squared_distance_of_supporting_line_from_origin": 0
+    },
+    {
+      "edge": [
+        4,
+        6
+      ],
+      "line_coefficients": [
+        3,
+        2,
+        10
+      ],
+      "squared_distance_of_supporting_line_from_origin": "100/13"
+    },
+    {
+      "edge": [
+        4,
+        7
+      ],
+      "line_coefficients": [
+        4,
+        1,
+        10
+      ],
+      "squared_distance_of_supporting_line_from_origin": "100/17"
+    },
+    {
+      "edge": [
+        5,
+        6
+      ],
+      "line_coefficients": [
+        -1,
+        6,
+        -10
+      ],
+      "squared_distance_of_supporting_line_from_origin": "100/37"
+    },
+    {
+      "edge": [
+        5,
+        7
+      ],
+      "line_coefficients": [
+        0,
+        5,
+        -10
+      ],
+      "squared_distance_of_supporting_line_from_origin": 4
+    },
+    {
+      "edge": [
+        6,
+        7
+      ],
+      "line_coefficients": [
+        1,
+        -1,
+        5
+      ],
+      "squared_distance_of_supporting_line_from_origin": "25/2"
+    },
+    {
+      "edge": [
+        8,
+        9
+      ],
+      "line_coefficients": [
+        -8,
+        -4,
+        0
+      ],
+      "squared_distance_of_supporting_line_from_origin": 0
+    },
+    {
+      "edge": [
+        8,
+        10
+      ],
+      "line_coefficients": [
+        -2,
+        -7,
+        24
+      ],
+      "squared_distance_of_supporting_line_from_origin": "576/53"
+    },
+    {
+      "edge": [
+        8,
+        11
+      ],
+      "line_coefficients": [
+        -1,
+        -5,
+        18
+      ],
+      "squared_distance_of_supporting_line_from_origin": "162/13"
+    },
+    {
+      "edge": [
+        9,
+        10
+      ],
+      "line_coefficients": [
+        6,
+        -3,
+        -24
+      ],
+      "squared_distance_of_supporting_line_from_origin": "64/5"
+    },
+    {
+      "edge": [
+        9,
+        11
+      ],
+      "line_coefficients": [
+        7,
+        -1,
+        -18
+      ],
+      "squared_distance_of_supporting_line_from_origin": "162/25"
+    },
+    {
+      "edge": [
+        10,
+        11
+      ],
+      "line_coefficients": [
+        1,
+        2,
+        -9
+      ],
+      "squared_distance_of_supporting_line_from_origin": "81/5"
+    }
+  ],
+  "local_radius": "1/10",
+  "local_projection_support_halfplanes": [
+    {
+      "tetrahedron": 0,
+      "halfplane_coefficients": [
+        0,
+        1
+      ],
+      "vertex_evaluations": [
+        0,
+        0,
+        4,
+        3
+      ]
+    },
+    {
+      "tetrahedron": 1,
+      "halfplane_coefficients": [
+        -1,
+        1
+      ],
+      "vertex_evaluations": [
+        0,
+        0,
+        5,
+        5
+      ]
+    },
+    {
+      "tetrahedron": 2,
+      "halfplane_coefficients": [
+        2,
+        1
+      ],
+      "vertex_evaluations": [
+        0,
+        0,
+        12,
+        9
+      ]
+    }
+  ],
+  "exact_visible_rays": [
+    [
+      1,
+      0
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      -1,
+      -1
+    ],
+    [
+      1,
+      -2
+    ]
+  ],
+  "occlusion_proof": "notes/F7-C0005.md",
+  "errata_files": [
+    {
+      "file": "errata/originals/err4f7.textxt",
+      "sha256": "5367c0ddd98ba05c1384dbf36a261c8492442aed6eb9d12cf3a9874258c55661"
+    },
+    {
+      "file": "errata/pdf/err4f7.pdf",
+      "sha256": "f117610d9e040d2543739e9fdb1e3c7947d6a63f7b99c2d9b21ecc1e21c13864"
+    },
+    {
+      "file": "errata/pdf/all4f7.pdf",
+      "sha256": "6675df9e26dd9d8cefbf3b8d722c88a701206c8c704ce499d5f86ac1c1d64039"
+    },
+    {
+      "file": "errata/text/err4f7.txt",
+      "sha256": "0afe5f3e8fb61612c2f8370a3bb6280fd560e183cac2d745ec66386d3af5cca3"
+    },
+    {
+      "file": "errata/text/all4f7.txt",
+      "sha256": "ef32430ffd04c186e1a332f2fae10a37f5813e8f383cbb61c5c42fc1ad91598e"
+    }
+  ],
+  "relevant_correction": {
+    "date": "2026-09-13",
+    "page": 167,
+    "answer": 40,
+    "effect": "Replaces projected parallel-direction prohibition by collinearity of projected supporting lines; no triple-concurrence prohibition added."
+  },
+  "no_other_relevant_correction_found": "The full current primary TeX, short and cumulative layers have no additional40 correction or restriction excluding the three-component witness."
+}

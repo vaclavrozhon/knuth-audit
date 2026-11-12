@@ -1,0 +1,425 @@
+{
+  "blocks": {
+    "perron": {
+      "status": "passed",
+      "started_at_utc": "2026-11-04T03:36:57.473623+00:00",
+      "pid": 1341384,
+      "elapsed_seconds": 0.2586003799806349,
+      "stats": {
+        "perron_polynomials": 216
+      },
+      "C0219": {
+        "u": "x^3+4x+1",
+        "r": "-1/2",
+        "actual": "15/8",
+        "printed_lower_bound": "17/8",
+        "corrected_lower_bound": "15/8"
+      }
+    },
+    "certificates": {
+      "status": "passed",
+      "started_at_utc": "2026-11-04T03:36:58.279624+00:00",
+      "pid": 1341386,
+      "elapsed_seconds": 0.5476016979664564,
+      "stats": {
+        "exact_resultant_certificates": 7,
+        "accepted_certificates": 7,
+        "nonmonic_resultants": 3
+      },
+      "certificates": [
+        {
+          "u": "x**3 - 2",
+          "t_coefficients": [
+            0,
+            286,
+            -227
+          ],
+          "v_coefficients": [
+            1,
+            0,
+            389532,
+            1020
+          ],
+          "perron_type": 2,
+          "heuristic_scale": 100000
+        },
+        {
+          "u": "x**3 - x - 1",
+          "t_coefficients": [
+            56,
+            69,
+            -84
+          ],
+          "v_coefficients": [
+            1,
+            0,
+            10275,
+            43
+          ],
+          "perron_type": 2,
+          "heuristic_scale": 100000
+        },
+        {
+          "u": "x**4 + x + 1",
+          "t_coefficients": [
+            282,
+            843,
+            942,
+            376
+          ],
+          "v_coefficients": [
+            1,
+            0,
+            5371902,
+            -94997,
+            2659
+          ],
+          "perron_type": 2,
+          "heuristic_scale": 100000
+        },
+        {
+          "u": "x**4 - 10*x**2 + 1",
+          "t_coefficients": [
+            -76,
+            -24,
+            752,
+            239
+          ],
+          "v_coefficients": [
+            1,
+            -14736,
+            -1930,
+            -48,
+            1
+          ],
+          "perron_type": 1,
+          "heuristic_scale": 100000
+        },
+        {
+          "u": "x**4 + 1",
+          "t_coefficients": [
+            0,
+            70,
+            99,
+            70
+          ],
+          "v_coefficients": [
+            1,
+            0,
+            39202,
+            0,
+            1
+          ],
+          "perron_type": 2,
+          "heuristic_scale": 100000
+        },
+        {
+          "u": "x**5 - x - 1",
+          "t_coefficients": [
+            -304,
+            -710,
+            -276,
+            505,
+            380
+          ],
+          "v_coefficients": [
+            1,
+            0,
+            3269988,
+            -203659,
+            -23855,
+            1921
+          ],
+          "perron_type": 2,
+          "heuristic_scale": 100000
+        },
+        {
+          "u": "x**6 + 3*x + 1",
+          "t_coefficients": [
+            -75,
+            -338,
+            -438,
+            -355,
+            -190,
+            -30
+          ],
+          "v_coefficients": [
+            1,
+            0,
+            4230510,
+            210326,
+            -29856,
+            -2145,
+            -19
+          ],
+          "perron_type": 2,
+          "heuristic_scale": 100000
+        }
+      ]
+    },
+    "factor_height": {
+      "status": "passed",
+      "started_at_utc": "2026-11-04T03:41:14.853371+00:00",
+      "pid": 1341766,
+      "elapsed_seconds": 0.2462016050121747,
+      "stats": {
+        "irreducible_pairs": 5,
+        "independent_modular_certificates": 5
+      },
+      "examples": [
+        {
+          "g_coefficients": [
+            2,
+            4,
+            5,
+            4,
+            2
+          ],
+          "product_coefficients": [
+            4,
+            0,
+            4,
+            0,
+            1,
+            0,
+            4,
+            0,
+            4
+          ],
+          "ratio": "5/4",
+          "modular_certificate": {
+            "prime": 3,
+            "degree": 4,
+            "gcd_indices": [
+              2
+            ],
+            "frobenius_identity": true
+          }
+        },
+        {
+          "g_coefficients": [
+            1,
+            1,
+            0,
+            -1,
+            -1,
+            -1,
+            0,
+            2,
+            3,
+            2,
+            1
+          ],
+          "product_coefficients": [
+            1,
+            -1,
+            1,
+            0,
+            -1,
+            -1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            1,
+            -1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "ratio": "3",
+          "modular_certificate": {
+            "prime": 13,
+            "degree": 10,
+            "gcd_indices": [
+              2,
+              5
+            ],
+            "frobenius_identity": true
+          }
+        },
+        {
+          "g_coefficients": [
+            1,
+            2,
+            3,
+            2,
+            0,
+            -1,
+            -1,
+            -1,
+            0,
+            1,
+            1
+          ],
+          "product_coefficients": [
+            1,
+            1,
+            1,
+            0,
+            -1,
+            1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            -1,
+            -1,
+            0,
+            1,
+            -1,
+            1
+          ],
+          "ratio": "3",
+          "modular_certificate": {
+            "prime": 13,
+            "degree": 10,
+            "gcd_indices": [
+              2,
+              5
+            ],
+            "frobenius_identity": true
+          }
+        },
+        {
+          "g_coefficients": [
+            29,
+            175,
+            543,
+            1119,
+            1683,
+            1921,
+            1683,
+            1119,
+            543,
+            175,
+            29
+          ],
+          "product_coefficients": [
+            841,
+            0,
+            869,
+            0,
+            813,
+            0,
+            841,
+            0,
+            873,
+            0,
+            545,
+            0,
+            873,
+            0,
+            841,
+            0,
+            813,
+            0,
+            869,
+            0,
+            841
+          ],
+          "ratio": "1921/873",
+          "modular_certificate": {
+            "prime": 2,
+            "degree": 10,
+            "gcd_indices": [
+              2,
+              5
+            ],
+            "frobenius_identity": true
+          }
+        },
+        {
+          "g_coefficients": [
+            6,
+            33,
+            93,
+            175,
+            243,
+            249,
+            158,
+            -26,
+            -248,
+            -427,
+            -495,
+            -427,
+            -248,
+            -26,
+            158,
+            249,
+            243,
+            175,
+            93,
+            33,
+            6
+          ],
+          "product_coefficients": [
+            36,
+            0,
+            27,
+            0,
+            15,
+            0,
+            35,
+            0,
+            27,
+            0,
+            1,
+            0,
+            -30,
+            0,
+            -34,
+            0,
+            -32,
+            0,
+            -31,
+            0,
+            -11,
+            0,
+            -31,
+            0,
+            -32,
+            0,
+            -34,
+            0,
+            -30,
+            0,
+            1,
+            0,
+            27,
+            0,
+            35,
+            0,
+            15,
+            0,
+            27,
+            0,
+            36
+          ],
+          "ratio": "55/4",
+          "modular_certificate": {
+            "prime": 37,
+            "degree": 20,
+            "gcd_indices": [
+              4,
+              10
+            ],
+            "frobenius_identity": true
+          }
+        }
+      ],
+      "unbounded_irreducible_ratio_proved": false
+    }
+  }
+}

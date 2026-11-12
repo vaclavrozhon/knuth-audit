@@ -1,0 +1,1871 @@
+{
+  "scope": "All120 binary matrix words of lengths3\u20136, filling exactly the small cases excluded by the printed q>6 estimate. This is not a substitute for the separate all-q proof.",
+  "AXA": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "AXAXA": [
+    [
+      -1,
+      0
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "ABA_equals_BAB": [
+    [
+      -1,
+      0
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "cases": [
+    {
+      "q": 3,
+      "all_words": [
+        {
+          "word": "AAA",
+          "matrix": [
+            [
+              3,
+              2
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "trace": 4,
+          "labelings": 8
+        },
+        {
+          "word": "AAB",
+          "matrix": [
+            [
+              1,
+              -2
+            ],
+            [
+              0,
+              -1
+            ]
+          ],
+          "trace": 0,
+          "labelings": 4
+        },
+        {
+          "word": "ABA",
+          "matrix": [
+            [
+              -1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "trace": 0,
+          "labelings": 4
+        },
+        {
+          "word": "ABB",
+          "matrix": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              -1
+            ]
+          ],
+          "trace": 0,
+          "labelings": 4
+        },
+        {
+          "word": "BAA",
+          "matrix": [
+            [
+              1,
+              0
+            ],
+            [
+              -2,
+              -1
+            ]
+          ],
+          "trace": 0,
+          "labelings": 4
+        },
+        {
+          "word": "BAB",
+          "matrix": [
+            [
+              -1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "trace": 0,
+          "labelings": 4
+        },
+        {
+          "word": "BBA",
+          "matrix": [
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              -1
+            ]
+          ],
+          "trace": 0,
+          "labelings": 4
+        },
+        {
+          "word": "BBB",
+          "matrix": [
+            [
+              3,
+              -2
+            ],
+            [
+              -2,
+              1
+            ]
+          ],
+          "trace": 4,
+          "labelings": 8
+        }
+      ],
+      "minimum_trace": 0,
+      "maximum_trace": 4,
+      "minimum_labelings": 4,
+      "maximum_labelings": 8
+    },
+    {
+      "q": 4,
+      "all_words": [
+        {
+          "word": "AAAA",
+          "matrix": [
+            [
+              5,
+              3
+            ],
+            [
+              3,
+              2
+            ]
+          ],
+          "trace": 7,
+          "labelings": 14
+        },
+        {
+          "word": "AAAB",
+          "matrix": [
+            [
+              1,
+              -3
+            ],
+            [
+              1,
+              -2
+            ]
+          ],
+          "trace": -1,
+          "labelings": 6
+        },
+        {
+          "word": "AABA",
+          "matrix": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              0
+            ]
+          ],
+          "trace": -1,
+          "labelings": 6
+        },
+        {
+          "word": "AABB",
+          "matrix": [
+            [
+              3,
+              -1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "trace": 3,
+          "labelings": 10
+        },
+        {
+          "word": "ABAA",
+          "matrix": [
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "trace": -1,
+          "labelings": 6
+        },
+        {
+          "word": "ABAB",
+          "matrix": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              0
+            ]
+          ],
+          "trace": -1,
+          "labelings": 6
+        },
+        {
+          "word": "ABBA",
+          "matrix": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "trace": 3,
+          "labelings": 10
+        },
+        {
+          "word": "ABBB",
+          "matrix": [
+            [
+              1,
+              -1
+            ],
+            [
+              3,
+              -2
+            ]
+          ],
+          "trace": -1,
+          "labelings": 6
+        },
+        {
+          "word": "BAAA",
+          "matrix": [
+            [
+              1,
+              1
+            ],
+            [
+              -3,
+              -2
+            ]
+          ],
+          "trace": -1,
+          "labelings": 6
+        },
+        {
+          "word": "BAAB",
+          "matrix": [
+            [
+              1,
+              -1
+            ],
+            [
+              -1,
+              2
+            ]
+          ],
+          "trace": 3,
+          "labelings": 10
+        },
+        {
+          "word": "BABA",
+          "matrix": [
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "trace": -1,
+          "labelings": 6
+        },
+        {
+          "word": "BABB",
+          "matrix": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              0
+            ]
+          ],
+          "trace": -1,
+          "labelings": 6
+        },
+        {
+          "word": "BBAA",
+          "matrix": [
+            [
+              3,
+              1
+            ],
+            [
+              -1,
+              0
+            ]
+          ],
+          "trace": 3,
+          "labelings": 10
+        },
+        {
+          "word": "BBAB",
+          "matrix": [
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "trace": -1,
+          "labelings": 6
+        },
+        {
+          "word": "BBBA",
+          "matrix": [
+            [
+              1,
+              3
+            ],
+            [
+              -1,
+              -2
+            ]
+          ],
+          "trace": -1,
+          "labelings": 6
+        },
+        {
+          "word": "BBBB",
+          "matrix": [
+            [
+              5,
+              -3
+            ],
+            [
+              -3,
+              2
+            ]
+          ],
+          "trace": 7,
+          "labelings": 14
+        }
+      ],
+      "minimum_trace": -1,
+      "maximum_trace": 7,
+      "minimum_labelings": 6,
+      "maximum_labelings": 14
+    },
+    {
+      "q": 5,
+      "all_words": [
+        {
+          "word": "AAAAA",
+          "matrix": [
+            [
+              8,
+              5
+            ],
+            [
+              5,
+              3
+            ]
+          ],
+          "trace": 11,
+          "labelings": 22
+        },
+        {
+          "word": "AAAAB",
+          "matrix": [
+            [
+              2,
+              -5
+            ],
+            [
+              1,
+              -3
+            ]
+          ],
+          "trace": -1,
+          "labelings": 10
+        },
+        {
+          "word": "AAABA",
+          "matrix": [
+            [
+              -2,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "trace": -1,
+          "labelings": 10
+        },
+        {
+          "word": "AAABB",
+          "matrix": [
+            [
+              4,
+              -1
+            ],
+            [
+              3,
+              -1
+            ]
+          ],
+          "trace": 3,
+          "labelings": 14
+        },
+        {
+          "word": "AABAA",
+          "matrix": [
+            [
+              0,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "trace": -1,
+          "labelings": 10
+        },
+        {
+          "word": "AABAB",
+          "matrix": [
+            [
+              -2,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "trace": -1,
+          "labelings": 10
+        },
+        {
+          "word": "AABBA",
+          "matrix": [
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "trace": 3,
+          "labelings": 14
+        },
+        {
+          "word": "AABBB",
+          "matrix": [
+            [
+              4,
+              -3
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "trace": 3,
+          "labelings": 14
+        },
+        {
+          "word": "ABAAA",
+          "matrix": [
+            [
+              -2,
+              -1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "trace": -1,
+          "labelings": 10
+        },
+        {
+          "word": "ABAAB",
+          "matrix": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "trace": -1,
+          "labelings": 10
+        },
+        {
+          "word": "ABABA",
+          "matrix": [
+            [
+              0,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "trace": -1,
+          "labelings": 10
+        },
+        {
+          "word": "ABABB",
+          "matrix": [
+            [
+              -2,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "trace": -1,
+          "labelings": 10
+        },
+        {
+          "word": "ABBAA",
+          "matrix": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "trace": 3,
+          "labelings": 14
+        },
+        {
+          "word": "ABBAB",
+          "matrix": [
+            [
+              0,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "trace": -1,
+          "labelings": 10
+        },
+        {
+          "word": "ABBBA",
+          "matrix": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "trace": 3,
+          "labelings": 14
+        },
+        {
+          "word": "ABBBB",
+          "matrix": [
+            [
+              2,
+              -1
+            ],
+            [
+              5,
+              -3
+            ]
+          ],
+          "trace": -1,
+          "labelings": 10
+        },
+        {
+          "word": "BAAAA",
+          "matrix": [
+            [
+              2,
+              1
+            ],
+            [
+              -5,
+              -3
+            ]
+          ],
+          "trace": -1,
+          "labelings": 10
+        },
+        {
+          "word": "BAAAB",
+          "matrix": [
+            [
+              0,
+              -1
+            ],
+            [
+              -1,
+              3
+            ]
+          ],
+          "trace": 3,
+          "labelings": 14
+        },
+        {
+          "word": "BAABA",
+          "matrix": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "trace": -1,
+          "labelings": 10
+        },
+        {
+          "word": "BAABB",
+          "matrix": [
+            [
+              2,
+              -1
+            ],
+            [
+              -3,
+              1
+            ]
+          ],
+          "trace": 3,
+          "labelings": 14
+        },
+        {
+          "word": "BABAA",
+          "matrix": [
+            [
+              -2,
+              -1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "trace": -1,
+          "labelings": 10
+        },
+        {
+          "word": "BABAB",
+          "matrix": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "trace": -1,
+          "labelings": 10
+        },
+        {
+          "word": "BABBA",
+          "matrix": [
+            [
+              0,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "trace": -1,
+          "labelings": 10
+        },
+        {
+          "word": "BABBB",
+          "matrix": [
+            [
+              -2,
+              1
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "trace": -1,
+          "labelings": 10
+        },
+        {
+          "word": "BBAAA",
+          "matrix": [
+            [
+              4,
+              3
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "trace": 3,
+          "labelings": 14
+        },
+        {
+          "word": "BBAAB",
+          "matrix": [
+            [
+              2,
+              -3
+            ],
+            [
+              -1,
+              1
+            ]
+          ],
+          "trace": 3,
+          "labelings": 14
+        },
+        {
+          "word": "BBABA",
+          "matrix": [
+            [
+              -2,
+              -1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "trace": -1,
+          "labelings": 10
+        },
+        {
+          "word": "BBABB",
+          "matrix": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "trace": -1,
+          "labelings": 10
+        },
+        {
+          "word": "BBBAA",
+          "matrix": [
+            [
+              4,
+              1
+            ],
+            [
+              -3,
+              -1
+            ]
+          ],
+          "trace": 3,
+          "labelings": 14
+        },
+        {
+          "word": "BBBAB",
+          "matrix": [
+            [
+              -2,
+              -1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "trace": -1,
+          "labelings": 10
+        },
+        {
+          "word": "BBBBA",
+          "matrix": [
+            [
+              2,
+              5
+            ],
+            [
+              -1,
+              -3
+            ]
+          ],
+          "trace": -1,
+          "labelings": 10
+        },
+        {
+          "word": "BBBBB",
+          "matrix": [
+            [
+              8,
+              -5
+            ],
+            [
+              -5,
+              3
+            ]
+          ],
+          "trace": 11,
+          "labelings": 22
+        }
+      ],
+      "minimum_trace": -1,
+      "maximum_trace": 11,
+      "minimum_labelings": 10,
+      "maximum_labelings": 22
+    },
+    {
+      "q": 6,
+      "all_words": [
+        {
+          "word": "AAAAAA",
+          "matrix": [
+            [
+              13,
+              8
+            ],
+            [
+              8,
+              5
+            ]
+          ],
+          "trace": 18,
+          "labelings": 36
+        },
+        {
+          "word": "AAAAAB",
+          "matrix": [
+            [
+              3,
+              -8
+            ],
+            [
+              2,
+              -5
+            ]
+          ],
+          "trace": -2,
+          "labelings": 16
+        },
+        {
+          "word": "AAAABA",
+          "matrix": [
+            [
+              -3,
+              2
+            ],
+            [
+              -2,
+              1
+            ]
+          ],
+          "trace": -2,
+          "labelings": 16
+        },
+        {
+          "word": "AAAABB",
+          "matrix": [
+            [
+              7,
+              -2
+            ],
+            [
+              4,
+              -1
+            ]
+          ],
+          "trace": 6,
+          "labelings": 24
+        },
+        {
+          "word": "AAABAA",
+          "matrix": [
+            [
+              -1,
+              -2
+            ],
+            [
+              0,
+              -1
+            ]
+          ],
+          "trace": -2,
+          "labelings": 16
+        },
+        {
+          "word": "AAABAB",
+          "matrix": [
+            [
+              -3,
+              2
+            ],
+            [
+              -2,
+              1
+            ]
+          ],
+          "trace": -2,
+          "labelings": 16
+        },
+        {
+          "word": "AAABBA",
+          "matrix": [
+            [
+              3,
+              4
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "trace": 6,
+          "labelings": 24
+        },
+        {
+          "word": "AAABBB",
+          "matrix": [
+            [
+              5,
+              -4
+            ],
+            [
+              4,
+              -3
+            ]
+          ],
+          "trace": 2,
+          "labelings": 20
+        },
+        {
+          "word": "AABAAA",
+          "matrix": [
+            [
+              -1,
+              0
+            ],
+            [
+              -2,
+              -1
+            ]
+          ],
+          "trace": -2,
+          "labelings": 16
+        },
+        {
+          "word": "AABAAB",
+          "matrix": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "trace": 2,
+          "labelings": 20
+        },
+        {
+          "word": "AABABA",
+          "matrix": [
+            [
+              -1,
+              -2
+            ],
+            [
+              0,
+              -1
+            ]
+          ],
+          "trace": -2,
+          "labelings": 16
+        },
+        {
+          "word": "AABABB",
+          "matrix": [
+            [
+              -3,
+              2
+            ],
+            [
+              -2,
+              1
+            ]
+          ],
+          "trace": -2,
+          "labelings": 16
+        },
+        {
+          "word": "AABBAA",
+          "matrix": [
+            [
+              5,
+              2
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "trace": 6,
+          "labelings": 24
+        },
+        {
+          "word": "AABBAB",
+          "matrix": [
+            [
+              -1,
+              -2
+            ],
+            [
+              0,
+              -1
+            ]
+          ],
+          "trace": -2,
+          "labelings": 16
+        },
+        {
+          "word": "AABBBA",
+          "matrix": [
+            [
+              1,
+              4
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "trace": 2,
+          "labelings": 20
+        },
+        {
+          "word": "AABBBB",
+          "matrix": [
+            [
+              7,
+              -4
+            ],
+            [
+              2,
+              -1
+            ]
+          ],
+          "trace": 6,
+          "labelings": 24
+        },
+        {
+          "word": "ABAAAA",
+          "matrix": [
+            [
+              -3,
+              -2
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "trace": -2,
+          "labelings": 16
+        },
+        {
+          "word": "ABAAAB",
+          "matrix": [
+            [
+              -1,
+              2
+            ],
+            [
+              0,
+              -1
+            ]
+          ],
+          "trace": -2,
+          "labelings": 16
+        },
+        {
+          "word": "ABAABA",
+          "matrix": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "trace": 2,
+          "labelings": 20
+        },
+        {
+          "word": "ABAABB",
+          "matrix": [
+            [
+              -1,
+              0
+            ],
+            [
+              2,
+              -1
+            ]
+          ],
+          "trace": -2,
+          "labelings": 16
+        },
+        {
+          "word": "ABABAA",
+          "matrix": [
+            [
+              -1,
+              0
+            ],
+            [
+              -2,
+              -1
+            ]
+          ],
+          "trace": -2,
+          "labelings": 16
+        },
+        {
+          "word": "ABABAB",
+          "matrix": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "trace": 2,
+          "labelings": 20
+        },
+        {
+          "word": "ABABBA",
+          "matrix": [
+            [
+              -1,
+              -2
+            ],
+            [
+              0,
+              -1
+            ]
+          ],
+          "trace": -2,
+          "labelings": 16
+        },
+        {
+          "word": "ABABBB",
+          "matrix": [
+            [
+              -3,
+              2
+            ],
+            [
+              -2,
+              1
+            ]
+          ],
+          "trace": -2,
+          "labelings": 16
+        },
+        {
+          "word": "ABBAAA",
+          "matrix": [
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              3
+            ]
+          ],
+          "trace": 6,
+          "labelings": 24
+        },
+        {
+          "word": "ABBAAB",
+          "matrix": [
+            [
+              1,
+              -2
+            ],
+            [
+              2,
+              -3
+            ]
+          ],
+          "trace": -2,
+          "labelings": 16
+        },
+        {
+          "word": "ABBABA",
+          "matrix": [
+            [
+              -1,
+              0
+            ],
+            [
+              -2,
+              -1
+            ]
+          ],
+          "trace": -2,
+          "labelings": 16
+        },
+        {
+          "word": "ABBABB",
+          "matrix": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "trace": 2,
+          "labelings": 20
+        },
+        {
+          "word": "ABBBAA",
+          "matrix": [
+            [
+              1,
+              0
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "trace": 2,
+          "labelings": 20
+        },
+        {
+          "word": "ABBBAB",
+          "matrix": [
+            [
+              -1,
+              0
+            ],
+            [
+              -2,
+              -1
+            ]
+          ],
+          "trace": -2,
+          "labelings": 16
+        },
+        {
+          "word": "ABBBBA",
+          "matrix": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              5
+            ]
+          ],
+          "trace": 6,
+          "labelings": 24
+        },
+        {
+          "word": "ABBBBB",
+          "matrix": [
+            [
+              3,
+              -2
+            ],
+            [
+              8,
+              -5
+            ]
+          ],
+          "trace": -2,
+          "labelings": 16
+        },
+        {
+          "word": "BAAAAA",
+          "matrix": [
+            [
+              3,
+              2
+            ],
+            [
+              -8,
+              -5
+            ]
+          ],
+          "trace": -2,
+          "labelings": 16
+        },
+        {
+          "word": "BAAAAB",
+          "matrix": [
+            [
+              1,
+              -2
+            ],
+            [
+              -2,
+              5
+            ]
+          ],
+          "trace": 6,
+          "labelings": 24
+        },
+        {
+          "word": "BAAABA",
+          "matrix": [
+            [
+              -1,
+              0
+            ],
+            [
+              2,
+              -1
+            ]
+          ],
+          "trace": -2,
+          "labelings": 16
+        },
+        {
+          "word": "BAAABB",
+          "matrix": [
+            [
+              1,
+              0
+            ],
+            [
+              -4,
+              1
+            ]
+          ],
+          "trace": 2,
+          "labelings": 20
+        },
+        {
+          "word": "BAABAA",
+          "matrix": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "trace": 2,
+          "labelings": 20
+        },
+        {
+          "word": "BAABAB",
+          "matrix": [
+            [
+              -1,
+              0
+            ],
+            [
+              2,
+              -1
+            ]
+          ],
+          "trace": -2,
+          "labelings": 16
+        },
+        {
+          "word": "BAABBA",
+          "matrix": [
+            [
+              1,
+              2
+            ],
+            [
+              -2,
+              -3
+            ]
+          ],
+          "trace": -2,
+          "labelings": 16
+        },
+        {
+          "word": "BAABBB",
+          "matrix": [
+            [
+              3,
+              -2
+            ],
+            [
+              -4,
+              3
+            ]
+          ],
+          "trace": 6,
+          "labelings": 24
+        },
+        {
+          "word": "BABAAA",
+          "matrix": [
+            [
+              -3,
+              -2
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "trace": -2,
+          "labelings": 16
+        },
+        {
+          "word": "BABAAB",
+          "matrix": [
+            [
+              -1,
+              2
+            ],
+            [
+              0,
+              -1
+            ]
+          ],
+          "trace": -2,
+          "labelings": 16
+        },
+        {
+          "word": "BABABA",
+          "matrix": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "trace": 2,
+          "labelings": 20
+        },
+        {
+          "word": "BABABB",
+          "matrix": [
+            [
+              -1,
+              0
+            ],
+            [
+              2,
+              -1
+            ]
+          ],
+          "trace": -2,
+          "labelings": 16
+        },
+        {
+          "word": "BABBAA",
+          "matrix": [
+            [
+              -1,
+              0
+            ],
+            [
+              -2,
+              -1
+            ]
+          ],
+          "trace": -2,
+          "labelings": 16
+        },
+        {
+          "word": "BABBAB",
+          "matrix": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "trace": 2,
+          "labelings": 20
+        },
+        {
+          "word": "BABBBA",
+          "matrix": [
+            [
+              -1,
+              -2
+            ],
+            [
+              0,
+              -1
+            ]
+          ],
+          "trace": -2,
+          "labelings": 16
+        },
+        {
+          "word": "BABBBB",
+          "matrix": [
+            [
+              -3,
+              2
+            ],
+            [
+              -2,
+              1
+            ]
+          ],
+          "trace": -2,
+          "labelings": 16
+        },
+        {
+          "word": "BBAAAA",
+          "matrix": [
+            [
+              7,
+              4
+            ],
+            [
+              -2,
+              -1
+            ]
+          ],
+          "trace": 6,
+          "labelings": 24
+        },
+        {
+          "word": "BBAAAB",
+          "matrix": [
+            [
+              1,
+              -4
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "trace": 2,
+          "labelings": 20
+        },
+        {
+          "word": "BBAABA",
+          "matrix": [
+            [
+              -1,
+              2
+            ],
+            [
+              0,
+              -1
+            ]
+          ],
+          "trace": -2,
+          "labelings": 16
+        },
+        {
+          "word": "BBAABB",
+          "matrix": [
+            [
+              5,
+              -2
+            ],
+            [
+              -2,
+              1
+            ]
+          ],
+          "trace": 6,
+          "labelings": 24
+        },
+        {
+          "word": "BBABAA",
+          "matrix": [
+            [
+              -3,
+              -2
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "trace": -2,
+          "labelings": 16
+        },
+        {
+          "word": "BBABAB",
+          "matrix": [
+            [
+              -1,
+              2
+            ],
+            [
+              0,
+              -1
+            ]
+          ],
+          "trace": -2,
+          "labelings": 16
+        },
+        {
+          "word": "BBABBA",
+          "matrix": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "trace": 2,
+          "labelings": 20
+        },
+        {
+          "word": "BBABBB",
+          "matrix": [
+            [
+              -1,
+              0
+            ],
+            [
+              2,
+              -1
+            ]
+          ],
+          "trace": -2,
+          "labelings": 16
+        },
+        {
+          "word": "BBBAAA",
+          "matrix": [
+            [
+              5,
+              4
+            ],
+            [
+              -4,
+              -3
+            ]
+          ],
+          "trace": 2,
+          "labelings": 20
+        },
+        {
+          "word": "BBBAAB",
+          "matrix": [
+            [
+              3,
+              -4
+            ],
+            [
+              -2,
+              3
+            ]
+          ],
+          "trace": 6,
+          "labelings": 24
+        },
+        {
+          "word": "BBBABA",
+          "matrix": [
+            [
+              -3,
+              -2
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "trace": -2,
+          "labelings": 16
+        },
+        {
+          "word": "BBBABB",
+          "matrix": [
+            [
+              -1,
+              2
+            ],
+            [
+              0,
+              -1
+            ]
+          ],
+          "trace": -2,
+          "labelings": 16
+        },
+        {
+          "word": "BBBBAA",
+          "matrix": [
+            [
+              7,
+              2
+            ],
+            [
+              -4,
+              -1
+            ]
+          ],
+          "trace": 6,
+          "labelings": 24
+        },
+        {
+          "word": "BBBBAB",
+          "matrix": [
+            [
+              -3,
+              -2
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "trace": -2,
+          "labelings": 16
+        },
+        {
+          "word": "BBBBBA",
+          "matrix": [
+            [
+              3,
+              8
+            ],
+            [
+              -2,
+              -5
+            ]
+          ],
+          "trace": -2,
+          "labelings": 16
+        },
+        {
+          "word": "BBBBBB",
+          "matrix": [
+            [
+              13,
+              -8
+            ],
+            [
+              -8,
+              5
+            ]
+          ],
+          "trace": 18,
+          "labelings": 36
+        }
+      ],
+      "minimum_trace": -2,
+      "maximum_trace": 18,
+      "minimum_labelings": 16,
+      "maximum_labelings": 36
+    }
+  ]
+}

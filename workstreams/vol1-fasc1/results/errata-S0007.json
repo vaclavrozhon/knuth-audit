@@ -1,0 +1,161 @@
+{
+  "checked_at_utc": "2026-11-06T21:58:37.319332+00:00",
+  "target": "MMIXAL known relative operands reject valid offsets crossing bit63; future operands accept the same offsets.",
+  "sources": [
+    {
+      "path": "errata/originals/err1f1.textxt",
+      "sha256": "07db671be6fcbc6c473ddc6593f6a16cce5833fb5f8a499ab7e2e3eee163dae3",
+      "matches": [
+        {
+          "line": 423,
+          "context": "\\endchange\n\n\\bugonpage 1f1.39 lines 12--15 from the bottom (06.09.21)\nequivalent to the largest \\dots~not change that global register. \\becomes\nequivalent to the number of a global register that\nwill contain~$x$ when the program begins. If $x\\ne0$,\nthe value of~$x$ is considered to be a {\\it base address}, and the program\nshould not change that global register. If $x=0$, or if $x$ is a base address"
+        },
+        {
+          "line": 940,
+          "context": "Jump table, 86--87, 107. % 3rd\nKnuth, Donald Ervin (\\GC75:75:-3:62% G2463\n<0000001f0000000000000000001ff8000000000000000007ff000000000000000003ff80%\n 00000000000000007f8000000000000000007f8000000000000000003f8000003c000000%\n 00003f8000007e00000000001f800000ff00000000000f800001ff00ffffffffffffffff%\n ff80ffffffffffffffffffc07fffffffffffffffffe03800000000000000000000000000%\n 00000000000000000000000070000000000078000000f800000000007f000001fc000000%\n 00007ffffffffe00000000007fffffffff00000000003ffffffffe00000000003f000000%"
+        },
+        {
+          "line": 941,
+          "context": "Knuth, Donald Ervin (\\GC75:75:-3:62% G2463\n<0000001f0000000000000000001ff8000000000000000007ff000000000000000003ff80%\n 00000000000000007f8000000000000000007f8000000000000000003f8000003c000000%\n 00003f8000007e00000000001f800000ff00000000000f800001ff00ffffffffffffffff%\n ff80ffffffffffffffffffc07fffffffffffffffffe03800000000000000000000000000%\n 00000000000000000000000070000000000078000000f800000000007f000001fc000000%\n 00007ffffffffe00000000007fffffffff00000000003ffffffffe00000000003f000000%\n fc00000000003f000000fc00000000003f000000fc00000000003f000000fc0000000000%"
+        },
+        {
+          "line": 943,
+          "context": " 00000000000000007f8000000000000000007f8000000000000000003f8000003c000000%\n 00003f8000007e00000000001f800000ff00000000000f800001ff00ffffffffffffffff%\n ff80ffffffffffffffffffc07fffffffffffffffffe03800000000000000000000000000%\n 00000000000000000000000070000000000078000000f800000000007f000001fc000000%\n 00007ffffffffe00000000007fffffffff00000000003ffffffffe00000000003f000000%\n fc00000000003f000000fc00000000003f000000fc00000000003f000000fc0000000000%\n 3f000000fc00000000003f000000fc00000000003f000000fc00000000003f000000fc00%\n 000000003ffffffffc00000000003ffffffffc00000000003ffffffffc00000000003f00%"
+        },
+        {
+          "line": 982,
+          "context": " 1f00001fbfe0fc0003f01f00001f9fe0fe0003f81800001f9fc0fffffff80000001f8380%\n fffffff80000001f80007ffffff80000001f80003ffffff00000001f80001ffffff00000%\n 001f8000000000000000001f0000000000000000>%% Unicode char \"5fb7\n\\GC71:74:-3:61% G3641\n<000000000003800000000000000003f00000000300000003fc00000003c0000003fc0000%\n 0003e0000003f800000007f0000003f800000007f0000003f000000007e0000003f00000%\n 0007e0000003f000000007c0000003f00000000fc0000003f00000000f80000003f00000%\n 001f00000003e00000001f00000003e000e0003e00038003e001f0003e00c3e003e001f8%"
+        },
+        {
+          "line": 984,
+          "context": " 001f8000000000000000001f0000000000000000>%% Unicode char \"5fb7\n\\GC71:74:-3:61% G3641\n<000000000003800000000000000003f00000000300000003fc00000003c0000003fc0000%\n 0003e0000003f800000007f0000003f800000007f0000003f000000007e0000003f00000%\n 0007e0000003f000000007c0000003f00000000fc0000003f00000000f80000003f00000%\n 001f00000003e00000001f00000003e000e0003e00038003e001f0003e00c3e003e001f8%\n 007c00e1f803e003fc007800f1fffffffffe00f801f9fffffffffe00f001fdf003e003fc%\n 01e003fff003e003f801e007fff003e003f001c007fdf003e003f003800ff9f003e003f0%"
+        },
+        {
+          "line": 1002,
+          "context": " 3f800001f0000007f01e000001f0003c07f010000001f0000ffff000000001f00003fff0%\n 00000001f000007ff000000001f000003ff000000001f000001ff000000001f000001fc0%\n 00000003f000000f80000000000000000e00>%% Unicode char \"7eb3\n), i, ii, v, 45, 65, 74. % 2nd\n\\.{LABEL} field of\\/ \\.{MMIXAL} line, 28--29, 38, 40, 89. % 3rd\nLeaf subroutines, 57, 65, 80. % 3rd\nLilius, Aloysius (= Aloigi Giglio, Luigi Lilio), 49. % 2nd\n\\.{LOC} (change location), 29--30, 39. % 2nd"
+        },
+        {
+          "line": 1031,
+          "context": "Quettabyte, 94. % 8th\nrC (continuation register), 19. % 2nd\nRelative addresses, 15--16, 20, 30, 44, 83, 87, 99. % 3rd\nrF (failure register), 19. % 2nd\nrI (interval counter), 19, 50. % 3rd\nrJ (return-jump register), 16, 60, 80, 81, 114. % 2nd\nRonnabyte, 94. % 8th\nrU (usage counter), 20. % 3rd"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/err1f1.txt",
+      "sha256": "7d6366838076d106c09e85a4f93f1b151e94c9af9f6874ea27aa6f106cdf84b6",
+      "matches": [
+        {
+          "line": 203,
+          "context": "xPage 32 lines 10{14                                                        29 Mar 2023\n  [these lines should all be indented so that `0002' lies under `t Fi'℄\nxPage 39 lines 12{15 from the bottom                                        21 Sep 2006\n  equivalent to the largest : : : not hange that global register.       y\n                                                                      equivalent to\n  the number of a global register that will ontain x when the program begins. If\n  x 6= 0, the value of x is onsidered to be a base address, and the program should\n  not hange that global register. If x = 0, or if x is a base address that hasn't"
+        },
+        {
+          "line": 511,
+          "context": "Coxeter, Harold S ott Ma Donald, 48.           Quettabyte, 94.\nCy le ounter, see rI.                          rC ( ontinuation register), 19.\nData_Segment , 33, 36.                         Relative addresses, 15{16, 20, 30, 44,\nDebugging, 52, 64{65, 73, 91.                        83, 87, 99.\nDijkstra, Edsger Wybe, 63.                     rF (failure register), 19.\nDivision, 8{9, 13, 24{25, 49, 91.              rI (interval ounter), 19, 50.\nDot minus, 11.                                 rJ (return-jump register), 16, 60, 80, 81, 114.\nEXPR eld of MMIXAL line, 28{29, 38.            Ronnabyte, 94."
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all1f1.txt",
+      "sha256": "c0b1a7c575ffcbced2bc6a7048143a16286a081908850ad0956258dd2f84b18e",
+      "matches": [
+        {
+          "line": 236,
+          "context": " hash mark #     y\n                number sign or hash mark #\nxPage 39 lines 12{15 from the bottom                                         21 Sep 2006\n  equivalent to the largest : : : not hange that global register.       y\n                                                                      equivalent to\n  the number of a global register that will ontain x when the program begins. If\n  x 6= 0, the value of x is onsidered to be a base address, and the program should\n  not hange that global register. If x = 0, or if x is a base address that hasn't"
+        },
+        {
+          "line": 572,
+          "context": "Ingalls, Daniel Henry Holmes, Jr., 109.        Quettabyte, 94.\nInput-output operations, 18, 31, 40{43, 92.    rC ( ontinuation register), 19.\nIS (de ne a symbol), 29{30, 34, 39.            Relative addresses, 15{16, 20, 30, 44,\nJump table, 86{87, 107.                             83, 87, 99.\nKnuth, Donald Ervin (         ), i, ii,        rF (failure register), 19.\n     v, 45, 65, 74.                            rI (interval ounter), 19, 50.\nLABEL eld of MMIXAL line, 28{29, 38, 40, 89.   rJ (return-jump register), 16, 60, 80, 81, 114.\nLeaf subroutines, 57, 65, 80.                  Ronnabyte, 94."
+        }
+      ]
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmixware-errata.html",
+      "sha256": "740b68475c94774ee2d143b0baa2d98111664e2e2c69ce3a29117311f8c4957e",
+      "matches": [
+        {
+          "line": 214,
+          "context": "  return (xx+(xx>>16)) &amp; 0xff;</tt></dd>\n<dt>page 82, line 4 from the bottom (27 Aug 2000)***</dt>\n<dd>change \"xe++, xf=shift_right(xf,1,1)\" to \"xe++, d=xf.l&amp;1,\nxf=shift_right(xf,1,1), xf.l|=d\", thereby making this line the\nsame as the bottom line</dd>\n<dt>page 83, 4th-from-last line of section 49 (21 Aug 2000)***</dt>\n<dd>change \"oo.h \\lor o.h\" to \"oo.h \\ne o.h\" (in C this changes <tt>||</tt> to <tt>!=</tt>)</dd>\n<dt>page 84, line 1 (13 Feb 2000)</dt>"
+        },
+        {
+          "line": 215,
+          "context": "<dt>page 82, line 4 from the bottom (27 Aug 2000)***</dt>\n<dd>change \"xe++, xf=shift_right(xf,1,1)\" to \"xe++, d=xf.l&amp;1,\nxf=shift_right(xf,1,1), xf.l|=d\", thereby making this line the\nsame as the bottom line</dd>\n<dt>page 83, 4th-from-last line of section 49 (21 Aug 2000)***</dt>\n<dd>change \"oo.h \\lor o.h\" to \"oo.h \\ne o.h\" (in C this changes <tt>||</tt> to <tt>!=</tt>)</dd>\n<dt>page 84, line 1 (13 Feb 2000)</dt>\n<dd>change \"number\" to \"numbers\"</dd>"
+        }
+      ]
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmixware-current.html",
+      "sha256": "13614aa34f4ad039b12d331064d993292837bc12bf7fd2073ff34bfa41ae9834",
+      "matches": []
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmix-upstream-bugs.html",
+      "sha256": "a9b8c36c7fe466afd03a42ac900cd1e3c13250b7bd9ef575d0f331e31960a61a",
+      "matches": [
+        {
+          "line": 58,
+          "context": "\n.mmix-logo {\nposition: relative;\nheight: 0;\noverflow: hidden;\npadding-bottom:13.667%; \n}\n"
+        },
+        {
+          "line": 73,
+          "context": "\n.img-scale {\nposition: relative;\nheight: 0;\noverflow: hidden;\n}\n\n.img-scale img {"
+        }
+      ]
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmix-upstream-rounding.html",
+      "sha256": "f864c5fc573f7049aaf2d3682c72ee09f78dfb3d7445a19dc891282f99314c1b",
+      "matches": [
+        {
+          "line": 58,
+          "context": "\n.mmix-logo {\nposition: relative;\nheight: 0;\noverflow: hidden;\npadding-bottom:13.667%; \n}\n"
+        },
+        {
+          "line": 73,
+          "context": "\n.img-scale {\nposition: relative;\nheight: 0;\noverflow: hidden;\n}\n\n.img-scale img {"
+        },
+        {
+          "line": 274,
+          "context": "<pre>\n{\n  if (d <= 2) zf = shift_right (zf , d, 1); /* exact result */\n  else if (d > 53) zf.h = 0, zf.l = 1; /* tricky but OK */\n  else {\n    if (ys != zs) d−−, xe−−, yf = shift_left (yf, 1);\n    o = zf ;\n    zf = shift_right (o, d, 1);"
+        },
+        {
+          "line": 279,
+          "context": "    if (ys != zs) d−−, xe−−, yf = shift_left (yf, 1);\n    o = zf ;\n    zf = shift_right (o, d, 1);\n    oo = shift_left (zf, d);\n    if (oo.l != o.l || oo.h != o.h) zf.l |= 1;\n  }\n}\n</pre>"
+        }
+      ]
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmix-arith-upstream-warnings.ch",
+      "sha256": "b4a916e0962e2f79828d6afca1a5a40775e82b725f45ec28664a3e66f6b093b4",
+      "matches": []
+    },
+    {
+      "path": "errata/text/all1.txt",
+      "sha256": "b641d6e48aaf2d77fc98a3c4a8a798d8156516b97095ec345a976e65d9c79aef",
+      "matches": []
+    },
+    {
+      "path": "errata/originals/err1.textxt",
+      "sha256": "f752c0a5fcf49686906e39fa5a1dab28b53adc8226b0a7e1a1b6cf850592bc91",
+      "matches": []
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmix-upstream-bug-is.html",
+      "url": "https://mmix.cs.hm.edu/bugs/bug_is.html",
+      "sha256": "a22c583b2c207e3b99617a15d6133b6754a45fa0590c8045154bee9eaab0d453",
+      "semantic_review": "Known IS-undefined diagnostic bug, already fixed by checking status before redefining cur_loc. Our target literal is defined and pure, and this check passes; the signed-address arithmetic remains unchanged."
+    }
+  ],
+  "additional_contexts_read": [
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmixware-errata.html",
+      "lines": "785–890",
+      "meaning": "Entire assembler correction block read. Page428 (2001) corrects subtraction direction in the normative sentence and explicitly says subtract current location before dividing by four. No bit63 implementation correction appears. Page476 is the separate known IS-undefined diagnostic correction."
+    }
+  ],
+  "semantic_review": "All matched contexts and the complete assembler errata block read. Page39 GREG changes, relative-address index entries, Unicode glyph hex bytes, CSS relative positioning and floating-point shifts are unrelated. The separate upstream IS diagnostic report is known and already applied. The 2001 subtraction-order wording correction reinforces the current contract; it does not alter either known-address implementation branch. No matching signed-boundary correction in the inspected eleven layers.",
+  "additional_web_queries": [
+    "site:mmix.cs.hm.edu mmixal \"relative address\" bug",
+    "site:www-cs-faculty.stanford.edu/~knuth \"relative address\" \"shift\"",
+    "site:mmix.cs.hm.edu mmixal \"8000000000000000\""
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "scope": "One printed15-letter example; no enumeration",
+  "input": "dbcbcacdaddbbbd",
+  "factorizations": {
+    "canonical": [
+      "ddbcdbbca",
+      "ba",
+      "cdb",
+      "d"
+    ],
+    "reverse_priority": [
+      "d",
+      "bcd",
+      "bbcad",
+      "babcd",
+      "d"
+    ],
+    "primes": [
+      "d",
+      "bcd",
+      "b",
+      "adbc",
+      "ab",
+      "bcd",
+      "d"
+    ]
+  },
+  "reconstruction": "All three products equal the printed input",
+  "empty_input": "Both factorizations return the empty list",
+  "status": "passed"
+}

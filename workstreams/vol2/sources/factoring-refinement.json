@@ -1,0 +1,306 @@
+{
+  "accessed_at_utc": "2026-11-03T21:06:17.260521+00:00",
+  "scope": "4.5.4-36–38: corrected floor-sensitive asymptotic optimization, periodic palindrome, source distribution, million quotients, exact maximal prime digit counts.",
+  "book_visually_read": [
+    397,
+    398,
+    399,
+    400,
+    415,
+    665
+  ],
+  "primary_reading": [
+    {
+      "url": "https://www.math.ru.nl/~bosma/pubs/IndagMath1983.pdf",
+      "pages_visually_read": [
+        281,
+        282,
+        284,
+        285,
+        286,
+        287
+      ],
+      "scope": "Theorem1 and complete proof284–286, introduction/statement and beginning of next section; full19page article not audited. Natural extension ergodicity external."
+    }
+  ],
+  "errata_search": {
+    "date": "2026-11-03T21:06:17.260521+00:00",
+    "files": [
+      "../../errata/text/all2-prepre.txt",
+      "../../errata/text/all2-pre.txt",
+      "../../errata/text/all2.txt",
+      "../../errata/text/err2.txt",
+      "../../errata/originals/err2.textxt"
+    ],
+    "terms": [
+      "399",
+      "415",
+      "665",
+      "36",
+      "37",
+      "38",
+      "Schroeppel",
+      "Bosma",
+      "Jager",
+      "Wiedijk",
+      "palindrome",
+      "useless",
+      "termination",
+      "period"
+    ],
+    "known_corrections": "2July2001 E1 included;18February2004 p665 concerns35; no matching36–38 correction found."
+  },
+  "processes": [
+    {
+      "label": "prime-digits",
+      "pid": 1306657,
+      "child_pid": 1306658,
+      "command": "timeout 600 python3 -u workstreams/vol2/verify_prime_digits.py",
+      "time_limit_seconds": 600,
+      "started_at_utc": "2026-11-03T20:55:56.290514+00:00",
+      "log": "results/prime-digits.log",
+      "checkpoints": "results/prime-digits.json",
+      "status": "completed",
+      "scope": "All ten maximal decimal digit counts and largest primes; independent decimal enumeration, compositeness witnesses, ECPP validation.",
+      "exit_code": 0,
+      "finished_at_utc": "2026-11-03T20:56:04.033215+00:00",
+      "tool_session": 12123
+    },
+    {
+      "label": "factoring-refinement",
+      "pid": 1306846,
+      "child_pid": 1306847,
+      "command": "timeout 180 python3 -u workstreams/vol2/verify_factoring_refinement.py",
+      "time_limit_seconds": 180,
+      "started_at_utc": "2026-11-03T20:58:05.300303+00:00",
+      "log": "results/factoring-refinement.log",
+      "checkpoints": "results/factoring-refinement.json",
+      "status": "completed",
+      "scope": "Period symmetry versus matrix identity, early-stop counterexamples versus exact convergents, million partial quotients in two recurrences, integer floors and global finite optima.",
+      "exit_code": 0,
+      "finished_at_utc": "2026-11-03T20:58:14.354319+00:00",
+      "tool_session": 12356
+    }
+  ],
+  "checks": {
+    "refinement_seconds": [
+      0.96016848704312,
+      4.61764468299225,
+      1.3694643859635107
+    ],
+    "digit_seconds": 5.643227797059808
+  },
+  "limitations": [
+    "Asymptotic floor error proved by a family; finite examples are illustrations.",
+    "PNT asymptotic and natural-extension ergodicity explicitly external.",
+    "C0175 remains candidate because optional stopping has no explicit completeness guarantee.",
+    "Latest physical printing and priority unverified; report unsent."
+  ],
+  "artifacts": [
+    {
+      "file": "images/vol2-p397.png",
+      "bytes": 609186,
+      "sha256": "b3eca693f6a5ba6af2dcd41a89ddf8d2eb3b8cf3631c7c97dd42b1834caf9897"
+    },
+    {
+      "file": "images/vol2-p398.png",
+      "bytes": 538777,
+      "sha256": "b11b2676c3d226af495b37fdb2595b9febdd36bd9307f1aca44e80611b40ca90"
+    },
+    {
+      "file": "images/vol2-p399.png",
+      "bytes": 665660,
+      "sha256": "21ba40fcb336f7b0f8dab4f10994c974eb9379ea5cfa525449d2f379e1be9951"
+    },
+    {
+      "file": "images/vol2-p400.png",
+      "bytes": 750691,
+      "sha256": "8042c738e423623e040f89c6880b47e6564fb11c605f4666558b8a0eab205b8e"
+    },
+    {
+      "file": "images/vol2-p415.png",
+      "bytes": 446628,
+      "sha256": "a88682dd8c5d0a33a4cd716d3d3f91e89a0c99d7cca1e5bee96c1731bfaed482"
+    },
+    {
+      "file": "images/vol2-p665.png",
+      "bytes": 762100,
+      "sha256": "f14a0f846889b43c7d00ca50055929002e10bbf7db1ac2e0fae373118558bedb"
+    },
+    {
+      "file": "images/bosma-jager-wiedijk-1983-p281.png",
+      "bytes": 71852,
+      "sha256": "08449ea7d255736f7e859810349dd2490cba21c1a9187480c40703bc94dc1dd5"
+    },
+    {
+      "file": "images/bosma-jager-wiedijk-1983-p282.png",
+      "bytes": 75074,
+      "sha256": "865d5e2e837e6943e3780f9b84f12982575860ef847a6b6fcd9c0fb3a108cc71"
+    },
+    {
+      "file": "images/bosma-jager-wiedijk-1983-p284.png",
+      "bytes": 98282,
+      "sha256": "1563ed491fe255a8fbc0b944e177f10d24d7bdae9a8398e792d5b13c256d7af7"
+    },
+    {
+      "file": "images/bosma-jager-wiedijk-1983-p285.png",
+      "bytes": 92494,
+      "sha256": "899ca7f2f186ee497c1c9d5c2a85e3db6cdf5ed1f36ed8600857bdb93b3e6da4"
+    },
+    {
+      "file": "images/bosma-jager-wiedijk-1983-p286.png",
+      "bytes": 120458,
+      "sha256": "4925b04fb653759c905d4cad3d6b0bdd07b7f4a5480ebcb552e19c9b59da7576"
+    },
+    {
+      "file": "images/bosma-jager-wiedijk-1983-p287.png",
+      "bytes": 88716,
+      "sha256": "0a41b8893a3ccf26022db6e0e2b12472ed4d5dd04e5bd6f713f8b33d2cc02e17"
+    },
+    {
+      "file": "images/factoring-all2-prepre-p22.png",
+      "bytes": 142741,
+      "sha256": "9a77c406c74bb305b11acceeb77735e6448eabcd2c286e2e14dfdeadceabd615"
+    },
+    {
+      "file": "images/factoring-all2-prepre-p23.png",
+      "bytes": 142473,
+      "sha256": "d229c80cee7ba279cc0226d0836aa8ff1a7fd2063d099604fcdea06940bb2fc2"
+    },
+    {
+      "file": "images/all2-prepre-rsa-p42.png",
+      "bytes": 134420,
+      "sha256": "b83cf51ad8fdb07ce0e5ed80153d46de55c6994f7ea61bcb37a389e08578612f"
+    },
+    {
+      "file": "notes/factoring-refinement.md",
+      "bytes": 10146,
+      "sha256": "fcda03a69b8ebab1904f41cb85578596f463aa511e2db93f60f800afb75c59f6"
+    },
+    {
+      "file": "notes/prime-digits.md",
+      "bytes": 3267,
+      "sha256": "cbb0ba76d1543a2dd02cc62e16411b7de85d12a6f4df17422139155cefda31e1"
+    },
+    {
+      "file": "notes/C0174-factorization-rounded-parameter.md",
+      "bytes": 1584,
+      "sha256": "7e4d92ce552e299f35567833a352fa0c5ef7578f14bdfad742251a0429053b88"
+    },
+    {
+      "file": "notes/C0175-contfrac-early-stop.md",
+      "bytes": 2101,
+      "sha256": "40d9a30bade23e47fb5878f4756eff80b30410fed27f04fa09f86b1e67a6e0c2"
+    },
+    {
+      "file": "reports/C0174-factorization-rounded-parameter-draft.txt",
+      "bytes": 1532,
+      "sha256": "d70ee4c5f9316372c3370c728135279688b875ff4d030e917e33897bb458514c"
+    },
+    {
+      "file": "verify_factoring_refinement.py",
+      "bytes": 6819,
+      "sha256": "528da6d0d402f6864344310c37719a74e9649202f5fb537fd652036034473540"
+    },
+    {
+      "file": "verify_prime_digits.py",
+      "bytes": 5767,
+      "sha256": "0361d08376cad564a694dc0ca810876514cc25ae56ff97b47f3de510418a7373"
+    },
+    {
+      "file": "verify_ecpp.py",
+      "bytes": 4256,
+      "sha256": "e45eee8b5e01c695a305704d00d1657340316f38820df43f4255a4e3554540c0"
+    },
+    {
+      "file": "verify_factoring_contfrac.py",
+      "bytes": 15783,
+      "sha256": "a002432d15845e643c60bf36e581c178b6e56b6c7535936b51c2885fa9683f1f"
+    },
+    {
+      "file": "results/factoring-refinement.json",
+      "bytes": 5248649,
+      "sha256": "5cd2e762ae7a38d97e10556c9f703aeeff6a98753c24ce1bc5d811c3043651e9"
+    },
+    {
+      "file": "results/factoring-refinement.log",
+      "bytes": 118,
+      "sha256": "54f35f9f6a05e356eab36062c01a5a298f4b6c5e68c81646e685cf3116ca6870"
+    },
+    {
+      "file": "results/prime-digits.json",
+      "bytes": 2705368,
+      "sha256": "4144d2c12e1bd372cb1eae05f72a77ad910fe0cef937d82f71ff06f7b745fe39"
+    },
+    {
+      "file": "results/prime-digits.log",
+      "bytes": 1175,
+      "sha256": "db7aa19a091bc824ea7023422d14f9f01ff99c7bb80cb3fbb8a472e1389b4115"
+    },
+    {
+      "file": "sources/bosma-jager-wiedijk-1983.pdf",
+      "bytes": 885285,
+      "sha256": "9a2e017380d9968a6b03120ab2a6c4711acc84f2eb3df93170a21eadbeb8e658"
+    },
+    {
+      "file": "sources/bosma-jager-wiedijk-1983.txt",
+      "bytes": 31115,
+      "sha256": "97b44bc8cc3e5f7f7d8fe0a102e7558de3c8e518684e42a7b0d172c6e1caa7ee"
+    },
+    {
+      "file": "sources/factoring-refinement-downloads.json",
+      "bytes": 292,
+      "sha256": "1ec5f64e69e72db6bfcbde94b752f5f4fda3c84c028e322d31f4380de7b30faa"
+    },
+    {
+      "file": "results/prime-digits-certificate-0.json",
+      "bytes": 633,
+      "sha256": "b87b37a43081675de58141f686af0a3444ff8440aecbaff0f550a4d472f6860d"
+    },
+    {
+      "file": "results/prime-digits-certificate-1.json",
+      "bytes": 956,
+      "sha256": "a37643206c334b5e699b5487f7a5b77fe1c9337e52f1e1fd88777e57dfc9354a"
+    },
+    {
+      "file": "results/prime-digits-certificate-2.json",
+      "bytes": 863,
+      "sha256": "5004ce7a40ee7dd3bac55c038d924486252b58f3c3dce9ab9c8fccf313adaff0"
+    },
+    {
+      "file": "results/prime-digits-certificate-3.json",
+      "bytes": 723,
+      "sha256": "a5cd3d91e1e53b902e964299f0104962b92dbe43041599401256cda1100bc2ea"
+    },
+    {
+      "file": "results/prime-digits-certificate-4.json",
+      "bytes": 858,
+      "sha256": "610a5e0a39385b4b6fa633f57a60aef05b2e7cbd47119d1c4b225eb3fb5372fd"
+    },
+    {
+      "file": "results/prime-digits-certificate-5.json",
+      "bytes": 898,
+      "sha256": "48874e7e6ac447394faa6c37349a611e16744dc11f0e99c82c55199005e4b852"
+    },
+    {
+      "file": "results/prime-digits-certificate-6.json",
+      "bytes": 914,
+      "sha256": "e9eba6ff82d851fd6a9ff736b0009409f08431e1a5068a9840cfcf5d3b4a5c2f"
+    },
+    {
+      "file": "results/prime-digits-certificate-7.json",
+      "bytes": 885,
+      "sha256": "7e48a9e11bc384203352f15147a24b5ad27172d567a2094d33bc9a8447eae2fd"
+    },
+    {
+      "file": "results/prime-digits-certificate-8.json",
+      "bytes": 1141,
+      "sha256": "d61f1e653a0e778719b116e1a5ab1dd8fdc4ad244f9bf1e2434089fba32a974e"
+    },
+    {
+      "file": "results/prime-digits-certificate-9.json",
+      "bytes": 1011,
+      "sha256": "ac4b2b95b03eb8cafa708cf7e5b554e43c4b89a9bdd7496dd65c0413254051b5"
+    }
+  ]
+}

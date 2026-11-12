@@ -1,0 +1,146 @@
+{
+  "at_utc": "2026-11-02T15:21:18.043910+00:00",
+  "source_sha256": "92afe0856eebd9702677a49385ac4d442bed2994ed577032d8acc6639e4b1a3c",
+  "geometry_sha256": "160dfed32f1204789db28acefbc823dbe5c717d6d373957a82e08809df5e8fc7",
+  "symmetry_source_sha256": "edad87b0a65b0237c7edab4584b2d9ec9c12d06d5d9c66e4484d2fe58421edc0",
+  "group_size": 96,
+  "closure_pairs": 9216,
+  "independent_coordinate_actions_checked": 96,
+  "figure_generators": {
+    "question-a": [
+      {
+        "action": [
+          0,
+          2,
+          false,
+          false
+        ],
+        "swap_heads_tails": false,
+        "color_mapping": {
+          "A": "C",
+          "B": "B",
+          "C": "D",
+          "D": "A"
+        }
+      },
+      {
+        "action": [
+          2,
+          5,
+          false,
+          true
+        ],
+        "swap_heads_tails": false,
+        "color_mapping": {
+          "A": "D",
+          "B": "B",
+          "C": "C",
+          "D": "A"
+        }
+      }
+    ],
+    "answer-a": [
+      {
+        "action": [
+          2,
+          1,
+          false,
+          false
+        ],
+        "swap_heads_tails": true,
+        "color_mapping": {
+          "A": "A",
+          "B": "D",
+          "C": "B",
+          "D": "C"
+        }
+      },
+      {
+        "action": [
+          0,
+          5,
+          false,
+          true
+        ],
+        "swap_heads_tails": true,
+        "color_mapping": {
+          "A": "A",
+          "B": "B",
+          "C": "D",
+          "D": "C"
+        }
+      },
+      {
+        "action": [
+          3,
+          0,
+          true,
+          false
+        ],
+        "swap_heads_tails": true,
+        "color_mapping": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D"
+        }
+      }
+    ]
+  },
+  "polarity_witness": {
+    "original": [
+      "ABcd",
+      "ADcb",
+      "CBda",
+      "CAdb",
+      "DBac",
+      "DCab",
+      "CBad",
+      "CDab",
+      "DBca",
+      "DAcb",
+      "ABdc",
+      "ACdb",
+      "AbdC",
+      "AcdB",
+      "CbaD",
+      "CdaB",
+      "DbcA",
+      "DacB",
+      "DbaC",
+      "DcaB",
+      "AbcD",
+      "AdcB",
+      "CbdA",
+      "CadB"
+    ],
+    "complement": [
+      "abCD",
+      "adCB",
+      "cbDA",
+      "caDB",
+      "dbAC",
+      "dcAB",
+      "cbAD",
+      "cdAB",
+      "dbCA",
+      "daCB",
+      "abDC",
+      "acDB",
+      "aBDc",
+      "aCDb",
+      "cBAd",
+      "cDAb",
+      "dBCa",
+      "dACb",
+      "dBAc",
+      "dCAb",
+      "aBCd",
+      "aDCb",
+      "cBDa",
+      "cADb"
+    ],
+    "geometric_actions_times_color_permutations_checked": 2304,
+    "equivalent_without_polarity_swap": false
+  }
+}

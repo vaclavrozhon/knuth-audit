@@ -1,0 +1,793 @@
+{
+  "at_utc": "2026-11-03T17:21:30.411829+00:00",
+  "checker_sha256": "e3db1a83a49a101f1c22f1734e945aa14a5b178c323562b05798f6508ffc2323",
+  "nice": 15,
+  "wall_seconds": 0.022731899982318282,
+  "dependencies": {
+    "verify_f145.py": "4f59f180c5f21aa973923b5143ce52177ad46751222952defe5d00a58791c977",
+    "check_exact_preprocessing.py": "70a82bf272848048e10039278e24e682d252b86661d48f3cc1ccbf872e2656a6",
+    "puzzle_xcc.py": "6706745a67c4d0ddfbcec4ee952dac7824a45b9c2c83c18a32e92bef7e431cc2"
+  },
+  "source_hashes": {
+    "sources/preprocess218_224/original-495.txt": "348aac425db3b445cceb76838110e10c11021b425c27e5f2760a22b390ad7165",
+    "sources/preprocess218_224/original-172.txt": "1afb285d3153d6f89507aacd95fb2f10cf857e69cf439dbd23f588ac184aaa56",
+    "sources/preprocess218_224/draft-185.txt": "a02b3474cd1a1a6349ef7298e6321a897b77cb3452ed9abff92b278ac5f036e4",
+    "sources/preprocess218_224/original-130.txt": "aafea21137bd0f45ab08820dc9c4f13ea4e443e7c90d6893518a34df8f38f57b",
+    "sources/preprocess218_224/original-131.txt": "4854a8be7a3e1357273a5cfcc4e669c9774945c7ac24fd7d86ba778b8ccc8715",
+    "sources/preprocess218_224/draft-51.txt": "0408f7fd3b82fc9124ddb88c2e5df36f6e961911052f00324038725ca6a9d40e",
+    "sources/preprocess218_224/draft-53.txt": "a00adb96888e7eb39ca625321a36b7256a74caca2f5dd23f0dc44306dd910549",
+    "sources/preprocess218_224/errata-contexts.txt": "d0365d1f7cd93274d7a5c54aa0773121ed76d7ebdf13eea9de0109057dbccd13",
+    "sources/preprocess218_224/original-129.txt": "a427fa3dcfb3ff5463996911602202d0f62707cbe3bc0f27834947e8b5189a48",
+    "sources/preprocess218_224/draft-52.txt": "51743a29ac7c1c009e6356b1e2008e753aa5cf3e0d15b9c973762bfa73f24096",
+    "sources/preprocess218_224/draft-94.txt": "4fc3d6cb1b704e2d957e35b2afdef239c4c547e63bcc7561049e8558ace16663",
+    "results/preprocess218_224/draft-185.xml": "82f21d1ee8c8acad56dbb9fa9b6f749a55edc540d1441a03ea1ac6679d34e9ca",
+    "results/preprocess218_224/draft-52.xml": "71365d13efd82d2850ef6818a130f1ead0c5c07dbfb2c7930c4ff555de06fb79",
+    "results/preprocess218_224/original-495.xml": "c3b7fba12e205c6badcbb14887b28cd22f3b93eba73ac1714901fee5cd0d06b4",
+    "results/preprocess218_224/draft-51.xml": "ce8b59b2dc4fb9f29c2fb9ae29bf261d91cd32c3b8b79b4fdd59dbcf4b3e1d95",
+    "results/preprocess218_224/draft-53.xml": "3a741bffb63dfad180a678e9d16c7867c101cc053ab34a1f0f68c675b7dd0311",
+    "results/preprocess218_224/original-172.xml": "abe0986666523c7708fe452ad9cd9dc86d6aa6ffa1c32c6a4e8405cb8fe496f2",
+    "results/preprocess218_224/original-131.xml": "1fac55a936e07cedafe1c8e0f28da84f318e3e95abd8782cd09700d76bca2bcc",
+    "results/preprocess218_224/original-130.xml": "18555edba48219980b02f0be23854565a959a28fb628c53d13d386261a7f8fa7",
+    "results/preprocess218_224/original-129.xml": "233fd7b5d9598df757513bc97da50eb415e30b192f48666aa570bf4856b35878",
+    "results/preprocess218_224/draft-94.xml": "b180bb7efd4464c6247de4a79d5ba3cbcb0e8de3103e5708e07f42757c81a1b2"
+  },
+  "accepted_data_hashes": {
+    "results/exact_preprocessing/random.json": "72347b81554dc6636b2b1d4ef746a28726c69f9617ffce025e3b6c3a469042db",
+    "results/exact_preprocessing/chains224.json": "80ecc4ae7ef6ce789a2919f367ffd115850e5a8d6539105f087a32b5c2fa91e1",
+    "results/exact_preprocessing/replacement224.json": "83ebb9f980b2ae3a5e9b9c4f14d0bc0afc38e95eae56098eabaf50fe46d397b2",
+    "results/exact_preprocessing/replacement224-uncolored.json": "b18f7d0b38aaea42e3d4009266734394539a8b0cf93fe9fe9e43a5bcc2fb45aa",
+    "results/exact_preprocessing/header-initialization.json": "6db716df62604f71f2d2a878b36eb3a675f038b28ac5a5232f06f1b37c7d0b74",
+    "results/exact_preprocessing/chain6.xcc": "bfbf878b61d4cc63124a164e48f886e79220b9cbb1381c75825eeb167c846c01",
+    "results/exact_preprocessing/chain6.log": "105ff3d3f31b478091d0e6dc85d6eee3e2c100e1f3c41a7b07dd8e634c1bb0b0"
+  },
+  "literal_cases": [
+    {
+      "name": "two_stacked",
+      "np": 2,
+      "ns": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      ],
+      "models": [
+        [
+          3,
+          4
+        ]
+      ],
+      "runs": [
+        {
+          "early_abort": false,
+          "primary": [
+            1,
+            2
+          ],
+          "output": {
+            "3": {
+              "1": 0
+            },
+            "4": {
+              "2": 0,
+              "3": 2
+            }
+          },
+          "rounds": 2,
+          "collapsed": false,
+          "stats": {
+            "blocking_tests": 6,
+            "max_stack": 2,
+            "popped_rows": 2,
+            "output_spacers_skipped": 0,
+            "output_rows": 2
+          }
+        },
+        {
+          "early_abort": true,
+          "primary": [
+            1,
+            2
+          ],
+          "output": {
+            "3": {
+              "1": 0
+            },
+            "4": {
+              "2": 0,
+              "3": 2
+            }
+          },
+          "rounds": 2,
+          "collapsed": false,
+          "stats": {
+            "blocking_tests": 6,
+            "early_aborts": 2,
+            "max_stack": 2,
+            "popped_rows": 2,
+            "output_spacers_skipped": 0,
+            "output_rows": 2
+          }
+        }
+      ]
+    },
+    {
+      "name": "adjacent_prefix_spacers",
+      "np": 2,
+      "ns": 3,
+      "rows": [
+        [
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            5,
+            1
+          ]
+        ],
+        [
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            5,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ]
+        ]
+      ],
+      "models": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "runs": [
+        {
+          "early_abort": false,
+          "primary": [
+            1,
+            2
+          ],
+          "output": {
+            "1": {
+              "1": 0,
+              "5": 1
+            },
+            "2": {
+              "1": 0,
+              "5": 2
+            },
+            "3": {
+              "2": 0
+            }
+          },
+          "rounds": 2,
+          "collapsed": false,
+          "stats": {
+            "max_stack": 0,
+            "blocking_tests": 4,
+            "shortened_nodes": 4,
+            "output_spacers_skipped": 4,
+            "output_rows": 3
+          }
+        },
+        {
+          "early_abort": true,
+          "primary": [
+            1,
+            2
+          ],
+          "output": {
+            "1": {
+              "1": 0,
+              "5": 1
+            },
+            "2": {
+              "1": 0,
+              "5": 2
+            },
+            "3": {
+              "2": 0
+            }
+          },
+          "rounds": 2,
+          "collapsed": false,
+          "stats": {
+            "max_stack": 0,
+            "blocking_tests": 4,
+            "shortened_nodes": 4,
+            "output_spacers_skipped": 4,
+            "output_rows": 3
+          }
+        }
+      ]
+    },
+    {
+      "name": "interior_spacers",
+      "np": 2,
+      "ns": 3,
+      "rows": [
+        [
+          [
+            3,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            5,
+            1
+          ]
+        ],
+        [
+          [
+            3,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            5,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ]
+        ]
+      ],
+      "models": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "runs": [
+        {
+          "early_abort": false,
+          "primary": [
+            1,
+            2
+          ],
+          "output": {
+            "1": {
+              "1": 0,
+              "5": 1
+            },
+            "2": {
+              "1": 0,
+              "5": 2
+            },
+            "3": {
+              "2": 0
+            }
+          },
+          "rounds": 2,
+          "collapsed": false,
+          "stats": {
+            "max_stack": 0,
+            "blocking_tests": 4,
+            "shortened_nodes": 4,
+            "output_spacers_skipped": 4,
+            "output_rows": 3
+          }
+        },
+        {
+          "early_abort": true,
+          "primary": [
+            1,
+            2
+          ],
+          "output": {
+            "1": {
+              "1": 0,
+              "5": 1
+            },
+            "2": {
+              "1": 0,
+              "5": 2
+            },
+            "3": {
+              "2": 0
+            }
+          },
+          "rounds": 2,
+          "collapsed": false,
+          "stats": {
+            "max_stack": 0,
+            "blocking_tests": 4,
+            "shortened_nodes": 4,
+            "output_spacers_skipped": 4,
+            "output_rows": 3
+          }
+        }
+      ]
+    },
+    {
+      "name": "duplicate_rows",
+      "np": 2,
+      "ns": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ]
+      ],
+      "models": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "runs": [
+        {
+          "early_abort": false,
+          "primary": [
+            1,
+            2
+          ],
+          "output": {
+            "1": {
+              "1": 0,
+              "3": 1,
+              "4": 1
+            },
+            "2": {
+              "1": 0,
+              "3": 1,
+              "4": 1
+            },
+            "3": {
+              "2": 0,
+              "3": 1,
+              "4": 1
+            }
+          },
+          "rounds": 1,
+          "collapsed": false,
+          "stats": {
+            "blocking_tests": 3,
+            "max_stack": 0,
+            "output_spacers_skipped": 0,
+            "output_rows": 3
+          }
+        },
+        {
+          "early_abort": true,
+          "primary": [
+            1,
+            2
+          ],
+          "output": {
+            "1": {
+              "1": 0,
+              "3": 1,
+              "4": 1
+            },
+            "2": {
+              "1": 0,
+              "3": 1,
+              "4": 1
+            },
+            "3": {
+              "2": 0,
+              "3": 1,
+              "4": 1
+            }
+          },
+          "rounds": 1,
+          "collapsed": false,
+          "stats": {
+            "blocking_tests": 3,
+            "max_stack": 0,
+            "output_spacers_skipped": 0,
+            "output_rows": 3
+          }
+        }
+      ]
+    },
+    {
+      "name": "collapse",
+      "np": 3,
+      "ns": 0,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ]
+      ],
+      "models": [],
+      "runs": [
+        {
+          "early_abort": false,
+          "primary": [
+            1
+          ],
+          "output": {},
+          "rounds": 1,
+          "collapsed": true,
+          "stats": {
+            "blocking_tests": 2,
+            "max_stack": 2,
+            "popped_rows": 2
+          }
+        },
+        {
+          "early_abort": true,
+          "primary": [
+            1
+          ],
+          "output": {},
+          "rounds": 1,
+          "collapsed": true,
+          "stats": {
+            "blocking_tests": 2,
+            "early_aborts": 2,
+            "max_stack": 2,
+            "popped_rows": 2
+          }
+        }
+      ]
+    },
+    {
+      "name": "multiple_commits",
+      "np": 3,
+      "ns": 3,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            6,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            6,
+            1
+          ]
+        ],
+        [
+          [
+            3,
+            0
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            6,
+            2
+          ]
+        ],
+        [
+          [
+            3,
+            0
+          ]
+        ]
+      ],
+      "models": [
+        [
+          1,
+          3,
+          6
+        ],
+        [
+          2,
+          3,
+          6
+        ],
+        [
+          2,
+          4,
+          6
+        ]
+      ],
+      "runs": [
+        {
+          "early_abort": false,
+          "primary": [
+            1,
+            2,
+            3
+          ],
+          "output": {
+            "1": {
+              "1": 0,
+              "4": 1,
+              "5": 1
+            },
+            "2": {
+              "1": 0
+            },
+            "3": {
+              "2": 0,
+              "4": 1,
+              "6": 1
+            },
+            "4": {
+              "2": 0,
+              "4": 2,
+              "6": 1
+            },
+            "6": {
+              "3": 0
+            }
+          },
+          "rounds": 2,
+          "collapsed": false,
+          "stats": {
+            "blocking_tests": 11,
+            "max_stack": 1,
+            "popped_rows": 1,
+            "output_spacers_skipped": 0,
+            "output_rows": 5
+          }
+        },
+        {
+          "early_abort": true,
+          "primary": [
+            1,
+            2,
+            3
+          ],
+          "output": {
+            "1": {
+              "1": 0,
+              "4": 1,
+              "5": 1
+            },
+            "2": {
+              "1": 0
+            },
+            "3": {
+              "2": 0,
+              "4": 1,
+              "6": 1
+            },
+            "4": {
+              "2": 0,
+              "4": 2,
+              "6": 1
+            },
+            "6": {
+              "3": 0
+            }
+          },
+          "rounds": 2,
+          "collapsed": false,
+          "stats": {
+            "blocking_tests": 11,
+            "max_stack": 1,
+            "early_aborts": 1,
+            "popped_rows": 1,
+            "output_spacers_skipped": 0,
+            "output_rows": 5
+          }
+        }
+      ]
+    }
+  ],
+  "named_langford_deletions": [
+    {
+      "option": [
+        "1",
+        "s4",
+        "s6"
+      ],
+      "blocked": "s3"
+    },
+    {
+      "option": [
+        "1",
+        "s1",
+        "s3"
+      ],
+      "blocked": "s4"
+    },
+    {
+      "option": [
+        "2",
+        "s2",
+        "s5"
+      ],
+      "blocked": "s4"
+    }
+  ],
+  "example6_shortening_preserves_solution": true,
+  "old_random_suite_rerun": false,
+  "old_chain_runs_repeated": false,
+  "new_solver_searches": 0,
+  "f145": "Printed221 falsely collapses the satisfiable three-row input; post-test loop restores the exact solution."
+}

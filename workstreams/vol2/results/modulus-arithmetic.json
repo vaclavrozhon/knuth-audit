@@ -1,0 +1,43 @@
+{
+  "status": "all assertions passed",
+  "checks": {
+    "mix_word": 299520,
+    "mix_plus": 5440,
+    "mix_skip": 5440,
+    "mix_minus": 5440,
+    "mix_sum_difference": 97140,
+    "montgomery": 48540,
+    "small_schrage": 26506,
+    "lucky_counts": 2000,
+    "decompositions": 941327,
+    "concrete_large": 20058
+  },
+  "example": {
+    "m": 2147483647,
+    "a": 62089911,
+    "lucky_divisors": 86,
+    "factorizations": [
+      [
+        883,
+        70317
+      ],
+      [
+        1803,
+        34437
+      ],
+      [
+        2649,
+        23439
+      ],
+      [
+        5409,
+        11479
+      ],
+      [
+        7813,
+        7947
+      ]
+    ]
+  },
+  "scope": "Text programs and exercises 1--11; mathematical proofs supply general bounds."
+}

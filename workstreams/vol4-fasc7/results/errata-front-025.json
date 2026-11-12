@@ -1,0 +1,47 @@
+{
+  "checked_at_utc": "2026-11-06T13:41:46.626658+00:00",
+  "sources": [
+    "errata/originals/err4f7.textxt",
+    "errata/text/err4f7.txt",
+    "errata/text/all4f7.txt"
+  ],
+  "scope": "Relevant front-matter and printed pages1–25 entries, plus whole-file terminology searches for both new items. Local errata include changes through October2026; no new web refresh claimed.",
+  "entries": [
+    "\\amendpage 4f7.v new sentence amidst the acknowledgments (26.09.08)\nShisheng Li added many improvements in 2026.",
+    "\\amendpage 4f7.vi line 5 (26.10.05)\n\\.{fasc12a.ps.gz} \\becomes \\.{fasc12a.pdf}",
+    "\\amendpage 4f7.viii line 13 (26.07.24)\nexercise 7.4.1.2--50 \\becomes exercise 7.4.1.2--60",
+    "\\improvepage 4f7.viii line $-11$ (26.01.31)\n$w$, \\.{ROOT}, and \\.{SINK} \\becomes $w$, and \\.{SINK}",
+    "\\improvepage 4f7.viii line $-4$ (26.01.31)\n$v\\gets w$, $\\.{PARENT($v$)}\\gets\\.{SENT}$, and $\\.{ROOT}\\gets v$ \\becomes\n$v\\gets w$ and $\\.{PARENT($v$)}\\gets\\.{SENT}$",
+    "\\improvepage 4f7.ix lines 3 and 4 (26.01.31)\n\\.{ROOT} \\becomes $w$",
+    "\\amendpage 4f7.ix line 20 (26.10.05)\n\\.{fasc14a.ps.gz} \\becomes \\.{fasc14a.pdf}",
+    "\\amendpage 4f7.ix near the bottom (26.09.04)\nline $-9$: for $1\\le b\\le N$ \\becomes for $0\\le b\\le N$\\nl\nline $-6$: \\.{STACK[$l$]}, for $0\\le l<M$ \\becomes\n           \\.{BOY[$l$]}, for $1\\le l\\le\\min(M,N)$",
+    "\\amendpage 4f7.x line 3 (26.09.04)\nof \\.{GTIP}, \\.{BTIP} \\becomes\nof \\.{GLINK}, \\.{GTIP}, \\.{BTIP}",
+    "\\amendpage 4f7.x in line 13 and step H12 (26.09.04)\n\\.{STACK} \\becomes \\.{BOY}",
+    "\\amendpage 4f7.xi in steps H15, H16, H17 (26.09.04)\n\\.{STACK} \\becomes \\.{BOY}\\qquad (six changes)",
+    "\\amendpage 4f7.xiii new contents item (26.06.24)\n\\ninepoint\n\\def\\0 #1 |#2|{\\line{{#1}\\leaders\\hbox to\n1em{\\hfil.\\hfil}\\hfil\\hbox to 1.7em{\\hfil#2}}}%\n\\0 {\\tenssbx Breaking News} |283|",
+    "\\bugonpage 4f7.3 replacement for lines $-10$ thru $-4$ (26.08.20)\nSometimes a $k$-ary relation is {\\it{constant}}, meaning that it\nis satisfied by only a single $k$-tuple. One interesting example is\nthe structure $S=(V,E,\\{ab\\})$, where $(V,E)$ is a graph with\nspecial vertices $a$ and~$b$. Then a homomorphism $h$ from $S$ to the\nrelational structure $S'=(\\{0,1\\},{=},{\\ne})$ will tell us that\n$u\\adj v$ implies $h(u)=h(v)$, and also that $h(a)\\ne h(b)$.\nHence every vertex~$v$ {reachable} from~$a$ will have $h(v)=h(a)$,\nand we can conclude that $b$ is unreachable. Conversely, if $a$ and~$b$\nbelong to different {components},\nsuch a homomorphism can easily be found.\\tighten",
+    "\\improvepage 4f7.10 line $-15$ (25.04.28)\nbetween adjacent faces \\becomes between the adjacent faces",
+    "\\bugonpage 4f7.13 line 5 after {\\eq(22)} (26.09.04)\n$\\rm\\{ab,ac,ba,bc,\\ldots,sr\\}$ becomes\n$\\rm\\{ab,ac,ba,bd,\\ldots,sr\\}$",
+    "\\bugonpage 4f7.15 lines 3 and 4 after {\\eq(30)} (26.09.05)\nThose three planes always intersect in a single point, {\\mc\nABC}, because no two of them are parallel.  \\becomes\\nl\nThose three planes, no two parallel, have pairwise intersection\nlines that aren't parallel; hence lines {\\mc AB}, {\\mc BC}, and {\\mc CA}\nmust intersect in a single point, {\\mc ABC}.",
+    "\\improvepage 4f7.17 line $-18$ (26.01.10)\nby including isolated \\becomes by appending isolated",
+    "\\bugonpage 4f7.21 replacement for {\\eq(40)} (26.09.13)\n\\noindent$$x_{11}<x_{21}<\\cdots<x_{n1};\\quad x_{11}<x_{1r}, \\\nx_{11}<x_{2r}, \\ \\ldots, \\ x_{11}<x_{nr}.\\eqno(40)$$",
+    "\\bugonpage 4f7.22 line $-15$ (26.09.13)\n$\\vert x_{ij}-x_{i((j-1)\\mod r)}\\vert$ \\becomes\n$\\vert x_{ij}-x_{i((j\\mod r)+1)}\\vert$",
+    "\\bugonpage 4f7.25 line $-6$ (26.09.06)\n156 different labelings \\becomes 1872 different labelings"
+  ],
+  "additional_unlisted_notes": [
+    "p.viii: slightly better wording on lines16–17",
+    "p.21: slightly better wording on bottom line"
+  ],
+  "new_item_checks": {
+    "F7-C0001": "No correction for “no girl is free” implying a perfect matching; p.xi changes rename STACK to BOY.",
+    "F7-C0002": "No correction to p.19 reverse-model coverage of isolated vertices. Scope interpretation remains open."
+  },
+  "public_corrections_excluded": [
+    "p.3 directed reachability example",
+    "p.13 bc→bd in variable list",
+    "p.15 pairwise nonparallel planes need a stronger concurrence argument",
+    "p.21 symmetry-breaking formula(40)",
+    "p.22 wraparound index",
+    "p.25 156→1872 equivalent digraph labelings"
+  ]
+}

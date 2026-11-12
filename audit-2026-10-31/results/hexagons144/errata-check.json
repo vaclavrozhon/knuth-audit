@@ -1,0 +1,132 @@
+{
+  "at_utc": "2026-11-03T06:54:21.476206+00:00",
+  "checker_sha256": "2418c480c12d29110442de36fb5433e48096bb7d915b7d15d117f5623338f94c",
+  "files": {
+    "errata/text/all4b.txt": "b1a3425486f403fb4158585d5bbfef0159fd20b12e2e7d47b64e393e1ae8a303",
+    "errata/text/err4b.txt": "2a3450bf3c79d28ad3c2d96468344c96995cf0afb74961f257c311bb9c821e1c",
+    "errata/text/all4f5.txt": "0dd38c4cda72b01baefb797611c9bbab7713ff0c107a1df884afc89fe9bb91c3",
+    "errata/text/err4f5.txt": "5a716c34e2063eb46005593d53e89dbbd912b5677e0a6ab11753f2a5ee38b557",
+    "errata/originals/err4b.textxt": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+    "errata/originals/err4f5.textxt": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b"
+  },
+  "pattern": "(?:[Pp]age\\s+|(?:4b|4f5)\\.)(?:142|455|140|263)\\b|(?:answer|exercise|exer ise)\\s+14[45]\\b|37586004|75172008|643|regime|hexagon|3 three odd",
+  "contexts": [
+    {
+      "file": "errata/text/all4b.txt",
+      "line": 213,
+      "context": "  (2, 3, 3, 57) y (2, 2, 3, 57)\nPage 142 line 7                                                                            13 Feb 2023\n     the boundary of    y the boundary path of\nPage 145 line 3 of exer ise 162                                                           04 Nov 2023\n     eight of the possible   y eight of the ten possible"
+    },
+    {
+      "file": "errata/text/all4b.txt",
+      "line": 375,
+      "context": "  their Theorem 10        y      their Theorem 11\nxPage 397 line 2 of answer 144(d)                                                                        21 Jan 2023\n  X1+ \u0001 \u0001 \u0001 + Xn+   y       X1+ + \u0001 \u0001 \u0001 + Xn+\nxPage 398 last line of answer 10                                                                         21 Jan 2026\n  al al 1      y     al+1 al"
+    },
+    {
+      "file": "errata/text/all4b.txt",
+      "line": 520,
+      "context": "x\nPage 455    line 11                                                           20 De 2022\n q \u0011 x (modulo 2)  y     q \u0011 x=q (modulo 2)\nx\nPage 456 line      3 of answer 146                                            13 Mar 2026"
+    },
+    {
+      "file": "errata/text/all4b.txt",
+      "line": 1381,
+      "context": "Elton, John Han o k, III, 375.                                580, 583, 584, 591, 599{601, 604, 606,\nEmbedded graphs, 132, 353, 626.                               613, 624, 628{631, 638, 639, 642, 643,\nExpe ted value, 2{5, 14{16, 49, 393, see                      646, 650, 654, 80, 686, 714.\n      also Conditional expe tation.                      La Vall\u0013ee Poussin, Charles Jean E\u0013 tienne\nExtreme XC problem, 101, 147.                                 Gustave Ni olas de, 388."
+    },
+    {
+      "file": "errata/text/err4b.txt",
+      "line": 472,
+      "context": "x\nPage 455      line 11                                                               20 De 2022\n q \u0011 x (modulo 2)    y         q \u0011 x=q (modulo 2)\nx\nPage 456 line          3 of answer 146                                              13 Mar 2026"
+    },
+    {
+      "file": "errata/text/err4b.txt",
+      "line": 1360,
+      "context": "      580, 583, 584, 591, 599{601, 604, 606,                    WÍq~h), 199.\n      613, 624, 628{631, 638, 639, 642, 643,             Random sampling, 46, 385.\n      646, 650, 654, 80, 686, 714.                       RB random instan es, 333{334.\nLa Vall\u0013ee Poussin, Charles Jean E\u0013 tienne               Re urren e relations, 101{103, 148, 335, 361,\n      Gustave Ni olas de, 388.                                364, 380, 385, 394, 395, 408, 411, 418,"
+    },
+    {
+      "file": "errata/text/all4f5.txt",
+      "line": 653,
+      "context": "  96=6 = 12 ases y 96=6 = 16 ases\nxPage 263 line 4 of answer 143                                             21 O t 2021\n  (5; 1; 1; 0) y (12; 12; 1; 0)\nxPage 263 line 5 of answer 145                                              24 Jul 2020\n  3 three odd y 3 odd"
+    },
+    {
+      "file": "errata/text/all4f5.txt",
+      "line": 655,
+      "context": "  (5; 1; 1; 0) y (12; 12; 1; 0)\nxPage 263 line 5 of answer 145                                              24 Jul 2020\n  3 three odd y 3 odd\nxPage 267 line 2 of answer 152                                              22 Jul 2022\n  multipli ity 11, and without y multipli ity 11, and a blank pattern of multipli ity 1,"
+    },
+    {
+      "file": "errata/text/all4f5.txt",
+      "line": 656,
+      "context": "xPage 263 line 5 of answer 145                                              24 Jul 2020\n  3 three odd y 3 odd\nxPage 267 line 2 of answer 152                                              22 Jul 2022\n  multipli ity 11, and without y multipli ity 11, and a blank pattern of multipli ity 1,\n  but without"
+    },
+    {
+      "file": "errata/text/err4f5.txt",
+      "line": 599,
+      "context": "      CHANGES TO V4F5: MATH PRELIMINARIES, BACKTRACKING ET AL                                          13\nxPage 263      line 4 of answer 143                                        21 O t 2021\n  (5; 1; 1; 0) y (12; 12; 1; 0)\nxPage 263 line 5 of answer 145                                              24 Jul 2020\n  3 three odd y 3 odd"
+    },
+    {
+      "file": "errata/text/err4f5.txt",
+      "line": 601,
+      "context": "  (5; 1; 1; 0) y (12; 12; 1; 0)\nxPage 263 line 5 of answer 145                                              24 Jul 2020\n  3 three odd y 3 odd\nxPage 267 line 2 of answer 152                                              22 Jul 2022\n  multipli ity 11, and without y multipli ity 11, and a blank pattern of multipli ity 1,"
+    },
+    {
+      "file": "errata/text/err4f5.txt",
+      "line": 602,
+      "context": "xPage 263 line 5 of answer 145                                              24 Jul 2020\n  3 three odd y 3 odd\nxPage 267 line 2 of answer 152                                              22 Jul 2022\n  multipli ity 11, and without y multipli ity 11, and a blank pattern of multipli ity 1,\n  but without"
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "line": 433,
+      "context": "\n\\improvepage 4b.142 line 7 (23.02.13)\n\\ninepoint the boundary of \\becomes the boundary path of\n\\endchange\n"
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "line": 722,
+      "context": "\n\\bugonpage 4b.397 line 2 of answer 144{(d)} (23.01.21)\n$X_1^+\\cdots+X_n^+$ \\becomes $X_1^++\\cdots+X_n^+$\n\\endchange\n"
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "line": 923,
+      "context": "\n\\bugonpage 4b.455 line 11 (22.12.20)\n$q\\equiv x$ (modulo~2) \\becomes $q\\equiv x/q$ (modulo~2)\n\\endchange\n"
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "line": 2045,
+      "context": " 00000003f000000f80000000000000000e00>%% Unicode char \"7eb3\n), ii, iv, vi, viii, ix, xvii, 46, 54, 55, 63, 73, 77--79, 100, 118, 123, 185, 198, 200, 203, 235--236, 256, 258, 277, 278, 302, 309--311, 384, 389, 397, 401, 406, 412, 413, 419, 420, 424--425, 427, 429, 431--432, 440, 446, 459, 460, 463, 473, 475--478, 480, 481, 484, 485, 501--503, 508, 511, 514, 523, 527, 532, 533, 538, 540, 541, 544, 548, 556, 557, 559, 561, 566, 574, 576, 577, 580, 583, 584, 591, 599--601, 604, 606, 613, 624, 628--631, 638, 639, 642, 643, 646, 650, 654, 80, 686, 714. % 3rd\nLa Vall\\'ee Poussin, Charles Jean \\'Etienne Gustave Nicolas de, 388. % 3rd\nLamport, Leslie Barry, 208, 568. % 4th\nLipschitz, Rudolf Otto Sigismund, condition, 10. % 4th"
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "line": 1100,
+      "context": "\n\\bugonpage 4f5.263 line $-4$ of answer 143 (21.10.21)\n$(5,1,1,0)$ \\becomes $(12,12,1,0)$\n\\endchange\n"
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "line": 1104,
+      "context": "\n\\bugonpage 4f5.263  line 5 of answer 145 (20.07.24)\n3 three odd \\becomes 3 odd\n\\endchange\n"
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "line": 1105,
+      "context": "\\bugonpage 4f5.263  line 5 of answer 145 (20.07.24)\n3 three odd \\becomes 3 odd\n\\endchange\n\n\\bugonpage 4f5.267 line 2 of answer 152 (22.07.22)"
+    }
+  ],
+  "latest_remote_retrieval": "2026-11-03T05:37:34Z, reused from143; no redundant download",
+  "retrieval_evidence": "results/polygons143/errata-check.json",
+  "retrieval_evidence_sha256": "a2bc595e017d9fc322eb44f0277c8185e4aafc0e8ceaa73457cbebbf612309a4",
+  "relevant_corrections": [
+    {
+      "id": "E072",
+      "date": "2020-07-24",
+      "context": "\\bugonpage 4f5.263  line 5 of answer 145 (20.07.24)\n3 three odd \\becomes 3 odd",
+      "status_in_local_4B": "already incorporated",
+      "status_in_2019_draft": "old wording still present"
+    }
+  ],
+  "neighboring_corrections": "E069/E070/E071 belong to143. Answer144(d) atp397 is MPR, unrelated toDLX144.",
+  "reviewed_conclusion": "No matching correction found forDLX144 in these six public layers. DLX145 has the already incorporated wording correctionE072.",
+  "page_mapping": {
+    "question4B": 142,
+    "answer4B": 455,
+    "questionF5": 140,
+    "answerF5": 263,
+    "questionDraft5C": 78,
+    "answerDraft5C": 159
+  }
+}

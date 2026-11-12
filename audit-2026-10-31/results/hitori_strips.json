@@ -1,0 +1,226 @@
+{
+  "single_rows": [
+    {
+      "n": 1,
+      "alphabet": 1,
+      "puzzles": 1,
+      "valid": 1
+    },
+    {
+      "n": 1,
+      "alphabet": 2,
+      "puzzles": 2,
+      "valid": 2
+    },
+    {
+      "n": 1,
+      "alphabet": 3,
+      "puzzles": 3,
+      "valid": 3
+    },
+    {
+      "n": 1,
+      "alphabet": 4,
+      "puzzles": 4,
+      "valid": 4
+    },
+    {
+      "n": 2,
+      "alphabet": 1,
+      "puzzles": 1,
+      "valid": 0
+    },
+    {
+      "n": 2,
+      "alphabet": 2,
+      "puzzles": 4,
+      "valid": 0
+    },
+    {
+      "n": 2,
+      "alphabet": 3,
+      "puzzles": 9,
+      "valid": 0
+    },
+    {
+      "n": 2,
+      "alphabet": 4,
+      "puzzles": 16,
+      "valid": 0
+    },
+    {
+      "n": 3,
+      "alphabet": 1,
+      "puzzles": 1,
+      "valid": 1
+    },
+    {
+      "n": 3,
+      "alphabet": 2,
+      "puzzles": 8,
+      "valid": 2
+    },
+    {
+      "n": 3,
+      "alphabet": 3,
+      "puzzles": 27,
+      "valid": 3
+    },
+    {
+      "n": 3,
+      "alphabet": 4,
+      "puzzles": 64,
+      "valid": 4
+    },
+    {
+      "n": 4,
+      "alphabet": 1,
+      "puzzles": 1,
+      "valid": 0
+    },
+    {
+      "n": 4,
+      "alphabet": 2,
+      "puzzles": 16,
+      "valid": 8
+    },
+    {
+      "n": 4,
+      "alphabet": 3,
+      "puzzles": 81,
+      "valid": 24
+    },
+    {
+      "n": 4,
+      "alphabet": 4,
+      "puzzles": 256,
+      "valid": 48
+    },
+    {
+      "n": 5,
+      "alphabet": 1,
+      "puzzles": 1,
+      "valid": 0
+    },
+    {
+      "n": 5,
+      "alphabet": 2,
+      "puzzles": 32,
+      "valid": 0
+    },
+    {
+      "n": 5,
+      "alphabet": 3,
+      "puzzles": 243,
+      "valid": 54
+    },
+    {
+      "n": 5,
+      "alphabet": 4,
+      "puzzles": 1024,
+      "valid": 216
+    },
+    {
+      "n": 6,
+      "alphabet": 1,
+      "puzzles": 1,
+      "valid": 0
+    },
+    {
+      "n": 6,
+      "alphabet": 2,
+      "puzzles": 64,
+      "valid": 0
+    },
+    {
+      "n": 6,
+      "alphabet": 3,
+      "puzzles": 729,
+      "valid": 0
+    },
+    {
+      "n": 6,
+      "alphabet": 4,
+      "puzzles": 4096,
+      "valid": 384
+    },
+    {
+      "n": 7,
+      "alphabet": 1,
+      "puzzles": 1,
+      "valid": 0
+    },
+    {
+      "n": 7,
+      "alphabet": 2,
+      "puzzles": 128,
+      "valid": 0
+    },
+    {
+      "n": 7,
+      "alphabet": 3,
+      "puzzles": 2187,
+      "valid": 0
+    },
+    {
+      "n": 7,
+      "alphabet": 4,
+      "puzzles": 16384,
+      "valid": 0
+    }
+  ],
+  "double_rows": [
+    {
+      "n": 1,
+      "words": 3,
+      "hitori_covers": 2
+    },
+    {
+      "n": 2,
+      "words": 9,
+      "hitori_covers": 4
+    },
+    {
+      "n": 3,
+      "words": 27,
+      "hitori_covers": 6
+    },
+    {
+      "n": 4,
+      "words": 81,
+      "hitori_covers": 12
+    },
+    {
+      "n": 5,
+      "words": 243,
+      "hitori_covers": 20
+    },
+    {
+      "n": 6,
+      "words": 729,
+      "hitori_covers": 36
+    },
+    {
+      "n": 7,
+      "words": 2187,
+      "hitori_covers": 64
+    },
+    {
+      "n": 8,
+      "words": 6561,
+      "hitori_covers": 112
+    },
+    {
+      "n": 9,
+      "words": 19683,
+      "hitori_covers": 200
+    },
+    {
+      "n": 10,
+      "words": 59049,
+      "hitori_covers": 352
+    }
+  ],
+  "generating_function": "2z(1+z)^2/(1-2z^2-2z^3)",
+  "recurrence_valid_from_n": 4
+}

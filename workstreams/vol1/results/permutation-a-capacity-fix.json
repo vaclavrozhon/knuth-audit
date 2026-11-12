@@ -1,0 +1,21 @@
+{
+  "runs": [
+    {
+      "radix": 64,
+      "instructions": 3197486,
+      "cpu_time": 4509819,
+      "output_blocks": 115,
+      "answer_words": 1280
+    },
+    {
+      "radix": 100,
+      "instructions": 3197486,
+      "cpu_time": 4509819,
+      "output_blocks": 115,
+      "answer_words": 1280
+    }
+  ],
+  "elapsed_seconds": 60.99034583900357,
+  "allocation": "MAXANS EQU 2*MAXWDS+23; ANS ORIG *+MAXANS",
+  "all37_radices_fit_memory": true
+}

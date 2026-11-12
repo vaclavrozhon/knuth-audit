@@ -1,0 +1,33 @@
+{
+  "scope": "Root structural and hash review of frozen errata inventory; no repeated mathematical tests.",
+  "manifest_sha256": "c631f325f0ccd91377e4a9b4477990862454bae6a3b685e28aeb2955a2ebff6b",
+  "files_checked": 129,
+  "bytes_checked": 17954844,
+  "original_pdf_pages": 101,
+  "header_counts": {
+    "independent": 976,
+    "short_duplicates": 160,
+    "fictional_examples": 15
+  },
+  "new_numbers": [
+    "1.2.2-30",
+    "1.2.4-50",
+    "1.2.7-25",
+    "1.3.3-37",
+    "1.3.3-38",
+    "1.4.3.1-9"
+  ],
+  "full_assignment_replacement_groups": 7,
+  "old_numbers_replaced": 10,
+  "new_answer_headers": 21,
+  "old_answer_headers": 15,
+  "old_numbers_with_new_answers": 16,
+  "substantial_groups": 145,
+  "curated_headers": 232,
+  "snapshot_matches_checkpoint_56c6d2f": {
+    "scope.json": true,
+    "ledger.json": true,
+    "results/answer-pairing-review.json": true
+  },
+  "root_qualification": "Event mix-digit-sum-solutions describes byte reversal, not digit sums; root note corrects this summary label without modifying frozen files."
+}

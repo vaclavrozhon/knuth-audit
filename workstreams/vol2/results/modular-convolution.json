@@ -1,0 +1,118 @@
+{
+  "witness": {
+    "q": 3,
+    "n": 2,
+    "u": 6,
+    "v": 6,
+    "chunks": [
+      0,
+      3
+    ],
+    "weights": [
+      "1",
+      "1/sqrt(2)"
+    ],
+    "exact_convolution": [
+      "9/2",
+      "0"
+    ],
+    "exact_rounded_t": [
+      9,
+      0
+    ],
+    "printed_2020_sum": "9/2",
+    "ordinary_real_remainder": "9/2",
+    "correct_integer_remainder": 1,
+    "assessment": "candidate wording gap; modular inverse of2 repairs the formula",
+    "seconds": 0.0
+  },
+  "exhaustive": {
+    "cases": 189324,
+    "per_q": [
+      [
+        1,
+        12
+      ],
+      [
+        2,
+        64
+      ],
+      [
+        3,
+        320
+      ],
+      [
+        4,
+        1536
+      ],
+      [
+        5,
+        7168
+      ],
+      [
+        6,
+        32768
+      ],
+      [
+        7,
+        147456
+      ]
+    ],
+    "odd_S_cases": 59270,
+    "original_z_over_a_nonintegral_cases": 100214,
+    "sha256": "a6384501a06a8d5cc7d3c929c66f3c8ba2cff510812075d7b63d0551e9f0184f",
+    "domain": "q1..7,n1..q+2,all u,v in[0,2^q),including leading zeroes and empty chunks",
+    "seconds": 8.645
+  },
+  "large": {
+    "cases": 720,
+    "odd_S_cases": 190,
+    "q_values": [
+      8,
+      9,
+      15,
+      16,
+      31,
+      32,
+      63,
+      64,
+      127,
+      128,
+      511,
+      512,
+      1024,
+      4096,
+      16384
+    ],
+    "n_values": [
+      1,
+      2,
+      3,
+      7,
+      8,
+      15,
+      32,
+      65
+    ],
+    "seed": 43214,
+    "seconds": 2.105
+  },
+  "intervals": {
+    "cases": 416,
+    "forced_refinement_cases": 126,
+    "total_refinements": 222,
+    "max_precision_bits": 256,
+    "precision_histogram": {
+      "4": 290,
+      "8": 66,
+      "16": 41,
+      "32": 7,
+      "64": 9,
+      "256": 2,
+      "128": 1
+    },
+    "seed": 20201102,
+    "scope": "Exact interval direct convolution, no floating-FFT error/performance claim",
+    "seconds": 1.866
+  }
+}

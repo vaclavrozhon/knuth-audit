@@ -1,0 +1,111 @@
+{
+  "scope": "Exact2×2 binary count-interpretation contradiction; four explicitly listed matrices, no search.",
+  "dimensions": {
+    "m": 2,
+    "n": 2,
+    "t": 2
+  },
+  "only_update_q": 0,
+  "terminal_array_arguments": [
+    0,
+    0,
+    1
+  ],
+  "actual_cells": [
+    "a11",
+    "a01",
+    "a10"
+  ],
+  "actual_completions": [
+    [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ]
+  ],
+  "actual_count": 2,
+  "printed_cells": [
+    "a01",
+    "a10",
+    "a11"
+  ],
+  "printed_valid_completion": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "printed_invalid_completion": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "printed_interpretation_count": 1,
+  "correct_terminal_start": "(n−m+1) mod(n+1)",
+  "source_sha256": {
+    "sources/err4f7-2026-11-06.textxt": "5367c0ddd98ba05c1384dbf36a261c8492442aed6eb9d12cf3a9874258c55661",
+    "sources/histoscape-unrank.w": "ce57f69c5d4133391924e8d185bcc2927a86cb43ca52d6df24a957cb155c8bb6",
+    "images/file-178.png": "23767828dfb24a60e6f82fa38f4ffe8bf3274e3a7dc6396ecf9d9a8d3ad0c0c3"
+  },
+  "errata_checked": [
+    "primary TeX",
+    "errata/text/err4f7.txt",
+    "errata/text/all4f7.txt"
+  ],
+  "known_answer29_corrections": [
+    "2026-09-13 n→t summands and suffix−1→+1",
+    "2025-09-14 replacement example, figure and geometry counts"
+  ],
+  "proof": "notes/F7-C0004.md",
+  "shared_errata_sha256": {
+    "errata/originals/err4f7.textxt": "5367c0ddd98ba05c1384dbf36a261c8492442aed6eb9d12cf3a9874258c55661",
+    "errata/text/err4f7.txt": "0afe5f3e8fb61612c2f8370a3bb6280fd560e183cac2d745ec66386d3af5cca3",
+    "errata/text/all4f7.txt": "ef32430ffd04c186e1a332f2fae10a37f5813e8f383cbb61c5c42fc1ad91598e",
+    "errata/pdf/err4f7.pdf": "f117610d9e040d2543739e9fdb1e3c7947d6a63f7b99c2d9b21ecc1e21c13864",
+    "errata/pdf/all4f7.pdf": "6675df9e26dd9d8cefbf3b8d722c88a701206c8c704ce499d5f86ac1c1d64039"
+  },
+  "errata_locations": {
+    "primary_TeX": [
+      "lines912–919 answer28 revised census",
+      "lines922–925 answer29 summand/suffix corrections",
+      "lines927–952 answer29 replacement example",
+      "lines954–957 answer30 array bound"
+    ],
+    "short_text": "lines445–474, all four p163 entries",
+    "cumulative_text": "lines494–523, all four p163 entries; preceding p162 minor correction also read"
+  },
+  "independent_review": {
+    "reviewer": "/root",
+    "accepted_at_utc": "2026-11-07T02:06:41.296951+00:00",
+    "status": "confirmed",
+    "severity": "medium",
+    "original_file_pages": [
+      178
+    ],
+    "scope": "Terminal cyclic index rotation only; full note and relevant primary TeX912–957 plus text errata reviewed. No new computation."
+  }
+}

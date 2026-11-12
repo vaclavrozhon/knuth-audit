@@ -1,0 +1,466 @@
+{
+  "block": "V2-X0075",
+  "status": "partial",
+  "findings": [
+    "V2-C0232",
+    "V2-C0233"
+  ],
+  "checked_at_utc": "2026-11-04T10:57:25.242716+00:00",
+  "edition": 3,
+  "printing": 1,
+  "physical_copy_verified": false,
+  "source_read": "See notes/powers-history.md for exact pages and visual/text distinctions. Full archived works not fully audited.",
+  "verification": {
+    "status": "passed",
+    "pid": 1588642,
+    "seconds": 0.0011861560051329434,
+    "finished_at_utc": "2026-11-04T10:55:00.835070+00:00",
+    "prime_entries": 46,
+    "historical_errors": {
+      "107": [
+        10,
+        9
+      ],
+      "149": [
+        10,
+        9
+      ],
+      "163": [
+        10,
+        9
+      ],
+      "179": [
+        11,
+        10
+      ],
+      "199": [
+        11,
+        10
+      ]
+    },
+    "scope": "Comparison with completed exact prefix; no addition-chain search rerun.",
+    "scholz_original_m4": {
+      "left": 7,
+      "printed_upper": 6
+    }
+  },
+  "open": [
+    "Jonquieres1895pp125–126 original",
+    "Egyptian2000BC date/Struve body and Chace page images",
+    "19th-century Russian eyewitness history",
+    "Saidan341–342 page-image confirmation"
+  ],
+  "errata_source_hashes": [
+    {
+      "path_from_repository": "errata/text/all2-prepre.txt",
+      "sha256": "62a1ff323ca421f2640e2337f922dbf8cfc8e86c20d9b11acfc91221721c6f58"
+    },
+    {
+      "path_from_repository": "errata/text/all2-pre.txt",
+      "sha256": "c1735b70547678d739eae3a8d7b02872c737218eed7706a0aba8fb6fc21a6529"
+    },
+    {
+      "path_from_repository": "errata/text/all2.txt",
+      "sha256": "1c4d7f2259e147db0ebe84b4bf0ce8864b307afb4ccfbe48efcb1f5f5999ac58"
+    },
+    {
+      "path_from_repository": "errata/text/err2.txt",
+      "sha256": "1b5c93712c3c467a48679e0040ba6c5869998b25184dbd125a5d096ce96e9ab0"
+    },
+    {
+      "path_from_repository": "errata/text/err2-2e.txt",
+      "sha256": "cf2d9ced25e86f6fd9be0e4f82700a979fc174dff6860e7a4b7950292c24e154"
+    },
+    {
+      "path_from_repository": "errata/originals/err2.textxt",
+      "sha256": "8faa21566312314ec6bda0f8956913deb312517fd9fa688dcc0bf19e1f21962e"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "images/biruni-sachau-p132.png",
+      "bytes": 157490,
+      "sha256": "b57ef52ecb2b61f88bd52a071d7a52e31eb30cc4062731a8b9a10e0aeecf25c3"
+    },
+    {
+      "path": "images/biruni-sachau-p133.png",
+      "bytes": 144967,
+      "sha256": "be9d7733404cb0b1a1c12530a6d3ae8d0bfd768cc6b7ee8250c874fcee954f14"
+    },
+    {
+      "path": "images/biruni-sachau-p134.png",
+      "bytes": 151920,
+      "sha256": "e3b13067170f07361d4079aab0a59bae98021a56d53af896aebcd79f970ce5cb"
+    },
+    {
+      "path": "images/biruni-sachau-p135.png",
+      "bytes": 148724,
+      "sha256": "edfbfc076b6d86ff5055a09b12ca0b43566002bb7b3f5ac16547f2a26fdc0010"
+    },
+    {
+      "path": "images/biruni-sachau-p136.png",
+      "bytes": 161433,
+      "sha256": "f0d3af3a12f98423521fe50282a1ba042b328a3a9155bfb9116d4bddcbe32566"
+    },
+    {
+      "path": "images/datta-singh-powers-file03.png",
+      "bytes": 310744,
+      "sha256": "e8de0812109920023341937b6c1b9ce811dc18aaa870aa2076827c3c38cb1955"
+    },
+    {
+      "path": "images/datta-singh-powers-file04.png",
+      "bytes": 181015,
+      "sha256": "7904d5effc8e02cfeabd497b9e22e144cb8274ce0e07a773708f48fa8784b968"
+    },
+    {
+      "path": "images/datta-singh-powers-file100.png",
+      "bytes": 673738,
+      "sha256": "b3ab6a6716caf71214e7c49db1b455e81dc5a5f8c5b9d63e6143671602a633df"
+    },
+    {
+      "path": "images/datta-singh-powers-part1-p76.png",
+      "bytes": 547579,
+      "sha256": "41d5ad22dc8a8dc135deae18870186bf33ebd1df311d9378e7c66c22666b9376"
+    },
+    {
+      "path": "images/datta-singh-powers-part1-p77.png",
+      "bytes": 674128,
+      "sha256": "234f00ea73542097b0a762d3e4cea7df9ffae49dd603b7c2469fc1a939dadcd2"
+    },
+    {
+      "path": "images/datta-singh-powers-part2-p76.png",
+      "bytes": 655618,
+      "sha256": "b5f9e0cb87081c44f6f8b830cea004adb02944e916db2d0287f78773d7f87d7d"
+    },
+    {
+      "path": "images/datta-singh-powers-part2-p86.png",
+      "bytes": 420902,
+      "sha256": "e9260d885cefa773673a88ba4f48f99556682facacc51e7bbf2b6489c0122a39"
+    },
+    {
+      "path": "images/intermediaire-1894-p020.png",
+      "bytes": 194017,
+      "sha256": "b5f3ce55915241b67b49071c4d62735bb7b9a98dc9cbe4283a8396acbe26fce2"
+    },
+    {
+      "path": "images/intermediaire-1894-p162.png",
+      "bytes": 199493,
+      "sha256": "f34d6a5d4729f99398a1b43420f9a95bf5a8d181064e80f718f9ac5c0c64b3b9"
+    },
+    {
+      "path": "images/intermediaire-1894-p163.png",
+      "bytes": 192175,
+      "sha256": "b908ce399b1926d883b0619bb0afbaec93d401811e867168b43921e59aa4a9d1"
+    },
+    {
+      "path": "images/intermediaire-1894-p164.png",
+      "bytes": 146943,
+      "sha256": "d378f0158f300325aacbe74d235c74d43d9b1327201d06c13514ba71f1fc6aae"
+    },
+    {
+      "path": "images/intermediaire-1894-p234.png",
+      "bytes": 185910,
+      "sha256": "13b9962e55915381028b1a51171448bfaae4b5baf2934b65cdfff96d99989b89"
+    },
+    {
+      "path": "images/kashi-1954-p11.png",
+      "bytes": 426271,
+      "sha256": "c9722d72e28fd8bdd3c0449f644562ee192e75111ce90e67faa3396dba472e5e"
+    },
+    {
+      "path": "images/kashi-1954-p12.png",
+      "bytes": 393804,
+      "sha256": "bbcb4bc2f5945ad2d8ea2f5947162495a3adcca5c3d9118e576c6db233ee5109"
+    },
+    {
+      "path": "images/kashi-1954-p256.png",
+      "bytes": 434749,
+      "sha256": "aa9bd1297294137ab1dfead271a9d2d8fca167e627fcd2f3a4bf5ef604ef5b68"
+    },
+    {
+      "path": "images/kashi-1954-p257.png",
+      "bytes": 281328,
+      "sha256": "07d2496cfb883568f25cbfe2208f8a483abdde9a90887242d91ef0d63a95857c"
+    },
+    {
+      "path": "images/kashi-1954-p258.png",
+      "bytes": 360373,
+      "sha256": "31d8d6ce6ab1da8ee216defa7ad924e1c4711c5567e48578907d94d61441af6f"
+    },
+    {
+      "path": "images/plofker-india-powers-p55.png",
+      "bytes": 382716,
+      "sha256": "fa0531972a4dd2c801847d762f9028d42c2c16f8e5e53233eccba5bf79c0994b"
+    },
+    {
+      "path": "images/plofker-india-powers-p56.png",
+      "bytes": 381141,
+      "sha256": "237d8cbc6c5900ccb9e2b62aca9e6a956cfc908cf13034e9ad92b12d19e3fd3f"
+    },
+    {
+      "path": "images/saidan-1978-copyright.png",
+      "bytes": 117743,
+      "sha256": "77ff323de541646e7432fc91953e5ae9154df189dc78f9c50a104bc4648abf76"
+    },
+    {
+      "path": "images/vol2-p198.png",
+      "bytes": 730104,
+      "sha256": "e70b3abb25a06ddee0ac8d3950c4e2b0a55c31a347c319f640abe05bb60aa804"
+    },
+    {
+      "path": "images/vol2-p461.png",
+      "bytes": 373739,
+      "sha256": "655b81bf9e72fda37e9fb2dccf49ec56aa38cb8b12e7c0b29f2d25c116f4358a"
+    },
+    {
+      "path": "notes/powers-history.md",
+      "bytes": 9815,
+      "sha256": "8a61794d7acdf93339c2d2ea9fa4eef1b19ed17c43a73ca6d040bdd44f6a48d1"
+    },
+    {
+      "path": "reports/C0232-datta-singh-volume.txt",
+      "bytes": 945,
+      "sha256": "4e0c633a0c5f0d670546bc53b49dfa00cea608d6a6fcfc10eb75499147800e56"
+    },
+    {
+      "path": "reports/C0233-saidan-publication-year.txt",
+      "bytes": 863,
+      "sha256": "c4d360167e5f4971cffa5ea372adf1974a87230d9b126a224d5a5350f9e347bf"
+    },
+    {
+      "path": "results/powers-history-run.json",
+      "bytes": 283,
+      "sha256": "12768a94674fbe32654f3dc71c27a65fb0e89a43beff97fa0f9c94bda2a59993"
+    },
+    {
+      "path": "results/powers-history.json",
+      "bytes": 535,
+      "sha256": "ad6071a1f526423691494d5f64e43fef474890e978b08278c5f29df16818b175"
+    },
+    {
+      "path": "results/powers-history.log",
+      "bytes": 391,
+      "sha256": "bef9b05835e314c378f3086e2ed34d8dbd12bb447665e3f473491cb5d46d7f3a"
+    },
+    {
+      "path": "sources/biruni-sachau-1879-access.json",
+      "bytes": 276,
+      "sha256": "4043388b4dbbed5aa25c8f3930ffc63960b1fafd677b8d718a6b6b2e744c1260"
+    },
+    {
+      "path": "sources/biruni-sachau-1879.pdf",
+      "bytes": 21512582,
+      "sha256": "c8091e2c56d5ded33b219209af2ebb3e1a4af4ac9546bdf4f0c5ae29b32a0835"
+    },
+    {
+      "path": "sources/biruni-sachau-1879.txt",
+      "bytes": 1653194,
+      "sha256": "c8d6c4a853ee6221bf5003043934e200f68df627da767b9e5684db2b995cbf80"
+    },
+    {
+      "path": "sources/datta-singh-1962-library.pdf",
+      "bytes": 10942261,
+      "sha256": "347f093f1197a214848dbac21fcbafb91d59d9f113847bc83a117cfa1d2d7710"
+    },
+    {
+      "path": "sources/datta-singh-1962-library.txt",
+      "bytes": 604,
+      "sha256": "49e348ae0aac8fa51d4ce08c736af7a0c4c786be2f0fe4cdf51625aaff20d0d5"
+    },
+    {
+      "path": "sources/flammenkamp-bibliography-history.html",
+      "bytes": 55619,
+      "sha256": "10ef2ca54e232430e3a1f260a224da9835a32ce996244edd19b1dbf704f260e8"
+    },
+    {
+      "path": "sources/intermediaire-1894-google.pdf",
+      "bytes": 9604741,
+      "sha256": "312c8083dd814d2bc5df7707c86402ee8c487e46ef3d29a8970949440986b6f0"
+    },
+    {
+      "path": "sources/intermediaire-1894-google.txt",
+      "bytes": 676390,
+      "sha256": "8e9fa249bf52494847edfafa4d38306f8cf039a4436f939da75866057298a097"
+    },
+    {
+      "path": "sources/intermediaire-1895-ia-search.json",
+      "bytes": 426,
+      "sha256": "cc9d1692602707f765c7b98326d6fc5577376ae051c5eefe45248b6b37dde497"
+    },
+    {
+      "path": "sources/intermediaire-ia-identifiers.json",
+      "bytes": 352,
+      "sha256": "01eecbdb8e598431a25ea8d67bb85d3d024283247ee3581b5fac355e8c09ee51"
+    },
+    {
+      "path": "sources/intermediaire-ia-search-all.json",
+      "bytes": 458,
+      "sha256": "a1def066c798b341d3180506bf75a7771ec2e0a0abe6e9dcfb763f96f7e6d622"
+    },
+    {
+      "path": "sources/kashi-1954-index.html",
+      "bytes": 108183,
+      "sha256": "0c5ac32c6060e069ec464fa823f147fdf9425ddcf899a747e4b2d987c49735b4"
+    },
+    {
+      "path": "sources/kashi-1954.djvu",
+      "bytes": 16659452,
+      "sha256": "6e65dde9c533d9fc96f18bf484114e1948ffae0ae9adbfe437804c5ccca822a1"
+    },
+    {
+      "path": "sources/kashi-1954.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "sources/plofker-india-powers-full.pdf",
+      "bytes": 2499239,
+      "sha256": "6ea89dd5d581dd32e8b0bef5a0188f9752532dcdb1ee2b7784a9476275e75afe"
+    },
+    {
+      "path": "sources/plofker-india-powers-full.txt",
+      "bytes": 1050962,
+      "sha256": "b53b9da14f4347b9bf8677dd8187a819e0b69bddfaf81bea729dc463a58bba56"
+    },
+    {
+      "path": "sources/powers-early-history-access.json",
+      "bytes": 799,
+      "sha256": "2e41f5e8fb65ea366c6e60485bf191eac1866bd1f1161f41f4833e4db4e9bfaf"
+    },
+    {
+      "path": "sources/powers-egypt-access.json",
+      "bytes": 869,
+      "sha256": "6615638184256b8da03d641bbd0964db816b9c5dcd5ab8a891ba08a7b4f94882"
+    },
+    {
+      "path": "sources/powers-history-errata.txt",
+      "bytes": 16494,
+      "sha256": "74000d3bf114647812a2635e4cc3331c0fd13b002f88e510baa1e2618b41db26"
+    },
+    {
+      "path": "sources/powers-history-extra-access.json",
+      "bytes": 1845,
+      "sha256": "b9a45612d521953e27ceca34e9ee071d53bd28cdad213205cbf18caf66dc8333"
+    },
+    {
+      "path": "sources/powers-history-full-access.json",
+      "bytes": 1120,
+      "sha256": "dbd79fac01805944b572b148384ea4546e443d6af3f5c9a40e88442b954af9ad"
+    },
+    {
+      "path": "sources/powers-history-minima-prefix.json",
+      "bytes": 41388,
+      "sha256": "fe5fc558b0d8aae766a9fdcbbf61dc62f0a3f492ed4bd13c6b11b352d1958fc2"
+    },
+    {
+      "path": "sources/powers-history-more-access.json",
+      "bytes": 3604,
+      "sha256": "0601ac2753cc398985d8f6dd071ac227ee24a8d27557491331b1c1dbf4459d41"
+    },
+    {
+      "path": "sources/powers-history-web-access.json",
+      "bytes": 963,
+      "sha256": "b7c61f8d7a529209c426d7695bd890e5f3a17c4cf88af994e40325d44a7f65b9"
+    },
+    {
+      "path": "sources/saidan-1978-frontmatter.pdf",
+      "bytes": 990333,
+      "sha256": "abcb6d00248ab86efecb0315f83fe150558de4b35056190870964e90ad3390ac"
+    },
+    {
+      "path": "sources/saidan-1978-frontmatter.txt",
+      "bytes": 32599,
+      "sha256": "ed031e3de8db3d681251e820da7cc7bf9e5903a6d331d677b5da4dd21025e8ab"
+    },
+    {
+      "path": "sources/saidan-1978-p341-342-web-extract.txt",
+      "bytes": 5190,
+      "sha256": "fb3fee75319ad49b27f2f461212cc39db3a3938c9788a191a366c2c1be47c312"
+    },
+    {
+      "path": "sources/saidan-1978-scribd.html",
+      "bytes": 1560040,
+      "sha256": "ea3c4e5e99d4dbabbbaa0ec2baf52826dcc7eba0ea6e6426e939248f37d243be"
+    },
+    {
+      "path": "sources/saidan-1978-scribd.txt",
+      "bytes": 1916,
+      "sha256": "840392e9e6c1cb9a0d073eb9aae1e48897b7306f918b3fcfbce3cf95aaeb9fbf"
+    },
+    {
+      "path": "sources/saidan-1978-springer.html",
+      "bytes": 263304,
+      "sha256": "2415600e6fd3089c03ddc34727e0f1ed32dce94753aa5dcdfde78b39890775a8"
+    },
+    {
+      "path": "sources/scholz-1937-access.json",
+      "bytes": 785,
+      "sha256": "4433a3e09015655f220ad03b6b444f7e9071b4804d408a674be0b333798deec7"
+    },
+    {
+      "path": "sources/scholz-1937-gdz-manifest.json",
+      "bytes": 414492,
+      "sha256": "e79831a6ae9f9ce230b4eba41e6b3aaa8ec147d56bd8064b69ea9e74b34f4c4a"
+    },
+    {
+      "path": "sources/scholz-1937-gdz-page.html",
+      "bytes": 6024,
+      "sha256": "b894fe88cef66d95216dd361fbf06d2673c7b4a46925fb67326d2758ae13d3c5"
+    },
+    {
+      "path": "sources/scholz-1937-mathdoc-volume.html",
+      "bytes": 51373,
+      "sha256": "1ef58b7896d600b906e811d8f3227950ca14f3affa2a74ec16206bd2b7db0f2b"
+    },
+    {
+      "path": "sources/scholz-1937-p41.jpg",
+      "bytes": 974845,
+      "sha256": "fb333248f387b516679ed195e80741e7c50fd63ec1f0a600e883edfc51b3c651"
+    },
+    {
+      "path": "sources/scholz-1937-p42.jpg",
+      "bytes": 770205,
+      "sha256": "19dc485f4964512f4d183f3379819cd207c6ba8fcbc106f7ed28ad3925f25b93"
+    },
+    {
+      "path": "sources/thurber-1976-scan.html",
+      "bytes": 606,
+      "sha256": "ce96b11fdf33fe1aaf5b8383c33995b4d08024496389568efb4af8e22d66f935"
+    },
+    {
+      "path": "sources/thurber-1976-scan01.jpg",
+      "bytes": 275263,
+      "sha256": "7a11abc2de80cf63886eb1ac1826ed1a041cf231856671971c92f1a04de91b92"
+    },
+    {
+      "path": "sources/thurber-1976-scan02.jpg",
+      "bytes": 400539,
+      "sha256": "43d902e0d9e20a5be06847a29ca9ec55a48a2b74b0f475b1abcdedb246c3406e"
+    },
+    {
+      "path": "sources/thurber-1976-scan03.jpg",
+      "bytes": 384080,
+      "sha256": "f09b1af1373063b506878c782903e720d1bcf1fcf794ef6749b43334087dbc5b"
+    },
+    {
+      "path": "sources/thurber-1976-scan04.jpg",
+      "bytes": 446334,
+      "sha256": "e4130412f8a4880b3f1f0c0d4312d6599659c4d52282586fd307a39a7006b801"
+    },
+    {
+      "path": "sources/thurber-1976-scan05.jpg",
+      "bytes": 372543,
+      "sha256": "92fae3614201f7d12601bf120658bf2cd245b19cf78b41003ea8ee0ef4cd70e9"
+    },
+    {
+      "path": "sources/thurber-1976-scan06.jpg",
+      "bytes": 302302,
+      "sha256": "e5e0d0f0be956c664a9f77024426d73e29cfcdaa6948c24c69b471b64e8938f6"
+    },
+    {
+      "path": "verify_powers_history.py",
+      "bytes": 1800,
+      "sha256": "323d960b8fc3489460b6f4cc555d1d1f51c1049220ea59b454c82b398751757d"
+    }
+  ]
+}

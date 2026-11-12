@@ -1,0 +1,77 @@
+{
+  "reviewed_at_utc": "2026-11-06T10:21:55.458244+00:00",
+  "errata_inputs": [
+    {
+      "path": "errata/text/all2-prepre.txt",
+      "sha256": "62a1ff323ca421f2640e2337f922dbf8cfc8e86c20d9b11acfc91221721c6f58"
+    },
+    {
+      "path": "errata/text/all2-pre.txt",
+      "sha256": "c1735b70547678d739eae3a8d7b02872c737218eed7706a0aba8fb6fc21a6529"
+    },
+    {
+      "path": "errata/text/all2.txt",
+      "sha256": "1c4d7f2259e147db0ebe84b4bf0ce8864b307afb4ccfbe48efcb1f5f5999ac58"
+    },
+    {
+      "path": "errata/text/err2.txt",
+      "sha256": "1b5c93712c3c467a48679e0040ba6c5869998b25184dbd125a5d096ce96e9ab0"
+    },
+    {
+      "path": "errata/originals/err2.textxt",
+      "sha256": "8faa21566312314ec6bda0f8956913deb312517fd9fa688dcc0bf19e1f21962e"
+    }
+  ],
+  "entries": [
+    {
+      "source": "errata/text/all2-prepre.txt",
+      "printed_page": 111,
+      "entry": "Page 111 line 1                                                                   04 Nov 2001\n (44) y (44)"
+    },
+    {
+      "source": "errata/text/all2-prepre.txt",
+      "printed_page": 112,
+      "entry": "Page 112 in (49)                                                                  06 Feb 2005\n remove the fa tor N1          (three times)"
+    },
+    {
+      "source": "errata/text/all2-prepre.txt",
+      "printed_page": 113,
+      "entry": "Page 113 near the top                                                             06 Feb 2005\n    remove the fa tors 1=N from (52), (53), and the line after (53); also hange 0 < k < m\n    y 0 \u0014 k < m on line 4"
+    },
+    {
+      "source": "errata/text/all2-prepre.txt",
+      "printed_page": 113,
+      "entry": "Page 113 line 2 of Theorem N                                                      06 Feb 2005\n length m     ylength m > 1"
+    },
+    {
+      "source": "errata/text/all2-prepre.txt",
+      "printed_page": 117,
+      "entry": "Page 117 exer ise 26                                                              06 Feb 2005\n    line 2: N 1 y\n    line 3: Where does : : : m = 1? y\n\f                CHANGES TO VOLUME 2: SEMINUMERICAL ALGORITHMS                             7"
+    },
+    {
+      "source": "errata/text/all2-prepre.txt",
+      "printed_page": 582,
+      "entry": "Page 582 new senten e to append to answer 26                           06 Feb 2005\n  Sin e m=d > 1, we an also repla e N by N mod (m=d). [And delete the rst senten e,\n  `When m = 1, : : : zero.'℄"
+    }
+  ],
+  "search_scope": "Original110–118/582–584 and cosecant/csc/Euler/Gauss/Hlawka/Niederreiter/answer numbers. No correction to C0049–51 or clarification of the C0244 transfer found.",
+  "visual_errata": [
+    "workstreams/vol2/images/all2-prepre-spectral-f-06.png",
+    "workstreams/vol2/images/all2-prepre-spectral-f-07.png",
+    "workstreams/vol2/images/all2-prepre-p32.png"
+  ],
+  "classification": "The simultaneous removal of1/N is an equivalent restatement, not evidence of a false original equality. The published domain/range and remainder clarifications are recorded as a checked review, not separate new error cards.",
+  "cached_primary_source": {
+    "metadata": "workstreams/vol2/sources/niederreiter-pseudo-aleatoires-1979.json",
+    "pdf": {
+      "path": "workstreams/vol2/sources/niederreiter-pseudo-aleatoires-1979.pdf",
+      "sha256": "624dca615979a9094db57d2c0c2ab1a92276e204f0cc818243454a781cee2786"
+    },
+    "scope": "Printed159–162 reread visually. Framework and attribution supported; source uses real-boundary discrepancy and reciprocal weights. Not a new verification of every source proof."
+  },
+  "limits": [
+    "Historical G and research31 remain for the next block.",
+    "C0244 is an interpretive proof-step candidate; the final bounds and the weaker intermediate product interval have not been refuted.",
+    "No later physical printing or priority verification."
+  ]
+}

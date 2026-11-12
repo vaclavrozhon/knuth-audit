@@ -1,0 +1,11 @@
+{
+  "first_attempt": {
+    "original_build_commands_completed": 2,
+    "original_driver_cases_completed": 11,
+    "failure": "ctangle of audit-only change file returned 10; short @x contexts matched earlier functions before reaching mmix_fwrite",
+    "per_case_output_persisted": false,
+    "limitation": "The initial verifier saved only at the end; all original row values and build output were lost when the later build raised. No persisted numerical claim is based on this attempt."
+  },
+  "diagnostic": "fwrite-short-count-build-diagnostic.json",
+  "correction": "Anchor the change at the unique mmix_fwrite signature; checkpoint every build and test. Rerun only this new eleven-case comparison to obtain durable evidence after its failed build. Previous audit verifiers are not restarted."
+}

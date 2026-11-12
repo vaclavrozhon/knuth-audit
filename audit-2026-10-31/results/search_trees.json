@@ -1,0 +1,43 @@
+{
+  "exercises": "7.2.2.1-29,30",
+  "trees_by_size": {
+    "1": {
+      "ordered_tree_shapes": 1,
+      "leaf_markings": 2
+    },
+    "2": {
+      "ordered_tree_shapes": 1,
+      "leaf_markings": 2
+    },
+    "3": {
+      "ordered_tree_shapes": 2,
+      "leaf_markings": 6
+    },
+    "4": {
+      "ordered_tree_shapes": 5,
+      "leaf_markings": 22
+    },
+    "5": {
+      "ordered_tree_shapes": 14,
+      "leaf_markings": 90
+    },
+    "6": {
+      "ordered_tree_shapes": 42,
+      "leaf_markings": 394
+    },
+    "7": {
+      "ordered_tree_shapes": 132,
+      "leaf_markings": 1806
+    },
+    "8": {
+      "ordered_tree_shapes": 429,
+      "leaf_markings": 8558
+    }
+  },
+  "total_marked_trees": 10880,
+  "cases_with_duplicate_options": 4618,
+  "checks": "Full ordered tree and solution/dead-leaf labels match an independent immutable-set search. MRV minimum is unique at every visited non-solution node. DLX independently matches node profiles and solution counts.",
+  "known_erratum": "2023-03-22: a tree consisting only of a solution root uses a matrix with no rows or columns. The corrected recursive construction is used.",
+  "findings": "No additional discrepancy after the published correction.",
+  "limitation": "Finite enumeration covers every ordered tree up to eight vertices and every leaf marking; the induction proof is in the notes."
+}

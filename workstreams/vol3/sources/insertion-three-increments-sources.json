@@ -1,0 +1,39 @@
+{
+  "checked_at_utc": "2026-11-07T01:25:50.699329+00:00",
+  "scope": "Exercise5.2.1-42(b), psi asymptotic on627, and the two actual-output means in answer25 on623",
+  "primary_source": {
+    "title": "Svante Janson and Donald E. Knuth, Shellsort with three increments",
+    "url": "https://arxiv.org/abs/cs/9608105",
+    "pdf_url": "https://arxiv.org/pdf/cs/9608105",
+    "version": "arXiv:cs/9608105v1,1996-08-22; journal RSA10(1997),125–142",
+    "local_pdf": "workstreams/vol3/sources/janson-knuth-1997-three-increments.pdf",
+    "local_text": "workstreams/vol3/sources/janson-knuth-1997-three-increments.txt",
+    "audited_scope": "All mathematical dependencies used from sections1–7 are independently derived in the note. The paper-specific20-item illustration, numerical table and sections8–11 are outside this book exercise scope and are not certified.",
+    "external_dependency": "Classical Berry–Esseen bound for independent centered summands with finite third absolute moments; applicability and exact Bernoulli third moment verified. The general theorem itself is explicitly imported, not newly re-proved."
+  },
+  "errata_layers": [
+    {
+      "path": "errata/text/all3-prepre.txt",
+      "assessment": "Known105 correction N/g to N^(3/2)/g and627 diagonal+1 correction respected; no change to psi formula, its asymptotic, or answer25 constants."
+    },
+    {
+      "path": "errata/text/all3-pre.txt",
+      "assessment": "Target105/623/627 and corresponding formula/answer content checked; no applicable change."
+    },
+    {
+      "path": "errata/text/all3.txt",
+      "assessment": "Target105/623/627 and corresponding formula/answer content checked; no applicable change."
+    },
+    {
+      "path": "errata/text/err3.txt",
+      "assessment": "Target105/623/627 and corresponding formula/answer content checked; no applicable change."
+    },
+    {
+      "path": "errata/text/err3-1e.txt",
+      "assessment": "Historical605 answer40 supplies the same formula/asymptotic and601 supplies both25 means."
+    }
+  ],
+  "bibliography_skips": [
+    "The general Berry–Esseen theorem is imported with checked hypotheses; no independent re-audit of its classical proof."
+  ]
+}

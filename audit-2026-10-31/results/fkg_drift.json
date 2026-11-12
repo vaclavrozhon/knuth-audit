@@ -1,0 +1,35 @@
+{
+  "four_functions_base_cases": 17788,
+  "fkg": [
+    {
+      "dimension": 1,
+      "monotone_boolean_functions": 3,
+      "log_supermodular_weight_vectors": 8,
+      "covariances_checked": 72,
+      "local_to_global_cases_checked": 8
+    },
+    {
+      "dimension": 2,
+      "monotone_boolean_functions": 6,
+      "log_supermodular_weight_vectors": 55,
+      "covariances_checked": 1980,
+      "local_to_global_cases_checked": 51
+    },
+    {
+      "dimension": 3,
+      "monotone_boolean_functions": 20,
+      "log_supermodular_weight_vectors": 763,
+      "covariances_checked": 305200,
+      "local_to_global_cases_checked": 654
+    }
+  ],
+  "drift": {
+    "finite_markov_chains": 156,
+    "state_bounds_checked": 1248,
+    "strictly_upward_transitions": 1092,
+    "arithmetic": "Exact rational linear systems.",
+    "limitation": "Finite chains corroborate the potential inequality; the infinite-state theorem is proved separately using truncated stopping times."
+  },
+  "findings": "No discrepancy in the stated scope.",
+  "limitations": "The stronger graded four-functions result mentioned in the bibliographic note is not audited. FKG numerical checks use Boolean increasing functions; the written proof covers arbitrary finite real increasing functions."
+}

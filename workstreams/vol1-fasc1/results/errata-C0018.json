@@ -1,0 +1,264 @@
+{
+  "checked_at_utc": "2026-11-06T22:46:26.232587+00:00",
+  "target": "Both exercise20MMIX saddlepoint expected-time expressions: first final-branch constant and second missing Phase2work.",
+  "search_terms": [
+    "saddle",
+    "Hofri",
+    "Jacquet",
+    "5mn",
+    "6mn",
+    "1f1\\.10[234]",
+    "Page 10[234]",
+    "page 10[234]",
+    "1\\.51[2345]",
+    "Page 51[2345]",
+    "phase.?2"
+  ],
+  "sources": [
+    {
+      "path": "errata/originals/err1f1.textxt",
+      "sha256": "07db671be6fcbc6c473ddc6593f6a16cce5833fb5f8a499ab7e2e3eee163dae3",
+      "matches": [
+        {
+          "line": 712,
+          "context": "\\endchange\n\n\\bugonpage 1f1.104 line 7 (12.05.26)\n{\\tt PBP} {\\tt ii,3B} \\becomes\n{\\tt PBNN} {\\tt ii,3B}\n\\endchange\n"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/err1f1.txt",
+      "sha256": "7d6366838076d106c09e85a4f93f1b151e94c9af9f6874ea27aa6f106cdf84b6",
+      "matches": [
+        {
+          "line": 332,
+          "context": "\nx\nPage 104          line 7                                                               26 May 2012\n    PBP ii,3B     y PBNN ii,3B\nPage 105          line 2                                                                23 Jun 2020\n    (See the website information on page ii.)       y      (See page v.)\n"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all1f1.txt",
+      "sha256": "c0b1a7c575ffcbced2bc6a7048143a16286a081908850ad0956258dd2f84b18e",
+      "matches": [
+        {
+          "line": 398,
+          "context": "\nx\nPage 104        line 7                                                                26 May 2012\n    PBP ii,3B   y PBNN ii,3B\nPage 105      line 2                                                                  23 Jun 2020\n    (See the website information on page ii.)     y (See page v.)\n"
+        }
+      ]
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmixware-errata.html",
+      "sha256": "740b68475c94774ee2d143b0baa2d98111664e2e2c69ce3a29117311f8c4957e",
+      "matches": [
+        {
+          "line": 920,
+          "context": "<dt>page 510, new material after line 24 (29 Jul 2000)</dt>\n<dd>\"return 0;\" should be the final statement of \"main\"</dd>\n<dt>page 514, line 16 (16 Mar 2001)</dt>\n<dd>change \"<b>error</b>\" to \"<i>err</i>\"</dd>\n<dt>page 516, line 8 (25 Aug 2000)***</dt>\n<dd>change \"read_tet(); cur_loc.h=(y&lt;&lt;24)+tet\" to\n \"j=y; read_tet(); cur_loc.h=(j&lt;&lt;24)+tet\"</dd>"
+        }
+      ]
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmixware-current.html",
+      "sha256": "13614aa34f4ad039b12d331064d993292837bc12bf7fd2073ff34bfa41ae9834",
+      "matches": []
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmix-upstream-bugs.html",
+      "sha256": "a9b8c36c7fe466afd03a42ac900cd1e3c13250b7bd9ef575d0f331e31960a61a",
+      "matches": []
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmix-upstream-rounding.html",
+      "sha256": "f864c5fc573f7049aaf2d3682c72ee09f78dfb3d7445a19dc891282f99314c1b",
+      "matches": []
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmix-arith-upstream-warnings.ch",
+      "sha256": "b4a916e0962e2f79828d6afca1a5a40775e82b725f45ec28664a3e66f6b093b4",
+      "matches": []
+    },
+    {
+      "path": "errata/text/all1.txt",
+      "sha256": "b641d6e48aaf2d77fc98a3c4a8a798d8156516b97095ec345a976e65d9c79aef",
+      "matches": [
+        {
+          "line": 286,
+          "context": "Page 101 insert quali ation in (17)                                       25 O t 2024\n integer n; k > 0,\nPage 102 line 1                                                           04 Jan 2024\n G1 (z ) = q + pz   y G0 (z) = 1\nPage 103 line 1                                                           04 Jan 2024\n repla e z by z + 1    y repla e z by 1 + z\nPage 104 line 1                                                           04 Jan 2024"
+        },
+        {
+          "line": 288,
+          "context": "Page 102 line 1                                                           04 Jan 2024\n G1 (z ) = q + pz   y G0 (z) = 1\nPage 103 line 1                                                           04 Jan 2024\n repla e z by z + 1    y repla e z by 1 + z\nPage 104 line 1                                                           04 Jan 2024\n zero ex ept    y\n                zero ex ept possibly"
+        },
+        {
+          "line": 290,
+          "context": "Page 103 line 1                                                           04 Jan 2024\n repla e z by z + 1    y repla e z by 1 + z\nPage 104 line 1                                                           04 Jan 2024\n zero ex ept    y\n                zero ex ept possibly\nPage 104 line 11                                                          04 Jan 2024\n random integer     y"
+        },
+        {
+          "line": 293,
+          "context": " zero ex ept    y\n                zero ex ept possibly\nPage 104 line 11                                                          04 Jan 2024\n random integer     y\n                    random nonnegative integer\nxPage 105 bottom line                                                    29 Mar 2023\n  Reading, Mass. y Cambridge, Mass."
+        }
+      ]
+    },
+    {
+      "path": "errata/originals/err1.textxt",
+      "sha256": "f752c0a5fcf49686906e39fa5a1dab28b53adc8226b0a7e1a1b6cf850592bc91",
+      "matches": []
+    },
+    {
+      "path": "errata/text/all1-pre.txt",
+      "sha256": "89d231245ff44164e09a39903faac35a2dc5e89956857abcc974991c99a887e5",
+      "matches": [
+        {
+          "line": 401,
+          "context": "Page 100    line 5                                                             24 Jul 2020\n    Roes CACM     yRoes, CACM\nPage 104 line 11                                                               26 Jun 2014\n    random variable   y random integer\nPage 104       new senten e pre eding the exer ises                    19 Jul 2012\n    [S. Bernstein had ontributed key ideas in U henye zapiski Nau hno-\n       Issledovatel'skikh kafedr Ukrainy 1 (1924), 38{48.℄"
+        },
+        {
+          "line": 403,
+          "context": "Page 104 line 11                                                               26 Jun 2014\n    random variable   y random integer\nPage 104       new senten e pre eding the exer ises                    19 Jul 2012\n    [S. Bernstein had ontributed key ideas in U henye zapiski Nau hno-\n       Issledovatel'skikh kafedr Ukrainy 1 (1924), 38{48.℄\nPage 108      repla ement for bottom line                                      20 Jan 2022\n                               \u0001                \u0001"
+        },
+        {
+          "line": 856,
+          "context": "           SRA 0,1                  SLAX 5                     ST1 3003(4:4)        HLT 0\n           SRAX 1                   HLT 0               (3003) ADD 200(*)\nPage 514 repla ement for line 5 of the program                                        30 Apr 2013\n          3H                         Start at row 9.\n                          ENT2 9*8-8,1\nx\nPage 514 repla ement for lines 19 and 20 of the program                              10 Mar 2013"
+        },
+        {
+          "line": 860,
+          "context": "                          ENT2 9*8-8,1\nx\nPage 514 repla ement for lines 19 and 20 of the program                              10 Mar 2013\n       PHASE2 ENT3 9*8               At this point rA = minj C (j )\n       3H        ENT2 0,3            Prepare to sear h a row.\nPage 518 line 14                                                                     27 Aug 2014\n Vi torius of Aquitania                 y"
+        },
+        {
+          "line": 861,
+          "context": "x\nPage 514 repla ement for lines 19 and 20 of the program                              10 Mar 2013\n       PHASE2 ENT3 9*8               At this point rA = minj C (j )\n       3H        ENT2 0,3            Prepare to sear h a row.\nPage 518 line 14                                                                     27 Aug 2014\n Vi torius of Aquitania                 y\n                                   Vi torius of Aquitaine"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all1-prepre.txt",
+      "sha256": "1a3c3ac6137b9e98f427de0a344efca46fd83b7a3e6e8fe2fa38e94525ca0c31",
+      "matches": [
+        {
+          "line": 470,
+          "context": "xPage 98 line 2                                                                    12 Sep 1997\n  (n 1)P(n k)k y (n 1)P(n 1) k\n Page 103 line     12                                           04 O t 2005\n  by Thiele in 1903. y by T. N. Thiele in 1889 [see A. Hald, International\n  Statisti al Review 68 (2000), 137{153℄.\nxPage 103 in (23)                                                29 Jul 1997\n    \u00141 t2 y \u00142 t2"
+        },
+        {
+          "line": 473,
+          "context": "  by Thiele in 1903. y by T. N. Thiele in 1889 [see A. Hald, International\n  Statisti al Review 68 (2000), 137{153℄.\nxPage 103 in (23)                                                29 Jul 1997\n    \u00141 t2 y \u00142 t2\n Page 104 line 2 before the exer ises                                              30 O t 2007\n    for all t \u0015 r, y for all t \u0015 r, and if f (t) \u0015 0 for all t in the domain of the\n    random variable X ,"
+        },
+        {
+          "line": 475,
+          "context": "xPage 103 in (23)                                                29 Jul 1997\n    \u00141 t2 y \u00142 t2\n Page 104 line 2 before the exer ises                                              30 O t 2007\n    for all t \u0015 r, y for all t \u0015 r, and if f (t) \u0015 0 for all t in the domain of the\n    random variable X ,\nPage 105 line         7                                                            01 Jan 2006\n    probability    y Pr"
+        },
+        {
+          "line": 1858,
+          "context": "       B.   y J B.\nx\nPage 512        right olumn, line 12 of the program                        25 Aug 2002\n    GOOD   y MEMORY\nPage 512        right olumn, program lines 18{19 and 24{25                 06 De 2008\n    CMPA =5=; JG BAD       y\n                        DECA 5; JAP BAD"
+        },
+        {
+          "line": 1860,
+          "context": "Page 512        right olumn, line 12 of the program                        25 Aug 2002\n    GOOD   y MEMORY\nPage 512        right olumn, program lines 18{19 and 24{25                 06 De 2008\n    CMPA =5=; JG BAD       y\n                        DECA 5; JAP BAD\n    CMPX =3999=; JLE GOOD      y\n                             DECX 3999; JXNP GOOD"
+        },
+        {
+          "line": 1865,
+          "context": "    CMPX =3999=; JLE GOOD      y\n                             DECX 3999; JXNP GOOD\nPage 513 hanges for onsisten y                                             29 O t 1997\n line 1: Solution 1:     y\n                          y\n                      Solution 1:\n line 12: Solution 2:    Solution 2:"
+        },
+        {
+          "line": 1872,
+          "context": "\nx\nPage 513        line 8                                                     22 Mar 1999\n    R(j ) \u0014 aij  y   R(i) \u0014 aij\nPage 514 end of the program                                                18 May 1999\n program lines 3 and 2: inter hange `ENT1 0' with `J3P 3B'\n line 6 after the program: 540u     y  530u"
+        },
+        {
+          "line": 1874,
+          "context": "Page 513        line 8                                                     22 Mar 1999\n    R(j ) \u0014 aij  y   R(i) \u0014 aij\nPage 514 end of the program                                                18 May 1999\n program lines 3 and 2: inter hange `ENT1 0' with `J3P 3B'\n line 6 after the program: 540u     y  530u\nPage 514 line      6                                                     25 Aug 2002\n we an solve       y and m \u0015 n, we an solve"
+        },
+        {
+          "line": 1877,
+          "context": " program lines 3 and 2: inter hange `ENT1 0' with `J3P 3B'\n line 6 after the program: 540u     y  530u\nPage 514 line      6                                                     25 Aug 2002\n we an solve       y and m \u0015 n, we an solve\nx\nPage 515 line 14                                                           31 Jul 1997\n in 924744796234036231 our ase,       y   in our ase,"
+        },
+        {
+          "line": 1880,
+          "context": " we an solve       y and m \u0015 n, we an solve\nx\nPage 515 line 14                                                           31 Jul 1997\n in 924744796234036231 our ase,       y   in our ase,\nPage 515 new answer                                                       24 Apr 1997\n 12. M. Hofri and P. Ja quet [Algorithmi a 22 (1998), 516{528℄ have analyzed the ase\n when the m \u0002 n matrix entries are distin t and in random order. The running times of"
+        },
+        {
+          "line": 1882,
+          "context": "Page 515 line 14                                                           31 Jul 1997\n in 924744796234036231 our ase,       y   in our ase,\nPage 515 new answer                                                       24 Apr 1997\n 12. M. Hofri and P. Ja quet [Algorithmi a 22 (1998), 516{528℄ have analyzed the ase\n when the m \u0002 n matrix entries are distin t and in random order. The running times of\n the two MIX programs\u0001   are then respe tively (6mn +5mHn +8m +6+5(m +1)=(n 1))u +\n O((m + n)2= mm+n ) and (5mn + 2nHm + 7m + 7n + 9Hn )u + O(1=n) + O((log n)2=m),"
+        },
+        {
+          "line": 1883,
+          "context": " in 924744796234036231 our ase,       y   in our ase,\nPage 515 new answer                                                       24 Apr 1997\n 12. M. Hofri and P. Ja quet [Algorithmi a 22 (1998), 516{528℄ have analyzed the ase\n when the m \u0002 n matrix entries are distin t and in random order. The running times of\n the two MIX programs\u0001   are then respe tively (6mn +5mHn +8m +6+5(m +1)=(n 1))u +\n O((m + n)2= mm+n ) and (5mn + 2nHm + 7m + 7n + 9Hn )u + O(1=n) + O((log n)2=m),\n as m ! 1 and n ! 1, assuming that (log n)=m ! 0."
+        },
+        {
+          "line": 1885,
+          "context": " 12. M. Hofri and P. Ja quet [Algorithmi a 22 (1998), 516{528℄ have analyzed the ase\n when the m \u0002 n matrix entries are distin t and in random order. The running times of\n the two MIX programs\u0001   are then respe tively (6mn +5mHn +8m +6+5(m +1)=(n 1))u +\n O((m + n)2= mm+n ) and (5mn + 2nHm + 7m + 7n + 9Hn )u + O(1=n) + O((log n)2=m),\n as m ! 1 and n ! 1, assuming that (log n)=m ! 0.\nPage 516 answer 14                                                         31 Aug 1998\n [Udo Wermuth has indeed squeezed out an additional 9u, 10u, or 12u, depending on"
+        },
+        {
+          "line": 1886,
+          "context": " when the m \u0002 n matrix entries are distin t and in random order. The running times of\n the two MIX programs\u0001   are then respe tively (6mn +5mHn +8m +6+5(m +1)=(n 1))u +\n O((m + n)2= mm+n ) and (5mn + 2nHm + 7m + 7n + 9Hn )u + O(1=n) + O((log n)2=m),\n as m ! 1 and n ! 1, assuming that (log n)=m ! 0.\nPage 516 answer 14                                                         31 Aug 1998\n [Udo Wermuth has indeed squeezed out an additional 9u, 10u, or 12u, depending on\n the year. But details are omitted here be ause MIX will soon be repla ed.℄"
+        },
+        {
+          "line": 2564,
+          "context": "     å âk Nika\na ), 592.                       Moore S hool of Ele tri al Engineering, 230.\nHofri, Mi ha (IXTG DKIN), 515.                 Motzkin, Theodor (= Theodore) Samuel\nHorning, James Jay, 230.                            (OIWVEN L\bENY XECE\bIZ), 85, 593.\nHwang, Frank Kwangming (              ),       Multilist representation, 301.\n     405, 595.                                 Multiple-pre ision onstants, 525, 619{621.\nHwang, Hsien-Kuei (           ), 66.           Narayana, Tadepalli Venkata, 598."
+        }
+      ]
+    },
+    {
+      "path": "errata/text/err1-2e.txt",
+      "sha256": "1778c2089c0d317e283c6d28203b3a03b8db531c0d23faa9558661074e78a52a",
+      "matches": [
+        {
+          "line": 661,
+          "context": "  when X is a statement that is either true or false, the probability that X is true\n  is Pr(X ) = E [X ], using Iverson's bracket notation.\n Page 102 line 5                                                            14 May 1976\n  distribution, the y distribution, we can improve signi cantly on Chebyshev's\n  inequality: The\n Page 102 new material following line 12                                    16 May 1996\n       We often need to know that a random variable is unlikely to be much larger"
+        },
+        {
+          "line": 664,
+          "context": "  distribution, the y distribution, we can improve signi cantly on Chebyshev's\n  inequality: The\n Page 102 new material following line 12                                    16 May 1996\n       We often need to know that a random variable is unlikely to be much larger\n  or smaller than its mean value. Two extremely simple yet powerful formulas,\n  called the tail inequalities, provide convenient estimates of such probabilities. If\n  X has probability generating function G(z ), then"
+        },
+        {
+          "line": 686,
+          "context": " (Springer, 1933): If f (t) \u0015 s > 0 for all t \u0015 r, then Pr(X \u0015 r) \u0014 s 1 E f (X )\n whenever E f (X ) exists. We obtain (25) when f (t) = xt and s = xr .\nPage 102 replacement for exercise 6                                          25 Jun 1996\n   6. [HM27 ] We have computed the mean and the variance of the important probabil-\n ity distributions (8), (18), (20). What is the third semi-invariant, \u00143 , in each of those\n cases?\nPage 103 top                                                                       27 Mar 1995"
+        },
+        {
+          "line": 690,
+          "context": " ity distributions (8), (18), (20). What is the third semi-invariant, \u00143 , in each of those\n cases?\nPage 103 top                                                                       27 Mar 1995\n Put exercise 12 rst, and renumber it exercise 11. The old exercise 11 becomes:\n 12. [HM21 ] When GP(z) =n p0 + p1z + p2 zP2 + \u0001 \u0001 \u0001 represents a probability distribution,\n the quantities Mn = k k pk and mn = k (k M1 )n pk are called the \\nth moment\"\n and \\nth central moment,\" respectively. Show that G(et ) = 1 + M1 t + M2 t2=2! + \u0001 \u0001 \u0001 ;"
+        },
+        {
+          "line": 703,
+          "context": " \u00144 = M4 4M1 M3 + 12M12 M2 3M22 6M14 . What are the analogous expressions for\n \u0014n in terms of the central moments m2 , m3 , : : : , when n \u0015 2?\nPage 103 exercise 13                                                               27 Mar 1995\n line 1: characteristic functions y probability generating functions\n                                  it\u0016n =\u001bn Gn (eit=\u001bn ) = e t2=2\n                           !1 e\n replacement for line 3:nlim"
+        },
+        {
+          "line": 710,
+          "context": " line 4: for all : : : u. y for all real values of t. line 6: (1944) y (1944), 3{48\n line 11: Levy y L\u0013evy\nPage 104 new exercises                                                      12 Aug 1996\n 19. [M21 ] If ak > aj for 1 \u0014 j < k, we say that ak is a left-to-right maximum of the\n sequence a1 a2 : : : an . Suppose a1 a2 : : : an is a permutation of f1; 2; : : : ; ng, and let\n b1 b2 : : : bn be the inverse permutation, so that ak = l if and only if bl = k. Show that\n ak is a left-to-right maximum of a1 a2 : : : an if and only if k is a right-to-left minimum"
+        },
+        {
+          "line": 724,
+          "context": " [Thus, if the a's are in random order, the number of k's for which a subtraction must\n be performed is only O(log n).]\nPage 104 new exercise                                                                 13 May 1996\n 21. [M25 ] Suppose X is a random variable whose values are a mixture of the proba-\n bility distributions generated by g1 (z), g2 (z), : : : , gr (z); it uses gk (z) with probability\n pk , where p1 + p2 + \u0001 \u0001 \u0001 + pr = 1. What is the generating function for X ? Express the\n mean and variance of X in terms of the means and variances of g1 , g2 , : : : , gr ."
+        },
+        {
+          "line": 729,
+          "context": " pk , where p1 + p2 + \u0001 \u0001 \u0001 + pr = 1. What is the generating function for X ? Express the\n mean and variance of X in terms of the means and variances of g1 , g2 , : : : , gr .\nPage 104 new exercises                                                                16 May 1996\nx22. [HM21 ] Let X be the number of \\heads\" that occur when a random coin is ipped\n n times, with generating function (18). Use (25) to prove that\n                                Pr(X \u0015 n(p + \u000f)) \u0014 e \u000f n=(2q)\n                                                            2"
+        },
+        {
+          "line": 745,
+          "context": " 24. [HM23 ] Estimate the tail probabilities for a random variable that has the negative\n binomial distribution generated by (q pz) n , where q = p + 1.\nPage 104 line 15                                                                      27 Mar 1995\n 1892 y 1894\nPage 107 new paragraph to insert after line 2                                         28 Mar 1995\n       Sometimes an asymptotic series is correct although it does not correspond\n to a generating function, because the in nite series would not be convergent. For"
+        },
+        {
+          "line": 2517,
+          "context": "             ENTX 2000,6              above.\n             J6NP EASTER+1\n Page 513 new answer                                                    14 Jun 1977\n  15. The rst such year is A.D. 10317, although the error almost leads to failure in\n  A.D. 10108 + 19k for 0 \u0014 k \u0014 10.\n       Incidentally, Robert Hill has pointed out that the date of Easter repeats with\n  a period of 5,700,000 years. The most common date is April 19 (220400 times per"
+        },
+        {
+          "line": 2524,
+          "context": "  period), while the earliest and least common is March 22 (27550 times); the latest, and\n  next-to-least common, is April 25 (42000 times).\nxPage 514 line 17                                                            21 Feb 1997\n  0013.05362   y 0013.05363\n Page 514 line 18                                                            29 Nov 1977\n  time. y time. (It would be faster to calculate Rn (1=m) directly when m is small,\n  and then to apply the suggested procedure.)"
+        },
+        {
+          "line": 2526,
+          "context": "xPage 514 line 17                                                            21 Feb 1997\n  0013.05362   y 0013.05363\n Page 514 line 18                                                            29 Nov 1977\n  time. y time. (It would be faster to calculate Rn (1=m) directly when m is small,\n  and then to apply the suggested procedure.)\n Page 515 line 5                                                             18 Oct 1979\n  For : : : history, y Historical notes: C. Haros gave a (more complicated) rule for"
+        },
+        {
+          "line": 2529,
+          "context": "  time. y time. (It would be faster to calculate Rn (1=m) directly when m is small,\n  and then to apply the suggested procedure.)\n Page 515 line 5                                                             18 Oct 1979\n  For : : : history, y Historical notes: C. Haros gave a (more complicated) rule for\n  constructing such sequences, in J. de l'E\u0013 cole Polytechnique 4, 11 (1802), 364{368;\n  his method was correct, but his proof was inadequate. Several years later, the ge-\n  ologist John Farey independently conjectured that xk =yk is always equal to (xk 1 +"
+        }
+      ]
+    }
+  ],
+  "semantic_review": "All returned contexts read. The 2012 PBP-to-PBNN correction is already incorporated in the current MMIX program; it does not restore Phase2 mems. Historical Volume1 pages513-515 concern MIX code/indexing, a fixed-time correction and the earlier MIX asymptotic formula. No matching correction of the second MMIX running-time expression was found in these13layers. The same inspected contexts contain no correction of the first expression's constant11 either; both expressions were visually checked on the same original page104.",
+  "additional_primary_domain_queries": [
+    "site.cs.stanford.edu/~knuth \"5mn\" \"MMIX\"",
+    "site.cs.stanford.edu/~knuth \"saddle\" \"104\"",
+    "site.mmix.cs.hm \"Hofri\" OR \"saddle\"",
+    "\"MMIX\" \"7H\" \"6m\""
+  ],
+  "additional_query_disposition": "No matching correction returned; unrelated bibliographic or third-party results were not used as evidence."
+}

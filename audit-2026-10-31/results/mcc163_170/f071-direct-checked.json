@@ -1,0 +1,84 @@
+{
+  "at_utc": "2026-11-03T12:25:52.829729+00:00",
+  "checker_sha256": "e6b22638cb2194fa4f850857b3a510b0305e77578aefbfe476530b927125e5cd",
+  "witness_hashes": {
+    "results/mcc_arithmetic/upper-bound-a4.mcc": "b93cd15c5174479baee6353920012b415369f4d61f9efe2f6f2ad351c2c5800b",
+    "results/mcc_arithmetic/upper-bound-a5.mcc": "98d8882e9747036493a9cc444343f3c564d73286352dc26f9760f1ab2f5fcca1"
+  },
+  "cases": [
+    {
+      "upper_A": 4,
+      "choices": [
+        {
+          "item": "B",
+          "length": 3,
+          "lower": 2,
+          "upper": 6,
+          "slack": 4,
+          "degree": 2,
+          "key": [
+            2,
+            4,
+            -3,
+            0
+          ]
+        },
+        {
+          "item": "A",
+          "length": 2,
+          "lower": 1,
+          "upper": 4,
+          "slack": 3,
+          "degree": 2,
+          "key": [
+            2,
+            3,
+            -2,
+            1
+          ]
+        }
+      ],
+      "first_item": "A",
+      "solutions_by_product_formula": 12
+    },
+    {
+      "upper_A": 5,
+      "choices": [
+        {
+          "item": "B",
+          "length": 3,
+          "lower": 2,
+          "upper": 6,
+          "slack": 4,
+          "degree": 2,
+          "key": [
+            2,
+            4,
+            -3,
+            0
+          ]
+        },
+        {
+          "item": "A",
+          "length": 2,
+          "lower": 1,
+          "upper": 5,
+          "slack": 4,
+          "degree": 2,
+          "key": [
+            2,
+            4,
+            -2,
+            1
+          ]
+        }
+      ],
+      "first_item": "B",
+      "solutions_by_product_formula": 12
+    }
+  ],
+  "different_first_branch": true,
+  "new_searches": 0,
+  "historical_mems_reproduced": false,
+  "seconds": 0.02338700697873719
+}

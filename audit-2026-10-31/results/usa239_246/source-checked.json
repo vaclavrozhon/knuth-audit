@@ -1,0 +1,480 @@
+{
+  "at_utc": "2026-11-03T19:08:45.911214+00:00",
+  "checker_sha256": "cd7169ad64193773d1ccfb0032a11d1deda277f4b78504a4018f80890eee7361",
+  "nice": 15,
+  "wall_seconds": 0.9259268409805372,
+  "accepted_hashes": {
+    "results/usa_partitions/verified.json": "00327fda4b59f65326069bfae3b6d4b5b7aec220e78dc55a535a3bf4ed2c39b4",
+    "results/usa_partitions/graph.json": "fd49c4913ab66ff1a2e3461d764e59ede4f16f175e52c013f4f629c64c92d34f",
+    "results/cost_reductions/verified.json": "a790347fb99899b942e334b3787b50d6d19b7466bb6a06fda4ea8a0981c4a59b",
+    "prepare_usa_partitions.py": "7b9537dbc8be2cb8be5db9bbc24d6d15c39ec7b10602becbfb3f75d9778a01b3",
+    "verify_usa_partitions.py": "dead8fe71eb72a7befe52e11e9a7d23318be7b033081eea7e5e4bffc8b2b55e6",
+    "check_cost_reductions.py": "4f9560602301dc19ac852133976f44ad4b29c40b88941c52da6b2420247a09a3"
+  },
+  "current_hashes": {
+    "extract_usa239_246.py": "2f729a52db9ba72b36456b94ae74a2ae31f2dcc1df2e4724c5d8bef1fb335af0",
+    "usa_population_options.cpp": "30de8d26098cf620bf8e1a8835ba316bf1ffea9b4893a75475d5a880c4e00a11",
+    "run_usa_population_bounded.py": "dd3af60cda05c3b7cf1e857eb1901d24eece961e1f69768cd66065740e157e6a",
+    "check_usa_population_exceptions.py": "f5d42290e8a8ecddf717413915ac5e1d62e4a84948f0393ad3e7b4905d03e8f5",
+    "verify_f148_f149.py": "2f19ebe858de19bd64e0d126a17fad711b6efda7be7aa48558b92cdb55af5e88",
+    "results/usa239_246/figures.json": "dc66083fbd4105ad46d90cc1ccf9ff8cb698017f495c533d3a38337722738428",
+    "results/usa239_246/population-runs.json": "18810a15538e87461b7edb0290d97acfa95c53a774fd0a224f70c9e91544435a",
+    "results/usa239_246/ny-exception-run.json": "3d2988014193da250a6cded5d8f4af2c80392b14000f9a3fc20f3d4bc922e3a9",
+    "results/usa239_246/f148-f149-witness.json": "01b3d321e606e9f030b06e4862d0986f817e41264ef35b2d757910903e87d07b",
+    "results/usa239_246/population-provenance.json": "dba6f83197e94ed239fad83253c543d48a149471cfc1cb4728d49b9b2bb80457"
+  },
+  "figures_per_version": 11,
+  "vertices_per_version": 530,
+  "edges_per_version": 1159,
+  "alternative_optima": [
+    {
+      "figure": "115-left",
+      "other_optimum": [
+        [
+          "AL",
+          "FL",
+          "GA",
+          "NC",
+          "SC",
+          "TN"
+        ],
+        [
+          "AR",
+          "LA",
+          "MS",
+          "NM",
+          "OK",
+          "TX"
+        ],
+        [
+          "AZ",
+          "CA",
+          "ID",
+          "NV",
+          "OR",
+          "WA"
+        ],
+        [
+          "CO",
+          "KS",
+          "MO",
+          "NE",
+          "UT",
+          "WY"
+        ],
+        [
+          "CT",
+          "MA",
+          "ME",
+          "NH",
+          "RI",
+          "VT"
+        ],
+        [
+          "DE",
+          "MD",
+          "NJ",
+          "NY",
+          "PA",
+          "WV"
+        ],
+        [
+          "IA",
+          "MN",
+          "MT",
+          "ND",
+          "SD",
+          "WI"
+        ],
+        [
+          "IL",
+          "IN",
+          "KY",
+          "MI",
+          "OH",
+          "VA"
+        ]
+      ]
+    },
+    {
+      "figure": "115-right",
+      "other_optimum": [
+        [
+          "AL",
+          "FL",
+          "GA",
+          "MS",
+          "NC",
+          "SC",
+          "TN",
+          "VA"
+        ],
+        [
+          "AR",
+          "CO",
+          "KS",
+          "LA",
+          "MO",
+          "NM",
+          "OK",
+          "TX"
+        ],
+        [
+          "AZ",
+          "CA",
+          "ID",
+          "NV",
+          "OR",
+          "UT",
+          "WA",
+          "WY"
+        ],
+        [
+          "CT",
+          "MA",
+          "ME",
+          "NH",
+          "NJ",
+          "NY",
+          "RI",
+          "VT"
+        ],
+        [
+          "DE",
+          "IN",
+          "KY",
+          "MD",
+          "MI",
+          "OH",
+          "PA",
+          "WV"
+        ],
+        [
+          "IA",
+          "IL",
+          "MN",
+          "MT",
+          "ND",
+          "NE",
+          "SD",
+          "WI"
+        ]
+      ]
+    }
+  ],
+  "printed_population_options": [
+    {
+      "figure": "116-left",
+      "states": [
+        "AL",
+        "FL",
+        "GA",
+        "SC"
+      ],
+      "mask": 137438953857
+    },
+    {
+      "figure": "116-left",
+      "states": [
+        "AR",
+        "CO",
+        "NM",
+        "TX",
+        "UT"
+      ],
+      "mask": 3299071754258
+    },
+    {
+      "figure": "116-left",
+      "states": [
+        "AZ",
+        "ID",
+        "KS",
+        "MN",
+        "MT",
+        "ND",
+        "NE",
+        "NV",
+        "OK",
+        "OR",
+        "WA",
+        "WY"
+      ],
+      "mask": 158356628055044
+    },
+    {
+      "figure": "116-left",
+      "states": [
+        "CA"
+      ],
+      "mask": 8
+    },
+    {
+      "figure": "116-left",
+      "states": [
+        "CT",
+        "MA",
+        "ME",
+        "NH",
+        "NJ",
+        "NY",
+        "RI",
+        "VT"
+      ],
+      "mask": 8867362963488
+    },
+    {
+      "figure": "116-left",
+      "states": [
+        "DE",
+        "LA",
+        "MD",
+        "MS",
+        "NC",
+        "TN",
+        "VA"
+      ],
+      "mask": 4947823460416
+    },
+    {
+      "figure": "116-left",
+      "states": [
+        "IA",
+        "IN",
+        "MI",
+        "OH",
+        "SD",
+        "WI"
+      ],
+      "mask": 35463545491968
+    },
+    {
+      "figure": "116-left",
+      "states": [
+        "IL",
+        "KY",
+        "MO",
+        "PA",
+        "WV"
+      ],
+      "mask": 70403106031616
+    },
+    {
+      "figure": "246-ext-left",
+      "states": [
+        "AL",
+        "FL",
+        "LA",
+        "MS",
+        "TN"
+      ],
+      "mask": 549760041089
+    },
+    {
+      "figure": "246-ext-left",
+      "states": [
+        "AR",
+        "MO",
+        "OK",
+        "TX"
+      ],
+      "mask": 1108103659522
+    },
+    {
+      "figure": "246-ext-left",
+      "states": [
+        "AZ",
+        "CO",
+        "ID",
+        "KS",
+        "NE",
+        "NM",
+        "NV",
+        "OR",
+        "SD",
+        "UT",
+        "WA",
+        "WY"
+      ],
+      "mask": 160822433162260
+    },
+    {
+      "figure": "246-ext-left",
+      "states": [
+        "CA"
+      ],
+      "mask": 8
+    },
+    {
+      "figure": "246-ext-left",
+      "states": [
+        "CT",
+        "MA",
+        "ME",
+        "NH",
+        "NJ",
+        "NY",
+        "RI",
+        "VT"
+      ],
+      "mask": 8867362963488
+    },
+    {
+      "figure": "246-ext-left",
+      "states": [
+        "DE",
+        "GA",
+        "MD",
+        "NC",
+        "SC",
+        "VA"
+      ],
+      "mask": 4535502373184
+    },
+    {
+      "figure": "246-ext-left",
+      "states": [
+        "IA",
+        "MI",
+        "MN",
+        "MT",
+        "ND",
+        "OH",
+        "WI"
+      ],
+      "mask": 35188710572544
+    },
+    {
+      "figure": "246-ext-left",
+      "states": [
+        "IL",
+        "IN",
+        "KY",
+        "PA",
+        "WV"
+      ],
+      "mask": 70403103938560
+    },
+    {
+      "figure": "246-int-left",
+      "states": [
+        "AL",
+        "FL",
+        "LA",
+        "MS",
+        "TN"
+      ],
+      "mask": 549760041089
+    },
+    {
+      "figure": "246-int-left",
+      "states": [
+        "AR",
+        "MO",
+        "NE",
+        "SD",
+        "TX",
+        "WY"
+      ],
+      "mask": 142111947096066
+    },
+    {
+      "figure": "246-int-left",
+      "states": [
+        "AZ",
+        "CO",
+        "ID",
+        "KS",
+        "NM",
+        "NV",
+        "OK",
+        "OR",
+        "UT",
+        "WA"
+      ],
+      "mask": 19818589725716
+    },
+    {
+      "figure": "246-int-left",
+      "states": [
+        "CA"
+      ],
+      "mask": 8
+    },
+    {
+      "figure": "246-int-left",
+      "states": [
+        "CT",
+        "MA",
+        "ME",
+        "NH",
+        "NJ",
+        "NY",
+        "RI",
+        "VT"
+      ],
+      "mask": 8867362963488
+    },
+    {
+      "figure": "246-int-left",
+      "states": [
+        "DE",
+        "GA",
+        "MD",
+        "NC",
+        "SC",
+        "VA"
+      ],
+      "mask": 4535502373184
+    },
+    {
+      "figure": "246-int-left",
+      "states": [
+        "IA",
+        "MI",
+        "MN",
+        "MT",
+        "ND",
+        "OH",
+        "WI"
+      ],
+      "mask": 35188710572544
+    },
+    {
+      "figure": "246-int-left",
+      "states": [
+        "IL",
+        "IN",
+        "KY",
+        "PA",
+        "WV"
+      ],
+      "mask": 70403103938560
+    }
+  ],
+  "verified_option_counts": {
+    "broad8": [
+      1926811,
+      355754
+    ],
+    "dc7": [
+      1176310,
+      59551
+    ]
+  },
+  "unresolved34111": {
+    "printed": 34111,
+    "raw": 291282,
+    "literal242": 31685,
+    "restrict_broad_preprocessed": 61526,
+    "allow_ny_exceptions": 33716
+  },
+  "old_censuses_repeated": 0,
+  "old_native_models_revalidated": 0,
+  "population_global_optimality_independently_verified": false,
+  "all_population_witness_costs_valid": true,
+  "all_figurative_population_ranges_valid": false,
+  "F148": true,
+  "F149": true,
+  "source239_original_exercise1035_obtained": false
+}

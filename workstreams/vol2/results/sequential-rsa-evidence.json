@@ -1,0 +1,1170 @@
+{
+  "schema_version": 1,
+  "volume": "vol2",
+  "section": "4.5.4",
+  "checkpoint": "V2-X0147",
+  "updated_at_utc": "2026-11-06T17:54:45.504Z",
+  "review_mode": "statement_and_exercise_arguments",
+  "printed_main_pages": [
+    403,
+    404,
+    405,
+    406,
+    407
+  ],
+  "printed_question_pages": [
+    415,
+    417
+  ],
+  "printed_answer_pages": [
+    664,
+    665,
+    669,
+    670,
+    671
+  ],
+  "scope": "Secret factors through the first paragraph of407. Only exercises32–35,44,47 are paired; other material on read answer pages awaits its block.",
+  "claims": [
+    {
+      "id": "4.5.4-RSA-origin",
+      "printed_page": 403,
+      "claim": "The original RSA publication and its exponent generalization are documented.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "5",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-RSA-security-assessment",
+      "printed_page": 403,
+      "claim": "The historical security assessment is not an unconditional mathematical conclusion.",
+      "status": "partial",
+      "evidence": [
+        "notes/sequential-rsa-2026-11-06.md"
+      ],
+      "argument_section": "Výzkumné úlohy a bezpečnostní hranice",
+      "scope_note": "No general security proof or new error finding is claimed."
+    },
+    {
+      "id": "4.5.4-RSA-box-model",
+      "printed_page": 404,
+      "claim": "The private-factor physical device is an assumed model.",
+      "status": "model_assumption",
+      "evidence": [
+        "notes/sequential-rsa-2026-11-06.md"
+      ],
+      "argument_section": "Výzkumné úlohy a bezpečnostní hranice",
+      "scope_note": "Tamper resistance is stipulated, not independently established."
+    },
+    {
+      "id": "4.5.4-RSA-cube-exponent",
+      "printed_page": 404,
+      "claim": "For distinct large primes with 3 coprime to p−1 and q−1, cubing is a permutation of all residues.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-RSA-private-inverse",
+      "printed_page": 404,
+      "claim": "The modular inverse d can be chosen below phi(N)<N.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-RSA-inversion-nonunits",
+      "printed_page": 404,
+      "claim": "CRT proves (x³)^d=x also for nonunit x.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-RSA-store-d",
+      "printed_page": 404,
+      "claim": "Decryption can use d without storing both factors.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "1",
+      "scope_note": "Knowing d still enables factorization through m=3d−1."
+    },
+    {
+      "id": "4.5.4-RSA-small-message",
+      "printed_page": 404,
+      "claim": "For x³<N the ciphertext is the ordinary integer cube.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-RSA-leading-block",
+      "printed_page": 404,
+      "claim": "The logarithmic leading-block model gives probability approximately 1/3 below N^(1/3).",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "1",
+      "scope_note": "Model-dependent, not a universal distribution of messages."
+    },
+    {
+      "id": "4.5.4-RSA-inversion-not-factoring-proof",
+      "printed_page": 404,
+      "claim": "Knowing an inverse algorithm is not shown equivalent to knowing factors.",
+      "status": "partial",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "5",
+      "scope_note": "Research exercise33 is not solved."
+    },
+    {
+      "id": "4.5.4-RSA-known-d-factor",
+      "printed_page": 404,
+      "claim": "Knowing d supplies an exponent m=3d−1 for the factor reduction.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "1,3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-RSA-frequent-roots-factor",
+      "printed_page": 404,
+      "claim": "An m with a significant density of x^m=1 enables the exercise34 factor algorithm.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-RSA-three-recipient-CRT",
+      "printed_page": 404,
+      "claim": "Three pairwise-coprime moduli reveal the integer cube when x is below each modulus.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "1",
+      "scope_note": "Shared factors are exposed directly by gcd."
+    },
+    {
+      "id": "4.5.4-RSA-seven-timestamps",
+      "printed_page": 405,
+      "claim": "Seven known linear timestamp transformations yield the bounded cubic system of exercise44.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-advanced.md"
+      ],
+      "argument_section": "1–2",
+      "scope_note": "The power-of-two coefficient is a unit for odd RSA moduli; size assumptions retained."
+    },
+    {
+      "id": "4.5.4-RSA-65537-prime",
+      "printed_page": 405,
+      "claim": "65537=2^16+1 is prime.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "1",
+      "scope_note": "Previously verified finite primality fact reused."
+    },
+    {
+      "id": "4.5.4-RSA-65537-cost",
+      "printed_page": 405,
+      "claim": "Binary powering uses 17 modular multiplications rather than 2, ratio8.5.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-RSA-general-exponent",
+      "printed_page": 405,
+      "claim": "Any positive exponent coprime to phi(N) has a modular inverse on all residues.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-RSA-smooth-pminus1-risk",
+      "printed_page": 405,
+      "claim": "Smooth p−1 and q−1 support the earlier order-based factor methods.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-pminusplus.md"
+      ],
+      "argument_section": "1,3–4",
+      "scope_note": "A proper-factor result still requires distinguishing the components."
+    },
+    {
+      "id": "4.5.4-RSA-root-density-defect",
+      "printed_page": 405,
+      "claim": "The printed product bound fails when only one large prime factor is missing from m.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "3",
+      "scope_note": "C0166: p=23,q=47,m=22 gives44/1081, above1/253."
+    },
+    {
+      "id": "4.5.4-RSA-close-primes",
+      "printed_page": 405,
+      "claim": "Close factors make Fermat factoring easier.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-fermat.md"
+      ],
+      "argument_section": "1–2",
+      "scope_note": "Reuse the exact Fermat search bound, not a uniform real-world timing claim."
+    },
+    {
+      "id": "4.5.4-RSA-simple-ratio",
+      "printed_page": 405,
+      "claim": "A small rational approximation to p/q can help Lehman's variant.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-context.md"
+      ],
+      "argument_section": "Lehmanova mez",
+      "scope_note": "Reuse the previously closed multiplier argument."
+    },
+    {
+      "id": "4.5.4-RSA-key-generation-security",
+      "printed_page": 405,
+      "claim": "The proposed key construction is presented as a historical security assessment.",
+      "status": "partial",
+      "evidence": [
+        "notes/sequential-rsa-2026-11-06.md"
+      ],
+      "argument_section": "Výzkumné úlohy a bezpečnostní hranice",
+      "scope_note": "No unconditional unbreakability conclusion."
+    },
+    {
+      "id": "4.5.4-RSA-first-prime-trials",
+      "printed_page": 405,
+      "claim": "The first approximately90 odd-candidate estimate comes from a prime-density model.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "5",
+      "scope_note": "Not a worst-case prime-gap theorem."
+    },
+    {
+      "id": "4.5.4-RSA-50-tests",
+      "printed_page": 405,
+      "claim": "Fifty independent strong probable-prime trials have fixed-composite error at most2^−100.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/primality-probabilistic.md"
+      ],
+      "argument_section": "Strong-liar bound",
+      "scope_note": "This is not a posterior probability for every possible candidate source."
+    },
+    {
+      "id": "4.5.4-RSA-k-congruences",
+      "printed_page": 405,
+      "claim": "Even k with k≡p1 mod3 makes kp1+1 congruent to2 mod3.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "5",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-RSA-progression-trials",
+      "printed_page": 405,
+      "claim": "The second approximately90-trial estimate uses the progression density.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "5",
+      "scope_note": "Explicit heuristic, not a uniform finite-gap bound."
+    },
+    {
+      "id": "4.5.4-RSA-key-digit-estimates",
+      "printed_page": 405,
+      "claim": "The construction has approximately120- and130-digit factors and a250-digit product.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "5",
+      "scope_note": "Order-of-magnitude estimates with the stated ranges."
+    },
+    {
+      "id": "4.5.4-RSA-pplus1-check",
+      "printed_page": 405,
+      "claim": "The earlier p+1 method motivates the additional smoothness check.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-pminusplus.md"
+      ],
+      "argument_section": "5–6",
+      "scope_note": "No claim of a complete security criterion."
+    },
+    {
+      "id": "4.5.4-RSA-year-conversion",
+      "printed_page": 405,
+      "claim": "365.2425 days give31,556,952,000,000 microseconds per year.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "5",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-RSA-hypothetical-runtime",
+      "printed_page": 405,
+      "claim": "10^25 microseconds are approximately3.1688·10^11 years.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "5",
+      "scope_note": "Conditional illustration, not a measured factoring time."
+    },
+    {
+      "id": "4.5.4-RSA-parallel-illustration",
+      "printed_page": 405,
+      "claim": "Ideal division of that illustrative workload by10^10 gives approximately31.688 years.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "5",
+      "scope_note": "Assumes the stipulated scaling."
+    },
+    {
+      "id": "4.5.4-RSA-published-public-key",
+      "printed_page": 406,
+      "claim": "Known errata distinguish first publication from earlier unpublished work.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-history.md"
+      ],
+      "argument_section": "2–3",
+      "scope_note": "Published correction, excluded from findings."
+    },
+    {
+      "id": "4.5.4-RSA-signature-composition",
+      "printed_page": 406,
+      "claim": "With appropriate block encodings, E_A(D_A(M)) restores M after outer B decryption.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "5",
+      "scope_note": "Algebraic correctness only; not a proof of general unforgeability."
+    },
+    {
+      "id": "4.5.4-RSA-recipient-replay",
+      "printed_page": 406,
+      "claim": "Re-encrypting a received inner signature lets its recipient forward it.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "5",
+      "scope_note": "Binding the recipient is the described protocol precaution."
+    },
+    {
+      "id": "4.5.4-RSA-directory-substitution",
+      "printed_page": 406,
+      "claim": "Substituting an attacker-controlled public modulus lets that party decrypt subsequent encryption.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "5",
+      "scope_note": "A direct attack in the described unauthenticated-directory model."
+    },
+    {
+      "id": "4.5.4-RSA-directory-security",
+      "printed_page": 406,
+      "claim": "The signed-directory discussion requires a trusted key and a suitable signature security model.",
+      "status": "partial",
+      "evidence": [
+        "notes/sequential-rsa-2026-11-06.md"
+      ],
+      "argument_section": "Výzkumné úlohy a bezpečnostní hranice",
+      "scope_note": "Generic unforgeability is not established here."
+    },
+    {
+      "id": "4.5.4-Rabin-f-signs",
+      "printed_page": 406,
+      "claim": "f=(p^(q−1)−q^(p−1)) mod N is−1 modulo p and+1 modulo q.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-Rabin-four-roots",
+      "printed_page": 406,
+      "claim": "Unit squares have roots x,−x,fx,−fx.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "4",
+      "scope_note": "Nonunit squares have fewer distinct roots; explicit minor qualification, no new card."
+    },
+    {
+      "id": "4.5.4-Rabin-even-half",
+      "printed_page": 406,
+      "claim": "Parity or a half-interval selects two of the four unit roots.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-Rabin-factor-reduction",
+      "printed_page": 407,
+      "claim": "A square-root oracle disagrees with±x with probability1/2 on a random unit square.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-Rabin-gcd-factor",
+      "printed_page": 407,
+      "claim": "A nontrivial pair of square roots exposes p or q through gcd.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-Rabin-oracle-implication",
+      "printed_page": 407,
+      "claim": "Access to a suitable square-root service permits the stated factor reduction.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "4",
+      "scope_note": "The analogous general RSA reduction is not proved."
+    },
+    {
+      "id": "4.5.4-ex32-original-boundary",
+      "printed_page": 664,
+      "claim": "The unpadded branch admits x=floor(cuberoot(N)), whose cube is still below N.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "2",
+      "scope_note": "C0167 persists after the known strict-upper-bound correction."
+    },
+    {
+      "id": "4.5.4-ex32-corrected-parameters",
+      "printed_page": 664,
+      "claim": "B=ceil(cuberoot(N)), J=floor(N/B), H=(J−B)B define a repaired scheme for N>=28.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-ex32-separated-ranges",
+      "printed_page": 664,
+      "claim": "Padded and unpadded representatives occupy disjoint ranges inside[B,N).",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-ex32-decoder",
+      "printed_page": 664,
+      "claim": "The threshold decoder and remainder modulo B recover the original message.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-ex32-no-small-cube",
+      "printed_page": 664,
+      "claim": "Every repaired representative is at least B and ciphertext cannot be an unreduced small cube.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-ex32-capacity",
+      "printed_page": 664,
+      "claim": "The capacity loss is B²+(N mod B)=O(N^(2/3)).",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "2",
+      "scope_note": "Repairs the stated leakage only, not full encryption security."
+    },
+    {
+      "id": "4.5.4-ex33-research",
+      "printed_page": 415,
+      "claim": "The requested unrestricted reduction from RSA inversion to factoring is not obtained.",
+      "status": "partial",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "5",
+      "scope_note": "The archived2024 generic-model result does not solve the general exercise."
+    },
+    {
+      "id": "4.5.4-ex34-prime-root-density",
+      "printed_page": 664,
+      "claim": "For uniform residues the root probabilities are P=gcd(m,p−1)/p and Q=gcd(m,q−1)/q.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-ex34-factor-probability",
+      "printed_page": 664,
+      "claim": "Exactly one prime divides x^m−1 with probability P+Q−2PQ.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-ex34-small-density-case",
+      "printed_page": 664,
+      "claim": "When one probability is at most1/2 and PQ>=10^−12, success is at least2(10^−6−10^−12).",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-ex34-runtime",
+      "printed_page": 664,
+      "claim": "This gives order10^6 log(m) modular operations in expectation.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-ex34-large-density-case",
+      "printed_page": 664,
+      "claim": "If P,Q>1/2, m is a multiple of lcm(p−1,q−1).",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-ex34-two-adic-distribution",
+      "printed_page": 664,
+      "claim": "The exact probability of equal two-adic component orders is at most1/2.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-ex34-square-chain",
+      "printed_page": 664,
+      "claim": "A differing two-adic order gives a nontrivial square root of one and a factor.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "3",
+      "scope_note": "Use a gcd pretest for nonunits."
+    },
+    {
+      "id": "4.5.4-ex35-minus",
+      "printed_page": 664,
+      "claim": "J(−1)=1.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-ex35-two",
+      "printed_page": 664,
+      "claim": "J(2)=−1.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-ex35-f",
+      "printed_page": 664,
+      "claim": "J(f)=−1.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-ex35-identities",
+      "printed_page": 664,
+      "claim": "J(−x)=J(x)=−J(2x), including the zero-symbol case.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-ex35-representatives",
+      "printed_page": 664,
+      "claim": "The candidates4x+2 and8x+4 fit0<z<N in the stated message range.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-ex35-symbol-choice",
+      "printed_page": 664,
+      "claim": "At least one candidate has Jacobi symbol>=0.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "4",
+      "scope_note": "Apply the known2004 zero-symbol correction."
+    },
+    {
+      "id": "4.5.4-ex35-unit-uniqueness",
+      "printed_page": 665,
+      "claim": "Among unit square roots there is one even root with positive Jacobi symbol.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-ex35-nonunit-uniqueness",
+      "printed_page": 665,
+      "claim": "A nonzero nonunit square has two opposite roots and exactly one even root.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-ex35-decoding",
+      "printed_page": 665,
+      "claim": "The mod4 branch and floor by4 or8 recover x.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-ex35-false-input-reduction",
+      "printed_page": 665,
+      "claim": "An input with negative Jacobi symbol forces a different root class and reveals a factor.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-ex35-message-only-output",
+      "printed_page": 665,
+      "claim": "If only the decoded message is returned, three possible representatives suffice to find the returned root.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-ex35-valid-ciphertext-promise",
+      "printed_page": 665,
+      "claim": "More than half of unit squares are valid ciphertexts, preserving the factor reduction under that promise.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "argument_section": "4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-ex44-LLL-input",
+      "printed_page": 417,
+      "claim": "The stated lattice short-vector guarantee is the supplied algorithmic input.",
+      "status": "external_input",
+      "evidence": [
+        "notes/rsa-advanced.md"
+      ],
+      "argument_section": "1",
+      "scope_note": "LLL is an explicitly named external theorem, not independently reproved in this block."
+    },
+    {
+      "id": "4.5.4-ex44-generalization",
+      "printed_page": 669,
+      "claim": "The answer treats degree<d with k=d(d−1)/2+1 congruences.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-advanced.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-ex44-CRT",
+      "printed_page": 670,
+      "claim": "The coefficients u_i isolate each modulus.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-advanced.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-ex44-matrix",
+      "printed_page": 670,
+      "claim": "The triangular block matrix encodes the congruences and has nonzero determinant.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-advanced.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-ex44-determinant",
+      "printed_page": 670,
+      "claim": "det(L)=M^(n−1)m^(k−1)d^−k.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-advanced.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-ex44-integral-scaling",
+      "printed_page": 670,
+      "claim": "Scaling L by d clears denominators without changing the short-vector comparison.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-advanced.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-ex44-length-bound",
+      "printed_page": 670,
+      "claim": "The stated lower bound on m implies length(vL)<M/d.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-advanced.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-ex44-numeric-threshold",
+      "printed_page": 669,
+      "claim": "For d=4,n=11, the exact threshold is below10^27.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-advanced.md"
+      ],
+      "argument_section": "1",
+      "scope_note": "Reuse the saved integer-square-root comparison."
+    },
+    {
+      "id": "4.5.4-ex44-polynomial-congruences",
+      "printed_page": 670,
+      "claim": "The short vector defines a polynomial P with P(x) divisible by every m_i.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-advanced.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-ex44-small-polynomial-value",
+      "printed_page": 670,
+      "claim": "The coefficient length bounds and |x|<m give |P(x)|<M, hence P(x)=0.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-advanced.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-ex44-nonzero-polynomial",
+      "printed_page": 670,
+      "claim": "The collective gcd assumption and the last coordinates prevent P from vanishing identically.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-advanced.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-ex44-candidate-count",
+      "printed_page": 670,
+      "claim": "The nonzero polynomial has at most d−1 candidate roots.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-advanced.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-ex44-root-algorithm",
+      "printed_page": 670,
+      "claim": "Bounded integer roots can be isolated and checked in polynomial time for fixed d.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-advanced.md"
+      ],
+      "argument_section": "2",
+      "scope_note": "Sturm's theorem is an explicit input; the dyadic interval algorithm is given."
+    },
+    {
+      "id": "4.5.4-ex44-total-bit-cost",
+      "printed_page": 670,
+      "claim": "Fixed dimension, reduced coefficients and root checks give polynomial time in log M.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-advanced.md"
+      ],
+      "argument_section": "1–2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-ex44-bibliography-year",
+      "printed_page": 670,
+      "claim": "The cited LNCS218 volume is dated1986, not1985.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-advanced.md"
+      ],
+      "argument_section": "5",
+      "scope_note": "Existing low-severity finding C0168; mathematical argument unchanged."
+    },
+    {
+      "id": "4.5.4-ex47-original-input",
+      "printed_page": 417,
+      "claim": "The original modulus and two ciphertexts were compared with the typesetting.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-advanced.md"
+      ],
+      "argument_section": "3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-ex47-factor1",
+      "printed_page": 417,
+      "claim": "Original factor1 is prime and has25 decimal digits.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-advanced.md"
+      ],
+      "argument_section": "3",
+      "scope_note": "Reuse the independently checked ECPP/Lucas certificates."
+    },
+    {
+      "id": "4.5.4-ex47-factor2",
+      "printed_page": 417,
+      "claim": "Original factor2 is prime and has91 decimal digits.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-advanced.md"
+      ],
+      "argument_section": "3",
+      "scope_note": "Reuse the independently checked ECPP/Lucas certificates."
+    },
+    {
+      "id": "4.5.4-ex47-factor3",
+      "printed_page": 417,
+      "claim": "Original factor3 is prime and has97 decimal digits.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-advanced.md"
+      ],
+      "argument_section": "3",
+      "scope_note": "Reuse the independently checked ECPP/Lucas certificates."
+    },
+    {
+      "id": "4.5.4-ex47-factor-product",
+      "printed_page": 417,
+      "claim": "The three factors multiply exactly to the original211-digit modulus.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-advanced.md"
+      ],
+      "argument_section": "3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-ex47-cube-permutation",
+      "printed_page": 417,
+      "claim": "All three primes are2 modulo3, making cubing bijective on all residues.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-advanced.md"
+      ],
+      "argument_section": "3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-ex47-block1",
+      "printed_page": 417,
+      "claim": "Original ciphertext block1 decrypts correctly and recubing reproduces the input.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-advanced.md"
+      ],
+      "argument_section": "3",
+      "scope_note": "Saved direct powering, independent binary powering and CRT results reused."
+    },
+    {
+      "id": "4.5.4-ex47-block2",
+      "printed_page": 417,
+      "claim": "Original ciphertext block2 decrypts correctly and recubing reproduces the input.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-advanced.md"
+      ],
+      "argument_section": "3",
+      "scope_note": "Saved direct powering, independent binary powering and CRT results reused."
+    },
+    {
+      "id": "4.5.4-ex47-ASCII",
+      "printed_page": 417,
+      "claim": "The original blocks decode to the archived literary quotation.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-advanced.md"
+      ],
+      "argument_section": "3",
+      "scope_note": "Source text and byte lengths are archived; no new quotation copied here."
+    },
+    {
+      "id": "4.5.4-ex47-replacement-input",
+      "printed_page": 417,
+      "claim": "The2012 replacement has318 decimal digits and1056 bits, with matching decimal and hexadecimal sources.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-advanced.md"
+      ],
+      "argument_section": "4",
+      "scope_note": "Replacement erratum page visually checked."
+    },
+    {
+      "id": "4.5.4-ex47-replacement-composite",
+      "printed_page": 417,
+      "claim": "A saved Fermat witness proves the replacement modulus composite.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-advanced.md"
+      ],
+      "argument_section": "4",
+      "scope_note": "This does not provide factors or plaintext."
+    },
+    {
+      "id": "4.5.4-ex47-replacement-unresolved",
+      "printed_page": 417,
+      "claim": "The replacement cipher has not been factored or decoded in this audit.",
+      "status": "partial",
+      "evidence": [
+        "notes/rsa-advanced.md"
+      ],
+      "argument_section": "4",
+      "scope_note": "Research gap, not a new book error."
+    },
+    {
+      "id": "4.5.4-RSA-X509-reference",
+      "printed_page": 405,
+      "claim": "The original1989 Blue Book annex has the cited65537 exponent and operation count.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-history.md"
+      ],
+      "argument_section": "1",
+      "scope_note": "Published recommendation date1988 is distinguished from the book date1989."
+    },
+    {
+      "id": "4.5.4-RSA-Cocks-transformation",
+      "printed_page": 407,
+      "claim": "The1973 report's x^(pq) transformation is invertible under its stated coprimality conditions.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-history.md"
+      ],
+      "argument_section": "2",
+      "scope_note": "The primary report is available as a later typeset transcript."
+    },
+    {
+      "id": "4.5.4-RSA-Cocks-disclosure",
+      "printed_page": 407,
+      "claim": "The archived official announcement distinguishes1973 internal work from1997 disclosure.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-history.md"
+      ],
+      "argument_section": "2",
+      "scope_note": "Known2010 addendum; no new finding."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "4.5.4-32",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "review_scope": "Original question, answer and relevant published replacement paired with the saved arguments.",
+      "scope_note": "Prior proofs and computations reused without reruns; corrections retained in the evidence."
+    },
+    {
+      "id": "4.5.4-33",
+      "status": "partial",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "review_scope": "Original question, answer and relevant published replacement paired with the saved arguments.",
+      "scope_note": "No unrestricted RSA-inversion-to-factoring reduction was obtained."
+    },
+    {
+      "id": "4.5.4-34",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "review_scope": "Original question, answer and relevant published replacement paired with the saved arguments.",
+      "scope_note": "Prior proofs and computations reused without reruns; corrections retained in the evidence."
+    },
+    {
+      "id": "4.5.4-35",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-basic.md"
+      ],
+      "review_scope": "Original question, answer and relevant published replacement paired with the saved arguments.",
+      "scope_note": "Prior proofs and computations reused without reruns; corrections retained in the evidence."
+    },
+    {
+      "id": "4.5.4-44",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/rsa-advanced.md"
+      ],
+      "review_scope": "Original question, answer and relevant published replacement paired with the saved arguments.",
+      "scope_note": "Prior proofs and computations reused without reruns; corrections retained in the evidence."
+    },
+    {
+      "id": "4.5.4-47",
+      "status": "partial",
+      "evidence": [
+        "notes/rsa-advanced.md"
+      ],
+      "review_scope": "Original question, answer and relevant published replacement paired with the saved arguments.",
+      "scope_note": "Original cipher solved; the2012 replacement is not solved."
+    }
+  ],
+  "next_cursor": {
+    "printed_page": 407,
+    "file_page": 419,
+    "target": "The largest known primes"
+  },
+  "new_computation": [],
+  "new_confirmed_findings": []
+}

@@ -1,0 +1,765 @@
+{
+  "reviewed_utc": "2026-11-02T09:36:02.906085+00:00",
+  "paths_relative_to": "repository root",
+  "scope": "Four original first pages, exact remaining11 pages and Dwyer candidate only",
+  "successful_tests_repeated": false,
+  "files": [
+    {
+      "path": "workstreams/vol1/notes/tree-traversal-originals-root-review.md",
+      "bytes": 4778,
+      "sha256": "78eda3a32392d9aa455e7ef506c3672bc1c0ca434bc36530c9d562bb8841ddfc"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/FINAL_MANIFEST.json",
+      "bytes": 26564,
+      "sha256": "1f6df0eede9a157a0aefddf8caf15214336d8f5828d01c645c590687398637bd"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/HANDOFF.md",
+      "bytes": 1742,
+      "sha256": "cd278ea6def4bc533f384756c1d649746a33f59a098beb80795f3cd93683bae0"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/MANIFEST.json",
+      "bytes": 25995,
+      "sha256": "7795b95c946dfc0779c691e68cd3bd935c57a3bdb3e09fc2db60676a2d244d47"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/REPORT.md",
+      "bytes": 2486,
+      "sha256": "ccea60aeab0f28ad8ccd789bb6dd1b2093e3a2b4ddd726e5fcdce63ac4efb7b4"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/SOURCE_STATUS.json",
+      "bytes": 7248,
+      "sha256": "76829108ab1640eb4f1d0ab2715b3988152f277a1fde42721e5bea5c57aadcd7"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/UNIT_STATUS.json",
+      "bytes": 1964,
+      "sha256": "c50600ac8fcad58d51ee3ebd6f66eff1c2165f8ffc30717820beff59dca54993"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/images/dwyer-firstpage.png",
+      "bytes": 272252,
+      "sha256": "30feb02be1c0e39bc81db9155c5923da5da0a644b3791aa3b57eb7938e2c1d9f"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/images/errata-all1-15.png",
+      "bytes": 143066,
+      "sha256": "9df18811ce5ae69944204bbe5b944a42d1e4f77d67c953b3e86a3d590aa9058e"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/images/errata-all1-9.png",
+      "bytes": 118834,
+      "sha256": "e12646bf269edb9ff7636dc5c6911c68a324fbae7a835a703d98af899c89659e"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/images/errata-all1-pre-12.png",
+      "bytes": 141255,
+      "sha256": "7ff71f1d6c299a931f7fb9afc866800a768f44de83c70fc0892f0f37415e93d5"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/images/errata-all1-pre-17.png",
+      "bytes": 120579,
+      "sha256": "e54a33ae9caad9276fa200e20d484d3f3e31adffacfe4988aa018e3a0fc3c183"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/images/errata-all1-prepre-22.png",
+      "bytes": 120822,
+      "sha256": "7f9408e77ccc4b28aadf6a5d2374a3dc1ca2d7f715bd638bb06bedc56d9a1dba"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/images/errata-all1-prepre-23.png",
+      "bytes": 98161,
+      "sha256": "8cd4873a716c0b3a2072c391f882ec1eef9d44bef8587d5f35055f43bd8a8882"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/images/errata-all1-prepre-42.png",
+      "bytes": 101445,
+      "sha256": "9fb0f3ed174d6eedec0c21fa253030c27b3b8c9f0a0dcf25362c17d0e7eb1d99"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/images/errata-err1-13.png",
+      "bytes": 142004,
+      "sha256": "224ba9c5746f0025fb960851c049e22556d61e55df0d9625af77094db5b9cf67"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/images/errata-err1-8.png",
+      "bytes": 115997,
+      "sha256": "65c3111dd095dd72835a0a6af72141487bfc91cb0abd88f454e92236924ffec3"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/images/ipl-index-1.png",
+      "bytes": 301131,
+      "sha256": "527351af63c31e20497155d4a9309ef66768d82f548ab92ca68e906da320cf9c"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/images/ipl-index-13.png",
+      "bytes": 368600,
+      "sha256": "be79c0a3eaa57cfab8a3f90cd3a4404dec476bd9928bbb2bb4a0177806d1b5e5"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/images/ipl-index-2.png",
+      "bytes": 348944,
+      "sha256": "5419028cd3a20b0929852c73be249f8b3c2289d82b488085e9bf758f5d7cd803"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/images/ipl-index-3.png",
+      "bytes": 377956,
+      "sha256": "f9e36bb1c45b289a8183c283be6c64ea6d69fca0eff7367190d05d51a3325caa"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/images/lindstrom1973-firstpage.png",
+      "bytes": 200728,
+      "sha256": "f5349c41e53aa4cdbe0fa3c79d393d609ed8e94ad515df3d449cab449a6d6c3e"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/images/morris1979-firstpage.png",
+      "bytes": 291136,
+      "sha256": "1c6241e2a27065395a465b653f53f347969a558f65f7fe6050969b76c6f78194"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/images/robson1973-firstpage.png",
+      "bytes": 258403,
+      "sha256": "d79440653a6c9b46a138319b1fda15f59f9f5f7bbca2ff2f96194cfff7a62038"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/notes/access.md",
+      "bytes": 5249,
+      "sha256": "3f4303097a919f39bb807d76cd4241bf79a7804e09998d6ba6f089a51b7a20e6"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/notes/dwyer-year.md",
+      "bytes": 5154,
+      "sha256": "aa639a9d360a37a00e5aa28ba1c1edc086a894acd79c4303887a1458967971be"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/notes/first-pages.md",
+      "bytes": 7660,
+      "sha256": "198b590f0d39c9028caff6443e54371b4da220751ae0a3a410ee8adfbd67789d"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/progress.json",
+      "bytes": 643,
+      "sha256": "f8193bf0615ad5319f0fb476f62cea63edd23e158274ad8b96ff9c8b1136c476"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/results/additional-read-only-dependencies.json",
+      "bytes": 3354,
+      "sha256": "c12d1430b3ff377b9670a7677a6ba3b46a9cba30e0ebb216afaae4c75dbf0efb"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/results/common-read-only-dependencies.json",
+      "bytes": 3009,
+      "sha256": "0c2df1b63d70f8f395d5428a9344520054b90244b34d280d9c0010bc2e29d408"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/results/dwyer-date-extraction.json",
+      "bytes": 1272,
+      "sha256": "25b4aad942b094a08415f1e63fbd451b909913b342eeab1d61a7bb434f5c9004"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/results/dwyer-year-manifest.json",
+      "bytes": 8251,
+      "sha256": "62efd8f04d9d75bc6a25267ee57d7d3ad6b3191f6bbdbe719d1e9e20623aa41e"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/results/dwyer1974-firstpage-archive-pdfinfo.txt",
+      "bytes": 472,
+      "sha256": "f468dd70875e5130158ce0862ce22b6a154cfd701f4f5d13ba4004889fbe1ad1"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/results/errata-complete-search.json",
+      "bytes": 5958,
+      "sha256": "f851895222dc89d977d17f86c7469e40863c0da9f76136708492188dd4d147ba"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/results/errata-search.json",
+      "bytes": 4259,
+      "sha256": "db33efadcc6864df2a9a57ce9485acc836e4bde20fb8a4f7b8a6a750bbcb6e11"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/results/final-validation.json",
+      "bytes": 615,
+      "sha256": "3fa21fb33a97a47fca4f1943ad4dbc59e32b2143814f9ce0e559e0d1bb36d99b"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/results/input-ledger-excerpt.json",
+      "bytes": 888,
+      "sha256": "ed6465109ed22b939e9c3a15a726f91abd7f5ed1429047e73edac317d0f26495"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/results/lindstrom1973-firstpage-archive-pdfinfo.txt",
+      "bytes": 302,
+      "sha256": "373b50c0421aac3f5a0ca6e67ead609a42ed1531bac6edafedb3df52a9c45305"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/results/morris1979-firstpage-archive-2019-pdfinfo.txt",
+      "bytes": 472,
+      "sha256": "bdd930c889b1dbfa939d76b2b100548c9c94af63c2eeb8c2aa621a717bf95ff1"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/results/robson1973-firstpage-archive-pdfinfo.txt",
+      "bytes": 302,
+      "sha256": "b9850159395368f701c9eb8ade684919a1eeafcce8c1b67d217082e06dcf0bb1"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/results/transfer-inventory.json",
+      "bytes": 18306,
+      "sha256": "78d09efa6aeb00b726273ab32aab52438765e91eac5cde88d27e51f375aa4ebf"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/retrieve_sources.py",
+      "bytes": 2217,
+      "sha256": "ac22aac9a6fd90ca632ff7676e23018e7cb991b48262d57f8f251c06e546e07b"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/dwyer-crossref.json",
+      "bytes": 2744,
+      "sha256": "b3d8ccf4368bf217f18900cdcfe6b33a04a0f1bf0f8968766f8a9ebb58c709e8"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/dwyer-crossref.metadata.json",
+      "bytes": 454,
+      "sha256": "8183bdb0eebd30d467702e6b64327a67a7a6b62f3b7340beca01585099aa3b21"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/dwyer-issue-archive.html",
+      "bytes": 196480,
+      "sha256": "562a509b6f63b88c74500489420560015a1ad2cc84d7d84967d7609b2c75813a"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/dwyer-issue-archive.metadata.json",
+      "bytes": 607,
+      "sha256": "6c3bfdd98b22eccf26b67e8a3c6a6c74fcf314cc69f0f32d4363885285071c1b"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/dwyer1974-article-archive.html",
+      "bytes": 48707,
+      "sha256": "fe524a4c0f0f15a0a9ac93d043a6770c20b41bcb6de0ce035aad477f4cef532c"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/dwyer1974-article-archive.metadata.json",
+      "bytes": 588,
+      "sha256": "963773cb407f80adf2ce677130287351275c53ab19b6120a686b8cbea2a0bd34"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/dwyer1974-cdx-pdf.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/dwyer1974-cdx-pdf.metadata.json",
+      "bytes": 662,
+      "sha256": "744426b2b115cb117a8ade69bf9182636f765a2d06187dc911848619221049f0"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/dwyer1974-cdx-sdfe.json",
+      "bytes": 188,
+      "sha256": "f3c7b43b4aacbe9b4855cebd41d620e2917555f8515900195f497a3c2f676ef1"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/dwyer1974-cdx-sdfe.metadata.json",
+      "bytes": 747,
+      "sha256": "ac89a549b8392711843b5998ddc56e133cf6aa1837da07100831252983b01a0d"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/dwyer1974-elsevier-archive.html",
+      "bytes": 4719,
+      "sha256": "21efc37b27f895e0e830f1ab5bc20b13b14a19d86ed52567e056258d31457333"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/dwyer1974-elsevier-archive.metadata.json",
+      "bytes": 573,
+      "sha256": "5337c64a65a2fc0c015d51d09309ab140f49885f1d1a1635acba7944de67d544"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/dwyer1974-firstpage-archive.metadata.json",
+      "bytes": 620,
+      "sha256": "549963d853b8046c501430c9ecac05791fe849a839daa9034c8ee6b6fa54f1f2"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/dwyer1974-firstpage-archive.pdf",
+      "bytes": 130427,
+      "sha256": "5d0858470df363897716bda95d8d8ed50f4bfe526b4cfe1d15fbdc30ac56863e"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/dwyer1974-firstpage-archive.txt",
+      "bytes": 4384,
+      "sha256": "269ffe2cdef0392cbe82c57e351d56831c31d484dc850e824876699ae829646e"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/dwyer1974-firstpage-current.html",
+      "bytes": 832979,
+      "sha256": "3a4d70e452cd86a73090684b40869dabf425a3c3c6236943e4afbdd563650aa6"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/dwyer1974-firstpage-current.metadata.json",
+      "bytes": 539,
+      "sha256": "2cda9b24492f2b9ebbd6c100d58ac7bb665a5cda14d3a977a3aa2a50f708d9fc"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/dwyer1974-publisher-pdf-locator-archive.metadata.json",
+      "bytes": 733,
+      "sha256": "e34d0604adb4ea90135a9a8de9777371ec8eb7fa27308c33b6e2733d36178805"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/dwyer1974-publisher-pdf-locator.metadata.json",
+      "bytes": 644,
+      "sha256": "09c16008fc64c469e1d05681758707faf77af5b58efa91e7dd466cfb596bd55e"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/dwyer1974-publisher-pdf-locator.xml",
+      "bytes": 243,
+      "sha256": "2a89d07bd4e30f54062389c5db3341ac52ced19765069201c052ee4cf3c5bcdc"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/ia-ipl-search-all.json",
+      "bytes": 15374,
+      "sha256": "8e42673e2d0e562980efde7d6dc752ece00d36ef2db0d6e13a761ca26c2e7b51"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/ia-ipl-search-all.metadata.json",
+      "bytes": 622,
+      "sha256": "b837f1c1bdf28501696b90d88aaf067ded47739a980c7ec8d7aaa37d458ccca7"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/ia-ipl-search.json",
+      "bytes": 6870,
+      "sha256": "8816244fdfcc7a0f90c3fc81c162b0b8259366b1d1bc487e15c23eeb1db2c040"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/ia-ipl-search.metadata.json",
+      "bytes": 615,
+      "sha256": "06ca0bafcd0fc1b73c9debab7d30f3d474259c4fc92da7382ef15940a5cb40c1"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/ipl-wroclaw-articlerefindex.metadata.json",
+      "bytes": 454,
+      "sha256": "5da90e2bcc285bcc2b444bcb81e60eb5c499d82e4923cbcfb1a83b7a48593199"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/ipl-wroclaw-articlerefindex.pdf",
+      "bytes": 822123,
+      "sha256": "f81ed0fee4a828269a6f4f0d3500a8a0fd3f4d2b68a157eb5fdaf2bec689623a"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/ipl-wroclaw-articlerefindex.txt",
+      "bytes": 483534,
+      "sha256": "54f5207868dff7921dd76291baa525412c5cad4981192ddc0c21de0668f9458d"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/ipl-wroclaw-index.html",
+      "bytes": 9077,
+      "sha256": "79ff786ba155ce1c8ec5d333a5874d7f28b16318c5543e60e02468c743dc761d"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/ipl-wroclaw-index.metadata.json",
+      "bytes": 414,
+      "sha256": "ce9f83d16afc426b27e35aaa7672d5262049a5fa45d00f7375fd8edb9c642238"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/ipl-wroclaw-www-index.html",
+      "bytes": 9077,
+      "sha256": "79ff786ba155ce1c8ec5d333a5874d7f28b16318c5543e60e02468c743dc761d"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/ipl-wroclaw-www-index.metadata.json",
+      "bytes": 422,
+      "sha256": "58bf8e1bff84c51e4aa1de4075999d8d4985bec86e5986fd60b9b37ee2275603"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/lindstrom1973-ars-pdf.metadata.json",
+      "bytes": 473,
+      "sha256": "09dd76bfb9215ecf8b30f4473e2be6f8fecbb7a747e29a1fab553b9cfa116ef6"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/lindstrom1973-ars-pdf.xml",
+      "bytes": 219,
+      "sha256": "49425dc0ea547dc39d219dfee3a4c14132eb7026d027f3bf0453f76814ff2029"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/lindstrom1973-cdx-pdf.html",
+      "bytes": 11832,
+      "sha256": "e084d527921708642a79724e9f0210da659bbc0905c6ce9a3a1f416e4628091c"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/lindstrom1973-cdx-pdf.metadata.json",
+      "bytes": 663,
+      "sha256": "6639a7ec98d991220a4a638b1877b93db1e5cf0fcf9ac95ee7fa4b6a65f25469"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/lindstrom1973-cdx-sdfe.json",
+      "bytes": 188,
+      "sha256": "7562d5da793eb617e7c2df9ed8629cabf526082f5c39375929be09d5b043294a"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/lindstrom1973-cdx-sdfe.metadata.json",
+      "bytes": 751,
+      "sha256": "aa18ade6e3fca54f36762a90773b98039701b7d5a6a709ad24104949fe20bec3"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/lindstrom1973-firstpage-archive.metadata.json",
+      "bytes": 624,
+      "sha256": "8ebdb9f4472cdcb01cf9e63f7b48da3b1fd07f9d52af18fb0305705387e12e3c"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/lindstrom1973-firstpage-archive.pdf",
+      "bytes": 109496,
+      "sha256": "6409dfe7eb363c40bdeebb80a4960e223a1fe57633ff78ff7f09b5cca45f30a5"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/lindstrom1973-firstpage-archive.txt",
+      "bytes": 1008,
+      "sha256": "d93675a84a9b8e2d3482d8983213ad76f39afc4d28d77fb8fee5cb089163d53c"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/lindstrom1973-sd-archive-query.html",
+      "bytes": 4733,
+      "sha256": "ec279d4488efa62d679ce869df86a93e8391e6ba85204c10a23a2a89fe33d7ee"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/lindstrom1973-sd-archive-query.metadata.json",
+      "bytes": 605,
+      "sha256": "d0a41cf6af5e0c1ddd899f36548ce8d203c0e98f00980937baf992022b7a7d1e"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/morris-author-old.html",
+      "bytes": 14212,
+      "sha256": "b74b550a387774fc519fdf3b902bd73507cc0bdc3d1d51f8a16267ade32eead4"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/morris-author-old.metadata.json",
+      "bytes": 426,
+      "sha256": "f62fc8333d9bc59a8aa6754f34fee7d0510555c01d85b0634772d24303966f16"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/morris-fatcat-lookup.metadata.json",
+      "bytes": 533,
+      "sha256": "81ab1cfe1960b69e28554f5428dd36e76ee1800bd6935dbb50eba06f74d4f165"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/morris-tue-institutional-search.html",
+      "bytes": 127464,
+      "sha256": "18ffcac83519410ce23035e154e6dfd8f44dfdf7961d652a26f54c8d2cc9b497"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/morris-tue-institutional-search.metadata.json",
+      "bytes": 548,
+      "sha256": "e0a30021cedb68a05106848075c34c81148878a1fca0b747455be9ad13b6f107"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/morris1979-acm-archive.html",
+      "bytes": 4658,
+      "sha256": "a2cc5c95b47c29e6ba48872210036f805eca95914034a76729c02d018b211317"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/morris1979-acm-archive.metadata.json",
+      "bytes": 567,
+      "sha256": "29e54603e17eec2b37347fb670e743bab3daaac7c3f07ba0378a71f69de976c4"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/morris1979-ars-pdf.metadata.json",
+      "bytes": 470,
+      "sha256": "9ad1ba82acf16fe553181ee53b43e983ba21d9d0b4970c83cdf37dd37801c664"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/morris1979-ars-pdf.xml",
+      "bytes": 219,
+      "sha256": "49425dc0ea547dc39d219dfee3a4c14132eb7026d027f3bf0453f76814ff2029"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/morris1979-article-archive-2010.html",
+      "bytes": 76308,
+      "sha256": "9037488d4bd482f1f3996fb0bfeebd8ae72437009f166ecc7f2c2b0d570b124e"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/morris1979-article-archive-2010.metadata.json",
+      "bytes": 590,
+      "sha256": "3c9dc86e3adb9ca702e98cbac7a99ffbcc6f943a20badb9f2f07d5d5f8fdd67f"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/morris1979-cdx-els-cdn.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/morris1979-cdx-els-cdn.metadata.json",
+      "bytes": 613,
+      "sha256": "a054f2fdad297815fb6869b976bee413fbdbb106585999f43d5cd1c6f39faac3"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/morris1979-cdx-firstpage.json",
+      "bytes": 325,
+      "sha256": "ea0c9166c3959ac0f1d7e3064e209c98f8799703e2fcf74303eba20366d7b904"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/morris1979-cdx-firstpage.metadata.json",
+      "bytes": 843,
+      "sha256": "ed6537f84238de23b59aa3df4305c89879529edd5ad2e5471ecb103c0dbe7d85"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/morris1979-cdx-pdf.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/morris1979-cdx-pdf.metadata.json",
+      "bytes": 663,
+      "sha256": "9336f9b08ff98ffbab76e45162a1a313c78dfe875820c14004eeeffd6ba51f97"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/morris1979-firstpage-archive-2019.metadata.json",
+      "bytes": 626,
+      "sha256": "69316ebb8367d13a2a98e6f4e2b04f027a636b55c5c41010e9b1b7539661b8ae"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/morris1979-firstpage-archive-2019.pdf",
+      "bytes": 116163,
+      "sha256": "ca050eb45d8cedacec8504a7a3c3e711fd52d1e37ad8d498838014efc9cc7ef4"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/morris1979-firstpage-archive-2019.txt",
+      "bytes": 4325,
+      "sha256": "b12f14f1b47c6190b3a60fe9384ff0af9a9a6842f3e13406bf6ce20022cc3fdb"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/morris1979-firstpage-archive.html",
+      "bytes": 713055,
+      "sha256": "855afb22f2f89d050ac73c412866faa815bfa608b2b558e2fe5be14e2d3cebc6"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/morris1979-firstpage-archive.metadata.json",
+      "bytes": 632,
+      "sha256": "7ca7f88d82ea0333281c97c4b9ff3f235331e6eb77957b4d60157909e4fddb25"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/morris1979-firstpage-current.html",
+      "bytes": 832979,
+      "sha256": "be5288dac860c504d2896321b7dd27a1656a0306c7fc0b79b650015e22950f86"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/morris1979-firstpage-current.metadata.json",
+      "bytes": 540,
+      "sha256": "3a3e555b2f64757265c671543117b27c33df4da61c8d5cdad82262284e054138"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/morris1979-firstpage-image.metadata.json",
+      "bytes": 485,
+      "sha256": "7f9bdf178e0da14cfb9eef928c8c117d3ba6e16ff0eeba24157667fa30c6dff2"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/morris1979-firstpage-image.png",
+      "bytes": 83126,
+      "sha256": "338f1a299676fa6a853afb9ee1a4e3db294ed66c10f5c9ceb517e11eeae7c141"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/robson1973-api-pdf.metadata.json",
+      "bytes": 506,
+      "sha256": "054f8ae8c683b8a8ea61d833a12b71f708e604bcf09057255c792ccd39473ef5"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/robson1973-api-pdf.xml",
+      "bytes": 162,
+      "sha256": "8896659c8776e3601cba7215e75d52d13a0aa4cde5150bbf00660945a33f39b7"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/robson1973-cdx-sdfe.metadata.json",
+      "bytes": 416,
+      "sha256": "87d8580e2ebab894d2ffa27e66898016d2343f29ca34a88f274b38cd1e1ecf28"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/robson1973-firstpage-archive.metadata.json",
+      "bytes": 621,
+      "sha256": "ff2f2826f6fe2c8f1229d05f995e31d5e8008f3242923d5c4493837c99e05660"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/robson1973-firstpage-archive.pdf",
+      "bytes": 125637,
+      "sha256": "407d7bfcb2edbd674e837d32ca8dc2b0a783fa34c1aa9c33008a9aef521dc6bf"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/robson1973-firstpage-archive.txt",
+      "bytes": 3314,
+      "sha256": "b6a4d408dbb5345128da0d6815ae179d5f02291e092794859579a64040664136"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/robson1973-sd-archive-query.html",
+      "bytes": 4733,
+      "sha256": "b434980caca47d606c1580f499a6d54910b688313c8bfa615ecc06115b64d4b2"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal-originals/sources/robson1973-sd-archive-query.metadata.json",
+      "bytes": 602,
+      "sha256": "7b64ab22c46687aa53c8f9e8816cc4dc5ef919538f2391691410a67fce0f2fa1"
+    },
+    {
+      "path": "workstreams/vol1/reports/V1-C0090-dwyer-year-draft.txt",
+      "bytes": 1242,
+      "sha256": "dcea0101ecdc5c91e7571320dc683ca460e55f8c36ff1f942ec3a135c7767380"
+    }
+  ],
+  "external_readonly_dependencies": [
+    {
+      "path": "books/taocp-vol1-ed3-print1-1997.djvu",
+      "bytes": 6341591,
+      "sha256": "e2c5ee120bad91e33f617614b846849c4801115b2e7aa820f56fc5ffb9bbebb9"
+    },
+    {
+      "path": "text/vol1.txt",
+      "bytes": 1652363,
+      "sha256": "94c9fd1fac433d0e11d4590daa764ea339efda2148b89be44202f3f757f68936"
+    },
+    {
+      "path": "errata/text/all1-prepre.txt",
+      "bytes": 143588,
+      "sha256": "1a3c3ac6137b9e98f427de0a344efca46fd83b7a3e6e8fe2fa38e94525ca0c31"
+    },
+    {
+      "path": "errata/pdf/all1-prepre.pdf",
+      "bytes": 637571,
+      "sha256": "bc043d4dc0e3043296f198d6795eee85d8823c38c58322230a5faf876a42e80a"
+    },
+    {
+      "path": "errata/originals/all1-prepre.ps.gz",
+      "bytes": 261910,
+      "sha256": "adff516db3af2107c6fbcda33dad167c76f0fd9a4035fd835b93242492a24659"
+    },
+    {
+      "path": "errata/text/all1-pre.txt",
+      "bytes": 63766,
+      "sha256": "89d231245ff44164e09a39903faac35a2dc5e89956857abcc974991c99a887e5"
+    },
+    {
+      "path": "errata/pdf/all1-pre.pdf",
+      "bytes": 427651,
+      "sha256": "1c6ec5dac1660f3146d7e603b4a3ddec0d36dc1d65efeffa6287d1626c2166bd"
+    },
+    {
+      "path": "errata/originals/all1-pre.ps.gz",
+      "bytes": 143181,
+      "sha256": "af52330546132f0ad79bc9074eae2b1cbb64027f11298e15af73452c5cbe6183"
+    },
+    {
+      "path": "errata/text/all1.txt",
+      "bytes": 45229,
+      "sha256": "b641d6e48aaf2d77fc98a3c4a8a798d8156516b97095ec345a976e65d9c79aef"
+    },
+    {
+      "path": "errata/pdf/all1.pdf",
+      "bytes": 350766,
+      "sha256": "0d580a6a396dc8431316b4550886cd5757502ebdf76f62ea406bfdeec170d16f"
+    },
+    {
+      "path": "errata/originals/all1.ps.gz",
+      "bytes": 112798,
+      "sha256": "99a11b3e1925eda77eb28376907bc19e45942bb0834fd7b89b0f69c582627ded"
+    },
+    {
+      "path": "errata/text/err1.txt",
+      "bytes": 41067,
+      "sha256": "ecae8755d7d9f86c5dbcbd782767f0cf8e6bf7f89d9c57ed0a27ad2344461f30"
+    },
+    {
+      "path": "errata/pdf/err1.pdf",
+      "bytes": 343310,
+      "sha256": "a9b2f75775ecba1ba82290a796d9690e0ff5ebf93ff15cf4d153b997515401e5"
+    },
+    {
+      "path": "errata/originals/err1.ps.gz",
+      "bytes": 109261,
+      "sha256": "e41677079c96a2a6e38ced7eb1e53586d47d81fc3eb75cde49e30da1f5f8af86"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal/images/p332.png",
+      "bytes": 624963,
+      "sha256": "ac42a8de44cdd7ad6a62743e12724011fce1100c6a9c0670ae51b5003ccec0f0"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal/images/p567.png",
+      "bytes": 499303,
+      "sha256": "bbe2f9c194bea2d1153f9fddca337a2527217ebb72a216f735c3dd036d95f550"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal/images/p568.png",
+      "bytes": 614407,
+      "sha256": "a01b40d0ebcf1ef799b18a1b9ad3b1e6bd42b626b02a70f2e4a04b46233c1f6d"
+    },
+    {
+      "path": "workstreams/vol1/notes/tree-sources-root-followup.md",
+      "bytes": 3489,
+      "sha256": "5961c0863d9f97543de9fddcc87bd7f0bb74104bb4671a07c9ff4bc1fab862de"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal/notes/sources.md",
+      "bytes": 5889,
+      "sha256": "fcdd83d3f00673accafd3ba9e84ebc7b19a7eeea07a4077ca5b59de4ccd7fa73"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal/notes/remaining-primary-sources.md",
+      "bytes": 4221,
+      "sha256": "ac6b2ea8710d2ce0a870dfa0c4bfc7e61497bc4daa3b37ed3311c8e7e2b54e1d"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-traversal/notes/traversal-proofs.md",
+      "bytes": 22496,
+      "sha256": "a6a738a0946c2df0c72d386ebe4df06eca85eb388fa5bd721c4e231965d8e178"
+    },
+    {
+      "path": "workstreams/vol1/parallel/robson-tree-followup/notes/algorithm-source-followup.md",
+      "bytes": 6760,
+      "sha256": "6f76a85ad7266a8e08078e3e0c1d9d016418f5f116f19d55a4e8473ad80bd279"
+    },
+    {
+      "path": "workstreams/vol1/parallel/robson-tree-followup/notes/robson-sources.md",
+      "bytes": 6907,
+      "sha256": "502c7498349888c45808f2e8b2d5c7b10bfe645de124a963ab74e866c6ecaafd"
+    },
+    {
+      "path": "workstreams/vol1/parallel/robson-tree-followup/HANDOFF-robson.md",
+      "bytes": 1556,
+      "sha256": "fcf8ef5d2ac8d6583756614b2fedf71f0792b7785199e7c01d3e0b74f108967e"
+    },
+    {
+      "path": "workstreams/vol1/parallel/robson-tree-followup/results/source-inventory.json",
+      "bytes": 1922,
+      "sha256": "8b23a5711bd2e3458016c222a654c17870f04f47357bdc84d6367e1cfd73cac2"
+    },
+    {
+      "path": "workstreams/vol1/parallel/robson-tree-followup/sources/retrievals.jsonl",
+      "bytes": 6520,
+      "sha256": "3600dcf248c75f6f4d2644e4350faae2bcf2a0a84fc8abc01467ffc9cdff64e9"
+    },
+    {
+      "path": "workstreams/vol1/parallel/robson-tree-followup/sources/retrievals-algorithms.jsonl",
+      "bytes": 16248,
+      "sha256": "5eca652cc0a45c01744a63193d39b7340bc81135584d722c430974f89cf80482"
+    },
+    {
+      "path": "workstreams/vol1/parallel/robson-tree-followup/sources/robson1973-publisher.xml",
+      "bytes": 1824,
+      "sha256": "b239547149396adbca265a9b4d95ddc14fe963d5b51bc97222d87e2f1b1ee7b1"
+    },
+    {
+      "path": "workstreams/vol1/parallel/robson-tree-followup/sources/morris1979-openalex.json",
+      "bytes": 10235,
+      "sha256": "18968e62b43e7ad37afc6b81efb1e0645309861389cf444b53af4bc079c22a8b"
+    },
+    {
+      "path": "workstreams/vol1/parallel/robson-tree-followup/sources/lindstrom1973-openalex.json",
+      "bytes": 7662,
+      "sha256": "d9aca81e45931113f02c86104770bb2245fe5fdf88877c04f1e98bcae25d49b6"
+    },
+    {
+      "path": "workstreams/vol1/parallel/robson-tree-followup/sources/dwyer1974-openalex.json",
+      "bytes": 8614,
+      "sha256": "b48da11d86c073487db0a2c4655c1337d917e5fc8a694092c4c5287734d0fbe5"
+    },
+    {
+      "path": "workstreams/vol1/parallel/robson-tree-followup/sources/robson1973-openalex.json",
+      "bytes": 9244,
+      "sha256": "081aa48b8b8e85c2440889f18fd8083c67e579e277c8719e0f1c4630035853f8"
+    }
+  ]
+}

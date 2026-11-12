@@ -1,0 +1,232 @@
+{
+  "checked_at_utc": "2026-11-07T00:09:14.644449+00:00",
+  "new_targeted_machine_executions": 1,
+  "archived_census_rerun": false,
+  "radix": 100,
+  "precision": 4,
+  "excess": 50,
+  "u": [
+    50,
+    99999950,
+    1
+  ],
+  "v": [
+    48,
+    50000001,
+    1
+  ],
+  "actual": [
+    51,
+    1000049,
+    1
+  ],
+  "nearest": [
+    51,
+    1000050,
+    1
+  ],
+  "exact_sum": "1000049500001/1000000000000",
+  "lower": "1000049/1000000",
+  "upper": "20001/20000",
+  "distance_lower": "500001/1000000000000",
+  "distance_upper": "499999/1000000000000",
+  "above_midpoint": "1/1000000000000",
+  "snapshots": [
+    {
+      "before_row": "A22",
+      "A": [
+        1,
+        5000000100
+      ],
+      "X": [
+        1,
+        0
+      ],
+      "I2": 50,
+      "overflow": false
+    },
+    {
+      "before_row": "A23",
+      "A": [
+        1,
+        500000
+      ],
+      "X": [
+        1,
+        100000000
+      ],
+      "I2": 50,
+      "overflow": false
+    },
+    {
+      "before_row": "A24",
+      "A": [
+        1,
+        495000
+      ],
+      "X": [
+        1,
+        100000000
+      ],
+      "I2": 50,
+      "overflow": true
+    },
+    {
+      "before_row": "A49",
+      "A": [
+        1,
+        495000
+      ],
+      "X": [
+        1,
+        100000000
+      ],
+      "I2": 50,
+      "overflow": false
+    },
+    {
+      "before_row": "A50",
+      "A": [
+        1,
+        495000
+      ],
+      "X": [
+        1,
+        1
+      ],
+      "I2": 50,
+      "overflow": false
+    },
+    {
+      "before_row": "A51",
+      "A": [
+        1,
+        100004950
+      ],
+      "X": [
+        1,
+        0
+      ],
+      "I2": 50,
+      "overflow": false
+    },
+    {
+      "before_row": "A52",
+      "A": [
+        1,
+        100004950
+      ],
+      "X": [
+        1,
+        0
+      ],
+      "I2": 51,
+      "overflow": false
+    },
+    {
+      "before_row": "A55",
+      "A": [
+        1,
+        100004950
+      ],
+      "X": [
+        1,
+        0
+      ],
+      "I2": 51,
+      "overflow": false
+    },
+    {
+      "before_row": "A57",
+      "A": [
+        1,
+        100004950
+      ],
+      "X": [
+        1,
+        0
+      ],
+      "I2": 51,
+      "overflow": false
+    },
+    {
+      "before_row": "A58",
+      "A": [
+        1,
+        100004950
+      ],
+      "X": [
+        1,
+        49
+      ],
+      "I2": 51,
+      "overflow": false
+    },
+    {
+      "before_row": "A62",
+      "A": [
+        1,
+        100004950
+      ],
+      "X": [
+        1,
+        49
+      ],
+      "I2": 51,
+      "overflow": false
+    },
+    {
+      "before_row": "A66",
+      "A": [
+        1,
+        5101000049
+      ],
+      "X": [
+        1,
+        5000000000
+      ],
+      "I2": -49,
+      "overflow": false
+    }
+  ],
+  "executed_rows": [
+    "A04",
+    "A05",
+    "A06",
+    "A07",
+    "A08",
+    "A09",
+    "A10",
+    "A11",
+    "A12",
+    "A13",
+    "A14",
+    "A19",
+    "A20",
+    "A21",
+    "A22",
+    "A23",
+    "A24",
+    "A49",
+    "A50",
+    "A51",
+    "A52",
+    "A53",
+    "A54",
+    "A55",
+    "A56",
+    "A57",
+    "A58",
+    "A62",
+    "A63",
+    "A64",
+    "A65",
+    "A66",
+    "A67"
+  ],
+  "source_sha256": {
+    "sources/single-precision.mix": "785ac2b32fb8ed3668b905593900354785c7a1cece704f13f05c149f29fad8fa",
+    "mix_float_machine.py": "fbe80a34344605e8933b23267824707a9154768bf819b538f0332f9f629becdb"
+  },
+  "scope": "2002-corrected transcription; exact arithmetic proves upper neighbor is closer. The N4 instructions are unchanged from the original printing."
+}

@@ -1,0 +1,104 @@
+{
+  "checked_at_utc": "2026-11-07T00:16:22.358504+00:00",
+  "original_printed_page": 219,
+  "original_file_page": 231,
+  "edition": "third edition, first printing, September1997",
+  "original_lines": [
+    46,
+    47,
+    48
+  ],
+  "corrected_lines": [
+    49,
+    50,
+    51
+  ],
+  "semantic_sources": [
+    {
+      "volume": 1,
+      "printed_page": 133,
+      "file_page": 148,
+      "scope": "ENTX replaces full register"
+    },
+    {
+      "volume": 1,
+      "printed_page": 135,
+      "file_page": 150,
+      "scope": "SRC circular AX shift; signs unchanged"
+    }
+  ],
+  "errata_layers": [
+    {
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/all2-pre.ps.gz",
+      "label": "Earlier changes for Volume 2 (3rd ed.)",
+      "kind": "errata",
+      "http_last_modified": "Tue, 16 Aug 2022 19:57:50 GMT",
+      "content_type": "application/x-gzip",
+      "file": "errata/originals/all2-pre.ps.gz",
+      "bytes": 132789,
+      "sha256": "8da7b1700bc7fa5054c4155836106b9f35f6ea493963dfd3d18a53725a152595",
+      "retrieved_at_utc": "2026-10-31T17:00:55.874478+00:00",
+      "derived_pdf": "errata/pdf/all2-pre.pdf",
+      "derived_text": "errata/text/all2-pre.txt",
+      "derived_pdf_sha256": "ec0f19ea998dce09634eb6172ea001852b80f3d4dc3162dce5faf03f0f5eb081"
+    },
+    {
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/all2-prepre.ps.gz",
+      "label": "Earliest errata for Volume 2 (3rd ed.)",
+      "kind": "errata",
+      "http_last_modified": "Tue, 16 Aug 2022 19:54:23 GMT",
+      "content_type": "application/x-gzip",
+      "file": "errata/originals/all2-prepre.ps.gz",
+      "bytes": 229396,
+      "sha256": "19e5566fd86751738d6dd32993c21424bd5673774d8bc46a1a06720487fecf23",
+      "retrieved_at_utc": "2026-10-31T17:00:55.868726+00:00",
+      "derived_pdf": "errata/pdf/all2-prepre.pdf",
+      "derived_text": "errata/text/all2-prepre.txt",
+      "derived_pdf_sha256": "8aeddfe81072b399fcddcfbf3c57726ab0d7994db320f1531a0bc3faddc24e70"
+    },
+    {
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/all2.ps.gz",
+      "label": "Errata for Volume 2 (after 2021), long form",
+      "kind": "errata",
+      "http_last_modified": "Wed, 10 Jun 2026 01:33:01 GMT",
+      "content_type": "application/x-gzip",
+      "file": "errata/originals/all2.ps.gz",
+      "bytes": 111293,
+      "sha256": "b626268bc802cb63b81dab94601219db4913ad8ab8557deae5d05980755454dd",
+      "retrieved_at_utc": "2026-10-31T17:00:58.521690+00:00",
+      "derived_pdf": "errata/pdf/all2.pdf",
+      "derived_text": "errata/text/all2.txt",
+      "derived_pdf_sha256": "08ec40f2e161b1c3f5da7649ef8c1449130a9e6803498cc4893fcf827910b685"
+    },
+    {
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/err2.ps.gz",
+      "label": "Errata for Volume 2 (after 2021)",
+      "kind": "errata",
+      "http_last_modified": "Wed, 10 Jun 2026 01:32:52 GMT",
+      "content_type": "application/x-gzip",
+      "file": "errata/originals/err2.ps.gz",
+      "bytes": 106957,
+      "sha256": "b5ecdb4a297abce8fdd51235c14585b98118fbbf83ab3cd38f04c3c8233c665f",
+      "retrieved_at_utc": "2026-10-31T17:00:56.691498+00:00",
+      "derived_pdf": "errata/pdf/err2.pdf",
+      "derived_text": "errata/text/err2.txt",
+      "derived_pdf_sha256": "138114a84c28824bf7426a10b490309fdf34812009b976e400250506d41369ea"
+    },
+    {
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/err2.textxt",
+      "label": "Errata for Volume 2 (after 2021), TeX form",
+      "kind": "errata",
+      "http_last_modified": "Wed, 10 Jun 2026 01:32:50 GMT",
+      "content_type": "text/plain; charset=utf-8",
+      "file": "errata/originals/err2.textxt",
+      "bytes": 48721,
+      "sha256": "8faa21566312314ec6bda0f8956913deb312517fd9fa688dcc0bf19e1f21962e",
+      "retrieved_at_utc": "2026-10-31T17:00:59.044677+00:00"
+    }
+  ],
+  "known_correction": "10November2002 opposite-sign path; leaves N4 unchanged",
+  "no_correction_found_for": "loss of nonzero old X in N4 on fraction overflow",
+  "one_new_execution": "results/C0251-sticky-overflow.json",
+  "census_rerun": false,
+  "physical_later_printing_checked": false
+}

@@ -1,0 +1,39 @@
+{
+  "updated_at_utc": "2026-11-07T02:51:47.777586+00:00",
+  "sources": [
+    {
+      "url": "https://globals.ieice.org/en_transactions/fundamentals/10.1587/e83-a_4_646/_p",
+      "scope": "Primary metadata: Takei and Itoh, A General Construction of Min-Wise Independent Permutations,E83-A(2000),646–655."
+    },
+    {
+      "url": "https://globals.ieice.org/en_transactions/fundamentals/10.1587/e83-a_4_747/_p",
+      "scope": "Primary metadata: Takei, Itoh and Shinozaki, Constructing an Optimal Family of Min-Wise Independent Permutations,E83-A(2000),747–755."
+    },
+    {
+      "path": "books/taocp-vol1-ed3-print1-1997.djvu",
+      "file_pages": [
+        87,
+        503
+      ],
+      "scope": "Only the exact reciprocal-binomial identity1.2.6–48, in its positive-integer specialization; original statement and answer viewed."
+    },
+    {
+      "path": "books/taocp-vol3-ed2-print1-1998.djvu",
+      "file_pages": [
+        545
+      ],
+      "scope": "Only the uniform occupied-subset definition in§6.4,p534, directly viewed; no broader hashing audit."
+    }
+  ],
+  "bibliography_skips": [
+    {
+      "exercise": "MPR:112",
+      "file_pages": [
+        408
+      ],
+      "reference": "Exact historical constructions and compact sampler in the two IEICE E83-A(2000) articles,646–655 and747–755",
+      "reason": "Both primary publisher metadata records were checked. Complete historical articles were not quickly available without purchase. All required mathematics, including cyclicity and distinct final permutations, is proved independently.",
+      "mathematical_dependency": false
+    }
+  ]
+}

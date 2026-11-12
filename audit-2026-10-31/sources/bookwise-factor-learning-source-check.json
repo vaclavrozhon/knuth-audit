@@ -1,0 +1,48 @@
+{
+  "checked_at_utc": "2026-11-12T00:20:24.165037+00:00",
+  "edition": "Volume 4B first edition, second printing, November 2022",
+  "fresh_errata_manifests": [
+    "integration/2026-11-10-bookwise/errata/vol4b-manifest.json",
+    "integration/2026-11-10-bookwise/errata/vol4b-sat-manifest.json"
+  ],
+  "errata_scope": "4B main 193–200, questions 320–321, answers 556–559; Fascicle 6 main 9–16, questions 136–137, answers 192–195.",
+  "known_corrections": [
+    "Dadda reference year 1965 (2026)",
+    "SAT44 title (2024)",
+    "two answer49 changes (2026)",
+    "historical 43/46/56 changes incorporated",
+    "Morgenstern formula (2021) incorporated"
+  ],
+  "originals_inspected": [
+    "images/bookwise-factor-576.png",
+    "images/bookwise-factor-577.png",
+    "images/bookwise-fasc6a-factor-200.png",
+    "images/bookwise-fasc6a-factor-201.png"
+  ],
+  "author_draft": {
+    "url": "https://www-cs-faculty.stanford.edu/~knuth/fasc6a.ps.gz",
+    "printed_pages": [
+      192,
+      193
+    ],
+    "result": "Same square-encoding restriction. Same half-adder wording and omitted sharp, not promoted to semantic errors."
+  },
+  "public_queries": [
+    "Knuth SAT exercise 45 perfect square floor t/2 errata",
+    "Knuth using (t adders 41",
+    "Knuth SAT exercise 50 z5 sharp error"
+  ],
+  "public_sources": [
+    "https://taocp-fun.gitlab.io/v4f6-sat-tut/"
+  ],
+  "public_result": "No matching correction located; tutorial describes the direct square construction without the faulty root-width restriction.",
+  "finding_ids": [
+    "F199"
+  ],
+  "prior_evidence_reused": [
+    "LEARNING_NOTES.md",
+    "S057",
+    "F057",
+    "C011"
+  ]
+}

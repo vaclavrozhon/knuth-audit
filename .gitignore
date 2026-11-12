@@ -1,0 +1,37 @@
+# Local books and personal data must never enter this repository.
+/books/
+/review-ui/data/
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.db
+.env
+.env.*
+**/node_modules/
+**/__pycache__/
+*.pyc
+*.pyo
+/review-ui/test-results/
+/review-ui/playwright-report/
+.DS_Store
+# Full documents and archives are deliberately excluded.
+*.pdf
+*.djvu
+*.djv
+*.ps
+*.ps.gz
+*.tgz
+*.tar.gz
+*.zip
+*.textxt
+# Raster additions require an explicit exception and provenance.
+*.png
+*.jpg
+*.jpeg
+*.webp
+!audit-2026-10-31/images/tetrads120-counterexample.png
+!audit-2026-10-31/images/f137-strip-witness.png
+!audit-2026-10-31/images/chain150-pieces-crop.png
+!workstreams/vol4-fasc7/images/file-026-clasp-cropbox.png
+!workstreams/vol4-fasc7/images/F7-C0008-reflex-W.png
+!workstreams/vol4-fasc7/images/F7-C0006-transparent-clasp-excerpt.png

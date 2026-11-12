@@ -1,0 +1,73 @@
+{
+  "blocks": {
+    "identity": {
+      "status": "passed",
+      "started_at_utc": "2026-11-04T03:13:29.271707+00:00",
+      "pid": 1339442,
+      "elapsed_seconds": 0.1123424110119231,
+      "stats": {
+        "monomial_coefficients": 2401,
+        "four_polynomial_identities": 36
+      }
+    },
+    "norms": {
+      "status": "passed",
+      "started_at_utc": "2026-11-04T03:16:48.173734+00:00",
+      "pid": 1339603,
+      "elapsed_seconds": 1.7603990430361591,
+      "stats": {
+        "complex_product_inequalities": 48,
+        "central_binomial_norms": 80
+      },
+      "printed_norm_squares": [
+        "61/3",
+        "29/12"
+      ],
+      "known_2005_correction": "[(x-1)^n]^2=[(x+1)^n]^2=2^n"
+    },
+    "gaussian": {
+      "status": "passed",
+      "started_at_utc": "2026-11-04T03:16:50.519195+00:00",
+      "pid": 1339615,
+      "elapsed_seconds": 2.189441019028891,
+      "stats": {
+        "cartesian_gaussian_integrals": 12,
+        "noncommutative_word_norms": 12
+      },
+      "counterexample": {
+        "variables": 1,
+        "degree": 2,
+        "polynomial": "z^2",
+        "integral": "2*pi",
+        "norm_squared": "1",
+        "printed_rhs": "1/pi"
+      }
+    },
+    "bounds": {
+      "status": "passed",
+      "started_at_utc": "2026-11-04T03:16:53.275276+00:00",
+      "pid": 1339620,
+      "elapsed_seconds": 1.6141293410328217,
+      "stats": {
+        "minimum_factorial_products": 52,
+        "factor_height_bounds": 36,
+        "mahler_comparisons": 60
+      },
+      "c2": "1.003951065617006515158664301962812508385",
+      "stirling_ratio_illustrations": [
+        {
+          "n": 100,
+          "ratio": "0.99688005418013594611986274913661978"
+        },
+        {
+          "n": 1000,
+          "ratio": "0.99968754900006632553533413047900604"
+        },
+        {
+          "n": 10000,
+          "ratio": "0.99996875048845324156815625095910682"
+        }
+      ]
+    }
+  }
+}

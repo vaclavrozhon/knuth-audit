@@ -1,0 +1,105 @@
+{
+  "exercises": "MPR 126-127",
+  "fixed_weight_xor_counts_checked_by_bitmask_enumeration": 472,
+  "binomial_mode_masses_checked_exactly": 5150,
+  "epsilon": "theta*(1-2*theta)/3",
+  "zero_bit_margin_exact": "-2*t**2*(2*t - 1)/3",
+  "one_bit_margin_exact": "(2*t - 1)*(2*t**3 + 5*t**2 + 12*t - 9)/9",
+  "one_bit_margin_bernstein_coefficients_after_theta_equal_1_minus_u_over_2": [
+    "0",
+    "1/24",
+    "55/216",
+    "7/12",
+    "1"
+  ],
+  "chernoff_constant_proof": "alpha<1 follows from strict weighted AM-GM: theta*(1+eps/theta)+(1-theta)*(1-eps/(1-theta))=1.",
+  "F009_rounding_rows": [
+    {
+      "n": 30,
+      "residue": 0,
+      "error": "-0.0140218534651697335523745237197",
+      "predicted_error_limit": "0",
+      "corrected_error_times_n": "-0.420655603955092006571235711591"
+    },
+    {
+      "n": 31,
+      "residue": 1,
+      "error": "-0.346785942522365988687998850136",
+      "predicted_error_limit": "-1/3",
+      "corrected_error_times_n": "-0.417030884860012315994631020876"
+    },
+    {
+      "n": 32,
+      "residue": 2,
+      "error": "-0.70161155040759036407749597373",
+      "predicted_error_limit": "-2/3",
+      "corrected_error_times_n": "-1.11823627970955831714653782604"
+    },
+    {
+      "n": 300,
+      "residue": 0,
+      "error": "-0.0014026158187630585863693946135",
+      "predicted_error_limit": "0",
+      "corrected_error_times_n": "-0.42078474562891757591081838405"
+    },
+    {
+      "n": 301,
+      "residue": 1,
+      "error": "-0.334729971160568556864480089524",
+      "predicted_error_limit": "-1/3",
+      "corrected_error_times_n": "-0.420387985997802282875173613311"
+    },
+    {
+      "n": 302,
+      "residue": 2,
+      "error": "-0.670440017359085472171915032439",
+      "predicted_error_limit": "-2/3",
+      "corrected_error_times_n": "-1.13955190911047926258500646317"
+    },
+    {
+      "n": 3000,
+      "residue": 0,
+      "error": "-0.000140262013504209364731262989826",
+      "predicted_error_limit": "0",
+      "corrected_error_times_n": "-0.420786040512628094193788969477"
+    },
+    {
+      "n": 3001,
+      "residue": 1,
+      "error": "-0.333473535267924035129857812036",
+      "predicted_error_limit": "-1/3",
+      "corrected_error_times_n": "-0.420746005706696091369960587872"
+    },
+    {
+      "n": 3002,
+      "residue": 2,
+      "error": "-0.667047037526518605297851412654",
+      "predicted_error_limit": "-2/3",
+      "corrected_error_times_n": "-1.14187332127551977081660745265"
+    },
+    {
+      "n": 30000,
+      "residue": 0,
+      "error": "-0.0000140262017820604809962667825084",
+      "predicted_error_limit": "0",
+      "corrected_error_times_n": "-0.420786053461814429888003475253"
+    },
+    {
+      "n": 30001,
+      "residue": 1,
+      "error": "-0.333347358934025854242909666945",
+      "predicted_error_limit": "-1/3",
+      "corrected_error_times_n": "-0.420782046376319808199584694022"
+    },
+    {
+      "n": 30002,
+      "residue": 2,
+      "error": "-0.666704734379743025354463632677",
+      "predicted_error_limit": "-2/3",
+      "corrected_error_times_n": "-1.14210752771691335128457425386"
+    }
+  ],
+  "F009_correction": "Change O(1/n) to O(1), or add -frac(theta*n)*lg((1-theta)/theta) before O(1/n).",
+  "F009_consequence": "The stated Omega lower bound and the XOR theorem remain valid.",
+  "limitations": "Exact finite enumeration checks the combinatorial conditioning model. The exponential probability bound is justified in the notes, not inferred from these finite cases."
+}

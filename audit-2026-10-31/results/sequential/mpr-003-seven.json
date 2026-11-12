@@ -1,0 +1,162 @@
+{
+  "checked_at_utc": "2026-11-06T20:59:35.689782+00:00",
+  "scope": "All six-face dice over1..7 with all three above-average probabilities at least2/3, modulo arbitrary die-label permutations. Completeness uses the exact every-roll support condition.",
+  "support_certificate": "results/sequential/mpr-003-seven-supports.json",
+  "support_triples": 367,
+  "profile_triples_examined": 8025,
+  "solutions": [
+    {
+      "faces": [
+        [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
+        [
+          1,
+          1,
+          7,
+          7,
+          7,
+          7
+        ],
+        [
+          4,
+          4,
+          4,
+          7,
+          7,
+          7
+        ]
+      ],
+      "above_counts": [
+        144,
+        144,
+        144
+      ],
+      "below_counts": [
+        72,
+        72,
+        72
+      ],
+      "equal_counts": [
+        0,
+        0,
+        0
+      ],
+      "rolls_by_number_above": [
+        0,
+        0,
+        216,
+        0
+      ]
+    }
+  ],
+  "solution_count": 1,
+  "printed_conventional": {
+    "faces": [
+      [
+        3,
+        3,
+        3,
+        3,
+        3,
+        5
+      ],
+      [
+        4,
+        1,
+        4,
+        4,
+        1,
+        4
+      ],
+      [
+        4,
+        1,
+        4,
+        4,
+        1,
+        4
+      ]
+    ],
+    "above_counts": [
+      136,
+      128,
+      128
+    ],
+    "below_counts": [
+      80,
+      88,
+      88
+    ],
+    "equal_counts": [
+      0,
+      0,
+      0
+    ],
+    "rolls_by_number_above": [
+      0,
+      40,
+      176,
+      0
+    ]
+  },
+  "printed_seven": {
+    "faces": [
+      [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      [
+        7,
+        1,
+        7,
+        7,
+        1,
+        7
+      ],
+      [
+        4,
+        4,
+        4,
+        7,
+        7,
+        7
+      ]
+    ],
+    "above_counts": [
+      144,
+      144,
+      144
+    ],
+    "below_counts": [
+      72,
+      72,
+      72
+    ],
+    "equal_counts": [
+      0,
+      0,
+      0
+    ],
+    "rolls_by_number_above": [
+      0,
+      0,
+      216,
+      0
+    ]
+  },
+  "elapsed_seconds": 0.028044643986504525,
+  "execution_nice": 15,
+  "old_tests_repeated": 0,
+  "source_sha256": "7430d7b4db937ba8089a629a1d09c5379b0350098f10fbdd6b2c19fd02567433",
+  "support_certificate_sha256": "1ff69ddf5afc7bd9b6a2a38df230f6378d97a9db892dc6c7413c0377e260617f"
+}

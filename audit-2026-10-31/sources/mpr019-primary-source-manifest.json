@@ -1,0 +1,41 @@
+{
+  "retrieved_at_utc": "2026-11-06T21:52:44.910767+00:00",
+  "scope": "Sources for MPR19; download is not a claim of full source review.",
+  "sources": [
+    {
+      "url": "https://carmamaths.org/resources/mahler/docs/004.pdf",
+      "path": "sources/mahler-1929.pdf",
+      "status": "downloaded",
+      "bytes": 2839847,
+      "sha256": "f1daa24670e1bd5a67170373561f477dbd2416d955daccfbcc295314e9691694",
+      "reviewed_scope": "Cover and originalpages342,343,366 viewed. Page343 contains the product and functional equation. This26-pagePDF contains only1929, not the1930 correction; no full historical proof review claimed."
+    },
+    {
+      "url": "https://dspace.mit.edu/bitstreams/2a2c547a-f943-4030-9060-e15b1423e474/download",
+      "path": "sources/hakmem-1972.pdf",
+      "status": "unavailable",
+      "reason": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.13919",
+      "path": "sources/euler-status-2610.13919.html",
+      "status": "downloaded",
+      "bytes": 40369,
+      "sha256": "74360ef93131584b9168cb8cde674da14f6eb6398cd47b5dc119f987a771035e",
+      "reviewed_scope": "Abstract and source metadata only; its statement that irrationality remains unproved does not by itself certify the narrower dyadic question."
+    },
+    {
+      "url": "https://www.inwap.com/pdp10/hbaker/hakmem/series.html",
+      "path": "sources/hakmem-item122-transcription.html",
+      "status": "unavailable",
+      "reason": "HTTP Error 465: ",
+      "web_view_available": true,
+      "reviewed_scope": "Item122 was read through the web tool; direct file download failed. It is a1995 transcription marked draft/not proofread, not the original report scan."
+    }
+  ],
+  "bibliography_skips": [
+    "Lukacs1960 p119 was not immediately available.",
+    "Mahler1930 correction, Math.Ann.103,p532: publisher metadata only; original correction not read.",
+    "Original HAKMEM PDF download failed429; Item122 transcription was read instead."
+  ]
+}

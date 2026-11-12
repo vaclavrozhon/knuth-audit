@@ -1,0 +1,522 @@
+{
+  "checked_at_utc": "2026-11-07T03:32:54.691090+00:00",
+  "scope": "Twelve new exact boundary/control inputs against two original versions and one local audit correction; no simulator or previous test run.",
+  "oracle": "Exact integers and Fraction nearest-even binary64 packing; no host floating parsing.",
+  "elapsed_seconds": 1.335681968019344,
+  "priority": 15,
+  "sources": {
+    "20131017": "8184d0bb7d6780026f29874df55d06e639819d3a541fd41c31866ead6b118094",
+    "20250620": "3b077d3b81b80a6938d98c38ceead55b202f9790a3533f7a19482488a1e18678"
+  },
+  "cases": [
+    {
+      "name": "last-fitting-integer",
+      "exact": "1",
+      "input_expression": "'1' + '0'*768 + 'e-768'",
+      "expected_kind": 1,
+      "expected_hex": "3ff0000000000000",
+      "input_length": 774,
+      "input_sha256": "5bc2b9bfde5ba1bb58e7ac2c2df6833357c83e86b598e965cf9d73c5355e8632"
+    },
+    {
+      "name": "first-omitted-integer-digit",
+      "exact": "1",
+      "input_expression": "'1' + '0'*769 + 'e-769'",
+      "expected_kind": 1,
+      "expected_hex": "3ff0000000000000",
+      "input_length": 775,
+      "input_sha256": "6fe263f74d56db7e90b0b1f043d8490f91e1b601fda98bb6314ff95234c04145"
+    },
+    {
+      "name": "negative-first-boundary",
+      "exact": "-1",
+      "input_expression": "'-1' + '0'*769 + 'e-769'",
+      "expected_kind": 1,
+      "expected_hex": "bff0000000000000",
+      "input_length": 776,
+      "input_sha256": "699aa82a4ecd2b37c69916c7348f11ee95a7746b947d316f249d93064d4291d4"
+    },
+    {
+      "name": "explicit-point",
+      "exact": "1",
+      "input_expression": "'1' + '0'*769 + '.e-769'",
+      "expected_kind": 1,
+      "expected_hex": "3ff0000000000000",
+      "input_length": 776,
+      "input_sha256": "5b09846a9818f9e8b6e333b5f431b7735db25a162f3836c2abc13592ca9af7b2"
+    },
+    {
+      "name": "two-omitted-digits",
+      "exact": "1",
+      "input_expression": "'1' + '0'*770 + 'e-770'",
+      "expected_kind": 1,
+      "expected_hex": "3ff0000000000000",
+      "input_length": 776,
+      "input_sha256": "a8426e94247abb8c1de1a1cdeb790af670599ca38af55980943bb52bfa71f4bc"
+    },
+    {
+      "name": "231-omitted-digits",
+      "exact": "1",
+      "input_expression": "'1' + '0'*999 + 'e-999'",
+      "expected_kind": 1,
+      "expected_hex": "3ff0000000000000",
+      "input_length": 1005,
+      "input_sha256": "d2c593cf6cb58c3d9cc13d9bf3ec45a3bf6e9c4c298a5a5ee091604b1de9cb91"
+    },
+    {
+      "name": "multi-digit-prefix",
+      "exact": "12345",
+      "input_expression": "'12345' + '0'*769 + 'e-769'",
+      "expected_kind": 1,
+      "expected_hex": "40c81c8000000000",
+      "input_length": 779,
+      "input_sha256": "ade4af69c971319b641987eff01858bedeced2fe739565dedad16411b956f32e"
+    },
+    {
+      "name": "fraction-sticky-after-full-integer",
+      "exact": "20000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001/20000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "input_expression": "'1' + '0'*769 + '.5e-769'",
+      "expected_kind": 1,
+      "expected_hex": "3ff0000000000000",
+      "input_length": 777,
+      "input_sha256": "05729cb4ba737f76ac5be7c2db38ee961b980044c3061079a218e6d4216bc993"
+    },
+    {
+      "name": "long-integer-modulo-unchanged",
+      "exact": "7",
+      "input_expression": "'1' + '0'*769 + '7'",
+      "expected_kind": 0,
+      "expected_hex": "0000000000000007",
+      "input_length": 771,
+      "input_sha256": "5e8aae8d74d9131b098d8f3ae83e242d3aa0bc6c0184a9f25ca652467990e4f7"
+    },
+    {
+      "name": "leading-zero-control",
+      "exact": "1",
+      "input_expression": "'0'*800 + '1.0'",
+      "expected_kind": 1,
+      "expected_hex": "3ff0000000000000",
+      "input_length": 803,
+      "input_sha256": "c15fdaa1056ff90461b1d8387717e1a53ad2509e9807af082f0f0f74f72eadb6"
+    },
+    {
+      "name": "fraction-only-control",
+      "exact": "1",
+      "input_expression": "'.' + '0'*769 + '1e770'",
+      "expected_kind": 1,
+      "expected_hex": "3ff0000000000000",
+      "input_length": 775,
+      "input_sha256": "fdcd59c9743766e914beac80c04243c142cbaf71ccd20852cda0f51ee3b3b01f"
+    },
+    {
+      "name": "ordinary-inexact-control",
+      "exact": "1/10",
+      "input_expression": "'0.1'",
+      "expected_kind": 1,
+      "expected_hex": "3fb999999999999a",
+      "input_length": 3,
+      "input_sha256": "14be4b45f18e0d8c67b4f719b5144eee88497e413709d11d85b096d8e2346310"
+    }
+  ],
+  "runs": [
+    {
+      "version": "20131017",
+      "case": "last-fitting-integer",
+      "actual_kind": 1,
+      "actual_hex": "3ff0000000000000",
+      "consumed": 774,
+      "expected_hex": "3ff0000000000000",
+      "expected_kind": 1,
+      "input_length": 774,
+      "agrees": true
+    },
+    {
+      "version": "20131017",
+      "case": "first-omitted-integer-digit",
+      "actual_kind": 1,
+      "actual_hex": "3fb999999999999a",
+      "consumed": 775,
+      "expected_hex": "3ff0000000000000",
+      "expected_kind": 1,
+      "input_length": 775,
+      "agrees": false
+    },
+    {
+      "version": "20131017",
+      "case": "negative-first-boundary",
+      "actual_kind": 1,
+      "actual_hex": "bfb999999999999a",
+      "consumed": 776,
+      "expected_hex": "bff0000000000000",
+      "expected_kind": 1,
+      "input_length": 776,
+      "agrees": false
+    },
+    {
+      "version": "20131017",
+      "case": "explicit-point",
+      "actual_kind": 1,
+      "actual_hex": "3fb999999999999a",
+      "consumed": 776,
+      "expected_hex": "3ff0000000000000",
+      "expected_kind": 1,
+      "input_length": 776,
+      "agrees": false
+    },
+    {
+      "version": "20131017",
+      "case": "two-omitted-digits",
+      "actual_kind": 1,
+      "actual_hex": "3f847ae147ae147b",
+      "consumed": 776,
+      "expected_hex": "3ff0000000000000",
+      "expected_kind": 1,
+      "input_length": 776,
+      "agrees": false
+    },
+    {
+      "version": "20131017",
+      "case": "231-omitted-digits",
+      "actual_kind": 1,
+      "actual_hex": "0ff8d71d360e13e2",
+      "consumed": 1005,
+      "expected_hex": "3ff0000000000000",
+      "expected_kind": 1,
+      "input_length": 1005,
+      "agrees": false
+    },
+    {
+      "version": "20131017",
+      "case": "multi-digit-prefix",
+      "actual_kind": 1,
+      "actual_hex": "3fbf9a6b50b0f27c",
+      "consumed": 779,
+      "expected_hex": "40c81c8000000000",
+      "expected_kind": 1,
+      "input_length": 779,
+      "agrees": false
+    },
+    {
+      "version": "20131017",
+      "case": "fraction-sticky-after-full-integer",
+      "actual_kind": 1,
+      "actual_hex": "3fb999999999999a",
+      "consumed": 777,
+      "expected_hex": "3ff0000000000000",
+      "expected_kind": 1,
+      "input_length": 777,
+      "agrees": false
+    },
+    {
+      "version": "20131017",
+      "case": "long-integer-modulo-unchanged",
+      "actual_kind": 0,
+      "actual_hex": "0000000000000007",
+      "consumed": 771,
+      "expected_hex": "0000000000000007",
+      "expected_kind": 0,
+      "input_length": 771,
+      "agrees": true
+    },
+    {
+      "version": "20131017",
+      "case": "leading-zero-control",
+      "actual_kind": 1,
+      "actual_hex": "3ff0000000000000",
+      "consumed": 803,
+      "expected_hex": "3ff0000000000000",
+      "expected_kind": 1,
+      "input_length": 803,
+      "agrees": true
+    },
+    {
+      "version": "20131017",
+      "case": "fraction-only-control",
+      "actual_kind": 1,
+      "actual_hex": "3ff0000000000000",
+      "consumed": 775,
+      "expected_hex": "3ff0000000000000",
+      "expected_kind": 1,
+      "input_length": 775,
+      "agrees": true
+    },
+    {
+      "version": "20131017",
+      "case": "ordinary-inexact-control",
+      "actual_kind": 1,
+      "actual_hex": "3fb999999999999a",
+      "consumed": 3,
+      "expected_hex": "3fb999999999999a",
+      "expected_kind": 1,
+      "input_length": 3,
+      "agrees": true
+    },
+    {
+      "version": "20250620",
+      "case": "last-fitting-integer",
+      "actual_kind": 1,
+      "actual_hex": "3ff0000000000000",
+      "consumed": 774,
+      "expected_hex": "3ff0000000000000",
+      "expected_kind": 1,
+      "input_length": 774,
+      "agrees": true
+    },
+    {
+      "version": "20250620",
+      "case": "first-omitted-integer-digit",
+      "actual_kind": 1,
+      "actual_hex": "3fb999999999999a",
+      "consumed": 775,
+      "expected_hex": "3ff0000000000000",
+      "expected_kind": 1,
+      "input_length": 775,
+      "agrees": false
+    },
+    {
+      "version": "20250620",
+      "case": "negative-first-boundary",
+      "actual_kind": 1,
+      "actual_hex": "bfb999999999999a",
+      "consumed": 776,
+      "expected_hex": "bff0000000000000",
+      "expected_kind": 1,
+      "input_length": 776,
+      "agrees": false
+    },
+    {
+      "version": "20250620",
+      "case": "explicit-point",
+      "actual_kind": 1,
+      "actual_hex": "3fb999999999999a",
+      "consumed": 776,
+      "expected_hex": "3ff0000000000000",
+      "expected_kind": 1,
+      "input_length": 776,
+      "agrees": false
+    },
+    {
+      "version": "20250620",
+      "case": "two-omitted-digits",
+      "actual_kind": 1,
+      "actual_hex": "3f847ae147ae147b",
+      "consumed": 776,
+      "expected_hex": "3ff0000000000000",
+      "expected_kind": 1,
+      "input_length": 776,
+      "agrees": false
+    },
+    {
+      "version": "20250620",
+      "case": "231-omitted-digits",
+      "actual_kind": 1,
+      "actual_hex": "0ff8d71d360e13e2",
+      "consumed": 1005,
+      "expected_hex": "3ff0000000000000",
+      "expected_kind": 1,
+      "input_length": 1005,
+      "agrees": false
+    },
+    {
+      "version": "20250620",
+      "case": "multi-digit-prefix",
+      "actual_kind": 1,
+      "actual_hex": "3fbf9a6b50b0f27c",
+      "consumed": 779,
+      "expected_hex": "40c81c8000000000",
+      "expected_kind": 1,
+      "input_length": 779,
+      "agrees": false
+    },
+    {
+      "version": "20250620",
+      "case": "fraction-sticky-after-full-integer",
+      "actual_kind": 1,
+      "actual_hex": "3fb999999999999a",
+      "consumed": 777,
+      "expected_hex": "3ff0000000000000",
+      "expected_kind": 1,
+      "input_length": 777,
+      "agrees": false
+    },
+    {
+      "version": "20250620",
+      "case": "long-integer-modulo-unchanged",
+      "actual_kind": 0,
+      "actual_hex": "0000000000000007",
+      "consumed": 771,
+      "expected_hex": "0000000000000007",
+      "expected_kind": 0,
+      "input_length": 771,
+      "agrees": true
+    },
+    {
+      "version": "20250620",
+      "case": "leading-zero-control",
+      "actual_kind": 1,
+      "actual_hex": "3ff0000000000000",
+      "consumed": 803,
+      "expected_hex": "3ff0000000000000",
+      "expected_kind": 1,
+      "input_length": 803,
+      "agrees": true
+    },
+    {
+      "version": "20250620",
+      "case": "fraction-only-control",
+      "actual_kind": 1,
+      "actual_hex": "3ff0000000000000",
+      "consumed": 775,
+      "expected_hex": "3ff0000000000000",
+      "expected_kind": 1,
+      "input_length": 775,
+      "agrees": true
+    },
+    {
+      "version": "20250620",
+      "case": "ordinary-inexact-control",
+      "actual_kind": 1,
+      "actual_hex": "3fb999999999999a",
+      "consumed": 3,
+      "expected_hex": "3fb999999999999a",
+      "expected_kind": 1,
+      "input_length": 3,
+      "agrees": true
+    },
+    {
+      "version": "audit-corrected-20250620",
+      "case": "last-fitting-integer",
+      "actual_kind": 1,
+      "actual_hex": "3ff0000000000000",
+      "consumed": 774,
+      "expected_hex": "3ff0000000000000",
+      "expected_kind": 1,
+      "input_length": 774,
+      "agrees": true
+    },
+    {
+      "version": "audit-corrected-20250620",
+      "case": "first-omitted-integer-digit",
+      "actual_kind": 1,
+      "actual_hex": "3ff0000000000000",
+      "consumed": 775,
+      "expected_hex": "3ff0000000000000",
+      "expected_kind": 1,
+      "input_length": 775,
+      "agrees": true
+    },
+    {
+      "version": "audit-corrected-20250620",
+      "case": "negative-first-boundary",
+      "actual_kind": 1,
+      "actual_hex": "bff0000000000000",
+      "consumed": 776,
+      "expected_hex": "bff0000000000000",
+      "expected_kind": 1,
+      "input_length": 776,
+      "agrees": true
+    },
+    {
+      "version": "audit-corrected-20250620",
+      "case": "explicit-point",
+      "actual_kind": 1,
+      "actual_hex": "3ff0000000000000",
+      "consumed": 776,
+      "expected_hex": "3ff0000000000000",
+      "expected_kind": 1,
+      "input_length": 776,
+      "agrees": true
+    },
+    {
+      "version": "audit-corrected-20250620",
+      "case": "two-omitted-digits",
+      "actual_kind": 1,
+      "actual_hex": "3ff0000000000000",
+      "consumed": 776,
+      "expected_hex": "3ff0000000000000",
+      "expected_kind": 1,
+      "input_length": 776,
+      "agrees": true
+    },
+    {
+      "version": "audit-corrected-20250620",
+      "case": "231-omitted-digits",
+      "actual_kind": 1,
+      "actual_hex": "3ff0000000000000",
+      "consumed": 1005,
+      "expected_hex": "3ff0000000000000",
+      "expected_kind": 1,
+      "input_length": 1005,
+      "agrees": true
+    },
+    {
+      "version": "audit-corrected-20250620",
+      "case": "multi-digit-prefix",
+      "actual_kind": 1,
+      "actual_hex": "40c81c8000000000",
+      "consumed": 779,
+      "expected_hex": "40c81c8000000000",
+      "expected_kind": 1,
+      "input_length": 779,
+      "agrees": true
+    },
+    {
+      "version": "audit-corrected-20250620",
+      "case": "fraction-sticky-after-full-integer",
+      "actual_kind": 1,
+      "actual_hex": "3ff0000000000000",
+      "consumed": 777,
+      "expected_hex": "3ff0000000000000",
+      "expected_kind": 1,
+      "input_length": 777,
+      "agrees": true
+    },
+    {
+      "version": "audit-corrected-20250620",
+      "case": "long-integer-modulo-unchanged",
+      "actual_kind": 0,
+      "actual_hex": "0000000000000007",
+      "consumed": 771,
+      "expected_hex": "0000000000000007",
+      "expected_kind": 0,
+      "input_length": 771,
+      "agrees": true
+    },
+    {
+      "version": "audit-corrected-20250620",
+      "case": "leading-zero-control",
+      "actual_kind": 1,
+      "actual_hex": "3ff0000000000000",
+      "consumed": 803,
+      "expected_hex": "3ff0000000000000",
+      "expected_kind": 1,
+      "input_length": 803,
+      "agrees": true
+    },
+    {
+      "version": "audit-corrected-20250620",
+      "case": "fraction-only-control",
+      "actual_kind": 1,
+      "actual_hex": "3ff0000000000000",
+      "consumed": 775,
+      "expected_hex": "3ff0000000000000",
+      "expected_kind": 1,
+      "input_length": 775,
+      "agrees": true
+    },
+    {
+      "version": "audit-corrected-20250620",
+      "case": "ordinary-inexact-control",
+      "actual_kind": 1,
+      "actual_hex": "3fb999999999999a",
+      "consumed": 3,
+      "expected_hex": "3fb999999999999a",
+      "expected_kind": 1,
+      "input_length": 3,
+      "agrees": true
+    }
+  ],
+  "total_runs": 36,
+  "original_mismatches": 14,
+  "audit_corrected_all_agree": true
+}

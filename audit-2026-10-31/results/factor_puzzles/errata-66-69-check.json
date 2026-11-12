@@ -1,0 +1,56 @@
+{
+  "checked_at_utc": "2026-11-01T09:05:07.213745+00:00",
+  "patterns": [
+    "4b\\.410",
+    "4f5\\.218",
+    "Page 410",
+    "Page 218",
+    "never 24",
+    "9.*6 or 7",
+    "Fool",
+    "Royal",
+    "answer 6[2-9]"
+  ],
+  "matches": {
+    "errata/originals/err4b.textxt": [
+      {
+        "line": 757,
+        "context": "\n\\bugonpage 4b.410 line 10 (23.02.18)\npages 28 \\becomes page 28\n\\endchange\n"
+      },
+      {
+        "line": 761,
+        "context": "\n\\amendpage 4b.411 replacement for answer 69 (23.03.14)\n\\ans69. (The main point is that the 33rd digit of $\\pi$ is zero.)\nOn 14 March 2023,\nGerm\\'an Gonz\\'alez-Morris rose to this challenge by"
+      },
+      {
+        "line": 1616,
+        "context": "\n\\amendpage 4b.561 replacement for answer 68 (26.02.26)\n\\ans68. (Solution by Ben {Chaffin}.) Exhaustive enumeration is feasible\nwith {bitwise computations} (and without {\\mc SAT}). The longest paths\nachievable with (6, 7, 8, 9, 10) live starting cells have"
+      }
+    ],
+    "errata/originals/err4f5.textxt": [
+      {
+        "line": 756,
+        "context": "\n\\improvepage 4f5.191 new answer 63 (20.08.16)\n\\ans63. If $\\omega$ is the event `$Z_0=a$ and $Z_1=b$', we have\n$Z_0(\\omega)=a$ and $\\E(Z_1\\given\nZ_0)(\\omega)=\\break(p_{a1}+2p_{a2})/(p_{a0}+p_{a1}+p_{a2})$. Hence"
+      }
+    ],
+    "errata/text/all4b.txt": [
+      {
+        "line": 399,
+        "context": "x\nPage 410 line 10                                                                18 Feb 2023\n pages 28  y      page 28\nPage 411 repla ement for answer 69                                             14 Mar 2023\n 69. (The main point is that the 33rd                     3 1        4            1"
+      },
+      {
+        "line": 401,
+        "context": " pages 28  y      page 28\nPage 411 repla ement for answer 69                                             14 Mar 2023\n 69. (The main point is that the 33rd                     3 1        4            1\n digit of \u0019 is zero.) On 14 Mar h 2023,                                 5            9\n Germ\u0013an Gonz\u0013alez-Morris rose to this                       2    6     5"
+      },
+      {
+        "line": 1084,
+        "context": " line 9: at least three of these ve    y          at least two of those ve\nPage 561 repla ement for answer 68                                                     26 Feb 2026\n 68. (Solution by Ben ChaÆn.) Exhaustive enumeration is feasible with bitwise\n   omputations (and without SAT). The longest paths a hievable with (6, 7, 8, 9,\n 10) live starting ells have (8, 9, 10, 11, 11) generations; starting patterns that"
+      }
+    ],
+    "errata/text/all4f5.txt": [
+      {
+        "line": 448,
+        "context": "  10 pages.℄\n Page 191 new answer 63                                                             16 Aug 2020\n  63.  If ! is the event `Z0 = a and Z1 = b', we have Z0 (!) = a and E(Z1 j Z0 )(!) =\n  (pa1 + 2pa2 )=(pa0 + pa1 + pa2 ). Hen e p01 = p02 = p20 = p21 = 0, and p10 = p12 . Those\n    onditions are ne essary and suÆ ient for E(Z1 j Z0 ) = Z0 ."
+      }
+    ]
+  }
+}

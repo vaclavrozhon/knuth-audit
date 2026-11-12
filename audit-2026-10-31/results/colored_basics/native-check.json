@@ -1,0 +1,82 @@
+{
+  "checked_at_utc": "2026-11-01T23:57:31.824562+00:00",
+  "source_sha256": "e8c29f45359f9ffc68862f542d3007083bfad41fb17c7e6d6142e0a2cc28b4e6",
+  "cases": [
+    {
+      "label": "toy",
+      "variant": "original",
+      "solutions": 1,
+      "command": [
+        "/tmp/knuth-vol4b-colored-4ulh1ceo/dlx2-original",
+        "v3",
+        "m1"
+      ],
+      "files": {
+        ".dlx": "4c499a0ab04de08db477323c189ffc415e3ace19a6bb98b261bd64cc4cd46952",
+        ".stdout": "d8c92bcc863ac1f46b8bc58485b0f6bb8538eba6f1dfdf5d37807ba7665fba0d",
+        ".stderr": "4793c4b21db5585e7f35138020d902dc386250e7f64a509e7b072a6dfc9f3d1e"
+      }
+    },
+    {
+      "label": "overlap-normal",
+      "variant": "root-p",
+      "solutions": 1,
+      "command": [
+        "/tmp/knuth-vol4b-colored-4ulh1ceo/dlx2-root-p",
+        "v3",
+        "m1"
+      ],
+      "files": {
+        ".dlx": "a3547fadd50926e391774f22cdcce5bf5038cdaecb979b7ce5fac1b8e85187d2",
+        ".stdout": "dbc1814599a77980e78d0d4654715ea352e413646cbf64feca2eee1d7ead8657",
+        ".stderr": "0bc77f802f8718b0688d7c8051c75b20ca1aec8d79132b0c328a4e394e527c7a"
+      }
+    },
+    {
+      "label": "overlap-printed83",
+      "variant": "printed83",
+      "solutions": 1,
+      "command": [
+        "/tmp/knuth-vol4b-colored-4ulh1ceo/dlx2-printed83",
+        "v3",
+        "m1"
+      ],
+      "files": {
+        ".dlx": "a3547fadd50926e391774f22cdcce5bf5038cdaecb979b7ce5fac1b8e85187d2",
+        ".stdout": "b727909e1802f24a63c408ea94ba426df77ff5de5ad3c7ba80cc2a89a6e06f6d",
+        ".stderr": "3c9d797a7ce6afb0b0ac0e70ae1c8aeffb7cda2a1a848cf778175b782104d6b3"
+      }
+    },
+    {
+      "label": "overlap-expanded",
+      "variant": "root-p",
+      "solutions": 0,
+      "command": [
+        "/tmp/knuth-vol4b-colored-4ulh1ceo/dlx2-root-p",
+        "v3",
+        "m1"
+      ],
+      "files": {
+        ".dlx": "ac2e2a1c05aa41d1b4ec2fe3fb3f25a32a614b8bba631aab5ea14b2e28241040",
+        ".stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        ".stderr": "4e0a8084a9563613b47e08189633d2bd42616418924b2c60453fa11f6b58c96c"
+      }
+    },
+    {
+      "label": "disjoint-printed83",
+      "variant": "printed83",
+      "solutions": 0,
+      "command": [
+        "/tmp/knuth-vol4b-colored-4ulh1ceo/dlx2-printed83",
+        "v3",
+        "m1"
+      ],
+      "files": {
+        ".dlx": "28429a09235f89c3bbb8de29785e87cd039f975e363eeb3e41eef0c3726a6530",
+        ".stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        ".stderr": "bf8f8669efa6420fd1542ecaafbe53e2927cdca796f768b0b756811ef34e56a4"
+      }
+    }
+  ],
+  "conclusion": "The independent original DLX2, with only the stated83 extension and forced allowed root choice, returns p c + q a, forbidden by the earlier-a condition. Its explicit expanded problem is UNSAT. The normal disjoint-marker case correctly yields UNSAT."
+}

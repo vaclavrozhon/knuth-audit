@@ -1,0 +1,249 @@
+{
+  "block": "V2-X0079",
+  "status": "checked",
+  "checked_at_utc": "2026-11-04T13:15:35.970160+00:00",
+  "scope": "Exercises4.6.4–32 through36; historical addendum to X0077/X0078.",
+  "edition": 3,
+  "printing": 1,
+  "physical_copy_verified": false,
+  "findings": [
+    "V2-C0239"
+  ],
+  "source_read": "notes/polyeval-small-bounds.md section7; full volume archived, only stated pages audited.",
+  "known_errata": [
+    {
+      "date": "2000-04-20",
+      "page": 703,
+      "description": "Answer34: uses lambda_j -> uses lambda_i."
+    }
+  ],
+  "historical_update": {
+    "Belaga1961": "Introduction7,theorem11–13,conclusion15 read; visuals7,11,15. Attribution and bibliographic scope checked.",
+    "Pan1961": "Visual17,18,28,29;text19; title/imprint1961 confirmed. D=N=0 explicitly discussed28; C0236 remains candidate due interpretation.",
+    "open": "Motzkin1955 abstract and remaining external sources."
+  },
+  "errata_source_hashes": [
+    {
+      "path_from_repository": "errata/text/all2-prepre.txt",
+      "sha256": "62a1ff323ca421f2640e2337f922dbf8cfc8e86c20d9b11acfc91221721c6f58"
+    },
+    {
+      "path_from_repository": "errata/text/all2-pre.txt",
+      "sha256": "c1735b70547678d739eae3a8d7b02872c737218eed7706a0aba8fb6fc21a6529"
+    },
+    {
+      "path_from_repository": "errata/text/all2.txt",
+      "sha256": "1c4d7f2259e147db0ebe84b4bf0ce8864b307afb4ccfbe48efcb1f5f5999ac58"
+    },
+    {
+      "path_from_repository": "errata/text/err2.txt",
+      "sha256": "1b5c93712c3c467a48679e0040ba6c5869998b25184dbd125a5d096ce96e9ab0"
+    },
+    {
+      "path_from_repository": "errata/text/err2-2e.txt",
+      "sha256": "cf2d9ced25e86f6fd9be0e4f82700a979fc174dff6860e7a4b7950292c24e154"
+    },
+    {
+      "path_from_repository": "errata/originals/err2.textxt",
+      "sha256": "8faa21566312314ec6bda0f8956913deb312517fd9fa688dcc0bf19e1f21962e"
+    }
+  ],
+  "verification": {
+    "sparse_quartic": {
+      "multiplications": 3,
+      "additions": 2
+    },
+    "normalization34_intermediate_identities": 6,
+    "all_product_skeletons": {
+      "two_products": 3,
+      "three_products": 18
+    },
+    "degree4_skeletons": [
+      [
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      ]
+    ],
+    "degree6_skeletons": [
+      [
+        [
+          1,
+          2,
+          3,
+          6
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      ],
+      [
+        [
+          1,
+          2,
+          4,
+          6
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      ]
+    ],
+    "generic_family_mappings": 3,
+    "coefficient_relations": 3,
+    "C0239": "The quartic final constant is a5; printed D=a6 is undefined.",
+    "quartic_missing_example": "x^4+x",
+    "sextic_missing_example": "x^6+x",
+    "scope": "Structural completeness is proved separately in the note; skeleton enumeration assumes the proved parameter-addition normal form.",
+    "status": "passed",
+    "pid": 1599332,
+    "seconds": 0.3133649539668113,
+    "completed_at_utc": "2026-11-04T13:13:25.646338+00:00"
+  },
+  "artifacts": [
+    {
+      "path": "notes/polyeval-small-bounds.md",
+      "bytes": 11478,
+      "sha256": "c0b3e67b0410ca14cb85430d29b54b936fef03a3ecc444b6c870e1fb90d058f4"
+    },
+    {
+      "path": "verify_polyeval_small_bounds.py",
+      "bytes": 4652,
+      "sha256": "067280c794b5cccd6e33d6c45cdfdac69e602a24913a65e3fb1c666d06a32ddb"
+    },
+    {
+      "path": "reports/C0239-quartic-final-parameter-index.txt",
+      "bytes": 659,
+      "sha256": "ce9df9b217ee0aa45fd7bb6d39d89b692e19663edf7d905db791a4a3ac1be7bd"
+    },
+    {
+      "path": "results/polyeval-small-bounds.json",
+      "bytes": 1371,
+      "sha256": "7111d27d31cb0c95015bcd8844544e4a0b3b6564ec533887e4242b5bbb154411"
+    },
+    {
+      "path": "results/polyeval-small-bounds.log",
+      "bytes": 801,
+      "sha256": "4d72ecc46575b2919cbb63f74bff08cf8da7e2c8ec7c617bf03877cc0706b235"
+    },
+    {
+      "path": "results/polyeval-small-bounds-run.json",
+      "bytes": 469,
+      "sha256": "f6e2c5c1569026c4d6ade5c10f1c8726b7ac32b2708e0391baed2036a8198ab8"
+    },
+    {
+      "path": "sources/polyeval-small-bounds-errata.txt",
+      "bytes": 16271,
+      "sha256": "c7249a7947884f170a346ad36ef7e528e9c847d36e16018bde74aed5b602c639"
+    },
+    {
+      "path": "sources/polyeval-chains-access.json",
+      "bytes": 1896,
+      "sha256": "932b87103ea78987ecea9b5cc37aad5e140c4ace9827dee30cad4cc29774f651"
+    },
+    {
+      "path": "sources/problemy-kibernetiki-1961-05.pdf",
+      "bytes": 7250252,
+      "sha256": "e83bb5d278426c408e841176e01d5e7621899288e7eca1a5835e786753bc4702"
+    },
+    {
+      "path": "sources/problemy-kibernetiki-1961-05.txt",
+      "bytes": 1804926,
+      "sha256": "4314e36a6c89aad0f2a860e9668e24ee52a10f36d9639e9f6a7fa8b90795e237"
+    },
+    {
+      "path": "images/problemy-kibernetiki-1961-title.png",
+      "bytes": 80581,
+      "sha256": "fec812339a8b8d36a3e09b8362fe2ed75580ddf4e473b36da4ccfad5ac90316a"
+    },
+    {
+      "path": "images/problemy-kibernetiki-1961-imprint.png",
+      "bytes": 79484,
+      "sha256": "e2f3029ba1804914c2e506d3b9473b4ebaba2873fb047b030d94bb21172757a6"
+    },
+    {
+      "path": "images/problemy-kibernetiki-1961-p7.png",
+      "bytes": 271784,
+      "sha256": "1d7f3f63a574e8cba180a799c111bc1e5ebb7345030578f575705b6fe8f065c3"
+    },
+    {
+      "path": "images/problemy-kibernetiki-1961-p11.png",
+      "bytes": 248061,
+      "sha256": "2cf4c203a93ae47460a2690e429b267e8f2e8fcead9d48642a85f56c2612a70b"
+    },
+    {
+      "path": "images/problemy-kibernetiki-1961-p15.png",
+      "bytes": 106414,
+      "sha256": "d771cae80cfd601e531d4704b8705e98a07f54dc3863cd38abcb913f4ba90fad"
+    },
+    {
+      "path": "images/problemy-kibernetiki-1961-p17.png",
+      "bytes": 332331,
+      "sha256": "7baabde4d67868ca7ff0f9ac5e3075aa7e0f74f5db8fa413cfa7d421b2182018"
+    },
+    {
+      "path": "images/problemy-kibernetiki-1961-p18.png",
+      "bytes": 287731,
+      "sha256": "493be08fd05f39468110a314075837df9296a8d849449921487170b224605b2e"
+    },
+    {
+      "path": "images/problemy-kibernetiki-1961-p28.png",
+      "bytes": 325825,
+      "sha256": "e57ac325fda59b5a5819eb1061c74c78cb8d244f9053eb797b8433b8d35659ea"
+    },
+    {
+      "path": "images/problemy-kibernetiki-1961-p29.png",
+      "bytes": 234754,
+      "sha256": "c595507729c6ffaa75fa34a2aa9b3548e82fb37a14c2eb2ea6050b731992ecca"
+    },
+    {
+      "path": "images/vol2-p518.png",
+      "bytes": 355363,
+      "sha256": "54ab295d922c66c0757d128bb92ab11483b1924117cbe36f679f03c7d0d34e93"
+    },
+    {
+      "path": "images/vol2-p703.png",
+      "bytes": 321084,
+      "sha256": "57e49b8ecac650a7c1b2cf7506e97634a5d586f424a8b85c8a6b9763408d4fd4"
+    },
+    {
+      "path": "images/vol2-p704.png",
+      "bytes": 271509,
+      "sha256": "8fbded6c6d662fce8446ea39e5b347b19af53bc08f4b55128fbf4f1f5b074459"
+    }
+  ]
+}

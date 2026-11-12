@@ -1,0 +1,36 @@
+{
+  "checked_at_utc": "2026-11-11T21:59:44.109430+00:00",
+  "edition": "Volume 4A, first edition, first printing, 2011; inventory/books.json",
+  "originals": [
+    "images/bookwise-p457.png",
+    "images/bookwise-p458.png",
+    "images/bookwise-p459.png",
+    "images/bookwise-p460.png",
+    "images/bookwise-p461.png",
+    "images/bookwise-p479.png",
+    "images/bookwise-p480.png",
+    "images/bookwise-p799.png",
+    "images/bookwise-p800.png",
+    "images/bookwise-p801.png"
+  ],
+  "errata": [
+    "errata/text/all4a-pre.txt",
+    "errata/text/all4a.txt",
+    "errata/text/err4a.txt",
+    "errata/text/all4f4.txt",
+    "errata/text/err4f4.txt"
+  ],
+  "fresh_fascicle_manifest": "integration/2026-11-10-bookwise/errata/vol4a-fasc4-manifest.json",
+  "pages_screened": "4A main 457–461, exercises 479–480, answers 799–801; Fascicle 4 19–23,41–42,94–96.",
+  "public_queries": [
+    "Knuth \"801\" \"82\" errata",
+    "Knuth Hansel \"maximizes\" \"82\"",
+    "Knuth \"799\" \"75\" errata"
+  ],
+  "public_result": "No matching repairs found. Known 2015 subscript-notation changes, replacement of answer 85, rating change and 2019 Gray-code addendum are excluded.",
+  "findings": [
+    "V4A-F0125",
+    "V4A-F0126"
+  ],
+  "dismissed_ocr_suspicion": "The quadratic expansion in answer 84 correctly includes A prime in its cross term; checked in an enlarged original image."
+}

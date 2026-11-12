@@ -1,0 +1,67 @@
+{
+  "checked_at_utc": "2026-11-12T03:28:29.260268+00:00",
+  "new_findings": [
+    "F246",
+    "F247"
+  ],
+  "errata_ranges": {
+    "4B": [
+      [
+        295,
+        297
+      ],
+      [
+        362,
+        363
+      ],
+      [
+        641,
+        644
+      ]
+    ],
+    "4F6": [
+      [
+        111,
+        113
+      ],
+      [
+        178,
+        179
+      ],
+      [
+        277,
+        280
+      ]
+    ]
+  },
+  "errata_files": [
+    "errata/text/all4b.txt",
+    "errata/text/err4b.txt",
+    "errata/text/all4f6.txt",
+    "errata/text/err4f6.txt",
+    "errata/originals/err4b.textxt",
+    "errata/originals/err4f6.textxt"
+  ],
+  "refresh_manifests": [
+    "integration/2026-11-10-bookwise/errata/vol4b-manifest.json",
+    "integration/2026-11-10-bookwise/errata/vol4b-sat-manifest.json"
+  ],
+  "draft": {
+    "path": "audit-2026-10-31/sources/fasc6a.pdf",
+    "url": "https://www-cs-faculty.stanford.edu/~knuth/fasc6a.ps.gz",
+    "printed_page": 278,
+    "both_defects_present": true
+  },
+  "known_errata": [
+    "2025-01-02: answer480(c), c_(n−3) should be c_(n+3).",
+    "2018-07-17: answer479(d) S2/S3 labels, incorporated.",
+    "2026-03-13: main297 bibliography date 1998 should be 1996."
+  ],
+  "public_searches": [
+    "Knuth \"answer 477\" \"xi1\"",
+    "Knuth \"478\" \"used before\" symmetry",
+    "TAOCP \"642\" \"477\" errata"
+  ],
+  "public_search_result": "No matching report. Unrelated returned pages were not used.",
+  "new_computations": 0
+}

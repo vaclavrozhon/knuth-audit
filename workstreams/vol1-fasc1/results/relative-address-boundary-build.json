@@ -1,0 +1,119 @@
+[
+  {
+    "version": "original-2013",
+    "command": [
+      "ctangle",
+      "workstreams/vol1-fasc1/sources/mmixal-20131017.w",
+      "-",
+      "mmixal.c"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "version": "original-2013",
+    "command": [
+      "ctangle",
+      "workstreams/vol1-fasc1/sources/mmix-arith-20131017.w",
+      "-",
+      "mmix-arith.c"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "version": "original-2013",
+    "command": [
+      "gcc",
+      "-O0",
+      "-std=c11",
+      "mmixal.c",
+      "mmix-arith.c",
+      "-o",
+      "mmixal"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "version": "original-2025",
+    "command": [
+      "ctangle",
+      "workstreams/vol1-fasc1/sources/mmixal-20250620.w",
+      "-",
+      "mmixal.c"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "version": "original-2025",
+    "command": [
+      "ctangle",
+      "workstreams/vol1-fasc1/sources/mmix-arith-20250620.w",
+      "-",
+      "mmix-arith.c"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "version": "original-2025",
+    "command": [
+      "gcc",
+      "-O0",
+      "-std=c11",
+      "mmixal.c",
+      "mmix-arith.c",
+      "-o",
+      "mmixal"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "version": "audit-displacement-first",
+    "command": [
+      "ctangle",
+      "workstreams/vol1-fasc1/sources/mmixal-20250620.w",
+      "workstreams/vol1-fasc1/sources/audit-relative-address-boundary.ch",
+      "mmixal.c"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "version": "audit-displacement-first",
+    "command": [
+      "ctangle",
+      "workstreams/vol1-fasc1/sources/mmix-arith-20250620.w",
+      "-",
+      "mmix-arith.c"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "version": "audit-displacement-first",
+    "command": [
+      "gcc",
+      "-O0",
+      "-std=c11",
+      "mmixal.c",
+      "mmix-arith.c",
+      "-o",
+      "mmixal"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+]

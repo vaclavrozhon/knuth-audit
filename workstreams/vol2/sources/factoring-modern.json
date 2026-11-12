@@ -1,0 +1,450 @@
+{
+  "accessed_at_utc": "2026-11-03T19:46:43.520539+00:00",
+  "scope": "TAOCP2 ed3 print1 p402 modern methods / p403 through F13 paragraph; own exact certificates and bounded primary-source context.",
+  "book_visually_read": [
+    402,
+    403
+  ],
+  "book_file_offset": 12,
+  "downloads_manifest": "sources/modern-factorization-downloads.json",
+  "primary_reading": [
+    {
+      "source": "Pomerance1985",
+      "pages": "169–171 text,174 visual history passage,bibliography",
+      "result": "1981 origin and LNCS209 metadata confirmed"
+    },
+    {
+      "source": "Lenstra1987",
+      "pages": "649–650,671–672 visual",
+      "result": "Heuristic ECM coefficient2, small-factor dependence, assumptions distinguished; whole25page proof not audited"
+    },
+    {
+      "source": "BuhlerLenstraPomerance1993",
+      "pages": "50–51 visual",
+      "result": "General coefficient(64/9)^(1/3), special coefficient(32/9)^(1/3), 1988; 125digit empirical crossover distinct from1997estimate"
+    },
+    {
+      "source": "LenstraNFSbibliography1993",
+      "pages": "1 visual",
+      "result": "PollardAugust1988 manuscript and31Augustletter"
+    },
+    {
+      "source": "LenstraEtAlF9",
+      "pages": "319visual;328–329,339–340,344–345text;otherselectedpassages",
+      "result": "3prime factors,4months,about700workstations;specialNFS"
+    },
+    {
+      "source": "F9addendum1995",
+      "pages": "1357text",
+      "result": "HistoricalGaussdiscussion,notfactorcorrection"
+    },
+    {
+      "source": "Brent1999",
+      "pages": "430,444,445visual;429–431,443,446–447selectedtext",
+      "result": "F10date20Oct1995,F11in1988,allnumericfactorsandprimalityhistory"
+    },
+    {
+      "source": "BrentEtAl2000",
+      "pages": "authorversion4–5visual,metadataauthorpublicationpage",
+      "result": "FourthF13factor16June1995,2391digitcompositeresidual"
+    },
+    {
+      "source": "KellerPurdue",
+      "pages": "HTMLtable complete/incompletefactorizations",
+      "result": "Historical2001tableF12/F13factors;not2026state"
+    },
+    {
+      "source": "CongressusNumerantiumPublisher",
+      "pages": "1976volumes15–17",
+      "result": "Volume16year1976confirmed;Guyarticleunobtained"
+    }
+  ],
+  "errata_search": {
+    "files": [
+      "../../errata/text/all2-prepre.txt",
+      "../../errata/text/all2-pre.txt",
+      "../../errata/text/all2.txt",
+      "../../errata/text/err2.txt",
+      "../../errata/originals/err2.textxt"
+    ],
+    "date": "2026-11-03T19:46:43.520539+00:00",
+    "terms": [
+      "402",
+      "403",
+      "quadratic",
+      "Lenstra",
+      "Brent",
+      "64/9",
+      "1297",
+      "429",
+      "Silverman"
+    ],
+    "known_corrections": [
+      "402Annals(2)2010",
+      "402SilvermanTate1998",
+      "403Brent68(1999)429–451",
+      "403BrentEtAl69(2000)1297–1304"
+    ],
+    "new_findings": []
+  },
+  "certification": {
+    "targets": 21,
+    "elliptic_curve_links": 124,
+    "terminal_lucas_primes": 106,
+    "validation_seconds": 88.32404143700842,
+    "validator_pid": 1296489,
+    "tool_session": 24022,
+    "timeout": 180,
+    "exit_code": 0,
+    "odd_characteristic_nodes": 124,
+    "composite_cofactor_witnesses": {
+      "F12": 3,
+      "F13": 3
+    }
+  },
+  "limitations": [
+    "ExactGuyquoteandoriginal49–89notobtained",
+    "Specific112digitcrossovermeasurementnotobtained",
+    "CrandallFagin1994p321originalnotread;subsequentprimaryaccountread",
+    "HeuristicECM/NFSnotconvertedintorigorousworstcasebounds",
+    "Physical latestprintingandprioritynotverified"
+  ],
+  "artifacts": [
+    {
+      "file": "certify_fermat_factors.py",
+      "bytes": 4666,
+      "sha256": "b69d7403b7385e5640438a94440df6d9247a1935879fa72bbbaff2e1aafe3b7c"
+    },
+    {
+      "file": "images/brent-fermat-factors-2000-p4.png",
+      "bytes": 311320,
+      "sha256": "8506945fe3d2b1b83bcc625c8069b79ab47f4e703bfb6ea2039ba6b044a21a99"
+    },
+    {
+      "file": "images/brent-fermat-factors-2000-p5.png",
+      "bytes": 253887,
+      "sha256": "fd9284b7280875533e85c0579650b8439df1bd98b50a444305238089a9faa99b"
+    },
+    {
+      "file": "images/brent-fermat10-1999-p16.png",
+      "bytes": 311399,
+      "sha256": "3cfaef5cf98eef3d2f5d13c7f966f62fab13e683bfd8c05fd73fd6e5de591ee9"
+    },
+    {
+      "file": "images/brent-fermat10-1999-p17.png",
+      "bytes": 282617,
+      "sha256": "4557d63bc13a9acf49591a1947e33f53eafb8baf272d944a4db9ac1429168571"
+    },
+    {
+      "file": "images/brent-fermat10-1999-p2.png",
+      "bytes": 332468,
+      "sha256": "a071369ea2b1c1627917a571771f4bb970da4d1e6dfc3c3b53f1a7caf98590be"
+    },
+    {
+      "file": "images/buhler-lenstra-pomerance-nfs-1993-p1.png",
+      "bytes": 469194,
+      "sha256": "ba04166a0668df21a8ba914b485754624d31330d05f0fad0edbb39e291028336"
+    },
+    {
+      "file": "images/buhler-lenstra-pomerance-nfs-1993-p2.png",
+      "bytes": 479826,
+      "sha256": "2ffc6757607806c905663cedc16a04da320b9f7249ae647910759577ea43f543"
+    },
+    {
+      "file": "images/lenstra-ecm-1987-p2.png",
+      "bytes": 231993,
+      "sha256": "9d9ede045f3f58fb68ec619b05b6e67f11152f8b96104c49010e992844afc8d3"
+    },
+    {
+      "file": "images/lenstra-ecm-1987-p24.png",
+      "bytes": 318886,
+      "sha256": "e49919f0005fb036bce70bff535e35a43712ab35cb91010ad64d1c77f4d4ec7f"
+    },
+    {
+      "file": "images/lenstra-ecm-1987-p25.png",
+      "bytes": 288898,
+      "sha256": "f92601a0e7be0b987404b229c10bdfa8616750c6b2326159bd58a204a7e3f844"
+    },
+    {
+      "file": "images/lenstra-ecm-1987-p3.png",
+      "bytes": 322601,
+      "sha256": "e0401c2cb20d1dd3d37a51b5eba796eba70ad7db64b1b8126d850888fdc3395c"
+    },
+    {
+      "file": "images/lenstra-fermat9-1993-p2.png",
+      "bytes": 191291,
+      "sha256": "c213144dd35575b4ee4906d639d49182b86c613abe2a47c51b75dce1ed334730"
+    },
+    {
+      "file": "images/lenstra-fermat9-1993-p3.png",
+      "bytes": 294246,
+      "sha256": "62dc52e2139e29032f8af60e298ce70081c693e4bde27972297f7776d6050160"
+    },
+    {
+      "file": "images/lenstra-nfs-bibliography-1993-p1.png",
+      "bytes": 314213,
+      "sha256": "84b07a74641dc26eb5883ab5b27e79c110d14d276bf13d364eb8048ca3da4104"
+    },
+    {
+      "file": "images/lenstra-nfs-bibliography-1993-p2.png",
+      "bytes": 367617,
+      "sha256": "3d5007df2b4e98ef5bb2c1e1dbe3dd9bbfd0261f58c63553a5a1063a400ba326"
+    },
+    {
+      "file": "images/pomerance-quadratic-sieve-1985-p6.png",
+      "bytes": 121424,
+      "sha256": "664b935f2b9501f461e568311b30f36a3df1dc512a2ee0e6b4f244f066767346"
+    },
+    {
+      "file": "images/vol2-p402.png",
+      "bytes": 615921,
+      "sha256": "e93d97353fe41fe5aca2c01f964bf7871819871ea9fb27e6bd14098d23fbcde8"
+    },
+    {
+      "file": "images/vol2-p403.png",
+      "bytes": 617718,
+      "sha256": "41c751d2d9da6410f5c2478477fbcbf824f53abf09ce43658ae42f6e45c97b8f"
+    },
+    {
+      "file": "notes/factoring-modern.md",
+      "bytes": 9936,
+      "sha256": "58f635dd16c5907e9d173bd982d6eda1ec93bd13037b2391d2fa2bdcce7fec9e"
+    },
+    {
+      "file": "results/fermat-factor-certificates/F10-1.json",
+      "bytes": 310,
+      "sha256": "6cf16d40b902677608d700e386ce925016faf893e966d0ed29c97cdf2d482935"
+    },
+    {
+      "file": "results/fermat-factor-certificates/F10-2.json",
+      "bytes": 314,
+      "sha256": "930ad92f82fe67c5e5a989881e5550d117a3a9b6f8777f10e5fa2e095db21fee"
+    },
+    {
+      "file": "results/fermat-factor-certificates/F10-3.json",
+      "bytes": 784,
+      "sha256": "3beb48102140bb9d1503087a13ab4d7e9f7a1462bfc65781843f776a5491a3f5"
+    },
+    {
+      "file": "results/fermat-factor-certificates/F10-4.json",
+      "bytes": 22147,
+      "sha256": "f51b3c2fa86d89e0065cd8e9787ab747cc0f2429ad695fb921e3f41aff86179a"
+    },
+    {
+      "file": "results/fermat-factor-certificates/F11-1.json",
+      "bytes": 307,
+      "sha256": "ac6fa31c62046b8719ebb9eaec79aba718586f7e5d05178c873a7b26bb3aa391"
+    },
+    {
+      "file": "results/fermat-factor-certificates/F11-2.json",
+      "bytes": 307,
+      "sha256": "bd603c62963241be142182cd32c96373eb530b3f1b650aef9842f7e0d0f626c7"
+    },
+    {
+      "file": "results/fermat-factor-certificates/F11-3.json",
+      "bytes": 482,
+      "sha256": "a2342b2ef73a114dc7a9e66da6aaac8e49bae497c646550460491181a503f3f1"
+    },
+    {
+      "file": "results/fermat-factor-certificates/F11-4.json",
+      "bytes": 509,
+      "sha256": "116b5cc951e90024efecc2d616ab383a74d00eb968c5460e29813174bb6e3d17"
+    },
+    {
+      "file": "results/fermat-factor-certificates/F11-5.json",
+      "bytes": 95895,
+      "sha256": "6ffa4a66a2d0b4fe9759291605d4c452b46151dfff19cb0e82088c59e5854265"
+    },
+    {
+      "file": "results/fermat-factor-certificates/F12-1.json",
+      "bytes": 307,
+      "sha256": "b3af17d03e6086250237d6ec31c5f9abb82b3015f5e09e35ef6b798f0acdd8e3"
+    },
+    {
+      "file": "results/fermat-factor-certificates/F12-2.json",
+      "bytes": 311,
+      "sha256": "849a536d79fed05f0a213e64a75911a93dff178cc7608ab7315c8b9623e70c5c"
+    },
+    {
+      "file": "results/fermat-factor-certificates/F12-3.json",
+      "bytes": 311,
+      "sha256": "81a3077c066516c2470ca0a06c343624e6383731848587889689208e3e9bacc0"
+    },
+    {
+      "file": "results/fermat-factor-certificates/F12-4.json",
+      "bytes": 319,
+      "sha256": "a66e4ea4a3c76ebc819fee5e6f5ab0116a7e8d255db0e420f6ae46794fbfaa09"
+    },
+    {
+      "file": "results/fermat-factor-certificates/F12-5.json",
+      "bytes": 327,
+      "sha256": "2647c99b33713580412558ab4cffd212990cc70850e58e291e1ee426a218af58"
+    },
+    {
+      "file": "results/fermat-factor-certificates/F13-1.json",
+      "bytes": 321,
+      "sha256": "a4a952a4997387a03b6ff64569f3a460c1373967fe198926cca1f7716882f4ed"
+    },
+    {
+      "file": "results/fermat-factor-certificates/F13-2.json",
+      "bytes": 333,
+      "sha256": "f3f64ff60eb1cf616aa350cd06703b61994810164179086b2962e4d62017c056"
+    },
+    {
+      "file": "results/fermat-factor-certificates/F13-3.json",
+      "bytes": 332,
+      "sha256": "32618fee013bb41c48d555cc60ef90ab696b0659bf430a48850b8accdc5d7070"
+    },
+    {
+      "file": "results/fermat-factor-certificates/F13-4.json",
+      "bytes": 701,
+      "sha256": "a9a5435e14b80695ce03ee74c4c29f6de3196012b588d3dda0dfd717441e8b9a"
+    },
+    {
+      "file": "results/fermat-factor-certificates/F9-1.json",
+      "bytes": 307,
+      "sha256": "759e43c5c1c40a411b8a564d5f42eb576e745625ba1130ade2172482227e6a49"
+    },
+    {
+      "file": "results/fermat-factor-certificates/F9-2.json",
+      "bytes": 1067,
+      "sha256": "eaa507636834389b34f221a2dc4071f5a140b54798176902cee0ef621459f32a"
+    },
+    {
+      "file": "results/fermat-factor-certificates/F9-3.json",
+      "bytes": 4806,
+      "sha256": "032021bd25275ec073085fdf0fd8521d0073372cc4be682e28901d9bc45140d1"
+    },
+    {
+      "file": "results/fermat-factors-generation.json",
+      "bytes": 8624,
+      "sha256": "23efc6e88c527e15401b21d1aed4f495b73336438f4addefb6a461ad16a73236"
+    },
+    {
+      "file": "results/fermat-factors-generation.log",
+      "bytes": 1911,
+      "sha256": "a2c3b76f116b2a6ac3d2a00fa3786cd695d229131a1afcb3680787000106dd06"
+    },
+    {
+      "file": "results/fermat-factors-launch-path-error.log",
+      "bytes": 146,
+      "sha256": "1d23b56f7fa4e537ab3a8b84b8878213a3a399e5692c133a88cfbd8cb02afbaf"
+    },
+    {
+      "file": "results/fermat-factors-validation.json",
+      "bytes": 44769,
+      "sha256": "fc0837cb8a75e39723dd3a02a429fef13f94ee80d7d7bea9c063a08480f031a7"
+    },
+    {
+      "file": "results/fermat-factors-validation.log",
+      "bytes": 843,
+      "sha256": "32d18dc5f2a12d464a12f141d9c220e671373530cf994af1dd7a641b4f8e76dc"
+    },
+    {
+      "file": "sources/brent-fermat-factors-2000.pdf",
+      "bytes": 168446,
+      "sha256": "f565718efc03863c1ba25d174c8250ad85ea88e16f86bc35e7922b5e7607b9a0"
+    },
+    {
+      "file": "sources/brent-fermat-factors-2000.txt",
+      "bytes": 25813,
+      "sha256": "159b571da631cdf4bad503c8b54940c9d1475035361ee54e9282837fd8eaa901"
+    },
+    {
+      "file": "sources/brent-fermat10-1999.pdf",
+      "bytes": 367863,
+      "sha256": "aaf27ae7d642f745c352da1e4e8a45173509e9b0f4782dccd04795728479c7ae"
+    },
+    {
+      "file": "sources/brent-fermat10-1999.txt",
+      "bytes": 81108,
+      "sha256": "fe5e79c787b08f6c3fda3e42cf762a8187cda8b545abd8c6bfb07192453ac0ba"
+    },
+    {
+      "file": "sources/buhler-lenstra-pomerance-nfs-1993.pdf",
+      "bytes": 10925174,
+      "sha256": "89b7049fcd8b23908efa23a37a1c259444c52ee6ca4437d4245670c5f588a783"
+    },
+    {
+      "file": "sources/buhler-lenstra-pomerance-nfs-1993.txt",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "file": "sources/congressus-numerantium-archive-2026-11-03.html.gz",
+      "bytes": 25688,
+      "sha256": "e8342680cc9ca3521effafe724648c1b0e2e140e0735fb23795b36f612198853"
+    },
+    {
+      "file": "sources/keller-fermat-status-2001.html.gz",
+      "bytes": 6342,
+      "sha256": "14f92e24f6465be234395ca0bf5b276e5f5ffe9ac37ef921fe3b4f64192da914"
+    },
+    {
+      "file": "sources/lenstra-ecm-1987.pdf",
+      "bytes": 2214812,
+      "sha256": "bfd5c09718094df2cde453d412325b5287f6dddfb032548983efa1f232fb5158"
+    },
+    {
+      "file": "sources/lenstra-ecm-1987.txt",
+      "bytes": 1619,
+      "sha256": "bc07ac34dded04e5a6d7f5086a9765689a9ab44f6b9f0d34582f2589e873cc5d"
+    },
+    {
+      "file": "sources/lenstra-fermat9-1993.pdf",
+      "bytes": 3853741,
+      "sha256": "e74de190c67200be7561d3bbc369aaac4069db71ec1d7b0d10b548b900752863"
+    },
+    {
+      "file": "sources/lenstra-fermat9-1993.txt",
+      "bytes": 100320,
+      "sha256": "9fe4e42860fc6a6911554f76b870f8a98ec37ec95ffc2c63802bfa143d5dbecc"
+    },
+    {
+      "file": "sources/lenstra-fermat9-addendum-1995.pdf",
+      "bytes": 120337,
+      "sha256": "943b45ce4c066ef2d0a7f9c509e35b5d707e3f65d56336e05acf596e5b3c50aa"
+    },
+    {
+      "file": "sources/lenstra-fermat9-addendum-1995.txt",
+      "bytes": 3017,
+      "sha256": "69296267ed1851539b32e0c037b55f4adf808b4c79e8134e3f16484dd5f5ea9c"
+    },
+    {
+      "file": "sources/lenstra-nfs-bibliography-1993.pdf",
+      "bytes": 444592,
+      "sha256": "42b0c167aa1722e328dd42cce8d51d05a18f00e18298a3478b28daf85769576e"
+    },
+    {
+      "file": "sources/lenstra-nfs-bibliography-1993.txt",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "file": "sources/modern-factorization-downloads.json",
+      "bytes": 3645,
+      "sha256": "82fa089d2e3bc424a46c9ab6f49b86f9437aec293b75453a8f80a789b485c09c"
+    },
+    {
+      "file": "sources/pomerance-quadratic-sieve-1985.pdf",
+      "bytes": 652332,
+      "sha256": "c9e2bc78649a662ecf241d3ccc0dc1e830a67ea3d1ea609a5eeba61b056d1d26"
+    },
+    {
+      "file": "sources/pomerance-quadratic-sieve-1985.txt",
+      "bytes": 47541,
+      "sha256": "43a1eadef1327d5bf93a0618cc87c22bf1fe3334954f1565a80274da4713ccfd"
+    },
+    {
+      "file": "verify_ecpp.py",
+      "bytes": 4256,
+      "sha256": "e45eee8b5e01c695a305704d00d1657340316f38820df43f4255a4e3554540c0"
+    },
+    {
+      "file": "verify_fermat_factors.py",
+      "bytes": 4487,
+      "sha256": "e2bfec77d7a233224ab3b1891f2d108857a88d20664bbb86558f6db80bc9189d"
+    }
+  ],
+  "derived_text_normalization": "pdftotext-layout; trailing spaces and terminal whitespace removed; original PDFs unchanged."
+}

@@ -1,0 +1,290 @@
+{
+  "blocks": {
+    "structure": {
+      "status": "passed",
+      "seconds": 1.7295037709991448,
+      "result": {
+        "modules": [
+          {
+            "r": 5,
+            "p": 3,
+            "q": 7,
+            "m": 21,
+            "squares": 8
+          },
+          {
+            "r": 8,
+            "p": 11,
+            "q": 19,
+            "m": 209,
+            "squares": 60
+          },
+          {
+            "r": 10,
+            "p": 19,
+            "q": 43,
+            "m": 817,
+            "squares": 220
+          },
+          {
+            "r": 11,
+            "p": 23,
+            "q": 47,
+            "m": 1081,
+            "squares": 288
+          },
+          {
+            "r": 11,
+            "p": 23,
+            "q": 59,
+            "m": 1357,
+            "squares": 360
+          },
+          {
+            "r": 11,
+            "p": 31,
+            "q": 47,
+            "m": 1457,
+            "squares": 384
+          },
+          {
+            "r": 11,
+            "p": 31,
+            "q": 59,
+            "m": 1829,
+            "squares": 480
+          },
+          {
+            "r": 12,
+            "p": 43,
+            "q": 67,
+            "m": 2881,
+            "squares": 748
+          },
+          {
+            "r": 12,
+            "p": 43,
+            "q": 71,
+            "m": 3053,
+            "squares": 792
+          },
+          {
+            "r": 12,
+            "p": 43,
+            "q": 79,
+            "m": 3397,
+            "squares": 880
+          },
+          {
+            "r": 12,
+            "p": 43,
+            "q": 83,
+            "m": 3569,
+            "squares": 924
+          }
+        ],
+        "algebra_identities": 117963,
+        "pairwise_images": [
+          {
+            "difference": 1,
+            "gcd": 1,
+            "image_size": 43681,
+            "fiber": 1
+          },
+          {
+            "difference": 2,
+            "gcd": 1,
+            "image_size": 43681,
+            "fiber": 1
+          },
+          {
+            "difference": 10,
+            "gcd": 1,
+            "image_size": 43681,
+            "fiber": 1
+          },
+          {
+            "difference": 11,
+            "gcd": 11,
+            "image_size": 3971,
+            "fiber": 11
+          },
+          {
+            "difference": 19,
+            "gcd": 19,
+            "image_size": 2299,
+            "fiber": 19
+          }
+        ]
+      }
+    },
+    "counterexamples": {
+      "status": "passed",
+      "seconds": 1.7910707360133529,
+      "result": {
+        "m": 209,
+        "good_inputs": [
+          0,
+          1,
+          4,
+          5,
+          9,
+          11,
+          16,
+          20,
+          23,
+          25,
+          26,
+          36,
+          38,
+          42,
+          44,
+          45,
+          47,
+          49,
+          55,
+          58,
+          64,
+          66,
+          77,
+          99,
+          114,
+          121,
+          133,
+          152,
+          176,
+          187,
+          190
+        ],
+        "success_uniform": "31/60",
+        "success_sampling": "93/209",
+        "samples": 2496,
+        "probability_correct_upper_bound": 2.729602384198503e-07,
+        "floor": {
+          "a": 1,
+          "b": 2,
+          "j": -6,
+          "u": 199,
+          "alpha": "1/128",
+          "beta": "5/512",
+          "beta_next": "5/1024",
+          "exact": -1,
+          "correct": -1,
+          "printed": 0
+        },
+        "Z_mean_printed": "-2/45",
+        "Z_mean_corrected": "37/90",
+        "stage_sum_r8": "19/18",
+        "repaired_constant_checks": 2024,
+        "hint_zero_case": {
+          "m": 209,
+          "y": 0,
+          "v": 1,
+          "lambda_sum": 0
+        }
+      }
+    },
+    "recovery": {
+      "status": "passed",
+      "seconds": 2.992322570993565,
+      "result": {
+        "modulus": 301421,
+        "p": 383,
+        "q": 787,
+        "true_initial_branch": true,
+        "oracle": "perfect canonical-root bit",
+        "successful_roots": 12,
+        "votes": 56746,
+        "pointwise_dominance_checks": 56746,
+        "traces": [
+          {
+            "x": 167581,
+            "a": 203719,
+            "b": 133376,
+            "success": true,
+            "stages": 19
+          },
+          {
+            "x": 114465,
+            "a": 223593,
+            "b": 206380,
+            "success": true,
+            "stages": 19
+          },
+          {
+            "x": 251010,
+            "a": 134318,
+            "b": 123028,
+            "success": true,
+            "stages": 19
+          },
+          {
+            "x": 84248,
+            "a": 51177,
+            "b": 98659,
+            "success": true,
+            "stages": 19
+          },
+          {
+            "x": 49836,
+            "a": 257827,
+            "b": 59138,
+            "success": true,
+            "stages": 19
+          },
+          {
+            "x": 250722,
+            "a": 34731,
+            "b": 217560,
+            "success": true,
+            "stages": 19
+          },
+          {
+            "x": 298956,
+            "a": 46389,
+            "b": 262997,
+            "success": true,
+            "stages": 19
+          },
+          {
+            "x": 300506,
+            "a": 176539,
+            "b": 52308,
+            "success": true,
+            "stages": 19
+          },
+          {
+            "x": 12809,
+            "a": 290251,
+            "b": 253376,
+            "success": true,
+            "stages": 19
+          },
+          {
+            "x": 33049,
+            "a": 263940,
+            "b": 25579,
+            "success": true,
+            "stages": 19
+          },
+          {
+            "x": 299234,
+            "a": 171417,
+            "b": 30172,
+            "success": true,
+            "stages": 19
+          },
+          {
+            "x": 29593,
+            "a": 128521,
+            "b": 188350,
+            "success": true,
+            "stages": 19
+          }
+        ],
+        "limitation": "Algebraic recovery tests with supplied correct branch, not full branch enumeration or proof of success rate."
+      }
+    }
+  },
+  "status": "passed"
+}

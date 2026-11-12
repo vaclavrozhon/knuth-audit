@@ -1,0 +1,520 @@
+{
+  "basic": {
+    "real_cases": 192,
+    "complex_cases": 384,
+    "bivariate_cases": 39,
+    "degrees": [
+      1,
+      24
+    ],
+    "scope": "Exact identities and executed generic operation counts, including repeated complex multiplier and Estrin degree 7.",
+    "status": "passed",
+    "pid": 1592222,
+    "seconds": 0.7284626209875569,
+    "completed_at_utc": "2026-11-04T12:09:28.516344+00:00"
+  },
+  "shifts": {
+    "shift_cases": 164,
+    "basis_cases": 135,
+    "D_cases": 384,
+    "identical_expression_DAGs": 41,
+    "endpoint_counts": [
+      {
+        "n": 1,
+        "actual_M_D_A": [
+          1,
+          0,
+          1
+        ],
+        "printed_after_saving_M_D": [
+          0,
+          0
+        ]
+      },
+      {
+        "n": 2,
+        "actual_M_D_A": [
+          2,
+          0,
+          3
+        ],
+        "printed_after_saving_M_D": [
+          1,
+          1
+        ]
+      },
+      {
+        "n": 3,
+        "actual_M_D_A": [
+          4,
+          1,
+          6
+        ],
+        "printed_after_saving_M_D": [
+          3,
+          2
+        ]
+      },
+      {
+        "n": 4,
+        "actual_M_D_A": [
+          5,
+          2,
+          10
+        ],
+        "printed_after_saving_M_D": [
+          4,
+          3
+        ]
+      },
+      {
+        "n": 5,
+        "actual_M_D_A": [
+          7,
+          3,
+          15
+        ],
+        "printed_after_saving_M_D": [
+          6,
+          4
+        ]
+      },
+      {
+        "n": 6,
+        "actual_M_D_A": [
+          8,
+          4,
+          21
+        ],
+        "printed_after_saving_M_D": [
+          7,
+          5
+        ]
+      },
+      {
+        "n": 7,
+        "actual_M_D_A": [
+          10,
+          5,
+          28
+        ],
+        "printed_after_saving_M_D": [
+          9,
+          6
+        ]
+      },
+      {
+        "n": 8,
+        "actual_M_D_A": [
+          11,
+          6,
+          36
+        ],
+        "printed_after_saving_M_D": [
+          10,
+          7
+        ]
+      },
+      {
+        "n": 9,
+        "actual_M_D_A": [
+          13,
+          7,
+          45
+        ],
+        "printed_after_saving_M_D": [
+          12,
+          8
+        ]
+      },
+      {
+        "n": 10,
+        "actual_M_D_A": [
+          14,
+          8,
+          55
+        ],
+        "printed_after_saving_M_D": [
+          13,
+          9
+        ]
+      },
+      {
+        "n": 11,
+        "actual_M_D_A": [
+          16,
+          9,
+          66
+        ],
+        "printed_after_saving_M_D": [
+          15,
+          10
+        ]
+      },
+      {
+        "n": 12,
+        "actual_M_D_A": [
+          17,
+          10,
+          78
+        ],
+        "printed_after_saving_M_D": [
+          16,
+          11
+        ]
+      },
+      {
+        "n": 13,
+        "actual_M_D_A": [
+          19,
+          11,
+          91
+        ],
+        "printed_after_saving_M_D": [
+          18,
+          12
+        ]
+      },
+      {
+        "n": 14,
+        "actual_M_D_A": [
+          20,
+          12,
+          105
+        ],
+        "printed_after_saving_M_D": [
+          19,
+          13
+        ]
+      },
+      {
+        "n": 15,
+        "actual_M_D_A": [
+          22,
+          13,
+          120
+        ],
+        "printed_after_saving_M_D": [
+          21,
+          14
+        ]
+      },
+      {
+        "n": 16,
+        "actual_M_D_A": [
+          23,
+          14,
+          136
+        ],
+        "printed_after_saving_M_D": [
+          22,
+          15
+        ]
+      },
+      {
+        "n": 17,
+        "actual_M_D_A": [
+          25,
+          15,
+          153
+        ],
+        "printed_after_saving_M_D": [
+          24,
+          16
+        ]
+      },
+      {
+        "n": 18,
+        "actual_M_D_A": [
+          26,
+          16,
+          171
+        ],
+        "printed_after_saving_M_D": [
+          25,
+          17
+        ]
+      },
+      {
+        "n": 19,
+        "actual_M_D_A": [
+          28,
+          17,
+          190
+        ],
+        "printed_after_saving_M_D": [
+          27,
+          18
+        ]
+      },
+      {
+        "n": 20,
+        "actual_M_D_A": [
+          29,
+          18,
+          210
+        ],
+        "printed_after_saving_M_D": [
+          28,
+          19
+        ]
+      },
+      {
+        "n": 21,
+        "actual_M_D_A": [
+          31,
+          19,
+          231
+        ],
+        "printed_after_saving_M_D": [
+          30,
+          20
+        ]
+      },
+      {
+        "n": 22,
+        "actual_M_D_A": [
+          32,
+          20,
+          253
+        ],
+        "printed_after_saving_M_D": [
+          31,
+          21
+        ]
+      },
+      {
+        "n": 23,
+        "actual_M_D_A": [
+          34,
+          21,
+          276
+        ],
+        "printed_after_saving_M_D": [
+          33,
+          22
+        ]
+      },
+      {
+        "n": 24,
+        "actual_M_D_A": [
+          35,
+          22,
+          300
+        ],
+        "printed_after_saving_M_D": [
+          34,
+          23
+        ]
+      },
+      {
+        "n": 25,
+        "actual_M_D_A": [
+          37,
+          23,
+          325
+        ],
+        "printed_after_saving_M_D": [
+          36,
+          24
+        ]
+      },
+      {
+        "n": 26,
+        "actual_M_D_A": [
+          38,
+          24,
+          351
+        ],
+        "printed_after_saving_M_D": [
+          37,
+          25
+        ]
+      },
+      {
+        "n": 27,
+        "actual_M_D_A": [
+          40,
+          25,
+          378
+        ],
+        "printed_after_saving_M_D": [
+          39,
+          26
+        ]
+      },
+      {
+        "n": 28,
+        "actual_M_D_A": [
+          41,
+          26,
+          406
+        ],
+        "printed_after_saving_M_D": [
+          40,
+          27
+        ]
+      },
+      {
+        "n": 29,
+        "actual_M_D_A": [
+          43,
+          27,
+          435
+        ],
+        "printed_after_saving_M_D": [
+          42,
+          28
+        ]
+      },
+      {
+        "n": 30,
+        "actual_M_D_A": [
+          44,
+          28,
+          465
+        ],
+        "printed_after_saving_M_D": [
+          43,
+          29
+        ]
+      },
+      {
+        "n": 31,
+        "actual_M_D_A": [
+          46,
+          29,
+          496
+        ],
+        "printed_after_saving_M_D": [
+          45,
+          30
+        ]
+      },
+      {
+        "n": 32,
+        "actual_M_D_A": [
+          47,
+          30,
+          528
+        ],
+        "printed_after_saving_M_D": [
+          46,
+          31
+        ]
+      },
+      {
+        "n": 33,
+        "actual_M_D_A": [
+          49,
+          31,
+          561
+        ],
+        "printed_after_saving_M_D": [
+          48,
+          32
+        ]
+      },
+      {
+        "n": 34,
+        "actual_M_D_A": [
+          50,
+          32,
+          595
+        ],
+        "printed_after_saving_M_D": [
+          49,
+          33
+        ]
+      },
+      {
+        "n": 35,
+        "actual_M_D_A": [
+          52,
+          33,
+          630
+        ],
+        "printed_after_saving_M_D": [
+          51,
+          34
+        ]
+      },
+      {
+        "n": 36,
+        "actual_M_D_A": [
+          53,
+          34,
+          666
+        ],
+        "printed_after_saving_M_D": [
+          52,
+          35
+        ]
+      },
+      {
+        "n": 37,
+        "actual_M_D_A": [
+          55,
+          35,
+          703
+        ],
+        "printed_after_saving_M_D": [
+          54,
+          36
+        ]
+      },
+      {
+        "n": 38,
+        "actual_M_D_A": [
+          56,
+          36,
+          741
+        ],
+        "printed_after_saving_M_D": [
+          55,
+          37
+        ]
+      },
+      {
+        "n": 39,
+        "actual_M_D_A": [
+          58,
+          37,
+          780
+        ],
+        "printed_after_saving_M_D": [
+          57,
+          38
+        ]
+      },
+      {
+        "n": 40,
+        "actual_M_D_A": [
+          59,
+          38,
+          820
+        ],
+        "printed_after_saving_M_D": [
+          58,
+          39
+        ]
+      }
+    ],
+    "scope": "General identities checked against direct binomial expansion; C0234 operation allocation has an additional mathematical impossibility proof.",
+    "status": "passed",
+    "pid": 1592225,
+    "seconds": 1.8159049189998768,
+    "completed_at_utc": "2026-11-04T12:09:30.440661+00:00"
+  },
+  "differences": {
+    "initializations": 33,
+    "tabulated_values": 1749,
+    "single_error_propagation_checks": 792,
+    "spread_node_matrices": 27,
+    "scope": "Exact differences including negative k and h=0; fixed-point error propagation, not a claim that every initialization method improves every input.",
+    "status": "passed",
+    "pid": 1592232,
+    "seconds": 0.6117795039899647,
+    "completed_at_utc": "2026-11-04T12:09:31.178905+00:00"
+  }
+}

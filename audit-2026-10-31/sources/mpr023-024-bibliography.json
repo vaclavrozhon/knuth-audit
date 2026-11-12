@@ -1,0 +1,36 @@
+{
+  "reviewed_at_utc": "2026-11-06T22:14:13.136674+00:00",
+  "scope": "Bibliographic metadata and abstract only; no theorem from these sources is inherited as an unproved premise.",
+  "sources": [
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0167715220303230",
+      "type": "primary publisher metadata",
+      "author": "Svante Janson",
+      "title": "On the probability that a binomial variable is at most its expectation",
+      "journal": "Statistics & Probability Letters",
+      "volume": 171,
+      "year": 2021,
+      "article": 109020,
+      "doi": "10.1016/j.spl.2020.109020",
+      "verified_scope": "Author,title,journal,volume,year,article number; abstract addresses the same binomial probability.",
+      "not_verified": [
+        "Entire paper proof",
+        "Printed10-page count of journal version"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2009.13781",
+      "type": "author preprint abstract",
+      "submitted": "2020-09-29",
+      "version2_date": "2020-10-19",
+      "preprint_pages": 12,
+      "verified_scope": "Author/title and related binomial context;12pages is the preprint version, not a contradiction of the journal10-page reference."
+    }
+  ],
+  "explicit_bibliography_skips": [
+    "CMath exercise8.17 exact numbering; no local copy.",
+    "OriginalPearson1924,Neumann1966,Lord2010 papers and their historical attribution.",
+    "JournalJanson2021 exact10-page count; metadata only."
+  ],
+  "local_math_proof": "notes/sequential-mpr-ex023-024.md"
+}

@@ -1,0 +1,8 @@
+{
+  "returncode": 91,
+  "diagnostic": [
+    "BOOK_L3_UNSAVED_BACKF level=4 current=75 branch=-1"
+  ],
+  "witness_sha256": "1eb89a64c06876851787b8291ec03122fcdede070e9537fb2ba2f3ad0f290cfe",
+  "scope": "The author implementation with only the book L3 conditional placement of backup writes, plus a guard that stops before reading an unsaved current-level pointer. This is not a separate complete transcription of the printed algorithms."
+}

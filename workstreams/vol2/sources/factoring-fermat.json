@@ -1,0 +1,67 @@
+{
+  "accessed_utc": "2026-11-03T15:20:49.175258+00:00",
+  "scope": "Mathematical algorithmsC/D pp387–390 and exercises5/7; historical attributions, sieve machines and Lehman external theorem remain open.",
+  "book": {
+    "edition": "3rd,firstprinting1997",
+    "printed_visually_read": [
+      387,
+      388,
+      389,
+      390,
+      412,
+      658
+    ],
+    "file_page_offset": 12
+  },
+  "errata": {
+    "layers": [
+      "all2-prepre",
+      "all2-pre",
+      "all2",
+      "err2"
+    ],
+    "visual_evidence": [
+      "images/factoring-all2-prepre-p21.png",
+      "images/factoring-all2-pre-p10.png"
+    ],
+    "known": [
+      "C5: C3→C4,1997-12-29",
+      "No multiplication/division wording2000; variablesa,b2004",
+      "Narayana historical addendum2005 deferred",
+      "Preferred individual primes rather than powers2005",
+      "AND symbol2005",
+      "searches wording2019"
+    ],
+    "new": "No paired-index389 or word-wrap390 correction found in all four layers or current sources/err2.textxt."
+  },
+  "files": [
+    {
+      "file": "verify_factoring_fermat.py",
+      "bytes": 8348,
+      "sha256": "44131898d74972f3e08332c8aef0ec46f6c364227c315ccfcccc8635d4eacdab"
+    },
+    {
+      "file": "results/factoring-fermat.json",
+      "bytes": 2719,
+      "sha256": "b1003277e12348f1d88d993549886194568c4816412cad9814b412aacdfb3795"
+    },
+    {
+      "file": "results/factoring-fermat.log",
+      "bytes": 99,
+      "sha256": "c7bde37296a20219b7973a01f5ee3b7501f89c919a3272f222c15acb366a269c"
+    }
+  ],
+  "verification": {
+    "pid": 1259264,
+    "tool_session": 10688,
+    "time_limit_seconds": 120,
+    "exit_code": 0,
+    "elapsed_seconds": 8.710329384979559,
+    "oracle": "Independent downward divisor search forC/D; direct bit predicates for packed and shifted models; general proofs in notes/factoring-fermat.md."
+  },
+  "limitations": [
+    "Textp388 prime-square refinement uses coprimality as inD;N9,p3 otherwisecounterexample, no separate finding.",
+    "Cycle count2+8r is leading MIX cost excluding rare wordwrap and final testing.",
+    "No historical quote/source claim closed by this mathematical block."
+  ]
+}

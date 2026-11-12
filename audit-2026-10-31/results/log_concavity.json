@@ -1,0 +1,30 @@
+{
+  "exercise": "MPR 125",
+  "finite_sequences": 161,
+  "sequence_description": "Length 5; entries 0,1,2,3; extended by zeros to infinity; log-concave with no internal zeros.",
+  "right_shifts_checked": 644,
+  "right_shift_discrepancies": 129,
+  "small_example": {
+    "a": [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "c": 1,
+    "printed_condition": "1*0 <= 0^2, true",
+    "shifted_sequence": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "issue": "The shifted sequence has internal zeros, contrary to the exercise setup. Adjacent log-concavity inequalities still hold."
+  },
+  "ordinary_and_binomial_convolution_pairs_checked": 25921,
+  "classification": "C005: convention/scope issue, not included among definite new corrections.",
+  "limitations": "Finite-support checks cover log-concave convolutions and shifts. Log-convex sums and binomial convolutions are not tested by this program."
+}

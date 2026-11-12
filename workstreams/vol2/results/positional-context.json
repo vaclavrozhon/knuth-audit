@@ -1,0 +1,60 @@
+{
+  "status": "passed",
+  "bernoulli": {
+    "lines": [
+      "111100100000010011111101100110001101101101100110000100",
+      "111100100101100101011011011010100011011100101010000000",
+      "1111010000"
+    ],
+    "run_word": "421612612223212121222412421211221111212121111321321111174114",
+    "cases": [
+      {
+        "last_digit": 0,
+        "printed_integer": "314159265358979323846264338327929808",
+        "correct_integer": "314159265358979323846264338327950288",
+        "incorrect_bit_exponents": [
+          12,
+          14
+        ],
+        "difference": 20480
+      },
+      {
+        "last_digit": 1,
+        "printed_integer": "314159265358979323846264338327929809",
+        "correct_integer": "314159265358979323846264338327950289",
+        "incorrect_bit_exponents": [
+          12,
+          14
+        ],
+        "difference": 20480
+      }
+    ]
+  },
+  "madhava": {
+    "scaled_absolute_error_interval": [
+      "2.186",
+      "2.187"
+    ],
+    "pi_absolute_error_interval": [
+      "1093/450000000000000",
+      "243/100000000000000"
+    ]
+  },
+  "octal_percentage": {
+    "period": "1463",
+    "value": "16/5",
+    "per": 64,
+    "result": "1/20"
+  },
+  "pelikan": {
+    "square_root": [
+      57,
+      3249
+    ],
+    "cube_root": [
+      79,
+      493039
+    ]
+  },
+  "scope": "Arithmetic only; original source scope and historical limits in notes/positional-context.md."
+}

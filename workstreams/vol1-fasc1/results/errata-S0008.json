@@ -1,0 +1,119 @@
+{
+  "checked_at_utc": "2026-11-06T22:05:05.399661+00:00",
+  "target": "Ftell truncates successful LP64 binary positions at 2^32.",
+  "search_terms": [
+    "Ftell",
+    "Fseek",
+    "long",
+    "page 43",
+    "page 146"
+  ],
+  "sources": [
+    {
+      "path": "errata/originals/err1f1.textxt",
+      "sha256": "07db671be6fcbc6c473ddc6593f6a16cce5833fb5f8a499ab7e2e3eee163dae3",
+      "matches": [
+        {
+          "line": 151,
+          "context": "you can download the full list from Internet webpage\n$$\\.{http://www-cs-faculty.stanford.edu/\\char`\\~knuth/taocp.html}$$\nby selecting the ``long form'' of the errata.\n\\fi\n\n\\medskip\n\\tenpoint\n\\beginconstruction"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/err1f1.txt",
+      "sha256": "7d6366838076d106c09e85a4f93f1b151e94c9af9f6874ea27aa6f106cdf84b6",
+      "matches": [
+        {
+          "line": 42,
+          "context": "  the gory details, you an download the full list from Internet webpage\n                  http://www- s-fa ulty.stanford.edu/~knuth/tao p.html\n  by sele ting the \\long form\" of the errata.\n      The ultimate, glorious, future editions of Volumes 1{5 are works in progress.\n      Please let me know of any improvements that you think I ought to make.\n  Send your omments either by snail mail to D. E. Knuth, Computer S ien e,\n  Gates Building 1B, Stanford University, Stanford CA 94305-9015, or by email\n  to tao p\b s.stanford.edu. (Use email for book suggestions only, please | all"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all1f1.txt",
+      "sha256": "c0b1a7c575ffcbced2bc6a7048143a16286a081908850ad0956258dd2f84b18e",
+      "matches": []
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmixware-errata.html",
+      "sha256": "740b68475c94774ee2d143b0baa2d98111664e2e2c69ce3a29117311f8c4957e",
+      "matches": [
+        {
+          "line": 77,
+          "context": "apply. [new paragraph]If ${\\rm X}\\ge G$\"</dd>\n<dt>page 33, lines 11--14 (05 Apr 2000)***</dt>\n<dd>Replace the long sentence \"Then we ... PUSHGO.\" by the following:\n\"Then we set x &lt;- S[\\tau-1] mod 256; this is the effective value of the\nX field in the push instruction that is being undone. Stack position\nS[\\tau-1] is now set to $(X-1) if 0 &lt; X &lt;= L, otherwise it is set\nto zero. Then we essentially set L &lt;- min(x+X,G), $(L-1) &lt;- $(L-x-2),\n..., $(x+1) &lt;- $0, $x &lt;- S[\\tau-1], ..., $0 &lt;- S[\\tau-x-1],"
+        },
+        {
+          "line": 111,
+          "context": "<dt>page 42, line 2 of section 37 (15 Jun 2002)</dt>\n<dd>change \"the the\" to \"the\"</dd>\n<dt>page 43, line 11 (15 Jun 2002)</dt>\n<dd>change \"<tt>GET $1,rK</tt>\" to \"<tt>LDOU $1,savedK</tt>\"</dd>\n<dt>page 43, line 12 (15 Jun 2002)</dt>\n<dd>change this line to simply \"<tt>SADD $2,$1,$0; ANDN $1,$0,$1</tt>\"</dd>\n<dt>page 43, line 15 (09 Nov 2005)</dt>\n<dd>change \"also in rX\" to \"also in rXX\"</dd>"
+        },
+        {
+          "line": 113,
+          "context": "<dt>page 43, line 11 (15 Jun 2002)</dt>\n<dd>change \"<tt>GET $1,rK</tt>\" to \"<tt>LDOU $1,savedK</tt>\"</dd>\n<dt>page 43, line 12 (15 Jun 2002)</dt>\n<dd>change this line to simply \"<tt>SADD $2,$1,$0; ANDN $1,$0,$1</tt>\"</dd>\n<dt>page 43, line 15 (09 Nov 2005)</dt>\n<dd>change \"also in rX\" to \"also in rXX\"</dd>\n<dt>page 45, line 14 (15 Feb 2002)***</dt>\n<dd>change \"<tt>LDT</tt>\" to \"<tt>LDTU</tt>\"</dd>"
+        },
+        {
+          "line": 115,
+          "context": "<dt>page 43, line 12 (15 Jun 2002)</dt>\n<dd>change this line to simply \"<tt>SADD $2,$1,$0; ANDN $1,$0,$1</tt>\"</dd>\n<dt>page 43, line 15 (09 Nov 2005)</dt>\n<dd>change \"also in rX\" to \"also in rXX\"</dd>\n<dt>page 45, line 14 (15 Feb 2002)***</dt>\n<dd>change \"<tt>LDT</tt>\" to \"<tt>LDTU</tt>\"</dd>\n<dt>page 46, line 6 (01 Jun 2011)***</dt>\n<dd>change \"cycle counter\" to \"continuation register\"</dd>"
+        },
+        {
+          "line": 717,
+          "context": "O+=L; g[rO]=incr(g[rO],L&lt;&lt;3);</tt></dd>\n<dt>page 388, line 7 from the bottom (06 Sep 2013)</dt>\n<dd>change \"<tt>if (k==rZ+1) FOO;</tt>\", where FOO is the long statement\n<tt>x.l=G=...=#3ffff</tt>, to \"<tt>if (k==rZ+1) { FOO;\nif (G&lt;32) x.l=G=g[rG].l=32; }</tt>\"</dd>\n<dt>page 389, line 17 (10 Oct 2001)</dt>\n<dd>change \"zz&gt;6\" to \"zz&gt;7\"</dd>\n<dt>page 389, line 4 of section 106 (02 Jun 05)</dt>"
+        },
+        {
+          "line": 824,
+          "context": "<dd><tt>for (p++,k=0;*p &amp;&amp; *p!='\\\"' &amp;&amp; k&lt;FILENAME_MAX; p++,k++)<br>\n&nbsp;      filename[filename_count][k]=*p;<br>\n    if (k==FILENAME_MAX) panic(\"Capacity exceeded: File name too long\");<br>\n    if (*p=='\\\"' &amp;&amp; *(p-1)!='\\\"') { /* yes, it's a line directive */<br>\n&nbsp;      filename[filename_count][k]='\\0';<br>\n      for (k=0;strcmp(filename[k],filename[filename_count])!=0;k++);<br>\n&nbsp;      if (k==filename_count) {<br>\n&nbsp;&nbsp;        if (filename_count==256) panic(\"Capacity exceeded: More than 256 file names\");<br>"
+        }
+      ]
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmixware-current.html",
+      "sha256": "13614aa34f4ad039b12d331064d993292837bc12bf7fd2073ff34bfa41ae9834",
+      "matches": [
+        {
+          "line": 39,
+          "context": "general-purpose machines on the market. All in all, <tt>MMIX</tt> is a\nclean, complete, and well-documented machine-independent machine\nideally suited as a testbed for long-term research projects of lasting\nvalue, even as real computers continue to change rapidly.\n</p>\n<p>\nThis book is a collection of programs written in\n<a href=\"cweb.html\"><tt>CWEB</tt></a>"
+        }
+      ]
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmix-upstream-bugs.html",
+      "sha256": "a9b8c36c7fe466afd03a42ac900cd1e3c13250b7bd9ef575d0f331e31960a61a",
+      "matches": []
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmix-upstream-rounding.html",
+      "sha256": "f864c5fc573f7049aaf2d3682c72ee09f78dfb3d7445a19dc891282f99314c1b",
+      "matches": []
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmix-arith-upstream-warnings.ch",
+      "sha256": "b4a916e0962e2f79828d6afca1a5a40775e82b725f45ec28664a3e66f6b093b4",
+      "matches": []
+    },
+    {
+      "path": "errata/text/all1.txt",
+      "sha256": "b641d6e48aaf2d77fc98a3c4a8a798d8156516b97095ec345a976e65d9c79aef",
+      "matches": []
+    },
+    {
+      "path": "errata/originals/err1.textxt",
+      "sha256": "f752c0a5fcf49686906e39fa5a1dab28b53adc8226b0a7e1a1b6cf850592bc91",
+      "matches": [
+        {
+          "line": 152,
+          "context": "you can download the full list from Internet webpage\n$$\\.{http://www-cs-faculty.stanford.edu/\\char`\\~knuth/taocp.html}$$\nby selecting the ``long form'' of the errata.\n\\fi\n\n\\medskip\n\\tenpoint\nMy shelves at home are"
+        },
+        {
+          "line": 1130,
+          "context": "\\bf4} (1920), 1--36; P. {Whitman}, {\\sl Annals of Mathematics \\rm(2) \\bf42}\n(1941), 325--330; {\\bf43} (1942), 104--115.\n% Skolem's alg, long forgotten, is poly time; Whitman's is exp time unless we\n% use memoization; see the book Free Lattices by Freese et al.\n\\endchange\n\n\\bugonpage 1.576 beginning of answer 14,\\thinspace15 (22.11.01)\nHussain Zedan \\becomes Hussein Zedan"
+        }
+      ]
+    }
+  ],
+  "semantic_review": "All returned contexts read. MMIXware page43 corrections concern privileged traps/rK, not Ftell; other long hits concern prose, stack or filenames. No matching high-tetra Ftell correction found in these layers. No worldwide novelty claim.",
+  "additional_primary_domain_queries": [
+    "site:mmix.cs.hm.edu \"Ftell\" bug",
+    "site:www-cs-faculty.stanford.edu/~knuth \"mmix_ftell\"",
+    "site:mmix.cs.hm.edu \"ftell\" \"64\""
+  ],
+  "additional_query_disposition": "Primary specification, unimplemented BIOS and shared pipeline-module references did not supply a matching correction."
+}

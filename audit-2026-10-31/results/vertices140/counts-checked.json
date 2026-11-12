@@ -1,0 +1,2262 @@
+{
+  "at_utc": "2026-11-02T19:14:35.358166+00:00",
+  "checker_sha256": "dbc521c3a9bc4051280ea5e8432bacb3d26ce3466da2356646baa58cce928c4d",
+  "geometry_sha256": "68f55bea6d1ffab0c06fb548b0b19b4b5b5bd25a3c7e8d0621c83c46dba674d2",
+  "figures_sha256": "fdb221b55e594badd25918cd99e0012f22b4f201d2f604d9d8da6bcbf6077493",
+  "repair_sha256": "078638aaa0af3ca39fec066a9d9a6f57f2d3c6008d6bf4144da0213e1187df27",
+  "native_queue_sha256": "a7ffe637fd7b66c809796a02221e046387801ebb891a705384ffcf5258638a05",
+  "independent_terminal_sha256": "da9c9f59f093cdbbf59218996ef8a4a9ca95cb1ad6de7d4ea67b24bc86baaf36",
+  "models_sha256": "046c3e61dfce9a7d71c770b8aef61a901d191ca00966888c0b748d313309ace3",
+  "cases": [
+    {
+      "label": "a1",
+      "vertices": 21,
+      "raw_models": 240,
+      "color_classes": 10,
+      "board_group": [
+        {
+          "rot": 0,
+          "flip": false,
+          "perm": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "halfturn": false
+        },
+        {
+          "rot": 3,
+          "flip": false,
+          "perm": [
+            20,
+            19,
+            18,
+            17,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "halfturn": true
+        }
+      ],
+      "geometric_classes": 5,
+      "orbit_sizes": {
+        "2": 5
+      },
+      "fixed": [
+        {
+          "rot": 0,
+          "flip": false,
+          "count": 10,
+          "halfturn": false,
+          "geometric_classes": 5
+        },
+        {
+          "rot": 3,
+          "flip": false,
+          "count": 0,
+          "halfturn": true,
+          "geometric_classes": 0
+        }
+      ],
+      "independent_nodes": 23131,
+      "native_search_mems": 987804011
+    },
+    {
+      "label": "a2",
+      "vertices": 20,
+      "raw_models": 120,
+      "color_classes": 5,
+      "board_group": [
+        {
+          "rot": 0,
+          "flip": false,
+          "perm": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "halfturn": false
+        },
+        {
+          "rot": 3,
+          "flip": false,
+          "perm": [
+            19,
+            18,
+            17,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "halfturn": true
+        }
+      ],
+      "geometric_classes": 3,
+      "orbit_sizes": {
+        "2": 2,
+        "1": 1
+      },
+      "fixed": [
+        {
+          "rot": 0,
+          "flip": false,
+          "count": 5,
+          "halfturn": false,
+          "geometric_classes": 3
+        },
+        {
+          "rot": 3,
+          "flip": false,
+          "count": 1,
+          "halfturn": true,
+          "geometric_classes": 1
+        }
+      ],
+      "independent_nodes": 6076,
+      "native_search_mems": 452075425
+    },
+    {
+      "label": "a3",
+      "vertices": 20,
+      "raw_models": 144,
+      "color_classes": 6,
+      "board_group": [
+        {
+          "rot": 0,
+          "flip": false,
+          "perm": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "halfturn": false
+        },
+        {
+          "rot": 2,
+          "flip": true,
+          "perm": [
+            19,
+            18,
+            16,
+            13,
+            9,
+            17,
+            15,
+            12,
+            8,
+            4,
+            14,
+            11,
+            7,
+            3,
+            10,
+            6,
+            2,
+            5,
+            1,
+            0
+          ],
+          "halfturn": false
+        }
+      ],
+      "geometric_classes": 3,
+      "orbit_sizes": {
+        "2": 3
+      },
+      "fixed": [
+        {
+          "rot": 0,
+          "flip": false,
+          "count": 6,
+          "halfturn": false,
+          "geometric_classes": 3
+        },
+        {
+          "rot": 2,
+          "flip": true,
+          "count": 0,
+          "halfturn": false,
+          "geometric_classes": 0
+        }
+      ],
+      "independent_nodes": 5850,
+      "native_search_mems": 411865865
+    },
+    {
+      "label": "b1",
+      "vertices": 21,
+      "raw_models": 192,
+      "color_classes": 8,
+      "board_group": [
+        {
+          "rot": 0,
+          "flip": false,
+          "perm": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "halfturn": false
+        },
+        {
+          "rot": 0,
+          "flip": true,
+          "perm": [
+            0,
+            5,
+            10,
+            15,
+            18,
+            1,
+            6,
+            11,
+            16,
+            19,
+            2,
+            7,
+            12,
+            17,
+            20,
+            3,
+            8,
+            13,
+            4,
+            9,
+            14
+          ],
+          "halfturn": false
+        }
+      ],
+      "geometric_classes": 4,
+      "orbit_sizes": {
+        "2": 4
+      },
+      "fixed": [
+        {
+          "rot": 0,
+          "flip": false,
+          "count": 8,
+          "halfturn": false,
+          "geometric_classes": 4
+        },
+        {
+          "rot": 0,
+          "flip": true,
+          "count": 0,
+          "halfturn": false,
+          "geometric_classes": 0
+        }
+      ],
+      "independent_nodes": 8992,
+      "native_search_mems": 541420053
+    },
+    {
+      "label": "b2",
+      "vertices": 21,
+      "raw_models": 96,
+      "color_classes": 4,
+      "board_group": [
+        {
+          "rot": 0,
+          "flip": false,
+          "perm": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "halfturn": false
+        }
+      ],
+      "geometric_classes": 4,
+      "orbit_sizes": {
+        "1": 4
+      },
+      "fixed": [
+        {
+          "rot": 0,
+          "flip": false,
+          "count": 4,
+          "halfturn": false,
+          "geometric_classes": 4
+        }
+      ],
+      "independent_nodes": 10083,
+      "native_search_mems": 599459299
+    },
+    {
+      "label": "b3",
+      "vertices": 21,
+      "raw_models": 72,
+      "color_classes": 3,
+      "board_group": [
+        {
+          "rot": 0,
+          "flip": false,
+          "perm": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "halfturn": false
+        }
+      ],
+      "geometric_classes": 3,
+      "orbit_sizes": {
+        "1": 3
+      },
+      "fixed": [
+        {
+          "rot": 0,
+          "flip": false,
+          "count": 3,
+          "halfturn": false,
+          "geometric_classes": 3
+        }
+      ],
+      "independent_nodes": 10737,
+      "native_search_mems": 740754801
+    },
+    {
+      "label": "b4",
+      "vertices": 21,
+      "raw_models": 96,
+      "color_classes": 4,
+      "board_group": [
+        {
+          "rot": 0,
+          "flip": false,
+          "perm": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "halfturn": false
+        },
+        {
+          "rot": 2,
+          "flip": true,
+          "perm": [
+            17,
+            16,
+            12,
+            20,
+            19,
+            15,
+            11,
+            7,
+            18,
+            14,
+            10,
+            6,
+            2,
+            13,
+            9,
+            5,
+            1,
+            0,
+            8,
+            4,
+            3
+          ],
+          "halfturn": false
+        },
+        {
+          "rot": 3,
+          "flip": false,
+          "perm": [
+            20,
+            19,
+            18,
+            17,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "halfturn": true
+        },
+        {
+          "rot": 5,
+          "flip": true,
+          "perm": [
+            3,
+            4,
+            8,
+            0,
+            1,
+            5,
+            9,
+            13,
+            2,
+            6,
+            10,
+            14,
+            18,
+            7,
+            11,
+            15,
+            19,
+            20,
+            12,
+            16,
+            17
+          ],
+          "halfturn": false
+        }
+      ],
+      "geometric_classes": 1,
+      "orbit_sizes": {
+        "4": 1
+      },
+      "fixed": [
+        {
+          "rot": 0,
+          "flip": false,
+          "count": 4,
+          "halfturn": false,
+          "geometric_classes": 1
+        },
+        {
+          "rot": 2,
+          "flip": true,
+          "count": 0,
+          "halfturn": false,
+          "geometric_classes": 0
+        },
+        {
+          "rot": 3,
+          "flip": false,
+          "count": 0,
+          "halfturn": true,
+          "geometric_classes": 0
+        },
+        {
+          "rot": 5,
+          "flip": true,
+          "count": 0,
+          "halfturn": false,
+          "geometric_classes": 0
+        }
+      ],
+      "independent_nodes": 8419,
+      "native_search_mems": 559167053
+    },
+    {
+      "label": "b5",
+      "vertices": 21,
+      "raw_models": 24,
+      "color_classes": 1,
+      "board_group": [
+        {
+          "rot": 0,
+          "flip": false,
+          "perm": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "halfturn": false
+        }
+      ],
+      "geometric_classes": 1,
+      "orbit_sizes": {
+        "1": 1
+      },
+      "fixed": [
+        {
+          "rot": 0,
+          "flip": false,
+          "count": 1,
+          "halfturn": false,
+          "geometric_classes": 1
+        }
+      ],
+      "independent_nodes": 21484,
+      "native_search_mems": 930616143
+    },
+    {
+      "label": "b6",
+      "vertices": 21,
+      "raw_models": 48,
+      "color_classes": 2,
+      "board_group": [
+        {
+          "rot": 0,
+          "flip": false,
+          "perm": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "halfturn": false
+        },
+        {
+          "rot": 3,
+          "flip": false,
+          "perm": [
+            20,
+            19,
+            18,
+            17,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "halfturn": true
+        }
+      ],
+      "geometric_classes": 1,
+      "orbit_sizes": {
+        "2": 1
+      },
+      "fixed": [
+        {
+          "rot": 0,
+          "flip": false,
+          "count": 2,
+          "halfturn": false,
+          "geometric_classes": 1
+        },
+        {
+          "rot": 3,
+          "flip": false,
+          "count": 0,
+          "halfturn": true,
+          "geometric_classes": 0
+        }
+      ],
+      "independent_nodes": 16562,
+      "native_search_mems": 828031577
+    },
+    {
+      "label": "b7",
+      "vertices": 21,
+      "raw_models": 48,
+      "color_classes": 2,
+      "board_group": [
+        {
+          "rot": 0,
+          "flip": false,
+          "perm": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "halfturn": false
+        },
+        {
+          "rot": 2,
+          "flip": true,
+          "perm": [
+            20,
+            19,
+            17,
+            18,
+            16,
+            14,
+            11,
+            7,
+            15,
+            13,
+            10,
+            6,
+            12,
+            9,
+            5,
+            8,
+            4,
+            2,
+            3,
+            1,
+            0
+          ],
+          "halfturn": false
+        }
+      ],
+      "geometric_classes": 1,
+      "orbit_sizes": {
+        "2": 1
+      },
+      "fixed": [
+        {
+          "rot": 0,
+          "flip": false,
+          "count": 2,
+          "halfturn": false,
+          "geometric_classes": 1
+        },
+        {
+          "rot": 2,
+          "flip": true,
+          "count": 0,
+          "halfturn": false,
+          "geometric_classes": 0
+        }
+      ],
+      "independent_nodes": 10473,
+      "native_search_mems": 700640697
+    },
+    {
+      "label": "b8",
+      "vertices": 21,
+      "raw_models": 48,
+      "color_classes": 2,
+      "board_group": [
+        {
+          "rot": 0,
+          "flip": false,
+          "perm": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "halfturn": false
+        },
+        {
+          "rot": 3,
+          "flip": true,
+          "perm": [
+            20,
+            15,
+            10,
+            19,
+            14,
+            9,
+            18,
+            13,
+            8,
+            5,
+            2,
+            17,
+            12,
+            7,
+            4,
+            1,
+            16,
+            11,
+            6,
+            3,
+            0
+          ],
+          "halfturn": false
+        }
+      ],
+      "geometric_classes": 1,
+      "orbit_sizes": {
+        "2": 1
+      },
+      "fixed": [
+        {
+          "rot": 0,
+          "flip": false,
+          "count": 2,
+          "halfturn": false,
+          "geometric_classes": 1
+        },
+        {
+          "rot": 3,
+          "flip": true,
+          "count": 0,
+          "halfturn": false,
+          "geometric_classes": 0
+        }
+      ],
+      "independent_nodes": 19094,
+      "native_search_mems": 837407963
+    },
+    {
+      "label": "c1",
+      "vertices": 22,
+      "raw_models": 1008,
+      "color_classes": 42,
+      "board_group": [
+        {
+          "rot": 0,
+          "flip": false,
+          "perm": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "halfturn": false
+        },
+        {
+          "rot": 0,
+          "flip": true,
+          "perm": [
+            12,
+            18,
+            7,
+            13,
+            19,
+            8,
+            14,
+            2,
+            5,
+            9,
+            15,
+            20,
+            0,
+            3,
+            6,
+            10,
+            16,
+            21,
+            1,
+            4,
+            11,
+            17
+          ],
+          "halfturn": false
+        },
+        {
+          "rot": 2,
+          "flip": false,
+          "perm": [
+            18,
+            12,
+            19,
+            13,
+            7,
+            14,
+            8,
+            20,
+            15,
+            9,
+            5,
+            2,
+            21,
+            16,
+            10,
+            6,
+            3,
+            0,
+            17,
+            11,
+            4,
+            1
+          ],
+          "halfturn": false
+        },
+        {
+          "rot": 2,
+          "flip": true,
+          "perm": [
+            21,
+            17,
+            20,
+            16,
+            11,
+            15,
+            10,
+            19,
+            14,
+            9,
+            6,
+            4,
+            18,
+            13,
+            8,
+            5,
+            3,
+            1,
+            12,
+            7,
+            2,
+            0
+          ],
+          "halfturn": false
+        },
+        {
+          "rot": 4,
+          "flip": false,
+          "perm": [
+            17,
+            21,
+            11,
+            16,
+            20,
+            10,
+            15,
+            4,
+            6,
+            9,
+            14,
+            19,
+            1,
+            3,
+            5,
+            8,
+            13,
+            18,
+            0,
+            2,
+            7,
+            12
+          ],
+          "halfturn": false
+        },
+        {
+          "rot": 4,
+          "flip": true,
+          "perm": [
+            1,
+            0,
+            4,
+            3,
+            2,
+            6,
+            5,
+            11,
+            10,
+            9,
+            8,
+            7,
+            17,
+            16,
+            15,
+            14,
+            13,
+            12,
+            21,
+            20,
+            19,
+            18
+          ],
+          "halfturn": false
+        }
+      ],
+      "geometric_classes": 7,
+      "orbit_sizes": {
+        "6": 7
+      },
+      "fixed": [
+        {
+          "rot": 0,
+          "flip": false,
+          "count": 42,
+          "halfturn": false,
+          "geometric_classes": 7
+        },
+        {
+          "rot": 0,
+          "flip": true,
+          "count": 0,
+          "halfturn": false,
+          "geometric_classes": 0
+        },
+        {
+          "rot": 2,
+          "flip": false,
+          "count": 0,
+          "halfturn": false,
+          "geometric_classes": 0
+        },
+        {
+          "rot": 2,
+          "flip": true,
+          "count": 0,
+          "halfturn": false,
+          "geometric_classes": 0
+        },
+        {
+          "rot": 4,
+          "flip": false,
+          "count": 0,
+          "halfturn": false,
+          "geometric_classes": 0
+        },
+        {
+          "rot": 4,
+          "flip": true,
+          "count": 0,
+          "halfturn": false,
+          "geometric_classes": 0
+        }
+      ],
+      "independent_nodes": 36147,
+      "native_search_mems": 1107504083
+    },
+    {
+      "label": "c2",
+      "vertices": 21,
+      "raw_models": 216,
+      "color_classes": 9,
+      "board_group": [
+        {
+          "rot": 0,
+          "flip": false,
+          "perm": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "halfturn": false
+        }
+      ],
+      "geometric_classes": 9,
+      "orbit_sizes": {
+        "1": 9
+      },
+      "fixed": [
+        {
+          "rot": 0,
+          "flip": false,
+          "count": 9,
+          "halfturn": false,
+          "geometric_classes": 9
+        }
+      ],
+      "independent_nodes": 14098,
+      "native_search_mems": 673184977
+    },
+    {
+      "label": "c3",
+      "vertices": 22,
+      "raw_models": 1152,
+      "color_classes": 48,
+      "board_group": [
+        {
+          "rot": 0,
+          "flip": false,
+          "perm": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "halfturn": false
+        }
+      ],
+      "geometric_classes": 48,
+      "orbit_sizes": {
+        "1": 48
+      },
+      "fixed": [
+        {
+          "rot": 0,
+          "flip": false,
+          "count": 48,
+          "halfturn": false,
+          "geometric_classes": 48
+        }
+      ],
+      "independent_nodes": 59196,
+      "native_search_mems": 1766575193
+    },
+    {
+      "label": "c4",
+      "vertices": 20,
+      "raw_models": 192,
+      "color_classes": 8,
+      "board_group": [
+        {
+          "rot": 0,
+          "flip": false,
+          "perm": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "halfturn": false
+        },
+        {
+          "rot": 2,
+          "flip": true,
+          "perm": [
+            19,
+            17,
+            18,
+            16,
+            13,
+            9,
+            15,
+            12,
+            8,
+            5,
+            14,
+            11,
+            7,
+            4,
+            10,
+            6,
+            3,
+            1,
+            2,
+            0
+          ],
+          "halfturn": false
+        },
+        {
+          "rot": 3,
+          "flip": false,
+          "perm": [
+            19,
+            18,
+            17,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "halfturn": true
+        },
+        {
+          "rot": 5,
+          "flip": true,
+          "perm": [
+            0,
+            2,
+            1,
+            3,
+            6,
+            10,
+            4,
+            7,
+            11,
+            14,
+            5,
+            8,
+            12,
+            15,
+            9,
+            13,
+            16,
+            18,
+            17,
+            19
+          ],
+          "halfturn": false
+        }
+      ],
+      "geometric_classes": 2,
+      "orbit_sizes": {
+        "4": 2
+      },
+      "fixed": [
+        {
+          "rot": 0,
+          "flip": false,
+          "count": 8,
+          "halfturn": false,
+          "geometric_classes": 2
+        },
+        {
+          "rot": 2,
+          "flip": true,
+          "count": 0,
+          "halfturn": false,
+          "geometric_classes": 0
+        },
+        {
+          "rot": 3,
+          "flip": false,
+          "count": 0,
+          "halfturn": true,
+          "geometric_classes": 0
+        },
+        {
+          "rot": 5,
+          "flip": true,
+          "count": 0,
+          "halfturn": false,
+          "geometric_classes": 0
+        }
+      ],
+      "independent_nodes": 8057,
+      "native_search_mems": 388959223
+    },
+    {
+      "label": "c5",
+      "vertices": 22,
+      "raw_models": 960,
+      "color_classes": 40,
+      "board_group": [
+        {
+          "rot": 0,
+          "flip": false,
+          "perm": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "halfturn": false
+        },
+        {
+          "rot": 3,
+          "flip": false,
+          "perm": [
+            21,
+            20,
+            19,
+            18,
+            17,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "halfturn": true
+        }
+      ],
+      "geometric_classes": 23,
+      "orbit_sizes": {
+        "2": 17,
+        "1": 6
+      },
+      "fixed": [
+        {
+          "rot": 0,
+          "flip": false,
+          "count": 40,
+          "halfturn": false,
+          "geometric_classes": 23
+        },
+        {
+          "rot": 3,
+          "flip": false,
+          "count": 6,
+          "halfturn": true,
+          "geometric_classes": 6
+        }
+      ],
+      "independent_nodes": 48646,
+      "native_search_mems": 1708031921
+    },
+    {
+      "label": "c6",
+      "vertices": 22,
+      "raw_models": 1344,
+      "color_classes": 56,
+      "board_group": [
+        {
+          "rot": 0,
+          "flip": false,
+          "perm": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "halfturn": false
+        },
+        {
+          "rot": 5,
+          "flip": true,
+          "perm": [
+            5,
+            9,
+            6,
+            10,
+            15,
+            0,
+            2,
+            11,
+            16,
+            1,
+            3,
+            7,
+            12,
+            17,
+            20,
+            4,
+            8,
+            13,
+            18,
+            21,
+            14,
+            19
+          ],
+          "halfturn": false
+        }
+      ],
+      "geometric_classes": 28,
+      "orbit_sizes": {
+        "2": 28
+      },
+      "fixed": [
+        {
+          "rot": 0,
+          "flip": false,
+          "count": 56,
+          "halfturn": false,
+          "geometric_classes": 28
+        },
+        {
+          "rot": 5,
+          "flip": true,
+          "count": 0,
+          "halfturn": false,
+          "geometric_classes": 0
+        }
+      ],
+      "independent_nodes": 48883,
+      "native_search_mems": 1712325319
+    },
+    {
+      "label": "c7",
+      "vertices": 22,
+      "raw_models": 1536,
+      "color_classes": 64,
+      "board_group": [
+        {
+          "rot": 0,
+          "flip": false,
+          "perm": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "halfturn": false
+        },
+        {
+          "rot": 2,
+          "flip": true,
+          "perm": [
+            10,
+            5,
+            15,
+            9,
+            4,
+            1,
+            19,
+            14,
+            8,
+            3,
+            0,
+            21,
+            18,
+            13,
+            7,
+            2,
+            20,
+            17,
+            12,
+            6,
+            16,
+            11
+          ],
+          "halfturn": false
+        },
+        {
+          "rot": 3,
+          "flip": false,
+          "perm": [
+            21,
+            20,
+            19,
+            18,
+            17,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "halfturn": true
+        },
+        {
+          "rot": 5,
+          "flip": true,
+          "perm": [
+            11,
+            16,
+            6,
+            12,
+            17,
+            20,
+            2,
+            7,
+            13,
+            18,
+            21,
+            0,
+            3,
+            8,
+            14,
+            19,
+            1,
+            4,
+            9,
+            15,
+            5,
+            10
+          ],
+          "halfturn": false
+        }
+      ],
+      "geometric_classes": 18,
+      "orbit_sizes": {
+        "4": 14,
+        "2": 4
+      },
+      "fixed": [
+        {
+          "rot": 0,
+          "flip": false,
+          "count": 64,
+          "halfturn": false,
+          "geometric_classes": 18
+        },
+        {
+          "rot": 2,
+          "flip": true,
+          "count": 0,
+          "halfturn": false,
+          "geometric_classes": 0
+        },
+        {
+          "rot": 3,
+          "flip": false,
+          "count": 8,
+          "halfturn": true,
+          "geometric_classes": 4
+        },
+        {
+          "rot": 5,
+          "flip": true,
+          "count": 0,
+          "halfturn": false,
+          "geometric_classes": 0
+        }
+      ],
+      "independent_nodes": 64217,
+      "native_search_mems": 1901774441
+    },
+    {
+      "label": "b-impossible1",
+      "vertices": 21,
+      "raw_models": 0,
+      "color_classes": 0,
+      "board_group": [
+        {
+          "rot": 0,
+          "flip": false,
+          "perm": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "halfturn": false
+        }
+      ],
+      "geometric_classes": 0,
+      "orbit_sizes": {},
+      "fixed": [
+        {
+          "rot": 0,
+          "flip": false,
+          "count": 0,
+          "halfturn": false,
+          "geometric_classes": 0
+        }
+      ],
+      "independent_nodes": 16437,
+      "native_search_mems": 774721481
+    },
+    {
+      "label": "b-impossible2",
+      "vertices": 21,
+      "raw_models": 0,
+      "color_classes": 0,
+      "board_group": [
+        {
+          "rot": 0,
+          "flip": false,
+          "perm": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "halfturn": false
+        }
+      ],
+      "geometric_classes": 0,
+      "orbit_sizes": {},
+      "fixed": [
+        {
+          "rot": 0,
+          "flip": false,
+          "count": 0,
+          "halfturn": false,
+          "geometric_classes": 0
+        }
+      ],
+      "independent_nodes": 9725,
+      "native_search_mems": 623975725
+    },
+    {
+      "label": "b-impossible3",
+      "vertices": 19,
+      "raw_models": 0,
+      "color_classes": 0,
+      "board_group": [
+        {
+          "rot": 0,
+          "flip": false,
+          "perm": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "halfturn": false
+        },
+        {
+          "rot": 0,
+          "flip": true,
+          "perm": [
+            7,
+            12,
+            16,
+            3,
+            8,
+            13,
+            17,
+            0,
+            4,
+            9,
+            14,
+            18,
+            1,
+            5,
+            10,
+            15,
+            2,
+            6,
+            11
+          ],
+          "halfturn": false
+        },
+        {
+          "rot": 1,
+          "flip": false,
+          "perm": [
+            7,
+            3,
+            0,
+            12,
+            8,
+            4,
+            1,
+            16,
+            13,
+            9,
+            5,
+            2,
+            17,
+            14,
+            10,
+            6,
+            18,
+            15,
+            11
+          ],
+          "halfturn": false
+        },
+        {
+          "rot": 1,
+          "flip": true,
+          "perm": [
+            16,
+            17,
+            18,
+            12,
+            13,
+            14,
+            15,
+            7,
+            8,
+            9,
+            10,
+            11,
+            3,
+            4,
+            5,
+            6,
+            0,
+            1,
+            2
+          ],
+          "halfturn": false
+        },
+        {
+          "rot": 2,
+          "flip": false,
+          "perm": [
+            16,
+            12,
+            7,
+            17,
+            13,
+            8,
+            3,
+            18,
+            14,
+            9,
+            4,
+            0,
+            15,
+            10,
+            5,
+            1,
+            11,
+            6,
+            2
+          ],
+          "halfturn": false
+        },
+        {
+          "rot": 2,
+          "flip": true,
+          "perm": [
+            18,
+            15,
+            11,
+            17,
+            14,
+            10,
+            6,
+            16,
+            13,
+            9,
+            5,
+            2,
+            12,
+            8,
+            4,
+            1,
+            7,
+            3,
+            0
+          ],
+          "halfturn": false
+        },
+        {
+          "rot": 3,
+          "flip": false,
+          "perm": [
+            18,
+            17,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "halfturn": true
+        },
+        {
+          "rot": 3,
+          "flip": true,
+          "perm": [
+            11,
+            6,
+            2,
+            15,
+            10,
+            5,
+            1,
+            18,
+            14,
+            9,
+            4,
+            0,
+            17,
+            13,
+            8,
+            3,
+            16,
+            12,
+            7
+          ],
+          "halfturn": false
+        },
+        {
+          "rot": 4,
+          "flip": false,
+          "perm": [
+            11,
+            15,
+            18,
+            6,
+            10,
+            14,
+            17,
+            2,
+            5,
+            9,
+            13,
+            16,
+            1,
+            4,
+            8,
+            12,
+            0,
+            3,
+            7
+          ],
+          "halfturn": false
+        },
+        {
+          "rot": 4,
+          "flip": true,
+          "perm": [
+            2,
+            1,
+            0,
+            6,
+            5,
+            4,
+            3,
+            11,
+            10,
+            9,
+            8,
+            7,
+            15,
+            14,
+            13,
+            12,
+            18,
+            17,
+            16
+          ],
+          "halfturn": false
+        },
+        {
+          "rot": 5,
+          "flip": false,
+          "perm": [
+            2,
+            6,
+            11,
+            1,
+            5,
+            10,
+            15,
+            0,
+            4,
+            9,
+            14,
+            18,
+            3,
+            8,
+            13,
+            17,
+            7,
+            12,
+            16
+          ],
+          "halfturn": false
+        },
+        {
+          "rot": 5,
+          "flip": true,
+          "perm": [
+            0,
+            3,
+            7,
+            1,
+            4,
+            8,
+            12,
+            2,
+            5,
+            9,
+            13,
+            16,
+            6,
+            10,
+            14,
+            17,
+            11,
+            15,
+            18
+          ],
+          "halfturn": false
+        }
+      ],
+      "geometric_classes": 0,
+      "orbit_sizes": {},
+      "fixed": [
+        {
+          "rot": 0,
+          "flip": false,
+          "count": 0,
+          "halfturn": false,
+          "geometric_classes": 0
+        },
+        {
+          "rot": 0,
+          "flip": true,
+          "count": 0,
+          "halfturn": false,
+          "geometric_classes": 0
+        },
+        {
+          "rot": 1,
+          "flip": false,
+          "count": 0,
+          "halfturn": false,
+          "geometric_classes": 0
+        },
+        {
+          "rot": 1,
+          "flip": true,
+          "count": 0,
+          "halfturn": false,
+          "geometric_classes": 0
+        },
+        {
+          "rot": 2,
+          "flip": false,
+          "count": 0,
+          "halfturn": false,
+          "geometric_classes": 0
+        },
+        {
+          "rot": 2,
+          "flip": true,
+          "count": 0,
+          "halfturn": false,
+          "geometric_classes": 0
+        },
+        {
+          "rot": 3,
+          "flip": false,
+          "count": 0,
+          "halfturn": true,
+          "geometric_classes": 0
+        },
+        {
+          "rot": 3,
+          "flip": true,
+          "count": 0,
+          "halfturn": false,
+          "geometric_classes": 0
+        },
+        {
+          "rot": 4,
+          "flip": false,
+          "count": 0,
+          "halfturn": false,
+          "geometric_classes": 0
+        },
+        {
+          "rot": 4,
+          "flip": true,
+          "count": 0,
+          "halfturn": false,
+          "geometric_classes": 0
+        },
+        {
+          "rot": 5,
+          "flip": false,
+          "count": 0,
+          "halfturn": false,
+          "geometric_classes": 0
+        },
+        {
+          "rot": 5,
+          "flip": true,
+          "count": 0,
+          "halfturn": false,
+          "geometric_classes": 0
+        }
+      ],
+      "independent_nodes": 5736,
+      "native_search_mems": 296518783
+    }
+  ],
+  "all_21_complete_sets_equal": true,
+  "all_printed_counts_correct": true,
+  "direct_models": 7536,
+  "color_classes": 314,
+  "printed_valid_figures": 17,
+  "printed_invalid_figures": [
+    "c3"
+  ],
+  "corrected_c3_is_solution": true
+}

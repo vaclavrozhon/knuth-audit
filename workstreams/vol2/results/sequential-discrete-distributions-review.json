@@ -1,0 +1,127 @@
+{
+  "reviewed_at_utc": "2026-11-06T11:28:30.074080+00:00",
+  "checked_item": "V2-X0121",
+  "reaffirmed_findings": [
+    "V2-C0056",
+    "V2-C0057"
+  ],
+  "known_errata": [
+    "V2-X0122"
+  ],
+  "new_findings": [],
+  "scope": "3.4.1 F and exercises 17–19, 22–23, 25–30, 32–33; source 137 historical alpha recommendation remains a factual gap.",
+  "accepted_archived_counts": {
+    "binomial_branch_integrals": 2184,
+    "continuous_binomial_cdf_values": 630,
+    "dyadic_bit_models": 1386,
+    "state_transitions": 361812,
+    "mean_recurrence_cases": 80,
+    "boolean_expressions": 126,
+    "boolean_truth_rows": 10920,
+    "ellipsoid_extrema_cases": 1694,
+    "exponential_bit_words": 1530
+  },
+  "severity_review": {
+    "V2-C0056": "medium to low: local parameter typo; corrected quantile principle is valid.",
+    "V2-C0057": "medium to low: left-hand index typo; algorithm, recurrence and asymptotic formula remain valid."
+  },
+  "new_mathematical_computation": "None. General proofs, full verifier, three PASS blocks and archived result scopes reviewed; four high-precision asymptotic examples remain numerical illustrations, not rigorous intervals.",
+  "inputs": [
+    {
+      "path": "workstreams/vol2/notes/sequential-discrete-distributions-2026-11-06.md",
+      "sha256": "88751795793d11856061cc30086f02c2d970285dc90ab544d86ab4cadc8c6550"
+    },
+    {
+      "path": "workstreams/vol2/sources/sequential-2026-11-06/discrete-distributions-source-review.json",
+      "sha256": "6a5facc8895bcc4f03135216f26e374e99db367521f56347e539280e6b61ac6a"
+    },
+    {
+      "path": "workstreams/vol2/notes/discrete-distributions.md",
+      "sha256": "b2f96a00d97f2c24e50bea6a99dc81b21c768cde1819ad3848c1c8e46f2d52a8"
+    },
+    {
+      "path": "workstreams/vol2/verify_discrete_distributions.py",
+      "sha256": "e38cdfef5595ed9bc6264f2fa0019bd8e6e14c367644c23e0f17fc1324e74375"
+    },
+    {
+      "path": "workstreams/vol2/results/discrete-distributions.json",
+      "sha256": "a221be2f6b5e03628348425c7e88ac3237bab0f4cc889c6fda61f4af01c87107"
+    },
+    {
+      "path": "workstreams/vol2/results/discrete-distributions.log",
+      "sha256": "cccce9f114318e3c2394d321dda095f4bf4d23db578cdcf63b224bca4ac859b0"
+    },
+    {
+      "path": "workstreams/vol2/images/C0056-binomial-integral-detail.png",
+      "sha256": "d957d1dad1b012efbd540f76ccc28492c6506277928e1cc55a1172d3ee512fd6"
+    },
+    {
+      "path": "workstreams/vol2/images/C0057-binomial-cost-detail.png",
+      "sha256": "373d9e1c214fafd4bdfe1c21782f81894969d9bee4a87e1ad5367a1891a6e4a8"
+    },
+    {
+      "path": "workstreams/vol2/images/crossref-vol3-p137.png",
+      "sha256": "939f1f25c3461db2a760d26cd1711bd4b2969ee73f90df98d0f776d3ff8ee21b"
+    },
+    {
+      "path": "workstreams/vol2/images/crossref-vol3-p636.png",
+      "sha256": "9154eadf05766756372c6d67b76405678e92fc1f238ea1d12b71280b7cd29f9a"
+    },
+    {
+      "path": "workstreams/vol2/images/normal-errata-prepre-p8.png",
+      "sha256": "5df58fc959c5a6b6c19eada60f42a17122c00d641cc5483d4bac1edfc764384a"
+    },
+    {
+      "path": "workstreams/vol2/images/normal-errata-prepre-p33.png",
+      "sha256": "6e3d5729bfc5f2ff26d838247cc7f141c8a32686a2e3306ed867b92254e47316"
+    },
+    {
+      "path": "workstreams/vol2/images/discrete-errata-all2-p3.png",
+      "sha256": "357ed947763766dda1730cb24c2669bf91cadafec0c74d92b2953c9a96c03be1"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p136.png",
+      "sha256": "07ff0056798bbf6fda0c749739b38382ce0861ef60df5cf0662e9dfc7a4e4256"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p137.png",
+      "sha256": "f094c111c4a4df40c9c34eb7017ae3bc1be6a5452f81481f43eac376a67652bb"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p138.png",
+      "sha256": "27f3338d16d54c4538f55e3aa88cebcdbb873b3895fb111ca8f9abe7c9fd742a"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p139.png",
+      "sha256": "6596493ef7a7a7000b799eb7c53fe3c47b3dba2a3869309afba8946fef54865f"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p140.png",
+      "sha256": "c9e02123557af4d23e531b331b3963f10019154431ab3a5b33ed82c8dae8aa6e"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p141.png",
+      "sha256": "d3768d315cfb97ffce22ccf6b18eb1f7a5a31d6b81274b473e1bea323ef7b750"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p142.png",
+      "sha256": "a050dc3814540b4b822fb608fa9148bb6769f471d734222cd4e4f9f1752aa5dd"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p587.png",
+      "sha256": "49b573bc53161c431a5a8084b51469a05c7ad061a720a91cfa5ebfa9373e6152"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p588.png",
+      "sha256": "2cfe19d70c4ce19e52decd71eb4298ecfb7b0c941707dbbf02b850e3abc17ddb"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p589.png",
+      "sha256": "a5fe689d3358a1e00dd2ed7bcee8d1a69d169a5bd1ea775d590ecbdc251e4641"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p590.png",
+      "sha256": "0129fb8d7c4cf0954e655ecc0b6a42d56d4c29d6ff67306979f8f2c26027246e"
+    }
+  ]
+}

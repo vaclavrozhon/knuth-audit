@@ -1,0 +1,109 @@
+{
+  "points": {
+    "a": [
+      "-1",
+      "0"
+    ],
+    "b": [
+      "0",
+      "1"
+    ],
+    "c": [
+      "1",
+      "0"
+    ],
+    "d": [
+      "0",
+      "-1"
+    ],
+    "j": [
+      "0",
+      "0"
+    ]
+  },
+  "network": {
+    "a": [
+      "W",
+      "djb"
+    ],
+    "b": [
+      "W",
+      "ajc"
+    ],
+    "c": [
+      "W",
+      "bjd"
+    ],
+    "d": [
+      "V",
+      "ca"
+    ],
+    "j": [
+      "T",
+      "abc"
+    ]
+  },
+  "edges": [
+    "ab",
+    "ad",
+    "aj",
+    "bc",
+    "bj",
+    "cd",
+    "cj"
+  ],
+  "original_face_walks": [
+    [
+      "a",
+      "b",
+      "j"
+    ],
+    [
+      "a",
+      "d",
+      "c",
+      "b"
+    ],
+    [
+      "a",
+      "j",
+      "c",
+      "d"
+    ],
+    [
+      "b",
+      "c",
+      "j"
+    ]
+  ],
+  "outer_boundary": [
+    "a",
+    "d",
+    "c",
+    "b"
+  ],
+  "reversed_j_rotation_face_walks": [
+    [
+      "ab",
+      "bj",
+      "jc",
+      "cd",
+      "da",
+      "aj",
+      "jb",
+      "bc",
+      "cj",
+      "ja"
+    ],
+    [
+      "ad",
+      "dc",
+      "cb",
+      "ba"
+    ]
+  ],
+  "vertices": 5,
+  "edges_count": 7,
+  "faces_with_wrong_rotation": 2,
+  "Euler_characteristic_with_wrong_rotation": 0
+}

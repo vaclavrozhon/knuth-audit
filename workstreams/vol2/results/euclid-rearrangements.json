@@ -1,0 +1,105 @@
+{
+  "pid": 1220711,
+  "status": "passed",
+  "checkpoints": {
+    "counterexamples": {
+      "families": 210,
+      "selected_examples": [
+        {
+          "a": 1,
+          "b": 2,
+          "prescribed": [
+            2,
+            2,
+            1,
+            2,
+            2
+          ],
+          "K_prescribed": 45,
+          "better": [
+            2,
+            1,
+            2,
+            2,
+            2
+          ],
+          "K_better": 46
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "prescribed": [
+            3,
+            3,
+            2,
+            3,
+            3
+          ],
+          "K_prescribed": 260,
+          "better": [
+            3,
+            2,
+            3,
+            3,
+            3
+          ],
+          "K_better": 261
+        },
+        {
+          "a": 3,
+          "b": 10,
+          "prescribed": [
+            10,
+            10,
+            3,
+            10,
+            10
+          ],
+          "K_prescribed": 32623,
+          "better": [
+            10,
+            3,
+            10,
+            10,
+            10
+          ],
+          "K_better": 32630
+        }
+      ]
+    },
+    "identities": {
+      "independent_matching_models": 3279,
+      "block_reversal_identities": 3006,
+      "different_endpoint_signs": 2004
+    },
+    "minimum_paths": {
+      "inputs": 29523,
+      "moves": 97062,
+      "equal_moves": 4602,
+      "scope": "Every word over {1,2,3}, lengths1..9. Every move and boundary sign checked."
+    },
+    "distinct_maximum_paths": {
+      "inputs": 47193,
+      "moves": 241332,
+      "equal_moves": 6081,
+      "scope": "All permutations of1..n for n<=8, plus three nonuniform alphabets."
+    }
+  },
+  "prior_pilots_not_rerun": {
+    "maximum_counterexample_search": "All{1,2,3}words of length<=4 passed; stopped at first length5 counterexample(2,1,2,2,2).",
+    "minimum_global_comparisons": {
+      "alphabet": [
+        1,
+        2,
+        3
+      ],
+      "lengths": "1..11",
+      "words": 265719,
+      "status": "passed",
+      "session_for_lengths9_to11": 88913
+    },
+    "distinct_minimum_oracle": "All permutations1..n for n<=8; smallest minimizers were used only to check the printed pattern.",
+    "rational_pilot": "15 random rational multisets in[1,6] for each n5,6; all permutations passed. Not a proof or claim for arbitrary real entries."
+  },
+  "elapsed_seconds": 4.367635250091553
+}

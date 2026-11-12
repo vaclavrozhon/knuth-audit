@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-02",
+  "previous_records_read": [
+    "workstreams/vol1/notes/euler-errata-and-scope.md",
+    "workstreams/vol1/sources/euler-primary-limits.json",
+    "workstreams/vol1/sources/seki-ndl-catalog.html",
+    "workstreams/vol1/sources/seki-kyoto-catalog.html"
+  ],
+  "new_leads": [
+    {
+      "query": "IA advancedsearch title:interpolation AND creator:Steffensen",
+      "lead": "Public 1927 records interpolation0000jfst and interpolation0000jfst_z4m0; first supplied open original PDF",
+      "saved": "sources/steffensen-ia-search.json"
+    },
+    {
+      "query": "Steffensen Interpolation1927 public full text",
+      "lead": "New Google id lW5tAAAAMAAJ (old catalog id m9Q-AAAAIAAJ not repeated); final read from IA",
+      "saved": "sources/steffensen1927-google-fullview.html"
+    },
+    {
+      "query": "de Bruijn Asymptotic Methods in Analysis institutional scan",
+      "lead": "Rice indexed debruijnCh1a2.pdf; actual course index revealed debruijnCh3.pdf; exact linked URL used",
+      "saved": "sources/debruijn-rice-index.html"
+    },
+    {
+      "query": "Kyoto RB00000159 originalcatalog IIIF link",
+      "lead": "The previously saved catalogue links an open IIIF v3 manifest with 112 canvases. Not the old failed NDL image endpoint.",
+      "saved": "sources/seki-kyoto-1712-manifest.json"
+    },
+    {
+      "query": "site.ndl.go.jp 括要算法 ベルヌーイ 巻; site.kyoto-u.ac.jp 括要算法 ベルヌーイ; \"括要算法\" \"39\" \"42\"",
+      "lead": "Ogawa 2012 MathSoc paper reproduces exact Kyoto Bernoulli table on 14; used for navigation and interpretation"
+    },
+    {
+      "query": "\"関孝和全集\" \"1974\" filetype:pdf; \"関孝和全集\" \"39\" \"1974\"; \"Takakazu Seki's Collected Works\" \"1974\"",
+      "lead": "NDL, CiNii and university catalogues; no open modern 1974 pages found. CiNii BN01585109 has metadata only.",
+      "status": "1974 original 39–42 remain unread"
+    }
+  ],
+  "not_repeated": [
+    "old NDL image 3508173/36",
+    "Google Books m9Q-AAAAIAAJ catalog-only endpoint"
+  ]
+}

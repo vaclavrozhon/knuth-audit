@@ -1,0 +1,561 @@
+{
+  "at_utc": "2026-11-03T19:06:14.892518+00:00",
+  "checker_sha256": "2f19ebe858de19bd64e0d126a17fad711b6efda7be7aa48558b92cdb55af5e88",
+  "nice": 15,
+  "wall_seconds": 0.6214963289676234,
+  "source_hashes": {
+    "sources/usa239_246/contiguous-usa.gb": "2b45bd0e18a0ff152f8466cded6da4571fd2ca374cde62a68ecbf5f0cb3788f3",
+    "sources/usa239_246/census-2015-pepannres.txt": "482d8a13ac2d59bdb50fbf78f3bed769da22782f2828b5737d2df31c50e8be1d",
+    "results/usa239_246/figures.json": "dc66083fbd4105ad46d90cc1ccf9ff8cb698017f495c533d3a38337722738428"
+  },
+  "F148": {
+    "northwest": {
+      "AZ": 6392307,
+      "ID": 1567652,
+      "KS": 2853132,
+      "MN": 5303925,
+      "MT": 989417,
+      "ND": 672591,
+      "NE": 1826341,
+      "NV": 2700691,
+      "OK": 3751616,
+      "OR": 3831073,
+      "WA": 6724543,
+      "WY": 563767
+    },
+    "northwest_total": 37177055,
+    "new_england": {
+      "CT": 3574118,
+      "MA": 6547817,
+      "ME": 1328361,
+      "NH": 1316466,
+      "RI": 1052931,
+      "VT": 625745
+    },
+    "new_england_total": 14445438,
+    "ny_plus_new_england": 33823525,
+    "old_rounded_millions": [
+      37.3,
+      14.3,
+      33.7
+    ],
+    "correct_rounded_millions": [
+      37.2,
+      14.4,
+      33.8
+    ],
+    "same_values_in_official_2015_base": true
+  },
+  "F149": {
+    "edge_witnesses": [
+      {
+        "version": "original",
+        "title": "116-right",
+        "black_path": [
+          "AL",
+          "TN",
+          "MS"
+        ],
+        "segments": [
+          {
+            "states": [
+              "AL",
+              "MS"
+            ],
+            "color": "0 0 1",
+            "endpoints": [
+              [
+                334.02,
+                446.95698
+              ],
+              [
+                322.02,
+                446.95698
+              ]
+            ]
+          },
+          {
+            "states": [
+              "AL",
+              "TN"
+            ],
+            "color": "0 0 0",
+            "endpoints": [
+              [
+                334.02,
+                446.95698
+              ],
+              [
+                334.02,
+                434.95797999999996
+              ]
+            ]
+          },
+          {
+            "states": [
+              "TN",
+              "MS"
+            ],
+            "color": "0 0 0",
+            "endpoints": [
+              [
+                322.02,
+                446.95799
+              ],
+              [
+                334.019,
+                434.95899
+              ]
+            ]
+          }
+        ],
+        "trace_sha256": "f0cdc465fa37c241fd5f69a73d28dc7b56119bc0df33dde605bbe77fa144228d"
+      },
+      {
+        "version": "original",
+        "title": "246-ext-left",
+        "black_path": [
+          "SD",
+          "NE",
+          "WY"
+        ],
+        "segments": [
+          {
+            "states": [
+              "SD",
+              "WY"
+            ],
+            "color": "0 0 1",
+            "endpoints": [
+              [
+                118.922,
+                206.17897000000002
+              ],
+              [
+                106.922,
+                218.17897000000002
+              ]
+            ]
+          },
+          {
+            "states": [
+              "SD",
+              "NE"
+            ],
+            "color": "0 0 0",
+            "endpoints": [
+              [
+                118.92,
+                218.17896
+              ],
+              [
+                118.92,
+                206.17996
+              ]
+            ]
+          },
+          {
+            "states": [
+              "NE",
+              "WY"
+            ],
+            "color": "0 0 0",
+            "endpoints": [
+              [
+                118.92,
+                218.17896
+              ],
+              [
+                106.921,
+                218.17896
+              ]
+            ]
+          }
+        ],
+        "trace_sha256": "cf555fe89abbb4a876d346951eeffbb631e661c02dde83780f57455c3d17a0be"
+      },
+      {
+        "version": "original",
+        "title": "246-int-left",
+        "black_path": [
+          "SD",
+          "NE",
+          "WY"
+        ],
+        "segments": [
+          {
+            "states": [
+              "SD",
+              "WY"
+            ],
+            "color": "0 0 1",
+            "endpoints": [
+              [
+                118.922,
+                304.27899
+              ],
+              [
+                106.922,
+                316.27899
+              ]
+            ]
+          },
+          {
+            "states": [
+              "SD",
+              "NE"
+            ],
+            "color": "0 0 0",
+            "endpoints": [
+              [
+                118.92,
+                316.27897
+              ],
+              [
+                118.92,
+                304.27997
+              ]
+            ]
+          },
+          {
+            "states": [
+              "NE",
+              "WY"
+            ],
+            "color": "0 0 0",
+            "endpoints": [
+              [
+                118.92,
+                316.27897
+              ],
+              [
+                106.921,
+                316.27897
+              ]
+            ]
+          }
+        ],
+        "trace_sha256": "cf555fe89abbb4a876d346951eeffbb631e661c02dde83780f57455c3d17a0be"
+      },
+      {
+        "version": "original",
+        "title": "246-int-right",
+        "black_path": [
+          "IN",
+          "IL",
+          "KY"
+        ],
+        "segments": [
+          {
+            "states": [
+              "IN",
+              "KY"
+            ],
+            "color": "0 0 1",
+            "endpoints": [
+              [
+                321.6,
+                316.27899
+              ],
+              [
+                321.6,
+                328.27799
+              ]
+            ]
+          },
+          {
+            "states": [
+              "IN",
+              "IL"
+            ],
+            "color": "0 0 0",
+            "endpoints": [
+              [
+                309.6,
+                316.27998
+              ],
+              [
+                321.59900000000005,
+                316.27998
+              ]
+            ]
+          },
+          {
+            "states": [
+              "IL",
+              "KY"
+            ],
+            "color": "0 0 0",
+            "endpoints": [
+              [
+                309.6,
+                316.27998
+              ],
+              [
+                321.59900000000005,
+                328.27898000000005
+              ]
+            ]
+          }
+        ],
+        "trace_sha256": "cf555fe89abbb4a876d346951eeffbb631e661c02dde83780f57455c3d17a0be"
+      },
+      {
+        "version": "draft",
+        "title": "116-right",
+        "black_path": [
+          "AL",
+          "TN",
+          "MS"
+        ],
+        "segments": [
+          {
+            "states": [
+              "AL",
+              "MS"
+            ],
+            "color": "0 0 1",
+            "endpoints": [
+              [
+                343.62,
+                555.617
+              ],
+              [
+                331.62,
+                555.617
+              ]
+            ]
+          },
+          {
+            "states": [
+              "AL",
+              "TN"
+            ],
+            "color": "0 0 0",
+            "endpoints": [
+              [
+                343.62,
+                555.617
+              ],
+              [
+                343.62,
+                543.6179999999999
+              ]
+            ]
+          },
+          {
+            "states": [
+              "TN",
+              "MS"
+            ],
+            "color": "0 0 0",
+            "endpoints": [
+              [
+                331.62,
+                555.617
+              ],
+              [
+                343.62,
+                543.6179999999999
+              ]
+            ]
+          }
+        ],
+        "trace_sha256": "37f13ca8412a23c47a93d24bbc6ca450d0bcd39aa40004e04d4c1b7df49dd6b2"
+      },
+      {
+        "version": "draft",
+        "title": "246-ext-left",
+        "black_path": [
+          "SD",
+          "NE",
+          "WY"
+        ],
+        "segments": [
+          {
+            "states": [
+              "SD",
+              "WY"
+            ],
+            "color": "0 0 1",
+            "endpoints": [
+              [
+                140.941,
+                314.779
+              ],
+              [
+                128.942,
+                326.779
+              ]
+            ]
+          },
+          {
+            "states": [
+              "SD",
+              "NE"
+            ],
+            "color": "0 0 0",
+            "endpoints": [
+              [
+                140.941,
+                326.779
+              ],
+              [
+                140.941,
+                314.779
+              ]
+            ]
+          },
+          {
+            "states": [
+              "NE",
+              "WY"
+            ],
+            "color": "0 0 0",
+            "endpoints": [
+              [
+                140.941,
+                326.779
+              ],
+              [
+                128.942,
+                326.779
+              ]
+            ]
+          }
+        ],
+        "trace_sha256": "1199243e7391871a394ef947c211597ed027cd1fd1316ee7bd2875ad74cb46c0"
+      },
+      {
+        "version": "draft",
+        "title": "246-int-left",
+        "black_path": [
+          "SD",
+          "NE",
+          "WY"
+        ],
+        "segments": [
+          {
+            "states": [
+              "SD",
+              "WY"
+            ],
+            "color": "0 0 1",
+            "endpoints": [
+              [
+                140.941,
+                412.93899999999996
+              ],
+              [
+                128.942,
+                424.93899999999996
+              ]
+            ]
+          },
+          {
+            "states": [
+              "SD",
+              "NE"
+            ],
+            "color": "0 0 0",
+            "endpoints": [
+              [
+                140.941,
+                424.93899999999996
+              ],
+              [
+                140.941,
+                412.93899999999996
+              ]
+            ]
+          },
+          {
+            "states": [
+              "NE",
+              "WY"
+            ],
+            "color": "0 0 0",
+            "endpoints": [
+              [
+                140.941,
+                424.93899999999996
+              ],
+              [
+                128.942,
+                424.93899999999996
+              ]
+            ]
+          }
+        ],
+        "trace_sha256": "1199243e7391871a394ef947c211597ed027cd1fd1316ee7bd2875ad74cb46c0"
+      },
+      {
+        "version": "draft",
+        "title": "246-int-right",
+        "black_path": [
+          "IN",
+          "IL",
+          "KY"
+        ],
+        "segments": [
+          {
+            "states": [
+              "IN",
+              "KY"
+            ],
+            "color": "0 0 1",
+            "endpoints": [
+              [
+                343.62,
+                424.93899999999996
+              ],
+              [
+                343.62,
+                436.938
+              ]
+            ]
+          },
+          {
+            "states": [
+              "IN",
+              "IL"
+            ],
+            "color": "0 0 0",
+            "endpoints": [
+              [
+                331.62,
+                424.93899999999996
+              ],
+              [
+                343.62,
+                424.93899999999996
+              ]
+            ]
+          },
+          {
+            "states": [
+              "IL",
+              "KY"
+            ],
+            "color": "0 0 0",
+            "endpoints": [
+              [
+                331.62,
+                424.93899999999996
+              ],
+              [
+                343.62,
+                436.938
+              ]
+            ]
+          }
+        ],
+        "trace_sha256": "1199243e7391871a394ef947c211597ed027cd1fd1316ee7bd2875ad74cb46c0"
+      }
+    ],
+    "drawn_cut_edges_246_left": 46,
+    "actual_cut_edges_246_left": 45,
+    "partition_cost": 90
+  },
+  "global_optimality_verified": false
+}

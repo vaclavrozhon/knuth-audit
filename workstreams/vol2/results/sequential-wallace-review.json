@@ -1,0 +1,141 @@
+{
+  "reviewed_at_utc": "2026-11-06T11:48:13.138840+00:00",
+  "checked_item": "V2-X0124",
+  "reaffirmed_findings": [
+    "V2-C0058"
+  ],
+  "new_findings": [],
+  "scope": "All parts of exercise 3.4.1-31; original 132 reports of tests supported, original 119 global historical statement remains unverified.",
+  "accepted_archived_counts": {
+    "affine_permutations": 682,
+    "inverse_entries": 18724,
+    "ordered_two_pass_matrix_checks": 65664,
+    "independent_initial_pools": 32768,
+    "pool_size": 2048,
+    "outputs_per_pool": 682
+  },
+  "rigorous_results": {
+    "unscaled_lag_two_covariance": "-(682/1024)*(3*(sqrt(3)-1)/pi)^2",
+    "scaled_lag_two_covariance_strict_upper_bound": "-11/50",
+    "scaled_block_variance": "4198399/4198400",
+    "mean_square_scale_error_upper_bound": "4197581/1719244800"
+  },
+  "severity_review": {
+    "V2-C0058": "high retained: substantial block-sum covariance survives the printed scale; applies to the explicit recipe and output schedule."
+  },
+  "new_mathematical_computation": "None. Full proof, verifier code and all four archived result blocks reviewed. Historical source benchmarks not repeated.",
+  "inputs": [
+    {
+      "path": "workstreams/vol2/notes/sequential-wallace-2026-11-06.md",
+      "sha256": "aec332f66b381bc4bd8c18267fa3f1a74419c6f3d7949fe145ff20c7ead5e187"
+    },
+    {
+      "path": "workstreams/vol2/sources/sequential-2026-11-06/wallace-source-review.json",
+      "sha256": "9c1d1afbf8034ea196d511f4fc202b0cd897916d5d744e091f7d23ff98d92ce8"
+    },
+    {
+      "path": "workstreams/vol2/notes/wallace-normal.md",
+      "sha256": "cbd42421d81565719eadbf8a42b73be184863852873f7c1007332d5c8f9d1886"
+    },
+    {
+      "path": "workstreams/vol2/verify_wallace.py",
+      "sha256": "4f31fcb4c6eb671ce0c9b41298431c148a83564617db31f3258b29b03839b20c"
+    },
+    {
+      "path": "workstreams/vol2/results/wallace.json",
+      "sha256": "789d4cbeaf04758179be671f98864228d9367e73adc54afce339d85b5befde0c"
+    },
+    {
+      "path": "workstreams/vol2/results/wallace.log",
+      "sha256": "67f82d2489d978c940423ee676cb6f2bbb8c7f5369a11b3f54ee80969e78073a"
+    },
+    {
+      "path": "workstreams/vol2/sources/brent-1997-wallace.pdf",
+      "sha256": "8457bb73dd9ea94c657eb23c851fc4586ba8e0b2b36c7af09a4abd028c5096a6"
+    },
+    {
+      "path": "workstreams/vol2/sources/brent-1997-wallace.txt",
+      "sha256": "c5c65ed47aff9f9b2a42abdc4f9314365064338ffff6000dce4de067de220852"
+    },
+    {
+      "path": "workstreams/vol2/sources/brent-1997-wallace.json",
+      "sha256": "cf320969a6096efd4024edf90c88539296c0186a074618bf9c5a575ff336cfdb"
+    },
+    {
+      "path": "workstreams/vol2/sources/brent-2008-wallace.pdf",
+      "sha256": "30f885b18095e5e72642d79d1d50d4abcba37b39f7e6238ff9216b58b484f036"
+    },
+    {
+      "path": "workstreams/vol2/sources/brent-2008-wallace.txt",
+      "sha256": "023caf05709c96ef0955dc2571062c0b34e2a812c7a05f01cfa2eff597bdcda6"
+    },
+    {
+      "path": "workstreams/vol2/sources/brent-2008-wallace.json",
+      "sha256": "c9a0cc46840e75aeadfc9e096479207815dce4915f7a929506d58caeb6dce9cc"
+    },
+    {
+      "path": "workstreams/vol2/sources/wallace-1996-bibliography.json",
+      "sha256": "bb3eeed8732126740f781b3d791a08b3296b9bb03e45559a49d769753f0be2f5"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p119.png",
+      "sha256": "05c013ae40dd9beb2657bc1fe75a7a1a965acbacec9ee4f334f60c9d7fc138ed"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p132.png",
+      "sha256": "3fa537f3a2fffd333af968da4735e6bb906283ae15fc805b14d455f971085c89"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p141.png",
+      "sha256": "d3768d315cfb97ffce22ccf6b18eb1f7a5a31d6b81274b473e1bea323ef7b750"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p589.png",
+      "sha256": "a5fe689d3358a1e00dd2ed7bcee8d1a69d169a5bd1ea775d590ecbdc251e4641"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p590.png",
+      "sha256": "0129fb8d7c4cf0954e655ecc0b6a42d56d4c29d6ff67306979f8f2c26027246e"
+    },
+    {
+      "path": "workstreams/vol2/images/brent-1997-wallace-p7.png",
+      "sha256": "056146f2843e0f8420259b5d964c6af151e5938ea869eb985dde83b9cb14723f"
+    },
+    {
+      "path": "workstreams/vol2/images/brent-2008-wallace-p2.png",
+      "sha256": "49bb0ef243e3998fceb13e98870d97a732cf3e4bda20e6b957d59c590669fb26"
+    },
+    {
+      "path": "workstreams/vol2/images/brent-2008-wallace-p3.png",
+      "sha256": "d8d43231d21d42ef15fb29ba828097c7ab6649c0a048092993720f0d04f9d51f"
+    },
+    {
+      "path": "workstreams/vol2/images/brent-2008-wallace-p4.png",
+      "sha256": "cd50a2858fe95ae6110f71750f0a9bf1b141210b7a47bafa152a3b05a468af17"
+    },
+    {
+      "path": "workstreams/vol2/images/normal-errata-prepre-p33.png",
+      "sha256": "6e3d5729bfc5f2ff26d838247cc7f141c8a32686a2e3306ed867b92254e47316"
+    },
+    {
+      "path": "errata/text/all2-prepre.txt",
+      "sha256": "62a1ff323ca421f2640e2337f922dbf8cfc8e86c20d9b11acfc91221721c6f58"
+    },
+    {
+      "path": "errata/text/all2-pre.txt",
+      "sha256": "c1735b70547678d739eae3a8d7b02872c737218eed7706a0aba8fb6fc21a6529"
+    },
+    {
+      "path": "errata/text/all2.txt",
+      "sha256": "1c4d7f2259e147db0ebe84b4bf0ce8864b307afb4ccfbe48efcb1f5f5999ac58"
+    },
+    {
+      "path": "errata/text/err2.txt",
+      "sha256": "1b5c93712c3c467a48679e0040ba6c5869998b25184dbd125a5d096ce96e9ab0"
+    },
+    {
+      "path": "errata/originals/err2.textxt",
+      "sha256": "8faa21566312314ec6bda0f8956913deb312517fd9fa688dcc0bf19e1f21962e"
+    }
+  ]
+}

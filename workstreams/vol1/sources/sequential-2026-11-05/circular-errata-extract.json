@@ -1,0 +1,90 @@
+{
+  "created_at_utc": "2026-11-05T17:51:16.796214+00:00",
+  "scope": "§2.2.4: printed273–280 and551–553; shared-page corrections retained. Page273 linked exercises handled in previous checkpoint.",
+  "records": [
+    {
+      "source": "errata/text/all1-prepre.txt",
+      "source_sha256": "1a3c3ac6137b9e98f427de0a344efca46fd83b7a3e6e8fe2fa38e94525ca0c31",
+      "printed_page": 274,
+      "text": "Page 274 line 12                                                        17 Nov 1997\n  \\INFO(P) Y00 y \\INFO(P) Y\"\nx"
+    },
+    {
+      "source": "errata/text/all1-prepre.txt",
+      "source_sha256": "1a3c3ac6137b9e98f427de0a344efca46fd83b7a3e6e8fe2fa38e94525ca0c31",
+      "printed_page": 275,
+      "text": "Page 275 se ond line after (4)                                          12 Aug 1997\n  don't have a y there is no"
+    },
+    {
+      "source": "errata/text/all1-prepre.txt",
+      "source_sha256": "1a3c3ac6137b9e98f427de0a344efca46fd83b7a3e6e8fe2fa38e94525ca0c31",
+      "printed_page": 277,
+      "text": "Page 277 lines 2 and 3 of step M2                                        06 De 1999\n \\if ABC(P) < 0 then 1, otherwise ABC(P) + ABC(M)\"        y \\(if ABC(P) < 0 then 1,\n otherwise ABC(P) + ABC(M))\"\nx"
+    },
+    {
+      "source": "errata/text/all1-prepre.txt",
+      "source_sha256": "1a3c3ac6137b9e98f427de0a344efca46fd83b7a3e6e8fe2fa38e94525ca0c31",
+      "printed_page": 279,
+      "text": "Page 279 exer ise 12                                                     19 De 2001\n Algorithm A        y\n                  Program A"
+    },
+    {
+      "source": "errata/text/all1-pre.txt",
+      "source_sha256": "89d231245ff44164e09a39903faac35a2dc5e89956857abcc974991c99a887e5",
+      "printed_page": 275,
+      "text": "Page 275 line 7                                                                        06 Sep 2012\n    list have   y list must have"
+    },
+    {
+      "source": "errata/text/all1-pre.txt",
+      "source_sha256": "89d231245ff44164e09a39903faac35a2dc5e89956857abcc974991c99a887e5",
+      "printed_page": 275,
+      "text": "Page 275          repla ement for lines 10{13                                          16 Aug 2021\n                List head\n                                                                                                (4)\n\n    Referen es to lists like (4) are usually made via the list head, whi h might o upy\n    a xed memory lo ation. But a xed list head leaves us without any pointer to\n    the right end; so it for es us to sa ri e operation (b) stated above. Instead, we\n     an retain (b) by letting the list head be mobile (see exer ise 4)."
+    },
+    {
+      "source": "errata/text/all1-pre.txt",
+      "source_sha256": "89d231245ff44164e09a39903faac35a2dc5e89956857abcc974991c99a887e5",
+      "printed_page": 278,
+      "text": "Page 278       repla ement for exer ise 4                                       16 Aug 2021\n    x4. [20 ℄ (X. Xie, 2021.) State insertion and deletion operations that give the e e t\n    of an output-restri ted deque (in parti ular, of a sta k and/or queue), using represen-\n    tation (4) with PTR pointing to the urrent list head.\nx"
+    },
+    {
+      "source": "errata/text/all1-pre.txt",
+      "source_sha256": "89d231245ff44164e09a39903faac35a2dc5e89956857abcc974991c99a887e5",
+      "printed_page": 551,
+      "text": "Page 551 repla ement for answer 30                                                   17 Aug 2021\n 30. To insert, set P ( AVAIL, INFO(R)              Y, LINK(R)      P, R   P, LINK(P)    \u0003. (We\n need not set LINK(P); but that la k of dis ipline might onfuse a garbage olle tion\n algorithm, as in exer ise 6.) To delete, UNDERFLOW if F = R; otherwise set P                  F,\n F     LINK(P), Y      INFO(P), AVAIL ( P."
+    },
+    {
+      "source": "errata/text/all1-pre.txt",
+      "source_sha256": "89d231245ff44164e09a39903faac35a2dc5e89956857abcc974991c99a887e5",
+      "printed_page": 551,
+      "text": "Page 551 repla ement for answer 4                                                    17 Aug 2021\n   4. The text's operation (a) is un hanged; so is operation ( ), but it's now pre eded\n by \\if LINK(PTR) = PTR, then UNDERFLOW.\" Operation (b) be omes \\INFO(PTR) Y,\n P ( AVAIL, LINK(P)            LINK(PTR), LINK(PTR)         P, PTR     P.\"\n\f         EARLIER CHANGES TO VOLUME 1: FUNDAMENTAL ALGORITHMS                               17\n\nx"
+    },
+    {
+      "source": "errata/text/all1-pre.txt",
+      "source_sha256": "89d231245ff44164e09a39903faac35a2dc5e89956857abcc974991c99a887e5",
+      "printed_page": 552,
+      "text": "Page 552    in answer 12                                                 30 Jun 2012\n line 1: 29p    y 27p\n line 3: 43    y78%"
+    },
+    {
+      "source": "errata/text/all1.txt",
+      "source_sha256": "b641d6e48aaf2d77fc98a3c4a8a798d8156516b97095ec345a976e65d9c79aef",
+      "printed_page": 276,
+      "text": "Page 276 line 1 of step A4                                               01 De 2022\n  LINK(Q1) Q LINK(Q), y Q LINK(Q), LINK(Q1) Q,"
+    },
+    {
+      "source": "errata/text/all1.txt",
+      "source_sha256": "b641d6e48aaf2d77fc98a3c4a8a798d8156516b97095ec345a976e65d9c79aef",
+      "printed_page": 277,
+      "text": "Page 277 top of page                                                     20 Sep 2024\n  [move Fig. 10 from page 279 to here℄\nx"
+    },
+    {
+      "source": "errata/text/err1.txt",
+      "source_sha256": "ecae8755d7d9f86c5dbcbd782767f0cf8e6bf7f89d9c57ed0a27ad2344461f30",
+      "printed_page": 276,
+      "text": "Page 276 line 1 of step A4                                               01 De 2022\n  LINK(Q1) Q LINK(Q), y Q LINK(Q), LINK(Q1) Q,"
+    },
+    {
+      "source": "errata/text/err1.txt",
+      "source_sha256": "ecae8755d7d9f86c5dbcbd782767f0cf8e6bf7f89d9c57ed0a27ad2344461f30",
+      "printed_page": 277,
+      "text": "Page 277 top of page                                                     20 Sep 2024\n  [move Fig. 10 from page 279 to here℄\nx"
+    }
+  ]
+}

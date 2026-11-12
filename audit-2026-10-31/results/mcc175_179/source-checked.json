@@ -1,0 +1,442 @@
+{
+  "at_utc": "2026-11-03T13:38:26.104199+00:00",
+  "checker_sha256": "3b0998f38bb1f8c2e65b2c429fe8cdf13716e119a5da48889b933ac16acbfe1f",
+  "dependency_hashes": {
+    "extract_jigsaw.py": "012a8cdc37835f26901339b783237350bc64f332b4e64365208e57ae3cd287ce"
+  },
+  "trace_hashes": {
+    "original-167.xml": "247ade90d8ca9b58fa03451d5cbd1ec220eaa44f6d11ec3d0858c25d0a39391a",
+    "draft-89.xml": "51055aa7c21cc6c55775cf616e2475df4399df58aec259bd3143776df7dfca8f"
+  },
+  "matrices": {
+    "original": [
+      [
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ]
+      ]
+    ],
+    "draft": [
+      [
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ]
+      ]
+    ]
+  },
+  "printed_digits_per_version": 82,
+  "kept_columns_zero_based": [
+    0,
+    1,
+    2,
+    4
+  ],
+  "original_row_classes_zero_based": [
+    [
+      0
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      6
+    ],
+    [
+      7
+    ],
+    [
+      8
+    ]
+  ],
+  "small_covers": [
+    [
+      0,
+      1,
+      3
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      3,
+      6
+    ]
+  ],
+  "large_covers": [
+    [
+      0,
+      1,
+      4
+    ],
+    [
+      0,
+      3,
+      4
+    ],
+    [
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      3,
+      5
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      5,
+      8
+    ]
+  ],
+  "lifts": {
+    "0,1,3": [
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        1,
+        5
+      ],
+      [
+        0,
+        3,
+        4
+      ],
+      [
+        0,
+        3,
+        5
+      ]
+    ],
+    "4,5": [
+      [
+        6,
+        7
+      ]
+    ],
+    "3,6": [
+      [
+        4,
+        8
+      ],
+      [
+        5,
+        8
+      ]
+    ]
+  },
+  "total_subsets_checked": 640,
+  "zero_row_checks": [
+    {
+      "name": "175-zero-cap1-literal",
+      "solutions": 1,
+      "wall_seconds": null,
+      "reused_completed_development_output": true,
+      "input_sha256": "f94ca48e3f073e015b7726b1d710a5c8c29b607f9d204a2dca4d6f5be5b003bc",
+      "log_sha256": "1d4b5e84a7e810aeb6159a8f706f250b24b9832d3fba2d362605a112a87d60b4",
+      "output_sha256": "8fb82375a4bc7b019ea3bae9f03162210e2a38fc2d6d945ceda686d16e2ab00f"
+    },
+    {
+      "name": "175-zero-cap1-tagged",
+      "solutions": 2,
+      "wall_seconds": null,
+      "reused_completed_development_output": true,
+      "input_sha256": "793e89448244ef49c065b3e73f126420c69a7dc3f7a547c59ab5c18abf13a6e9",
+      "log_sha256": "f0d90bb166c79d842436191e2e37f64aa3e7d794606ed0d670fa8f28402048a4",
+      "output_sha256": "050c13a4ccde093f5a8173d96e3fc40bbe7cf35e3534e78a024ea9ee249dce85"
+    },
+    {
+      "name": "175-zero-cap2-literal",
+      "solutions": 2,
+      "wall_seconds": null,
+      "reused_completed_development_output": true,
+      "input_sha256": "5792974d14766ed9cff082a90226f21ba4e6e64fd59557909d08d9f2ce859422",
+      "log_sha256": "a9434ad14637143d7b96cdc88c7730ab44314d53bbf4eeb4077ccdb1ba3c08b7",
+      "output_sha256": "e02b8fb4c15e5ba5db21b1ed6614c012985e1ec687be9538c572f7206d22dad4"
+    },
+    {
+      "name": "175-zero-cap2-tagged",
+      "solutions": 3,
+      "wall_seconds": null,
+      "reused_completed_development_output": true,
+      "input_sha256": "5904ac8e83374d276c0bb797ca73eb2103379879aa67adbe03155d520558551e",
+      "log_sha256": "c8c4d182cbad7d9f106f3d73898a6399bbd0cd2d58f9ac727b9a0764481750ac",
+      "output_sha256": "9dea69533033e68cb1fe535c1a2aefafaaec80afe3f706fdac00769a66a4d2ad"
+    },
+    {
+      "name": "176-zero-literal",
+      "solutions": 1,
+      "wall_seconds": null,
+      "reused_completed_development_output": true,
+      "input_sha256": "502aa8570b3354cd1b856cb62e5b56df6f269d6bced02dd3d372ceac7c3e2bc3",
+      "log_sha256": "0e602fcc3de156c6e76a78c8fa3604b3f2bef18bcf89feeb858c604d42896121",
+      "output_sha256": "7ed89c3ba79bb45e43ed3906f8ce6f6603f4af656e537f0a8184a56ee35ae59f"
+    },
+    {
+      "name": "176-zero-tagged",
+      "solutions": 2,
+      "wall_seconds": null,
+      "reused_completed_development_output": true,
+      "input_sha256": "d3420e95b48d5794e3da678e7bcc22cb5d5ae5ca798753cf3b35e06d523494cc",
+      "log_sha256": "1e6f549c0c94caccefc9c8ced260b5fdb866ccc3d1d4442839467a35311ffe58",
+      "output_sha256": "eb64cecf2c80dcdc20c2009582382d52a2d4da4ee6cabab8bb591ef827bbfa99"
+    }
+  ],
+  "native_binary_sha256": "455b8abc48042d392deeb16ed87233cf4dd59087b63ef4c00493a22bc8ee2dec",
+  "old_arithmetic_sha256": "dfa867d1fcac1b950b268aaa2a7cb8a7fbaecbef7d3aed08d5a8830f2b1b2593",
+  "old_arithmetic_cases_rerun": 0,
+  "f070_short_certificate": {
+    "s": 0,
+    "t": 1,
+    "left": 10,
+    "right_with_t": 10,
+    "right_with_arbitrary_n2": 9,
+    "scope": "The printed n is undefined; this illustrates that an arbitrary n does not work."
+  }
+}

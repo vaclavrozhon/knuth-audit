@@ -1,0 +1,44 @@
+{
+  "finding": "V3-C0029",
+  "checked_at_utc": "2026-11-07T03:20:37.682754+00:00",
+  "scope": "1998 first-print Volume3 p630, answer5.2.2-16: sign of(gamma+2)/(4 ln2) in the mean-exchange linear coefficient.",
+  "original_evidence": [
+    "workstreams/vol3/images/exchanging-file-641.png",
+    "workstreams/vol3/images/batcher-mean-formula-1.png",
+    "workstreams/vol3/images/batcher-sedgewick-mean-28.png",
+    "workstreams/vol3/images/batcher-mean-old-errata-076.png"
+  ],
+  "query_scope": [
+    "Every modern629-630 entry, answer16 and Batcher/odd-even/merge terminology",
+    "Gamma/Hurwitz/periodic-coefficient semantic search across all five complete text layers",
+    "Historical corresponding606-607 answers11-16, with direct PDF inspection of the607 replacement on PDF76; historical630 is a different section"
+  ],
+  "layers": [
+    {
+      "name": "all3-prepre",
+      "source": "errata/text/all3-prepre.txt",
+      "conclusion": "The629 program-line numbering correction and630 line2 punctuation do not affect answer16. No matching sign or mean-exchange correction found in page and semantic searches."
+    },
+    {
+      "name": "all3-pre",
+      "source": "errata/text/all3-pre.txt",
+      "conclusion": "The2012 jump correction on629 affects program12; the2021 addition on630 concerns count identity in answer15. No correction of the mean coefficient in16 found."
+    },
+    {
+      "name": "all3",
+      "source": "errata/text/all3.txt",
+      "conclusion": "No matching correction found in the full modern layer, including answer-number and semantic searches."
+    },
+    {
+      "name": "err3",
+      "source": "errata/text/err3.txt",
+      "conclusion": "No matching correction found. Its answer16 entries on642 concern a different section and do not change this coefficient."
+    },
+    {
+      "name": "err3-1e",
+      "source": "errata/text/err3-1e.txt",
+      "conclusion": "The1977-11-29 replacement for first-edition p607 answer16, PDF76, visibly repeats +(gamma+2)/(4 ln2). It is not a correction of the sign. The p606 program/maximal-exchange replacements and historical630 entry concern separate assertions."
+    }
+  ],
+  "conclusion": "No supplied layer corrects the positive sign. The older first-edition replacement repeats the same incorrect positive sign, rather than fixing it. Known program and count-identity corrections are separate."
+}

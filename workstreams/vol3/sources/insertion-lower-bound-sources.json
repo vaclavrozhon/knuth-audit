@@ -1,0 +1,60 @@
+{
+  "checked_at_utc": "2026-11-07T01:13:19.955007+00:00",
+  "scope": "Exercise5.2.1-27 on104/623 and exact external dependencies",
+  "sources": [
+    {
+      "title": "Poonen, The worst case in Shellsort and related algorithms",
+      "url": "https://math.mit.edu/~poonen/papers/shell.pdf",
+      "local_pdf": "workstreams/vol3/sources/poonen-1993-shellsort.pdf",
+      "local_text": "workstreams/vol3/sources/poonen-1993-shellsort.txt",
+      "version": "Author preprint dated1992-10-11; final J.Algorithms15(1993),101–124",
+      "assessment": "Lemma17 is an explicit imported deep result. Its hypotheses, padding/distinct-rank transfer, complete Theorem3 constants and Theorem4 implication are independently derived. Empty intervals are separately handled by descending blocks."
+    },
+    {
+      "title": "Plaxton–Suel, NYU author copy",
+      "url": "https://research.engineering.nyu.edu/~suel/papers/shell2.pdf",
+      "local_pdf": "workstreams/vol3/sources/plaxton-suel-1997-shellsort.pdf",
+      "assessment": "Theorem4.1 on12 and discussion16 retain1/(lg N)^5."
+    },
+    {
+      "title": "Plaxton–Suel, UT author copy listed under1997 journal publication",
+      "url": "https://www.cs.utexas.edu/~plaxton/pubs/1997/j_algorithms.ps",
+      "local_original": "workstreams/vol3/sources/plaxton-suel-1997-final.ps",
+      "local_pdf": "workstreams/vol3/sources/plaxton-suel-1997-final.pdf",
+      "local_text": "workstreams/vol3/sources/plaxton-suel-1997-final.txt",
+      "assessment": "Author page lists J.Algorithms23(1997),221–240. This copy retains the logarithmic divisor; filenames ending-final identify the author-listed copy, not verified publisher typesetting. Any c<1/2 follows for m=o((ln N/lnln N)^2); unrestricted uniform m remains partial."
+    },
+    {
+      "title": "Cypher, A Lower Bound on the Size of Shellsort Sorting Networks",
+      "url": "https://epubs.siam.org/doi/abs/10.1137/0222006",
+      "assessment": "Official abstract/metadata confirm monotonically decreasing Shellsort networks, SICOMP22(1993),62–71. Poonen introduction2 confirms the exact N(log N)^2/loglog N grouping. Explicit imported theorem; full proof not obtained."
+    }
+  ],
+  "errata_layers": [
+    {
+      "path": "errata/text/all3-prepre.txt",
+      "assessment": "Target104/623 and Poonen/Plaxton/Suel/Cypher/answer27 checked; no applicable change. Existing623 correction concerns29."
+    },
+    {
+      "path": "errata/text/all3-pre.txt",
+      "assessment": "Target104/623 and Poonen/Plaxton/Suel/Cypher/answer27 checked; no applicable change. Existing623 correction concerns29."
+    },
+    {
+      "path": "errata/text/all3.txt",
+      "assessment": "Target104/623 and Poonen/Plaxton/Suel/Cypher/answer27 checked; no applicable change. Existing623 correction concerns29."
+    },
+    {
+      "path": "errata/text/err3.txt",
+      "assessment": "Target104/623 and Poonen/Plaxton/Suel/Cypher/answer27 checked; no applicable change. Existing623 correction concerns29."
+    },
+    {
+      "path": "errata/text/err3-1e.txt",
+      "assessment": "First-edition602 replacement1995-05-29 already asserts c<1/2; second edition adds the network qualification to Cypher. No later correction found."
+    }
+  ],
+  "bibliography_skips": [
+    "Full Cypher proof unavailable; theorem imported with exact network/monotonicity hypotheses.",
+    "Publisher typesetting of Plaxton–Suel unavailable; both author copies inspected.",
+    "No exhaustive literature census certifying the historical1998 negative statement about general average-case lower bounds."
+  ]
+}

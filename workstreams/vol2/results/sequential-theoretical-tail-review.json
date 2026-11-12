@@ -1,0 +1,144 @@
+{
+  "reviewed_at_utc": "2026-11-06T09:08:40.604032+00:00",
+  "scope": "Sequential section3.3.3 tail, exercises18–28 and figures; original program/results reviewed without rerun. Exact sharp upper bound remains open.",
+  "new_findings": [],
+  "reaffirmed_findings": [
+    "V2-C0033",
+    "V2-C0034",
+    "V2-C0035"
+  ],
+  "open_exercises": [
+    "3.3.3-14",
+    "3.3.3-19"
+  ],
+  "inputs": [
+    {
+      "path": "workstreams/vol2/verify_theoretical_tests.py",
+      "sha256": "51077dc50be454f048a0e8f3d1e47989815e2a66c9a06f9ea7dd2bc870ba366a"
+    },
+    {
+      "path": "workstreams/vol2/verify_discrepancy_frontier.py",
+      "sha256": "3c6911998aeb85a1e5ee841cadfb9b6b8a9b175f1d1ff43502e6fae710880e44"
+    },
+    {
+      "path": "workstreams/vol2/verify_dedekind.py",
+      "sha256": "96bdf3e94b6cbbdfdf07fc95a6c55865fec578f71916c9faa94494ab2670e045"
+    },
+    {
+      "path": "workstreams/vol2/results/theoretical-tests.json",
+      "sha256": "db9879da253b57200e2112f5c868a644afcb6ab81027a0d36e875851e0bc5d5a"
+    },
+    {
+      "path": "workstreams/vol2/results/theoretical-tests.log",
+      "sha256": "75b9fc640a9c8cbd6a35b35b96532527f8c1b40003770965da308f8e6402a1a3"
+    },
+    {
+      "path": "workstreams/vol2/results/discrepancy-frontier.json",
+      "sha256": "7d47b6b0008c6a7542e3986167bb3b5e868f1c5de3b75d2abf69174dc77ed821"
+    },
+    {
+      "path": "workstreams/vol2/results/discrepancy-frontier.log",
+      "sha256": "3bfb5939d807971d164a926f97fa3d0f38c201db1d795d904930d24ecff761b7"
+    },
+    {
+      "path": "workstreams/vol2/notes/theoretical-tests.md",
+      "sha256": "d90325920e0005b7bcc2cd58a3e6fd0653145d2e9e86ce3c7adfb6516ae84051"
+    },
+    {
+      "path": "workstreams/vol2/notes/C0033-fibonacci-run-table.md",
+      "sha256": "dc77d08ef1cee0508b0059ab52979bcf6f2631da16730f921067d1a5fdef3ad6"
+    },
+    {
+      "path": "workstreams/vol2/notes/C0034-descending-period-two.md",
+      "sha256": "b6b8d587baef5a9bc0b69fa5254dc33292b1d77de179094eb1e777d5c732c4ad"
+    },
+    {
+      "path": "workstreams/vol2/notes/C0035-continuous-unit-multiplier.md",
+      "sha256": "9b2f77041900324a074e82fcdaa64ee9455d172271fd345afe49aa17a048891e"
+    },
+    {
+      "path": "workstreams/vol2/sources/borda-2023-birkhoff.pdf",
+      "sha256": "8bb86376b17be24bae46781eb7a90ec793506d9413cfc53e07e329bbad5213c1"
+    },
+    {
+      "path": "workstreams/vol2/sources/borda-2023-birkhoff.json",
+      "sha256": "6bcd86be530c9a6d850170b61381e35d599ededaa6b742c206a37df7eae863e8"
+    },
+    {
+      "path": "workstreams/vol2/sources/knuth-1977-dedekind.pdf",
+      "sha256": "d9d88e9f820c5a444f666a268f385d9b7b6bd90c15776647f3b03d6666675a7f"
+    },
+    {
+      "path": "workstreams/vol2/images/knuth1977-tail-11.png",
+      "sha256": "81905d402aa117971250933cc086b585d6630ce142ee7945c823b532d23c7ee2"
+    },
+    {
+      "path": "workstreams/vol2/sources/theoretical-tests-history.json",
+      "sha256": "95148fb1376b26889c7609bd3ee8d49a14321629a8109e5cb01ad310541c676f"
+    },
+    {
+      "path": "workstreams/vol2/sources/sequential-2026-11-06/theoretical-tests-errata.json",
+      "sha256": "49e67d67e99bc736596fe0593cfec25e81c356eefd14822eb31c82db4e13d30b"
+    },
+    {
+      "path": "workstreams/vol2/sources/sequential-2026-11-06/theoretical-tail-source-review.json",
+      "sha256": "d008fd2027e121935ad9221b150290f73bb03829568dd14bda4062949005d20a"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p074.png",
+      "sha256": "c63a07a74397e6c135202901ca52efe17b7f75f1af995995ac7666f5d6d8d9f9"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p090.png",
+      "sha256": "1c73c0c0467b982cf3d634cd0bc5c35a1fb67fe16536354754621d21e5113bf0"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p091.png",
+      "sha256": "e98febf71138260a115680e310a1a8315d24bf28b509186c7e5371a2846b553c"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p092.png",
+      "sha256": "8ddd355a8cdc140c6956242c347a0bb45d40d10a01e115c720d53f00cbdae378"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p093.png",
+      "sha256": "1a25f44a8af5820fea5ed1a5ae804f0570f6de3891cc75fc5318ef5b15500ed0"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p574.png",
+      "sha256": "e28d2c19bd83038c4e8e2c7dab9f863ac0acf39e8583d9afd4e6478f271bf495"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p575.png",
+      "sha256": "1fc5925ec8bf9c263f44ac34bb3de658606ae791a770b6e8d4cc5d0895ff01a2"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p576.png",
+      "sha256": "33310da487d143a6160dbb2f9f55c46c630c6bea51bd3e2b1ef687ee72c100f8"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p577.png",
+      "sha256": "d2da709eef7237ee80d97198d33c579030aea5ab5aa4beb5a4d82dc9ac1a2b55"
+    },
+    {
+      "path": "errata/text/all2-prepre.txt",
+      "sha256": "62a1ff323ca421f2640e2337f922dbf8cfc8e86c20d9b11acfc91221721c6f58"
+    },
+    {
+      "path": "errata/text/all2-pre.txt",
+      "sha256": "c1735b70547678d739eae3a8d7b02872c737218eed7706a0aba8fb6fc21a6529"
+    },
+    {
+      "path": "errata/text/all2.txt",
+      "sha256": "1c4d7f2259e147db0ebe84b4bf0ce8864b307afb4ccfbe48efcb1f5f5999ac58"
+    },
+    {
+      "path": "errata/text/err2.txt",
+      "sha256": "1b5c93712c3c467a48679e0040ba6c5869998b25184dbd125a5d096ce96e9ab0"
+    },
+    {
+      "path": "errata/originals/err2.textxt",
+      "sha256": "8faa21566312314ec6bda0f8956913deb312517fd9fa688dcc0bf19e1f21962e"
+    }
+  ]
+}

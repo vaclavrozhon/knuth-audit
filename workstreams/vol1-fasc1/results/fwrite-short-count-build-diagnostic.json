@@ -1,0 +1,12 @@
+{
+  "purpose": "Diagnostic of failed audit-only change-file build; no driver execution",
+  "command": [
+    "ctangle",
+    "workstreams/vol1-fasc1/sources/mmix-io-20250620.w",
+    "workstreams/vol1-fasc1/sources/audit-fwrite-short-count.ch",
+    "mmix-io.c"
+  ],
+  "returncode": 10,
+  "stdout": "\n! Hmm... 2 of the preceding lines failed to match. (l. 7 of change file)\n@y\n   \n! Hmm... 1 of the preceding lines failed to match. (l. 16 of change file)\n@y\n   (Pardon me, but I think I spotted something wrong.)\n",
+  "stderr": ""
+}

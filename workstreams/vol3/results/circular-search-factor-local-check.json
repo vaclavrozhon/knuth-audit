@@ -1,0 +1,21 @@
+{
+  "scope": "One concrete four-record counterexample to answer 6.1-20, no search or census.",
+  "old_probabilities": [
+    "1/10",
+    "2/5",
+    "1/5",
+    "3/10"
+  ],
+  "new_probabilities": [
+    "1/10",
+    "1/5",
+    "2/5",
+    "3/10"
+  ],
+  "distance": "min(abs(i-j),4-abs(i-j))",
+  "old_cost": "49/50",
+  "new_cost": "9/10",
+  "actual_decrease": "2/25",
+  "printed_decrease": "1/25",
+  "ratio": "2"
+}

@@ -1,0 +1,82 @@
+{
+  "sources": [
+    {
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/programs/mmix-20131017.tgz",
+      "retrieved_at_utc": "2026-11-06T19:17:15.773215+00:00",
+      "archive_sha256": "aa64c4b9dc3cf51f07b330791f8ce542b0ae8a1132e098fa95a19b31350050b4",
+      "archive_bytes": 308016,
+      "archive_member": "mmix-arith.w",
+      "saved": "mmix-arith-20131017.w",
+      "sha256": "8184d0bb7d6780026f29874df55d06e639819d3a541fd41c31866ead6b118094"
+    },
+    {
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/programs/mmix.tar.gz",
+      "retrieved_at_utc": "2026-11-06T19:17:17.231685+00:00",
+      "archive_sha256": "b28b46b2ff44eafb4029b449262b145e538b2703f1d5b336cd429163408fafd9",
+      "archive_bytes": 310484,
+      "archive_member": "mmix-arith.w",
+      "saved": "mmix-arith-20250620.w",
+      "sha256": "3b077d3b81b80a6938d98c38ceead55b202f9790a3533f7a19482488a1e18678"
+    },
+    {
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/mmixware.html",
+      "retrieved_at_utc": "2026-11-06T19:17:17.852164+00:00",
+      "saved": "mmixware-current.html",
+      "sha256": "13614aa34f4ad039b12d331064d993292837bc12bf7fd2073ff34bfa41ae9834",
+      "bytes": 10299
+    },
+    {
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/mmixware-errata.html",
+      "retrieved_at_utc": "2026-11-06T19:17:18.781914+00:00",
+      "saved": "mmixware-errata.html",
+      "sha256": "740b68475c94774ee2d143b0baa2d98111664e2e2c69ce3a29117311f8c4957e",
+      "bytes": 52509
+    },
+    {
+      "url": "https://mmix.cs.hm.edu/doc/mmix-arith.pdf",
+      "retrieved_at_utc": "2026-11-06T19:22:38.706726+00:00",
+      "saved": "mmix-arith-upstream.pdf",
+      "bytes": 517295,
+      "sha256": "6d286545c07b877e0910939c96a4d5b4d47b0f5cb717d70c03e344c278c60db5"
+    },
+    {
+      "url": "https://mmix.cs.hm.edu/bugs/index.html",
+      "retrieved_at_utc": "2026-11-06T19:22:38.872822+00:00",
+      "saved": "mmix-upstream-bugs.html",
+      "bytes": 9886,
+      "sha256": "a9b8c36c7fe466afd03a42ac900cd1e3c13250b7bd9ef575d0f331e31960a61a"
+    },
+    {
+      "url": "https://mmix.cs.hm.edu/bugs/bug_rounding.html",
+      "retrieved_at_utc": "2026-11-06T19:22:39.039525+00:00",
+      "saved": "mmix-upstream-rounding.html",
+      "bytes": 10306,
+      "sha256": "f864c5fc573f7049aaf2d3682c72ee09f78dfb3d7445a19dc891282f99314c1b"
+    },
+    {
+      "url": "https://mmix.cs.hm.edu/tools/index.html",
+      "retrieved_at_utc": "2026-11-06T19:22:39.245728+00:00",
+      "saved": "mmix-upstream-tools.html",
+      "bytes": 14781,
+      "sha256": "77ec61544303503787da610af2652ef3a448030edab08dfde12317fa178b1270"
+    },
+    {
+      "url": "https://mmix.cs.hm.edu/tools/warn/mmix-arith.ch",
+      "retrieved_at_utc": "2026-11-06T19:22:39.411808+00:00",
+      "saved": "mmix-arith-upstream-warnings.ch",
+      "bytes": 2446,
+      "sha256": "b4a916e0962e2f79828d6afca1a5a40775e82b725f45ec28664a3e66f6b093b4"
+    },
+    {
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/programs/mmix.tar.gz",
+      "retrieved_at_utc": "2026-11-06T19:17:17.231685+00:00",
+      "archive_sha256": "b28b46b2ff44eafb4029b449262b145e538b2703f1d5b336cd429163408fafd9",
+      "archive_bytes": 310484,
+      "archive_member": "mmix-sim.w",
+      "saved": "mmix-sim-20250620.w",
+      "sha256": "b05457068a19702d817b72e3a4b0b517fcbeb1a05d72102dc1ae2c13f8495724",
+      "extracted_at_utc": "2026-11-06T20:21:26.393649+00:00"
+    }
+  ],
+  "scope": "Targeted floating-point specifications, comparison proofs and compilation of arithmetic modules only; no full simulator build or execution."
+}

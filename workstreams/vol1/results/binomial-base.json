@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "arithmetic": "Fraction, integers, exact SymPy polynomials",
+  "sympy_version": "1.13.3",
+  "counts": {
+    "basic_parameter_pairs": 91,
+    "product_rule": 847,
+    "prefix_sums": 133,
+    "chu_vandermonde": 637,
+    "shifted_convolution": 3969,
+    "finite_difference": 728,
+    "alternating_convolution": 2016,
+    "corrected_general_equation25": 2401,
+    "rothe_exact_parameters": 1250,
+    "example2": 31,
+    "example3_extended": 544,
+    "three_variable_polynomial_identities": 28,
+    "pfaff_polynomial_identities": 25,
+    "lucas_integer_cases": 52170,
+    "kummer_integer_cases": 25350,
+    "all_entries_nonzero_mod_p": 774
+  },
+  "scope": "First-part identities, examples and congruences. No checks of Stirling-number extensions, q-identities or historical claims. Polynomial tests certify only the stated finite degrees; general proofs are in the notes."
+}

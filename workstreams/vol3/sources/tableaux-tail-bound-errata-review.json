@@ -1,0 +1,20 @@
+{
+  "checked_at_utc": "2026-11-06",
+  "finding": "V3-C0019",
+  "claim": "The January 2006 replacement bounds each change in the right side of Euler summation (50) by O(exp(-2 n^(2 epsilon))).",
+  "source": "errata/pdf/all3-prepre.pdf",
+  "source_file_page": 7,
+  "book_context": {"printed_page": 64, "file_page": 75, "location": "line 2 above (52); integral term of (50) with t=0"},
+  "typesetting_viewed": [
+    "workstreams/vol3/images/tableaux-file-075.png",
+    "workstreams/vol3/images/tableaux-errata-tail-bound-file007.png"
+  ],
+  "layers": [
+    {"path": "errata/text/all3-prepre.txt", "result": "Page 64, line 2 above (52), 01 Jan 2006 replaces O(exp(-2 n^epsilon)) by O(exp(-2 n^(2 epsilon))). No further repair of this bound. The separate 22 Aug 2002 page-64 item concerns the Laplace citation."},
+    {"path": "errata/text/all3-pre.txt", "result": "No relevant page-64 replacement or subsequent correction of the tail estimate."},
+    {"path": "errata/text/all3.txt", "result": "Page 64, 16 Nov 2024 appends a reference to Ekhad, Kauers and Zeilberger for higher expansion coefficients; it does not modify the tail estimate."},
+    {"path": "errata/text/err3.txt", "result": "The same 16 Nov 2024 bibliographic addition; no repair of the tail estimate."},
+    {"path": "errata/text/err3-1e.txt", "result": "Corresponding first-edition page 67, 27 May 1978 introduces the weaker O(exp(-2 n^epsilon)), which is valid here. The 14 May 1976 item explains removal of the extra 9 epsilon in final remainders; the 30 Apr 1996 item concerns the method citation. None supplies the faulty 2006 refinement with a polynomial factor."}
+  ],
+  "scope": "All five local errata layers were searched by the second-edition page 64, corresponding first-edition page 67, equation numbers (50)-(53), and tail/exponential context. This is a new contradiction in the replacement text, not a claim that the original weaker estimate is false. No physical copy or priority claim was checked."
+}

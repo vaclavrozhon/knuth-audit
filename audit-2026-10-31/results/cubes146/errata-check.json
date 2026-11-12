@@ -1,0 +1,119 @@
+{
+  "at_utc": "2026-11-03T07:21:22.326436+00:00",
+  "checker_sha256": "3b732c57e853bb3368067ce67e3bcd5465553279b40c196f4d74b2b10b92dd0f",
+  "files": {
+    "errata/text/all4b.txt": "b1a3425486f403fb4158585d5bbfef0159fd20b12e2e7d47b64e393e1ae8a303",
+    "errata/text/err4b.txt": "2a3450bf3c79d28ad3c2d96468344c96995cf0afb74961f257c311bb9c821e1c",
+    "errata/text/all4f5.txt": "0dd38c4cda72b01baefb797611c9bbab7713ff0c107a1df884afc89fe9bb91c3",
+    "errata/text/err4f5.txt": "5a716c34e2063eb46005593d53e89dbbd912b5677e0a6ab11753f2a5ee38b557",
+    "errata/originals/err4b.textxt": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+    "errata/originals/err4f5.textxt": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b"
+  },
+  "pattern": "(?:[Pp]age\\s+|(?:4b|4f5)\\.)(?:142|143|455|456|140|141|263|264)\\b|(?:answer|exercise|exer ise)\\s+146\\b|2176|15500|163.?088.?368|Perj|question\\s*\\([cd]\\)",
+  "contexts": [
+    {
+      "file": "errata/text/all4b.txt",
+      "line": 213,
+      "context": "  (2, 3, 3, 57) y (2, 2, 3, 57)\nPage 142 line 7                                                                            13 Feb 2023\n     the boundary of    y the boundary path of\nPage 145 line 3 of exer ise 162                                                           04 Nov 2023\n     eight of the possible   y eight of the ten possible\nxPage 145 line 4 of exer ise 165                                                           02 Jan 2025"
+    },
+    {
+      "file": "errata/text/all4b.txt",
+      "line": 520,
+      "context": "x\nPage 455    line 11                                                           20 De 2022\n q \u0011 x (modulo 2)  y     q \u0011 x=q (modulo 2)\nx\nPage 456 line      3 of answer 146                                            13 Mar 2026\n S ienti Ameri an 235, 3    y     S ienti Ameri an 239, 3"
+    },
+    {
+      "file": "errata/text/all4b.txt",
+      "line": 523,
+      "context": "x\nPage 456 line      3 of answer 146                                            13 Mar 2026\n S ienti Ameri an 235, 3    y     S ienti Ameri an 239, 3\nx\nPage 457 line 22                                                              07 Apr 2026\n (1893)  y    (1892)"
+    },
+    {
+      "file": "errata/text/err4b.txt",
+      "line": 472,
+      "context": "x\nPage 455      line 11                                                               20 De 2022\n q \u0011 x (modulo 2)    y         q \u0011 x=q (modulo 2)\nx\nPage 456 line          3 of answer 146                                              13 Mar 2026\n S ienti Ameri an 235, 3      y         S ienti Ameri an 239, 3"
+    },
+    {
+      "file": "errata/text/err4b.txt",
+      "line": 475,
+      "context": "x\nPage 456 line          3 of answer 146                                              13 Mar 2026\n S ienti Ameri an 235, 3      y         S ienti Ameri an 239, 3\nx\nPage 457 line 22                                                                    07 Apr 2026\n (1893)  y      (1892)"
+    },
+    {
+      "file": "errata/text/all4f5.txt",
+      "line": 653,
+      "context": "  96=6 = 12 ases y 96=6 = 16 ases\nxPage 263 line 4 of answer 143                                             21 O t 2021\n  (5; 1; 1; 0) y (12; 12; 1; 0)\nxPage 263 line 5 of answer 145                                              24 Jul 2020\n  3 three odd y 3 odd\nxPage 267 line 2 of answer 152                                              22 Jul 2022"
+    },
+    {
+      "file": "errata/text/all4f5.txt",
+      "line": 655,
+      "context": "  (5; 1; 1; 0) y (12; 12; 1; 0)\nxPage 263 line 5 of answer 145                                              24 Jul 2020\n  3 three odd y 3 odd\nxPage 267 line 2 of answer 152                                              22 Jul 2022\n  multipli ity 11, and without y multipli ity 11, and a blank pattern of multipli ity 1,\n  but without"
+    },
+    {
+      "file": "errata/text/err4f5.txt",
+      "line": 599,
+      "context": "      CHANGES TO V4F5: MATH PRELIMINARIES, BACKTRACKING ET AL                                          13\nxPage 263      line 4 of answer 143                                        21 O t 2021\n  (5; 1; 1; 0) y (12; 12; 1; 0)\nxPage 263 line 5 of answer 145                                              24 Jul 2020\n  3 three odd y 3 odd\nxPage 267 line 2 of answer 152                                              22 Jul 2022"
+    },
+    {
+      "file": "errata/text/err4f5.txt",
+      "line": 601,
+      "context": "  (5; 1; 1; 0) y (12; 12; 1; 0)\nxPage 263 line 5 of answer 145                                              24 Jul 2020\n  3 three odd y 3 odd\nxPage 267 line 2 of answer 152                                              22 Jul 2022\n  multipli ity 11, and without y multipli ity 11, and a blank pattern of multipli ity 1,\n  but without"
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "line": 433,
+      "context": "\n\\improvepage 4b.142 line 7 (23.02.13)\n\\ninepoint the boundary of \\becomes the boundary path of\n\\endchange\n\n\\improvepage 4b.145 line 3 of exercise 162 (23.11.04)"
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "line": 923,
+      "context": "\n\\bugonpage 4b.455 line 11 (22.12.20)\n$q\\equiv x$ (modulo~2) \\becomes $q\\equiv x/q$ (modulo~2)\n\\endchange\n\n\\bugonpage 4b.456 line $-3$ of answer 146 (26.03.13)"
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "line": 927,
+      "context": "\n\\bugonpage 4b.456 line $-3$ of answer 146 (26.03.13)\n{\\sl Scientific American\\/ \\bf235},\\thinspace3 \\becomes\n{\\sl Scientific American\\/ \\bf239},\\thinspace3\n\\endchange\n"
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "line": 1100,
+      "context": "\n\\bugonpage 4f5.263 line $-4$ of answer 143 (21.10.21)\n$(5,1,1,0)$ \\becomes $(12,12,1,0)$\n\\endchange\n\n\\bugonpage 4f5.263  line 5 of answer 145 (20.07.24)"
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "line": 1104,
+      "context": "\n\\bugonpage 4f5.263  line 5 of answer 145 (20.07.24)\n3 three odd \\becomes 3 odd\n\\endchange\n\n\\bugonpage 4f5.267 line 2 of answer 152 (22.07.22)"
+    }
+  ],
+  "latest_remote_retrieval": "2026-11-03T05:37:34Z; reused unchanged six layers from143",
+  "retrieval_evidence": "results/polygons143/errata-check.json",
+  "relevant_corrections": [
+    {
+      "id": "E073",
+      "date": "2026-03-13",
+      "context": "\\bugonpage 4b.456 line $-3$ of answer 146 (26.03.13)\n{\\sl Scientific American\\/ \\bf235},\\thinspace3 \\becomes\n{\\sl Scientific American\\/ \\bf239},\\thinspace3",
+      "status_in_local_4B": "not incorporated",
+      "status_in_2019_draft": "old volume235 also present"
+    }
+  ],
+  "candidate": "C034: question(c) seems to refer to the partition question(d). No corresponding correction found in these six layers; human source comparison required.",
+  "page_mapping": {
+    "question4B": [
+      142,
+      143
+    ],
+    "answer4B": [
+      455,
+      456
+    ],
+    "questionDraft": [
+      78,
+      79
+    ],
+    "answerDraft": [
+      159,
+      160
+    ],
+    "answerF5": [
+      263,
+      264
+    ]
+  }
+}

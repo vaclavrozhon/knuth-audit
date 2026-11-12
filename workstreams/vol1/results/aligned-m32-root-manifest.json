@@ -1,0 +1,422 @@
+{
+  "reviewed_utc": "2026-11-02T15:10:20.523692+00:00",
+  "paths_relative_to": "repository root",
+  "finding_id": "V1-C0091",
+  "status": "confirmed",
+  "scope": "Literal lower-power-aligned strategy on page616 fails asymptotically for maximum32: liminf at least4709347/783360>6. Optimal N32<=6 and Robson full-slot strategy remain intact. Whole exercise40, m16 and priority remain unresolved.",
+  "general_proof_reviews": [
+    "author",
+    "root",
+    "independent second reviewer"
+  ],
+  "new_trace_validation": {
+    "operations": 5554555,
+    "budget": 1179680,
+    "peak_live": 1179648,
+    "maximum_length": 32,
+    "maximum_endpoint": 7088928,
+    "excess_over_six_times_budget": 10848
+  },
+  "successful_tests_repeated": false,
+  "fresh_errata_checked_utc_date": "2026-11-02",
+  "external_report_sent": false,
+  "files": [
+    {
+      "path": "workstreams/vol1/notes/aligned-m32-root-review.md",
+      "bytes": 11603,
+      "sha256": "10a5eaa9a310d3bc387b13283955cad00e72c8c02f183fb2df5d7b16ed9d0bd8"
+    },
+    {
+      "path": "workstreams/vol1/notes/aligned-m32-source-review.md",
+      "bytes": 3227,
+      "sha256": "8fe30e8e31d17c4829c5b3343a2fe8ff02041692e9adb1ec72d800c9ef761969"
+    },
+    {
+      "path": "workstreams/vol1/parallel/aligned-allocation-proof/continuation/joint-profiles/recursive-counterfamily/HANDOFF.md",
+      "bytes": 2778,
+      "sha256": "b5ea06fc36e75ef088064c2755085b6d59492f94387a631f2763b99b3e41c118"
+    },
+    {
+      "path": "workstreams/vol1/parallel/aligned-allocation-proof/continuation/joint-profiles/recursive-counterfamily/MANIFEST.json",
+      "bytes": 9253,
+      "sha256": "477678f7ec62d681208bc3f7beb9e0f702842a29ee9aa28be1c033aae42a3598"
+    },
+    {
+      "path": "workstreams/vol1/parallel/aligned-allocation-proof/continuation/joint-profiles/recursive-counterfamily/SOURCES.md",
+      "bytes": 2839,
+      "sha256": "692c0aa0730c4ef99b7124e15711a32fdb359e6eb8f0ceec2176655b3c631b8b"
+    },
+    {
+      "path": "workstreams/vol1/parallel/aligned-allocation-proof/continuation/joint-profiles/recursive-counterfamily/TRACE_NOTES.md",
+      "bytes": 1879,
+      "sha256": "6d295f4a8659faa97eec3d657fdc8c446e00d25dcdf87301007579cbfd53d1c4"
+    },
+    {
+      "path": "workstreams/vol1/parallel/aligned-allocation-proof/continuation/joint-profiles/recursive-counterfamily/UNIT_STATUS.json",
+      "bytes": 1822,
+      "sha256": "6436d867b84dcf6e3269d0c057f590b185786c0a18f2af5db3da8095ed676c09"
+    },
+    {
+      "path": "workstreams/vol1/parallel/aligned-allocation-proof/continuation/joint-profiles/recursive-counterfamily/finding-draft.txt",
+      "bytes": 2085,
+      "sha256": "e1404a44dff59d5e53ea6dfd505fc9ddcce4f26d5f3ae444aad1a8f7834699bc"
+    },
+    {
+      "path": "workstreams/vol1/parallel/aligned-allocation-proof/continuation/joint-profiles/recursive-counterfamily/generate.py",
+      "bytes": 9582,
+      "sha256": "5d212ec04a32570ec484eb3b5feac3143a0ac7b38b89b3576e6922184833c7b1"
+    },
+    {
+      "path": "workstreams/vol1/parallel/aligned-allocation-proof/continuation/joint-profiles/recursive-counterfamily/generated-m32-h2048.json",
+      "bytes": 4836,
+      "sha256": "bed9882d5068d9e2126e4386827b1647549b8017a6bb44ad11692eb6aa1bd491"
+    },
+    {
+      "path": "workstreams/vol1/parallel/aligned-allocation-proof/continuation/joint-profiles/recursive-counterfamily/proof.md",
+      "bytes": 13336,
+      "sha256": "be6e02896510d08c7d4603c9acd9ba6a78ff2e64d38f1b8820e7924e1ce1e220"
+    },
+    {
+      "path": "workstreams/vol1/parallel/aligned-allocation-proof/continuation/joint-profiles/recursive-counterfamily/trace-m32-h2048.txt.gz",
+      "bytes": 14526546,
+      "sha256": "6afccbdd66dcbedada0d78f62d8a0a264c3f4e2378957c315a7e3cce580dbdca"
+    },
+    {
+      "path": "workstreams/vol1/parallel/aligned-m32-independent-review/HANDOFF.md",
+      "bytes": 1987,
+      "sha256": "c4b48dc62df377d1366ed068445e2fba4cf8519de61e1ee269f05ff4a66f1973"
+    },
+    {
+      "path": "workstreams/vol1/parallel/aligned-m32-independent-review/INPUTS.json",
+      "bytes": 4310,
+      "sha256": "8fd861082c30e78dbf7ddf78cfcb12644ede75238ddc0df0209cb26cf6afaadd"
+    },
+    {
+      "path": "workstreams/vol1/parallel/aligned-m32-independent-review/MANIFEST.json",
+      "bytes": 3000,
+      "sha256": "40bbf43ab7f04acb1c442cc5fd23427e8c4397768082582b69d64e0d866ba361"
+    },
+    {
+      "path": "workstreams/vol1/parallel/aligned-m32-independent-review/READ_LOG.json",
+      "bytes": 2820,
+      "sha256": "3377e57809b8c5c1c1efee647c120585d4c5c5bc1b1a55de6f7263cbcc30b334"
+    },
+    {
+      "path": "workstreams/vol1/parallel/aligned-m32-independent-review/REVIEW.md",
+      "bytes": 18521,
+      "sha256": "3ce20ec4d0fc093db93850a2aac0c02ce272e7d2c0cb41f4f81d0a00993edf25"
+    },
+    {
+      "path": "workstreams/vol1/parallel/aligned-m32-independent-review/SNAPSHOTS.json",
+      "bytes": 3486,
+      "sha256": "f4f662e99b33a4f984e240061e0aaa6cc1070f697df63472510248fa92008932"
+    },
+    {
+      "path": "workstreams/vol1/parallel/aligned-m32-independent-review/UNIT_STATUS.json",
+      "bytes": 1474,
+      "sha256": "f50970f8eaa014c48cdd00100edd8e293ab2bb8a7502689cd2db645d8c4ea53a"
+    },
+    {
+      "path": "workstreams/vol1/parallel/aligned-m32-independent-review/progress.json",
+      "bytes": 668,
+      "sha256": "968fc2ea08af789fbfa2b8235411184056d25726a876bcdcfa31ba090172ca06"
+    },
+    {
+      "path": "workstreams/vol1/parallel/aligned-m32-independent-review/sources/author-manifest-final.json",
+      "bytes": 9253,
+      "sha256": "477678f7ec62d681208bc3f7beb9e0f702842a29ee9aa28be1c033aae42a3598"
+    },
+    {
+      "path": "workstreams/vol1/parallel/aligned-m32-independent-review/sources/generate-reviewed.py",
+      "bytes": 9582,
+      "sha256": "5d212ec04a32570ec484eb3b5feac3143a0ac7b38b89b3576e6922184833c7b1"
+    },
+    {
+      "path": "workstreams/vol1/parallel/aligned-m32-independent-review/sources/metadata-reviewed.json",
+      "bytes": 4836,
+      "sha256": "bed9882d5068d9e2126e4386827b1647549b8017a6bb44ad11692eb6aa1bd491"
+    },
+    {
+      "path": "workstreams/vol1/parallel/aligned-m32-independent-review/sources/proof-final.md",
+      "bytes": 13336,
+      "sha256": "be6e02896510d08c7d4603c9acd9ba6a78ff2e64d38f1b8820e7924e1ce1e220"
+    },
+    {
+      "path": "workstreams/vol1/parallel/aligned-m32-independent-review/sources/proof-reviewed.md",
+      "bytes": 12717,
+      "sha256": "ddefc54183ac2e4211289ff53a315330b897f0fa18f91115f3ce9c313d166b86"
+    },
+    {
+      "path": "workstreams/vol1/parallel/aligned-m32-independent-review/sources/right-to-left-reviewed.md",
+      "bytes": 9949,
+      "sha256": "daf9554ee0c19bfbc13ee6c02dd3429e751779edbb15466c69954d5942e6f80a"
+    },
+    {
+      "path": "workstreams/vol1/parallel/aligned-m32-independent-review/sources/root-validation-result.json",
+      "bytes": 854,
+      "sha256": "28afe4b5c7ae1d6d91c7d14eecce39062cdde0a9747c3d1fab61e98ae891d0c4"
+    },
+    {
+      "path": "workstreams/vol1/parallel/aligned-m32-independent-review/sources/root-validation-run.json",
+      "bytes": 962,
+      "sha256": "15fff8d0b777af75a17668cf086f7bf7aca3275d74485a087dde8ebd279aedfc"
+    },
+    {
+      "path": "workstreams/vol1/parallel/aligned-m32-independent-review/sources/trace-notes-final.md",
+      "bytes": 1879,
+      "sha256": "6d295f4a8659faa97eec3d657fdc8c446e00d25dcdf87301007579cbfd53d1c4"
+    },
+    {
+      "path": "workstreams/vol1/reports/V1-C0091-aligned-allocation-strategy.txt",
+      "bytes": 4736,
+      "sha256": "ff2ab61ae60d6b00e98ffa3753e22e41859d8903c7b7b96b4c8546f44f531d51"
+    },
+    {
+      "path": "workstreams/vol1/results/aligned-m32-h2048-independent-run.json",
+      "bytes": 962,
+      "sha256": "15fff8d0b777af75a17668cf086f7bf7aca3275d74485a087dde8ebd279aedfc"
+    },
+    {
+      "path": "workstreams/vol1/results/aligned-m32-h2048-independent.json",
+      "bytes": 854,
+      "sha256": "28afe4b5c7ae1d6d91c7d14eecce39062cdde0a9747c3d1fab61e98ae891d0c4"
+    },
+    {
+      "path": "workstreams/vol1/results/aligned-m32-h2048-independent.log",
+      "bytes": 87,
+      "sha256": "0eb29e3e7732e17f311417834f254dc5715cdbea084dd92add10cdfae5e9a87b"
+    },
+    {
+      "path": "workstreams/vol1/results/aligned-trace-validator-build.json",
+      "bytes": 507,
+      "sha256": "dfbf1b7b92c8f6f509e8aebb84ae56f6e5fd7f6cb73c5e19e5a7466415803b12"
+    },
+    {
+      "path": "workstreams/vol1/results/aligned-trace-validator-fixtures/cross_word.json",
+      "bytes": 657,
+      "sha256": "b095c590d696ad67b2f9d1919575437affcae856b693b65a84d75190fd9b2cae"
+    },
+    {
+      "path": "workstreams/vol1/results/aligned-trace-validator-fixtures/cross_word.txt.gz",
+      "bytes": 61,
+      "sha256": "6abca780d4a080bff839fcd7f4886fc181893b87b24ee035ca6920ce3a693aa5"
+    },
+    {
+      "path": "workstreams/vol1/results/aligned-trace-validator-fixtures/deep_summary.json",
+      "bytes": 650,
+      "sha256": "6d0d493252e1b2385330fc2366e9dcd36197ca566cb58f3c653125d406a37e89"
+    },
+    {
+      "path": "workstreams/vol1/results/aligned-trace-validator-fixtures/deep_summary.txt.gz",
+      "bytes": 361,
+      "sha256": "5fcf10a431a813866b0fc5aca9eb4f7564fea00ff647fd778aad8b339f8bfd8a"
+    },
+    {
+      "path": "workstreams/vol1/results/aligned-trace-validator-fixtures/excess_budget.txt.gz",
+      "bytes": 27,
+      "sha256": "1f7073c6bc774dc6a262660454096bce6a462ac77cacb3f8472a08551e5f2ff6"
+    },
+    {
+      "path": "workstreams/vol1/results/aligned-trace-validator-fixtures/late_gap.txt.gz",
+      "bytes": 43,
+      "sha256": "3fcc95cf0a80a04c33932a3ad3bab6b9fad9b118c8f4d8cc27f11065520c1f98"
+    },
+    {
+      "path": "workstreams/vol1/results/aligned-trace-validator-fixtures/not_first.txt.gz",
+      "bytes": 26,
+      "sha256": "4cb3e84b7f2a3d03d8b82bf62b059bbc36bf50325bfd22e434919994a32adce5"
+    },
+    {
+      "path": "workstreams/vol1/results/aligned-trace-validator-fixtures/overlap.txt.gz",
+      "bytes": 28,
+      "sha256": "08d09a3481aa06f76b19a2a99cc7941481f445a01890d453cbce71415e4e67d3"
+    },
+    {
+      "path": "workstreams/vol1/results/aligned-trace-validator-fixtures/wrong_free.txt.gz",
+      "bytes": 30,
+      "sha256": "a230600726613c6e195ca0891dc2ca71026018b8b589ecf02ade63a362bf9902"
+    },
+    {
+      "path": "workstreams/vol1/results/aligned-trace-validator-selfcheck.json",
+      "bytes": 5065,
+      "sha256": "0138ddfcaebf2d8719fcaeb58a449270748a2c75007e5c12bb63477b29fa59b8"
+    },
+    {
+      "path": "workstreams/vol1/scripts/verify_aligned_trace.cpp",
+      "bytes": 11580,
+      "sha256": "ebfc96dcccd4e50551813b34f21a3b9f1065dcfa776d1c4672355c6156f698f4"
+    },
+    {
+      "path": "workstreams/vol1/sources/aligned-m32-source-review-20261102/all1-pre.ps.gz",
+      "bytes": 143181,
+      "sha256": "af52330546132f0ad79bc9074eae2b1cbb64027f11298e15af73452c5cbe6183"
+    },
+    {
+      "path": "workstreams/vol1/sources/aligned-m32-source-review-20261102/all1-prepre.ps.gz",
+      "bytes": 261910,
+      "sha256": "adff516db3af2107c6fbcda33dad167c76f0fd9a4035fd835b93242492a24659"
+    },
+    {
+      "path": "workstreams/vol1/sources/aligned-m32-source-review-20261102/all1.ps.gz",
+      "bytes": 112798,
+      "sha256": "99a11b3e1925eda77eb28376907bc19e45942bb0834fd7b89b0f69c582627ded"
+    },
+    {
+      "path": "workstreams/vol1/sources/aligned-m32-source-review-20261102/err1.ps.gz",
+      "bytes": 109261,
+      "sha256": "e41677079c96a2a6e38ced7eb1e53586d47d81fc3eb75cde49e30da1f5f8af86"
+    },
+    {
+      "path": "workstreams/vol1/sources/aligned-m32-source-review-20261102/retrievals.json",
+      "bytes": 2855,
+      "sha256": "78c4c95239493cf125b2fe55c99042e87fa25da044148ed54688ece5249310fb"
+    }
+  ],
+  "external_readonly_dependencies": [
+    {
+      "path": "books/taocp-vol1-ed3-print1-1997.djvu",
+      "bytes": 6341591,
+      "sha256": "e2c5ee120bad91e33f617614b846849c4801115b2e7aa820f56fc5ffb9bbebb9"
+    },
+    {
+      "path": "errata/originals/all1-pre.ps.gz",
+      "bytes": 143181,
+      "sha256": "af52330546132f0ad79bc9074eae2b1cbb64027f11298e15af73452c5cbe6183"
+    },
+    {
+      "path": "errata/originals/all1-prepre.ps.gz",
+      "bytes": 261910,
+      "sha256": "adff516db3af2107c6fbcda33dad167c76f0fd9a4035fd835b93242492a24659"
+    },
+    {
+      "path": "errata/originals/all1.ps.gz",
+      "bytes": 112798,
+      "sha256": "99a11b3e1925eda77eb28376907bc19e45942bb0834fd7b89b0f69c582627ded"
+    },
+    {
+      "path": "errata/originals/err1.ps.gz",
+      "bytes": 109261,
+      "sha256": "e41677079c96a2a6e38ced7eb1e53586d47d81fc3eb75cde49e30da1f5f8af86"
+    },
+    {
+      "path": "errata/pdf/all1-pre.pdf",
+      "bytes": 427651,
+      "sha256": "1c6ec5dac1660f3146d7e603b4a3ddec0d36dc1d65efeffa6287d1626c2166bd"
+    },
+    {
+      "path": "errata/pdf/all1-prepre.pdf",
+      "bytes": 637571,
+      "sha256": "bc043d4dc0e3043296f198d6795eee85d8823c38c58322230a5faf876a42e80a"
+    },
+    {
+      "path": "errata/pdf/all1.pdf",
+      "bytes": 350766,
+      "sha256": "0d580a6a396dc8431316b4550886cd5757502ebdf76f62ea406bfdeec170d16f"
+    },
+    {
+      "path": "errata/pdf/err1.pdf",
+      "bytes": 343310,
+      "sha256": "a9b2f75775ecba1ba82290a796d9690e0ff5ebf93ff15cf4d153b997515401e5"
+    },
+    {
+      "path": "errata/text/all1-pre.txt",
+      "bytes": 63766,
+      "sha256": "89d231245ff44164e09a39903faac35a2dc5e89956857abcc974991c99a887e5"
+    },
+    {
+      "path": "errata/text/all1-prepre.txt",
+      "bytes": 143588,
+      "sha256": "1a3c3ac6137b9e98f427de0a344efca46fd83b7a3e6e8fe2fa38e94525ca0c31"
+    },
+    {
+      "path": "errata/text/all1.txt",
+      "bytes": 45229,
+      "sha256": "b641d6e48aaf2d77fc98a3c4a8a798d8156516b97095ec345a976e65d9c79aef"
+    },
+    {
+      "path": "errata/text/err1.txt",
+      "bytes": 41067,
+      "sha256": "ecae8755d7d9f86c5dbcbd782767f0cf8e6bf7f89d9c57ed0a27ad2344461f30"
+    },
+    {
+      "path": "workstreams/vol1/notes/aligned-sparsification-root-review.md",
+      "bytes": 6561,
+      "sha256": "43f71687be0642a4513be3354435714f5134bb2105490ca6167dc25084a4f96d"
+    },
+    {
+      "path": "workstreams/vol1/parallel/aligned-allocation-proof/MANIFEST.json",
+      "bytes": 10374,
+      "sha256": "82e9c31db4788b87e177b77d3e684237773b05cc4efb54da7a0feb218e7a99ad"
+    },
+    {
+      "path": "workstreams/vol1/parallel/aligned-allocation-proof/continuation/right-to-left-sparsification.md",
+      "bytes": 9949,
+      "sha256": "daf9554ee0c19bfbc13ee6c02dd3429e751779edbb15466c69954d5942e6f80a"
+    },
+    {
+      "path": "workstreams/vol1/parallel/aligned-allocation-proof/continuation/sparsification-manifest.json",
+      "bytes": 2037,
+      "sha256": "29058252fe4bfb65ebe90ad61cf17e4fd366a766a3ea96a609f240b03e938d05"
+    },
+    {
+      "path": "workstreams/vol1/parallel/dynamic-storage/images/errata-all1-16.png",
+      "bytes": 175271,
+      "sha256": "660085385316f7b491bb79fb999f2446e2c1d0071d8d97859dc39e213deb615d"
+    },
+    {
+      "path": "workstreams/vol1/parallel/dynamic-storage/images/errata-all1-pre-18.png",
+      "bytes": 89137,
+      "sha256": "537b9a20c108976096758d6071919993582635f92c5c561aa721ff00bcab3c8e"
+    },
+    {
+      "path": "workstreams/vol1/parallel/dynamic-storage/images/errata-all1-prepre-30.png",
+      "bytes": 118163,
+      "sha256": "85b32884e76879d1093ac520c263384fa3012123a0e094bba8cec36bbc3d4686"
+    },
+    {
+      "path": "workstreams/vol1/parallel/dynamic-storage/images/errata-all1-prepre-47.png",
+      "bytes": 110567,
+      "sha256": "24dd034877f5e49c0743d2c188ad22655a185e8d448f061b85c1db2c4e31f24f"
+    },
+    {
+      "path": "workstreams/vol1/parallel/dynamic-storage/images/errata-err1-14.png",
+      "bytes": 151690,
+      "sha256": "750d11e140cabd21ccc06812ec773688a2db20260a1d33a8d93511a5bcc702bd"
+    },
+    {
+      "path": "workstreams/vol1/parallel/dynamic-storage/images/p456.png",
+      "bytes": 711446,
+      "sha256": "9d613adb602ff2016e873ff4e53177d6f003ab6aac6a651810b8a2b112af7432"
+    },
+    {
+      "path": "workstreams/vol1/parallel/dynamic-storage/images/p616.png",
+      "bytes": 737034,
+      "sha256": "31816c27494ad5c110320c9937f48781ad575ca04dbcfd0069b950795bb56cfb"
+    },
+    {
+      "path": "workstreams/vol1/parallel/dynamic-storage-followup/SOURCES-robson-reprints.md",
+      "bytes": 9159,
+      "sha256": "c630e65c00b9e8a8e2c01d99ab888aef9659c9488a2c8d398397cef7cd888555"
+    },
+    {
+      "path": "workstreams/vol1/parallel/dynamic-storage-followup/images/robson1981-011.png",
+      "bytes": 2535053,
+      "sha256": "30b9654149e064f6c1ba53ada48dc9c050ca9d748fec0101496f117f293485c9"
+    },
+    {
+      "path": "workstreams/vol1/parallel/dynamic-storage-followup/images/robson1981-012.png",
+      "bytes": 2182608,
+      "sha256": "37ecbf166918d5a8494062b40f3b71fca339902a1a4783b272de7e77da45bd3f"
+    },
+    {
+      "path": "workstreams/vol1/parallel/dynamic-storage-followup/sources/robson1981-thesis.pdf",
+      "bytes": 286687150,
+      "sha256": "9db6a3e0fb761cd93c4bb9efda2ee5f17166c21fedfec0786d9e58afaf895ff5"
+    },
+    {
+      "path": "workstreams/vol1/results/aligned-sparsification-root-manifest.json",
+      "bytes": 1927,
+      "sha256": "c9d0efd8dc0502603e3620c7949540701bda7e5245a143c183b155bbe1ba5d47"
+    }
+  ]
+}

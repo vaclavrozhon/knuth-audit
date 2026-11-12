@@ -1,0 +1,37 @@
+{
+  "checked_at_utc": "2026-11-07",
+  "scope": "External prime-number-theorem input for the full Incerpi–Sedgewick proof, exercise5.2.1-41; the application to the greedy coprime base is proved locally.",
+  "sources": [
+    {
+      "url": "https://isa-afp.org/entries/PNT_with_Remainder.html",
+      "title": "Shuhao Song and Bowen Yao, Prime Number Theorem with Remainder Term",
+      "publication_date": "2024-05-05",
+      "role": "Primary formalization, theorem statement inspected; proof checker not rerun.",
+      "accepted_input": "pi(x)=Li(x)+O(x exp(-sqrt(log x)/3653))."
+    },
+    {
+      "url": "https://dlmf.nist.gov/27.12",
+      "title": "NIST Digital Library of Mathematical Functions,27.12",
+      "role": "Official reference; equations27.12.1,27.12.4,27.12.5 inspected.",
+      "accepted_input": "p_n~n ln n, the asymptotic expansion of pi(x), and a positive-constant exp(-c sqrt(ln x)) remainder."
+    }
+  ],
+  "local_derivations": [
+    "At most k-1 primes at or above rho^k can be forbidden by earlier greedy base terms: such a divisor must equal its selected term.",
+    "The corrected prime count in [rho^k,rho^(k+1)] exceeds k and gives a_k=O_rho(rho^k).",
+    "The interval [rho^k,rho^k(1+k^-2)] contains more than k primes eventually; summable relative errors give rho^s<=h_s<=C_rho rho^s.",
+    "The prime-base limiting construction has O(N(log N)^4/(log log N)^2) time, independently of the fixed-rho bound."
+  ],
+  "bibliography_skips": [
+    "Historical bibliographic details and priority of Incerpi–Sedgewick1985/1996 were not checked in this block. Their mathematical construction is proved independently."
+  ],
+  "known_errata": {
+    "evidence": "workstreams/vol3/sources/insertion-errata-review.json",
+    "typesetting": "workstreams/vol3/images/insertion-errata-41-file031.png",
+    "corrections": [
+      "Formula(9) has a strict upper endpoint; TheoremI uses N, not n.",
+      "Answer41,2000-10-28: insert1/ln(rho); replace(k-1)^2 by(k-2)^2 and(log log N)^-3 by(log log N)^-2."
+    ],
+    "new_finding": false
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "started_at_utc": "2026-11-03T19:54:54.823685+00:00",
+  "pid": 1298581,
+  "status": "passed",
+  "checks": {
+    "rsa": {
+      "status": "passed",
+      "seconds": 1.573674293991644,
+      "result": {
+        "rsa_moduli": 66,
+        "all_residue_roundtrips": 123474,
+        "broadcast_moduli": [
+          55,
+          391,
+          1189
+        ],
+        "broadcast_messages": 55,
+        "binary_power_multiplications": {
+          "3": 2,
+          "65537": 17
+        }
+      }
+    },
+    "orders": {
+      "status": "passed",
+      "seconds": 3.0897826770087704,
+      "result": {
+        "order_instances": 4992,
+        "enumerated_residues": 2226816,
+        "unit_ladders": 31524,
+        "C0166": {
+          "p": 23,
+          "q": 47,
+          "p1": 11,
+          "q1": 23,
+          "m": 22,
+          "N": 1081,
+          "root_count": 44,
+          "actual_probability": "44/1081",
+          "claimed_upper_bound": "1/253"
+        }
+      }
+    },
+    "padding": {
+      "status": "passed",
+      "seconds": 0.5189887220039964,
+      "result": {
+        "moduli": 66,
+        "messages": 102338,
+        "corrected_representatives": 110040,
+        "unpadded_boundary_leaks": 66,
+        "C0167": {
+          "N": 55,
+          "p": 5,
+          "q": 11,
+          "M": 3,
+          "message": 3,
+          "ciphertext": 27
+        },
+        "known_2004_endpoint_error": {
+          "failing_messages": 10,
+          "example": {
+            "N": 517,
+            "p": 11,
+            "q": 47,
+            "M": 8,
+            "x": 5,
+            "y": 64,
+            "z": 517,
+            "decoded": 0
+          }
+        }
+      }
+    },
+    "williams": {
+      "status": "passed",
+      "seconds": 39.140620060032234,
+      "result": {
+        "moduli": 144,
+        "square_root_inputs": 1200784,
+        "corrected_encodings": 153416,
+        "zero_symbol_choices": 6528,
+        "false_unit_inputs": 587264,
+        "false_inputs_with_valid_ciphertext": 293776,
+        "known_2004_zero_symbol_error": {
+          "p": 3,
+          "q": 7,
+          "N": 21,
+          "x": 1,
+          "choices": [
+            6,
+            12
+          ]
+        }
+      }
+    },
+    "padding_randomized": {
+      "status": "passed",
+      "seconds": 0.13679122098255903,
+      "result": {
+        "moduli": 66,
+        "messages": 113277,
+        "representatives": 122377,
+        "formula": "B=ceil(cuberoot(N));J=floor(N/B);H=(J-B)B;0<=x<H;if x<B use z=x+yB with J-B<=y<J;otherwise z=x;decode z>=H by z mod B"
+      }
+    }
+  },
+  "expected_checks": [
+    "rsa",
+    "orders",
+    "padding",
+    "williams",
+    "padding_randomized"
+  ]
+}

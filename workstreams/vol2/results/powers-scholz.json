@@ -1,0 +1,89 @@
+{
+  "blocks": {
+    "binary": {
+      "status": "passed",
+      "seconds": 5.881008848955389,
+      "result": {
+        "marked_chains_by_length": {
+          "0": 1,
+          "7": 47293,
+          "6": 4683,
+          "5": 541,
+          "4": 75,
+          "3": 13,
+          "2": 3,
+          "1": 1
+        },
+        "chains": 52610,
+        "all_marked_star_chains_by_length": {
+          "0": 1,
+          "1": 1,
+          "2": 2,
+          "3": 6,
+          "4": 24,
+          "5": 120,
+          "6": 720,
+          "7": 5040
+        },
+        "total_output_numbers": 1484975,
+        "printed_example": [
+          1,
+          2,
+          3,
+          6,
+          12,
+          15,
+          30,
+          31,
+          60,
+          120,
+          240,
+          255,
+          510,
+          1020,
+          1023,
+          2040,
+          4080,
+          4095,
+          8160,
+          16320,
+          32640,
+          65280,
+          130560,
+          261120,
+          262143
+        ],
+        "unmarked_example_values": [
+          31,
+          1023,
+          4095
+        ]
+      }
+    },
+    "radix": {
+      "status": "passed",
+      "seconds": 9.899042264965829,
+      "result": {
+        "input_marked_chains": 634,
+        "base_marked_chains": 92,
+        "transformations": 58328,
+        "nonbinary_transformations": 57694,
+        "base_values": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12,
+          16
+        ],
+        "maximum_target_bits": 125
+      }
+    }
+  },
+  "updated_at_utc": "2026-11-04T05:36:51.280778+00:00"
+}

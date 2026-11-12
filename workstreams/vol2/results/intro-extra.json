@@ -1,0 +1,58 @@
+{
+  "status": "all assertions passed",
+  "foata_fuchs": [
+    {
+      "m": 1,
+      "functions": 1,
+      "distinct_codes": 1
+    },
+    {
+      "m": 2,
+      "functions": 4,
+      "distinct_codes": 4
+    },
+    {
+      "m": 3,
+      "functions": 27,
+      "distinct_codes": 27
+    },
+    {
+      "m": 4,
+      "functions": 256,
+      "distinct_codes": 256
+    },
+    {
+      "m": 5,
+      "functions": 3125,
+      "distinct_codes": 3125
+    },
+    {
+      "m": 6,
+      "functions": 46656,
+      "distinct_codes": 46656
+    }
+  ],
+  "algorithm_k_basins": [
+    {
+      "target": 6065038420,
+      "count": 597,
+      "minimum": 9612809,
+      "maximum": 9995371004,
+      "max_iterations_to_fixed_point": 11,
+      "independently_validated_edges": 597,
+      "completeness": "Exact inverse enumeration, justified in notes; this validator checks every returned node and edge."
+    },
+    {
+      "target": 5008502835,
+      "count": 128,
+      "minimum": 8502835,
+      "maximum": 9944390948,
+      "max_iterations_to_fixed_point": 4,
+      "independently_validated_edges": 128,
+      "completeness": "Exact inverse enumeration, justified in notes; this validator checks every returned node and edge."
+    }
+  ],
+  "probability_3_1_2": "2.559687864515764516864781059186242447292e-26",
+  "stated_stirling_approximation": "2.559708982027756318016712913452441782147e-26",
+  "relative_difference": "-8.24996596881581e-6"
+}

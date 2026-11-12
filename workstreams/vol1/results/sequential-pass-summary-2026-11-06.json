@@ -1,0 +1,1411 @@
+{
+  "created_at_utc": "2026-11-06T05:43:15.142592+00:00",
+  "source_checkpoint": "6c4a4269",
+  "scope": "Snapshot after the complete sequential pass; open units retain their original status. It is not a claim that every assertion is verified.",
+  "file_pages_recorded": 665,
+  "missing_original_printed_pages": [
+    "i",
+    "xv",
+    "xvi",
+    "xvii",
+    "xx"
+  ],
+  "partial_exercises": [
+    {
+      "section": "1.2.5",
+      "number": 4,
+      "status": "partial",
+      "ledger_refs": [
+        "V1-X0059",
+        "V1-X0060",
+        "V1-X0067",
+        "V1-X0738"
+      ],
+      "ocr_rating": "13",
+      "md_line": 409,
+      "number_detected": true
+    },
+    {
+      "section": "1.2.5",
+      "number": 13,
+      "status": "partial",
+      "ledger_refs": [
+        "V1-X0059",
+        "V1-X0062",
+        "V1-X0067",
+        "V1-X0729",
+        "V1-C0087"
+      ],
+      "ocr_rating": "M23",
+      "md_line": 437,
+      "number_detected": true
+    },
+    {
+      "section": "1.2.6",
+      "number": 53,
+      "status": "partial",
+      "ledger_refs": [
+        "V1-X0078",
+        "V1-C0009"
+      ],
+      "ocr_rating": "M25",
+      "md_line": 704,
+      "number_detected": true
+    },
+    {
+      "section": "1.3.1",
+      "number": 16,
+      "status": "partial",
+      "ledger_refs": [
+        "V1-X0149",
+        "V1-X0153",
+        "V1-X0697",
+        "V1-X0783",
+        "V1-X0787",
+        "V1-X0791",
+        "V1-X0792",
+        "V1-X0796",
+        "V1-X0801",
+        "V1-X0803",
+        "V1-X0806",
+        "V1-X0810",
+        "V1-X0811",
+        "V1-X0813",
+        "V1-X0815",
+        "V1-X0817",
+        "V1-X0819",
+        "V1-X0821",
+        "V1-X0824",
+        "V1-X0826",
+        "V1-X0827",
+        "V1-X0828",
+        "V1-X0831",
+        "V1-X0832",
+        "V1-X0834",
+        "V1-X0838",
+        "V1-X0839",
+        "V1-X0840",
+        "V1-X0843",
+        "V1-X0845",
+        "V1-X0848",
+        "V1-X0849",
+        "V1-X0850",
+        "V1-X0852",
+        "V1-X0854",
+        "V1-X0855",
+        "V1-X0856",
+        "V1-X0859",
+        "V1-X0860",
+        "V1-X0862",
+        "V1-X0863",
+        "V1-X0864",
+        "V1-X0865",
+        "V1-X0866",
+        "V1-X0868",
+        "V1-X0869",
+        "V1-X0871",
+        "V1-X0874",
+        "V1-X0877",
+        "V1-X0879",
+        "V1-X0881",
+        "V1-X0883",
+        "V1-X0885",
+        "V1-X0886",
+        "V1-X0887",
+        "V1-X0888",
+        "V1-X0891",
+        "V1-X0892",
+        "V1-X0895",
+        "V1-X0898",
+        "V1-X0899",
+        "V1-X0900",
+        "V1-X0901",
+        "V1-X0903",
+        "V1-X0904",
+        "V1-X0906",
+        "V1-X0907",
+        "V1-X0908",
+        "V1-X0909",
+        "V1-X0911",
+        "V1-X0912",
+        "V1-X0914",
+        "V1-X0915",
+        "V1-X0916",
+        "V1-X0918",
+        "V1-X0919",
+        "V1-X0920",
+        "V1-X0921",
+        "V1-X0923",
+        "V1-X0924",
+        "V1-X0927",
+        "V1-X0928",
+        "V1-X0929"
+      ],
+      "ocr_rating": "20",
+      "md_line": 881,
+      "number_detected": true,
+      "note": "X0855 uzavírá úplnou neindexovanou STA třídu včetně oprav X0834/X0848; X0856 klasifikuje R0–R4. Původní neindexované STJ a STi U(L:5), i2..6,L2..5, jsou uzavřeny dřívějšími rozbory. X0895 pro ST1 vyžaduje první nový kladný MOVE. X0898 uzavírá celé ST1(2:5), X0899–901/903–904/906 celé ST1(3:5), X0907–909/911–912 celé ST1(4:5). X0914–916/918–920 nyní uzavírají celé ST1(5:5), včetně opakovaných příprav, všech prvních zásahů kódu, vykonaných kopií J a úplných MOVE/LOAD cyklů s vnějšími kopiemi. Všechny definované částečné neindexované ST1 suffixy R4 jsou tedy uzavřeny. Otevřené zůstávají široké částečné STA/STX v R4, R0–R3 a případná závislost množiny vykonaných buněk na vstupu. Globální prostor16(a) stále partial. X0921 pro široké částečné STA/STX vyžaduje první STJ či protější široký STORE, omezuje jeho poslední bajt a původní STX přípravu. Těchto nutných podmínek se nedosazuje za uzávěru zbývajících větví. X0923 uzavírá všech šest původních širokých LOAD suffixů končících5 a ze S devět polí končících3/4. X0924 vyžaduje první cíl STORE v U/S; pro L>=3 zachovaná adresa vylučuje všechna původní čtení J. Obě zbývající první zásahy a pro L2 čtení J stále otevřené. X0927–929 uzavírají celé definované STX(5:5): všechny počáteční operátory X, zdroje S/J i všech21 vlastních LOAD polí. Ostatní široké částečné suffixy, R0–R3 a globální minimum zůstávají partial."
+    },
+    {
+      "section": "1.3.1",
+      "number": 17,
+      "status": "partial",
+      "ledger_refs": [
+        "V1-X0149",
+        "V1-X0153",
+        "V1-X0678",
+        "V1-X0685",
+        "V1-X0697",
+        "V1-X0724"
+      ],
+      "ocr_rating": "26",
+      "md_line": 884,
+      "number_detected": true,
+      "note": "Minimum tří slov(a) přijato v přenositelném modelu všech použitých kódových/pomocných buněk; čas(b) nadále partial."
+    },
+    {
+      "section": "1.3.1",
+      "number": 22,
+      "status": "partial",
+      "ledger_refs": [
+        "V1-X0150",
+        "V1-X0153",
+        "V1-X0152",
+        "V1-X0684",
+        "V1-X0702",
+        "V1-X0709"
+      ],
+      "ocr_rating": "28",
+      "md_line": 904,
+      "number_detected": true,
+      "note": "Časové minimum4u bezHLT i se znaménkem nuly a13slov mezi4u programy dokázány; globální prostorové minimum7slov bez časového omezení dosud partial."
+    },
+    {
+      "section": "1.3.1",
+      "number": 23,
+      "status": "partial",
+      "ledger_refs": [
+        "V1-X0150",
+        "V1-X0153",
+        "V1-X0152",
+        "V1-C0083",
+        "V1-X0700"
+      ],
+      "ocr_rating": "27",
+      "md_line": 908,
+      "number_detected": true,
+      "note": "C0083 potvrzuje chybu−0 v podmínce nového Wahidova programu2018; správnost po upřesnění znaménka doložena, globální prostorová minima partial."
+    },
+    {
+      "section": "1.3.2",
+      "number": 20,
+      "status": "partial",
+      "ledger_refs": [
+        "V1-X0180",
+        "V1-X0181",
+        "V1-X0952"
+      ],
+      "ocr_rating": "33",
+      "md_line": 708,
+      "number_detected": true,
+      "remaining_factual_checks": [
+        "Specifikace neurčuje pořadí vzorkování JOV při požadavku přesně na přechodu světel; matematické časování jinak doloženo."
+      ]
+    },
+    {
+      "section": "2.2.2",
+      "number": 18,
+      "status": "partial",
+      "ledger_refs": [
+        "V1-C0035",
+        "V1-X0216",
+        "V1-X0964"
+      ],
+      "ocr_rating": "M30",
+      "md_line": 451,
+      "number_detected": true
+    },
+    {
+      "section": "2.2.5",
+      "number": 10,
+      "status": "partial",
+      "ledger_refs": [
+        "V1-X0274",
+        "V1-X0276",
+        "V1-X0967"
+      ],
+      "ocr_rating": "40",
+      "md_line": 923,
+      "number_detected": true,
+      "remaining_checks": [
+        "Actual observations and validation against a selected physical elevator; existing simulator and protocol do not replace this experiment."
+      ]
+    },
+    {
+      "section": "2.3",
+      "number": 11,
+      "status": "partial",
+      "ledger_refs": [
+        "V1-X0365",
+        "V1-C0045",
+        "V1-C0056",
+        "V1-X0969"
+      ],
+      "ocr_rating": "HM32",
+      "md_line": 433,
+      "number_detected": true,
+      "bibliography_skips": [
+        "Private attribution to R. Bigelow has no accessible cited original."
+      ],
+      "note": "C0056 je doložená chyba poznámky. C0045 zůstává neuzavřenou terminologickou otázkou počtu různých kardinálních úrovní, proto partial; autorství Bigelowa se samostatně přeskakuje."
+    },
+    {
+      "section": "2.3.1",
+      "number": 19,
+      "status": "partial",
+      "ledger_refs": [
+        "V1-X0396",
+        "V1-C0049"
+      ],
+      "ocr_rating": "27",
+      "md_line": 593,
+      "number_detected": true
+    },
+    {
+      "section": "2.3.1",
+      "number": 32,
+      "status": "partial",
+      "ledger_refs": [
+        "V1-X0409",
+        "V1-C0046"
+      ],
+      "ocr_rating": "21",
+      "md_line": 644,
+      "number_detected": true
+    },
+    {
+      "section": "2.3.4.4",
+      "number": 17,
+      "status": "partial",
+      "ledger_refs": [
+        "V1-X0487",
+        "V1-C0059",
+        "V1-X0589",
+        "V1-C0071",
+        "V1-X0976"
+      ],
+      "ocr_rating": "M26",
+      "md_line": 434,
+      "number_detected": true,
+      "inventory_verified_from_original": true,
+      "note": "Počet a matematické opravy ověřeny. C0071 zůstává otevřeným kandidátem historické priority; datum soukromého Katzova objevu není známo. Tato konkrétní protievidence není uzavřena pouhou bibliografickou výjimkou."
+    },
+    {
+      "section": "2.5",
+      "number": 18,
+      "status": "partial",
+      "ledger_refs": [
+        "V1-X0620",
+        "V1-X0981"
+      ],
+      "ocr_rating": "20",
+      "md_line": 784,
+      "number_detected": true,
+      "inventory_verified_from_original": true,
+      "question_page_verified": 454,
+      "answer_pages_verified": [
+        610
+      ]
+    },
+    {
+      "section": "2.5",
+      "number": 27,
+      "status": "partial",
+      "ledger_refs": [
+        "V1-X0629",
+        "V1-C0068",
+        "V1-C0069",
+        "V1-C0074",
+        "V1-X0981"
+      ],
+      "ocr_rating": "24",
+      "md_line": 821,
+      "number_detected": true,
+      "inventory_verified_from_original": true,
+      "question_page_verified": 455,
+      "answer_pages_verified": [
+        611,
+        612
+      ]
+    },
+    {
+      "section": "2.5",
+      "number": 32,
+      "status": "partial",
+      "ledger_refs": [
+        "V1-X0634",
+        "V1-X0867",
+        "V1-X0872",
+        "V1-X0873",
+        "V1-X0875",
+        "V1-X0878",
+        "V1-X0896",
+        "V1-X0917",
+        "V1-X0981"
+      ],
+      "ocr_rating": "HM47",
+      "md_line": 835,
+      "number_detected": true,
+      "inventory_verified_from_original": true,
+      "question_page_verified": 455,
+      "answer_pages_verified": [],
+      "note": "X0634 prokazuje regeneraci, existenci a konečný racionální vzorec. X0917 zpřesňuje rigorózní meze na11.03203<=alpha<12.99721822: obecná tabulka sousedních mezer, úplné celočíselné podmíněné profily, převod horní meze a společné škálování s korekcí prvního času. Starší X0896/X0878 zůstávají přijatým základem. Přesná limita, globální optimalita potenciálu a ostrost odhadu přírůstku maxima chybějí; partial. X0873 je mezí jednokrokové metody, nikoli další mezí skutečné alpha."
+    },
+    {
+      "section": "2.5",
+      "number": 39,
+      "status": "partial",
+      "ledger_refs": [
+        "V1-X0641",
+        "V1-X0675",
+        "V1-X0676",
+        "V1-X0981"
+      ],
+      "ocr_rating": "HM23",
+      "md_line": 888,
+      "number_detected": true,
+      "inventory_verified_from_original": true,
+      "question_page_verified": 456,
+      "answer_pages_verified": [
+        616
+      ],
+      "note": "Subaditivita, limita a všechny čtyři číselné meze jsou dokázány. Historické tvrzení o neznalosti přesných hodnot pro každé m>2 nebylo nezávisle ověřeno; není vydáváno za současný stav. Partial podle X0981."
+    },
+    {
+      "section": "2.5",
+      "number": 40,
+      "status": "partial",
+      "ledger_refs": [
+        "V1-X0642",
+        "V1-X0675",
+        "V1-X0676",
+        "V1-X0703",
+        "V1-X0808",
+        "V1-X0820",
+        "V1-X0822",
+        "V1-X0825",
+        "V1-X0830",
+        "V1-X0833",
+        "V1-X0835",
+        "V1-X0836",
+        "V1-X0841",
+        "V1-X0844",
+        "V1-X0846",
+        "V1-X0847",
+        "V1-X0853",
+        "V1-X0857",
+        "V1-X0858",
+        "V1-C0091",
+        "V1-X0861",
+        "V1-X0870",
+        "V1-X0876",
+        "V1-X0880",
+        "V1-X0884",
+        "V1-X0890",
+        "V1-X0894",
+        "V1-X0897",
+        "V1-X0913",
+        "V1-X0922",
+        "V1-X0926",
+        "V1-X0981"
+      ],
+      "ocr_rating": "HM50",
+      "md_line": 891,
+      "number_detected": true,
+      "inventory_verified_from_original": true,
+      "question_page_verified": 456,
+      "answer_pages_verified": [
+        616
+      ],
+      "note": "Dělitelné řetězce, malé meze a{3,4} jsou uzavřeny. Původní Robsonův full-slot algoritmus dává optimální mocninnou horní mez. C0091 potvrzuje chybu vytištěné odlišné strategie: obecná legální rodina pro max32 má faktor4709347/783360>6, s dvojí nezávislou revizí a úplně ověřenou stopou. Doslovné m4/m8 a ostré samostatné prefixy X0853/X0858 zůstávají přijaty; m16 a nejmenší problematické maximum nejsou určeny. Pro koeficient1.1825 X0833 vylučuje samotné místní first-fit; X0836/X0844 rozlišují dosažitelnost od relaxace B. X0847 vylučuje určité periodické historie, ale X0857 dokazuje celkové statické stavy selhání s B<M: samotná relaxace nestačí. Skutečná příprava těchto stavů, obecný důkaz1.1825 a původní Krogdahl nadále chybějí. Výzkumná otázka ani harmonická domněnka se nevydávají za vyřešené. X0861 přesně charakterizuje konečný přípravný vrchol H a hierarchii C1=B,C2,...; skutečné H harmonických svědků zůstává otevřené. X0870 dává přesná statická minima pomocných doplnění, jejich úplnou klasifikaci, nutné globální pořadí vzniku a místní dosažitelnost při neměnné F. Globální H/C2 rodiny X0857 tím ještě neurčeny; koeficient1.1825 stále partial. X0876 přidává robustní globální podkonfiguraci pro všechna E, cenu všech posledních strážců a přesnou mez jednoho hustotního testu; H/C2 ani1.1825 neurčuje. X0880 dokládá skutečný globální sweep velkými bloky při připraveném G/F, s přesným vrcholem a objemovým příplatkem; počáteční harmonická příprava zůstává otevřená. X0884 vylučuje přípravu přes vnořené podmnožiny původních minimálních řádků: konečné stromové prahy a r18>400/473 dávají harmonický vrchol>M. Obecné historie dovolující nové pozice či jiné bloky tím vyloučeny nejsou. X0890 účtuje každou novou malou rezervaci proti zachovanému hornímu objemu a dává skutečný program výměny od dosaženého I s cenou výjimečných zón. Časové omezení X0857 není spor; vhodná globální posloupnost vstupů I a obecné G/F nadále chybějí. X0894 skutečně doplňuje nízký prefix a horní pásmo až po pravidelném F_j. Pro velké j a potom M má přesnou ekvivalenci H(S_j)<=M iff H(F_j)<=M; zbývá skutečná dosažitelnost středu, nikoli cena odložených fází. X0897 dále redukuje neznámý cíl na pravidelné bloky T_j bez pravých výplní a bez zóny j. Prefix začíná b=p bez společného násobku, s explicitní kladnou cenou pod rezervou; H(S_prime)<=M iff H(T_j)<=M. Přesná projekce odstraňuje všechny vyšší pomocné zóny při zachování délek do2j. Obecné vzestupné dokončování není oprávněná normalizace; H(T_j) zůstává otevřené. X0913 vylučuje přípravnou fázi z přesného trvalého prefixu F bez starých pomocníků při rozpočtuM. Libovolná taková fáze s vrcholem<=M vyžaduje>0.03M trvale přeživších starých pomocníků pod0.74j. Obecná historie však tuto fázi nemusí obsahovat; skutečné H(T_j) nadále neurčeno. X0922 dává úplnou skutečnou rodinu, kde zachování pomocníků má vrchol<=2K+2, ale čistá obnova při trvalém F vyžaduje>=K+ceil((8K+5)/7). Vymezuje selhání čistého restartu jako obecné normalizace; skutečné harmonické T_j tím nejsou dosaženy ani vyloučeny. X0926 bez předpokladů o pořadí či trvalém prefixu omezuje místa vzniku délek1–4 a dokazuje H(T_j)>M pro2<=p_j<=8,j>=40 při dostatečně velkémM. Číselné hranice9/95 platí pro dolní harmonické kapacity; obecné chyby e_j jsou jen asymptoticky při pevnémj. Rostoucí p_j a optimální koeficient zůstávají otevřené.",
+      "bibliography_skips": [
+        "The full original Krogdahl article is unavailable. This exception does not close the unresolved mathematical coefficient 1.1825."
+      ]
+    }
+  ],
+  "partial_text_sections": [
+    {
+      "section": "1.1",
+      "title": "Algorithms",
+      "page_start_hint": 1,
+      "source_md": "md/vol1/01-1.1-algorithms.md",
+      "main_text_status": "partial",
+      "main_text_ledger_refs": [
+        "V1-X0022",
+        "V1-X0023",
+        "V1-C0001"
+      ],
+      "exercise_inventory_status": "checked"
+    },
+    {
+      "section": "1.2.1",
+      "title": "Mathematical Induction",
+      "page_start_hint": 11,
+      "source_md": "md/vol1/03-1.2.1-mathematical-induction.md",
+      "main_text_status": "partial",
+      "main_text_ledger_refs": [
+        "V1-X0025",
+        "V1-X0026",
+        "V1-X0029",
+        "V1-X0932",
+        "V1-X0933"
+      ],
+      "exercise_inventory_status": "checked",
+      "bibliography_policy": "2026-11-05: unavailable recommended readings may be explicitly skipped; unresolved mathematical or historical factual claims remain partial."
+    },
+    {
+      "section": "1.2.2",
+      "title": "Numbers, Powers, and Logarithms",
+      "page_start_hint": 21,
+      "source_md": "md/vol1/04-1.2.2-numbers-powers-logarithms.md",
+      "main_text_status": "partial",
+      "main_text_ledger_refs": [
+        "V1-X0030",
+        "V1-X0033",
+        "V1-X0734",
+        "V1-X0735",
+        "V1-X0934",
+        "V1-X0935"
+      ],
+      "exercise_inventory_status": "checked",
+      "added_exercises": [
+        {
+          "number": 30,
+          "status": "checked",
+          "ledger_refs": [
+            "V1-X0030",
+            "V1-X0032"
+          ],
+          "source": "all1-prepre, 2003-06-28"
+        }
+      ]
+    },
+    {
+      "section": "1.2.5",
+      "title": "Permutations and Factorials",
+      "page_start_hint": 45,
+      "source_md": "md/vol1/07-1.2.5-permutations-factorials.md",
+      "main_text_status": "partial",
+      "main_text_ledger_refs": [
+        "V1-X0059",
+        "V1-X0060",
+        "V1-X0066",
+        "V1-X0067",
+        "V1-X0069",
+        "V1-C0005",
+        "V1-X0742",
+        "V1-X0746",
+        "V1-X0747",
+        "V1-X0760",
+        "V1-X0761",
+        "V1-C0089",
+        "V1-X0939"
+      ],
+      "exercise_inventory_status": "checked",
+      "bibliography_skips": [
+        "Dutka (1984), pages 15–34: original recommended article unavailable.",
+        "Toscano (1939), pages 721–757 in the later attribution addition: metadata and author self-citation checked, original content unavailable."
+      ],
+      "revision_note": "5.11.2026: matematika souvisle porovnána; explicitní historické kandidáty a mezery v úlohách4/13 nelze uzavřít bibliografickou výjimkou."
+    },
+    {
+      "section": "1.2.6",
+      "title": "Binomial Coefficients",
+      "page_start_hint": 53,
+      "source_md": "md/vol1/08-1.2.6-binomial-coefficients.md",
+      "main_text_status": "partial",
+      "main_text_ledger_refs": [
+        "V1-X0070",
+        "V1-X0071",
+        "V1-X0072",
+        "V1-X0074",
+        "V1-X0075",
+        "V1-X0077",
+        "V1-X0078",
+        "V1-X0080",
+        "V1-X0081",
+        "V1-X0084",
+        "V1-X0940"
+      ],
+      "exercise_inventory_status": "checked",
+      "main_text_revision_note": "5.11.2026: matematika souvisle porovnána; hlavní historická tvrzení partial. Citační výjimky neprohlašují prameny za ověřené."
+    },
+    {
+      "section": "1.2.8",
+      "title": "Fibonacci Numbers",
+      "page_start_hint": 79,
+      "source_md": "md/vol1/10-1.2.8-fibonacci-numbers.md",
+      "main_text_status": "partial",
+      "main_text_ledger_refs": [
+        "V1-X0093",
+        "V1-X0094",
+        "V1-X0099",
+        "V1-X0101",
+        "V1-X0102",
+        "V1-X0712",
+        "V1-X0942"
+      ],
+      "exercise_inventory_status": "checked"
+    },
+    {
+      "section": "1.2.10",
+      "title": "Analysis of an Algorithm",
+      "page_start_hint": 96,
+      "source_md": "md/vol1/12-1.2.10-analysis-of-algorithm.md",
+      "main_text_status": "partial",
+      "main_text_ledger_refs": [
+        "V1-X0114",
+        "V1-X0115",
+        "V1-X0116",
+        "V1-X0117",
+        "V1-X0118",
+        "V1-X0123",
+        "V1-X0770",
+        "V1-X0771",
+        "V1-X0778",
+        "V1-X0779",
+        "V1-X0780",
+        "V1-X0944"
+      ],
+      "exercise_inventory_status": "checked",
+      "bibliography_skips": [
+        "Roes1966, CACM9, cited page342 not read.",
+        "Hald2000, International Statistical Review68,137–153 not read.",
+        "Exact first-printing collation of Kolmogorov1933 and Bernstein1924; identified later reproductions were read."
+      ],
+      "remaining_factual_checks": [
+        "Historical priority of Foster–Stuart on page100.",
+        "Priority of Kolmogorov's general formulation on page104."
+      ]
+    },
+    {
+      "section": "1.3.1",
+      "title": "Description of MIX",
+      "page_start_hint": 124,
+      "source_md": "md/vol1/18-1.3.1-description-of-mix.md",
+      "main_text_status": "partial",
+      "main_text_ledger_refs": [
+        "V1-X0146",
+        "V1-X0147",
+        "V1-X0152",
+        "V1-X0154",
+        "V1-C0020",
+        "V1-X0949",
+        "V1-X0950"
+      ],
+      "exercise_inventory_status": "checked",
+      "bibliography_skips": [
+        "Úplná kolace šestnácti modelových manuálů a implementace simulátorů; identifikace skutečných modelů je doložena dobovými zdroji.",
+        "Přesný okamžik obecné standardizace osmibitového byte kolem1975; Buchholz1977 potvrzuje vývoj významu, nikoli přesný rok.",
+        "Rukopisná chronologie Wordsworthovy básně; text a konvenční datace1804/1807 doloženy."
+      ],
+      "remaining_factual_checks": [
+        "V1-C0020: význam jednotné časové hlavičky tabulky pro HLT; kandidát, nikoli potvrzená chyba."
+      ]
+    },
+    {
+      "section": "1.3.3",
+      "title": "Applications to Permutations",
+      "page_start_hint": 164,
+      "source_md": "md/vol1/20-1.3.3-applications-to-permutations.md",
+      "main_text_status": "partial",
+      "main_text_ledger_refs": [
+        "V1-X0003",
+        "V1-X0188",
+        "V1-X0190",
+        "V1-C0029",
+        "V1-X0195",
+        "V1-X0197",
+        "V1-X0198",
+        "V1-X0205",
+        "V1-X0206",
+        "V1-X0208",
+        "V1-X0954"
+      ],
+      "exercise_inventory_status": "checked",
+      "added_exercises": [
+        {
+          "number": 37,
+          "status": "checked",
+          "ledger_refs": [
+            "V1-X0194",
+            "V1-X0214",
+            "V1-X0215",
+            "V1-X0954"
+          ],
+          "source": "all1-prepre,29Jan2010,p185",
+          "rating": "M26"
+        },
+        {
+          "number": 38,
+          "status": "checked",
+          "ledger_refs": [
+            "V1-X0194",
+            "V1-X0214",
+            "V1-X0215",
+            "V1-X0954"
+          ],
+          "source": "all1/err1,24Mar2023,p185",
+          "rating": "M22"
+        }
+      ],
+      "remaining_factual_checks": [
+        "C0028: přípustnost zápisu() ve vstupní gramatice A.",
+        "Historické prvenství a rozšíření inkluze–exkluze nejsou doloženy vyčerpávající rešerší."
+      ],
+      "bibliography_skips": [
+        "Huang1981 plný text; přesný Todhunter1860§762 a titulní/copyrightový list Chelsea1967. Přijaté primární recenze rozlišují Whitworth1867 od skutečně přečteného odvození1870."
+      ]
+    },
+    {
+      "section": "1.4.3",
+      "title": "Interpretive Routines",
+      "page_start_hint": 200,
+      "source_md": "md/vol1/24-1.4.3-interpretive-routines.md",
+      "main_text_status": "partial",
+      "main_text_ledger_refs": [
+        "V1-X0225",
+        "V1-X0226",
+        "V1-X0957"
+      ],
+      "exercise_inventory_status": "checked",
+      "exercise_inventory_note": "Samotný úvod nemá samostatná cvičení.",
+      "bibliography_skips": [
+        "Úplné články Knuth1963/Evans1964, přesná sazba TeX1986/1997; odpovídající metadata a dostupné primární nástupnické zdroje porovnány."
+      ]
+    },
+    {
+      "section": "1.4.3.2",
+      "title": "Trace Routines",
+      "page_start_hint": 212,
+      "source_md": "md/vol1/26-1.4.3.2-trace-routines.md",
+      "main_text_status": "partial",
+      "main_text_ledger_refs": [
+        "V1-X0222",
+        "V1-C0039",
+        "V1-X0957"
+      ],
+      "exercise_inventory_status": "checked",
+      "exercise_inventory_note": "Originál214:1–7; kandidát formulace omezení paměti zůstává otevřen."
+    },
+    {
+      "section": "1.4.5",
+      "title": "History and Bibliography",
+      "page_start_hint": 229,
+      "source_md": "md/vol1/28-1.4.5-history-bibliography.md",
+      "main_text_status": "partial",
+      "main_text_ledger_refs": [
+        "V1-X0281",
+        "V1-X0282",
+        "V1-X0283",
+        "V1-X0284",
+        "V1-X0285",
+        "V1-X0959"
+      ],
+      "exercise_inventory_status": "checked",
+      "exercise_inventory_note": "Původní229–231 a všechny vrstvy errat potvrzují sekci bez cvičení i bez odpovědí; 28 jednotek historického textu vedeno odděleně.",
+      "bibliography_skips": [
+        "Page 229: Morrison1961 p.56; NPL1959 p.164; ACE1986 pagination; Bilateral Linkage; The Programmer1954 p.4.",
+        "Page 230: Mauchly1946 lecture; Bennett–Prinz–Woods1952; Gill1951 article; exact XPL appendix and Satterthwaite1972 edition.",
+        "Page 231: Exact Leiner1954, Mock–Swift1958/59, Loopstra1959, Genuys1968, Ferguson1960 editions and original location of the closing quotation."
+      ],
+      "remaining_factual_checks": [
+        "Page 229: Dates and historical priority of early subroutines and coroutines remain unverified in the precise scope recorded in the review.",
+        "Page 230: Some early-interpreter attribution, the Bell/Speedcoding relationship, adoption claims and the date/priority of tracing remain unverified.",
+        "Page 231: Early buffering dates and priority, and the attribution/date of the closing quotation remain unverified."
+      ]
+    },
+    {
+      "section": "2.2.1",
+      "title": "Stacks, Queues, and Deques",
+      "page_start_hint": 238,
+      "source_md": "md/vol1/31-2.2.1-stacks-queues-deques.md",
+      "main_text_status": "partial",
+      "main_text_ledger_refs": [
+        "V1-X0016",
+        "V1-X0218",
+        "V1-X0220",
+        "V1-X0962"
+      ],
+      "exercise_inventory_status": "checked",
+      "exercise_inventory_note": "Sken s. 242–243 potvrzuje první dotisk, cvičení 1–14; pozdější dodatky se vedou samostatně.",
+      "remaining_notes": [
+        "All 14 original exercises have general mathematical checks, including the corrected linear deque algorithm. Citation-only exceptions are explicit under the 2026-11-05 instructions.",
+        "Main text remains partial solely for historical factual claims on printed page 240."
+      ],
+      "bibliography_skips": [
+        "Full Barton–Mallows 1965 survey not read; local ballot mathematics and other primary historical passages are checked.",
+        "Full Ramanan 1984 article and its precise auxiliary-memory model not read.",
+        "Original Rosenstiehl–Tarjan 1984 pages 389–390 not read; the corrected linear algorithm is independently proved.",
+        "Private transmission of Melville’s solution in 1980 not independently documented; the primary Hood–Melville report supports the method and year."
+      ],
+      "remaining_factual_checks": [
+        "Page 240: attribution of the railway analogy, some historical synonyms and their adoption."
+      ]
+    },
+    {
+      "section": "2.2.2",
+      "title": "Sequential Allocation",
+      "page_start_hint": 244,
+      "source_md": "md/vol1/32-2.2.2-sequential-allocation.md",
+      "main_text_status": "partial",
+      "main_text_ledger_refs": [
+        "V1-X0227",
+        "V1-X0229",
+        "V1-X0233",
+        "V1-X0234",
+        "V1-C0035",
+        "V1-X0804",
+        "V1-X0964"
+      ],
+      "exercise_inventory_status": "checked",
+      "exercise_inventory_note": "Originály251–254 potvrzují1–19; rating18 jeM30, nikoliOCR M50.",
+      "bibliography_skips": [
+        "Full Wise–Watson 1976, BIT 16, 442–450, not read; metadata and archive inventory only.",
+        "Full Fraenkel 1979, Information Processing Letters 8, 9–10, not read; metadata only."
+      ],
+      "remaining_factual_checks": [
+        "C0035: whether Algorithm G permits initialization (11) or exclusively (13), affecting the first interval in exercise 18.",
+        "Printed545 piano-counting anecdote attributed to Dijkstra lacks a direct historical source."
+      ]
+    },
+    {
+      "section": "2.2.3",
+      "title": "Linked Allocation",
+      "page_start_hint": 254,
+      "source_md": "md/vol1/33-2.2.3-linked-allocation.md",
+      "main_text_status": "partial",
+      "main_text_ledger_refs": [
+        "V1-X0249",
+        "V1-X0250",
+        "V1-X0251",
+        "V1-X0256",
+        "V1-X0257",
+        "V1-X0258",
+        "V1-X0965"
+      ],
+      "exercise_inventory_status": "checked",
+      "exercise_inventory_note": "Originály268–273 potvrzují1–30; 25 nemá tištěnou odpověď. Náhrada30 z roku2021 není přidané číslo. Rating13 původně M48, později HM48.",
+      "bibliography_skips": [
+        "Full Sha–Kleitman1987 and Winning Ways3 chapter21 unavailable after a brief source search. Mathematical claims have independent proofs.",
+        "The cultural song reference in answer9 is not independently checked."
+      ],
+      "remaining_factual_checks": [
+        "Printed268: priority claim without Sierpinski1928 p158; Kahn1962 queue-link comparison without the full paper."
+      ]
+    },
+    {
+      "section": "2.2.5",
+      "title": "Doubly Linked Lists",
+      "page_start_hint": 280,
+      "source_md": "md/vol1/35-2.2.5-doubly-linked-lists.md",
+      "main_text_status": "partial",
+      "main_text_ledger_refs": [
+        "V1-X0269",
+        "V1-X0270",
+        "V1-X0275",
+        "V1-X0276",
+        "V1-X0277",
+        "V1-X0967"
+      ],
+      "exercise_inventory_status": "checked",
+      "exercise_inventory_note": "Originály297–298 potvrzují1–12; úloha10 nemá tištěnou odpověď. Nové erratum2024 opravuje rozsah řádků8, nepřidává úlohu.",
+      "remaining_factual_checks": [
+        "Historical physical observations of the Caltech elevator were not independently measured.",
+        "Printed291: the frequency claim that the pool rarely exceeds10 nodes lacks supporting data.",
+        "Printed296: original VALUES for26 users through time10000 unavailable; profile counts1432/437/407/32/142 not independently reproduced.",
+        "Printed297/554: historical Caltech and Stanford elevator anecdotes not independently verified."
+      ]
+    },
+    {
+      "section": "2.3",
+      "title": "Trees",
+      "page_start_hint": 308,
+      "source_md": "md/vol1/37-2.3-trees.md",
+      "main_text_status": "partial",
+      "main_text_ledger_refs": [
+        "V1-X0354",
+        "V1-X0905",
+        "V1-X0969"
+      ],
+      "exercise_inventory_status": "checked",
+      "inventory_evidence": [
+        "parallel/tree-traversal/HANDOFF.md",
+        "parallel/tree-traversal/notes/inventory.md"
+      ],
+      "errata_ledger_refs": [
+        "V1-X0415",
+        "V1-C0050"
+      ],
+      "bibliography_skips": [
+        "Exact Burke1959 and GHdA Fürstliche Häuser I1951 editions unavailable. The recorded genealogy is independently supported by X0905; these editions are not declared read."
+      ],
+      "remaining_factual_checks": [
+        "Page311: author-reported two-year trial and more-than-80-percent empirical survey lack the original sample and records."
+      ]
+    },
+    {
+      "section": "2.3.1",
+      "title": "Traversing Binary Trees",
+      "page_start_hint": 318,
+      "source_md": "md/vol1/38-2.3.1-traversing-binary-trees.md",
+      "main_text_status": "partial",
+      "main_text_ledger_refs": [
+        "V1-X0377",
+        "V1-X0970",
+        "V1-C0092"
+      ],
+      "exercise_inventory_status": "checked",
+      "inventory_evidence": [
+        "parallel/tree-traversal/HANDOFF.md",
+        "parallel/tree-traversal/notes/inventory.md"
+      ],
+      "errata_ledger_refs": [
+        "V1-X0415",
+        "V1-C0050"
+      ],
+      "remaining_factual_checks": [
+        "C0092: whether the printed nonempty-input qualification is intended to cover all timing tables and formulas."
+      ],
+      "bibliography_skips": [
+        "Full Perlis–Thornton1960,CACM3,195–204 and its historical attribution.",
+        "Full Blikle1966,Bulletin14,203–208, including the exact six-addressless-order attribution."
+      ]
+    },
+    {
+      "section": "2.3.2",
+      "title": "Binary Tree Representation of Trees",
+      "page_start_hint": 334,
+      "source_md": "md/vol1/39-2.3.2-binary-tree-representation.md",
+      "main_text_status": "partial",
+      "main_text_ledger_refs": [
+        "V1-X0299",
+        "V1-X0300",
+        "V1-X0301",
+        "V1-X0302",
+        "V1-X0325",
+        "V1-X0971"
+      ],
+      "exercise_inventory_status": "checked",
+      "exercise_inventory_note": "Obrazy346–348 a571–575:22původníchúloh,žádná přidaná; odpověď19 doplněna2024.",
+      "remaining_factual_checks": [
+        "The exact1952 start date of working differentiation is not established by the acquired primary sources.",
+        "The succession illustration is a qualified preorder model; universal historical rules for all peerages/dynasties have not been established.",
+        "The period claim about facilities at most computer installations on printed339 has no independent support in the acquired material."
+      ]
+    },
+    {
+      "section": "2.3.3",
+      "title": "Other Representations of Trees",
+      "page_start_hint": 348,
+      "source_md": "md/vol1/40-2.3.3-other-representations.md",
+      "main_text_status": "partial",
+      "main_text_ledger_refs": [
+        "V1-X0286",
+        "V1-X0287",
+        "V1-X0288",
+        "V1-X0289",
+        "V1-X0298",
+        "V1-X0545",
+        "V1-X0812",
+        "V1-X0972",
+        "V1-C0094",
+        "V1-C0095"
+      ],
+      "exercise_inventory_status": "checked",
+      "exercise_inventory_note": "Přímo obrazy359–362 a575–577:19původních,žádná přidaná; doplněné odpovědi14/15. Úloha13 máM29.",
+      "remaining_factual_checks": [
+        "V1-C0095: the strength of the informal speed claim remains unresolved; correctness of Algorithm A is checked."
+      ],
+      "bibliography_skips": [
+        "Salton, CACM 5 (1962), 103–114, DOI 10.1145/366792.366828, or ISR-1/AFCRL-62-77, II-1–II-44: exact metadata available, full relevant text unavailable.",
+        "Forward references to §7.4.1.1 and Chapter 8 are not present in the supplied completed volumes."
+      ]
+    },
+    {
+      "section": "2.3.5",
+      "title": "Lists and Garbage Collection",
+      "page_start_hint": 408,
+      "source_md": "md/vol1/48-2.3.5-lists-garbage-collection.md",
+      "main_text_status": "partial",
+      "main_text_ledger_refs": [
+        "V1-X0448",
+        "V1-X0449",
+        "V1-X0450",
+        "V1-X0451",
+        "V1-C0072",
+        "V1-X0802",
+        "V1-X0805",
+        "V1-X0807",
+        "V1-X0979"
+      ],
+      "exercise_inventory_status": "checked",
+      "bibliography_skips": [
+        "Exact1965 discovery dates and personal Floyd/Deutsch/Edwards/Minsky attributions are not independently established.",
+        "The full Thorelli1972 article is unavailable; journal printings of Friedman–Wise and Baker were not collated against the accepted accessible versions."
+      ]
+    },
+    {
+      "section": "2.4",
+      "title": "Multilinked Structures",
+      "page_start_hint": 424,
+      "source_md": "md/vol1/49-2.4-multilinked-structures.md",
+      "main_text_status": "partial",
+      "main_text_ledger_refs": [
+        "V1-X0524",
+        "V1-X0525",
+        "V1-X0526",
+        "V1-X0527",
+        "V1-X0528",
+        "V1-X0529",
+        "V1-X0546",
+        "V1-X0980"
+      ],
+      "exercise_inventory_status": "checked",
+      "main_text_note": "Matematika zkontrolována, hlavní text partial pro nedoložený počet nejméně šesti nezávislých objevitelů na433.",
+      "bibliography_skips": [
+        "Original Lawson 1962 facsimile and exhaustive publication priority not independently checked.",
+        "Dahm personal attribution and exact year1965, and Wise contributions to exercises4/15, lack independent primary evidence.",
+        "The complete COBOL1961 standard was unavailable; the recorded IBM1964 comparison is bounded.",
+        "The newly obtained undated D’Imperio scan has81pages and no usable extracted text. Only its title was read; its full historical content was skipped."
+      ]
+    },
+    {
+      "section": "2.5",
+      "title": "Dynamic Storage Allocation",
+      "page_start_hint": 435,
+      "source_md": "md/vol1/50-2.5-dynamic-storage-allocation.md",
+      "main_text_status": "partial",
+      "main_text_ledger_refs": [
+        "V1-X0602",
+        "V1-X0981"
+      ],
+      "exercise_inventory_status": "checked",
+      "bibliography_skips": [
+        "Unavailable exact journal texts on the fifty-percent rule and empirical allocation comparisons are listed in the sequential review.",
+        "Coffman–Leighton 1986 and the revised Wilson survey were read earlier; the exact cited journal/book versions were not collated."
+      ]
+    },
+    {
+      "section": "2.6",
+      "title": "History and Bibliography",
+      "page_start_hint": 457,
+      "source_md": "md/vol1/51-2.6-history-bibliography.md",
+      "main_text_status": "partial",
+      "main_text_ledger_refs": [
+        "V1-X0657",
+        "V1-X0658",
+        "V1-X0659",
+        "V1-X0660",
+        "V1-X0982"
+      ],
+      "exercise_inventory_status": "checked",
+      "exercise_inventory_note": "Přímo prohlédnuté457–465 a všechny4 vrstvy errat:0 původních/0 přidaných cvičení;2 původní a1 přidaný citát v hlavním textu.",
+      "bibliography_skips": [
+        "Exact Collected Works V pages 113–116, GMD report 63, Garwick 1964, Mauchly Lecture 37 and Luhn memorandum were not obtained. Historical dates and priorities remain separately unverified.",
+        "Exact IPL 1956/1957 publications and complete Carr/Ross texts were not read. Dates and explicit priority claims remain partial.",
+        "Exact Schlatter, ACE 1986, KLS 1962, Hellerman/Gower, Kahrimanian, RC390/603, Salton and complete Perlis–Thornton versions were not collated.",
+        "Holt dissertation, RC390/603 terminology, Oettinger, Gorn, complete FLPL and exact Bobrow–Raphael/Woodward–Jenkins journal versions were not read.",
+        "Exact LISP history 1981, COMIT 1963, SNOBOL 1964, Collins papers, Weizenbaum 1964 letter, full Cohen–Trilling, EULER 1966, Lawson 1967, Hoare 1968 pages 262–284 and Comfort 1964 versions remain unverified.",
+        "Markowitz/Knowlton full papers, SASP, Berztiss, Ross 1967, exact d’Imperio 1969 pagination, full CACM symposium contents and Earley 1971 were not collated.",
+        "Separate Kolmogorov 1953 publication and AMS 1963 translation were not read; the model and 1952 date are supported by the original 1958 article.",
+        "Original Carroll galley proofs and Bartley editions were not obtained. This quotation was added by later errata and is absent from the 1997 page."
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "V1-C0009",
+      "target": "§1.2.6-53(b), s. 73: implicitní omezení m,n v prefixové formuli",
+      "status": "candidate",
+      "note": "Při převzetí celočíselného oboru části (a) dává m=-1,n=1 prázdný součet 0 a pravou stranu 1. Vzorec je dokázán pro n>=1,m>=0. Kandidát ponechán kvůli nejistotě, zda tento obor nebyl zamýšlen implicitně.",
+      "evidence": [
+        "reports/V1-C0009.txt",
+        "notes/binomial-exercises.md",
+        "images/vol1-file088-p73.png",
+        "sources/errata-refresh-2026-11-01.json",
+        "notes/sequential-binomial-2026-11-05.md"
+      ],
+      "author_erratum_found": false,
+      "novelty": "not_established",
+      "physical_copy_verified": false
+    },
+    {
+      "id": "V1-C0020",
+      "target": "§1.3.1, s.138/141: čas HLT v souhrnné tabulce",
+      "status": "candidate",
+      "note": "Tabulka C=05 uvádí10 pro skupinuNUM/CHAR/HLT, souvislý text1+čekání proHLT. Může jít o zkratku tabulkové konvence, nikoli novou chybu; zatím nepotvrzeno.",
+      "evidence": [
+        "notes/mix-scope.md",
+        "images/vol1-file153-p138.png",
+        "images/vol1-file156-p141.png",
+        "sources/mix-description-errata-extract.json",
+        "notes/sequential-mix-2026-11-05.md"
+      ]
+    },
+    {
+      "id": "V1-C0028",
+      "target": "§1.3.3 Program A, s.168–169: vstupní zápis identity ()",
+      "status": "candidate",
+      "note": "Přesný běh pro () zapisuje opakovaně znak= a opustí vyhrazené pole ANS, místo aby vytvořil identitu. Prefix ověřen pro radix64,65,100. Zbývá vyhodnotit, zda specifikace vstupu tuto identitu připouští; zatím nejde o potvrzený nález.",
+      "evidence": [
+        "mixal_permutation_a.py",
+        "check_permutation_a_edgecases.py",
+        "results/permutation-a-empty-cycle.json",
+        "images/vol1-file179-p164.png",
+        "images/vol1-file183-p168.png",
+        "images/vol1-file184-p169.png",
+        "notes/permutation-a-capacity.md",
+        "notes/sequential-permutations-2026-11-05.md"
+      ],
+      "finding_scope": "book"
+    },
+    {
+      "id": "V1-C0035",
+      "target": "§2.2.2-18,254/544: chybějící počáteční člen v amortizované mezi",
+      "status": "candidate",
+      "note": "Při inicializaci11 a m=1,M=n² vyvolá I1 smyčky G/R cenyΩ(n), alealpha1=0 dáváO(1). Při výhradním výkladu inicializace13 tento příklad odpadá; věta as before na248 je nejednoznačná. Nezávislý agent souhlasí s výpočtem i ponecháním jako candidate.",
+      "evidence": [
+        "notes/sequential-initial-amortization.md",
+        "parallel/linked-allocation/notes/review-sequential-overflow.md",
+        "images/vol1-file269-p254.png",
+        "images/vol1-file559-p544.png",
+        "notes/sequential-allocation-2026-11-05.md",
+        "sources/sequential-2026-11-05/sequential-allocation-errata-extract.json"
+      ]
+    },
+    {
+      "id": "V1-C0039",
+      "target": "§1.4.3.2,214 bod6(a): čtení měněné soukromé paměti traceru",
+      "status": "candidate",
+      "note": "Původní omezení zakazuje jen zápis. LDA AREG přiAREG=0,A=1 dá nativně0 a pod tracerem1, doloženo všech37radixů. Originál214 kořenově zobrazen a důkaz revidován. Redakční význam zůstává nejistý kvůli implicitní rezervaci soukromé paměti; nejde o potvrzený algoritmický nález. Všechna4errata bez příslušné změny.",
+      "evidence": [
+        "notes/interpretive-root-review.md",
+        "parallel/interpretive/trace-private-read.txt",
+        "parallel/interpretive/results/extensions.json",
+        "parallel/interpretive/images/vol1-p214.png",
+        "notes/sequential-interpreters-2026-11-05.md",
+        "sources/sequential-2026-11-05/interpreters-errata-extract.json"
+      ]
+    },
+    {
+      "id": "V1-C0045",
+      "target": "§2.3-11(c),317/562: počet kardinálních úrovní",
+      "status": "candidate",
+      "note": "Každý uzel tištěného příkladu má právě c předků, takže množina různých level má jediný prvek. Kořenově prohlédnuty317/562 a výpočet. Candidate kvůli možnému neformálnímu významu nespočetné délky hierarchie; vnoření a stupeň2 jsou správné. Čtyři errata bez příslušné opravy.",
+      "evidence": [
+        "reports/V1-C0045.txt",
+        "notes/tree-findings-root-review.md",
+        "parallel/tree-traversal/notes/infinite-level-candidate.md",
+        "parallel/tree-traversal/images/p317.png",
+        "parallel/tree-traversal/images/p562.png"
+      ]
+    },
+    {
+      "id": "V1-C0046",
+      "target": "§2.3.1-32,570: předpoklad inicializace LLINK(Q)",
+      "status": "candidate",
+      "note": "Při starém LLINK(Q)=P vznikne po vložení pod jedinýP cyklus. Kořenově prohlédnuty327/333/570. Pokud však single node znamená již inicializovaný izolovaný list, odpověď funguje; proto candidate pro kontrakt, nikoli potvrzená vada. Čtyři errata bez příslušné změny.",
+      "evidence": [
+        "reports/V1-C0046.txt",
+        "notes/tree-findings-root-review.md",
+        "parallel/tree-traversal/notes/ex32-left-link-candidate.md",
+        "parallel/tree-traversal/images/p327.png",
+        "parallel/tree-traversal/images/p333.png",
+        "parallel/tree-traversal/images/p570.png",
+        "notes/sequential-traversal-2026-11-05.md",
+        "sources/sequential-2026-11-05/traversal-errata-extract.json"
+      ]
+    },
+    {
+      "id": "V1-C0049",
+      "target": "§2.3.1-19,566: chybějící kořenový hraniční případ",
+      "status": "candidate",
+      "note": "U singletonu doslovný postorder následník vrátí kořen místoHEAD. Doplnění testuQ=HEAD opraví; candidate kvůli prozaickému basic idea a možnému externímu ošetření konce.",
+      "evidence": [
+        "reports/V1-C0049.txt",
+        "notes/traversal-findings-root-review.md",
+        "parallel/tree-traversal/notes/postorder-root-candidate.md",
+        "parallel/tree-traversal/tree_algorithms.py",
+        "parallel/tree-traversal/results/algorithms.json",
+        "parallel/tree-traversal/images/p321.png",
+        "parallel/tree-traversal/images/p324.png",
+        "parallel/tree-traversal/images/p566.png",
+        "notes/sequential-traversal-2026-11-05.md",
+        "sources/sequential-2026-11-05/traversal-errata-extract.json"
+      ]
+    },
+    {
+      "id": "V1-C0071",
+      "target": "§2.3.4.4-17,590: výlučné prvenství formule připisované Katzovi",
+      "status": "candidate",
+      "note": "Zpráva Rubina–Sitgreavesové datovaná22.1.1954 má stejnou formuli a Katz ji uznává; datum jeho soukromého objevu není doloženo. Matematický vzorec správný, historická priorita otevřená.",
+      "evidence": [
+        "reports/V1-C0071-katz-priority.txt",
+        "parallel/source-followup/notes/katz-priority-candidate.md",
+        "notes/source-followup-root-review.md",
+        "parallel/source-followup/results/katz-priority-errata-search.json",
+        "notes/sequential-enumeration-2026-11-05.md"
+      ]
+    },
+    {
+      "id": "V1-C0072",
+      "target": "§2.3.5,422: pořadí slov ve Wildeově citátu",
+      "status": "candidate",
+      "note": "Oba originály přímo porovnány: původní1894 má that nowadays, kniha nowadays / that. Znění doloženo, autorizovaná varianta či redakční adaptace nevyloučena; původní článek nepodepsaný.",
+      "evidence": [
+        "reports/V1-C0072-wilde-word-order.txt",
+        "parallel/tree-history/notes/wilde-quotation.md",
+        "parallel/tree-history/results/wilde-errata-search.json",
+        "notes/tree-history-root-review.md"
+      ]
+    },
+    {
+      "id": "V1-C0074",
+      "target": "§2.5-27,611–612: kladný sentinel s nulovým dopředným odkazem",
+      "status": "candidate",
+      "note": "LD4N vytvoří zápornou nulu a J4NN pokračuje místo zastavení. Nenulový odkaz podmínku opraví; implicitní inicializace běžné prázdné hlavy ji mohla již dodávat.74 doložených případů, původní program i všechny vrstvy.",
+      "evidence": [
+        "reports/V1-C0074-buddy-sentinel.txt",
+        "notes/allocation-conventions-root-review.md",
+        "parallel/dynamic-storage/reproduce_sentinel.py",
+        "parallel/dynamic-storage/results/sentinel-minimal.json",
+        "parallel/dynamic-storage/results/sentinel-errata-terms.json",
+        "notes/sequential-dynamic-storage-2026-11-05.md",
+        "sources/sequential-2026-11-05/dynamic-storage-errata-extract.json"
+      ]
+    },
+    {
+      "id": "V1-C0076",
+      "target": "Rejstřík628, Swift: adaptovaný úvod epigrafu",
+      "status": "candidate",
+      "note": "Doslovná odchylka proti třetímu vydání1704 doložena. Může jít o úmyslné osamostatnění citátu; jiné autorizované varianty nebyly vyčerpány.",
+      "evidence": [
+        "reports/V1-C0076-swift-quotation-opening.txt",
+        "notes/index-historical-root-review.md",
+        "results/index-amm-swift-errata.json",
+        "images/index-p628.png",
+        "images/swift-file010.png",
+        "images/swift-file298.png",
+        "images/swift-file333.png",
+        "images/swift-file334.png",
+        "notes/sequential-index-2026-11-06.md"
+      ]
+    },
+    {
+      "id": "V1-C0077",
+      "target": "Úvody all1/err1: rozpor roku prvního tisku 27. dotisku",
+      "status": "candidate",
+      "note": "Aktuální úvody spojují27.dotisk s2022; all1-pre uvádí27.dotisk2011 a49.dotisk2022. Rozpor přímo přečten ze sazby. Oprava27th→49th pravděpodobná, příslušné tiráže neověřeny; jeden redakční kandidát společný oběma seznamům.",
+      "evidence": [
+        "notes/errata-additions-root-review.md",
+        "parallel/errata-additions/notes/printing-introduction-mismatch.md",
+        "parallel/errata-additions/printing-introduction-mismatch.txt",
+        "parallel/errata-additions/images/all1-pre-01.png",
+        "parallel/errata-additions/images/all1-01.png",
+        "parallel/errata-additions/images/err1-01.png",
+        "parallel/errata-additions/results/evidence-snapshot.json"
+      ]
+    },
+    {
+      "id": "V1-C0078",
+      "target": "Rejstřík631 a649: Ludolph van Ceulen odkazuje na596 bez odpovídajícího obsahu",
+      "status": "candidate",
+      "note": "Celá původní596 přímo přečtena; odpovědi o optimálních stromech neobsahují nalezený Ceulenův kontext. Všechny erratové vrstvy bez výslovné opravy, ale deletce hesel se nemusely vypisovat. Pozdější úplný rejstřík zatím chybí. X0687 přímo potvrdil i obrácené heslo649; jde o tentýž kandidát.",
+      "evidence": [
+        "notes/index-reference-review.md",
+        "parallel/index-continuation/p631-635/notes/ceulen-596-target.md",
+        "parallel/index-continuation/p631-635/sources/errata-search.json",
+        "images/index-p631.png",
+        "parallel/tree-path-length/images/p596.png",
+        "reports/V1-C0078-ceulen-index-draft.txt",
+        "parallel/index-continuation/p646-650/notes/reverse-candidates.md",
+        "parallel/index-continuation/p646-650/sources/errata-search.json",
+        "notes/sequential-index-2026-11-06.md"
+      ]
+    },
+    {
+      "id": "V1-C0080",
+      "target": "Rejstřík639 a646: srovnání linked/sequential odkazuje296 místo přesnější298",
+      "status": "candidate",
+      "note": "Původní296 končí výtahovým programem a profilingem; přímé srovnání je v úloze2.2.5-12 na298. Root oba cíle i639 obrazově porovnal. Bez odpovídající opravy ve čtyřech vrstvách; široký význam odkazu a nedostupný pozdější rejstřík zůstávají meze. X0687 nově přímo dokládá stejný odkaz v obráceném hesle646; stejný kandidát, nikoli další nález.",
+      "evidence": [
+        "notes/index-reference-review.md",
+        "parallel/index-continuation/p636-640/notes/linked-sequential-candidate.md",
+        "parallel/index-continuation/p636-640/sources/errata-search.json",
+        "images/index-p639.png",
+        "parallel/index-continuation/p636-640/images/p296.png",
+        "images/vol1-file313-p298.png",
+        "reports/V1-C0080-linked-sequential-index-draft.txt",
+        "parallel/index-continuation/p646-650/notes/reverse-candidates.md",
+        "parallel/index-continuation/p646-650/sources/errata-search.json",
+        "notes/sequential-index-2026-11-06.md"
+      ]
+    },
+    {
+      "id": "V1-C0082",
+      "target": "Oprava s.111 z21.3.2021: Eulerův ročník8 uveden1735, titul má1736",
+      "status": "candidate",
+      "note": "Původní titul8 má AD ANNUM MDCCXXXVI a tisk1741;1735 je podle EulerArchive rok sepsání. Možná oprava8(1736),9–22. Nejde o chybu prvního tisku1997 ani záměnu tiskového roku. Neověřený záměr datační konvence a pozdější úplný tisk ponechávají candidate; žádná další odpovídající veřejná oprava nenalezena.",
+      "evidence": [
+        "notes/euler-summation-originals.md",
+        "sources/euler-summation-followup/errata-date-review.json",
+        "images/errata-all1-pre-file008.png",
+        "images/euler-summation-followup/commentariiacade08impe-pdf007-ptitle.png",
+        "reports/V1-C0082-euler-volume-year-draft.txt",
+        "notes/sequential-asymptotics-2026-11-05.md",
+        "sources/sequential-2026-11-05/asymptotic-current-images.json",
+        "images/sequential-2026-11-05/all1-pre-page008-current.png"
+      ],
+      "finding_scope": "errata"
+    },
+    {
+      "id": "V1-C0084",
+      "target": "Rejstřík650: z pro komplexní čísla odkazuje108 místo přesné109",
+      "status": "candidate",
+      "note": "Root přímo porovnal650/21/108/109. Na108 je obecná O-notace; výslovný odstavec o komplexnímz začíná109. Bez odpovídající opravy ve4vrstvách; širší kontextové čtení108 a chybějící pozdější rejstřík zůstávají meze. Místní ASCII návrh neodeslán.",
+      "evidence": [
+        "notes/index-reference-review.md",
+        "parallel/index-continuation/p646-650/notes/complex-z-108.md",
+        "parallel/index-continuation/p646-650/sources/errata-search.json",
+        "images/index-p650.png",
+        "parallel/index-continuation/p646-650/images/target-p108.png",
+        "parallel/index-continuation/p646-650/images/target-p109.png",
+        "reports/V1-C0084-complex-z-index-draft.txt",
+        "notes/sequential-index-2026-11-06.md"
+      ]
+    },
+    {
+      "id": "V1-C0087",
+      "target": "§1.2.5-13,s.51: přesný rok1682 uLeibnizovy znalostiWilsonovy věty",
+      "status": "candidate",
+      "note": "Identifikovaný list21r má v moderním pracovním katalogu přibližnou dataci1703; Mahnke jej řadí mezi1681/1682 bez vlastního data a Vaccovo před1683 patříFermatovi. Autorství doloženo, dřívější znalost nevyloučena, ediční datovací důkaz chybí. Nenavrhuje se bezvýhradná náhrada1703 ani potvrzená chyba. Ve4vrstvách nenalezena odpovídající oprava; místní návrh neodeslán.",
+      "evidence": [
+        "notes/leibniz-stickelberger-root-review.md",
+        "parallel/factorial-primary-followup/leibniz-stickelberger/MANIFEST.json",
+        "results/leibniz-stickelberger-root-manifest.json",
+        "parallel/factorial-primary-followup/leibniz-stickelberger/results/catalog-records.json",
+        "reports/V1-C0087-leibniz-date-draft.txt"
+      ]
+    },
+    {
+      "id": "V1-C0089",
+      "target": "§1.2.5 s.49: kvalifikace tvrzení he was the first to find",
+      "status": "candidate",
+      "note": "Bernoulliho starší datovaný dopis obsahuje ekvivalentní obecnou limitu. Euler však zmiňuje předchozí komunikaci; pořadí objevu ani Bernoulliho prvenství z toho neplyne. Možný užší kontext porovnání se Stirlingem. Datový rozpor6/10října v pramenech zachován.",
+      "evidence": [
+        "notes/euler-priority-root-candidate.md",
+        "notes/stirling-euler-legendre-root-review.md",
+        "results/stirling-euler-legendre-root-manifest.json",
+        "parallel/factorial-primary-followup/stirling-euler-legendre/reports/euler-first-generalization.txt"
+      ]
+    },
+    {
+      "id": "V1-C0090",
+      "target": "§2.3.1–21,567: Dwyerův rok1973 proti původní hlavičce1974",
+      "status": "candidate",
+      "note": "Původní143 a vydavatelské údaje podporují1974, ale původní rejstřík2001 na339 má1973 pro celé2(5), od2(6)1974. Obálka/tiráž chybí; odlišné nominální datum není doloženo a received15Dec1973 neurčuje den vydání. Bibliografický kandidát, nikoli chyba W či tvrzení priority.",
+      "evidence": [
+        "notes/tree-traversal-originals-root-review.md",
+        "results/tree-traversal-originals-root-manifest.json",
+        "reports/V1-C0090-dwyer-year-draft.txt",
+        "notes/sequential-traversal-2026-11-05.md",
+        "sources/sequential-2026-11-05/traversal-errata-extract.json"
+      ]
+    },
+    {
+      "id": "V1-C0092",
+      "target": "§2.3.1, s.325–326/567–568: doména časových vzorců pro prázdný strom",
+      "status": "candidate",
+      "note": "Prázdný T, spojový T i U vykonají LD5/J5Z za3u; formule T dává4u a U−3u. Chybí výslovná doména n>0 přímo u součtů, ale kvalifikace assuming n≠0 na326 může být míněna pro celý rozbor. Kandidát na upřesnění domény, nikoli vada průchodu. Dřívější pozorování nyní samostatně evidováno, bez nových běhů. Čtyři vrstvy5.11.2026 bez příslušné opravy.",
+      "evidence": [
+        "notes/sequential-traversal-2026-11-05.md",
+        "parallel/tree-traversal/notes/traversal-proofs.md",
+        "parallel/tree-traversal/notes/optimized-time-candidate.md",
+        "sources/sequential-2026-11-05/traversal-errata-extract.json",
+        "parallel/tree-traversal/images/p324.png",
+        "parallel/tree-traversal/images/p325.png",
+        "parallel/tree-traversal/images/p326.png",
+        "parallel/tree-traversal/images/p567.png",
+        "parallel/tree-traversal/images/p568.png"
+      ]
+    },
+    {
+      "id": "V1-C0095",
+      "target": "§2.3.3,359: rozsah slibu rychlejšího sčítání polynomů",
+      "status": "candidate",
+      "note": "Pro P=x a Q=x+...+x^n projde A4 všech n koeficientů Q; seznamový algoritmus také, oba jsou na této rodině Theta(n). Málo členů P samo nezaručuje možnost přeskakovat velké části Q. Tvrzení much faster je neformální, proto candidate-low, nikoli potvrzená chyba výsledku či přesného strojového poměru. Originál a malé trasy n<=64 ověřeny; čtyři vrstvy errat bez kvalifikace.",
+      "evidence": [
+        "notes/sequential-other-trees-2026-11-05.md",
+        "sources/sequential-2026-11-05/other-trees-errata-extract.json",
+        "images/vol1-file374-p359.png",
+        "check_tree_addition_boundary_notes.py",
+        "results/sequential-tree-addition-boundary-notes.json",
+        "tree_polynomials.py",
+        "notes/sequential-circular-lists-2026-11-05.md"
+      ]
+    }
+  ],
+  "other_required_units": [
+    {
+      "target": "Úvodní stránky a úvody kapitol",
+      "status": "partial",
+      "note": "Tiráž, předmluvy, procedura a obsah kontrolovány v dřívějších blocích. X0663: celé xv–xvii přímo z náhledu červen 2026 a sedm změn; první tisk chybí, externí prameny částečné. Čtyři úvodní úlohy vedeny odděleně od 932 sekčních. X0681 doplňuje chybějící původní i; společná mez X0024 nyní zahrnuje i,xv–xvii,xx."
+    },
+    {
+      "target": "Úplnost párování zadání a odpovědí, s. 466–618",
+      "status": "checked",
+      "note": "X0666: všech 932 původních sekčních úloh explicitně spárováno; 864 individuálních, 13 ve společných odpovědích, 55 bez samostatné odpovědi. Všechny OCR výjimky přímo vyřešeny. Aktuální obsahové stavy se počítají ze scope; úvodní a erraty přidané úlohy zvlášť. X0983: souvislé originály a přijaté důkazy znovu přezkoušeny; žádný nový nález, přesné lokace a bibliografické výjimky zapsány."
+    },
+    {
+      "target": "Appendix A, s. 619–622",
+      "status": "partial",
+      "note": "Všechny číslice, zlomky, vzorce a cíle odkazů prověřeny X0547. Zbývá pouze historický doklad tvrzení o Wrenchovi X0548; známé změny X0549. X0983: souvislé originály a přijaté důkazy znovu přezkoušeny; žádný nový nález, přesné lokace a bibliografické výjimky zapsány."
+    },
+    {
+      "target": "Appendix B, s. 623–627",
+      "status": "checked",
+      "note": "Všech105 původních hesel, přidaná suma a sedm známých změn prověřeny; jediný mezisvazkový odkaz v originálu Volume2. X0550–X0551. X0983: souvislé originály a přijaté důkazy znovu přezkoušeny; žádný nový nález, přesné lokace a bibliografické výjimky zapsány."
+    },
+    {
+      "target": "Rejstřík, s. 628–650",
+      "status": "partial",
+      "note": "X0984: všech23původních stran znovu přečteno.2090hesel:2059checked,10partial,14known_erratum,5candidate,2confirmed. Historické C75/C76 vedeny zvlášť. X0695:435výskytů změn,426checked,6partial,3confirmed=2nálezy pouze v erratech. Chybějící frontmatter, BIT imprint, nová Swiftova630 a kandidáti zůstávají explicitní; nezávislá biografie všech rozvedených jmen vynechána dle zadání.",
+      "inventory_status": "checked",
+      "ledger_refs": [
+        "V1-X0984"
+      ]
+    },
+    {
+      "target": "Dodatky a nové úlohy ve všech vrstvách errat",
+      "status": "partial",
+      "note": "X0671: všech 101 stran, šest nových čísel, sedm úplných přepisů a 145 obsahových skupin inventarizováno a propojeno na audit. Inventář úplný, všech šest přidaných čísel checked po původním Eulerově §2 v X0679. Zděděné obsahové a pramenné partial ostatních dodatků zůstávají; C0077 redakční rozpor úvodů.",
+      "inventory_status": "checked"
+    },
+    {
+      "target": "Závěrečná kontrola zdrojů a všech otevřených kandidátů",
+      "status": "partial",
+      "note": "Souvislý průchod všemi dostupnými stranami dokončen X0984; následuje revize zbývajících kandidátů a19částečných úloh. Čtyři vrstvy errat průběžně porovnány s oficiálním stavem z5.listopadu2026."
+    },
+    {
+      "target": "Appendix C, přidaný2011 na628–629",
+      "status": "checked",
+      "note": "X0590,593–594: všech143 položek a159 cílových stran, známé změny a přidaný Mallatův citát prověřeny. Vymezená kontrola rejstříku, nikoli opakování důkazů algoritmů. X0983: souvislé originály a přijaté důkazy znovu přezkoušeny; žádný nový nález, přesné lokace a bibliografické výjimky zapsány."
+    }
+  ],
+  "input_hashes": {
+    "workstreams/vol1/scope.json": "2cc7b6d0434e0c225d2f7e352cf8585f0a2ff58d1b9d6eaf5581004eea72c5a7",
+    "workstreams/vol1/ledger.json": "2f324901938f36c7a41c4c19f69bf3517d9211106ac451997f9ee13dc5baf55a",
+    "review-ui/page-coverage.json": "2b0ef2a4a45197c1ec6c2e60a942b308d3652ff930cb45fa4af5c204d2a52280"
+  }
+}

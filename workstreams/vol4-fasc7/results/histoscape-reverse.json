@@ -1,0 +1,891 @@
+{
+  "scope": "Fig103(d): all original black intervals and complete independent visibility of the2x2 histoscape. Coordinates agree with the180-degree z-axis reversal within printing precision.",
+  "projection_rows": [
+    [
+      "211/64",
+      "-23707031/2000000",
+      0,
+      "12871/32"
+    ],
+    [
+      "-47414063/12000000",
+      "-13171877/12000000",
+      "-1802226563/168000000",
+      "1537101563/6000000"
+    ]
+  ],
+  "view_direction_towards_camera": [
+    "-42725440998064453/336000000000000",
+    "-380269804793/10752000000",
+    "1210898725345703/24000000000000"
+  ],
+  "maximum_halfturn_vertex_residual_squared_before_refit": "54927609553/144000000000000",
+  "maximum_original_point_residual_squared": "110660839913/3136000000000000",
+  "junction_types": {
+    "W": 5,
+    "Y": 1,
+    "V": 6,
+    "T": 2
+  },
+  "junctions_total": 14,
+  "lines": 18,
+  "visible_physical_vertices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    11,
+    13,
+    14,
+    15
+  ],
+  "fully_erased_auxiliary_segments": 0,
+  "visibility": [
+    {
+      "edge": [
+        0,
+        1
+      ],
+      "intervals": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "edge": [
+        0,
+        4
+      ],
+      "intervals": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "edge": [
+        0,
+        14
+      ],
+      "intervals": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "edge": [
+        1,
+        3
+      ],
+      "intervals": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "edge": [
+        1,
+        7
+      ],
+      "intervals": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "edge": [
+        2,
+        3
+      ],
+      "intervals": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "edge": [
+        2,
+        5
+      ],
+      "intervals": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "edge": [
+        2,
+        10
+      ],
+      "intervals": []
+    },
+    {
+      "edge": [
+        3,
+        11
+      ],
+      "intervals": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "edge": [
+        4,
+        5
+      ],
+      "intervals": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "edge": [
+        4,
+        18
+      ],
+      "intervals": []
+    },
+    {
+      "edge": [
+        5,
+        13
+      ],
+      "intervals": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "edge": [
+        6,
+        7
+      ],
+      "intervals": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "edge": [
+        6,
+        8
+      ],
+      "intervals": []
+    },
+    {
+      "edge": [
+        6,
+        15
+      ],
+      "intervals": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "edge": [
+        7,
+        11
+      ],
+      "intervals": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "edge": [
+        8,
+        9
+      ],
+      "intervals": []
+    },
+    {
+      "edge": [
+        8,
+        16
+      ],
+      "intervals": []
+    },
+    {
+      "edge": [
+        9,
+        12
+      ],
+      "intervals": []
+    },
+    {
+      "edge": [
+        9,
+        17
+      ],
+      "intervals": []
+    },
+    {
+      "edge": [
+        10,
+        11
+      ],
+      "intervals": []
+    },
+    {
+      "edge": [
+        10,
+        13
+      ],
+      "intervals": [
+        [
+          "6593750/23707031",
+          1
+        ]
+      ]
+    },
+    {
+      "edge": [
+        12,
+        13
+      ],
+      "intervals": []
+    },
+    {
+      "edge": [
+        12,
+        19
+      ],
+      "intervals": []
+    },
+    {
+      "edge": [
+        14,
+        15
+      ],
+      "intervals": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "edge": [
+        14,
+        18
+      ],
+      "intervals": []
+    },
+    {
+      "edge": [
+        15,
+        16
+      ],
+      "intervals": [
+        [
+          0,
+          "6593750/23707031"
+        ]
+      ]
+    },
+    {
+      "edge": [
+        16,
+        17
+      ],
+      "intervals": []
+    },
+    {
+      "edge": [
+        17,
+        19
+      ],
+      "intervals": []
+    },
+    {
+      "edge": [
+        18,
+        19
+      ],
+      "intervals": []
+    }
+  ],
+  "printed_interval_trace": [
+    {
+      "path": 137,
+      "source_segment": [
+        3,
+        11
+      ],
+      "physical_edge": [
+        3,
+        11
+      ],
+      "interval": [
+        0,
+        1
+      ]
+    },
+    {
+      "path": 137,
+      "source_segment": [
+        11,
+        7
+      ],
+      "physical_edge": [
+        7,
+        11
+      ],
+      "interval": [
+        0,
+        1
+      ]
+    },
+    {
+      "path": 139,
+      "source_segment": [
+        5,
+        13
+      ],
+      "physical_edge": [
+        5,
+        13
+      ],
+      "interval": [
+        0,
+        1
+      ]
+    },
+    {
+      "path": 139,
+      "source_segment": [
+        13,
+        10
+      ],
+      "physical_edge": [
+        10,
+        13
+      ],
+      "interval": [
+        "6593750/23707031",
+        1
+      ]
+    },
+    {
+      "path": 141,
+      "source_segment": [
+        16,
+        15
+      ],
+      "physical_edge": [
+        15,
+        16
+      ],
+      "interval": [
+        0,
+        "6593750/23707031"
+      ]
+    },
+    {
+      "path": 143,
+      "source_segment": [
+        0,
+        4
+      ],
+      "physical_edge": [
+        0,
+        4
+      ],
+      "interval": [
+        0,
+        1
+      ]
+    },
+    {
+      "path": 143,
+      "source_segment": [
+        4,
+        5
+      ],
+      "physical_edge": [
+        4,
+        5
+      ],
+      "interval": [
+        0,
+        1
+      ]
+    },
+    {
+      "path": 143,
+      "source_segment": [
+        5,
+        2
+      ],
+      "physical_edge": [
+        2,
+        5
+      ],
+      "interval": [
+        0,
+        1
+      ]
+    },
+    {
+      "path": 143,
+      "source_segment": [
+        2,
+        3
+      ],
+      "physical_edge": [
+        2,
+        3
+      ],
+      "interval": [
+        0,
+        1
+      ]
+    },
+    {
+      "path": 143,
+      "source_segment": [
+        3,
+        1
+      ],
+      "physical_edge": [
+        1,
+        3
+      ],
+      "interval": [
+        0,
+        1
+      ]
+    },
+    {
+      "path": 145,
+      "source_segment": [
+        0,
+        1
+      ],
+      "physical_edge": [
+        0,
+        1
+      ],
+      "interval": [
+        0,
+        1
+      ]
+    },
+    {
+      "path": 145,
+      "source_segment": [
+        1,
+        7
+      ],
+      "physical_edge": [
+        1,
+        7
+      ],
+      "interval": [
+        0,
+        1
+      ]
+    },
+    {
+      "path": 145,
+      "source_segment": [
+        7,
+        6
+      ],
+      "physical_edge": [
+        6,
+        7
+      ],
+      "interval": [
+        0,
+        1
+      ]
+    },
+    {
+      "path": 145,
+      "source_segment": [
+        6,
+        15
+      ],
+      "physical_edge": [
+        6,
+        15
+      ],
+      "interval": [
+        0,
+        1
+      ]
+    },
+    {
+      "path": 145,
+      "source_segment": [
+        15,
+        14
+      ],
+      "physical_edge": [
+        14,
+        15
+      ],
+      "interval": [
+        0,
+        1
+      ]
+    },
+    {
+      "path": 145,
+      "source_segment": [
+        14,
+        0
+      ],
+      "physical_edge": [
+        0,
+        14
+      ],
+      "interval": [
+        0,
+        1
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "point": [
+        "12871/32",
+        "1537101563/6000000"
+      ],
+      "type": "W",
+      "physical_vertex": [
+        0
+      ],
+      "incident_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          14
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "point": [
+        "12871/32",
+        "1492914063/7000000"
+      ],
+      "type": "Y",
+      "physical_vertex": [
+        1
+      ],
+      "incident_edges": [
+        [
+          1,
+          7
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "point": [
+        "378511719/1000000",
+        "253988281/1000000"
+      ],
+      "type": "V",
+      "physical_vertex": [
+        4
+      ],
+      "incident_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ]
+    },
+    {
+      "point": [
+        "6541/16",
+        "7945/32"
+      ],
+      "type": "V",
+      "physical_vertex": [
+        14
+      ],
+      "incident_edges": [
+        [
+          0,
+          14
+        ],
+        [
+          14,
+          15
+        ]
+      ]
+    },
+    {
+      "point": [
+        "780730469/2000000",
+        "17822765617/84000000"
+      ],
+      "type": "W",
+      "physical_vertex": [
+        3
+      ],
+      "incident_edges": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          11
+        ],
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "point": [
+        "25953/64",
+        "3516614063/16800000"
+      ],
+      "type": "W",
+      "physical_vertex": [
+        7
+      ],
+      "incident_edges": [
+        [
+          1,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          11
+        ]
+      ]
+    },
+    {
+      "point": [
+        "780730469/2000000",
+        "37447757797/168000000"
+      ],
+      "type": "V",
+      "physical_vertex": [
+        2
+      ],
+      "incident_edges": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ]
+      ]
+    },
+    {
+      "point": [
+        "780730469/2000000",
+        "174164514563826173/796556241600000"
+      ],
+      "type": "T",
+      "physical_vertex": [],
+      "incident_edges": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          10,
+          13
+        ]
+      ]
+    },
+    {
+      "point": [
+        "378511719/1000000",
+        "12421117173/56000000"
+      ],
+      "type": "W",
+      "physical_vertex": [
+        5
+      ],
+      "incident_edges": [
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          13
+        ],
+        [
+          2,
+          5
+        ]
+      ]
+    },
+    {
+      "point": [
+        "787324219/2000000",
+        "2186358397/10500000"
+      ],
+      "type": "V",
+      "physical_vertex": [
+        11
+      ],
+      "incident_edges": [
+        [
+          3,
+          11
+        ],
+        [
+          7,
+          11
+        ]
+      ]
+    },
+    {
+      "point": [
+        "190904297/500000",
+        "36599554637/168000000"
+      ],
+      "type": "V",
+      "physical_vertex": [
+        13
+      ],
+      "incident_edges": [
+        [
+          5,
+          13
+        ],
+        [
+          10,
+          13
+        ]
+      ]
+    },
+    {
+      "point": [
+        "25953/64",
+        "40572820319/168000000"
+      ],
+      "type": "V",
+      "physical_vertex": [
+        6
+      ],
+      "incident_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          15
+        ]
+      ]
+    },
+    {
+      "point": [
+        "25953/64",
+        "314969508968374349/1327593736000000"
+      ],
+      "type": "T",
+      "physical_vertex": [],
+      "incident_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          15,
+          16
+        ]
+      ]
+    },
+    {
+      "point": [
+        "6541/16",
+        "39909023437/168000000"
+      ],
+      "type": "W",
+      "physical_vertex": [
+        15
+      ],
+      "incident_edges": [
+        [
+          6,
+          15
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          15,
+          16
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "status": "all assertions passed",
+  "table_1_rows": 45,
+  "known_erratum_1998": {
+    "fixed_point": 5008502835,
+    "three_cycle": [
+      225923640,
+      2811514413,
+      590051662
+    ]
+  },
+  "middle_square_100_basins": {
+    "0": 62,
+    "10": 19,
+    "24,57": 3,
+    "50": 1,
+    "60": 15
+  },
+  "middle_square_20bit_states": 1048576,
+  "middle_square_20bit_cycle_lengths": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    5,
+    10,
+    44,
+    142
+  ],
+  "detectors_mu_range": [
+    0,
+    127
+  ],
+  "detectors_lambda_range": [
+    1,
+    128
+  ],
+  "detector_cases": 16384,
+  "random_maps": [
+    {
+      "m": 1,
+      "functions": 1,
+      "rooted_orbits": 1,
+      "Q": "1",
+      "expected_cycle_count": "1"
+    },
+    {
+      "m": 2,
+      "functions": 4,
+      "rooted_orbits": 8,
+      "Q": "3/2",
+      "expected_cycle_count": "5/4"
+    },
+    {
+      "m": 3,
+      "functions": 27,
+      "rooted_orbits": 81,
+      "Q": "17/9",
+      "expected_cycle_count": "38/27"
+    },
+    {
+      "m": 4,
+      "functions": 256,
+      "rooted_orbits": 1024,
+      "Q": "71/32",
+      "expected_cycle_count": "195/128"
+    },
+    {
+      "m": 5,
+      "functions": 3125,
+      "rooted_orbits": 15625,
+      "Q": "1569/625",
+      "expected_cycle_count": "5049/3125"
+    },
+    {
+      "m": 6,
+      "functions": 46656,
+      "rooted_orbits": 279936,
+      "Q": "899/324",
+      "expected_cycle_count": "1645/972"
+    }
+  ],
+  "limits": [
+    "Algorithm K global cycle census and full preimage counts not checked here.",
+    "Sedgewick/Szymanski/Yao algorithm and optimal Brent base not checked here.",
+    "Asymptotic estimates are justified in notes, not by these finite tests."
+  ]
+}

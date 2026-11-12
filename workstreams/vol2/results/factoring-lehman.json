@@ -1,0 +1,35 @@
+{
+  "checkpoints": {
+    "all_inputs": {
+      "result": {
+        "inputs": 99999,
+        "limit": 100000,
+        "cases": {
+          "even": 50000,
+          "prime_small": 17,
+          "trial": 34608,
+          "prime": 9574,
+          "lehman": 5739,
+          "square": 61
+        },
+        "maximum_candidate_tests": [
+          96,
+          99991
+        ]
+      },
+      "seconds": 2.351146114000585
+    },
+    "dirichlet_witnesses": {
+      "result": {
+        "semiprimes": 42914,
+        "prime_limit": 2000,
+        "maximum_Dirichlet_denominator": 12,
+        "all_witnesses_in_search_interval": true
+      },
+      "seconds": 0.8388319910154678
+    }
+  },
+  "pid": 1266405,
+  "status": "passed",
+  "elapsed_this_run": 3.191155255015474
+}

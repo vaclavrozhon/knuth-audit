@@ -1,0 +1,525 @@
+{
+  "blocks": {
+    "straus": {
+      "status": "passed",
+      "seconds": 0.22229180997237563,
+      "data": {
+        "binary_targets": 1471,
+        "large_radix_targets": 42,
+        "max_bits": 257,
+        "examples": [
+          {
+            "m": 1,
+            "k": 2,
+            "bits": 257,
+            "operations": 352
+          },
+          {
+            "m": 2,
+            "k": 2,
+            "bits": 257,
+            "operations": 384
+          },
+          {
+            "m": 3,
+            "k": 2,
+            "bits": 257,
+            "operations": 442
+          },
+          {
+            "m": 4,
+            "k": 2,
+            "bits": 257,
+            "operations": 632
+          },
+          {
+            "m": 5,
+            "k": 2,
+            "bits": 257,
+            "operations": 1401
+          }
+        ]
+      },
+      "completed_at_utc": "2026-11-04T07:14:16.422646+00:00"
+    },
+    "yao": {
+      "status": "passed",
+      "seconds": 6.403495748003479,
+      "data": {
+        "single_targets": 16384,
+        "multiple_target_cases": 48,
+        "max_bits": 1025,
+        "cases": [
+          {
+            "bits": 17,
+            "m": 1,
+            "k": 2,
+            "operations": 23,
+            "bound": 27
+          },
+          {
+            "bits": 17,
+            "m": 1,
+            "k": 4,
+            "operations": 25,
+            "bound": 35
+          },
+          {
+            "bits": 17,
+            "m": 1,
+            "k": 7,
+            "operations": 58,
+            "bound": 145
+          },
+          {
+            "bits": 17,
+            "m": 2,
+            "k": 2,
+            "operations": 25,
+            "bound": 38
+          },
+          {
+            "bits": 17,
+            "m": 2,
+            "k": 4,
+            "operations": 26,
+            "bound": 54
+          },
+          {
+            "bits": 17,
+            "m": 2,
+            "k": 7,
+            "operations": 46,
+            "bound": 274
+          },
+          {
+            "bits": 17,
+            "m": 5,
+            "k": 2,
+            "operations": 42,
+            "bound": 71
+          },
+          {
+            "bits": 17,
+            "m": 5,
+            "k": 4,
+            "operations": 45,
+            "bound": 111
+          },
+          {
+            "bits": 17,
+            "m": 5,
+            "k": 7,
+            "operations": 93,
+            "bound": 661
+          },
+          {
+            "bits": 17,
+            "m": 11,
+            "k": 2,
+            "operations": 86,
+            "bound": 137
+          },
+          {
+            "bits": 17,
+            "m": 11,
+            "k": 4,
+            "operations": 98,
+            "bound": 225
+          },
+          {
+            "bits": 17,
+            "m": 11,
+            "k": 7,
+            "operations": 287,
+            "bound": 1435
+          },
+          {
+            "bits": 65,
+            "m": 1,
+            "k": 2,
+            "operations": 88,
+            "bound": 99
+          },
+          {
+            "bits": 65,
+            "m": 1,
+            "k": 4,
+            "operations": 86,
+            "bound": 95
+          },
+          {
+            "bits": 65,
+            "m": 1,
+            "k": 7,
+            "operations": 134,
+            "bound": 200
+          },
+          {
+            "bits": 65,
+            "m": 2,
+            "k": 2,
+            "operations": 90,
+            "bound": 134
+          },
+          {
+            "bits": 65,
+            "m": 2,
+            "k": 4,
+            "operations": 86,
+            "bound": 126
+          },
+          {
+            "bits": 65,
+            "m": 2,
+            "k": 7,
+            "operations": 129,
+            "bound": 336
+          },
+          {
+            "bits": 65,
+            "m": 5,
+            "k": 2,
+            "operations": 160,
+            "bound": 239
+          },
+          {
+            "bits": 65,
+            "m": 5,
+            "k": 4,
+            "operations": 151,
+            "bound": 219
+          },
+          {
+            "bits": 65,
+            "m": 5,
+            "k": 7,
+            "operations": 246,
+            "bound": 744
+          },
+          {
+            "bits": 65,
+            "m": 11,
+            "k": 2,
+            "operations": 322,
+            "bound": 449
+          },
+          {
+            "bits": 65,
+            "m": 11,
+            "k": 4,
+            "operations": 287,
+            "bound": 405
+          },
+          {
+            "bits": 65,
+            "m": 11,
+            "k": 7,
+            "operations": 617,
+            "bound": 1560
+          },
+          {
+            "bits": 257,
+            "m": 1,
+            "k": 2,
+            "operations": 354,
+            "bound": 387
+          },
+          {
+            "bits": 257,
+            "m": 1,
+            "k": 4,
+            "operations": 325,
+            "bound": 335
+          },
+          {
+            "bits": 257,
+            "m": 1,
+            "k": 7,
+            "operations": 351,
+            "bound": 419
+          },
+          {
+            "bits": 257,
+            "m": 2,
+            "k": 2,
+            "operations": 361,
+            "bound": 518
+          },
+          {
+            "bits": 257,
+            "m": 2,
+            "k": 4,
+            "operations": 327,
+            "bound": 414
+          },
+          {
+            "bits": 257,
+            "m": 2,
+            "k": 7,
+            "operations": 353,
+            "bound": 582
+          },
+          {
+            "bits": 257,
+            "m": 5,
+            "k": 2,
+            "operations": 653,
+            "bound": 911
+          },
+          {
+            "bits": 257,
+            "m": 5,
+            "k": 4,
+            "operations": 525,
+            "bound": 651
+          },
+          {
+            "bits": 257,
+            "m": 5,
+            "k": 7,
+            "operations": 635,
+            "bound": 1071
+          },
+          {
+            "bits": 257,
+            "m": 11,
+            "k": 2,
+            "operations": 1260,
+            "bound": 1697
+          },
+          {
+            "bits": 257,
+            "m": 11,
+            "k": 4,
+            "operations": 942,
+            "bound": 1125
+          },
+          {
+            "bits": 257,
+            "m": 11,
+            "k": 7,
+            "operations": 1225,
+            "bound": 2049
+          },
+          {
+            "bits": 1025,
+            "m": 1,
+            "k": 2,
+            "operations": 1410,
+            "bound": 1539
+          },
+          {
+            "bits": 1025,
+            "m": 1,
+            "k": 4,
+            "operations": 1273,
+            "bound": 1295
+          },
+          {
+            "bits": 1025,
+            "m": 1,
+            "k": 7,
+            "operations": 1232,
+            "bound": 1297
+          },
+          {
+            "bits": 1025,
+            "m": 2,
+            "k": 2,
+            "operations": 1418,
+            "bound": 2054
+          },
+          {
+            "bits": 1025,
+            "m": 2,
+            "k": 4,
+            "operations": 1274,
+            "bound": 1566
+          },
+          {
+            "bits": 1025,
+            "m": 2,
+            "k": 7,
+            "operations": 1229,
+            "bound": 1570
+          },
+          {
+            "bits": 1025,
+            "m": 5,
+            "k": 2,
+            "operations": 2540,
+            "bound": 3599
+          },
+          {
+            "bits": 1025,
+            "m": 5,
+            "k": 4,
+            "operations": 2014,
+            "bound": 2379
+          },
+          {
+            "bits": 1025,
+            "m": 5,
+            "k": 7,
+            "operations": 1860,
+            "bound": 2389
+          },
+          {
+            "bits": 1025,
+            "m": 11,
+            "k": 2,
+            "operations": 4880,
+            "bound": 6689
+          },
+          {
+            "bits": 1025,
+            "m": 11,
+            "k": 4,
+            "operations": 3501,
+            "bound": 4005
+          },
+          {
+            "bits": 1025,
+            "m": 11,
+            "k": 7,
+            "operations": 3102,
+            "bound": 4027
+          }
+        ]
+      },
+      "completed_at_utc": "2026-11-04T07:14:22.914789+00:00"
+    },
+    "duality": {
+      "status": "passed",
+      "seconds": 0.018953346996568143,
+      "data": {
+        "matrices": 136,
+        "bfs_state_visits_summed_with_repeated_cached_problems": 2638,
+        "distinct_bfs_problems": 63,
+        "constructive_transpositions": 13,
+        "examples": [
+          {
+            "matrix": [
+              [
+                1
+              ]
+            ],
+            "length": 0,
+            "transpose_length": 0
+          },
+          {
+            "matrix": [
+              [
+                2
+              ]
+            ],
+            "length": 1,
+            "transpose_length": 1
+          },
+          {
+            "matrix": [
+              [
+                3
+              ]
+            ],
+            "length": 2,
+            "transpose_length": 2
+          },
+          {
+            "matrix": [
+              [
+                4
+              ]
+            ],
+            "length": 2,
+            "transpose_length": 2
+          },
+          {
+            "matrix": [
+              [
+                1,
+                1
+              ]
+            ],
+            "length": 0,
+            "transpose_length": 1
+          },
+          {
+            "matrix": [
+              [
+                1,
+                2
+              ]
+            ],
+            "length": 1,
+            "transpose_length": 2
+          },
+          {
+            "matrix": [
+              [
+                1,
+                3
+              ]
+            ],
+            "length": 2,
+            "transpose_length": 3
+          },
+          {
+            "matrix": [
+              [
+                2,
+                1
+              ]
+            ],
+            "length": 1,
+            "transpose_length": 2
+          }
+        ]
+      },
+      "completed_at_utc": "2026-11-04T07:14:23.038471+00:00"
+    },
+    "composition": {
+      "status": "passed",
+      "seconds": 1.0798324180068448,
+      "data": {
+        "marked_input_chains": 47,
+        "nonzero_coefficient_matrices": 2209,
+        "examples": [
+          {
+            "n": 2,
+            "operations": 1,
+            "bound": 1
+          },
+          {
+            "n": 1,
+            "operations": 0,
+            "bound": 1
+          },
+          {
+            "n": 3,
+            "operations": 2,
+            "bound": 2
+          },
+          {
+            "n": 10,
+            "operations": 4,
+            "bound": 5
+          },
+          {
+            "n": 12,
+            "operations": 7,
+            "bound": 7
+          },
+          {
+            "n": 4,
+            "operations": 2,
+            "bound": 5
+          }
+        ],
+        "zero_matrix": "Excluded, as required by the known2022-02-22 erratum."
+      },
+      "completed_at_utc": "2026-11-04T07:14:24.208247+00:00"
+    }
+  }
+}

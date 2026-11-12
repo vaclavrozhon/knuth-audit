@@ -1,0 +1,2239 @@
+{
+  "table80": {
+    "initial": {
+      "L": [
+        3,
+        0,
+        1,
+        2,
+        6,
+        4,
+        5
+      ],
+      "R": [
+        1,
+        2,
+        3,
+        0,
+        5,
+        6,
+        4
+      ],
+      "T": [
+        null,
+        3,
+        2,
+        2,
+        4,
+        3,
+        0,
+        1,
+        2,
+        4,
+        5,
+        -1,
+        1,
+        3,
+        4,
+        5,
+        -2,
+        1,
+        4,
+        -3,
+        2,
+        4,
+        -4,
+        3,
+        5,
+        -5
+      ],
+      "U": [
+        null,
+        17,
+        20,
+        23,
+        21,
+        24,
+        null,
+        1,
+        2,
+        4,
+        5,
+        7,
+        7,
+        3,
+        9,
+        10,
+        12,
+        12,
+        14,
+        17,
+        8,
+        18,
+        20,
+        13,
+        15,
+        23
+      ],
+      "D": [
+        null,
+        7,
+        8,
+        13,
+        9,
+        10,
+        10,
+        12,
+        20,
+        14,
+        15,
+        15,
+        17,
+        23,
+        18,
+        24,
+        18,
+        1,
+        21,
+        21,
+        2,
+        4,
+        24,
+        3,
+        5,
+        null
+      ],
+      "C": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    "first_solution": {
+      "nodes": [
+        20,
+        12
+      ],
+      "model": [
+        1,
+        3
+      ],
+      "memory": {
+        "L": [
+          0,
+          0,
+          1,
+          0,
+          6,
+          4,
+          4
+        ],
+        "R": [
+          0,
+          3,
+          3,
+          0,
+          6,
+          6,
+          4
+        ],
+        "T": [
+          null,
+          1,
+          2,
+          1,
+          2,
+          0,
+          0,
+          1,
+          2,
+          4,
+          5,
+          -1,
+          1,
+          3,
+          4,
+          5,
+          -2,
+          1,
+          4,
+          -3,
+          2,
+          4,
+          -4,
+          3,
+          5,
+          -5
+        ],
+        "U": [
+          null,
+          12,
+          20,
+          23,
+          18,
+          5,
+          null,
+          1,
+          2,
+          4,
+          5,
+          7,
+          1,
+          3,
+          4,
+          5,
+          12,
+          12,
+          14,
+          17,
+          8,
+          18,
+          20,
+          3,
+          5,
+          23
+        ],
+        "D": [
+          null,
+          12,
+          8,
+          23,
+          14,
+          5,
+          10,
+          12,
+          20,
+          14,
+          15,
+          15,
+          1,
+          23,
+          18,
+          24,
+          18,
+          1,
+          4,
+          21,
+          2,
+          4,
+          24,
+          3,
+          5,
+          null
+        ],
+        "C": [
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          1,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      "events": [
+        [
+          "choose",
+          0,
+          2
+        ],
+        [
+          "cover",
+          2
+        ],
+        [
+          "try",
+          0,
+          8
+        ],
+        [
+          "cover",
+          4
+        ],
+        [
+          "purify",
+          10
+        ],
+        [
+          "cover",
+          1
+        ],
+        [
+          "choose",
+          1,
+          3
+        ],
+        [
+          "cover",
+          3
+        ],
+        [
+          "uncover",
+          3
+        ],
+        [
+          "uncover",
+          1
+        ],
+        [
+          "unpurify",
+          10
+        ],
+        [
+          "uncover",
+          4
+        ],
+        [
+          "try",
+          0,
+          20
+        ],
+        [
+          "purify",
+          21
+        ],
+        [
+          "choose",
+          1,
+          1
+        ],
+        [
+          "cover",
+          1
+        ],
+        [
+          "try",
+          1,
+          12
+        ],
+        [
+          "cover",
+          3
+        ],
+        [
+          "cover",
+          5
+        ]
+      ]
+    },
+    "all_solutions": [
+      [
+        1,
+        3
+      ]
+    ],
+    "final_printed": {
+      "L": [
+        0,
+        0,
+        1,
+        0,
+        6,
+        4,
+        4
+      ],
+      "R": [
+        0,
+        3,
+        3,
+        0,
+        6,
+        6,
+        4
+      ],
+      "T": [
+        null,
+        1,
+        2,
+        1,
+        2,
+        0,
+        0,
+        1,
+        2,
+        4,
+        5,
+        -1,
+        1,
+        3,
+        4,
+        5,
+        -2,
+        1,
+        4,
+        -3,
+        2,
+        4,
+        -4,
+        3,
+        5,
+        -5
+      ],
+      "U": [
+        null,
+        12,
+        20,
+        23,
+        18,
+        5,
+        null,
+        1,
+        2,
+        4,
+        5,
+        7,
+        1,
+        3,
+        4,
+        5,
+        12,
+        12,
+        14,
+        17,
+        8,
+        18,
+        20,
+        3,
+        5,
+        23
+      ],
+      "D": [
+        null,
+        12,
+        8,
+        23,
+        14,
+        5,
+        10,
+        12,
+        20,
+        14,
+        15,
+        15,
+        1,
+        23,
+        18,
+        24,
+        18,
+        1,
+        4,
+        21,
+        2,
+        4,
+        24,
+        3,
+        5,
+        null
+      ],
+      "C": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    "all_printed_fields_match": true,
+    "profile": {
+      "0": 1,
+      "1": 2,
+      "2": 1
+    }
+  },
+  "word_search": {
+    "grid": [
+      "OTHESCATALANDAU",
+      "TSEAPUSTHORSROF",
+      "TLSEEAYRRLYHAPA",
+      "EPEARELRGOUEMSI",
+      "NNARRCVLTRTAAMA",
+      "ITHUOTEKWIANDEM",
+      "LANTNBSIMICMAAW",
+      "LGDNARTREBLIHCE",
+      "ERECIZECEPTNEDY",
+      "MEARSHRHLIPKATH",
+      "EJENSENHRIEONET",
+      "HSUINEBORFEWNAR",
+      "TMARKOFFOFCSOKM",
+      "PLUTERPFROEKGRA",
+      "GMMINSEJTLEITSG"
+    ],
+    "packed_rows": [
+      "CATALANDAUBOREL",
+      "GRAMARKOFFKNOPP",
+      "ABELWEIERSTRASS",
+      "BERTRANDHERMITE",
+      "CANTORFROBENIUS",
+      "GLAISHERHURWITZ",
+      "HADAMARDHILBERT",
+      "HENSELKIRCHHOFF",
+      "JENSENSYLVESTER",
+      "MELLINSTIELTJES",
+      "NETTORUNGESTERN",
+      "MINKOWSKIPERRON"
+    ],
+    "packed_widths": [
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15
+    ],
+    "length_distribution": [
+      2,
+      5,
+      6,
+      5,
+      3,
+      5,
+      0,
+      1
+    ],
+    "placements_by_length": [
+      1296,
+      1144,
+      1000,
+      864,
+      736,
+      616,
+      504,
+      400
+    ],
+    "placements_per_name": {
+      "ABEL": 1296,
+      "BERTRAND": 736,
+      "BOREL": 1144,
+      "CANTOR": 1000,
+      "CATALAN": 864,
+      "FROBENIUS": 616,
+      "GLAISHER": 736,
+      "GRAM": 1296,
+      "HADAMARD": 736,
+      "HENSEL": 1000,
+      "HERMITE": 864,
+      "HILBERT": 864,
+      "HURWITZ": 864,
+      "JENSEN": 1000,
+      "KIRCHHOFF": 616,
+      "KNOPP": 1144,
+      "LANDAU": 1000,
+      "MARKOFF": 864,
+      "MELLIN": 1000,
+      "MINKOWSKI": 616,
+      "NETTO": 1144,
+      "PERRON": 1000,
+      "RUNGE": 1144,
+      "STERN": 1144,
+      "STIELTJES": 616,
+      "SYLVESTER": 616,
+      "WEIERSTRASS": 400
+    },
+    "placements": 24320,
+    "matches": {
+      "ABEL": {
+        "start": [
+          7,
+          4
+        ],
+        "direction": [
+          -1,
+          1
+        ],
+        "cells": [
+          [
+            7,
+            4
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            4,
+            7
+          ]
+        ]
+      },
+      "BERTRAND": {
+        "start": [
+          7,
+          9
+        ],
+        "direction": [
+          0,
+          -1
+        ],
+        "cells": [
+          [
+            7,
+            9
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            7,
+            2
+          ]
+        ]
+      },
+      "BOREL": {
+        "start": [
+          6,
+          5
+        ],
+        "direction": [
+          -1,
+          -1
+        ],
+        "cells": [
+          [
+            6,
+            5
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            1
+          ]
+        ]
+      },
+      "CANTOR": {
+        "start": [
+          7,
+          13
+        ],
+        "direction": [
+          -1,
+          -1
+        ],
+        "cells": [
+          [
+            7,
+            13
+          ],
+          [
+            6,
+            12
+          ],
+          [
+            5,
+            11
+          ],
+          [
+            4,
+            10
+          ],
+          [
+            3,
+            9
+          ],
+          [
+            2,
+            8
+          ]
+        ]
+      },
+      "CATALAN": {
+        "start": [
+          0,
+          5
+        ],
+        "direction": [
+          0,
+          1
+        ],
+        "cells": [
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            0,
+            9
+          ],
+          [
+            0,
+            10
+          ],
+          [
+            0,
+            11
+          ]
+        ]
+      },
+      "FROBENIUS": {
+        "start": [
+          11,
+          9
+        ],
+        "direction": [
+          0,
+          -1
+        ],
+        "cells": [
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            11,
+            5
+          ],
+          [
+            11,
+            4
+          ],
+          [
+            11,
+            3
+          ],
+          [
+            11,
+            2
+          ],
+          [
+            11,
+            1
+          ]
+        ]
+      },
+      "GLAISHER": {
+        "start": [
+          14,
+          0
+        ],
+        "direction": [
+          -1,
+          1
+        ],
+        "cells": [
+          [
+            14,
+            0
+          ],
+          [
+            13,
+            1
+          ],
+          [
+            12,
+            2
+          ],
+          [
+            11,
+            3
+          ],
+          [
+            10,
+            4
+          ],
+          [
+            9,
+            5
+          ],
+          [
+            8,
+            6
+          ],
+          [
+            7,
+            7
+          ]
+        ]
+      },
+      "GRAM": {
+        "start": [
+          3,
+          8
+        ],
+        "direction": [
+          1,
+          1
+        ],
+        "cells": [
+          [
+            3,
+            8
+          ],
+          [
+            4,
+            9
+          ],
+          [
+            5,
+            10
+          ],
+          [
+            6,
+            11
+          ]
+        ]
+      },
+      "HADAMARD": {
+        "start": [
+          7,
+          12
+        ],
+        "direction": [
+          -1,
+          0
+        ],
+        "cells": [
+          [
+            7,
+            12
+          ],
+          [
+            6,
+            12
+          ],
+          [
+            5,
+            12
+          ],
+          [
+            4,
+            12
+          ],
+          [
+            3,
+            12
+          ],
+          [
+            2,
+            12
+          ],
+          [
+            1,
+            12
+          ],
+          [
+            0,
+            12
+          ]
+        ]
+      },
+      "HENSEL": {
+        "start": [
+          9,
+          14
+        ],
+        "direction": [
+          1,
+          -1
+        ],
+        "cells": [
+          [
+            9,
+            14
+          ],
+          [
+            10,
+            13
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            12,
+            11
+          ],
+          [
+            13,
+            10
+          ],
+          [
+            14,
+            9
+          ]
+        ]
+      },
+      "HERMITE": {
+        "start": [
+          9,
+          5
+        ],
+        "direction": [
+          -1,
+          1
+        ],
+        "cells": [
+          [
+            9,
+            5
+          ],
+          [
+            8,
+            6
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            5,
+            9
+          ],
+          [
+            4,
+            10
+          ],
+          [
+            3,
+            11
+          ]
+        ]
+      },
+      "HILBERT": {
+        "start": [
+          7,
+          12
+        ],
+        "direction": [
+          0,
+          -1
+        ],
+        "cells": [
+          [
+            7,
+            12
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            7,
+            10
+          ],
+          [
+            7,
+            9
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            7,
+            6
+          ]
+        ]
+      },
+      "HURWITZ": {
+        "start": [
+          2,
+          11
+        ],
+        "direction": [
+          1,
+          -1
+        ],
+        "cells": [
+          [
+            2,
+            11
+          ],
+          [
+            3,
+            10
+          ],
+          [
+            4,
+            9
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            8,
+            5
+          ]
+        ]
+      },
+      "JENSEN": {
+        "start": [
+          10,
+          1
+        ],
+        "direction": [
+          0,
+          1
+        ],
+        "cells": [
+          [
+            10,
+            1
+          ],
+          [
+            10,
+            2
+          ],
+          [
+            10,
+            3
+          ],
+          [
+            10,
+            4
+          ],
+          [
+            10,
+            5
+          ],
+          [
+            10,
+            6
+          ]
+        ]
+      },
+      "KIRCHHOFF": {
+        "start": [
+          5,
+          7
+        ],
+        "direction": [
+          1,
+          0
+        ],
+        "cells": [
+          [
+            5,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            8,
+            7
+          ],
+          [
+            9,
+            7
+          ],
+          [
+            10,
+            7
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            12,
+            7
+          ],
+          [
+            13,
+            7
+          ]
+        ]
+      },
+      "KNOPP": {
+        "start": [
+          12,
+          13
+        ],
+        "direction": [
+          -1,
+          -1
+        ],
+        "cells": [
+          [
+            12,
+            13
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            8,
+            9
+          ]
+        ]
+      },
+      "LANDAU": {
+        "start": [
+          0,
+          9
+        ],
+        "direction": [
+          0,
+          1
+        ],
+        "cells": [
+          [
+            0,
+            9
+          ],
+          [
+            0,
+            10
+          ],
+          [
+            0,
+            11
+          ],
+          [
+            0,
+            12
+          ],
+          [
+            0,
+            13
+          ],
+          [
+            0,
+            14
+          ]
+        ]
+      },
+      "MARKOFF": {
+        "start": [
+          12,
+          1
+        ],
+        "direction": [
+          0,
+          1
+        ],
+        "cells": [
+          [
+            12,
+            1
+          ],
+          [
+            12,
+            2
+          ],
+          [
+            12,
+            3
+          ],
+          [
+            12,
+            4
+          ],
+          [
+            12,
+            5
+          ],
+          [
+            12,
+            6
+          ],
+          [
+            12,
+            7
+          ]
+        ]
+      },
+      "MELLIN": {
+        "start": [
+          9,
+          0
+        ],
+        "direction": [
+          -1,
+          0
+        ],
+        "cells": [
+          [
+            9,
+            0
+          ],
+          [
+            8,
+            0
+          ],
+          [
+            7,
+            0
+          ],
+          [
+            6,
+            0
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ]
+      },
+      "MINKOWSKI": {
+        "start": [
+          6,
+          11
+        ],
+        "direction": [
+          1,
+          0
+        ],
+        "cells": [
+          [
+            6,
+            11
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            11,
+            11
+          ],
+          [
+            12,
+            11
+          ],
+          [
+            13,
+            11
+          ],
+          [
+            14,
+            11
+          ]
+        ]
+      },
+      "NETTO": {
+        "start": [
+          4,
+          0
+        ],
+        "direction": [
+          -1,
+          0
+        ],
+        "cells": [
+          [
+            4,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "PERRON": {
+        "start": [
+          1,
+          4
+        ],
+        "direction": [
+          1,
+          0
+        ],
+        "cells": [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            6,
+            4
+          ]
+        ]
+      },
+      "RUNGE": {
+        "start": [
+          4,
+          4
+        ],
+        "direction": [
+          1,
+          -1
+        ],
+        "cells": [
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            0
+          ]
+        ]
+      },
+      "STERN": {
+        "start": [
+          6,
+          6
+        ],
+        "direction": [
+          1,
+          0
+        ],
+        "cells": [
+          [
+            6,
+            6
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            8,
+            6
+          ],
+          [
+            9,
+            6
+          ],
+          [
+            10,
+            6
+          ]
+        ]
+      },
+      "STIELTJES": {
+        "start": [
+          14,
+          13
+        ],
+        "direction": [
+          0,
+          -1
+        ],
+        "cells": [
+          [
+            14,
+            13
+          ],
+          [
+            14,
+            12
+          ],
+          [
+            14,
+            11
+          ],
+          [
+            14,
+            10
+          ],
+          [
+            14,
+            9
+          ],
+          [
+            14,
+            8
+          ],
+          [
+            14,
+            7
+          ],
+          [
+            14,
+            6
+          ],
+          [
+            14,
+            5
+          ]
+        ]
+      },
+      "SYLVESTER": {
+        "start": [
+          1,
+          6
+        ],
+        "direction": [
+          1,
+          0
+        ],
+        "cells": [
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            8,
+            6
+          ],
+          [
+            9,
+            6
+          ]
+        ]
+      },
+      "WEIERSTRASS": {
+        "start": [
+          11,
+          11
+        ],
+        "direction": [
+          -1,
+          -1
+        ],
+        "cells": [
+          [
+            11,
+            11
+          ],
+          [
+            10,
+            10
+          ],
+          [
+            9,
+            9
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      }
+    },
+    "letters": 184,
+    "occupied_cells": 135,
+    "center_names": [
+      "BERTRAND",
+      "GLAISHER",
+      "HERMITE",
+      "HILBERT",
+      "KIRCHHOFF",
+      "WEIERSTRASS"
+    ],
+    "left_names": [
+      "BERTRAND",
+      "HILBERT",
+      "HURWITZ",
+      "STERN",
+      "SYLVESTER"
+    ],
+    "hidden_message": "THESEAUTHORSOFEARLYPAPERSINACTAMATHEMATICAWERECITEDYEARSLATERINTHEARTOFCOMPUTERPROGRAMMING"
+  },
+  "graphs77": {
+    "cases": [
+      {
+        "vertices": 0,
+        "graph_pairs": 1
+      },
+      {
+        "vertices": 1,
+        "graph_pairs": 1
+      },
+      {
+        "vertices": 2,
+        "graph_pairs": 4
+      },
+      {
+        "vertices": 3,
+        "graph_pairs": 64
+      },
+      {
+        "vertices": 4,
+        "graph_pairs": 4096
+      }
+    ],
+    "complete_model_digest": "880a7a41c91dd390f3e61937c6bfb22fd528265e941dc586720a1ede45500019",
+    "oracle": "All vertex permutations vs literal Algorithm C with every color zero (Algorithm X)."
+  },
+  "interpreter_validation": {
+    "matrices": 3586,
+    "uncolored_matrices": 306,
+    "policies": [
+      "first",
+      "MRV"
+    ],
+    "oracle": "All row subsets; full model sets, traces, profiles and restoration checked. Secondary LEN omission leaves the entire trace unchanged."
+  },
+  "prefix83": {
+    "uncolored_terminal_cases": 1000,
+    "colored_terminal_case": {
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      ],
+      "printed": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "required": [
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    "uncolored_overlap_counterexample": {
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            5,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ]
+      ],
+      "expanded": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            5,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ]
+      ],
+      "printed": [
+        [
+          2,
+          3
+        ]
+      ],
+      "required": [],
+      "first_solution": {
+        "nodes": [
+          14,
+          17
+        ],
+        "model": [
+          2,
+          3
+        ],
+        "memory": {
+          "L": [
+            0,
+            0,
+            0,
+            6,
+            3,
+            3,
+            6
+          ],
+          "R": [
+            0,
+            2,
+            0,
+            6,
+            5,
+            6,
+            6
+          ],
+          "T": [
+            null,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            3,
+            -1,
+            1,
+            3,
+            4,
+            -2,
+            1,
+            5,
+            -3,
+            2,
+            3,
+            -4
+          ],
+          "U": [
+            null,
+            14,
+            17,
+            3,
+            4,
+            5,
+            null,
+            1,
+            3,
+            7,
+            7,
+            3,
+            4,
+            10,
+            10,
+            5,
+            14,
+            2,
+            3,
+            17
+          ],
+          "D": [
+            null,
+            7,
+            17,
+            3,
+            4,
+            5,
+            8,
+            10,
+            11,
+            12,
+            14,
+            18,
+            4,
+            15,
+            1,
+            5,
+            18,
+            2,
+            3,
+            null
+          ],
+          "C": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "events": [
+          [
+            "choose",
+            0,
+            1
+          ],
+          [
+            "cover",
+            1
+          ],
+          [
+            "try",
+            0,
+            7
+          ],
+          [
+            "cover",
+            3
+          ],
+          [
+            "choose",
+            1,
+            2
+          ],
+          [
+            "cover",
+            2
+          ],
+          [
+            "uncover",
+            2
+          ],
+          [
+            "uncover",
+            3
+          ],
+          [
+            "cover",
+            3
+          ],
+          [
+            "try",
+            0,
+            10
+          ],
+          [
+            "cover",
+            3
+          ],
+          [
+            "cover",
+            4
+          ],
+          [
+            "choose",
+            1,
+            2
+          ],
+          [
+            "cover",
+            2
+          ],
+          [
+            "uncover",
+            2
+          ],
+          [
+            "uncover",
+            4
+          ],
+          [
+            "uncover",
+            3
+          ],
+          [
+            "cover",
+            4
+          ],
+          [
+            "try",
+            0,
+            14
+          ],
+          [
+            "cover",
+            5
+          ],
+          [
+            "choose",
+            1,
+            2
+          ],
+          [
+            "cover",
+            2
+          ],
+          [
+            "try",
+            1,
+            17
+          ],
+          [
+            "cover",
+            3
+          ]
+        ]
+      },
+      "events": [
+        [
+          "choose",
+          0,
+          1
+        ],
+        [
+          "cover",
+          1
+        ],
+        [
+          "try",
+          0,
+          7
+        ],
+        [
+          "cover",
+          3
+        ],
+        [
+          "choose",
+          1,
+          2
+        ],
+        [
+          "cover",
+          2
+        ],
+        [
+          "uncover",
+          2
+        ],
+        [
+          "uncover",
+          3
+        ],
+        [
+          "cover",
+          3
+        ],
+        [
+          "try",
+          0,
+          10
+        ],
+        [
+          "cover",
+          3
+        ],
+        [
+          "cover",
+          4
+        ],
+        [
+          "choose",
+          1,
+          2
+        ],
+        [
+          "cover",
+          2
+        ],
+        [
+          "uncover",
+          2
+        ],
+        [
+          "uncover",
+          4
+        ],
+        [
+          "uncover",
+          3
+        ],
+        [
+          "cover",
+          4
+        ],
+        [
+          "try",
+          0,
+          14
+        ],
+        [
+          "cover",
+          5
+        ],
+        [
+          "choose",
+          1,
+          2
+        ],
+        [
+          "cover",
+          2
+        ],
+        [
+          "try",
+          1,
+          17
+        ],
+        [
+          "cover",
+          3
+        ],
+        [
+          "uncover",
+          3
+        ],
+        [
+          "uncover",
+          2
+        ],
+        [
+          "uncover",
+          5
+        ],
+        [
+          "cover",
+          5
+        ],
+        [
+          "uncover",
+          1
+        ]
+      ]
+    },
+    "sufficient_repair": "Require each distinguished terminal item to occur in exactly one root option and to have color zero there. The 1000 randomized tests obey this stronger hypothesis; see the general invariant proof in the notes.",
+    "limitation": "Colored-tail ambiguity is not counted as a separate finding. The all-uncolored case disproves the stated result without relying on a color convention."
+  },
+  "status": "pass",
+  "checked_at_utc": "2026-11-01T23:53:10.062158+00:00",
+  "seconds": 12.881633926997893,
+  "scripts": {
+    "check_colored_basics.py": "ef83d692a5018d05cdc519d1cd0eaa9ce9b16492e95177bccc3fed0ffd90af31",
+    "colored_dlx.py": "2fb1fef298021343a6d56cdb7fac2ec91f926e0967dc76a5381a98aa62464845"
+  }
+}

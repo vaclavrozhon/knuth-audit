@@ -1,0 +1,109 @@
+{
+  "status": "verified",
+  "checked_at_utc": "2026-11-01T17:21:17.199033+00:00",
+  "source_sha256": "398a35b15f21c94ee4ebe89f91ae50f635bf3ce23692f38e580bf5a331ed1202",
+  "printed_coordinates": [
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      16
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      16,
+      2
+    ],
+    [
+      16,
+      14
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      15,
+      1
+    ]
+  ],
+  "corrected_coordinates": [
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      16
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      16,
+      2
+    ],
+    [
+      16,
+      15
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      15,
+      1
+    ]
+  ],
+  "corrected_a": 2,
+  "printed_beta_for_16_14": [
+    1,
+    2,
+    4
+  ],
+  "correct_beta_for_16_14": [
+    2,
+    4
+  ],
+  "wrong_option_replacement": "r16 c15 a31 b1 y1 y2 y4",
+  "valid_full_witness": [
+    3,
+    5,
+    8,
+    10,
+    13,
+    2,
+    6,
+    1,
+    16,
+    11,
+    15,
+    4,
+    7,
+    9,
+    12,
+    14
+  ],
+  "boundary_tuple": [
+    3,
+    9,
+    3,
+    9
+  ],
+  "command": [
+    "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+    "v129",
+    "m1",
+    "t1"
+  ],
+  "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+  "input_sha256": "4cab0bd1da6f66cb9302212dc0d03b6b6dbed39ebc25fde46db4aa19001a80b6",
+  "scope": "The run stops after one witness; no total count is inferred. Every queen and the full weak boundary ordering are checked directly. For the distance2 group use a=2 and bottom-column15. If column14 is retained, its correct comparison items are y2,y4 instead of y1,y2,y4."
+}

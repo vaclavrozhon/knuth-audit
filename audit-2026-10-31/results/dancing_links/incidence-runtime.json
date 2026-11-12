@@ -1,0 +1,168 @@
+{
+  "status": "verified",
+  "checked_at_utc": "2026-11-01T16:21:11.015878+00:00",
+  "source_sha256": {
+    "check_incidence_runtime.py": "8ce6bc0eb47f90af0fcb481942f7e5f84baec8ecffd0abc9df16362d194c05b9",
+    "algorithm_x.py": "209c7848c08c500a62ef87dc4213225ef2c810264ea0587452f884fea5f3ca25",
+    "spacer_algorithm_x.py": "962edcc4f4cd080c67dd1085052ca42bc8147c510c374bd55c21c2802a26ecd7"
+  },
+  "cases": [
+    {
+      "separate_edges": 0,
+      "graph_vertices": 3,
+      "graph_edges": 3,
+      "solutions": 0,
+      "profile": [
+        1,
+        2
+      ],
+      "nodes": 3
+    },
+    {
+      "separate_edges": 1,
+      "graph_vertices": 5,
+      "graph_edges": 4,
+      "solutions": 0,
+      "profile": [
+        1,
+        2,
+        4
+      ],
+      "nodes": 7
+    },
+    {
+      "separate_edges": 2,
+      "graph_vertices": 7,
+      "graph_edges": 5,
+      "solutions": 0,
+      "profile": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "nodes": 15
+    },
+    {
+      "separate_edges": 3,
+      "graph_vertices": 9,
+      "graph_edges": 6,
+      "solutions": 0,
+      "profile": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "nodes": 31
+    },
+    {
+      "separate_edges": 4,
+      "graph_vertices": 11,
+      "graph_edges": 7,
+      "solutions": 0,
+      "profile": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32
+      ],
+      "nodes": 63
+    },
+    {
+      "separate_edges": 5,
+      "graph_vertices": 13,
+      "graph_edges": 8,
+      "solutions": 0,
+      "profile": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64
+      ],
+      "nodes": 127
+    },
+    {
+      "separate_edges": 6,
+      "graph_vertices": 15,
+      "graph_edges": 9,
+      "solutions": 0,
+      "profile": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128
+      ],
+      "nodes": 255
+    },
+    {
+      "separate_edges": 7,
+      "graph_vertices": 17,
+      "graph_edges": 10,
+      "solutions": 0,
+      "profile": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+        256
+      ],
+      "nodes": 511
+    },
+    {
+      "separate_edges": 8,
+      "graph_vertices": 19,
+      "graph_edges": 11,
+      "solutions": 0,
+      "profile": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+        256,
+        512
+      ],
+      "nodes": 1023
+    },
+    {
+      "separate_edges": 9,
+      "graph_vertices": 21,
+      "graph_edges": 12,
+      "solutions": 0,
+      "profile": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+        256,
+        512,
+        1024
+      ],
+      "nodes": 2047
+    }
+  ],
+  "general_formula": "nodes=2^(k+2)-1, zero solutions",
+  "interpretation": "An exponential counterexample to a universal fast-rejection reading; the book uses only the informal word quickly."
+}

@@ -1,0 +1,13 @@
+# Generating spanning trees
+
+Reviewed main 462 from Spanning trees through the performance discussion on 468, stopping before the last paragraph and cube formula (57). Read the Table 5 benchmark interpretation on 469; that page remains pending together with its spanning-tree counts and quasi-Gray-code material. Paired exercises 92–102 with answers 802–804 through 102.
+
+Checked deletion/contraction and the near-tree recursion, including its one-edge transitions between branches. Reconstructed the four-vertex five-edge example and its arc table. Checked the level invariant, the two-vertex base case and the x/e exchange tracking in Algorithm S. Checked S3/S7 as inverse list splices, including an empty source list; the forward scan redirects mate tips and the backward scan restores them. Parallel-edge deletion chains and level deletion stacks are restored in reverse order, with degrees recovered correctly.
+
+Checked initial spanning-tree construction, the breadth-first bridge test and both cleanup paths. In answer 95, the shortcut is l_(l_e)!=0, which correctly tests whether the deleted parallel-edge chain had at least two members; an OCR reading with only one subscript was rejected. In answer 96, edges e_2,...,e_n form the path on vertices 1,...,n, and the organ-pipe order correctly ends at e_2. Checked the cycle sequence and the claimed orders of work.
+
+Checked the serial/parallel decomposition, its tree and near-tree products, all values in example (56), and the five valid terminal pairs in answer 97. Checked the swapped serial/parallel construction and two-terminal dual complement relation in answer 98. For answer 99, checked the designated-child cycle and the focus-pointer invariant: selection resets the one exceptional pointer on the passive suffix, leaving all newly toggled easy/uneasy nodes correctly focused; passivation joins the preceding passive run. Value propagation changes exactly one removed and one inserted leaf. The known old F4 correction is already incorporated.
+
+Checked the graph reductions, the Cartesian product of superedge configurations and the minimum-size property of a reduced graph. The program reference for exercise 100 is present on the author's official programs page. For 102, changing one arc in two arborescences with the same root must change an arc with the same tail, explaining the asserted strong edge adjacency. Research questions, full-program proof and historical timings are explicitly excepted.
+
+Next: exercise 103, sandpiles, on 482 with answers from 804; then spectral counts in 104–109, which complete the last paragraph of main 468 and Table 5 counts. Main quasi-Gray traversal starts on 469. Exercises 1–102 are now checked.

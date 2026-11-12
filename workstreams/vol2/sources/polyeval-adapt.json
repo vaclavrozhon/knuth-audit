@@ -1,0 +1,269 @@
+{
+  "block": "V2-X0077",
+  "status": "checked_mathematical_scope",
+  "checked_at_utc": "2026-11-04T12:46:02.723716+00:00",
+  "edition": 3,
+  "printing": 1,
+  "physical_copy_verified": false,
+  "findings": [
+    "V2-C0235",
+    "V2-C0236",
+    "V2-C0237"
+  ],
+  "scope": "Adapted evaluation schemes490–494 before Polynomial chains, exercises18–24; historical gaps explicit.",
+  "source_read": "notes/polyeval-adapt.md section8 and polyeval-adapt-source-review.json",
+  "known_errata": [
+    {
+      "date": "1999-06-07",
+      "page": 493,
+      "description": "m=ceil(n/2)-1"
+    },
+    {
+      "date": "2013-04-29",
+      "page": 490,
+      "description": "savings is worthwhile -> change is worthwhile"
+    }
+  ],
+  "open": [
+    "Full primary Motzkin/Todd, Pan1961/1963, Fike1967, Knuth1962 sources.",
+    "Later polynomial-chain and modular generality claims deferred to corresponding blocks."
+  ],
+  "errata_source_hashes": [
+    {
+      "path_from_repository": "errata/text/all2-prepre.txt",
+      "sha256": "62a1ff323ca421f2640e2337f922dbf8cfc8e86c20d9b11acfc91221721c6f58"
+    },
+    {
+      "path_from_repository": "errata/text/all2-pre.txt",
+      "sha256": "c1735b70547678d739eae3a8d7b02872c737218eed7706a0aba8fb6fc21a6529"
+    },
+    {
+      "path_from_repository": "errata/text/all2.txt",
+      "sha256": "1c4d7f2259e147db0ebe84b4bf0ce8864b307afb4ccfbe48efcb1f5f5999ac58"
+    },
+    {
+      "path_from_repository": "errata/text/err2.txt",
+      "sha256": "1b5c93712c3c467a48679e0040ba6c5869998b25184dbd125a5d096ce96e9ab0"
+    },
+    {
+      "path_from_repository": "errata/text/err2-2e.txt",
+      "sha256": "cf2d9ced25e86f6fd9be0e4f82700a979fc174dff6860e7a4b7950292c24e154"
+    },
+    {
+      "path_from_repository": "errata/originals/err2.textxt",
+      "sha256": "8faa21566312314ec6bda0f8956913deb312517fd9fa688dcc0bf19e1f21962e"
+    }
+  ],
+  "verification": {
+    "low_degrees": {
+      "quartic_symbolic_identities": 2,
+      "quintic_generic_cubic_reduction": true,
+      "quintic_examples": 3,
+      "mix_instructions": {
+        "LDA": 1,
+        "FADD": 5,
+        "STA": 3,
+        "FMUL": 4
+      },
+      "quintic_residual": "-x**2*(40*t**3 - 24*t**2*u4 + 2*t*u3 + 4*t*u4**2 + u2 - u3*u4)",
+      "scope": "Exact algebra and instruction/data-flow counts; no universal floating-point stability or instruction-minimality claim.",
+      "status": "passed",
+      "pid": 1595155,
+      "seconds": 0.19508830300765112,
+      "completed_at_utc": "2026-11-04T12:38:51.793183+00:00"
+    },
+    "sextics": {
+      "knuth_generic_cubic_reduction": true,
+      "knuth_examples": 3,
+      "pan_residual_identity": "x*(243*t*u3 - 162*t*u4*u5 + 45*t*u5**3 - 243*u1 + 81*u2*u5 - 27*u3*u5**2 + 9*u4*u5**3 - 2*u5**5)/243",
+      "pan_example_and_optimization": true,
+      "pan_even_family_D_N_zero": true,
+      "pan_impossible_D_zero_N_nonzero": "x^6+x",
+      "scope": "All identities are symbolic; general sextic leading coefficient is restored by one final multiplication.",
+      "status": "passed",
+      "pid": 1595159,
+      "seconds": 0.5365262720151804,
+      "completed_at_utc": "2026-11-04T12:38:53.056923+00:00"
+    },
+    "eve": {
+      "exercise24_solutions": 2,
+      "c3_q": "20*W + 20",
+      "constant_remainder_symbolic_checks": 7,
+      "operation_counts_n3_through9": true,
+      "clockwise_witness": "f(z)=(z-1)^4; d arg f(it)/dt=-4/(1+t^2)",
+      "odd_degree_boundary": "x^3+x: c=0, a2=0, q(W)=W+1",
+      "scope": "Finite symbolic checks supplement, but do not replace, the general proof of Eve's root-location lemma.",
+      "status": "passed",
+      "pid": 1595161,
+      "seconds": 0.25991619302658364,
+      "completed_at_utc": "2026-11-04T12:38:54.034053+00:00"
+    }
+  },
+  "artifacts": [
+    {
+      "path": "notes/polyeval-adapt.md",
+      "bytes": 16286,
+      "sha256": "bcd22607eaab6d0144fd6a5e52b9c3f71e7468c758ee50d09f63cebb5db1dffe"
+    },
+    {
+      "path": "verify_polyeval_adapt.py",
+      "bytes": 9921,
+      "sha256": "5620411cba0d1ed9b69c821e50c67095bfee3d8846d358e482ec01229d895a8d"
+    },
+    {
+      "path": "results/polyeval-adapt.json",
+      "bytes": 1749,
+      "sha256": "3a7fdb240504296441643d3fb8a10554f2a7d7cc583d09e651643cc1bb72cf36"
+    },
+    {
+      "path": "results/polyeval-adapt.log",
+      "bytes": 1573,
+      "sha256": "f1b6b5f1d3397c8ebf8a0998d7fe3b319f04cf0a161298e54f4d929db0d07ddf"
+    },
+    {
+      "path": "results/polyeval-adapt-run.json",
+      "bytes": 1578,
+      "sha256": "97de83ddb4a98a547147a04dd57bf375a9cdb0954127d184f1a1abd52f28da12"
+    },
+    {
+      "path": "sources/polyeval-adapt-access.json",
+      "bytes": 1702,
+      "sha256": "42ca82c29858b0f214a825602953164813bc5806478b0640602c69c8f1750107"
+    },
+    {
+      "path": "sources/polyeval-adapt-errata.txt",
+      "bytes": 6215,
+      "sha256": "6de7bec5a3c064b7c5bc7cfc7f1c832d5054328e0e98ab3e5f6786f16967d818"
+    },
+    {
+      "path": "sources/polyeval-adapt-source-review.json",
+      "bytes": 1353,
+      "sha256": "da045603514188471ae2f25ff55a7ff58427909401a2b3ca62bd145df47ac97e"
+    },
+    {
+      "path": "sources/eve-1964-gdz-page.html",
+      "bytes": 5906,
+      "sha256": "1d5bdb3f6ff0ebdc109e6baab6e01f2e2988db3cc765a4a0d1ef38f3a8014eed"
+    },
+    {
+      "path": "sources/eve-1964-gdz-manifest.json",
+      "bytes": 531331,
+      "sha256": "8b43ab88798076daade7bcf070cdc6032fbfd0c73cbf6a3f961b7e247e9ea0e1"
+    },
+    {
+      "path": "sources/eve-1964.pdf",
+      "bytes": 521136,
+      "sha256": "63c571dd7a198b75b7399af031ee44c5791b7b2538df08eaa4658d355c574394"
+    },
+    {
+      "path": "sources/eve-1964.txt",
+      "bytes": 1643,
+      "sha256": "1fa93ab3194dae7da0313fe9c40684d758c12cfe2fd531153d4f39eedc351801"
+    },
+    {
+      "path": "sources/pan-polynomials-survey.html",
+      "bytes": 318,
+      "sha256": "b0c7e6712ecbf97a1e3a14f19e3aed5dbd6553f21a2852565bfc5518925713db"
+    },
+    {
+      "path": "sources/pan-polynomials-survey-getft.html",
+      "bytes": 11357,
+      "sha256": "e1a8ab3e4a40177152bce4a9b8f62ff4517b55da044af032095266d9bfa5f1c0"
+    },
+    {
+      "path": "sources/knuth-polynomials-1962.html",
+      "bytes": 5519,
+      "sha256": "8cef0441a07b59da88bcd8b85df3bcaad3759109a5fd219742208683dfedc186"
+    },
+    {
+      "path": "sources/knuth-polynomials-1962-caltech.html",
+      "bytes": 56174,
+      "sha256": "103c94a65dd66eed3a8c87ab2852e897cc31c03cc458c93b4c77f112ed8a1043"
+    },
+    {
+      "path": "images/vol2-p490.png",
+      "bytes": 341117,
+      "sha256": "9593ca3f55bfafab819a3d0041544cfb241d4de4b237e9ef23c7bf287ae5de7d"
+    },
+    {
+      "path": "images/vol2-p491.png",
+      "bytes": 298054,
+      "sha256": "1afbdc900b884de9cc7028ef9b6f200b126f176606064322175349f5c9ad1165"
+    },
+    {
+      "path": "images/vol2-p492.png",
+      "bytes": 249996,
+      "sha256": "9aa10e96077512c15eb6fd635c025158e59176e464e69ca4ce4d27aee50bae39"
+    },
+    {
+      "path": "images/vol2-p493.png",
+      "bytes": 328338,
+      "sha256": "05acc6d37adfd82845f0fd679518c934451d08864757da8b0b80f9463971b81a"
+    },
+    {
+      "path": "images/vol2-p494.png",
+      "bytes": 328701,
+      "sha256": "1da2f24aceba93a52ae28a4300efa1a727a4b6ff420c8a7c5d438726fb136bcb"
+    },
+    {
+      "path": "images/vol2-p516.png",
+      "bytes": 295228,
+      "sha256": "bd5fa26a54f62651134186fd6208274ae17faf8371775730c2841ba89ad161dd"
+    },
+    {
+      "path": "images/vol2-p517.png",
+      "bytes": 241111,
+      "sha256": "35f479399de47f1a69638646b9388d14bfd9bf1288fae2fc1826fd16e13344b1"
+    },
+    {
+      "path": "images/vol2-p701.png",
+      "bytes": 322687,
+      "sha256": "60be991aba11894ad2d79f458c9311fa1b0c5c865ac0657f072ba86005b27a2e"
+    },
+    {
+      "path": "images/vol2-p702.png",
+      "bytes": 377433,
+      "sha256": "bf8357f4374e9b6e554435baf0ccdfd5e02a2adcff2cc45f3a9b83727c19977c"
+    },
+    {
+      "path": "images/eve-1964-p17.png",
+      "bytes": 217727,
+      "sha256": "310f0e561bf7af3cf0be4b2fe7e390507ce939a2e43f2fc5f27a2f57be510523"
+    },
+    {
+      "path": "images/eve-1964-p18.png",
+      "bytes": 165666,
+      "sha256": "7349343e16921290106239ad9e757328e74d8e4fc6d91afb206e20cb80c6c40c"
+    },
+    {
+      "path": "images/eve-1964-p19.png",
+      "bytes": 260786,
+      "sha256": "603708931b71f24c4a861b92262fe25e02d66dbd8158f757de9597a85eb5edda"
+    },
+    {
+      "path": "images/eve-1964-p20.png",
+      "bytes": 228955,
+      "sha256": "130ed30dc077ed3d71e3825b8f61ebb6b1736f9d207b9561b974114471ca5f4b"
+    },
+    {
+      "path": "images/eve-1964-p21.png",
+      "bytes": 100586,
+      "sha256": "3189a257edb3988b5ffca4267f405631bc2e922ba20ab5ae0436b541856770b5"
+    },
+    {
+      "path": "reports/C0235-eve-contour-directions.txt",
+      "bytes": 1087,
+      "sha256": "085b5cc85beb6383db8e909b6be2247138fdf2252e47d77e2c0541f33488c2b0"
+    },
+    {
+      "path": "reports/C0236-pan-zero-denominator-candidate.txt",
+      "bytes": 1204,
+      "sha256": "82e2a6ec2cf89039af434cefa0041bceb87533eed4e98155a88e280a218a309b"
+    },
+    {
+      "path": "reports/C0237-eve-proof-even-degree.txt",
+      "bytes": 1102,
+      "sha256": "904255521f127a42bf698d9a2f77e35a2e0da6730a1d5ce98c4aa49405b4db77"
+    }
+  ]
+}

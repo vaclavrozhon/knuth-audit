@@ -1,0 +1,42 @@
+{
+  "method": "Exact rational binary64 rounding and integer high/low products; bounded loops only through the printed stopping indices.",
+  "sqrt5_bits": "4001e3779b97f4a8",
+  "phi_bits": "3ff9e3779b97f4a8",
+  "first_floating_failure": 71,
+  "floating_boundary": [
+    {
+      "n": 69,
+      "F_n": 117669030460994,
+      "approximation_bits": "42dac13d30bf9090",
+      "rounded": 117669030460994,
+      "error_exact": "1/4"
+    },
+    {
+      "n": 70,
+      "F_n": 190392490709135,
+      "approximation_bits": "42e5a52698da11ed",
+      "rounded": 190392490709135,
+      "error_exact": "13/32"
+    },
+    {
+      "n": 71,
+      "F_n": 308061521170129,
+      "approximation_bits": "42f182e2989ced1b",
+      "rounded": 308061521170130,
+      "error_exact": "11/16"
+    }
+  ],
+  "fixed_last_success": {
+    "n": 93,
+    "F_n": 12200160415121876738,
+    "previous_F": 7540113804746346429,
+    "rounded_fixed_result": 12200160415121876738
+  },
+  "first_unsigned_overflow": {
+    "n": 94,
+    "F_n": 19740274219868223167,
+    "wrapped": 1293530146158671551,
+    "previous_F": 12200160415121876738
+  },
+  "fixed_rounding_convention": "lo>=2^63 rounds upward; exactly the CSN rule in the printed program."
+}

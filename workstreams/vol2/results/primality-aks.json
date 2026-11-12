@@ -1,0 +1,47 @@
+{
+  "checks": {
+    "consecutive": {
+      "status": "finite_check_passed",
+      "seconds": 11.274736884050071,
+      "result": {
+        "inputs": 2047,
+        "classifications": {
+          "prime": 309,
+          "composite": 1738
+        },
+        "congruences": 30859,
+        "independent_binomial_congruences": 1095,
+        "counterexamples": [],
+        "maximum_r": 251,
+        "csv_sha256": "c37012f4295821093b2761db6aaf7d766ddcad40afc68994c17d2131ae05f16e"
+      }
+    },
+    "prime_squares": {
+      "status": "finite_check_passed",
+      "seconds": 113.23576542502269,
+      "result": {
+        "prime_squares": 1215,
+        "congruences": 1215,
+        "counterexamples": [],
+        "independent_cyclic_inputs": [
+          1194649,
+          12327121
+        ],
+        "csv_sha256": "7af9be4e6ae02a226e88790ac98f4b93620e4a029c75032773fe2a88a285ec0c"
+      }
+    },
+    "lcm_lemma": {
+      "status": "finite_check_passed",
+      "seconds": 0.18624775600619614,
+      "result": {
+        "integer_limits": 256,
+        "binomial_coefficients": 33152,
+        "wieferich_integer_checks": [
+          1093,
+          3511
+        ],
+        "counterexamples": []
+      }
+    }
+  }
+}

@@ -1,0 +1,316 @@
+{
+  "checked_at_utc": "2026-11-07T01:27:24.652138+00:00",
+  "target": "p114 answer1.4.1-10 counts every assembled GREG operation rather than distinct allocated global registers; identical nonzero initializers share one register.",
+  "sources": [
+    {
+      "path": "errata/originals/err1f1.textxt",
+      "sha256": "07db671be6fcbc6c473ddc6593f6a16cce5833fb5f8a499ab7e2e3eee163dae3",
+      "matches": [
+        {
+          "line": 748,
+          "context": "* Traffic Signal Problem\\hidewidth\\cr\nrho&GREG&250000000&Assume 250 MHz clock rate\\cr\nt&IS&$255\\cr\nSensor_Buf&IS&Data_Segment\\cr"
+        },
+        {
+          "line": 751,
+          "context": "Sensor_Buf&IS&Data_Segment\\cr\n&GREG&Sensor_Buf\\cr\n\\noalign{\\smallbreak}\n      &LOC&#100\\cr"
+        },
+        {
+          "line": 754,
+          "context": "      &LOC&#100\\cr\n      &GREG&@\\cr\ndelta &GREG&&Number of cycles to delay\\cr\nref_time&GREG&&Internal register for \\.{Delay}\\cr"
+        },
+        {
+          "line": 755,
+          "context": "      &GREG&@\\cr\ndelta &GREG&&Number of cycles to delay\\cr\nref_time&GREG&&Internal register for \\.{Delay}\\cr\ndelay_go&GREG&&Exit location for \\.{Delay}\\cr"
+        },
+        {
+          "line": 756,
+          "context": "delta &GREG&&Number of cycles to delay\\cr\nref_time&GREG&&Internal register for \\.{Delay}\\cr\ndelay_go&GREG&&Exit location for \\.{Delay}\\cr\n\\noalign{\\smallbreak}"
+        },
+        {
+          "line": 757,
+          "context": "ref_time&GREG&&Internal register for \\.{Delay}\\cr\ndelay_go&GREG&&Exit location for \\.{Delay}\\cr\n\\noalign{\\smallbreak}\n2H&SUBU&delta,delta,t&Decrease $\\delta$ by rI.\\cr"
+        },
+        {
+          "line": 786,
+          "context": "\\noalign{\\smallbreak}\nflash_go&GREG\\cr\nn    &GREG&0&Iteration counter\\cr\ngreen&GREG&0&\\.{Boulevard} or \\.{Avenue}\\cr"
+        },
+        {
+          "line": 787,
+          "context": "flash_go&GREG\\cr\nn    &GREG&0&Iteration counter\\cr\ngreen&GREG&0&\\.{Boulevard} or \\.{Avenue}\\cr\nFlash&SET  &n,8&Subroutine to flash the lights:\\cr"
+        },
+        {
+          "line": 788,
+          "context": "n    &GREG&0&Iteration counter\\cr\ngreen&GREG&0&\\.{Boulevard} or \\.{Avenue}\\cr\nFlash&SET  &n,8&Subroutine to flash the lights:\\cr\n1H   &ADDU &t,green,2*1\\cr"
+        },
+        {
+          "line": 852,
+          "context": "\n\\bugonpage 1f1.114 lines 2 and 3 of answer 9 (07.01.07)\ntwo additional instructions\n``\\.{GET}~\\.{\\$255,rB;} \\.{RESUME}\\hair'' will \\becomes\\nl"
+        },
+        {
+          "line": 864,
+          "context": "\\bugonpage 1f1.116 answer 4 (23.03.29)\n[the code should be properly indented, with \\.{GREG}s lined up]\n\\endchange\n"
+        },
+        {
+          "line": 1028,
+          "context": "Program counter, \\see At sign. % 2nd\n\\.{PUSHJ} (push registers and jump), 16, 53, 59, 73, 85--86, 114. % 2nd\nQuettabyte, 94. % 8th\nrC (continuation register), 19. % 2nd"
+        },
+        {
+          "line": 1034,
+          "context": "rI (interval counter), 19, 50. % 3rd\nrJ (return-jump register), 16, 60, 80, 81, 114. % 2nd\nRonnabyte, 94. % 8th\nrU (usage counter), 20. % 3rd"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/err1f1.txt",
+      "sha256": "7d6366838076d106c09e85a4f93f1b151e94c9af9f6874ea27aa6f106cdf84b6",
+      "matches": [
+        {
+          "line": 355,
+          "context": "             * Traffi Signal Problem\n             rho        GREG   250000000                        Assume 250 MHz lo k rate\n             t          IS     $255\n             Sensor_Buf IS     Data_Segment"
+        },
+        {
+          "line": 358,
+          "context": "             Sensor_Buf IS     Data_Segment\n                        GREG   Sensor_Buf\n                            LOC      #100\n                            GREG     \b"
+        },
+        {
+          "line": 360,
+          "context": "                            LOC      #100\n                            GREG     \b\n             delta          GREG                                Number of y les to delay\n             ref_time       GREG                                Internal register for Delay"
+        },
+        {
+          "line": 361,
+          "context": "                            GREG     \b\n             delta          GREG                                Number of y les to delay\n             ref_time       GREG                                Internal register for Delay\n             delay_go       GREG                                Exit lo ation for Delay"
+        },
+        {
+          "line": 362,
+          "context": "             delta          GREG                                Number of y les to delay\n             ref_time       GREG                                Internal register for Delay\n             delay_go       GREG                                Exit lo ation for Delay\n             2H             SUBU     delta,delta,t              De rease Æ by rI."
+        },
+        {
+          "line": 363,
+          "context": "             ref_time       GREG                                Internal register for Delay\n             delay_go       GREG                                Exit lo ation for Delay\n             2H             SUBU     delta,delta,t              De rease Æ by rI.\n             1H             SET      ref_time,t                 Remember previous value of rI."
+        },
+        {
+          "line": 391,
+          "context": "Avenue      BYTE   Bg|Bw|Dr|Dd,0,Bg|Bd|Dr|Dd,0,Bg|Dr|Dd,0,Ba|Bd|Dr|Dd,0\nflash_go    GREG\nn           GREG   0                    Iteration ounter\ngreen       GREG   0                    Boulevard or Avenue"
+        },
+        {
+          "line": 392,
+          "context": "flash_go    GREG\nn           GREG   0                    Iteration ounter\ngreen       GREG   0                    Boulevard or Avenue\nFlash       SET    n,8                  Subroutine to ash the lights:"
+        },
+        {
+          "line": 393,
+          "context": "n           GREG   0                    Iteration ounter\ngreen       GREG   0                    Boulevard or Avenue\nFlash       SET    n,8                  Subroutine to ash the lights:\n1H          ADDU   t,green,2*1"
+        },
+        {
+          "line": 459,
+          "context": "                                                           y\n Page 114\n\n  two additional instru tions \\GET $255,rB; RESUME \" will"
+        },
+        {
+          "line": 508,
+          "context": "Constants in MMIXAL, 37, 67.                   PUSHJ (push registers and jump), 16, 53,\nContinuation register, 19.                           59, 73, 85{86, 114.\nCoxeter, Harold S ott Ma Donald, 48.           Quettabyte, 94.\nCy le ounter, see rI.                          rC ( ontinuation register), 19."
+        },
+        {
+          "line": 515,
+          "context": "Division, 8{9, 13, 24{25, 49, 91.              rI (interval ounter), 19, 50.\nDot minus, 11.                                 rJ (return-jump register), 16, 60, 80, 81, 114.\nEXPR eld of MMIXAL line, 28{29, 38.            Ronnabyte, 94.\nFailure register, 19.                          rU (usage ounter), 20."
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all1f1.txt",
+      "sha256": "c0b1a7c575ffcbced2bc6a7048143a16286a081908850ad0956258dd2f84b18e",
+      "matches": [
+        {
+          "line": 422,
+          "context": "       * Traffi Signal Problem\n       rho         GREG   250000000            Assume 250 MHz lo k rate\n       t           IS     $255\n       Sensor_Buf IS      Data_Segment"
+        },
+        {
+          "line": 425,
+          "context": "       Sensor_Buf IS      Data_Segment\n                   GREG   Sensor_Buf\n                   LOC    #100\n                   GREG   \b"
+        },
+        {
+          "line": 427,
+          "context": "                   LOC    #100\n                   GREG   \b\n       delta       GREG                        Number of y les to delay\n       ref_time    GREG                        Internal register for Delay"
+        },
+        {
+          "line": 428,
+          "context": "                   GREG   \b\n       delta       GREG                        Number of y les to delay\n       ref_time    GREG                        Internal register for Delay\n       delay_go    GREG                        Exit lo ation for Delay"
+        },
+        {
+          "line": 429,
+          "context": "       delta       GREG                        Number of y les to delay\n       ref_time    GREG                        Internal register for Delay\n       delay_go    GREG                        Exit lo ation for Delay\n       2H          SUBU   delta,delta,t        De rease Æ by rI."
+        },
+        {
+          "line": 430,
+          "context": "       ref_time    GREG                        Internal register for Delay\n       delay_go    GREG                        Exit lo ation for Delay\n       2H          SUBU   delta,delta,t        De rease Æ by rI.\n       1H          SET    ref_time,t           Remember previous value of rI."
+        },
+        {
+          "line": 458,
+          "context": "\nflash_go   GREG\nn          GREG   0                      Iteration ounter\ngreen      GREG   0                      Boulevard or Avenue"
+        },
+        {
+          "line": 459,
+          "context": "flash_go   GREG\nn          GREG   0                      Iteration ounter\ngreen      GREG   0                      Boulevard or Avenue\nFlash      SET    n,8                    Subroutine to ash the lights:"
+        },
+        {
+          "line": 460,
+          "context": "n          GREG   0                      Iteration ounter\ngreen      GREG   0                      Boulevard or Avenue\nFlash      SET    n,8                    Subroutine to ash the lights:\n1H         ADDU   t,green,2*1"
+        },
+        {
+          "line": 518,
+          "context": "x\nPage 114      lines 2 and 3 of answer 9                                                 07 Jan 2007\n    two additional instru tions \\GET $255,rB; RESUME \" will         y\n    \\PUT rJ,$255; GET $255,rB; RESUME \" after the PUSHJ will"
+        },
+        {
+          "line": 569,
+          "context": "Hamming, Ri hard Wesley, distan e, 26.         PUSHJ (push registers and jump), 16, 53,\nHexade imal onstants, iii, 37.                      59, 73, 85{86, 114.\nIngalls, Daniel Henry Holmes, Jr., 109.        Quettabyte, 94.\nInput-output operations, 18, 31, 40{43, 92.    rC ( ontinuation register), 19."
+        },
+        {
+          "line": 576,
+          "context": "     v, 45, 65, 74.                            rI (interval ounter), 19, 50.\nLABEL eld of MMIXAL line, 28{29, 38, 40, 89.   rJ (return-jump register), 16, 60, 80, 81, 114.\nLeaf subroutines, 57, 65, 80.                  Ronnabyte, 94.\nLilius, Aloysius (= Aloigi Giglio, Luigi       rU (usage ounter), 20."
+        }
+      ]
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmixware-errata.html",
+      "sha256": "740b68475c94774ee2d143b0baa2d98111664e2e2c69ce3a29117311f8c4957e",
+      "matches": [
+        {
+          "line": 341,
+          "context": "<dd>insert a new line \"cool->stack_alert=!(cool->y.o.h&amp;sign_bit);\"</dd>\n<dt>page 203, new line 3 of section 114 (30 May 2011)</dt>\n<dd>The value of $\\beta$ may need to be decreased too (by decreasing rL).</dd>\n<dt>page 203, replacement for all the code in this section (30 May 2011)***</dt>"
+        },
+        {
+          "line": 938,
+          "context": "<dd>a duplicate entry \"MMIXAL 63\" occurs in the index entries\n for BSPEC, BYTE, ESPEC, GREG, IS, LOC, LOCAL, OCTA, PREFIX, TETRA, WYDE</dd>\n<dt>pages 525 and 534 (13 Feb 2000)</dt>\n<dd>add \"MMMIX 10\" to the entries for big-endian and little-endian</dd>"
+        }
+      ]
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmixware-current.html",
+      "sha256": "13614aa34f4ad039b12d331064d993292837bc12bf7fd2073ff34bfa41ae9834",
+      "matches": []
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmix-upstream-bugs.html",
+      "sha256": "a9b8c36c7fe466afd03a42ac900cd1e3c13250b7bd9ef575d0f331e31960a61a",
+      "matches": []
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmix-upstream-rounding.html",
+      "sha256": "f864c5fc573f7049aaf2d3682c72ee09f78dfb3d7445a19dc891282f99314c1b",
+      "matches": [
+        {
+          "line": 240,
+          "context": "        LOC     Data_Segment\n        GREG    @\nPassMsg BYTE    \"PASS\",10,0\nFailMsg BYTE    \"FAIL\",10,0"
+        }
+      ]
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmix-arith-upstream-warnings.ch",
+      "sha256": "b4a916e0962e2f79828d6afca1a5a40775e82b725f45ec28664a3e66f6b093b4",
+      "matches": []
+    },
+    {
+      "path": "errata/text/all1.txt",
+      "sha256": "b641d6e48aaf2d77fc98a3c4a8a798d8156516b97095ec345a976e65d9c79aef",
+      "matches": [
+        {
+          "line": 314,
+          "context": "  an even fun tion  y an even fun tion (un hanged when z be omes z)\nPage 114 shortly after (13)                                                04 Sep 2024\n  the rst dis arded term y the rst nonzero dis arded term\nPage 114 last line of exer ise 4                                           04 Sep 2024"
+        },
+        {
+          "line": 316,
+          "context": "  the rst dis arded term y the rst nonzero dis arded term\nPage 114 last line of exer ise 4                                           04 Sep 2024\n  0 repla ing 1 y 0 repla ing the lower limit 1\n Page 116 line 2 of exer ise 6                                             04 Sep 2024"
+        }
+      ]
+    },
+    {
+      "path": "errata/originals/err1.textxt",
+      "sha256": "f752c0a5fcf49686906e39fa5a1dab28b53adc8226b0a7e1a1b6cf850592bc91",
+      "matches": [
+        {
+          "line": 524,
+          "context": "\n\\improvepage 1.114 shortly after {\\eq(13)} (24.09.04)\nthe first discarded term \\becomes the first nonzero discarded term\n\\endchange"
+        },
+        {
+          "line": 528,
+          "context": "\n\\improvepage 1.114 last line of exercise 4 (24.09.04)\n\\ninepoint 0 replacing 1 \\becomes 0 replacing the lower limit 1\n\\endchange"
+        },
+        {
+          "line": 1338,
+          "context": "page 112, Osaka, 1974\npage 114, line 10, comma to semicolon\npage 221, line -7, algorithm -> algorithms\npage 230, Toronto, 1952"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all1-pre.txt",
+      "sha256": "89d231245ff44164e09a39903faac35a2dc5e89956857abcc974991c99a887e5",
+      "matches": [
+        {
+          "line": 507,
+          "context": "                       1                        k=1 k!\nPage 114   line 7                                                                                 26 Feb 2013\nis less than     yis less in absolute value than\nPage 114       repla ement for (14)                                                               21 Mar 2021"
+        },
+        {
+          "line": 509,
+          "context": "is less than     yis less in absolute value than\nPage 114       repla ement for (14)                                                               21 Mar 2021\n                                            m B\n                                            X                 \u00101           \u0011"
+        },
+        {
+          "line": 516,
+          "context": "                                            k=1\nPage 114       repla ement for (15)                                                               21 Mar 2021\n                                                    Xm B\n                       = lim (Hn        ln n) = 1 +      k ( 1)k + lim R :                                (15)"
+        },
+        {
+          "line": 520,
+          "context": "                            n!1                     k=1 k         n!1 mn\nPage 114 lower half of page                                                                       21 Mar 2021\nlines 10 and 7: Hn 1        Hn      y\nline 5: (adding 1=n to both sides)                   y"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all1-prepre.txt",
+      "sha256": "1a3c3ac6137b9e98f427de0a344efca46fd83b7a3e6e8fe2fa38e94525ca0c31",
+      "matches": [
+        {
+          "line": 513,
+          "context": "\nPage 114 line 10                                                                 10 Nov 2002\n  f   (m)\n            y f (x)  (m)"
+        },
+        {
+          "line": 518,
+          "context": "\nPage 114 line 15                                                                 28 Nov 2002\n  \u0006R1 y1\n                      R1"
+        },
+        {
+          "line": 2523,
+          "context": "                               ;\\l;                   76, 87, 111, 374, 407, 472, 496, 536, 600.\n      pAroEmtA AvlA), 307.                           onstant , 75, 107, 114, 619{620.\n\n                  CHANGES TO VOLUME 1: FUNDAMENTAL ALGORITHMS                           49"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/err1-2e.txt",
+      "sha256": "1778c2089c0d317e283c6d28203b3a03b8db531c0d23faa9558661074e78a52a",
+      "matches": [
+        {
+          "line": 1421,
+          "context": "xPage 405 line 18                                                      18 Aug 1987\n  (1859) 114{115 y (1859), 112{115\nxPage 406 line 3                                                       14 Mar 1987\n  (1760), 13{15, 203{209 y (1758{1759), 13{15, 203{210"
+        },
+        {
+          "line": 2233,
+          "context": "                                                                             =\n       P. Flajolet and M. Soria [Disc. Math. 114 (1993), 159{180] have extended this\n analysis to show that Gn (z) and a large family of related distributions not only are\n approximately normal near their mean values, they also have uniformly exponential"
+        },
+        {
+          "line": 2564,
+          "context": " line 6: 8310: : : ; y 83100 83724 41796+ [Math. Comp. 22 (1968), 411{415];\n line 7: known. y known. The same constant had, however, been computed in another\n context by Karl Dickman in Arkiv for Mat., Astron. och Fys. 22A, 10 (1930), 1{14; the\n coincidence wasn't noticed until many years later [Theor. Comp. Sci. 3 (1976), 373]."
+        }
+      ]
+    }
+  ],
+  "original_pages": [
+    "images/recovery-subroutine-answers-122.png"
+  ],
+  "semantic_review": "All matches read. The p114 correction is answer9 PUT rJ; GREG occurrences are traffic-light code, answer116 indentation, MMIXAL index or a rounding example. MMIXware section114 concerns stack-alert/rL. Other volume114 matches concern mathematics or bibliography. No correction changes the GREG allocation-count statement.",
+  "primary_allocation_branches_byte_identical": true,
+  "primary_sources": [
+    {
+      "path": "sources/mmixal-20131017.w",
+      "sha256": "31b1c78cffe20cbc2b7d5d17f614f6a5a46180fd1ea8b1ea2328f0e1a741c7b8"
+    },
+    {
+      "path": "sources/mmixal-20250620.w",
+      "sha256": "1335621eb854fc6d34689b5812cbdf2fc4aaead59e30d4f2bd7acf32d7cd5071"
+    }
+  ]
+}

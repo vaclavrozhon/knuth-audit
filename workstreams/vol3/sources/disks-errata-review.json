@@ -1,0 +1,142 @@
+{
+  "review_date": "2026-11-10",
+  "ranges": {
+    "second_edition": [
+      [
+        356,
+        379
+      ],
+      [
+        696,
+        701
+      ]
+    ],
+    "first_edition_context": [
+      [
+        360,
+        378
+      ],
+      [
+        663,
+        665
+      ]
+    ]
+  },
+  "layers": {
+    "all3-prepre": [
+      {
+        "page": 356,
+        "text": "xPage 356 line 1 of exer ise 6                                                 10 Jan 2003\n    Fig. 87 y Fig. 88\n\f                         CHANGES TO VOLUME 3: SORTING AND SEARCHING                  17"
+      },
+      {
+        "page": 360,
+        "text": "Page 360 line     6                                                          17 Sep 2004\n    operations would take y operations might take"
+      },
+      {
+        "page": 367,
+        "text": "xPage 367    line 8                                                         30 Apr 2008\n  minimum value in (4) y minimum value in (5)"
+      },
+      {
+        "page": 369,
+        "text": "Page 369 repla ement for the nal three paragraphs                           17 Jul 2003\n  Syn Sort begins by reading the rst blo k of ea h run and putting these PB\n  re ords into the memory pool. Ea h re ord in the memory pool is linked to its\n  su essor in the run it belongs to, ex ept that the nal re ord in ea h blo k has\n  no su essor as yet. The smallest of the keys in those nal re ords determines\n  the run that will need to replenished rst, so we begin to read the se ond blo k\n  of that run into the rst bu er. Merging begins as soon as that se ond blo k has\n  been read; by looking at its nal key we an a urately fore ast the next relevant\n  blo k, and we an ontinue in the same way to prefet h exa tly the right blo ks\n  to input, just before they are needed.\n       The three Syn Sort bu ers are arranged in a ir le. As merging pro eeds,\n  the omputer is pro essing data in the urrent bu er, while input is being read\n  into the next bu er and output is being written from the third. The merging\n  algorithm ex hanges ea h re ord in the urrent bu er with the next re ord of\n  output, namely the re ord in the memory pool that has the smallest key. The\n  sele tion tree and the su essor links are also updated appropriately as we make\n  ea h ex hange. On e the end of the urrent bu er is rea hed, we are ready to\n  rotate the bu er ir le: The reading bu er be omes urrent, the writing bu er\n  is used for reading, and we begin to write from the former urrent bu er.\n       Many extensions of this basi idea are possible, depending on hardware\n   apabilities. For example, we might use two disks, one for reading and one for\n  writing, so that input and output and merging an all take pla e simultaneously.\n  Or we might be able to overlap seek time by extending the ir le to four or more\n  bu ers, as in Fig. 26 of Se tion 1.4.4, and deviating from the fore ast input order."
+      },
+      {
+        "page": 370,
+        "text": "Page 370 line 11                                                            04 De 2005\n    D reads or writes    y D reads or D writes"
+      },
+      {
+        "page": 370,
+        "text": "Page 370   line 16                                                         05 Feb 2009\n  D times faster. y up to D times faster."
+      },
+      {
+        "page": 371,
+        "text": "xPage 371 line 20                                                           03 May 2004\n    b1 y h1"
+      },
+      {
+        "page": 377,
+        "text": "xPage 377        line 6 of exer ise 7                                       28 O t 2000\n 6 w + 6w + 7 w + 9 w + 9w + 7w + 4w + 4w y 6 w + 6w + 7w + 9w + 9w +\n      1     2        3      4     5     3   7     8       1      2     3      4     5\n 7w + 4w + 4w\n      6      7       8"
+      },
+      {
+        "page": 696,
+        "text": "xPage 696      line 7 of answer 2                                              15 Mar 2001\n  k + 1 = qi q y k + 1 = ai q\n                         ( +1)                                ( +1)"
+      },
+      {
+        "page": 697,
+        "text": "xPage 697      line 3 of answer 9                                              16 Mar 2001\n  D(\u001c ) = dE (\u001c ), E (\u001c ) = tn + dr y D(T ) = dE (T ), E (T ) = tn + dr"
+      }
+    ],
+    "all3-pre": [],
+    "all3": [
+      {
+        "page": 369,
+        "text": "xPage 369 line 19                                                            04 Feb 2023\n  need to replenished   y need to be replenished"
+      },
+      {
+        "page": 379,
+        "text": "xPage 379 line 3 for exer ise 27                                             10 Apr 2023\n  we throw mk balls into urns (Xk +j) mod n   y we throw a ball into urn (X +j) mod n\n                                                                            k"
+      },
+      {
+        "page": 697,
+        "text": "Page 697       end of answer 15                                                         15 O t 2024\n    after k stops   y  if we need k stops\nx"
+      }
+    ],
+    "err3": [
+      {
+        "page": 369,
+        "text": "xPage 369 line 19                                                              04 Feb 2023\n    need to replenished      y need to be replenished"
+      },
+      {
+        "page": 379,
+        "text": "xPage 379 line 3 for exer ise 27                                               10 Apr 2023\n    we throw mk balls into urns (Xk +j) mod n     y we throw a ball into urn (X +j) mod n\n                                                                              k"
+      },
+      {
+        "page": 697,
+        "text": "Page 697       end of answer 15                                                         15 O t 2024\n    after k stops   y  if we need k stops\nx"
+      }
+    ],
+    "err3-1e": [
+      {
+        "page": 370,
+        "text": "xPage 370 lines 10 and 11                                                    06 Jul 1981\n  Software Age y Software Age"
+      },
+      {
+        "page": 370,
+        "text": "xPage 370 Equation (8)                                                      25 Aug 1976\n  B22   y   B12"
+      },
+      {
+        "page": 372,
+        "text": "xPage 372 line 5                                                            26 Dec 1997\n   min y 1\u0014min\n  1\u0014k\u0014n      k<n"
+      },
+      {
+        "page": 376,
+        "text": "xPage 376 rst display of exercise 2                                          12 Feb 1997\n  ap1 y aP 1\n  ap2 y aP 2\n  apL y aPL"
+      },
+      {
+        "page": 378,
+        "text": "Page 378 new exercise                                                   10 Oct 1980\n  19. [HM25 ] (R. W. Floyd.) Show that the lower bound of Theorem F can be improved\n  to                                            \u0012      \u0012      \u0013\u0013\n                         (k + 1)nc lg c + nc=ln 2 1 + O log c\n                                   b+c                       c\n  when n = ck , for xed k as c ! 1, and also to nc + O(n=log n) for xed c as n ! 1,\n  in the sense that some initial con guration must require this many stops. [Hint: Count\n  the con gurations that can be sorted after s stops.]"
+      },
+      {
+        "page": 664,
+        "text": "Page 664 new answer                                                                   14 May 1976\n  10. See STOC 6 (1974), 216{229.\n\f                      CHANGES TO VOLUME 3: SORTING AND SEARCHING                        89"
+      },
+      {
+        "page": 665,
+        "text": "Page 665 new answer                                                          10 Oct 1980\n  19. There are at least (nc)!=c!n con gurations, andb+cthe\n                                                         \u0001 s number that can be obtained\n                                                                                 s (b+c)s\n  from a given one after s stops is at most ((n 1) b ) , which is less than n 2           .\n  Hence s > (ln(nc)! n ln c!)/(ln n + (b + c) ln 2) and the stated results follow."
+      },
+      {
+        "page": 665,
+        "text": "Page 665 answer to 5.5{3                                                      14 May 1976\n  line 7: Trabb-Pardo y Trabb Pardo\n  line 8: answer y asymptotic answer\n  line 10: variables. y variables, without transforming the records being sorted in\n  any way [SICOMP 6 (1977), 351{372]. The same time and space bounds have been\n  achieved with much smaller constant factors by B.-C. Huang and M. A. Langston,\n  Comp. J. 35 (1992), 643{650. See also A. Symvonis, Comp. J. 38 (1995), 681{690, for\n  cases where m is much smaller than n."
+      }
+    ]
+  },
+  "new_finding_screen": {
+    "finding": "V3-C0056",
+    "result": "No matching official correction in the screened layers.",
+    "public_queries": [
+      "Knuth \"5.4.9\" \"gcd\" buffers error",
+      "Knuth \"700\" \"buffers\" \"errata\"",
+      "\"Knuth\" \"5.4.9\" \"24\" correction"
+    ],
+    "public_result": "No matching report located; no absolute priority claim."
+  }
+}

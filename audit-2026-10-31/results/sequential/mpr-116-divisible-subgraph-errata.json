@@ -1,0 +1,394 @@
+{
+  "updated_at_utc": "2026-11-07T03:13:35.361934+00:00",
+  "scope": "Complete MPR116,coefficient sign,loop conventions and regularity corollary",
+  "snapshot": "Local official snapshots including all4b dated16April2026; no live refresh claimed.",
+  "search_patterns": "(?:Page\\s+(?:24|45|200|201|389)\\b|4(?:b|f5|f6)\\.(?:24|45|200|201|389)\\b|(?:answer|exer\\s*ise|exercise)\\s+\\{?116\\b|regular subgraph|Friedland|Kalai|nonempty subgraph|neighbors)",
+  "text_sources": [
+    {
+      "path": "errata/text/err4b.txt",
+      "sha256": "2a3450bf3c79d28ad3c2d96468344c96995cf0afb74961f257c311bb9c821e1c",
+      "matches": [
+        {
+          "line": 773,
+          "context": [
+            " (a) The strong Somap has vertex degrees 7 6 5 4 3 2 1 0 ; so an \\average\"        7      19    31  59  63 45 15",
+            " solution has (1 \u0001 7 + 7 \u0001 6 + \u0001 \u0001 \u0001 + 15 \u0001 0)=240 \u0019 2:57 strong neighbors. (The unique",
+            " vertex of degree 7 has the level-by-level stru ture 355335342 166175442 176776422 from bottom to top.) This",
+            " graph has two edges between 355335342 617115442 677667422 and 355335344 617115442 677667222, so it's a tually a multigraph. The",
+            " two-pie e substru ture            o urs only in the two solutions 344336366 447156222 177157552 and 344336366 447156255 177157222 .",
+            "        The full Somap has vertex degrees 212 181 169 1513 1410 1316 1217 1112 1016 928 826 725",
+            " 626 516 417 33 21 11 01 , giving an average degree \u0019 9:14. (Its unique isolated vertex is",
+            " 432 466 715 , and its only pendant vertex is 435 465 711 . It has 14 instan es of repeated edges.)"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all4b.txt",
+      "sha256": "b1a3425486f403fb4158585d5bbfef0159fd20b12e2e7d47b64e393e1ae8a303",
+      "matches": [
+        {
+          "line": 818,
+          "context": [
+            "    (a) The strong Somap has vertex degrees 7 6 5 4 3 2 1 0 ; so an \\average\"        7      19    31  59  63 45 15",
+            "    solution has (1 \u0001 7 + 7 \u0001 6 + \u0001 \u0001 \u0001 + 15 \u0001 0)=240 \u0019 2:57 strong neighbors. (The unique",
+            "    vertex of degree 7 has the level-by-level stru ture 355335342 166175442 176776422 from bottom to top.) This",
+            "    graph has two edges between 355335342 617115442 677667422 and 355335344 617115442 677667222, so it's a tually a multigraph. The",
+            "    two-pie e substru ture            o urs only in the two solutions 344336366 447156222 177157552 and 344336366 447156255 177157222 .",
+            "           The full Somap has vertex degrees 212 181 169 1513 1410 1316 1217 1112 1016 928 826 725",
+            "    626 516 417 33 21 11 01 , giving an average degree \u0019 9:14. (Its unique isolated vertex is",
+            "    432 466 715 , and its only pendant vertex is 435 465 711 . It has 14 instan es of repeated edges.)"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "errata/text/err4f5.txt",
+      "sha256": "5a716c34e2063eb46005593d53e89dbbd912b5677e0a6ab11753f2a5ee38b557",
+      "matches": [
+        {
+          "line": 132,
+          "context": [
+            "    mina2\u0019 a\u0019 = 1 y mina2A a\u0019 = 1",
+            " Page 24 line 4 of exer ise 121                                                   31 May 2021",
+            "               Y from X, y divergen e of X from Y ,",
+            "    divergen e of",
+            "",
+            "xPage 26 bottom line                                                              06 May 2021",
+            "    pk 1 \u0014 pk \u0015 pk 1 y pk 1 \u0014 pk \u0015 pk+1",
+            " Page 27      new exer ise                                                         18 Sep 2021"
+          ]
+        },
+        {
+          "line": 243,
+          "context": [
+            " How many solutions y How many inequivalent solutions",
+            "Page 135 line 1 of exer ise 116                                                      25 May 2021",
+            "    Given a graph on verti es V y Given a graph G on verti es V",
+            "Page 135       better illustrations in exer ise 116                                  19 Feb 2020",
+            "",
+            "",
+            "        M2 =         ;     M3 =            ;           M4 =                      ;       ::: :",
+            ""
+          ]
+        },
+        {
+          "line": 245,
+          "context": [
+            "    Given a graph on verti es V y Given a graph G on verti es V",
+            "Page 135       better illustrations in exer ise 116                                  19 Feb 2020",
+            "",
+            "",
+            "        M2 =         ;     M3 =            ;           M4 =                      ;       ::: :",
+            "",
+            "x",
+            "Page 136       in exer ise 123                                                       23 De 2021"
+          ]
+        },
+        {
+          "line": 409,
+          "context": [
+            "  t=pk ) \u0015 p ln(1 t=p) \u0015 \u00161 ln(1 t\u0016) = \u0012t ln(1 \u0012). By 1.2.10{(25), therefore,",
+            " Page 200 lines 7 and 8 of answer 114                                                05 Jan 2022",
+            "  we ould nd subsets : : : avoids them all y we ould eliminate them one (or more)",
+            "  at a time, by removing an element from any Sj for whi h jSj j > dj + 1",
+            "xPage 205 line 4 of answer 133                                                        06 Jul 2022",
+            "  rows, by indu tion y distin t olumns, by indu tion",
+            " Page 205 new answer 135                                                              18 Sep 2021",
+            " 135, 136, . . . . See page 384."
+          ]
+        },
+        {
+          "line": 864,
+          "context": [
+            " 420. (Solution by Palmer Mebane.) In any solution, ea h ell is either inside or outside",
+            " the loop. Lemma: Every 2 has exa tly two neighbors inside. (For if the 2 is outside,",
+            " the neighbors opposite its two edges are inside; otherwise the neighbors opposite its",
+            "",
+            "    18       CHANGES TO V4F5: MATH PRELIMINARIES, BACKTRACKING ET AL",
+            "",
+            "  two non edges are inside.) Let S be the set of ells next to a 2. Color ea h 2 alternately",
+            "  red or blue; then ea h ell of S is a neighbor of one red 2 and one blue 2. In parti ular,"
+          ]
+        },
+        {
+          "line": 865,
+          "context": [
+            " the loop. Lemma: Every 2 has exa tly two neighbors inside. (For if the 2 is outside,",
+            " the neighbors opposite its two edges are inside; otherwise the neighbors opposite its",
+            "",
+            "    18       CHANGES TO V4F5: MATH PRELIMINARIES, BACKTRACKING ET AL",
+            "",
+            "  two non edges are inside.) Let S be the set of ells next to a 2. Color ea h 2 alternately",
+            "  red or blue; then ea h ell of S is a neighbor of one red 2 and one blue 2. In parti ular,",
+            "  that's true for ea h inside ell of S . Thus, by the lemma, there are equally many red"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all4f5.txt",
+      "sha256": "0dd38c4cda72b01baefb797611c9bbab7713ff0c107a1df884afc89fe9bb91c3",
+      "matches": [
+        {
+          "line": 143,
+          "context": [
+            "    mina2\u0019 a\u0019 = 1 y mina2A a\u0019 = 1",
+            " Page 24   line 4 of exer ise 121                                                      31 May 2021",
+            "  divergen e of Y from X , y divergen e of X from Y ,",
+            "",
+            "xPage 26 bottom line                                                                   06 May 2021",
+            "    pk 1 \u0014 pk \u0015 pk 1 y pk 1 \u0014 pk \u0015 pk+1",
+            "                                                   3",
+            ""
+          ]
+        },
+        {
+          "line": 288,
+          "context": [
+            " How many solutions y How many inequivalent solutions",
+            "Page 135 line 1 of exer ise 116                                                      25 May 2021",
+            "    Given a graph on verti es V y Given a graph G on verti es V",
+            "Page 135       better illustrations in exer ise 116                                  19 Feb 2020",
+            "",
+            "",
+            "       M2 =          ;     M3 =            ;           M4 =                      ;       ::: :",
+            ""
+          ]
+        },
+        {
+          "line": 290,
+          "context": [
+            "    Given a graph on verti es V y Given a graph G on verti es V",
+            "Page 135       better illustrations in exer ise 116                                  19 Feb 2020",
+            "",
+            "",
+            "       M2 =          ;     M3 =            ;           M4 =                      ;       ::: :",
+            "",
+            "x",
+            "Page 136       in exer ise 123                                                       23 De 2021"
+          ]
+        },
+        {
+          "line": 460,
+          "context": [
+            "  t=pk ) \u0015 p ln(1 t=p) \u0015 \u00161 ln(1 t\u0016) = \u0012t ln(1 \u0012). By 1.2.10{(25), therefore,",
+            " Page 200 lines 7 and 8 of answer 114                                                05 Jan 2022",
+            "  we ould nd subsets : : : avoids them all y we ould eliminate them one (or more)",
+            "  at a time, by removing an element from any Sj for whi h jSj j > dj + 1",
+            "xPage 205 line 4 of answer 133                                                        06 Jul 2022",
+            "  rows, by indu tion y distin t olumns, by indu tion",
+            " Page 205 new answer 135                                                              18 Sep 2021",
+            " 135, 136, . . . . See page 384."
+          ]
+        },
+        {
+          "line": 919,
+          "context": [
+            " 420. (Solution by Palmer Mebane.) In any solution, ea h ell is either inside or outside",
+            " the loop. Lemma: Every 2 has exa tly two neighbors inside. (For if the 2 is outside,",
+            " the neighbors opposite its two edges are inside; otherwise the neighbors opposite its",
+            " two non edges are inside.) Let S be the set of ells next to a 2. Color ea h 2 alternately",
+            " red or blue; then ea h ell of S is a neighbor of one red 2 and one blue 2. In parti ular,",
+            " that's true for ea h inside ell of S . Thus, by the lemma, there are equally many red",
+            " and blue ells. But that ontradi ts m mod 4 = n mod 4 = 1!",
+            "        [This exer ise is due to N. Beluhov, who observes that solutions aplenty exist"
+          ]
+        },
+        {
+          "line": 920,
+          "context": [
+            " the loop. Lemma: Every 2 has exa tly two neighbors inside. (For if the 2 is outside,",
+            " the neighbors opposite its two edges are inside; otherwise the neighbors opposite its",
+            " two non edges are inside.) Let S be the set of ells next to a 2. Color ea h 2 alternately",
+            " red or blue; then ea h ell of S is a neighbor of one red 2 and one blue 2. In parti ular,",
+            " that's true for ea h inside ell of S . Thus, by the lemma, there are equally many red",
+            " and blue ells. But that ontradi ts m mod 4 = n mod 4 = 1!",
+            "        [This exer ise is due to N. Beluhov, who observes that solutions aplenty exist",
+            " when m is odd and n mod 4 = 3.℄"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "errata/text/err4f6.txt",
+      "sha256": "0a065b32ef4f8e427a178a77e0fe81b7caad77389ecec060c8793567cd5a3eb2",
+      "matches": [
+        {
+          "line": 455,
+          "context": [
+            "  arXiv:1410.2736 [ s.DS℄ (2014), 10 pages y LNCS 9136 (2015), 167{176",
+            " Page 200 line 2                                                              08 Apr 2017",
+            "  size less than 16 \u0002 18. y size 15 \u0002 18 or 16 \u0002 17.",
+            " Page 202 line       3 of answer 85                                           03 Mar 2021",
+            "  (August 2013), #P16 y (2013), #P16, 1{19",
+            "xPage 204 bottom line and top lines of page 205                                11 Jan 2016",
+            "  nonzero top row : : : (n k), whi h y nonzero rst row and olumn has all entries",
+            "  zero ex ept that y1t = yt1 = y(k+1 t)1 = ykt = yk(k+1 t) = y(k+1 t)k ="
+          ]
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all4f6.txt",
+      "sha256": "468af6337a650d3b8b132fa854a21a4a460d891d3497986318ba1830581dddb8",
+      "matches": [
+        {
+          "line": 521,
+          "context": [
+            "  tarnishing y tainting",
+            " Page 200 line 2                                                              08 Apr 2017",
+            "  size less than 16 \u0002 18. y size 15 \u0002 18 or 16 \u0002 17.",
+            " Page 202 line      3 of answer 85                                            03 Mar 2021",
+            "  (August 2013), #P16 y (2013), #P16, 1{19",
+            "xPage 204 bottom line and top lines of page 205                                11 Jan 2016",
+            "  nonzero top row : : : (n k), whi h y nonzero rst row and olumn has all entries",
+            "  zero ex ept that y1t = yt1 = y(k+1 t)1 = ykt = yk(k+1 t) = y(k+1 t)k ="
+          ]
+        }
+      ]
+    }
+  ],
+  "tex_sources": [
+    {
+      "path": "errata/originals/err4b.textxt",
+      "sha256": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+      "matches": [
+        {
+          "line": 1240,
+          "context": [
+            "``average'' solution has $(1\\?\\cdot7+7\\cdot6+\\cdots+15\\cdot0)/240\\approx2.57$",
+            "strong neighbors.",
+            "\\begingroup\\font\\tiny=cmr5 at 4pt",
+            "\\def\\|{\\vrule height3.2pt depth0pt width0pt}%",
+            "\\def\\3#1#2#3{$\\vcenter{\\tiny\\offinterlineskip",
+            "    \\hbox to.5em{\\|\\hss#1\\hss}%",
+            "    \\hbox to.5em{\\|\\hss#2\\hss}%",
+            "    \\hbox to.5em{\\|\\hss#3\\hss}}$}%"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "errata/originals/err4f5.textxt",
+      "sha256": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b",
+      "matches": [
+        {
+          "line": 281,
+          "context": [
+            "",
+            "\\amendpage 4f5.24 line 4 of exercise 121 (21.05.31)",
+            "{\\it divergence of\\/ $Y\\!$ from~$X\\?$}, \\becomes",
+            "{\\it divergence of\\/ $X\\!$ from~$Y\\!$},",
+            "\\endchange",
+            "",
+            "\\bugonpage 4f5.26 bottom line (21.05.06)",
+            "$p_{k-1}\\le p_k\\ge p_{k-1}$ \\becomes"
+          ]
+        },
+        {
+          "line": 548,
+          "context": [
+            "",
+            "\\amendpage 4f5.135 line 1 of exercise 116 (21.05.25)",
+            "\\ninepoint",
+            "Given a graph on vertices $V$ \\becomes",
+            "Given a graph $G$ on vertices $V$",
+            "\\endchange",
+            "",
+            "\\amendpage 4f5.135 better illustrations in exercise 116 (20.02.19)"
+          ]
+        },
+        {
+          "line": 554,
+          "context": [
+            "",
+            "\\amendpage 4f5.135 better illustrations in exercise 116 (20.02.19)",
+            "$$\\def\\\\#1{\\vcenter{\\epsfbox{\\figdir/v4b.328#1}}}",
+            "M_2\\;=\\;\\\\1\\,;\\qquad",
+            "M_3\\;=\\;\\\\2\\,;\\qquad",
+            "M_4\\;=\\;\\\\3\\,;\\qquad \\ldots\\,.$$",
+            "\\endchange",
+            ""
+          ]
+        },
+        {
+          "line": 781,
+          "context": [
+            "",
+            "\\amendpage 4f5.200 lines 7 and 8 of answer 114 (22.01.05)",
+            "we could find subsets \\dots\\ avoids them all \\becomes",
+            "we could eliminate them one (or more) at a time,",
+            "by removing an element from any $S_j$ for which $\\vert S_j\\vert>d_j+1$",
+            "\\endchange",
+            "",
+            "\\bugonpage 4f5.205 line 4 of answer 133 (22.07.06)"
+          ]
+        },
+        {
+          "line": 1510,
+          "context": [
+            "\\ans420. (Solution by Palmer Mebane.) In any solution, each cell is either",
+            "inside or outside the loop. {\\sl Lemma: Every\\/} \\.2 {\\sl has exactly two neighbors",
+            "inside.} (For if the \\.2 is outside, the neighbors opposite its two edges",
+            "are inside; otherwise the neighbors opposite its two {\\it non\\/}edges",
+            "are inside.) Let $S$ be the set of cells next to a~\\.2. Color each~\\.2",
+            "alternately red or blue; then each cell of~$S$ is a neighbor of one red~\\.2",
+            "and one blue~\\.2. In particular, that's true for each {\\it inside\\/} cell",
+            "of~$S$. Thus, by the lemma, there are equally many red and blue cells."
+          ]
+        },
+        {
+          "line": 1511,
+          "context": [
+            "inside or outside the loop. {\\sl Lemma: Every\\/} \\.2 {\\sl has exactly two neighbors",
+            "inside.} (For if the \\.2 is outside, the neighbors opposite its two edges",
+            "are inside; otherwise the neighbors opposite its two {\\it non\\/}edges",
+            "are inside.) Let $S$ be the set of cells next to a~\\.2. Color each~\\.2",
+            "alternately red or blue; then each cell of~$S$ is a neighbor of one red~\\.2",
+            "and one blue~\\.2. In particular, that's true for each {\\it inside\\/} cell",
+            "of~$S$. Thus, by the lemma, there are equally many red and blue cells.",
+            "But that contradicts $m\\mod4=n\\mod4=1$!\\par"
+          ]
+        },
+        {
+          "line": 1512,
+          "context": [
+            "inside.} (For if the \\.2 is outside, the neighbors opposite its two edges",
+            "are inside; otherwise the neighbors opposite its two {\\it non\\/}edges",
+            "are inside.) Let $S$ be the set of cells next to a~\\.2. Color each~\\.2",
+            "alternately red or blue; then each cell of~$S$ is a neighbor of one red~\\.2",
+            "and one blue~\\.2. In particular, that's true for each {\\it inside\\/} cell",
+            "of~$S$. Thus, by the lemma, there are equally many red and blue cells.",
+            "But that contradicts $m\\mod4=n\\mod4=1$!\\par",
+            "[This exercise is due to N.~Beluhov, who observes that solutions aplenty"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "errata/originals/err4f6.textxt",
+      "sha256": "150809ff5caee54008a0a52523130b723ec1fdea7fe5cb8259b2a8349c4a8bfa",
+      "matches": [
+        {
+          "line": 871,
+          "context": [
+            "",
+            "\\amendpage 4f6.200 line 2 (17.04.08)",
+            "size less than $16\\times18$. \\becomes",
+            "size $15\\times18$ or $16\\times17$.",
+            "\\endchange",
+            "",
+            "\\amendpage 4f6.202 line $-3$ of answer 85 (21.03.03)",
+            "(August 2013), \\#P16 \\becomes"
+          ]
+        }
+      ]
+    }
+  ],
+  "assessment": "No correction of the top-coefficient sign found. Fascicle5p135exercise116 is the unrelated Mycielski exercise; p200answer114 is known E134. Both4BPDF and Pre-FasciclePS print the same wrong sign.",
+  "new_findings": [
+    "F176"
+  ],
+  "known_corrections": []
+}

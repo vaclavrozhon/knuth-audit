@@ -1,0 +1,40 @@
+{
+  "clique_cover_families": 1637,
+  "parameter_vectors": 14466,
+  "conditional_hint_checks": 356738,
+  "resampling_bounds": 114874,
+  "partition_checks": 550078,
+  "specialized_theta_vectors": 21805,
+  "overlap_counterexample": {
+    "cover": [
+      1,
+      3,
+      7
+    ],
+    "p": [
+      "0",
+      "2/5",
+      "2/5"
+    ],
+    "printed_conditional": "2/3",
+    "claimed_upper_bound": "2/5"
+  },
+  "uncovered_isolate": {
+    "cover": [
+      1
+    ],
+    "p": [
+      "0",
+      "1"
+    ],
+    "M": "0"
+  },
+  "slack_counterexample": {
+    "p": [
+      "1/4",
+      "1/4"
+    ],
+    "delta": "1",
+    "E": "1/2"
+  }
+}

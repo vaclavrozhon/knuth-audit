@@ -1,0 +1,109 @@
+{
+  "at_utc": "2026-11-03T11:33:02.020361+00:00",
+  "files": {
+    "errata/text/all4b.txt": "b1a3425486f403fb4158585d5bbfef0159fd20b12e2e7d47b64e393e1ae8a303",
+    "errata/text/err4b.txt": "2a3450bf3c79d28ad3c2d96468344c96995cf0afb74961f257c311bb9c821e1c",
+    "errata/text/all4f5.txt": "0dd38c4cda72b01baefb797611c9bbab7713ff0c107a1df884afc89fe9bb91c3",
+    "errata/text/err4f5.txt": "5a716c34e2063eb46005593d53e89dbbd912b5677e0a6ab11753f2a5ee38b557",
+    "errata/originals/err4b.textxt": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+    "errata/originals/err4f5.textxt": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b"
+  },
+  "pattern": "(?:[Pp]age\\s+|(?:4b|4f5)\\.)(?:144|460|142|268)\\b|(?:answer|exercise|exer ise)\\s+156\\b|Ahearn|Jepsen|2332|2566|205753|6975499717|61636037366",
+  "contexts": [
+    {
+      "file": "errata/text/all4b.txt",
+      "line": 213,
+      "context": "  (2, 3, 3, 57) y (2, 2, 3, 57)\nPage 142 line 7                                                                            13 Feb 2023\n     the boundary of    y the boundary path of\nPage 145 line 3 of exer ise 162                                                           04 Nov 2023\n     eight of the possible   y eight of the ten possible\nxPage 145 line 4 of exer ise 165                                                           02 Jan 2025"
+    },
+    {
+      "file": "errata/text/all4b.txt",
+      "line": 532,
+      "context": " with Algorithm X   y     with Algorithm X and exer ise 413\nPage 460 line      3                                                          07 Apr 2026\n in 1981, and C. H. Jepsen and S. Ahearn   y      in 1981; S. T. Ahearn and C. H. Jepsen\nx\nPage 462 line 3 of answer 162                                                 13 O t 2023\n rj +1 k+3 aj +k+3 bj k 3  y    rj +1 k+3 aj +k+4 bj k 2"
+    },
+    {
+      "file": "errata/text/all4b.txt",
+      "line": 533,
+      "context": "Page 460 line      3                                                          07 Apr 2026\n in 1981, and C. H. Jepsen and S. Ahearn   y      in 1981; S. T. Ahearn and C. H. Jepsen\nx\nPage 462 line 3 of answer 162                                                 13 O t 2023\n rj +1 k+3 aj +k+3 bj k 3  y    rj +1 k+3 aj +k+4 bj k 2\nx"
+    },
+    {
+      "file": "errata/text/err4b.txt",
+      "line": 484,
+      "context": " with Algorithm X    y          with Algorithm X and exer ise 413\nPage 460 line          3                                                            07 Apr 2026\n in 1981, and C. H. Jepsen and S. Ahearn      y         in 1981; S. T. Ahearn and C. H. Jepsen\nx\nPage 462 line 3 of answer 162                                                       13 O t 2023\n rj +1 k+3 aj +k+3 bj k 3    y        rj +1 k+3 aj +k+4 bj k 2"
+    },
+    {
+      "file": "errata/text/err4b.txt",
+      "line": 485,
+      "context": "Page 460 line          3                                                            07 Apr 2026\n in 1981, and C. H. Jepsen and S. Ahearn      y         in 1981; S. T. Ahearn and C. H. Jepsen\nx\nPage 462 line 3 of answer 162                                                       13 O t 2023\n rj +1 k+3 aj +k+3 bj k 3    y        rj +1 k+3 aj +k+4 bj k 2\nx"
+    },
+    {
+      "file": "errata/text/all4f5.txt",
+      "line": 300,
+      "context": "x\nPage 144         orre tion to puzzle (ii) in exer ise 173                            04 De 2019\n    : : : Diagram (ii) shows 8 : : : the other 19 an be dedu ed. : : :\n                                           n               n\n                                                               n\n                                           3               1"
+    },
+    {
+      "file": "errata/text/all4f5.txt",
+      "line": 329,
+      "context": "x\nPage 144       rewording of exer ise 177                                             17 Nov 2021\n177.     [M21 ℄ Algorithm 7.2.1.5M generates the p(n1 ; : : : ; nm ) partitions of the multiset\n    fn1 \u0001 x1 ; : : : ; nm \u0001 xm g into submultisets. Consider the spe ial ases where n1 = \u0001 \u0001 \u0001 =\n    ns = 1 and ns+1 = \u0001 \u0001 \u0001 = ns+t = 2 and s + t = m.\n     a) Generate those partitions with Algorithm M, using the previous two exer ises."
+    },
+    {
+      "file": "errata/text/all4f5.txt",
+      "line": 660,
+      "context": "  but without\n Page 268 updated URL for last line of answer 154                           11 Jul 2022\n    eri h-friedman.github.io/mathmagi /0607.html\nxPage 275   line 3 of answer 176                                               11 Jul 2022\n  `#j Bj ' y `#j Bj '\nxPage 277   repla ement for answer 189(a)                                     19 De 2019"
+    },
+    {
+      "file": "errata/text/err4f5.txt",
+      "line": 255,
+      "context": "x\nPage 144         orre tion to puzzle (ii) in exer ise 173                            04 De 2019\n    : : : Diagram (ii) shows 8 : : : the other 19 an be dedu ed. : : :\n                                           n               n\n                                                               n\n                                           3               1"
+    },
+    {
+      "file": "errata/text/err4f5.txt",
+      "line": 284,
+      "context": "x\nPage 144       rewording of exer ise 177                                             17 Nov 2021\n177.     [M21 ℄ Algorithm 7.2.1.5M generates the p(n1 ; : : : ; nm ) partitions of the multiset\n    fn1 \u0001 x1 ; : : : ; nm \u0001 xm g into submultisets. Consider the spe ial ases where n1 = \u0001 \u0001 \u0001 =\n    ns = 1 and ns+1 = \u0001 \u0001 \u0001 = ns+t = 2 and s + t = m.\n     a) Generate those partitions with Algorithm M, using the previous two exer ises."
+    },
+    {
+      "file": "errata/text/err4f5.txt",
+      "line": 606,
+      "context": "  but without\n Page 268 updated URL for last line of answer 154                           11 Jul 2022\n    eri h-friedman.github.io/mathmagi /0607.html\nxPage 275      line 3 of answer 176                                                            11 Jul 2022\n  `#j Bj ' y `#j Bj '\nxPage 277      repla ement for answer 189(a)                                                  19 De 2019"
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "line": 433,
+      "context": "\n\\improvepage 4b.142 line 7 (23.02.13)\n\\ninepoint the boundary of \\becomes the boundary path of\n\\endchange\n\n\\improvepage 4b.145 line 3 of exercise 162 (23.11.04)"
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "line": 944,
+      "context": "\n\\amendpage 4b.460 line $-3$ (26.04.07)\nin 1981, and C.~H. {Jepsen} and S.~{Ahearn} \\becomes\nin 1981; S.~T. {Ahearn} and C.~H. {Jepsen}\n\\endchange\n"
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "line": 945,
+      "context": "\\amendpage 4b.460 line $-3$ (26.04.07)\nin 1981, and C.~H. {Jepsen} and S.~{Ahearn} \\becomes\nin 1981; S.~T. {Ahearn} and C.~H. {Jepsen}\n\\endchange\n\n\\bugonpage 4b.462 line 3 of answer 162 (23.10.13)"
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "line": 946,
+      "context": "in 1981, and C.~H. {Jepsen} and S.~{Ahearn} \\becomes\nin 1981; S.~T. {Ahearn} and C.~H. {Jepsen}\n\\endchange\n\n\\bugonpage 4b.462 line 3 of answer 162 (23.10.13)\n$r_{j+1}$ $c_{k+3}$ $a_{j+k+3}$ $b_{j-k-3}$ \\becomes"
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "line": 567,
+      "context": "\n\\bugonpage 4f5.144 correction to puzzle {(ii)} in exercise 173 (19.12.04)\n\\ninepoint \\dots\\ Diagram (ii) shows 8 \\dots\\ the other 19 can be deduced. \\dots\n$$\\def\\epsfsize#1#2{.5#1}\\vcenter{\\epsfbox{\\figdir/v4b.2121}}$$\n\\endchange\n"
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "line": 572,
+      "context": "\n\\bugonpage 4f5.144 rewording of exercise 177 (21.11.17)\n\\ninepoint\n\\ex177. [M21] Algorithm 7.2.1.5M generates the\n$p(n_1,\\ldots,n_m)$ partitions of the multiset\n$\\{n_1\\cdot x_1,\\ldots,n_m\\cdot x_m\\}$ into submultisets."
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "line": 1114,
+      "context": "\n\\amendpage 4f5.268 updated URL for last line of answer 154 (22.07.11)\n{\\tt erich-friedman.github.io/mathmagic/0607.html}\n\\endchange\n\n\\bugonpage 4f5.275 line 3 of answer 176 (22.07.11)"
+    }
+  ],
+  "known_erratum": "E079:2026-04-07,4Bp460line-3,punctuation and authors S.T.Ahearn then C.H.Jepsen",
+  "applied_to_local_pdf": false,
+  "applied_to_2019_draft": false,
+  "other_correction_to_156_found": false,
+  "latest_remote_retrieval": "2026-11-03T05:37:34Z; same six hashes"
+}

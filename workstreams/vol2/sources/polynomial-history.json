@@ -1,0 +1,791 @@
+{
+  "accessed_utc": "2026-11-04T01:27:38.786623+00:00",
+  "scope": "Historical and bibliographic closure of 4.6.1 except the separate fast Sturm/resultant claim. No new finding; priority qualifications explicit.",
+  "book": {
+    "edition": 3,
+    "printing": 1,
+    "printed_pages": [
+      422,
+      424,
+      434,
+      435,
+      674,
+      675
+    ],
+    "file_page_offset": 12
+  },
+  "sources": [
+    {
+      "id": "gauss-1801",
+      "url": "https://edoc.hu-berlin.de/bitstreams/9973005a-bdd0-4c26-b11e-6c3cb1cad376/download",
+      "local": "sources/gauss-1801.pdf",
+      "pdf_pages_visually_read": [
+        5,
+        56,
+        57,
+        58
+      ],
+      "scope": "Title and printed 36–38, article 42 only; not the full 703-page book."
+    },
+    {
+      "id": "nunez-1567",
+      "url": "https://archive.org/download/librodealgebrae00nunegoog/librodealgebrae00nunegoog.pdf",
+      "local": "sources/nunez-1567.pdf",
+      "pdf_pages_visually_read": [
+        3,
+        283,
+        284,
+        285
+      ],
+      "scope": "Title and folios 127r–128r; common-divisor example on 127v. IA djvu text used for navigation, embedded PDF text is unusable."
+    },
+    {
+      "id": "stevin-1585",
+      "url": "https://www.e-rara.ch/i3f/v20/13838707/manifest",
+      "local": "sources/stevin-1585-manifest.json",
+      "read_canvases": [
+        {
+          "canvas": 5,
+          "label": "[5]",
+          "service": {
+            "profile": "http://iiif.io/api/image/2/level2.json",
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://www.e-rara.ch/i3f/v20/13838713"
+          },
+          "image": "images/stevin-1585-canvas005.jpg"
+        },
+        {
+          "canvas": 267,
+          "label": "240",
+          "service": {
+            "profile": "http://iiif.io/api/image/2/level2.json",
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://www.e-rara.ch/i3f/v20/13838975"
+          },
+          "image": "images/stevin-1585-canvas267.jpg"
+        },
+        {
+          "canvas": 268,
+          "label": "241",
+          "service": {
+            "profile": "http://iiif.io/api/image/2/level2.json",
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://www.e-rara.ch/i3f/v20/13838976"
+          },
+          "image": "images/stevin-1585-canvas268.jpg"
+        },
+        {
+          "canvas": 269,
+          "label": "242",
+          "service": {
+            "profile": "http://iiif.io/api/image/2/level2.json",
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://www.e-rara.ch/i3f/v20/13838977"
+          },
+          "image": "images/stevin-1585-canvas269.jpg"
+        }
+      ],
+      "scope": "Title and problems LIII/LIV; 1585 printed 240–242, 1634 printed 56–57. Other downloaded canvases are navigation only, 1634 canvas 4 is blank."
+    },
+    {
+      "id": "stevin-1634",
+      "url": "https://www.e-rara.ch/i3f/v20/2161127/manifest",
+      "local": "sources/stevin-1634-manifest.json",
+      "read_canvases": [
+        {
+          "canvas": 7,
+          "label": "[7]",
+          "service": {
+            "profile": "http://iiif.io/api/image/2/level2.json",
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://www.e-rara.ch/i3f/v20/2161136"
+          },
+          "image": "images/stevin-1634-canvas007.jpg"
+        },
+        {
+          "canvas": 68,
+          "label": "56",
+          "service": {
+            "profile": "http://iiif.io/api/image/2/level2.json",
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://www.e-rara.ch/i3f/v20/2161197"
+          },
+          "image": "images/stevin-1634-canvas068.jpg"
+        },
+        {
+          "canvas": 69,
+          "label": "57",
+          "service": {
+            "profile": "http://iiif.io/api/image/2/level2.json",
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://www.e-rara.ch/i3f/v20/2161198"
+          },
+          "image": "images/stevin-1634-canvas069.jpg"
+        }
+      ],
+      "scope": "Title and problems LIII/LIV; 1585 printed 240–242, 1634 printed 56–57. Other downloaded canvases are navigation only, 1634 canvas 4 is blank."
+    },
+    {
+      "id": "bareiss-1966",
+      "url": "https://www.osti.gov/servlets/purl/4474185",
+      "local": "sources/bareiss-1966.pdf",
+      "pdf_pages_visually_read": [
+        1,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "scope": "ANL-7213, May 1966: title and printed 4–8. Journal Math. Comp. 22 (1968), 565–578 PDF unavailable (403); author preprint explicitly distinguished."
+    },
+    {
+      "id": "ducos-1996",
+      "url": "https://www.numdam.org/item/ITA_1996__30_4_319_0.pdf",
+      "local": "sources/ducos-1996.pdf",
+      "pdf_pages_visually_read": [
+        2,
+        3,
+        5,
+        6,
+        18,
+        19
+      ],
+      "scope": "Printed 319–320, 322–323, 335–336; selected introduction, determinant framework and section 5.1, not all proof pages."
+    },
+    {
+      "id": "habicht-1948",
+      "url": "https://www.e-periodica.ch/cntmng?bot=1&pid=com-001%3A1948%3A21%3A%3A12",
+      "local": "sources/habicht-1948.pdf",
+      "pdf_pages_visually_read": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        19
+      ],
+      "scope": "Printed 99–103 and 116; no full verification of 104–115.",
+      "doi": "10.5169/seals-18600"
+    },
+    {
+      "id": "loos-1982-prs-preview",
+      "url": "https://page-one.springer.com/pdf/preview/10.1007/978-3-7091-3406-1_9",
+      "local": "sources/loos-1982-prs-preview.pdf",
+      "pdf_pages_visually_read": [
+        1
+      ],
+      "scope": "Printed 115 only, abstract and title. Full chapter 115–137 unavailable.",
+      "metadata_url": "https://link.springer.com/chapter/10.1007/978-3-7091-3406-1_9"
+    },
+    {
+      "id": "knuth-pfaffians-1995",
+      "url": "https://arxiv.org/pdf/math/9503234",
+      "local": "sources/knuth-pfaffians-1995.pdf",
+      "pdf_pages_visually_read": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10
+      ],
+      "scope": "Selected pages including complete relevant section 3 on determinants. Chio 1853 original not obtained; known 2013 correction is not an independent proof of global priority.",
+      "metadata": "sources/knuth-pfaffians-journal-metadata.json"
+    },
+    {
+      "id": "gram-1883",
+      "url": "https://gdz.sub.uni-goettingen.de/download/pdf/PPN243919689_0094/LOG_0006.pdf",
+      "local": "sources/gram-1883.pdf",
+      "pdf_pages_visually_read": [
+        2,
+        32,
+        33,
+        34
+      ],
+      "scope": "Printed 41 and 71–73: title/bibliography and closing pages only. The Gram–Schmidt formula is verified directly in Schmidt 442, not inferred from Gram closing pages."
+    },
+    {
+      "id": "schmidt-1907",
+      "url": "https://gdz.sub.uni-goettingen.de/download/pdf/PPN235181684_0063/LOG_0045.pdf",
+      "local": "sources/schmidt-1907.pdf",
+      "pdf_pages_visually_read": [
+        2,
+        10,
+        11,
+        12
+      ],
+      "scope": "Printed 433 and 441–443. Orthogonalization formula and Gram attribution on 442, orthogonality on 443. Initial wrong LOG_0039 download rejected."
+    },
+    {
+      "id": "demillo-lipton-1977",
+      "url": "https://ia600604.us.archive.org/19/items/DTIC_ADA050745/DTIC_ADA050745.pdf",
+      "local": "sources/demillo-lipton-1977.pdf",
+      "pdf_pages_visually_read": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "scope": "GIT-ICS-77/07, May 1977: documentation, title, abstract, all text and bibliography. Not the 1978 journal typesetting; table not independently recalculated.",
+      "journal_metadata": "sources/demillo-lipton-1978-metadata.json"
+    },
+    {
+      "id": "zippel-1979",
+      "url": "https://www.cecm.sfu.ca/~monaganm/teaching/TopicsinCA15/zippel79.pdf",
+      "local": "sources/zippel-1979.pdf",
+      "pdf_pages_visually_read": [
+        1,
+        6,
+        7,
+        11
+      ],
+      "scope": "Printed 216, 221–222, 226. Introduction, zero bound and probability application, bibliography; no full algorithm/timing audit."
+    }
+  ],
+  "schwartz": {
+    "metadata": "sources/schwartz-1980-metadata.json",
+    "locator_metadata": "sources/schwartz-1980-openalex.json",
+    "original_pdf_obtained": false,
+    "note": "Open web transcription used only as navigation, not primary evidence; separate mathematical verification pending."
+  },
+  "download_log": "sources/polynomial-history-downloads.json",
+  "errata": {
+    "layers": [
+      "errata/text/all2-prepre.txt",
+      "errata/text/all2-pre.txt",
+      "errata/text/all2.txt",
+      "errata/text/err2.txt",
+      "errata/originals/err2.textxt",
+      "errata/text/err2-2e.txt"
+    ],
+    "search_log": "sources/polynomial-history-errata.txt",
+    "images": [
+      "images/history-errata-all2-prepre-24.png",
+      "images/history-errata-all2-pre-11.png"
+    ]
+  },
+  "verification": "Primary-source reading and own determinant/valuation arguments; no new numerical test, no successful earlier test repeated.",
+  "artifacts": [
+    {
+      "path": "images/bareiss-1966-01.png",
+      "bytes": 95452,
+      "sha256": "eb96cfac352cdebb808cf06c5c561852ab460b1855cea1e73cd9248cb5dce852"
+    },
+    {
+      "path": "images/bareiss-1966-06.png",
+      "bytes": 109802,
+      "sha256": "38178c3b1c7166ad68aa6510ba39241db29d293710b5a98c4ddd672ebdace9d6"
+    },
+    {
+      "path": "images/bareiss-1966-07.png",
+      "bytes": 93497,
+      "sha256": "b1a990856b7183ed3532bb079cad77cdc044367da592262ef7e392e232c163a4"
+    },
+    {
+      "path": "images/bareiss-1966-08.png",
+      "bytes": 101105,
+      "sha256": "d2efd8fc48add4ae2526bf16aef048f0aa80e1aed050164f2c96e7baf5ee26ae"
+    },
+    {
+      "path": "images/bareiss-1966-09.png",
+      "bytes": 100621,
+      "sha256": "1a33888585dbbb7cd838fd8e2304f196adab287027bc931c85c2be51a3e52fb1"
+    },
+    {
+      "path": "images/bareiss-1966-10.png",
+      "bytes": 166523,
+      "sha256": "78d9dc73cf0fecb23da478b5d90e32695af80f02cd236ff5f3e43501d491d4b7"
+    },
+    {
+      "path": "images/demillo-lipton-1977-03.png",
+      "bytes": 1631582,
+      "sha256": "15394954f138c3bfcfcb30d347bdfcb099caabd71d6f6bdf2f860ae5f90a84c4"
+    },
+    {
+      "path": "images/demillo-lipton-1977-04.png",
+      "bytes": 1224707,
+      "sha256": "cbcf1eef075ae90fafbbfee73208e922d71b13de10289675d310b0197b3a9e44"
+    },
+    {
+      "path": "images/demillo-lipton-1977-05.png",
+      "bytes": 1040750,
+      "sha256": "d6b5881fb6fbbc2cf5173eec514e64dcdf5835ee3da69f618efa383a98063e59"
+    },
+    {
+      "path": "images/demillo-lipton-1977-06.png",
+      "bytes": 1322717,
+      "sha256": "be15d493530879b941446fa48541a67169af1c65ec708e991e1a59585ae2e0c1"
+    },
+    {
+      "path": "images/demillo-lipton-1977-07.png",
+      "bytes": 1267128,
+      "sha256": "7137f128762c005cd27f17fb1b260196e420d430fd82881b4aad9b09ab1ea2b0"
+    },
+    {
+      "path": "images/demillo-lipton-1977-08.png",
+      "bytes": 1168026,
+      "sha256": "3b611a62cb6ed9fbd993402e6cd9fab344a5644e84a59f2ecdec952ef9c60d3f"
+    },
+    {
+      "path": "images/demillo-lipton-1977-09.png",
+      "bytes": 1187732,
+      "sha256": "8a8323a5f5d945dea3d12246c77de8fe2a7d6bbb822b4f309a4e24e5192fff05"
+    },
+    {
+      "path": "images/demillo-lipton-1977-10.png",
+      "bytes": 1156064,
+      "sha256": "cc0c3157afd9531e14b9f7aa5e9a5bed2ad79c0ea4ef7128183a2ebba77e47e7"
+    },
+    {
+      "path": "images/ducos-1996-02.png",
+      "bytes": 173197,
+      "sha256": "3ad3fcd59e5ba6d917a156c07585f4fed32edc71e7f6626d4fd91ac67ea6b3b2"
+    },
+    {
+      "path": "images/ducos-1996-03.png",
+      "bytes": 127164,
+      "sha256": "7c3ac8066c3e29e7d92c14c01aa10e03d57fd5bedb3265f1edf263f18025d8c1"
+    },
+    {
+      "path": "images/ducos-1996-05.png",
+      "bytes": 140438,
+      "sha256": "0d21b4d3ca86e34c404fbf9f6322b68f2b787a2bbf22e7a40e5eee5d814527a3"
+    },
+    {
+      "path": "images/ducos-1996-06.png",
+      "bytes": 121461,
+      "sha256": "17068eeb177efd6436f7229f988ed2ce7225963de582793e06f9b0f2e504ed11"
+    },
+    {
+      "path": "images/ducos-1996-18.png",
+      "bytes": 147287,
+      "sha256": "9e3af632e8d7327e30f298fe46dc1d288e822855671b2740f45ed4e7ea0364eb"
+    },
+    {
+      "path": "images/ducos-1996-19.png",
+      "bytes": 150886,
+      "sha256": "deb5801dc58082c2d44c561871db7ec71c52066d61c71474dfb05da20ef0f00e"
+    },
+    {
+      "path": "images/gauss-1801-05.png",
+      "bytes": 25042,
+      "sha256": "ae620d6d1241ffbfd8afa6d81329c2f1bd276327145b16b634522dfa95fc8a8b"
+    },
+    {
+      "path": "images/gauss-1801-56.png",
+      "bytes": 101658,
+      "sha256": "6c49c8dd334313ca6a4481e7dfb8eee0ea27a8e17da19c51bf7597fbc640fafd"
+    },
+    {
+      "path": "images/gauss-1801-57.png",
+      "bytes": 98590,
+      "sha256": "158aca89779f25f143d5cc00aa6174b1e65444ad7b2cadf3ef529933882c6e40"
+    },
+    {
+      "path": "images/gauss-1801-58.png",
+      "bytes": 94645,
+      "sha256": "e8fe3732a321755b8b3de1d9bfae707fc363fa52ce11ba08b3bd765df76687df"
+    },
+    {
+      "path": "images/gram-1883-02.png",
+      "bytes": 631519,
+      "sha256": "d5a7c5b3a3e4f371ed95a004824c9c04eef31ff60ea4a0b63af996d1fde5b6b2"
+    },
+    {
+      "path": "images/gram-1883-32.png",
+      "bytes": 436119,
+      "sha256": "1bcf674ef695debbf42f7ae09c870e705647bc4cf9a56c13bfc59e9cf59ea63e"
+    },
+    {
+      "path": "images/gram-1883-33.png",
+      "bytes": 527007,
+      "sha256": "bcb83c5e422d7fe8c9c240a1e16b2ec4e91134a5126e4ed38474e367924d374f"
+    },
+    {
+      "path": "images/gram-1883-34.png",
+      "bytes": 330876,
+      "sha256": "a3f6f11956c4eb1490201c8c659477bd81e1ef69f260f0fb69f6e0e9f3c65c21"
+    },
+    {
+      "path": "images/habicht-1948-02.png",
+      "bytes": 471681,
+      "sha256": "9d88e997f115d3c76a149e31e6d7134eb4c685c79ca1e78ab36f534470074555"
+    },
+    {
+      "path": "images/habicht-1948-03.png",
+      "bytes": 591766,
+      "sha256": "920ee9d50e2a2ac5caab3fe2540445181b6735cb55b20a175cf58e5f7dc2a7c9"
+    },
+    {
+      "path": "images/habicht-1948-04.png",
+      "bytes": 704681,
+      "sha256": "94337c561a7ca1cb7f82bbb0733aada22bd62fb2707ae8a46d93d47234243175"
+    },
+    {
+      "path": "images/habicht-1948-05.png",
+      "bytes": 415073,
+      "sha256": "c335fafc0f74f150c18410b0199652c9dc7b085034d04e9a9d08c16faa923f79"
+    },
+    {
+      "path": "images/habicht-1948-06.png",
+      "bytes": 356530,
+      "sha256": "0cafba0359d3a0139788331b1e8d49a9e63c43a7e586da7d0492c4c7f322bd65"
+    },
+    {
+      "path": "images/habicht-1948-19.png",
+      "bytes": 417577,
+      "sha256": "e86e1624818f26bd3a464b03dfbea5343a8f01201a24318e36972fab5a112862"
+    },
+    {
+      "path": "images/history-errata-all2-pre-11.png",
+      "bytes": 150522,
+      "sha256": "46969b0be010096656d4b6c1de640219684bd44f6b5ea2fdb2fc5821cad9a6eb"
+    },
+    {
+      "path": "images/history-errata-all2-prepre-24.png",
+      "bytes": 129199,
+      "sha256": "22c15605fe99c385ca659447361586f288fa274938c1339cd99ca342e3d35d5b"
+    },
+    {
+      "path": "images/knuth-pfaffians-1995-01.png",
+      "bytes": 206228,
+      "sha256": "0091651adafb47cc844816467a86146392b7476ace77e57013182a865dbf89d2"
+    },
+    {
+      "path": "images/knuth-pfaffians-1995-04.png",
+      "bytes": 168535,
+      "sha256": "c0f2d107ea116bc35815bebc25fd4d2ad1bbd2dfb3633d44fb6f27e28099bf93"
+    },
+    {
+      "path": "images/knuth-pfaffians-1995-05.png",
+      "bytes": 183604,
+      "sha256": "52f75512cdd770c98bf5821792ff3e37a4599a108e0ce224dff4020921eb3b44"
+    },
+    {
+      "path": "images/knuth-pfaffians-1995-06.png",
+      "bytes": 174566,
+      "sha256": "3d41ffb6e29b07648818bfd9e6ffdb89929d49eb50c37d998dadbbe5ce39c588"
+    },
+    {
+      "path": "images/knuth-pfaffians-1995-07.png",
+      "bytes": 190507,
+      "sha256": "ba9cbf6038821b6019f3aabb72304bbc54391b2efab53b8fb9f5595a39d730ec"
+    },
+    {
+      "path": "images/knuth-pfaffians-1995-08.png",
+      "bytes": 155544,
+      "sha256": "5c4bff6f33472cb4e48e6e00a05ca04cc3d4d35b25d45bc3dec4642df62c4be8"
+    },
+    {
+      "path": "images/knuth-pfaffians-1995-10.png",
+      "bytes": 208107,
+      "sha256": "4e33e3c377e63cea3e2060dd90f3f5b5ce72eccfc347dbd3cc6e612e265f3089"
+    },
+    {
+      "path": "images/loos-1982-prs-preview.png",
+      "bytes": 194546,
+      "sha256": "766db8e1db13b023657a74e8e63c21a9d34a131ac49d90f6480a9388c740e9db"
+    },
+    {
+      "path": "images/nunez-1567-003.png",
+      "bytes": 164667,
+      "sha256": "cbe88fb37d850435fd6c2966b24a95c872dd76f721150db807bb3e8de9b78ac2"
+    },
+    {
+      "path": "images/nunez-1567-283.png",
+      "bytes": 165122,
+      "sha256": "0173e5cf2fa49d42be4617ba9ec2642fe67bd3093aadfcb85b0ca2946e54d946"
+    },
+    {
+      "path": "images/nunez-1567-284.png",
+      "bytes": 170651,
+      "sha256": "cb5324cad6728384c12eed9e1634f0f2dda9aa51da6842b7926f2d609b685b60"
+    },
+    {
+      "path": "images/nunez-1567-285.png",
+      "bytes": 170328,
+      "sha256": "c0ec81a527781191432f406db96c39a6b0cf73df2c19c734d9dba1dd8f0cf556"
+    },
+    {
+      "path": "images/schmidt-1907-02.png",
+      "bytes": 120866,
+      "sha256": "d7f9c8629088a1fb26416613ab693f3dc4970f0ad2b811eaf164d0c7a23e7859"
+    },
+    {
+      "path": "images/schmidt-1907-10.png",
+      "bytes": 117306,
+      "sha256": "f8504cbe1cdb3fb9ff247346c6996b5bb4b8b94344331c1b720589cf45d27ab6"
+    },
+    {
+      "path": "images/schmidt-1907-11.png",
+      "bytes": 115178,
+      "sha256": "5b1bae2e32a43551d774600113cfe883367146076a9ab9c752c7bdee41d6ecaa"
+    },
+    {
+      "path": "images/schmidt-1907-12.png",
+      "bytes": 156620,
+      "sha256": "6b39eff1545e95a9abfabcf998738c1b06f61bd653daea231bfdf75902d4eabc"
+    },
+    {
+      "path": "images/stevin-1585-canvas005.jpg",
+      "bytes": 487328,
+      "sha256": "c204c038131075d7c924e1bf765d7968e15e0227cde36b1c195769d80b538682"
+    },
+    {
+      "path": "images/stevin-1585-canvas267.jpg",
+      "bytes": 489712,
+      "sha256": "54fb4777d5e23a1fd97a36f584215d992a0ec26195f8092172c3688fda25c58b"
+    },
+    {
+      "path": "images/stevin-1585-canvas268.jpg",
+      "bytes": 495616,
+      "sha256": "84fb85c5f018400eb6e7b6a22888b058ba2902e059df466552326741d2fde129"
+    },
+    {
+      "path": "images/stevin-1585-canvas269.jpg",
+      "bytes": 498304,
+      "sha256": "22cb79e8bba6c9743baa69018e1fd272616f1382b3fce124a2cc96ae522c2bb4"
+    },
+    {
+      "path": "images/stevin-1585-canvas285.jpg",
+      "bytes": 438878,
+      "sha256": "78f1a6936c71b98b06a4e5f935a506ef4a7adad178c843541a46af41648a7a8f"
+    },
+    {
+      "path": "images/stevin-1585-canvas295.jpg",
+      "bytes": 421038,
+      "sha256": "0a9f87a756d0b51200989d420025c0b12520ff2c3e4f9f0bf0c5520afd91204f"
+    },
+    {
+      "path": "images/stevin-1585-canvas305.jpg",
+      "bytes": 489631,
+      "sha256": "4a2d8e548c79704f721c060c0895f37738b3399f49f0281a439ea7b530408000"
+    },
+    {
+      "path": "images/stevin-1634-canvas004.jpg",
+      "bytes": 644727,
+      "sha256": "2ce7e489f9ae4828109e417d1263833d1369e293fc2e0fd25e7133b22e975f8a"
+    },
+    {
+      "path": "images/stevin-1634-canvas007.jpg",
+      "bytes": 800928,
+      "sha256": "85823030f7c5fe2f5301853f091a888f00c0b692de262b3547b234371eabd351"
+    },
+    {
+      "path": "images/stevin-1634-canvas068.jpg",
+      "bytes": 1178098,
+      "sha256": "30d32c8f414ea6782663852c13b1f804e01d29d264f1e26aabd172400946d413"
+    },
+    {
+      "path": "images/stevin-1634-canvas069.jpg",
+      "bytes": 1098314,
+      "sha256": "42d1b451129d5f996a0139adeb2b1d3598efcd1b09e0eda8796a535ea3a1da9d"
+    },
+    {
+      "path": "images/zippel-1979-01.png",
+      "bytes": 138914,
+      "sha256": "7d4cbe75baa5872c3dfce98fd627ce56708ce050f3c2ad55848a10c2bb747e16"
+    },
+    {
+      "path": "images/zippel-1979-06.png",
+      "bytes": 122558,
+      "sha256": "74ac25905005cfc77562fa7de0c7bf95f2448f3de5af4f8506b1d7507ae9f12a"
+    },
+    {
+      "path": "images/zippel-1979-07.png",
+      "bytes": 98651,
+      "sha256": "98d4164ff34ddbb789a93e60153607e8588bd038b84f0cb12fb724287e23efef"
+    },
+    {
+      "path": "images/zippel-1979-11.png",
+      "bytes": 56374,
+      "sha256": "856fe80db230e8a9c49bbfbc53269689ac5318e2fc43762df5a2f6d089062928"
+    },
+    {
+      "path": "notes/polynomial-history.md",
+      "bytes": 13675,
+      "sha256": "f6693f43ca84943fad108f91b463f1e19b2deb9635589f792639dc81c29cbf70"
+    },
+    {
+      "path": "sources/bareiss-1966.pdf",
+      "bytes": 795002,
+      "sha256": "a00e0df2230387673077997c100f81b2fed58ba8e31d8187fa48c0907cf673a5"
+    },
+    {
+      "path": "sources/bareiss-1966.txt",
+      "bytes": 80516,
+      "sha256": "6cfd472dc822035d48ac2a796c29a21cc757ec9b05918bcba8ecab800c621393"
+    },
+    {
+      "path": "sources/demillo-lipton-1977-ia-metadata.json",
+      "bytes": 11003,
+      "sha256": "42d3191609dcb6b9566e1f5da8db45a92c505d1647005705dbb2df03d9506747"
+    },
+    {
+      "path": "sources/demillo-lipton-1977.pdf",
+      "bytes": 3789787,
+      "sha256": "144f1dca2f1ae43958cf543e92f109a38520b490bbc4e8fb3826e10f4e282d55"
+    },
+    {
+      "path": "sources/demillo-lipton-1977.txt",
+      "bytes": 26478,
+      "sha256": "b694e77c1a6dfcde6e642b5810a7ac850d461e4c21738faa1cf9d0694de19848"
+    },
+    {
+      "path": "sources/ducos-1996.pdf",
+      "bytes": 1807166,
+      "sha256": "6a04cfad32359283d51ed40517470c00d575f851c7bae07af09953d3474aba4a"
+    },
+    {
+      "path": "sources/ducos-1996.txt",
+      "bytes": 55068,
+      "sha256": "9d1ae02f32f1d978127d7e81158bbba10abdd6e21415980f563b1a889c039973"
+    },
+    {
+      "path": "sources/gauss-1801.pdf",
+      "bytes": 39657721,
+      "sha256": "0ee987894567c42803aa435496d2ff62fa33dcbe4cf85c1117a8f50d281786c8"
+    },
+    {
+      "path": "sources/gauss-1801.txt",
+      "bytes": 1095375,
+      "sha256": "c1dc8b754bfd1824cf58cb158fba8c4af68f5305c0fa7c70fb10d509178a44b0"
+    },
+    {
+      "path": "sources/gram-1883-manifest.json",
+      "bytes": 563075,
+      "sha256": "a6f36226045b41bca1d334e753d8c61d467b282c7b23c0bf8548dc448a99cd13"
+    },
+    {
+      "path": "sources/gram-1883.pdf",
+      "bytes": 56865335,
+      "sha256": "d8b48e843954e1b21da334ed77d15039404b2e167f2a7aa835a445ce0730de11"
+    },
+    {
+      "path": "sources/gram-1883.txt",
+      "bytes": 1759,
+      "sha256": "ae85cfb9be938b4ff934a994d21486e24efb50ad13f63e5586fbe2e4a677edc8"
+    },
+    {
+      "path": "sources/habicht-1948.pdf",
+      "bytes": 23920383,
+      "sha256": "350b9eccaf301fefeee9c5cccf991da7df33a0d1203c88be00605505ca55387d"
+    },
+    {
+      "path": "sources/habicht-1948.txt",
+      "bytes": 42818,
+      "sha256": "4c9308a6238b338402d7e82bafa015eefe488cb900027fa576119890ee053f0f"
+    },
+    {
+      "path": "sources/knuth-pfaffians-1995.pdf",
+      "bytes": 128450,
+      "sha256": "d4ad7e0dde8b9d1139a29bd359e656c52a24dde163224a8c175a4f1afa1fa852"
+    },
+    {
+      "path": "sources/knuth-pfaffians-1995.txt",
+      "bytes": 43418,
+      "sha256": "2750ded496b0725dcef1ffff87f4f0851b97388cd539669e0e4074f7ccd2dcb7"
+    },
+    {
+      "path": "sources/knuth-pfaffians-journal-metadata.json",
+      "bytes": 464,
+      "sha256": "ad76b6511b095a326460379d9827ae3b004bc1881f0dd7314a16ca160128db24"
+    },
+    {
+      "path": "sources/loos-1982-prs-preview.pdf",
+      "bytes": 244605,
+      "sha256": "22c5bddc4a59eefd826e97751337d258dc0a070860b2d5bd90a9388c41e676c2"
+    },
+    {
+      "path": "sources/loos-1982-prs-preview.txt",
+      "bytes": 5161,
+      "sha256": "a0168ddb7d8107f5d5984cd5251c18cf3c7584e60175bdf8fd14ce39c0258742"
+    },
+    {
+      "path": "sources/nunez-1567-djvu.xml",
+      "bytes": 14431698,
+      "sha256": "65153b35fdb1c98e0dc931197719b0007f42e1167563e0f69d6ea785a9cc5c69"
+    },
+    {
+      "path": "sources/nunez-1567-pdf.txt",
+      "bytes": 7653,
+      "sha256": "8bb829f2b14b41479bbc851e36cc4e892ab84da77c9360e2a3eb904901e2c8a6"
+    },
+    {
+      "path": "sources/nunez-1567-scandata.xml",
+      "bytes": 213428,
+      "sha256": "8b4215c43999b6bcd9e1718786b0a8c920cf7ca8d6d76a8c325d1155f591cb4c"
+    },
+    {
+      "path": "sources/nunez-1567.pdf",
+      "bytes": 41663972,
+      "sha256": "e27dc670de9edeb34d4c7135b71f1bb0b6007fdb2b0c179c1d48b978b67408e6"
+    },
+    {
+      "path": "sources/nunez-1567.txt",
+      "bytes": 1276205,
+      "sha256": "f01a08e5a2f59920f878d3f1f78ccfbafe324c2b2210a82b24b9ee95b99de14d"
+    },
+    {
+      "path": "sources/polynomial-history-downloads.json",
+      "bytes": 7346,
+      "sha256": "64fd12bcd8e672dd8a454ed98de658bfb0be4cdce279ccb506db4007dd388a45"
+    },
+    {
+      "path": "sources/polynomial-history-errata.txt",
+      "bytes": 44014,
+      "sha256": "a59f4395f350b96c9191e56c6dc4ce69c0aae765d86d70e5b66c2f600bca9b0e"
+    },
+    {
+      "path": "sources/schmidt-1907-manifest.json",
+      "bytes": 1049104,
+      "sha256": "0398d364e90cb253f738cd2faa1c353d24b5f7e0689c48cae8b563fa8bc146ee"
+    },
+    {
+      "path": "sources/schmidt-1907.pdf",
+      "bytes": 2411290,
+      "sha256": "d6d4ed12d099d4acd0be40b8b770e1af47db311ea24209f61b4973bd6325ec65"
+    },
+    {
+      "path": "sources/schmidt-1907.txt",
+      "bytes": 1845,
+      "sha256": "ccc7f80fe62c1340a86839c07aa882a1c6602043410c01a74841e6b8282f5eb5"
+    },
+    {
+      "path": "sources/schwartz-1980-openalex.json",
+      "bytes": 18937,
+      "sha256": "14f40f5bbb5f4de2770a8497fca7aed525991fac151e2d308d751aa8748d5ee8"
+    },
+    {
+      "path": "sources/schwartz-ia-search.json",
+      "bytes": 481,
+      "sha256": "a1fb96c6222f5672a7a2df969c878b26ffa50ed92fdcaa2c7a4047c63d04ed1d"
+    },
+    {
+      "path": "sources/stevin-1585-manifest.json",
+      "bytes": 477504,
+      "sha256": "0f65e8f67c32b01b2035f3f056b6927b08f7d4bdbe00352a9ba0cc920b6c9df3"
+    },
+    {
+      "path": "sources/stevin-1634-manifest.json",
+      "bytes": 1050674,
+      "sha256": "341ea3a189dfcec5046fe7143167629e4d5de85b7211d29efc96fd36e9c9f51e"
+    },
+    {
+      "path": "sources/zippel-1979.pdf",
+      "bytes": 669342,
+      "sha256": "08ac61f3a98cc2f7f7985f2f83250cc7beaaaf0762d6f16ac9ee39d5fba12bd6"
+    },
+    {
+      "path": "sources/zippel-1979.txt",
+      "bytes": 31122,
+      "sha256": "f5aa304070dd7bc4d52186ecc85a4ece2f3c48b93b8edd910bc86f3f33c4ea91"
+    }
+  ]
+}

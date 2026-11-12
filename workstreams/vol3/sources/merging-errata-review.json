@@ -1,0 +1,89 @@
+{
+  "scope": "5.2.4 with historical context",
+  "layers": {
+    "all3-prepre": [
+      {
+        "page": 163,
+        "text": "Page 163 line      20                                    01 Jan 2002\n  regardless y or in the trivial ase N = 1, regardless"
+      },
+      {
+        "page": 166,
+        "text": "xPage 166 line 4 after the program                        04 De 2005\n  about 9N lg N y about (8N lg N )u"
+      },
+      {
+        "page": 166,
+        "text": "xPage 166 line 12                                          29 Jul 1998\n  111.℄ y 111℄."
+      },
+      {
+        "page": 166,
+        "text": "xPage 166 line 8                                          13 Aug 1998\n    arrangement y arrangements\nx"
+      },
+      {
+        "page": 166,
+        "text": "Page 166         line 3                                    31 Jul 1998\n    K10 < \u0001 \u0001 \u0001 KN0   y   K10 < \u0001 \u0001 \u0001 < KN0"
+      },
+      {
+        "page": 166,
+        "text": "Page 166 line         1                                   11 May 1999\n    key appears y keys appear"
+      },
+      {
+        "page": 168,
+        "text": "Page 168 line 1 of exer ise 18                            16 Feb 2000\n    on N re ords y of N re ords"
+      },
+      {
+        "page": 648,
+        "text": "xPage 648    line 5 of answer 15                                                            04 De 2005\n  twelve y eighteen"
+      },
+      {
+        "page": 648,
+        "text": "xPage 648    line 6 of answer 15                                                            17 Jul 2003\n  (p; q; r) y (p; q; s)"
+      },
+      {
+        "page": 648,
+        "text": "Page 648 last line of answer 15                                                            17 Feb 2006\n    8N lg N + O(N ) y (8N lg N + O(N ))u"
+      },
+      {
+        "page": 650,
+        "text": "Page 650 line 12 of answer 5                                                               02 Aug 1998\n    DEC1 1      y DEC1 1\nx P"
+      }
+    ],
+    "all3-pre": [],
+    "all3": [
+      {
+        "page": 649,
+        "text": "Page 649 line 10 of answer 18                                                              22 Sep 2024\n Sin e no element          y\n                     Sin e no key"
+      }
+    ],
+    "err3": [],
+    "err3-1e": [
+      {
+        "page": 165,
+        "text": "xPage 165 bottom line of Table 2                                                                       01 Jul 1975\n  179 y 170"
+      },
+      {
+        "page": 167,
+        "text": "xPage 167 program line 21                                                                            27 May 1978\n  p Lq . y p Lp ."
+      },
+      {
+        "page": 620,
+        "text": "Page 620 replacement for answer 34                                            15 Mar 1995\n 34. Starting with the recurrence\n                                                    \u0012          mX1        \u0013\n                 L1 (z) = z;     Lm+1 (z) = Lm (z) L(z)              Lk (z) ;\n                                                                k=1\n                                                        P           n P\n for parts of the overall generating function L(z) =        n\u00150 ln z = m\u00151 Lm (z ), where\n Lm (z) = z2m 1 + \u0001 \u0001 \u0001 generates leftist trees with shortest pathPlength m from root to\n leaf, Rainer Kemp has proved that L(z) = z + 21 L(z)2 + 12 m\u00151 Lm (z)2 , and that\n a \u0019 0:25036 and b \u0019 2:7494879 [Inf. Proc. Letters 25 (1987), 227{232]. Luis Trabb\n Pardo noticed about 1980 that the generating function G(z) = zL(z) satis es the\n elegant relation G(z) = z + G(zG(z))."
+      },
+      {
+        "page": 620,
+        "text": "Page 620 new answer                                                             19 Oct 1996\n 38. In any heap of N distinct elements, the largest m = dN=2e elements form a subtree.\n At least bm=2c of them must be nonleaves of that subtree, since a binary tree with k\n leaves has at least k 1 nonleaves. Therefore at least bm=2c of the largest m elements\n appear in the rst bN=2c positions of the heap. Those elements must be promoted to\n theProot position   before reaching their nal destinations; so their movement contributes\n \u0015 kbm= =1\n           2c blg kc = 1 m lg m + O(m) to B , by exercise 1.2.4{42. Thus B (N ) \u0015\n                        2                                                         min\n 1 N lg N + O(N )+ Bmin\n 4                         (bN=2c), and the result follows by induction on N . [I. Wegener,\n Theoretical Comp. Sci. 118 (1993), 81{98, Theorem 5.1. Scha er and Sedgewick, and\n independently Bollob\u0013as, Fenner, and Frieze, have constructed permutations that require\n\f  80        CHANGES TO VOLUME 3: SORTING AND SEARCHING\n  no more than 12 N lg N + O(N log log N ) promotions; see J. Algorithms 15 (1993), 76{\n  100; 20 (1996), 205{217. Such permutations are quite rare, by the result of exercise 30.]"
+      },
+      {
+        "page": 620,
+        "text": "Page 620 new answer                                                                       29 Dec 1996\n  39. In an in nite heap, the kth-largest element is equally likely to appear in the left or\n  the right subheap of its larger ancestors. Thus we can use the theory of digital search\n  trees, obtaining e(k) = C k C k 1 in the notation of Eq. 6.3{(13). By exercise 6.3{28\n  we have e(k) = lg k + =(ln 2) + 21 2 + f0 (k) + O(k 1 ) \u0019 lg k :274, where f0 (k) is a\n  periodic function of log k, and 2 \u0019 1:6067. [P. V. Poblete, BIT 33 (1993), 411{412.]"
+      },
+      {
+        "page": 623,
+        "text": "xPage 623 answer 18                                                                        23 Jun 1996\n  line 1: simplest known method uses y rst solution to be found used\n  line 2: [Dokladi y [cf. Doklady\n  line 9: Z1 . y Z1 ; if more than one zone has the smallest leading element, choose one\n         that has smallest trailing element. (This\n  line 10: element, y and trailing elements,\n  line 13: has less y will have fewer\n  new paragraph for the end: See answer 5.5{3 for the problem of stable merging in place."
+      },
+      {
+        "page": 624,
+        "text": "xPage 624 line 5                                                                          01 May 1979\n  gM;N (z) y gM;N (z)\n    n +1           ( n +1)"
+      }
+    ]
+  }
+}

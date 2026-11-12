@@ -1,0 +1,54 @@
+{
+  "exercises": "MPR 121-123",
+  "conditional_entropy_and_mutual_information_checks": 6560,
+  "numeric_tolerance": 1e-12,
+  "F006_entropy_typo": {
+    "page": 24,
+    "part": "121(d)",
+    "printed": "H_Y = E lg(1/Y)",
+    "corrected": "H_Y = E lg(1/y(Y))",
+    "example": "Y=2 almost surely: printed value -1, actual entropy 0."
+  },
+  "F007_mixture_weights": {
+    "page": 25,
+    "exercise": 123,
+    "x": [
+      "3/4",
+      "1/4"
+    ],
+    "y": [
+      "1/4",
+      "3/4"
+    ],
+    "p": "1/4",
+    "actual_z": [
+      "5/8",
+      "3/8"
+    ],
+    "printed_z": [
+      "3/8",
+      "5/8"
+    ],
+    "corrected": "z_k(t) = p_k y(t) + (1-p_k) x(t)"
+  },
+  "F008_density_support": {
+    "page": 24,
+    "exercise": 121,
+    "x": [
+      "1",
+      "0"
+    ],
+    "y": [
+      "1/2",
+      "1/2"
+    ],
+    "E[rho(X) lg rho(X)]": "-1/2",
+    "E[lg rho(Y)]": "infinity",
+    "sum y(t) lg(y(t)/x(t))": "infinity",
+    "scope": "The first expectation identity needs y(t)=0 wherever x(t)=0; otherwise define D by the sum and give value infinity.",
+    "answer_121b_related_issue": "E rho(X)=1/2, not 1; the Jensen proof must first handle the support-mismatch case."
+  },
+  "not_a_new_error": "The X/Y naming convention was deliberately amended in err4f5 on 2021-05-31; no naming correction is claimed.",
+  "known_error": "MPR 124 missing expectation on the error bound is already corrected 2025-07-15.",
+  "limitations": "Finite entropy/MI checks are numeric. The three counterexamples above use exact rational probabilities and exact logarithms of powers of two. Asymptotics of 122(b) are not yet covered."
+}

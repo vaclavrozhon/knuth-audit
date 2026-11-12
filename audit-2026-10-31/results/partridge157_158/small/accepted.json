@@ -1,0 +1,648 @@
+{
+  "at_utc": "2026-11-03T11:42:48.054156+00:00",
+  "nice": 15,
+  "runner_sha256": "a5793bb57bc7e5911197f1cf6c6a25a1ea66665d3d9a548d3c8c3ac6d8c73081",
+  "source_hashes": {
+    "pack_squares.cpp": "8c739cbb989088d679278f2ec748554648910d0c8398a2f138d8671ae00e29f8",
+    "check_rectangular_partridge.py": "db955d89a9d08e6cec7e6fa206cced831818f3bd2bbc76b695e97fbe9e497d3a",
+    "sources/knuth-programs/dlx3.w": "0acc801044d60d9d951663e9270c420b8b43c40ad6f7c2819c65bd5dff9820b7",
+    "sources/knuth-programs/gb_flip.w": "8e4faad04360d1ca35fad7c6c49281b63d3074f9f329444031f9ab09fd94611d",
+    "sources/knuth-programs/gb_flip.ch": "40f772938571cddea4929a85677f5c1ad70c1a9076e101e7e0ece1f7ed24ab20",
+    "sources/knuth-programs/boilerplate.w": "ef08ba0e208b7a3e8eac07f1fa285f4c06a5848d6dcf1d808e7babbfb42156a8"
+  },
+  "build_directory": "/tmp/knuth-vol4b-partridge158-small-build-5iv2jnzh",
+  "compile_commands": [
+    [
+      "ctangle",
+      "audit-2026-10-31/sources/knuth-programs/gb_flip.w",
+      "audit-2026-10-31/sources/knuth-programs/gb_flip.ch",
+      "/tmp/knuth-vol4b-partridge158-small-build-5iv2jnzh/gb_flip.c"
+    ],
+    [
+      "ctangle",
+      "audit-2026-10-31/sources/knuth-programs/dlx3.w",
+      "-",
+      "/tmp/knuth-vol4b-partridge158-small-build-5iv2jnzh/dlx3.c"
+    ],
+    [
+      "gcc",
+      "-O2",
+      "-std=gnu99",
+      "-I",
+      "/tmp/knuth-vol4b-partridge158-small-build-5iv2jnzh",
+      "/tmp/knuth-vol4b-partridge158-small-build-5iv2jnzh/dlx3.c",
+      "/tmp/knuth-vol4b-partridge158-small-build-5iv2jnzh/gb_flip.c",
+      "-o",
+      "/tmp/knuth-vol4b-partridge158-small-build-5iv2jnzh/dlx3"
+    ],
+    [
+      "g++",
+      "-O2",
+      "-std=c++20",
+      "audit-2026-10-31/pack_squares.cpp",
+      "-o",
+      "/tmp/knuth-vol4b-partridge158-small-build-5iv2jnzh/pack"
+    ]
+  ],
+  "per_solver_timeout_seconds": 10,
+  "scope": "Only smaller rectangles for n2,3,4. No n5,6,7 or8 search.",
+  "completed_at_utc": "2026-11-03T11:42:58.092705+00:00",
+  "binary_hashes": {
+    "/tmp/knuth-vol4b-partridge158-small-build-5iv2jnzh/pack": "29ee0b2569da4ab433fe60eadc276305d51bbd502feb06d564ce3b373cfef7d6",
+    "/tmp/knuth-vol4b-partridge158-small-build-5iv2jnzh/dlx3": "a600ad6eff931d6e9058805f18b700a501f244f3d4e6f49b5ac7bbfbba0cc704"
+  },
+  "cases": [
+    {
+      "n": 2,
+      "height": 3,
+      "width": 3,
+      "area": 9,
+      "counts": [
+        1,
+        2
+      ],
+      "runs": {
+        "independent": {
+          "command": [
+            "/tmp/knuth-vol4b-partridge158-small-build-5iv2jnzh/pack",
+            "3",
+            "3",
+            "1,2",
+            "10000"
+          ],
+          "returncode": 0,
+          "seconds": 0.014049882011022419,
+          "result": {
+            "height": 3,
+            "width": 3,
+            "found": false,
+            "search_exhausted": true,
+            "nodes": 5,
+            "cache_hits": 0,
+            "cache_size": 5,
+            "seconds": 3.4004e-05,
+            "tiles": []
+          }
+        },
+        "native": {
+          "command": [
+            "/tmp/knuth-vol4b-partridge158-small-build-5iv2jnzh/dlx3",
+            "v1",
+            "d0"
+          ],
+          "returncode": 0,
+          "seconds": 0.005284849990857765,
+          "result": {
+            "solutions": 0,
+            "complete": true
+          }
+        }
+      }
+    },
+    {
+      "n": 3,
+      "height": 12,
+      "width": 3,
+      "area": 36,
+      "counts": [
+        1,
+        2,
+        3
+      ],
+      "runs": {
+        "independent": {
+          "command": [
+            "/tmp/knuth-vol4b-partridge158-small-build-5iv2jnzh/pack",
+            "12",
+            "3",
+            "1,2,3",
+            "10000"
+          ],
+          "returncode": 0,
+          "seconds": 0.016105757997138426,
+          "result": {
+            "height": 12,
+            "width": 3,
+            "found": false,
+            "search_exhausted": true,
+            "nodes": 20,
+            "cache_hits": 0,
+            "cache_size": 20,
+            "seconds": 3.793e-05,
+            "tiles": []
+          }
+        },
+        "native": {
+          "command": [
+            "/tmp/knuth-vol4b-partridge158-small-build-5iv2jnzh/dlx3",
+            "v1",
+            "d0"
+          ],
+          "returncode": 0,
+          "seconds": 0.008114669006317854,
+          "result": {
+            "solutions": 0,
+            "complete": true
+          }
+        }
+      }
+    },
+    {
+      "n": 3,
+      "height": 9,
+      "width": 4,
+      "area": 36,
+      "counts": [
+        1,
+        2,
+        3
+      ],
+      "runs": {
+        "independent": {
+          "command": [
+            "/tmp/knuth-vol4b-partridge158-small-build-5iv2jnzh/pack",
+            "9",
+            "4",
+            "1,2,3",
+            "10000"
+          ],
+          "returncode": 0,
+          "seconds": 0.00767464202363044,
+          "result": {
+            "height": 9,
+            "width": 4,
+            "found": false,
+            "search_exhausted": true,
+            "nodes": 13,
+            "cache_hits": 0,
+            "cache_size": 13,
+            "seconds": 3.1798e-05,
+            "tiles": []
+          }
+        },
+        "native": {
+          "command": [
+            "/tmp/knuth-vol4b-partridge158-small-build-5iv2jnzh/dlx3",
+            "v1",
+            "d0"
+          ],
+          "returncode": 0,
+          "seconds": 0.0038850439887028188,
+          "result": {
+            "solutions": 0,
+            "complete": true
+          }
+        }
+      }
+    },
+    {
+      "n": 3,
+      "height": 6,
+      "width": 6,
+      "area": 36,
+      "counts": [
+        1,
+        2,
+        3
+      ],
+      "runs": {
+        "independent": {
+          "command": [
+            "/tmp/knuth-vol4b-partridge158-small-build-5iv2jnzh/pack",
+            "6",
+            "6",
+            "1,2,3",
+            "10000"
+          ],
+          "returncode": 0,
+          "seconds": 0.007240650011226535,
+          "result": {
+            "height": 6,
+            "width": 6,
+            "found": false,
+            "search_exhausted": true,
+            "nodes": 40,
+            "cache_hits": 0,
+            "cache_size": 40,
+            "seconds": 3.819e-05,
+            "tiles": []
+          }
+        },
+        "native": {
+          "command": [
+            "/tmp/knuth-vol4b-partridge158-small-build-5iv2jnzh/dlx3",
+            "v1",
+            "d0"
+          ],
+          "returncode": 0,
+          "seconds": 0.005342994001694024,
+          "result": {
+            "solutions": 0,
+            "complete": true
+          }
+        }
+      }
+    },
+    {
+      "n": 4,
+      "height": 25,
+      "width": 4,
+      "area": 100,
+      "counts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "runs": {
+        "independent": {
+          "command": [
+            "/tmp/knuth-vol4b-partridge158-small-build-5iv2jnzh/pack",
+            "25",
+            "4",
+            "1,2,3,4",
+            "10000"
+          ],
+          "returncode": 0,
+          "seconds": 0.005037064984207973,
+          "result": {
+            "height": 25,
+            "width": 4,
+            "found": false,
+            "search_exhausted": true,
+            "nodes": 69,
+            "cache_hits": 4,
+            "cache_size": 65,
+            "seconds": 5.0685e-05,
+            "tiles": []
+          }
+        },
+        "native": {
+          "command": [
+            "/tmp/knuth-vol4b-partridge158-small-build-5iv2jnzh/dlx3",
+            "v1",
+            "d0"
+          ],
+          "returncode": 0,
+          "seconds": 0.010454505012603477,
+          "result": {
+            "solutions": 0,
+            "complete": true
+          }
+        }
+      }
+    },
+    {
+      "n": 4,
+      "height": 20,
+      "width": 5,
+      "area": 100,
+      "counts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "runs": {
+        "independent": {
+          "command": [
+            "/tmp/knuth-vol4b-partridge158-small-build-5iv2jnzh/pack",
+            "20",
+            "5",
+            "1,2,3,4",
+            "10000"
+          ],
+          "returncode": 0,
+          "seconds": 0.006125383981270716,
+          "result": {
+            "height": 20,
+            "width": 5,
+            "found": false,
+            "search_exhausted": true,
+            "nodes": 27,
+            "cache_hits": 0,
+            "cache_size": 27,
+            "seconds": 4.6259e-05,
+            "tiles": []
+          }
+        },
+        "native": {
+          "command": [
+            "/tmp/knuth-vol4b-partridge158-small-build-5iv2jnzh/dlx3",
+            "v1",
+            "d0"
+          ],
+          "returncode": 0,
+          "seconds": 0.008356231002835557,
+          "result": {
+            "solutions": 0,
+            "complete": true
+          }
+        }
+      }
+    },
+    {
+      "n": 4,
+      "height": 10,
+      "width": 10,
+      "area": 100,
+      "counts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "runs": {
+        "independent": {
+          "command": [
+            "/tmp/knuth-vol4b-partridge158-small-build-5iv2jnzh/pack",
+            "10",
+            "10",
+            "1,2,3,4",
+            "10000"
+          ],
+          "returncode": 0,
+          "seconds": 0.00766587202087976,
+          "result": {
+            "height": 10,
+            "width": 10,
+            "found": false,
+            "search_exhausted": true,
+            "nodes": 353,
+            "cache_hits": 11,
+            "cache_size": 342,
+            "seconds": 0.000126744,
+            "tiles": []
+          }
+        },
+        "native": {
+          "command": [
+            "/tmp/knuth-vol4b-partridge158-small-build-5iv2jnzh/dlx3",
+            "v1",
+            "d0"
+          ],
+          "returncode": 0,
+          "seconds": 0.014057718013646081,
+          "result": {
+            "solutions": 0,
+            "complete": true
+          }
+        }
+      }
+    },
+    {
+      "n": 4,
+      "height": 17,
+      "width": 6,
+      "area": 102,
+      "counts": [
+        3,
+        2,
+        3,
+        4
+      ],
+      "runs": {
+        "independent": {
+          "command": [
+            "/tmp/knuth-vol4b-partridge158-small-build-5iv2jnzh/pack",
+            "17",
+            "6",
+            "3,2,3,4",
+            "10000"
+          ],
+          "returncode": 0,
+          "seconds": 0.007538439997006208,
+          "result": {
+            "height": 17,
+            "width": 6,
+            "found": false,
+            "search_exhausted": true,
+            "nodes": 265,
+            "cache_hits": 39,
+            "cache_size": 226,
+            "seconds": 9.8647e-05,
+            "tiles": []
+          }
+        },
+        "native": {
+          "command": [
+            "/tmp/knuth-vol4b-partridge158-small-build-5iv2jnzh/dlx3",
+            "v1",
+            "d0"
+          ],
+          "returncode": 0,
+          "seconds": 0.011617932992521673,
+          "result": {
+            "solutions": 0,
+            "complete": true
+          }
+        }
+      }
+    },
+    {
+      "n": 4,
+      "height": 26,
+      "width": 4,
+      "area": 104,
+      "counts": [
+        5,
+        2,
+        3,
+        4
+      ],
+      "runs": {
+        "independent": {
+          "command": [
+            "/tmp/knuth-vol4b-partridge158-small-build-5iv2jnzh/pack",
+            "26",
+            "4",
+            "5,2,3,4",
+            "10000"
+          ],
+          "returncode": 0,
+          "seconds": 0.010254455002723262,
+          "result": {
+            "height": 26,
+            "width": 4,
+            "found": false,
+            "search_exhausted": true,
+            "nodes": 429,
+            "cache_hits": 69,
+            "cache_size": 360,
+            "seconds": 0.000141537,
+            "tiles": []
+          }
+        },
+        "native": {
+          "command": [
+            "/tmp/knuth-vol4b-partridge158-small-build-5iv2jnzh/dlx3",
+            "v1",
+            "d0"
+          ],
+          "returncode": 0,
+          "seconds": 0.01684429799206555,
+          "result": {
+            "solutions": 0,
+            "complete": true
+          }
+        }
+      }
+    },
+    {
+      "n": 4,
+      "height": 13,
+      "width": 8,
+      "area": 104,
+      "counts": [
+        5,
+        2,
+        3,
+        4
+      ],
+      "runs": {
+        "independent": {
+          "command": [
+            "/tmp/knuth-vol4b-partridge158-small-build-5iv2jnzh/pack",
+            "13",
+            "8",
+            "5,2,3,4",
+            "10000"
+          ],
+          "returncode": 0,
+          "seconds": 0.013144771015504375,
+          "result": {
+            "height": 13,
+            "width": 8,
+            "found": false,
+            "search_exhausted": true,
+            "nodes": 2887,
+            "cache_hits": 485,
+            "cache_size": 2402,
+            "seconds": 0.00296483,
+            "tiles": []
+          }
+        },
+        "native": {
+          "command": [
+            "/tmp/knuth-vol4b-partridge158-small-build-5iv2jnzh/dlx3",
+            "v1",
+            "d0"
+          ],
+          "returncode": 0,
+          "seconds": 0.02477743598865345,
+          "result": {
+            "solutions": 0,
+            "complete": true
+          }
+        }
+      }
+    },
+    {
+      "n": 4,
+      "height": 21,
+      "width": 5,
+      "area": 105,
+      "counts": [
+        6,
+        2,
+        3,
+        4
+      ],
+      "runs": {
+        "independent": {
+          "command": [
+            "/tmp/knuth-vol4b-partridge158-small-build-5iv2jnzh/pack",
+            "21",
+            "5",
+            "6,2,3,4",
+            "10000"
+          ],
+          "returncode": 0,
+          "seconds": 0.008447341999271885,
+          "result": {
+            "height": 21,
+            "width": 5,
+            "found": false,
+            "search_exhausted": true,
+            "nodes": 295,
+            "cache_hits": 56,
+            "cache_size": 239,
+            "seconds": 0.000110066,
+            "tiles": []
+          }
+        },
+        "native": {
+          "command": [
+            "/tmp/knuth-vol4b-partridge158-small-build-5iv2jnzh/dlx3",
+            "v1",
+            "d0"
+          ],
+          "returncode": 0,
+          "seconds": 0.015158146998146549,
+          "result": {
+            "solutions": 0,
+            "complete": true
+          }
+        }
+      }
+    },
+    {
+      "n": 4,
+      "height": 15,
+      "width": 7,
+      "area": 105,
+      "counts": [
+        6,
+        2,
+        3,
+        4
+      ],
+      "runs": {
+        "independent": {
+          "command": [
+            "/tmp/knuth-vol4b-partridge158-small-build-5iv2jnzh/pack",
+            "15",
+            "7",
+            "6,2,3,4",
+            "10000"
+          ],
+          "returncode": 0,
+          "seconds": 0.00599596300162375,
+          "result": {
+            "height": 15,
+            "width": 7,
+            "found": false,
+            "search_exhausted": true,
+            "nodes": 2145,
+            "cache_hits": 465,
+            "cache_size": 1680,
+            "seconds": 0.000533408,
+            "tiles": []
+          }
+        },
+        "native": {
+          "command": [
+            "/tmp/knuth-vol4b-partridge158-small-build-5iv2jnzh/dlx3",
+            "v1",
+            "d0"
+          ],
+          "returncode": 0,
+          "seconds": 0.03700458098319359,
+          "result": {
+            "solutions": 0,
+            "complete": true
+          }
+        }
+      }
+    }
+  ],
+  "complete": true,
+  "all12_smaller_rectangles_unsat_twice": true,
+  "optimum_areas": [
+    10,
+    39,
+    108
+  ],
+  "optimum_witness_source": "../figures-checked.json",
+  "no_large_search": true
+}

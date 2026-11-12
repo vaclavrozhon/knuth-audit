@@ -1,0 +1,78 @@
+{
+  "at_utc": "2026-11-03T16:29:53.617216+00:00",
+  "source_hashes": {
+    "../books/taocp-vol4b-ed1-print2-2022.pdf": "6ce7187daa4f7dfa09814551a461fac81a833c93c140699fced8fd5897347552",
+    "sources/fasc5c.ps": "ec0d509c234b7db0dcd5e6aadeb4e77ea8efb82d2114dad129af8d003653567e",
+    "sources/fasc5c.pdf": "751f23a5fee9f0134d00159a29696ba1fa5dd34ab1438b306574fcf1ec448528",
+    "../books/taocp-vol4a-ed1-print1-2011.djvu": "a523f1063cc6b7fa06af8ad398088066bd786458871910b2484661daa557a183",
+    "../errata/pdf/all4f5.pdf": "e3634d949271038ff730445b1a7e7fed2bf170b698b300f88572b06b7acba4a0"
+  },
+  "original": {
+    "printed": [
+      104,
+      105,
+      149,
+      150,
+      471,
+      472
+    ],
+    "pdf": [
+      124,
+      125,
+      169,
+      170,
+      491,
+      492
+    ],
+    "viewed": true,
+    "scope": "Complete main104–105 and202–207 only; later208–213 parts on shared pages remain next."
+  },
+  "draft": {
+    "printed": [
+      40,
+      41,
+      85,
+      86,
+      175,
+      176
+    ],
+    "pdf": [
+      46,
+      47,
+      91,
+      92,
+      181,
+      182
+    ],
+    "viewed": true
+  },
+  "crossreferences": [
+    {
+      "volume": "4A",
+      "printed": 27,
+      "djvu": 44,
+      "viewed": true,
+      "scope": "Chapter7 equation40 only"
+    },
+    {
+      "volume": "4B",
+      "printed": 251,
+      "pdf": 271,
+      "viewed": true,
+      "scope": "ACT scaling explanation for AlgorithmC only"
+    }
+  ],
+  "errata": {
+    "pdf": "errata/pdf/all4f5.pdf",
+    "page": 14,
+    "viewed": true,
+    "known": "E094:November6,2020;96G/55M→92G/54M;book already corrected,draft not"
+  },
+  "new_findings": [
+    "F143",
+    "F144"
+  ],
+  "remaining_gap": "207(c), complete-run asymptotic bound for(92) with history-dependent activity; finite-precision implementation details not fully audited.",
+  "old_censuses_rerun": 0,
+  "physical_copy_verified": false
+}

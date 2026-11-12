@@ -1,0 +1,138 @@
+{
+  "checked_at_utc": "2026-11-06T21:25:08.003403+00:00",
+  "target": "Printed p35 claim that every repeated global label is diagnosed; both original assemblers explicitly accept unchanged type and equivalent.",
+  "search_terms": "redefin|already.?defined|same.?equivalent|same.?value|global.?symbol|\\b35\\b|\\b150\\b",
+  "sources": [
+    {
+      "path": "errata/originals/err1f1.textxt",
+      "sha256": "07db671be6fcbc6c473ddc6593f6a16cce5833fb5f8a499ab7e2e3eee163dae3",
+      "matches": [
+        {
+          "line": 904,
+          "context": "\\Hex{100} (usual starting location), 29. % 3rd\n@ (at sign), 15, 35, 38, 81, 97. % 2nd\n$\\nu@x$ (number of 1s in the binary representation of~$x$), 11. % 2nd\n\\.{ADD} (add), 8. % 2nd\n\\ALGOL/ W language, iv. % 3rd"
+        },
+        {
+          "line": 910,
+          "context": "\\sub table, inside back cover. % 3rd\nAt sign (@), 15, 35, 38, 81, 97. % 2nd\n\\.{BDIF} (byte difference), 11, 26, 95, 101. % 2nd\n\\.{BinaryRead} mode, 41--43, 112. % 2nd\n\\.{BinaryReadWrite} mode, 41--43. % 2nd"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/err1f1.txt",
+      "sha256": "7d6366838076d106c09e85a4f93f1b151e94c9af9f6874ea27aa6f106cdf84b6",
+      "matches": [
+        {
+          "line": 490,
+          "context": "# 100 (usual starting lo ation), 29.           Montgomery, Peter Lawren e, 95.\n\b (at sign), 15, 35, 38, 81, 97.               Monus, 11.\n\u0017 x (number of 1s in the binary                MMIXmasters, v, 51, 105, 109, 111.\n     representation of x), 11.                 MUX (multiplex), 11, 96, 98.\nADD (add), 8.                                  NEG (negate), 9, 14."
+        },
+        {
+          "line": 499,
+          "context": "   table, inside ba k over.                       x & y, 10.\nAt sign (\b), 15, 35, 38, 81, 97.                  x j y, 10.\nBDIF (byte di eren e), 11, 26, 95, 101.        O'Beirne, Thomas Hay, 94, 111.\nBinaryRead mode, 41{43, 112.                   OP eld of MMIXAL line, 28{30, 38.\nBinaryReadWrite mode, 41{43.                   Over ow, 6{9, 18, 25, 27, 65, 84, 95, 109."
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all1f1.txt",
+      "sha256": "c0b1a7c575ffcbced2bc6a7048143a16286a081908850ad0956258dd2f84b18e",
+      "matches": [
+        {
+          "line": 547,
+          "context": "    # 100 (usual starting lo ation), 29.                Comments, 29, 34, 40.\n    \b (at sign), 15, 35, 38, 81, 97.                    Commutative law: a Æ b = b Æ a, 96.\n    \u0017 x (number of 1s in the binary                     Constants in MMIXAL, 37, 67.\n         representation of x), 11.                      Continuation register, 19.\n    ADD (add), 8.                                       Coxeter, Harold S ott Ma Donald, 48."
+        },
+        {
+          "line": 556,
+          "context": "       table, inside ba k over.                         Division, 8{9, 13, 24{25, 49, 91.\n    At sign (\b), 15, 35, 38, 81, 97.                    Dot minus, 11.\n    BDIF (byte di eren e), 11, 26, 95, 101.             EXPR eld of MMIXAL line, 28{29, 38.\n    BinaryRead mode, 41{43, 112.                        Failure register, 19.\n"
+        }
+      ]
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmixware-errata.html",
+      "sha256": "740b68475c94774ee2d143b0baa2d98111664e2e2c69ce3a29117311f8c4957e",
+      "matches": [
+        {
+          "line": 287,
+          "context": "<a href=\"programs/mmix-mem.w\"><tt>mmix-mem.w</tt></a>.)</dd>\n<dt>page 150, lines 12--14 (06 Oct 2013)</dt>\n<dd>change \"as soon as possible to <tt>knuth-bug</tt>... version 0.)\" to\n\"as soon as possible. Instructions can be found at\n<tt>http://mmix.cs.hm.edu/bugs/</tt>.\"</dd>"
+        },
+        {
+          "line": 766,
+          "context": "<dd>change \"fclose(fake_stdin)\" to \"if (fake_stdin) fclose(fake_stdin)\"</dd>\n<dt>page 410, line 8 of section 150 (08 Mar 2012)</dt>\n<dd>change \"<tt>printf(command_buf)</tt>\" to \"<tt>printf(\"%s\",command_buf)</tt>\"</dd>\n<dt>page 417, line 12 of section 163 (03 May 2000)</dt>\n<dd>change \"*cur_arg\" to \"(unsigned char *)*cur_arg\"</dd>"
+        },
+        {
+          "line": 889,
+          "context": "<dt>page 501, the mini-index (13 Feb 2000)***</dt>\n<dd>GET=#fe, NEGI=#35, PUTI=#f7, RESUME=#f9, UNSAVE=#f6, all defined in MMIX-PIPE &#167;47</dd>\n<dt>page 502, new line to follow line 5 (19 Jul 2011)</dt>\n<dd>$\\bullet$ <b>k</b>: Toggle the sign bit of the instruction pointer.</dd>\n<dt>page 503, new line to follow line 4 (19 Jul 2011)</dt>"
+        }
+      ]
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmixware-current.html",
+      "sha256": "13614aa34f4ad039b12d331064d993292837bc12bf7fd2073ff34bfa41ae9834",
+      "matches": [
+        {
+          "line": 115,
+          "context": "<dl>\n<dt>page 78, line $-3$ of section 35</dt>\n<dd>change <tt>100000</tt> to <tt>800000</tt></dd>\n<dt>page 83. line 8 of section 49</dt>\n<dd>change $2^{54}+2^{53}-1$ to $2^{54}+2^{53}-4$</dd>"
+        },
+        {
+          "line": 132,
+          "context": "<dd>change <i>bus_words</i> to <i>mem_bus_bytes</i> (twice)</dd>\n<dt>page 150, line 5</dt>\n<dd>change <tt>mmix_pipe.h</tt> to <tt>mmix-pipe.h</tt></dd>\n<dt>page 176, line 7</dt>\n<dd>change \"23&ndash;27.\" to \"23&ndash;27, followed by rG (19) and rA (21) packed into eight bytes.\"</dd>"
+        }
+      ]
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmix-upstream-bugs.html",
+      "sha256": "a9b8c36c7fe466afd03a42ac900cd1e3c13250b7bd9ef575d0f331e31960a61a",
+      "matches": []
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmix-upstream-rounding.html",
+      "sha256": "f864c5fc573f7049aaf2d3682c72ee09f78dfb3d7445a19dc891282f99314c1b",
+      "matches": []
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmix-arith-upstream-warnings.ch",
+      "sha256": "b4a916e0962e2f79828d6afca1a5a40775e82b725f45ec28664a3e66f6b093b4",
+      "matches": []
+    },
+    {
+      "path": "errata/text/all1.txt",
+      "sha256": "b641d6e48aaf2d77fc98a3c4a8a798d8156516b97095ec345a976e65d9c79aef",
+      "matches": [
+        {
+          "line": 156,
+          "context": " in nite series in whi h y doubly in nite sequen e haij i of integers for whi h\nPage 35 in exer ise 17                                                     05 Aug 2025\n a set of integers     y\n                    a nite set of integers\nPage 40 just after (5)                                                 08 Aug 2025"
+        },
+        {
+          "line": 194,
+          "context": "     n        n   \u00150\nPage 64 in (35)                                                             05 Sep 2025\n kt   tk y\n\n                         CHANGES TO VOLUME 1: FUNDAMENTAL ALGORITHMS             5"
+        },
+        {
+          "line": 533,
+          "context": "  So ietatis S ientiarum Fenni \u001a 15 (1885), 315{362℄.)\n Page 473 last line of answer 35                                                               07 Feb 2024\n  sup(sup y max(sup\n Page 474 three more lines for answer 44                                                      17 May 2024\n  [See D. Grinberg, Math.PIntelligen P"
+        }
+      ]
+    },
+    {
+      "path": "errata/originals/err1.textxt",
+      "sha256": "f752c0a5fcf49686906e39fa5a1dab28b53adc8226b0a7e1a1b6cf850592bc91",
+      "matches": [
+        {
+          "line": 320,
+          "context": "\n\\amendpage 1.35 in exercise 17 (25.08.05)\na set of integers \\becomes a finite set of integers\n\\endchange\n"
+        },
+        {
+          "line": 363,
+          "context": "\n\\amendpage 1.64 in {\\eq(35)} (25.09.05)\n$kt$ \\becomes $tk$\n\\endchange\n"
+        },
+        {
+          "line": 868,
+          "context": "\n\\amendpage 1.473 last line of answer 35 (24.02.07)\n$\\sup\\bigl(\\sup$ \\becomes $\\max\\bigl(\\sup$\n\\endchange\n"
+        }
+      ]
+    }
+  ],
+  "semantic_review": "All matched contexts read. Fascicle35 matches are index entries only. Volume1 pages35/64/473 concern unrelated mathematics; MMIXware150 concerns bug-report URL or header filename, section150 printf, section35 arithmetic constant and mini-index35 opcode. No definition/diagnostic correction found. The two author source blocks from2013 and2025 are byte-identical.",
+  "additional_web_queries": [
+    "site:www-cs-faculty.stanford.edu/~knuth mmix \"same equivalent\"",
+    "site:mmix.cs.hm.edu mmixal \"redefined\" \"same\""
+  ],
+  "primary_document": "https://mmix.cs.hm.edu/doc/mmixal.pdf"
+}

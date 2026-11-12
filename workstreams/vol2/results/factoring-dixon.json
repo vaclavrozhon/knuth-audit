@@ -1,0 +1,78 @@
+{
+  "scope": "Independent finite checks; general proofs in notes/factoring-dixon.md",
+  "pid": 1285839,
+  "checkpoints": {
+    "smooth_squares": {
+      "cases": 6928,
+      "direct_residues": 1362530,
+      "exponent_pairs": 87556,
+      "crt_roots_checked": 82784,
+      "smallest_direct_to_claimed_count_ratio": "2",
+      "n_range": "all odd 3..1023",
+      "bases": [
+        [
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3,
+          5
+        ],
+        [
+          2,
+          3,
+          5,
+          7
+        ],
+        [
+          2,
+          3,
+          5,
+          7,
+          11
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          5,
+          11,
+          13
+        ],
+        [
+          17,
+          19
+        ]
+      ],
+      "passed": true,
+      "seconds": 2.31058905296959
+    },
+    "normalized_elimination": {
+      "instances": 519,
+      "conditional_fibers": 3715,
+      "roots": 15452,
+      "row_merges": 4872,
+      "nontrivial_gcds": 8022,
+      "scope": "Fixed complete parity histories; all fresh roots per square, no Monte Carlo.",
+      "passed": true,
+      "seconds": 0.34855392697500065
+    },
+    "binomial_tails": {
+      "cases": 480,
+      "m_range": [
+        1,
+        24
+      ],
+      "exact_rational": true,
+      "largest_tail_to_markov_ratio": "49917411859/125524238436",
+      "passed": true,
+      "seconds": 0.39501796604599804
+    }
+  },
+  "passed": true
+}

@@ -1,0 +1,43 @@
+{
+  "checked_at_utc": "2026-11-02T08:58:23.454455+00:00",
+  "queries": [
+    "site:gamepuzzles.com \"Multimatch\" \"III\" \"manual\"",
+    "\"Kate Jones\" \"1991\" \"Multimatch\" triangles manual",
+    "site:gamepuzzles.com \"Multimatch III\" filetype:pdf",
+    "site:gamepuzzles.com \"Multimatch\" \"1991\"",
+    "site:archive.org \"Multimatch III\"",
+    "site:ucalgary.ca \"Multimatch\"",
+    "\"Multimatch III\" \"manual\"",
+    "\"Multimatch III\" \"1991\" \"Jones\"",
+    "\"Multimatch III\" \"rules\" PDF"
+  ],
+  "archive_search": {
+    "url": "https://archive.org/advancedsearch.php?q=%22Multimatch+III%22&output=json&rows=50&fl%5B%5D=identifier&fl%5B%5D=title",
+    "queried_at_utc": "2026-11-02T08:58:19.932601+00:00",
+    "query": "\"Multimatch III\"",
+    "file": "sources/symmetries129/archive-search.json",
+    "sha256": "dafab8d88a317cbee5778491a1e61710f26e21fab408cfd1142a72e0b5049c0a",
+    "num_found": 0,
+    "records": []
+  },
+  "primary_retrieval": "sources/symmetries129/retrieval.json",
+  "established": [
+    "Publisher product page identifies24 distinct four-color triangles and attributes newer color-patch designs to Kadon.",
+    "Publisher1989 retrospective records the product introduction and distinguishes Philpott research from the publisher own color-patch work. Product release1989 does not contradict a1991 manual edition.",
+    "Publisher Philpott profile identifies the relevant earlier triangle research and the Calgary archive."
+  ],
+  "not_established": [
+    "The original1991 MultimatchIII user manual was not obtained. Its exact figures and date, and the claimed first discovery by Kate Jones, remain unchecked."
+  ],
+  "secondary_lead_only": [
+    {
+      "url": "https://boardgamegeek.com/boardgame/37171/multimatch-iii",
+      "use": "Search lead mentions1991 rulebook; not used as primary confirmation."
+    }
+  ],
+  "next_access_lead": {
+    "url": "https://searcharchives.ucalgary.ca/wade-e-philpott-fonds",
+    "use": "Finding aid/collection only, not a digitized1991 manual; no correspondence sent."
+  },
+  "discarded": "Knuth mirrors repeat the same citation and are not independent evidence; Scangrip Multimatch manuals concern lamps."
+}

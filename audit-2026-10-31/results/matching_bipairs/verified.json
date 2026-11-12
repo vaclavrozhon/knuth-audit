@@ -1,0 +1,6915 @@
+{
+  "native_cases": [
+    {
+      "q": 1,
+      "mode": "lex",
+      "excluded": 0,
+      "profile": [
+        1,
+        2
+      ],
+      "nodes": 3
+    },
+    {
+      "q": 1,
+      "mode": "lex_small",
+      "excluded": 0,
+      "profile": [
+        1,
+        2
+      ],
+      "nodes": 3
+    },
+    {
+      "q": 1,
+      "mode": "clever",
+      "excluded": 0,
+      "profile": [
+        1,
+        2
+      ],
+      "nodes": 3
+    },
+    {
+      "q": 1,
+      "mode": "clever_small",
+      "excluded": 0,
+      "profile": [
+        1,
+        2
+      ],
+      "nodes": 3
+    },
+    {
+      "q": 2,
+      "mode": "lex",
+      "excluded": 10,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "nodes": 7
+    },
+    {
+      "q": 2,
+      "mode": "lex_small",
+      "excluded": 6,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "nodes": 7
+    },
+    {
+      "q": 2,
+      "mode": "clever",
+      "excluded": 10,
+      "profile": [
+        1,
+        4
+      ],
+      "nodes": 5
+    },
+    {
+      "q": 2,
+      "mode": "clever_small",
+      "excluded": 8,
+      "profile": [
+        1,
+        4
+      ],
+      "nodes": 5
+    },
+    {
+      "q": 3,
+      "mode": "lex",
+      "excluded": 70,
+      "profile": [
+        1,
+        6,
+        4,
+        2
+      ],
+      "nodes": 13
+    },
+    {
+      "q": 3,
+      "mode": "lex_small",
+      "excluded": 26,
+      "profile": [
+        1,
+        6,
+        4,
+        2
+      ],
+      "nodes": 13
+    },
+    {
+      "q": 3,
+      "mode": "clever",
+      "excluded": 70,
+      "profile": [
+        1,
+        6
+      ],
+      "nodes": 7
+    },
+    {
+      "q": 3,
+      "mode": "clever_small",
+      "excluded": 24,
+      "profile": [
+        1,
+        6
+      ],
+      "nodes": 7
+    },
+    {
+      "q": 4,
+      "mode": "lex",
+      "excluded": 252,
+      "profile": [
+        1,
+        8,
+        6,
+        4,
+        2
+      ],
+      "nodes": 21
+    },
+    {
+      "q": 4,
+      "mode": "lex_small",
+      "excluded": 68,
+      "profile": [
+        1,
+        8,
+        6,
+        4,
+        2
+      ],
+      "nodes": 21
+    },
+    {
+      "q": 4,
+      "mode": "clever",
+      "excluded": 252,
+      "profile": [
+        1,
+        8
+      ],
+      "nodes": 9
+    },
+    {
+      "q": 4,
+      "mode": "clever_small",
+      "excluded": 48,
+      "profile": [
+        1,
+        8
+      ],
+      "nodes": 9
+    },
+    {
+      "q": 5,
+      "mode": "lex",
+      "excluded": 660,
+      "profile": [
+        1,
+        10,
+        8,
+        6,
+        4,
+        2
+      ],
+      "nodes": 31
+    },
+    {
+      "q": 5,
+      "mode": "lex_small",
+      "excluded": 140,
+      "profile": [
+        1,
+        10,
+        8,
+        6,
+        4,
+        2
+      ],
+      "nodes": 31
+    },
+    {
+      "q": 5,
+      "mode": "clever",
+      "excluded": 660,
+      "profile": [
+        1,
+        10
+      ],
+      "nodes": 11
+    },
+    {
+      "q": 5,
+      "mode": "clever_small",
+      "excluded": 80,
+      "profile": [
+        1,
+        10
+      ],
+      "nodes": 11
+    },
+    {
+      "q": 6,
+      "mode": "lex",
+      "excluded": 1430,
+      "profile": [
+        1,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+      ],
+      "nodes": 43
+    },
+    {
+      "q": 6,
+      "mode": "lex_small",
+      "excluded": 250,
+      "profile": [
+        1,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+      ],
+      "nodes": 43
+    },
+    {
+      "q": 6,
+      "mode": "clever",
+      "excluded": 1430,
+      "profile": [
+        1,
+        12
+      ],
+      "nodes": 13
+    },
+    {
+      "q": 6,
+      "mode": "clever_small",
+      "excluded": 120,
+      "profile": [
+        1,
+        12
+      ],
+      "nodes": 13
+    },
+    {
+      "q": 7,
+      "mode": "lex",
+      "excluded": 2730,
+      "profile": [
+        1,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+      ],
+      "nodes": 57
+    },
+    {
+      "q": 7,
+      "mode": "lex_small",
+      "excluded": 406,
+      "profile": [
+        1,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+      ],
+      "nodes": 57
+    },
+    {
+      "q": 7,
+      "mode": "clever",
+      "excluded": 2730,
+      "profile": [
+        1,
+        14
+      ],
+      "nodes": 15
+    },
+    {
+      "q": 7,
+      "mode": "clever_small",
+      "excluded": 168,
+      "profile": [
+        1,
+        14
+      ],
+      "nodes": 15
+    },
+    {
+      "q": 8,
+      "mode": "lex",
+      "excluded": 4760,
+      "profile": [
+        1,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+      ],
+      "nodes": 73
+    },
+    {
+      "q": 8,
+      "mode": "lex_small",
+      "excluded": 616,
+      "profile": [
+        1,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+      ],
+      "nodes": 73
+    },
+    {
+      "q": 8,
+      "mode": "clever",
+      "excluded": 4760,
+      "profile": [
+        1,
+        16
+      ],
+      "nodes": 17
+    },
+    {
+      "q": 8,
+      "mode": "clever_small",
+      "excluded": 224,
+      "profile": [
+        1,
+        16
+      ],
+      "nodes": 17
+    },
+    {
+      "q": 9,
+      "mode": "lex",
+      "excluded": 7752,
+      "profile": [
+        1,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+      ],
+      "nodes": 91
+    },
+    {
+      "q": 9,
+      "mode": "lex_small",
+      "excluded": 888,
+      "profile": [
+        1,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+      ],
+      "nodes": 91
+    },
+    {
+      "q": 9,
+      "mode": "clever",
+      "excluded": 7752,
+      "profile": [
+        1,
+        18
+      ],
+      "nodes": 19
+    },
+    {
+      "q": 9,
+      "mode": "clever_small",
+      "excluded": 288,
+      "profile": [
+        1,
+        18
+      ],
+      "nodes": 19
+    },
+    {
+      "q": 10,
+      "mode": "lex",
+      "excluded": 11970,
+      "profile": [
+        1,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+      ],
+      "nodes": 111
+    },
+    {
+      "q": 10,
+      "mode": "lex_small",
+      "excluded": 1230,
+      "profile": [
+        1,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+      ],
+      "nodes": 111
+    },
+    {
+      "q": 10,
+      "mode": "clever",
+      "excluded": 11970,
+      "profile": [
+        1,
+        20
+      ],
+      "nodes": 21
+    },
+    {
+      "q": 10,
+      "mode": "clever_small",
+      "excluded": 360,
+      "profile": [
+        1,
+        20
+      ],
+      "nodes": 21
+    }
+  ],
+  "random_samples": [
+    {
+      "q": 2,
+      "seed": 0,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 1,
+      "profile": [
+        1,
+        4,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 2,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 3,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 4,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 5,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 6,
+      "profile": [
+        1,
+        4
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 7,
+      "profile": [
+        1,
+        4
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 8,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 9,
+      "profile": [
+        1,
+        4,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 10,
+      "profile": [
+        1,
+        4,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 11,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 12,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 13,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 14,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 15,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 16,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 17,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 18,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 19,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 20,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 21,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 22,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 23,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 24,
+      "profile": [
+        1,
+        4,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 25,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 26,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 27,
+      "profile": [
+        1,
+        4,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 28,
+      "profile": [
+        1,
+        4,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 29,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 30,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 31,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 32,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 33,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 34,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 35,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 36,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 37,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 38,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 39,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 40,
+      "profile": [
+        1,
+        4,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 41,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 42,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 43,
+      "profile": [
+        1,
+        4
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 44,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 45,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 46,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 47,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 48,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 49,
+      "profile": [
+        1,
+        4,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 50,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 51,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 52,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 53,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 54,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 55,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 56,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 57,
+      "profile": [
+        1,
+        4,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 58,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 59,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 60,
+      "profile": [
+        1,
+        4,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 61,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 62,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 63,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 64,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 65,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 66,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 67,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 68,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 69,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 70,
+      "profile": [
+        1,
+        4
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 71,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 72,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 73,
+      "profile": [
+        1,
+        4
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 74,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 75,
+      "profile": [
+        1,
+        4,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 76,
+      "profile": [
+        1,
+        4,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 77,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 78,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 79,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 80,
+      "profile": [
+        1,
+        4,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 81,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 82,
+      "profile": [
+        1,
+        4,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 83,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 84,
+      "profile": [
+        1,
+        4,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 85,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 86,
+      "profile": [
+        1,
+        4,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 87,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 88,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 89,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 90,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 91,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 92,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 93,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 94,
+      "profile": [
+        1,
+        4,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 95,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 96,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 97,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 98,
+      "profile": [
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 2,
+      "seed": 99,
+      "profile": [
+        1,
+        4,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 0,
+      "profile": [
+        1,
+        6,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 1,
+      "profile": [
+        1,
+        6,
+        3,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 2,
+      "profile": [
+        1,
+        6,
+        4
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 3,
+      "profile": [
+        1,
+        6,
+        4,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 4,
+      "profile": [
+        1,
+        6,
+        2,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 5,
+      "profile": [
+        1,
+        6
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 6,
+      "profile": [
+        1,
+        6,
+        3,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 7,
+      "profile": [
+        1,
+        6,
+        2,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 8,
+      "profile": [
+        1,
+        6,
+        3,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 9,
+      "profile": [
+        1,
+        6,
+        4
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 10,
+      "profile": [
+        1,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 11,
+      "profile": [
+        1,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 12,
+      "profile": [
+        1,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 13,
+      "profile": [
+        1,
+        6,
+        3,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 14,
+      "profile": [
+        1,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 15,
+      "profile": [
+        1,
+        6,
+        3
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 16,
+      "profile": [
+        1,
+        6,
+        1,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 17,
+      "profile": [
+        1,
+        6,
+        1,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 18,
+      "profile": [
+        1,
+        6,
+        3,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 19,
+      "profile": [
+        1,
+        6,
+        1,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 20,
+      "profile": [
+        1,
+        6,
+        3,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 21,
+      "profile": [
+        1,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 22,
+      "profile": [
+        1,
+        6,
+        4
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 23,
+      "profile": [
+        1,
+        6,
+        2,
+        4
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 24,
+      "profile": [
+        1,
+        6,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 25,
+      "profile": [
+        1,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 26,
+      "profile": [
+        1,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 27,
+      "profile": [
+        1,
+        6,
+        3,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 28,
+      "profile": [
+        1,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 29,
+      "profile": [
+        1,
+        6,
+        1,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 30,
+      "profile": [
+        1,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 31,
+      "profile": [
+        1,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 32,
+      "profile": [
+        1,
+        6,
+        1,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 33,
+      "profile": [
+        1,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 34,
+      "profile": [
+        1,
+        6,
+        4
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 35,
+      "profile": [
+        1,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 36,
+      "profile": [
+        1,
+        6,
+        3,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 37,
+      "profile": [
+        1,
+        6,
+        4
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 38,
+      "profile": [
+        1,
+        6,
+        1,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 39,
+      "profile": [
+        1,
+        6,
+        1,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 40,
+      "profile": [
+        1,
+        6,
+        3
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 41,
+      "profile": [
+        1,
+        6,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 42,
+      "profile": [
+        1,
+        6,
+        1,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 43,
+      "profile": [
+        1,
+        6,
+        4
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 44,
+      "profile": [
+        1,
+        6,
+        2,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 45,
+      "profile": [
+        1,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 46,
+      "profile": [
+        1,
+        6,
+        1,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 47,
+      "profile": [
+        1,
+        6,
+        4
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 48,
+      "profile": [
+        1,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 49,
+      "profile": [
+        1,
+        6,
+        2,
+        4
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 50,
+      "profile": [
+        1,
+        6,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 51,
+      "profile": [
+        1,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 52,
+      "profile": [
+        1,
+        6,
+        3,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 53,
+      "profile": [
+        1,
+        6,
+        4,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 54,
+      "profile": [
+        1,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 55,
+      "profile": [
+        1,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 56,
+      "profile": [
+        1,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 57,
+      "profile": [
+        1,
+        6,
+        3,
+        3
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 58,
+      "profile": [
+        1,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 59,
+      "profile": [
+        1,
+        6,
+        1,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 60,
+      "profile": [
+        1,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 61,
+      "profile": [
+        1,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 62,
+      "profile": [
+        1,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 63,
+      "profile": [
+        1,
+        6,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 64,
+      "profile": [
+        1,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 65,
+      "profile": [
+        1,
+        6,
+        4,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 66,
+      "profile": [
+        1,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 67,
+      "profile": [
+        1,
+        6,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 68,
+      "profile": [
+        1,
+        6,
+        4,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 69,
+      "profile": [
+        1,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 70,
+      "profile": [
+        1,
+        6,
+        4,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 71,
+      "profile": [
+        1,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 72,
+      "profile": [
+        1,
+        6,
+        4,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 73,
+      "profile": [
+        1,
+        6,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 74,
+      "profile": [
+        1,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 75,
+      "profile": [
+        1,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 76,
+      "profile": [
+        1,
+        6,
+        3,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 77,
+      "profile": [
+        1,
+        6,
+        4
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 78,
+      "profile": [
+        1,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 79,
+      "profile": [
+        1,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 80,
+      "profile": [
+        1,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 81,
+      "profile": [
+        1,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 82,
+      "profile": [
+        1,
+        6,
+        3,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 83,
+      "profile": [
+        1,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 84,
+      "profile": [
+        1,
+        6,
+        2,
+        3
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 85,
+      "profile": [
+        1,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 86,
+      "profile": [
+        1,
+        6,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 87,
+      "profile": [
+        1,
+        6,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 88,
+      "profile": [
+        1,
+        6,
+        1,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 89,
+      "profile": [
+        1,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 90,
+      "profile": [
+        1,
+        6,
+        4,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 91,
+      "profile": [
+        1,
+        6,
+        1,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 92,
+      "profile": [
+        1,
+        6,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 93,
+      "profile": [
+        1,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 94,
+      "profile": [
+        1,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 95,
+      "profile": [
+        1,
+        6,
+        1,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 96,
+      "profile": [
+        1,
+        6,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 97,
+      "profile": [
+        1,
+        6,
+        1,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 98,
+      "profile": [
+        1,
+        6,
+        4,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 3,
+      "seed": 99,
+      "profile": [
+        1,
+        6,
+        2,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 0,
+      "profile": [
+        1,
+        8,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 1,
+      "profile": [
+        1,
+        8,
+        1,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 2,
+      "profile": [
+        1,
+        8,
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 3,
+      "profile": [
+        1,
+        8,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 4,
+      "profile": [
+        1,
+        8,
+        3,
+        3,
+        3
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 5,
+      "profile": [
+        1,
+        8,
+        5,
+        3,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 6,
+      "profile": [
+        1,
+        8,
+        2,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 7,
+      "profile": [
+        1,
+        8,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 8,
+      "profile": [
+        1,
+        8,
+        4,
+        5,
+        2
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 9,
+      "profile": [
+        1,
+        8,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 10,
+      "profile": [
+        1,
+        8,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 11,
+      "profile": [
+        1,
+        8,
+        6,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 12,
+      "profile": [
+        1,
+        8,
+        6,
+        1,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 13,
+      "profile": [
+        1,
+        8,
+        5,
+        4,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 14,
+      "profile": [
+        1,
+        8,
+        6,
+        4
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 15,
+      "profile": [
+        1,
+        8,
+        1,
+        1,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 16,
+      "profile": [
+        1,
+        8,
+        6,
+        2,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 17,
+      "profile": [
+        1,
+        8,
+        6,
+        2,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 18,
+      "profile": [
+        1,
+        8,
+        6,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 19,
+      "profile": [
+        1,
+        8,
+        1,
+        4,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 20,
+      "profile": [
+        1,
+        8,
+        4,
+        3,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 21,
+      "profile": [
+        1,
+        8,
+        6
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 22,
+      "profile": [
+        1,
+        8,
+        1,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 23,
+      "profile": [
+        1,
+        8,
+        3,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 24,
+      "profile": [
+        1,
+        8,
+        6,
+        3,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 25,
+      "profile": [
+        1,
+        8,
+        2,
+        1,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 26,
+      "profile": [
+        1,
+        8,
+        4,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 27,
+      "profile": [
+        1,
+        8,
+        6,
+        4,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 28,
+      "profile": [
+        1,
+        8,
+        6,
+        1,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 29,
+      "profile": [
+        1,
+        8,
+        4,
+        3,
+        4
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 30,
+      "profile": [
+        1,
+        8,
+        4,
+        3,
+        3
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 31,
+      "profile": [
+        1,
+        8,
+        3,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 32,
+      "profile": [
+        1,
+        8,
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 33,
+      "profile": [
+        1,
+        8,
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 34,
+      "profile": [
+        1,
+        8,
+        6,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 35,
+      "profile": [
+        1,
+        8,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 36,
+      "profile": [
+        1,
+        8
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 37,
+      "profile": [
+        1,
+        8,
+        6,
+        4,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 38,
+      "profile": [
+        1,
+        8,
+        2,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 39,
+      "profile": [
+        1,
+        8,
+        2,
+        4,
+        3
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 40,
+      "profile": [
+        1,
+        8,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 41,
+      "profile": [
+        1,
+        8,
+        6,
+        4,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 42,
+      "profile": [
+        1,
+        8,
+        2,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 43,
+      "profile": [
+        1,
+        8,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 44,
+      "profile": [
+        1,
+        8,
+        2,
+        2,
+        3
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 45,
+      "profile": [
+        1,
+        8,
+        1,
+        1,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 46,
+      "profile": [
+        1,
+        8,
+        2,
+        2,
+        3
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 47,
+      "profile": [
+        1,
+        8,
+        2,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 48,
+      "profile": [
+        1,
+        8,
+        2,
+        1,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 49,
+      "profile": [
+        1,
+        8,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 50,
+      "profile": [
+        1,
+        8,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 51,
+      "profile": [
+        1,
+        8,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 52,
+      "profile": [
+        1,
+        8,
+        2,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 53,
+      "profile": [
+        1,
+        8,
+        2,
+        1,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 54,
+      "profile": [
+        1,
+        8,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 55,
+      "profile": [
+        1,
+        8,
+        6,
+        2,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 56,
+      "profile": [
+        1,
+        8,
+        3,
+        2,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 57,
+      "profile": [
+        1,
+        8,
+        6,
+        3,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 58,
+      "profile": [
+        1,
+        8,
+        6,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 59,
+      "profile": [
+        1,
+        8,
+        6,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 60,
+      "profile": [
+        1,
+        8,
+        6,
+        3,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 61,
+      "profile": [
+        1,
+        8,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 62,
+      "profile": [
+        1,
+        8,
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 63,
+      "profile": [
+        1,
+        8,
+        2,
+        3,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 64,
+      "profile": [
+        1,
+        8,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 65,
+      "profile": [
+        1,
+        8,
+        6,
+        1,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 66,
+      "profile": [
+        1,
+        8,
+        4,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 67,
+      "profile": [
+        1,
+        8,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 68,
+      "profile": [
+        1,
+        8,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 69,
+      "profile": [
+        1,
+        8,
+        2,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 70,
+      "profile": [
+        1,
+        8,
+        2,
+        1,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 71,
+      "profile": [
+        1,
+        8,
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 72,
+      "profile": [
+        1,
+        8,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 73,
+      "profile": [
+        1,
+        8,
+        2,
+        2,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 74,
+      "profile": [
+        1,
+        8,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 75,
+      "profile": [
+        1,
+        8,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 76,
+      "profile": [
+        1,
+        8,
+        2,
+        1,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 77,
+      "profile": [
+        1,
+        8,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 78,
+      "profile": [
+        1,
+        8,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 79,
+      "profile": [
+        1,
+        8,
+        3,
+        3,
+        4
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 80,
+      "profile": [
+        1,
+        8,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 81,
+      "profile": [
+        1,
+        8,
+        6,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 82,
+      "profile": [
+        1,
+        8,
+        2,
+        1,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 83,
+      "profile": [
+        1,
+        8,
+        3,
+        2,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 84,
+      "profile": [
+        1,
+        8,
+        6,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 85,
+      "profile": [
+        1,
+        8,
+        6,
+        2,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 86,
+      "profile": [
+        1,
+        8,
+        4,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 87,
+      "profile": [
+        1,
+        8,
+        1,
+        4,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 88,
+      "profile": [
+        1,
+        8,
+        3,
+        3,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 89,
+      "profile": [
+        1,
+        8,
+        2,
+        3,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 90,
+      "profile": [
+        1,
+        8,
+        6,
+        1,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 91,
+      "profile": [
+        1,
+        8,
+        6,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 92,
+      "profile": [
+        1,
+        8,
+        6,
+        1,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 93,
+      "profile": [
+        1,
+        8,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 94,
+      "profile": [
+        1,
+        8,
+        6,
+        4
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 95,
+      "profile": [
+        1,
+        8,
+        1,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 96,
+      "profile": [
+        1,
+        8,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 97,
+      "profile": [
+        1,
+        8,
+        2,
+        1,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 98,
+      "profile": [
+        1,
+        8,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 4,
+      "seed": 99,
+      "profile": [
+        1,
+        8,
+        1,
+        4
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 0,
+      "profile": [
+        1,
+        10,
+        8,
+        6,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 1,
+      "profile": [
+        1,
+        10,
+        2,
+        2,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 2,
+      "profile": [
+        1,
+        10,
+        8,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 3,
+      "profile": [
+        1,
+        10,
+        8,
+        6,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 4,
+      "profile": [
+        1,
+        10,
+        8,
+        2,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 5,
+      "profile": [
+        1,
+        10,
+        3,
+        7,
+        4,
+        1
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 6,
+      "profile": [
+        1,
+        10,
+        8,
+        3,
+        2,
+        4
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 7,
+      "profile": [
+        1,
+        10,
+        4,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 8,
+      "profile": [
+        1,
+        10,
+        1,
+        6,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 9,
+      "profile": [
+        1,
+        10,
+        3,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 10,
+      "profile": [
+        1,
+        10,
+        8,
+        2,
+        2,
+        3
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 11,
+      "profile": [
+        1,
+        10,
+        8,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 12,
+      "profile": [
+        1,
+        10,
+        8,
+        4,
+        4,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 13,
+      "profile": [
+        1,
+        10,
+        8,
+        3,
+        2,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 14,
+      "profile": [
+        1,
+        10,
+        5,
+        6,
+        4,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 15,
+      "profile": [
+        1,
+        10,
+        8,
+        2,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 16,
+      "profile": [
+        1,
+        10,
+        8,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 17,
+      "profile": [
+        1,
+        10,
+        4,
+        3,
+        5,
+        3
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 18,
+      "profile": [
+        1,
+        10,
+        8,
+        6,
+        4
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 19,
+      "profile": [
+        1,
+        10,
+        8,
+        6,
+        4
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 20,
+      "profile": [
+        1,
+        10,
+        8,
+        3,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 21,
+      "profile": [
+        1,
+        10,
+        3,
+        2,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 22,
+      "profile": [
+        1,
+        10,
+        8,
+        3,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 23,
+      "profile": [
+        1,
+        10,
+        8,
+        2,
+        1,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 24,
+      "profile": [
+        1,
+        10,
+        4,
+        2,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 25,
+      "profile": [
+        1,
+        10,
+        2,
+        2,
+        1,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 26,
+      "profile": [
+        1,
+        10,
+        2,
+        2,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 27,
+      "profile": [
+        1,
+        10,
+        8,
+        6,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 28,
+      "profile": [
+        1,
+        10,
+        8,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 29,
+      "profile": [
+        1,
+        10,
+        8,
+        6,
+        2,
+        3
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 30,
+      "profile": [
+        1,
+        10,
+        8,
+        3,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 31,
+      "profile": [
+        1,
+        10,
+        3
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 32,
+      "profile": [
+        1,
+        10,
+        4,
+        7,
+        4,
+        2
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 33,
+      "profile": [
+        1,
+        10,
+        2,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 34,
+      "profile": [
+        1,
+        10,
+        4,
+        2,
+        2,
+        3
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 35,
+      "profile": [
+        1,
+        10,
+        4,
+        6,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 36,
+      "profile": [
+        1,
+        10,
+        3,
+        2,
+        1,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 37,
+      "profile": [
+        1,
+        10,
+        8,
+        4,
+        6,
+        2
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 38,
+      "profile": [
+        1,
+        10,
+        1,
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 39,
+      "profile": [
+        1,
+        10,
+        2,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 40,
+      "profile": [
+        1,
+        10,
+        8,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 41,
+      "profile": [
+        1,
+        10,
+        3,
+        1,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 42,
+      "profile": [
+        1,
+        10,
+        5,
+        2,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 43,
+      "profile": [
+        1,
+        10,
+        6,
+        2,
+        3
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 44,
+      "profile": [
+        1,
+        10,
+        5,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 45,
+      "profile": [
+        1,
+        10,
+        8
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 46,
+      "profile": [
+        1,
+        10,
+        8,
+        3,
+        2,
+        3
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 47,
+      "profile": [
+        1,
+        10,
+        8,
+        3,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 48,
+      "profile": [
+        1,
+        10,
+        4,
+        2,
+        1,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 49,
+      "profile": [
+        1,
+        10,
+        8,
+        6
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 50,
+      "profile": [
+        1,
+        10,
+        8,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 51,
+      "profile": [
+        1,
+        10,
+        2,
+        6,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 52,
+      "profile": [
+        1,
+        10,
+        8,
+        2,
+        2,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 53,
+      "profile": [
+        1,
+        10,
+        8,
+        6,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 54,
+      "profile": [
+        1,
+        10,
+        8,
+        6,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 55,
+      "profile": [
+        1,
+        10,
+        1,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 56,
+      "profile": [
+        1,
+        10,
+        4,
+        2,
+        1,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 57,
+      "profile": [
+        1,
+        10,
+        3,
+        6,
+        1,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 58,
+      "profile": [
+        1,
+        10,
+        8,
+        3,
+        3,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 59,
+      "profile": [
+        1,
+        10,
+        5,
+        7,
+        1,
+        2
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 60,
+      "profile": [
+        1,
+        10,
+        6,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 61,
+      "profile": [
+        1,
+        10,
+        3,
+        2,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 62,
+      "profile": [
+        1,
+        10,
+        8,
+        5,
+        3,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 63,
+      "profile": [
+        1,
+        10,
+        3,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 64,
+      "profile": [
+        1,
+        10,
+        6,
+        2,
+        1,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 65,
+      "profile": [
+        1,
+        10,
+        8,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 66,
+      "profile": [
+        1,
+        10,
+        2,
+        2,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 67,
+      "profile": [
+        1,
+        10,
+        8,
+        4,
+        1,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 68,
+      "profile": [
+        1,
+        10,
+        1,
+        4,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 69,
+      "profile": [
+        1,
+        10,
+        8,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 70,
+      "profile": [
+        1,
+        10,
+        4,
+        6,
+        4,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 71,
+      "profile": [
+        1,
+        10,
+        4,
+        3,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 72,
+      "profile": [
+        1,
+        10,
+        2,
+        2,
+        2,
+        3
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 73,
+      "profile": [
+        1,
+        10,
+        5,
+        2,
+        2,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 74,
+      "profile": [
+        1,
+        10,
+        5,
+        6,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 75,
+      "profile": [
+        1,
+        10,
+        2,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 76,
+      "profile": [
+        1,
+        10,
+        8,
+        2,
+        4
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 77,
+      "profile": [
+        1,
+        10,
+        4,
+        3,
+        2,
+        3
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 78,
+      "profile": [
+        1,
+        10,
+        5,
+        7,
+        2,
+        2
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 79,
+      "profile": [
+        1,
+        10,
+        8,
+        6,
+        4
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 80,
+      "profile": [
+        1,
+        10,
+        5,
+        2,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 81,
+      "profile": [
+        1,
+        10,
+        1,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 82,
+      "profile": [
+        1,
+        10,
+        8,
+        3,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 83,
+      "profile": [
+        1,
+        10,
+        3,
+        3,
+        1,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 84,
+      "profile": [
+        1,
+        10,
+        1,
+        2,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 85,
+      "profile": [
+        1,
+        10,
+        2,
+        3,
+        3,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 86,
+      "profile": [
+        1,
+        10,
+        4,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 87,
+      "profile": [
+        1,
+        10,
+        8,
+        2,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 88,
+      "profile": [
+        1,
+        10,
+        8,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 89,
+      "profile": [
+        1,
+        10,
+        1,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 90,
+      "profile": [
+        1,
+        10,
+        2,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 91,
+      "profile": [
+        1,
+        10,
+        8,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 92,
+      "profile": [
+        1,
+        10,
+        3,
+        3,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 93,
+      "profile": [
+        1,
+        10,
+        2,
+        7,
+        5,
+        3
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 94,
+      "profile": [
+        1,
+        10,
+        8,
+        4,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 95,
+      "profile": [
+        1,
+        10,
+        8,
+        6,
+        4,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 96,
+      "profile": [
+        1,
+        10,
+        4,
+        3,
+        6,
+        4
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 97,
+      "profile": [
+        1,
+        10,
+        4,
+        2,
+        3,
+        3
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 98,
+      "profile": [
+        1,
+        10,
+        2,
+        2,
+        2,
+        4
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 5,
+      "seed": 99,
+      "profile": [
+        1,
+        10,
+        4,
+        3,
+        5,
+        3
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 0,
+      "profile": [
+        1,
+        12,
+        10,
+        3,
+        3,
+        3,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 1,
+      "profile": [
+        1,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 2,
+      "profile": [
+        1,
+        12,
+        10,
+        2,
+        2,
+        3,
+        3
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 3,
+      "profile": [
+        1,
+        12,
+        1,
+        8,
+        5,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 4,
+      "profile": [
+        1,
+        12,
+        3,
+        4,
+        4,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 5,
+      "profile": [
+        1,
+        12,
+        4,
+        9,
+        2,
+        4,
+        2
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 6,
+      "profile": [
+        1,
+        12,
+        9,
+        5,
+        7,
+        4,
+        2
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 7,
+      "profile": [
+        1,
+        12,
+        10,
+        1,
+        6,
+        4,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 8,
+      "profile": [
+        1,
+        12,
+        10,
+        1,
+        2,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 9,
+      "profile": [
+        1,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 10,
+      "profile": [
+        1,
+        12,
+        3,
+        3,
+        7,
+        2,
+        2
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 11,
+      "profile": [
+        1,
+        12,
+        3,
+        2,
+        2,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 12,
+      "profile": [
+        1,
+        12,
+        6,
+        8,
+        3,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 13,
+      "profile": [
+        1,
+        12,
+        10,
+        8,
+        6,
+        4,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 14,
+      "profile": [
+        1,
+        12,
+        10,
+        8,
+        6,
+        1,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 15,
+      "profile": [
+        1,
+        12,
+        10,
+        2,
+        2,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 16,
+      "profile": [
+        1,
+        12,
+        10,
+        8,
+        6,
+        4,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 17,
+      "profile": [
+        1,
+        12,
+        10,
+        8,
+        2,
+        2,
+        3
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 18,
+      "profile": [
+        1,
+        12,
+        10,
+        6,
+        6,
+        4,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 19,
+      "profile": [
+        1,
+        12,
+        1,
+        8,
+        6,
+        2,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 20,
+      "profile": [
+        1,
+        12,
+        4,
+        3,
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 21,
+      "profile": [
+        1,
+        12,
+        3,
+        1,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 22,
+      "profile": [
+        1,
+        12,
+        10,
+        8,
+        3,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 23,
+      "profile": [
+        1,
+        12,
+        2,
+        8,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 24,
+      "profile": [
+        1,
+        12,
+        10,
+        8,
+        2,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 25,
+      "profile": [
+        1,
+        12,
+        4,
+        3,
+        7,
+        3,
+        3
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 26,
+      "profile": [
+        1,
+        12,
+        1,
+        8,
+        3,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 27,
+      "profile": [
+        1,
+        12,
+        4,
+        2,
+        3,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 28,
+      "profile": [
+        1,
+        12,
+        10,
+        3,
+        1,
+        1,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 29,
+      "profile": [
+        1,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 30,
+      "profile": [
+        1,
+        12,
+        10,
+        8,
+        6,
+        2,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 31,
+      "profile": [
+        1,
+        12,
+        10,
+        5,
+        3,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 32,
+      "profile": [
+        1,
+        12,
+        10,
+        8,
+        3,
+        3,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 33,
+      "profile": [
+        1,
+        12,
+        10,
+        5,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 34,
+      "profile": [
+        1,
+        12,
+        10,
+        3,
+        3,
+        2,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 35,
+      "profile": [
+        1,
+        12,
+        10,
+        5,
+        3,
+        3,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 36,
+      "profile": [
+        1,
+        12,
+        10,
+        8,
+        6,
+        1,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 37,
+      "profile": [
+        1,
+        12,
+        10,
+        1,
+        6,
+        1,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 38,
+      "profile": [
+        1,
+        12,
+        10,
+        8,
+        6,
+        2,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 39,
+      "profile": [
+        1,
+        12,
+        5,
+        7,
+        2,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 40,
+      "profile": [
+        1,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 41,
+      "profile": [
+        1,
+        12,
+        8,
+        6,
+        1,
+        1,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 42,
+      "profile": [
+        1,
+        12,
+        10,
+        3,
+        3,
+        1,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 43,
+      "profile": [
+        1,
+        12,
+        10,
+        1,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 44,
+      "profile": [
+        1,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 45,
+      "profile": [
+        1,
+        12,
+        3,
+        2,
+        6,
+        2,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 46,
+      "profile": [
+        1,
+        12,
+        10,
+        8,
+        2,
+        3,
+        3
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 47,
+      "profile": [
+        1,
+        12,
+        10,
+        8,
+        6,
+        4,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 48,
+      "profile": [
+        1,
+        12,
+        3,
+        3,
+        3,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 49,
+      "profile": [
+        1,
+        12,
+        10,
+        4,
+        7,
+        2,
+        1
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 50,
+      "profile": [
+        1,
+        12,
+        1,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 51,
+      "profile": [
+        1,
+        12,
+        10,
+        8,
+        4,
+        2,
+        3
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 52,
+      "profile": [
+        1,
+        12,
+        10,
+        8,
+        2,
+        2,
+        3
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 53,
+      "profile": [
+        1,
+        12,
+        5,
+        4,
+        3,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 54,
+      "profile": [
+        1,
+        12,
+        2,
+        8,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 55,
+      "profile": [
+        1,
+        12,
+        10,
+        8,
+        6,
+        1,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 56,
+      "profile": [
+        1,
+        12,
+        7,
+        8,
+        2,
+        4,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 57,
+      "profile": [
+        1,
+        12,
+        10,
+        5,
+        6,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 58,
+      "profile": [
+        1,
+        12,
+        10,
+        8,
+        2,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 59,
+      "profile": [
+        1,
+        12,
+        6,
+        2,
+        6,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 60,
+      "profile": [
+        1,
+        12,
+        10,
+        8,
+        6,
+        1,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 61,
+      "profile": [
+        1,
+        12,
+        10,
+        8,
+        6,
+        2,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 62,
+      "profile": [
+        1,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 63,
+      "profile": [
+        1,
+        12,
+        10,
+        1,
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 64,
+      "profile": [
+        1,
+        12,
+        8,
+        3,
+        1,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 65,
+      "profile": [
+        1,
+        12,
+        10,
+        8,
+        6,
+        1,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 66,
+      "profile": [
+        1,
+        12,
+        3,
+        3,
+        3,
+        1,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 67,
+      "profile": [
+        1,
+        12,
+        10,
+        8,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 68,
+      "profile": [
+        1,
+        12,
+        2,
+        8,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 69,
+      "profile": [
+        1,
+        12,
+        10,
+        8,
+        6,
+        4
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 70,
+      "profile": [
+        1,
+        12,
+        10,
+        1,
+        6,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 71,
+      "profile": [
+        1,
+        12,
+        6,
+        4,
+        3,
+        3,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 72,
+      "profile": [
+        1,
+        12,
+        10,
+        3,
+        3,
+        3,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 73,
+      "profile": [
+        1,
+        12,
+        1,
+        8,
+        2,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 74,
+      "profile": [
+        1,
+        12,
+        4,
+        10,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 75,
+      "profile": [
+        1,
+        12,
+        3,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 76,
+      "profile": [
+        1,
+        12,
+        10,
+        8,
+        2,
+        2,
+        3
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 77,
+      "profile": [
+        1,
+        12,
+        2,
+        8,
+        6,
+        1,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 78,
+      "profile": [
+        1,
+        12,
+        6,
+        6,
+        2,
+        5,
+        3
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 79,
+      "profile": [
+        1,
+        12,
+        3,
+        3,
+        1,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 80,
+      "profile": [
+        1,
+        12,
+        2,
+        2,
+        3,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 81,
+      "profile": [
+        1,
+        12,
+        10,
+        2,
+        3,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 82,
+      "profile": [
+        1,
+        12,
+        4,
+        2,
+        3,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 83,
+      "profile": [
+        1,
+        12,
+        10,
+        3,
+        3,
+        3,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 84,
+      "profile": [
+        1,
+        12,
+        10,
+        4,
+        2,
+        5,
+        3
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 85,
+      "profile": [
+        1,
+        12,
+        5,
+        8,
+        2,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 86,
+      "profile": [
+        1,
+        12,
+        10,
+        4,
+        2,
+        3,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 87,
+      "profile": [
+        1,
+        12,
+        5,
+        2,
+        1,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 88,
+      "profile": [
+        1,
+        12,
+        6,
+        8,
+        5,
+        3,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 89,
+      "profile": [
+        1,
+        12,
+        5,
+        6,
+        6,
+        2,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 90,
+      "profile": [
+        1,
+        12,
+        6,
+        5,
+        4,
+        2,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 91,
+      "profile": [
+        1,
+        12,
+        10,
+        1,
+        6,
+        4
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 92,
+      "profile": [
+        1,
+        12,
+        10,
+        8,
+        6
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 93,
+      "profile": [
+        1,
+        12,
+        10,
+        2,
+        7,
+        5
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 94,
+      "profile": [
+        1,
+        12,
+        2,
+        2,
+        3,
+        2,
+        3
+      ],
+      "exceeds_levelwise": true,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 95,
+      "profile": [
+        1,
+        12,
+        4,
+        2,
+        3,
+        3,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 96,
+      "profile": [
+        1,
+        12,
+        5,
+        2,
+        6,
+        4
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 97,
+      "profile": [
+        1,
+        12,
+        10,
+        2,
+        6,
+        4,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 98,
+      "profile": [
+        1,
+        12,
+        10,
+        8,
+        6,
+        2,
+        2
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    },
+    {
+      "q": 6,
+      "seed": 99,
+      "profile": [
+        1,
+        12,
+        10,
+        8,
+        1,
+        4,
+        1
+      ],
+      "exceeds_levelwise": false,
+      "exceeds_total": false
+    }
+  ]
+}

@@ -1,0 +1,1547 @@
+{
+  "scope": "All256 printed cells compared with primary static field classes; this is not a complete state-dependent instruction-legality test.",
+  "proof": "notes/exercises-1.3.2-017-recovery.md",
+  "source": "sources/file-109.txt",
+  "source_sha256": "8edcb0161c24161aaadda2d4422a30f795e2e5a03fddc2e76b7d793c5f4379bc",
+  "count": 256,
+  "special_cells": 21,
+  "generic_cells": 235,
+  "entries": [
+    {
+      "opcode": "00",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "01",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "02",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "03",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "04",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "05",
+      "printed": "b",
+      "field_class": "b",
+      "agrees": true
+    },
+    {
+      "opcode": "06",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "07",
+      "printed": "b",
+      "field_class": "b",
+      "agrees": true
+    },
+    {
+      "opcode": "08",
+      "printed": "b",
+      "field_class": "b",
+      "agrees": true
+    },
+    {
+      "opcode": "09",
+      "printed": "b",
+      "field_class": "b",
+      "agrees": true
+    },
+    {
+      "opcode": "0a",
+      "printed": "b",
+      "field_class": "b",
+      "agrees": true
+    },
+    {
+      "opcode": "0b",
+      "printed": "b",
+      "field_class": "b",
+      "agrees": true
+    },
+    {
+      "opcode": "0c",
+      "printed": "b",
+      "field_class": "b",
+      "agrees": true
+    },
+    {
+      "opcode": "0d",
+      "printed": "b",
+      "field_class": "b",
+      "agrees": true
+    },
+    {
+      "opcode": "0e",
+      "printed": "b",
+      "field_class": "b",
+      "agrees": true
+    },
+    {
+      "opcode": "0f",
+      "printed": "b",
+      "field_class": "b",
+      "agrees": true
+    },
+    {
+      "opcode": "10",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "11",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "12",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "13",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "14",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "15",
+      "printed": "b",
+      "field_class": "b",
+      "agrees": true
+    },
+    {
+      "opcode": "16",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "17",
+      "printed": "b",
+      "field_class": "b",
+      "agrees": true
+    },
+    {
+      "opcode": "18",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "19",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "1a",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "1b",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "1c",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "1d",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "1e",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "1f",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "20",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "21",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "22",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "23",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "24",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "25",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "26",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "27",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "28",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "29",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "2a",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "2b",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "2c",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "2d",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "2e",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "2f",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "30",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "31",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "32",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "33",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "34",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "35",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "36",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "37",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "38",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "39",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "3a",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "3b",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "3c",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "3d",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "3e",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "3f",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "40",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "41",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "42",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "43",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "44",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "45",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "46",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "47",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "48",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "49",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "4a",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "4b",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "4c",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "4d",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "4e",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "4f",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "50",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "51",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "52",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "53",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "54",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "55",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "56",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "57",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "58",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "59",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "5a",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "5b",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "5c",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "5d",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "5e",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "5f",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "60",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "61",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "62",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "63",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "64",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "65",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "66",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "67",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "68",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "69",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "6a",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "6b",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "6c",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "6d",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "6e",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "6f",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "70",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "71",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "72",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "73",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "74",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "75",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "76",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "77",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "78",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "79",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "7a",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "7b",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "7c",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "7d",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "7e",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "7f",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "80",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "81",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "82",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "83",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "84",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "85",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "86",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "87",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "88",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "89",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "8a",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "8b",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "8c",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "8d",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "8e",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "8f",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "90",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "91",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "92",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "93",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "94",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "95",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "96",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "97",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "98",
+      "printed": "0",
+      "field_class": "0",
+      "agrees": true
+    },
+    {
+      "opcode": "99",
+      "printed": "0",
+      "field_class": "0",
+      "agrees": true
+    },
+    {
+      "opcode": "9a",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "9b",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "9c",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "9d",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "9e",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "9f",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "a0",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "a1",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "a2",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "a3",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "a4",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "a5",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "a6",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "a7",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "a8",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "a9",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "aa",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "ab",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "ac",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "ad",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "ae",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "af",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "b0",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "b1",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "b2",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "b3",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "b4",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "b5",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "b6",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "b7",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "b8",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "b9",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "ba",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "bb",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "bc",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "bd",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "be",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "bf",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "c0",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "c1",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "c2",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "c3",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "c4",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "c5",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "c6",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "c7",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "c8",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "c9",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "ca",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "cb",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "cc",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "cd",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "ce",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "cf",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "d0",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "d1",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "d2",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "d3",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "d4",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "d5",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "d6",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "d7",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "d8",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "d9",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "da",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "db",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "dc",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "dd",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "de",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "df",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "e0",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "e1",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "e2",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "e3",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "e4",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "e5",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "e6",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "e7",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "e8",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "e9",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "ea",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "eb",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "ec",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "ed",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "ee",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "ef",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "f0",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "f1",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "f2",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "f3",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "f4",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "f5",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "f6",
+      "printed": "c",
+      "field_class": "c",
+      "agrees": true
+    },
+    {
+      "opcode": "f7",
+      "printed": "c",
+      "field_class": "c",
+      "agrees": true
+    },
+    {
+      "opcode": "f8",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "f9",
+      "printed": "d",
+      "field_class": "d",
+      "agrees": true
+    },
+    {
+      "opcode": "fa",
+      "printed": "e",
+      "field_class": "e",
+      "agrees": true
+    },
+    {
+      "opcode": "fb",
+      "printed": "f",
+      "field_class": "f",
+      "agrees": true
+    },
+    {
+      "opcode": "fc",
+      "printed": "g",
+      "field_class": "g",
+      "agrees": true
+    },
+    {
+      "opcode": "fd",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    },
+    {
+      "opcode": "fe",
+      "printed": "h",
+      "field_class": "h",
+      "agrees": true
+    },
+    {
+      "opcode": "ff",
+      "printed": "a",
+      "field_class": "a",
+      "agrees": true
+    }
+  ]
+}

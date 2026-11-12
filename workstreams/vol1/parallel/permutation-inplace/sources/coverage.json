@@ -1,0 +1,72 @@
+{
+  "retrieved_or_reviewed_utc": "2026-11-01T18:08:45.993730+00:00",
+  "primary_sources": [
+    {
+      "name": "Berman 1958",
+      "doi": "10.1145/320941.320952",
+      "status": "partial",
+      "local_metadata": "berman1958-crossref.json",
+      "read": "Publisher-deposited metadata only",
+      "missing": "Full article; publisher PDF HTTP403"
+    },
+    {
+      "name": "Windley 1959",
+      "doi": "10.1093/comjnl/2.1.47",
+      "status": "partial",
+      "local_metadata": "windley1959-crossref.json",
+      "read": "Publisher abstract and metadata",
+      "missing": "Full article; publisher PDF HTTP403",
+      "url": "https://academic.oup.com/comjnl/article-pdf/2/1/47/1116824/020047.pdf"
+    },
+    {
+      "name": "Brenner 1973",
+      "doi": "10.1145/355611.362542",
+      "status": "checked_for_book_claim",
+      "local_metadata": "brenner1973-crossref.json",
+      "local_algorithm": "netlib-467.f",
+      "read": "Author-uploaded full text theory/algorithm sections plus original Netlib source",
+      "limits": "No complete external Fortran audit; PDF download HTTP403",
+      "url": "https://www.researchgate.net/publication/234810550_Algorithm_467_Matrix_Transposition_in_Place"
+    },
+    {
+      "name": "Knuth 1971",
+      "status": "checked_for_book_claim",
+      "local_full_text": "knuth1971-analysis.pdf",
+      "read": "Primary STAN-CS-71-206 report, second lecture, in-situ algorithm and variance pp10-17",
+      "limits": "Proceedings typeset pages19-27 not obtained",
+      "url": "https://ftpmirror.your.org/pub/misc/bitsavers/pdf/stanford/Stanford_CS_TR_Collection_2025-12-12/OCR/CS-TR-71-206-ocr.pdf"
+    },
+    {
+      "name": "Cate and Twigg 1977",
+      "doi": "10.1145/355719.355729",
+      "status": "partial",
+      "local_metadata": "cate1977-crossref.json",
+      "local_algorithm": "netlib-513.f",
+      "read": "Original Netlib source and publisher-deposited metadata",
+      "missing": "Article full text, including analysis; publisher PDF HTTP403",
+      "limits": "No complete external Fortran audit"
+    },
+    {
+      "name": "Fich, Munro and Poblete 1995",
+      "doi": "10.1137/S0097539792238649",
+      "status": "checked_abstract_and_citation",
+      "local_metadata": "fich1995-crossref.json",
+      "read": "Primary publisher abstract and bibliographic metadata",
+      "missing": "Full paper proof; publisher PDF HTTP403",
+      "url": "https://epubs.siam.org/doi/10.1137/S0097539792238649"
+    },
+    {
+      "name": "Prodinger 1999",
+      "status": "checked_formula_comparison",
+      "local_full_text": "prodinger1999.pdf",
+      "read": "Knuth parameter definition and permutation-limit variance on p9",
+      "url": "https://arxiv.org/pdf/math/9903149"
+    },
+    {
+      "name": "Huang 1981",
+      "status": "partial",
+      "read": "Bibliographic identification from later primary Gries report reference and bibliography",
+      "missing": "Original 2-page article comparison"
+    }
+  ]
+}

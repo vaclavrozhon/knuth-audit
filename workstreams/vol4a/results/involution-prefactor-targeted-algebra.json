@@ -1,0 +1,7 @@
+{
+  "purpose": "Check the suspected missing exp(1/2) in answer 51 and the printed final coefficients; b2=O(q^4).",
+  "log_corrected_ratio": "q*(37*q**2 - 280*q + 560)/1920",
+  "corrected_ratio": "1 + 7*q/24 - 119*q**2/1152 - 7933*q**3/414720 + O(q**4)",
+  "printed_intermediate_ratio_limit": "exp(-1/2)",
+  "reason": "sigma^2+sigma=n+1, so exp(sigma+sigma^2/2)=exp((n+1+sigma)/2)."
+}

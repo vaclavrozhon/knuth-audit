@@ -1,0 +1,317 @@
+{
+  "accessed_utc": "2026-11-04T01:05:02.887693+00:00",
+  "scope": "4.6.1-21 closed; C0202 confirmed specifically for dense schoolbook integer multiplication, optional Algorithm M2 omitted. Not an implementation-independent lower bound.",
+  "book": {
+    "edition": 3,
+    "printing": 1,
+    "printed_pages_visually_read": [
+      268,
+      425,
+      426,
+      428,
+      429,
+      438,
+      677
+    ],
+    "file_page_offset": 12
+  },
+  "sources": [
+    {
+      "author": "G. E. Collins",
+      "title": "Computing time analyses for some arithmetic and algebraic algorithms",
+      "year": 1969,
+      "url": "https://ntrs.nasa.gov/api/citations/19710009710/downloads/19710009710.pdf",
+      "metadata_url": "https://ntrs.nasa.gov/citations/19710009721",
+      "local": "sources/collins-1969.pdf",
+      "pdf_pages": 302,
+      "selected_pdf_pages_visually_read": [
+        181,
+        182,
+        184,
+        185,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199
+      ],
+      "printed_pages_visually_read": [
+        195,
+        197,
+        199,
+        200,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214
+      ],
+      "scope_limit": "Whole proceedings acquired, only listed pages read. Classical arithmetic and weak-normality restriction; no general C bound inferred."
+    },
+    {
+      "author": "G. E. Collins",
+      "year": 1968,
+      "url": "https://ftp.cs.wisc.edu/pub/techreports/1968/TR36.pdf",
+      "local": "sources/collins-1968-tr36.pdf",
+      "scope_limit": "Acquired, not visually read and not used as proof evidence."
+    },
+    {
+      "author": "W. S. Brown",
+      "title": "The Subresultant PRS Algorithm",
+      "journal": "ACM Transactions on Mathematical Software 4(3) (1978), 237–249",
+      "url": "https://people.eecs.berkeley.edu/~fateman/282/readings/brown.pdf",
+      "local": "sources/brown-1978.pdf",
+      "selected_pdf_pages_visually_read": [
+        1,
+        8,
+        9,
+        10,
+        11,
+        13
+      ],
+      "scope_limit": "Qualitative dense cost model and normal/abnormal distinction, not imported as a rigorous bit bound; original factor-separation improvement explicitly noted."
+    }
+  ],
+  "verification": {
+    "result": "results/polynomial-c-complexity.json",
+    "successful_seconds": 1.4338650839636102,
+    "family_parameters": 35,
+    "recurrence_runs": 70,
+    "processes": [
+      {
+        "label": "polynomial-c-complexity",
+        "command": "timeout 180 python3 -u workstreams/vol2/verify_polynomial_c_complexity.py",
+        "time_limit_seconds": 180,
+        "started_at_utc": "2026-11-04T00:56:27.837453+00:00",
+        "log": "results/polynomial-c-complexity-failed-fraction.log",
+        "pid": 1328274,
+        "exit_code": 1,
+        "status": "failed",
+        "finished_at_utc": "2026-11-04T00:56:28.030830+00:00",
+        "failure_note": "Own validator called bit_length on Fraction; exact integer numerator used after denominator check."
+      },
+      {
+        "label": "polynomial-c-complexity",
+        "command": "timeout 180 python3 -u workstreams/vol2/verify_polynomial_c_complexity.py",
+        "time_limit_seconds": 180,
+        "started_at_utc": "2026-11-04T00:56:56.637292+00:00",
+        "log": "results/polynomial-c-complexity.log",
+        "pid": 1328304,
+        "exit_code": 0,
+        "status": "passed",
+        "finished_at_utc": "2026-11-04T00:56:58.147369+00:00",
+        "tool_session": 19900
+      }
+    ],
+    "scope_limit": "D=1 bypasses constant-stop shortcut for algebraic comparison only; D>=2 follows C chain, lower-bound proof uses D>=4. Exact model cost accounting, not schoolbook runtime benchmark. No successful tests repeated."
+  },
+  "errata": {
+    "layers": [
+      "all2-prepre",
+      "all2-pre",
+      "all2",
+      "err2",
+      "err2.textxt",
+      "err2-2e"
+    ],
+    "search_log": "sources/polynomial-c-complexity-errata.txt",
+    "matching_correction": "none located; second-edition text407–420/answers618–623 context checked"
+  },
+  "limitations": "Latest physical printing and priority unverified; report unsent. Optional M2, shift multiplication, faster arithmetic, delayed factors not covered by this lower bound.",
+  "artifacts": [
+    {
+      "path": "notes/polynomial-c-complexity-open.md",
+      "bytes": 10373,
+      "sha256": "03ac623bb0214b9ca66af7de9fcaddaffe929afc2767a33212556183957bbb44"
+    },
+    {
+      "path": "notes/C0202-polynomial-c-abnormal-time.md",
+      "bytes": 1320,
+      "sha256": "8839fae99792701c7cb0bb579ff12538eed0e9f0a47c32768666037d41f9f89c"
+    },
+    {
+      "path": "reports/C0202-polynomial-c-abnormal-time-draft.txt",
+      "bytes": 2514,
+      "sha256": "78a39cca25db50efca266968356ab3f196eaf0ef57c6dbe899db38a1d2320e78"
+    },
+    {
+      "path": "verify_polynomial_c_complexity.py",
+      "bytes": 4477,
+      "sha256": "b047f7286984884415452c53ca64750bcb33d6bcc6c01432ebc9917a198dc232"
+    },
+    {
+      "path": "results/polynomial-c-complexity.json",
+      "bytes": 28923,
+      "sha256": "f48283d2be775e00502c1b74aaa3406603a7fac17c1f7b2eb3a215100a301854"
+    },
+    {
+      "path": "results/polynomial-c-complexity.log",
+      "bytes": 1742,
+      "sha256": "b73c0201ba9e344cd64fd221a7897243108209eb5a9147ecbda186355068a4f8"
+    },
+    {
+      "path": "results/polynomial-c-complexity-failed-fraction.log",
+      "bytes": 779,
+      "sha256": "b2fe8224569b869b8103292ca1bc26b67c180442ca8dad5d11af1eedeecdeade"
+    },
+    {
+      "path": "sources/polynomial-c-complexity-errata.txt",
+      "bytes": 5730,
+      "sha256": "02d39c98e66f3b742b807e7154a4a75d0ef7bd60015387f03a93fe5e76ebd01e"
+    },
+    {
+      "path": "sources/collins-1969.pdf",
+      "bytes": 8361132,
+      "sha256": "017c685aea5805c3cdfd0abecaefa03e87afd8e7a4cc0f3a22ce54d066a7a684"
+    },
+    {
+      "path": "sources/collins-1969.txt",
+      "bytes": 517941,
+      "sha256": "f0f0e46af5c1703f351ce624fc351c613169484f14aeeac793e1ed538a91e265"
+    },
+    {
+      "path": "sources/collins-1968-tr36.pdf",
+      "bytes": 4396499,
+      "sha256": "5b84ac7f3c6e57361f818f7a17532a46e8b37b9d943dc0ac230654ef8ea9c2a0"
+    },
+    {
+      "path": "sources/collins-1968-tr36.txt",
+      "bytes": 67,
+      "sha256": "b75747a2a520b71bdaab620ebeb93a58b7be49303625945fbba9a6ad7b63e132"
+    },
+    {
+      "path": "sources/brown-1978.pdf",
+      "bytes": 709654,
+      "sha256": "2c8e3d96ef01bf75e8f657e4663ef94c3e52dd1479ec901df7809efe72721294"
+    },
+    {
+      "path": "sources/brown-1978.txt",
+      "bytes": 42515,
+      "sha256": "67b7f314f72d8a5f73b612bd328100244af29d2c2beb62607a21727fc6911b46"
+    },
+    {
+      "path": "images/collins-1969-181.png",
+      "bytes": 59210,
+      "sha256": "a79ce9ac325232c8d642e73850edbd963d5fccf06ae1ae233e4d4f26247107c7"
+    },
+    {
+      "path": "images/collins-1969-182.png",
+      "bytes": 93393,
+      "sha256": "3472fe427d4ad32b432675a001454b17d432f2e688aa107fd851c215888bbaaf"
+    },
+    {
+      "path": "images/collins-1969-184.png",
+      "bytes": 86417,
+      "sha256": "6daf426396c57aa41d55e976df3512f9daf0ffc81babb22b921d8f8aef9073ca"
+    },
+    {
+      "path": "images/collins-1969-185.png",
+      "bytes": 76619,
+      "sha256": "76d1710cf7d8fe929a0f4cf174e030d47624b5219d14e69a6be7bb300c32adb5"
+    },
+    {
+      "path": "images/collins-1969-193.png",
+      "bytes": 68092,
+      "sha256": "dab0c13ce7e75b13addaa4c5d77299be523e62d197039ed1dad32fa83b24dd25"
+    },
+    {
+      "path": "images/collins-1969-194.png",
+      "bytes": 76509,
+      "sha256": "400da8bb0657d47c46c8f48ba03464bc013e703b9cad9caf5a29019a68b9eba5"
+    },
+    {
+      "path": "images/collins-1969-195.png",
+      "bytes": 68824,
+      "sha256": "202572316521936b440ab5d59985536f5a6a014429d827a2b88be2e5476027b3"
+    },
+    {
+      "path": "images/collins-1969-196.png",
+      "bytes": 82202,
+      "sha256": "3695bafa862d0b248aa44d48e794e06fdc0fbbf30a7449e26e15c68017289237"
+    },
+    {
+      "path": "images/collins-1969-197.png",
+      "bytes": 72438,
+      "sha256": "6ff5a9778a8902d0e3f138dc4caedc2dff60e5d85d831c018e148ee5f4e8efff"
+    },
+    {
+      "path": "images/collins-1969-198.png",
+      "bytes": 63454,
+      "sha256": "eeb9e4e321a4d09dc8039f78a648a57acc96f26c45f0817adda3760016c20aa0"
+    },
+    {
+      "path": "images/collins-1969-199.png",
+      "bytes": 87532,
+      "sha256": "33585a7ac950f374c1eb44474886a1cc605b2a765c332ef608e7e54aeb78c4ed"
+    },
+    {
+      "path": "images/brown-1978-01.png",
+      "bytes": 152222,
+      "sha256": "7121aedc8345f1eb10acdb6d7f480fa0f38eb473aa2f684afe68de10c046c12b"
+    },
+    {
+      "path": "images/brown-1978-08.png",
+      "bytes": 108378,
+      "sha256": "64546e01aa2d4ac378211856e364a4151b1f46be05e6bef0ff2fc0a943facaf9"
+    },
+    {
+      "path": "images/brown-1978-09.png",
+      "bytes": 150112,
+      "sha256": "f95d128db5505a899e9e86fe6fdeeac18b6c82f746bdb54f9d0d3224562a6db0"
+    },
+    {
+      "path": "images/brown-1978-10.png",
+      "bytes": 118040,
+      "sha256": "bd04c8ba90b98f8f60da72f01c7f54685579c032a1624e3e4fd6d8ee28fa6983"
+    },
+    {
+      "path": "images/brown-1978-11.png",
+      "bytes": 146114,
+      "sha256": "3ead0d13c39580e3819151fed55e4bbf028b6621141a4cefb07a786d68fe064f"
+    },
+    {
+      "path": "images/brown-1978-13.png",
+      "bytes": 166596,
+      "sha256": "03282b44ffa8d35cd926f4e50a019d5d4e54aef1e571d95528ecdaf6a5cfffea"
+    },
+    {
+      "path": "images/vol2-p268.png",
+      "bytes": 515735,
+      "sha256": "45ef89711410be9a17dbd0c00394230cc9b7485f0404fa5521fa855c730fa989"
+    },
+    {
+      "path": "images/vol2-p425.png",
+      "bytes": 579315,
+      "sha256": "10ac3d681a873f1dd6ac94f536be169ce9f9ee428adff671c92f277c1a1c4209"
+    },
+    {
+      "path": "images/vol2-p426.png",
+      "bytes": 681098,
+      "sha256": "525a722453bfaac0e1a94c8e9d5e8e00900573073ab6ed5e4c1fd69c0f1c021f"
+    },
+    {
+      "path": "images/vol2-p428.png",
+      "bytes": 638416,
+      "sha256": "010c366c92f3b35c164dec67702d8b6d96e1a341f97e302030fe6c0da3a17ee5"
+    },
+    {
+      "path": "images/vol2-p429.png",
+      "bytes": 575501,
+      "sha256": "97ecab9c8a9fa14eb2ae9db7a6984123a8932973e1b5a18b85b58229bf2ea79a"
+    },
+    {
+      "path": "images/vol2-p438.png",
+      "bytes": 663784,
+      "sha256": "6d6438df99f6dd031082feda4716af8c5c46c5fc35dae9e87667ac301745dda4"
+    },
+    {
+      "path": "images/vol2-p677.png",
+      "bytes": 685692,
+      "sha256": "e2e242c68d54ff1e1e99142150862887add721f7b714eee56aca34b87a50170e"
+    }
+  ]
+}

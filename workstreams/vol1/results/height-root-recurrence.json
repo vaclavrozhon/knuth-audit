@@ -1,0 +1,42 @@
+{
+  "method": "Independent integer coefficient recurrence a[n,k]=sum_l a[l,k-1]*a[n-1-l,k]; tail sum.",
+  "N": 100,
+  "rows": [
+    {
+      "n": 1,
+      "height_sum": "1",
+      "catalan": "1",
+      "mean": 1.0
+    },
+    {
+      "n": 2,
+      "height_sum": "3",
+      "catalan": "2",
+      "mean": 1.5
+    },
+    {
+      "n": 3,
+      "height_sum": "10",
+      "catalan": "5",
+      "mean": 2.0
+    },
+    {
+      "n": 4,
+      "height_sum": "34",
+      "catalan": "14",
+      "mean": 2.4285714285714284
+    },
+    {
+      "n": 10,
+      "height_sum": "73149",
+      "catalan": "16796",
+      "mean": 4.3551440819242675
+    },
+    {
+      "n": 100,
+      "height_sum": "14618250760911498109163821598733036118473115023491831100120",
+      "catalan": "896519947090131496687170070074100632420837521538745909320",
+      "mean": 16.305549930437692
+    }
+  ]
+}

@@ -1,0 +1,491 @@
+{
+  "source": "workstreams/vol1/results/rounded-harmonic.json",
+  "method": "Each of n+1 reciprocal half ties rounds downward to an even integer; inherited scaled sum minus n+1. Only changed adjacent-boundary indicators counted.",
+  "rows": [
+    {
+      "n": 1,
+      "scaled_ties_even_sum": 37,
+      "output": "3.7",
+      "groups_after_first": 4,
+      "digits": 2,
+      "tie_changes": [
+        {
+          "index": 20,
+          "old": 1,
+          "new": 0,
+          "group_count_change": 0
+        },
+        {
+          "index": 4,
+          "old": 3,
+          "new": 2,
+          "group_count_change": 0
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "scaled_ties_even_sum": 613,
+      "output": "6.13",
+      "groups_after_first": 18,
+      "digits": 3,
+      "tie_changes": [
+        {
+          "index": 200,
+          "old": 1,
+          "new": 0,
+          "group_count_change": 0
+        },
+        {
+          "index": 40,
+          "old": 3,
+          "new": 2,
+          "group_count_change": 0
+        },
+        {
+          "index": 8,
+          "old": 13,
+          "new": 12,
+          "group_count_change": 0
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "scaled_ties_even_sum": 8445,
+      "output": "8.445",
+      "groups_after_first": 61,
+      "digits": 4,
+      "tie_changes": [
+        {
+          "index": 2000,
+          "old": 1,
+          "new": 0,
+          "group_count_change": 0
+        },
+        {
+          "index": 400,
+          "old": 3,
+          "new": 2,
+          "group_count_change": 0
+        },
+        {
+          "index": 80,
+          "old": 13,
+          "new": 12,
+          "group_count_change": 0
+        },
+        {
+          "index": 16,
+          "old": 63,
+          "new": 62,
+          "group_count_change": 0
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "scaled_ties_even_sum": 107504,
+      "output": "10.7504",
+      "groups_after_first": 198,
+      "digits": 6,
+      "tie_changes": [
+        {
+          "index": 20000,
+          "old": 1,
+          "new": 0,
+          "group_count_change": 0
+        },
+        {
+          "index": 4000,
+          "old": 3,
+          "new": 2,
+          "group_count_change": 0
+        },
+        {
+          "index": 800,
+          "old": 13,
+          "new": 12,
+          "group_count_change": 0
+        },
+        {
+          "index": 160,
+          "old": 63,
+          "new": 62,
+          "group_count_change": 0
+        },
+        {
+          "index": 32,
+          "old": 313,
+          "new": 312,
+          "group_count_change": 0
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "scaled_ties_even_sum": 1305357,
+      "output": "13.05357",
+      "groups_after_first": 630,
+      "digits": 7,
+      "tie_changes": [
+        {
+          "index": 200000,
+          "old": 1,
+          "new": 0,
+          "group_count_change": 0
+        },
+        {
+          "index": 40000,
+          "old": 3,
+          "new": 2,
+          "group_count_change": 0
+        },
+        {
+          "index": 8000,
+          "old": 13,
+          "new": 12,
+          "group_count_change": 0
+        },
+        {
+          "index": 1600,
+          "old": 63,
+          "new": 62,
+          "group_count_change": 0
+        },
+        {
+          "index": 320,
+          "old": 313,
+          "new": 312,
+          "group_count_change": 0
+        },
+        {
+          "index": 64,
+          "old": 1563,
+          "new": 1562,
+          "group_count_change": 0
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "scaled_ties_even_sum": 15356255,
+      "output": "15.356255",
+      "groups_after_first": 1998,
+      "digits": 8,
+      "tie_changes": [
+        {
+          "index": 2000000,
+          "old": 1,
+          "new": 0,
+          "group_count_change": 0
+        },
+        {
+          "index": 400000,
+          "old": 3,
+          "new": 2,
+          "group_count_change": 0
+        },
+        {
+          "index": 80000,
+          "old": 13,
+          "new": 12,
+          "group_count_change": 0
+        },
+        {
+          "index": 16000,
+          "old": 63,
+          "new": 62,
+          "group_count_change": 0
+        },
+        {
+          "index": 3200,
+          "old": 313,
+          "new": 312,
+          "group_count_change": 0
+        },
+        {
+          "index": 640,
+          "old": 1563,
+          "new": 1562,
+          "group_count_change": 0
+        },
+        {
+          "index": 128,
+          "old": 7813,
+          "new": 7812,
+          "group_count_change": 0
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "scaled_ties_even_sum": 176588268,
+      "output": "17.6588268",
+      "groups_after_first": 6323,
+      "digits": 9,
+      "tie_changes": [
+        {
+          "index": 20000000,
+          "old": 1,
+          "new": 0,
+          "group_count_change": 0
+        },
+        {
+          "index": 4000000,
+          "old": 3,
+          "new": 2,
+          "group_count_change": 0
+        },
+        {
+          "index": 800000,
+          "old": 13,
+          "new": 12,
+          "group_count_change": 0
+        },
+        {
+          "index": 160000,
+          "old": 63,
+          "new": 62,
+          "group_count_change": 0
+        },
+        {
+          "index": 32000,
+          "old": 313,
+          "new": 312,
+          "group_count_change": 0
+        },
+        {
+          "index": 6400,
+          "old": 1563,
+          "new": 1562,
+          "group_count_change": 0
+        },
+        {
+          "index": 1280,
+          "old": 7813,
+          "new": 7812,
+          "group_count_change": 0
+        },
+        {
+          "index": 256,
+          "old": 39063,
+          "new": 39062,
+          "group_count_change": 0
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "scaled_ties_even_sum": 1996140681,
+      "output": "19.96140681",
+      "groups_after_first": 19998,
+      "digits": 10,
+      "tie_changes": [
+        {
+          "index": 200000000,
+          "old": 1,
+          "new": 0,
+          "group_count_change": 0
+        },
+        {
+          "index": 40000000,
+          "old": 3,
+          "new": 2,
+          "group_count_change": 0
+        },
+        {
+          "index": 8000000,
+          "old": 13,
+          "new": 12,
+          "group_count_change": 0
+        },
+        {
+          "index": 1600000,
+          "old": 63,
+          "new": 62,
+          "group_count_change": 0
+        },
+        {
+          "index": 320000,
+          "old": 313,
+          "new": 312,
+          "group_count_change": 0
+        },
+        {
+          "index": 64000,
+          "old": 1563,
+          "new": 1562,
+          "group_count_change": 0
+        },
+        {
+          "index": 12800,
+          "old": 7813,
+          "new": 7812,
+          "group_count_change": 0
+        },
+        {
+          "index": 2560,
+          "old": 39063,
+          "new": 39062,
+          "group_count_change": 0
+        },
+        {
+          "index": 512,
+          "old": 195313,
+          "new": 195312,
+          "group_count_change": 0
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "scaled_ties_even_sum": 22263991769,
+      "output": "22.263991769",
+      "groups_after_first": 63244,
+      "digits": 11,
+      "tie_changes": [
+        {
+          "index": 2000000000,
+          "old": 1,
+          "new": 0,
+          "group_count_change": 0
+        },
+        {
+          "index": 400000000,
+          "old": 3,
+          "new": 2,
+          "group_count_change": 0
+        },
+        {
+          "index": 80000000,
+          "old": 13,
+          "new": 12,
+          "group_count_change": 0
+        },
+        {
+          "index": 16000000,
+          "old": 63,
+          "new": 62,
+          "group_count_change": 0
+        },
+        {
+          "index": 3200000,
+          "old": 313,
+          "new": 312,
+          "group_count_change": 0
+        },
+        {
+          "index": 640000,
+          "old": 1563,
+          "new": 1562,
+          "group_count_change": 0
+        },
+        {
+          "index": 128000,
+          "old": 7813,
+          "new": 7812,
+          "group_count_change": 0
+        },
+        {
+          "index": 25600,
+          "old": 39063,
+          "new": 39062,
+          "group_count_change": 0
+        },
+        {
+          "index": 5120,
+          "old": 195313,
+          "new": 195312,
+          "group_count_change": 0
+        },
+        {
+          "index": 1024,
+          "old": 976563,
+          "new": 976562,
+          "group_count_change": 0
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "scaled_ties_even_sum": 245665766342,
+      "output": "24.5665766342",
+      "groups_after_first": 199998,
+      "digits": 12,
+      "tie_changes": [
+        {
+          "index": 20000000000,
+          "old": 1,
+          "new": 0,
+          "group_count_change": 0
+        },
+        {
+          "index": 4000000000,
+          "old": 3,
+          "new": 2,
+          "group_count_change": 0
+        },
+        {
+          "index": 800000000,
+          "old": 13,
+          "new": 12,
+          "group_count_change": 0
+        },
+        {
+          "index": 160000000,
+          "old": 63,
+          "new": 62,
+          "group_count_change": 0
+        },
+        {
+          "index": 32000000,
+          "old": 313,
+          "new": 312,
+          "group_count_change": 0
+        },
+        {
+          "index": 6400000,
+          "old": 1563,
+          "new": 1562,
+          "group_count_change": 0
+        },
+        {
+          "index": 1280000,
+          "old": 7813,
+          "new": 7812,
+          "group_count_change": 0
+        },
+        {
+          "index": 256000,
+          "old": 39063,
+          "new": 39062,
+          "group_count_change": 0
+        },
+        {
+          "index": 51200,
+          "old": 195313,
+          "new": 195312,
+          "group_count_change": 0
+        },
+        {
+          "index": 10240,
+          "old": 976563,
+          "new": 976562,
+          "group_count_change": 0
+        },
+        {
+          "index": 2048,
+          "old": 4882813,
+          "new": 4882812,
+          "group_count_change": 0
+        }
+      ]
+    }
+  ],
+  "groups_after_first_total": 292472,
+  "digits_total": 72,
+  "memory_units": 82,
+  "oops": 40659359,
+  "timing_formula": "139 sum(groups_after_first) + 66 sum(decimal_digits) + 99*10 + 9; memory writes are digits plus ten newlines."
+}

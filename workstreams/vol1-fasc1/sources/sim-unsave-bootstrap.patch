@@ -1,0 +1,31 @@
+--- sim-20250620.mms
++++ sim-unsave-bootstrap-fixed.mms
+@@ -71,6 +71,7 @@
+ aa       GREG  % rA
+ ii       GREG  % rI
+ uu       GREG  % rU
++initial_unsave GREG  % private bootstrap flag, not a guest counter
+ cc       GREG  % clock
+ 
+ lring_mask GREG 8*lring_size-1
+@@ -419,8 +420,8 @@
+            CMPU   t,gg,x
+            CSN    ll,t,gg
+            SET    oo,ss
+-           PBNZ   uu,Update
+-           BZ     resuming,Update
++           PBZ    initial_unsave,Update
++           SET    initial_unsave,0
+            JMP    AllDone
+ 
+ Get        CMPU   t,yz,32
+@@ -1085,7 +1086,8 @@
+ 
+ OctaArgs   OCTA   Global+8*255,8
+ Infile     IS     3
+-Main       LDA    Mem:head,Chunk0
++Main       SET    initial_unsave,1
++           LDA    Mem:head,Chunk0
+            ADDU   Mem:alloc,Mem:head,Mem:nodesize
+            GET    t,rN
+            INCL   t,1

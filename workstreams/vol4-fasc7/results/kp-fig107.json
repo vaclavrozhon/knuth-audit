@@ -1,0 +1,7848 @@
+{
+  "scope": "All49 native boxes,48 native connectors,and every local next-edge option of Fig107.",
+  "digit_symbol_map": {
+    "0": 9,
+    "1": 0,
+    "2": 8,
+    "3": 7,
+    "4": 2,
+    "5": 5,
+    "6": 3,
+    "7": 1,
+    "8": 6,
+    "9": 4
+  },
+  "nodes": [
+    {
+      "node": 0,
+      "level": 0,
+      "creation_level": 0,
+      "complete_prefix": 0,
+      "matrix": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ]
+      ],
+      "parent": null,
+      "children": [
+        1,
+        2
+      ],
+      "induced_edges": [],
+      "next_difference": 9,
+      "exhaustive_children": [
+        {
+          "canonical_state": [
+            -1,
+            -1,
+            -1,
+            -1,
+            0,
+            9
+          ],
+          "placements": [
+            {
+              "lower": 0,
+              "upper": 9,
+              "positions": [
+                0,
+                1
+              ],
+              "new_labels": [
+                0,
+                9
+              ]
+            },
+            {
+              "lower": 0,
+              "upper": 9,
+              "positions": [
+                1,
+                0
+              ],
+              "new_labels": [
+                0,
+                9
+              ]
+            },
+            {
+              "lower": 0,
+              "upper": 9,
+              "positions": [
+                2,
+                3
+              ],
+              "new_labels": [
+                0,
+                9
+              ]
+            },
+            {
+              "lower": 0,
+              "upper": 9,
+              "positions": [
+                3,
+                2
+              ],
+              "new_labels": [
+                0,
+                9
+              ]
+            },
+            {
+              "lower": 0,
+              "upper": 9,
+              "positions": [
+                4,
+                5
+              ],
+              "new_labels": [
+                0,
+                9
+              ]
+            },
+            {
+              "lower": 0,
+              "upper": 9,
+              "positions": [
+                5,
+                4
+              ],
+              "new_labels": [
+                0,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "canonical_state": [
+            -1,
+            -1,
+            -1,
+            0,
+            -1,
+            9
+          ],
+          "placements": [
+            {
+              "lower": 0,
+              "upper": 9,
+              "positions": [
+                0,
+                2
+              ],
+              "new_labels": [
+                0,
+                9
+              ]
+            },
+            {
+              "lower": 0,
+              "upper": 9,
+              "positions": [
+                0,
+                4
+              ],
+              "new_labels": [
+                0,
+                9
+              ]
+            },
+            {
+              "lower": 0,
+              "upper": 9,
+              "positions": [
+                1,
+                3
+              ],
+              "new_labels": [
+                0,
+                9
+              ]
+            },
+            {
+              "lower": 0,
+              "upper": 9,
+              "positions": [
+                1,
+                5
+              ],
+              "new_labels": [
+                0,
+                9
+              ]
+            },
+            {
+              "lower": 0,
+              "upper": 9,
+              "positions": [
+                2,
+                0
+              ],
+              "new_labels": [
+                0,
+                9
+              ]
+            },
+            {
+              "lower": 0,
+              "upper": 9,
+              "positions": [
+                2,
+                4
+              ],
+              "new_labels": [
+                0,
+                9
+              ]
+            },
+            {
+              "lower": 0,
+              "upper": 9,
+              "positions": [
+                3,
+                1
+              ],
+              "new_labels": [
+                0,
+                9
+              ]
+            },
+            {
+              "lower": 0,
+              "upper": 9,
+              "positions": [
+                3,
+                5
+              ],
+              "new_labels": [
+                0,
+                9
+              ]
+            },
+            {
+              "lower": 0,
+              "upper": 9,
+              "positions": [
+                4,
+                0
+              ],
+              "new_labels": [
+                0,
+                9
+              ]
+            },
+            {
+              "lower": 0,
+              "upper": 9,
+              "positions": [
+                4,
+                2
+              ],
+              "new_labels": [
+                0,
+                9
+              ]
+            },
+            {
+              "lower": 0,
+              "upper": 9,
+              "positions": [
+                5,
+                1
+              ],
+              "new_labels": [
+                0,
+                9
+              ]
+            },
+            {
+              "lower": 0,
+              "upper": 9,
+              "positions": [
+                5,
+                3
+              ],
+              "new_labels": [
+                0,
+                9
+              ]
+            }
+          ]
+        }
+      ],
+      "rejected_placements": {
+        "endpoints not adjacent distinct vertices": 18
+      },
+      "glyphs": [],
+      "box": [
+        "132810547/500000",
+        "138300781/500000",
+        "137957031/500000",
+        "295394531/1000000"
+      ]
+    },
+    {
+      "node": 1,
+      "level": 1,
+      "creation_level": 1,
+      "complete_prefix": 1,
+      "matrix": [
+        [
+          -1,
+          9
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          -1
+        ]
+      ],
+      "parent": 0,
+      "children": [
+        3,
+        4
+      ],
+      "induced_edges": [
+        {
+          "ends": [
+            1,
+            3
+          ],
+          "labels": [
+            9,
+            0
+          ],
+          "difference": 9
+        }
+      ],
+      "next_difference": 8,
+      "exhaustive_children": [
+        {
+          "canonical_state": [
+            -1,
+            -1,
+            -1,
+            9,
+            8,
+            0
+          ],
+          "placements": [
+            {
+              "lower": 0,
+              "upper": 8,
+              "positions": [
+                3,
+                2
+              ],
+              "new_labels": [
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "canonical_state": [
+            -1,
+            0,
+            -1,
+            8,
+            -1,
+            9
+          ],
+          "placements": [
+            {
+              "lower": 0,
+              "upper": 8,
+              "positions": [
+                3,
+                5
+              ],
+              "new_labels": [
+                8
+              ]
+            }
+          ]
+        }
+      ],
+      "rejected_placements": {
+        "endpoints not adjacent distinct vertices": 2,
+        "complement normalization": 1
+      },
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "1857929/10000",
+          "y": "193087/625"
+        },
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 2,
+          "column": 2,
+          "x": "1857929/10000",
+          "y": "314913507/1000000"
+        }
+      ],
+      "box": [
+        "90324219/500000",
+        "9715/32",
+        "3055/16",
+        "322386719/1000000"
+      ]
+    },
+    {
+      "node": 2,
+      "level": 1,
+      "creation_level": 1,
+      "complete_prefix": 1,
+      "matrix": [
+        [
+          0,
+          9
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ]
+      ],
+      "parent": 0,
+      "children": [
+        5
+      ],
+      "induced_edges": [
+        {
+          "ends": [
+            0,
+            1
+          ],
+          "labels": [
+            0,
+            9
+          ],
+          "difference": 9
+        }
+      ],
+      "next_difference": 8,
+      "exhaustive_children": [
+        {
+          "canonical_state": [
+            -1,
+            -1,
+            -1,
+            8,
+            9,
+            0
+          ],
+          "placements": [
+            {
+              "lower": 0,
+              "upper": 8,
+              "positions": [
+                0,
+                2
+              ],
+              "new_labels": [
+                8
+              ]
+            },
+            {
+              "lower": 0,
+              "upper": 8,
+              "positions": [
+                0,
+                4
+              ],
+              "new_labels": [
+                8
+              ]
+            }
+          ]
+        }
+      ],
+      "rejected_placements": {
+        "endpoints not adjacent distinct vertices": 2,
+        "complement normalization": 1
+      },
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 1,
+          "column": 1,
+          "x": "3545931/10000",
+          "y": "193087/625"
+        },
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "358252063/1000000",
+          "y": "193087/625"
+        }
+      ],
+      "box": [
+        "44137207/125000",
+        "9715/32",
+        "23257/64",
+        "322386719/1000000"
+      ]
+    },
+    {
+      "node": 3,
+      "level": 2,
+      "creation_level": 2,
+      "complete_prefix": 2,
+      "matrix": [
+        [
+          -1,
+          9
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          8
+        ]
+      ],
+      "parent": 1,
+      "children": [
+        6,
+        7,
+        8
+      ],
+      "induced_edges": [
+        {
+          "ends": [
+            1,
+            3
+          ],
+          "labels": [
+            9,
+            0
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            1,
+            5
+          ],
+          "labels": [
+            9,
+            8
+          ],
+          "difference": 1
+        },
+        {
+          "ends": [
+            3,
+            5
+          ],
+          "labels": [
+            0,
+            8
+          ],
+          "difference": 8
+        }
+      ],
+      "next_difference": 7,
+      "exhaustive_children": [
+        {
+          "canonical_state": [
+            -1,
+            0,
+            -1,
+            8,
+            2,
+            9
+          ],
+          "placements": [
+            {
+              "lower": 2,
+              "upper": 9,
+              "positions": [
+                0,
+                1
+              ],
+              "new_labels": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "canonical_state": [
+            -1,
+            0,
+            -1,
+            9,
+            1,
+            8
+          ],
+          "placements": [
+            {
+              "lower": 1,
+              "upper": 8,
+              "positions": [
+                4,
+                5
+              ],
+              "new_labels": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "canonical_state": [
+            -1,
+            8,
+            -1,
+            9,
+            7,
+            0
+          ],
+          "placements": [
+            {
+              "lower": 0,
+              "upper": 7,
+              "positions": [
+                3,
+                2
+              ],
+              "new_labels": [
+                7
+              ]
+            }
+          ]
+        }
+      ],
+      "rejected_placements": {
+        "endpoints not adjacent distinct vertices": 6
+      },
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "666537/5000",
+          "y": "3359317/10000"
+        },
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 2,
+          "column": 2,
+          "x": "666537/5000",
+          "y": "341906007/1000000"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 3,
+          "column": 2,
+          "x": "666537/5000",
+          "y": "173940157/500000"
+        }
+      ],
+      "box": [
+        "32040039/250000",
+        "165292969/500000",
+        "8861/64",
+        "174689453/500000"
+      ]
+    },
+    {
+      "node": 4,
+      "level": 2,
+      "creation_level": 2,
+      "complete_prefix": 2,
+      "matrix": [
+        [
+          -1,
+          9
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          -1,
+          -1
+        ]
+      ],
+      "parent": 1,
+      "children": [
+        9,
+        10,
+        11,
+        22
+      ],
+      "induced_edges": [
+        {
+          "ends": [
+            1,
+            3
+          ],
+          "labels": [
+            9,
+            0
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            2,
+            3
+          ],
+          "labels": [
+            8,
+            0
+          ],
+          "difference": 8
+        }
+      ],
+      "next_difference": 7,
+      "exhaustive_children": [
+        {
+          "canonical_state": [
+            -1,
+            -1,
+            0,
+            8,
+            9,
+            2
+          ],
+          "placements": [
+            {
+              "lower": 2,
+              "upper": 9,
+              "positions": [
+                0,
+                1
+              ],
+              "new_labels": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "canonical_state": [
+            -1,
+            1,
+            0,
+            8,
+            9,
+            -1
+          ],
+          "placements": [
+            {
+              "lower": 1,
+              "upper": 8,
+              "positions": [
+                4,
+                2
+              ],
+              "new_labels": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "canonical_state": [
+            -1,
+            2,
+            -1,
+            9,
+            8,
+            0
+          ],
+          "placements": [
+            {
+              "lower": 2,
+              "upper": 9,
+              "positions": [
+                5,
+                1
+              ],
+              "new_labels": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "canonical_state": [
+            -1,
+            7,
+            -1,
+            9,
+            8,
+            0
+          ],
+          "placements": [
+            {
+              "lower": 0,
+              "upper": 7,
+              "positions": [
+                3,
+                5
+              ],
+              "new_labels": [
+                7
+              ]
+            }
+          ]
+        }
+      ],
+      "rejected_placements": {
+        "endpoints not adjacent distinct vertices": 4,
+        "repeated induced difference": 1
+      },
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "2382783/10000",
+          "y": "3359317/10000"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 2,
+          "column": 1,
+          "x": "46925067/200000",
+          "y": "341906007/1000000"
+        },
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 2,
+          "column": 2,
+          "x": "119142149/500000",
+          "y": "341906007/1000000"
+        }
+      ],
+      "box": [
+        "58283203/250000",
+        "165292969/500000",
+        "243425781/1000000",
+        "174689453/500000"
+      ]
+    },
+    {
+      "node": 5,
+      "level": 2,
+      "creation_level": 2,
+      "complete_prefix": 2,
+      "matrix": [
+        [
+          0,
+          9
+        ],
+        [
+          8,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ]
+      ],
+      "parent": 2,
+      "children": [
+        12,
+        13,
+        14,
+        27
+      ],
+      "induced_edges": [
+        {
+          "ends": [
+            0,
+            1
+          ],
+          "labels": [
+            0,
+            9
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            0,
+            2
+          ],
+          "labels": [
+            0,
+            8
+          ],
+          "difference": 8
+        }
+      ],
+      "next_difference": 7,
+      "exhaustive_children": [
+        {
+          "canonical_state": [
+            -1,
+            -1,
+            0,
+            9,
+            8,
+            2
+          ],
+          "placements": [
+            {
+              "lower": 2,
+              "upper": 9,
+              "positions": [
+                3,
+                1
+              ],
+              "new_labels": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "canonical_state": [
+            -1,
+            1,
+            -1,
+            8,
+            9,
+            0
+          ],
+          "placements": [
+            {
+              "lower": 1,
+              "upper": 8,
+              "positions": [
+                4,
+                2
+              ],
+              "new_labels": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "canonical_state": [
+            -1,
+            2,
+            0,
+            9,
+            8,
+            -1
+          ],
+          "placements": [
+            {
+              "lower": 2,
+              "upper": 9,
+              "positions": [
+                5,
+                1
+              ],
+              "new_labels": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "canonical_state": [
+            -1,
+            7,
+            -1,
+            8,
+            9,
+            0
+          ],
+          "placements": [
+            {
+              "lower": 0,
+              "upper": 7,
+              "positions": [
+                0,
+                4
+              ],
+              "new_labels": [
+                7
+              ]
+            }
+          ]
+        }
+      ],
+      "rejected_placements": {
+        "endpoints not adjacent distinct vertices": 4,
+        "repeated induced difference": 1
+      },
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 1,
+          "column": 1,
+          "x": "3545931/10000",
+          "y": "3359317/10000"
+        },
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "358252063/1000000",
+          "y": "3359317/10000"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 2,
+          "column": 1,
+          "x": "3545931/10000",
+          "y": "341906007/1000000"
+        }
+      ],
+      "box": [
+        "44137207/125000",
+        "165292969/500000",
+        "23257/64",
+        "174689453/500000"
+      ]
+    },
+    {
+      "node": 6,
+      "level": 3,
+      "creation_level": 3,
+      "complete_prefix": 3,
+      "matrix": [
+        [
+          -1,
+          9
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          -1,
+          8
+        ]
+      ],
+      "parent": 3,
+      "children": [
+        15,
+        28
+      ],
+      "induced_edges": [
+        {
+          "ends": [
+            1,
+            3
+          ],
+          "labels": [
+            9,
+            0
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            1,
+            5
+          ],
+          "labels": [
+            9,
+            8
+          ],
+          "difference": 1
+        },
+        {
+          "ends": [
+            2,
+            3
+          ],
+          "labels": [
+            7,
+            0
+          ],
+          "difference": 7
+        },
+        {
+          "ends": [
+            3,
+            5
+          ],
+          "labels": [
+            0,
+            8
+          ],
+          "difference": 8
+        }
+      ],
+      "next_difference": 6,
+      "exhaustive_children": [
+        {
+          "canonical_state": [
+            -1,
+            8,
+            3,
+            9,
+            7,
+            0
+          ],
+          "placements": [
+            {
+              "lower": 3,
+              "upper": 9,
+              "positions": [
+                0,
+                1
+              ],
+              "new_labels": [
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "canonical_state": [
+            -1,
+            9,
+            2,
+            8,
+            7,
+            0
+          ],
+          "placements": [
+            {
+              "lower": 2,
+              "upper": 8,
+              "positions": [
+                4,
+                5
+              ],
+              "new_labels": [
+                2
+              ]
+            }
+          ]
+        }
+      ],
+      "rejected_placements": {
+        "endpoints not adjacent distinct vertices": 4,
+        "repeated induced difference": 2
+      },
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "113313/1000",
+          "y": "1814621/5000"
+        },
+        {
+          "symbol": "#glyph-7-3",
+          "digit": 7,
+          "row": 2,
+          "column": 1,
+          "x": "21932007/200000",
+          "y": "368898507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 2,
+          "column": 2,
+          "x": "56659499/500000",
+          "y": "368898507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 3,
+          "column": 2,
+          "x": "113313/1000",
+          "y": "187436407/500000"
+        }
+      ],
+      "box": [
+        "108167969/1000000",
+        "22885/64",
+        "59230469/500000",
+        "188185547/500000"
+      ]
+    },
+    {
+      "node": 7,
+      "level": 3,
+      "creation_level": 3,
+      "complete_prefix": 3,
+      "matrix": [
+        [
+          -1,
+          9
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          1,
+          8
+        ]
+      ],
+      "parent": 3,
+      "children": [
+        16,
+        17,
+        29
+      ],
+      "induced_edges": [
+        {
+          "ends": [
+            1,
+            3
+          ],
+          "labels": [
+            9,
+            0
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            1,
+            5
+          ],
+          "labels": [
+            9,
+            8
+          ],
+          "difference": 1
+        },
+        {
+          "ends": [
+            3,
+            5
+          ],
+          "labels": [
+            0,
+            8
+          ],
+          "difference": 8
+        },
+        {
+          "ends": [
+            4,
+            5
+          ],
+          "labels": [
+            1,
+            8
+          ],
+          "difference": 7
+        }
+      ],
+      "next_difference": 6,
+      "exhaustive_children": [
+        {
+          "canonical_state": [
+            -1,
+            0,
+            1,
+            8,
+            3,
+            9
+          ],
+          "placements": [
+            {
+              "lower": 3,
+              "upper": 9,
+              "positions": [
+                0,
+                1
+              ],
+              "new_labels": [
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "canonical_state": [
+            -1,
+            0,
+            1,
+            8,
+            7,
+            9
+          ],
+          "placements": [
+            {
+              "lower": 1,
+              "upper": 7,
+              "positions": [
+                4,
+                0
+              ],
+              "new_labels": [
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "canonical_state": [
+            -1,
+            9,
+            1,
+            8,
+            6,
+            0
+          ],
+          "placements": [
+            {
+              "lower": 0,
+              "upper": 6,
+              "positions": [
+                3,
+                2
+              ],
+              "new_labels": [
+                6
+              ]
+            }
+          ]
+        }
+      ],
+      "rejected_placements": {
+        "endpoints not adjacent distinct vertices": 4,
+        "repeated induced difference": 1
+      },
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "666537/5000",
+          "y": "1814621/5000"
+        },
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 2,
+          "column": 2,
+          "x": "666537/5000",
+          "y": "368898507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-7",
+          "digit": 1,
+          "row": 3,
+          "column": 1,
+          "x": "25930887/200000",
+          "y": "187436407/500000"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 3,
+          "column": 2,
+          "x": "66656699/500000",
+          "y": "187436407/500000"
+        }
+      ],
+      "box": [
+        "32040039/250000",
+        "22885/64",
+        "8861/64",
+        "188185547/500000"
+      ]
+    },
+    {
+      "node": 8,
+      "level": 3,
+      "creation_level": 3,
+      "complete_prefix": 3,
+      "matrix": [
+        [
+          2,
+          9
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          8
+        ]
+      ],
+      "parent": 3,
+      "children": [
+        18
+      ],
+      "induced_edges": [
+        {
+          "ends": [
+            0,
+            1
+          ],
+          "labels": [
+            2,
+            9
+          ],
+          "difference": 7
+        },
+        {
+          "ends": [
+            1,
+            3
+          ],
+          "labels": [
+            9,
+            0
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            1,
+            5
+          ],
+          "labels": [
+            9,
+            8
+          ],
+          "difference": 1
+        },
+        {
+          "ends": [
+            3,
+            5
+          ],
+          "labels": [
+            0,
+            8
+          ],
+          "difference": 8
+        }
+      ],
+      "next_difference": 6,
+      "exhaustive_children": [
+        {
+          "canonical_state": [
+            -1,
+            8,
+            2,
+            9,
+            6,
+            0
+          ],
+          "placements": [
+            {
+              "lower": 0,
+              "upper": 6,
+              "positions": [
+                3,
+                2
+              ],
+              "new_labels": [
+                6
+              ]
+            }
+          ]
+        }
+      ],
+      "rejected_placements": {
+        "endpoints not adjacent distinct vertices": 6,
+        "repeated induced difference": 2
+      },
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-4",
+          "digit": 2,
+          "row": 1,
+          "column": 1,
+          "x": "199559/1250",
+          "y": "1814621/5000"
+        },
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "163306163/1000000",
+          "y": "1814621/5000"
+        },
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 2,
+          "column": 2,
+          "x": "32660033/200000",
+          "y": "368898507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 3,
+          "column": 2,
+          "x": "32660033/200000",
+          "y": "187436407/500000"
+        }
+      ],
+      "box": [
+        "19769043/125000",
+        "22885/64",
+        "2631958/15625",
+        "188185547/500000"
+      ]
+    },
+    {
+      "node": 9,
+      "level": 3,
+      "creation_level": 3,
+      "complete_prefix": 3,
+      "matrix": [
+        [
+          -1,
+          9
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          -1,
+          7
+        ]
+      ],
+      "parent": 4,
+      "children": [
+        19,
+        30
+      ],
+      "induced_edges": [
+        {
+          "ends": [
+            1,
+            3
+          ],
+          "labels": [
+            9,
+            0
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            1,
+            5
+          ],
+          "labels": [
+            9,
+            7
+          ],
+          "difference": 2
+        },
+        {
+          "ends": [
+            2,
+            3
+          ],
+          "labels": [
+            8,
+            0
+          ],
+          "difference": 8
+        },
+        {
+          "ends": [
+            3,
+            5
+          ],
+          "labels": [
+            0,
+            7
+          ],
+          "difference": 7
+        }
+      ],
+      "next_difference": 6,
+      "exhaustive_children": [
+        {
+          "canonical_state": [
+            -1,
+            7,
+            3,
+            9,
+            8,
+            0
+          ],
+          "placements": [
+            {
+              "lower": 3,
+              "upper": 9,
+              "positions": [
+                0,
+                1
+              ],
+              "new_labels": [
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "canonical_state": [
+            -1,
+            9,
+            2,
+            7,
+            8,
+            0
+          ],
+          "placements": [
+            {
+              "lower": 2,
+              "upper": 8,
+              "positions": [
+                4,
+                2
+              ],
+              "new_labels": [
+                2
+              ]
+            }
+          ]
+        }
+      ],
+      "rejected_placements": {
+        "endpoints not adjacent distinct vertices": 4,
+        "repeated induced difference": 2
+      },
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "1807943/10000",
+          "y": "1814621/5000"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 2,
+          "column": 1,
+          "x": "35428267/200000",
+          "y": "368898507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 2,
+          "column": 2,
+          "x": "90400149/500000",
+          "y": "368898507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-3",
+          "digit": 7,
+          "row": 3,
+          "column": 2,
+          "x": "1807943/10000",
+          "y": "187436407/500000"
+        }
+      ],
+      "box": [
+        "87824219/500000",
+        "22885/64",
+        "92970703/500000",
+        "188185547/500000"
+      ]
+    },
+    {
+      "node": 10,
+      "level": 3,
+      "creation_level": 3,
+      "complete_prefix": 3,
+      "matrix": [
+        [
+          -1,
+          9
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      "parent": 4,
+      "children": [
+        20,
+        21,
+        31,
+        32
+      ],
+      "induced_edges": [
+        {
+          "ends": [
+            1,
+            3
+          ],
+          "labels": [
+            9,
+            0
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            2,
+            3
+          ],
+          "labels": [
+            8,
+            0
+          ],
+          "difference": 8
+        },
+        {
+          "ends": [
+            2,
+            4
+          ],
+          "labels": [
+            8,
+            1
+          ],
+          "difference": 7
+        }
+      ],
+      "next_difference": 6,
+      "exhaustive_children": [
+        {
+          "canonical_state": [
+            -1,
+            1,
+            0,
+            8,
+            9,
+            3
+          ],
+          "placements": [
+            {
+              "lower": 3,
+              "upper": 9,
+              "positions": [
+                0,
+                1
+              ],
+              "new_labels": [
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "canonical_state": [
+            -1,
+            1,
+            0,
+            8,
+            9,
+            7
+          ],
+          "placements": [
+            {
+              "lower": 1,
+              "upper": 7,
+              "positions": [
+                4,
+                0
+              ],
+              "new_labels": [
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "canonical_state": [
+            -1,
+            9,
+            1,
+            3,
+            8,
+            0
+          ],
+          "placements": [
+            {
+              "lower": 3,
+              "upper": 9,
+              "positions": [
+                5,
+                1
+              ],
+              "new_labels": [
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "canonical_state": [
+            -1,
+            9,
+            1,
+            6,
+            8,
+            0
+          ],
+          "placements": [
+            {
+              "lower": 0,
+              "upper": 6,
+              "positions": [
+                3,
+                5
+              ],
+              "new_labels": [
+                6
+              ]
+            }
+          ]
+        }
+      ],
+      "rejected_placements": {
+        "endpoints not adjacent distinct vertices": 2,
+        "repeated induced difference": 2
+      },
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "2207831/10000",
+          "y": "1814621/5000"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 2,
+          "column": 1,
+          "x": "43426027/200000",
+          "y": "368898507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 2,
+          "column": 2,
+          "x": "110394549/500000",
+          "y": "368898507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-7",
+          "digit": 1,
+          "row": 3,
+          "column": 1,
+          "x": "43426027/200000",
+          "y": "187436407/500000"
+        }
+      ],
+      "box": [
+        "215636719/1000000",
+        "22885/64",
+        "28241211/125000",
+        "188185547/500000"
+      ]
+    },
+    {
+      "node": 11,
+      "level": 3,
+      "creation_level": 3,
+      "complete_prefix": 3,
+      "matrix": [
+        [
+          -1,
+          9
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          -1,
+          2
+        ]
+      ],
+      "parent": 4,
+      "children": [
+        33
+      ],
+      "induced_edges": [
+        {
+          "ends": [
+            1,
+            3
+          ],
+          "labels": [
+            9,
+            0
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            1,
+            5
+          ],
+          "labels": [
+            9,
+            2
+          ],
+          "difference": 7
+        },
+        {
+          "ends": [
+            2,
+            3
+          ],
+          "labels": [
+            8,
+            0
+          ],
+          "difference": 8
+        },
+        {
+          "ends": [
+            3,
+            5
+          ],
+          "labels": [
+            0,
+            2
+          ],
+          "difference": 2
+        }
+      ],
+      "next_difference": 6,
+      "exhaustive_children": [
+        {
+          "canonical_state": [
+            -1,
+            2,
+            3,
+            9,
+            8,
+            0
+          ],
+          "placements": [
+            {
+              "lower": 3,
+              "upper": 9,
+              "positions": [
+                0,
+                1
+              ],
+              "new_labels": [
+                3
+              ]
+            }
+          ]
+        }
+      ],
+      "rejected_placements": {
+        "endpoints not adjacent distinct vertices": 6,
+        "repeated induced difference": 2
+      },
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "2532741/10000",
+          "y": "1814621/5000"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 2,
+          "column": 1,
+          "x": "49924227/200000",
+          "y": "368898507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 2,
+          "column": 2,
+          "x": "126640049/500000",
+          "y": "368898507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-4",
+          "digit": 2,
+          "row": 3,
+          "column": 2,
+          "x": "2532741/10000",
+          "y": "187436407/500000"
+        }
+      ],
+      "box": [
+        "124064453/500000",
+        "22885/64",
+        "16539/64",
+        "188185547/500000"
+      ]
+    },
+    {
+      "node": 12,
+      "level": 3,
+      "creation_level": 3,
+      "complete_prefix": 3,
+      "matrix": [
+        [
+          0,
+          9
+        ],
+        [
+          8,
+          -1
+        ],
+        [
+          7,
+          -1
+        ]
+      ],
+      "parent": 5,
+      "children": [
+        23,
+        36
+      ],
+      "induced_edges": [
+        {
+          "ends": [
+            0,
+            1
+          ],
+          "labels": [
+            0,
+            9
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            0,
+            2
+          ],
+          "labels": [
+            0,
+            8
+          ],
+          "difference": 8
+        },
+        {
+          "ends": [
+            0,
+            4
+          ],
+          "labels": [
+            0,
+            7
+          ],
+          "difference": 7
+        },
+        {
+          "ends": [
+            2,
+            4
+          ],
+          "labels": [
+            8,
+            7
+          ],
+          "difference": 1
+        }
+      ],
+      "next_difference": 6,
+      "exhaustive_children": [
+        {
+          "canonical_state": [
+            -1,
+            7,
+            3,
+            8,
+            9,
+            0
+          ],
+          "placements": [
+            {
+              "lower": 3,
+              "upper": 9,
+              "positions": [
+                3,
+                1
+              ],
+              "new_labels": [
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "canonical_state": [
+            -1,
+            8,
+            3,
+            7,
+            9,
+            0
+          ],
+          "placements": [
+            {
+              "lower": 3,
+              "upper": 9,
+              "positions": [
+                5,
+                1
+              ],
+              "new_labels": [
+                3
+              ]
+            }
+          ]
+        }
+      ],
+      "rejected_placements": {
+        "endpoints not adjacent distinct vertices": 4,
+        "repeated induced difference": 2
+      },
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 1,
+          "column": 1,
+          "x": "1573021/5000",
+          "y": "1814621/5000"
+        },
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "318263163/1000000",
+          "y": "1814621/5000"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 2,
+          "column": 1,
+          "x": "1573021/5000",
+          "y": "368898507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-3",
+          "digit": 7,
+          "row": 3,
+          "column": 1,
+          "x": "1573021/5000",
+          "y": "187436407/500000"
+        }
+      ],
+      "box": [
+        "20039/64",
+        "22885/64",
+        "40425293/125000",
+        "188185547/500000"
+      ]
+    },
+    {
+      "node": 13,
+      "level": 3,
+      "creation_level": 3,
+      "complete_prefix": 3,
+      "matrix": [
+        [
+          0,
+          9
+        ],
+        [
+          8,
+          -1
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      "parent": 5,
+      "children": [
+        24,
+        25,
+        37
+      ],
+      "induced_edges": [
+        {
+          "ends": [
+            0,
+            1
+          ],
+          "labels": [
+            0,
+            9
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            0,
+            2
+          ],
+          "labels": [
+            0,
+            8
+          ],
+          "difference": 8
+        },
+        {
+          "ends": [
+            0,
+            4
+          ],
+          "labels": [
+            0,
+            1
+          ],
+          "difference": 1
+        },
+        {
+          "ends": [
+            2,
+            4
+          ],
+          "labels": [
+            8,
+            1
+          ],
+          "difference": 7
+        }
+      ],
+      "next_difference": 6,
+      "exhaustive_children": [
+        {
+          "canonical_state": [
+            -1,
+            1,
+            3,
+            8,
+            9,
+            0
+          ],
+          "placements": [
+            {
+              "lower": 3,
+              "upper": 9,
+              "positions": [
+                3,
+                1
+              ],
+              "new_labels": [
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "canonical_state": [
+            -1,
+            8,
+            3,
+            1,
+            9,
+            0
+          ],
+          "placements": [
+            {
+              "lower": 3,
+              "upper": 9,
+              "positions": [
+                5,
+                1
+              ],
+              "new_labels": [
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "canonical_state": [
+            -1,
+            8,
+            7,
+            1,
+            9,
+            0
+          ],
+          "placements": [
+            {
+              "lower": 1,
+              "upper": 7,
+              "positions": [
+                4,
+                5
+              ],
+              "new_labels": [
+                7
+              ]
+            }
+          ]
+        }
+      ],
+      "rejected_placements": {
+        "endpoints not adjacent distinct vertices": 4,
+        "repeated induced difference": 1
+      },
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 1,
+          "column": 1,
+          "x": "3395973/10000",
+          "y": "1814621/5000"
+        },
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "343256263/1000000",
+          "y": "1814621/5000"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 2,
+          "column": 1,
+          "x": "3395973/10000",
+          "y": "368898507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-7",
+          "digit": 1,
+          "row": 3,
+          "column": 1,
+          "x": "3395973/10000",
+          "y": "187436407/500000"
+        }
+      ],
+      "box": [
+        "169050781/500000",
+        "22885/64",
+        "348394531/1000000",
+        "188185547/500000"
+      ]
+    },
+    {
+      "node": 14,
+      "level": 3,
+      "creation_level": 3,
+      "complete_prefix": 3,
+      "matrix": [
+        [
+          0,
+          9
+        ],
+        [
+          8,
+          -1
+        ],
+        [
+          -1,
+          2
+        ]
+      ],
+      "parent": 5,
+      "children": [
+        26,
+        38
+      ],
+      "induced_edges": [
+        {
+          "ends": [
+            0,
+            1
+          ],
+          "labels": [
+            0,
+            9
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            0,
+            2
+          ],
+          "labels": [
+            0,
+            8
+          ],
+          "difference": 8
+        },
+        {
+          "ends": [
+            1,
+            5
+          ],
+          "labels": [
+            9,
+            2
+          ],
+          "difference": 7
+        }
+      ],
+      "next_difference": 6,
+      "exhaustive_children": [
+        {
+          "canonical_state": [
+            -1,
+            2,
+            0,
+            9,
+            8,
+            3
+          ],
+          "placements": [
+            {
+              "lower": 3,
+              "upper": 9,
+              "positions": [
+                3,
+                1
+              ],
+              "new_labels": [
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "canonical_state": [
+            -1,
+            8,
+            2,
+            6,
+            9,
+            0
+          ],
+          "placements": [
+            {
+              "lower": 0,
+              "upper": 6,
+              "positions": [
+                0,
+                4
+              ],
+              "new_labels": [
+                6
+              ]
+            }
+          ]
+        }
+      ],
+      "rejected_placements": {
+        "endpoints not adjacent distinct vertices": 7
+      },
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 1,
+          "column": 1,
+          "x": "3695889/10000",
+          "y": "1814621/5000"
+        },
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "373247863/1000000",
+          "y": "1814621/5000"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 2,
+          "column": 1,
+          "x": "3695889/10000",
+          "y": "368898507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-4",
+          "digit": 2,
+          "row": 3,
+          "column": 2,
+          "x": "74648373/200000",
+          "y": "187436407/500000"
+        }
+      ],
+      "box": [
+        "11779/32",
+        "22885/64",
+        "378386719/1000000",
+        "188185547/500000"
+      ]
+    },
+    {
+      "node": 15,
+      "level": 4,
+      "creation_level": 4,
+      "complete_prefix": 4,
+      "matrix": [
+        [
+          3,
+          9
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          -1,
+          8
+        ]
+      ],
+      "parent": 6,
+      "children": [],
+      "induced_edges": [
+        {
+          "ends": [
+            0,
+            1
+          ],
+          "labels": [
+            3,
+            9
+          ],
+          "difference": 6
+        },
+        {
+          "ends": [
+            0,
+            2
+          ],
+          "labels": [
+            3,
+            7
+          ],
+          "difference": 4
+        },
+        {
+          "ends": [
+            1,
+            3
+          ],
+          "labels": [
+            9,
+            0
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            1,
+            5
+          ],
+          "labels": [
+            9,
+            8
+          ],
+          "difference": 1
+        },
+        {
+          "ends": [
+            2,
+            3
+          ],
+          "labels": [
+            7,
+            0
+          ],
+          "difference": 7
+        },
+        {
+          "ends": [
+            3,
+            5
+          ],
+          "labels": [
+            0,
+            8
+          ],
+          "difference": 8
+        }
+      ],
+      "next_difference": 5,
+      "exhaustive_children": [],
+      "rejected_placements": {
+        "endpoints not adjacent distinct vertices": 4,
+        "repeated induced difference": 1
+      },
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-6",
+          "digit": 3,
+          "row": 1,
+          "column": 1,
+          "x": "1096611/10000",
+          "y": "3899167/10000"
+        },
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "113320063/1000000",
+          "y": "3899167/10000"
+        },
+        {
+          "symbol": "#glyph-7-3",
+          "digit": 7,
+          "row": 2,
+          "column": 1,
+          "x": "1096611/10000",
+          "y": "395891007/1000000"
+        },
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 2,
+          "column": 2,
+          "x": "113320063/1000000",
+          "y": "395891007/1000000"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 3,
+          "column": 2,
+          "x": "22662813/200000",
+          "y": "200932657/500000"
+        }
+      ],
+      "box": [
+        "108167969/1000000",
+        "48071289/125000",
+        "59230469/500000",
+        "403363281/1000000"
+      ]
+    },
+    {
+      "node": 16,
+      "level": 4,
+      "creation_level": 4,
+      "complete_prefix": 4,
+      "matrix": [
+        [
+          7,
+          9
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          1,
+          8
+        ]
+      ],
+      "parent": 7,
+      "children": [],
+      "induced_edges": [
+        {
+          "ends": [
+            0,
+            1
+          ],
+          "labels": [
+            7,
+            9
+          ],
+          "difference": 2
+        },
+        {
+          "ends": [
+            0,
+            4
+          ],
+          "labels": [
+            7,
+            1
+          ],
+          "difference": 6
+        },
+        {
+          "ends": [
+            1,
+            3
+          ],
+          "labels": [
+            9,
+            0
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            1,
+            5
+          ],
+          "labels": [
+            9,
+            8
+          ],
+          "difference": 1
+        },
+        {
+          "ends": [
+            3,
+            5
+          ],
+          "labels": [
+            0,
+            8
+          ],
+          "difference": 8
+        },
+        {
+          "ends": [
+            4,
+            5
+          ],
+          "labels": [
+            1,
+            8
+          ],
+          "difference": 7
+        }
+      ],
+      "next_difference": 5,
+      "exhaustive_children": [],
+      "rejected_placements": {
+        "repeated induced difference": 3,
+        "endpoints not adjacent distinct vertices": 2
+      },
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-3",
+          "digit": 7,
+          "row": 1,
+          "column": 1,
+          "x": "324139/2500",
+          "y": "3899167/10000"
+        },
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "133314563/1000000",
+          "y": "3899167/10000"
+        },
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 2,
+          "column": 2,
+          "x": "26661713/200000",
+          "y": "395891007/1000000"
+        },
+        {
+          "symbol": "#glyph-7-7",
+          "digit": 1,
+          "row": 3,
+          "column": 1,
+          "x": "324139/2500",
+          "y": "200932657/500000"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 3,
+          "column": 2,
+          "x": "133314563/1000000",
+          "y": "200932657/500000"
+        }
+      ],
+      "box": [
+        "32040039/250000",
+        "48071289/125000",
+        "8861/64",
+        "403363281/1000000"
+      ]
+    },
+    {
+      "node": 17,
+      "level": 4,
+      "creation_level": 4,
+      "complete_prefix": 4,
+      "matrix": [
+        [
+          3,
+          9
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          1,
+          8
+        ]
+      ],
+      "parent": 7,
+      "children": [],
+      "induced_edges": [
+        {
+          "ends": [
+            0,
+            1
+          ],
+          "labels": [
+            3,
+            9
+          ],
+          "difference": 6
+        },
+        {
+          "ends": [
+            0,
+            4
+          ],
+          "labels": [
+            3,
+            1
+          ],
+          "difference": 2
+        },
+        {
+          "ends": [
+            1,
+            3
+          ],
+          "labels": [
+            9,
+            0
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            1,
+            5
+          ],
+          "labels": [
+            9,
+            8
+          ],
+          "difference": 1
+        },
+        {
+          "ends": [
+            3,
+            5
+          ],
+          "labels": [
+            0,
+            8
+          ],
+          "difference": 8
+        },
+        {
+          "ends": [
+            4,
+            5
+          ],
+          "labels": [
+            1,
+            8
+          ],
+          "difference": 7
+        }
+      ],
+      "next_difference": 5,
+      "exhaustive_children": [],
+      "rejected_placements": {
+        "repeated induced difference": 2,
+        "endpoints not adjacent distinct vertices": 3
+      },
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-6",
+          "digit": 3,
+          "row": 1,
+          "column": 1,
+          "x": "723257/5000",
+          "y": "3899167/10000"
+        },
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "148310363/1000000",
+          "y": "3899167/10000"
+        },
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 2,
+          "column": 2,
+          "x": "29660873/200000",
+          "y": "395891007/1000000"
+        },
+        {
+          "symbol": "#glyph-7-7",
+          "digit": 1,
+          "row": 3,
+          "column": 1,
+          "x": "723257/5000",
+          "y": "200932657/500000"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 3,
+          "column": 2,
+          "x": "148310363/1000000",
+          "y": "200932657/500000"
+        }
+      ],
+      "box": [
+        "4581/32",
+        "48071289/125000",
+        "153449219/1000000",
+        "403363281/1000000"
+      ]
+    },
+    {
+      "node": 18,
+      "level": 4,
+      "creation_level": 4,
+      "complete_prefix": 4,
+      "matrix": [
+        [
+          2,
+          9
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          -1,
+          8
+        ]
+      ],
+      "parent": 8,
+      "children": [],
+      "induced_edges": [
+        {
+          "ends": [
+            0,
+            1
+          ],
+          "labels": [
+            2,
+            9
+          ],
+          "difference": 7
+        },
+        {
+          "ends": [
+            0,
+            2
+          ],
+          "labels": [
+            2,
+            6
+          ],
+          "difference": 4
+        },
+        {
+          "ends": [
+            1,
+            3
+          ],
+          "labels": [
+            9,
+            0
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            1,
+            5
+          ],
+          "labels": [
+            9,
+            8
+          ],
+          "difference": 1
+        },
+        {
+          "ends": [
+            2,
+            3
+          ],
+          "labels": [
+            6,
+            0
+          ],
+          "difference": 6
+        },
+        {
+          "ends": [
+            3,
+            5
+          ],
+          "labels": [
+            0,
+            8
+          ],
+          "difference": 8
+        }
+      ],
+      "next_difference": 5,
+      "exhaustive_children": [],
+      "rejected_placements": {
+        "endpoints not adjacent distinct vertices": 2,
+        "repeated induced difference": 3
+      },
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-4",
+          "digit": 2,
+          "row": 1,
+          "column": 1,
+          "x": "199559/1250",
+          "y": "3899167/10000"
+        },
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "163306163/1000000",
+          "y": "3899167/10000"
+        },
+        {
+          "symbol": "#glyph-7-8",
+          "digit": 6,
+          "row": 2,
+          "column": 1,
+          "x": "199559/1250",
+          "y": "395891007/1000000"
+        },
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 2,
+          "column": 2,
+          "x": "163306163/1000000",
+          "y": "395891007/1000000"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 3,
+          "column": 2,
+          "x": "32660033/200000",
+          "y": "200932657/500000"
+        }
+      ],
+      "box": [
+        "19769043/125000",
+        "48071289/125000",
+        "2631958/15625",
+        "403363281/1000000"
+      ]
+    },
+    {
+      "node": 19,
+      "level": 4,
+      "creation_level": 4,
+      "complete_prefix": 5,
+      "matrix": [
+        [
+          3,
+          9
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          -1,
+          7
+        ]
+      ],
+      "parent": 9,
+      "children": [
+        46
+      ],
+      "induced_edges": [
+        {
+          "ends": [
+            0,
+            1
+          ],
+          "labels": [
+            3,
+            9
+          ],
+          "difference": 6
+        },
+        {
+          "ends": [
+            0,
+            2
+          ],
+          "labels": [
+            3,
+            8
+          ],
+          "difference": 5
+        },
+        {
+          "ends": [
+            1,
+            3
+          ],
+          "labels": [
+            9,
+            0
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            1,
+            5
+          ],
+          "labels": [
+            9,
+            7
+          ],
+          "difference": 2
+        },
+        {
+          "ends": [
+            2,
+            3
+          ],
+          "labels": [
+            8,
+            0
+          ],
+          "difference": 8
+        },
+        {
+          "ends": [
+            3,
+            5
+          ],
+          "labels": [
+            0,
+            7
+          ],
+          "difference": 7
+        }
+      ],
+      "next_difference": 4,
+      "exhaustive_children": [
+        {
+          "canonical_state": [
+            0,
+            8,
+            7,
+            4,
+            9,
+            3
+          ],
+          "placements": [
+            {
+              "lower": 4,
+              "upper": 8,
+              "positions": [
+                4,
+                2
+              ],
+              "new_labels": [
+                4
+              ]
+            }
+          ]
+        }
+      ],
+      "rejected_placements": {
+        "endpoints not adjacent distinct vertices": 5
+      },
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-6",
+          "digit": 3,
+          "row": 1,
+          "column": 1,
+          "x": "1846403/10000",
+          "y": "3899167/10000"
+        },
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "188299263/1000000",
+          "y": "3899167/10000"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 2,
+          "column": 1,
+          "x": "1846403/10000",
+          "y": "395891007/1000000"
+        },
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 2,
+          "column": 2,
+          "x": "188299263/1000000",
+          "y": "395891007/1000000"
+        },
+        {
+          "symbol": "#glyph-7-3",
+          "digit": 7,
+          "row": 3,
+          "column": 2,
+          "x": "37658653/200000",
+          "y": "200932657/500000"
+        }
+      ],
+      "box": [
+        "183144531/1000000",
+        "48071289/125000",
+        "3095/16",
+        "403363281/1000000"
+      ]
+    },
+    {
+      "node": 20,
+      "level": 4,
+      "creation_level": 4,
+      "complete_prefix": 4,
+      "matrix": [
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      "parent": 10,
+      "children": [
+        47
+      ],
+      "induced_edges": [
+        {
+          "ends": [
+            0,
+            1
+          ],
+          "labels": [
+            7,
+            9
+          ],
+          "difference": 2
+        },
+        {
+          "ends": [
+            0,
+            2
+          ],
+          "labels": [
+            7,
+            8
+          ],
+          "difference": 1
+        },
+        {
+          "ends": [
+            0,
+            4
+          ],
+          "labels": [
+            7,
+            1
+          ],
+          "difference": 6
+        },
+        {
+          "ends": [
+            1,
+            3
+          ],
+          "labels": [
+            9,
+            0
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            2,
+            3
+          ],
+          "labels": [
+            8,
+            0
+          ],
+          "difference": 8
+        },
+        {
+          "ends": [
+            2,
+            4
+          ],
+          "labels": [
+            8,
+            1
+          ],
+          "difference": 7
+        }
+      ],
+      "next_difference": 5,
+      "exhaustive_children": [
+        {
+          "canonical_state": [
+            0,
+            8,
+            4,
+            1,
+            9,
+            7
+          ],
+          "placements": [
+            {
+              "lower": 4,
+              "upper": 9,
+              "positions": [
+                5,
+                1
+              ],
+              "new_labels": [
+                4
+              ]
+            }
+          ]
+        }
+      ],
+      "rejected_placements": {
+        "repeated induced difference": 2,
+        "endpoints not adjacent distinct vertices": 2
+      },
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-3",
+          "digit": 7,
+          "row": 1,
+          "column": 1,
+          "x": "1048167/5000",
+          "y": "3899167/10000"
+        },
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "213292363/1000000",
+          "y": "3899167/10000"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 2,
+          "column": 1,
+          "x": "1048167/5000",
+          "y": "395891007/1000000"
+        },
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 2,
+          "column": 2,
+          "x": "213292363/1000000",
+          "y": "395891007/1000000"
+        },
+        {
+          "symbol": "#glyph-7-7",
+          "digit": 1,
+          "row": 3,
+          "column": 1,
+          "x": "1048167/5000",
+          "y": "200932657/500000"
+        }
+      ],
+      "box": [
+        "13321/64",
+        "48071289/125000",
+        "27303711/125000",
+        "403363281/1000000"
+      ]
+    },
+    {
+      "node": 21,
+      "level": 4,
+      "creation_level": 4,
+      "complete_prefix": 4,
+      "matrix": [
+        [
+          -1,
+          9
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "parent": 10,
+      "children": [],
+      "induced_edges": [
+        {
+          "ends": [
+            1,
+            3
+          ],
+          "labels": [
+            9,
+            0
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            1,
+            5
+          ],
+          "labels": [
+            9,
+            3
+          ],
+          "difference": 6
+        },
+        {
+          "ends": [
+            2,
+            3
+          ],
+          "labels": [
+            8,
+            0
+          ],
+          "difference": 8
+        },
+        {
+          "ends": [
+            2,
+            4
+          ],
+          "labels": [
+            8,
+            1
+          ],
+          "difference": 7
+        },
+        {
+          "ends": [
+            3,
+            5
+          ],
+          "labels": [
+            0,
+            3
+          ],
+          "difference": 3
+        },
+        {
+          "ends": [
+            4,
+            5
+          ],
+          "labels": [
+            1,
+            3
+          ],
+          "difference": 2
+        }
+      ],
+      "next_difference": 5,
+      "exhaustive_children": [],
+      "rejected_placements": {
+        "endpoints not adjacent distinct vertices": 3,
+        "repeated induced difference": 2
+      },
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "2282811/10000",
+          "y": "3899167/10000"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 2,
+          "column": 1,
+          "x": "44925627/200000",
+          "y": "395891007/1000000"
+        },
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 2,
+          "column": 2,
+          "x": "114143549/500000",
+          "y": "395891007/1000000"
+        },
+        {
+          "symbol": "#glyph-7-7",
+          "digit": 1,
+          "row": 3,
+          "column": 1,
+          "x": "44925627/200000",
+          "y": "200932657/500000"
+        },
+        {
+          "symbol": "#glyph-7-6",
+          "digit": 3,
+          "row": 3,
+          "column": 2,
+          "x": "114143549/500000",
+          "y": "200932657/500000"
+        }
+      ],
+      "box": [
+        "223136719/1000000",
+        "48071289/125000",
+        "233425781/1000000",
+        "403363281/1000000"
+      ]
+    },
+    {
+      "node": 22,
+      "level": 4,
+      "creation_level": 3,
+      "complete_prefix": 4,
+      "matrix": [
+        [
+          2,
+          9
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          -1,
+          -1
+        ]
+      ],
+      "parent": 4,
+      "children": [
+        34,
+        35,
+        43,
+        44
+      ],
+      "induced_edges": [
+        {
+          "ends": [
+            0,
+            1
+          ],
+          "labels": [
+            2,
+            9
+          ],
+          "difference": 7
+        },
+        {
+          "ends": [
+            0,
+            2
+          ],
+          "labels": [
+            2,
+            8
+          ],
+          "difference": 6
+        },
+        {
+          "ends": [
+            1,
+            3
+          ],
+          "labels": [
+            9,
+            0
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            2,
+            3
+          ],
+          "labels": [
+            8,
+            0
+          ],
+          "difference": 8
+        }
+      ],
+      "next_difference": 5,
+      "exhaustive_children": [
+        {
+          "canonical_state": [
+            -1,
+            3,
+            0,
+            8,
+            9,
+            2
+          ],
+          "placements": [
+            {
+              "lower": 3,
+              "upper": 8,
+              "positions": [
+                4,
+                2
+              ],
+              "new_labels": [
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "canonical_state": [
+            -1,
+            4,
+            2,
+            9,
+            8,
+            0
+          ],
+          "placements": [
+            {
+              "lower": 4,
+              "upper": 9,
+              "positions": [
+                5,
+                1
+              ],
+              "new_labels": [
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "canonical_state": [
+            -1,
+            5,
+            2,
+            9,
+            8,
+            0
+          ],
+          "placements": [
+            {
+              "lower": 0,
+              "upper": 5,
+              "positions": [
+                3,
+                5
+              ],
+              "new_labels": [
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "canonical_state": [
+            -1,
+            7,
+            0,
+            8,
+            9,
+            2
+          ],
+          "placements": [
+            {
+              "lower": 2,
+              "upper": 7,
+              "positions": [
+                0,
+                4
+              ],
+              "new_labels": [
+                7
+              ]
+            }
+          ]
+        }
+      ],
+      "rejected_placements": {
+        "endpoints not adjacent distinct vertices": 6,
+        "repeated induced difference": 2
+      },
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-4",
+          "digit": 2,
+          "row": 1,
+          "column": 1,
+          "x": "1385573/5000",
+          "y": "3899167/10000"
+        },
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "280773563/1000000",
+          "y": "3899167/10000"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 2,
+          "column": 1,
+          "x": "1385573/5000",
+          "y": "395891007/1000000"
+        },
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 2,
+          "column": 2,
+          "x": "280773563/1000000",
+          "y": "395891007/1000000"
+        }
+      ],
+      "box": [
+        "137810547/500000",
+        "48071289/125000",
+        "71477539/250000",
+        "403363281/1000000"
+      ]
+    },
+    {
+      "node": 23,
+      "level": 4,
+      "creation_level": 4,
+      "complete_prefix": 4,
+      "matrix": [
+        [
+          0,
+          9
+        ],
+        [
+          8,
+          -1
+        ],
+        [
+          7,
+          3
+        ]
+      ],
+      "parent": 12,
+      "children": [],
+      "induced_edges": [
+        {
+          "ends": [
+            0,
+            1
+          ],
+          "labels": [
+            0,
+            9
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            0,
+            2
+          ],
+          "labels": [
+            0,
+            8
+          ],
+          "difference": 8
+        },
+        {
+          "ends": [
+            0,
+            4
+          ],
+          "labels": [
+            0,
+            7
+          ],
+          "difference": 7
+        },
+        {
+          "ends": [
+            1,
+            5
+          ],
+          "labels": [
+            9,
+            3
+          ],
+          "difference": 6
+        },
+        {
+          "ends": [
+            2,
+            4
+          ],
+          "labels": [
+            8,
+            7
+          ],
+          "difference": 1
+        },
+        {
+          "ends": [
+            4,
+            5
+          ],
+          "labels": [
+            7,
+            3
+          ],
+          "difference": 4
+        }
+      ],
+      "next_difference": 5,
+      "exhaustive_children": [],
+      "rejected_placements": {
+        "endpoints not adjacent distinct vertices": 4,
+        "repeated induced difference": 1
+      },
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 1,
+          "column": 1,
+          "x": "304607/1000",
+          "y": "3899167/10000"
+        },
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "308265963/1000000",
+          "y": "3899167/10000"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 2,
+          "column": 1,
+          "x": "304607/1000",
+          "y": "395891007/1000000"
+        },
+        {
+          "symbol": "#glyph-7-3",
+          "digit": 7,
+          "row": 3,
+          "column": 1,
+          "x": "304607/1000",
+          "y": "200932657/500000"
+        },
+        {
+          "symbol": "#glyph-7-6",
+          "digit": 3,
+          "row": 3,
+          "column": 2,
+          "x": "308265963/1000000",
+          "y": "200932657/500000"
+        }
+      ],
+      "box": [
+        "303113281/1000000",
+        "48071289/125000",
+        "10029/32",
+        "403363281/1000000"
+      ]
+    },
+    {
+      "node": 24,
+      "level": 4,
+      "creation_level": 4,
+      "complete_prefix": 4,
+      "matrix": [
+        [
+          0,
+          9
+        ],
+        [
+          8,
+          -1
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "parent": 13,
+      "children": [
+        48
+      ],
+      "induced_edges": [
+        {
+          "ends": [
+            0,
+            1
+          ],
+          "labels": [
+            0,
+            9
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            0,
+            2
+          ],
+          "labels": [
+            0,
+            8
+          ],
+          "difference": 8
+        },
+        {
+          "ends": [
+            0,
+            4
+          ],
+          "labels": [
+            0,
+            1
+          ],
+          "difference": 1
+        },
+        {
+          "ends": [
+            1,
+            5
+          ],
+          "labels": [
+            9,
+            7
+          ],
+          "difference": 2
+        },
+        {
+          "ends": [
+            2,
+            4
+          ],
+          "labels": [
+            8,
+            1
+          ],
+          "difference": 7
+        },
+        {
+          "ends": [
+            4,
+            5
+          ],
+          "labels": [
+            1,
+            7
+          ],
+          "difference": 6
+        }
+      ],
+      "next_difference": 5,
+      "exhaustive_children": [
+        {
+          "canonical_state": [
+            0,
+            9,
+            1,
+            7,
+            8,
+            4
+          ],
+          "placements": [
+            {
+              "lower": 4,
+              "upper": 9,
+              "positions": [
+                3,
+                1
+              ],
+              "new_labels": [
+                4
+              ]
+            }
+          ]
+        }
+      ],
+      "rejected_placements": {
+        "endpoints not adjacent distinct vertices": 2,
+        "repeated induced difference": 2
+      },
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 1,
+          "column": 1,
+          "x": "1623007/5000",
+          "y": "3899167/10000"
+        },
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "328260363/1000000",
+          "y": "3899167/10000"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 2,
+          "column": 1,
+          "x": "1623007/5000",
+          "y": "395891007/1000000"
+        },
+        {
+          "symbol": "#glyph-7-7",
+          "digit": 1,
+          "row": 3,
+          "column": 1,
+          "x": "1623007/5000",
+          "y": "200932657/500000"
+        },
+        {
+          "symbol": "#glyph-7-3",
+          "digit": 7,
+          "row": 3,
+          "column": 2,
+          "x": "328260363/1000000",
+          "y": "200932657/500000"
+        }
+      ],
+      "box": [
+        "323105469/1000000",
+        "48071289/125000",
+        "166699219/500000",
+        "403363281/1000000"
+      ]
+    },
+    {
+      "node": 25,
+      "level": 4,
+      "creation_level": 4,
+      "complete_prefix": 4,
+      "matrix": [
+        [
+          0,
+          9
+        ],
+        [
+          8,
+          -1
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "parent": 13,
+      "children": [],
+      "induced_edges": [
+        {
+          "ends": [
+            0,
+            1
+          ],
+          "labels": [
+            0,
+            9
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            0,
+            2
+          ],
+          "labels": [
+            0,
+            8
+          ],
+          "difference": 8
+        },
+        {
+          "ends": [
+            0,
+            4
+          ],
+          "labels": [
+            0,
+            1
+          ],
+          "difference": 1
+        },
+        {
+          "ends": [
+            1,
+            5
+          ],
+          "labels": [
+            9,
+            3
+          ],
+          "difference": 6
+        },
+        {
+          "ends": [
+            2,
+            4
+          ],
+          "labels": [
+            8,
+            1
+          ],
+          "difference": 7
+        },
+        {
+          "ends": [
+            4,
+            5
+          ],
+          "labels": [
+            1,
+            3
+          ],
+          "difference": 2
+        }
+      ],
+      "next_difference": 5,
+      "exhaustive_children": [],
+      "rejected_placements": {
+        "endpoints not adjacent distinct vertices": 4,
+        "repeated induced difference": 1
+      },
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 1,
+          "column": 1,
+          "x": "3395973/10000",
+          "y": "3899167/10000"
+        },
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "343256263/1000000",
+          "y": "3899167/10000"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 2,
+          "column": 1,
+          "x": "3395973/10000",
+          "y": "395891007/1000000"
+        },
+        {
+          "symbol": "#glyph-7-7",
+          "digit": 1,
+          "row": 3,
+          "column": 1,
+          "x": "3395973/10000",
+          "y": "200932657/500000"
+        },
+        {
+          "symbol": "#glyph-7-6",
+          "digit": 3,
+          "row": 3,
+          "column": 2,
+          "x": "343256263/1000000",
+          "y": "200932657/500000"
+        }
+      ],
+      "box": [
+        "169050781/500000",
+        "48071289/125000",
+        "348394531/1000000",
+        "403363281/1000000"
+      ]
+    },
+    {
+      "node": 26,
+      "level": 4,
+      "creation_level": 4,
+      "complete_prefix": 4,
+      "matrix": [
+        [
+          0,
+          9
+        ],
+        [
+          8,
+          -1
+        ],
+        [
+          6,
+          2
+        ]
+      ],
+      "parent": 14,
+      "children": [],
+      "induced_edges": [
+        {
+          "ends": [
+            0,
+            1
+          ],
+          "labels": [
+            0,
+            9
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            0,
+            2
+          ],
+          "labels": [
+            0,
+            8
+          ],
+          "difference": 8
+        },
+        {
+          "ends": [
+            0,
+            4
+          ],
+          "labels": [
+            0,
+            6
+          ],
+          "difference": 6
+        },
+        {
+          "ends": [
+            1,
+            5
+          ],
+          "labels": [
+            9,
+            2
+          ],
+          "difference": 7
+        },
+        {
+          "ends": [
+            2,
+            4
+          ],
+          "labels": [
+            8,
+            6
+          ],
+          "difference": 2
+        },
+        {
+          "ends": [
+            4,
+            5
+          ],
+          "labels": [
+            6,
+            2
+          ],
+          "difference": 4
+        }
+      ],
+      "next_difference": 5,
+      "exhaustive_children": [],
+      "rejected_placements": {
+        "endpoints not adjacent distinct vertices": 2,
+        "repeated induced difference": 3
+      },
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 1,
+          "column": 1,
+          "x": "3595917/10000",
+          "y": "3899167/10000"
+        },
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "363250663/1000000",
+          "y": "3899167/10000"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 2,
+          "column": 1,
+          "x": "3595917/10000",
+          "y": "395891007/1000000"
+        },
+        {
+          "symbol": "#glyph-7-8",
+          "digit": 6,
+          "row": 3,
+          "column": 1,
+          "x": "3595917/10000",
+          "y": "200932657/500000"
+        },
+        {
+          "symbol": "#glyph-7-4",
+          "digit": 2,
+          "row": 3,
+          "column": 2,
+          "x": "363250663/1000000",
+          "y": "200932657/500000"
+        }
+      ],
+      "box": [
+        "44762207/125000",
+        "48071289/125000",
+        "23577/64",
+        "403363281/1000000"
+      ]
+    },
+    {
+      "node": 27,
+      "level": 4,
+      "creation_level": 3,
+      "complete_prefix": 4,
+      "matrix": [
+        [
+          0,
+          9
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          -1,
+          -1
+        ]
+      ],
+      "parent": 5,
+      "children": [
+        39,
+        40,
+        41,
+        42
+      ],
+      "induced_edges": [
+        {
+          "ends": [
+            0,
+            1
+          ],
+          "labels": [
+            0,
+            9
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            0,
+            2
+          ],
+          "labels": [
+            0,
+            8
+          ],
+          "difference": 8
+        },
+        {
+          "ends": [
+            1,
+            3
+          ],
+          "labels": [
+            9,
+            2
+          ],
+          "difference": 7
+        },
+        {
+          "ends": [
+            2,
+            3
+          ],
+          "labels": [
+            8,
+            2
+          ],
+          "difference": 6
+        }
+      ],
+      "next_difference": 5,
+      "exhaustive_children": [
+        {
+          "canonical_state": [
+            -1,
+            3,
+            2,
+            8,
+            9,
+            0
+          ],
+          "placements": [
+            {
+              "lower": 3,
+              "upper": 8,
+              "positions": [
+                4,
+                2
+              ],
+              "new_labels": [
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "canonical_state": [
+            -1,
+            4,
+            0,
+            9,
+            8,
+            2
+          ],
+          "placements": [
+            {
+              "lower": 4,
+              "upper": 9,
+              "positions": [
+                5,
+                1
+              ],
+              "new_labels": [
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "canonical_state": [
+            -1,
+            5,
+            2,
+            8,
+            9,
+            0
+          ],
+          "placements": [
+            {
+              "lower": 0,
+              "upper": 5,
+              "positions": [
+                0,
+                4
+              ],
+              "new_labels": [
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "canonical_state": [
+            -1,
+            7,
+            0,
+            9,
+            8,
+            2
+          ],
+          "placements": [
+            {
+              "lower": 2,
+              "upper": 7,
+              "positions": [
+                3,
+                5
+              ],
+              "new_labels": [
+                7
+              ]
+            }
+          ]
+        }
+      ],
+      "rejected_placements": {
+        "endpoints not adjacent distinct vertices": 6,
+        "repeated induced difference": 2
+      },
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 1,
+          "column": 1,
+          "x": "814157/2000",
+          "y": "3899167/10000"
+        },
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "410737463/1000000",
+          "y": "3899167/10000"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 2,
+          "column": 1,
+          "x": "814157/2000",
+          "y": "395891007/1000000"
+        },
+        {
+          "symbol": "#glyph-7-4",
+          "digit": 2,
+          "row": 2,
+          "column": 2,
+          "x": "410737463/1000000",
+          "y": "395891007/1000000"
+        }
+      ],
+      "box": [
+        "202792969/500000",
+        "48071289/125000",
+        "3327/8",
+        "403363281/1000000"
+      ]
+    },
+    {
+      "node": 28,
+      "level": 5,
+      "creation_level": 4,
+      "complete_prefix": 5,
+      "matrix": [
+        [
+          -1,
+          9
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          2,
+          8
+        ]
+      ],
+      "parent": 6,
+      "children": [
+        45
+      ],
+      "induced_edges": [
+        {
+          "ends": [
+            1,
+            3
+          ],
+          "labels": [
+            9,
+            0
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            1,
+            5
+          ],
+          "labels": [
+            9,
+            8
+          ],
+          "difference": 1
+        },
+        {
+          "ends": [
+            2,
+            3
+          ],
+          "labels": [
+            7,
+            0
+          ],
+          "difference": 7
+        },
+        {
+          "ends": [
+            2,
+            4
+          ],
+          "labels": [
+            7,
+            2
+          ],
+          "difference": 5
+        },
+        {
+          "ends": [
+            3,
+            5
+          ],
+          "labels": [
+            0,
+            8
+          ],
+          "difference": 8
+        },
+        {
+          "ends": [
+            4,
+            5
+          ],
+          "labels": [
+            2,
+            8
+          ],
+          "difference": 6
+        }
+      ],
+      "next_difference": 4,
+      "exhaustive_children": [
+        {
+          "canonical_state": [
+            0,
+            7,
+            8,
+            2,
+            9,
+            5
+          ],
+          "placements": [
+            {
+              "lower": 5,
+              "upper": 9,
+              "positions": [
+                0,
+                1
+              ],
+              "new_labels": [
+                5
+              ]
+            }
+          ]
+        }
+      ],
+      "rejected_placements": {
+        "endpoints not adjacent distinct vertices": 3,
+        "repeated induced difference": 2
+      },
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "516579/5000",
+          "y": "1042273/2500"
+        },
+        {
+          "symbol": "#glyph-7-3",
+          "digit": 7,
+          "row": 2,
+          "column": 1,
+          "x": "19932567/200000",
+          "y": "422883507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 2,
+          "column": 2,
+          "x": "51660899/500000",
+          "y": "422883507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-4",
+          "digit": 2,
+          "row": 3,
+          "column": 1,
+          "x": "19932567/200000",
+          "y": "214428907/500000"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 3,
+          "column": 2,
+          "x": "51660899/500000",
+          "y": "214428907/500000"
+        }
+      ],
+      "box": [
+        "6283/64",
+        "6585/16",
+        "54230469/500000",
+        "430355469/1000000"
+      ]
+    },
+    {
+      "node": 29,
+      "level": 5,
+      "creation_level": 4,
+      "complete_prefix": 5,
+      "matrix": [
+        [
+          -1,
+          9
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          1,
+          8
+        ]
+      ],
+      "parent": 7,
+      "children": [],
+      "induced_edges": [
+        {
+          "ends": [
+            1,
+            3
+          ],
+          "labels": [
+            9,
+            0
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            1,
+            5
+          ],
+          "labels": [
+            9,
+            8
+          ],
+          "difference": 1
+        },
+        {
+          "ends": [
+            2,
+            3
+          ],
+          "labels": [
+            6,
+            0
+          ],
+          "difference": 6
+        },
+        {
+          "ends": [
+            2,
+            4
+          ],
+          "labels": [
+            6,
+            1
+          ],
+          "difference": 5
+        },
+        {
+          "ends": [
+            3,
+            5
+          ],
+          "labels": [
+            0,
+            8
+          ],
+          "difference": 8
+        },
+        {
+          "ends": [
+            4,
+            5
+          ],
+          "labels": [
+            1,
+            8
+          ],
+          "difference": 7
+        }
+      ],
+      "next_difference": 4,
+      "exhaustive_children": [],
+      "rejected_placements": {
+        "endpoints not adjacent distinct vertices": 3,
+        "repeated induced difference": 3
+      },
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "616551/5000",
+          "y": "1042273/2500"
+        },
+        {
+          "symbol": "#glyph-7-8",
+          "digit": 6,
+          "row": 2,
+          "column": 1,
+          "x": "23931447/200000",
+          "y": "422883507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 2,
+          "column": 2,
+          "x": "61658099/500000",
+          "y": "422883507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-7",
+          "digit": 1,
+          "row": 3,
+          "column": 1,
+          "x": "23931447/200000",
+          "y": "214428907/500000"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 3,
+          "column": 2,
+          "x": "61658099/500000",
+          "y": "214428907/500000"
+        }
+      ],
+      "box": [
+        "59082031/500000",
+        "6585/16",
+        "128457031/1000000",
+        "430355469/1000000"
+      ]
+    },
+    {
+      "node": 30,
+      "level": 5,
+      "creation_level": 4,
+      "complete_prefix": 5,
+      "matrix": [
+        [
+          -1,
+          9
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          2,
+          7
+        ]
+      ],
+      "parent": 9,
+      "children": [],
+      "induced_edges": [
+        {
+          "ends": [
+            1,
+            3
+          ],
+          "labels": [
+            9,
+            0
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            1,
+            5
+          ],
+          "labels": [
+            9,
+            7
+          ],
+          "difference": 2
+        },
+        {
+          "ends": [
+            2,
+            3
+          ],
+          "labels": [
+            8,
+            0
+          ],
+          "difference": 8
+        },
+        {
+          "ends": [
+            2,
+            4
+          ],
+          "labels": [
+            8,
+            2
+          ],
+          "difference": 6
+        },
+        {
+          "ends": [
+            3,
+            5
+          ],
+          "labels": [
+            0,
+            7
+          ],
+          "difference": 7
+        },
+        {
+          "ends": [
+            4,
+            5
+          ],
+          "labels": [
+            2,
+            7
+          ],
+          "difference": 5
+        }
+      ],
+      "next_difference": 4,
+      "exhaustive_children": [],
+      "rejected_placements": {
+        "endpoints not adjacent distinct vertices": 3,
+        "repeated induced difference": 3
+      },
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "1732963/10000",
+          "y": "1042273/2500"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 2,
+          "column": 1,
+          "x": "33928667/200000",
+          "y": "422883507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 2,
+          "column": 2,
+          "x": "86651149/500000",
+          "y": "422883507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-4",
+          "digit": 2,
+          "row": 3,
+          "column": 1,
+          "x": "33928667/200000",
+          "y": "214428907/500000"
+        },
+        {
+          "symbol": "#glyph-7-3",
+          "digit": 7,
+          "row": 3,
+          "column": 2,
+          "x": "86651149/500000",
+          "y": "214428907/500000"
+        }
+      ],
+      "box": [
+        "84074219/500000",
+        "6585/16",
+        "89220703/500000",
+        "430355469/1000000"
+      ]
+    },
+    {
+      "node": 31,
+      "level": 5,
+      "creation_level": 4,
+      "complete_prefix": 5,
+      "matrix": [
+        [
+          -1,
+          9
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "parent": 10,
+      "children": [],
+      "induced_edges": [
+        {
+          "ends": [
+            1,
+            3
+          ],
+          "labels": [
+            9,
+            0
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            1,
+            5
+          ],
+          "labels": [
+            9,
+            6
+          ],
+          "difference": 3
+        },
+        {
+          "ends": [
+            2,
+            3
+          ],
+          "labels": [
+            8,
+            0
+          ],
+          "difference": 8
+        },
+        {
+          "ends": [
+            2,
+            4
+          ],
+          "labels": [
+            8,
+            1
+          ],
+          "difference": 7
+        },
+        {
+          "ends": [
+            3,
+            5
+          ],
+          "labels": [
+            0,
+            6
+          ],
+          "difference": 6
+        },
+        {
+          "ends": [
+            4,
+            5
+          ],
+          "labels": [
+            1,
+            6
+          ],
+          "difference": 5
+        }
+      ],
+      "next_difference": 4,
+      "exhaustive_children": [],
+      "rejected_placements": {
+        "endpoints not adjacent distinct vertices": 3,
+        "repeated induced difference": 3
+      },
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "25411/125",
+          "y": "1042273/2500"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 2,
+          "column": 1,
+          "x": "39927007/200000",
+          "y": "422883507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 2,
+          "column": 2,
+          "x": "101646999/500000",
+          "y": "422883507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-7",
+          "digit": 1,
+          "row": 3,
+          "column": 1,
+          "x": "39927007/200000",
+          "y": "214428907/500000"
+        },
+        {
+          "symbol": "#glyph-7-8",
+          "digit": 6,
+          "row": 3,
+          "column": 2,
+          "x": "101646999/500000",
+          "y": "214428907/500000"
+        }
+      ],
+      "box": [
+        "12681/64",
+        "6585/16",
+        "104216797/500000",
+        "430355469/1000000"
+      ]
+    },
+    {
+      "node": 32,
+      "level": 5,
+      "creation_level": 4,
+      "complete_prefix": 5,
+      "matrix": [
+        [
+          3,
+          9
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      "parent": 10,
+      "children": [],
+      "induced_edges": [
+        {
+          "ends": [
+            0,
+            1
+          ],
+          "labels": [
+            3,
+            9
+          ],
+          "difference": 6
+        },
+        {
+          "ends": [
+            0,
+            2
+          ],
+          "labels": [
+            3,
+            8
+          ],
+          "difference": 5
+        },
+        {
+          "ends": [
+            0,
+            4
+          ],
+          "labels": [
+            3,
+            1
+          ],
+          "difference": 2
+        },
+        {
+          "ends": [
+            1,
+            3
+          ],
+          "labels": [
+            9,
+            0
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            2,
+            3
+          ],
+          "labels": [
+            8,
+            0
+          ],
+          "difference": 8
+        },
+        {
+          "ends": [
+            2,
+            4
+          ],
+          "labels": [
+            8,
+            1
+          ],
+          "difference": 7
+        }
+      ],
+      "next_difference": 4,
+      "exhaustive_children": [],
+      "rejected_placements": {
+        "repeated induced difference": 3,
+        "endpoints not adjacent distinct vertices": 3
+      },
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-6",
+          "digit": 3,
+          "row": 1,
+          "column": 1,
+          "x": "293283/1250",
+          "y": "1042273/2500"
+        },
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "238285363/1000000",
+          "y": "1042273/2500"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 2,
+          "column": 1,
+          "x": "293283/1250",
+          "y": "422883507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 2,
+          "column": 2,
+          "x": "238285363/1000000",
+          "y": "422883507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-7",
+          "digit": 1,
+          "row": 3,
+          "column": 1,
+          "x": "293283/1250",
+          "y": "214428907/500000"
+        }
+      ],
+      "box": [
+        "58283203/250000",
+        "6585/16",
+        "243425781/1000000",
+        "430355469/1000000"
+      ]
+    },
+    {
+      "node": 33,
+      "level": 5,
+      "creation_level": 4,
+      "complete_prefix": 5,
+      "matrix": [
+        [
+          3,
+          9
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          -1,
+          2
+        ]
+      ],
+      "parent": 11,
+      "children": [],
+      "induced_edges": [
+        {
+          "ends": [
+            0,
+            1
+          ],
+          "labels": [
+            3,
+            9
+          ],
+          "difference": 6
+        },
+        {
+          "ends": [
+            0,
+            2
+          ],
+          "labels": [
+            3,
+            8
+          ],
+          "difference": 5
+        },
+        {
+          "ends": [
+            1,
+            3
+          ],
+          "labels": [
+            9,
+            0
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            1,
+            5
+          ],
+          "labels": [
+            9,
+            2
+          ],
+          "difference": 7
+        },
+        {
+          "ends": [
+            2,
+            3
+          ],
+          "labels": [
+            8,
+            0
+          ],
+          "difference": 8
+        },
+        {
+          "ends": [
+            3,
+            5
+          ],
+          "labels": [
+            0,
+            2
+          ],
+          "difference": 2
+        }
+      ],
+      "next_difference": 4,
+      "exhaustive_children": [],
+      "rejected_placements": {
+        "endpoints not adjacent distinct vertices": 3,
+        "repeated induced difference": 3
+      },
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-6",
+          "digit": 3,
+          "row": 1,
+          "column": 1,
+          "x": "2496223/10000",
+          "y": "1042273/2500"
+        },
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "253281263/1000000",
+          "y": "1042273/2500"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 2,
+          "column": 1,
+          "x": "2496223/10000",
+          "y": "422883507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 2,
+          "column": 2,
+          "x": "253281263/1000000",
+          "y": "422883507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-4",
+          "digit": 2,
+          "row": 3,
+          "column": 2,
+          "x": "50655053/200000",
+          "y": "214428907/500000"
+        }
+      ],
+      "box": [
+        "124064453/500000",
+        "6585/16",
+        "16539/64",
+        "430355469/1000000"
+      ]
+    },
+    {
+      "node": 34,
+      "level": 5,
+      "creation_level": 5,
+      "complete_prefix": 5,
+      "matrix": [
+        [
+          2,
+          9
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          7,
+          -1
+        ]
+      ],
+      "parent": 22,
+      "children": [],
+      "induced_edges": [
+        {
+          "ends": [
+            0,
+            1
+          ],
+          "labels": [
+            2,
+            9
+          ],
+          "difference": 7
+        },
+        {
+          "ends": [
+            0,
+            2
+          ],
+          "labels": [
+            2,
+            8
+          ],
+          "difference": 6
+        },
+        {
+          "ends": [
+            0,
+            4
+          ],
+          "labels": [
+            2,
+            7
+          ],
+          "difference": 5
+        },
+        {
+          "ends": [
+            1,
+            3
+          ],
+          "labels": [
+            9,
+            0
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            2,
+            3
+          ],
+          "labels": [
+            8,
+            0
+          ],
+          "difference": 8
+        },
+        {
+          "ends": [
+            2,
+            4
+          ],
+          "labels": [
+            8,
+            7
+          ],
+          "difference": 1
+        }
+      ],
+      "next_difference": 4,
+      "exhaustive_children": [],
+      "rejected_placements": {
+        "repeated induced difference": 3,
+        "endpoints not adjacent distinct vertices": 3
+      },
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-4",
+          "digit": 2,
+          "row": 1,
+          "column": 1,
+          "x": "2696167/10000",
+          "y": "1042273/2500"
+        },
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "273275663/1000000",
+          "y": "1042273/2500"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 2,
+          "column": 1,
+          "x": "2696167/10000",
+          "y": "422883507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 2,
+          "column": 2,
+          "x": "273275663/1000000",
+          "y": "422883507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-3",
+          "digit": 7,
+          "row": 3,
+          "column": 1,
+          "x": "2696167/10000",
+          "y": "214428907/500000"
+        }
+      ],
+      "box": [
+        "134060547/500000",
+        "6585/16",
+        "139207031/500000",
+        "430355469/1000000"
+      ]
+    },
+    {
+      "node": 35,
+      "level": 5,
+      "creation_level": 5,
+      "complete_prefix": 5,
+      "matrix": [
+        [
+          2,
+          9
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          3,
+          -1
+        ]
+      ],
+      "parent": 22,
+      "children": [],
+      "induced_edges": [
+        {
+          "ends": [
+            0,
+            1
+          ],
+          "labels": [
+            2,
+            9
+          ],
+          "difference": 7
+        },
+        {
+          "ends": [
+            0,
+            2
+          ],
+          "labels": [
+            2,
+            8
+          ],
+          "difference": 6
+        },
+        {
+          "ends": [
+            0,
+            4
+          ],
+          "labels": [
+            2,
+            3
+          ],
+          "difference": 1
+        },
+        {
+          "ends": [
+            1,
+            3
+          ],
+          "labels": [
+            9,
+            0
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            2,
+            3
+          ],
+          "labels": [
+            8,
+            0
+          ],
+          "difference": 8
+        },
+        {
+          "ends": [
+            2,
+            4
+          ],
+          "labels": [
+            8,
+            3
+          ],
+          "difference": 5
+        }
+      ],
+      "next_difference": 4,
+      "exhaustive_children": [],
+      "rejected_placements": {
+        "repeated induced difference": 3,
+        "endpoints not adjacent distinct vertices": 3
+      },
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-4",
+          "digit": 2,
+          "row": 1,
+          "column": 1,
+          "x": "22769/80",
+          "y": "1042273/2500"
+        },
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "288271463/1000000",
+          "y": "1042273/2500"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 2,
+          "column": 1,
+          "x": "22769/80",
+          "y": "422883507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 2,
+          "column": 2,
+          "x": "288271463/1000000",
+          "y": "422883507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-6",
+          "digit": 3,
+          "row": 3,
+          "column": 1,
+          "x": "22769/80",
+          "y": "214428907/500000"
+        }
+      ],
+      "box": [
+        "70779297/250000",
+        "6585/16",
+        "73352539/250000",
+        "430355469/1000000"
+      ]
+    },
+    {
+      "node": 36,
+      "level": 5,
+      "creation_level": 4,
+      "complete_prefix": 5,
+      "matrix": [
+        [
+          0,
+          9
+        ],
+        [
+          8,
+          3
+        ],
+        [
+          7,
+          -1
+        ]
+      ],
+      "parent": 12,
+      "children": [],
+      "induced_edges": [
+        {
+          "ends": [
+            0,
+            1
+          ],
+          "labels": [
+            0,
+            9
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            0,
+            2
+          ],
+          "labels": [
+            0,
+            8
+          ],
+          "difference": 8
+        },
+        {
+          "ends": [
+            0,
+            4
+          ],
+          "labels": [
+            0,
+            7
+          ],
+          "difference": 7
+        },
+        {
+          "ends": [
+            1,
+            3
+          ],
+          "labels": [
+            9,
+            3
+          ],
+          "difference": 6
+        },
+        {
+          "ends": [
+            2,
+            3
+          ],
+          "labels": [
+            8,
+            3
+          ],
+          "difference": 5
+        },
+        {
+          "ends": [
+            2,
+            4
+          ],
+          "labels": [
+            8,
+            7
+          ],
+          "difference": 1
+        }
+      ],
+      "next_difference": 4,
+      "exhaustive_children": [],
+      "rejected_placements": {
+        "endpoints not adjacent distinct vertices": 5,
+        "repeated induced difference": 1
+      },
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 1,
+          "column": 1,
+          "x": "1573021/5000",
+          "y": "1042273/2500"
+        },
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "318263163/1000000",
+          "y": "1042273/2500"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 2,
+          "column": 1,
+          "x": "1573021/5000",
+          "y": "422883507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-6",
+          "digit": 3,
+          "row": 2,
+          "column": 2,
+          "x": "318263163/1000000",
+          "y": "422883507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-3",
+          "digit": 7,
+          "row": 3,
+          "column": 1,
+          "x": "1573021/5000",
+          "y": "214428907/500000"
+        }
+      ],
+      "box": [
+        "20039/64",
+        "6585/16",
+        "40425293/125000",
+        "430355469/1000000"
+      ]
+    },
+    {
+      "node": 37,
+      "level": 5,
+      "creation_level": 4,
+      "complete_prefix": 5,
+      "matrix": [
+        [
+          0,
+          9
+        ],
+        [
+          8,
+          3
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      "parent": 13,
+      "children": [],
+      "induced_edges": [
+        {
+          "ends": [
+            0,
+            1
+          ],
+          "labels": [
+            0,
+            9
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            0,
+            2
+          ],
+          "labels": [
+            0,
+            8
+          ],
+          "difference": 8
+        },
+        {
+          "ends": [
+            0,
+            4
+          ],
+          "labels": [
+            0,
+            1
+          ],
+          "difference": 1
+        },
+        {
+          "ends": [
+            1,
+            3
+          ],
+          "labels": [
+            9,
+            3
+          ],
+          "difference": 6
+        },
+        {
+          "ends": [
+            2,
+            3
+          ],
+          "labels": [
+            8,
+            3
+          ],
+          "difference": 5
+        },
+        {
+          "ends": [
+            2,
+            4
+          ],
+          "labels": [
+            8,
+            1
+          ],
+          "difference": 7
+        }
+      ],
+      "next_difference": 4,
+      "exhaustive_children": [],
+      "rejected_placements": {
+        "endpoints not adjacent distinct vertices": 3,
+        "repeated induced difference": 3
+      },
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 1,
+          "column": 1,
+          "x": "699189/2000",
+          "y": "1042273/2500"
+        },
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "353253463/1000000",
+          "y": "1042273/2500"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 2,
+          "column": 1,
+          "x": "699189/2000",
+          "y": "422883507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-6",
+          "digit": 3,
+          "row": 2,
+          "column": 2,
+          "x": "353253463/1000000",
+          "y": "422883507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-7",
+          "digit": 1,
+          "row": 3,
+          "column": 1,
+          "x": "699189/2000",
+          "y": "214428907/500000"
+        }
+      ],
+      "box": [
+        "174050781/500000",
+        "6585/16",
+        "22937/64",
+        "430355469/1000000"
+      ]
+    },
+    {
+      "node": 38,
+      "level": 5,
+      "creation_level": 4,
+      "complete_prefix": 5,
+      "matrix": [
+        [
+          0,
+          9
+        ],
+        [
+          8,
+          3
+        ],
+        [
+          -1,
+          2
+        ]
+      ],
+      "parent": 14,
+      "children": [],
+      "induced_edges": [
+        {
+          "ends": [
+            0,
+            1
+          ],
+          "labels": [
+            0,
+            9
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            0,
+            2
+          ],
+          "labels": [
+            0,
+            8
+          ],
+          "difference": 8
+        },
+        {
+          "ends": [
+            1,
+            3
+          ],
+          "labels": [
+            9,
+            3
+          ],
+          "difference": 6
+        },
+        {
+          "ends": [
+            1,
+            5
+          ],
+          "labels": [
+            9,
+            2
+          ],
+          "difference": 7
+        },
+        {
+          "ends": [
+            2,
+            3
+          ],
+          "labels": [
+            8,
+            3
+          ],
+          "difference": 5
+        },
+        {
+          "ends": [
+            3,
+            5
+          ],
+          "labels": [
+            3,
+            2
+          ],
+          "difference": 1
+        }
+      ],
+      "next_difference": 4,
+      "exhaustive_children": [],
+      "rejected_placements": {
+        "repeated induced difference": 3,
+        "endpoints not adjacent distinct vertices": 3
+      },
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 1,
+          "column": 1,
+          "x": "3695889/10000",
+          "y": "1042273/2500"
+        },
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "373247863/1000000",
+          "y": "1042273/2500"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 2,
+          "column": 1,
+          "x": "3695889/10000",
+          "y": "422883507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-6",
+          "digit": 3,
+          "row": 2,
+          "column": 2,
+          "x": "373247863/1000000",
+          "y": "422883507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-4",
+          "digit": 2,
+          "row": 3,
+          "column": 2,
+          "x": "74648373/200000",
+          "y": "214428907/500000"
+        }
+      ],
+      "box": [
+        "11779/32",
+        "6585/16",
+        "378386719/1000000",
+        "430355469/1000000"
+      ]
+    },
+    {
+      "node": 39,
+      "level": 5,
+      "creation_level": 5,
+      "complete_prefix": 5,
+      "matrix": [
+        [
+          0,
+          9
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          5,
+          -1
+        ]
+      ],
+      "parent": 27,
+      "children": [],
+      "induced_edges": [
+        {
+          "ends": [
+            0,
+            1
+          ],
+          "labels": [
+            0,
+            9
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            0,
+            2
+          ],
+          "labels": [
+            0,
+            8
+          ],
+          "difference": 8
+        },
+        {
+          "ends": [
+            0,
+            4
+          ],
+          "labels": [
+            0,
+            5
+          ],
+          "difference": 5
+        },
+        {
+          "ends": [
+            1,
+            3
+          ],
+          "labels": [
+            9,
+            2
+          ],
+          "difference": 7
+        },
+        {
+          "ends": [
+            2,
+            3
+          ],
+          "labels": [
+            8,
+            2
+          ],
+          "difference": 6
+        },
+        {
+          "ends": [
+            2,
+            4
+          ],
+          "labels": [
+            8,
+            5
+          ],
+          "difference": 3
+        }
+      ],
+      "next_difference": 4,
+      "exhaustive_children": [],
+      "rejected_placements": {
+        "endpoints not adjacent distinct vertices": 4,
+        "repeated induced difference": 2
+      },
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 1,
+          "column": 1,
+          "x": "480731/1250",
+          "y": "1042273/2500"
+        },
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "388243763/1000000",
+          "y": "1042273/2500"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 2,
+          "column": 1,
+          "x": "480731/1250",
+          "y": "422883507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-4",
+          "digit": 2,
+          "row": 2,
+          "column": 2,
+          "x": "388243763/1000000",
+          "y": "422883507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-5",
+          "digit": 5,
+          "row": 3,
+          "column": 1,
+          "x": "480731/1250",
+          "y": "214428907/500000"
+        }
+      ],
+      "box": [
+        "95772461/250000",
+        "6585/16",
+        "98345703/250000",
+        "430355469/1000000"
+      ]
+    },
+    {
+      "node": 40,
+      "level": 5,
+      "creation_level": 5,
+      "complete_prefix": 5,
+      "matrix": [
+        [
+          0,
+          9
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          -1,
+          7
+        ]
+      ],
+      "parent": 27,
+      "children": [],
+      "induced_edges": [
+        {
+          "ends": [
+            0,
+            1
+          ],
+          "labels": [
+            0,
+            9
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            0,
+            2
+          ],
+          "labels": [
+            0,
+            8
+          ],
+          "difference": 8
+        },
+        {
+          "ends": [
+            1,
+            3
+          ],
+          "labels": [
+            9,
+            2
+          ],
+          "difference": 7
+        },
+        {
+          "ends": [
+            1,
+            5
+          ],
+          "labels": [
+            9,
+            7
+          ],
+          "difference": 2
+        },
+        {
+          "ends": [
+            2,
+            3
+          ],
+          "labels": [
+            8,
+            2
+          ],
+          "difference": 6
+        },
+        {
+          "ends": [
+            3,
+            5
+          ],
+          "labels": [
+            2,
+            7
+          ],
+          "difference": 5
+        }
+      ],
+      "next_difference": 4,
+      "exhaustive_children": [],
+      "rejected_placements": {
+        "repeated induced difference": 3,
+        "endpoints not adjacent distinct vertices": 3
+      },
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 1,
+          "column": 1,
+          "x": "1997903/5000",
+          "y": "1042273/2500"
+        },
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "403239563/1000000",
+          "y": "1042273/2500"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 2,
+          "column": 1,
+          "x": "1997903/5000",
+          "y": "422883507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-4",
+          "digit": 2,
+          "row": 2,
+          "column": 2,
+          "x": "403239563/1000000",
+          "y": "422883507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-3",
+          "digit": 7,
+          "row": 3,
+          "column": 2,
+          "x": "80646713/200000",
+          "y": "214428907/500000"
+        }
+      ],
+      "box": [
+        "199042969/500000",
+        "6585/16",
+        "204189453/500000",
+        "430355469/1000000"
+      ]
+    },
+    {
+      "node": 41,
+      "level": 5,
+      "creation_level": 5,
+      "complete_prefix": 5,
+      "matrix": [
+        [
+          0,
+          9
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          3,
+          -1
+        ]
+      ],
+      "parent": 27,
+      "children": [],
+      "induced_edges": [
+        {
+          "ends": [
+            0,
+            1
+          ],
+          "labels": [
+            0,
+            9
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            0,
+            2
+          ],
+          "labels": [
+            0,
+            8
+          ],
+          "difference": 8
+        },
+        {
+          "ends": [
+            0,
+            4
+          ],
+          "labels": [
+            0,
+            3
+          ],
+          "difference": 3
+        },
+        {
+          "ends": [
+            1,
+            3
+          ],
+          "labels": [
+            9,
+            2
+          ],
+          "difference": 7
+        },
+        {
+          "ends": [
+            2,
+            3
+          ],
+          "labels": [
+            8,
+            2
+          ],
+          "difference": 6
+        },
+        {
+          "ends": [
+            2,
+            4
+          ],
+          "labels": [
+            8,
+            3
+          ],
+          "difference": 5
+        }
+      ],
+      "next_difference": 4,
+      "exhaustive_children": [],
+      "rejected_placements": {
+        "endpoints not adjacent distinct vertices": 3,
+        "repeated induced difference": 3
+      },
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 1,
+          "column": 1,
+          "x": "1036441/2500",
+          "y": "1042273/2500"
+        },
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "418235363/1000000",
+          "y": "1042273/2500"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 2,
+          "column": 1,
+          "x": "1036441/2500",
+          "y": "422883507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-4",
+          "digit": 2,
+          "row": 2,
+          "column": 2,
+          "x": "418235363/1000000",
+          "y": "422883507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-6",
+          "digit": 3,
+          "row": 3,
+          "column": 1,
+          "x": "1036441/2500",
+          "y": "214428907/500000"
+        }
+      ],
+      "box": [
+        "413082031/1000000",
+        "6585/16",
+        "3387/8",
+        "430355469/1000000"
+      ]
+    },
+    {
+      "node": 42,
+      "level": 5,
+      "creation_level": 5,
+      "complete_prefix": 5,
+      "matrix": [
+        [
+          0,
+          9
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          -1,
+          4
+        ]
+      ],
+      "parent": 27,
+      "children": [],
+      "induced_edges": [
+        {
+          "ends": [
+            0,
+            1
+          ],
+          "labels": [
+            0,
+            9
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            0,
+            2
+          ],
+          "labels": [
+            0,
+            8
+          ],
+          "difference": 8
+        },
+        {
+          "ends": [
+            1,
+            3
+          ],
+          "labels": [
+            9,
+            2
+          ],
+          "difference": 7
+        },
+        {
+          "ends": [
+            1,
+            5
+          ],
+          "labels": [
+            9,
+            4
+          ],
+          "difference": 5
+        },
+        {
+          "ends": [
+            2,
+            3
+          ],
+          "labels": [
+            8,
+            2
+          ],
+          "difference": 6
+        },
+        {
+          "ends": [
+            3,
+            5
+          ],
+          "labels": [
+            2,
+            4
+          ],
+          "difference": 2
+        }
+      ],
+      "next_difference": 4,
+      "exhaustive_children": [],
+      "rejected_placements": {
+        "endpoints not adjacent distinct vertices": 6
+      },
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 1,
+          "column": 1,
+          "x": "4295723/10000",
+          "y": "1042273/2500"
+        },
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "433231263/1000000",
+          "y": "1042273/2500"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 2,
+          "column": 1,
+          "x": "4295723/10000",
+          "y": "422883507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-4",
+          "digit": 2,
+          "row": 2,
+          "column": 2,
+          "x": "433231263/1000000",
+          "y": "422883507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-9",
+          "digit": 4,
+          "row": 3,
+          "column": 2,
+          "x": "86645053/200000",
+          "y": "214428907/500000"
+        }
+      ],
+      "box": [
+        "27397/64",
+        "6585/16",
+        "219185547/500000",
+        "430355469/1000000"
+      ]
+    },
+    {
+      "node": 43,
+      "level": 6,
+      "creation_level": 5,
+      "complete_prefix": 6,
+      "matrix": [
+        [
+          2,
+          9
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          -1,
+          5
+        ]
+      ],
+      "parent": 22,
+      "children": [],
+      "induced_edges": [
+        {
+          "ends": [
+            0,
+            1
+          ],
+          "labels": [
+            2,
+            9
+          ],
+          "difference": 7
+        },
+        {
+          "ends": [
+            0,
+            2
+          ],
+          "labels": [
+            2,
+            8
+          ],
+          "difference": 6
+        },
+        {
+          "ends": [
+            1,
+            3
+          ],
+          "labels": [
+            9,
+            0
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            1,
+            5
+          ],
+          "labels": [
+            9,
+            5
+          ],
+          "difference": 4
+        },
+        {
+          "ends": [
+            2,
+            3
+          ],
+          "labels": [
+            8,
+            0
+          ],
+          "difference": 8
+        },
+        {
+          "ends": [
+            3,
+            5
+          ],
+          "labels": [
+            0,
+            5
+          ],
+          "difference": 5
+        }
+      ],
+      "next_difference": 3,
+      "exhaustive_children": [],
+      "rejected_placements": {
+        "endpoints not adjacent distinct vertices": 7
+      },
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-4",
+          "digit": 2,
+          "row": 1,
+          "column": 1,
+          "x": "519239/2000",
+          "y": "4439017/10000"
+        },
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "263278463/1000000",
+          "y": "4439017/10000"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 2,
+          "column": 1,
+          "x": "519239/2000",
+          "y": "449876007/1000000"
+        },
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 2,
+          "column": 2,
+          "x": "263278463/1000000",
+          "y": "449876007/1000000"
+        },
+        {
+          "symbol": "#glyph-7-5",
+          "digit": 5,
+          "row": 3,
+          "column": 2,
+          "x": "52654493/200000",
+          "y": "227925157/500000"
+        }
+      ],
+      "box": [
+        "2065/8",
+        "219279297/500000",
+        "268417969/1000000",
+        "57168457/125000"
+      ]
+    },
+    {
+      "node": 44,
+      "level": 6,
+      "creation_level": 5,
+      "complete_prefix": 6,
+      "matrix": [
+        [
+          2,
+          9
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          -1,
+          4
+        ]
+      ],
+      "parent": 22,
+      "children": [],
+      "induced_edges": [
+        {
+          "ends": [
+            0,
+            1
+          ],
+          "labels": [
+            2,
+            9
+          ],
+          "difference": 7
+        },
+        {
+          "ends": [
+            0,
+            2
+          ],
+          "labels": [
+            2,
+            8
+          ],
+          "difference": 6
+        },
+        {
+          "ends": [
+            1,
+            3
+          ],
+          "labels": [
+            9,
+            0
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            1,
+            5
+          ],
+          "labels": [
+            9,
+            4
+          ],
+          "difference": 5
+        },
+        {
+          "ends": [
+            2,
+            3
+          ],
+          "labels": [
+            8,
+            0
+          ],
+          "difference": 8
+        },
+        {
+          "ends": [
+            3,
+            5
+          ],
+          "labels": [
+            0,
+            4
+          ],
+          "difference": 4
+        }
+      ],
+      "next_difference": 3,
+      "exhaustive_children": [],
+      "rejected_placements": {
+        "endpoints not adjacent distinct vertices": 3,
+        "repeated induced difference": 4
+      },
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-4",
+          "digit": 2,
+          "row": 1,
+          "column": 1,
+          "x": "1473049/5000",
+          "y": "4439017/10000"
+        },
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "298268763/1000000",
+          "y": "4439017/10000"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 2,
+          "column": 1,
+          "x": "1473049/5000",
+          "y": "449876007/1000000"
+        },
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 2,
+          "column": 2,
+          "x": "298268763/1000000",
+          "y": "449876007/1000000"
+        },
+        {
+          "symbol": "#glyph-7-9",
+          "digit": 4,
+          "row": 3,
+          "column": 2,
+          "x": "59652553/200000",
+          "y": "227925157/500000"
+        }
+      ],
+      "box": [
+        "73279297/250000",
+        "219279297/500000",
+        "9709/32",
+        "57168457/125000"
+      ]
+    },
+    {
+      "node": 45,
+      "level": 9,
+      "creation_level": 6,
+      "complete_prefix": 9,
+      "matrix": [
+        [
+          5,
+          9
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          2,
+          8
+        ]
+      ],
+      "parent": 28,
+      "children": [],
+      "induced_edges": [
+        {
+          "ends": [
+            0,
+            1
+          ],
+          "labels": [
+            5,
+            9
+          ],
+          "difference": 4
+        },
+        {
+          "ends": [
+            0,
+            2
+          ],
+          "labels": [
+            5,
+            7
+          ],
+          "difference": 2
+        },
+        {
+          "ends": [
+            0,
+            4
+          ],
+          "labels": [
+            5,
+            2
+          ],
+          "difference": 3
+        },
+        {
+          "ends": [
+            1,
+            3
+          ],
+          "labels": [
+            9,
+            0
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            1,
+            5
+          ],
+          "labels": [
+            9,
+            8
+          ],
+          "difference": 1
+        },
+        {
+          "ends": [
+            2,
+            3
+          ],
+          "labels": [
+            7,
+            0
+          ],
+          "difference": 7
+        },
+        {
+          "ends": [
+            2,
+            4
+          ],
+          "labels": [
+            7,
+            2
+          ],
+          "difference": 5
+        },
+        {
+          "ends": [
+            3,
+            5
+          ],
+          "labels": [
+            0,
+            8
+          ],
+          "difference": 8
+        },
+        {
+          "ends": [
+            4,
+            5
+          ],
+          "labels": [
+            2,
+            8
+          ],
+          "difference": 6
+        }
+      ],
+      "next_difference": 0,
+      "exhaustive_children": [],
+      "rejected_placements": {},
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-5",
+          "digit": 5,
+          "row": 1,
+          "column": 1,
+          "x": "996639/10000",
+          "y": "656099/1250"
+        },
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "103322863/1000000",
+          "y": "656099/1250"
+        },
+        {
+          "symbol": "#glyph-7-3",
+          "digit": 7,
+          "row": 2,
+          "column": 1,
+          "x": "996639/10000",
+          "y": "530853507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 2,
+          "column": 2,
+          "x": "103322863/1000000",
+          "y": "530853507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-4",
+          "digit": 2,
+          "row": 3,
+          "column": 1,
+          "x": "996639/10000",
+          "y": "268413907/500000"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 3,
+          "column": 2,
+          "x": "103322863/1000000",
+          "y": "268413907/500000"
+        }
+      ],
+      "box": [
+        "6283/64",
+        "129883789/250000",
+        "54230469/500000",
+        "538324219/1000000"
+      ]
+    },
+    {
+      "node": 46,
+      "level": 9,
+      "creation_level": 6,
+      "complete_prefix": 9,
+      "matrix": [
+        [
+          3,
+          9
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "parent": 19,
+      "children": [],
+      "induced_edges": [
+        {
+          "ends": [
+            0,
+            1
+          ],
+          "labels": [
+            3,
+            9
+          ],
+          "difference": 6
+        },
+        {
+          "ends": [
+            0,
+            2
+          ],
+          "labels": [
+            3,
+            8
+          ],
+          "difference": 5
+        },
+        {
+          "ends": [
+            0,
+            4
+          ],
+          "labels": [
+            3,
+            4
+          ],
+          "difference": 1
+        },
+        {
+          "ends": [
+            1,
+            3
+          ],
+          "labels": [
+            9,
+            0
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            1,
+            5
+          ],
+          "labels": [
+            9,
+            7
+          ],
+          "difference": 2
+        },
+        {
+          "ends": [
+            2,
+            3
+          ],
+          "labels": [
+            8,
+            0
+          ],
+          "difference": 8
+        },
+        {
+          "ends": [
+            2,
+            4
+          ],
+          "labels": [
+            8,
+            4
+          ],
+          "difference": 4
+        },
+        {
+          "ends": [
+            3,
+            5
+          ],
+          "labels": [
+            0,
+            7
+          ],
+          "difference": 7
+        },
+        {
+          "ends": [
+            4,
+            5
+          ],
+          "labels": [
+            4,
+            7
+          ],
+          "difference": 3
+        }
+      ],
+      "next_difference": 0,
+      "exhaustive_children": [],
+      "rejected_placements": {},
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-6",
+          "digit": 3,
+          "row": 1,
+          "column": 1,
+          "x": "1846403/10000",
+          "y": "656099/1250"
+        },
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "188299263/1000000",
+          "y": "656099/1250"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 2,
+          "column": 1,
+          "x": "1846403/10000",
+          "y": "530853507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 2,
+          "column": 2,
+          "x": "188299263/1000000",
+          "y": "530853507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-9",
+          "digit": 4,
+          "row": 3,
+          "column": 1,
+          "x": "1846403/10000",
+          "y": "268413907/500000"
+        },
+        {
+          "symbol": "#glyph-7-3",
+          "digit": 7,
+          "row": 3,
+          "column": 2,
+          "x": "188299263/1000000",
+          "y": "268413907/500000"
+        }
+      ],
+      "box": [
+        "183144531/1000000",
+        "129883789/250000",
+        "3095/16",
+        "538324219/1000000"
+      ]
+    },
+    {
+      "node": 47,
+      "level": 9,
+      "creation_level": 5,
+      "complete_prefix": 9,
+      "matrix": [
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "parent": 20,
+      "children": [],
+      "induced_edges": [
+        {
+          "ends": [
+            0,
+            1
+          ],
+          "labels": [
+            7,
+            9
+          ],
+          "difference": 2
+        },
+        {
+          "ends": [
+            0,
+            2
+          ],
+          "labels": [
+            7,
+            8
+          ],
+          "difference": 1
+        },
+        {
+          "ends": [
+            0,
+            4
+          ],
+          "labels": [
+            7,
+            1
+          ],
+          "difference": 6
+        },
+        {
+          "ends": [
+            1,
+            3
+          ],
+          "labels": [
+            9,
+            0
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            1,
+            5
+          ],
+          "labels": [
+            9,
+            4
+          ],
+          "difference": 5
+        },
+        {
+          "ends": [
+            2,
+            3
+          ],
+          "labels": [
+            8,
+            0
+          ],
+          "difference": 8
+        },
+        {
+          "ends": [
+            2,
+            4
+          ],
+          "labels": [
+            8,
+            1
+          ],
+          "difference": 7
+        },
+        {
+          "ends": [
+            3,
+            5
+          ],
+          "labels": [
+            0,
+            4
+          ],
+          "difference": 4
+        },
+        {
+          "ends": [
+            4,
+            5
+          ],
+          "labels": [
+            1,
+            4
+          ],
+          "difference": 3
+        }
+      ],
+      "next_difference": 0,
+      "exhaustive_children": [],
+      "rejected_placements": {},
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-3",
+          "digit": 7,
+          "row": 1,
+          "column": 1,
+          "x": "1048167/5000",
+          "y": "656099/1250"
+        },
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "213292363/1000000",
+          "y": "656099/1250"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 2,
+          "column": 1,
+          "x": "1048167/5000",
+          "y": "530853507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 2,
+          "column": 2,
+          "x": "213292363/1000000",
+          "y": "530853507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-7",
+          "digit": 1,
+          "row": 3,
+          "column": 1,
+          "x": "1048167/5000",
+          "y": "268413907/500000"
+        },
+        {
+          "symbol": "#glyph-7-9",
+          "digit": 4,
+          "row": 3,
+          "column": 2,
+          "x": "213292363/1000000",
+          "y": "268413907/500000"
+        }
+      ],
+      "box": [
+        "13321/64",
+        "129883789/250000",
+        "27303711/125000",
+        "538324219/1000000"
+      ]
+    },
+    {
+      "node": 48,
+      "level": 9,
+      "creation_level": 5,
+      "complete_prefix": 9,
+      "matrix": [
+        [
+          0,
+          9
+        ],
+        [
+          8,
+          4
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "parent": 24,
+      "children": [],
+      "induced_edges": [
+        {
+          "ends": [
+            0,
+            1
+          ],
+          "labels": [
+            0,
+            9
+          ],
+          "difference": 9
+        },
+        {
+          "ends": [
+            0,
+            2
+          ],
+          "labels": [
+            0,
+            8
+          ],
+          "difference": 8
+        },
+        {
+          "ends": [
+            0,
+            4
+          ],
+          "labels": [
+            0,
+            1
+          ],
+          "difference": 1
+        },
+        {
+          "ends": [
+            1,
+            3
+          ],
+          "labels": [
+            9,
+            4
+          ],
+          "difference": 5
+        },
+        {
+          "ends": [
+            1,
+            5
+          ],
+          "labels": [
+            9,
+            7
+          ],
+          "difference": 2
+        },
+        {
+          "ends": [
+            2,
+            3
+          ],
+          "labels": [
+            8,
+            4
+          ],
+          "difference": 4
+        },
+        {
+          "ends": [
+            2,
+            4
+          ],
+          "labels": [
+            8,
+            1
+          ],
+          "difference": 7
+        },
+        {
+          "ends": [
+            3,
+            5
+          ],
+          "labels": [
+            4,
+            7
+          ],
+          "difference": 3
+        },
+        {
+          "ends": [
+            4,
+            5
+          ],
+          "labels": [
+            1,
+            7
+          ],
+          "difference": 6
+        }
+      ],
+      "next_difference": 0,
+      "exhaustive_children": [],
+      "rejected_placements": {},
+      "glyphs": [
+        {
+          "symbol": "#glyph-7-1",
+          "digit": 0,
+          "row": 1,
+          "column": 1,
+          "x": "1623007/5000",
+          "y": "656099/1250"
+        },
+        {
+          "symbol": "#glyph-7-0",
+          "digit": 9,
+          "row": 1,
+          "column": 2,
+          "x": "328260363/1000000",
+          "y": "656099/1250"
+        },
+        {
+          "symbol": "#glyph-7-2",
+          "digit": 8,
+          "row": 2,
+          "column": 1,
+          "x": "1623007/5000",
+          "y": "530853507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-9",
+          "digit": 4,
+          "row": 2,
+          "column": 2,
+          "x": "328260363/1000000",
+          "y": "530853507/1000000"
+        },
+        {
+          "symbol": "#glyph-7-7",
+          "digit": 1,
+          "row": 3,
+          "column": 1,
+          "x": "1623007/5000",
+          "y": "268413907/500000"
+        },
+        {
+          "symbol": "#glyph-7-3",
+          "digit": 7,
+          "row": 3,
+          "column": 2,
+          "x": "328260363/1000000",
+          "y": "268413907/500000"
+        }
+      ],
+      "box": [
+        "323105469/1000000",
+        "129883789/250000",
+        "166699219/500000",
+        "538324219/1000000"
+      ]
+    }
+  ],
+  "solution_nodes": [
+    45,
+    46,
+    47,
+    48
+  ],
+  "node_count": 49,
+  "level_histogram": {
+    "0": 1,
+    "1": 2,
+    "2": 3,
+    "3": 9,
+    "4": 13,
+    "5": 15,
+    "6": 2,
+    "9": 4
+  }
+}

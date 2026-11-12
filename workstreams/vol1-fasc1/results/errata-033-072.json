@@ -1,0 +1,140 @@
+{
+  "checked_at_utc": "2026-11-06T13:08:57.075340+00:00",
+  "sources": [
+    "errata/originals/err1f1.textxt",
+    "errata/text/all1f1.txt",
+    "errata/text/err1f1.txt"
+  ],
+  "relevant_entries": [
+    {
+      "type": "improvepage",
+      "printed_page": "34",
+      "source_entry": "\\improvepage 1f1.34 line 7 (05.05.21)\n\\ninepoint Initialize $m$. \\becomes Initialize $m$ by setting $\\.{mm}\\gets-2$.\n\\endchange"
+    },
+    {
+      "type": "improvepage",
+      "printed_page": "37",
+      "source_entry": "\\improvepage 1f1.37 line $-17$ (10.01.22)\nhash mark~\\.\\# \\becomes\nnumber sign or hash mark~\\.\\#\n\\endchange"
+    },
+    {
+      "type": "bugonpage",
+      "printed_page": "39",
+      "source_entry": "\\bugonpage 1f1.39 lines 12--15 from the bottom (06.09.21)\nequivalent to the largest \\dots~not change that global register. \\becomes\nequivalent to the number of a global register that\nwill contain~$x$ when the program begins. If $x\\ne0$,\nthe value of~$x$ is considered to be a {\\it base address}, and the program\nshould not change that global register. If $x=0$, or if $x$ is a base address\nthat hasn't already occurred,\na new global register is allocated (as large as possible).\n\\endchange"
+    },
+    {
+      "type": "improvepage",
+      "printed_page": "40",
+      "source_entry": "\\improvepage 141.40 line 11 (06.07.29)\n\\ninepoint \\.{TRAP 0,Halt,0}\n\\becomes   \\.{TRAP 0,Halt,0;}\n\\endchange"
+    },
+    {
+      "type": "amendpage",
+      "printed_page": "42",
+      "source_entry": "\\amendpage 1f1.42 line 5 (07.02.22)\nan error \\becomes a serious error\n\\endchange"
+    },
+    {
+      "type": "bugonpage",
+      "printed_page": "44",
+      "source_entry": "\\bugonpage 1f1.44 line 2 of exercise 12 (09.01.05)\n\\.{Blank} \\becomes \\.{Blanks}\n\\endchange"
+    },
+    {
+      "type": "bugonpage",
+      "printed_page": "44",
+      "source_entry": "\\bugonpage 1f1.44 replacement for line 2 of exercise 13 (10.01.10)\n{\\font\\arabnine=arab8 at 9pt\n\\input exotic\n\\nobreak\\vskip-\\baselineskip\n$$\\hbox{\\arabnine\\Afy/\\Ail/\\Aw/\\Aha/ \\Ar/\\Afd/\\Aiai/\n \\Aftm/\\Aihy/\\Afa/\\Amm/\\Ams/\\Amm/\\Aikh/ \\Al/\\Aw/\\Aha/}$$}%\n\\endchange"
+    },
+    {
+      "type": "improvepage",
+      "printed_page": "48",
+      "source_entry": "\\improvepage 1f1.48 line 9 of exercise 30 (24.03.15)\n\\ninepoint $10^n$. Then we wish \\becomes \n$10^n$, although that formula doesn't work for arbitrary~$x$. Then we wish\n\\endchange"
+    },
+    {
+      "type": "amendpage",
+      "printed_page": "50",
+      "source_entry": "\\amendpage 1f1.50 line 7 (11.03.21)\n\\ninepoint two-bit codes \\becomes individual codes\n\\endchange"
+    },
+    {
+      "type": "amendpage",
+      "printed_page": "50",
+      "source_entry": "\\amendpage 1f1.50 lines 8 and 9 become like RGB codes (11.06.03)\n\\ninepoint\n\\Hex{80} amber \\becomes \\Hex{c0} amber\\nl\n\\Hex{c0} red \\becomes \\Hex{80} red\\nl\n\\Hex{20} amber \\becomes \\Hex{30} amber\\nl\n\\Hex{30} red \\becomes \\Hex{20} red\n\\endchange"
+    },
+    {
+      "type": "amendpage",
+      "printed_page": "50",
+      "source_entry": "\\amendpage 1f1.50 next-to-last line of exercise 34 (11.06.04)\n\\ninepoint special clock register rC increases \\becomes\ninterval counter rI decreases\n\\endchange"
+    },
+    {
+      "type": "amendpage",
+      "printed_page": "51",
+      "source_entry": "\\amendpage 1f1.51 line $-3$ (13.09.01)\n{\\sl in Chapters\\/} \\becomes\n{\\sl in Section 1.4.4 and in Chapters\\/}\n\\endchange"
+    },
+    {
+      "type": "improvepage",
+      "printed_page": "52",
+      "source_entry": "\\improvepage 1f1.52 line 14 (05.09.17)\nby having less space \\becomes by occupying less space\n\\endchange"
+    },
+    {
+      "type": "improvepage",
+      "printed_page": "53",
+      "source_entry": "\\improvepage 1f1.53 line 8 (05.09.17)\nThese \\MMIX\\ instructions \\becomes\nWe'll see shortly that these \\MMIX\\ instructions\n\\endchange"
+    },
+    {
+      "type": "bugonpage",
+      "printed_page": "54",
+      "source_entry": "\\bugonpage 1f1.54 line $-8$ (23.03.29)\n\\.{\\$,n} \\becomes \\.{\\$,}$n$\n\\endchange"
+    },
+    {
+      "type": "bugonpage",
+      "printed_page": "60",
+      "source_entry": "\\bugonpage 1f1.60 line 6 (18.12.17)\na \\.{PUSHJ} subroutine \\becomes\na \\.{PUSHJ} instruction\n\\endchange"
+    },
+    {
+      "type": "bugonpage",
+      "printed_page": "60",
+      "source_entry": "\\bugonpage 1f1.60 line $-3$ of {\\eq(16)} (05.06.08)\n{\\tt BNZ\\kern10pt kk,2F} \\qquad \\becomes\\qquad\n{\\tt BN\\phantom{Z}\\kern10pt kk,2F}\n\\endchange"
+    },
+    {
+      "type": "amendpage",
+      "printed_page": "66",
+      "source_entry": "\\amendpage 1f1.66 line 2 of exercise 13 (23.03.29)\n\\ninepoint given $n$ \\becomes given $n\\ge0$\n\\endchange"
+    },
+    {
+      "type": "amendpage",
+      "printed_page": "65",
+      "source_entry": "\\amendpage 1f1.65 the rating of exercise 9 (07.01.10)\n\\ninepoint {\\it20} \\becomes {\\it28}\n\\endchange"
+    },
+    {
+      "type": "improvepage",
+      "printed_page": "67",
+      "source_entry": "\\improvepage 1f1.67 line $-13$ (05.10.24)\nthe ASCII code for \\.{' '} \\becomes\nwhich is the character constant~\\.{' '} in \\.{MMIXAL} programs\n\\endchange"
+    }
+  ],
+  "finding_checks": [
+    {
+      "id": "MMIX-C0004",
+      "terms": [
+        "NextChar",
+        "null",
+        "NUL",
+        "whitespace",
+        "inptr",
+        "InBuf",
+        "pages 67-70"
+      ],
+      "result": "No matching correction. The p.67 entry only replaces the ASCII wording with a character-constant reference."
+    },
+    {
+      "id": "MMIX-C0005",
+      "terms": [
+        "been been",
+        "page 65"
+      ],
+      "result": "No matching correction. The p.65 entry only changes the rating of exercise 9."
+    }
+  ],
+  "acknowledged_updates": [
+    "The 2024-03-15 qualification of the harmonic-sum rounding formula at p.48 is not present in this 2023 digital copy; the original wording already limits its use to this problem. This is an existing published improvement, not a new finding.",
+    "The 2023-03-29 addition n>=0 to exercise 1.4.1′-13 on p.66 is absent; it is an existing published amendment, not a new finding."
+  ],
+  "limitations": [
+    "Repository cumulative/short errata only; no redundant network refresh."
+  ]
+}

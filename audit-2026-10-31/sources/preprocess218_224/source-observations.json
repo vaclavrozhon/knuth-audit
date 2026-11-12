@@ -1,0 +1,73 @@
+{
+  "at_utc": "2026-11-03T17:25:06.729816+00:00",
+  "scope": "AlgorithmP main108–111 read; complete questions/answers218–224. Main109–111 numerical and cross-reference gaps explicitly retained.",
+  "viewed_images": [
+    "images/preprocess218-224-draft-185.png",
+    "images/preprocess218-224-draft-51.png",
+    "images/preprocess218-224-draft-52.png",
+    "images/preprocess218-224-draft-53.png",
+    "images/preprocess218-224-draft-94.png",
+    "images/preprocess218-224-errata4b-5.png",
+    "images/preprocess218-224-original-129.png",
+    "images/preprocess218-224-original-130.png",
+    "images/preprocess218-224-original-131.png",
+    "images/preprocess218-224-original-172.png",
+    "images/preprocess218-224-original-495.png",
+    "images/exchanges208-214-original-128.png",
+    "images/exchanges208-214-draft-50.png",
+    "images/exchanges208-214-original-171.png",
+    "images/exchanges208-214-draft-93.png",
+    "images/bipairs215-217-original-494.png",
+    "images/bipairs215-217-draft-184.png",
+    "images/vol4b-p68.png",
+    "images/vol4b-p89.png",
+    "images/fasc5c-p25.png",
+    "images/exchanges208-214-errata5-6.png"
+  ],
+  "image_hashes": {
+    "images/preprocess218-224-draft-185.png": "9c56ac6e211a77965a967cee5650592b9567c6c9d121fc6345d9143a9a4734e6",
+    "images/preprocess218-224-draft-51.png": "f27c059943d0fad82821942e9934580d5c9d0ac5ccd1afabf71fd2a29e85fe6c",
+    "images/preprocess218-224-draft-52.png": "af62ff554d6a5854706795864c269d0d8ca093298fa488d8d3837d744d3d3631",
+    "images/preprocess218-224-draft-53.png": "6322edf4d5ec8fd96d4317e131b51c024ddd9d4d1770cf9e7a9e6dc04a201be3",
+    "images/preprocess218-224-draft-94.png": "e05eb0837908a71c03d9a9de3d8df32ff27019b94ed756f5ea11d69a78b475f1",
+    "images/preprocess218-224-errata4b-5.png": "4eda51e7b44c411820b3f78f3ac6e512fdbcdbe5ab5e27fca384363af274fb17",
+    "images/preprocess218-224-original-129.png": "071d5c27cefe2a3f098c8e0093f075855393ce4720a91ee8e5f5e6eecc65f4ee",
+    "images/preprocess218-224-original-130.png": "df94a910f818da49cfab6d365b276e7726c6638677be7f2b93b74b7f7426f9b3",
+    "images/preprocess218-224-original-131.png": "d901971d525ee1d075f353c59dddb3b06c4878d7903d3e0246d18b5fc4f8ebb2",
+    "images/preprocess218-224-original-172.png": "f7efedc66413bec6fdffdb886024e8730199a4447ae442c60712cd01cf8b0646",
+    "images/preprocess218-224-original-495.png": "c29065115180b4dca0bc6e96ecef11f2732ddc6c0c012d9b8eb611cdab391664",
+    "images/exchanges208-214-original-128.png": "3dee5f7f195aa4bba3aa462f43453dc584c5893cb420b60f1bd222bbd2667aa7",
+    "images/exchanges208-214-draft-50.png": "6c260b0c533964b2e6d72dd730ce2876c8017ad9141d07b325b6dded562b26fe",
+    "images/exchanges208-214-original-171.png": "9f6285c93ffdb82fb4196fdc6c2ac34ab87a291e2815141c442c09e7fdde5415",
+    "images/exchanges208-214-draft-93.png": "dc275b31cb587c190b8876a59d721667f193cad453add63243dee5762e79aa77",
+    "images/bipairs215-217-original-494.png": "da3cacbaeecbb6e292bb097b3e359d96d2a17e4d68bb66f23ac48db10062c542",
+    "images/bipairs215-217-draft-184.png": "46238fb8318018b65096491450cee9c77177f269eb5754aa9cc299c17f3b4c4f",
+    "images/vol4b-p68.png": "ad330f601aec67930f279113c586435050f1d044a32a6941623eecbf34f4e367",
+    "images/vol4b-p89.png": "e499df22095748376f6acafb4218311839ec3d9e36647d24b1c20dd3c093079d",
+    "images/fasc5c-p25.png": "4c4485fd36ce806cf1dac422161ccc78b02d74fe03331d950a410e83a03f9594",
+    "images/exchanges208-214-errata5-6.png": "d1c8ab560a0b8731321377f544733675aec2ebe5a0ad2eafaa2a386b0a5d6371"
+  },
+  "differences": [
+    "F145 answer221 q>=x in both sources; spacer UP points to original first node by equation11.",
+    "E011 all four edits absent in both sources, incorporated in accepted model.",
+    "E099 further-simplifications sentence removed in book; retained in2019 draft.",
+    "E100 30,286,432 typo remains in both, corrected published count already verified elsewhere."
+  ],
+  "unchanged_findings": [
+    "C013 missing primary header marker initialization",
+    "F074 n6 pass count; bounded min(n,4) not claimed as all-n proof"
+  ],
+  "prior_model_limitation": "Old delete used a precomputed node list, not printed221 while condition. F145 is a source-loop error that this model did not test.",
+  "new_checker_development": [
+    {
+      "stage": "first run",
+      "failure": "Our unsupported irreducibility assertion for example6 failed; e forces c and bcf blocks e. This was not a book finding."
+    },
+    {
+      "stage": "revised checker",
+      "result": "Pass: only printed shortening and exact solution-preservation claims asserted."
+    }
+  ],
+  "expensive_reproductions_started": 0,
+  "old_successful_suites_repeated": 0
+}

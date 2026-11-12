@@ -1,0 +1,89 @@
+{
+  "scope": "4.5.3-35 and normalization findingC0134",
+  "checkpoints": {
+    "weighted_representations": {
+      "max_n": 128,
+      "weighted_quadruples": 13054,
+      "weighted_cuts": 13054,
+      "nonempty_fixed_y_xprime_groups": 10423,
+      "excluded_gcd_groups": 5225,
+      "truncated_representations": 10949,
+      "discarded_weight_one_representations": 2105,
+      "direct_subtraction_pairs": 8256,
+      "identities": "S2,S3,S4; exact rational transformed sum before S5 approximation"
+    },
+    "multiplicative_identities": {
+      "prime_factor_cancellation_inputs": 4096,
+      "local_euler_and_mobius_inputs": 8192
+    },
+    "harmonic_bound": {
+      "inputs": 1064,
+      "precision_decimal": 80,
+      "inequality": "0 <= H_j(x)-P(j)ln(x) <= 2+sum_{p|j}ln(p)/(p-1)",
+      "large_primorial_examples": [
+        {
+          "j": 210,
+          "x": "1001",
+          "error": "[0.5812212756607097813369537211897762822927656529415452911896993121866457312191410 +/- 2.43e-80]",
+          "upper_bound": "[3.9691311611784107996159366971331829518868265401024029418760875075036154926312585 +/- 2.17e-80]"
+        },
+        {
+          "j": 2310,
+          "x": "1001",
+          "error": "[0.5778418668470630013110830326866175700541655555417290491598273004073904478585517 +/- 4.38e-80]",
+          "upper_bound": "[4.2089206884582478540221310549296958818689972254961446593979442784166728550225822 +/- 3.30e-80]"
+        },
+        {
+          "j": 30030,
+          "x": "1001",
+          "error": "[0.5736972075213286941408747720850101721311449294642194479192775911808336505831812 +/- 2.26e-80]",
+          "upper_bound": "[4.4226664682467092486932550083934724322694362208928285857661980709719615772996164 +/- 4.40e-80]"
+        },
+        {
+          "j": 510510,
+          "x": "1001",
+          "error": "[0.57303038189457584140807364137019076616775919803544540623815714216755392766939149 +/- 8.46e-81]",
+          "upper_bound": "[4.5997423022502227537088509220105428407436989091794376349722754295896048632871746 +/- 4.41e-80]"
+        },
+        {
+          "j": 9699690,
+          "x": "1001",
+          "error": "[0.5724201229130987576279697608094834458702874369381631935812761561202271748777362 +/- 4.46e-80]",
+          "upper_bound": "[4.7633222455372472237093524460043124817013310903627225693354954427234544578462966 +/- 6.65e-80]"
+        }
+      ]
+    },
+    "normalization_examples": {
+      "rows": [
+        {
+          "n_prime": 101,
+          "quotient_total": 1990,
+          "division_total": 537,
+          "printed_main_expression": "[18.733197755247417002995085337719399223242956502710662371586822249228530834241394 +/- 6.85e-79]",
+          "quotient_total_divided_by_n": "1990/101",
+          "average_subtractions_to_equality": "1890/101",
+          "proof_note": "General contradiction uses total>=n while expression=O(log(n)^2) along primes."
+        },
+        {
+          "n_prime": 1009,
+          "quotient_total": 39810,
+          "division_total": 7347,
+          "printed_main_expression": "[38.356081209780673774076392547678435674623895865696645919386705238589251247972069 +/- 8.75e-79]",
+          "quotient_total_divided_by_n": "39810/1009",
+          "average_subtractions_to_equality": "38802/1009",
+          "proof_note": "General contradiction uses total>=n while expression=O(log(n)^2) along primes."
+        },
+        {
+          "n_prime": 10007,
+          "quotient_total": 655938,
+          "division_total": 92364,
+          "printed_main_expression": "[64.56709510834198731842139446882502694647833982080331530237569179094823047408529 +/- 3.41e-78]",
+          "quotient_total_divided_by_n": "655938/10007",
+          "average_subtractions_to_equality": "645932/10007",
+          "proof_note": "General contradiction uses total>=n while expression=O(log(n)^2) along primes."
+        }
+      ],
+      "conjecture_status": "Normalized version not proved; exact intended stopping convention not established."
+    }
+  }
+}

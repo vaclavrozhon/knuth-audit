@@ -1,0 +1,311 @@
+{
+  "status": "pass",
+  "cubes": {
+    "examples": [
+      {
+        "factors": [
+          [
+            [
+              1,
+              1,
+              1,
+              1
+            ],
+            1
+          ],
+          [
+            [
+              2,
+              1,
+              2,
+              0
+            ],
+            1
+          ],
+          [
+            [
+              2,
+              2,
+              2,
+              2
+            ],
+            1
+          ]
+        ],
+        "disjoint_pairs": [
+          [
+            0,
+            2
+          ]
+        ],
+        "physical_orientations": 8,
+        "color_counts": {
+          "0": 7,
+          "3": 6,
+          "1": 5,
+          "2": 6
+        }
+      },
+      {
+        "factors": [
+          [
+            [
+              1,
+              1,
+              2,
+              0,
+              1
+            ],
+            1
+          ],
+          [
+            [
+              2,
+              0,
+              1,
+              2,
+              0
+            ],
+            1
+          ],
+          [
+            [
+              2,
+              0,
+              2,
+              1,
+              0
+            ],
+            1
+          ]
+        ],
+        "disjoint_pairs": [
+          [
+            0,
+            1
+          ]
+        ],
+        "physical_orientations": 8,
+        "color_counts": {
+          "1": 8,
+          "2": 5,
+          "3": 6,
+          "4": 6,
+          "0": 5
+        }
+      }
+    ],
+    "random_graph_vs_physical_checks": 450,
+    "exact_six_solvable_examples": 104
+  },
+  "disks": {
+    "rings_N_clockwise": [
+      [
+        5,
+        1,
+        5,
+        3,
+        4,
+        3,
+        2,
+        4
+      ],
+      [
+        3,
+        4,
+        5,
+        3,
+        3,
+        2,
+        2,
+        1
+      ],
+      [
+        2,
+        1,
+        3,
+        4,
+        2,
+        5,
+        1,
+        3
+      ],
+      [
+        3,
+        4,
+        1,
+        3,
+        4,
+        5,
+        3,
+        2
+      ]
+    ],
+    "solutions_clockwise_eighth_turns": [
+      [
+        0,
+        3,
+        4,
+        5
+      ]
+    ],
+    "parity_stage": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        1
+      ]
+    ],
+    "quarter_stage": [
+      [
+        0,
+        2,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        3,
+        0,
+        1
+      ],
+      [
+        0,
+        3,
+        2,
+        1
+      ]
+    ],
+    "opposite_sums_at_quarter_stage": [
+      [
+        24,
+        19,
+        24,
+        29
+      ],
+      [
+        24,
+        20,
+        24,
+        28
+      ],
+      [
+        24,
+        24,
+        24,
+        24
+      ],
+      [
+        24,
+        25,
+        24,
+        23
+      ]
+    ],
+    "surviving_quarter_stage": [
+      [
+        0,
+        3,
+        0,
+        1
+      ]
+    ],
+    "search_space": 512
+  },
+  "cards": {
+    "cards_NESW": [
+      [
+        1,
+        5,
+        2,
+        5
+      ],
+      [
+        5,
+        1,
+        1,
+        3
+      ],
+      [
+        4,
+        7,
+        2,
+        5
+      ],
+      [
+        4,
+        5,
+        4,
+        2
+      ],
+      [
+        5,
+        2,
+        7,
+        4
+      ],
+      [
+        5,
+        5,
+        7,
+        7
+      ],
+      [
+        7,
+        3,
+        8,
+        4
+      ],
+      [
+        5,
+        4,
+        3,
+        4
+      ],
+      [
+        3,
+        7,
+        5,
+        5
+      ]
+    ],
+    "valid_rows": 144,
+    "all_solutions": 72,
+    "printed_solution": [
+      "8473",
+      "2515",
+      "3454",
+      "4245",
+      "2547",
+      "7452",
+      "7755",
+      "1351",
+      "5537"
+    ]
+  },
+  "probabilities": {
+    "strong_probability_exact": "4632795/1073741824",
+    "strong_probability": 0.004314626567065716,
+    "strong_restricted_probability_exact": "311869440/100696685089",
+    "strong_restricted_probability": 0.0030971172459585594,
+    "restricted_face_colorings": 58001290611264,
+    "expected_factors_exact": "25515/8192",
+    "expected_disjoint_pairs_exact": "8037225/8388608",
+    "markov_upper_bound_at_least10_pairs": 0.09581118822097778,
+    "printed_unrestricted_percent_sum": "1109/10"
+  },
+  "elapsed_seconds": 13.155055402996368
+}

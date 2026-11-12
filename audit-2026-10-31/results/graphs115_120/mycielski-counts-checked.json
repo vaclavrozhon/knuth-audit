@@ -1,0 +1,52 @@
+{
+  "source_sha256": "1393bdcbb3f831732e16fa9fd59e11149b34292526b9c44d1f58573a3608c696",
+  "script_sha256": "c3410e1576ee748e0f241931eff8b51ed254fa110bdf9c04678047639643a100",
+  "small_instances": 300,
+  "graphs": [
+    {
+      "c": 2,
+      "n": 2,
+      "edges": 1,
+      "color_partitions": 1,
+      "edge_deletion_histogram": {
+        "1": 1
+      }
+    },
+    {
+      "c": 3,
+      "n": 5,
+      "edges": 5,
+      "color_partitions": 5,
+      "edge_deletion_histogram": {
+        "1": 5
+      }
+    },
+    {
+      "c": 4,
+      "n": 11,
+      "edges": 20,
+      "color_partitions": 520,
+      "edge_deletion_histogram": {
+        "5": 15,
+        "7": 5
+      }
+    },
+    {
+      "c": 5,
+      "n": 23,
+      "edges": 71,
+      "color_partitions": 23713820,
+      "edge_deletion_histogram": {
+        "1432": 20,
+        "1544": 10,
+        "1600": 5,
+        "2200": 10,
+        "2492": 10,
+        "2680": 5,
+        "3744": 5,
+        "4602": 5,
+        "6640": 1
+      }
+    }
+  ]
+}

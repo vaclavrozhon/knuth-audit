@@ -1,0 +1,579 @@
+{
+  "at_utc": "2026-11-03T18:28:04.707433+00:00",
+  "status": "finished",
+  "nice": 15,
+  "runner_sha256": "cd0191a26e3d0de83e3d10c8b637319ba76db867d0fa10744ad81a6d6439cd86",
+  "source_sha256": "b932ff482aec37f22259f096163ddbd0556ffc50cd4ea679b838c15dc615e37c",
+  "binary_sha256": "9772bc060df018fe1d7edb8a725a536624feca414499f1d526bf6057eaec701f",
+  "compile_command": [
+    "g++",
+    "-O3",
+    "-std=c++20",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "audit-2026-10-31/word231_census.cpp",
+    "-o",
+    "/tmp/knuth-vol4b-words-primes-n0es0a7o/word231-census"
+  ],
+  "timeout_seconds_per_new_case": 20,
+  "small_cases": [
+    {
+      "rows": [
+        "aaaaa"
+      ],
+      "columns": [
+        "aaaa"
+      ],
+      "complete_cartesian_trials": 1,
+      "solutions": 1
+    },
+    {
+      "rows": [
+        "aaaaa",
+        "bbbbb"
+      ],
+      "columns": [
+        "aaaa",
+        "bbbb"
+      ],
+      "complete_cartesian_trials": 16,
+      "solutions": 2
+    },
+    {
+      "rows": [
+        "ababa",
+        "babab"
+      ],
+      "columns": [
+        "abab",
+        "baba"
+      ],
+      "complete_cartesian_trials": 16,
+      "solutions": 2
+    },
+    {
+      "rows": [
+        "abaaa"
+      ],
+      "columns": [
+        "baba",
+        "bbaa",
+        "bbba",
+        "baab",
+        "aabb",
+        "babb",
+        "bbab"
+      ],
+      "complete_cartesian_trials": 1,
+      "solutions": 0
+    },
+    {
+      "rows": [
+        "bbaba",
+        "bbbab",
+        "babaa"
+      ],
+      "columns": [
+        "bbab",
+        "aaab",
+        "baab",
+        "bbba",
+        "aaaa"
+      ],
+      "complete_cartesian_trials": 81,
+      "solutions": 0
+    },
+    {
+      "rows": [
+        "babba",
+        "baaab"
+      ],
+      "columns": [
+        "babb",
+        "aaaa",
+        "bbba",
+        "baba",
+        "baab"
+      ],
+      "complete_cartesian_trials": 16,
+      "solutions": 0
+    },
+    {
+      "rows": [
+        "aaabb",
+        "bbbaa",
+        "aaaba",
+        "aabba"
+      ],
+      "columns": [
+        "babb",
+        "bbab",
+        "abab"
+      ],
+      "complete_cartesian_trials": 256,
+      "solutions": 0
+    },
+    {
+      "rows": [
+        "abbbb"
+      ],
+      "columns": [
+        "aabb",
+        "bbab",
+        "bbba",
+        "abab",
+        "baaa",
+        "bbaa",
+        "aaaa"
+      ],
+      "complete_cartesian_trials": 1,
+      "solutions": 0
+    },
+    {
+      "rows": [
+        "babaa",
+        "bbaaa",
+        "aabab",
+        "ababa",
+        "bbaba"
+      ],
+      "columns": [
+        "abbb",
+        "babb",
+        "abab",
+        "baaa",
+        "bbab",
+        "abaa",
+        "aaab",
+        "bbba"
+      ],
+      "complete_cartesian_trials": 625,
+      "solutions": 26
+    },
+    {
+      "rows": [
+        "baabb",
+        "aaabb",
+        "abbbb",
+        "aaaaa",
+        "bbbaa",
+        "abbab"
+      ],
+      "columns": [
+        "aaaa",
+        "bbbb",
+        "abba",
+        "bbab",
+        "abab",
+        "aaab"
+      ],
+      "complete_cartesian_trials": 1296,
+      "solutions": 56
+    },
+    {
+      "rows": [
+        "bbbab",
+        "aaabb"
+      ],
+      "columns": [
+        "babb",
+        "bbbb",
+        "baba",
+        "abba"
+      ],
+      "complete_cartesian_trials": 16,
+      "solutions": 0
+    },
+    {
+      "rows": [
+        "babaa",
+        "abbaa",
+        "bbbbb",
+        "aaabb"
+      ],
+      "columns": [
+        "abab",
+        "baaa",
+        "abaa",
+        "aaaa",
+        "aaab"
+      ],
+      "complete_cartesian_trials": 256,
+      "solutions": 0
+    },
+    {
+      "rows": [
+        "aaaaa",
+        "abbbb"
+      ],
+      "columns": [
+        "baba",
+        "baaa",
+        "babb",
+        "bbaa",
+        "abaa",
+        "abba",
+        "aaba",
+        "abab"
+      ],
+      "complete_cartesian_trials": 16,
+      "solutions": 0
+    },
+    {
+      "rows": [
+        "abbbb"
+      ],
+      "columns": [
+        "aaba",
+        "bbaa"
+      ],
+      "complete_cartesian_trials": 1,
+      "solutions": 0
+    },
+    {
+      "rows": [
+        "bbaba",
+        "bbbaa",
+        "babaa",
+        "bbaaa"
+      ],
+      "columns": [
+        "bbab",
+        "aaaa",
+        "abaa",
+        "baab",
+        "baba"
+      ],
+      "complete_cartesian_trials": 256,
+      "solutions": 0
+    },
+    {
+      "rows": [
+        "aabbb"
+      ],
+      "columns": [
+        "abaa",
+        "bbba",
+        "abba"
+      ],
+      "complete_cartesian_trials": 1,
+      "solutions": 0
+    },
+    {
+      "rows": [
+        "abbaa",
+        "aaaaa"
+      ],
+      "columns": [
+        "aaab",
+        "bbaa",
+        "baba",
+        "baab"
+      ],
+      "complete_cartesian_trials": 16,
+      "solutions": 0
+    },
+    {
+      "rows": [
+        "babba"
+      ],
+      "columns": [
+        "baba",
+        "aaba"
+      ],
+      "complete_cartesian_trials": 1,
+      "solutions": 0
+    },
+    {
+      "rows": [
+        "baaba",
+        "bbbaa"
+      ],
+      "columns": [
+        "bbab",
+        "bbba",
+        "abba",
+        "bbaa",
+        "aaba",
+        "aaab",
+        "baba"
+      ],
+      "complete_cartesian_trials": 16,
+      "solutions": 0
+    },
+    {
+      "rows": [
+        "babaa",
+        "baaab",
+        "bbaaa",
+        "babba",
+        "bbbba"
+      ],
+      "columns": [
+        "abab",
+        "baaa",
+        "aaba",
+        "babb",
+        "bbbb",
+        "aaab",
+        "bbba",
+        "bbaa"
+      ],
+      "complete_cartesian_trials": 625,
+      "solutions": 30
+    },
+    {
+      "rows": [
+        "bbaba",
+        "bbbbb",
+        "aaaba",
+        "baabb",
+        "bbbab",
+        "abbba"
+      ],
+      "columns": [
+        "baaa",
+        "baab",
+        "babb",
+        "bbaa"
+      ],
+      "complete_cartesian_trials": 1296,
+      "solutions": 2
+    },
+    {
+      "rows": [
+        "ababa",
+        "abbba",
+        "baabb",
+        "babaa",
+        "abbbb",
+        "baaba"
+      ],
+      "columns": [
+        "bbbb"
+      ],
+      "complete_cartesian_trials": 1296,
+      "solutions": 0
+    },
+    {
+      "rows": [
+        "babba",
+        "aaaba",
+        "baaaa",
+        "bbbbb",
+        "aabba",
+        "bbbba"
+      ],
+      "columns": [
+        "abbb",
+        "bbaa",
+        "aaba",
+        "aabb",
+        "abab",
+        "abaa",
+        "bbab"
+      ],
+      "complete_cartesian_trials": 1296,
+      "solutions": 17
+    },
+    {
+      "rows": [
+        "bbbab",
+        "bbbba",
+        "babaa",
+        "aaaba",
+        "aaaaa"
+      ],
+      "columns": [
+        "bbab"
+      ],
+      "complete_cartesian_trials": 625,
+      "solutions": 0
+    },
+    {
+      "rows": [
+        "aabba",
+        "aaaba"
+      ],
+      "columns": [
+        "baaa",
+        "bbbb"
+      ],
+      "complete_cartesian_trials": 16,
+      "solutions": 0
+    },
+    {
+      "rows": [
+        "aabab"
+      ],
+      "columns": [
+        "aabb",
+        "baaa",
+        "aaab",
+        "bbab",
+        "bbbb",
+        "bbaa"
+      ],
+      "complete_cartesian_trials": 1,
+      "solutions": 0
+    },
+    {
+      "rows": [
+        "babab"
+      ],
+      "columns": [
+        "baba",
+        "aaab",
+        "abbb",
+        "bbbb",
+        "abab",
+        "babb",
+        "bbaa"
+      ],
+      "complete_cartesian_trials": 1,
+      "solutions": 0
+    }
+  ],
+  "cases": [
+    {
+      "n": 1000,
+      "command": [
+        "/tmp/knuth-vol4b-words-primes-n0es0a7o/word231-census",
+        "audit-2026-10-31/sources/wordlists/words5-from-sgb",
+        "audit-2026-10-31/sources/wordlists/words4-from-OSPD4",
+        "1000"
+      ],
+      "started_at_utc": "2026-11-03T18:28:05.637214+00:00",
+      "status": "complete_and_independently_validated",
+      "returncode": 0,
+      "wall_seconds": 0.03868727100780234,
+      "output_sha256": "781d0f77ed759b53e0e19fa43a02d0c56b785f3a590ae4435d58fff652bdce70",
+      "terminal_sha256": "d93af6c19a6e3becb72103ac5f0a415160d52aab1ee5facc24458d14d9e9a119",
+      "count": 27,
+      "validated": 27,
+      "best": 139,
+      "best_models": [
+        "maplearraysmoketypes"
+      ],
+      "profile": [
+        1,
+        24,
+        158,
+        566,
+        894,
+        988,
+        7896,
+        28001,
+        44794,
+        28831,
+        9331,
+        41651,
+        70300,
+        34473,
+        13592,
+        2156,
+        3371,
+        1632,
+        423,
+        90,
+        27
+      ]
+    },
+    {
+      "n": 2000,
+      "command": [
+        "/tmp/knuth-vol4b-words-primes-n0es0a7o/word231-census",
+        "audit-2026-10-31/sources/wordlists/words5-from-sgb",
+        "audit-2026-10-31/sources/wordlists/words4-from-OSPD4",
+        "2000"
+      ],
+      "started_at_utc": "2026-11-03T18:28:05.685136+00:00",
+      "status": "complete_and_independently_validated",
+      "returncode": 0,
+      "wall_seconds": 0.41778982599498704,
+      "output_sha256": "2ab379b3b6a1b003458dc27ff29debd2d2ec13d7ff090b5f122cae60518f790b",
+      "terminal_sha256": "0218e6a4afa21c04e4f554055deaf87f48c8fd5e9b0274d5d848e98187ee77d8",
+      "count": 8017,
+      "validated": 8017,
+      "best": 176,
+      "best_models": [
+        "happyexileallowpelts"
+      ],
+      "profile": [
+        1,
+        25,
+        183,
+        901,
+        1679,
+        1969,
+        18528,
+        94767,
+        238046,
+        208685,
+        99307,
+        595103,
+        1758297,
+        2078832,
+        1021022,
+        234683,
+        499757,
+        329874,
+        150935,
+        33210,
+        8017
+      ]
+    },
+    {
+      "n": 3000,
+      "command": [
+        "/tmp/knuth-vol4b-words-primes-n0es0a7o/word231-census",
+        "audit-2026-10-31/sources/wordlists/words5-from-sgb",
+        "audit-2026-10-31/sources/wordlists/words4-from-OSPD4",
+        "3000"
+      ],
+      "started_at_utc": "2026-11-03T18:28:06.985588+00:00",
+      "status": "complete_and_independently_validated",
+      "returncode": 0,
+      "wall_seconds": 5.659753156010993,
+      "output_sha256": "e0aade030e38f11c18a98c3a13925ec1be5568684e40bf8491eebeafc86a52b1",
+      "terminal_sha256": "99f37eec77c290f3cc7d0a2c5a10d1f953daedf5d9469ebd891bc158622ef5c9",
+      "count": 310077,
+      "validated": 310077,
+      "best": 197,
+      "best_models": [
+        "jambsequiptumorsassy",
+        "magmaequipouncewaked"
+      ],
+      "profile": [
+        1,
+        25,
+        208,
+        1185,
+        2429,
+        2954,
+        30026,
+        193986,
+        604352,
+        649706,
+        370438,
+        2427833,
+        9989560,
+        17973023,
+        11429650,
+        3172360,
+        7516188,
+        7237244,
+        4181223,
+        1141071,
+        310077
+      ]
+    }
+  ],
+  "dictionary_hashes": {
+    "sources/wordlists/words5-from-sgb": "52a04f4fb860953c2a29c2769014bd8b12d090a19e7577a460a2a2586bd6d4ce",
+    "sources/wordlists/words4-from-OSPD4": "b7190678e3a22099acdf1522da2365f2396eb9efb040d8b648c5e18148dac920"
+  },
+  "finished_at_utc": "2026-11-03T18:29:03.580644+00:00",
+  "old_searches_repeated": 0
+}

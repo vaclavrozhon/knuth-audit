@@ -1,0 +1,89 @@
+{
+  "checked_at_utc": "2026-11-06T19:27:36.342204+00:00",
+  "target": "Contents xv: three cross-volume zero references",
+  "errata_layers": [
+    {
+      "path": "errata/text/err4b.txt",
+      "sha256": "2a3450bf3c79d28ad3c2d96468344c96995cf0afb74961f257c311bb9c821e1c",
+      "matches": [
+        {
+          "line": 88,
+          "text": " Page xv repla ement for lines 11{13                                      26 Nov 2022"
+        },
+        {
+          "line": 90,
+          "text": "  7.2. Generating All Possibilities . . . . . . . . . . . . . . . .          [4A.281℄"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all4b.txt",
+      "sha256": "b1a3425486f403fb4158585d5bbfef0159fd20b12e2e7d47b64e393e1ae8a303",
+      "matches": [
+        {
+          "line": 95,
+          "text": " Page xv repla ement for lines 11{13                                         26 Nov 2022"
+        },
+        {
+          "line": 97,
+          "text": "  7.2. Generating All Possibilities . . . . . . . . . . . . . . . .              [4A.281℄"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/err4f5.txt",
+      "sha256": "5a716c34e2063eb46005593d53e89dbbd912b5677e0a6ab11753f2a5ee38b557",
+      "matches": []
+    },
+    {
+      "path": "errata/text/all4f5.txt",
+      "sha256": "0dd38c4cda72b01baefb797611c9bbab7713ff0c107a1df884afc89fe9bb91c3",
+      "matches": []
+    },
+    {
+      "path": "errata/text/err4f6.txt",
+      "sha256": "0a065b32ef4f8e427a178a77e0fe81b7caad77389ecec060c8793567cd5a3eb2",
+      "matches": []
+    },
+    {
+      "path": "errata/text/all4f6.txt",
+      "sha256": "468af6337a650d3b8b132fa854a21a4a460d891d3497986318ba1830581dddb8",
+      "matches": []
+    }
+  ],
+  "conclusion": "Known contents correction found in both err4b and all4b: printed page xv, replacement for lines11–13,2022-11-26. Confirmed against the original TeX and the official fourth-release preview. No new finding.",
+  "publisher_preview_sha256": "42d97616e759fe3abf51c3fb1fca743732529c40d3d23524a5ca24f0cc3a3c57",
+  "publisher_preview_manifest": "sources/vol4b-publisher-preview.json",
+  "known_corrections": [
+    {
+      "page": "ix",
+      "date": "2023-01-06",
+      "change": "Mar-ijn -> Ma-rijn"
+    },
+    {
+      "page": "x",
+      "date": "2023-11-24",
+      "change": "Bit example10 ->18;2,3,1 ->2,4,1. Both are mathematically valid."
+    },
+    {
+      "page": "xiv",
+      "date": "2023-04-09",
+      "change": "Move page number to bottom and delete running head."
+    },
+    {
+      "page": "xiv",
+      "date": "2024-04-27",
+      "change": "Digges quote: aduice->aduise; thorow;->thorow,"
+    },
+    {
+      "page": "xv",
+      "date": "2022-11-26",
+      "change": "Three cross-volume references0 -> [4A.1],[4A.281],[4A.281]"
+    },
+    {
+      "page": "2",
+      "date": "2022-12-25",
+      "change": "In(9),(E XY) -> E(XY), notation clarification."
+    }
+  ]
+}

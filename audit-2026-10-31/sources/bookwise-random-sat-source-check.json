@@ -1,0 +1,60 @@
+{
+  "checked_at_utc": "2026-11-12T01:15:57.016566+00:00",
+  "errata_ranges": {
+    "4B": [
+      [
+        231,
+        238
+      ],
+      [
+        580,
+        586
+      ],
+      [
+        331,
+        333
+      ]
+    ],
+    "4F6": [
+      [
+        47,
+        54
+      ],
+      [
+        216,
+        222
+      ],
+      [
+        147,
+        149
+      ]
+    ]
+  },
+  "new_findings": [
+    "F208",
+    "F209",
+    "F210"
+  ],
+  "author_extension": "https://www-cs-faculty.stanford.edu/~knuth/programs/sat11k.ch",
+  "author_extension_provenance": "audit-2026-10-31/sources/bookwise-sat11k.ch.provenance.json",
+  "primary_2sat": "https://www.diochnos.com/teaching/CS5970/2020F/project-papers/ChvatalReed.pdf",
+  "primary_2sat_provenance": "audit-2026-10-31/sources/bookwise-chvatal-reed1992.pdf.provenance.json",
+  "post_publication_reports": [
+    {
+      "url": "https://eccc.weizmann.ac.il/report/2026/229/",
+      "author": "Gaia Carenini",
+      "date": "2026-10-05",
+      "claim": "Limiting threshold for every fixed k>=3, via a polynomial window bound.",
+      "scope": "Abstract and introductory theorem statements read via web; no independent full proof audit. Direct local PDF fetch failed with RemoteDisconnected; not claimed archived."
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.10599",
+      "author": "Fedor Vorobyev",
+      "date": "2026-10-06",
+      "claim": "Upper bound4.268 for random3SAT.",
+      "scope": "Primary abstract read; proof and formalization not independently checked."
+    }
+  ],
+  "new_check": "Two isolated fixed local state traces in check_bookwise_sat175.py; no generalized census.",
+  "known_errata": "2022 symmetry-breaking change to176 is incorporated; no matching correction for175 or178."
+}

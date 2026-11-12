@@ -1,0 +1,71 @@
+{
+  "checked_at_utc": "2026-11-01T16:26:24.156892+00:00",
+  "pattern": "quickly|bipartite|incidence matrix|4b\\.(65|66|67|68|69|416|417|418)\\b|4f5\\.(224|225|226)\\b|Page (68|69|416|417|418)\\b",
+  "interpretation": "Published p68/p69 clarifications and already incorporated historical answers2/12 changes; no correction to quickly in answer4.",
+  "files": [
+    {
+      "path": "errata/originals/err4b.textxt",
+      "sha256": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+      "hits": [
+        {
+          "line": 342,
+          "text": "\\improvepage 4b.68 line 2 after Table 1 (22.12.16)"
+        },
+        {
+          "line": 347,
+          "text": "\\amendpage 4b.69 line 2 of Algorithm X (24.11.17)"
+        }
+      ]
+    },
+    {
+      "path": "errata/originals/err4f5.textxt",
+      "sha256": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b",
+      "hits": [
+        {
+          "line": 523,
+          "text": "[the bipartite graph should have an edge between $u_7$ and $v_1$]"
+        },
+        {
+          "line": 878,
+          "text": "(He also found, rather quickly, that an optimum ternary commafree"
+        },
+        {
+          "line": 903,
+          "text": "\\bugonpage 4f5.224 replacement for lines 1--6 of answer 2 (20.10.24)"
+        },
+        {
+          "line": 916,
+          "text": "\\improvepage 4f5.226 line 2 of answer 12 (21.07.30)"
+        },
+        {
+          "line": 920,
+          "text": "\\amendpage 4f5.226 append new paragraph to answer 12 (20.03.27)"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all4b.txt",
+      "sha256": "b1a3425486f403fb4158585d5bbfef0159fd20b12e2e7d47b64e393e1ae8a303",
+      "hits": [
+        {
+          "line": 154,
+          "text": "Page 68 line 2 after Table 1                                               16 De 2022"
+        },
+        {
+          "line": 156,
+          "text": " Page 69 line 2 of Algorithm X                                             17 Nov 2024"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all4f5.txt",
+      "sha256": "0dd38c4cda72b01baefb797611c9bbab7713ff0c107a1df884afc89fe9bb91c3",
+      "hits": [
+        {
+          "line": 273,
+          "text": "    [the bipartite graph should have an edge between u7 and v1 ℄"
+        }
+      ]
+    }
+  ]
+}

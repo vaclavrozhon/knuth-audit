@@ -1,0 +1,27 @@
+{
+  "status": "all assertions passed",
+  "modulus_range": [
+    1,
+    20
+  ],
+  "forward_formula_checks": 308700,
+  "backward_formula_checks": 143382,
+  "image_checks": 2870,
+  "pure_cycle_checks": 26767,
+  "power_of_two_checks": 43688,
+  "printed_wrong_integral": 11368,
+  "printed_wrong_fractional": 44478,
+  "counterexample": {
+    "m": 8,
+    "a": 3,
+    "c": 1,
+    "b": 2,
+    "a_prime": 3,
+    "x0": 0,
+    "x1": 1,
+    "k": 1,
+    "printed_result": 4,
+    "correct_result": 0,
+    "lifted_inverse": 11
+  }
+}

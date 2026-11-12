@@ -1,0 +1,104 @@
+{
+  "status": "passed",
+  "certified_log10_of_2_binary_bits": 48,
+  "first_wrong_bit": 19,
+  "rounded_trace_first_states": [
+    2000,
+    4000,
+    1600,
+    2560,
+    6554,
+    4295,
+    1845,
+    3404,
+    1159,
+    1343,
+    1804
+  ],
+  "rounded_cycle_start": 185,
+  "rounded_cycle_length": 47,
+  "rounded_log_limit": "0.3010314518384567767915839465423414803024104606773520191645099550337788",
+  "decimal_power_examples": [
+    "1.999999973916402835893005745623770032602072189774690747869118368517056",
+    "2.000000019968104625366707611206532702837305418829706275254237655063721"
+  ],
+  "four_figure_bound": "0.0004344030917285115993824480072117534457676268137141230409533344861686424",
+  "hamming_relative_error_bounds": [
+    "0.0058228237760734953690289838173304051562852194872091",
+    "0.0058228237760734953690289838173304051563996378937886"
+  ],
+  "fixed_point_log_inputs": 8190,
+  "fixed_point_exp_inputs": 8190,
+  "maximum_repetitions_of_log_shift_index": 2,
+  "runs_by_precision": [
+    {
+      "bits": 1,
+      "log_steps": 1,
+      "exp_steps": 1
+    },
+    {
+      "bits": 2,
+      "log_steps": 2,
+      "exp_steps": 2
+    },
+    {
+      "bits": 3,
+      "log_steps": 3,
+      "exp_steps": 3
+    },
+    {
+      "bits": 4,
+      "log_steps": 3,
+      "exp_steps": 3
+    },
+    {
+      "bits": 5,
+      "log_steps": 4,
+      "exp_steps": 4
+    },
+    {
+      "bits": 6,
+      "log_steps": 5,
+      "exp_steps": 5
+    },
+    {
+      "bits": 7,
+      "log_steps": 6,
+      "exp_steps": 6
+    },
+    {
+      "bits": 8,
+      "log_steps": 7,
+      "exp_steps": 7
+    },
+    {
+      "bits": 9,
+      "log_steps": 8,
+      "exp_steps": 8
+    },
+    {
+      "bits": 10,
+      "log_steps": 9,
+      "exp_steps": 9
+    },
+    {
+      "bits": 11,
+      "log_steps": 10,
+      "exp_steps": 10
+    },
+    {
+      "bits": 12,
+      "log_steps": 11,
+      "exp_steps": 11
+    }
+  ],
+  "exponent_base_below_one_residuals": [
+    "3/2",
+    "5/2",
+    "7/2",
+    "9/2"
+  ],
+  "exact_parts": "Integer transitions, rational log bounds, table rounding decisions, sign witness.",
+  "diagnostic_parts": "70-digit Decimal checks of observed algorithm errors; universal bounds proved in notes.",
+  "exponential_model": "Corrected E1, b=2, upward-rounded table, nearest initial y, no overflow."
+}

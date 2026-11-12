@@ -1,0 +1,167 @@
+{
+  "accessed_utc": "2026-11-03T18:15:04.532297+00:00",
+  "scope": "E/F, pp397-401 upper part, exercises4.5.4-11/12/13/14/28; heuristic time399 and local multiplier model400. Historical empirical context remains partial.",
+  "book_visually_read": [
+    397,
+    398,
+    399,
+    400,
+    401,
+    412,
+    413,
+    414,
+    659,
+    660,
+    664
+  ],
+  "book_djvu_offset": 12,
+  "errata_files": [
+    "errata/text/all2-prepre.txt",
+    "errata/text/all2-pre.txt",
+    "errata/text/all2.txt",
+    "errata/text/err2.txt",
+    "errata/originals/err2.textxt"
+  ],
+  "errata_visual_pdf_pages": {
+    "all2-prepre": [
+      22,
+      23,
+      24
+    ]
+  },
+  "errata_result": "2001-07-02 E1 initialization and first table rows; 1998-04-20 exercise11 typography. Neither reduced-numerator equality nor F/unit preconditions corrected in searched layers.",
+  "web_sources": [
+    {
+      "name": "Morrison-Brillhart1975",
+      "url": "https://studylib.net/doc/7962181/a-method-of-factoring-and-the-factorization-of-f7",
+      "doi": "10.1090/S0025-5718-1975-0371800-5",
+      "scope": "Primary article text transcription: introduction, section6, relevant section7 and sections8.1/8.5, Table7 read. Not visually read; not full article audit. Historical timing table is not a reproduced benchmark."
+    },
+    {
+      "name": "Morrison-Brillhart1975 publisher PDF",
+      "url": "https://www.ams.org/journals/mcom/1975-29-129/S0025-5718-1975-0371800-5/S0025-5718-1975-0371800-5.pdf",
+      "status": "HTTP403, web and direct request; not obtained"
+    },
+    {
+      "name": "Lehmer-Powers1931 publisher PDF",
+      "url": "https://www.ams.org/journals/bull/1931-37-10/S0002-9904-1931-05271-X/S0002-9904-1931-05271-X.pdf",
+      "status": "HTTP403, not obtained"
+    },
+    {
+      "name": "Williams1981 author-uploaded article",
+      "url": "https://www.researchgate.net/publication/238834073_A_numerical_investigation_into_the_length_of_the_period_of_the_continued_fraction_expansion_of",
+      "doi": "10.1090/S0025-5718-1981-0606518-7",
+      "scope": "Author-uploaded abstract and introduction text; bibliographic range593-601 corroborated. Not visually read, tables not reproduced."
+    },
+    {
+      "name": "Wunderlich1979 official two-page preview",
+      "url": "https://page-one.springer.com/pdf/preview/10.1007/BFb0062718",
+      "publisher_page": "https://link.springer.com/chapter/10.1007/BFb0062718",
+      "file": "sources/wunderlich-1979-preview.pdf",
+      "scope": "Printed328-329 visually read. Intro confirms1324 factorizations,15-42 digits, empirical exponent.152. Full article and m~150 recommendation not read."
+    }
+  ],
+  "source_queue": [
+    {
+      "name": "Wunderlich1979",
+      "doi": "10.1007/BFb0062718",
+      "scope": "Full article and m~150 recommendation still unverified. Official preview328-329 obtained and visually read; exponent.152 and1324 experiments corroborated."
+    }
+  ],
+  "independent_methods": [
+    "E multiply/remainder recurrence versus full p/q and (D-C*C)/V division recurrence",
+    "F elimination versus direct subset enumeration",
+    "Odd unit roots direct enumeration versus prime-power CRT formula",
+    "Primitive residue pairs versus one-dimensional root counts and rational tail sums",
+    "F7 recursive n-1 certificates; builtin powers versus independent right-to-left squaring"
+  ],
+  "process_notes": [
+    "First run stopped on a reference-state U indexing error before a checkpoint; corrected.",
+    "Next run completed recurrence then stopped on original100-output expectation25; actual24, corrected initialization25.",
+    "Resumed session69175 exited0; completed checkpoints preserved.",
+    "Valuations session17931, timeout PID1282438, limit180s, exited0.",
+    "Certificate generation limit120s, exit0; independent validation exit0. Short main runs had no captured PID."
+  ],
+  "new_findings": [
+    "V2-C0158",
+    "V2-C0159"
+  ],
+  "limitations": [
+    "Latest physical printing and priority not checked. Reports unsent.",
+    "Heuristic distribution and empirical historical timing are not unconditional complexity claims.",
+    "This six-output F counterexample uses the corrected2001 E; original E has an extra early relation and this specific example later succeeds.",
+    "The two live rho and Proth runs are separate; their changing files are excluded."
+  ],
+  "artifacts": [
+    {
+      "file": "notes/factoring-contfrac.md",
+      "bytes": 15687,
+      "sha256": "98cca24cc0e9fb1cfbd88b7d426970f0ea32570c685b7d30ca9c189fecaa02b7"
+    },
+    {
+      "file": "notes/C0158-reduced-convergent-norm.md",
+      "bytes": 2237,
+      "sha256": "e9c257ea3e552dbecf1bb2bbf394c888ad59a2847845e41d4cbd4a983803cbb1"
+    },
+    {
+      "file": "notes/C0159-factor-base-coprimality.md",
+      "bytes": 3710,
+      "sha256": "af8d3b7e405141ba8ac63ba49f775e629ad57d058a2e716c072f5e0313834738"
+    },
+    {
+      "file": "reports/C0158-reduced-convergent-norm-draft.txt",
+      "bytes": 863,
+      "sha256": "56521c4e0f79df9471e80a40ef607b92c7cdd1046e2695a902a290135d7f1bd9"
+    },
+    {
+      "file": "reports/C0159-factor-base-coprimality-draft.txt",
+      "bytes": 1202,
+      "sha256": "e03df85a441853ff043a11879d4604cf7c43941a520e3f4e3828e21b10319584"
+    },
+    {
+      "file": "verify_factoring_contfrac.py",
+      "bytes": 15783,
+      "sha256": "a002432d15845e643c60bf36e581c178b6e56b6c7535936b51c2885fa9683f1f"
+    },
+    {
+      "file": "generate_contfrac_certificates.py",
+      "bytes": 1016,
+      "sha256": "a0a2e4f287d103ddc2a18cc77220874cd17847d5f1f51b5548be18b4969f9fd7"
+    },
+    {
+      "file": "results/factoring-contfrac.json",
+      "bytes": 7385,
+      "sha256": "057a12b01e9eb81d9edece6a8376cb9a149323469837f1f9c07f186ab17af799"
+    },
+    {
+      "file": "results/factoring-contfrac.log",
+      "bytes": 3835,
+      "sha256": "e9eee7a236aea77e10432bc1af0fedbe2ccf62e5a5e31b67233472b1bcba5cd0"
+    },
+    {
+      "file": "results/factoring-contfrac-initial.log",
+      "bytes": 691,
+      "sha256": "35b4696549a2beb2724fcb24c951c46fae669a0b20c2aa05cc95d13657e6fad6"
+    },
+    {
+      "file": "results/contfrac-certificates.json",
+      "bytes": 5545,
+      "sha256": "a977fce8a0d00b29d1b848a4c176e362b74e3d0c770aa0090b0da22767986a33"
+    },
+    {
+      "file": "results/contfrac-certificates-generation.log",
+      "bytes": 19,
+      "sha256": "31e77e4e00b0e42314214f056e3960205494a6567bef4e3135f8201bcc5707b9"
+    },
+    {
+      "file": "sources/wunderlich-1979-preview.pdf",
+      "bytes": 102991,
+      "sha256": "8d997faae3afb0e8c1fefe1e1ef79728d3b548db7e139c12df71693096c079cb"
+    },
+    {
+      "file": "sources/wunderlich-1979-preview.txt",
+      "bytes": 2144,
+      "sha256": "94a83f74dcccbe00e62d9688e087d00ef1181b24ac1e66106851f6022fd1f4d0"
+    }
+  ]
+}

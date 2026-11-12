@@ -1,0 +1,47 @@
+{
+  "command": [
+    "python3",
+    "verify_f134.py"
+  ],
+  "returncode": 0,
+  "source_sha256": "559b55721afcc60bbdf2307fc36bbb650de720ed80213ad3f89298728c1202b3",
+  "result": {
+    "result": "PASS",
+    "original_conflicts": [
+      {
+        "vertex": [
+          7,
+          1
+        ],
+        "colors": [
+          "a",
+          "b"
+        ]
+      },
+      {
+        "vertex": [
+          7,
+          2
+        ],
+        "colors": [
+          "a",
+          "b"
+        ]
+      }
+    ],
+    "all24_tile_types": true,
+    "tried_rotations": 48,
+    "unique_fix": {
+      "index": 7,
+      "cell": [
+        6,
+        1,
+        1
+      ],
+      "before": "abb",
+      "after": "bba"
+    },
+    "instruction": "Rotate the rightmost downward-pointing triangle 120 degrees clockwise. White moves from its right corner to its bottom corner."
+  },
+  "all72_transcribed_corners_match_pdf": true
+}

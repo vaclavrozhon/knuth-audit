@@ -1,0 +1,56 @@
+{
+  "at_utc": "2026-11-03T10:30:55.554418+00:00",
+  "files": {
+    "errata/text/all4b.txt": "b1a3425486f403fb4158585d5bbfef0159fd20b12e2e7d47b64e393e1ae8a303",
+    "errata/text/err4b.txt": "2a3450bf3c79d28ad3c2d96468344c96995cf0afb74961f257c311bb9c821e1c",
+    "errata/text/all4f5.txt": "0dd38c4cda72b01baefb797611c9bbab7713ff0c107a1df884afc89fe9bb91c3",
+    "errata/text/err4f5.txt": "5a716c34e2063eb46005593d53e89dbbd912b5677e0a6ab11753f2a5ee38b557",
+    "errata/originals/err4b.textxt": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+    "errata/originals/err4f5.textxt": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b"
+  },
+  "pattern": "(?:[Pp]age\\s+|(?:4b|4f5)\\.)(?:143|458|459|141|266|267)\\b|(?:answer|exercise|exer ise)\\s+150\\b|Endless|super.piece|43 solutions|18 positions",
+  "contexts": [
+    {
+      "file": "errata/text/all4b.txt",
+      "line": 295,
+      "context": "\nPage 266 in the statement of Theorem J                                            02 Jul 2023\n (p; : : : ; p) 2 R(G)     y\n                       the probability ve tor (p; : : : ; p) is in R(G)\nPage 280 line 19                                                                 15 Nov 2025\n  If every literal in C ex ept x\u0016 appears   y If C ontains x\u0016 and if every other literal in C"
+    },
+    {
+      "file": "errata/text/all4b.txt",
+      "line": 530,
+      "context": " 8- ube  y    eight- ube\nPage 459 line 13 of answer 151                                                05 Nov 2022\n with Algorithm X   y     with Algorithm X and exer ise 413\nPage 460 line      3                                                          07 Apr 2026\n in 1981, and C. H. Jepsen and S. Ahearn   y      in 1981; S. T. Ahearn and C. H. Jepsen\nx"
+    },
+    {
+      "file": "errata/text/err4b.txt",
+      "line": 482,
+      "context": " 8- ube  y      eight- ube\nPage 459 line 13 of answer 151                                                      05 Nov 2022\n with Algorithm X    y          with Algorithm X and exer ise 413\nPage 460 line          3                                                            07 Apr 2026\n in 1981, and C. H. Jepsen and S. Ahearn      y         in 1981; S. T. Ahearn and C. H. Jepsen\nx"
+    },
+    {
+      "file": "errata/text/all4f5.txt",
+      "line": 657,
+      "context": "  3 three odd y 3 odd\nxPage 267 line 2 of answer 152                                              22 Jul 2022\n  multipli ity 11, and without y multipli ity 11, and a blank pattern of multipli ity 1,\n  but without\n Page 268 updated URL for last line of answer 154                           11 Jul 2022\n    eri h-friedman.github.io/mathmagi /0607.html"
+    },
+    {
+      "file": "errata/text/err4f5.txt",
+      "line": 603,
+      "context": "  3 three odd y 3 odd\nxPage 267 line 2 of answer 152                                              22 Jul 2022\n  multipli ity 11, and without y multipli ity 11, and a blank pattern of multipli ity 1,\n  but without\n Page 268 updated URL for last line of answer 154                           11 Jul 2022\n    eri h-friedman.github.io/mathmagi /0607.html"
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "line": 587,
+      "context": "\n\\improvepage 4b.266 in the statement of Theorem J (23.07.02)\n\\def\\calR{{\\cal R}}%\n$(p,\\ldots,p)\\in\\calR(G)$ \\becomes{\\sl\nthe probability vector $(p,\\ldots,p)$ is in $\\calR(G)$}\n\\endchange"
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "line": 940,
+      "context": "\n\\amendpage 4b.459 line 13 of answer 151 (22.11.05)\nwith Algorithm X \\becomes with Algorithm X and exercise 413\n\\endchange\n\n\\amendpage 4b.460 line $-3$ (26.04.07)"
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "line": 1108,
+      "context": "\n\\bugonpage 4f5.267 line 2 of answer 152 (22.07.22)\nmultiplicity 11, and without \\becomes\nmultiplicity~11, and a blank pattern of\nmultiplicity~1, but without\n\\endchange"
+    }
+  ],
+  "latest_remote_retrieval": "2026-11-03T05:37:34Z; six unchanged hashes from143",
+  "conclusion": "No matching correction to150 inventory. Adjacent151/152 errata are separate."
+}

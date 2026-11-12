@@ -1,0 +1,149 @@
+{
+  "accessed_utc": "2026-11-03T17:21:00.582344+00:00",
+  "status": "partial",
+  "scope": "C0153 confirmed variable typo; C0155 candidate omitted prechecks. Standard AKS proof and elementary polynomial runtime complete; stronger statement unresolved.",
+  "primary_sources": [
+    {
+      "name": "granville-2005-primality",
+      "url": "https://cr.yp.to/bib/2005/granville-easy.pdf",
+      "read_scope": "Visually printed4,15-20,24-29. Standard group proof and runtime argument checked. Other analytic details remain external.",
+      "path": "sources/granville-2005-primality.pdf",
+      "bytes": 533579,
+      "sha256": "f329dda32e339944726dfd87a8fedf1e5ccfc38255fe6832d1a369ee5077162f"
+    },
+    {
+      "name": "agrawal-kayal-saxena-2004",
+      "url": "https://pages.cs.wisc.edu/~cs812-1/AKS.pdf",
+      "read_scope": "Entire printed781-793 visually read (PDF1-13); text extraction empty. Fouvry analytic input remains external, not needed for own O(log n)^11 derivation.",
+      "path": "sources/agrawal-kayal-saxena-2004.pdf",
+      "bytes": 1501762,
+      "sha256": "0f7fc10910894f4d6a483356b8bb3b58ba29058949d78194728beb5de1dc0a8d"
+    },
+    {
+      "name": "lenstra-pomerance-2019",
+      "url": "https://math.dartmouth.edu/~carlp/aksfinal.pdf",
+      "read_scope": "Author version21Dec2018, publishedJEMS2019. Pages1-3text,1-2/9-11visually. Theorem1 andAlgorithm3.3 inspected; analytic construction and full49pages not independently audited.",
+      "path": "sources/lenstra-pomerance-2019.pdf",
+      "bytes": 380299,
+      "sha256": "ee3f75f3362797e797a6d67b67bc89f62ae74ccc67d0a913462e26dedff0ffd1"
+    },
+    {
+      "name": "bernstein-2004-quartic",
+      "url": "https://cr.yp.to/primetests/quartic-20041203.pdf",
+      "read_scope": "Version3Dec2004. Pages1-4,8visually. Full elementary Theorem2.1proof, certificate definition, complexity statement. Optimized Theorem3.2 and entire analytic construction not reproduced.",
+      "path": "sources/bernstein-2004-quartic.pdf",
+      "bytes": 191759,
+      "sha256": "24b2c74078cc6477dc5d02655356fbeb0cd78ca0f2653df85d1a8a940b7dfefe"
+    }
+  ],
+  "errata_files": [
+    {
+      "path": "errata/text/all2-prepre.txt",
+      "bytes": 137797,
+      "sha256": "62a1ff323ca421f2640e2337f922dbf8cfc8e86c20d9b11acfc91221721c6f58"
+    },
+    {
+      "path": "errata/text/all2-pre.txt",
+      "bytes": 58401,
+      "sha256": "c1735b70547678d739eae3a8d7b02872c737218eed7706a0aba8fb6fc21a6529"
+    },
+    {
+      "path": "errata/text/all2.txt",
+      "bytes": 38902,
+      "sha256": "1c4d7f2259e147db0ebe84b4bf0ce8864b307afb4ccfbe48efcb1f5f5999ac58"
+    },
+    {
+      "path": "errata/text/err2.txt",
+      "bytes": 35603,
+      "sha256": "1b5c93712c3c467a48679e0040ba6c5869998b25184dbd125a5d096ce96e9ab0"
+    },
+    {
+      "path": "errata/originals/err2.textxt",
+      "bytes": 48721,
+      "sha256": "8faa21566312314ec6bda0f8956913deb312517fd9fa688dcc0bf19e1f21962e"
+    }
+  ],
+  "errata_visually_read": [
+    {
+      "file": "errata/pdf/all2-prepre.pdf",
+      "pages": [
+        22
+      ]
+    }
+  ],
+  "web_metadata": [
+    {
+      "url": "https://doi.org/10.4171/JEMS/861",
+      "scope": "Publisher confirms2019JEMS21(4),1229-1269. Earlier result already described inGranville2005 andAKS2004 bibliography."
+    },
+    {
+      "url": "https://pure.tue.nl/ws/portalfiles/portal/67742817/798395-1.pdf",
+      "scope": "Student exposition briefly inspected as search lead; provides no proof settling omitted prechecks, not relied upon."
+    }
+  ],
+  "computations": [
+    {
+      "label": "consecutive and prime_squares",
+      "pid": 1273861,
+      "tool_session": 25030,
+      "limit_seconds": 300,
+      "exit_code": 0,
+      "seconds": 124.78228183701867,
+      "log": "results/primality-aks.log"
+    },
+    {
+      "label": "lcm_lemma only, --resume",
+      "pid": null,
+      "pid_note": "PID not captured for subsecond separate command",
+      "limit_seconds": 30,
+      "exit_code": 0,
+      "tool_wall_seconds": 0.367061849
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "verify_primality_aks.py",
+      "bytes": 6615,
+      "sha256": "fa1a30265566d38265d7fcc7e028a5cf4f5e5303e56b2993596298ebe4d0f28d"
+    },
+    {
+      "path": "results/primality-aks.json",
+      "bytes": 1203,
+      "sha256": "db582d3c7bce5a8457f2b1dc6fcb46dcefc82ae68863edd6418122443098bab3"
+    },
+    {
+      "path": "results/primality-aks.log",
+      "bytes": 66,
+      "sha256": "4b2b521a9309b083ee8d80c801dea063449cefb0533772a8bbbdceeb0588c43a"
+    },
+    {
+      "path": "results/primality-aks-consecutive.csv",
+      "bytes": 51627,
+      "sha256": "c37012f4295821093b2761db6aaf7d766ddcad40afc68994c17d2131ae05f16e"
+    },
+    {
+      "path": "results/primality-aks-squares.csv",
+      "bytes": 42991,
+      "sha256": "7af9be4e6ae02a226e88790ac98f4b93620e4a029c75032773fe2a88a285ec0c"
+    }
+  ],
+  "new_findings": [
+    "V2-C0153",
+    "V2-C0155"
+  ],
+  "csv_normalization": {
+    "note": "CRLF to LF after successful run. Parsed rows compared equal; producer now uses LF. No mathematical recomputation.",
+    "files": [
+      {
+        "path": "results/primality-aks-consecutive.csv",
+        "raw_sha256": "248f0b8391703f07b2f4abb8110a7d0410722cad84fe8bb31c9201711d03b9c0",
+        "normalized_sha256": "c37012f4295821093b2761db6aaf7d766ddcad40afc68994c17d2131ae05f16e"
+      },
+      {
+        "path": "results/primality-aks-squares.csv",
+        "raw_sha256": "81045886cb42f7a9e005ef49cc6338fbbe04aad7826a626190099595507a7244",
+        "normalized_sha256": "7af9be4e6ae02a226e88790ac98f4b93620e4a029c75032773fe2a88a285ec0c"
+      }
+    ]
+  }
+}

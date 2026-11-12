@@ -1,0 +1,29 @@
+{
+  "checked_at_utc": "2026-11-07T00:23:11.120509+00:00",
+  "target": "Volume3 answer5.2.1-31, printed624/file635: impossible average276.24u at N=8",
+  "original_typesetting": "workstreams/vol3/images/insertion-file-635.png",
+  "layers": [
+    {
+      "path": "errata/text/all3-prepre.txt",
+      "assessment": "Two15Aug1998 entries on624 center T in the frequency column and delete the extra word the. Neither changes timing formula or276.24. No276/351/15T correction was found."
+    },
+    {
+      "path": "errata/text/all3-pre.txt",
+      "assessment": "Page624, answer31 and numerical/overhead terms checked; no correction to this example."
+    },
+    {
+      "path": "errata/text/all3.txt",
+      "assessment": "Current combined layer checked by page, exercise and numerical terms; no correction to this example."
+    },
+    {
+      "path": "errata/text/err3.txt",
+      "assessment": "Current short layer checked by page, exercise and numerical terms; no correction to this example."
+    },
+    {
+      "path": "errata/text/err3-1e.txt",
+      "assessment": "Historical moved program on602 has12Feb1976 correction ENN2 INPUT-N,4 to ENN2 -INPUT-N,4, already present in our scan. Nearby602–603 answer context and numerical terms were checked; no correction of this time or setup omission."
+    }
+  ],
+  "method": "Reused full insertion page-range review, then targeted all-five searches for276,351,15T,624, historical602 and answer31. Every relevant match was read in context.",
+  "conclusion": "The numeric mean is not repaired by any of the five supplied errata layers. Original typesetting plus full instruction count prove the local low-severity finding; exact averaging over input permutations is unnecessary."
+}

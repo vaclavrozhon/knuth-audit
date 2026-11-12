@@ -1,0 +1,97 @@
+{
+  "url": "https://github.com/cvxgrp/n-queens",
+  "commit": "666965da4dfb4da098ce2212ff2a5d9ef56c0c9d",
+  "retrieved_at_utc": "2026-11-01T10:44:39.388948+00:00",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "15461255b68eb387302aa9d96a0b410703e2dba96f738fd3c378ee6b19265392",
+      "bytes": 2035
+    },
+    {
+      "path": "README.md",
+      "sha256": "0e219e53c0ae373e85b7641a562758a26fbc9f340de047dc328cabd30365742b",
+      "bytes": 1697
+    },
+    {
+      "path": "src/compute_lower_bound.py",
+      "sha256": "9c1b1a7ec257eefd38eabbb69fb38fda28cefbb147eefda53ee6238d3f079a93",
+      "bytes": 858
+    },
+    {
+      "path": "src/compute_upper_bound.py",
+      "sha256": "991ae3d6e8e2b2c49bb4edb765b02e6d78c6f51650615a61770246a1f4f0530a",
+      "bytes": 1949
+    },
+    {
+      "path": "src/compute_upper_bound_mem_opt.py",
+      "sha256": "54cf32edd03f5c7defbf1c3f0af9a72971c679214ca6320fc099e46697f3a90e",
+      "bytes": 1965
+    },
+    {
+      "path": "src/lower_bound_from_witness.py",
+      "sha256": "b178cddbb05b687e2c4a1eb455b9d45f2071b6104442fa236a3156bee79d60e9",
+      "bytes": 344
+    },
+    {
+      "path": "src/problem_formulations/approximate_xqueenons.py",
+      "sha256": "e7ae9efdb473b11f7a52a454495032c4d7127b368e10760d91ed65da745b572b",
+      "bytes": 3510
+    },
+    {
+      "path": "src/problem_formulations/generate_closed_form_xqueenon_integral.sage",
+      "sha256": "b3901bbce6de12372833e1687624cdaaafa274b61a9d4f7155083a38f4161906",
+      "bytes": 1494
+    },
+    {
+      "path": "src/problem_formulations/generated_code.py",
+      "sha256": "ee33877c5195b48243ca684057798e5856700535e0dea47feb6150ac04b00bec",
+      "bytes": 3067
+    },
+    {
+      "path": "src/problem_formulations/lower_bound.py",
+      "sha256": "47fce96e4d79a4eb533cf31d7ff989661d99660c76ee5207f4f85f141855b804",
+      "bytes": 2624
+    },
+    {
+      "path": "src/problem_formulations/xqueenons.py",
+      "sha256": "db5d1e93127cd3bce17193853066fd59ed0fb1b07ef05fe3cd33f8cf49b5f8e6",
+      "bytes": 7721
+    },
+    {
+      "path": "src/problem_formulations/xqueenons_w_inv_hessian.py",
+      "sha256": "0703f924c9b6180bbdd4f1ab2d798d917b5b4d4355e48dff020c91c9cee376f1",
+      "bytes": 9739
+    },
+    {
+      "path": "src/solvers/newton_diagonal.py",
+      "sha256": "dd3fb242c940768bae75df981270a9666fc6c6c1ed6f1b2157b704c048606ca7",
+      "bytes": 10587
+    },
+    {
+      "path": "src/solvers/newton_inv_hess.py",
+      "sha256": "321551af69e51269d2594f80f69d7399d8e82fcad51c22bbd2a6aa5abc7d8171",
+      "bytes": 9838
+    },
+    {
+      "path": "src/solvers/newton_sparse.py",
+      "sha256": "f96c6ca420c7332e97aa81626c0e1ce15814c850610d24c0b8e9d6e603e72529",
+      "bytes": 9879
+    },
+    {
+      "path": "src/upper_bound_from_witness.py",
+      "sha256": "be5f387c5bac44f767ca9615da899b06f522e2cfd14c7fbb0051426a8b2579ac",
+      "bytes": 319
+    },
+    {
+      "path": "src/witnesses/L_2048.npz",
+      "sha256": "0315f7eef40c4182991522102bf1d8db043b623d4fd6ecfe0993db6ce12a77a5",
+      "bytes": 98552
+    },
+    {
+      "path": "src/witnesses/U_1024.npz",
+      "sha256": "862eb5893f5acf4915238182fc9ab539c40033a363e1eb3d8e24a6c7de39be0c",
+      "bytes": 33620192
+    }
+  ]
+}

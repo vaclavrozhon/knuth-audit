@@ -1,0 +1,516 @@
+{
+  "checked_at_utc": "2026-11-07T01:32:58.900813+00:00",
+  "target": "p114 answer1.4.1-10 extends local/global equivalence to SAVE except its global destination. SAVE makes former locals marginal while other globals survive.",
+  "sources": [
+    {
+      "path": "errata/originals/err1f1.textxt",
+      "sha256": "07db671be6fcbc6c473ddc6593f6a16cce5833fb5f8a499ab7e2e3eee163dae3",
+      "matches": [
+        {
+          "line": 236,
+          "context": "leadership of Martin Ruckert. Every instance of \\MIX\\ code in Volumes\n1, 2, and~3 now has a suitable \\MMIX\\ equivalent. Martin's book,\n{\\sl The {\\sltt MMIX}~Supplement\\/} (Addison--Wesley, 2015), makes it\neasy for readers to substitute this 21st-century material wherever needed."
+        },
+        {
+          "line": 424,
+          "context": "\\bugonpage 1f1.39 lines 12--15 from the bottom (06.09.21)\nequivalent to the largest \\dots~not change that global register. \\becomes\nequivalent to the number of a global register that\nwill contain~$x$ when the program begins. If $x\\ne0$,"
+        },
+        {
+          "line": 425,
+          "context": "equivalent to the largest \\dots~not change that global register. \\becomes\nequivalent to the number of a global register that\nwill contain~$x$ when the program begins. If $x\\ne0$,\nthe value of~$x$ is considered to be a {\\it base address}, and the program"
+        },
+        {
+          "line": 684,
+          "context": "\\improvepage 1f1.97 line $-2$ (09.01.10)\nX~is marginal \\becomes \\$X~is marginal\n\\endchange\n"
+        },
+        {
+          "line": 852,
+          "context": "\n\\bugonpage 1f1.114 lines 2 and 3 of answer 9 (07.01.07)\ntwo additional instructions\n``\\.{GET}~\\.{\\$255,rB;} \\.{RESUME}\\hair'' will \\becomes\\nl"
+        },
+        {
+          "line": 1028,
+          "context": "Program counter, \\see At sign. % 2nd\n\\.{PUSHJ} (push registers and jump), 16, 53, 59, 73, 85--86, 114. % 2nd\nQuettabyte, 94. % 8th\nrC (continuation register), 19. % 2nd"
+        },
+        {
+          "line": 1034,
+          "context": "rI (interval counter), 19, 50. % 3rd\nrJ (return-jump register), 16, 60, 80, 81, 114. % 2nd\nRonnabyte, 94. % 8th\nrU (usage counter), 20. % 3rd"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/err1f1.txt",
+      "sha256": "7d6366838076d106c09e85a4f93f1b151e94c9af9f6874ea27aa6f106cdf84b6",
+      "matches": [
+        {
+          "line": 114,
+          "context": " Martin Ru kert. Every instan e of MIX ode in Volumes 1, 2, and 3 now has\n a suitable MMIX equivalent. Martin's book, The MMIX Supplement (Addison{\n Wesley, 2015), makes it easy for readers to substitute this 21st- entury material\n wherever needed. Volunteers are still, however, en ouraged to submit improve-"
+        },
+        {
+          "line": 204,
+          "context": "xPage 39 lines 12{15 from the bottom                                        21 Sep 2006\n  equivalent to the largest : : : not hange that global register.       y\n                                                                      equivalent to\n  the number of a global register that will ontain x when the program begins. If"
+        },
+        {
+          "line": 205,
+          "context": "  equivalent to the largest : : : not hange that global register.       y\n                                                                      equivalent to\n  the number of a global register that will ontain x when the program begins. If\n  x 6= 0, the value of x is onsidered to be a base address, and the program should"
+        },
+        {
+          "line": 459,
+          "context": "                                                           y\n Page 114\n\n  two additional instru tions \\GET $255,rB; RESUME \" will"
+        },
+        {
+          "line": 508,
+          "context": "Constants in MMIXAL, 37, 67.                   PUSHJ (push registers and jump), 16, 53,\nContinuation register, 19.                           59, 73, 85{86, 114.\nCoxeter, Harold S ott Ma Donald, 48.           Quettabyte, 94.\nCy le ounter, see rI.                          rC ( ontinuation register), 19."
+        },
+        {
+          "line": 515,
+          "context": "Division, 8{9, 13, 24{25, 49, 91.              rI (interval ounter), 19, 50.\nDot minus, 11.                                 rJ (return-jump register), 16, 60, 80, 81, 114.\nEXPR eld of MMIXAL line, 28{29, 38.            Ronnabyte, 94.\nFailure register, 19.                          rU (usage ounter), 20."
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all1f1.txt",
+      "sha256": "c0b1a7c575ffcbced2bc6a7048143a16286a081908850ad0956258dd2f84b18e",
+      "matches": [
+        {
+          "line": 113,
+          "context": "  Martin Ru kert. Every instan e of MIX ode in Volumes 1, 2, and 3 now has\n  a suitable MMIX equivalent. Martin's book, The MMIX Supplement (Addison{\n  Wesley, 2015), makes it easy for readers to substitute this 21st- entury material\n  wherever needed. Volunteers are still, however, en ouraged to submit improve-"
+        },
+        {
+          "line": 237,
+          "context": "xPage 39 lines 12{15 from the bottom                                         21 Sep 2006\n  equivalent to the largest : : : not hange that global register.       y\n                                                                      equivalent to\n  the number of a global register that will ontain x when the program begins. If"
+        },
+        {
+          "line": 238,
+          "context": "  equivalent to the largest : : : not hange that global register.       y\n                                                                      equivalent to\n  the number of a global register that will ontain x when the program begins. If\n  x 6= 0, the value of x is onsidered to be a base address, and the program should"
+        },
+        {
+          "line": 383,
+          "context": "Page 97 line 2                                                                        10 Jan 2009\n X is marginal      y $X is marginal\nPage 99     improvement to answer 8                                                   13 O t 2007\n     8. LOC -\b/16*-16 or LOC (\b+15)&-16 or LOC -(-\b>>4<<4) , et ."
+        },
+        {
+          "line": 518,
+          "context": "x\nPage 114      lines 2 and 3 of answer 9                                                 07 Jan 2007\n    two additional instru tions \\GET $255,rB; RESUME \" will         y\n    \\PUT rJ,$255; GET $255,rB; RESUME \" after the PUSHJ will"
+        },
+        {
+          "line": 569,
+          "context": "Hamming, Ri hard Wesley, distan e, 26.         PUSHJ (push registers and jump), 16, 53,\nHexade imal onstants, iii, 37.                      59, 73, 85{86, 114.\nIngalls, Daniel Henry Holmes, Jr., 109.        Quettabyte, 94.\nInput-output operations, 18, 31, 40{43, 92.    rC ( ontinuation register), 19."
+        },
+        {
+          "line": 576,
+          "context": "     v, 45, 65, 74.                            rI (interval ounter), 19, 50.\nLABEL eld of MMIXAL line, 28{29, 38, 40, 89.   rJ (return-jump register), 16, 60, 80, 81, 114.\nLeaf subroutines, 57, 65, 80.                  Ronnabyte, 94.\nLilius, Aloysius (= Aloigi Giglio, Luigi       rU (usage ounter), 20."
+        }
+      ]
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmixware-errata.html",
+      "sha256": "740b68475c94774ee2d143b0baa2d98111664e2e2c69ce3a29117311f8c4957e",
+      "matches": [
+        {
+          "line": 341,
+          "context": "<dd>insert a new line \"cool->stack_alert=!(cool->y.o.h&amp;sign_bit);\"</dd>\n<dt>page 203, new line 3 of section 114 (30 May 2011)</dt>\n<dd>The value of $\\beta$ may need to be decreased too (by decreasing rL).</dd>\n<dt>page 203, replacement for all the code in this section (30 May 2011)***</dt>"
+        },
+        {
+          "line": 889,
+          "context": "<dt>page 501, the mini-index (13 Feb 2000)***</dt>\n<dd>GET=#fe, NEGI=#35, PUTI=#f7, RESUME=#f9, UNSAVE=#f6, all defined in MMIX-PIPE &#167;47</dd>\n<dt>page 502, new line to follow line 5 (19 Jul 2011)</dt>\n<dd>$\\bullet$ <b>k</b>: Toggle the sign bit of the instruction pointer.</dd>"
+        },
+        {
+          "line": 902,
+          "context": "case 'k': inst_ptr.o.h^=0x80000000; /* shortcut to kernel mode */<br>\n&nbsp;  if (!ticks.l && head) head->loc.h^=0x80000000; /* fix the UNSAVE loc */<br>\nnew_inst_ptr: if (inst_ptr.o.h&amp;0x80000000)<br>\n&nbsp;   g[rK].o.h&amp=-2; /* disable interrupts on P_BIT */<br>"
+        }
+      ]
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmixware-current.html",
+      "sha256": "13614aa34f4ad039b12d331064d993292837bc12bf7fd2073ff34bfa41ae9834",
+      "matches": [
+        {
+          "line": 162,
+          "context": "<dt>page 334, line 26</dt>\n<dd>change \"equivalent to <tt>g22</tt>\" to \"equivalent to <tt>g21</tt>\"</dd>\n<dt>page 339, line 17</dt>\n<dd>change <tt>Put rW, $255;</tt> to <tt>Put rW,$255</tt> and"
+        }
+      ]
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmix-upstream-bugs.html",
+      "sha256": "a9b8c36c7fe466afd03a42ac900cd1e3c13250b7bd9ef575d0f331e31960a61a",
+      "matches": [
+        {
+          "line": 237,
+          "context": "<li> 21-09-2011, Eiji Yoshiya, <a href=\"bug0.html\">SYNCD may cause dead lock</a>, Status: fixed\n<li> 06-11-2011, Eiji Yoshiya, <a href=\"bug1.html\">SAVE in kernel mode causes stack alert</a>, Status: fixed\n<li> 17-11-2014, Laurent Desnogues, <a href=\"bug_ring_size.html\"><tt>ring_size</tt> is set incorrectly</a>, Status: fixed in the repository\n<li> 17-11-2014, Laurent Desnogues, <a href=\"bug_get_reader.html\"><tt>get_reader</tt> is used incorrectly</a>, Status: fixed in the repository"
+        },
+        {
+          "line": 251,
+          "context": "are not implemented according to specification</a>, Status: fixed\n<li> 4-09-2013, Martin Ruckert, <a href=\"bug_unsave.html\"><tt>UNSAVE</tt> can go into an infinite loop</a>, Status: fixed\n<li> 27-08-2015, Andreas Scherer, <a href=\"bug_rU.html\">Incrementing rU</a>, Status: fixed\n<li> 29-05-2025, Natalia Posting, <a href=\"bug_buffer_overrun.html\">buffer overrun in b command</a>, Status: fixed in the repository</ul>"
+        }
+      ]
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmix-upstream-rounding.html",
+      "sha256": "f864c5fc573f7049aaf2d3682c72ee09f78dfb3d7445a19dc891282f99314c1b",
+      "matches": []
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmix-arith-upstream-warnings.ch",
+      "sha256": "b4a916e0962e2f79828d6afca1a5a40775e82b725f45ec28664a3e66f6b093b4",
+      "matches": []
+    },
+    {
+      "path": "errata/text/all1.txt",
+      "sha256": "b641d6e48aaf2d77fc98a3c4a8a798d8156516b97095ec345a976e65d9c79aef",
+      "matches": [
+        {
+          "line": 150,
+          "context": "Page 27 line 5                                                             01 Mar 2022\n following equivalent      y following essentially equivalent\nPage 27 line 11 after (2)                                                   07 Feb 2024\n silly to interpret it as a sum on values of n \u0015 j ; but y   silly to interpret it as a"
+        },
+        {
+          "line": 314,
+          "context": "  an even fun tion  y an even fun tion (un hanged when z be omes z)\nPage 114 shortly after (13)                                                04 Sep 2024\n  the rst dis arded term y the rst nonzero dis arded term\nPage 114 last line of exer ise 4                                           04 Sep 2024"
+        },
+        {
+          "line": 316,
+          "context": "  the rst dis arded term y the rst nonzero dis arded term\nPage 114 last line of exer ise 4                                           04 Sep 2024\n  0 repla ing 1 y 0 repla ing the lower limit 1\n Page 116 line 2 of exer ise 6                                             04 Sep 2024"
+        },
+        {
+          "line": 367,
+          "context": " Page 185 new exer ise                                                                24 Mar 2023\n x38.  [M22 ℄ (Conjugate permutations.) When \u0019 and \n are arbitrary permutations, the\n  permutation"
+        },
+        {
+          "line": 368,
+          "context": " x38.  [M22 ℄ (Conjugate permutations.) When \u0019 and \n are arbitrary permutations, the\n  permutation\n                                                  \u0019 "
+        },
+        {
+          "line": 369,
+          "context": " are arbitrary permutations, the\n  permutation\n                                                  \u0019 \n = "
+        },
+        {
+          "line": 389,
+          "context": " = (8 7 6 5)(4 3 2 1).\n    e) True or false: Every permutation \u0019 is onjugate to its inverse, \u0019 .\n    f) True or false: (\u0019\u001b)\n = \u0019"
+        },
+        {
+          "line": 789,
+          "context": "    Commutative law, 165, 185.                     Onodera, Rikio (                            ), 582.\n    Conjugate of a permutation, 185, 526.          Plane partitions, 598.\n    Conversion operations of MIX, 138, 212.        Prim, Robert Clay, 579.\n    Demuth, Howard B. (= Bud), 120.                Rao, Mi hael, 587."
+        }
+      ]
+    },
+    {
+      "path": "errata/originals/err1.textxt",
+      "sha256": "f752c0a5fcf49686906e39fa5a1dab28b53adc8226b0a7e1a1b6cf850592bc91",
+      "matches": [
+        {
+          "line": 306,
+          "context": "\\amendpage 1.27 line 5 (22.03.01)\nfollowing equivalent \\becomes following essentially equivalent\n\\endchange\n"
+        },
+        {
+          "line": 524,
+          "context": "\n\\improvepage 1.114 shortly after {\\eq(13)} (24.09.04)\nthe first discarded term \\becomes the first nonzero discarded term\n\\endchange"
+        },
+        {
+          "line": 528,
+          "context": "\n\\improvepage 1.114 last line of exercise 4 (24.09.04)\n\\ninepoint 0 replacing 1 \\becomes 0 replacing the lower limit 1\n\\endchange"
+        },
+        {
+          "line": 622,
+          "context": "\\amendpage 1.185 new exercise (23.03.24)\n\\EX38. [M22] ({\\it Conjugate permutations.}) \nWhen $\\pi$ and $\\tau$ are arbitrary permutations, the permutation\n$$\\pi^\\tau\\;=\\;\\tau^-\\pi\\tau$$"
+        },
+        {
+          "line": 623,
+          "context": "\\EX38. [M22] ({\\it Conjugate permutations.}) \nWhen $\\pi$ and $\\tau$ are arbitrary permutations, the permutation\n$$\\pi^\\tau\\;=\\;\\tau^-\\pi\\tau$$\nis called ``the conjugate of $\\pi$ by $\\tau$.''"
+        },
+        {
+          "line": 637,
+          "context": "$\\bigl((1\\,2\\,3)(4\\,5)(6\\,7\\,8)\\bigr){}^\\tau=(8\\,7\\,6\\,5)(4\\,3\\,2\\,1)$.\n\\item{e)} True or false: Every permutation $\\pi$ is conjugate to\nits inverse, $\\pi^-$.\n\\item{f)} True or false: $(\\pi\\sigma)^\\tau=\\pi^\\tau\\sigma^\\tau$ and"
+        },
+        {
+          "line": 1227,
+          "context": "Commutative law, 165, 185. % 52nd\nConjugate of a permutation, 185, 526. % 52nd\nConversion operations of \\MIX, 138, 212. % 54th\nDemuth, Howard B\\period\\ (= Bud), 120. % 52nd"
+        },
+        {
+          "line": 1338,
+          "context": "page 112, Osaka, 1974\npage 114, line 10, comma to semicolon\npage 221, line -7, algorithm -> algorithms\npage 230, Toronto, 1952"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all1-pre.txt",
+      "sha256": "89d231245ff44164e09a39903faac35a2dc5e89956857abcc974991c99a887e5",
+      "matches": [
+        {
+          "line": 507,
+          "context": "                       1                        k=1 k!\nPage 114   line 7                                                                                 26 Feb 2013\nis less than     yis less in absolute value than\nPage 114       repla ement for (14)                                                               21 Mar 2021"
+        },
+        {
+          "line": 509,
+          "context": "is less than     yis less in absolute value than\nPage 114       repla ement for (14)                                                               21 Mar 2021\n                                            m B\n                                            X                 \u00101           \u0011"
+        },
+        {
+          "line": 516,
+          "context": "                                            k=1\nPage 114       repla ement for (15)                                                               21 Mar 2021\n                                                    Xm B\n                       = lim (Hn        ln n) = 1 +      k ( 1)k + lim R :                                (15)"
+        },
+        {
+          "line": 520,
+          "context": "                            n!1                     k=1 k         n!1 mn\nPage 114 lower half of page                                                                       21 Mar 2021\nlines 10 and 7: Hn 1        Hn      y\nline 5: (adding 1=n to both sides)                   y"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all1-prepre.txt",
+      "sha256": "1a3c3ac6137b9e98f427de0a344efca46fd83b7a3e6e8fe2fa38e94525ca0c31",
+      "matches": [
+        {
+          "line": 248,
+          "context": "                   relevant values\n  line 4: a permutation of the range       y su h a permutation\nxPage 33 line 5                                                                       29 Jul 1997\n  [1 \u0014 i \u0014 n℄[1 \u0014 j \u0014 n ℄ y [1 \u0014 i \u0014 n℄[1 \u0014 j \u0014 i℄"
+        },
+        {
+          "line": 257,
+          "context": "      2.                                     1   j n\n      3.   13                         write out the equivalent of\n                                             X        1 ;\n                                            0\u0014n\u00145"
+        },
+        {
+          "line": 261,
+          "context": "                                                  2 n +1\n  and also the equivalent of\n                                            X          1\n                                                           :"
+        },
+        {
+          "line": 513,
+          "context": "\nPage 114 line 10                                                                 10 Nov 2002\n  f   (m)\n            y f (x)  (m)"
+        },
+        {
+          "line": 518,
+          "context": "\nPage 114 line 15                                                                 28 Nov 2002\n  \u0006R1 y1\n                      R1"
+        },
+        {
+          "line": 705,
+          "context": "xPage 178 line 5                                                                24 De 2001\n  permutation(1 6 3)(4 5) y permutation (1 6 3)(4 5)\nPage 182 line 1                                                                 17 Mar 1998\n    A. De Moivre   y A. de Moivre"
+        },
+        {
+          "line": 728,
+          "context": " Page 184 in exer ise 29                                                                         14 O t 2008\n  lines 2{3: the \\doubling\" : : : mod 2n + 1                  ythe \\perfe t shu\u000fe\" permutation of\n  f1; 2; : : : ; 2ng, whi h takes (1; 2; : : : ; 2n) into (2; 4; : : : ; 2n; 1; 3; : : : ; 2n 1)\n  line 4: the doubling permutation             y  the perfe t shu\u000fe"
+        },
+        {
+          "line": 730,
+          "context": "  f1; 2; : : : ; 2ng, whi h takes (1; 2; : : : ; 2n) into (2; 4; : : : ; 2n; 1; 3; : : : ; 2n 1)\n  line 4: the doubling permutation             y  the perfe t shu\u000fe\nxPage 184 line 2 of exer ise 30                                                               01 Jan 2006\n  (2   d 1"
+        },
+        {
+          "line": 745,
+          "context": " Page 185 line 3                                                                             06 Aug 2001\n   this is the permutation on f0; 1; : : : ; m + n 1g that takes k into (k + m) mod (m + n)\n   y    ea h element xk should be repla ed by xp(k) for 0 \u0014 k < m + n, where p(k) =\n   (k + m) mod (m + n)."
+        },
+        {
+          "line": 749,
+          "context": " Page 185 new exer ise                                                       29 Jan 2010\n  37. [M26 ℄ (Even permutations.) Let \u0019 be a permutation of f1; : : : ; ng. Prove that \u0019\n   an be written as the produ t of an even number of 2- y les if and only if \u0019 an be\n  written as the produ t of exa tly two n- y les."
+        },
+        {
+          "line": 1110,
+          "context": "Page 354 line 1                                                            29 Aug 1997\n  pairs of equivalen es   y pairs of equivalent elements\n\n  24        CHANGES TO VOLUME 1: FUNDAMENTAL ALGORITHMS"
+        },
+        {
+          "line": 1117,
+          "context": "Page 360 line 2 of exer ise 8                                                     29 Aug 1997\n  equivalen es,   y equivalent elements,\nPage 360 line 2 of exer ise 9                                                     29 Aug 1997\n  pairs of equivalen es y equivalen es"
+        },
+        {
+          "line": 1568,
+          "context": "                                                                        ( y + kz )n k\n                                                                                      , an equivalent\n formula of Rothe [Formul\u001a de Serierum Reversione (Leipzig: 1793), 18℄.\nPage 487 line 9 of answer 38                                                              11 O t 2001"
+        },
+        {
+          "line": 2478,
+          "context": " ALF (alphabeti data), 151, 152, 155.                 95, 386, 388.\n ALGOL language, viii, 202, 229.                 Composition of permutations, see\n Alhazen, see Ibn al-Haytham.                         Multipli ation of permutations.\n An estor, in a tree stru ture, 311, 348, 562.   Conne ted dire ted graph, 372."
+        },
+        {
+          "line": 2479,
+          "context": " ALGOL language, viii, 202, 229.                 Composition of permutations, see\n Alhazen, see Ibn al-Haytham.                         Multipli ation of permutations.\n An estor, in a tree stru ture, 311, 348, 562.   Conne ted dire ted graph, 372.\n Arabi mathemati s, 1, 162.                      Continued fra tions, 498, 565."
+        },
+        {
+          "line": 2523,
+          "context": "                               ;\\l;                   76, 87, 111, 374, 407, 472, 496, 536, 600.\n      pAroEmtA AvlA), 307.                           onstant , 75, 107, 114, 619{620.\n\n                  CHANGES TO VOLUME 1: FUNDAMENTAL ALGORITHMS                           49"
+        },
+        {
+          "line": 2529,
+          "context": "   enumeration of, 380.                             (DIZZN OA SQEI = Flbio >I¸shpo\nEven permutations, 185.                             Matj\nou), problem, 162, 184.\nFibona i, Leonardo, of Pisa (= Leonardo        Kahn, Arthur Bertram, 268."
+        },
+        {
+          "line": 2573,
+          "context": "ILLIAC I omputer, 230.                         Ni oma hus of Gerasa (Nikìmaqo\nin situ permutation, 9, 165, 185, 523.              å âk Gerswn), 19.\nIn lusive an estors and des endants, 311.      NOP (no operation), 136, 142.\nIndian mathemati s, 53{54, 80, 495.            Nygaard, Kristen, 229, 461."
+        },
+        {
+          "line": 2581,
+          "context": "Islami mathemati s, 1, 162.                    Parsing Ma hine, 201.\nIverson, onvention, 32{33, 61, 103, 471.       Patterns in permutations, 243.\nJa obi, Carl Gustav Ja ob, 490.                Pe k, John Edward Lan elot, 461.\nJa ques, Alain, 527.                           Pedigree, 310{312."
+        }
+      ]
+    },
+    {
+      "path": "errata/text/err1-2e.txt",
+      "sha256": "1778c2089c0d317e283c6d28203b3a03b8db531c0d23faa9558661074e78a52a",
+      "matches": [
+        {
+          "line": 305,
+          "context": "  book. y book.*\n     * In fact, permutations are so important, Vaughan Pratt has suggested calling them \\perms.\"\n  As soon as Pratt's convention is established, textbooks of computer science will be somewhat\n  shorter, and perhaps less expensive."
+        },
+        {
+          "line": 614,
+          "context": "x25. [M23                       P \u0001          \u0001\n            ] Evaluate the sum k nk 2nn 2kk ( 2)k by simplifying the equivalent for-\n       P\n mula k [wk ] (1 2w)n [zn k ] (1 + z)2n 2k ."
+        },
+        {
+          "line": 712,
+          "context": " 19. [M21 ] If ak > aj for 1 \u0014 j < k, we say that ak is a left-to-right maximum of the\n sequence a1 a2 : : : an . Suppose a1 a2 : : : an is a permutation of f1; 2; : : : ; ng, and let\n b1 b2 : : : bn be the inverse permutation, so that ak = l if and only if bl = k. Show that\n ak is a left-to-right maximum of a1 a2 : : : an if and only if k is a right-to-left minimum"
+        },
+        {
+          "line": 713,
+          "context": " sequence a1 a2 : : : an . Suppose a1 a2 : : : an is a permutation of f1; 2; : : : ; ng, and let\n b1 b2 : : : bn be the inverse permutation, so that ak = l if and only if bl = k. Show that\n ak is a left-to-right maximum of a1 a2 : : : an if and only if k is a right-to-left minimum\n of b1 b2 : : : bn ."
+        },
+        {
+          "line": 906,
+          "context": "Page 172 replacement for lines 12 through 10                       26 Sep 1996\n Inverses. The inverse \u0019 of a permutation \u0019 is the rearrangement that undoes\n the e ect of \u0019; if i goes to j under \u0019, then j goes to i under \u0019 . Thus the product\n \u0019\u0019 equals the identity permutation, and so does the product \u0019 \u0019. People often"
+        },
+        {
+          "line": 908,
+          "context": " the e ect of \u0019; if i goes to j under \u0019, then j goes to i under \u0019 . Thus the product\n \u0019\u0019 equals the identity permutation, and so does the product \u0019 \u0019. People often\n denote the inverse by \u0019 1 instead of \u0019 , but the superscript 1 is redundant (for\n the same reason that x1 = x)."
+        },
+        {
+          "line": 913,
+          "context": " Here is a new Algorithm I together with a new Program I:\n Algorithm I (Inverse in place ). Replace X [1]X [2] : : :X [n], a permutation on\n f1; 2; : : :; ng, by its inverse. This algorithm is due to Bing-Chao Huang [Inf.\n Proc. Letters 12 (1981), 237{238]."
+        },
+        {
+          "line": 920,
+          "context": " I3. [Invert one.] (At this point j < 0 and i = X [m]. If m is not the largest ele-\n     ment of its cycle, the original permutation had X [ j ] = m.) Set X [m] j ,\n     j         m, m i, i X [m].\n I4. [End of cycle?] If i > 0, go back to I3 (the cycle has not ended); otherwise"
+        },
+        {
+          "line": 923,
+          "context": " I4. [End of cycle?] If i > 0, go back to I3 (the cycle has not ended); otherwise\n     set i j . (In the latter case, the original permutation had X [ j ] = m, and\n     m is largest in its cycle.)\n I5. [Store nal value.] Set X [m] i. (Originally X [i] was equal to m.)"
+        },
+        {
+          "line": 929,
+          "context": " See Table 2 for an example of this algorithm. The method is based on inversion\n of successive cycles of the permutation, tagging the inverted elements by making\n them negative, afterwards restoring the correct sign.\n                                            Table 2"
+        },
+        {
+          "line": 971,
+          "context": " the array and C is the total number of cycles. The behavior of C in a random\n permutation is analyzed below.\n      There is almost always more than one algorithm : : :\nPage 175 following the program                                             22 Feb 1995"
+        },
+        {
+          "line": 984,
+          "context": "Page 181 new exercise                                                       30 Jun 1995\n 32. [M25 ] (a) Prove that any permutation \u0019 = \u00191 \u00192 : : : \u00192m+1 of the form\n          \u0019 = (2 3)e2 (4 5)e4 : : : (2m 2m+1)e2m (1 2)e1 (3 4)e3 : : : (2m 1 2m)e2m 1 ;\n where each ek is 0 or 1, has j\u0019k kj \u0014 2 for 1 \u0014 k \u0014 2m + 1."
+        },
+        {
+          "line": 987,
+          "context": " where each ek is 0 or 1, has j\u0019k kj \u0014 2 for 1 \u0014 k \u0014 2m + 1.\n      (b) Given any permutation \u001a of f1; 2; : : : ; ng, construct a permutation \u0019 of the\n stated form such that \u001a\u0019 is a single cycle. Thus every permutation is \\near\" a cycle.\n"
+        },
+        {
+          "line": 988,
+          "context": "      (b) Given any permutation \u001a of f1; 2; : : : ; ng, construct a permutation \u0019 of the\n stated form such that \u001a\u0019 is a single cycle. Thus every permutation is \\near\" a cycle.\n\n                  CHANGES TO VOLUME 1: FUNDAMENTAL ALGORITHMS                                 23"
+        },
+        {
+          "line": 993,
+          "context": "                      l\n 33. [M33 ] If m = 2 and n = 2 , show how to construct sequences of permutations\n                    2         2 l +1\n ( j1 ; j2 ; : : : ; jn ; j1 ; j2 ; : : : ; jn ) for 0 \u0014 j < m with the following \\orthogonality\""
+        },
+        {
+          "line": 998,
+          "context": "                           i1 j 1 i2 j 2 : : : in jn = (1);              if i 6= j .\n Each jk and jk should be a permutation of f1; 2; 3; 4; 5g.\nPage 181 new exercises                                             22 Feb 1997\nx34. [M25 ] (Transposing blocks of data.) One of the most common permutations"
+        },
+        {
+          "line": 1000,
+          "context": "Page 181 new exercises                                             22 Feb 1997\nx34. [M25 ] (Transposing blocks of data.) One of the most common permutations\n needed in practice is the change from to , where and are substrings of an array.\n In other words, if x0 x1 : : : xm 1 = and xm xm+1 : : : xm+n 1 = , we want to change"
+        },
+        {
+          "line": 1004,
+          "context": " the array x0 x1 : : : xm+n 1 = to the array xm xm+1 : : : xm+n 1 x0 x1 : : : xm 1 = ;\n this is the permutation on f0; 1; : : : ; m + n 1g that takes k into (k + m) mod (m + n).\n Show that this \\cyclic-shift\" permutation has a simple cycle structure, and exploit that\n structure to devise a simple algorithm for the desired rearrangement."
+        },
+        {
+          "line": 1005,
+          "context": " this is the permutation on f0; 1; : : : ; m + n 1g that takes k into (k + m) mod (m + n).\n Show that this \\cyclic-shift\" permutation has a simple cycle structure, and exploit that\n structure to devise a simple algorithm for the desired rearrangement.\n 35. [M30 ] Continuing the previous exercise, let x0x1 : : : xl+m+n 1 = where , ,"
+        },
+        {
+          "line": 1009,
+          "context": " and are strings of respective lengths l, m, and n, and suppose that we want to change\n       to     . Show that the corresponding permutation has a simple cycle structure\n that leads to an e\u000ecient algorithm. [Exercise 34 considered the special case m = 0.]\n Hint: Consider changing ( )( ) to ( )( )."
+        },
+        {
+          "line": 1403,
+          "context": "               k 0\n    j =1 j \u0014 j =1 sj for 1 \u0014 k < m. (b) The result of (a) is equivalent to\n                                     mX1                mX1\n                                            f (sj ) \u0014          f (s0j )"
+        },
+        {
+          "line": 1421,
+          "context": "xPage 405 line 18                                                      18 Aug 1987\n  (1859) 114{115 y (1859), 112{115\nxPage 406 line 3                                                       14 Mar 1987\n  (1760), 13{15, 203{209 y (1758{1759), 13{15, 203{210"
+        },
+        {
+          "line": 1556,
+          "context": "larger ones. Given this arrangement, we can allocate blocks by using either the\n  rst t or the best t technique. (Both methods are equivalent in this case,\nbecause the slot sizes are ordered.) The e ect, under our assumptions, is to\nstart searching at an essentially random place among the rst N slots whenever"
+        },
+        {
+          "line": 2233,
+          "context": "                                                                             =\n       P. Flajolet and M. Soria [Disc. Math. 114 (1993), 159{180] have extended this\n analysis to show that Gn (z) and a large family of related distributions not only are\n approximately normal near their mean values, they also have uniformly exponential"
+        },
+        {
+          "line": 2545,
+          "context": "  memory. Reference: y\n  memory, and it performs any desired permutation in situ. References:\n  19{27. y\n  19{27; E. G. Cate and D. W. Twigg, ACM Trans. Math. Software 3 (1977), 104{110;"
+        },
+        {
+          "line": 2581,
+          "context": " odd. (b) Choose the exponents from left to right, setting ek = 1 i k and k + 1 are\n in di erent cycles of the permutation so far. [Steven Alpern, J. Combinatorial Theory\n B25 (1978), 62{73.]\nPage 521 new answers                                                    22 Feb 1997"
+        },
+        {
+          "line": 2587,
+          "context": " there are exactly d cycles C0 , C1 , : : : , Cd 1 , where Cj contains the elements fj; j + d;\n : : : ; j + N dg in some order. To carry out the permutation, we can therefore proceed\n as follows for 0 \u0014 j < d (in parallel, if convenient): Set t xj and k j ; then\n while (k + m) mod N 6= j , set xk x(k+m) mod N and k (k + m) mod N ; nally"
+        },
+        {
+          "line": 2593,
+          "context": " 35. Let M = l + m + n and N = l + 2m + n. The cycles for the desired rearrangement\n are obtained from the cycles of the permutation on f0; 1; : : : ; N 1g that takes k to\n (k + l + m) mod N , by simply striking out all elements of each cycle that are \u0015 M .\n (Compare this behavior with the similar situation in exercise 29.) Proof: When the"
+        },
+        {
+          "line": 2617,
+          "context": "           Suppose we have made such a construction for some l \u0015 0, where 2jk = jk                 2 = (1)\n  for 0 \u0014 j < m and 1 \u0014 k \u0014 n. Then the permutations\n                  (A(jm+j0 )1 ; : : : ; A(jm+j0 )(4n) ; B(jm+j0 )1 ; : : : ; B(jm+j0 )(4n) ) =\n                                          (\u001b j1 \u001b; : : : ; \u001b jn \u001b; "
+        },
+        {
+          "line": 2652,
+          "context": "  Syst. Sci. 38 (1989), 150{164], who proved a general theorem by which any Boolean\n  function can be represented as a product of permutations of f1; 2; 3; 4; 5g. With a\n  similar construction we can, for example, nd sequences of permutations ( j1 ; : : : ; jn ;\n    j 1 ; : : : ; jn ) such that"
+        },
+        {
+          "line": 2653,
+          "context": "  function can be represented as a product of permutations of f1; 2; 3; 4; 5g. With a\n  similar construction we can, for example, nd sequences of permutations ( j1 ; : : : ; jn ;\n    j 1 ; : : : ; jn ) such that\n                                                              \u001a (1 2 3 4 5); if i < j;"
+        },
+        {
+          "line": 2676,
+          "context": "  and vk = kC + T if and only if there are integers a1 \u0014 a2 \u0014 \u0001 \u0001 \u0001 \u0014 an such that\n  tk = (k 1)L + ak P satis es uk T \u0015 tk \u0015 vk N for N < k \u0014 n. An equivalent\n  condition is that NC \u0015 bk for N < k \u0014 n, where bk = C + T + ((k 1)(C L)) mod P .\n  Let cl = maxfbl+1 ; : : : ; bn ; 0g; then cl decreases as l increases, and the smallest value"
+        },
+        {
+          "line": 2699,
+          "context": "        P. V. Ramanan [SICOMP 13 (1984), 167{169] has shown how to characterize\n  the permutations obtainable when m auxiliary storage locations can be used freely in\n  addition to a stack. (This generalization of the problem is surprisingly di\u000ecult.)\nxPage 533 answer 9                                                                 08 Dec 1975"
+        },
+        {
+          "line": 2853,
+          "context": "  and n n + 1. Otherwise you can be sure that A[k] already contains legitimate data.\n  (By a slight extension of this method, it is possible to save and eventually restore the\n  contents of all entries of A and V that change during the computation.)\n Page 559 answer 20                                                                 30 Mar 1995"
+        },
+        {
+          "line": 3081,
+          "context": " \\continuants\" discussed in Section 4.5.3, except for the signs of individual terms.\n In fact, (j; k) = i1 k+j Qk j 1 (iaj+1 ; iaj+2 ; : : : ; iak 1 ). Thus (\u0003\u0003\u0003) is equivalent to\n Euler's identity for continuants in the answer to exercise 4.5.3{32. The matrices L\n and R have the interesting property that any 2 \u0002 2 matrix of nonnegative integers"
+        },
+        {
+          "line": 3705,
+          "context": "Dvoretzky, Aryeh, 588.                          Inverse of a matrix, 35{37, 72, 304.\nEgorychev, Georgi\u0015\u0010 Petrovich, 496.             Inverse of a permutation, 104, 172{175, 180.\nEisele, Peter, 479.                             Inversions of a permutation, 536\nEnd of le, 212{213, 223 (exercise 12).                (exercise 9), 553."
+        },
+        {
+          "line": 3706,
+          "context": "Egorychev, Georgi\u0015\u0010 Petrovich, 496.             Inverse of a permutation, 104, 172{175, 180.\nEisele, Peter, 479.                             Inversions of a permutation, 536\nEnd of le, 212{213, 223 (exercise 12).                (exercise 9), 553.\nEuler, Leonhard, 48, 51, 56, 75, 86, : : : .    Invert a linked list, 266, 276."
+        },
+        {
+          "line": 3795,
+          "context": "Orlin, James Berger, 579.                          publication of the Society for Industrial\nOrthogonal vectors of permutations, 181.           and Applied Mathematics.\nOtoo, Ekow Joseph, 556.                       Simonovits, Mikl\u0013os, 500.\n                                              Simulation of one computer on another,"
+        },
+        {
+          "line": 3805,
+          "context": "Perlis, Alan Jay, 319, 459.                        does not exist, 395{396.\nPermutations, in place, 518.                  Sister [this entry is out of order, in at\nPetolino, Joseph Anthony, Jr., 511.                least two senses].\nPfa , Johann Friedrich, 485.                  SODA: Proceedings of the ACM-SIAM"
+        }
+      ]
+    }
+  ],
+  "original_pages": [
+    "images/recovery-subroutine-answers-122.png"
+  ],
+  "semantic_review": "All matches read. The p114 correction applies to answer9 PUT rJ; p39 defines GREG and p97 corrects marginal notation. No layer repairs the answer10 extension. Upstream SAVE kernel-mode stack-alert and malformed-image UNSAVE loop reports were directly read; neither applies to the ordinary valid SAVE-only witnesses.",
+  "additional_primary_reports": [
+    {
+      "url": "https://mmix.cs.hm.edu/bugs/bug1.html",
+      "scope": "Kernel-space MMIX-PIPE stack-alert correction; distinct from normative L0 behavior."
+    },
+    {
+      "url": "https://mmix.cs.hm.edu/bugs/bug_unsave.html",
+      "scope": "Malformed UNSAVE image with invalid small G; no UNSAVE occurs in the witness."
+    }
+  ],
+  "reports_capture": {
+    "path": "sources/C0022-upstream-relevant-reports.txt",
+    "sha256": "9d82939baeb6fef3e30570452e30a573fe65025464b43d6ae65fd7f102a13349"
+  }
+}

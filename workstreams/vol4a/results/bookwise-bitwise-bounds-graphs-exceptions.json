@@ -1,0 +1,65 @@
+{
+  "scope": "Section 7.1.3 main 156–167, exercises 115–153, answers 601–607",
+  "updated_at_utc": "2026-11-10T23:53:19.414938+00:00",
+  "exceptions": [
+    {
+      "file_pages": [
+        175,
+        176,
+        211,
+        619,
+        620
+      ],
+      "detail": "The compressed multiplier reduction in answer 123 and exact finite-size/floor constants in Theorem P-prime/answer 125 were read but not independently closed. In particular, the proof explicitly excludes t < floor(log2(h+1)), while the theorem states an unrounded (log2 g)/3 bound; this rounding step is not certified. The RAM shift-class cardinality and final numerical size estimates in answer 124 are also explicit proof-sketch limits. The cited Brodnik–Miltersen–Munro papers were not re-proved."
+    },
+    {
+      "file_pages": [
+        210,
+        211,
+        618,
+        619,
+        620
+      ],
+      "detail": "Exercises 117,126,128–130 are research exceptions. The Håstad parity-circuit lower bound used in 127 and the external regular-language results are accepted as cited; no independent external proof or literature update was attempted."
+    },
+    {
+      "file_pages": [
+        177,
+        178,
+        211,
+        212,
+        620,
+        621
+      ],
+      "detail": "The reachability programs and clique update were read through their printed state changes. The queen-graph counts, workspace figures and historical timings were not reproduced, and the full maximal-clique implementation was not independently run. F0023 is a specific hand trace of the intermediate maximal-family invariant."
+    },
+    {
+      "file_pages": [
+        178,
+        179,
+        180,
+        212,
+        621,
+        622
+      ],
+      "detail": "The full optimum-cost classifications of ternary encodings and answers 136,138,140,142 were not enumerated. Functional formulas and symmetry reductions were reviewed; omitted optimum circuits and the open optimality question in 140 were not reconstructed. The automorphism remark in 136(b) was read in its nontrivial three-or-more-element context, without promoting small-domain caveats."
+    },
+    {
+      "file_pages": [
+        622
+      ],
+      "detail": "The Ulam update invariant was checked, but the million/billion-term numerical values, gap claims, empirical clustering and cited near-linear method in the 2020 addendum were not reproduced."
+    },
+    {
+      "file_pages": [
+        181,
+        182,
+        183,
+        184,
+        623,
+        624
+      ],
+      "detail": "The printed sideways-heap and nearest-common-ancestor constructions were reviewed. External dynamic-forest and navigation-pile performance results, and a full implementation test of all preprocessing/query cases, were not independently reproduced."
+    }
+  ]
+}

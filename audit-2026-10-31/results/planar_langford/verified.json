@@ -1,0 +1,541 @@
+{
+  "status": "verified",
+  "checked_at_utc": "2026-11-01T18:01:30.725023+00:00",
+  "source_sha256": "ffcc63480297908eda9ad3edbdea714e6aafbc3deae5beaeccd4f8713ce6abae",
+  "helper_sha256": "c2d0f2af00e74526b41b9e5a8f5d2a89026ab48f78e84d9a88562b9e56951bbf",
+  "ordinary_oracle_sha256": "d9d1398186252019f1a04c2f9bf25105f5df69d11e8e79fd8987c0f4e5ed2d7a",
+  "gadget_pair_checks": 198906,
+  "pair_summary": [
+    {
+      "n": 1,
+      "endpoint_disjoint_pairs": 0
+    },
+    {
+      "n": 2,
+      "endpoint_disjoint_pairs": 1
+    },
+    {
+      "n": 3,
+      "endpoint_disjoint_pairs": 18
+    },
+    {
+      "n": 4,
+      "endpoint_disjoint_pairs": 89
+    },
+    {
+      "n": 5,
+      "endpoint_disjoint_pairs": 281
+    },
+    {
+      "n": 6,
+      "endpoint_disjoint_pairs": 688
+    },
+    {
+      "n": 7,
+      "endpoint_disjoint_pairs": 1431
+    },
+    {
+      "n": 8,
+      "endpoint_disjoint_pairs": 2658
+    },
+    {
+      "n": 9,
+      "endpoint_disjoint_pairs": 4544
+    },
+    {
+      "n": 10,
+      "endpoint_disjoint_pairs": 7291
+    },
+    {
+      "n": 11,
+      "endpoint_disjoint_pairs": 11128
+    },
+    {
+      "n": 12,
+      "endpoint_disjoint_pairs": 16311
+    },
+    {
+      "n": 13,
+      "endpoint_disjoint_pairs": 23123
+    },
+    {
+      "n": 14,
+      "endpoint_disjoint_pairs": 31874
+    },
+    {
+      "n": 15,
+      "endpoint_disjoint_pairs": 42901
+    },
+    {
+      "n": 16,
+      "endpoint_disjoint_pairs": 56568
+    }
+  ],
+  "cases": [
+    {
+      "n": 1,
+      "ordinary_sequences": 0,
+      "planar_sequences": 0,
+      "page_assignments": 0,
+      "multiplicity_histogram": {},
+      "full_model_sets_equal": true,
+      "solutions": 0,
+      "initialization_mems": 125,
+      "search_mems": 13,
+      "updates": 1,
+      "bytes": 256,
+      "nodes": 1,
+      "profile": [
+        1
+      ],
+      "label": "n1",
+      "command": [
+        "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+        "v129",
+        "m1"
+      ],
+      "input_sha256": "ba43c14c1d8860c0698eb8291c55a0cd3cbb372fa70398c002bc0dbd6eebf003",
+      "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+      "elapsed_seconds": 0.003066375997150317,
+      "models_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "n": 2,
+      "ordinary_sequences": 0,
+      "planar_sequences": 0,
+      "page_assignments": 0,
+      "multiplicity_histogram": {},
+      "full_model_sets_equal": true,
+      "solutions": 0,
+      "initialization_mems": 1084,
+      "search_mems": 447,
+      "updates": 34,
+      "bytes": 1060,
+      "nodes": 2,
+      "profile": [
+        1,
+        1
+      ],
+      "label": "n2",
+      "command": [
+        "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+        "v129",
+        "m1"
+      ],
+      "input_sha256": "ae4230e0311a7109b9bea8389f9d40430800501cf717d224640de9d50d12cd1e",
+      "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+      "elapsed_seconds": 0.0018401480047032237,
+      "models_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "n": 3,
+      "ordinary_sequences": 2,
+      "planar_sequences": 2,
+      "page_assignments": 2,
+      "multiplicity_histogram": {
+        "1": 2
+      },
+      "full_model_sets_equal": true,
+      "solutions": 2,
+      "initialization_mems": 4548,
+      "search_mems": 2779,
+      "updates": 215,
+      "bytes": 3116,
+      "nodes": 7,
+      "profile": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "label": "n3",
+      "command": [
+        "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+        "v129",
+        "m1"
+      ],
+      "input_sha256": "a7d6a27c540b8170ea68d821eafcfa91f1d64970890e90c9d587ccd8b38406f1",
+      "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+      "elapsed_seconds": 0.0018412369827274233,
+      "models_sha256": "623553412a058766fb4a1881f07f21a52c4c7a56ad244b0f84e29dc9c735347d"
+    },
+    {
+      "n": 4,
+      "ordinary_sequences": 2,
+      "planar_sequences": 0,
+      "page_assignments": 0,
+      "multiplicity_histogram": {},
+      "full_model_sets_equal": true,
+      "solutions": 0,
+      "initialization_mems": 11301,
+      "search_mems": 11037,
+      "updates": 858,
+      "bytes": 6060,
+      "nodes": 14,
+      "profile": [
+        1,
+        3,
+        6,
+        4
+      ],
+      "label": "n4",
+      "command": [
+        "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+        "v129",
+        "m1"
+      ],
+      "input_sha256": "2bd13c8a2a77dfc424e93d96bab2b985419bd70802987d483a173b0ce0c6a35e",
+      "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+      "elapsed_seconds": 0.002123249985743314,
+      "models_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "n": 5,
+      "ordinary_sequences": 0,
+      "planar_sequences": 0,
+      "page_assignments": 0,
+      "multiplicity_histogram": {},
+      "full_model_sets_equal": true,
+      "solutions": 0,
+      "initialization_mems": 27845,
+      "search_mems": 34779,
+      "updates": 2717,
+      "bytes": 11024,
+      "nodes": 29,
+      "profile": [
+        1,
+        4,
+        12,
+        8,
+        4
+      ],
+      "label": "n5",
+      "command": [
+        "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+        "v129",
+        "m1"
+      ],
+      "input_sha256": "074bfc9d644ea7397dac34d852f9dd3ea4570bc6998a4cbd8f37bde091776d27",
+      "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+      "elapsed_seconds": 0.004175576992565766,
+      "models_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "n": 6,
+      "ordinary_sequences": 0,
+      "planar_sequences": 0,
+      "page_assignments": 0,
+      "multiplicity_histogram": {},
+      "full_model_sets_equal": true,
+      "solutions": 0,
+      "initialization_mems": 52122,
+      "search_mems": 89375,
+      "updates": 7018,
+      "bytes": 17136,
+      "nodes": 50,
+      "profile": [
+        1,
+        5,
+        20,
+        14,
+        10
+      ],
+      "label": "n6",
+      "command": [
+        "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+        "v129",
+        "m1"
+      ],
+      "input_sha256": "d5d61ac78b97df17fbe95c4ba2f167eb14f37b685651096081b907e25affc4a7",
+      "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+      "elapsed_seconds": 0.0032029380090534687,
+      "models_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "n": 7,
+      "ordinary_sequences": 52,
+      "planar_sequences": 0,
+      "page_assignments": 0,
+      "multiplicity_histogram": {},
+      "full_model_sets_equal": true,
+      "solutions": 0,
+      "initialization_mems": 104400,
+      "search_mems": 200945,
+      "updates": 15849,
+      "bytes": 26032,
+      "nodes": 79,
+      "profile": [
+        1,
+        6,
+        30,
+        24,
+        18
+      ],
+      "label": "n7",
+      "command": [
+        "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+        "v129",
+        "m1"
+      ],
+      "input_sha256": "9e2ac826cb25894dbad631c46c807f5f98cf27ea505b7429fc0547f993e775dc",
+      "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+      "elapsed_seconds": 0.003569559019524604,
+      "models_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "n": 8,
+      "ordinary_sequences": 300,
+      "planar_sequences": 8,
+      "page_assignments": 8,
+      "multiplicity_histogram": {
+        "1": 8
+      },
+      "full_model_sets_equal": true,
+      "solutions": 8,
+      "initialization_mems": 168943,
+      "search_mems": 436607,
+      "updates": 34566,
+      "bytes": 36352,
+      "nodes": 178,
+      "profile": [
+        1,
+        7,
+        42,
+        36,
+        36,
+        28,
+        12,
+        8,
+        8
+      ],
+      "label": "n8",
+      "command": [
+        "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+        "v129",
+        "m1"
+      ],
+      "input_sha256": "409d007d25f7146f49ad6dd567cfb24d2764cff1fec21d7e5dde53ede45e91fe",
+      "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+      "elapsed_seconds": 0.004090398986591026,
+      "models_sha256": "331169a1f0f599d729245948d85a2e0d9ae8e4cc23faac1612bedf1b1e733f2a"
+    },
+    {
+      "n": 9,
+      "ordinary_sequences": 0,
+      "planar_sequences": 0,
+      "page_assignments": 0,
+      "multiplicity_histogram": {},
+      "full_model_sets_equal": true,
+      "solutions": 0,
+      "initialization_mems": 298255,
+      "search_mems": 878443,
+      "updates": 69722,
+      "bytes": 50208,
+      "nodes": 323,
+      "profile": [
+        1,
+        8,
+        56,
+        50,
+        50,
+        70,
+        46,
+        26,
+        16
+      ],
+      "label": "n9",
+      "command": [
+        "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+        "v129",
+        "m1"
+      ],
+      "input_sha256": "f24d9576762ebc3a8c008c62fd3da2fdc2e7113a21db11fe02a408d9662284c0",
+      "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+      "elapsed_seconds": 0.0056279340060427785,
+      "models_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "n": 10,
+      "ordinary_sequences": 0,
+      "planar_sequences": 0,
+      "page_assignments": 0,
+      "multiplicity_histogram": {},
+      "full_model_sets_equal": true,
+      "solutions": 0,
+      "initialization_mems": 440870,
+      "search_mems": 1710067,
+      "updates": 136086,
+      "bytes": 65732,
+      "nodes": 634,
+      "profile": [
+        1,
+        9,
+        72,
+        66,
+        66,
+        106,
+        138,
+        104,
+        52,
+        20
+      ],
+      "label": "n10",
+      "command": [
+        "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+        "v129",
+        "m1"
+      ],
+      "input_sha256": "48dd6c2f51f7d82cdbcc899d06f3f008db03bfe9b5650064726cde176aeeb4af",
+      "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+      "elapsed_seconds": 0.00708593797753565,
+      "models_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "n": 11,
+      "ordinary_sequences": 35584,
+      "planar_sequences": 32,
+      "page_assignments": 32,
+      "multiplicity_histogram": {
+        "1": 32
+      },
+      "full_model_sets_equal": true,
+      "solutions": 32,
+      "initialization_mems": 713512,
+      "search_mems": 3341967,
+      "updates": 266236,
+      "bytes": 85580,
+      "nodes": 1396,
+      "profile": [
+        1,
+        10,
+        90,
+        84,
+        84,
+        140,
+        248,
+        317,
+        250,
+        103,
+        37,
+        32
+      ],
+      "label": "n11",
+      "command": [
+        "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+        "v129",
+        "m1"
+      ],
+      "input_sha256": "96c26f33aab7f01f65f6fd7ceaf15fc63b8128eb40870b93b22100f7ed0baaa9",
+      "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+      "elapsed_seconds": 0.009733809973113239,
+      "models_sha256": "749c6006dd2e534fea9d7bd18a9214bed578a25640b23fc8a007fdc34c024476"
+    }
+  ],
+  "printed_example": {
+    "sequence": [
+      12,
+      10,
+      8,
+      6,
+      4,
+      11,
+      9,
+      7,
+      5,
+      4,
+      6,
+      8,
+      10,
+      12,
+      5,
+      7,
+      9,
+      11,
+      3,
+      1,
+      2,
+      1,
+      3,
+      2
+    ],
+    "components": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        4,
+        5,
+        7,
+        9,
+        11,
+        6,
+        8,
+        10,
+        12
+      ]
+    ],
+    "page_assignments": [
+      [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    ],
+    "solutions": 2,
+    "initialization_mems": 115753,
+    "search_mems": 7505,
+    "updates": 596,
+    "bytes": 16720,
+    "nodes": 16,
+    "profile": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2
+    ],
+    "label": "n12-printed-example",
+    "command": [
+      "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+      "v129",
+      "m1"
+    ],
+    "input_sha256": "8956be8c98ac57b471c326471d6fddc5579b0754779060d55ae01976344f2586",
+    "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+    "elapsed_seconds": 0.002591908007161692
+  },
+  "scope": "General gadget-intersection and crossing-graph proofs in PLANAR_LANGFORD_PROGRESS_NOTES.md; all model sets n1..11; prescribed n12 split example. The historical missing8 correction is already applied."
+}

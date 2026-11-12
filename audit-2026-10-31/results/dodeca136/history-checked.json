@@ -1,0 +1,108 @@
+{
+  "at_utc": "2026-11-02T13:23:30.190991+00:00",
+  "source_sha256": "9acbb5a5e489841fb1e2cb51717842f25af8c8648af7e4d8a9b7e931749dee79",
+  "geometry_sha256": "e7139f84fcfed78e4b32eb42ecb66705ddfa4aa35f134eb3391f6f2f68cc59f8",
+  "original_pdf_sha256": "72ecd1b314f578a1b97247f4070f6b73900b372960c083e092cdaa1ea70f40a1",
+  "model_set_sha256": "e19af696fd8989108c10e70549c0a865debf99efb4bb6e21eaa8d60a7e9d75eb",
+  "source_types": {
+    "A": "12345",
+    "B": "12354",
+    "C": "12435",
+    "D": "12453",
+    "E": "12534",
+    "F": "12543",
+    "G": "13245",
+    "H": "13254",
+    "J": "13425",
+    "K": "13524",
+    "L": "14235",
+    "M": "14325"
+  },
+  "source_reverse_words": {
+    "A": "15432",
+    "B": "14532",
+    "C": "15342",
+    "D": "13542",
+    "E": "14352",
+    "F": "13452",
+    "G": "15423",
+    "H": "14523",
+    "J": "15243",
+    "K": "14253",
+    "L": "15324",
+    "M": "15234"
+  },
+  "belt": [
+    "001",
+    "111",
+    "210",
+    "211",
+    "101",
+    "010",
+    "100",
+    "201",
+    "200",
+    "110"
+  ],
+  "solutions": [
+    {
+      "source_ring": "G5K3M2C4B1H4J3L2E5A1G",
+      "completions": [
+        {
+          "vector": "142300423130422304102431432011",
+          "normalized_vector": "032411324041322413012340342100",
+          "automorphisms": 12,
+          "cap_faces": {
+            "000": "D",
+            "011": "F"
+          }
+        }
+      ]
+    },
+    {
+      "source_ring": "B2M5K2F5A1H3L5E3D5G1B",
+      "completions": [
+        {
+          "vector": "432100132420131302104342434021",
+          "normalized_vector": "032411432021434312410302030124",
+          "automorphisms": 4,
+          "cap_faces": {
+            "000": "J",
+            "011": "C"
+          }
+        }
+      ]
+    },
+    {
+      "source_ring": "E2L3D1G3H1F3M2C1J3K1E",
+      "completions": [
+        {
+          "vector": "204130134420311023341123242400",
+          "normalized_vector": "032413412203144301124401020233",
+          "automorphisms": 6,
+          "cap_faces": {
+            "000": "A",
+            "011": "B"
+          }
+        }
+      ]
+    }
+  ],
+  "original_citation": "M. R. Boothroyd and J. H. Conway, Problems Drive, 1959, Eureka 22 (October 1959), 15–17; solutions 22–23.",
+  "exercise_location": {
+    "printed": 16,
+    "pdf": 17,
+    "number": 6
+  },
+  "solution_location": {
+    "printed": 22,
+    "pdf": 23,
+    "number": 6
+  },
+  "verified": "Original formulation, twelve pentagonal types and all three printed rings agree with the modern complete census.",
+  "limits": [
+    "The scanned article does not independently establish discovery in 1958.",
+    "The name quintominal dodecahedra is absent from this article.",
+    "The original article gives three solutions but does not describe the method by which Conway obtained the exhaustive count."
+  ]
+}

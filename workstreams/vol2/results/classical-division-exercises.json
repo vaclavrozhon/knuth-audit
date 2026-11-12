@@ -1,0 +1,155 @@
+{
+  "scope": "4.3.1-17--30 supplementary mathematics",
+  "blocks": {
+    "estimates": {
+      "sampled_cases": 30000,
+      "trigger_counts": {
+        "19": 14367,
+        "20_one_sided": 15633,
+        "20_upper_estimate": 1316,
+        "17": 539,
+        "21": 27
+      },
+      "missing_upper_bound_witness": {
+        "b": 10,
+        "n": 2,
+        "u": 100,
+        "v": 50,
+        "qhat": 1,
+        "q": 2,
+        "rhat": 5,
+        "remainder": 0,
+        "second_digit_test": [
+          0,
+          50
+        ],
+        "bound21": "40"
+      },
+      "published_add_back_examples": [
+        {
+          "b": 10,
+          "U": 4100,
+          "V": 588,
+          "q": 6,
+          "r": 572,
+          "stats": {
+            "normalization_d_gt_1": 0,
+            "special_2026": 0,
+            "d3_decrements_0": 1,
+            "d3_decrements_1": 1,
+            "add_back": 1
+          }
+        },
+        {
+          "b": 65536,
+          "U": 9223231303661387776,
+          "V": 140739635970053,
+          "q": 65533,
+          "r": 140739635904527,
+          "stats": {
+            "normalization_d_gt_1": 0,
+            "special_2026": 0,
+            "d3_decrements_0": 1,
+            "d3_decrements_1": 1,
+            "add_back": 1
+          }
+        }
+      ],
+      "Benford": [
+        {
+          "b": 2,
+          "minimum_leading_digit": 1,
+          "probability": "log_b(2)"
+        },
+        {
+          "b": 3,
+          "minimum_leading_digit": 1,
+          "probability": "log_b(3)"
+        },
+        {
+          "b": 4,
+          "minimum_leading_digit": 2,
+          "probability": "log_b(2)"
+        },
+        {
+          "b": 5,
+          "minimum_leading_digit": 2,
+          "probability": "log_b(5/2)"
+        },
+        {
+          "b": 10,
+          "minimum_leading_digit": 5,
+          "probability": "log_b(2)"
+        },
+        {
+          "b": 16,
+          "minimum_leading_digit": 8,
+          "probability": "log_b(2)"
+        },
+        {
+          "b": 4294967296,
+          "minimum_leading_digit": 2147483648,
+          "probability": "log_b(2)"
+        }
+      ],
+      "elapsed_seconds": 1.5089432320091873
+    },
+    "Svoboda": {
+      "exhaustive_cases": 216195,
+      "iteration_counts": {
+        "2": 91606,
+        "1": 118046,
+        "0": 5454,
+        "3": 1089
+      },
+      "first_examples": {
+        "2": {
+          "b": 2,
+          "n": 1,
+          "v": 1,
+          "sequence": [
+            "1/2",
+            "3/4",
+            "9/8"
+          ]
+        },
+        "1": {
+          "b": 2,
+          "n": 2,
+          "v": 3,
+          "sequence": [
+            "3/4",
+            "9/8"
+          ]
+        },
+        "0": {
+          "b": 3,
+          "n": 2,
+          "v": 5,
+          "sequence": [
+            "10/9"
+          ]
+        },
+        "3": {
+          "b": 4,
+          "n": 1,
+          "v": 1,
+          "sequence": [
+            "1/2",
+            "3/4",
+            "15/16",
+            "75/64"
+          ]
+        }
+      },
+      "larger_cases": 2000,
+      "symbolic_identities": 5,
+      "elapsed_seconds": 34.6326958029822
+    },
+    "AS_aliases": {
+      "cases": 1920,
+      "scope": "Programs A/S with W=U or W=V, source operands loaded before store",
+      "elapsed_seconds": 3.8568932309863158
+    }
+  }
+}

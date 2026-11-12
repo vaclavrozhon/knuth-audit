@@ -1,0 +1,71 @@
+{
+  "status": "passed",
+  "coefficient_identity": {
+    "exact_cases": 2080,
+    "first_printing_counterexample": {
+      "k": 1,
+      "n": 2,
+      "actual": "3/8",
+      "old_expression": "-3/8"
+    }
+  },
+  "queues": [
+    {
+      "max_insertions": 9,
+      "prefixes_checked": 23713,
+      "completed_histories_by_size": {
+        "0": 1,
+        "9": 4862,
+        "8": 1430,
+        "7": 429,
+        "6": 132,
+        "5": 42,
+        "4": 14,
+        "3": 5,
+        "2": 2,
+        "1": 1
+      },
+      "direct_insertion_when_both_empty": false
+    },
+    {
+      "max_insertions": 9,
+      "prefixes_checked": 23713,
+      "completed_histories_by_size": {
+        "0": 1,
+        "9": 4862,
+        "8": 1430,
+        "7": 429,
+        "6": 132,
+        "5": 42,
+        "4": 14,
+        "3": 5,
+        "2": 2,
+        "1": 1
+      },
+      "direct_insertion_when_both_empty": true
+    }
+  ],
+  "illustrative_asymptotic_ratios": [
+    {
+      "n": 20,
+      "catalan_ratio": "0.946447749642503695484010525346558176947052756569846236711140",
+      "restricted_deque_ratio": "1.01799679114835153994747943778574844904933009095816688444977"
+    },
+    {
+      "n": 100,
+      "catalan_ratio": "0.988862164481437446595164120774273240171645642916759820546266",
+      "restricted_deque_ratio": "1.00353777890488561961084673349153008582811018647878345345154"
+    },
+    {
+      "n": 500,
+      "catalan_ratio": "0.997754522244563071258587996444014541306734185039940736740019",
+      "restricted_deque_ratio": "1.00070511404629344882631985704960899242557326470476996726372"
+    },
+    {
+      "n": 1000,
+      "catalan_ratio": "0.998876131685696473635368155424343468208117501525313331435190",
+      "restricted_deque_ratio": "1.00035240469733808582872999484577304026084956390280593351234"
+    }
+  ],
+  "scope": "Finite exact checks; asymptotic ratios are not proofs of a limit or an error bound."
+}

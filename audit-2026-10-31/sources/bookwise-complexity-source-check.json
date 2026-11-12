@@ -1,0 +1,47 @@
+{
+  "checked_at_utc": "2026-11-12T01:24:09.795432+00:00",
+  "errata_ranges": {
+    "4B": [
+      [
+        333,
+        336
+      ],
+      [
+        586,
+        590
+      ]
+    ],
+    "4F6": [
+      [
+        149,
+        152
+      ],
+      [
+        222,
+        226
+      ]
+    ]
+  },
+  "new_findings": [
+    "F211",
+    "F212"
+  ],
+  "retained_findings": [
+    "F055",
+    "F056"
+  ],
+  "primary_retained": "audit-2026-10-31/LATIN_REDUCTION_NOTES.md; Irving–Jerrum source and completed checks retained without rerun.",
+  "known_errata": [
+    "2019 changes to204/205 incorporated.",
+    "2017 exact-cover wording in212(a) incorporated.",
+    "2018 Gaussian replacement in215 incorporated but does not fix its domain.",
+    "2024 reference addition to205 is known erratum, not a new finding."
+  ],
+  "public_searches": [
+    "Knuth \"answer 217\" \"satisfiable\"",
+    "Knuth \"answer 215\" \"alpha\" satisfiability errata",
+    "Knuth \"True, unless both\" resolution"
+  ],
+  "search_result": "No matching public correction found; irrelevant search hits not used as evidence.",
+  "draft": "2015 fasc6a page226/file234 has both issues; current main PDF page590/file610 inspected."
+}

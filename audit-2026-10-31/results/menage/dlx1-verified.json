@@ -1,0 +1,409 @@
+{
+  "status": "verified",
+  "checked_at_utc": "2026-11-01T16:40:54.622456+00:00",
+  "source_sha256": "8e1203a7f72597e599fecc6c4c5e1533e76f2178a202f981d0da28220072a37f",
+  "build_metadata": "../dancing_links/dlx1-build.json",
+  "cases": [
+    {
+      "label": "n2-alternating-dlx1",
+      "n": 2,
+      "order": "alternating",
+      "variant": "dlx1",
+      "command": [
+        "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+        "v129",
+        "m1"
+      ],
+      "input_sha256": "8abc9ea1b21a89ccc414f3f73af8437e6aa948c0e6e65e99493fd6937486f1d8",
+      "elapsed_seconds": 0.006834514002548531,
+      "solutions": 0,
+      "initialization_mems": 59,
+      "search_mems": 13,
+      "mems_per_solution": null,
+      "updates": 1,
+      "bytes": 160,
+      "nodes": 1,
+      "full_model_sets_equal": true,
+      "model_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "label": "n2-alternating-dlx1-nomrv",
+      "n": 2,
+      "order": "alternating",
+      "variant": "dlx1-nomrv",
+      "command": [
+        "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1-nomrv",
+        "v129",
+        "m1"
+      ],
+      "input_sha256": "8abc9ea1b21a89ccc414f3f73af8437e6aa948c0e6e65e99493fd6937486f1d8",
+      "elapsed_seconds": 0.009632191999116912,
+      "solutions": 0,
+      "initialization_mems": 59,
+      "search_mems": 12,
+      "mems_per_solution": null,
+      "updates": 1,
+      "bytes": 160,
+      "nodes": 1,
+      "full_model_sets_equal": true,
+      "model_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "label": "n3-alternating-dlx1",
+      "n": 3,
+      "order": "alternating",
+      "variant": "dlx1",
+      "command": [
+        "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+        "v129",
+        "m1"
+      ],
+      "input_sha256": "872e97fa808be142fe611d03816b97d2539dde333a771e91e2c7f360f4868382",
+      "elapsed_seconds": 0.006185623002238572,
+      "solutions": 1,
+      "initialization_mems": 222,
+      "search_mems": 166,
+      "mems_per_solution": "166",
+      "updates": 9,
+      "bytes": 380,
+      "nodes": 4,
+      "full_model_sets_equal": true,
+      "model_set_sha256": "7aa6bc7a75b74d38effbc2fb36aa0ebca403ddc07d1826f52a6f9e36bc92a112"
+    },
+    {
+      "label": "n3-alternating-dlx1-nomrv",
+      "n": 3,
+      "order": "alternating",
+      "variant": "dlx1-nomrv",
+      "command": [
+        "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1-nomrv",
+        "v129",
+        "m1"
+      ],
+      "input_sha256": "872e97fa808be142fe611d03816b97d2539dde333a771e91e2c7f360f4868382",
+      "elapsed_seconds": 0.005875484988791868,
+      "solutions": 1,
+      "initialization_mems": 222,
+      "search_mems": 145,
+      "mems_per_solution": "145",
+      "updates": 9,
+      "bytes": 380,
+      "nodes": 4,
+      "full_model_sets_equal": true,
+      "model_set_sha256": "7aa6bc7a75b74d38effbc2fb36aa0ebca403ddc07d1826f52a6f9e36bc92a112"
+    },
+    {
+      "label": "n4-alternating-dlx1",
+      "n": 4,
+      "order": "alternating",
+      "variant": "dlx1",
+      "command": [
+        "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+        "v129",
+        "m1"
+      ],
+      "input_sha256": "74a2f9383ac01f0f815e5f9f6749ffc7330e8a7b0f8205757dd7e8d9d7c9b776",
+      "elapsed_seconds": 0.009320543991634622,
+      "solutions": 2,
+      "initialization_mems": 493,
+      "search_mems": 541,
+      "mems_per_solution": "541/2",
+      "updates": 29,
+      "bytes": 688,
+      "nodes": 9,
+      "full_model_sets_equal": true,
+      "model_set_sha256": "dc08067a00100d2fa3a45e9b5102bac7a8f92726f60f7547c86eb3f65bd7cedc"
+    },
+    {
+      "label": "n4-alternating-dlx1-nomrv",
+      "n": 4,
+      "order": "alternating",
+      "variant": "dlx1-nomrv",
+      "command": [
+        "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1-nomrv",
+        "v129",
+        "m1"
+      ],
+      "input_sha256": "74a2f9383ac01f0f815e5f9f6749ffc7330e8a7b0f8205757dd7e8d9d7c9b776",
+      "elapsed_seconds": 0.010257990012178198,
+      "solutions": 2,
+      "initialization_mems": 493,
+      "search_mems": 796,
+      "mems_per_solution": "398",
+      "updates": 48,
+      "bytes": 688,
+      "nodes": 15,
+      "full_model_sets_equal": true,
+      "model_set_sha256": "dc08067a00100d2fa3a45e9b5102bac7a8f92726f60f7547c86eb3f65bd7cedc"
+    },
+    {
+      "label": "n5-alternating-dlx1",
+      "n": 5,
+      "order": "alternating",
+      "variant": "dlx1",
+      "command": [
+        "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+        "v129",
+        "m1"
+      ],
+      "input_sha256": "b452da4b33c24b0d8e2ffa5acd809a0f6492242e1b48de4355d06f535778ed9f",
+      "elapsed_seconds": 0.011740439978893846,
+      "solutions": 13,
+      "initialization_mems": 884,
+      "search_mems": 2974,
+      "mems_per_solution": "2974/13",
+      "updates": 162,
+      "bytes": 1092,
+      "nodes": 45,
+      "full_model_sets_equal": true,
+      "model_set_sha256": "b760c677b86c18be0b888cdeb796bf1f47a770dd89844fb7607fed0c347eabe9"
+    },
+    {
+      "label": "n5-alternating-dlx1-nomrv",
+      "n": 5,
+      "order": "alternating",
+      "variant": "dlx1-nomrv",
+      "command": [
+        "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1-nomrv",
+        "v129",
+        "m1"
+      ],
+      "input_sha256": "b452da4b33c24b0d8e2ffa5acd809a0f6492242e1b48de4355d06f535778ed9f",
+      "elapsed_seconds": 0.006624864006880671,
+      "solutions": 13,
+      "initialization_mems": 884,
+      "search_mems": 4271,
+      "mems_per_solution": "4271/13",
+      "updates": 255,
+      "bytes": 1092,
+      "nodes": 74,
+      "full_model_sets_equal": true,
+      "model_set_sha256": "b760c677b86c18be0b888cdeb796bf1f47a770dd89844fb7607fed0c347eabe9"
+    },
+    {
+      "label": "n6-alternating-dlx1",
+      "n": 6,
+      "order": "alternating",
+      "variant": "dlx1",
+      "command": [
+        "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+        "v129",
+        "m1"
+      ],
+      "input_sha256": "fc467648c1f7f6e8cee26628369201e793b9ef227da7b06e4119d6426fd30f31",
+      "elapsed_seconds": 0.004184738005278632,
+      "solutions": 80,
+      "initialization_mems": 1407,
+      "search_mems": 16511,
+      "mems_per_solution": "16511/80",
+      "updates": 907,
+      "bytes": 1592,
+      "nodes": 245,
+      "full_model_sets_equal": true,
+      "model_set_sha256": "00eb7c4687e40461adc7f2f981b253d56e9a4188669a5be534f10567ddbac228"
+    },
+    {
+      "label": "n6-alternating-dlx1-nomrv",
+      "n": 6,
+      "order": "alternating",
+      "variant": "dlx1-nomrv",
+      "command": [
+        "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1-nomrv",
+        "v129",
+        "m1"
+      ],
+      "input_sha256": "fc467648c1f7f6e8cee26628369201e793b9ef227da7b06e4119d6426fd30f31",
+      "elapsed_seconds": 0.00831114998436533,
+      "solutions": 80,
+      "initialization_mems": 1407,
+      "search_mems": 25748,
+      "mems_per_solution": "6437/20",
+      "updates": 1533,
+      "bytes": 1592,
+      "nodes": 433,
+      "full_model_sets_equal": true,
+      "model_set_sha256": "00eb7c4687e40461adc7f2f981b253d56e9a4188669a5be534f10567ddbac228"
+    },
+    {
+      "label": "n7-alternating-dlx1",
+      "n": 7,
+      "order": "alternating",
+      "variant": "dlx1",
+      "command": [
+        "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+        "v129",
+        "m1"
+      ],
+      "input_sha256": "d9f740d3258763620c3400688f350e38e63767eae1e4c71a1d4cb13a711f601f",
+      "elapsed_seconds": 0.009016603988129646,
+      "solutions": 579,
+      "initialization_mems": 2074,
+      "search_mems": 112516,
+      "mems_per_solution": "112516/579",
+      "updates": 6214,
+      "bytes": 2188,
+      "nodes": 1677,
+      "full_model_sets_equal": true,
+      "model_set_sha256": "85b105bbae5f7070887ac1a2497b5f668961f024e77846d4a38d8de93d6b127f"
+    },
+    {
+      "label": "n7-alternating-dlx1-nomrv",
+      "n": 7,
+      "order": "alternating",
+      "variant": "dlx1-nomrv",
+      "command": [
+        "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1-nomrv",
+        "v129",
+        "m1"
+      ],
+      "input_sha256": "d9f740d3258763620c3400688f350e38e63767eae1e4c71a1d4cb13a711f601f",
+      "elapsed_seconds": 0.00975417299196124,
+      "solutions": 579,
+      "initialization_mems": 2074,
+      "search_mems": 177597,
+      "mems_per_solution": "59199/193",
+      "updates": 10559,
+      "bytes": 2188,
+      "nodes": 2956,
+      "full_model_sets_equal": true,
+      "model_set_sha256": "85b105bbae5f7070887ac1a2497b5f668961f024e77846d4a38d8de93d6b127f"
+    },
+    {
+      "label": "n8-alternating-dlx1",
+      "n": 8,
+      "order": "alternating",
+      "variant": "dlx1",
+      "command": [
+        "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+        "v129",
+        "m1"
+      ],
+      "input_sha256": "9b71232b7b57c562d549f9b829b70c201c155ada517b6bd06fb4f0be989184fa",
+      "elapsed_seconds": 0.054338831978384405,
+      "solutions": 4738,
+      "initialization_mems": 2897,
+      "search_mems": 886377,
+      "mems_per_solution": "886377/4738",
+      "updates": 49118,
+      "bytes": 2880,
+      "nodes": 13328,
+      "full_model_sets_equal": true,
+      "model_set_sha256": "eb2b9bc74f2c80f08128afc915310267a5b32afacbd458cb558e5adc5cb9b73e"
+    },
+    {
+      "label": "n8-alternating-dlx1-nomrv",
+      "n": 8,
+      "order": "alternating",
+      "variant": "dlx1-nomrv",
+      "command": [
+        "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1-nomrv",
+        "v129",
+        "m1"
+      ],
+      "input_sha256": "9b71232b7b57c562d549f9b829b70c201c155ada517b6bd06fb4f0be989184fa",
+      "elapsed_seconds": 0.08696713601239026,
+      "solutions": 4738,
+      "initialization_mems": 2897,
+      "search_mems": 1396214,
+      "mems_per_solution": "698107/2369",
+      "updates": 82936,
+      "bytes": 2880,
+      "nodes": 23117,
+      "full_model_sets_equal": true,
+      "model_set_sha256": "eb2b9bc74f2c80f08128afc915310267a5b32afacbd458cb558e5adc5cb9b73e"
+    },
+    {
+      "label": "n10-seats-first-dlx1",
+      "n": 10,
+      "order": "seats-first",
+      "variant": "dlx1",
+      "command": [
+        "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+        "v129"
+      ],
+      "input_sha256": "682f630bf126c81592bd550127bbe12c50d8be59706dee0e6a2388102ac8b821",
+      "elapsed_seconds": 0.16224151899223216,
+      "solutions": 439792,
+      "initialization_mems": 5059,
+      "search_mems": 79862253,
+      "mems_per_solution": "79862253/439792",
+      "updates": 4437743,
+      "bytes": 4552,
+      "nodes": 1213108
+    },
+    {
+      "label": "n10-seats-first-dlx1-nomrv",
+      "n": 10,
+      "order": "seats-first",
+      "variant": "dlx1-nomrv",
+      "command": [
+        "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1-nomrv",
+        "v129"
+      ],
+      "input_sha256": "682f630bf126c81592bd550127bbe12c50d8be59706dee0e6a2388102ac8b821",
+      "elapsed_seconds": 0.13831970398314297,
+      "solutions": 439792,
+      "initialization_mems": 5059,
+      "search_mems": 94357502,
+      "mems_per_solution": "47178751/219896",
+      "updates": 5557785,
+      "bytes": 4552,
+      "nodes": 1488359
+    },
+    {
+      "label": "n10-alternating-dlx1",
+      "n": 10,
+      "order": "alternating",
+      "variant": "dlx1",
+      "command": [
+        "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+        "v129"
+      ],
+      "input_sha256": "67078654d63a8164fb4dde9ca6c6f0988f90429f53bda6d89ef645318aea0b6e",
+      "elapsed_seconds": 0.11973509899689816,
+      "solutions": 439792,
+      "initialization_mems": 5059,
+      "search_mems": 79383697,
+      "mems_per_solution": "79383697/439792",
+      "updates": 4413271,
+      "bytes": 4552,
+      "nodes": 1207732
+    },
+    {
+      "label": "n10-alternating-dlx1-nomrv",
+      "n": 10,
+      "order": "alternating",
+      "variant": "dlx1-nomrv",
+      "command": [
+        "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1-nomrv",
+        "v129"
+      ],
+      "input_sha256": "67078654d63a8164fb4dde9ca6c6f0988f90429f53bda6d89ef645318aea0b6e",
+      "elapsed_seconds": 0.21325150699703954,
+      "solutions": 439792,
+      "initialization_mems": 5059,
+      "search_mems": 121737116,
+      "mems_per_solution": "30434279/109948",
+      "updates": 7221753,
+      "bytes": 4552,
+      "nodes": 2002721
+    }
+  ],
+  "comparison": [
+    {
+      "variant": "dlx1",
+      "printed_approximation": 180,
+      "observed": 180.50282178848184,
+      "absolute_difference": 0.5028217884818278,
+      "interpretation": "Within2.5 mems per solution; nearest multiple of5 agrees. The book says about."
+    },
+    {
+      "variant": "dlx1-nomrv",
+      "printed_approximation": 275,
+      "observed": 276.806117437334,
+      "absolute_difference": 1.8061174373340125,
+      "interpretation": "Within2.5 mems per solution; nearest multiple of5 agrees. The book says about."
+    }
+  ],
+  "scope": "14 complete small model sets; four n10 counts and explicit mem accounting. This supports the approximate published costs for alternating item order, not a claim to have recovered an unpublished original first-item program."
+}

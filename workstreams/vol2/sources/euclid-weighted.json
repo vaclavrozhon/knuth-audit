@@ -1,0 +1,31 @@
+{
+  "accessed_utc": "2026-11-03",
+  "book_visual": [
+    "images/euclid-approx-p379.png",
+    "images/euclid-approx-p656.png"
+  ],
+  "errata": {
+    "searched": [
+      "all2-prepre",
+      "all2-pre",
+      "all2",
+      "err2",
+      "sources/err2.textxt"
+    ],
+    "result": "No correction for49 or the gcd normalization found.",
+    "historical_2e": "err2-2e textp114 old answer46 contains the same formula; text read, not a separate visual claim."
+  },
+  "lenstra": {
+    "title": "Divisors in residue classes",
+    "citation": "Math.Comp.42(1984),331-340",
+    "url": "https://pub.math.leidenuniv.nl/~lenstrahw/PUBLICATIONS/1984b/art.pdf",
+    "local": "sources/lenstra-1984-divisors.pdf",
+    "sha256": "df425ef5d5d0a4ac13df9184c06a625ede7577485db895189ddd9891ac12847e",
+    "visually_read_printed_pages": [
+      332,
+      333,
+      334
+    ],
+    "scope": "Extended Euclidean setup and lemma1.6; determinant uses full initial modulus. No complete audit of external article or claim that its theorem fails."
+  }
+}

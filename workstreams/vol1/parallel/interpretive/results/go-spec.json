@@ -1,0 +1,13 @@
+{
+  "GO_insertions": 74,
+  "SPEC_cases": {
+    "SPEC": 444,
+    "diagnostics": 37
+  },
+  "max_assembly_word": 3871,
+  "notes": [
+    "Own SPEC solution uses10u for NUM/CHAR, explicitly credits1u for HLT",
+    "The simulated registers retain their separate signs throughout NUM/CHAR",
+    "GO entry verified with asynchronous card completion; JMP linkage is simulated J=0"
+  ]
+}

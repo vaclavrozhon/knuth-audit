@@ -1,0 +1,23 @@
+{
+  "command": [
+    "timeout",
+    "900",
+    "/tmp/knuth-vol4b-loose-2x3dzjo0/counts",
+    "16"
+  ],
+  "compile": [
+    "g++",
+    "-std=c++17",
+    "-O3",
+    "-Wall",
+    "-Wextra",
+    "audit-2026-10-31/loose_langford_counts.cpp",
+    "-o",
+    "/tmp/knuth-vol4b-loose-2x3dzjo0/counts"
+  ],
+  "wrapper_pid": 398290,
+  "started_at_utc": "2026-11-01T06:14:16.680839+00:00",
+  "timeout_seconds": 900,
+  "returncode": 0,
+  "elapsed_seconds": 162.79631531701307
+}

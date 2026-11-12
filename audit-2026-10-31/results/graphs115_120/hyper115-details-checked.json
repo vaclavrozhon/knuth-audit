@@ -1,0 +1,169 @@
+{
+  "checked_at_utc": "2026-11-02T04:47:54.656696+00:00",
+  "script_sha256": "4f0b28532e18315006ed57f8ea052d3b03dcc861e6f0ebb09398a74d797ffe89",
+  "counts": [
+    {
+      "kind": "a",
+      "solutions": 7784,
+      "full_model_sets_equal": true,
+      "sorted_boards_sha256": "7dd21a03681cea04c23667c386fa04ef0795fd845a543b3f12b0f55268abf26c",
+      "native_net_mems": 131771611,
+      "independent_nodes": 130494
+    },
+    {
+      "kind": "b",
+      "solutions": 16384,
+      "full_model_sets_equal": true,
+      "sorted_boards_sha256": "6be58783da6df3a9b903f5392c4c5d63b79077bd68d85d6468ec81b4c86f8c27",
+      "native_net_mems": 745338063,
+      "independent_nodes": 394288
+    },
+    {
+      "kind": "c",
+      "solutions": 372,
+      "full_model_sets_equal": true,
+      "sorted_boards_sha256": "fd83aca196ffa36606cbf33a9b88c85c527e60d2f3233d290eaa6c5a7a390f9b",
+      "native_net_mems": 62085791,
+      "independent_nodes": 5525
+    }
+  ],
+  "both_b_and_c": 32,
+  "both_sorted_sha256": "5a398d341eac86595f0e32d3e6a621df63fa99880c0f634fd0deca476ef35d93",
+  "all_unit_images_checked": true,
+  "figure_cells": 162,
+  "historical_source": {
+    "pdf": "sources/graphs115_120/michel-2007-nrc-sudoku.pdf",
+    "sha256": "c3501cebb978870fea88ed13e402061c34d4de955ada159378976c8e767be3bb",
+    "printed_pages": [
+      16,
+      17,
+      18
+    ],
+    "cases": [
+      {
+        "table_row": 31,
+        "kind": "a",
+        "source_count": 7784,
+        "cycles": [
+          [
+            1,
+            11
+          ],
+          [
+            2,
+            12
+          ],
+          [
+            3,
+            13
+          ],
+          [
+            4,
+            14
+          ],
+          [
+            5,
+            15
+          ],
+          [
+            6,
+            16
+          ],
+          [
+            7,
+            17
+          ],
+          [
+            8,
+            18
+          ],
+          [
+            9,
+            19
+          ]
+        ],
+        "all_81_cells_checked": true,
+        "relation": "equal"
+      },
+      {
+        "table_row": 22,
+        "kind": "b",
+        "source_count": 16384,
+        "cycles": [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            6,
+            9
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            11,
+            14
+          ],
+          [
+            12,
+            13
+          ],
+          [
+            16,
+            19
+          ],
+          [
+            17,
+            18
+          ]
+        ],
+        "all_81_cells_checked": true,
+        "relation": "equal"
+      },
+      {
+        "table_row": 34,
+        "kind": "c",
+        "source_count": 372,
+        "cycles": [
+          [
+            1,
+            11,
+            9,
+            19
+          ],
+          [
+            2,
+            12,
+            7,
+            17
+          ],
+          [
+            3,
+            13,
+            8,
+            18
+          ],
+          [
+            4,
+            14,
+            6,
+            16
+          ],
+          [
+            5,
+            15
+          ]
+        ],
+        "all_81_cells_checked": true,
+        "relation": "conjugate by rows7/8 and columns7/8 swap to inverse quarter-turn"
+      }
+    ]
+  },
+  "note": "First row normalized. All labeled counts are9! times these counts. No additional geometric quotient."
+}

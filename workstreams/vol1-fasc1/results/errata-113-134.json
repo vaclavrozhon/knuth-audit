@@ -1,0 +1,31 @@
+{
+  "checked_at_utc": "2026-11-06T13:26:44.656447+00:00",
+  "sources": [
+    "errata/originals/err1f1.textxt",
+    "errata/text/err1f1.txt",
+    "errata/text/all1f1.txt"
+  ],
+  "scope": "Historical and current fascicle errata; complete entries113–126, index-change section127ff, and full-file searches for each new finding.",
+  "entries": [
+    "\\bugonpage 1f1.113 a correction to 3rd-last line of that program (24.03.15)\n\\.{MUL} \\.{delay,rho,18} \\becomes \\.{MUL} \\.{delta,rho,18}",
+    "\\bugonpage 1f1.114 lines 2 and 3 of answer 9 (07.01.07)\ntwo additional instructions\n``\\.{GET}~\\.{\\$255,rB;} \\.{RESUME}\\hair'' will \\becomes\\nl\n``\\.{PUT}~\\.{rJ,\\$255;} \\.{GET} \\.{\\$255,rB;} \\.{RESUME}\\hair''\nafter the \\.{PUSHJ} will",
+    "\\improvepage 1f1.115 last line of answer 16 (09.01.11)\nof \\eq(15) \\becomes of exercise 15",
+    "\\bugonpage 1f1.116 answer 4 (23.03.29)\n[the code should be properly indented, with \\.{GREG}s lined up]",
+    "\\bugonpage 1f1.118 line 1 (18.12.14)\nline 309 of the text \\becomes\nline 309 of the code",
+    "\\amendpage 1f1.118 line 7 of answer 8 (11.06.03)\n[delete this line, which begins `\\.{STOU} \\ \\.{cc}']",
+    "\\bugonpage 1f1.119 line $-5$ of answer 9 (24.03.15)\nBranch if $G<\\.z@$. \\becomes Branch if $G>\\.z@$.",
+    "\\amendpage 1f1.125 line 2 of answer 19 (05.05.19)\n$\\.l+((\\.{oo}+\\.{ll})\\land\\.{lring\\_mask})$ \\becomes\n$\\.l+((\\.{oo}+\\.{ll})\\band\\.{lring\\_mask})$"
+  ],
+  "matching_known_corrections": [
+    "p113 delay→delta (2024-03-15)",
+    "p119 Branch if G<z→G>z (2024-03-15)",
+    "p116 GREG indentation (2023-03-29)"
+  ],
+  "finding_searches": {
+    "MMIX-C0007": "No p120 entry or matching correction for SAVE termination, BNZ/BZ after storing rG and rA.",
+    "MMIX-C0008": "No p124 entry or GetArgs / Mem:mask / virtual chunk boundary correction.",
+    "MMIX-C0009": "No p116–117 timing-formula or C=A / optimistic-cost correction. Remains a candidate.",
+    "MMIX-C0010": "No p126 or 6066/6065 recursion-depth correction. Remains a candidate."
+  },
+  "note": "Known index changes and all public corrections remain outside our finding count and cards."
+}

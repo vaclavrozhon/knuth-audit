@@ -1,0 +1,45 @@
+{
+  "status": "pass",
+  "addition_cases": 6962,
+  "multiplication_cases": 809,
+  "book_example_steps": {
+    "1": 18,
+    "2": 2,
+    "3": 9,
+    "4": 10,
+    "5": 2,
+    "6": 4,
+    "7": 9,
+    "8": 6,
+    "9": 5,
+    "10": 5,
+    "11": 1
+  },
+  "all_steps": {
+    "1": 45871,
+    "2": 4383,
+    "3": 24226,
+    "4": 29614,
+    "5": 4767,
+    "6": 15720,
+    "7": 29326,
+    "8": 4661,
+    "9": 4350,
+    "10": 4350,
+    "11": 6962
+  },
+  "exact_coefficients": "integers and rational numbers; no floating-point rounding",
+  "invariants": [
+    "all reciprocal row links",
+    "all parent links",
+    "strict exponent order",
+    "variable order",
+    "canonical final form",
+    "source unchanged",
+    "both addition root addresses unchanged",
+    "no shared output nodes",
+    "complete allocated/free partition",
+    "A8 context and parent agreement"
+  ],
+  "limits": "Finite tests supplement the general proof; this is not a MIX program."
+}

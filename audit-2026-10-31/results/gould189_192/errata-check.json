@@ -1,0 +1,78 @@
+{
+  "at_utc": "2026-11-03T15:23:51.937172+00:00",
+  "files": [
+    {
+      "file": "errata/text/all4b.txt",
+      "sha256": "b1a3425486f403fb4158585d5bbfef0159fd20b12e2e7d47b64e393e1ae8a303",
+      "matching_lines": [
+        225,
+        227,
+        820,
+        822,
+        867,
+        1295,
+        1318,
+        1458
+      ]
+    },
+    {
+      "file": "errata/text/err4b.txt",
+      "sha256": "2a3450bf3c79d28ad3c2d96468344c96995cf0afb74961f257c311bb9c821e1c",
+      "matching_lines": [
+        194,
+        197,
+        775,
+        777,
+        822,
+        1236,
+        1258,
+        1420
+      ]
+    },
+    {
+      "file": "errata/text/all4f5.txt",
+      "sha256": "0dd38c4cda72b01baefb797611c9bbab7713ff0c107a1df884afc89fe9bb91c3",
+      "matching_lines": [
+        260,
+        335,
+        664
+      ]
+    },
+    {
+      "file": "errata/text/err4f5.txt",
+      "sha256": "5a716c34e2063eb46005593d53e89dbbd912b5677e0a6ab11753f2a5ee38b557",
+      "matching_lines": [
+        217,
+        610
+      ]
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "sha256": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+      "matching_lines": [
+        453,
+        457,
+        1341,
+        1828,
+        1833,
+        2123
+      ]
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "sha256": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b",
+      "matching_lines": [
+        495,
+        585,
+        1123
+      ]
+    }
+  ],
+  "pattern": "(?:[Pp]age\\s+|(?:4b|4f5)\\.)(?:148|469|146|277)\\b|(?:answer|exercise|exer ise)\\s+(?:189|190|191|192)\\b|Gompertz|Gould|Quaintance|Asakly|g_hat|g_hat|513|585|672|gamma function",
+  "review_status": "All extracted contexts read; only the already recorded189(a) correction is relevant to189–192.",
+  "live_4b_archive_match": "results/snakes172/errata-check.json; same-day TeX and PS match",
+  "F142": "No correction of the a,b>0 Gompertz parameter domain found.",
+  "F020_F021_F022_F023": "No corrections found; all remain in both local source versions.",
+  "C006": "2019 replacement is incorporated in the book PDF and still mathematically incorrect. Draft predates replacement. Original candidate classification preserved.",
+  "no_new_known_erratum_allocated": true
+}

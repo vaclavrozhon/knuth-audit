@@ -1,0 +1,45 @@
+{
+  "checked_at_utc": "2026-11-06T22:12:37.663524+00:00",
+  "status": "checked_with_explicit_external_dependencies",
+  "sources": [
+    {
+      "url": "https://www.cs.sjsu.edu/faculty/khuri/HUT_2008/Bafna_1993.pdf",
+      "title": "Genome rearrangements and sorting by reversals",
+      "authors": "Vineet Bafna; Pavel A. Pevzner",
+      "publication": "FOCS1993,148–157",
+      "checked_scope": "Pages148–149 identify the signed Lobelia model as(−7,+1,+2,+4,+5,+3,−6,+8); the last fixed block becomes the right boundary in the seven-gene exercise. This is a mathematical model, not independent recertification of the biological mapping.",
+      "bibliography_skip": "Original Knox–Downie–Palmer1993 molecular mapping was not independently reread."
+    },
+    {
+      "url": "https://pbil.univ-lyon1.fr/members/sagot/htdocs/publications/tannier2007_dam.pdf",
+      "title": "Advances on sorting by reversals",
+      "authors": "Eric Tannier; Anne Bergeron; Marie-France Sagot",
+      "publication": "Discrete Applied Mathematics155(2007),881–888",
+      "doi": "10.1016/j.dam.2005.02.033",
+      "checked_scope": "Exact signed-reversal model on881–882, qualifications of the earlier randomized Kaplan–Verbin approach, and Theorem4 on888 plus complexity section: an actual optimal reversal sequence in O(n^(3/2)*sqrt(log n)) time.",
+      "external_dependency": "Full correctness of the sequence-augmentation algorithm and its specialized data structure is cited, not independently rederived in this audit."
+    }
+  ],
+  "known_changes": [
+    "all3-prepre2001 updates Kececioglu–Sankoff to Algorithmica13(1995),180–210.",
+    "all3-prepre2008 replaces the p615 historical algorithm paragraph with updated primary references and the subquadratic bound."
+  ],
+  "numeric_reproduction_skip": {
+    "value": 179904,
+    "claim": "Number of signed permutations on7 elements within reversal distance5 of the identity.",
+    "status": "partial",
+    "reason": "Expensive full census explicitly omitted under the user instruction; no BFS/enumeration performed. The exact seven-gene distance proof is independent of this count."
+  },
+  "evidence": [
+    "workstreams/vol3/notes/tableaux-proof-42-signed-reversals.md",
+    "workstreams/vol3/sources/tableaux-errata-review.json",
+    "workstreams/vol3/notes/tableaux-proof-44-average-reversals.md"
+  ],
+  "unsigned_note": {
+    "primary_url": "https://www.cs.sjsu.edu/faculty/khuri/HUT_2008/Bafna_1993.pdf",
+    "exact_result": "Definition of gamma_n on149 and Theorem3 on151: unsigned reversal distance of gamma_n and its inverse is n−1.",
+    "composition_convention": "TAOCP Volume1 section1.3.3,p165/file180 explicitly uses left-to-right composition. The displayed product in Volume3 equals gamma_n inverse under that convention.",
+    "independently_proved": "Exact product mapping, the n−1 unsigned upper bound and invariance under permutation inversion.",
+    "external_dependency": "The Gollan lower bound is an explicitly stated primary theorem; its full proof is not independently rederived."
+  }
+}

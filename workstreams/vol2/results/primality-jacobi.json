@@ -1,0 +1,167 @@
+{
+  "status": "passed",
+  "elapsed_seconds": 44.817267559003085,
+  "odd_inputs": 2047,
+  "prime_inputs": 563,
+  "composite_inputs": 1484,
+  "all_residue_cases": 4194303,
+  "delta_branches": {
+    "two": 1398,
+    "one": 98,
+    "half": 551
+  },
+  "strong_passes": 1083506,
+  "euler_only_passes": 6182,
+  "special_carmichael_inputs": [
+    1729,
+    2465
+  ],
+  "maximum_composite_error": {
+    "n": 1729,
+    "value": "3/8"
+  },
+  "examples": {
+    "9": {
+      "factors": [
+        [
+          3,
+          2
+        ]
+      ],
+      "k": 3,
+      "delta": "one",
+      "phi": 6,
+      "euler_plus": 2,
+      "euler_minus": 0,
+      "strong": 2,
+      "error": "1/4"
+    },
+    "27": {
+      "factors": [
+        [
+          3,
+          3
+        ]
+      ],
+      "k": 1,
+      "delta": "two",
+      "phi": 18,
+      "euler_plus": 1,
+      "euler_minus": 1,
+      "strong": 2,
+      "error": "1/13"
+    },
+    "45": {
+      "factors": [
+        [
+          3,
+          2
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "k": 2,
+      "delta": "one",
+      "phi": 24,
+      "euler_plus": 4,
+      "euler_minus": 0,
+      "strong": 2,
+      "error": "1/11"
+    },
+    "81": {
+      "factors": [
+        [
+          3,
+          4
+        ]
+      ],
+      "k": 4,
+      "delta": "one",
+      "phi": 54,
+      "euler_plus": 2,
+      "euler_minus": 0,
+      "strong": 2,
+      "error": "1/40"
+    },
+    "341": {
+      "factors": [
+        [
+          11,
+          1
+        ],
+        [
+          31,
+          1
+        ]
+      ],
+      "k": 2,
+      "delta": "half",
+      "phi": 300,
+      "euler_plus": 50,
+      "euler_minus": 0,
+      "strong": 50,
+      "error": "5/34"
+    },
+    "561": {
+      "factors": [
+        [
+          3,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          17,
+          1
+        ]
+      ],
+      "k": 4,
+      "delta": "half",
+      "phi": 320,
+      "euler_plus": 80,
+      "euler_minus": 0,
+      "strong": 10,
+      "error": "1/7"
+    },
+    "1729": {
+      "factors": [
+        [
+          7,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          19,
+          1
+        ]
+      ],
+      "k": 6,
+      "delta": "half",
+      "phi": 1296,
+      "euler_plus": 648,
+      "euler_minus": 0,
+      "strong": 162,
+      "error": "3/8"
+    }
+  },
+  "historical_examples": [
+    [
+      -3778,
+      773,
+      1
+    ],
+    [
+      3785,
+      2933,
+      1
+    ]
+  ],
+  "csv_sha256": "a5cf2653b2ae801a8bd0264776af57e41057f311464aa42f62c0fb4b705f186d"
+}

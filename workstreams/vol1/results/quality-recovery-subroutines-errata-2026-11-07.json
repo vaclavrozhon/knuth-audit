@@ -1,0 +1,354 @@
+{
+  "volume": "vol1",
+  "reviewed_at_utc": "2026-11-06T23:52:26.135655+00:00",
+  "scope": "Entire1.4 heading and every assertion of1.4.1, all seven exercises and every answer part.",
+  "proof": "notes/quality-recovery-section-1.4.1-2026-11-07.md",
+  "reused_artifacts": [
+    {
+      "path": "parallel/subroutines/notes/subroutines.md",
+      "sha256": "9ef081cf62a2f263910814d0288e8ca834b2928bdaaa4923335f790d4d6d2556",
+      "prior_manifest": "results/artifact-manifest-permutations-coroutines.json",
+      "prior_sha256": "9ef081cf62a2f263910814d0288e8ca834b2928bdaaa4923335f790d4d6d2556",
+      "matches": true
+    },
+    {
+      "path": "parallel/subroutines/notes/sources.md",
+      "sha256": "3da288e6f9cb38fb80ceff30993c25cfd71d10e70d6388dc0937cb55a70542e4",
+      "prior_manifest": "results/artifact-manifest-permutations-coroutines.json",
+      "prior_sha256": "3da288e6f9cb38fb80ceff30993c25cfd71d10e70d6388dc0937cb55a70542e4",
+      "matches": true
+    },
+    {
+      "path": "parallel/subroutines/check_subroutines.py",
+      "sha256": "8a864a3df44e639a0fb349f023768a736199808c6ff9288ccdbc12ecd803fa17",
+      "prior_manifest": "results/artifact-manifest-permutations-coroutines.json",
+      "prior_sha256": "8a864a3df44e639a0fb349f023768a736199808c6ff9288ccdbc12ecd803fa17",
+      "matches": true
+    },
+    {
+      "path": "parallel/subroutines/results/subroutines.json",
+      "sha256": "541c4b8b268cdfeff154020bc3f6e2ecfca5390517891b7991fb7685ccb42282",
+      "prior_manifest": "results/artifact-manifest-permutations-coroutines.json",
+      "prior_sha256": "541c4b8b268cdfeff154020bc3f6e2ecfca5390517891b7991fb7685ccb42282",
+      "matches": true
+    },
+    {
+      "path": "parallel/subroutines/sources/external-metadata.json",
+      "sha256": "b90e3c99eb6e76fcda7fef26570f4ed92c0b4ceca2b818f550d1883a6fb12a8e",
+      "prior_manifest": "results/artifact-manifest-permutations-coroutines.json",
+      "prior_sha256": "b90e3c99eb6e76fcda7fef26570f4ed92c0b4ceca2b818f550d1883a6fb12a8e",
+      "matches": true
+    },
+    {
+      "path": "parallel/subroutines/sources/web-reading-notes.json",
+      "sha256": "3db6d12582fe7798d503d81db80d42051ca53cb96d4b5ea7352b3757a5b2b129",
+      "prior_manifest": "results/artifact-manifest-permutations-coroutines.json",
+      "prior_sha256": "3db6d12582fe7798d503d81db80d42051ca53cb96d4b5ea7352b3757a5b2b129",
+      "matches": true
+    },
+    {
+      "path": "parallel/subroutines/sources/dijkstra-ewd249.html",
+      "sha256": "ea5cd36e1109f53e3c0dae9b2bbfd3cbdc48ae2c172204373fa5c47b12aed4ad",
+      "prior_manifest": "results/artifact-manifest-permutations-coroutines.json",
+      "prior_sha256": "ea5cd36e1109f53e3c0dae9b2bbfd3cbdc48ae2c172204373fa5c47b12aed4ad",
+      "matches": true
+    },
+    {
+      "path": "parallel/subroutines/sources/knuth-lp.html",
+      "sha256": "4ab656e73afc1ba785e8d4804f1d84d8b2ee8c584e26db08092b40fc0fac6066",
+      "prior_manifest": "results/artifact-manifest-permutations-coroutines.json",
+      "prior_sha256": "4ab656e73afc1ba785e8d4804f1d84d8b2ee8c584e26db08092b40fc0fac6066",
+      "matches": true
+    },
+    {
+      "path": "parallel/subroutines/sources/wirth1971.pdf",
+      "sha256": "5adcc239c75eccb27c6095b5fb17b543402d32d61d24d79e653b26f5995bf0e3",
+      "prior_manifest": "results/artifact-manifest-permutations-coroutines.json",
+      "prior_sha256": "5adcc239c75eccb27c6095b5fb17b543402d32d61d24d79e653b26f5995bf0e3",
+      "matches": true
+    },
+    {
+      "path": "parallel/subroutines/sources/turing-ace.pdf",
+      "sha256": "5ba70837083849876feba9c3bd94e8d796bdac80814e949de2a599eca187f57e",
+      "prior_manifest": "results/artifact-manifest-permutations-coroutines.json",
+      "prior_sha256": "5ba70837083849876feba9c3bd94e8d796bdac80814e949de2a599eca187f57e",
+      "matches": true
+    },
+    {
+      "path": "parallel/subroutines/sources/turing-ace.txt",
+      "sha256": "edb4aaea9b65bacb46dc671049b897c79e90404213a44012aec249be5df95183",
+      "prior_manifest": "results/artifact-manifest-permutations-coroutines.json",
+      "prior_sha256": "edb4aaea9b65bacb46dc671049b897c79e90404213a44012aec249be5df95183",
+      "matches": true
+    },
+    {
+      "path": "parallel/subroutines/images/turing-ace-pdf19.png",
+      "sha256": "fc3128fc91bedee23f405de012b61173bdf0ae6562244046cde7e2cb761ed6cb",
+      "prior_manifest": "results/artifact-manifest-permutations-coroutines.json",
+      "prior_sha256": "fc3128fc91bedee23f405de012b61173bdf0ae6562244046cde7e2cb761ed6cb",
+      "matches": true
+    },
+    {
+      "path": "parallel/subroutines/images/all1-prepre-p16.png",
+      "sha256": "0e8067ecf1780cba3f899ed916be9ae10064284605dc90cbc500c66de003df99",
+      "prior_manifest": "results/artifact-manifest-permutations-coroutines.json",
+      "prior_sha256": "0e8067ecf1780cba3f899ed916be9ae10064284605dc90cbc500c66de003df99",
+      "matches": true
+    },
+    {
+      "path": "parallel/subroutines/reports/MAXIMUM-nonpositive-input.txt",
+      "sha256": "0bde6cb7864026c5fcb9ffbd3969a6bc3d94613d7a07b2847bfb9585ffc79d9e",
+      "prior_manifest": "results/artifact-manifest-permutations-coroutines.json",
+      "prior_sha256": "0bde6cb7864026c5fcb9ffbd3969a6bc3d94613d7a07b2847bfb9585ffc79d9e",
+      "matches": true
+    },
+    {
+      "path": "parallel/subroutines/reports/SMAX1-unlisted-I1.txt",
+      "sha256": "356c78b14b4b8c22586429cde35056c048ea120081d1aff7dde984304b4858b2",
+      "prior_manifest": "results/artifact-manifest-permutations-coroutines.json",
+      "prior_sha256": "356c78b14b4b8c22586429cde35056c048ea120081d1aff7dde984304b4858b2",
+      "matches": true
+    },
+    {
+      "path": "parallel/subroutines/images/p186.png",
+      "sha256": "a11375d28d5a46b8fb53355e113b89ccc4b9450c40caa53273de1de0fb596c10",
+      "prior_manifest": "results/artifact-manifest-permutations-coroutines.json",
+      "prior_sha256": "a11375d28d5a46b8fb53355e113b89ccc4b9450c40caa53273de1de0fb596c10",
+      "matches": true
+    },
+    {
+      "path": "parallel/subroutines/images/p187.png",
+      "sha256": "f42a97c43935aa729d1997fa3f283efc8606988bad2b6aeb4781c6b2a1861790",
+      "prior_manifest": "results/artifact-manifest-permutations-coroutines.json",
+      "prior_sha256": "f42a97c43935aa729d1997fa3f283efc8606988bad2b6aeb4781c6b2a1861790",
+      "matches": true
+    },
+    {
+      "path": "parallel/subroutines/images/p188.png",
+      "sha256": "0b690eecada43838969f649f0785123abab0c46ec822f1d9bb5f0445ea27b576",
+      "prior_manifest": "results/artifact-manifest-permutations-coroutines.json",
+      "prior_sha256": "0b690eecada43838969f649f0785123abab0c46ec822f1d9bb5f0445ea27b576",
+      "matches": true
+    },
+    {
+      "path": "parallel/subroutines/images/p189.png",
+      "sha256": "d4252a1eaf2b8ccf2e14edd925fecdc257a7734addba6059a6a39ff7ff0b49aa",
+      "prior_manifest": "results/artifact-manifest-permutations-coroutines.json",
+      "prior_sha256": "d4252a1eaf2b8ccf2e14edd925fecdc257a7734addba6059a6a39ff7ff0b49aa",
+      "matches": true
+    },
+    {
+      "path": "parallel/subroutines/images/p190.png",
+      "sha256": "ba6cd4d2ff7e8ce111702427bf87b1ddd999a6301a87cc0cc6d37ce1cec03181",
+      "prior_manifest": "results/artifact-manifest-permutations-coroutines.json",
+      "prior_sha256": "ba6cd4d2ff7e8ce111702427bf87b1ddd999a6301a87cc0cc6d37ce1cec03181",
+      "matches": true
+    },
+    {
+      "path": "parallel/subroutines/images/p191.png",
+      "sha256": "e19428da3023507f3a390465969b74ad2e999d4c5b1f9c984158053a4027b8be",
+      "prior_manifest": "results/artifact-manifest-permutations-coroutines.json",
+      "prior_sha256": "e19428da3023507f3a390465969b74ad2e999d4c5b1f9c984158053a4027b8be",
+      "matches": true
+    },
+    {
+      "path": "parallel/subroutines/images/p192.png",
+      "sha256": "a5beb1fa5bd20b2cb498db11b08a7344832c15c99f324ad079fd3dce1dfb4dbb",
+      "prior_manifest": "results/artifact-manifest-permutations-coroutines.json",
+      "prior_sha256": "a5beb1fa5bd20b2cb498db11b08a7344832c15c99f324ad079fd3dce1dfb4dbb",
+      "matches": true
+    },
+    {
+      "path": "parallel/subroutines/images/p193.png",
+      "sha256": "3ac8c59171911eff5bf322fc660e5ec77c0db04ab61b15301a18bf94b2bed44b",
+      "prior_manifest": "results/artifact-manifest-permutations-coroutines.json",
+      "prior_sha256": "3ac8c59171911eff5bf322fc660e5ec77c0db04ab61b15301a18bf94b2bed44b",
+      "matches": true
+    },
+    {
+      "path": "parallel/subroutines/images/p527.png",
+      "sha256": "267f273a69ba6e014572a12ac019ba20bdaa4ef8529987ca7f8965e1b5750445",
+      "prior_manifest": "results/artifact-manifest-permutations-coroutines.json",
+      "prior_sha256": "267f273a69ba6e014572a12ac019ba20bdaa4ef8529987ca7f8965e1b5750445",
+      "matches": true
+    },
+    {
+      "path": "parallel/subroutines/images/p528.png",
+      "sha256": "b4635a246d81e485e7742f43884a3368adbcae3c225693b79ebaa0fe96067844",
+      "prior_manifest": "results/artifact-manifest-permutations-coroutines.json",
+      "prior_sha256": "b4635a246d81e485e7742f43884a3368adbcae3c225693b79ebaa0fe96067844",
+      "matches": true
+    },
+    {
+      "path": "mix_machine.py",
+      "sha256": "5fda9d6efe247f7bb637c1725e8426d9a0d449b71129bfd3263fd9a21e6b8eac",
+      "prior_manifest": "results/artifact-manifest-mixal-crypt-easter.json",
+      "prior_sha256": "5fda9d6efe247f7bb637c1725e8426d9a0d449b71129bfd3263fd9a21e6b8eac",
+      "matches": true
+    },
+    {
+      "path": "mixal.py",
+      "sha256": "e0b0b5f8cabb9d42d6fc453e92a6619ecda7fc2fe7879448f14d6f7f8595798b",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "e0b0b5f8cabb9d42d6fc453e92a6619ecda7fc2fe7879448f14d6f7f8595798b",
+      "matches": true
+    },
+    {
+      "path": "mixal_examples.py",
+      "sha256": "8cc2673cf801a005e264b119bd999c7140dfb95fed0c6a4d500c80e226a5bfd0",
+      "prior_manifest": "results/artifact-manifest-mixal-basics.json",
+      "prior_sha256": "8cc2673cf801a005e264b119bd999c7140dfb95fed0c6a4d500c80e226a5bfd0",
+      "matches": true
+    }
+  ],
+  "recovery_context": [
+    {
+      "path": "notes/sequential-subroutines-2026-11-05.md",
+      "sha256": "1b6bed6ef9c84b3c6a31f29ffbd3b7ec900b3b3521c414527e4aae1798cbd67a"
+    },
+    {
+      "path": "sources/sequential-2026-11-05/subroutines-errata-extract.json",
+      "sha256": "8c0f8dbcf29bf457f857ad3209ab966803cf5922efaa1a68b1ec681500353344"
+    },
+    {
+      "path": "notes/quality-recovery-section-1.3.1-2026-11-06.md",
+      "sha256": "902d633fa6a7a78b77f39bd7a4417eb23e40ee77e754dbd4a27f8b9acd87978e"
+    },
+    {
+      "path": "notes/quality-recovery-section-1.3.2-basics-2026-11-06.md",
+      "sha256": "1057db75de68a68f87a7a1f2b26579427ba0bffcc53c453b3ad5f685f2d59d6f"
+    },
+    {
+      "path": "notes/quality-recovery-section-1.4.1-2026-11-07.md",
+      "sha256": "8acf9e95d2be5d54992b3f68f090cd267af8a64cf228a0bdd454570e6900f05c"
+    }
+  ],
+  "new_source_artifacts": [
+    {
+      "path": "sources/recovery-ibm360-A22-6821-0.pdf",
+      "sha256": "7618524e58b0299de72dc92852d4aeed244b69446736f56b6dec2c065f5553e9"
+    },
+    {
+      "path": "sources/recovery-ibm360-A22-6821-0.txt",
+      "sha256": "56ecc93edec77891f18c3f51f21dd8cff903ae9dd3953270598b495e095bb33b"
+    },
+    {
+      "path": "sources/recovery-ibm360-A22-6821-0.json",
+      "sha256": "5bbea75a03ee74ab2d42a2ecf0e8723003a95cf05e59f4425dc9cb52750825bb"
+    },
+    {
+      "path": "images/recovery-ibm360-p9.png",
+      "sha256": "8877db973e18ba6db86372ede915bc3179dd7fd863eaa8bfd28d301ca5103727"
+    },
+    {
+      "path": "images/recovery-ibm360-p64.png",
+      "sha256": "472c3d9eee7d6415d637f83e10cf721e21a712ac4de2945d9458e8affba9b172"
+    },
+    {
+      "path": "results/quality-recovery-subroutines-render-2026-11-07.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "original_images": [
+    "parallel/subroutines/images/p186.png",
+    "parallel/subroutines/images/p187.png",
+    "parallel/subroutines/images/p188.png",
+    "parallel/subroutines/images/p189.png",
+    "parallel/subroutines/images/p190.png",
+    "parallel/subroutines/images/p191.png",
+    "parallel/subroutines/images/p192.png",
+    "parallel/subroutines/images/p193.png",
+    "parallel/subroutines/images/p527.png",
+    "parallel/subroutines/images/p528.png"
+  ],
+  "direct_errata_images": [
+    "parallel/subroutines/images/all1-prepre-p16.png"
+  ],
+  "direct_primary_images": [
+    "parallel/subroutines/images/turing-ace-pdf19.png",
+    "images/recovery-ibm360-p9.png",
+    "images/recovery-ibm360-p64.png"
+  ],
+  "layers": [
+    {
+      "path": "errata/text/all1-prepre.txt",
+      "sha256": "1a3c3ac6137b9e98f427de0a344efca46fd83b7a3e6e8fe2fa38e94525ca0c31",
+      "bytes": 143588,
+      "selected_page_blocks": [
+        {
+          "page": 186,
+          "text": "Page 186 line 14                                                                             17 Sep 2005\n   by having less spa e          y by o upying less spa e"
+        },
+        {
+          "page": 190,
+          "text": "xPage 190 in (10)                                                                             07 Jan 1999\n  EXIT C y EXITC"
+        },
+        {
+          "page": 193,
+          "text": "Page 193 lines 4 and 5 of exer ise 6                                                        21 Aug 2001\n   the time to exe ute the subroutine will be somewhat longer.               y\n                                                               a subroutine naturally\n    onsumes more time and spa e than a hardware instru tion does."
+        },
+        {
+          "page": 527,
+          "text": "Page 527 last line of answer 34                                                  26 O t 1997\n eÆ ient.       y  eÆ ient. [W. Flet her and R. Silver, CACM 9 (1966), 326.℄\nx"
+        },
+        {
+          "page": 527,
+          "text": "Page 527 lines          3 and 2 of answer 35                                     01 Jan 2006\n inter hange with 00           0 y   inter hange   00 with    0\n\f                     CHANGES TO VOLUME 1: FUNDAMENTAL ALGORITHMS                      39"
+        },
+        {
+          "page": 527,
+          "text": "Page 527     new answer                                                      29 Jan 2010\n      The result is lear when n \u0014 2. Otherwise we an nd a; b < n su h that \u0019 takes\n    37.\n a to b. Then (n a) \u0019 (b n) = ( a)(b ) for (n 1)- y les ( a) and (b ) if and only\n if \u0019 = (n a)(b n). [See A. Ja ques, C. Lenormand, A. Lentin, and J.-F. Perrot,\n Comptes Rendus A ad. S i. 266 (Paris, 1968), A446{A448.℄\nx"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all1-pre.txt",
+      "sha256": "89d231245ff44164e09a39903faac35a2dc5e89956857abcc974991c99a887e5",
+      "bytes": 63766,
+      "selected_page_blocks": []
+    },
+    {
+      "path": "errata/text/all1.txt",
+      "sha256": "b641d6e48aaf2d77fc98a3c4a8a798d8156516b97095ec345a976e65d9c79aef",
+      "bytes": 45229,
+      "selected_page_blocks": [
+        {
+          "page": 527,
+          "text": "Page 527 new answer                                                             24 Mar 2023\n  38. (a) Obviously \u0019 = \u001c \u0019\u001c () \u001c\u0019 = \u0019\u001c . (b) \u0019 takes bij 7! aij 7! ai(j +1) 7! bi(j +1) ,\n                                                      \u001c\n\n  if we regard i(li +1) as i1. ( ) One of the 6 \u0001 3 \u0001 2 solutions is \u001c = (1 8)(2 7)(3 6)(4 5).\n  Others are \u001c = (2 3)(7 8); \u001c = (1 6 2 8 3 7). (d) None. (e) True. (f) True. [See E. Netto,\n  The Theory of Substitutions and its Appli ations to Algebra (1892), x46.℄"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/err1.txt",
+      "sha256": "ecae8755d7d9f86c5dbcbd782767f0cf8e6bf7f89d9c57ed0a27ad2344461f30",
+      "bytes": 41067,
+      "selected_page_blocks": [
+        {
+          "page": 527,
+          "text": "Page 527 new answer                                                             24 Mar 2023\n  38. (a) Obviously \u0019 = \u001c \u0019\u001c () \u001c \u0019 = \u0019\u001c . (b) \u0019 takes bij 7! aij 7! ai(j +1) 7! bi(j +1) ,\n                                                      \u001c\n\n  if we regard i(li +1) as i1. ( ) One of the 6 \u0001 3 \u0001 2 solutions is \u001c = (1 8)(2 7)(3 6)(4 5).\n  Others are \u001c = (2 3)(7 8); \u001c = (1 6 2 8 3 7). (d) None. (e) True. (f) True. [See E. Netto,\n  The Theory of Substitutions and its Appli ations to Algebra (1892), x46.℄"
+        }
+      ]
+    }
+  ],
+  "new_mathematical_runs": 0,
+  "old_runs_repeated": 0,
+  "new_findings": 0,
+  "new_mathematical_gaps": 0,
+  "complete_section_evidence_review": [
+    "1.4",
+    "1.4.1"
+  ],
+  "mathematical_scope": "All maximum variants, exact linkages, parameter/register/memory contracts, termination, local save/restore optimality in the explicitly fixed-insertion class, every MOVE index/zero/overlap and exact26u or32+6f u time; all seven exercises complete.",
+  "retained_findings": [
+    "V1-C0030: erroneous nonpositive-I1 answer, valid q=0 witness.",
+    "V1-C0031: SMAX1 unlisted I1 change; minor contract omission."
+  ],
+  "bibliography_skips": [
+    "Exact Dijkstra1972 book reprint typography; author report content accepted.",
+    "Full Knuth error log1978–1991; precise previously read preface/chapter-heading metadata retained.",
+    "Independent statistical verification of experiential claims and author anecdotes.",
+    "Archival dating of Turing draft creation versus institutional submission."
+  ],
+  "source_scope": "New primary IBM A22-6821-0: title and exact9/64 paragraphs/images only. Existing Wirth/Dijkstra/Knuth/Turing source review preserved in its stated scope. The 25-byte maintenance response is not a book.",
+  "remaining_scope": "Next every assertion and exercise part of1.4.2 Coroutines; oldest mathematical gap remains1.2.1/p16."
+}

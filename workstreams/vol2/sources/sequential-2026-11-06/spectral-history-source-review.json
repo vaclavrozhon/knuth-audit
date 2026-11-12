@@ -1,0 +1,111 @@
+{
+  "reviewed_at_utc": "2026-11-06T10:39:55.172667+00:00",
+  "errata_inputs": [
+    {
+      "path": "errata/text/all2-prepre.txt",
+      "sha256": "62a1ff323ca421f2640e2337f922dbf8cfc8e86c20d9b11acfc91221721c6f58"
+    },
+    {
+      "path": "errata/text/all2-pre.txt",
+      "sha256": "c1735b70547678d739eae3a8d7b02872c737218eed7706a0aba8fb6fc21a6529"
+    },
+    {
+      "path": "errata/text/all2.txt",
+      "sha256": "1c4d7f2259e147db0ebe84b4bf0ce8864b307afb4ccfbe48efcb1f5f5999ac58"
+    },
+    {
+      "path": "errata/text/err2.txt",
+      "sha256": "1b5c93712c3c467a48679e0040ba6c5869998b25184dbd125a5d096ce96e9ab0"
+    },
+    {
+      "path": "errata/originals/err2.textxt",
+      "sha256": "8faa21566312314ec6bda0f8956913deb312517fd9fa688dcc0bf19e1f21962e"
+    }
+  ],
+  "search_scope": "Original114–118/584; Seysen, page ranges363–375/376, Borosh, Cusick, Kontorovich and related historical names. No applicable correction to C0245 found.",
+  "visual_errata": [
+    "workstreams/vol2/images/all2-pre-p04-direct.png",
+    "workstreams/vol2/images/all2-pre-p13-direct.png"
+  ],
+  "published_changes": [
+    {
+      "date": "2013-04-02",
+      "original_page": 117,
+      "change": "HM47 to HM48; add Niederreiter to attribution.",
+      "id": "V2-X0114"
+    },
+    {
+      "date": "2013-04-02",
+      "original_page": 584,
+      "change": "Add Kontorovich2013 survey and replace BIT25(1980),193–208 with BIT23(1983),65–74.",
+      "id": "V2-X0114"
+    }
+  ],
+  "primary_web_review": [
+    {
+      "url": "https://link.springer.com/article/10.1007/BF01202355",
+      "scope": "Publisher metadata and abstract read. Pages363–376, DOI10.1007/BF01202355. Local publisher HTML and Crossref deposit retained. No full-paper proof audit.",
+      "finding": "V2-C0245"
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/BF01937326",
+      "scope": "Publisher metadata/abstract read: BIT23(1983),65–74 and tables through exponent35. Full table not read."
+    },
+    {
+      "url": "https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112/S0025579300009050",
+      "scope": "Publisher-indexed metadata: Mathematika24(1977),166–172. Full proof skipped."
+    },
+    {
+      "url": "https://annals.math.princeton.edu/2014/180-1/p03",
+      "scope": "Publisher metadata and abstract read; density one for some absolute bound, not the fixed bounds2/3 in the exercise."
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.02518",
+      "latest_observed_version": "v2",
+      "revision_date": "2026-05-08",
+      "scope": "Official version page rechecked; cached introduction, Theorem1.2 and Remark1.3 read. Claims a large absolute bound, not5. No independent full proof or peer-review assessment."
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.14116",
+      "latest_observed_version": "v2",
+      "revision_date": "2026-06-24",
+      "scope": "Official version page rechecked; cached introduction, definition of the restricted denominator set Z, Theorem8 and Remark9 read. Do not confuse Z with all integers."
+    },
+    {
+      "url": "https://www.impan.pl/en/publishing-house/journals-and-series/acta-arithmetica/all/22/4/98674/on-the-uniform-distribution-of-residues-within-the-periods-of-rational-fractions-with-applications-to-normal-numbers",
+      "scope": "Publisher-indexed metadata only: Stoneham, ActaArith22(1973),371–389. Independent one-dimensional consequence proved in note; original proof not claimed read."
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/BF01457454",
+      "scope": "LLL1982 publisher metadata agrees with261,515–534 and authors. Full algorithm not re-audited."
+    },
+    {
+      "url": "https://link.springer.com/chapter/10.1007/3-540-49264-X_1",
+      "scope": "Schnorr/Horner publisher metadata and abstract read: LNCS921(1995),1–12, lattice reduction improvements. Later online date is not the conference year."
+    },
+    {
+      "url": "https://www.ams.org/mcom/1975-29-131/S0025-5718-1975-0379386-6/",
+      "scope": "AMS request failed; full Dieter1975 paper skipped. Search located a scan mirror, not opened or treated as read."
+    }
+  ],
+  "cached_primary_review": [
+    {
+      "path": "workstreams/vol2/sources/coveyou-lattices-1969.txt",
+      "scope": "Introduction, section10, beginning of11 and specific matrices in11.3; not independent priority verification."
+    },
+    {
+      "path": "workstreams/vol2/sources/marsaglia-planes-1968.txt",
+      "scope": "Entire four-page article text reread. Geometry attribution supported; C0038/C0039 remain separate."
+    }
+  ],
+  "bibliography_skips": [
+    "Full Korobov1959/Kuipers-Niederreiter account; original Coveyou-MacPherson1967 and personal priority archives.",
+    "Full Dieter1975, Wood1968 p427, Beyer-Roof-Williamson1971 and Zaremba1972 chapters.",
+    "Full Stoneham1973, older Niederreiter papers beyond prior stated scope, Cusick1977, Borosh-Niederreiter1983 tables, Kontorovich2013.",
+    "Complete proofs of the2026 preprints and the lattice-reduction papers cited on118."
+  ],
+  "limits": [
+    "No later physical printing verified.",
+    "No claim of priority or a complete solution to the fixed-bound research problem."
+  ]
+}

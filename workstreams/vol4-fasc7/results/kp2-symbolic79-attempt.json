@@ -1,0 +1,33 @@
+{
+  "scope": "Completed small numeric trees, followed by a deliberately capped incomplete symbolic attempt.",
+  "recorded_at_utc": "2026-11-07T04:01:00.698175+00:00",
+  "script_sha256_at_execution": "17f9fbdcc759d429068a2a3c5b645e09d28e1ac75ba776cf136f9fb377fa95e9",
+  "completed_numeric_assertions": [
+    {
+      "n": 4,
+      "m": 16,
+      "nodes": 446,
+      "solutions": 15
+    },
+    {
+      "n": 5,
+      "m": 25,
+      "nodes": 2094,
+      "solutions": 1
+    },
+    {
+      "n": 6,
+      "m": 36,
+      "nodes": 5545,
+      "solutions": 0
+    }
+  ],
+  "numeric_evidence": "All three run calls and their node/solution assertions completed before control reached main line131, symbolic=run(100,48,True). The traceback records failure only within that subsequent call.",
+  "numeric_node_records_retained": false,
+  "symbolic_status": "partial",
+  "symbolic_error": "AssertionError: strict25-second cap",
+  "symbolic_count_verified": false,
+  "symbolic_ungracefulness_verified": false,
+  "rerun_policy": "Do not restart this completed/capped attempt. Continue analytic arguments and other independent tasks.",
+  "reused_n3_certificate": "results/kp-fig107.json"
+}

@@ -1,0 +1,37 @@
+{
+  "checked_at_utc": "2026-11-11T23:24:49.070663+00:00",
+  "edition": "Volume4B first edition, second printing, November2022",
+  "fresh_errata_manifest": "integration/2026-11-10-bookwise/errata/vol4b-manifest.json",
+  "errata_files": [
+    "errata/text/all4b.txt",
+    "errata/text/err4b.txt",
+    "errata/text/all4f5.txt",
+    "errata/text/err4f5.txt"
+  ],
+  "errata_result": "No matching correction for the rotation cases on515 or roof pair on517. Known Fascicle5 p325 planar-pieces correction and p326 illustration/if-and-only-if corrections are distinct and incorporated.",
+  "originals_inspected": [
+    "images/bookwise-p515.png",
+    "images/bookwise-p515-rotations.png",
+    "images/bookwise-p517.png",
+    "images/bookwise-p518.png"
+  ],
+  "author_draft": {
+    "url": "https://www.ioccc.org/2019/ciura/fasc5c.pdf",
+    "local": "audit-2026-10-31/sources/fasc5c.pdf",
+    "date": "2019-09-11",
+    "printed_pages": [
+      219,
+      221
+    ],
+    "result": "Both erroneous passages are also present in extracted draft text."
+  },
+  "public_queries": [
+    "Knuth \"354\" \"polysphere\" errata",
+    "Knuth \"515\" \"rotations\" \"impossible\"",
+    "\"polysphere\" \"T2RT\"",
+    "Knuth \"517\" \"S7\" \"roof\"",
+    "Knuth \"{i, j, n, o, p}\"",
+    "Knuth \"polysphere\" \"errata\" \"356\""
+  ],
+  "public_result": "No matching correction found; search results included the draft/book and unrelated matches. No absolute priority claim."
+}

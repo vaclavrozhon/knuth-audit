@@ -1,0 +1,27 @@
+{
+  "at_utc": "2026-11-02T19:21:14.901530+00:00",
+  "source_sha256": "e9b2bd720d9cee26915b7a6d390044caf2c34a2a58747e985f53924f27f11f50",
+  "build_manifest_sha256": "d3177676e6ce68bf8246257d4fabae51ff7d449f5848fe8bce890dcdaac7a566",
+  "reference_sha256": "046c3e61dfce9a7d71c770b8aef61a901d191ca00966888c0b748d313309ace3",
+  "cases": [
+    {
+      "label": "a1",
+      "solutions": 10,
+      "terminal_sha256": "6f1f4854ce77adfb8b91ded5cb2b7cd3f9a68e922550214f6b27a37bca803886"
+    },
+    {
+      "label": "a2",
+      "solutions": 5,
+      "terminal_sha256": "8eb1394d4f3c40a026c17ccaf34d4a1629d879aa383f73ccd0ece9cdf86045d6"
+    },
+    {
+      "label": "a3",
+      "solutions": 6,
+      "terminal_sha256": "c350c63156be9dc30b1357f0ba8010ab5c6be3abc4491e71468113687f9489e8"
+    }
+  ],
+  "starting_color": "a",
+  "tile_threshold": "e",
+  "primary_cells_threshold": 0,
+  "qualification": "Use the justified all-colors tile threshold. This does not establish the unrestricted general statement already tracked as C031."
+}

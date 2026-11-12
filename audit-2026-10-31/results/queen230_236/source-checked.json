@@ -1,0 +1,75 @@
+{
+  "at_utc": "2026-11-03T18:13:50.639595+00:00",
+  "checker_sha256": "b20bcc8378bace64ff2b4335accc0d9abf176be95cfb29a7f1ff3c6d39b442b2",
+  "nice": 15,
+  "wall_seconds": 0.028887138003483415,
+  "dependencies": {
+    "verify_f075_f076.py": "8ac8761516945eb10b18ae02455e5090259c6ad50f740f6c2dd54d6f62f99759",
+    "verify_f147.py": "f304b1ed046a579c6f64a206ccd97a1db140ba59acc2c6dbf3ca242c5425ae20",
+    "extract_queen230_236.py": "3efca32a6a108d5dd1cc9fbfaaf47149be0f4d142327c6d21fd446a78d3602d8"
+  },
+  "accepted_data_hashes": {
+    "results/queen_costs/distance_max.json": "3b137101e7cff4db69f0287c4cbf3b072e97153df00283b25812494b43a19e5a",
+    "results/queen_costs/distance_min.json": "fd72a09a8700516bd951b83ea1885f49a24bc72bb2127305b0fa9ce318e0f3b2",
+    "results/queen_costs/dlx5-verified.json": "01e140cf30cd01e4da3d62364388667db3ccf9c1d7ab85671371bbf23d95b4b7",
+    "results/queen_costs/figures-verified.json": "4629ec246fd16fee96ab780a0bf794947e95cc7d12b4f0aab2adac048def1c1a",
+    "results/queen_costs/floor_min.json": "f1ba72ce1b36743f79d65ca96bb9bffa14401d3b18838f98c3cd1b9626fc376c",
+    "results/queen_costs/n16.json": "cdecbb1b280af799da13e3d4716d2f2c4b163ae35385b2d9ca804760f84c35e8",
+    "results/queen_costs/n4.json": "511e89b7602c465c24413337b83bc259e28f003c71f39379a805b5b04ec96daa",
+    "results/queen_costs/n5.json": "ac7fe38f8e4fb3450abf9bb76dadd2c2eaf509bd2ea3b777839e42c7cba2f2ed",
+    "results/queen_costs/n6.json": "dc97dd6933a18d025a59f62ca3f1e77aea0eff957d4f7ff06743ce6515a37e78",
+    "results/queen_costs/n7.json": "b8ee78ca972a2098b134093207577c095ce805a09616637037db33fc1ee6f584",
+    "results/queen_costs/n8.json": "b615539da6fe371c2d7548ec046c00e21ce482fcc6cb0053adea547b168896ce",
+    "results/queen_costs/n9.json": "82a55887653e52e469ba729c215a9d52903ddd1edad53fad2177a9aa066088bc",
+    "results/queen_costs/power-intervals.json": "f3feda35feeee901c6bcdfe329681212e9eee0c8fc7f5bbbd25776fe863540ce",
+    "results/queen_costs/power-threshold-endpoints.json": "4d1ae83eaad87675ac3aca22a5628d277cba7a0297b6cc0f8dfd37842521e22a",
+    "results/queen_costs/power-threshold.json": "b874eb2d262394d35775048b6edf5c98b4b6795aebadf092767bd09a3cfc1fcd",
+    "results/queen_costs/product_max.json": "333e3566394938a2ccc872d6b005625bc559bed23b60abfe2c04437938a22a0a",
+    "results/queen_costs/product_min.json": "2fc9bd5ccab9a848da63654958cafbc64e2889778ad9d12e05504260881cdeff",
+    "results/queen_costs/quartic_max.json": "93a418f70441c4488f83b9a004722f505db49afebf576a7d71103ffd31e8afa8",
+    "results/queen_costs/quartic_min.json": "c7edb758640131c2341d2e35939c0b5939d805d3ded2c26e183022dee3c10177",
+    "results/queen_costs/small-verified.json": "846855d9799fe5b22c1228f5e2d0fd42b8fd5ca7694d717a679bf95631e78857",
+    "results/queen_costs/ultimate-verified.json": "77406b7a4c4652e5c440cb2376a9d46ccdf118995c30e83808251619ed458368",
+    "results/queen_costs/verified-summary.json": "b1930897835a678be93c6328075643a8e1d54709c52a9597c4292bc0d1612ed8"
+  },
+  "current_evidence_sha256": {
+    "results/queen230_236/figures-checked.json": "704a19d30bebd48c0625321ef7037645da6570d7d8dc9f0939884cbd3773514f",
+    "sources/queen230_236/original-498.txt": "d589d3820e88c0a802f65f4a5c076115756d3559049189ccf778ccd4f0621470",
+    "sources/queen230_236/draft-188.txt": "2a243c3d5676ee13a16bec28a76aab490eaaf2df0f21fe9145d22523e5660b01"
+  },
+  "old_optimal_sets_accepted": true,
+  "old_threshold_certificate_accepted": true,
+  "new_enumerated_subsets": 16,
+  "example236_solutions": [
+    [
+      1,
+      2
+    ],
+    [
+      0,
+      3
+    ]
+  ],
+  "middle_eight_rows_reflect": true,
+  "quarterturn_invariance": {
+    "16": [
+      90,
+      180,
+      270
+    ],
+    "17": [],
+    "18": [],
+    "19": [],
+    "32": [
+      90,
+      180,
+      270
+    ],
+    "64": [],
+    "128": []
+  },
+  "old_censuses_repeated": 0,
+  "new_optimization_searches": 0,
+  "higher_n_global_optimality_independently_reproved": false,
+  "rotation_conjecture_proved_for_all_n": false
+}

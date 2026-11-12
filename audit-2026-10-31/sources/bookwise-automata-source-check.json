@@ -1,0 +1,73 @@
+{
+  "checked_at_utc": "2026-11-12T03:02:30.723549+00:00",
+  "new_findings": [
+    "F240",
+    "F241"
+  ],
+  "errata_ranges": {
+    "4B": [
+      [
+        358,
+        359
+      ],
+      [
+        630,
+        630
+      ],
+      [
+        634,
+        636
+      ]
+    ],
+    "4F6": [
+      [
+        174,
+        175
+      ],
+      [
+        266,
+        266
+      ],
+      [
+        270,
+        272
+      ]
+    ]
+  },
+  "errata_files": [
+    "errata/text/all4b.txt",
+    "errata/text/err4b.txt",
+    "errata/text/all4f6.txt",
+    "errata/text/err4f6.txt",
+    "errata/originals/err4b.textxt",
+    "errata/originals/err4f6.textxt"
+  ],
+  "refresh_manifests": [
+    "integration/2026-11-10-bookwise/errata/vol4b-manifest.json",
+    "integration/2026-11-10-bookwise/errata/vol4b-sat-manifest.json"
+  ],
+  "known_errata": [
+    "2022 replacement404 incorporated, but answer432 was not updated.",
+    "2026-04-02 first-paragraph replacement436 and7n+3 count applied.",
+    "2016 example436 and QPhik indices440 incorporated."
+  ],
+  "public_searches": [
+    "\"Knuth\" \"432\" \"404\" forcing",
+    "\"Knuth\" \"10010001\" \"433\""
+  ],
+  "public_search_result": "No relevant correction found; no absolute priority claim.",
+  "fixed_check": "audit-2026-10-31/results/bookwise-sat432-433-fixed-check.json",
+  "441_source": {
+    "url": "https://www.researchgate.net/publication/220944351_New_Encodings_of_Pseudo-Boolean_Constraints_into_CNF",
+    "doi": "https://doi.org/10.1007/978-3-642-02777-2_19",
+    "scope": "Author-uploaded primary text: definitions, Section4.3, Theorem1 and its proof; standard underlying watchdog construction accepted, not independently implemented.",
+    "unavailable_attempts": [
+      "HAL document returned404",
+      "Author old bibliography had no entries; CRIL publication metadata verified."
+    ]
+  },
+  "closed_forward_dependencies": [
+    "SAT423->436",
+    "SAT427->436"
+  ]
+}

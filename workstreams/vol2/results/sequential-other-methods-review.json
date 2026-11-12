@@ -1,0 +1,369 @@
+{
+  "reviewed_at_utc": "2026-11-06T06:33:12.571698+00:00",
+  "original_printed_pages": [
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    551,
+    552,
+    553,
+    554,
+    555,
+    556,
+    557,
+    558,
+    559
+  ],
+  "partial_pages": {
+    "36": "Cryptographic reduction and relative modulus requirement await §3.5F / §4.5.4-43.",
+    "559": "§3.3.1 answers below the completed §3.2.2 answer await review."
+  },
+  "exercise_ids": [
+    "3.2.2-1",
+    "3.2.2-2",
+    "3.2.2-3",
+    "3.2.2-4",
+    "3.2.2-5",
+    "3.2.2-6",
+    "3.2.2-7",
+    "3.2.2-8",
+    "3.2.2-9",
+    "3.2.2-10",
+    "3.2.2-11",
+    "3.2.2-12",
+    "3.2.2-13",
+    "3.2.2-14",
+    "3.2.2-15",
+    "3.2.2-16",
+    "3.2.2-17",
+    "3.2.2-18",
+    "3.2.2-19",
+    "3.2.2-20",
+    "3.2.2-21",
+    "3.2.2-22",
+    "3.2.2-23",
+    "3.2.2-24",
+    "3.2.2-25",
+    "3.2.2-26",
+    "3.2.2-27",
+    "3.2.2-28",
+    "3.2.2-29",
+    "3.2.2-30",
+    "3.2.2-31",
+    "3.2.2-32",
+    "3.2.2-33",
+    "3.2.2-34",
+    "3.2.2-35",
+    "3.2.2-36",
+    "3.2.2-37",
+    "3.2.2-38"
+  ],
+  "additional_cross_reference_page": {
+    "printed_page": 408,
+    "scope": "Only the first two columns, 46 prime moduli; not a whole-page review."
+  },
+  "new_computation": "Two constant-size boundary traces only; no old exhaustive or numerical experiment rerun.",
+  "C0240_boundary_traces": [
+    {
+      "m": 1,
+      "k": 1,
+      "input": [
+        0
+      ],
+      "after_X1": [
+        0,
+        0
+      ],
+      "X2_eligible_indices": [],
+      "correct_next_digit": 0
+    },
+    {
+      "m": 1,
+      "k": 3,
+      "input": [
+        0,
+        0,
+        0
+      ],
+      "after_X1": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "X2_eligible_indices": [],
+      "correct_next_digit": 0
+    }
+  ],
+  "accepted_artifacts": [
+    {
+      "path": "notes/other-algorithms.md",
+      "sha256": "bf1333780e4fb658d8fe2746c1860c9c601d8aa2e6b0da20403333aeb48f88be"
+    },
+    {
+      "path": "notes/other-methods-context.md",
+      "sha256": "be58da041e77848cdff21d096eef3a1b680ede71f78e33f567748953b534098b"
+    },
+    {
+      "path": "notes/period-lifting.md",
+      "sha256": "1a5936456a29561c7c62d74c70fbd4f3557c199c8a5ea37df2bc31c5bd8ab305"
+    },
+    {
+      "path": "notes/primitive-polynomials.md",
+      "sha256": "7c19bd0d01e3e1c0489e08ecd521a63f3f6ffc4741526b6a74934f07ba5b58d9"
+    },
+    {
+      "path": "notes/lagged-identities.md",
+      "sha256": "0729fcf3225119d0cf92dae05bb82f38c82185cdf2d1f9049464e594a1467f24"
+    },
+    {
+      "path": "notes/complete-sequences.md",
+      "sha256": "59a6cd4d0c9199dd3c29fb42431ad7143b0855e0a5d7a1f189d7fe3a602ba9d5"
+    },
+    {
+      "path": "notes/inversive-generators.md",
+      "sha256": "39115615bbe6ae2e99011b485a20c55fd41d01ce1c844e1cf68144c49a5f251d"
+    },
+    {
+      "path": "notes/multiword-lcg.md",
+      "sha256": "e639e6e3041793f1a24d0e479941809a32f2a81cc75d835c751230269439d92e"
+    },
+    {
+      "path": "notes/reiser-conjecture.md",
+      "sha256": "2334535dd7849fde6c3ea8c1e82cca195b8fa1e639a8dc151f69e02f8d9ce995"
+    },
+    {
+      "path": "verify_other_algorithms.py",
+      "sha256": "566c503cd0c9ece071ab600faa754fc363552d53d6a84f0e5c848a6b349fd0e5"
+    },
+    {
+      "path": "verify_shuffle_y.py",
+      "sha256": "f23d5e41deb708f1dee33d502f0204b4b1beffa344b5caa20b18f8905c72bf47"
+    },
+    {
+      "path": "verify_period_lifting.py",
+      "sha256": "bea79652f8d4efdc7f6125faf22971dcb18a0c941fa52ed68786cdc7e431d192"
+    },
+    {
+      "path": "verify_shuffling_boundaries.py",
+      "sha256": "474b402c169e332306e182b3655e3a98ccc51dc4e67e5cc41cdeec75464cceb3"
+    },
+    {
+      "path": "verify_binary_polynomials.py",
+      "sha256": "b60d78a2c9c4b60ee52f91d6eb4e061b3d7ddc77ed41c3ba8c89c63c976a50a1"
+    },
+    {
+      "path": "verify_primitive_criteria.py",
+      "sha256": "9395e023a7b0276d6e670fe74379e1d179e23495d28f29601f4f128e222d6ca6"
+    },
+    {
+      "path": "verify_complete_sequences.py",
+      "sha256": "24ee29c77005880bac48d0857239608e957b6e488b882d9597ca2ff94179ac0e"
+    },
+    {
+      "path": "verify_lagged_identities.py",
+      "sha256": "78be4850bbe5d48e6a90eb4e94e05a1dc293c171e3568b2facdef16480e568fd"
+    },
+    {
+      "path": "verify_inversive.py",
+      "sha256": "84c01b4fa19832ac340350da4eb86c3a1c57bbcbd72a42718e40b8d973844f09"
+    },
+    {
+      "path": "experiment_multiword_lcg.py",
+      "sha256": "cf43e8ff3fb89ef4c13f033ac691f8c0e957724d59b15f9d2bf348a7ff95ecf3"
+    },
+    {
+      "path": "verify_reiser_hypotheses.py",
+      "sha256": "ed6cb5d5292f933230da2b5d09a776730324f82bda33a545391bb40f8562f8c8"
+    },
+    {
+      "path": "certify_trinomial_factors.py",
+      "sha256": "5da807ef40d6a573f46813e6abc3c34c18bd4baf7d5dcd29ab3de3fd78ec3b8a"
+    },
+    {
+      "path": "verify_ecpp.py",
+      "sha256": "e45eee8b5e01c695a305704d00d1657340316f38820df43f4255a4e3554540c0"
+    },
+    {
+      "path": "sources/amram-2019-shift-rule.pdf",
+      "sha256": "4a9a92d44b37cda25c27aa81b4ce64684f178e6ebc1dce40a2b4d498f147b8dc"
+    },
+    {
+      "path": "sources/reiser-1977.pdf",
+      "sha256": "63770dbeda742435f51637da2106eb169ac8d239153ef4fddd546b870599f5d1"
+    },
+    {
+      "path": "sources/payne-1973-starting-matrix.pdf",
+      "sha256": "4e29238d7baf93dedbe88df1253985f62f919150be5287be151f44e23abd2c0a"
+    },
+    {
+      "path": "sources/luscher-1993-ranlux.pdf",
+      "sha256": "d681bb0d226e9b3f67ddc09bdc41493abaf2c9d47af338488ed82e22b5787b48"
+    },
+    {
+      "path": "images/all2-pre-p04-direct.png",
+      "sha256": "cc71b74c1ffcc29e3f8b753e4614fd0a78413314edf090f15e81b0ebfd1f51f9"
+    },
+    {
+      "path": "images/all2-pre-p13-direct.png",
+      "sha256": "4552fc47b2ca170c53899fbd7d2b3c6da827e74b5d6a33c98441c79ff17ca7f5"
+    },
+    {
+      "path": "images/all2-prepre-p31-direct.png",
+      "sha256": "79399e4d87a7a0299d049f997af5d6d6601f2e426a20a227cb6a94c1524f0d37"
+    },
+    {
+      "path": "images/vol2-p408.png",
+      "sha256": "142166bbf6905c53f639d9ddadacb500c35b1c38beed72ba874056ad401cbff9"
+    },
+    {
+      "path": "notes/C0240-unary-martin-alphabet.md",
+      "sha256": "9d81d4dc0162581b3cb8a7ae55dabb406f4b827ba4ab42a8512a0862c5f238c8"
+    },
+    {
+      "path": "results/other-algorithms.json",
+      "sha256": "e6f00dce453f4ab0fb8037b1cead7ae36a5ceca316e09b5cc78384645593b703"
+    },
+    {
+      "path": "results/other-algorithms.log",
+      "sha256": "24136de50632ef7b90bbc2bb91926d6a9e08c1a62562d4c1b539f5c0f6431ebe"
+    },
+    {
+      "path": "results/period-lifting.json",
+      "sha256": "08fd4f40f7082581857f290e72638a2687852bb99422bf8e05c5af213b11909d"
+    },
+    {
+      "path": "results/period-lifting.log",
+      "sha256": "81c8bae8e8c02f76faf032179105d0fda25acacb6a321c4507686cfc6aac6aae"
+    },
+    {
+      "path": "results/reiser-hypotheses.json",
+      "sha256": "e56867c9b4e6c7668982cd82d8b8a0562c49b8edfb666f9be3e0320e12a38d81"
+    },
+    {
+      "path": "results/reiser-hypotheses.log",
+      "sha256": "098465c17e56e3797ea3290bf8bbed8c526e4071d36e8df5b42faf98bd0a100e"
+    },
+    {
+      "path": "results/primitive-criteria.json",
+      "sha256": "c08290cccd4942b0718d02270c446222e924011e3251e0e07d584cdd14206554"
+    },
+    {
+      "path": "results/primitive-criteria.log",
+      "sha256": "295d580b86a40e1797ff5e5025ea2b83ad6518371b6070feab8b1eae25629032"
+    },
+    {
+      "path": "results/binary-polynomials.json",
+      "sha256": "4e81a587e33bcc8468f0a2eaa7954475172d96e3826c71711789bc446db86237"
+    },
+    {
+      "path": "results/binary-polynomials.log",
+      "sha256": "30230cdf121a047cbced4f762ba7cbb272cc7122d305763de092be64b2a2eb0c"
+    },
+    {
+      "path": "results/binary-period-factors.json",
+      "sha256": "379008bf9ebe1fad93820d2399899a60d68569d78feb2859bdaf053b4e7a382d"
+    },
+    {
+      "path": "results/binary-period-factors.log",
+      "sha256": "ea825d3b7f112f0503e6fb7af7548589d66128efbc978e33486e35f6a3d39c31"
+    },
+    {
+      "path": "results/lagged-identities.json",
+      "sha256": "a67a60278315ac5217ec80a90484cc2b2fa5d9c2bd25511094bcd1c554388180"
+    },
+    {
+      "path": "results/lagged-identities.log",
+      "sha256": "94674ff675d4e634f76209e0093331ace46ba3c9888c666170595bbcbf53fb90"
+    },
+    {
+      "path": "results/complete-sequences.json",
+      "sha256": "ec9d369b5a0d6178b709f37ec15d564dd3b0f50c731e51dcc5d25495ea600d2d"
+    },
+    {
+      "path": "results/complete-sequences.log",
+      "sha256": "9d9bb231c08bf8ddab629df0b7c05984da4566d3f87905d93e59eaf58048ee9e"
+    },
+    {
+      "path": "results/inversive.json",
+      "sha256": "41a956ecc11637f67e2f12c8baf744863e29cdf96a91f72489968d9a66595783"
+    },
+    {
+      "path": "results/inversive.log",
+      "sha256": "659b4db95222381c4935c5028383c934e3a52f2f60e647a930f58be87a9aeaa5"
+    },
+    {
+      "path": "results/multiword-lcg.json",
+      "sha256": "97d8f89b2cf3a435d97b615ddc45592f1ea539b831cc2bf40545842c9aff7f8c"
+    },
+    {
+      "path": "results/multiword-lcg.log",
+      "sha256": "51a4fae2371ecc75e2f6a5604b3c27cdf54efe559e25e2f2258e6ed9c3f5049b"
+    },
+    {
+      "path": "results/shuffle-y-census.json",
+      "sha256": "0cc32b30c3af4963c2097d1873d5f40218342f1f4ffd2d9e81f40a5a0a69cdc1"
+    },
+    {
+      "path": "results/shuffle-y-census.log",
+      "sha256": "295400125dc84b916019de69dfa42d6f3ad6a20e68b5f63dfa971dcbd2ea80db"
+    },
+    {
+      "path": "results/shuffle-y-validation.json",
+      "sha256": "54a23ead05692d2337a9a5ff762de122c354ed3e7fbfb7d01171dc7b3b2118bb"
+    },
+    {
+      "path": "results/shuffle-y-validation.log",
+      "sha256": "10ef2f2231a9cd96a8e8b9eaae46b2bf835ac918931b925620bbf27fe7cfcb7e"
+    },
+    {
+      "path": "results/shuffling-boundaries.json",
+      "sha256": "630041a68676c90119839d669d11b263b2102010c3b8fddd314e29e3e91fb6b3"
+    },
+    {
+      "path": "results/shuffling-boundaries.log",
+      "sha256": "4ac29bb096eabf8680316cfe4f5fbb3cd4b30e340e273785033a51668f20b3e6"
+    },
+    {
+      "path": "results/binary-polynomials-initial.log",
+      "sha256": "a35511a15e91980848ce153422035d70bb09da462abce3ba8e16553ef5e6a858"
+    },
+    {
+      "path": "results/complete-sequences-first-pass.log",
+      "sha256": "424bba93741922d60479045eecc58c9a4b21e17f4f4debfdb26037cb7d4600c2"
+    }
+  ],
+  "bibliography_quick_attempts": [
+    {
+      "query": "M. H. Martin 1934 859 site:projecteuclid.org / site:ams.org",
+      "result": "No usable primary result."
+    },
+    {
+      "query": "Random number generation Coveyou 70 111 1969",
+      "result": "Secondary references only; original chapter not accepted as read."
+    },
+    {
+      "url": "https://dl.acm.org/doi/10.1145/355666.355670",
+      "result": "403 Forbidden; Bays–Durham full article skipped."
+    }
+  ],
+  "limitations": [
+    "No recent physical printing checked.",
+    "No claim of priority or resolution of the intended Reiser conjecture.",
+    "Archived computations accepted after reviewing code, proof and completion logs, not rerun.",
+    "Historical empirical performance claims not reproduced; mathematical claims accepted only in the recorded scopes.",
+    "FKM factorization and standard Lucas–Lehmer criterion used as cited results, not re-proved here."
+  ]
+}

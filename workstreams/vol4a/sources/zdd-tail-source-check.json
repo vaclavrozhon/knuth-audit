@@ -1,0 +1,60 @@
+{
+  "checked_at_utc": "2026-11-11T18:29:50.013579+00:00",
+  "edition": "Volume4A, first edition, first printing, 2011; inventory/books.json",
+  "originals": [
+    "images/bookwise-p256.png",
+    "images/bookwise-p276.png",
+    "images/bookwise-p277.png",
+    "images/bookwise-p278.png",
+    "images/bookwise-p279.png",
+    "images/bookwise-p669.png",
+    "images/bookwise-p670.png",
+    "images/bookwise-p672.png",
+    "images/bookwise-p673.png",
+    "images/bookwise-p674.png",
+    "images/bookwise-p675.png",
+    "images/bookwise-p676.png",
+    "images/bookwise-p677.png",
+    "images/bookwise-p678.png"
+  ],
+  "errata": [
+    "errata/text/all4a-pre.txt",
+    "errata/text/all4a.txt",
+    "errata/text/err4a.txt",
+    "errata/text/all4f1.txt",
+    "errata/text/err4f1.txt"
+  ],
+  "pages_screened": "4A255–258,276–280,669–678; Fascicle1 corresponding123–126,144–148,233–244",
+  "retrieval_manifests": [
+    "integration/2026-11-10-bookwise/errata/vol4a-manifest.json",
+    "integration/2026-11-10-bookwise/errata/vol4a-fasc1-manifest.json"
+  ],
+  "known_excluded": [
+    "TheoremS x1->e1 (2015), subtree->subforest (2018)",
+    "237 NONSUB branch (2011), reference (2013), MINHIT simplification (2015), v=fv assignment (2022), complexity note (2024)",
+    "253 f2->f1 (2011)",
+    "242 3-regular->3-uniform and kernel plural (2019)",
+    "262 C(a)->C(f) (2017)",
+    "Bibliographic and wording corrections on main256–258 and answers672–673"
+  ],
+  "public_queries": [
+    "Knuth \"236\" \"xvi\" blocker errata",
+    "Knuth \"247\" \"sweet\" \"errata\"",
+    "Knuth \"255\" \"k\" \"ZDD\" \"increment\"",
+    "Knuth \"267\" \"forests\" \"ZDD\" error",
+    "Knuth \"261\" \"QDD\" \"minimum\" correction"
+  ],
+  "public_result": "No matching independent correction found. Earlier author book drafts retain the blocker and QDD claims; other results were unrelated. Absolute novelty is not established.",
+  "public_draft_urls": [
+    "https://course.khoury.northeastern.edu/csu690/ssl/bdd-knuth.pdf",
+    "https://theswissbay.ch/pdf/Gentoomen%20Library/Programming/Misc/The%20Art%20of%20Computer%20Programming/Binary%20Decision%20Programs.pdf"
+  ],
+  "findings": [
+    "V4A-F0051",
+    "V4A-F0052",
+    "V4A-F0053",
+    "V4A-F0054",
+    "V4A-F0055",
+    "V4A-F0056"
+  ]
+}

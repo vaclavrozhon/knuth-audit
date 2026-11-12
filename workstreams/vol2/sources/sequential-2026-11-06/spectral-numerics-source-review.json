@@ -1,0 +1,81 @@
+{
+  "reviewed_at_utc": "2026-11-06T09:44:57.098855+00:00",
+  "errata_inputs": [
+    {
+      "path": "errata/text/all2-prepre.txt",
+      "sha256": "62a1ff323ca421f2640e2337f922dbf8cfc8e86c20d9b11acfc91221721c6f58"
+    },
+    {
+      "path": "errata/text/all2-pre.txt",
+      "sha256": "c1735b70547678d739eae3a8d7b02872c737218eed7706a0aba8fb6fc21a6529"
+    },
+    {
+      "path": "errata/text/all2.txt",
+      "sha256": "1c4d7f2259e147db0ebe84b4bf0ce8864b307afb4ccfbe48efcb1f5f5999ac58"
+    },
+    {
+      "path": "errata/text/err2.txt",
+      "sha256": "1b5c93712c3c467a48679e0040ba6c5869998b25184dbd125a5d096ce96e9ab0"
+    },
+    {
+      "path": "errata/originals/err2.textxt",
+      "sha256": "8faa21566312314ec6bda0f8956913deb312517fd9fa688dcc0bf19e1f21962e"
+    }
+  ],
+  "entries": [
+    {
+      "source": "errata/text/all2-prepre.txt",
+      "printed_page": 106,
+      "entry": "Page 106 improvement to Table 1                                              02 May 2004\n  L. C. Killingbe k has arried out an exhaustive sear h of all multipliers a \u0011\n  1 mod 4 when m = 232 . He found that the multiplier a = 2650845021 has\n  \u001722 = 4938969760, \u001732 = 2646962, \u001742 = 68342, \u001752 = 8778, and \u001762 = 1506, so it\n  outperforms the other multipliers listed for this modulus. Indeed, its spe ta ular\n  \u0016 s ores (3:61; 4:20; 5:37; 8:85; 4:11) ex eed all values of \u00162 , \u00163 , \u00164 , and \u00165 for\n  any modulus in the entire table."
+    },
+    {
+      "source": "errata/text/all2-prepre.txt",
+      "printed_page": 107,
+      "entry": "xPage 107 line number 25 of the table                                         20 Nov 1998\n    15.6   y 14.6"
+    },
+    {
+      "source": "errata/text/all2-prepre.txt",
+      "printed_page": 109,
+      "entry": "Page 109 line       16                                                            28 Sep 2002\n    p. 332 y 332"
+    },
+    {
+      "source": "errata/text/all2-prepre.txt",
+      "printed_page": 115,
+      "entry": "xPage 115      line 1 of exer ise 8                                               16 Feb 1999\n    [M16 ℄ Line 18 y [M18 ℄ Line 10"
+    },
+    {
+      "source": "errata/text/all2-prepre.txt",
+      "printed_page": 578,
+      "entry": "xPage 578 line 4 of answer 8                                                   16 Feb 1999\n  the bound (39) y the bound (40)"
+    },
+    {
+      "source": "errata/text/all2-pre.txt",
+      "printed_page": 579,
+      "entry": "Page 579              bottom line                                                       10 Jul 2012\n    5   (1848)        y  13 (1848)"
+    }
+  ],
+  "neumaier": {
+    "title": "Bounding basis reduction properties",
+    "author": "Arnold Neumaier",
+    "publication": "Designs, Codes and Cryptography 84 (2017), 237–259; published online 15 September 2016",
+    "doi": "10.1007/s10623-016-0273-9",
+    "retrieved_from": "https://link.springer.com/content/pdf/10.1007%2Fs10623-016-0273-9.pdf",
+    "path": "workstreams/vol2/sources/sequential-2026-11-06/neumaier-2017-basis-reduction.pdf",
+    "sha256": "af0d6dcc0d4cf68d89a7fcf5415c7c973b6c36aa659f37e454ee1083ca980f84",
+    "scope_read": "Definition on printed240, appendix introduction256, Table1 on257;240 and257 visually inspected. Not a new proof of lattice optimality in dimensions3–8.",
+    "license": "CC BY 4.0 as stated in the downloaded article",
+    "access_notes": "PMC returned browser challenge; web PDF open failed, but direct publisher PDF download succeeded. IACR web fallback returned403."
+  },
+  "cached_primary_sources_reread": {
+    "park-miller-1988": "Paragraph on23093 portable multipliers and48271/69621; no exhaustive rerun.",
+    "lecuyer-combined-1988": "Section5 parameters40692/2147483399 and different companion40014/2147483563.",
+    "luscher-1993-ranlux": "Table for389 and recommendation223/389; first five merits match book row28."
+  },
+  "limits": [
+    "Historical complete multiplier searches not rerun, as authorized.",
+    "IMSL adoption date, Cray library specification, personal attributions and precise Marsaglia quotation not newly verified.",
+    "Worldwide RANDU-use claim and full list of empirical trials for row4 remain unverified facts.",
+    "Exercise8 is verified as an upper-bound calculation using approximate illustrative input, not an attained discrete maximum.",
+    "C0046 orbit interpretation must still be rechecked with exercise20; RANDU nu witnesses do not establish a lattice-density interpretation for its score."
+  ]
+}

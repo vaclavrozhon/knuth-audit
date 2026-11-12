@@ -1,0 +1,217 @@
+{
+  "accessed_at_utc": "2026-11-03T21:23:18.198457+00:00",
+  "scope": "Exercise4.5.4-40: exact unit-cost arithmetic proof/programs, corrected constant-register Fibonacci search, complete factorization bound and Robinson identity.",
+  "book_visually_read": [
+    416,
+    666
+  ],
+  "primary_reading": [
+    {
+      "source": "Shamir1977 MIT report",
+      "url": "https://publications.csail.mit.edu/lcs/pubs/pdf/MIT-LCS-TM-091.pdf",
+      "pages": "3–13 visually, model and full factorial/factoring proof, research questions and bibliography.",
+      "limit": "1979 journal typesetting not separately obtained; publisher metadata confirms volume8,28–31."
+    },
+    {
+      "source": "Davis1973",
+      "url": "https://www.math.umd.edu/~laskow/Pubs/713/Diophantine.pdf",
+      "pages": "250,251,266 visually",
+      "limit": "Only binomial/factorial identities, proof and attribution; full Hilbert problem article not audited."
+    }
+  ],
+  "errata_search": {
+    "date": "2026-11-03T21:23:18.198457+00:00",
+    "files": [
+      "../../errata/text/all2-prepre.txt",
+      "../../errata/text/all2-pre.txt",
+      "../../errata/text/all2.txt",
+      "../../errata/text/err2.txt",
+      "../../errata/originals/err2.textxt"
+    ],
+    "terms": [
+      "416",
+      "666",
+      "40",
+      "Shamir",
+      "Robinson",
+      "Fibonacci",
+      "factorial"
+    ],
+    "known_correction": "18May2002 s<-r becomes s′<-r; visually read all2-prepre file42 and included. No correction to missing interval/invariant found."
+  },
+  "processes": [
+    {
+      "label": "shamir-factor",
+      "pid": 1308173,
+      "child_pid": 1308174,
+      "command": "timeout 300 python3 -u workstreams/vol2/verify_shamir_factor.py",
+      "time_limit_seconds": 300,
+      "started_at_utc": "2026-11-03T21:16:18.829770+00:00",
+      "log": "results/shamir-factor.log",
+      "checkpoints": "results/shamir-factor.json",
+      "status": "completed",
+      "scope": "Exact unit-cost programs with factorial/comb/trial-division oracles, repaired constant-register Fibonacci search, printed-invariant counterexample and Robinson identity.",
+      "exit_code": 0,
+      "finished_at_utc": "2026-11-03T21:16:22.786153+00:00",
+      "tool_session": 47950
+    }
+  ],
+  "checks": {
+    "identities": {
+      "status": "passed",
+      "seconds": 0.005673587031196803
+    },
+    "factorials": {
+      "status": "passed",
+      "seconds": 0.18180569598916918
+    },
+    "factors": {
+      "status": "passed",
+      "seconds": 3.6141562999691814
+    }
+  },
+  "limitations": [
+    "Witness disproves declared invariant, not Shamir theorem or final output on35.",
+    "Robinson identity proved; no separate fast implementation of that alternative claimed.",
+    "Research questions not solved; no new lower bound claimed.",
+    "Initial PDF rendering session12201 returned143 after pages1–11; only missing12–15 resumed in session52468 exit0. Arithmetic verification independently exit0.",
+    "Latest physical printing/priority unverified; report unsent."
+  ],
+  "artifacts": [
+    {
+      "file": "images/vol2-p416.png",
+      "bytes": 475569,
+      "sha256": "a2a52c38eff9dd993809958721afe3512e929418941d9c06f1d07fd771207af8"
+    },
+    {
+      "file": "images/vol2-p666.png",
+      "bytes": 706386,
+      "sha256": "e937ae55d509ae420dff3de2092653913ccd5309df2e8256b79633561a5984ed"
+    },
+    {
+      "file": "images/all2-prepre-rsa-p42.png",
+      "bytes": 134420,
+      "sha256": "b83cf51ad8fdb07ce0e5ed80153d46de55c6994f7ea61bcb37a389e08578612f"
+    },
+    {
+      "file": "notes/shamir-factor.md",
+      "bytes": 9996,
+      "sha256": "bde0c799abb08663b5bca35a1c6ac0032fb7bf46d71f698aab3a64850da8bf8e"
+    },
+    {
+      "file": "notes/C0176-shamir-fibonacci-invariant.md",
+      "bytes": 1707,
+      "sha256": "57304d0e22eae8dd4540db588e9f7cb3c8b1c921067fdc5cdd17b890ebf75d26"
+    },
+    {
+      "file": "reports/C0176-shamir-fibonacci-invariant-draft.txt",
+      "bytes": 1736,
+      "sha256": "6159e1724018ec9e572ce8fc26a0c793497e11895d4cc672c6efcac498d4e05c"
+    },
+    {
+      "file": "verify_shamir_factor.py",
+      "bytes": 7297,
+      "sha256": "253d24b8e9a9698f1ecc66cd4ff8f57b342cfb2abd2e25b22305b310213dca65"
+    },
+    {
+      "file": "results/shamir-factor.json",
+      "bytes": 280174,
+      "sha256": "69537b9d72f4bff2553723d3f083f7dfc7e2364522d82867814854d8caab184e"
+    },
+    {
+      "file": "results/shamir-factor.log",
+      "bytes": 117,
+      "sha256": "ec35882e19db299aceea74fc7942d92092932654802a098b9b906b9b84bacffc"
+    },
+    {
+      "file": "sources/shamir-factoring-1977.pdf",
+      "bytes": 28204661,
+      "sha256": "03baf584202ec1f4030239777caea7605b52dd389d9d9fb3884b4b86812a819d"
+    },
+    {
+      "file": "sources/davis-hilbert-1973.pdf",
+      "bytes": 2403248,
+      "sha256": "f4079091f2f6c3d6f1bd863df0f38f28c90b370bc946e5068c162ae401c62d1b"
+    },
+    {
+      "file": "sources/davis-hilbert-1973.txt",
+      "bytes": 105373,
+      "sha256": "4eae71a203bb98ae721dec07ea3ecb6708ab39133d75cad794deeff76246e369"
+    },
+    {
+      "file": "sources/shamir-factor-downloads.json",
+      "bytes": 594,
+      "sha256": "6eff42111f1c297ec56abf0f8e184da09392ef1e19d0cb570672770201736a42"
+    },
+    {
+      "file": "images/shamir-factoring-1977-p3.png",
+      "bytes": 1826594,
+      "sha256": "8e313de5070d941a48790a76c78fdc74b65dcf63954ee4c2e50574dd07ffb943"
+    },
+    {
+      "file": "images/shamir-factoring-1977-p4.png",
+      "bytes": 1872609,
+      "sha256": "bc5de39205670b65336cdc7ab98d4dbfddf7e99d36cf75346d45ee9213a2993d"
+    },
+    {
+      "file": "images/shamir-factoring-1977-p5.png",
+      "bytes": 1780533,
+      "sha256": "320f534c6ad65b4ccccaca111c7ba1eb747889bc5d4405b56d785286c7b96107"
+    },
+    {
+      "file": "images/shamir-factoring-1977-p6.png",
+      "bytes": 1837366,
+      "sha256": "3104d372b5c76476f2791b68bd8459e7999b558531d07361bee2f9218b54e10f"
+    },
+    {
+      "file": "images/shamir-factoring-1977-p7.png",
+      "bytes": 1865233,
+      "sha256": "fa9c1cd2da867a5c2726b8b7096760beca09dd256919c1f61d4dc7306a72c9ce"
+    },
+    {
+      "file": "images/shamir-factoring-1977-p8.png",
+      "bytes": 1943664,
+      "sha256": "61db16f75fbe9001a7e6360134f86fa19502868c4f2760e30e9f4bfb41b811e8"
+    },
+    {
+      "file": "images/shamir-factoring-1977-p9.png",
+      "bytes": 1903999,
+      "sha256": "2becb05223da0d8616a823e92f9c3f7dce0c911e0ec1c6a95f8e1b5a12a8d651"
+    },
+    {
+      "file": "images/shamir-factoring-1977-p10.png",
+      "bytes": 1666358,
+      "sha256": "1d4391456c47d90c0b1acffaea14605dd220a2729e80f349b56a5ae68c0025a1"
+    },
+    {
+      "file": "images/shamir-factoring-1977-p11.png",
+      "bytes": 1654247,
+      "sha256": "4e920e237c0ae5b581499967fc942e08f59147e163067213a2e1c40c8d976b7b"
+    },
+    {
+      "file": "images/shamir-factoring-1977-p12.png",
+      "bytes": 1426197,
+      "sha256": "c03acd72365268768529013e7ab74198d1281593919f15f48774ae699827a916"
+    },
+    {
+      "file": "images/shamir-factoring-1977-p13.png",
+      "bytes": 1420929,
+      "sha256": "3bad229cc64bc3918fc1b0925fa66b863c36d567333ac536661e4fd9f7024b9a"
+    },
+    {
+      "file": "images/davis-hilbert-1973-p250.png",
+      "bytes": 171582,
+      "sha256": "0431ccb3f44f2c6bdf0985a5a6105fc6494c1d76f2e1c726eb3b7cad5140223d"
+    },
+    {
+      "file": "images/davis-hilbert-1973-p251.png",
+      "bytes": 120154,
+      "sha256": "17dd0701a00bd4fe9bd4bbce2e771bb213e6f91a1edde1c8032f85fe89c34f23"
+    },
+    {
+      "file": "images/davis-hilbert-1973-p266.png",
+      "bytes": 377254,
+      "sha256": "26694e81b52cadd381af7134acf8ea4c89c6bf5614869e4340d3ac63d3cdd3c2"
+    }
+  ]
+}

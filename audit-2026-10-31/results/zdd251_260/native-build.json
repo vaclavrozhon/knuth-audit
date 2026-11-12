@@ -1,0 +1,43 @@
+{
+  "binary": "/tmp/knuth-vol4b-zdd-qw7qwwga/dlx6",
+  "build_log": "/tmp/knuth-vol4b-zdd-qw7qwwga/build.log",
+  "commands": [
+    [
+      "ctangle",
+      "gb_flip.w",
+      "gb_flip.ch"
+    ],
+    [
+      "ctangle",
+      "dlx6.w",
+      "dlx6-small.ch"
+    ],
+    [
+      "cc",
+      "-O2",
+      "-Wno-implicit-int",
+      "-Wno-implicit-function-declaration",
+      "dlx6.c",
+      "gb_flip.c",
+      "-o",
+      "dlx6"
+    ]
+  ],
+  "at_utc": "2026-11-03T20:03:13.793102+00:00",
+  "reason": "New bounded cases; original old temporary build did not retain CWEB inputs, so provenance could not be authenticated there.",
+  "source_hashes": {
+    "dlx6.w": "3ef2b068f837f995283a7603b503f710dbe2aa180c10ddee150d8e24d9f3499d",
+    "dlx6-small.ch": "3206e74a5fb5ba12b60ab537a3f0d7084f746e3f4d5ca4ca86126a5faddaf846",
+    "gb_flip.w": "8e4faad04360d1ca35fad7c6c49281b63d3074f9f329444031f9ab09fd94611d",
+    "gb_flip.ch": "40f772938571cddea4929a85677f5c1ad70c1a9076e101e7e0ece1f7ed24ab20",
+    "boilerplate.w": "ef08ba0e208b7a3e8eac07f1fa285f4c06a5848d6dcf1d808e7babbfb42156a8"
+  },
+  "build_hashes": {
+    "dlx6.c": "e2ac471fcda2de7ca3c0ce2f9c4ac6f2edc06973b895a8a73745b2f7bd22f4be",
+    "gb_flip.c": "ac24d68799a7be502b37f26667b2e94457c825cf22fd76ee3119b4509765776b",
+    "dlx6": "f72973ecfee017c8039eafa40e54516bb0be0371165a1ff98cf63466544d3304",
+    "build.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "source_changed": false,
+  "old_solver_or_census_repeated": false
+}

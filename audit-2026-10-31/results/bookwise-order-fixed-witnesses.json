@@ -1,0 +1,1181 @@
+{
+  "product406": {
+    "d": 5,
+    "a": 7,
+    "x": 3,
+    "y": 3,
+    "printed_terms": [
+      {
+        "x_threshold": 2,
+        "y_threshold": 4,
+        "value": true
+      },
+      {
+        "x_threshold": 4,
+        "y_threshold": 2,
+        "value": true
+      }
+    ],
+    "corrected_terms": [
+      {
+        "x_threshold": 2,
+        "y_threshold": 4,
+        "value": true
+      },
+      {
+        "x_threshold": 3,
+        "y_threshold": 3,
+        "value": false
+      },
+      {
+        "x_threshold": 4,
+        "y_threshold": 2,
+        "value": true
+      }
+    ]
+  },
+  "local_full_adder410": {
+    "assignment": {
+      "t": 1,
+      "u": 1,
+      "v": 1,
+      "s": 1,
+      "p": 1,
+      "q": 1,
+      "c": 1,
+      "z": 0
+    },
+    "printed_inequalities": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "output": 2,
+    "input_sum": 3
+  },
+  "circuit410": {
+    "clauses": [
+      [
+        7,
+        -1,
+        3
+      ],
+      [
+        7,
+        1,
+        -3
+      ],
+      [
+        8,
+        -1,
+        -3
+      ],
+      [
+        9,
+        -1,
+        2
+      ],
+      [
+        9,
+        1,
+        -2
+      ],
+      [
+        10,
+        -1,
+        -2
+      ],
+      [
+        12,
+        4,
+        9
+      ],
+      [
+        12,
+        -4,
+        -9
+      ],
+      [
+        11,
+        4,
+        -9
+      ],
+      [
+        13,
+        -10
+      ],
+      [
+        13,
+        -11
+      ],
+      [
+        14,
+        -8,
+        12
+      ],
+      [
+        14,
+        8,
+        -12
+      ],
+      [
+        15,
+        -8,
+        -12
+      ],
+      [
+        16,
+        -2,
+        3
+      ],
+      [
+        16,
+        2,
+        -3
+      ],
+      [
+        17,
+        -2,
+        -3
+      ],
+      [
+        19,
+        5,
+        16
+      ],
+      [
+        19,
+        -5,
+        -16
+      ],
+      [
+        18,
+        5,
+        -16
+      ],
+      [
+        20,
+        -17
+      ],
+      [
+        20,
+        -18
+      ],
+      [
+        21,
+        -13,
+        15
+      ],
+      [
+        21,
+        13,
+        -15
+      ],
+      [
+        22,
+        -13,
+        -15
+      ],
+      [
+        24,
+        -19,
+        21
+      ],
+      [
+        24,
+        19,
+        -21
+      ],
+      [
+        23,
+        -19,
+        -21
+      ],
+      [
+        25,
+        -22
+      ],
+      [
+        25,
+        -23
+      ],
+      [
+        26,
+        -3,
+        -6
+      ],
+      [
+        26,
+        3,
+        6
+      ],
+      [
+        27,
+        -3,
+        6
+      ],
+      [
+        29,
+        -20,
+        26
+      ],
+      [
+        29,
+        20,
+        -26
+      ],
+      [
+        28,
+        -20,
+        -26
+      ],
+      [
+        30,
+        -27
+      ],
+      [
+        30,
+        -28
+      ],
+      [
+        31,
+        -25,
+        29
+      ],
+      [
+        31,
+        25,
+        -29
+      ],
+      [
+        32,
+        -25,
+        -29
+      ],
+      [
+        33,
+        -30,
+        32
+      ],
+      [
+        33,
+        30,
+        -32
+      ],
+      [
+        34,
+        -30,
+        -32
+      ],
+      [
+        -34
+      ],
+      [
+        -33
+      ]
+    ],
+    "variable_names": {
+      "x0": 1,
+      "x1": 2,
+      "x2": 3,
+      "y0": 4,
+      "y1": 5,
+      "y2": 6,
+      "z0": 7,
+      "c0": 8,
+      "s1": 9,
+      "p1": 10,
+      "q1": 11,
+      "z1": 12,
+      "c1": 13,
+      "z2": 14,
+      "c2": 15,
+      "s3": 16,
+      "p3": 17,
+      "q3": 18,
+      "z3": 19,
+      "c3": 20,
+      "s4": 21,
+      "p4": 22,
+      "q4": 23,
+      "z4": 24,
+      "c4": 25,
+      "s5": 26,
+      "p5": 27,
+      "q5": 28,
+      "z5": 29,
+      "c5": 30,
+      "z6": 31,
+      "c6": 32,
+      "z7": 33,
+      "c7": 34
+    },
+    "comparisons": [
+      {
+        "x": 0,
+        "y": 0,
+        "arithmetic": true,
+        "printed_cnf": true
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "arithmetic": true,
+        "printed_cnf": true
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "arithmetic": true,
+        "printed_cnf": true
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "arithmetic": true,
+        "printed_cnf": true
+      },
+      {
+        "x": 0,
+        "y": 4,
+        "arithmetic": true,
+        "printed_cnf": true
+      },
+      {
+        "x": 0,
+        "y": 5,
+        "arithmetic": true,
+        "printed_cnf": true
+      },
+      {
+        "x": 0,
+        "y": 6,
+        "arithmetic": true,
+        "printed_cnf": true
+      },
+      {
+        "x": 0,
+        "y": 7,
+        "arithmetic": true,
+        "printed_cnf": true
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "arithmetic": false,
+        "printed_cnf": false
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "arithmetic": true,
+        "printed_cnf": true
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "arithmetic": true,
+        "printed_cnf": true
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "arithmetic": true,
+        "printed_cnf": true
+      },
+      {
+        "x": 1,
+        "y": 4,
+        "arithmetic": true,
+        "printed_cnf": true
+      },
+      {
+        "x": 1,
+        "y": 5,
+        "arithmetic": true,
+        "printed_cnf": true
+      },
+      {
+        "x": 1,
+        "y": 6,
+        "arithmetic": true,
+        "printed_cnf": true
+      },
+      {
+        "x": 1,
+        "y": 7,
+        "arithmetic": true,
+        "printed_cnf": true
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "arithmetic": false,
+        "printed_cnf": false
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "arithmetic": false,
+        "printed_cnf": false
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "arithmetic": false,
+        "printed_cnf": false
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "arithmetic": true,
+        "printed_cnf": true
+      },
+      {
+        "x": 2,
+        "y": 4,
+        "arithmetic": true,
+        "printed_cnf": true
+      },
+      {
+        "x": 2,
+        "y": 5,
+        "arithmetic": true,
+        "printed_cnf": true
+      },
+      {
+        "x": 2,
+        "y": 6,
+        "arithmetic": true,
+        "printed_cnf": true
+      },
+      {
+        "x": 2,
+        "y": 7,
+        "arithmetic": true,
+        "printed_cnf": true
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "arithmetic": false,
+        "printed_cnf": false
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "arithmetic": false,
+        "printed_cnf": false
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "arithmetic": false,
+        "printed_cnf": false
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "arithmetic": false,
+        "printed_cnf": false
+      },
+      {
+        "x": 3,
+        "y": 4,
+        "arithmetic": true,
+        "printed_cnf": true
+      },
+      {
+        "x": 3,
+        "y": 5,
+        "arithmetic": true,
+        "printed_cnf": true
+      },
+      {
+        "x": 3,
+        "y": 6,
+        "arithmetic": true,
+        "printed_cnf": true
+      },
+      {
+        "x": 3,
+        "y": 7,
+        "arithmetic": true,
+        "printed_cnf": true
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "arithmetic": false,
+        "printed_cnf": false
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "arithmetic": false,
+        "printed_cnf": false
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "arithmetic": false,
+        "printed_cnf": false
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "arithmetic": false,
+        "printed_cnf": false
+      },
+      {
+        "x": 4,
+        "y": 4,
+        "arithmetic": false,
+        "printed_cnf": false
+      },
+      {
+        "x": 4,
+        "y": 5,
+        "arithmetic": false,
+        "printed_cnf": false
+      },
+      {
+        "x": 4,
+        "y": 6,
+        "arithmetic": true,
+        "printed_cnf": true
+      },
+      {
+        "x": 4,
+        "y": 7,
+        "arithmetic": true,
+        "printed_cnf": true
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "arithmetic": false,
+        "printed_cnf": false
+      },
+      {
+        "x": 5,
+        "y": 1,
+        "arithmetic": false,
+        "printed_cnf": false
+      },
+      {
+        "x": 5,
+        "y": 2,
+        "arithmetic": false,
+        "printed_cnf": false
+      },
+      {
+        "x": 5,
+        "y": 3,
+        "arithmetic": false,
+        "printed_cnf": false
+      },
+      {
+        "x": 5,
+        "y": 4,
+        "arithmetic": false,
+        "printed_cnf": false
+      },
+      {
+        "x": 5,
+        "y": 5,
+        "arithmetic": false,
+        "printed_cnf": false
+      },
+      {
+        "x": 5,
+        "y": 6,
+        "arithmetic": false,
+        "printed_cnf": false
+      },
+      {
+        "x": 5,
+        "y": 7,
+        "arithmetic": false,
+        "printed_cnf": false
+      },
+      {
+        "x": 6,
+        "y": 0,
+        "arithmetic": false,
+        "printed_cnf": false
+      },
+      {
+        "x": 6,
+        "y": 1,
+        "arithmetic": false,
+        "printed_cnf": false
+      },
+      {
+        "x": 6,
+        "y": 2,
+        "arithmetic": false,
+        "printed_cnf": false
+      },
+      {
+        "x": 6,
+        "y": 3,
+        "arithmetic": false,
+        "printed_cnf": false
+      },
+      {
+        "x": 6,
+        "y": 4,
+        "arithmetic": false,
+        "printed_cnf": false
+      },
+      {
+        "x": 6,
+        "y": 5,
+        "arithmetic": false,
+        "printed_cnf": false
+      },
+      {
+        "x": 6,
+        "y": 6,
+        "arithmetic": false,
+        "printed_cnf": false
+      },
+      {
+        "x": 6,
+        "y": 7,
+        "arithmetic": false,
+        "printed_cnf": false
+      },
+      {
+        "x": 7,
+        "y": 0,
+        "arithmetic": false,
+        "printed_cnf": false
+      },
+      {
+        "x": 7,
+        "y": 1,
+        "arithmetic": false,
+        "printed_cnf": false
+      },
+      {
+        "x": 7,
+        "y": 2,
+        "arithmetic": false,
+        "printed_cnf": false
+      },
+      {
+        "x": 7,
+        "y": 3,
+        "arithmetic": false,
+        "printed_cnf": false
+      },
+      {
+        "x": 7,
+        "y": 4,
+        "arithmetic": false,
+        "printed_cnf": false
+      },
+      {
+        "x": 7,
+        "y": 5,
+        "arithmetic": false,
+        "printed_cnf": false
+      },
+      {
+        "x": 7,
+        "y": 6,
+        "arithmetic": false,
+        "printed_cnf": false
+      },
+      {
+        "x": 7,
+        "y": 7,
+        "arithmetic": false,
+        "printed_cnf": false
+      }
+    ],
+    "mismatches": [],
+    "intermediate_assignment": {
+      "x0": 1,
+      "x1": 1,
+      "x2": 1,
+      "y0": 0,
+      "y1": 0,
+      "y2": 0,
+      "c0": 1,
+      "z0": 0,
+      "c1": 1,
+      "z1": 0,
+      "c2": 0,
+      "z2": 1,
+      "c3": 1,
+      "z3": 0,
+      "c4": 0,
+      "z4": 1,
+      "c5": 1,
+      "z5": 0,
+      "c6": 0,
+      "z6": 0,
+      "c7": 0,
+      "z7": 1,
+      "s1": 1,
+      "p1": 1,
+      "q1": 1,
+      "s3": 1,
+      "p3": 1,
+      "q3": 1,
+      "s5": 1,
+      "p5": 1,
+      "q5": 1,
+      "s4": 1,
+      "p4": 0,
+      "q4": 0
+    },
+    "intermediate_word": 91,
+    "true_sum": 147
+  },
+  "multiplier411": {
+    "x": 7,
+    "y": 7,
+    "true_product": 49,
+    "relaxed_product": 37,
+    "z": 37,
+    "assignment": {
+      "x0": 1,
+      "x1": 1,
+      "x2": 1,
+      "y0": 1,
+      "y1": 1,
+      "y2": 1,
+      "b00": 1,
+      "b01": 1,
+      "b02": 1,
+      "b10": 1,
+      "b11": 1,
+      "b12": 1,
+      "b20": 1,
+      "b21": 1,
+      "b22": 1,
+      "c0": 1,
+      "z0": 0,
+      "s1": 1,
+      "p1": 1,
+      "q1": 1,
+      "c1": 1,
+      "z1": 0,
+      "c2": 0,
+      "z2": 1,
+      "s3": 1,
+      "p3": 1,
+      "q3": 1,
+      "c3": 1,
+      "z3": 0,
+      "c4": 0,
+      "z4": 0,
+      "s5": 0,
+      "p5": 1,
+      "q5": 0,
+      "c5": 1,
+      "z5": 0
+    },
+    "variable_names": {
+      "x0": 1,
+      "x1": 2,
+      "x2": 3,
+      "y0": 4,
+      "y1": 5,
+      "y2": 6,
+      "b00": 7,
+      "b01": 8,
+      "b02": 9,
+      "b10": 10,
+      "b11": 11,
+      "b12": 12,
+      "b20": 13,
+      "b21": 14,
+      "b22": 15,
+      "z0": 16,
+      "c0": 17,
+      "s1": 18,
+      "p1": 19,
+      "q1": 20,
+      "z1": 21,
+      "c1": 22,
+      "z2": 23,
+      "c2": 24,
+      "s3": 25,
+      "p3": 26,
+      "q3": 27,
+      "z3": 28,
+      "c3": 29,
+      "z4": 30,
+      "c4": 31,
+      "s5": 32,
+      "p5": 33,
+      "q5": 34,
+      "z5": 35,
+      "c5": 36
+    },
+    "clauses": [
+      [
+        7,
+        -1,
+        -4
+      ],
+      [
+        8,
+        -1,
+        -5
+      ],
+      [
+        9,
+        -1,
+        -6
+      ],
+      [
+        10,
+        -2,
+        -4
+      ],
+      [
+        11,
+        -2,
+        -5
+      ],
+      [
+        12,
+        -2,
+        -6
+      ],
+      [
+        13,
+        -3,
+        -4
+      ],
+      [
+        14,
+        -3,
+        -5
+      ],
+      [
+        15,
+        -3,
+        -6
+      ],
+      [
+        16,
+        -8,
+        10
+      ],
+      [
+        16,
+        8,
+        -10
+      ],
+      [
+        17,
+        -8,
+        -10
+      ],
+      [
+        18,
+        -9,
+        11
+      ],
+      [
+        18,
+        9,
+        -11
+      ],
+      [
+        19,
+        -9,
+        -11
+      ],
+      [
+        21,
+        -13,
+        18
+      ],
+      [
+        21,
+        13,
+        -18
+      ],
+      [
+        20,
+        -13,
+        -18
+      ],
+      [
+        22,
+        -19
+      ],
+      [
+        22,
+        -20
+      ],
+      [
+        23,
+        -17,
+        21
+      ],
+      [
+        23,
+        17,
+        -21
+      ],
+      [
+        24,
+        -17,
+        -21
+      ],
+      [
+        25,
+        -12,
+        14
+      ],
+      [
+        25,
+        12,
+        -14
+      ],
+      [
+        26,
+        -12,
+        -14
+      ],
+      [
+        28,
+        -22,
+        25
+      ],
+      [
+        28,
+        22,
+        -25
+      ],
+      [
+        27,
+        -22,
+        -25
+      ],
+      [
+        29,
+        -26
+      ],
+      [
+        29,
+        -27
+      ],
+      [
+        30,
+        -24,
+        28
+      ],
+      [
+        30,
+        24,
+        -28
+      ],
+      [
+        31,
+        -24,
+        -28
+      ],
+      [
+        32,
+        -15,
+        29
+      ],
+      [
+        32,
+        15,
+        -29
+      ],
+      [
+        33,
+        -15,
+        -29
+      ],
+      [
+        35,
+        -31,
+        32
+      ],
+      [
+        35,
+        31,
+        -32
+      ],
+      [
+        34,
+        -31,
+        -32
+      ],
+      [
+        36,
+        -33
+      ],
+      [
+        36,
+        -34
+      ]
+    ],
+    "operations": [
+      {
+        "column_weight": 2,
+        "inputs": [
+          1,
+          1
+        ],
+        "carry": 1,
+        "sum": 0,
+        "kind": "half"
+      },
+      {
+        "column_weight": 4,
+        "inputs": [
+          1,
+          1,
+          1
+        ],
+        "carry": 1,
+        "sum": 0,
+        "kind": "full"
+      },
+      {
+        "column_weight": 4,
+        "inputs": [
+          1,
+          0
+        ],
+        "carry": 0,
+        "sum": 1,
+        "kind": "half"
+      },
+      {
+        "column_weight": 8,
+        "inputs": [
+          1,
+          1,
+          1
+        ],
+        "carry": 1,
+        "sum": 0,
+        "kind": "full"
+      },
+      {
+        "column_weight": 8,
+        "inputs": [
+          0,
+          0
+        ],
+        "carry": 0,
+        "sum": 0,
+        "kind": "half"
+      },
+      {
+        "column_weight": 16,
+        "inputs": [
+          1,
+          1,
+          0
+        ],
+        "carry": 1,
+        "sum": 0,
+        "kind": "full"
+      }
+    ],
+    "output_bits_low_to_high": [
+      "b00",
+      "z0",
+      "z2",
+      "z4",
+      "z5",
+      "c5"
+    ]
+  },
+  "strict414": {
+    "n": 2,
+    "resolvents": [
+      [
+        -3,
+        -1
+      ],
+      [
+        -3,
+        2
+      ],
+      [
+        -1,
+        2
+      ],
+      [
+        -1,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "actual_count": 5,
+    "printed_count": 7,
+    "corrected_general_count": "2^n+2^(n-1)-1"
+  },
+  "auxiliary_count407": {
+    "base": "Use original encoding for d<=5; recurse for d=2^t+1, t>=3.",
+    "recurrence": "B_t=2B_(t-1)+2^(t+1)-2, B_2=0",
+    "exact": "B_t=2t*2^t-9*2^(t-1)+2",
+    "leading": "2d lg d + O(d)",
+    "sample_counts": [
+      {
+        "t": 2,
+        "d": 5,
+        "clauses": 24,
+        "auxiliary_bits": 0
+      },
+      {
+        "t": 3,
+        "d": 9,
+        "clauses": 69,
+        "auxiliary_bits": 14
+      },
+      {
+        "t": 4,
+        "d": 17,
+        "clauses": 183,
+        "auxiliary_bits": 58
+      },
+      {
+        "t": 5,
+        "d": 33,
+        "clauses": 459,
+        "auxiliary_bits": 178
+      },
+      {
+        "t": 6,
+        "d": 65,
+        "clauses": 1107,
+        "auxiliary_bits": 482
+      },
+      {
+        "t": 7,
+        "d": 129,
+        "clauses": 2595,
+        "auxiliary_bits": 1218
+      },
+      {
+        "t": 8,
+        "d": 257,
+        "clauses": 5955,
+        "auxiliary_bits": 2946
+      }
+    ]
+  }
+}

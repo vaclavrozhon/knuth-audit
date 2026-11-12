@@ -1,0 +1,315 @@
+{
+  "checked_at_utc": "2026-11-01T17:23:09.164026+00:00",
+  "remote_checks": [
+    {
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/all4b.ps.gz",
+      "file": "errata/originals/all4b.ps.gz",
+      "status": "unchanged",
+      "sha256": "61c41e43dc337c1259f9ff690bfef718da2a656abdb110c6e7875c11f9566eea",
+      "local_sha256": "61c41e43dc337c1259f9ff690bfef718da2a656abdb110c6e7875c11f9566eea",
+      "http_last_modified": "Fri, 17 Apr 2026 06:28:39 GMT"
+    },
+    {
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/all4f5.ps.gz",
+      "file": "errata/originals/all4f5.ps.gz",
+      "status": "unchanged",
+      "sha256": "4c3edee8aa4c92f69bc5eb243ffe03779ae56c1e89a0ad36f85a2ac770fcbb83",
+      "local_sha256": "4c3edee8aa4c92f69bc5eb243ffe03779ae56c1e89a0ad36f85a2ac770fcbb83",
+      "http_last_modified": "Wed, 27 Jul 2022 05:22:26 GMT"
+    },
+    {
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/err4b.textxt",
+      "file": "errata/originals/err4b.textxt",
+      "status": "unchanged",
+      "sha256": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+      "local_sha256": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+      "http_last_modified": "Fri, 17 Apr 2026 06:27:21 GMT"
+    },
+    {
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/err4f5.textxt",
+      "file": "errata/originals/err4f5.textxt",
+      "status": "unchanged",
+      "sha256": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b",
+      "local_sha256": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b",
+      "http_last_modified": "Wed, 27 Jul 2022 05:22:16 GMT"
+    }
+  ],
+  "pattern": "4b\\.(126|419|420|421)\\b|4f5\\.(227|228|229)\\b|Page (126|419|420|421|227|228|229)\\b|answer 2[234]|3\\.68|64.?374|symmetr|r_?1.{0,20}c_?k",
+  "files": [
+    {
+      "path": "errata/originals/err4b.textxt",
+      "sha256": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+      "hits": [
+        {
+          "line": 404,
+          "text": "\\improvepage 4b.126 in exercise 20 (26.04.03)"
+        },
+        {
+          "line": 769,
+          "text": "of this kind whose empty boxes are symmetrically located"
+        },
+        {
+          "line": 777,
+          "text": "\\bugonpage 4b.419 last line of answer 20 (26.01.05)"
+        },
+        {
+          "line": 782,
+          "text": "\\bugonpage 4b.420 line 14 of answer 23 (24.11.16)"
+        },
+        {
+          "line": 783,
+          "text": "(ratio $\\approx3.68$) \\becomes"
+        },
+        {
+          "line": 787,
+          "text": "\\bugonpage 4b.421 in answer 30 (23.03.22)"
+        },
+        {
+          "line": 1004,
+          "text": "might apply more than once. But symmetry can be"
+        },
+        {
+          "line": 1048,
+          "text": "$(n-2)!^2$ end at $(n-1,n-2)$ and are double-counted by central symmetry;"
+        },
+        {
+          "line": 1087,
+          "text": "under symmetry, and they all start in a corner."
+        },
+        {
+          "line": 1185,
+          "text": "equivalent solutions whose large squares form a symmetric shape; the"
+        },
+        {
+          "line": 1579,
+          "text": "Add clauses to enforce the {symmetric threshold function}"
+        },
+        {
+          "line": 2111,
+          "text": "Sudoku, symmetries of, 74, 111, 137. % 3rd"
+        }
+      ]
+    },
+    {
+      "path": "errata/originals/err4f5.textxt",
+      "sha256": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b",
+      "hits": [
+        {
+          "line": 720,
+          "text": "\\ninepoint (Note that mirror reflection is {\\it not\\/} a legal symmetry for a"
+        },
+        {
+          "line": 740,
+          "text": "\\amendpage 4f5.185 in answer 24 (20.10.18)"
+        },
+        {
+          "line": 748,
+          "text": "\\amendpage 4f5.186 last line of answer 24 (22.07.24)"
+        },
+        {
+          "line": 827,
+          "text": "\\bugonpage 4f5.208 line 3 of answer 24 (20.04.22)"
+        },
+        {
+          "line": 926,
+          "text": "\\bugonpage 4f5.229 last line of answer 27 (21.08.06)"
+        },
+        {
+          "line": 931,
+          "text": "\\bugonpage 4f5.229 last line of answer 29 (19.12.14)"
+        },
+        {
+          "line": 969,
+          "text": "There are only two solutions \\dots\\ symmetric. \\becomes"
+        },
+        {
+          "line": 972,
+          "text": "centrally symmetric and reducing under transposition to only two."
+        },
+        {
+          "line": 1034,
+          "text": "\\indent (e) The solution for $n=2$ has every possible symmetry; and both"
+        },
+        {
+          "line": 1147,
+          "text": "\\bugonpage 4f5.284 replacement for answer 232 (20.10.18)"
+        },
+        {
+          "line": 1161,
+          "text": "\\bugonpage 4f5.286 in answer 239 (19.11.26)"
+        },
+        {
+          "line": 1166,
+          "text": "\\improvepage 4f5.286 line 8 of answer 239 (19.11.28)"
+        },
+        {
+          "line": 1170,
+          "text": "\\bugonpage 4f5.288 line 3 of answer 249 (20.01.26)"
+        },
+        {
+          "line": 1174,
+          "text": "\\bugonpage 4f5.288 line 4 of answer 249 (21.12.08)"
+        },
+        {
+          "line": 1253,
+          "text": "$x\\cdot y$ solutions when symmetry has not been taken into account,"
+        },
+        {
+          "line": 1257,
+          "text": "by the number of symmetries)."
+        },
+        {
+          "line": 2306,
+          "text": "Mirror images, \\see Reflection symmetry. % 3rd"
+        },
+        {
+          "line": 2362,
+          "text": "Reflection symmetry, 40, 53, 81, 89, 165, 169, 172, 206, 236--237, 257, 260--262, 303. % 3rd"
+        },
+        {
+          "line": 2618,
+          "text": "Beluhov symmetric plane partitions and diamond/lozenge tilings, ans 7.2.2.1--261"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all4b.txt",
+      "sha256": "b1a3425486f403fb4158585d5bbfef0159fd20b12e2e7d47b64e393e1ae8a303",
+      "hits": [
+        {
+          "line": 193,
+          "text": "Page 126 in exer ise 20                                                      03 Apr 2026"
+        },
+        {
+          "line": 412,
+          "text": " boxes are symmetri ally lo ated about                    8     3            2 7"
+        },
+        {
+          "line": 418,
+          "text": "Page 419 last line of answer 20                                                 05 Jan 2026"
+        },
+        {
+          "line": 421,
+          "text": "Page 420 line 14 of answer 23                                                  16 Nov 2024"
+        },
+        {
+          "line": 424,
+          "text": "Page 421 in answer 30                                                          22 Mar 2023"
+        },
+        {
+          "line": 562,
+          "text": " 120 automorphisms, and the #uv options might apply more than on e. But symmetry"
+        },
+        {
+          "line": 591,
+          "text": "    symmetry; (n 2)!2 (n 2)! end at (1; 0) and are double- ounted by transposition;"
+        },
+        {
+          "line": 619,
+          "text": "    even, exa tly 2n + (n mod 4)=2 su h paths are distin t under symmetry, and they all"
+        },
+        {
+          "line": 775,
+          "text": " symmetri shape; the last two of these look the same, but use di erent pie es(!):"
+        },
+        {
+          "line": 1056,
+          "text": "    symmetri threshold fun tion S\u0014r (v001 ; : : : ; vn(n 1)1 ), using either (18) and (19) or (20)"
+        },
+        {
+          "line": 1441,
+          "text": " Pur ell, Mi hael, 370.                            Sudoku, symmetries of, 74, 111, 137."
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all4f5.txt",
+      "sha256": "0dd38c4cda72b01baefb797611c9bbab7713ff0c107a1df884afc89fe9bb91c3",
+      "hits": [
+        {
+          "line": 272,
+          "text": "xPage 126      in exer ise 49                                                              09 Aug 2021"
+        },
+        {
+          "line": 414,
+          "text": "    (Note that mirror re e tion is not a legal symmetry for a poly ube; L-twist 6= R-twist!)"
+        },
+        {
+          "line": 434,
+          "text": " Page 185    in answer 24                                                           18 O t 2020     Nobel"
+        },
+        {
+          "line": 445,
+          "text": " Page 186 last line of answer 24                                              24 Jul 2022"
+        },
+        {
+          "line": 487,
+          "text": "xPage 208     line 3 of answer 24                                           22 Apr 2020"
+        },
+        {
+          "line": 545,
+          "text": "xPage 229 last line of answer 27                                                06 Aug 2021"
+        },
+        {
+          "line": 547,
+          "text": "xPage 229 last line of answer 29                                                 14 De 2019"
+        },
+        {
+          "line": 565,
+          "text": "  There are only two solutions : : : symmetri . y In lude `\u0003j :k' in option (0; j; k)."
+        },
+        {
+          "line": 566,
+          "text": "  There are only four solutions, found in 3 G\u0016, entrally symmetri and redu ing under"
+        },
+        {
+          "line": 600,
+          "text": "         (e) The solution for n = 2 has every possible symmetry; and both solutions x for"
+        },
+        {
+          "line": 681,
+          "text": "xPage 284    repla ement for answer 232                                           18 O t 2020"
+        },
+        {
+          "line": 688,
+          "text": "xPage 286 in ianswer 239 j                                                    26 Nov 2019"
+        },
+        {
+          "line": 691,
+          "text": " Page 286 line 8 of answer 239                                                              28 Nov 2019"
+        },
+        {
+          "line": 693,
+          "text": "xPage 288 line 3 of answer 249                                                                26 Jan 2020"
+        },
+        {
+          "line": 695,
+          "text": "xPage 288 line 4 of answer 249                                                                08 De 2021"
+        },
+        {
+          "line": 743,
+          "text": "  di erent, but x \u0001 y solutions when symmetry has not been taken into a ount, I would"
+        },
+        {
+          "line": 746,
+          "text": "  of automorphisms divided by the number of symmetries). For example, the onvex"
+        },
+        {
+          "line": 1082,
+          "text": "                                                Re e tion symmetry, 40, 53, 81, 89,"
+        },
+        {
+          "line": 1085,
+          "text": "Mirror images, see Re e tion symmetry.               260{262, 303."
+        }
+      ]
+    }
+  ],
+  "interpretation": "Known ratio correction in answer23, 3.68 to3.58, 16Nov2024. No matching correction found for the displayed distance2 group or the rotational option-deletion rules in answers23–24; distinct historical answers24 in other sections excluded by page and context. Numeric searches also found no correction to1220908 in answer22(c).",
+  "additional_numeric_search": {
+    "errata/originals/err4b.textxt": [],
+    "errata/originals/err4f5.textxt": [],
+    "errata/text/all4b.txt": [],
+    "errata/text/all4f5.txt": []
+  }
+}

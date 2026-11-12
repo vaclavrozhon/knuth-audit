@@ -1,0 +1,44 @@
+{
+  "Y": {
+    "left": "P",
+    "right": "Y",
+    "tag": 0,
+    "info": "head"
+  },
+  "P": {
+    "left": "E",
+    "right": "Y",
+    "tag": 1,
+    "info": "^"
+  },
+  "E": {
+    "left": null,
+    "right": "N",
+    "tag": 0,
+    "info": "e"
+  },
+  "N": {
+    "left": "S",
+    "right": "P",
+    "tag": 1,
+    "info": "neg"
+  },
+  "S": {
+    "left": "X",
+    "right": "N",
+    "tag": 1,
+    "info": "^"
+  },
+  "X": {
+    "left": null,
+    "right": "T",
+    "tag": 0,
+    "info": "x"
+  },
+  "T": {
+    "left": null,
+    "right": "S",
+    "tag": 1,
+    "info": "2"
+  }
+}

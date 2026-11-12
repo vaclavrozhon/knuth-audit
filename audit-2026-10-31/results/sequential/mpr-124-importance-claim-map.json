@@ -1,0 +1,167 @@
+{
+  "description": "Complete MPR124 after E002; original C004 confirmed locally, original F008 extended to the introduction",
+  "ledger_ids": [
+    "D222",
+    "C004",
+    "F008",
+    "E002"
+  ],
+  "claims": [
+    {
+      "id": "MPR124.01",
+      "file_pages": [
+        45,
+        410
+      ],
+      "claim": "Exact change-of-measure domain; original F008 repeated in the unrestricted introduction",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex124.md"
+    },
+    {
+      "id": "MPR124.02",
+      "file_pages": [
+        45,
+        410
+      ],
+      "claim": "Finite sample parametrization, finite divergence, absolute continuity and L2 assumptions",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex124.md"
+    },
+    {
+      "id": "MPR124.03",
+      "file_pages": [
+        45,
+        410
+      ],
+      "claim": "Known E002 correction to expected absolute error, verified in original errata",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex124.md"
+    },
+    {
+      "id": "MPR124.04",
+      "file_pages": [
+        45,
+        410
+      ],
+      "claim": "Exact truncation event, threshold and Cauchy–Schwarz proof with zero cases",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex124.md"
+    },
+    {
+      "id": "MPR124.05",
+      "file_pages": [
+        45,
+        410
+      ],
+      "claim": "All three upper-bound terms, expectations, independent variance identity and constants",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex124.md"
+    },
+    {
+      "id": "MPR124.06",
+      "file_pages": [
+        45,
+        410
+      ],
+      "claim": "Original C004 signed-equality witness satisfies the corrected statement",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex124.md"
+    },
+    {
+      "id": "MPR124.07",
+      "file_pages": [
+        45,
+        410
+      ],
+      "claim": "Original C004 squared-error/variance witness satisfies the corrected statement",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex124.md"
+    },
+    {
+      "id": "MPR124.08",
+      "file_pages": [
+        45,
+        410
+      ],
+      "claim": "Exact positive-probability witness against the pointwise sample-tail bound",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex124.md"
+    },
+    {
+      "id": "MPR124.09",
+      "file_pages": [
+        45,
+        410
+      ],
+      "claim": "Every lower-bound event inclusion, union bound, Markov step and cutoff complement",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex124.md"
+    },
+    {
+      "id": "MPR124.10",
+      "file_pages": [
+        45,
+        410
+      ],
+      "claim": "All zero norm, zero density, cutoff equality, c=1,D=0,n=1 and integer-sample boundaries",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex124.md"
+    },
+    {
+      "id": "MPR124.11",
+      "file_pages": [
+        45,
+        410
+      ],
+      "claim": "Precise interpretation of accuracy/poor bound and possible vacuity",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex124.md"
+    },
+    {
+      "id": "MPR124.12",
+      "file_pages": [
+        45,
+        410
+      ],
+      "claim": "Sample-accumulator invariant, termination and arithmetic/storage scope",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex124.md"
+    },
+    {
+      "id": "MPR124.13",
+      "file_pages": [
+        45,
+        410
+      ],
+      "claim": "Primary Theorem1.1 and its full proof, correct parameter translation and journal metadata",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex124.md"
+    },
+    {
+      "id": "MPR124.14",
+      "file_pages": [
+        45,
+        410
+      ],
+      "claim": "Old2650 upper and60 lower configurations retained;1665 inapplicable cases remain excluded",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex124.md"
+    }
+  ],
+  "bibliography_skips": [],
+  "mathematical_open_scope": [],
+  "new_findings": [
+    "C004"
+  ],
+  "finding_id_note": "Existing candidate C004 promoted under its original ID; no new F identifier. Worker confirmation only, not root acceptance.",
+  "reused_findings": [
+    "F008"
+  ],
+  "new_candidates": [],
+  "known_corrections": [
+    "E002"
+  ],
+  "new_calculations": 0,
+  "old_runs_repeated": 0,
+  "updated_at_utc": "2026-11-07T03:56:49.917832+00:00"
+}

@@ -1,0 +1,204 @@
+{
+  "algebra": {
+    "cases": 62,
+    "pass_formula_cells": 3128,
+    "powered_root_cases": 372,
+    "seed": 43338,
+    "ex8_four_times_wrong_output": [
+      [
+        0,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        0,
+        -2
+      ]
+    ],
+    "ex8_correct_input": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "seconds": 3.16
+  },
+  "table1": {
+    "all_40_table_cells_exact": true,
+    "coefficient_oracle": [
+      10,
+      69,
+      64,
+      125,
+      36,
+      0,
+      0,
+      0
+    ],
+    "answer": 2888794,
+    "errata_scales": {
+      "u_hat": 128,
+      "v_hat": 128
+    },
+    "note": "2015 v-column correction is 2^7, not 2^16: original erratum image read.",
+    "seconds": 0.001
+  },
+  "fixed_point": {
+    "seed": 43349,
+    "cases": 62,
+    "rows": [
+      {
+        "k": 7,
+        "l": 1,
+        "m": 30,
+        "n": 64,
+        "cases": 5,
+        "root_guard_bits": 16,
+        "max_norm_squared_ratio_display": 0.0625
+      },
+      {
+        "k": 7,
+        "l": 7,
+        "m": 42,
+        "n": 448,
+        "cases": 5,
+        "root_guard_bits": 16,
+        "max_norm_squared_ratio_display": 0.2461090087890625
+      },
+      {
+        "k": 8,
+        "l": 1,
+        "m": 34,
+        "n": 128,
+        "cases": 5,
+        "root_guard_bits": 16,
+        "max_norm_squared_ratio_display": 0.0625
+      },
+      {
+        "k": 8,
+        "l": 8,
+        "m": 48,
+        "n": 1024,
+        "cases": 5,
+        "root_guard_bits": 16,
+        "max_norm_squared_ratio_display": 0.24805068969726562
+      },
+      {
+        "k": 9,
+        "l": 1,
+        "m": 38,
+        "n": 256,
+        "cases": 5,
+        "root_guard_bits": 16,
+        "max_norm_squared_ratio_display": 0.0625
+      },
+      {
+        "k": 9,
+        "l": 9,
+        "m": 54,
+        "n": 2304,
+        "cases": 5,
+        "root_guard_bits": 16,
+        "max_norm_squared_ratio_display": 0.2490243911743164
+      },
+      {
+        "k": 10,
+        "l": 1,
+        "m": 42,
+        "n": 512,
+        "cases": 5,
+        "root_guard_bits": 16,
+        "max_norm_squared_ratio_display": 0.0625
+      },
+      {
+        "k": 10,
+        "l": 10,
+        "m": 60,
+        "n": 5120,
+        "cases": 5,
+        "root_guard_bits": 16,
+        "max_norm_squared_ratio_display": 0.2495119571685791
+      },
+      {
+        "k": 11,
+        "l": 1,
+        "m": 46,
+        "n": 1024,
+        "cases": 5,
+        "root_guard_bits": 16,
+        "max_norm_squared_ratio_display": 0.0625
+      },
+      {
+        "k": 11,
+        "l": 11,
+        "m": 66,
+        "n": 11264,
+        "cases": 5,
+        "root_guard_bits": 16,
+        "max_norm_squared_ratio_display": 0.24975591897964478
+      },
+      {
+        "k": 12,
+        "l": 1,
+        "m": 50,
+        "n": 2048,
+        "cases": 5,
+        "root_guard_bits": 16,
+        "max_norm_squared_ratio_display": 0.0625
+      },
+      {
+        "k": 12,
+        "l": 12,
+        "m": 72,
+        "n": 24576,
+        "cases": 5,
+        "root_guard_bits": 16,
+        "max_norm_squared_ratio_display": 0.2498779445886612
+      },
+      {
+        "k": 3,
+        "l": 4,
+        "m": 24,
+        "n": 12,
+        "cases": 1,
+        "root_guard_bits": 16,
+        "max_norm_squared": [
+          6201932775424,
+          4398046511104,
+          1048567808016
+        ],
+        "scale_squared": 281474976710656
+      },
+      {
+        "k": 11,
+        "l": 8,
+        "m": 60,
+        "n": 8192,
+        "cases": 1,
+        "root_guard_bits": 16,
+        "max_norm_squared": [
+          84519205405721647103226303584665600,
+          83007043581547106776418636535955456,
+          22010159078927477568711129393512720
+        ],
+        "scale_squared": 1329227995784915872903807060280344576
+      }
+    ],
+    "insufficient_precision_example": {
+      "k": 3,
+      "l": 4,
+      "m": 7,
+      "got": 2310944,
+      "expected": 2888794
+    },
+    "note": "All correctness and interval tests exact; displayed norm ratios alone use floating point.",
+    "seconds": 75.669
+  }
+}

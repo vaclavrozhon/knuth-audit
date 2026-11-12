@@ -1,0 +1,230 @@
+{
+  "date": "2026-11-02",
+  "records": [
+    {
+      "id": "debruijn1958-s37",
+      "status": "primary-content-and-facsimile-checked",
+      "edition": "1958 first edition; North-Holland Amsterdam and P. Noordhoff Groningen; original title directly viewed",
+      "book_target": "TAOCP1 p. 504, answer 1.2.11.2-7",
+      "source_urls": [
+        "https://www.cmor-faculty.rice.edu/~strings/",
+        "https://www.cmor-faculty.rice.edu/~strings/debruijnCh1a2.pdf",
+        "https://www.cmor-faculty.rice.edu/~strings/debruijnCh3.pdf"
+      ],
+      "files": [
+        {
+          "path": "workstreams/vol1/parallel/robson-tree-followup/sources/debruijn-rice-index.html",
+          "bytes": 12770,
+          "sha256": "8fa166c68d66d51a74bf30d1dd6cd9430ca05240f4130f6f3a3ca56aff50967e"
+        },
+        {
+          "path": "workstreams/vol1/parallel/robson-tree-followup/sources/debruijn-rice-ch12.pdf",
+          "bytes": 3486024,
+          "sha256": "72550147b5607bbe3771c746c0c8da0f9878a68c6bb67fbc85d8e625cf64f986"
+        },
+        {
+          "path": "workstreams/vol1/parallel/robson-tree-followup/sources/debruijn-rice-ch3.pdf",
+          "bytes": 2279629,
+          "sha256": "eb6d0e9f4160ece1b2ec0fea591f617c9bfcbcb1321ec923ba4dcfaba68a63c5"
+        }
+      ],
+      "direct_read": [
+        "original title and contents in ch12 PDF 1–3",
+        "ch3 printed 40–42, including all section 3.7 on 42"
+      ],
+      "page_map": {
+        "ch3_pdf4": [
+          40,
+          41
+        ],
+        "ch3_pdf5": [
+          42,
+          43
+        ]
+      },
+      "scope_limits": [
+        "Later editions not collated",
+        "Entire chapter 3 downloaded and rendered; only the declared citation scope audited",
+        "Section3.7 supplies C(z), not the second formula using zeta derivative at 2 verbatim"
+      ],
+      "technical_note": "The institutional server certificate chain failed ordinary clients. Successful public static requests explicitly disabled certificate verification; all logged. No authentication or credentials."
+    },
+    {
+      "id": "steffensen1927-s14",
+      "status": "primary-content-and-facsimile-checked",
+      "edition": "Baltimore: The Williams & Wilkins Company, 1927; verso says published January 1927",
+      "book_target": "TAOCP1 p. 503, answer 1.2.11.2-3",
+      "source_urls": [
+        "https://archive.org/details/interpolation0000jfst",
+        "https://archive.org/download/interpolation0000jfst/interpolation0000jfst.pdf"
+      ],
+      "files": [
+        {
+          "path": "workstreams/vol1/parallel/robson-tree-followup/sources/steffensen1927-original.pdf",
+          "bytes": 10871930,
+          "sha256": "1fc357d08be5591a2193f5fbfdc881e7cce58e7f4d10d77c01a0ec6099d71bcf"
+        },
+        {
+          "path": "workstreams/vol1/parallel/robson-tree-followup/sources/steffensen1927-original-ocr.txt",
+          "bytes": 343489,
+          "sha256": "4ad64caeac791f0f131436e0c2f6b9458dbd3620b5a0170bdfaba8bfea2ce7d3"
+        },
+        {
+          "path": "workstreams/vol1/parallel/robson-tree-followup/sources/steffensen1927-original-scandata.xml",
+          "bytes": 289528,
+          "sha256": "b65ab62efdd2cca420087e2f256c6c3ab4ad6ae292af8ee61f9dd9ad1cbaa3d0"
+        },
+        {
+          "path": "workstreams/vol1/parallel/robson-tree-followup/sources/steffensen1927-ia1-metadata.json",
+          "bytes": 56341,
+          "sha256": "9b23e95fe18498d23cf280e75b5150e5d8acdf46dffdb179535ff9548b473778"
+        }
+      ],
+      "direct_read": [
+        "title and copyright/printing verso, PDF 7–8",
+        "all section 14, printed 129 bottom through 138 top, PDF 143–152"
+      ],
+      "key_passages": [
+        "paragraphs 144–146, equations 1–7: periodic Bernoulli functions and integral remainder",
+        "paragraphs 148–149, equations 9–12: signed kernel and first omitted term estimate"
+      ],
+      "known_erratum": "5 March 2013: year 1937 corrected to 1927, directly confirmed",
+      "scope_limits": [
+        "No claim to audit the entire source monograph",
+        "1927 Bernoulli convention B1=-1/2; the even coefficients and polynomials used here agree with corrected TAOCP"
+      ]
+    },
+    {
+      "id": "seki1712-kyoto",
+      "status": "primary-selected-historical-content-and-facsimile-checked",
+      "edition": "Original Katsuyo sanpo, Kyoto RB00000159; colophon 1712 directly viewed",
+      "book_target": "TAOCP1 p. 112 historical claim and 21 March 2021 B1 footnote",
+      "source_urls": [
+        "https://rmda.kulib.kyoto-u.ac.jp/item/rb00000159",
+        "https://rmda.kulib.kyoto-u.ac.jp/iiif/metadata_manifest/RB00000159/manifest.json"
+      ],
+      "files": [
+        {
+          "path": "workstreams/vol1/parallel/robson-tree-followup/sources/seki-kyoto-1712-manifest.json",
+          "bytes": 126026,
+          "sha256": "150b109d8846d9fcff32e114f1b40f04a55172c0f67a2779f1ca8f2f22943d91"
+        },
+        {
+          "path": "workstreams/vol1/parallel/robson-tree-followup/sources/seki1712-007.jpg",
+          "bytes": 389225,
+          "sha256": "a8204bc4b44bedff6ff74d895e43d62eeddff4986d284fa73d3bd85133921abc"
+        },
+        {
+          "path": "workstreams/vol1/parallel/robson-tree-followup/sources/seki1712-025-full.jpg",
+          "bytes": 1138867,
+          "sha256": "d44a82e9a8100df520863e79afc25542552f67db7ba3bc0b268c50663f60fa46"
+        },
+        {
+          "path": "workstreams/vol1/parallel/robson-tree-followup/sources/seki1712-026-full.jpg",
+          "bytes": 1081244,
+          "sha256": "96f696923bcd5607846aa0d123762baa7f479a7d6afc3df89fb50ca1ecd7f61e"
+        },
+        {
+          "path": "workstreams/vol1/parallel/robson-tree-followup/sources/seki1712-110.jpg",
+          "bytes": 456730,
+          "sha256": "ca0904b83a473efe5371695a1d4cf1eee81045a7d515c5d25dde60d4e0d40a30"
+        },
+        {
+          "path": "workstreams/vol1/parallel/robson-tree-followup/sources/seki1712-111.jpg",
+          "bytes": 305589,
+          "sha256": "4aabf1886f72c08026030a98b907cdb6797969cccb3e62ec9ef0f008dcb1c53e"
+        }
+      ],
+      "direct_read": [
+        "canvas 7 left, volume 1 identification and pupils names",
+        "canvas 26, coefficient instruction column and table, folios 19v–20r",
+        "canvas 25, selected preceding coefficient computations; 27–29 viewed as adjacent power-sum tables",
+        "canvas 33, transition from volume 1 to volume 2",
+        "canvas 110 left, opening of posthumous editorial afterword",
+        "canvas 111 right, colophon dated Shotoku 2 (1712)"
+      ],
+      "coefficient_column_modern_notation": {
+        "indices": "B1 through B11, matching levels 2 through 12",
+        "values": [
+          "1/2",
+          "1/6",
+          "0",
+          "-1/30",
+          "0",
+          "1/42",
+          "0",
+          "-1/30",
+          "0",
+          "5/66",
+          "0"
+        ],
+        "zero_notation": "blank/empty sign 空, not an assertion that first level means B0=0"
+      },
+      "scope_limits": [
+        "No complete translation or audit of the 1712 treatise",
+        "No exact 1974 pages obtained",
+        "Original publication supplies evidence for 1712 and posthumous character, not a universal historical-priority proof"
+      ]
+    },
+    {
+      "id": "seki1974-ndl",
+      "status": "metadata-checked-content-unread",
+      "book_target": "TAOCP1 p. 112 citation Collected Works 1974 pp. 39–42",
+      "source_urls": [
+        "https://ndlsearch.ndl.go.jp/books/R100000002-I000001126639"
+      ],
+      "files": [
+        {
+          "path": "workstreams/vol1/parallel/robson-tree-followup/sources/seki1974-ndl-record.html",
+          "bytes": 526389,
+          "sha256": "2005d009ae3608600e40b2027f50356b7da2ca3416c7b9b1ace0cb09272778ed"
+        }
+      ],
+      "identifier": "NDL MA25-44; bibliographic 000001126639; digital PID 12608851; DOI 10.11501/12608851",
+      "metadata_read": [
+        "editors Hirayama / Shimodaira / Hirose",
+        "publisher Osaka Kyoiku Tosho",
+        "year 1974",
+        "place Tokyo in catalog"
+      ],
+      "access_limit": "NDL states library/registered-individual transmission; not public full-text. No restricted pages requested.",
+      "unread": [
+        "all 1974 pages including 39–42",
+        "1974 title/imprint and commentary"
+      ],
+      "triage": "Book Osaka vs catalog Tokyo is metadata discrepancy only; no confirmed bibliographic error claimed."
+    },
+    {
+      "id": "ogawa2012-navigation",
+      "status": "modern-expert-interpretation-and-reproduction-read",
+      "source_urls": [
+        "https://www.mathsoc.jp/publication/tushin/1702/1702ogawa.pdf"
+      ],
+      "files": [
+        {
+          "path": "workstreams/vol1/parallel/robson-tree-followup/sources/seki-ogawa2012.pdf",
+          "bytes": 9090364,
+          "sha256": "064900ae99df9aa988d8bc835445f9fe62b565aa16abbaaac98533372b691eca"
+        },
+        {
+          "path": "workstreams/vol1/parallel/robson-tree-followup/sources/seki-ogawa2012-ocr.txt",
+          "bytes": 46832,
+          "sha256": "50bac184c04794ec40d8b05a944a115f54fd6022d1d2fe3ee8763796f5e63d52"
+        }
+      ],
+      "direct_read": [
+        "printed 13–14 including figure 9"
+      ],
+      "ocr_read": [
+        "title/date on 1"
+      ],
+      "role": "Navigational and interpretive aid; figure 9 is the same original Kyoto leaf. Not a substitute for Seki 1974."
+    }
+  ],
+  "new_findings": [],
+  "already_accepted_mathematics_not_rerun": [
+    "euler-summation E8-E11",
+    "euler-products P4-P5"
+  ],
+  "root_owned_exclusion": "Concrete Mathematics sections 6.5 and 9.5, X0689"
+}

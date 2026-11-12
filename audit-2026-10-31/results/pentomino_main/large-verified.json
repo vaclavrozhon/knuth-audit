@@ -1,0 +1,98 @@
+{
+  "checked_at_utc": "2026-11-01T23:41:46.035285+00:00",
+  "source_sha256": "d86b5ed5e4d01d436fef9eae2757505c3c55a919dce5d34c45b7e4daeb27b981",
+  "wrapper_sha256": "b3e9a5d629b3566b0eb04eb0801bc7941817b3ec067e14d3978fb1fd0e53c433",
+  "cases": {
+    "full-cells-secondary": {
+      "native": {
+        "solutions": 8,
+        "initialization_mems": 395467,
+        "search_mems": 2935242344643,
+        "updates": 222741372303,
+        "bytes": 140816,
+        "nodes": 1086521921,
+        "profile": [
+          1,
+          18,
+          602,
+          21412,
+          513372,
+          7128024,
+          48534188,
+          193708700,
+          538428044,
+          279241820,
+          18783096,
+          162636,
+          8
+        ]
+      },
+      "mask": {
+        "solutions": 8,
+        "nodes": 1086521921,
+        "profile": [
+          1,
+          18,
+          602,
+          21412,
+          513372,
+          7128024,
+          48534188,
+          193708700,
+          538428044,
+          279241820,
+          18783096,
+          162636,
+          8
+        ]
+      },
+      "all_eight_models_match_independent_short_search": true
+    },
+    "first-cell-3x20": {
+      "native": {
+        "solutions": 8,
+        "initialization_mems": 395467,
+        "search_mems": 2579381560857,
+        "updates": 196357351506,
+        "bytes": 140816,
+        "nodes": 1528716954,
+        "profile": [
+          1,
+          29,
+          639,
+          13254,
+          240188,
+          3782264,
+          49456845,
+          367973703,
+          754254281,
+          311796297,
+          40498322,
+          701123,
+          8
+        ]
+      },
+      "mask": {
+        "solutions": 8,
+        "nodes": 1528716954,
+        "profile": [
+          1,
+          29,
+          639,
+          13254,
+          240188,
+          3782264,
+          49456845,
+          367973703,
+          754254281,
+          311796297,
+          40498322,
+          701123,
+          8
+        ]
+      },
+      "all_eight_models_match_independent_short_search": true
+    }
+  },
+  "scope": "All large search profiles and complete native model sets verified. Historical memory-accounting differences and named bibliographic gaps remain separate."
+}

@@ -1,0 +1,468 @@
+{
+  "review_date": "2026-11-10",
+  "ranges": {
+    "second_edition": [
+      [
+        426,
+        458
+      ],
+      [
+        708,
+        713
+      ]
+    ],
+    "first_edition_context": [
+      [
+        423,
+        458
+      ],
+      [
+        671,
+        684
+      ]
+    ]
+  },
+  "layers": {
+    "all3-prepre": [
+      {
+        "page": 434,
+        "text": "Page 434 line 13                                                              03 May 2004\n  S    LLINK(R) y S       LLINK(R)"
+      },
+      {
+        "page": 435,
+        "text": "xPage 435    line 3                                                             19 Jan 2000\n  about n y about N 2\n          2"
+      },
+      {
+        "page": 440,
+        "text": "xPage 440    bottom line                                                        28 Jun 2004\n  4.55 y 4.72"
+      },
+      {
+        "page": 443,
+        "text": "Page 443 equation numbers in wrong font                                        12 De 1999\n  (20) y (20)\n  (21) y (21)"
+      },
+      {
+        "page": 445,
+        "text": "xPage 445    line 10                                                           24 May 2008\n  C <H +2 P y C \u0014H +2 P"
+      },
+      {
+        "page": 446,
+        "text": "xPage 446    line 8                                                            13 May 1998\n  in a several y in several"
+      },
+      {
+        "page": 446,
+        "text": "Page 446     the line after (27)                                24 May 2008\n    in this ase y in this ase, be ause we annot have C = H +2 P unless P = 1"
+      },
+      {
+        "page": 447,
+        "text": "Page 447 near the top                                                           03 De 1998\n    line 4: ost y weight w\n    line 6: y w\n    line 7: it has been y an optimum tree has been\n    lines 8 and 9: a sequen e of su h transformations will make lk \u0014 lk   +1   y we have\n         found an optimum tree in whi h lk = lk\n                                              +1"
+      },
+      {
+        "page": 447,
+        "text": "xPage 447    at the end of the proof of Lemma X                   03 De 1998\n  line 4 of the proof: j +1 y j 1             (twi e)\n  line 3 of the proof: i+1 y i 1\n  line 2 of the proof: k+1 y k 1"
+      },
+      {
+        "page": 447,
+        "text": "xPage 447 repla ement for lines 22{28                              25 Jul 2004\n      Suppose ls < lk 1 \u0014 ls+1 for some s with j \u0014 s < k 1. Let t be the\n  smallest index < k su h that lt = lk . Then li = lk 1 for s < i < t, and\n   s+1 is a left hild; possibly s + 1 = t. Furthermore t and t+1 are siblings.\n  Repla e their parent by t+1 ; repla e i by i+1 for s < i < t ; and repla e\n  the external node s by an internal node whose hildren are s and s+1 .\n  This hange in reases the ost by \u0014 qs qt qt+1 \u0014 qs qk 1 qk , so it is an\n  improvement if qs < qk 1 + qk . Therefore, by (iii), lj \u0015 lk 1.\n\f    20       CHANGES TO VOLUME 3: SORTING AND SEARCHING"
+      },
+      {
+        "page": 447,
+        "text": "xPage 447 line 9                                                                   25 Jul 2004\n  (b) y (a) or (b)"
+      },
+      {
+        "page": 447,
+        "text": "xPage 447 repla ement for line 5                                                   25 Jul 2004\n                 C (q00 ; : : : ; qn0 1 ) \u0014 C (q0 ; : : : ; qn ) (qk 1 + qk ):           (29)"
+      },
+      {
+        "page": 447,
+        "text": "xPage 447 repla ement for line 1                                                   25 Jul 2004\n         0    :::    j 1      k 1       k      j    :::    k 2       k+1     :::   n:    (30)"
+      },
+      {
+        "page": 449,
+        "text": "xPage 449      near the top                                                        03 De 1998\n  line 4: k 2 y s 1\n  line 6: j < i < k 1 y j < i < s."
+      },
+      {
+        "page": 450,
+        "text": "xPage 450 in Fig. 19                                                        15 Sep 2004\n  [On the path from the root to external node G, the level numbers on internal\n  nodes should be (0; 1; 2; 3; 4; 5), not (0; 1; 2; 2; 3; 4).℄"
+      },
+      {
+        "page": 451,
+        "text": "xPage 451 repla ement for steps G1, G2, and G3                              18 Sep 2004\n  G1. [Begin phase 1.℄ Set WT(Xk )         wk and LLINK(Xk) RLINK(Xk) \u0003 for\n       0 \u0014 k \u0014 n. Also set P0 X2n+1 , WT(P0) 1, P1 X 0 , t 1, m n.\n       Then perform step G2 for r = 1, 2, : : : , n, and go to G3.\n  G2. [Absorb wr .℄ (At this point we have the basi            ondition\n                         WT(Pi 1 ) > WT(Pi+1 )             for 1 \u0014 i < t;          (31)\n       in other words, the weights in the working array are \\2-des ending.\") If\n       WT(Pt 1 ) \u0014 wr , set k t, perform Subroutine C below, and repeat step G2.\n       Otherwise set t t + 1 and Pt Xr .\n  G3. [Finish phase 1.℄ While t > 1, set k          t and perform Subroutine C below."
+      },
+      {
+        "page": 452,
+        "text": "xPage 452 repla ement for Subroutine C                                     13 May 2009\n\n    Subroutine C      (Combination ). This re ursive subroutine is the heart of the\n    Garsia{Wa hs algorithm. It ombines two weights, shifts them left as appropri-\n    ate, and maintains the 2-des ending ondition (31). Variables j and w are lo al,\n    but variables k, m, and t are global.\n    C1. [Create a new node.℄ (At this point we have k \u0015 2.) Set m           m + 1,\n         LLINK(Xm) Pk 1 , RLINK(Xm) Pk , WT(Xm) w WT(Pk 1 ) + WT(Pk ).\n    C2. [Shift the following nodes left.℄ Set t   t 1, then Pj Pj+1 for k \u0014 j \u0014 t.\n    C3. [Shift the pre eding nodes right.℄ Set j    k 2; then while WT(Pj ) < w set\n         Pj +1   Pj and j     j 1.\n    C4. [Insert the new node.℄ Set Pj +1     Xm .\n    C5. [Done?℄ If j = 0 or WT(Pj 1 ) > w , exit the subroutine.\n\n    C6. [Restore (31).℄ Set k   j , j t j , and all Subroutine C re ursively. Then\n         reset j t j (note that t may have hanged!) and return to step C5.\n\f                             CHANGES TO VOLUME 3: SORTING AND SEARCHING          21"
+      },
+      {
+        "page": 453,
+        "text": "xPage 453    line 22                                                11 May 1999\n  It it is smaller, y If it is smaller,"
+      },
+      {
+        "page": 454,
+        "text": "Page 454 line 7 before the exer ises                                05 O t 2005\n  See also the paper y Further properties have been found by M. Karpinski, L. L.\n  Larmore, and W. Rytter, Theoreti al Comp. S i. 180 (1997), 309{324. See also\n  the paper"
+      },
+      {
+        "page": 455,
+        "text": "xPage 455 line 2 of exer ise 11                                     11 May 1999\n    empiri al data y"
+      },
+      {
+        "page": 457,
+        "text": "Page 457 line 1 of exer ise 28                                          11 May 1999\n    a \\optimum binary sear h\" y an \\optimum binary sear h\""
+      },
+      {
+        "page": 708,
+        "text": "xPage 708   line 3 of answer 2                                                     12 Jan 2006\n  \\RTAG(P) 6= 0\" y \\RTAG(P) = 0\"\nx Pn line 8 of answer"
+      },
+      {
+        "page": 711,
+        "text": "Page 711                    32                                                   20 Apr 2001\n  max k qk y maxnk qk          =0\n\nx\n               =0"
+      },
+      {
+        "page": 712,
+        "text": "Page 712   lines 5 and 10 of answer 40                                            03 De 1998\n  q k (l k\n        2      lk ) y qk (lk\n               2      4             2lk ) 4   2"
+      },
+      {
+        "page": 712,
+        "text": "xPage 712   repla ement for answer 42                                              18 Sep 2004\n  42.  Let qj = WT(Pj ). Steps C1{C4, whi h move qk + qk into position between qj\n                                                           1                                 1\n  and qj , an spoil (31) only at the point i = j 1."
+      },
+      {
+        "page": 713,
+        "text": "xPage 713    in answer 44                                                15 Sep 2004\n  line 4: LLINK(Xj ) t y LLINK(Xj ) Xt\n  line 6: RLINK(Xj ) t y RLINK(Xj ) Xt"
+      },
+      {
+        "page": 713,
+        "text": "Page 713    lines 6{8 of answer 49                                      25 Apr 2010\n  Lu Devroye and Bru e Reed : : : , where y Bru e Reed [JACM (2003), 306{332℄\n                                                                            50\n  and Mi hael Drmota [JACM (2003), 333{374℄, who proved that the average height\n                                         50\n  is ln n (3 lnln n)=(2 2) + O(1) and the varian e is O(1), where"
+      }
+    ],
+    "all3-pre": [
+      {
+        "page": 426,
+        "text": "Page 426 line 6 of exer ise 28                                             30 O t 2012\n                            y\n ((x \u0003 x) \u0003 x) \u0003 ((x \u0003 x) \u0003 x)     (x \u0003 (x \u0003 x)) \u0003 (x \u0003 (x \u0003 x))\n                                                                                   20 Jul 2015\n    Q \u0011 LLINK(P) or RLINK(P) y Q \u0011 LLINK(P) or Q \u0011 RLINK(P)"
+      },
+      {
+        "page": 432,
+        "text": "Page 432 line 11\n\n\n\n\n                                                                                05 May 2016\n    x lg(1=x) is on ave; y x lg(1=x) is on ave, when x > 0;"
+      },
+      {
+        "page": 443,
+        "text": "Page 443 line 6"
+      },
+      {
+        "page": 458,
+        "text": "Page 458 new exer ise                                                           16 Sep 2021\n    x\n 50. [30 ℄ Let p1 p2 : : : pn be a permutation of f1; 2; : : : ; ng. Suppose the values p1 ,\n p2 , : : : , pn have been inserted su essively into an initially empty binary tree using\n Algorithm T, but with Q K in step T5 when storing key K . Explain how to ompute\n all of the resulting links LLINK(k) and RLINK(k) for 1 \u0014 k \u0014 n in just O(n) steps. (For\n example, the permutation 3142 would yield (LLINK(1); : : : ; LLINK(4)) = (\u0003; \u0003; 1; \u0003)\n and (RLINK(1); : : : ; RLINK(4)) = (2; \u0003; 4; \u0003).)\n\f          EARLIER CHANGES TO VOLUME 3: SORTING AND SEARCHING               9"
+      },
+      {
+        "page": 713,
+        "text": "Page 713 new answer                                                       17 Sep 2021\n  50. See R. E. Tarjan's elegant bottom-up solution in the author's program OFFLINE-\n  TREE-INSERTION (available online).\n                                                                             20 Feb 2021\n  too empty y less than half full"
+      }
+    ],
+    "all3": [
+      {
+        "page": 451,
+        "text": "Page 451 line 2 of step G4                                                  30 Sep 2024\n  Set lk to the distan e  y\n                          Set lk = LEVEL(Xk ) to the distan e"
+      },
+      {
+        "page": 457,
+        "text": "Page 457 new rating for exer ise 29                                         11 Nov 2023\n  [40 ℄   y [30℄"
+      },
+      {
+        "page": 711,
+        "text": "Page 711        repla ement for answer 29                                               11 Nov 2023\n    29. It is a degenerate tree (see exer ise 5) with THIS at the top, THE at the bottom,\n    needing 22.907 omparisons for an average su essful sear h.\n         Douglas A. Hamilton has proved that some degenerate tree is always worst. There-\n    fore, by exer ise 6.1{14, we an nd pessimal binary sear h trees in O(n log n) steps."
+      },
+      {
+        "page": 713,
+        "text": "Page 713      line 8 of answer 44                                                       30 Sep 2024\n    The variable j     y Optionally, also set WT(Xj )         WT(LLINK(Xj )) + WT(RLINK(Xj )).\n    The variable j\nx"
+      }
+    ],
+    "err3": [
+      {
+        "page": 451,
+        "text": "Page 451 line 2 of step G4                                                    30 Sep 2024\n  Set lk to the distan e        y\n                          Set lk = LEVEL(Xk ) to the distan e"
+      },
+      {
+        "page": 457,
+        "text": "Page 457 new rating for exer ise 29                                           11 Nov 2023\n    [40 ℄    y [30℄"
+      },
+      {
+        "page": 711,
+        "text": "Page 711          repla ement for answer 29                                             11 Nov 2023\n    29. It is a degenerate tree (see exer ise 5) with THIS at the top, THE at the bottom,\n    needing 22.907 omparisons for an average su essful sear h.\n         Douglas A. Hamilton has proved that some degenerate tree is always worst. There-\n    fore, by exer ise 6.1{14, we an nd pessimal binary sear h trees in O(n log n) steps."
+      },
+      {
+        "page": 713,
+        "text": "Page 713      line 8 of answer 44                                                       30 Sep 2024\n    The variable j      yOptionally, also set WT(Xj )         WT(LLINK(Xj )) + WT(RLINK(Xj )).\n    The variable j\nx"
+      }
+    ],
+    "err3-1e": [
+      {
+        "page": 424,
+        "text": "Page 424 line 8                                                       14 May 1976\n              6 \u0003). y (i.e., ROOT 6= \u0003), since the necessary operations are trivial\n  (i.e., ROOT =\n  when ROOT = \u0003."
+      },
+      {
+        "page": 426,
+        "text": "Page 426 line 1 after the gure                                   26 Oct 1996\n  C 1 S \u0019 C 2 y C 1 S has the same probability distribution as C 2"
+      },
+      {
+        "page": 428,
+        "text": "xPage 428 line 17                                                14 May 1976\n  Algorithm L y Algorithm T"
+      },
+      {
+        "page": 428,
+        "text": "xPage 428 line 14                                                 23 Feb 1987\n  NCN y NCN N"
+      },
+      {
+        "page": 429,
+        "text": "Page 429 line 7                                                               27 May 1978\n  to D4. y to D4. (For example, if Q \u0011 RLINK(P) for some P, we would set\n  RLINK(P)    LLINK(T).)"
+      },
+      {
+        "page": 431,
+        "text": "Page 431 bottom four lines                                        22 May 1996\n  Empirical evidence : : : theoretical y Even more startling is the empirical\n  evidence gathered by J. L. Eppinger [CACM 26 (1983), 663{669, 27 (1984),\n  235], who found that the path length decreases slightly when a few random\n\f  42        CHANGES TO VOLUME 3: SORTING AND SEARCHING\n  deletions and insertions are made, but then it increases until reaching a steady\n  state after about n2 deletion/insertion operations have been performed. This\n  steady state is worse than the behavior of a random tree, when N is greater\n  than about 150. Further study by Culberson and Munro [Comp. J. 32 (1989),\n  68{75; Algorithmica 5 (1990), 295{311] has led to a plausible               p conjecture that\n  the average search time in the steady state is asymptotically 2N=9\u0019. However,\n  Eppinger also devised a simple modi cation that alternates between Algorithm D\n  and a left-right re ection of the same algorithm; he found that this leads to an\n  excellent steady state in which the path length is reduced to about 88% of its\n  normal value for random trees. A theoretical"
+      },
+      {
+        "page": 432,
+        "text": "Page 432 line 7                                                                            22 May 1996\n  better. y better. When this idea is combined with Eppinger's symmet-\n  ric deletion strategy, the steady-state path length for repeated random dele-\n  tion/insertion operations decreases to about 86% of its insertion-only value."
+      },
+      {
+        "page": 438,
+        "text": "Page 438 Fig. 16                                                                            14 Jun 1977\n  Insert `a)' at the left of the top line (on the same level as the root of the top\n  tree, the node that says OF); similarly, insert `b)' at the left of the top line of\n  the bottom tree (level with the node that says METHOD). Then change circles to\n  squares in the right descendants of nodes AN and AS in the upper tree."
+      },
+      {
+        "page": 438,
+        "text": "xPage 438 lines 10 and 11 from the bottom                                                    18 Sep 1997\n  4.75 comparisons y 4.15 comparisons\n  5.29 and 5.32 y 4.69 and 4.55"
+      },
+      {
+        "page": 439,
+        "text": "Page 439 lines 3{6                                                                         14 May 1976\n  the weights : : : fairly satisfactory\n                             \u0001          y the resulting maximum subtree weight,\n  max w(0; k 1); w(k; n) , is as small as possible. This approach can also be\n  fairly poor, because it may choose a node with very small pk to be the root;\n  however, Paul J. Bayer has proved that the resulting tree will always have a\n  weighted path length near the optimum (see exercise 36).\n       A more satisfactory"
+      },
+      {
+        "page": 439,
+        "text": "xPage 439 Fig. 17                                                                            18 Sep 1997\n  [The labels for minimum average cost should run from 4.0 to 4.9, not 4.6 to 5.5.]"
+      },
+      {
+        "page": 439,
+        "text": "Page 439 line 7                                                                            14 May 1976\n  time. y time. In fact, M. Fredman has shown that O(n) units of time su\u000ece,\n  if suitable data structures are used [STOC 7 (1975), 240{244]; see K. Mehlhorn,\n  Data Structures and Algorithms 1 (Springer, 1984), Section 4.2."
+      },
+      {
+        "page": 444,
+        "text": "Page 444 should be simpli ed . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14 May 1976\n  Having the external nodes in the priority queues (cf. (23)) is unnecessarily\n  cumbersome. When I revise this material, I'll consider and perhaps switch to\n  the similar algorithm of Garsia and Wachs cited at the end of this section.\n\f                          CHANGES TO VOLUME 3: SORTING AND SEARCHING                                     43"
+      },
+      {
+        "page": 445,
+        "text": "Page 445 technical terms . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11 Feb 1995\n  I should revise this so that the word \\entropy\" is explicitly mentioned, and so\n  that the new exercise 36 is a natural generalization"
+      },
+      {
+        "page": 446,
+        "text": "Page 446 new paragraph before `history and bibliography'                    13 Feb 1995\n       Kleitman and Saks [SIAM J. Algeb. Discr. Methods 2 (1981), 142{146]\n  proved that the optimum weighted path length when p1 = \u0001 \u0001 \u0001 = pn = 0 never\n  exceeds the value of the optimum weighted path length that occurs when the q's\n  have been rearranged in \\sawtooth order\":\n              q0 \u0014 q2 \u0014 q4 \u0014 \u0001 \u0001 \u0001 \u0014 q2bn=2c \u0014 q2dn=2e 1 \u0014 \u0001 \u0001 \u0001 \u0014 q3 \u0014 q1 :        (26)\n  (This is the inverse of the organ-pipe order discussed in exercise 6.1{18.) In the\n  latter case the Hu-Tucker algorithm essentially reduces to Hu man's algorithm\n  on the weights q0 + q1 , q2 + q3 , : : : ; so we can improve the upper bound of\n  Theorem G without knowing the order of the weights."
+      },
+      {
+        "page": 447,
+        "text": "Page 447 just before the exercises                                          15 Oct 1996\n  532]. y 532]. A simpli cation was found by A. M. Garsia and M. L. Wachs,\n  SICOMP 6 (1977), 622{642; see J. H. Kingston, J. Algorithms 9 (1988), 129{\n  136, for a simple proof of their algorithm. See also the paper by Hu and J. D.\n  Morgenthaler, Lecture Notes in Comp. Sci. 1120 (1996), 234{243, for special\n  cases in which the optimum tree can be found in O(n) steps."
+      },
+      {
+        "page": 448,
+        "text": "Page 448 last line of exercise 6                                            13 Apr 1981\n  of Cn 1 ? y of this distribution?\n       0"
+      },
+      {
+        "page": 448,
+        "text": "Page 448 exercise 7                                                         28 Jan 1982\n  rating: [M30 ] y [M25 ]\n  line 3: element? y element, given the key of that element?"
+      },
+      {
+        "page": 448,
+        "text": "Page 448 exercise 10                                                                         30 May 1995\n  Suppose y (R. W. Floyd.) Suppose"
+      },
+      {
+        "page": 449,
+        "text": "xPage 449 exercise 23                                                                         15 Nov 1978\n  p1 = 5 y p1 = 9"
+      },
+      {
+        "page": 450,
+        "text": "Page 450 new version of exercise 30                                       14 May 1976\n  30. [M34 ] Prove that the costs of optimum binary search trees satisfy the inequality\n  c(i; j ) c(i; j 1) \u0015 c(i + 1; j ) c(i + 1; j 1) when j \u0015 i + 2."
+      },
+      {
+        "page": 450,
+        "text": "Page 450 end of exercise 33                                                19 Dec 1976\n  508{517.) y 508{517. On machines that cannot make three-way comparisons at\n  once, a program for Algorithm T will have to make two comparisons in step T2, one\n  for equality and one for less-than; B. Sheil and V. R. Pratt have observed that these\n  comparisons need not involve the same key, and it may well be best to have a binary\n  tree whose internal nodes specify either an equality test or a less-than test but not\n  both. This situation would be interesting to explore as an alternative to the stated\n  problem. See also exercise 42.)\n\f  44       CHANGES TO VOLUME 3: SORTING AND SEARCHING"
+      },
+      {
+        "page": 450,
+        "text": "Page 450 new version of exercise 36                                14 May 1976\n  36. [M40 ] (Paul J. Bayer, 1975.) Generalizing the upper bound of Theorem G,\n  prove that the cost of any optimum binary search tree with nonnegative weights\n  (p1 ; : : : ; pn ; q0 ; : : : ; qn ) must be at most the total weight W = w(0; n) times H + 2,\n  where                                        n p            n\n                                         H= W\n                                              X    j lg W + X qj lg W\n                                    j =1        j       p\n                                                      j =0       W q\n                                                                 j\n  is the entropy of the weights. In fact, the top-down procedure that repeatedly chooses\n  roots to minimize the maximum subtree weights will yield a binary search tree satisfying\n  this bound. Show further that the cost of the optimum binary tree search must be at\n  least (H lg(2H=e))W ."
+      },
+      {
+        "page": 451,
+        "text": "Page 451 rating for exercise 40                                                    13 Feb 1995\n  [M50 ] y [48 ]"
+      },
+      {
+        "page": 451,
+        "text": "Page 451 new exercises                                                             13 Jul 1996\n x42. [25 ] Modify Algorithm T so that it uses two-way branching instead of three-way\n  branching (see exercise 6.2.1{23).\n  43. [M27 ] What is the average number of comparisons made by the algorithm of the\n  previous exercise, when N keys have been inserted in random order?"
+      },
+      {
+        "page": 451,
+        "text": "Page 451 new exercise                                                   09 Sep 1996\n  44. [HM42 ] Analyze the average height of a random binary search tree."
+      },
+      {
+        "page": 451,
+        "text": "Page 451 line 7                                                         17 Sep 1996\n  But this y (See exercise 21.) But this"
+      },
+      {
+        "page": 451,
+        "text": "Page 451 new exercise                                                             25 May 1996\n  41. [M47 ] Carry out a rigorous analysis of the steady state of a binary search tree\n  subjected to random insertions and deletions."
+      },
+      {
+        "page": 453,
+        "text": "xPage 453 line 8                                                                    16 Jan 1998\n  F27 1 = 196;417 y F28 1 = 317;810"
+      },
+      {
+        "page": 454,
+        "text": "Page 454 replacement for bottom line                                              22 May 1996\n  by exploiting the fact that the balance factor of node B in (1) was zero before\n  the insertion."
+      },
+      {
+        "page": 456,
+        "text": "xPage 456 Fig. 22                                                        21 Sep 1976\n  The arrows between boxes A2 and A3 should be reversed (downward arrow on\n  the left, upward arrow on the right). Also delete \\P = \u0003\" below boxes A3 and A4,\n  and insert the words \\Leaf found\" between the two arrows leading to A5."
+      },
+      {
+        "page": 456,
+        "text": "xPage 456 line 2 below the gure                                         14 May 1976\n  KEY(Q)      K   y KEY(Q)        K"
+      },
+      {
+        "page": 457,
+        "text": "Page 457 step A10                                                                 22 May 1996\n  line 2: new root y new subtree root\n  line 3: old root y old subtree root S.\n\f                    CHANGES TO VOLUME 3: SORTING AND SEARCHING                    45"
+      },
+      {
+        "page": 457,
+        "text": "Page 457 line 15                                                         28 Feb 1978\n  necessary. y necessary. Essentially the same method can be used if the tree\n  is threaded (cf. exercise 6.2.2{2), since the balancing act never needs to make\n  di\u000ecult changes to thread links."
+      },
+      {
+        "page": 671,
+        "text": "xPage 671 answer 2                                                                28 Feb 1978\n  line 1: RTAG y RTAG(Q)\n  line 2: RLINK(P). y RLINK(P) and RTAG(P) +. In step T4, change the test\n  \\RLINK(P) 6= \u0003\" to \\RTAG(P) 6= +\".\n  last line: .] y . Similar remarks apply with simultaneous left and right threading.]"
+      },
+      {
+        "page": 671,
+        "text": "xPage 671 line 1 of answer 4                                                      11 Jan 1998\n  C2n y C2n 1\n     0          0"
+      },
+      {
+        "page": 672,
+        "text": "Page 672 answer 7                                                                01 Jan 1985\n  Set up : : : Cnm = Hm + Hn+1 m 1. y A comparison with the kth largest element\n  will be made if and only if that element occurs before the mth and before all those\n  between the kth and mth; this happens with probability 1=(jm kj + 1). Summing\n  over k gives the answer Hm + Hn+1 m 1.\n\f                      CHANGES TO VOLUME 3: SORTING AND SEARCHING                        91"
+      },
+      {
+        "page": 672,
+        "text": "Page 672 end of answer 7                                                     14 May 1976\n  77{80]. y 77{80; see also L. Guibas, Acta Informatica 4 (1975), 293{298.]"
+      },
+      {
+        "page": 672,
+        "text": "xPage 672 line 1 of answer 15                                                  23 Oct 1979\n  ai y aj"
+      },
+      {
+        "page": 673,
+        "text": "xPage 673 tree illustration in answer 23                                      15 Nov 1978\n  5y9"
+      },
+      {
+        "page": 673,
+        "text": "xPage 673 answer 27 starting at the displayed paths                           19 Mar 1975\n                       kk\n                       r0 ; r1 ; : : : ; rl and       kk\n                                                     s0 ; s1 ; : : : ; sl0 :\n  Since r = r0 > s0 = s and rl0 < sl0 = n, we can nd a level k \u0015 0 such : : :\n                       k k\n  the right subtrees of rk and sk can be interchanged, and y"
+      },
+      {
+        "page": 674,
+        "text": "Page 674 new answer                                                          14 May 1976\n  30. See R. L. Wessner, Information Processing Letters 4 (1976), 90{94."
+      },
+      {
+        "page": 674,
+        "text": "Page 674 new answer                                                           26 Oct 1996\n  33. For the stated problem, see A. Itai, SICOMP 5 (1976), 9{18. For the alternatives,\n  see D. Spuler, Acta Informatica 31 (1994), 729{740."
+      },
+      {
+        "page": 674,
+        "text": "Page 674 replacement for answer 36                                            13 Feb 1995\n  36. See Altenkamp and Mehlhorn, JACM 27 (1980), 412{427, for generalizations to\n  multiway trees."
+      },
+      {
+        "page": 674,
+        "text": "Page 674 new answer                                                           28 Dec 1996\n  41. Don't let the complicated analyses of the cases N = 3 [Jonassen and Knuth,\n  J. Comp. Syst. Sci. 16 (1978), 301{322] or N = 4 [Baeza-Yates, BIT 29 (1989), 378{\n  394] scare you; think big!"
+      },
+      {
+        "page": 674,
+        "text": "Page 674 new answers                                                           13 Jul 1996\n  42. U1. [Initialize.] Set P ROOT, R \u0003.\n       U2. [Compare.] If K \u0015 KEY(P), go to U4.\n       U3. [Move left.] If LLINK(P) 6= \u0003, set P LLINK(P) and go back to U2. Otherwise\n            go to U5.\n       U4. [Move right.] Set R P. Then if RLINK(P) 6= \u0003, set P RLINK(P) and go\n            back to U2.\n       U5. [Success?] If R 6= \u0003 and K = KEY(R), the search terminates successfully.\n       U6. [Insert into tree.] Same as step T5 of Algorithm T.\n  [A. Andersson, Software Practice & Experience 21 (1991), 1125{1128.]\n  43. The analysis of Algorithm T applies to Algorithm U without change with respect\n  to unsuccessful searches, since both Algorithms run through the same paces. But in a\n  random successful search, Algorithm U reaches each of the N +1 external nodes except\n  the leftmost with probability 1=N . Therefore step U2 is performed ((N + 1)CN0\n  HN )=N = CN + 1 HN =N times, on the average, where CN0 and CN are given by (5)\n  and (6). Step U4 is performed after 21 CN + 12 of those comparisons.\n\f  92       CHANGES TO VOLUME 3: SORTING AND SEARCHING"
+      },
+      {
+        "page": 674,
+        "text": "Page 674 new answer                                                     09 Sep 1996\n  44. This question was rst investigated by J. M. Robson [Australian Comp. J. 11\n  (1979), 151{153], B. Pittel [J. Math. Anal. Applic. 103 (1984), 461{480], and Luc\n  Devroye [JACM 33 (1986), 489{498; Acta Inf. 24 (1987), 277{298], who obtained\n  limit formulas that hold with probability ! 1 as n ! 1; see the exposition by H. M.\n  Mahmoud, Evolution of Random Search Trees (Wiley, 1992), Chapter 2. Sharper\n  results were subsequently found by Luc Devroye and Bruce Reed, SICOMP 24 (1995),\n  1157{1162, who proved that the average height is ln n + O(log log n) and the variance\n  is O(log log n)2 , where\n              = 1=T (1=2e) \u0019 4:31107 04070 01005 03504 70760 96446 89027 83916\n  and T (z) = 1\n                P       n 1 n\n                  n=1 n z =n!."
+      },
+      {
+        "page": 674,
+        "text": "xPage 674 answer 2\n            k\n  B(S) = 0 y B(S) = 0\n                                                                             16 Jan 1998"
+      },
+      {
+        "page": 675,
+        "text": "Page 675 new paragraph for the end of answer 4                              07 Oct 1996\n       The Fibonacci tree of order n does, however, minimize the value of (n + a)N\n  (external path length(T )) over all balanced trees T of height n 1, when a is any\n  nonnegative constant; this is readily pproved by induction on n. Its external path\n  length is 35 nFn 1 + 45 (n 1)Fn = (\u001e= 5 )nFn+1 + O(Fn+1 ) = \u0002(n\u001en ). Consequently\n  the path length of any N -node balanced tree is at most\n                              n\n                n (nN \u0002(n\u001e ) + O(N )) \u0014 N log\u001e N N log\u001e log\u001e N + O(N ):\n              min\n  Moreover, if N is large and k = dlg N e, n = bk= lg \u001e log\u001e kc = log\u001e N log\u001e log\u001e N +\n  O(1), we can construct a balanced tree of path length nN + O(N ) as follows: Write\n  N + 1 = Fn + Fn 1 + \u0001 \u0001 \u0001 + Fk+1 + N 0 = Fn+2 Fk+2 + N 0 , and construct a complete\n  binary tree on N 0 nodes; then successively join it with Fibonacci trees of orders k, k +1,\n  : : : , n 1. [Cf. R. Klein and D. Wood, Theoretical Comp. Sci. 72 (1990), 251{264.]\nxPage2n 675 line2n4 of answer 7                                                  16 Jan 1998\n  b\u0012 c y b\u0012 c"
+      },
+      {
+        "page": 675,
+        "text": "xPage 675 lines 2 and 3 of answer 8                                              16 Jan 1998\n  bh = 2bh 1 \u000fh : : : extremely small y bh+1 = 2bh \u000fh ; hence bh = 2h (1 \u000f1 =4\n  \u000f2 =8 \u0001 \u0001 \u0001 ) + rh , where rh = \u000fh =2 + \u000fh+1 =4 + \u0001 \u0001 \u0001 is extremely small"
+      },
+      {
+        "page": 675,
+        "text": "Page 675 new answer                                                             12 Apr 1995\n     9. Andrew Odlyzko has shown that the number of balanced trees is asymptotically\n  cn f (log(p10+2)=3 n)=n, where c \u0019 1:916067 and f (x) = f (x + 1). [See Congressus\n  Numerantium 42 (1984), 27{52, a paper in which he also discusses the enumeration of\n  2-3 trees.]"
+      },
+      {
+        "page": 675,
+        "text": "Page 675 new answer                                                             18 Feb 1995\n  10. [Inf. Proc. Letters 17 (1983), 17{20.] To construct the tree, set P 0 and compute\n  TREE(1), where TREE(hmax ) is the following recursive procedure with local variables\n  h, h0 , and Q: Set h 0, Q \u0003; then while h < hmax and P < N set P P + 1,\n  h0 h + B(P), LEFT(P) Q, RIGHT(P) TREE(h0 ), h max(h; h0 ) + 1, Q P;\n  return Q. (Tree Q has height h and corresponds to the balance factors that have been\n  read since entry to the procedure.) The algorithm works even if jB(P)j > 1.\n\f                        CHANGES TO VOLUME 3: SORTING AND SEARCHING                      93"
+      },
+      {
+        "page": 675,
+        "text": "Page 675 new answer                                                  29 Nov 1977\n  11. Clearly there are as many +A's as --B's and +-B's, when n \u0015 2, and there is\n  symmetry between + and -. If there are M nodes of types +A or -A, consideration of\n  all possible cases when n \u0015 1 shows that the next random insertion results in M 1\n  such nodes with probability 3M=(n + 1), otherwise it results in M + 1 such nodes. The\n  result follows. [SICOMP 8 (1979), 33{41; Kurt Mehlhorn extended the analysis to\n  deletions in SICOMP 11 (1982), 748{780. See R. A. Baeza-Yates, Computing Surveys\n  27 (1995), 109{119, for a summary of later developments in \\fringe analyses\" such as\n  these.]"
+      },
+      {
+        "page": 676,
+        "text": "Page 676 replacement for answer 16                                             29 Nov 1977\n  16. Delete E; do Case 3 rebalancing at D. Delete G; replace F by G; do Case 2 rebalancing\n  at H; adjust balance factor at K.\n                                   G +\n\n                  B +                                +K\n            A \u000f            D             I \u000f                      \u000fN\n                     C \u000f          H \u000f          J \u000f         M             \u000fP\n                                                     L \u000f            \u000fO        \u000fQ"
+      },
+      {
+        "page": 676,
+        "text": "xPage 676 answer 19                                                           14 May 1976\n  The fourth rectangle in the left-hand gure is too short | it should be extended so that\n  its bottom line is at the same level as the bottom of the rst and third rectangles."
+      },
+      {
+        "page": 677,
+        "text": "Page 677 replacement for last line of answer 20                             30 May 1995\n  Although is di\u000ecult to insert a new node at the extreme left of the tree shown here,\n  K.-J. Raiha and S. H. Zweben have devised a general insertion algorithm that takes\n  O(log N ) steps. [CACM 22 (1979), 508{512.]"
+      },
+      {
+        "page": 678,
+        "text": "Page 678 new answer                                                         14 May 1976\n  29. Partial2 solution by A. Yao: With N1 \u0015 6 keys the lowest level will contain an\n  average of 7 (N + 1) one-key nodes and 7 (N + 1) two-key nodes. The average total\n  number of nodes lies between 0:70N and 0:79N , for large N . [Acta Informatica 9\n  (1978), 159{170.]"
+      },
+      {
+        "page": 678,
+        "text": "xPage 678 answer 30 line 4                                                    05 Jun 1975\n  left subtree of that node y subtree rooted at that node"
+      },
+      {
+        "page": 678,
+        "text": "Page 678 new paragraph for the end of answer 30                               28 Jul 1996\n        An improved method has been developed by R. P. Brent, ACM Trans. Prog.\n  Languages and Systems 11 (1989), 388{403."
+      },
+      {
+        "page": 678,
+        "text": "Page 678 new answer                                                         14 May 1976\n  31. Use a nearly balanced tree, with RANK elds and with additional upward links\n  for the leftmost part, plus a stack of postponed balance factor adjustments along this\n  path. Each insertion does a bounded number of these adjustments per node visited\n\f  94       CHANGES TO VOLUME 3: SORTING AND SEARCHING\n  in the path. [Stanford Comp. Sci. report 606 (1977), 60{62. Many other solutions to\n  this problem have been discovered subsequently; see, for example, Brown and Tarjan,\n  SICOMP 9 (1980), 594{614.]"
+      },
+      {
+        "page": 679,
+        "text": "Page 679 changes to answer 5                                                      14 Jun 1977\n     5. 450. The worst : : : chars. y\n     5. Interpretation 1, trying to maximize the stated minimum: 450. (The worst\n  : : : chars.)\n          Interpretation 2, trying to equalize the number of keys after splitting, in order to\n  keep branching factors high: 155 (15 short keys followed by 16 long ones).\n          See E. M. McCreight, CACM 20 (1977), 670{674, for further comments."
+      },
+      {
+        "page": 679,
+        "text": "Page 679 addendum to answer 7                                                    23 May 1996\n          With variable-length keys as in exercise 5, a parent node may need to split when\n  one of its keys becomes longer."
+      },
+      {
+        "page": 680,
+        "text": "xPage 680 near the top                                                             18 Jan 1998\n  line 10: (P(1 y (1 P\n  line 11: 1\u0014j\u0014M y 1\u0014i\u0014M"
+      },
+      {
+        "page": 680,
+        "text": "Page 680 bottom, new paragraphs for answer 4                                     25 Mar 1981\n          A more versatile way to economize on trie storage has been proposed by Kurt\n  Maly, CACM 19 (1976), 409{415.\n          In general, if we want to compress n sparse tables containing respectively x1 ,\n  : : : , xn nonzero entries, a ` rst- t' method that o sets the j th table by the minimum\n  amount rj that will not con ict with the previously placed tables will have rj \u0014 (x1 +\n  \u0001 \u0001 \u0001 + xj 1 )xj , since each previous nonzero entry can block at most xj o sets. This\n  worst-case estimate gives rj \u0014 93 for the data in Table 1, guaranteeing that any twelve\n  tables of length 30 containing respectively 10, 5, 4, 3, 3, 3, 3, 3, 2, 2, 2, 2 nonzero\n  entries can be packed into 93 + 30 consecutive locations regardless of the pattern of\n  the nonzeros. Further re nements of this method have been developed by R. E. Tarjan\n  and A. C. Yao, CACM 22 (1979), 606{611."
+      },
+      {
+        "page": 682,
+        "text": "xPage 682 new answer (extends to page 683)                                         05 Jun 1975\n  11. No; eliminating a node with only one empty subtree will \\forget\" one bit in the\n  keys of the nonempty subtree. To delete a node, we should replace it by one of its\n  terminal descendants, e.g., by searching to the right whenever possible."
+      },
+      {
+        "page": 683,
+        "text": "xPage 683 answer 12                                                               14 May 1976\n  line 3: Algorithm 6.2.2D. y the algorithm suggested in the previous exercise.\n  last line: 83 y 14"
+      },
+      {
+        "page": 684,
+        "text": "xPage 684 line 8                                                                   28 Feb 1978\n  f0 (n 1) y f0 (N 1)"
+      }
+    ]
+  },
+  "manual_layout_check": "The 2015 deletion-Q and 2016 concavity corrections precede their p.432 and p.443 headers in all3-pre.txt; these adjacent passages were read directly.",
+  "result": "Known corrections applied in review; no new finding.",
+  "external_primary_source": "https://www-cs-faculty.stanford.edu/~knuth/programs/offline-tree-insertion.w"
+}

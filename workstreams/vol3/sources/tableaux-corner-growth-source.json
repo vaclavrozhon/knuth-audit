@@ -1,0 +1,40 @@
+{
+  "checked_at_utc": "2026-11-06T21:47:55.174435+00:00",
+  "status": "checked_with_external_dependency",
+  "url": "https://danromik.com/resources/books/the-surprising-mathematics-of-longest-increasing-subsequences.pdf",
+  "title": "The Surprising Mathematics of Longest Increasing Subsequences",
+  "author": "Dan Romik",
+  "version": "Author manuscript20 August2014; book published Cambridge2015",
+  "theorems": [
+    {
+      "number": "4.5",
+      "printed_page": 222,
+      "pdf_file_page": 232,
+      "statement": "For unit-rate exponential corner growth from the empty Young diagram, for each fixed0<epsilon<1, Pr((1-epsilon)tD subset set(Lambda(t)) subset (1+epsilon)tD) tends to1, where D={(x,y)>=0:sqrt(x)+sqrt(y)<=1}."
+    },
+    {
+      "number": "4.1",
+      "printed_page": 213,
+      "pdf_file_page": 223,
+      "statement": "The embedded discrete process chooses each addable corner uniformly. Its n-cell diagram, divided by sqrt(n), converges in the two-sided dilation-inclusion sense to sqrt(6)D."
+    }
+  ],
+  "independently_proved_application": "Every example factor; exponential-clock equivalence and nonexplosion; area1/6; deterministic-time sandwich; row count; uniform square-root boundary including both axes and discrete row endpoints.",
+  "external_dependency": "The deep analytical proof of the continuous limit-shape theorem in sections4.3–4.6 is cited with verified hypotheses and is not claimed as independently rederived.",
+  "author_errata": {
+    "url": "https://danromik.com/resources/books/lisbook-errata.pdf",
+    "local_pdf": "workstreams/vol3/sources/romik-lis-errata.pdf",
+    "version": "15 January2021",
+    "assessment": "Read all three pages. The chapter4 correction concerns p251 and does not change Theorems4.1 or4.5."
+  },
+  "taocp_known_addition": "all3-pre, p614 answer40,6 April2014: adds Romik Chapter4. First-edition former exercise39 is the same corner-growth problem.",
+  "bibliography_skips": [
+    "The complete Rost1981 paper was not independently reread; the author-hosted Romik formulation is the explicit theorem source."
+  ],
+  "evidence": [
+    "workstreams/vol3/notes/tableaux-proof-40-corner-growth.md",
+    "workstreams/vol3/sources/tableaux-errata-review.json",
+    "workstreams/vol3/images/tableaux-file-082.png",
+    "workstreams/vol3/images/tableaux-file-625.png"
+  ]
+}

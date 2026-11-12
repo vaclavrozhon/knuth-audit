@@ -1,0 +1,16 @@
+{
+  "exercises": "MPR 103-104",
+  "status": "All tested formulas pass after the published 2026-03-03 corrections to 104.",
+  "distinct_bias_probabilities": 47,
+  "absorbing_chains_checked": 94,
+  "moment_and_generating_function_checks": "Exact rational linear systems; both composition directions; three z values per chain.",
+  "finite_time_probability_entries_checked": 189,
+  "subroutine_e": "Return probabilities verified at even T=2,4,...,20.",
+  "fresh_bits_algorithm_output_zero_approx": 0.4271647160251935,
+  "remaining_probability_after_nine_stages_upper_bound": 1.1392378155556871e-305,
+  "known_errata": [
+    "2025-01-02: X_n instead of X in 103(e).",
+    "2026-03-03: corrected three output probabilities in both directions in 104."
+  ],
+  "limitations": "This tests the finite-state identities and corrected distributions, not a concrete PRNG resetting implementation for 103(f)."
+}

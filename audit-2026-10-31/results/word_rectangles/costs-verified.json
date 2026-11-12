@@ -1,0 +1,60 @@
+{
+  "status": "pass",
+  "checked_at_utc": "2026-11-01T14:50:28.556641+00:00",
+  "source": "sources/knuth-programs/back-mxn-words-new.w",
+  "source_sha256": "93ff339c4ef633cf0ffb714df17a725395da7b24e539b89c7c02721dde1de63d",
+  "source_last_modified": "Sat, 12 Sep 2015 21:28:06 GMT",
+  "cases": [
+    {
+      "dimensions": "5x6",
+      "result": "column-5x6.json",
+      "result_sha256": "e6524c1818187953a666561eded4a68336457551bfddf48295619470cff5da60",
+      "run_metadata_sha256": "37a4d69137e77d48ca18036212c94757507fb4c9606d8b1c2b22d92be5f987f3",
+      "log_sha256": "646d0e20a3c0fc7c79a8f2528d950475cff66784e02bc8c914566de20d91eb9b",
+      "matches_profile_and_averages": true,
+      "cell_fingerprint_fields": [
+        "count",
+        "repeated_words",
+        "sha256_xor",
+        "sha256_sum"
+      ],
+      "mems": 1152188882726,
+      "initialization_mems": 474763,
+      "nonterminal_nodes": 972754613,
+      "successful_edges": 973380027,
+      "trial_upper_from_printed_rounding": 192799742356,
+      "node_cost_bound": 166,
+      "trial_cost_bound": 17,
+      "edge_cost": 7,
+      "search_and_initialization_upper_bound": 3445887020767,
+      "printed_teramems": "1.15",
+      "printed_value_exceeds_upper_bound": false
+    },
+    {
+      "dimensions": "6x5",
+      "result": "column-6x5.json",
+      "result_sha256": "f781df7a4a5d125e2f51a7b6e0157c9907878878383bd8c5abc200c593e7ac29",
+      "run_metadata_sha256": "301a47e5b47fae5de72522f99c77045927cccacccbfe3f5652536cfbcaf46dda",
+      "log_sha256": "abbc37ecd23264266caeee8d4aca34da9956d24e253f02e9cde49e7aa4e176c0",
+      "matches_profile_and_averages": true,
+      "cell_fingerprint_fields": [
+        "count",
+        "repeated_words",
+        "sha256_xor",
+        "sha256_sum"
+      ],
+      "mems": 1828460227444,
+      "initialization_mems": 758038,
+      "nonterminal_nodes": 730017778,
+      "successful_edges": 730643192,
+      "trial_upper_from_printed_rounding": 324432071451,
+      "node_cost_bound": 194,
+      "trial_cost_bound": 20,
+      "edge_cost": 7,
+      "search_and_initialization_upper_bound": 6635380138340,
+      "printed_teramems": "18.3",
+      "printed_value_exceeds_upper_bound": true
+    }
+  ],
+  "correction": "Answer 27: 18.3 teramems -> 1.83 teramems."
+}

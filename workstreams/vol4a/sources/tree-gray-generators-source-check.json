@@ -1,0 +1,50 @@
+{
+  "checked_at_utc": "2026-11-11T21:32:05.352909+00:00",
+  "edition": "Volume 4A, first edition, first printing, 2011; inventory/books.json",
+  "originals": [
+    "images/bookwise-p446.png",
+    "images/bookwise-p447.png",
+    "images/bookwise-p448.png",
+    "images/bookwise-p449.png",
+    "images/bookwise-p472.png",
+    "images/bookwise-p473.png",
+    "images/bookwise-p476.png",
+    "images/bookwise-p784.png",
+    "images/bookwise-p785.png",
+    "images/bookwise-p790.png",
+    "images/bookwise-p791.png",
+    "images/bookwise-p792.png",
+    "images/bookwise-p793.png"
+  ],
+  "errata": [
+    "errata/text/all4a-pre.txt",
+    "errata/text/all4a.txt",
+    "errata/text/err4a.txt",
+    "errata/text/all4f4.txt",
+    "errata/text/err4f4.txt"
+  ],
+  "fresh_fascicle_manifest": "integration/2026-11-10-bookwise/errata/vol4a-fasc4-manifest.json",
+  "pages_screened": "4A 446–449,472–476,784–793; Fascicle 4 8–11,34–38,79–88.",
+  "public_queries": [
+    "Knuth \"784\" \"G1\" errata",
+    "Knuth \"Zaks–Richards\" initialize forest",
+    "Knuth \"Algorithm G\" \"forests\" initialization",
+    "Knuth \"791\" \"37\" errata",
+    "Knuth \"792\" \"37\" error",
+    "Knuth \"790\" \"36\" errata",
+    "\"Zaks-Richards\" \"error\""
+  ],
+  "public_result": "No matching repairs found. The official 2004 news page mentions the analysis but supplies no correction. The 1979 SIAM abstract concerns ordered trees; the book explicitly generalizes to forests. Known 2015 index-letter changes on 448, the 2019 dual-table replacement on 449, the 2020 k=0 condition on 472, the 2011 Korsh reference extension on 785 and the 2012 Fuss attribution on 790 are excluded. The corrected 449 diagrams were inspected in all4a-pre.pdf page 17.",
+  "public_primary_urls": [
+    "https://www-cs.stanford.edu/~knuth/news04.html",
+    "https://epubs.siam.org/doi/abs/10.1137/0208006"
+  ],
+  "findings": [
+    "V4A-F0111",
+    "V4A-F0112",
+    "V4A-F0113",
+    "V4A-F0114",
+    "V4A-F0115",
+    "V4A-F0116"
+  ]
+}

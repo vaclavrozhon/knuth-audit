@@ -1,0 +1,578 @@
+{
+  "status": "passed",
+  "blocks": {
+    "core": {
+      "status": "passed",
+      "seconds": 0.2160456699784845,
+      "result": {
+        "pseudo_cases_by_modulus": {
+          "None": 160,
+          "2": 160,
+          "3": 160,
+          "4": 160,
+          "6": 160,
+          "8": 160,
+          "10": 160,
+          "13": 160
+        },
+        "integer_gcd_cases": 160,
+        "methods": "Pseudo-division identity, rational or field long division, optimized pseudo-division, normalized Bezout gcd certificate."
+      }
+    },
+    "printed_examples": {
+      "status": "passed",
+      "seconds": 0.005841931910254061,
+      "result": {
+        "integer_table_rows": 4,
+        "rational_remainders": 4,
+        "mod13_divisions": 4,
+        "exercises": [
+          1,
+          2,
+          3
+        ],
+        "exercise2": {
+          "correct_gcd": [
+            6,
+            4,
+            3,
+            1
+          ],
+          "printed_gcd": [
+            6,
+            4,
+            3,
+            1
+          ],
+          "remainder_first_input_by_printed_gcd": [],
+          "source_review": "C0192 dismissed: the original already prints coefficient 3."
+        },
+        "bezout_21_13": {
+          "g": [
+            -1,
+            1
+          ],
+          "U": [
+            0,
+            -1,
+            0,
+            -1,
+            0,
+            0,
+            -1,
+            0,
+            -1,
+            0,
+            0,
+            -1,
+            0,
+            0,
+            -1,
+            0,
+            -1,
+            0,
+            0,
+            -1
+          ],
+          "V": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1
+          ]
+        },
+        "printed_degenerate_UV_counterexample": {
+          "u": [
+            0,
+            0,
+            1
+          ],
+          "v": [
+            0,
+            1
+          ],
+          "correct_U": [
+            1
+          ],
+          "correct_V": []
+        }
+      },
+      "review": "November 12, 2026: only this small block rerun after correcting the C0192 transcription."
+    },
+    "statistics": {
+      "status": "passed",
+      "seconds": 0.8635671689989977,
+      "result": {
+        "pairs": 13678,
+        "bezout_degree_checks": 12810,
+        "rows": [
+          {
+            "p": 2,
+            "m": 0,
+            "n": 0,
+            "pairs": 1,
+            "means": [
+              "0",
+              "0",
+              "0"
+            ],
+            "paths": 1
+          },
+          {
+            "p": 2,
+            "m": 1,
+            "n": 0,
+            "pairs": 2,
+            "means": [
+              "0",
+              "0",
+              "0"
+            ],
+            "paths": 1
+          },
+          {
+            "p": 2,
+            "m": 1,
+            "n": 1,
+            "pairs": 4,
+            "means": [
+              "1/2",
+              "0",
+              "0"
+            ],
+            "paths": 2
+          },
+          {
+            "p": 2,
+            "m": 2,
+            "n": 0,
+            "pairs": 4,
+            "means": [
+              "0",
+              "0",
+              "0"
+            ],
+            "paths": 1
+          },
+          {
+            "p": 2,
+            "m": 2,
+            "n": 1,
+            "pairs": 8,
+            "means": [
+              "1/2",
+              "0",
+              "0"
+            ],
+            "paths": 2
+          },
+          {
+            "p": 2,
+            "m": 2,
+            "n": 2,
+            "pairs": 16,
+            "means": [
+              "1",
+              "1/2",
+              "1/2"
+            ],
+            "paths": 4
+          },
+          {
+            "p": 2,
+            "m": 3,
+            "n": 0,
+            "pairs": 8,
+            "means": [
+              "0",
+              "0",
+              "0"
+            ],
+            "paths": 1
+          },
+          {
+            "p": 2,
+            "m": 3,
+            "n": 1,
+            "pairs": 16,
+            "means": [
+              "1/2",
+              "0",
+              "0"
+            ],
+            "paths": 2
+          },
+          {
+            "p": 2,
+            "m": 3,
+            "n": 2,
+            "pairs": 32,
+            "means": [
+              "1",
+              "1/2",
+              "1/2"
+            ],
+            "paths": 4
+          },
+          {
+            "p": 2,
+            "m": 3,
+            "n": 3,
+            "pairs": 64,
+            "means": [
+              "3/2",
+              "3/2",
+              "7/4"
+            ],
+            "paths": 8
+          },
+          {
+            "p": 2,
+            "m": 4,
+            "n": 0,
+            "pairs": 16,
+            "means": [
+              "0",
+              "0",
+              "0"
+            ],
+            "paths": 1
+          },
+          {
+            "p": 2,
+            "m": 4,
+            "n": 1,
+            "pairs": 32,
+            "means": [
+              "1/2",
+              "0",
+              "0"
+            ],
+            "paths": 2
+          },
+          {
+            "p": 2,
+            "m": 4,
+            "n": 2,
+            "pairs": 64,
+            "means": [
+              "1",
+              "1/2",
+              "1/2"
+            ],
+            "paths": 4
+          },
+          {
+            "p": 2,
+            "m": 4,
+            "n": 3,
+            "pairs": 128,
+            "means": [
+              "3/2",
+              "3/2",
+              "7/4"
+            ],
+            "paths": 8
+          },
+          {
+            "p": 2,
+            "m": 4,
+            "n": 4,
+            "pairs": 256,
+            "means": [
+              "2",
+              "3",
+              "31/8"
+            ],
+            "paths": 16
+          },
+          {
+            "p": 2,
+            "m": 5,
+            "n": 0,
+            "pairs": 32,
+            "means": [
+              "0",
+              "0",
+              "0"
+            ],
+            "paths": 1
+          },
+          {
+            "p": 2,
+            "m": 5,
+            "n": 1,
+            "pairs": 64,
+            "means": [
+              "1/2",
+              "0",
+              "0"
+            ],
+            "paths": 2
+          },
+          {
+            "p": 2,
+            "m": 5,
+            "n": 2,
+            "pairs": 128,
+            "means": [
+              "1",
+              "1/2",
+              "1/2"
+            ],
+            "paths": 4
+          },
+          {
+            "p": 2,
+            "m": 5,
+            "n": 3,
+            "pairs": 256,
+            "means": [
+              "3/2",
+              "3/2",
+              "7/4"
+            ],
+            "paths": 8
+          },
+          {
+            "p": 2,
+            "m": 5,
+            "n": 4,
+            "pairs": 512,
+            "means": [
+              "2",
+              "3",
+              "31/8"
+            ],
+            "paths": 16
+          },
+          {
+            "p": 2,
+            "m": 5,
+            "n": 5,
+            "pairs": 1024,
+            "means": [
+              "5/2",
+              "5",
+              "111/16"
+            ],
+            "paths": 32
+          },
+          {
+            "p": 3,
+            "m": 0,
+            "n": 0,
+            "pairs": 1,
+            "means": [
+              "0",
+              "0",
+              "0"
+            ],
+            "paths": 1
+          },
+          {
+            "p": 3,
+            "m": 1,
+            "n": 0,
+            "pairs": 3,
+            "means": [
+              "0",
+              "0",
+              "0"
+            ],
+            "paths": 1
+          },
+          {
+            "p": 3,
+            "m": 1,
+            "n": 1,
+            "pairs": 9,
+            "means": [
+              "2/3",
+              "0",
+              "0"
+            ],
+            "paths": 2
+          },
+          {
+            "p": 3,
+            "m": 2,
+            "n": 0,
+            "pairs": 9,
+            "means": [
+              "0",
+              "0",
+              "0"
+            ],
+            "paths": 1
+          },
+          {
+            "p": 3,
+            "m": 2,
+            "n": 1,
+            "pairs": 27,
+            "means": [
+              "2/3",
+              "0",
+              "0"
+            ],
+            "paths": 2
+          },
+          {
+            "p": 3,
+            "m": 2,
+            "n": 2,
+            "pairs": 81,
+            "means": [
+              "4/3",
+              "2/3",
+              "2/3"
+            ],
+            "paths": 4
+          },
+          {
+            "p": 3,
+            "m": 3,
+            "n": 0,
+            "pairs": 27,
+            "means": [
+              "0",
+              "0",
+              "0"
+            ],
+            "paths": 1
+          },
+          {
+            "p": 3,
+            "m": 3,
+            "n": 1,
+            "pairs": 81,
+            "means": [
+              "2/3",
+              "0",
+              "0"
+            ],
+            "paths": 2
+          },
+          {
+            "p": 3,
+            "m": 3,
+            "n": 2,
+            "pairs": 243,
+            "means": [
+              "4/3",
+              "2/3",
+              "2/3"
+            ],
+            "paths": 4
+          },
+          {
+            "p": 3,
+            "m": 3,
+            "n": 3,
+            "pairs": 729,
+            "means": [
+              "2",
+              "2",
+              "20/9"
+            ],
+            "paths": 8
+          },
+          {
+            "p": 3,
+            "m": 4,
+            "n": 0,
+            "pairs": 81,
+            "means": [
+              "0",
+              "0",
+              "0"
+            ],
+            "paths": 1
+          },
+          {
+            "p": 3,
+            "m": 4,
+            "n": 1,
+            "pairs": 243,
+            "means": [
+              "2/3",
+              "0",
+              "0"
+            ],
+            "paths": 2
+          },
+          {
+            "p": 3,
+            "m": 4,
+            "n": 2,
+            "pairs": 729,
+            "means": [
+              "4/3",
+              "2/3",
+              "2/3"
+            ],
+            "paths": 4
+          },
+          {
+            "p": 3,
+            "m": 4,
+            "n": 3,
+            "pairs": 2187,
+            "means": [
+              "2",
+              "2",
+              "20/9"
+            ],
+            "paths": 8
+          },
+          {
+            "p": 3,
+            "m": 4,
+            "n": 4,
+            "pairs": 6561,
+            "means": [
+              "8/3",
+              "4",
+              "128/27"
+            ],
+            "paths": 16
+          }
+        ]
+      }
+    },
+    "reverse_division": {
+      "status": "passed",
+      "seconds": 0.020805039966944605,
+      "result": {
+        "cases": 100,
+        "shift_counterexample": {
+          "u": [
+            1,
+            1
+          ],
+          "v": [
+            1,
+            2
+          ],
+          "q": [
+            1
+          ],
+          "r": [
+            -1
+          ],
+          "correct_shift": 1,
+          "printed_shift": 0
+        }
+      }
+    }
+  }
+}

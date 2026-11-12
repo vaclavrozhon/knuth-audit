@@ -1,0 +1,211 @@
+{
+  "block": "V2-X0071",
+  "checked_at_utc": "2026-11-04T07:43:36.997915+00:00",
+  "edition": 3,
+  "printing": 1,
+  "physical_copy_verified": false,
+  "book_visual_pages": [
+    485,
+    697
+  ],
+  "scope": "Exercise38: complete constructive upper proof with corrected parameter and own combinatorial lower proof, using explicitly stated standard prime-distribution inputs. Exact asymptotic remains undetermined; C0230confirmed.",
+  "primary_read": {
+    "Dobkin_Lipton": "SIAM publisher metadata/abstract only; full article inaccessible. No full-text claim.",
+    "Enge_Hart_Johansson2018": "Pages5,7,8,17,21,22 text and visual. Scope distinguishes computing a sum from computing every target; no audit of entire34-pagearticle.",
+    "Sergeev2024": "Author2026 bibliography and result summary only; full MathNet PDF inaccessible; no claim that its stronger bounds for other sequences resolve squares.",
+    "Johansson2015": "Downloaded navigation slides; not independently audited.",
+    "second_edition_errata": "PDFpage127 visually read;1997-06-28 answer33 amendment recorded. Original second-edition bookpage638 unavailable, so its precise placement is not inferred."
+  },
+  "verification": {
+    "blocks": [
+      "constructor",
+      "graph",
+      "parameters"
+    ],
+    "block_seconds": {
+      "constructor": 0.33690686500631273,
+      "graph": 0.29238910001004115,
+      "parameters": 4.632881871017162
+    },
+    "wrapper_seconds": 7.034409453975968,
+    "tool_session": 19292,
+    "pids": [
+      1578856,
+      1578866,
+      1578870
+    ],
+    "exit_codes": [
+      0,
+      0,
+      0
+    ],
+    "timeout_seconds_per_block": 300,
+    "mathematical_tests_repeated": false,
+    "cas_scope": "Only the first-order polynomial coefficient is checked. The formal CAS O(x^2) is not an analytic remainder; the note supplies O(x^2*(1+abs(log(x)))). Metadata clarification only; tested code hash unchanged."
+  },
+  "errata": {
+    "new_confirmed": [
+      "V2-C0230"
+    ],
+    "known_related": "1997-06-28 second-editionp638answer33line8 changes(1+ln2/2)to ln2/2. Not ignored; does not correct printed3e parameter. Original2e placement not established.",
+    "searched": "Six full layers, selected3e485/697and2e465/638–639; no matching third-edition parameter correction."
+  },
+  "errata_source_hashes": [
+    {
+      "path_from_repository": "errata/text/all2-prepre.txt",
+      "sha256": "62a1ff323ca421f2640e2337f922dbf8cfc8e86c20d9b11acfc91221721c6f58"
+    },
+    {
+      "path_from_repository": "errata/text/all2-pre.txt",
+      "sha256": "c1735b70547678d739eae3a8d7b02872c737218eed7706a0aba8fb6fc21a6529"
+    },
+    {
+      "path_from_repository": "errata/text/all2.txt",
+      "sha256": "1c4d7f2259e147db0ebe84b4bf0ce8864b307afb4ccfbe48efcb1f5f5999ac58"
+    },
+    {
+      "path_from_repository": "errata/text/err2.txt",
+      "sha256": "1b5c93712c3c467a48679e0040ba6c5869998b25184dbd125a5d096ce96e9ab0"
+    },
+    {
+      "path_from_repository": "errata/text/err2-2e.txt",
+      "sha256": "cf2d9ced25e86f6fd9be0e4f82700a979fc174dff6860e7a4b7950292c24e154"
+    },
+    {
+      "path_from_repository": "errata/originals/err2.textxt",
+      "sha256": "8faa21566312314ec6bda0f8956913deb312517fd9fa688dcc0bf19e1f21962e"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "notes/powers-squares.md",
+      "sha256": "5c7c3ca4e78305e11c49cb09bd211868ef5bd02eb07eda78cbaef4bd322b67f6",
+      "bytes": 13874
+    },
+    {
+      "path": "verify_powers_squares.py",
+      "sha256": "61cc196abce2dd875adffb06db66e052436006ecdcb6490c7ad1f641f2438277",
+      "bytes": 7248
+    },
+    {
+      "path": "verify_powers_vector.py",
+      "sha256": "f2a86a959236bebb0286258d09ab5db2f41f5ba833e5a1a43fd6e0ff921677ed",
+      "bytes": 11893
+    },
+    {
+      "path": "notes/powers-vector.md",
+      "sha256": "d7e345b96c3d86e4d2bc7281760684df425532b769a70ad1ab60d4bfe1e11941",
+      "bytes": 17851
+    },
+    {
+      "path": "notes/factoring-refinement.md",
+      "sha256": "fcda03a69b8ebab1904f41cb85578596f463aa511e2db93f60f800afb75c59f6",
+      "bytes": 10146
+    },
+    {
+      "path": "notes/factoring-basic.md",
+      "sha256": "6cc71e2a06b90299dea530119e79dd8417c93f4562bec56c26f88db833f090b3",
+      "bytes": 10960
+    },
+    {
+      "path": "results/powers-squares.json",
+      "sha256": "24a780b62c13f240ad2932ff51947415f5e1af94fc0caf7e214da61e44928f55",
+      "bytes": 29881
+    },
+    {
+      "path": "results/powers-squares.log",
+      "sha256": "f4c4f2c032b0b3dce4cbe077de6dffdfa20aa1a38e54649c7de08b0f6f162f47",
+      "bytes": 108
+    },
+    {
+      "path": "reports/C0230-square-parameter.txt",
+      "sha256": "1636f5a33efbbec79ba905a92d4e54ab44fc5c774336785607c09542cd5b3a83",
+      "bytes": 1731
+    },
+    {
+      "path": "sources/powers-squares-source-access.json",
+      "sha256": "72f99e136f49a678dc5fc947cf133633a6e094538e36df575003556ae98d4e7c",
+      "bytes": 3074
+    },
+    {
+      "path": "sources/powers-basic-errata.txt",
+      "sha256": "8b5f49e0db8cda41d67694029f01f512ca3e81553fe089f35b35ee3a26eec0f3",
+      "bytes": 39852
+    },
+    {
+      "path": "sources/enge-johansson-2018.pdf",
+      "sha256": "a1ea3603901a077706bed7433a9706292a1ef553f505d8c63606113ad4cf3da7",
+      "bytes": 394361
+    },
+    {
+      "path": "sources/enge-johansson-2018.txt",
+      "sha256": "6b78bd140948c444f7230072207d65f8dbff5da0d9e0b8d543b898fe15c11f0d",
+      "bytes": 102669
+    },
+    {
+      "path": "sources/johansson-2015-strobl.pdf",
+      "sha256": "cf0de66ab149d855b31ca13acdb9a4d6b60498f918118b13b90b5af8ea5c93ff",
+      "bytes": 3829889
+    },
+    {
+      "path": "sources/johansson-2015-strobl.txt",
+      "sha256": "a11717d4369590a131d931cd663bc8c9e17265e0ee703204f50010c34a63a60a",
+      "bytes": 48233
+    },
+    {
+      "path": "sources/sergeev-home-2026.html",
+      "sha256": "5194bc523cf5dedb89fd0175d4aed9f9904def117cf88b509a4d30d6d891a82a",
+      "bytes": 93195
+    },
+    {
+      "path": "sources/yale-reports-squares.html",
+      "sha256": "413bfe1808225bc325cf97129c1d9a45fac25473dfa70c28a1704c927e696fb5",
+      "bytes": 648031
+    },
+    {
+      "path": "images/vol2-p485.png",
+      "sha256": "f1495bc3a517b11fae66966e47a53b4da22c79de63b976ebca18827569395882",
+      "bytes": 337946
+    },
+    {
+      "path": "images/vol2-p697.png",
+      "sha256": "3c76bc667674c0f6223e7fe23c8d49342201fb16ad22deb6f5298f7321bcbd83",
+      "bytes": 379881
+    },
+    {
+      "path": "images/err2-2e-squares-p127.png",
+      "sha256": "b8de719d9408a34a453d54e707060c0f6fe5300f859d11c04e732a4dde613860",
+      "bytes": 179662
+    },
+    {
+      "path": "images/enge-hart-johansson-2018-p05.png",
+      "sha256": "f54fa0de9d7d119d008927b225b0bd994247edb75285dfab666282038800cabf",
+      "bytes": 502749
+    },
+    {
+      "path": "images/enge-hart-johansson-2018-p07.png",
+      "sha256": "7bd3972c5f648c7db8b819f4ddf0082a00b31d7e7be2e28bd3f23cdab5c81666",
+      "bytes": 392667
+    },
+    {
+      "path": "images/enge-hart-johansson-2018-p08.png",
+      "sha256": "e1932fc29d1426a645f3b7d878f113d6db80c8abb8fe1741b6d52a502df58add",
+      "bytes": 403746
+    },
+    {
+      "path": "images/enge-hart-johansson-2018-p17.png",
+      "sha256": "1d80b42c08ca92a4df4b50940419585b4aae2226b3e2c0b5fb22e91f0cd44989",
+      "bytes": 484727
+    },
+    {
+      "path": "images/enge-hart-johansson-2018-p21.png",
+      "sha256": "bf84e92b7f733732bcd0406b9cf385bd200eaa9d419652f449e9ef83bf01a092",
+      "bytes": 400244
+    },
+    {
+      "path": "images/enge-hart-johansson-2018-p22.png",
+      "sha256": "8ec5f623c6ff64e9639eb208d22b0604325bbeb186c361f24977d4ac52eaa4ed",
+      "bytes": 457533
+    }
+  ]
+}

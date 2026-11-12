@@ -1,0 +1,1578 @@
+{
+  "updated_at_utc": "2026-11-07T10:59:55.478101+00:00",
+  "meaning": "Preserved exact limitations from the detailed earlier review; the completion note states their disposition under the current user standard. No claim of new exhaustive verification.",
+  "items": [
+    {
+      "id": "V4A-P0006",
+      "location": "Notes exercise3 p.xiii; answer514",
+      "claim": "Three-dimensional Poincaré theorem",
+      "status": "external_input",
+      "argument": "Book supplies citations, not a proof. Perelman primary metadata checked; Ricci-flow and topological-category theory taken as external input.",
+      "evidence": [
+        "notes/proof-001-frontmatter-langford.md"
+      ],
+      "updated_at_utc": "2026-11-06T13:52:57.899487+00:00"
+    },
+    {
+      "id": "V4A-P0011",
+      "location": "§7 p2/file19, table(1)",
+      "claim": "Remaining counts L15,L19,L20,L23,L24",
+      "status": "partial",
+      "argument": "No new census; L7,L8,L11,L12,L16 are now separately reused from closed4B evidence.",
+      "evidence": [
+        "notes/first-pass-file001-040.md",
+        "notes/proof-005-reused-langford-evidence.md"
+      ],
+      "updated_at_utc": "2026-11-06T14:39:20.067968+00:00"
+    },
+    {
+      "id": "V4A-P0019",
+      "location": "§7–6(c) answer515",
+      "claim": "408838754 zero terms at n16 and associated empirical speedup",
+      "status": "partial",
+      "argument": "Printed census and benchmark not independently reproduced; no enumeration authorized.",
+      "evidence": [
+        "notes/proof-002-langford-constructions.md"
+      ],
+      "updated_at_utc": "2026-11-06T14:06:19.985084+00:00"
+    },
+    {
+      "id": "V4A-P0023",
+      "location": "§7 p2/file19",
+      "claim": "Historical memory-access count and20× timing comparison",
+      "status": "partial",
+      "argument": "Empirical figures and cited historical code were not rerun; known3200→3500 correction taken into account.",
+      "evidence": [
+        "notes/proof-002-langford-constructions.md"
+      ],
+      "updated_at_utc": "2026-11-06T14:06:19.985084+00:00"
+    },
+    {
+      "id": "V4A-P0027",
+      "location": "§7 p3/file20 display4",
+      "claim": "Lexicographic extrema for n24",
+      "status": "partial",
+      "argument": "Known2020 replacement taken into account; extremality and corrected strings not independently proved.",
+      "evidence": [
+        "notes/proof-003-latin-and-remaining-langford.md"
+      ],
+      "updated_at_utc": "2026-11-06T14:22:16.675364+00:00"
+    },
+    {
+      "id": "V4A-P0032",
+      "location": "§7–9 answer515–516",
+      "claim": "Exactly three reversal classes and360 search nodes",
+      "status": "partial",
+      "argument": "Completeness and implementation cost not reproduced;132 options may use symmetry reduction.",
+      "evidence": [
+        "notes/proof-003-latin-and-remaining-langford.md"
+      ],
+      "updated_at_utc": "2026-11-06T14:22:16.675364+00:00"
+    },
+    {
+      "id": "V4A-P0036",
+      "location": "§7 p5",
+      "claim": "Nonexistence at order6 and17-family classification",
+      "status": "external_input",
+      "argument": "Classical external classification accepted; census and historical attribution not reconstructed.",
+      "evidence": [
+        "notes/proof-003-latin-and-remaining-langford.md"
+      ],
+      "updated_at_utc": "2026-11-06T14:22:16.675364+00:00"
+    },
+    {
+      "id": "V4A-P0037",
+      "location": "§7 p5",
+      "claim": "Bose–Shrikhande–Parker existence for all n>6",
+      "status": "external_input",
+      "argument": "Primary metadata and indexed Theorem10 statement match; full PDF fetch502, no reconstruction.",
+      "evidence": [
+        "notes/proof-003-latin-and-remaining-langford.md"
+      ],
+      "updated_at_utc": "2026-11-06T14:22:16.675364+00:00"
+    },
+    {
+      "id": "V4A-P0042",
+      "location": "§7 p6",
+      "claim": "808 transversals and ten class counts",
+      "status": "partial",
+      "argument": "Class counts sum to808; individual enumeration not reproduced.",
+      "evidence": [
+        "notes/proof-003-latin-and-remaining-langford.md"
+      ],
+      "updated_at_utc": "2026-11-06T14:22:16.675364+00:00"
+    },
+    {
+      "id": "V4A-P0043",
+      "location": "§7 p7",
+      "claim": "Uniqueness of normalized orthogonal mate(7)",
+      "status": "partial",
+      "argument": "Displayed mate validity reused; uniqueness requires unperformed classification.",
+      "evidence": [
+        "notes/proof-003-latin-and-remaining-langford.md"
+      ],
+      "updated_at_utc": "2026-11-06T14:22:16.675364+00:00"
+    },
+    {
+      "id": "V4A-P0044",
+      "location": "§7 pp6–7",
+      "claim": "Search-tree sizes and memory-access benchmarks",
+      "status": "partial",
+      "argument": "Empirical/census claims not reproduced.",
+      "evidence": [
+        "notes/proof-003-latin-and-remaining-langford.md"
+      ],
+      "updated_at_utc": "2026-11-06T14:22:16.675364+00:00"
+    },
+    {
+      "id": "V4A-P0052",
+      "location": "§7–14(a) p37; answer516",
+      "claim": "Two mates, printed witnesses and extremality",
+      "status": "partial",
+      "argument": "The two printed mate witnesses are now fully checked separately in P0500–P0502. Total counts and lexicographic extremality remain unproved; for (e), the transversal count also remains unproved.",
+      "evidence": [
+        "notes/proof-003-latin-and-remaining-langford.md",
+        "notes/proof-020-latin14-witnesses.md"
+      ],
+      "updated_at_utc": "2026-11-06T19:40:53.944274+00:00"
+    },
+    {
+      "id": "V4A-P0053",
+      "location": "§7–14(b) p37; answer516",
+      "claim": "No orthogonal mate",
+      "status": "partial",
+      "argument": "Nonexistence search not reproduced.",
+      "evidence": [
+        "notes/proof-003-latin-and-remaining-langford.md"
+      ],
+      "updated_at_utc": "2026-11-06T14:22:16.675364+00:00"
+    },
+    {
+      "id": "V4A-P0054",
+      "location": "§7–14(c) p37; answer516",
+      "claim": "Six mates, printed witnesses and extremality",
+      "status": "partial",
+      "argument": "The two printed mate witnesses are now fully checked separately in P0500–P0502. Total counts and lexicographic extremality remain unproved; for (e), the transversal count also remains unproved.",
+      "evidence": [
+        "notes/proof-003-latin-and-remaining-langford.md",
+        "notes/proof-020-latin14-witnesses.md"
+      ],
+      "updated_at_utc": "2026-11-06T19:40:53.944274+00:00"
+    },
+    {
+      "id": "V4A-P0055",
+      "location": "§7–14(d) p37; answer516",
+      "claim": "No orthogonal mate",
+      "status": "partial",
+      "argument": "Nonexistence search not reproduced.",
+      "evidence": [
+        "notes/proof-003-latin-and-remaining-langford.md"
+      ],
+      "updated_at_utc": "2026-11-06T14:22:16.675364+00:00"
+    },
+    {
+      "id": "V4A-P0056",
+      "location": "§7–14(e) p37; answer516",
+      "claim": "12265168 mates,5504 transversals and displayed extrema",
+      "status": "partial",
+      "argument": "The two printed mate witnesses are now fully checked separately in P0500–P0502. Total counts and lexicographic extremality remain unproved; for (e), the transversal count also remains unproved.",
+      "evidence": [
+        "notes/proof-003-latin-and-remaining-langford.md",
+        "notes/proof-020-latin14-witnesses.md"
+      ],
+      "updated_at_utc": "2026-11-06T19:40:53.944274+00:00"
+    },
+    {
+      "id": "V4A-P0057",
+      "location": "§7–15 p37",
+      "claim": "Construct three MOLS of order10",
+      "status": "partial",
+      "argument": "Research problem; no solution claimed.",
+      "evidence": [
+        "notes/proof-003-latin-and-remaining-langford.md"
+      ],
+      "updated_at_utc": "2026-11-06T14:22:16.675364+00:00"
+    },
+    {
+      "id": "V4A-P0060",
+      "location": "§7–15 answer517",
+      "claim": "Any order10 MOLS triple has only trivial square symmetries",
+      "status": "external_input",
+      "argument": "Primary McKay–Meynert–Myrvold abstract confirms exact statement; computations not repeated.",
+      "evidence": [
+        "notes/proof-003-latin-and-remaining-langford.md"
+      ],
+      "updated_at_utc": "2026-11-06T14:22:16.675364+00:00"
+    },
+    {
+      "id": "V4A-P0061",
+      "location": "§7–15 answer517",
+      "claim": "Three MOLS exist for every order>10",
+      "status": "external_input",
+      "argument": "External construction theorem; cited Wang–Wilson/Todorov sources bibliographically skipped.",
+      "evidence": [
+        "notes/proof-003-latin-and-remaining-langford.md"
+      ],
+      "updated_at_utc": "2026-11-06T14:22:16.675364+00:00"
+    },
+    {
+      "id": "V4A-P0062",
+      "location": "§7–16 p37; answer517",
+      "claim": "Odd-order Latin transversal question",
+      "status": "partial",
+      "argument": "Research question not solved here; recent primary results of length n−1 do not imply full odd-order transversals.",
+      "evidence": [
+        "notes/proof-003-latin-and-remaining-langford.md"
+      ],
+      "updated_at_utc": "2026-11-06T14:22:16.675364+00:00"
+    },
+    {
+      "id": "V4A-P0072",
+      "location": "§7–20 p37; answer518",
+      "claim": "Boundary n1",
+      "status": "partial",
+      "argument": "Previously recorded C0001 reused; implicit convention unresolved.",
+      "evidence": [
+        "notes/proof-004-nets-and-codes.md"
+      ],
+      "updated_at_utc": "2026-11-06T14:22:16.675364+00:00"
+    },
+    {
+      "id": "V4A-P0078",
+      "location": "§7–22 answer518",
+      "claim": "Degenerate n1 or m1 array conventions",
+      "status": "partial",
+      "argument": "No attempt to equate distinct named classes when line sets coincide; low-priority convention gap explicitly retained.",
+      "evidence": [
+        "notes/proof-004-nets-and-codes.md"
+      ],
+      "updated_at_utc": "2026-11-06T14:22:16.675364+00:00"
+    },
+    {
+      "id": "V4A-P0089",
+      "location": "§7 p10",
+      "claim": "yucca/abuzz have globally largest Euclidean distance",
+      "status": "partial",
+      "argument": "No global search or upper-bound certificate.",
+      "evidence": [
+        "notes/proof-006-sgb-words.md"
+      ],
+      "updated_at_utc": "2026-11-06T14:39:20.067968+00:00"
+    },
+    {
+      "id": "V4A-P0091",
+      "location": "§7 p11",
+      "claim": "At most24 distinct letters in five SGB words",
+      "status": "partial",
+      "argument": "Witness does not prove bound; no new search.",
+      "evidence": [
+        "notes/proof-006-sgb-words.md"
+      ],
+      "updated_at_utc": "2026-11-06T14:39:20.067968+00:00"
+    },
+    {
+      "id": "V4A-P0093",
+      "location": "§7 p11",
+      "claim": "Minimal cube rank, three WORDS3000 cubes and83576 full cubes",
+      "status": "partial",
+      "argument": "No completeness/optimality census;390-billion-mem benchmark unverified.",
+      "evidence": [
+        "notes/proof-006-sgb-words.md"
+      ],
+      "updated_at_utc": "2026-11-06T14:39:20.067968+00:00"
+    },
+    {
+      "id": "V4A-P0096",
+      "location": "§7 p12",
+      "claim": "words generator parameter claims and766-word TeX subset",
+      "status": "partial",
+      "argument": "Read and known corrections applied; implementation/data subset not independently audited.",
+      "evidence": [
+        "notes/proof-006-sgb-words.md"
+      ],
+      "updated_at_utc": "2026-11-06T14:39:20.067968+00:00"
+    },
+    {
+      "id": "V4A-P0099",
+      "location": "§7 p12 display14",
+      "claim": "Directed words-to-graph minimum length6",
+      "status": "partial",
+      "argument": "No lower-bound proof; path validity alone insufficient.",
+      "evidence": [
+        "notes/proof-006-sgb-words.md"
+      ],
+      "updated_at_utc": "2026-11-06T14:39:20.067968+00:00"
+    },
+    {
+      "id": "V4A-P0100",
+      "location": "§7–25 p38; answer519",
+      "claim": "Cyclic five-word Latin square",
+      "status": "partial",
+      "argument": "Latin property proved by cyclic shifts; dictionary status of archaic words/prefix unverified.",
+      "evidence": [
+        "notes/proof-006-sgb-words.md"
+      ],
+      "updated_at_utc": "2026-11-06T14:39:20.067968+00:00"
+    },
+    {
+      "id": "V4A-P0102",
+      "location": "§7–27 p38; answer519",
+      "claim": "Distinct-letter histogram",
+      "status": "partial",
+      "argument": "Printed totals sum5757 and full-house witnesses valid; individual counts unverified.",
+      "evidence": [
+        "notes/proof-006-sgb-words.md"
+      ],
+      "updated_at_utc": "2026-11-06T14:39:20.067968+00:00"
+    },
+    {
+      "id": "V4A-P0104",
+      "location": "§7–28 answer519",
+      "claim": "38 pairs, three all-positive pairs and four exceptions",
+      "status": "partial",
+      "argument": "Completeness and frequencies not enumerated.",
+      "evidence": [
+        "notes/proof-006-sgb-words.md"
+      ],
+      "updated_at_utc": "2026-11-06T14:39:20.067968+00:00"
+    },
+    {
+      "id": "V4A-P0106",
+      "location": "§7–29 answer520",
+      "claim": "18 palindromes,34 mirror pairs and endpoint extremality",
+      "status": "partial",
+      "argument": "No complete filter census.",
+      "evidence": [
+        "notes/proof-006-sgb-words.md"
+      ],
+      "updated_at_utc": "2026-11-06T14:39:20.067968+00:00"
+    },
+    {
+      "id": "V4A-P0108",
+      "location": "§7–30 answer520",
+      "claim": "105 ascending/37 descending words and global extrema",
+      "status": "partial",
+      "argument": "No complete filter census.",
+      "evidence": [
+        "notes/proof-006-sgb-words.md"
+      ],
+      "updated_at_utc": "2026-11-06T14:39:20.067968+00:00"
+    },
+    {
+      "id": "V4A-P0110",
+      "location": "§7–31 answer520",
+      "claim": "119 total progressions and two in WORDS2000",
+      "status": "partial",
+      "argument": "Printed two witnesses meet rank bound; completeness not enumerated.",
+      "evidence": [
+        "notes/proof-006-sgb-words.md"
+      ],
+      "updated_at_utc": "2026-11-06T14:39:20.067968+00:00"
+    },
+    {
+      "id": "V4A-P0113",
+      "location": "§7–33 answer520",
+      "claim": "Best rank/gap choices and no yz word",
+      "status": "partial",
+      "argument": "No complete dictionary filtering.",
+      "evidence": [
+        "notes/proof-006-sgb-words.md"
+      ],
+      "updated_at_utc": "2026-11-06T14:39:20.067968+00:00"
+    },
+    {
+      "id": "V4A-P0115",
+      "location": "§7–34 answer520",
+      "claim": "Bucket counts and top-two ranks",
+      "status": "partial",
+      "argument": "No independent whole-list count or rank filtering.",
+      "evidence": [
+        "notes/proof-006-sgb-words.md"
+      ],
+      "updated_at_utc": "2026-11-06T14:39:20.067968+00:00"
+    },
+    {
+      "id": "V4A-P0117",
+      "location": "§7–35 answer520",
+      "claim": "Minimal breakpoints and ternary81-word trie",
+      "status": "partial",
+      "argument": "Specific printed word ranks checked; thresholds/completeness not recomputed, ternary list abbreviated.",
+      "evidence": [
+        "notes/proof-006-sgb-words.md"
+      ],
+      "updated_at_utc": "2026-11-06T14:39:20.067968+00:00"
+    },
+    {
+      "id": "V4A-P0121",
+      "location": "§7–37 p39; answer521",
+      "claim": "Maximum degree25 at bares/cores",
+      "status": "partial",
+      "argument": "No whole-graph degree census.",
+      "evidence": [
+        "notes/proof-006-sgb-words.md"
+      ],
+      "updated_at_utc": "2026-11-06T14:39:20.067968+00:00"
+    },
+    {
+      "id": "V4A-P0133",
+      "location": "§7 p15 display17",
+      "claim": "49-vertex map graph and absence of symmetry",
+      "status": "partial",
+      "argument": "49 labels and planarity read; full geographic adjacency and asymmetry not independently proved.",
+      "evidence": [
+        "notes/proof-007-graph-basics.md"
+      ],
+      "updated_at_utc": "2026-11-06T14:58:43.781050+00:00"
+    },
+    {
+      "id": "V4A-P0135",
+      "location": "§7 p16",
+      "claim": "Quoted SGB distances and component sizes",
+      "status": "partial",
+      "argument": "No new shortest-path/component census; known corrected1186 applied.",
+      "evidence": [
+        "notes/proof-007-graph-basics.md"
+      ],
+      "updated_at_utc": "2026-11-06T14:58:43.781050+00:00"
+    },
+    {
+      "id": "V4A-P0136",
+      "location": "§7 p16",
+      "claim": "15-to-1 giant-component probability claim",
+      "status": "partial",
+      "argument": "Corrected distinct-letter premise applied; dataset distribution not independently counted.",
+      "evidence": [
+        "notes/proof-007-graph-basics.md"
+      ],
+      "updated_at_utc": "2026-11-06T14:58:43.781050+00:00"
+    },
+    {
+      "id": "V4A-P0137",
+      "location": "§7 p16 display21",
+      "claim": "Displayed six-word component path",
+      "status": "partial",
+      "argument": "All five edges valid; absence of further neighbors not proved.",
+      "evidence": [
+        "notes/proof-007-graph-basics.md"
+      ],
+      "updated_at_utc": "2026-11-06T14:58:43.781050+00:00"
+    },
+    {
+      "id": "V4A-P0139",
+      "location": "§7 p16 display22",
+      "claim": "No14-edge Steiner solution",
+      "status": "partial",
+      "argument": "Only the15-edge upper bound proved; no minimality certificate.",
+      "evidence": [
+        "notes/proof-007-graph-basics.md"
+      ],
+      "updated_at_utc": "2026-11-06T14:58:43.781050+00:00"
+    },
+    {
+      "id": "V4A-P0158",
+      "location": "§7–53 p39; answer522",
+      "claim": "happy versus world giant-component membership",
+      "status": "partial",
+      "argument": "No whole-graph connectivity proof or reused certificate yet.",
+      "evidence": [
+        "notes/proof-007-graph-basics.md"
+      ],
+      "updated_at_utc": "2026-11-06T14:58:43.781050+00:00"
+    },
+    {
+      "id": "V4A-P0168",
+      "location": "§7–65 answer523",
+      "claim": "Uniqueness of degree7 Moore graph",
+      "status": "external_input",
+      "argument": "Cited Hoffman–Singleton classification not reconstructed; construction alone does not establish uniqueness.",
+      "evidence": [
+        "notes/proof-008-moore-bounds.md"
+      ],
+      "updated_at_utc": "2026-11-06T14:58:43.781050+00:00"
+    },
+    {
+      "id": "V4A-P0169",
+      "location": "§7–67 p41; answer523",
+      "claim": "Degree57 Moore-graph research question",
+      "status": "partial",
+      "argument": "No solution or independent research-status review; not attempting an open classification here.",
+      "evidence": [
+        "notes/proof-008-moore-bounds.md"
+      ],
+      "updated_at_utc": "2026-11-06T14:58:43.781050+00:00"
+    },
+    {
+      "id": "V4A-P0172",
+      "location": "§7 p17",
+      "claim": "Four Color Theorem",
+      "status": "external_input",
+      "argument": "Author source confirms the theorem for loopless planar graphs; reducibility proof is an explicit external input.",
+      "evidence": [
+        "notes/proof-009-digraphs-matrices.md"
+      ],
+      "updated_at_utc": "2026-11-06T17:20:34.871734+00:00"
+    },
+    {
+      "id": "V4A-P0173",
+      "location": "§7 p17",
+      "claim": "Quadratic planar coloring algorithm",
+      "status": "external_input",
+      "argument": "Author and institutional primary sources confirm the bound and STOC 1996 reference; algorithm not reconstructed.",
+      "evidence": [
+        "notes/proof-009-digraphs-matrices.md"
+      ],
+      "updated_at_utc": "2026-11-06T17:20:34.871734+00:00"
+    },
+    {
+      "id": "V4A-P0178",
+      "location": "§7 pp18–19, Fig. 3",
+      "claim": "Correspondence with the Christie novel",
+      "status": "partial",
+      "argument": "Diagram checked; historical correspondence with the novel not independently verified. Known name corrections applied.",
+      "evidence": [
+        "notes/proof-009-digraphs-matrices.md"
+      ],
+      "updated_at_utc": "2026-11-06T17:20:34.871734+00:00"
+    },
+    {
+      "id": "V4A-P0202",
+      "location": "§7–59(b) answer522",
+      "claim": "General oddness of tournament Hamilton-path count",
+      "status": "external_input",
+      "argument": "Szele result is an explicit external input; primary catalog metadata found, full proof and page range not checked.",
+      "evidence": [
+        "notes/proof-009-digraphs-matrices.md"
+      ],
+      "updated_at_utc": "2026-11-06T17:20:34.871734+00:00"
+    },
+    {
+      "id": "V4A-P0216",
+      "location": "§7 p23, roget example",
+      "claim": "Historical generator count and semantic links",
+      "status": "partial",
+      "argument": "1022 vertices and 5075 arcs not independently reproduced or tied to an exact data version.",
+      "evidence": [
+        "notes/proof-010-bipartite-algorithm.md"
+      ],
+      "updated_at_utc": "2026-11-06T17:20:34.871734+00:00"
+    },
+    {
+      "id": "V4A-P0217",
+      "location": "§7 p23, book example",
+      "claim": "Historical jean generator count and semantic links",
+      "status": "partial",
+      "argument": "80 vertices and 254 edges not independently reproduced or tied to an exact data version.",
+      "evidence": [
+        "notes/proof-010-bipartite-algorithm.md"
+      ],
+      "updated_at_utc": "2026-11-06T17:20:34.871734+00:00"
+    },
+    {
+      "id": "V4A-P0218",
+      "location": "§7 p23, bi_book example",
+      "claim": "Historical jean incidence count and semantic links",
+      "status": "partial",
+      "argument": "80 plus 356 vertices and 727 edges not independently reproduced or tied to an exact data version.",
+      "evidence": [
+        "notes/proof-010-bipartite-algorithm.md"
+      ],
+      "updated_at_utc": "2026-11-06T17:20:34.871734+00:00"
+    },
+    {
+      "id": "V4A-P0221",
+      "location": "§7 p24, plane_miles",
+      "claim": "Historical city data, degeneracies and the Delaunay empty-circle characterization",
+      "status": "partial",
+      "argument": "P0505 proves the geometric equivalence under explicit general-position assumptions; P0506 proves the literal 128-record input and 129 vertices; P0507 certifies all three printed example edges. Remaining partial: absence or relevance of degeneracies in the entire original coordinate set, the unqualified original-coordinate equivalence versus symbolic perturbation, correctness of the full incremental Delaunay implementation, and historical geographic accuracy. No concrete contradiction to the 128-city claim is established.",
+      "evidence": [
+        "notes/proof-027-delaunay-geometry-and-examples.md",
+        "notes/proof-011-generators-complements.md",
+        "notes/quality-recovery-2026-11-06.md",
+        "sources/sgb-gb_plane.w",
+        "sources/sgb-gb_miles.w",
+        "sources/sgb-miles.dat"
+      ],
+      "updated_at_utc": "2026-11-06T20:14:03.553378+00:00"
+    },
+    {
+      "id": "V4A-P0223",
+      "location": "§7 p24, plane_lisa",
+      "claim": "3027 regions and 5967 edges",
+      "status": "partial",
+      "argument": "Pixel census not reproduced; known parameter correction applied.",
+      "evidence": [
+        "notes/proof-011-generators-complements.md"
+      ],
+      "updated_at_utc": "2026-11-06T17:31:47.962905+00:00"
+    },
+    {
+      "id": "V4A-P0225",
+      "location": "§7 p24, bi_lisa",
+      "claim": "40923 edges and named pixel",
+      "status": "partial",
+      "argument": "Historical pixel data not independently recounted.",
+      "evidence": [
+        "notes/proof-011-generators-complements.md"
+      ],
+      "updated_at_utc": "2026-11-06T17:31:47.962905+00:00"
+    },
+    {
+      "id": "V4A-P0227",
+      "location": "§7 pp24–25, raman",
+      "claim": "Actual regularity, girth, diameter and bipartiteness",
+      "status": "partial",
+      "argument": "No new generator run or independent certificates for the two large graphs.",
+      "evidence": [
+        "notes/proof-011-generators-complements.md"
+      ],
+      "updated_at_utc": "2026-11-06T17:31:47.962905+00:00"
+    },
+    {
+      "id": "V4A-P0229",
+      "location": "§7 p25, random_graph",
+      "claim": "Seed-specific components and arc inclusion",
+      "status": "partial",
+      "argument": "Isolated vertex 908, component 999 and inclusion between the two generated graphs not reproduced.",
+      "evidence": [
+        "notes/proof-011-generators-complements.md"
+      ],
+      "updated_at_utc": "2026-11-06T17:31:47.962905+00:00"
+    },
+    {
+      "id": "V4A-P0235",
+      "location": "§7 p25, parts",
+      "claim": "3590 vertices and 31377 edges",
+      "status": "partial",
+      "argument": "Partition and edge counts not recomputed.",
+      "evidence": [
+        "notes/proof-011-generators-complements.md"
+      ],
+      "updated_at_utc": "2026-11-06T17:31:47.962905+00:00"
+    },
+    {
+      "id": "V4A-P0238",
+      "location": "§7 p25, Fig. 5",
+      "claim": "Complete drawn graph identification",
+      "status": "partial",
+      "argument": "The images were read; every drawn edge was not separately labeled and matched.",
+      "evidence": [
+        "notes/proof-011-generators-complements.md"
+      ],
+      "updated_at_utc": "2026-11-06T17:31:47.962905+00:00"
+    },
+    {
+      "id": "V4A-P0244",
+      "location": "§7–74 p41; answer524",
+      "claim": "Roget maximum out-degree",
+      "status": "partial",
+      "argument": "The badness value 22 and all remaining degrees at most 20 were not independently censused.",
+      "evidence": [
+        "notes/proof-011-generators-complements.md"
+      ],
+      "updated_at_utc": "2026-11-06T17:31:47.962905+00:00"
+    },
+    {
+      "id": "V4A-P0272",
+      "location": "§7–87 answer525",
+      "claim": "General Brooks theorem",
+      "status": "external_input",
+      "argument": "Explicit external result, not needed for the direct Petersen coloring; cited historical paper not independently checked.",
+      "evidence": [
+        "notes/proof-011-generators-complements.md"
+      ],
+      "updated_at_utc": "2026-11-06T17:31:47.962905+00:00"
+    },
+    {
+      "id": "V4A-P0281",
+      "location": "§7 p27, (49)",
+      "claim": "Complete drawn product identification",
+      "status": "partial",
+      "argument": "The diagram was read but its drawn edges were not individually labeled and matched.",
+      "evidence": [
+        "notes/proof-012-graph-products.md"
+      ],
+      "updated_at_utc": "2026-11-06T17:40:03.367038+00:00"
+    },
+    {
+      "id": "V4A-P0342",
+      "location": "§7–107 answer528",
+      "claim": "Additional Clapham–Kleitman converse construction",
+      "status": "external_input",
+      "argument": "The cited classification and its algorithm are explicit external inputs; not independently reconstructed.",
+      "evidence": [
+        "notes/proof-013-degree-sequences.md"
+      ],
+      "updated_at_utc": "2026-11-06T17:50:14.527926+00:00"
+    },
+    {
+      "id": "V4A-P0344",
+      "location": "§7–108 answer528",
+      "claim": "Literal zero-residual branches of the H substitutions",
+      "status": "partial",
+      "argument": "The mathematical construction handles zero residuals directly; the inherited H1 exit and unused c_0 access were not fully formalized. Known j>0 guard applied.",
+      "evidence": [
+        "notes/proof-014-degree-extensions.md"
+      ],
+      "updated_at_utc": "2026-11-06T17:56:11.689404+00:00"
+    },
+    {
+      "id": "V4A-P0351",
+      "location": "§7–110 answer528",
+      "claim": "Additional high-connectivity statement",
+      "status": "external_input",
+      "argument": "Wang–Kleitman attribution is not independently checked and is not needed for the proved degree realization.",
+      "evidence": [
+        "notes/proof-014-degree-extensions.md"
+      ],
+      "updated_at_utc": "2026-11-06T17:56:11.689404+00:00"
+    },
+    {
+      "id": "V4A-P0358",
+      "location": "p31 networks",
+      "claim": "miles historical distances and year",
+      "status": "partial",
+      "argument": "3496 miles and the 1949 data were not independently reproduced.",
+      "evidence": [
+        "notes/proof-015-networks-hypergraphs.md"
+      ],
+      "updated_at_utc": "2026-11-06T18:10:23.883463+00:00"
+    },
+    {
+      "id": "V4A-P0359",
+      "location": "p31 networks",
+      "claim": "econ sizes, monetary weights and conservation",
+      "status": "partial",
+      "argument": "81/4902, value 44, balancing and negative-import conventions remain data claims.",
+      "evidence": [
+        "notes/proof-015-networks-hypergraphs.md"
+      ],
+      "updated_at_utc": "2026-11-06T18:10:23.883463+00:00"
+    },
+    {
+      "id": "V4A-P0360",
+      "location": "p31 networks",
+      "claim": "games sizes, score and date",
+      "status": "partial",
+      "argument": "120/1276, 27–25 and the 1990 date remain unverified historical data.",
+      "evidence": [
+        "notes/proof-015-networks-hypergraphs.md"
+      ],
+      "updated_at_utc": "2026-11-06T18:10:23.883463+00:00"
+    },
+    {
+      "id": "V4A-P0361",
+      "location": "p31–32 networks",
+      "claim": "risc circuit sizes and semantics",
+      "status": "partial",
+      "argument": "DAG definition checked; 3240/7878 and the full circuit were not reproduced. Known direction and risc(8) corrections applied.",
+      "evidence": [
+        "notes/proof-015-networks-hypergraphs.md"
+      ],
+      "updated_at_utc": "2026-11-06T18:10:23.883463+00:00"
+    },
+    {
+      "id": "V4A-P0371",
+      "location": "p34 (61)",
+      "claim": "USA 38-vertex minimal cover and 11-vertex maximal independent set",
+      "status": "partial",
+      "argument": "Exact diagram labels and maximality certificates were not reconstructed; the archived partition audit does not prove this claim.",
+      "evidence": [
+        "notes/proof-015-networks-hypergraphs.md"
+      ],
+      "updated_at_utc": "2026-11-06T18:10:23.883463+00:00"
+    },
+    {
+      "id": "V4A-P0372",
+      "location": "p34 (62)",
+      "claim": "USA optimum cover 30 and independence number 19",
+      "status": "partial",
+      "argument": "Neither this optimum nor the full printed witnesses are certified by the archived partition results.",
+      "evidence": [
+        "notes/proof-015-networks-hypergraphs.md"
+      ],
+      "updated_at_utc": "2026-11-06T18:10:23.883463+00:00"
+    },
+    {
+      "id": "V4A-P0373",
+      "location": "p35 complexity",
+      "claim": "Independent-set NP-completeness",
+      "status": "external_input",
+      "argument": "Accepted input for the decision version; no reduction is supplied here, and no independent reconstruction of complexity theory is claimed.",
+      "evidence": [
+        "notes/proof-015-networks-hypergraphs.md"
+      ],
+      "updated_at_utc": "2026-11-06T18:10:23.883463+00:00"
+    },
+    {
+      "id": "V4A-P0374",
+      "location": "p35 algorithms",
+      "claim": "Polynomial special cases and matching",
+      "status": "external_input",
+      "argument": "Later algorithms are explicit external/deferred inputs; dual vertex cover equals original edge cover, and matching equals line-graph independence.",
+      "evidence": [
+        "notes/proof-015-networks-hypergraphs.md"
+      ],
+      "updated_at_utc": "2026-11-06T18:10:23.883463+00:00"
+    },
+    {
+      "id": "V4A-P0375",
+      "location": "p35 benchmark",
+      "claim": "Under-one-second optimum search",
+      "status": "partial",
+      "argument": "Historical benchmark not reproduced.",
+      "evidence": [
+        "notes/proof-015-networks-hypergraphs.md"
+      ],
+      "updated_at_utc": "2026-11-06T18:10:23.883463+00:00"
+    },
+    {
+      "id": "V4A-P0379",
+      "location": "§7–112 answer529",
+      "claim": "Closest equilateral triangle in miles",
+      "status": "partial",
+      "argument": "The printed lengths have spread two; the input values, absence of an equilateral triangle and uniqueness of the optimum were not independently verified.",
+      "evidence": [
+        "notes/proof-015-networks-hypergraphs.md"
+      ],
+      "updated_at_utc": "2026-11-06T18:10:23.883463+00:00"
+    },
+    {
+      "id": "V4A-P0389",
+      "location": "§7–120 answer529",
+      "claim": "Most-authors terminology",
+      "status": "partial",
+      "argument": "Historical preference was not independently verified.",
+      "evidence": [
+        "notes/proof-015-networks-hypergraphs.md"
+      ],
+      "updated_at_utc": "2026-11-06T18:10:23.883463+00:00"
+    },
+    {
+      "id": "V4A-P0404",
+      "location": "§7–125 answer530",
+      "claim": "Brinkmann graph cannot be three-colored",
+      "status": "partial",
+      "argument": "The printed claim is not independently proved here; no coloring census was run.",
+      "evidence": [
+        "notes/proof-016-colorings-cliques.md"
+      ],
+      "updated_at_utc": "2026-11-06T18:19:54.031060+00:00"
+    },
+    {
+      "id": "V4A-P0405",
+      "location": "§7–125 answer530",
+      "claim": "Minimal orders for girths four, five and greater than five",
+      "status": "partial",
+      "argument": "Chvatal minimality, the 21-vertex minimum and the 35-vertex lower bound remain external classification claims; author metadata only was quickly verified for Chvatal.",
+      "evidence": [
+        "notes/proof-016-colorings-cliques.md"
+      ],
+      "updated_at_utc": "2026-11-06T18:19:54.031060+00:00"
+    },
+    {
+      "id": "V4A-P0406",
+      "location": "§7–125 answer530",
+      "claim": "Unbounded-girth research question",
+      "status": "partial",
+      "argument": "The historical open problem and present research status were not reconstructed; no new search was attempted.",
+      "evidence": [
+        "notes/proof-016-colorings-cliques.md"
+      ],
+      "updated_at_utc": "2026-11-06T18:19:54.031060+00:00"
+    },
+    {
+      "id": "V4A-P0416",
+      "location": "§7–127(a) answer530",
+      "claim": "Finck equality classification",
+      "status": "external_input",
+      "argument": "The full external classification is not reconstructed and is not needed for the requested example or inequality.",
+      "evidence": [
+        "notes/proof-016-colorings-cliques.md"
+      ],
+      "updated_at_utc": "2026-11-06T18:19:54.031060+00:00"
+    },
+    {
+      "id": "V4A-P0421",
+      "location": "§7–129 answer530",
+      "claim": "Complete classification and maximality of all queen cliques",
+      "status": "partial",
+      "argument": "The complete geometric classification and every boundary maximality argument have not been closed; the arithmetic alone is not a census certificate.",
+      "evidence": [
+        "notes/proof-016-colorings-cliques.md"
+      ],
+      "updated_at_utc": "2026-11-06T18:19:54.031060+00:00"
+    },
+    {
+      "id": "V4A-P0442",
+      "location": "§7–133(m) remark",
+      "claim": "Crossing number lower bound twelve",
+      "status": "external_input",
+      "argument": "The cited Chimani result is not independently reproduced; the older F0 correction is acknowledged.",
+      "evidence": [
+        "notes/proof-017-musical-cayley.md"
+      ],
+      "updated_at_utc": "2026-11-06T18:30:47.057382+00:00"
+    },
+    {
+      "id": "V4A-P0447",
+      "location": "§7–133 historical remark",
+      "claim": "Musical interpretation and Wilson–Watkins page",
+      "status": "partial",
+      "argument": "The interpretation and cited page were not independently verified.",
+      "evidence": [
+        "notes/proof-017-musical-cayley.md"
+      ],
+      "updated_at_utc": "2026-11-06T18:30:47.057382+00:00"
+    },
+    {
+      "id": "V4A-P0455",
+      "location": "§7–136 answer531",
+      "claim": "Groups of order ten",
+      "status": "external_input",
+      "argument": "Cauchy and Sylow are explicit elementary-algebra inputs; their consequences give C10 or D5 via the conjugation action on the normal subgroup of order five.",
+      "evidence": [
+        "notes/proof-017-musical-cayley.md"
+      ],
+      "updated_at_utc": "2026-11-06T18:30:47.057382+00:00"
+    },
+    {
+      "id": "V4A-P0458",
+      "location": "§7–136 remark",
+      "claim": "raman graphs and historical reference",
+      "status": "partial",
+      "argument": "The SGB Cayley claim and Holton–Sheehan reference were not independently reconstructed.",
+      "evidence": [
+        "notes/proof-017-musical-cayley.md"
+      ],
+      "updated_at_utc": "2026-11-06T18:30:47.057382+00:00"
+    },
+    {
+      "id": "V4A-P0478",
+      "location": "§7–140(b) answer533",
+      "claim": "Order-two qualification",
+      "status": "partial",
+      "argument": "The answer itself states that n=2 must be excluded; this acknowledged edge case is not a new finding.",
+      "evidence": [
+        "notes/proof-018-tori-counts-majority.md"
+      ],
+      "updated_at_utc": "2026-11-06T18:30:47.057382+00:00"
+    },
+    {
+      "id": "V4A-P0480",
+      "location": "§7–140 remark",
+      "claim": "Asymptotic variance classes",
+      "status": "external_input",
+      "argument": "The cited external variance classification is not reconstructed and is not used to prove exercise 142.",
+      "evidence": [
+        "notes/proof-018-tori-counts-majority.md"
+      ],
+      "updated_at_utc": "2026-11-06T18:30:47.057382+00:00"
+    },
+    {
+      "id": "V4A-P0484",
+      "location": "§7–141 answer533",
+      "claim": "Graph and proportional-graph census counts",
+      "status": "partial",
+      "argument": "N and N1 for each degree sequence are not independently enumerated; no new graph census was run.",
+      "evidence": [
+        "notes/proof-018-tori-counts-majority.md"
+      ],
+      "updated_at_utc": "2026-11-06T18:30:47.057382+00:00"
+    },
+    {
+      "id": "V4A-P0485",
+      "location": "§7–141 answer533",
+      "claim": "Maximally symmetric example diagrams",
+      "status": "partial",
+      "argument": "The four additional diagrams and their maximum-symmetry claims are not fully certified here.",
+      "evidence": [
+        "notes/proof-018-tori-counts-majority.md"
+      ],
+      "updated_at_utc": "2026-11-06T18:30:47.057382+00:00"
+    },
+    {
+      "id": "V4A-P0496",
+      "location": "§7–8 answer515/file532",
+      "claim": "Mechanical planar Langford puzzle and supplementary model",
+      "status": "partial",
+      "argument": "The existing n7/n8 census does not establish the physical-piece dimensions, equivalence of the mechanical puzzle, cited n12 solution, or the additional nonprimary-item exact-cover model. These additions are now individually recorded and remain unproved.",
+      "evidence": [
+        "notes/intro-inventory-2026-11-06.md",
+        "notes/proof-003-latin-and-remaining-langford.md"
+      ],
+      "updated_at_utc": "2026-11-06T19:28:42.032360+00:00"
+    },
+    {
+      "id": "V4A-P0497",
+      "location": "§7–14 answer516/file533",
+      "claim": "Digit provenance of four Latin squares and empirical mate frequency",
+      "status": "partial",
+      "argument": "The proposed generation from decimal digits of pi,e,gamma,phi and the roughly-half empirical frequency were not reproduced. They are distinct from the already partial mate counts.",
+      "evidence": [
+        "notes/intro-inventory-2026-11-06.md",
+        "notes/proof-003-latin-and-remaining-langford.md"
+      ],
+      "updated_at_utc": "2026-11-06T19:28:42.032360+00:00"
+    },
+    {
+      "id": "V4A-P0498",
+      "location": "§7–15 answers516–517/files533–534",
+      "claim": "Nonorthogonality among all mates and four common transversals",
+      "status": "partial",
+      "argument": "No proof/certificate for the pairwise nonorthogonality of all 12265168 mates or the historical four-common-transversal pair has been checked. The explicitly printed transpose pair and its five symmetric transversals retain their separate proofs P0058/P0059.",
+      "evidence": [
+        "notes/intro-inventory-2026-11-06.md",
+        "notes/proof-003-latin-and-remaining-langford.md"
+      ],
+      "updated_at_utc": "2026-11-06T19:28:42.032360+00:00"
+    },
+    {
+      "id": "V4A-P0503",
+      "location": "External input for P0131 at §7 p15",
+      "claim": "Kuratowski subdivision theorem",
+      "status": "external_input",
+      "argument": "Use the standard finite-graph theorem: a nonplanar graph contains a subdivision of K5 or K3,3. Primary publisher metadata verified; direct original PDF returned 403. Its topological proof is an explicit external input, not reconstructed; its application to all cubic graphs of order below ten is fully proved in proof-021.",
+      "evidence": [
+        "notes/proof-021-small-cubic-graphs.md"
+      ],
+      "updated_at_utc": "2026-11-06T19:46:04.508942+00:00"
+    },
+    {
+      "id": "V4A-P0526",
+      "location": "§7.1.1 p51, reference to §7.1.2–77",
+      "claim": "Parity requires at least 4(n−1) AND/OR/NOT steps",
+      "status": "partial",
+      "argument": "Only the matching upper construction follows from the displayed identities. The lower bound, exact step model and possible sharing await the referenced exercise and answer; n=1 gives zero steps.",
+      "evidence": [
+        "notes/proof-028-boolean-bases-normal-forms.md"
+      ],
+      "updated_at_utc": "2026-11-06T20:21:18.814799+00:00"
+    },
+    {
+      "id": "V4A-P0580",
+      "location": "§7.1.1–12(b), answer536 coefficient bound",
+      "claim": "Sharp coefficient bound with an explicit nullary-domain limit",
+      "status": "partial",
+      "argument": "For nonempty U of size k, half of the 2^k signs are positive and half negative, so |a_U|≤2^(k−1). Together with |a_empty|≤1 this proves the printed maximum for n≥1. If the wording includes n=0, the constant 1 has coefficient 1 rather than at most 1/2. The positive-arity proof is complete; the literal nullary scope remains partial without a finding card.",
+      "evidence": [
+        "notes/proof-033-integer-multilinear-probability.md",
+        "images/file097.png",
+        "images/proof-file552.png",
+        "images/proof-file553.png"
+      ],
+      "updated_at_utc": "2026-11-06T20:46:57.253393+00:00"
+    },
+    {
+      "id": "V4A-P0614",
+      "location": "§7.1.1, p55",
+      "claim": "SAT NP-completeness as an explicit external input",
+      "status": "external_input",
+      "argument": "Cook's official Clay problem description, pp4–5, supplies the exact formula-SAT and reduction statement. Its complete computation-simulation proof is not reconstructed.",
+      "evidence": [
+        "notes/proof-035-prime-forms-monotone.md",
+        "sources/cook-clay-pvsnp.pdf",
+        "sources/cook-clay-pvsnp.pdf.json"
+      ],
+      "updated_at_utc": "2026-11-06T21:05:09.775299+00:00"
+    },
+    {
+      "id": "V4A-P0616",
+      "location": "§7.1.1, p55",
+      "claim": "Exact input representation of minimum-DNF hardness",
+      "status": "partial",
+      "argument": "For arbitrary formula input, a polynomial minimum-DNF algorithm would decide SAT by inspecting its output; the reduction and output-size premise are explicit. This does not establish the same hardness for truth-table or DNF input, which the local text does not fix.",
+      "evidence": [
+        "notes/proof-035-prime-forms-monotone.md"
+      ],
+      "updated_at_utc": "2026-11-06T21:05:09.775299+00:00"
+    },
+    {
+      "id": "V4A-P0617",
+      "location": "§7.1.1, p54; exercise 30 reference",
+      "claim": "Complete prime-generation algorithm",
+      "status": "partial",
+      "argument": "The general generator now has full correctness, completeness, tag and stack proofs P0654–P0659. The remaining limit is the runtime interpretation documented as candidate C0004/P0660; the corrected control-flow version has a separate bound P0661.",
+      "evidence": [
+        "notes/proof-040-prime-cube-generator.md",
+        "notes/C0004-prime-generator-runtime.md"
+      ],
+      "updated_at_utc": "2026-11-06T21:37:10.854624+00:00"
+    },
+    {
+      "id": "V4A-P0646",
+      "location": "§7.1.1–27, answer538",
+      "claim": "Refined Fredman–Khachiyan bound as a precise external input",
+      "status": "external_input",
+      "argument": "The original paper, p620 Theorem1, gives N raised to 4 chi(N)+O(1), chi^chi=N. The domain and encoding assumptions on p619 were read and the asymptotic relation checked. The refined algorithm itself is not independently reconstructed.",
+      "evidence": [
+        "notes/proof-038-monotone-duality-algorithm.md",
+        "images/file098.png",
+        "images/file099.png",
+        "images/proof-file554.png",
+        "images/proof-file555.png",
+        "sources/fredman-khachiyan-1996.pdf",
+        "sources/fredman-khachiyan-1996.pdf.json",
+        "images/proof-fk-theorem1.png"
+      ],
+      "updated_at_utc": "2026-11-06T21:23:05.027944+00:00"
+    },
+    {
+      "id": "V4A-P0649",
+      "location": "§7.1.1–28, answer538",
+      "claim": "Exact positive-implicant correspondence and the unqualified wording",
+      "status": "partial",
+      "argument": "Selected prime covers correspond bijectively to positive implicants of g, and irredundant covers to prime implicants. The answer says every implicant without a positive restriction; two explicit consistent terms with and without NOT y3 have the same selected cover. The implicit domain remains qualified; no finding card is created.",
+      "evidence": [
+        "notes/proof-039-cover-function-buddy-scan.md",
+        "images/file099.png",
+        "images/proof-file555.png"
+      ],
+      "updated_at_utc": "2026-11-06T21:37:10.854624+00:00"
+    },
+    {
+      "id": "V4A-P0660",
+      "location": "§7.1.1–30, P2/runtime answer539",
+      "claim": "Repeated least-bit search versus the corrected time bound",
+      "status": "partial",
+      "argument": "For V={0,2^(n−1)}, m=2 and C=3. Every attempted nonzero mask list is empty, including the emitted final edge, so the literal P2 loop performs exactly n(n−1)/2 initial j increments. This contradicts O(mn+nC) for that loop interpretation; a hidden constant-time bit-scan interpretation remains the precise candidate limit.",
+      "evidence": [
+        "notes/proof-040-prime-cube-generator.md",
+        "images/file099.png",
+        "images/proof-file555.png",
+        "images/proof-file556.png",
+        "notes/C0004-prime-generator-runtime.md",
+        "images/proof-errata-pre-p21.png"
+      ],
+      "updated_at_utc": "2026-11-06T21:37:10.854624+00:00"
+    },
+    {
+      "id": "V4A-P0662",
+      "location": "§7.1.1–30, final paragraph answer539",
+      "claim": "Average-size and large-output addenda",
+      "status": "partial",
+      "argument": "Exercise32 now proves exponential output and exercise34 now proves the exact ratio of expectations, including all asymptotic estimates. Only the separate large-output reference to exercise116 remains unproved here. Runtime interpretation stays explicitly in C0004; average ratio is not expectation of a ratio.",
+      "evidence": [
+        "notes/proof-040-prime-cube-generator.md",
+        "images/file099.png",
+        "images/proof-file555.png",
+        "images/proof-file556.png",
+        "notes/proof-042-generalized-consensus-counts.md",
+        "notes/proof-043-average-prime-cube-counts.md"
+      ],
+      "updated_at_utc": "2026-11-06T21:59:23.910565+00:00"
+    },
+    {
+      "id": "V4A-P0713",
+      "location": "§7.1.1–40, D and graph-domain boundary",
+      "claim": "Hamiltonian equivalence and the empty-path convention",
+      "status": "partial",
+      "argument": "For every nonempty graph, D says exactly that no nonedge is consecutive in the total order, proving both Hamiltonian-path directions. The one- and two-vertex cases are explicit. For the empty graph the formula is true; whether the empty ordering is called a Hamiltonian path remains an explicit convention limit, without a finding card.",
+      "evidence": [
+        "notes/proof-046-sat-encodings.md",
+        "images/proof-file102.png",
+        "images/proof-file559.png",
+        "images/file074.png"
+      ],
+      "updated_at_utc": "2026-11-06T22:19:28.031171+00:00"
+    },
+    {
+      "id": "V4A-P0747",
+      "location": "§7.1.1–49, extra renaming claim in answer543",
+      "claim": "Finding an XOR renaming remains an explicit proof gap",
+      "status": "partial",
+      "argument": "A specified renaming y can be checked in polynomial time by two implication tests and an XOR change of variables. Efficiently finding y is a separate mathematical assertion; the cited Kleine Buening–Lettmann section has not yet supplied a verified argument. No contradiction is claimed. The publisher confirms the cited 1994 Horn-Logik chapter, but its full text is subscription-only; the accessible preview does not provide the renaming-search theorem. The mathematical gap remains explicit.",
+      "evidence": [
+        "notes/proof-050-horn-implication-random-model.md",
+        "images/proof-file103.png",
+        "images/proof-file560.png",
+        "notes/proof-051-horn-games.md"
+      ],
+      "updated_at_utc": "2026-11-06T22:49:20.354703+00:00"
+    },
+    {
+      "id": "V4A-P0757",
+      "location": "§7.1.1–51, p86/answer543",
+      "claim": "Chess applicability is proved; the physical-size comparison is not",
+      "status": "partial",
+      "argument": "The finite-state algorithm applies when the state contains all rule-relevant information, including history if needed. The text gives no numerical model or unit for its comparison with the physical universe, which remains unverified; no new finding is inferred.",
+      "evidence": [
+        "notes/proof-051-horn-games.md",
+        "images/proof-file103.png",
+        "images/proof-file560.png"
+      ],
+      "reused_repo_evidence": [
+        "workstreams/vol1/parallel/linked-allocation/notes/game-analysis.md"
+      ],
+      "updated_at_utc": "2026-11-06T22:49:20.354703+00:00"
+    },
+    {
+      "id": "V4A-P0768",
+      "location": "§7.1.1–52, p86/answer544",
+      "claim": "Six game cells retain precisely stated gaps",
+      "status": "partial",
+      "argument": "All rows n=2 through 7 and cells a,b at n=8 are proved. The player-0 start is also proved for c,d at n=8. The remaining gaps are the player-1 start for those two cells, all four cells at n=9 for both identities, and the dependent comparison. See P0794 for exact limits; no census was run.",
+      "evidence": [
+        "notes/proof-052-boolean-games-small-cases.md",
+        "images/proof-file103.png",
+        "images/proof-file561.png",
+        "notes/proof-053-boolean-games-five.md",
+        "notes/proof-054-boolean-games-six.md",
+        "notes/proof-055-boolean-games-seven.md",
+        "notes/proof-056-boolean-games-eight-partial.md"
+      ],
+      "updated_at_utc": "2026-11-06T23:22:23.224633+00:00"
+    },
+    {
+      "id": "V4A-P0794",
+      "location": "§7.1.1–52, n=8/9, p86/answer544",
+      "claim": "Remaining halves at n=8 and all four n=9 games",
+      "status": "partial",
+      "argument": "At n=8, the player-1 start is still unproved for both games c and d. All four n=9 cells and the dependent c-versus-d comparison remain open. The same prefix alone cannot certify these outcomes; the no-adjacent-ones predicate lacks the needed complement symmetry.",
+      "evidence": [
+        "notes/proof-056-boolean-games-eight-partial.md",
+        "images/proof-file103.png",
+        "images/proof-file561.png"
+      ],
+      "updated_at_utc": "2026-11-06T23:22:23.224633+00:00"
+    },
+    {
+      "id": "V4A-P0816",
+      "location": "§7.1.1–55, p87/answers544–545",
+      "claim": "The unit of the printed length less than 3m bound",
+      "status": "partial",
+      "argument": "The factor3 is proved for output binary-clause count relative to input literal count. The five-literal example has nine clauses and eighteen literals, so the same bound does not hold for a common literal-occurrence measure. The intended common length convention is unresolved; O(m) correctness is proved and no error card is asserted.",
+      "evidence": [
+        "notes/proof-058-renamed-horn.md",
+        "images/file104.png",
+        "images/proof-file561.png",
+        "images/proof-file562.png",
+        "images/proof-errata-pre-p22.png"
+      ],
+      "updated_at_utc": "2026-11-06T23:38:02.645267+00:00"
+    },
+    {
+      "id": "V4A-P0840",
+      "location": "§7.1.1–56/57, p87/answer545",
+      "claim": "Literal scope of the original universal-variable wording",
+      "status": "partial",
+      "argument": "The correct algorithm must mark both polarities and allow a forbidden path to the complement of the same variable. Reading the original criterion as positive vertices only misses the explicit false formula for-all x,y (x OR y). The later proof uses universal literal; the intended mathematics is proved, but this wording interpretation remains partial without an error card.",
+      "evidence": [
+        "notes/proof-060-quantified-krom.md",
+        "images/proof-file104.png",
+        "images/proof-file562.png"
+      ],
+      "updated_at_utc": "2026-11-06T23:50:23.494641+00:00"
+    },
+    {
+      "id": "V4A-P0863",
+      "location": "§7.1.1–64(b),65,66, p87–88/answer546",
+      "claim": "Common nullary domain of extension, maximal intersection and nondominated coteries",
+      "status": "partial",
+      "argument": "All three characterizations are proved for n>=1. At n=0 the empty partial table has no self-dual extension, while the empty family is maximal intersecting and nondominated without a self-dual indicator. The implicit positive-arity domain remains one precise partial limit, without a new error card.",
+      "evidence": [
+        "notes/proof-062-median-exercises.md",
+        "images/proof-file104.png",
+        "images/proof-file563.png",
+        "notes/proof-065-intersecting-coteries.md",
+        "images/proof-file105.png"
+      ],
+      "updated_at_utc": "2026-11-07T00:25:46.950132+00:00"
+    },
+    {
+      "id": "V4A-P0886",
+      "location": "§7.1.1 p66/Fig.7; exercise73, p89/answer547; also p72 reduced-set zero-coordinate empty case; inherited possible empty-label scope of Theorem F on pp73–74",
+      "claim": "Empty-algebra connectedness convention",
+      "status": "partial",
+      "argument": "Every nonempty finite case is fully proved. For an empty underlying set, the axioms are vacuous while the p16 connectedness definition uses the maximum of an empty distance set. That convention remains partial without an error card. The same unresolved empty-graph convention applies on p72 to the literal reduced-set case X empty with zero coordinates. All nonempty cases, including the zero-coordinate singleton, are proved in P0995/P0996; this is not a separate finding. The complete F construction and retract characterization are now proved for every nonempty case, including the zero-coordinate singleton. Their possible empty-label scope inherits this same convention only; no new error is claimed.",
+      "evidence": [
+        "notes/proof-064-median-graph-intervals.md",
+        "images/proof-file083.png",
+        "images/file106.png",
+        "images/proof-median-answer-1.png",
+        "notes/proof-077-median-sets-krom.md",
+        "notes/proof-078-ci-networks-retractions.md"
+      ],
+      "updated_at_utc": "2026-11-07T01:49:20.352876+00:00"
+    },
+    {
+      "id": "V4A-P0908",
+      "location": "§7.1.1–68–70, p89/answer547",
+      "claim": "The remaining thirteen Y maxima and the census 258594",
+      "status": "partial",
+      "argument": "The printed values for orders 3 through 15 are recorded separately from the witness. Their global upper bounds and the count 258594 have not been proved or enumerated; order 15 has only the explicit lower bound 59.",
+      "evidence": [
+        "notes/proof-067-y-representation-flip.md",
+        "images/file106.png",
+        "images/proof-median-answer-1.png"
+      ],
+      "updated_at_utc": "2026-11-07T00:39:37.702550+00:00"
+    },
+    {
+      "id": "V4A-P0909",
+      "location": "§7.1.1–68–70, p89/answer547",
+      "claim": "The qualitative small-ZDD claim for Y prime families",
+      "status": "partial",
+      "argument": "Deferred to the precise section 7.1.4 representation audit. Condensation gives a circuit, not a proof that the ZDD is small; no unstated node count is inferred.",
+      "evidence": [
+        "notes/proof-067-y-representation-flip.md",
+        "images/file106.png",
+        "images/proof-median-answer-1.png"
+      ],
+      "updated_at_utc": "2026-11-07T00:39:37.702550+00:00"
+    },
+    {
+      "id": "V4A-P0912",
+      "location": "§7.1.1–68–70, p89/answer547",
+      "claim": "The single-prime projection branch of the prescribed triangle order",
+      "status": "partial",
+      "argument": "The construction is fully proved whenever its order m-1 is nonnegative. A sole prime makes f a projection and m=0; a one-point Y represents it, but the printed order -1 does not supply that construction. This narrow scope limit has no separate finding card.",
+      "evidence": [
+        "notes/proof-067-y-representation-flip.md",
+        "images/file106.png",
+        "images/proof-median-answer-1.png"
+      ],
+      "updated_at_utc": "2026-11-07T00:39:37.702550+00:00"
+    },
+    {
+      "id": "V4A-P1025",
+      "location": "§7.1.1–84, p91/file108; complete table and addenda p550/file567",
+      "claim": "The exact external asymptotic coefficient in the answer 84 addendum",
+      "status": "partial",
+      "argument": "Primary metadata and the location of Erdős–Hindman Corollary 3.5 were verified, but its coefficient was damaged in extracted text and original typography was not readable through the available fetch. The application bijection is proved; the precise asymptotic statement is not closed.",
+      "evidence": [
+        "notes/proof-079-five-variable-median-algebra.md",
+        "images/file108.png",
+        "images/proof-file567.png",
+        "images/proof84-table-detail.png",
+        "scripts/median5_structural.py",
+        "notes/proof-067-y-representation-flip.md",
+        "notes/proof-077-median-sets-krom.md",
+        "sources/median5-bibliography.json",
+        "sources/kleitman1966-families.pdf",
+        "images/kleitman1966-lemma.png"
+      ],
+      "updated_at_utc": "2026-11-07T01:56:54.629774+00:00"
+    },
+    {
+      "id": "V4A-P1026",
+      "location": "§7.1.1–84, p91/file108; complete table and addenda p550/file567",
+      "claim": "The three six-variable census claims in the answer 84 addendum",
+      "status": "partial",
+      "argument": "The counts of 2646 functions, 30 types and 21 types admitting a simple odd median were not recomputed or certified from the unavailable full Meyerowitz paper. The displayed nonthreshold witness is separately proved.",
+      "evidence": [
+        "notes/proof-079-five-variable-median-algebra.md",
+        "images/file108.png",
+        "images/proof-file567.png",
+        "images/proof84-table-detail.png",
+        "scripts/median5_structural.py",
+        "notes/proof-067-y-representation-flip.md",
+        "notes/proof-077-median-sets-krom.md",
+        "sources/median5-bibliography.json",
+        "sources/kleitman1966-families.pdf",
+        "images/kleitman1966-lemma.png"
+      ],
+      "updated_at_utc": "2026-11-07T01:56:54.629774+00:00"
+    },
+    {
+      "id": "V4A-P1045",
+      "location": "§7.1.1–90/91/92/95, p91/file108; answers p551/file568",
+      "claim": "The logarithmic-depth retraction research question 91",
+      "status": "partial",
+      "argument": "The general question, its tree/lattice cases and possible need for inverters at the requested depth are not resolved. The known linear upper bound is proved, but a quick primary search did not verify the present research status.",
+      "evidence": [
+        "notes/proof-082-parity-network-image-counterexamples.md",
+        "images/file108.png",
+        "images/proof-file568.png",
+        "images/proof90-pair-detail.png",
+        "images/proof95-networks-detail.png",
+        "images/proof95-first-network-detail.png",
+        "notes/proof-078-ci-networks-retractions.md",
+        "notes/proof-081-tree-network-parallel-delay.md",
+        "sources/ci-parity-bibliography.json",
+        "images/vol3-network-references-file253.png"
+      ],
+      "updated_at_utc": "2026-11-07T02:15:44.126337+00:00"
+    },
+    {
+      "id": "V4A-P1046",
+      "location": "§7.1.1–90/91/92/95, p91/file108; answers p551/file568",
+      "claim": "The module-count research question 92",
+      "status": "partial",
+      "argument": "Whether CI sorting networks can use fewer total modules than pure sorting networks is not resolved. No exhaustive optimal-network search was run and no assertion of a present open status is made.",
+      "evidence": [
+        "notes/proof-082-parity-network-image-counterexamples.md",
+        "images/file108.png",
+        "images/proof-file568.png",
+        "images/proof90-pair-detail.png",
+        "images/proof95-networks-detail.png",
+        "images/proof95-first-network-detail.png",
+        "notes/proof-078-ci-networks-retractions.md",
+        "notes/proof-081-tree-network-parallel-delay.md",
+        "sources/ci-parity-bibliography.json",
+        "images/vol3-network-references-file253.png"
+      ],
+      "updated_at_utc": "2026-11-07T02:15:44.126337+00:00"
+    },
+    {
+      "id": "V4A-P1114",
+      "location": "§7.1.1–104 p92/file109; answer p553/file570",
+      "claim": "The printed census total 175428 in the answer-104(c) addition",
+      "status": "partial",
+      "argument": "Primary domain located; see the exact normalization and remaining interpretation limit in threshold-census-source-limits.md. No census reproduced.",
+      "evidence": [
+        "notes/proof-088-threshold-k-binary-optima.md",
+        "notes/proof-089-fractional-threshold-optimum.md",
+        "images/file109.png",
+        "images/proof-file570.png",
+        "images/proof104-exercise-detail.png",
+        "notes/proof-087-selfdualization-integer-optimization.md",
+        "notes/proof-086-fibonacci-thresholds.md",
+        "notes/threshold-census-source-limits.md",
+        "sources/muroga-tsuboi-baugh1970.pdf",
+        "sources/muroga-tsuboi-baugh1970-metadata.json",
+        "images/muroga1970-p820.png",
+        "images/muroga1970-p821.png",
+        "images/muroga1970-p822.png",
+        "notes/proof-091-second-fractional-threshold.md",
+        "images/file095.png",
+        "images/file096.png"
+      ],
+      "updated_at_utc": "2026-11-07T03:29:43.786907+00:00"
+    },
+    {
+      "id": "V4A-P1115",
+      "location": "§7.1.1–104 p92/file109; answer p553/file570",
+      "claim": "Exactly two normalized cases with a nonintegral LP minimum",
+      "status": "partial",
+      "argument": "Primary extremal-solution scope located; global completeness remains unreproduced. Both concrete examples already have independent proofs.",
+      "evidence": [
+        "notes/proof-088-threshold-k-binary-optima.md",
+        "notes/proof-089-fractional-threshold-optimum.md",
+        "images/file109.png",
+        "images/proof-file570.png",
+        "images/proof104-exercise-detail.png",
+        "notes/proof-087-selfdualization-integer-optimization.md",
+        "notes/proof-086-fibonacci-thresholds.md",
+        "notes/threshold-census-source-limits.md",
+        "sources/muroga-tsuboi-baugh1970.pdf",
+        "sources/muroga-tsuboi-baugh1970-metadata.json",
+        "images/muroga1970-p820.png",
+        "images/muroga1970-p821.png",
+        "images/muroga1970-p822.png",
+        "notes/proof-091-second-fractional-threshold.md",
+        "images/file095.png",
+        "images/file096.png"
+      ],
+      "updated_at_utc": "2026-11-07T03:29:43.786907+00:00"
+    },
+    {
+      "id": "V4A-P1117",
+      "location": "§7.1.1–104 p92/file109; answer p553/file570",
+      "claim": "The claimed largest first minimum weight",
+      "status": "partial",
+      "argument": "Primary extremal attribution located; the global bound remains unreproduced.",
+      "evidence": [
+        "notes/proof-088-threshold-k-binary-optima.md",
+        "notes/proof-089-fractional-threshold-optimum.md",
+        "images/file109.png",
+        "images/proof-file570.png",
+        "images/proof104-exercise-detail.png",
+        "notes/proof-087-selfdualization-integer-optimization.md",
+        "notes/proof-086-fibonacci-thresholds.md",
+        "notes/threshold-census-source-limits.md",
+        "sources/muroga-tsuboi-baugh1970.pdf",
+        "sources/muroga-tsuboi-baugh1970-metadata.json",
+        "images/muroga1970-p820.png",
+        "images/muroga1970-p821.png",
+        "images/muroga1970-p822.png",
+        "notes/proof-091-second-fractional-threshold.md",
+        "images/file095.png",
+        "images/file096.png"
+      ],
+      "updated_at_utc": "2026-11-07T03:29:43.786907+00:00"
+    },
+    {
+      "id": "V4A-P1118",
+      "location": "§7.1.1–104 p92/file109; answer p553/file570",
+      "claim": "The claimed largest total minimum weight",
+      "status": "partial",
+      "argument": "Primary extremal attribution located; the global bound remains unreproduced.",
+      "evidence": [
+        "notes/proof-088-threshold-k-binary-optima.md",
+        "notes/proof-089-fractional-threshold-optimum.md",
+        "images/file109.png",
+        "images/proof-file570.png",
+        "images/proof104-exercise-detail.png",
+        "notes/proof-087-selfdualization-integer-optimization.md",
+        "notes/proof-086-fibonacci-thresholds.md",
+        "notes/threshold-census-source-limits.md",
+        "sources/muroga-tsuboi-baugh1970.pdf",
+        "sources/muroga-tsuboi-baugh1970-metadata.json",
+        "images/muroga1970-p820.png",
+        "images/muroga1970-p821.png",
+        "images/muroga1970-p822.png",
+        "notes/proof-091-second-fractional-threshold.md",
+        "images/file095.png",
+        "images/file096.png"
+      ],
+      "updated_at_utc": "2026-11-07T03:29:43.786907+00:00"
+    },
+    {
+      "id": "V4A-P1119",
+      "location": "§7.1.1–104 p92/file109; answer p553/file570",
+      "claim": "Uniqueness of the largest-total case",
+      "status": "partial",
+      "argument": "Primary wording does not independently settle uniqueness among global maximizers; see source-limits note.",
+      "evidence": [
+        "notes/proof-088-threshold-k-binary-optima.md",
+        "notes/proof-089-fractional-threshold-optimum.md",
+        "images/file109.png",
+        "images/proof-file570.png",
+        "images/proof104-exercise-detail.png",
+        "notes/proof-087-selfdualization-integer-optimization.md",
+        "notes/proof-086-fibonacci-thresholds.md",
+        "notes/threshold-census-source-limits.md",
+        "sources/muroga-tsuboi-baugh1970.pdf",
+        "sources/muroga-tsuboi-baugh1970-metadata.json",
+        "images/muroga1970-p820.png",
+        "images/muroga1970-p821.png",
+        "images/muroga1970-p822.png",
+        "notes/proof-091-second-fractional-threshold.md",
+        "images/file095.png",
+        "images/file096.png"
+      ],
+      "updated_at_utc": "2026-11-07T03:29:43.786907+00:00"
+    },
+    {
+      "id": "V4A-P1120",
+      "location": "§7.1.1–104 p92/file109; answer p553/file570",
+      "claim": "The claimed largest last minimum weight",
+      "status": "partial",
+      "argument": "Primary extremal attribution located; the global bound remains unreproduced.",
+      "evidence": [
+        "notes/proof-088-threshold-k-binary-optima.md",
+        "notes/proof-089-fractional-threshold-optimum.md",
+        "images/file109.png",
+        "images/proof-file570.png",
+        "images/proof104-exercise-detail.png",
+        "notes/proof-087-selfdualization-integer-optimization.md",
+        "notes/proof-086-fibonacci-thresholds.md",
+        "notes/threshold-census-source-limits.md",
+        "sources/muroga-tsuboi-baugh1970.pdf",
+        "sources/muroga-tsuboi-baugh1970-metadata.json",
+        "images/muroga1970-p820.png",
+        "images/muroga1970-p821.png",
+        "images/muroga1970-p822.png",
+        "notes/proof-091-second-fractional-threshold.md",
+        "images/file095.png",
+        "images/file096.png"
+      ],
+      "updated_at_utc": "2026-11-07T03:29:43.786907+00:00"
+    }
+  ],
+  "additional_exceptions": [
+    "Tables3–5 and exercises118/123/124: no new complete census.",
+    "Figure9: functional expressions checked, global optimality search not rerun.",
+    "7.1.2–77: complete Redkin gate-elimination lower-bound proof not independently certified; P0526 retained."
+  ]
+}

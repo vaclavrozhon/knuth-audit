@@ -1,0 +1,501 @@
+{
+  "scope": "Six mock short writes, four controls and one actual stderr/dev-full error for the common original module and audit-only correction. No flush-failure or broad I/O conformance claim.",
+  "common_original_sha256": "d6732108356986956f4e4a5a883d210a1e4e69216e1f8d614c456fd3126496e5",
+  "original_versions": [
+    "20131017",
+    "20250620"
+  ],
+  "cases": [
+    {
+      "case": "one-byte-write-fails",
+      "version": "original-2013-and-2025-identical",
+      "requested_bytes": 1,
+      "mode_code": 2,
+      "host": "mock",
+      "host_short_results": [
+        0
+      ],
+      "actual_bits": "0000000000000000",
+      "expected_bits": "ffffffffffffffff",
+      "host_successful_bytes": 0,
+      "host_calls": 1,
+      "host_error_flag": null,
+      "block_trace": [
+        {
+          "requested": 1,
+          "written": 0
+        }
+      ],
+      "agrees": false
+    },
+    {
+      "case": "short-first-small-block",
+      "version": "original-2013-and-2025-identical",
+      "requested_bytes": 13,
+      "mode_code": 2,
+      "host": "mock",
+      "host_short_results": [
+        5
+      ],
+      "actual_bits": "0000000000000000",
+      "expected_bits": "fffffffffffffff8",
+      "host_successful_bytes": 5,
+      "host_calls": 1,
+      "host_error_flag": null,
+      "block_trace": [
+        {
+          "requested": 13,
+          "written": 5
+        }
+      ],
+      "agrees": false
+    },
+    {
+      "case": "short-full-block",
+      "version": "original-2013-and-2025-identical",
+      "requested_bytes": 256,
+      "mode_code": 2,
+      "host": "mock",
+      "host_short_results": [
+        255
+      ],
+      "actual_bits": "0000000000000000",
+      "expected_bits": "ffffffffffffffff",
+      "host_successful_bytes": 255,
+      "host_calls": 1,
+      "host_error_flag": null,
+      "block_trace": [
+        {
+          "requested": 256,
+          "written": 255
+        }
+      ],
+      "agrees": false
+    },
+    {
+      "case": "failure-final-one-byte-block",
+      "version": "original-2013-and-2025-identical",
+      "requested_bytes": 257,
+      "mode_code": 2,
+      "host": "mock",
+      "host_short_results": [
+        256,
+        0
+      ],
+      "actual_bits": "0000000000000000",
+      "expected_bits": "ffffffffffffffff",
+      "host_successful_bytes": 256,
+      "host_calls": 2,
+      "host_error_flag": null,
+      "block_trace": [
+        {
+          "requested": 256,
+          "written": 256
+        },
+        {
+          "requested": 1,
+          "written": 0
+        }
+      ],
+      "agrees": false
+    },
+    {
+      "case": "short-intermediate-block",
+      "version": "original-2013-and-2025-identical",
+      "requested_bytes": 600,
+      "mode_code": 2,
+      "host": "mock",
+      "host_short_results": [
+        256,
+        23
+      ],
+      "actual_bits": "ffffffffffffffa8",
+      "expected_bits": "fffffffffffffebf",
+      "host_successful_bytes": 279,
+      "host_calls": 2,
+      "host_error_flag": null,
+      "block_trace": [
+        {
+          "requested": 256,
+          "written": 256
+        },
+        {
+          "requested": 256,
+          "written": 23
+        }
+      ],
+      "agrees": false
+    },
+    {
+      "case": "short-first-large-request",
+      "version": "original-2013-and-2025-identical",
+      "requested_bytes": 600,
+      "mode_code": 2,
+      "host": "mock",
+      "host_short_results": [
+        128
+      ],
+      "actual_bits": "fffffffffffffea8",
+      "expected_bits": "fffffffffffffe28",
+      "host_successful_bytes": 128,
+      "host_calls": 1,
+      "host_error_flag": null,
+      "block_trace": [
+        {
+          "requested": 256,
+          "written": 128
+        }
+      ],
+      "agrees": false
+    },
+    {
+      "case": "one-byte-success",
+      "version": "original-2013-and-2025-identical",
+      "requested_bytes": 1,
+      "mode_code": 2,
+      "host": "mock",
+      "host_short_results": [],
+      "actual_bits": "0000000000000000",
+      "expected_bits": "0000000000000000",
+      "host_successful_bytes": 1,
+      "host_calls": 1,
+      "host_error_flag": null,
+      "block_trace": [
+        {
+          "requested": 1,
+          "written": 1
+        }
+      ],
+      "agrees": true
+    },
+    {
+      "case": "three-block-success",
+      "version": "original-2013-and-2025-identical",
+      "requested_bytes": 600,
+      "mode_code": 2,
+      "host": "mock",
+      "host_short_results": [],
+      "actual_bits": "0000000000000000",
+      "expected_bits": "0000000000000000",
+      "host_successful_bytes": 600,
+      "host_calls": 3,
+      "host_error_flag": null,
+      "block_trace": [
+        {
+          "requested": 256,
+          "written": 256
+        },
+        {
+          "requested": 256,
+          "written": 256
+        },
+        {
+          "requested": 88,
+          "written": 88
+        }
+      ],
+      "agrees": true
+    },
+    {
+      "case": "zero-size-success",
+      "version": "original-2013-and-2025-identical",
+      "requested_bytes": 0,
+      "mode_code": 2,
+      "host": "mock",
+      "host_short_results": [],
+      "actual_bits": "0000000000000000",
+      "expected_bits": "0000000000000000",
+      "host_successful_bytes": 0,
+      "host_calls": 1,
+      "host_error_flag": null,
+      "block_trace": [
+        {
+          "requested": 0,
+          "written": 0
+        }
+      ],
+      "agrees": true
+    },
+    {
+      "case": "wrong-mode-rejects",
+      "version": "original-2013-and-2025-identical",
+      "requested_bytes": 7,
+      "mode_code": 1,
+      "host": "mock",
+      "host_short_results": [],
+      "actual_bits": "fffffffffffffff9",
+      "expected_bits": "fffffffffffffff9",
+      "host_successful_bytes": 0,
+      "host_calls": 0,
+      "host_error_flag": null,
+      "block_trace": [],
+      "agrees": true
+    },
+    {
+      "case": "real-stderr-dev-full",
+      "version": "original-2013-and-2025-identical",
+      "requested_bytes": 1,
+      "mode_code": 2,
+      "host": "real",
+      "host_short_results": [],
+      "actual_bits": "0000000000000000",
+      "expected_bits": "ffffffffffffffff",
+      "host_successful_bytes": 0,
+      "host_calls": 1,
+      "host_error_flag": true,
+      "block_trace": [
+        {
+          "requested": 1,
+          "written": 0
+        }
+      ],
+      "agrees": false
+    },
+    {
+      "case": "one-byte-write-fails",
+      "version": "audit-short-count",
+      "requested_bytes": 1,
+      "mode_code": 2,
+      "host": "mock",
+      "host_short_results": [
+        0
+      ],
+      "actual_bits": "ffffffffffffffff",
+      "expected_bits": "ffffffffffffffff",
+      "host_successful_bytes": 0,
+      "host_calls": 1,
+      "host_error_flag": null,
+      "block_trace": [
+        {
+          "requested": 1,
+          "written": 0
+        }
+      ],
+      "agrees": true
+    },
+    {
+      "case": "short-first-small-block",
+      "version": "audit-short-count",
+      "requested_bytes": 13,
+      "mode_code": 2,
+      "host": "mock",
+      "host_short_results": [
+        5
+      ],
+      "actual_bits": "fffffffffffffff8",
+      "expected_bits": "fffffffffffffff8",
+      "host_successful_bytes": 5,
+      "host_calls": 1,
+      "host_error_flag": null,
+      "block_trace": [
+        {
+          "requested": 13,
+          "written": 5
+        }
+      ],
+      "agrees": true
+    },
+    {
+      "case": "short-full-block",
+      "version": "audit-short-count",
+      "requested_bytes": 256,
+      "mode_code": 2,
+      "host": "mock",
+      "host_short_results": [
+        255
+      ],
+      "actual_bits": "ffffffffffffffff",
+      "expected_bits": "ffffffffffffffff",
+      "host_successful_bytes": 255,
+      "host_calls": 1,
+      "host_error_flag": null,
+      "block_trace": [
+        {
+          "requested": 256,
+          "written": 255
+        }
+      ],
+      "agrees": true
+    },
+    {
+      "case": "failure-final-one-byte-block",
+      "version": "audit-short-count",
+      "requested_bytes": 257,
+      "mode_code": 2,
+      "host": "mock",
+      "host_short_results": [
+        256,
+        0
+      ],
+      "actual_bits": "ffffffffffffffff",
+      "expected_bits": "ffffffffffffffff",
+      "host_successful_bytes": 256,
+      "host_calls": 2,
+      "host_error_flag": null,
+      "block_trace": [
+        {
+          "requested": 256,
+          "written": 256
+        },
+        {
+          "requested": 1,
+          "written": 0
+        }
+      ],
+      "agrees": true
+    },
+    {
+      "case": "short-intermediate-block",
+      "version": "audit-short-count",
+      "requested_bytes": 600,
+      "mode_code": 2,
+      "host": "mock",
+      "host_short_results": [
+        256,
+        23
+      ],
+      "actual_bits": "fffffffffffffebf",
+      "expected_bits": "fffffffffffffebf",
+      "host_successful_bytes": 279,
+      "host_calls": 2,
+      "host_error_flag": null,
+      "block_trace": [
+        {
+          "requested": 256,
+          "written": 256
+        },
+        {
+          "requested": 256,
+          "written": 23
+        }
+      ],
+      "agrees": true
+    },
+    {
+      "case": "short-first-large-request",
+      "version": "audit-short-count",
+      "requested_bytes": 600,
+      "mode_code": 2,
+      "host": "mock",
+      "host_short_results": [
+        128
+      ],
+      "actual_bits": "fffffffffffffe28",
+      "expected_bits": "fffffffffffffe28",
+      "host_successful_bytes": 128,
+      "host_calls": 1,
+      "host_error_flag": null,
+      "block_trace": [
+        {
+          "requested": 256,
+          "written": 128
+        }
+      ],
+      "agrees": true
+    },
+    {
+      "case": "one-byte-success",
+      "version": "audit-short-count",
+      "requested_bytes": 1,
+      "mode_code": 2,
+      "host": "mock",
+      "host_short_results": [],
+      "actual_bits": "0000000000000000",
+      "expected_bits": "0000000000000000",
+      "host_successful_bytes": 1,
+      "host_calls": 1,
+      "host_error_flag": null,
+      "block_trace": [
+        {
+          "requested": 1,
+          "written": 1
+        }
+      ],
+      "agrees": true
+    },
+    {
+      "case": "three-block-success",
+      "version": "audit-short-count",
+      "requested_bytes": 600,
+      "mode_code": 2,
+      "host": "mock",
+      "host_short_results": [],
+      "actual_bits": "0000000000000000",
+      "expected_bits": "0000000000000000",
+      "host_successful_bytes": 600,
+      "host_calls": 3,
+      "host_error_flag": null,
+      "block_trace": [
+        {
+          "requested": 256,
+          "written": 256
+        },
+        {
+          "requested": 256,
+          "written": 256
+        },
+        {
+          "requested": 88,
+          "written": 88
+        }
+      ],
+      "agrees": true
+    },
+    {
+      "case": "zero-size-success",
+      "version": "audit-short-count",
+      "requested_bytes": 0,
+      "mode_code": 2,
+      "host": "mock",
+      "host_short_results": [],
+      "actual_bits": "0000000000000000",
+      "expected_bits": "0000000000000000",
+      "host_successful_bytes": 0,
+      "host_calls": 1,
+      "host_error_flag": null,
+      "block_trace": [
+        {
+          "requested": 0,
+          "written": 0
+        }
+      ],
+      "agrees": true
+    },
+    {
+      "case": "wrong-mode-rejects",
+      "version": "audit-short-count",
+      "requested_bytes": 7,
+      "mode_code": 1,
+      "host": "mock",
+      "host_short_results": [],
+      "actual_bits": "fffffffffffffff9",
+      "expected_bits": "fffffffffffffff9",
+      "host_successful_bytes": 0,
+      "host_calls": 0,
+      "host_error_flag": null,
+      "block_trace": [],
+      "agrees": true
+    },
+    {
+      "case": "real-stderr-dev-full",
+      "version": "audit-short-count",
+      "requested_bytes": 1,
+      "mode_code": 2,
+      "host": "real",
+      "host_short_results": [],
+      "actual_bits": "ffffffffffffffff",
+      "expected_bits": "ffffffffffffffff",
+      "host_successful_bytes": 0,
+      "host_calls": 1,
+      "host_error_flag": true,
+      "block_trace": [
+        {
+          "requested": 1,
+          "written": 0
+        }
+      ],
+      "agrees": true
+    }
+  ],
+  "metadata_note": "For mock calls the stream error flag is not observed; null does not mean no C error. Only legal short-return counts are modeled, and mmix_fwrite never reads ferror. The real stderr case separately records the actual flag."
+}

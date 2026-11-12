@@ -1,0 +1,334 @@
+{
+  "status": "verified",
+  "pid": 796746,
+  "source_sha256": "cab69b32d700ebbc371fda1de1029a11ded9405170a0d3ae3ca08f2e5efec89b",
+  "build": {
+    "command": [
+      "g++",
+      "-O3",
+      "-std=c++17",
+      "audit-2026-10-31/clueless_census.cc",
+      "-o",
+      "/tmp/knuth-vol4b-clueless-b1x3x0lp/clueless"
+    ],
+    "source_sha256": "e3412c6599e99f7c6c4bc619dc07f250ae3975f0a9767b0d72b120a16edd0633",
+    "binary": "/tmp/knuth-vol4b-clueless-b1x3x0lp/clueless",
+    "binary_sha256": "c5ca5765fb432597b238722edab61fad4bbfae1849662ae465caf8112da4f27b"
+  },
+  "native": "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+  "native_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+  "started_at_utc": "2026-11-01T21:38:50.149643+00:00",
+  "cases": {
+    "1": {
+      "status": "verified",
+      "input_sha256": "e10af96334f37d83e52216771db7343778fe8e8c49802a319595df3734903c32",
+      "command": [
+        "/tmp/knuth-vol4b-clueless-b1x3x0lp/clueless",
+        "audit-2026-10-31/results/sudoku_extensions/clueless64/n1.masks"
+      ],
+      "pid": 796753,
+      "summary": {
+        "packings": 1,
+        "classes": 1,
+        "census_nonstraight": [
+          0,
+          0,
+          0
+        ],
+        "census_with_straight": [
+          0,
+          1,
+          0
+        ]
+      },
+      "elapsed_seconds": 0.01752635301090777,
+      "models_sha256": "b25f602f7194ef3dcf972e06410a28d99236aa90ac1d8ba73c2ec8c8e5d5a13e",
+      "coordinate_witnesses_validated": 1,
+      "rare_native_checks": 0,
+      "rare_checks_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "native_tiling_count": {
+        "solutions": 1,
+        "initialization_mems": 46,
+        "search_mems": 26,
+        "updates": 1,
+        "bytes": 100,
+        "nodes": 2,
+        "profile": [
+          1,
+          1
+        ],
+        "label": "n1",
+        "command": [
+          "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+          "v129"
+        ],
+        "input_sha256": "a8759d0d6221749a8fdffd8ec42b974e9593f1f03cc39e010a8501ee75fc1893",
+        "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+        "elapsed_seconds": 0.003508093999698758
+      },
+      "rare_log_sha256": "671d8096eda573780e9c09294ee84b7cdc071677feb55e1eac0675d7a323a630"
+    },
+    "2": {
+      "status": "verified",
+      "input_sha256": "dafcc87821bc4f7973a06b6e1dcd6c8bfcafd8ce0d355795d41f45df1bc88260",
+      "command": [
+        "/tmp/knuth-vol4b-clueless-b1x3x0lp/clueless",
+        "audit-2026-10-31/results/sudoku_extensions/clueless64/n2.masks"
+      ],
+      "pid": 796755,
+      "summary": {
+        "packings": 2,
+        "classes": 1,
+        "census_nonstraight": [
+          0,
+          0,
+          0
+        ],
+        "census_with_straight": [
+          0,
+          1,
+          0
+        ]
+      },
+      "elapsed_seconds": 0.014760359015781432,
+      "models_sha256": "dda8920c322e3fdd93a01b8f3d4639f787164518293d6481327fb6f483a277b9",
+      "coordinate_witnesses_validated": 1,
+      "rare_native_checks": 1,
+      "rare_checks_sha256": "f85ab97b07e62b274c12a4bb72cb6120940d4df18f6660a5d01ecaed42d4c44c",
+      "native_tiling_count": {
+        "solutions": 2,
+        "initialization_mems": 251,
+        "search_mems": 229,
+        "updates": 13,
+        "bytes": 360,
+        "nodes": 5,
+        "profile": [
+          1,
+          2,
+          2
+        ],
+        "label": "n2",
+        "command": [
+          "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+          "v129"
+        ],
+        "input_sha256": "a2c8285950cf218349b0601ae768416374b4295ea23291f0c349c40402e336b5",
+        "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+        "elapsed_seconds": 0.0021569060045294464
+      },
+      "rare_log_sha256": "9e8670f17219d1ab455a4558bab4a0c9947504b0862d46aba055cc76faf58063"
+    },
+    "3": {
+      "status": "verified",
+      "input_sha256": "19081d22c71a1002826239b576bc4826299c54e953adc90c933b3479a2772af5",
+      "command": [
+        "/tmp/knuth-vol4b-clueless-b1x3x0lp/clueless",
+        "audit-2026-10-31/results/sudoku_extensions/clueless64/n3.masks"
+      ],
+      "pid": 796758,
+      "summary": {
+        "packings": 10,
+        "classes": 2,
+        "census_nonstraight": [
+          0,
+          0,
+          0
+        ],
+        "census_with_straight": [
+          0,
+          1,
+          1
+        ]
+      },
+      "elapsed_seconds": 0.013643395010149106,
+      "models_sha256": "faa86debcd93652a2a75713aff64966f02be93116cffe6ce3c59984b026f79a2",
+      "coordinate_witnesses_validated": 3,
+      "rare_native_checks": 1,
+      "rare_checks_sha256": "1c716b49799cf96a6e94392611a41de84cf291a8c40c05b86497ca2e66fe8c0a",
+      "native_tiling_count": {
+        "solutions": 10,
+        "initialization_mems": 1790,
+        "search_mems": 5063,
+        "updates": 336,
+        "bytes": 1740,
+        "nodes": 28,
+        "profile": [
+          1,
+          5,
+          12,
+          10
+        ],
+        "label": "n3",
+        "command": [
+          "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+          "v129"
+        ],
+        "input_sha256": "d124a438953d40834f5c291afbfbe6aa7a6ffd4a09cae13734163222a3ce2875",
+        "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+        "elapsed_seconds": 0.0026324499922338873
+      },
+      "rare_log_sha256": "51893498e121a6942d900113e8553ed95f8fbc9a663bee777f9f026387b9689b"
+    },
+    "4": {
+      "status": "verified",
+      "input_sha256": "e189c4f05e9c569e6340916ab4f39e29d354d5c7bd25e61bea721e4e44647d8e",
+      "command": [
+        "/tmp/knuth-vol4b-clueless-b1x3x0lp/clueless",
+        "audit-2026-10-31/results/sudoku_extensions/clueless64/n4.masks"
+      ],
+      "pid": 796761,
+      "summary": {
+        "packings": 117,
+        "classes": 22,
+        "census_nonstraight": [
+          1,
+          1,
+          6
+        ],
+        "census_with_straight": [
+          0,
+          3,
+          11
+        ]
+      },
+      "elapsed_seconds": 0.029543784010456875,
+      "models_sha256": "eef9e464830656414db817d3fe7480de4a7fd25e61b23ccf9b8de6386af5e6ea",
+      "coordinate_witnesses_validated": 38,
+      "rare_native_checks": 5,
+      "rare_checks_sha256": "4cc31a51ee73ffe5b1e57bed237ecca0df390cf148b6b8b67520733a1f5b688a",
+      "native_tiling_count": {
+        "solutions": 117,
+        "initialization_mems": 12880,
+        "search_mems": 255008,
+        "updates": 18210,
+        "bytes": 9600,
+        "nodes": 381,
+        "profile": [
+          1,
+          13,
+          57,
+          193,
+          117
+        ],
+        "label": "n4",
+        "command": [
+          "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+          "v129"
+        ],
+        "input_sha256": "49b8ca04ece36f0a486d4f49093f76c926b59dd97bea83d9d03cc4a63f59adcf",
+        "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+        "elapsed_seconds": 0.0021707629784941673
+      },
+      "rare_log_sha256": "191da3eefb9baed6462f0e193fa2d9c332554543927c634cbfb992db7a538b4f"
+    },
+    "5": {
+      "status": "verified",
+      "input_sha256": "2e1f1dbdba8388e01bb8ece76e2bd8d9d98f1f47b05de64cbd265cf0a6b6e94f",
+      "command": [
+        "/tmp/knuth-vol4b-clueless-b1x3x0lp/clueless",
+        "audit-2026-10-31/results/sudoku_extensions/clueless64/n5.masks"
+      ],
+      "pid": 796768,
+      "summary": {
+        "packings": 4006,
+        "classes": 515,
+        "census_nonstraight": [
+          8,
+          6,
+          252
+        ],
+        "census_with_straight": [
+          0,
+          3,
+          246
+        ]
+      },
+      "elapsed_seconds": 0.3282210680190474,
+      "models_sha256": "753cc2b22be9233318b23d9eb6dc88fadaebd38b0d4b2bc4d1b6d4c2e47e26dd",
+      "coordinate_witnesses_validated": 1005,
+      "rare_native_checks": 17,
+      "rare_checks_sha256": "7f33ff15e3706f25f3e24cf4b8282fdfc384675d736e804372f151af9d0aa0ec",
+      "native_tiling_count": {
+        "solutions": 4006,
+        "initialization_mems": 91994,
+        "search_mems": 38065135,
+        "updates": 2821236,
+        "bytes": 55668,
+        "nodes": 16174,
+        "profile": [
+          1,
+          37,
+          362,
+          2280,
+          9488,
+          4006
+        ],
+        "label": "n5",
+        "command": [
+          "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+          "v129"
+        ],
+        "input_sha256": "be7b094d6971f35daf93b35dcd8757a5c83a39b42a0f64c68683f82470c2c860",
+        "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+        "elapsed_seconds": 0.04163646697998047
+      },
+      "rare_log_sha256": "5704547b403d8fd11da966b6e3f8524bc26ca5dbd538cd61fb5d943137e69bd7"
+    },
+    "6": {
+      "status": "verified",
+      "input_sha256": "748023bd8c64ad1591af373adc7005380bc7dc734e94fdf11ee07fe35ae5d951",
+      "command": [
+        "/tmp/knuth-vol4b-clueless-b1x3x0lp/clueless",
+        "audit-2026-10-31/results/sudoku_extensions/clueless64/n6.masks"
+      ],
+      "pid": 796787,
+      "summary": {
+        "packings": 451206,
+        "classes": 56734,
+        "census_nonstraight": [
+          1966,
+          28,
+          38243
+        ],
+        "census_with_straight": [
+          180,
+          3,
+          16314
+        ]
+      },
+      "elapsed_seconds": 92.15972044100636,
+      "models_sha256": "9cce424ea2ad65783b086277b41e69c54592eb861c4c581259a477a2ba8f0d12",
+      "coordinate_witnesses_validated": 109145,
+      "rare_native_checks": 2177,
+      "rare_checks_sha256": "80fd3784d15d8de397a27fbd2a82abc6e18667c5a852288886150b39d2eb5824",
+      "native_tiling_count": {
+        "solutions": 451206,
+        "initialization_mems": 631891,
+        "search_mems": 18426584329,
+        "updates": 1396559817,
+        "bytes": 316600,
+        "nodes": 2362613,
+        "profile": [
+          1,
+          112,
+          2588,
+          32496,
+          302404,
+          1573806,
+          451206
+        ],
+        "label": "n6",
+        "command": [
+          "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+          "v129"
+        ],
+        "input_sha256": "ddd2d2f087ce7c5df3f23c2569a6152cdeaa09d1aecede9c4c685d72621f3246",
+        "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+        "elapsed_seconds": 11.174659296986647
+      },
+      "rare_log_sha256": "11dd5b8d5fd4954c94972efc172db515ad515de794c6901dbca13840b0739086"
+    }
+  },
+  "active_case": null,
+  "finished_at_utc": "2026-11-01T21:40:22.748622+00:00"
+}

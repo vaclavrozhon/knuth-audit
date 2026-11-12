@@ -1,0 +1,14 @@
+{
+  "purpose": "Targeted algebra for candidate errors in equations 29/30 and exercise 45; no census or general verifier.",
+  "b1": "(-2*xi**4 + 3*xi**3 + 20*xi**2 + 18*xi - 2)/(24*(xi + 1)**3)",
+  "b1prime": "(-2*xi**4 - 9*xi**3 - 16*xi**2 - 6*xi - 2)/(24*(xi + 1)**3)",
+  "omitted_29": "xi*(11*xi**2 + 32*xi + 26)/(24*(xi + 1)**3)",
+  "omitted_30": "-xi*(xi**2 + 4*xi - 2)/(24*(xi + 1)**3)",
+  "limits": [
+    "11/24",
+    "-1/24"
+  ],
+  "b1_minus_b1prime": "xi*(xi + 2)/(2*(xi + 1)**2)",
+  "leading_b2_coefficient": "1/288",
+  "b2prime_reason": "In answer 45, terms with k additional geometric-factor powers have degree xi^(2-k); only k=0 contributes to xi^2, exactly as for b2."
+}

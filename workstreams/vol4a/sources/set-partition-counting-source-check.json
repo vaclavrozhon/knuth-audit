@@ -1,0 +1,46 @@
+{
+  "checked_at_utc": "2026-11-11T20:44:46.134032+00:00",
+  "edition": "Volume 4A, first edition, first printing, 2011; inventory/books.json",
+  "originals": [
+    "images/bookwise-p434.png",
+    "images/bookwise-p768.png",
+    "images/bookwise-p769.png",
+    "images/bookwise-p771.png"
+  ],
+  "errata": [
+    "errata/text/all4a-pre.txt",
+    "errata/text/all4a.txt",
+    "errata/text/err4a.txt",
+    "errata/text/all4f3.txt",
+    "errata/text/err4f3.txt"
+  ],
+  "pages_screened": "4A 418–419,434–437,765–772; Fascicle 3 64–65,80–83,128–135",
+  "retrieval_manifests": [
+    "integration/2026-11-10-bookwise/errata/vol4a-manifest.json",
+    "integration/2026-11-10-bookwise/errata/vol4a-fasc3-manifest.json"
+  ],
+  "public_queries": [
+    "Knuth \"rook\" \"769\" errata",
+    "Knuth \"vacillating\" errata crossing",
+    "Knuth \"434\" \"24\" Bell errata",
+    "Knuth \"rook polynomials\" correction",
+    "Knuth \"answer 36\" \"771\"",
+    "Knuth \"answer 38\" \"771\""
+  ],
+  "public_result": "No matching correction found. Known 2010 factorization-offset correction is to the exercise, not the additional identity in the answer. Known corrections to sonnet descriptions, the answer-27 bibliography and the 2025 q-factorial definition reference are separate.",
+  "primary_source": {
+    "url": "https://arxiv.org/pdf/math/0501230",
+    "local": "sources/chen-crossings-nestings-2005.pdf",
+    "provenance": "sources/chen-crossings-nestings-2005.provenance.json",
+    "passage": "Preprint printed page 3, definitions of standard arcs and crossing/nesting.",
+    "supports": "The consecutive-block-element condition in F0090."
+  },
+  "findings": [
+    "V4A-F0089",
+    "V4A-F0090",
+    "V4A-F0091",
+    "V4A-F0092",
+    "V4A-F0093",
+    "V4A-F0094"
+  ]
+}

@@ -1,0 +1,689 @@
+{
+  "at_utc": "2026-11-02T19:13:44.583623+00:00",
+  "checker_sha256": "b68af4fda72252785d8a86b7e18d330191130b095aed96ee61a5eb49bcb45b59",
+  "figures_sha256": "fdb221b55e594badd25918cd99e0012f22b4f201d2f604d9d8da6bcbf6077493",
+  "geometry_sha256": "68f55bea6d1ffab0c06fb548b0b19b4b5b5bd25a3c7e8d0621c83c46dba674d2",
+  "book_sha256": "6ce7187daa4f7dfa09814551a461fac81a833c93c140699fced8fd5897347552",
+  "draft_trace_sha256": "299bd141196179ee57383f29136fb61a958857a0efcf5f25c4e8cdb4d93fb7af",
+  "original_ps_sha256": "1d0cb9e96f5066e05836fefe70157f13b9de244da0ce95b6884cb110d7b256ca",
+  "draft_pdf_sha256": "751f23a5fee9f0134d00159a29696ba1fa5dd34ab1438b306574fcf1ec448528",
+  "original_conflicts": [
+    {
+      "vertex": [
+        7,
+        1
+      ],
+      "occurrences": [
+        {
+          "triangle": 7,
+          "color": "b"
+        },
+        {
+          "triangle": 16,
+          "color": "a"
+        }
+      ]
+    },
+    {
+      "vertex": [
+        7,
+        2
+      ],
+      "occurrences": [
+        {
+          "triangle": 1,
+          "color": "b"
+        },
+        {
+          "triangle": 7,
+          "color": "a"
+        }
+      ]
+    }
+  ],
+  "attempted_single_tile_rotations": 48,
+  "unique_repair": {
+    "triangle": 7,
+    "shift": 1,
+    "word": "abaadcbccbadadddccbbab",
+    "triangles": [
+      {
+        "cell": [
+          0,
+          2,
+          1
+        ],
+        "vertices": [
+          [
+            1,
+            3
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "colors": [
+          "a",
+          "a",
+          "a"
+        ]
+      },
+      {
+        "cell": [
+          6,
+          2,
+          0
+        ],
+        "vertices": [
+          [
+            7,
+            2
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            6,
+            2
+          ]
+        ],
+        "colors": [
+          "b",
+          "b",
+          "b"
+        ]
+      },
+      {
+        "cell": [
+          2,
+          1,
+          1
+        ],
+        "vertices": [
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "colors": [
+          "c",
+          "c",
+          "c"
+        ]
+      },
+      {
+        "cell": [
+          4,
+          1,
+          1
+        ],
+        "vertices": [
+          [
+            5,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            1
+          ]
+        ],
+        "colors": [
+          "d",
+          "d",
+          "d"
+        ]
+      },
+      {
+        "cell": [
+          0,
+          3,
+          0
+        ],
+        "vertices": [
+          [
+            1,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "colors": [
+          "a",
+          "b",
+          "a"
+        ]
+      },
+      {
+        "cell": [
+          1,
+          2,
+          0
+        ],
+        "vertices": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "colors": [
+          "a",
+          "c",
+          "a"
+        ]
+      },
+      {
+        "cell": [
+          4,
+          0,
+          1
+        ],
+        "vertices": [
+          [
+            5,
+            0
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "colors": [
+          "a",
+          "d",
+          "a"
+        ]
+      },
+      {
+        "cell": [
+          6,
+          1,
+          1
+        ],
+        "vertices": [
+          [
+            7,
+            1
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            6,
+            2
+          ]
+        ],
+        "colors": [
+          "a",
+          "b",
+          "b"
+        ]
+      },
+      {
+        "cell": [
+          2,
+          2,
+          1
+        ],
+        "vertices": [
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "colors": [
+          "b",
+          "c",
+          "b"
+        ]
+      },
+      {
+        "cell": [
+          5,
+          2,
+          1
+        ],
+        "vertices": [
+          [
+            6,
+            3
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            6,
+            2
+          ]
+        ],
+        "colors": [
+          "b",
+          "d",
+          "b"
+        ]
+      },
+      {
+        "cell": [
+          3,
+          1,
+          0
+        ],
+        "vertices": [
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "colors": [
+          "c",
+          "a",
+          "c"
+        ]
+      },
+      {
+        "cell": [
+          2,
+          2,
+          0
+        ],
+        "vertices": [
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "colors": [
+          "c",
+          "b",
+          "c"
+        ]
+      },
+      {
+        "cell": [
+          5,
+          0,
+          1
+        ],
+        "vertices": [
+          [
+            6,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            0
+          ]
+        ],
+        "colors": [
+          "c",
+          "d",
+          "c"
+        ]
+      },
+      {
+        "cell": [
+          4,
+          1,
+          0
+        ],
+        "vertices": [
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ]
+        ],
+        "colors": [
+          "d",
+          "a",
+          "d"
+        ]
+      },
+      {
+        "cell": [
+          5,
+          2,
+          0
+        ],
+        "vertices": [
+          [
+            5,
+            2
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            5,
+            3
+          ]
+        ],
+        "colors": [
+          "d",
+          "b",
+          "d"
+        ]
+      },
+      {
+        "cell": [
+          5,
+          1,
+          0
+        ],
+        "vertices": [
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            5,
+            2
+          ]
+        ],
+        "colors": [
+          "d",
+          "c",
+          "d"
+        ]
+      },
+      {
+        "cell": [
+          6,
+          1,
+          0
+        ],
+        "vertices": [
+          [
+            6,
+            2
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            1
+          ]
+        ],
+        "colors": [
+          "b",
+          "c",
+          "a"
+        ]
+      },
+      {
+        "cell": [
+          1,
+          2,
+          1
+        ],
+        "vertices": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "colors": [
+          "c",
+          "b",
+          "a"
+        ]
+      },
+      {
+        "cell": [
+          1,
+          3,
+          0
+        ],
+        "vertices": [
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "colors": [
+          "b",
+          "d",
+          "a"
+        ]
+      },
+      {
+        "cell": [
+          0,
+          3,
+          1
+        ],
+        "vertices": [
+          [
+            1,
+            4
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "colors": [
+          "d",
+          "b",
+          "a"
+        ]
+      },
+      {
+        "cell": [
+          5,
+          0,
+          0
+        ],
+        "vertices": [
+          [
+            6,
+            0
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            5,
+            0
+          ]
+        ],
+        "colors": [
+          "c",
+          "d",
+          "a"
+        ]
+      },
+      {
+        "cell": [
+          3,
+          1,
+          1
+        ],
+        "vertices": [
+          [
+            4,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "colors": [
+          "d",
+          "c",
+          "a"
+        ]
+      },
+      {
+        "cell": [
+          3,
+          2,
+          0
+        ],
+        "vertices": [
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "colors": [
+          "c",
+          "d",
+          "b"
+        ]
+      },
+      {
+        "cell": [
+          5,
+          1,
+          1
+        ],
+        "vertices": [
+          [
+            5,
+            2
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            6,
+            2
+          ]
+        ],
+        "colors": [
+          "d",
+          "c",
+          "b"
+        ]
+      }
+    ]
+  },
+  "tile_cell": [
+    6,
+    1,
+    1
+  ],
+  "before_ccw": "abb",
+  "after_ccw": "bba",
+  "rotation": "120 degrees clockwise: white moves from the right vertex to the bottom vertex",
+  "all_draft_corners_identical": 504,
+  "all_draft_figures_identical": 7,
+  "diagram": "images/vertices140-c3-repair.svg",
+  "diagram_sha256": "78f75f2dd5c32e81ca8f5dbb77473a0e561dacf925044874146231e31912fa00",
+  "physical_print_verified": false
+}

@@ -1,0 +1,400 @@
+{
+  "standard": "Printed-argument review; historical proof obligations retained, these exact limitations are allowed exceptions.",
+  "items": [
+    {
+      "id": "V3-P0010",
+      "file_pages": [
+        16
+      ],
+      "printed_page": 5,
+      "target": "Bit-cost heuristic N(log N)^2",
+      "detail": "The new bit-width lemma proves total encoded size at least N log2(N)−O(N); a specified full-buffer mergesort costs Θ(Nw log N). The passage still does not specify a computational representation, so no universal N(log N)^2 lower bound is certified.",
+      "evidence": [
+        "workstreams/vol3/notes/chapter5-proof-01-09.md",
+        "workstreams/vol3/notes/opening-cost-models.md"
+      ]
+    },
+    {
+      "id": "V3-P0011",
+      "file_pages": [
+        16
+      ],
+      "printed_page": 5,
+      "target": "Linear expected sorting for a known continuous distribution",
+      "detail": "The continuous-CDF transform is proved even with flat intervals. Monotone equiprobable buckets sort correctly with expected cost O(N + sum_i E c_N(X_i)), where c_N is exact bucket-assignment cost. Uniformly bounded expected assignment cost is still an unstated model assumption.",
+      "evidence": [
+        "workstreams/vol3/notes/chapter5-proof-01-09.md",
+        "workstreams/vol3/notes/opening-cost-models.md"
+      ]
+    },
+    {
+      "id": "V3-P0050",
+      "file_pages": [
+        20
+      ],
+      "printed_page": 9,
+      "target": "Claimed speedup and two-pass radix sort",
+      "detail": "The filtering argument is proved, but the referenced internal radix implementation has not been transferred to the limited-memory tape model and no universal speedup is certified.",
+      "evidence": [
+        "workstreams/vol3/notes/chapter5-proof-10-25.md"
+      ]
+    },
+    {
+      "id": "V3-P0055",
+      "file_pages": [
+        20
+      ],
+      "printed_page": 9,
+      "target": "Feasibility from excluding large cliques",
+      "detail": "The existing V3-C0001 construction is reused; the informal word enormous leaves the interpretation as a candidate.",
+      "evidence": [
+        "workstreams/vol3/notes/chapter5-proof-10-25.md",
+        "workstreams/vol3/notes/V3-C0001-clique-output.md"
+      ]
+    },
+    {
+      "id": "V3-P0063",
+      "file_pages": [
+        21
+      ],
+      "printed_page": 10,
+      "target": "Pollard expected complexity and memory",
+      "detail": "The referenced external algorithm and its random-mapping assumptions have not been independently proved from the provided paragraph.",
+      "evidence": [
+        "workstreams/vol3/notes/chapter5-proof-10-25.md"
+      ]
+    },
+    {
+      "id": "V3-P0064",
+      "file_pages": [
+        21
+      ],
+      "printed_page": 10,
+      "target": "Asymptotically faster methods in the cross-reference",
+      "detail": "The mathematical performance claim points to exercise 4.5.4-46; its algorithm and proof remain to be paired with this reference.",
+      "evidence": [
+        "workstreams/vol3/notes/chapter5-proof-10-25.md"
+      ]
+    },
+    {
+      "id": "V3-P0137",
+      "file_pages": [
+        32
+      ],
+      "printed_page": 21,
+      "target": "Explicit combinatorial cancellation for Jacobi",
+      "detail": "The identity is proved algebraically, but an explicit sign-reversing involution and the cited combinatorial proofs have not been independently supplied. The open-ended question is not claimed solved.",
+      "evidence": [
+        "workstreams/vol3/notes/inversions-proof-16-24.md"
+      ]
+    },
+    {
+      "id": "V3-P0199",
+      "file_pages": [
+        42
+      ],
+      "printed_page": 31,
+      "target": "Isolated vertices in the printed construction",
+      "detail": "For the two-element antichain, the stated incident-pair construction gives two empty cycles. A private singleton fixes the case, but an implicit empty-cycle convention remains possible; candidate C0017, not a refutation of the existential theorem.",
+      "evidence": [
+        "workstreams/vol3/notes/multisets-proof-01-11.md",
+        "workstreams/vol3/notes/V3-C0017-isolated-poset-cycles.md"
+      ]
+    },
+    {
+      "id": "V3-P0365",
+      "file_pages": [
+        58
+      ],
+      "printed_page": 47,
+      "target": "Leaf count equals descents plus one",
+      "detail": "The existing proof identifies leaves with descents plus the final position for n≥1. The n=0 boundary is reopened: an empty forest has no leaves while A(0,0)=1. The exercise does not explicitly state n≥1; its intended domain remains unresolved. The positive-size proof is retained.",
+      "evidence": [
+        "workstreams/vol3/notes/runs-proof-23-27.md",
+        "workstreams/vol3/notes/quality-recovery-2026-11-06.md",
+        "workstreams/vol3/notes/quality-recovery-addenda.md"
+      ]
+    },
+    {
+      "id": "V3-P0372",
+      "file_pages": [
+        58
+      ],
+      "printed_page": 47,
+      "target": "Singleton convention in the added identity29(a)",
+      "detail": "For n1,k0 there is one peak-free permutation, but the explicit formal convention Aalt(1,0)=1 in answer16 gives right side1/2. Candidate C0018 remains not independently certified because the intended combinatorial versus formal singleton convention is not explicit.",
+      "evidence": [
+        "workstreams/vol3/notes/runs-proof-28-29.md",
+        "workstreams/vol3/images/runs-errata-new28-29.png",
+        "workstreams/vol3/images/runs-errata-answers28-29.png",
+        "workstreams/vol3/notes/V3-C0018-added-peaks-singleton.md"
+      ]
+    },
+    {
+      "id": "V3-P0383",
+      "file_pages": [
+        188
+      ],
+      "printed_page": 177,
+      "target": "Theorem T referenced in the answer to 5.2.1-38: a density-independent linear constant",
+      "detail": "The exact forward statement assumes an independent sample with bounded Riemann-integrable density and uses a modified two-level distribution algorithm. The L² proof for Program M does not establish its constant independent of the density. Proof and exercise 18 remain to be audited at section 5.2.5.",
+      "evidence": [
+        "workstreams/vol3/notes/opening-cost-models.md"
+      ]
+    },
+    {
+      "id": "V3-P0489",
+      "file_pages": [
+        77
+      ],
+      "printed_page": 66,
+      "target": "The separately requested more direct proof of Theorem D(c)",
+      "detail": "The full theorem is already proved in P0429–P0431. This exercise specifically asks for a different, more direct proof, and no answer is supplied in the book. The existing proof through parts(a,b) is not relabeled as meeting that request. No result-level doubt or error is asserted.",
+      "evidence": [
+        "workstreams/vol3/notes/tableaux-proof-14-20.md"
+      ]
+    },
+    {
+      "id": "V3-P0613",
+      "file_pages": [
+        625
+      ],
+      "printed_page": 614,
+      "target": "Distance-at-most-five census179904: permitted reproduction skip",
+      "detail": "The exact census was not independently reproduced. This is an explicitly omitted expensive enumeration under the user instruction; neither the concrete distance proof nor the total state count certifies179904. No contrary evidence or finding is asserted.",
+      "evidence": [
+        "workstreams/vol3/notes/tableaux-proof-42-signed-reversals.md",
+        "workstreams/vol3/sources/tableaux-reversal-sources.json"
+      ]
+    },
+    {
+      "id": "V3-P0646",
+      "file_pages": [
+        85
+      ],
+      "printed_page": 74,
+      "target": "One-record rearrangement and the unspecified usual factor-two speed claim",
+      "detail": "Direct copying and both one-record address-table/list rearrangements now have complete proofs. A uniform one-word MIX model gives mean ratio17/8, while long-record copy counts can tend to1. Only the unspecified usual factor-two comparison remains not independently certified.",
+      "evidence": [
+        "workstreams/vol3/notes/internal-proof-counting-73-79.md",
+        "workstreams/vol3/notes/internal-proof-10-11-cycles.md",
+        "workstreams/vol3/notes/internal-proof-12-list-rearrangement.md"
+      ]
+    },
+    {
+      "id": "V3-P0668",
+      "file_pages": [
+        90
+      ],
+      "printed_page": 79,
+      "target": "Unverified historical comparison with Boothroyd and Macleod",
+      "detail": "The primary publisher confirms the1967 Algorithms supplement, but the full source did not open. The concrete claim of less data movement than the historical program and the named1970 refinements are not independently checked. This is an explicit not independently certified source/comparison gap, not a proof supplied by a bibliographic citation.",
+      "evidence": [
+        "workstreams/vol3/notes/internal-proof-10-11-cycles.md"
+      ]
+    },
+    {
+      "id": "V3-P0676",
+      "file_pages": [
+        91
+      ],
+      "printed_page": 80,
+      "target": "Unspecified comparative speed and record-length threshold",
+      "detail": "Exact movement counts explain the tradeoff: after skipping self-swaps MacLaren uses3(N−C) record copies versus N+C−2B for the cycle method, a nonnegative difference. However no instruction implementation or threshold defines shorter/faster for short records. That comparative claim remains model-not independently certified; correctness and linear cost are fully proved.",
+      "evidence": [
+        "workstreams/vol3/notes/internal-proof-12-list-rearrangement.md"
+      ]
+    },
+    {
+      "id": "V3-P0697",
+      "file_pages": [
+        113
+      ],
+      "printed_page": 102,
+      "target": "Explicit open conjecture about minimum program length",
+      "detail": "The constructive eight-line program answers whether the twelve-line S can be shortened. No impossibility proof for seven or fewer MIX instructions is supplied; the book explicitly calls eight-line optimality a conjecture. The informal decent-program characterization has no formal optimality criterion.",
+      "evidence": [
+        "workstreams/vol3/notes/insertion-proof-straight-80-82.md"
+      ]
+    },
+    {
+      "id": "V3-P0703",
+      "file_pages": [
+        94
+      ],
+      "printed_page": 83,
+      "target": "Unverified historical IBM705 threshold and instruction claim",
+      "detail": "The approximate128-record threshold for80-character records needs Nagler’s original machine and comparison model. A brief search did not produce the primary text, so that numerical claim and the named tumble-instruction description remain an explicit historical/model gap; the mathematical quadratic bound is separately proved.",
+      "evidence": [
+        "workstreams/vol3/notes/insertion-proof-binary-twoway-82-83.md"
+      ]
+    },
+    {
+      "id": "V3-P0723",
+      "file_pages": [
+        113
+      ],
+      "printed_page": 102,
+      "target": "Explicit empirical optimization recommendations",
+      "detail": "The approximate0.4/0.3 C ratios and the2001 recommendation against the extra test lack a fully specified increment sequence/size or cost model. They are kept as unreplicated empirical comparisons, separately from proved correctness and exact instruction savings.",
+      "evidence": [
+        "workstreams/vol3/notes/insertion-proof-shellsort-program-83-86.md"
+      ]
+    },
+    {
+      "id": "V3-P0724",
+      "file_pages": [
+        96
+      ],
+      "printed_page": 85,
+      "target": "Explicit open increment-sequence optimization problem",
+      "detail": "The introductory paragraph does not claim a known best general sequence. This audit proves specified algorithms and costs, not global optimality; the research problem remains open in the audit, without making an unverified statement about its current2026 literature status.",
+      "evidence": [
+        "workstreams/vol3/notes/insertion-proof-shellsort-program-83-86.md"
+      ]
+    },
+    {
+      "id": "V3-P0797",
+      "file_pages": [
+        114
+      ],
+      "printed_page": 103,
+      "target": "Unresolved intended domain of s in the minus-family exercise",
+      "detail": "All formulas are proved on their actual domains. If the unstated range includes positive s=1, the claimed nongenerable value1 equals the first generator1. Adding s≥2 repairs this boundary. C0021 remains candidate/low because a nontrivial-s convention may be intended; no general formula is rejected.",
+      "evidence": [
+        "workstreams/vol3/notes/insertion-proof-22-semigroups.md",
+        "workstreams/vol3/notes/V3-C0021-semigroup-unit-boundary.md",
+        "workstreams/vol3/sources/insertion-semigroup-boundary-errata-review.json"
+      ]
+    },
+    {
+      "id": "V3-P0810",
+      "file_pages": [
+        634
+      ],
+      "printed_page": 623,
+      "target": "Pending wider Pratt generalization including sequence12",
+      "detail": "The complete Mersenne exercise24 is now proved independently. The additional historical statement on623 about a wider family including(12) still lacks verified original hypotheses; Stanford and DTIC retrieval failed. This separate forward dependency remains not independently certified and is not used as a substitute for the proved local result.",
+      "evidence": [
+        "workstreams/vol3/notes/insertion-proof-24-local-bound.md",
+        "workstreams/vol3/sources/insertion-pratt-source-attempt.json"
+      ]
+    },
+    {
+      "id": "V3-P0823",
+      "file_pages": [
+        102
+      ],
+      "printed_page": 91,
+      "target": "Unreproduced empirical and practical crossover claims",
+      "detail": "The quoted N=1000 A/B measurements and comparison to exercise28 are not replicated here. The main-text astronomical crossover and practical-ratio claims lack a specified machine/model threshold. They remain explicit empirical/model not independently certifieds, not consequences of the asymptotic theorem.",
+      "evidence": [
+        "workstreams/vol3/notes/insertion-proof-pratt-30-31.md"
+      ]
+    },
+    {
+      "id": "V3-P0839",
+      "file_pages": [
+        103
+      ],
+      "printed_page": 92,
+      "target": "Scope of the claim that3,2,1 minimize average moves",
+      "detail": "The global interpretation is contradicted by5,2,1:817/105<822/105, independently derived by small generating functions. Within the three displayed Table5 rows,3,2,1 is indeed minimal. CandidateC0023/low retains this implicit-domain ambiguity.",
+      "evidence": [
+        "workstreams/vol3/notes/insertion-proof-eight-items-table5.md",
+        "workstreams/vol3/notes/V3-C0023-three-pass-minimum-scope.md",
+        "workstreams/vol3/results/insertion-eight-final-pass-gf.json"
+      ]
+    },
+    {
+      "id": "V3-P0846",
+      "file_pages": [
+        104
+      ],
+      "printed_page": 93,
+      "target": "Table6 empirical rows9–39, sampling provenance and standard deviations",
+      "detail": "Each row separately records the checked sequence, T, S and time substitution. Its empirical A/B inputs are not reproduced. The claimed10000 random files and usual standard deviations A~15/B~300 remain explicit experimental gaps; the observed6745/6755 minimum is only arithmetically consistent with the table.",
+      "evidence": [
+        "workstreams/vol3/notes/insertion-proof-practical-93-95.md",
+        "workstreams/vol3/results/insertion-table6-arithmetic.json"
+      ]
+    },
+    {
+      "id": "V3-P0852",
+      "file_pages": [
+        106
+      ],
+      "printed_page": 95,
+      "target": "Current empirical fits, dispersion, Table7 provenance and recommendations",
+      "detail": "The explicit Weiss fit and deviation, current Ciura replacement/dispersion regime, unavailable common Table7 input, and practical recommendations are separately listed. Removed2001 claims are not imported as current theorems. No empirical asymptotic formula or global optimality is certified.",
+      "evidence": [
+        "workstreams/vol3/notes/insertion-proof-practical-93-95.md",
+        "workstreams/vol3/sources/insertion-practical-sources.json"
+      ]
+    },
+    {
+      "id": "V3-P0854",
+      "file_pages": [
+        115
+      ],
+      "printed_page": 104,
+      "target": "All current experimental answers and qualifications in exercise29",
+      "detail": "All Tribolet/Siegel/McNamee values and the2003 Ciura replacement are individually identified, with valid increment lists. Their empirical means, optimized search domains and fit t~(4/3)ln(N/5.75) are not reproduced; the fit is not a literal positive-pass formula for all small N. Approximate historical times cannot be inferred from B alone.",
+      "evidence": [
+        "workstreams/vol3/notes/insertion-proof-practical-93-95.md",
+        "workstreams/vol3/sources/insertion-practical-sources.json"
+      ]
+    },
+    {
+      "id": "V3-P0862",
+      "file_pages": [
+        634
+      ],
+      "printed_page": 623,
+      "target": "Uniform unrestricted c<1/2 in answer27",
+      "detail": "Both author copies retain1/(lg N)^5. Hard-prefix padding gives their count-of-small-increments version; absorption gives every c<1/2 for m=o((ln N/lnln N)^2). The unrestricted uniform implication remains a proof/source gap, not a counterexample or finding.",
+      "evidence": [
+        "workstreams/vol3/notes/insertion-proof-27-lower-bounds.md",
+        "workstreams/vol3/sources/insertion-lower-bound-sources.json"
+      ]
+    },
+    {
+      "id": "V3-P0870",
+      "file_pages": [
+        638
+      ],
+      "printed_page": 627,
+      "target": "Range qualification of the explicit8N/(gh) helper",
+      "detail": "N=36,h=18,g=17 and the valid18-ordered permutation swapping1 and18 give G(1,18)=1,G(19,36)=0 but8N/(gh)=16/17. The helper is valid for N>=gh; that regime may be implicit in the asymptotic argument. C0024 remains candidate/low, not an error in42(a).",
+      "evidence": [
+        "workstreams/vol3/notes/insertion-proof-42-first-second.md",
+        "workstreams/vol3/notes/V3-C0024-phase-shift-bound-scope.md",
+        "workstreams/vol3/sources/phase-shift-bound-errata-review.json"
+      ]
+    },
+    {
+      "id": "V3-P0896",
+      "file_pages": [
+        109
+      ],
+      "printed_page": 98,
+      "target": "Practical Shellsort exponent in the summary",
+      "detail": "The practical N^(7/6) fit has no specified input range, tolerance or independently reproduced evidence here. Related empirical gap P0852 is retained; this is not a false asymptotic theorem.",
+      "evidence": [
+        "workstreams/vol3/notes/insertion-proof-trees-batching-98.md"
+      ]
+    },
+    {
+      "id": "V3-P0928",
+      "file_pages": [
+        639
+      ],
+      "printed_page": 628,
+      "target": "Practical need for more increments in the partial-sort variant",
+      "detail": "The qualitative comparison specifies neither sequence, input distribution nor total-cost target. Local pass costs and overall correctness are proved, but the asserted practical comparison and original unavailable experiments remain unverified.",
+      "evidence": [
+        "workstreams/vol3/notes/insertion-proof-44-orders.md"
+      ]
+    }
+  ]
+}

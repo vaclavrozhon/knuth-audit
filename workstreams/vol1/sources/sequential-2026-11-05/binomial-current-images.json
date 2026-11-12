@@ -1,0 +1,26 @@
+{
+  "created_at_utc": "2026-11-05T13:51:37.587155+00:00",
+  "images": [
+    {
+      "source": "sources/sequential-2026-11-05/all1-prepre.ps.gz",
+      "source_sha256": "adff516db3af2107c6fbcda33dad167c76f0fd9a4035fd835b93242492a24659",
+      "file_page": 33,
+      "image": "images/sequential-2026-11-05/all1-prepre-page033-current.png",
+      "image_sha256": "d555816d81d59ebe9ef33b3a38a24c8f69d00a94ff9da6ad0111361292b8fe89",
+      "method": "Ghostscript png16m at 150 dpi; direct rendering of downloaded PostScript; no text edits."
+    },
+    {
+      "source": "sources/sequential-2026-11-05/all1-pre.ps.gz",
+      "source_sha256": "af52330546132f0ad79bc9074eae2b1cbb64027f11298e15af73452c5cbe6183",
+      "file_page": 15,
+      "image": "images/sequential-2026-11-05/all1-pre-page015-current.png",
+      "image_sha256": "d5c488c4f0c538ccfb872f076bf803768d0eb24e03bdea5e89130d1b60669752",
+      "method": "Ghostscript png16m at 150 dpi; direct rendering of downloaded PostScript; no text edits."
+    }
+  ],
+  "legacy_image_discrepancy": {
+    "image": "images/errata-all1-pre-file015.png",
+    "sha256": "0c322dcf690fcffb453d7d768e4e37858daf1934b639fa06293f74645d44ce09",
+    "observed": "The old image says but sharper; the downloaded PostScript and shared PDF/text say but often sharper. The legacy image is preserved; its exact source date is not established."
+  }
+}

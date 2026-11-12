@@ -1,0 +1,36 @@
+{
+  "F014_two_sample_bound": {
+    "pages": [
+      27,
+      394
+    ],
+    "exercise": "MPR 134(b)",
+    "m": 1,
+    "event_probability": "1/2",
+    "epsilon": "9/10",
+    "actual_tail_probability": "1/2",
+    "printed_bound": "2*exp(-81/50)",
+    "printed_bound_numeric": "0.395797398167229359768452422588",
+    "exact_certificate": "exp(81/50)>sum_(j=0)^3 (81/50)^j/j! = 1160197/250000 > 4.",
+    "larger_example": {
+      "m": 100,
+      "epsilon": "1/5",
+      "actual": 0.0036349479525299385,
+      "printed": 0.0006709252558050237
+    },
+    "proof_error": "|k-K/2| must exceed epsilon*m/2, not epsilon*m.",
+    "correction_following_book_hint": "Use 2*exp(-epsilon^2*m/2), which also proves the stated bound in (c).",
+    "stronger_unconditional_bound": "Independence of all 2m Bernoulli trials gives 2*exp(-epsilon^2*m).",
+    "source_scope": "Visually verified in PDF. Exercise not present in retrieved author Pre-Fascicle 5A."
+  },
+  "corrected_bound_finite_checks": 300,
+  "F015_median_difference": {
+    "page": 395,
+    "answer": "MPR 137(d)",
+    "example": "X=-1 with probability 1/4 and X=1 with probability 3/4; median m=1,c=0. At x=-1, actual Delta=-1, printed Delta=-3.",
+    "printed": "c-m+2*(x-c) for x<m",
+    "corrected": "c-m+2*max(0,x-c) for x<m",
+    "scope": "The median-minimizes-absolute-deviation theorem and the subsequent lower bound are correct; this intermediate identity is not.",
+    "source_scope": "PDF only; not in retrieved 2019 Pre-Fascicle 5A."
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "at_utc": "2026-11-03T11:17:25.255278+00:00",
+  "wainwright": {
+    "file": "puzzlers-tribute.pdf",
+    "sha256": "0fc228c4f6c64c976ed2a9a3391f8a7ecd4957985628489f330862e6a63d9f1c",
+    "printed_pages": [
+      277,
+      278,
+      279,
+      280,
+      281
+    ],
+    "pdf_pages": [
+      301,
+      302,
+      303,
+      304,
+      305
+    ],
+    "all_five_rendered_and_visually_read": true,
+    "conclusions": [
+      "The cited chapter exists with the stated author and page range.",
+      "Pages280–281 attribute reversed multiplicities to Colin Singleton and Don Knuth; Singleton supplied initial square areas and a6-puzzle solution.",
+      "The precise1996 date of the Singleton correspondence is not stated here.",
+      "Page279 corroborates Cutler response after January1996; useful for156 later, not a complete156 historical audit."
+    ]
+  },
+  "friedman": {
+    "file": "friedman0607.html",
+    "sha256": "fd10153a2a10dc31991d48fe64eb24d628fdfa9dbb8cc3413cf85ee5ff281619",
+    "url": "https://erich-friedman.github.io/mathmagic/0607.html",
+    "conclusion": "June2007 survey gives the same sum formula and a_k-1 sequence. Caption under the6square.gif figure explicitly attributes the reversed square puzzle to Colin Singleton,1996; with Wainwright280–281 this corroborates the book attribution and year.",
+    "singleton_date_caption": "Colin Singleton, 1996"
+  },
+  "volume2_reference": {
+    "text": "vol2-reference-389.txt",
+    "source_file": "../books/taocp-vol2-ed3-print1-1997.djvu",
+    "actual_file_page": 390,
+    "printed_page": 378,
+    "exercise": "4.5.3–42",
+    "visually_read": true,
+    "conclusion": "Best-approximation property of continued-fraction convergents; correct reference. Textformfeed index differs byone from DjVu file page."
+  },
+  "carol": {
+    "source": "https://lpo.org.uk/wp-content/uploads/2022/08/LPO-KS2-resources-The-Twelve-Days-of-Christmas-2.pdf",
+    "web_text_obtained": true,
+    "direct_archive_request": "403 Forbidden; not retried or bypassed",
+    "minimal_quote": "two turtle doves",
+    "summary": "2017 LPO teaching material uses the standard pair and explicitly notes regional variations. Localbook and2019draft instead name humming birds.",
+    "classification": "C035 low editorial candidate; mathematical counts unchanged; exact intended variant unstated"
+  },
+  "unused_score": {
+    "file": "austin1909-p2.jpg",
+    "reason": "LOC image shows the fourth and third gifts but not the second; not evidence for changing the second gift.",
+    "imslp": "Ordinary score link requires JavaScript; no bypass or further attempt."
+  },
+  "local_tribute_file": "tribute_to_gardner.ps is an unrelated eight-page algor.dvi paper, not this volume.",
+  "source_limitations": [
+    "OriginalSingleton letter not obtained, but the book year is independently corroborated by its cited Friedman2007 survey. No remaining date gap.",
+    "No physical4B printing checked.",
+    "No claim of first discovery."
+  ],
+  "supersedes": "results/partridge154/source-observations-initial.json: caption found during final source review, before commit."
+}

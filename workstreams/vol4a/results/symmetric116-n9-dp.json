@@ -1,0 +1,418 @@
+{
+  "n": 9,
+  "method": "ten-row dynamic program; no truth-table enumeration",
+  "rows": [
+    {
+      "m": 0,
+      "zero_last": 0,
+      "candidates": [
+        {
+          "k": 0,
+          "run_count": 1,
+          "earlier": 0,
+          "total": 1
+        }
+      ],
+      "maximum": 1,
+      "prefix_witness": "1"
+    },
+    {
+      "m": 1,
+      "zero_last": 1,
+      "candidates": [
+        {
+          "k": 0,
+          "run_count": 9,
+          "earlier": 0,
+          "total": 9
+        },
+        {
+          "k": 1,
+          "run_count": 9,
+          "earlier": 0,
+          "total": 9
+        }
+      ],
+      "maximum": 9,
+      "prefix_witness": "11"
+    },
+    {
+      "m": 2,
+      "zero_last": 9,
+      "candidates": [
+        {
+          "k": 0,
+          "run_count": 36,
+          "earlier": 0,
+          "total": 36
+        },
+        {
+          "k": 1,
+          "run_count": 72,
+          "earlier": 0,
+          "total": 72
+        },
+        {
+          "k": 2,
+          "run_count": 36,
+          "earlier": 1,
+          "total": 37
+        }
+      ],
+      "maximum": 72,
+      "prefix_witness": "011"
+    },
+    {
+      "m": 3,
+      "zero_last": 72,
+      "candidates": [
+        {
+          "k": 0,
+          "run_count": 84,
+          "earlier": 0,
+          "total": 84
+        },
+        {
+          "k": 1,
+          "run_count": 252,
+          "earlier": 0,
+          "total": 252
+        },
+        {
+          "k": 2,
+          "run_count": 252,
+          "earlier": 1,
+          "total": 253
+        },
+        {
+          "k": 3,
+          "run_count": 84,
+          "earlier": 9,
+          "total": 93
+        }
+      ],
+      "maximum": 253,
+      "prefix_witness": "1011"
+    },
+    {
+      "m": 4,
+      "zero_last": 253,
+      "candidates": [
+        {
+          "k": 0,
+          "run_count": 126,
+          "earlier": 0,
+          "total": 126
+        },
+        {
+          "k": 1,
+          "run_count": 504,
+          "earlier": 0,
+          "total": 504
+        },
+        {
+          "k": 2,
+          "run_count": 756,
+          "earlier": 1,
+          "total": 757
+        },
+        {
+          "k": 3,
+          "run_count": 504,
+          "earlier": 9,
+          "total": 513
+        },
+        {
+          "k": 4,
+          "run_count": 126,
+          "earlier": 72,
+          "total": 198
+        }
+      ],
+      "maximum": 757,
+      "prefix_witness": "10111"
+    },
+    {
+      "m": 5,
+      "zero_last": 757,
+      "candidates": [
+        {
+          "k": 0,
+          "run_count": 126,
+          "earlier": 0,
+          "total": 126
+        },
+        {
+          "k": 1,
+          "run_count": 630,
+          "earlier": 0,
+          "total": 630
+        },
+        {
+          "k": 2,
+          "run_count": 1260,
+          "earlier": 1,
+          "total": 1261
+        },
+        {
+          "k": 3,
+          "run_count": 1260,
+          "earlier": 9,
+          "total": 1269
+        },
+        {
+          "k": 4,
+          "run_count": 630,
+          "earlier": 72,
+          "total": 702
+        },
+        {
+          "k": 5,
+          "run_count": 126,
+          "earlier": 253,
+          "total": 379
+        }
+      ],
+      "maximum": 1269,
+      "prefix_witness": "110111"
+    },
+    {
+      "m": 6,
+      "zero_last": 1269,
+      "candidates": [
+        {
+          "k": 0,
+          "run_count": 84,
+          "earlier": 0,
+          "total": 84
+        },
+        {
+          "k": 1,
+          "run_count": 504,
+          "earlier": 0,
+          "total": 504
+        },
+        {
+          "k": 2,
+          "run_count": 1260,
+          "earlier": 1,
+          "total": 1261
+        },
+        {
+          "k": 3,
+          "run_count": 1680,
+          "earlier": 9,
+          "total": 1689
+        },
+        {
+          "k": 4,
+          "run_count": 1260,
+          "earlier": 72,
+          "total": 1332
+        },
+        {
+          "k": 5,
+          "run_count": 504,
+          "earlier": 253,
+          "total": 757
+        },
+        {
+          "k": 6,
+          "run_count": 84,
+          "earlier": 757,
+          "total": 841
+        }
+      ],
+      "maximum": 1689,
+      "prefix_witness": "1101111"
+    },
+    {
+      "m": 7,
+      "zero_last": 1689,
+      "candidates": [
+        {
+          "k": 0,
+          "run_count": 36,
+          "earlier": 0,
+          "total": 36
+        },
+        {
+          "k": 1,
+          "run_count": 252,
+          "earlier": 0,
+          "total": 252
+        },
+        {
+          "k": 2,
+          "run_count": 756,
+          "earlier": 1,
+          "total": 757
+        },
+        {
+          "k": 3,
+          "run_count": 1260,
+          "earlier": 9,
+          "total": 1269
+        },
+        {
+          "k": 4,
+          "run_count": 1260,
+          "earlier": 72,
+          "total": 1332
+        },
+        {
+          "k": 5,
+          "run_count": 756,
+          "earlier": 253,
+          "total": 1009
+        },
+        {
+          "k": 6,
+          "run_count": 252,
+          "earlier": 757,
+          "total": 1009
+        },
+        {
+          "k": 7,
+          "run_count": 36,
+          "earlier": 1269,
+          "total": 1305
+        }
+      ],
+      "maximum": 1689,
+      "prefix_witness": "11011110"
+    },
+    {
+      "m": 8,
+      "zero_last": 1689,
+      "candidates": [
+        {
+          "k": 0,
+          "run_count": 9,
+          "earlier": 0,
+          "total": 9
+        },
+        {
+          "k": 1,
+          "run_count": 72,
+          "earlier": 0,
+          "total": 72
+        },
+        {
+          "k": 2,
+          "run_count": 252,
+          "earlier": 1,
+          "total": 253
+        },
+        {
+          "k": 3,
+          "run_count": 504,
+          "earlier": 9,
+          "total": 513
+        },
+        {
+          "k": 4,
+          "run_count": 630,
+          "earlier": 72,
+          "total": 702
+        },
+        {
+          "k": 5,
+          "run_count": 504,
+          "earlier": 253,
+          "total": 757
+        },
+        {
+          "k": 6,
+          "run_count": 252,
+          "earlier": 757,
+          "total": 1009
+        },
+        {
+          "k": 7,
+          "run_count": 72,
+          "earlier": 1269,
+          "total": 1341
+        },
+        {
+          "k": 8,
+          "run_count": 9,
+          "earlier": 1689,
+          "total": 1698
+        }
+      ],
+      "maximum": 1698,
+      "prefix_witness": "110111101"
+    },
+    {
+      "m": 9,
+      "zero_last": 1698,
+      "candidates": [
+        {
+          "k": 0,
+          "run_count": 1,
+          "earlier": 0,
+          "total": 1
+        },
+        {
+          "k": 1,
+          "run_count": 9,
+          "earlier": 0,
+          "total": 9
+        },
+        {
+          "k": 2,
+          "run_count": 36,
+          "earlier": 1,
+          "total": 37
+        },
+        {
+          "k": 3,
+          "run_count": 84,
+          "earlier": 9,
+          "total": 93
+        },
+        {
+          "k": 4,
+          "run_count": 126,
+          "earlier": 72,
+          "total": 198
+        },
+        {
+          "k": 5,
+          "run_count": 126,
+          "earlier": 253,
+          "total": 379
+        },
+        {
+          "k": 6,
+          "run_count": 84,
+          "earlier": 757,
+          "total": 841
+        },
+        {
+          "k": 7,
+          "run_count": 36,
+          "earlier": 1269,
+          "total": 1305
+        },
+        {
+          "k": 8,
+          "run_count": 9,
+          "earlier": 1689,
+          "total": 1698
+        },
+        {
+          "k": 9,
+          "run_count": 1,
+          "earlier": 1689,
+          "total": 1690
+        }
+      ],
+      "maximum": 1698,
+      "prefix_witness": "1101111011"
+    }
+  ],
+  "maximum": 1698,
+  "witness": "1101111011"
+}

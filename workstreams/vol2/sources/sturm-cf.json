@@ -1,0 +1,234 @@
+{
+  "accessed_utc": "2026-11-04T00:24:46.142099+00:00",
+  "scope": "4.6.1-22/23/26 and Sturm434; no new finding",
+  "book": {
+    "edition": 3,
+    "printing": 1,
+    "printed_pages_visually_read": [
+      434,
+      438,
+      677,
+      678
+    ],
+    "file_page_offset": 12
+  },
+  "verification": {
+    "result": "results/sturm-cf.json",
+    "successful_seconds": 1.460928625019733,
+    "processes": [
+      {
+        "label": "sturm-cf",
+        "command": "timeout 180 python3 -u workstreams/vol2/verify_sturm_cf.py",
+        "time_limit_seconds": 180,
+        "started_at_utc": "2026-11-04T00:15:33.056336+00:00",
+        "log": "results/sturm-cf.log",
+        "pid": 1324637,
+        "status": "passed",
+        "exit_code": 0,
+        "finished_at_utc": "2026-11-04T00:15:34.599261+00:00",
+        "tool_session": 40273
+      }
+    ]
+  },
+  "primary_sources": [
+    {
+      "url": "https://pnp.mathematik.uni-stuttgart.de/igt/eiserm/enseignement/Sturm-memoire-numerise.pdf",
+      "local": "sources/sturm-1835-original.pdf",
+      "visually_read_pdf_pages": "1–12; printed title271/text273–282, §§1–6 complete"
+    },
+    {
+      "url": "https://pnp.mathematik.uni-stuttgart.de/igt/eiserm/enseignement/Sturm-memoire-transcrit.pdf",
+      "local": "sources/sturm-1835-transcription.pdf",
+      "scope": "1999 transcription used for navigation, not original facsimile"
+    },
+    {
+      "url": "https://www.e-rara.ch/download/pdf/5761162.pdf",
+      "local": "sources/kronecker-1881-werke.pdf",
+      "visually_read_pdf_pages": [
+        4,
+        10,
+        11,
+        12,
+        13
+      ],
+      "scope": "Werke115,121–124; only selected passages, not whole81pages"
+    },
+    {
+      "url": "https://doi.org/10.1145/800204.806312",
+      "scope": "publisher conference abstract, distinct from journal version"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1145/321662.321667",
+      "local": "sources/heindel-1971-metadata.json",
+      "scope": "publisher-deposited bibliographic metadata only; full ACM journal text403"
+    }
+  ],
+  "errata": {
+    "layers": [
+      "all2-prepre",
+      "all2-pre",
+      "all2",
+      "err2",
+      "err2.textxt",
+      "err2-2e"
+    ],
+    "search_log": "sources/sturm-cf-errata.txt",
+    "known_corrections": [
+      "2002-08-22 Sturm citation punctuation",
+      "2024-08-17 answer22 coefficients y_j to u_j"
+    ]
+  },
+  "limitations": "No full Heindel article audit. Own existential polynomial-time proof does not settle exercise21 sharp bound. Latest physical printing unverified.",
+  "artifacts": [
+    {
+      "path": "notes/sturm-cf.md",
+      "bytes": 11695,
+      "sha256": "6c97719c065a3fd9abd7d9c9646306ba05665b9dfbf911725d545ff3a47bc021"
+    },
+    {
+      "path": "verify_sturm_cf.py",
+      "bytes": 6328,
+      "sha256": "7c9fcb7ac49aa9429030367de8e7e06dc9a4a1c5112132aedb9bda8714ac278c"
+    },
+    {
+      "path": "results/sturm-cf.json",
+      "bytes": 540,
+      "sha256": "74d389731ee04ad156f3748f3732b452aa8f32633d77b392fc5f132f1489bf7a"
+    },
+    {
+      "path": "results/sturm-cf.log",
+      "bytes": 413,
+      "sha256": "ada352e53c7399acfb793d47755c64c82fe6029a3b17c092fc503b319d66833e"
+    },
+    {
+      "path": "sources/sturm-cf-errata.txt",
+      "bytes": 5919,
+      "sha256": "209e7b69c80ab1799eee04e17bb5588d938721aabbb20b0a56efb5e3f69ac47a"
+    },
+    {
+      "path": "sources/sturm-1835-original.pdf",
+      "bytes": 1648095,
+      "sha256": "3d5ae833581b6fa3bb98f326529817c665a2b45637cc3ed41c1ac3e848a616b2"
+    },
+    {
+      "path": "sources/sturm-1835-transcription.pdf",
+      "bytes": 218107,
+      "sha256": "a568fb44480c7a69b8a20e963c42815c5b6ef12909f810205a36ca97e71fa693"
+    },
+    {
+      "path": "sources/sturm-1835-transcription.txt",
+      "bytes": 83623,
+      "sha256": "91a48e48389544f2b44858ee65421f7a699d773ad5a742dae588871b04cfee0f"
+    },
+    {
+      "path": "sources/kronecker-1881-werke.pdf",
+      "bytes": 13828320,
+      "sha256": "465ce0ff8304750211138197710ede35add826558ae5824ff29a8c4eea3fa3a4"
+    },
+    {
+      "path": "sources/kronecker-1881-werke.txt",
+      "bytes": 211212,
+      "sha256": "f2e38b4cdf3684050f7b6b2735c78a015ba1aa9b147306bbd137191a2c991372"
+    },
+    {
+      "path": "sources/heindel-1971-metadata.json",
+      "bytes": 6044,
+      "sha256": "82bb1a61574ee8e8b470743f6026cb5149bd4b12df606beaf53517cc8f2a6f13"
+    },
+    {
+      "path": "images/vol2-p434.png",
+      "bytes": 672084,
+      "sha256": "5da270973cd68bb7b9350fda84385f8f75006e267fb43e7468bfa683ad407af2"
+    },
+    {
+      "path": "images/vol2-p438.png",
+      "bytes": 663784,
+      "sha256": "6d6438df99f6dd031082feda4716af8c5c46c5fc35dae9e87667ac301745dda4"
+    },
+    {
+      "path": "images/vol2-p677.png",
+      "bytes": 685692,
+      "sha256": "e2e242c68d54ff1e1e99142150862887add721f7b714eee56aca34b87a50170e"
+    },
+    {
+      "path": "images/vol2-p678.png",
+      "bytes": 718095,
+      "sha256": "de33edc75727d68d023994165c5d10d3894a65c2064a6b311f9eab59c104cc43"
+    },
+    {
+      "path": "images/sturm-1835-01.png",
+      "bytes": 32917,
+      "sha256": "2a67bbe665c15696f421ef5558a7f2c3bc7173bae8f24d7f9472d3a49e0be341"
+    },
+    {
+      "path": "images/sturm-1835-03.png",
+      "bytes": 134060,
+      "sha256": "04ac2c48f3b0b7b0484c54b308b016db89bf2587766af4e96c528f5fa3152595"
+    },
+    {
+      "path": "images/sturm-1835-05.png",
+      "bytes": 150732,
+      "sha256": "1b94841efd7fff22b5c3f919e9a99c308a71aa004145b3bd465adca89e7ef4ed"
+    },
+    {
+      "path": "images/sturm-1835-06.png",
+      "bytes": 112561,
+      "sha256": "040309ab1582961e6455c16e05914e788ad2777069b7ad35d316857491758f52"
+    },
+    {
+      "path": "images/sturm-1835-07.png",
+      "bytes": 133501,
+      "sha256": "358c078cd40aa5b369a114cb22d45daf3b0248d06dc6183f01d14c0223e164d8"
+    },
+    {
+      "path": "images/sturm-1835-08.png",
+      "bytes": 145620,
+      "sha256": "371fdbca72fbaac03374ee9f7330acc3e63c4b4cad24fe75ca742bc0480a01c9"
+    },
+    {
+      "path": "images/sturm-1835-09.png",
+      "bytes": 137490,
+      "sha256": "2c307f73ecd8eb32e240b64ccecee309712edcd1df796148ede5874db4952119"
+    },
+    {
+      "path": "images/sturm-1835-10.png",
+      "bytes": 123955,
+      "sha256": "f5175810bb653525c8fdf1475e178d87bb837bc606442f4e99cfc3f404352eef"
+    },
+    {
+      "path": "images/sturm-1835-11.png",
+      "bytes": 150272,
+      "sha256": "d44cefcbd62131bf1ce94917e3a9b2ebed3569ca75c673ae641769b8a32f0173"
+    },
+    {
+      "path": "images/sturm-1835-12.png",
+      "bytes": 135393,
+      "sha256": "8ff4c5f29eaf417b5ab5e3929c15991c2c31318c11eadac8f5e8f43538d5844d"
+    },
+    {
+      "path": "images/kronecker-1881-werke-04.png",
+      "bytes": 1308303,
+      "sha256": "068974199a2076f99beb8260f023c50303d2861a6001f84be39fea103c4ab732"
+    },
+    {
+      "path": "images/kronecker-1881-werke-10.png",
+      "bytes": 1223092,
+      "sha256": "0a771c7d093141e4aec1da9c8042567fa37e8420bcef578db67a48088fb80cde"
+    },
+    {
+      "path": "images/kronecker-1881-werke-11.png",
+      "bytes": 1231390,
+      "sha256": "49929e33a41f979221625fbf796ebf89613d73f6fbec32e7e2a944088c12d49a"
+    },
+    {
+      "path": "images/kronecker-1881-werke-12.png",
+      "bytes": 1212833,
+      "sha256": "05db71077e7f2de0cd434f329869838d7207d1d901705d3b827c7ce42fb023d8"
+    },
+    {
+      "path": "images/kronecker-1881-werke-13.png",
+      "bytes": 1571688,
+      "sha256": "0ed458c07ef29aeb585c555984592763cbe5f7bfd116bd31f4d1361a699353e9"
+    }
+  ]
+}

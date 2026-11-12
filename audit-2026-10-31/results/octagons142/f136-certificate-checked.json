@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "geometric_classes": 5981,
+  "proven_lower_bound_after_color_permutations": 11962,
+  "printed_bound": 11960,
+  "strict_counterexample": true,
+  "search_performed": false,
+  "exhaustive_upper_bound_claimed": false,
+  "certificate": "results/octagons142/f136-5981-classes.txt.gz",
+  "certificate_sha256": "227be51ed1aa5ac782e91b8c5640813e82c1bfa7922ca50ad5b955a630f3c8ae",
+  "verifier_sha256": "cf3bb1d39700890813fe50543b5e61129b31938e86659dcb88cb8f5c8e4d04fc",
+  "source_representatives_sha256": "17eff8d2ea52593637e5993582c9aa4a586030235dea801946a4ededf473b700",
+  "command": [
+    "python3",
+    "verify_f136.py"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "status": "candidate",
+  "scope": "One half-edge arrow in Fig104(c), p11/file26. Independent review pending.",
+  "book_vertices_cropbox_points": {
+    "14": [
+      "384136719/1000000",
+      "7314209/62500"
+    ],
+    "15": [
+      "357980469/1000000",
+      "25803711/250000"
+    ],
+    "17": [
+      "22515/64",
+      "129230469/1000000"
+    ],
+    "18": [
+      "351511719/1000000",
+      "3381/32"
+    ],
+    "19": [
+      "182167969/500000",
+      "52658203/500000"
+    ]
+  },
+  "cross_products_edge17_to18": {
+    "hole_vertex19": "19354742769/64000000",
+    "wall_vertex14": "23933323724823/31250000000",
+    "wall_vertex15": "76595955362793/500000000000"
+  },
+  "figure102_original_cycles": {
+    "file025_svg_path74": [
+      10,
+      12,
+      13
+    ],
+    "file025_svg_path77": [
+      17,
+      19,
+      18
+    ],
+    "file025_svg_path78": [
+      15,
+      14,
+      17,
+      18
+    ]
+  },
+  "wrong_arrow_svg_path": 239,
+  "arrow_points": [
+    [
+      "11235/32",
+      "1923/16"
+    ],
+    [
+      "11255/32",
+      "61283203/500000"
+    ],
+    [
+      "88071289/250000",
+      "7691/64"
+    ]
+  ],
+  "arrow_dot_edge17_to18": "-112546757651367/2000000000000",
+  "visibility_proof": "results/clasp-projection.json",
+  "label_comparison": "results/clasp-labels.json",
+  "original_image": "images/file-026-clasp-cropbox.png",
+  "errata": [
+    {
+      "path": "workstreams/vol4-fasc7/sources/err4f7-2026-11-06.textxt",
+      "sha256": "5367c0ddd98ba05c1384dbf36a261c8492442aed6eb9d12cf3a9874258c55661"
+    },
+    {
+      "path": "errata/pdf/err4f7.pdf",
+      "sha256": "f117610d9e040d2543739e9fdb1e3c7947d6a63f7b99c2d9b21ecc1e21c13864"
+    },
+    {
+      "path": "errata/pdf/all4f7.pdf",
+      "sha256": "6675df9e26dd9d8cefbf3b8d722c88a701206c8c704ce499d5f86ac1c1d64039"
+    },
+    {
+      "path": "errata/text/err4f7.txt",
+      "sha256": "0afe5f3e8fb61612c2f8370a3bb6280fd560e183cac2d745ec66386d3af5cca3"
+    },
+    {
+      "path": "errata/text/all4f7.txt",
+      "sha256": "ef32430ffd04c186e1a332f2fae10a37f5813e8f383cbb61c5c42fc1ad91598e"
+    }
+  ],
+  "relevant_known_correction": "p10 line-15,28Apr2025, between adjacent faces -> between the adjacent faces; no change toFig104(c) or its arrow."
+}

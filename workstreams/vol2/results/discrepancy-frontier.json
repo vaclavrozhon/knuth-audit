@@ -1,0 +1,55 @@
+{
+  "scope": "Finite exploratory checks only; general sharp bound remains open in the audit.",
+  "all_rectangles": {
+    "cases": 7805,
+    "max_modulus": 160,
+    "exceptions": [],
+    "maximum_ratio": "1",
+    "first_maximizer": {
+      "m": 2,
+      "a": 1,
+      "numerator": 1,
+      "quotients": [
+        2
+      ]
+    },
+    "provenance": "Inline Python/NumPy calculation, tool session17501, exit0. Aggregate output preserved; no claim that individual witnesses were checkpointed."
+  },
+  "centered_walks": {
+    "cases": 76115,
+    "max_modulus": 500,
+    "exceptions": [],
+    "equality_cases": 2629,
+    "provenance": "Inline exact-integer calculation, tool session66875, exit0. Aggregate output preserved."
+  },
+  "failed_induction": {
+    "cases": 12231,
+    "max_modulus": 200,
+    "exceptions": 3656,
+    "first": {
+      "a": 3,
+      "m": 4,
+      "actual": "1/2",
+      "proposed_bound": "11/24"
+    },
+    "scope": "The proposed recurrence R(a,m)<=floor(m/a)/8+R(m mod a,a) is false. This does not refute the book's bound.",
+    "provenance": "Inline exact-rational calculation, tool session89784, exit0."
+  },
+  "midpoint_identity": {
+    "cases": 1996,
+    "rectangles": 7423,
+    "scope": "Midpoint sums, sigma identity, centered-walk oscillation, exact four-corner counts."
+  },
+  "exact_extrema_and_reciprocity": {
+    "models": 3043,
+    "brute_rectangle_models": 1101,
+    "exact_reciprocities": 200041,
+    "scope": "Proves/checks mD=2R and a maximum rectangle witness; does not prove R<=sum(quotients)/8.",
+    "rejected_recurrence_example": {
+      "a": 3,
+      "m": 10,
+      "actual": "3/4",
+      "proposed": "17/24"
+    }
+  }
+}

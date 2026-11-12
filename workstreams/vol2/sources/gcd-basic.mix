@@ -1,0 +1,37 @@
+# TAOCP 3rd ed., first printing, vol.2, pp.337,339-340.
+# Numeric local labels renamed. ABS=1:5 is an existing field alias.
+# *_END labels stop the interpreter on fall-through; not book instructions.
+A01 A LDX U
+A02 - JMP ATEST
+A03 ALOOP STX V
+A04 - SRAX 5
+A05 - DIV V
+A06 ATEST LDA V
+A07 - JXNZ ALOOP
+Aend A_END CON 0
+B02 B ENT1 0
+B03 - LDX U
+B04 - LDAN V
+B05 - JMP BODD
+B06 BHALVE SRB 1
+B07 - INC1 1
+B08 - STX U
+B09 - STA V(ABS)
+B10 BODD JXO B4
+B11 B2 JAE BHALVE
+B12 - LDA U
+B13 B3 SRB 1
+B14 B4 JAE B3
+B15 B5 JAN BNEG
+B16 - STA U
+B17 - SUB V
+B18 - JMP BTEST
+B19 BNEG STA V(ABS)
+B20 B6 ADD U
+B21 BTEST JANZ B3
+B22 - LDA U
+B23 - ENTX 0
+B24 - SLB 0,1
+Bend B_END CON 0
+dataU U CON 0
+dataV V CON 0

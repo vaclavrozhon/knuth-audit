@@ -1,0 +1,63 @@
+{
+  "method": "Literal set of pairs (W,X), without merging W for equal X",
+  "rounds": [
+    {
+      "clues": 32,
+      "pairs": 1,
+      "distinct_subsets": 1
+    },
+    {
+      "clues": 31,
+      "pairs": 22,
+      "distinct_subsets": 22
+    },
+    {
+      "clues": 30,
+      "pairs": 397,
+      "distinct_subsets": 200
+    },
+    {
+      "clues": 29,
+      "pairs": 2883,
+      "distinct_subsets": 978
+    },
+    {
+      "clues": 28,
+      "pairs": 10786,
+      "distinct_subsets": 2780
+    },
+    {
+      "clues": 27,
+      "pairs": 22016,
+      "distinct_subsets": 4609
+    },
+    {
+      "clues": 26,
+      "pairs": 23588,
+      "distinct_subsets": 4244
+    },
+    {
+      "clues": 25,
+      "pairs": 11518,
+      "distinct_subsets": 1950
+    },
+    {
+      "clues": 24,
+      "pairs": 1912,
+      "distinct_subsets": 373
+    },
+    {
+      "clues": 23,
+      "pairs": 72,
+      "distinct_subsets": 22
+    }
+  ],
+  "extra_queries_count": 47293,
+  "extra_queries_file": "pair-extra-queries.json.gz",
+  "extra_queries_sha256": "bf8534d87c3b645a8cbb48b70b334b4d409977e0e2aa1a52142c208c4bf427d1",
+  "note": "All47293 extra queries are nonunique, with independently validated full alternatives. Literal pair deduplication and subset deduplication are different policies. Neither reproduces4249 at size26, but unspecified historical caching prevents a definitive correction.",
+  "status": "verified",
+  "checked_at_utc": "2026-11-01T20:16:26.067745+00:00",
+  "source_sha256": "c90dd8b06bcb044e48ec4d811a817d90836cefcd2057f931d583f9c075657878",
+  "subset_queries_sha256": "2497b879d62bccb09764558cb7eb6d674e90bc228348a5b75522befc783e1047"
+}

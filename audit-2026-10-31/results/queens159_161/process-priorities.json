@@ -1,0 +1,194 @@
+{
+  "at_utc": "2026-11-03T11:51:49.854608+00:00",
+  "roots": [
+    684086,
+    697793,
+    862565,
+    874050,
+    882581,
+    901946,
+    918953,
+    924398,
+    944644,
+    1015840,
+    1016888
+  ],
+  "missing_roots": [],
+  "processes": [
+    {
+      "pid": 684086,
+      "ppid": 1620,
+      "nice": 15,
+      "comm": "python3"
+    },
+    {
+      "pid": 697793,
+      "ppid": 1620,
+      "nice": 15,
+      "comm": "python3"
+    },
+    {
+      "pid": 845134,
+      "ppid": 697793,
+      "nice": 15,
+      "comm": "langford-mems"
+    },
+    {
+      "pid": 862565,
+      "ppid": 1620,
+      "nice": 15,
+      "comm": "python3"
+    },
+    {
+      "pid": 874050,
+      "ppid": 1620,
+      "nice": 15,
+      "comm": "python3"
+    },
+    {
+      "pid": 876246,
+      "ppid": 862565,
+      "nice": 15,
+      "comm": "timeout"
+    },
+    {
+      "pid": 876247,
+      "ppid": 876246,
+      "nice": 15,
+      "comm": "dlx2-cutoff-klu"
+    },
+    {
+      "pid": 882581,
+      "ppid": 1620,
+      "nice": 15,
+      "comm": "python3"
+    },
+    {
+      "pid": 882583,
+      "ppid": 882581,
+      "nice": 15,
+      "comm": "timeout"
+    },
+    {
+      "pid": 882584,
+      "ppid": 882583,
+      "nice": 15,
+      "comm": "dlx2-original"
+    },
+    {
+      "pid": 901946,
+      "ppid": 232656,
+      "nice": 15,
+      "comm": "python3"
+    },
+    {
+      "pid": 901978,
+      "ppid": 901946,
+      "nice": 15,
+      "comm": "timeout"
+    },
+    {
+      "pid": 901980,
+      "ppid": 901978,
+      "nice": 15,
+      "comm": "dlx3"
+    },
+    {
+      "pid": 918953,
+      "ppid": 1620,
+      "nice": 15,
+      "comm": "python3"
+    },
+    {
+      "pid": 918955,
+      "ppid": 918953,
+      "nice": 15,
+      "comm": "timeout"
+    },
+    {
+      "pid": 918956,
+      "ppid": 918955,
+      "nice": 15,
+      "comm": "dlx2-original"
+    },
+    {
+      "pid": 924398,
+      "ppid": 1620,
+      "nice": 15,
+      "comm": "python3"
+    },
+    {
+      "pid": 924419,
+      "ppid": 924398,
+      "nice": 15,
+      "comm": "timeout"
+    },
+    {
+      "pid": 924420,
+      "ppid": 924419,
+      "nice": 15,
+      "comm": "dlx1"
+    },
+    {
+      "pid": 944644,
+      "ppid": 1620,
+      "nice": 15,
+      "comm": "python3"
+    },
+    {
+      "pid": 944673,
+      "ppid": 944644,
+      "nice": 15,
+      "comm": "timeout"
+    },
+    {
+      "pid": 944674,
+      "ppid": 944673,
+      "nice": 15,
+      "comm": "dlx2-symmetry12"
+    },
+    {
+      "pid": 1015840,
+      "ppid": 1620,
+      "nice": 15,
+      "comm": "python3"
+    },
+    {
+      "pid": 1016888,
+      "ppid": 1620,
+      "nice": 15,
+      "comm": "python3"
+    },
+    {
+      "pid": 1020191,
+      "ppid": 1015840,
+      "nice": 15,
+      "comm": "timeout"
+    },
+    {
+      "pid": 1020192,
+      "ppid": 1020191,
+      "nice": 15,
+      "comm": "dlx2-original"
+    },
+    {
+      "pid": 1021810,
+      "ppid": 1016888,
+      "nice": 15,
+      "comm": "timeout"
+    },
+    {
+      "pid": 1021812,
+      "ppid": 1021810,
+      "nice": 15,
+      "comm": "xcc-bitset"
+    },
+    {
+      "pid": 1228307,
+      "ppid": 684086,
+      "nice": 15,
+      "comm": "knuth-vol4b-fra"
+    }
+  ],
+  "all_owned_nice_at_least15": true
+}

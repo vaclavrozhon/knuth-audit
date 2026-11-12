@@ -1,0 +1,112 @@
+{
+  "checks": 52324,
+  "assembly_radices": [
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100
+  ],
+  "execution_radices": [
+    64,
+    100
+  ],
+  "prime_profiles": [
+    {
+      "b": 64,
+      "base": -1,
+      "io_delay": 0,
+      "division_count": 9538,
+      "computation_time": 182144
+    },
+    {
+      "b": 64,
+      "base": -1,
+      "io_delay": 50000,
+      "division_count": 9538,
+      "computation_time": 182144
+    },
+    {
+      "b": 64,
+      "base": 99,
+      "io_delay": 0,
+      "division_count": 9538,
+      "computation_time": 182144
+    },
+    {
+      "b": 64,
+      "base": 99,
+      "io_delay": 50000,
+      "division_count": 9538,
+      "computation_time": 182144
+    },
+    {
+      "b": 100,
+      "base": -1,
+      "io_delay": 0,
+      "division_count": 9538,
+      "computation_time": 182144
+    },
+    {
+      "b": 100,
+      "base": -1,
+      "io_delay": 50000,
+      "division_count": 9538,
+      "computation_time": 182144
+    },
+    {
+      "b": 100,
+      "base": 99,
+      "io_delay": 0,
+      "division_count": 9538,
+      "computation_time": 182144
+    },
+    {
+      "b": 100,
+      "base": 99,
+      "io_delay": 50000,
+      "division_count": 9538,
+      "computation_time": 182144
+    }
+  ],
+  "validator_cases": 49684,
+  "scope": "MIXAL examples, full prime output with two I/O delays, maximum, sorting and instruction validation.",
+  "limitations": [
+    "Structured rows, not a card/terminal parser.",
+    "No execution of mystery exercise 8.",
+    "Finite execution cases supplement the general invariants in notes.",
+    "Assembler rejects literals containing *; disk and tape motion are not implemented."
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-01",
+  "scope": "Access and reading log, not a claim that all sources were read.",
+  "sources": [
+    {
+      "id": "Coveyou1960",
+      "title": "Serial Correlation in the Generation of Pseudo-Random Numbers",
+      "doi": "10.1145/321008.321018",
+      "url": "https://www.osti.gov/pages/servlets/purl/4578911",
+      "read_scope": "Web-extracted appended reprint pp72–74 read, including continuous integral and equation13. Local downloads timed out for both pages/servlets and servlets paths. No scan inspected yet.",
+      "assessment": "Supports continuous averaging attribution; paper itself warns about approximation and higher-lag correlations."
+    },
+    {
+      "id": "Greenberger1961",
+      "doi": "10.1090/S0025-5718-1961-0144489-8",
+      "url": "https://www.ams.org/journals/mcom/1961-15-076/S0025-5718-1961-0144489-8/S0025-5718-1961-0144489-8.pdf",
+      "read_scope": "Only first twenty web-extracted lines read. Later open and direct download403. Error-bound proof not yet read.",
+      "related": "Corrigenda Math.Comp.16(1962)p126 referenced by Hull–Dobell; not yet obtained."
+    },
+    {
+      "id": "Dieter1971",
+      "doi": "10.1090/S0025-5718-1971-0298727-8",
+      "read_scope": "AMS issue metadata confirms25(1971)855–883; full PDF403. Graz metadata says855–884, but no book error inferred from repository metadata."
+    },
+    {
+      "id": "Franklin1963",
+      "doi": "10.1090/S0025-5718-1963-0149640-3",
+      "read_scope": "Bibliographic reference identified; full AMS PDF403. Theorem13 not yet read."
+    },
+    {
+      "id": "Niederreiter1978",
+      "doi": "10.1090/S0002-9904-1978-14532-7",
+      "url": "https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society/volume-84/issue-6/Quasi-Monte-Carlo-methods-and-pseudo-random-numbers/bams/1183541461.pdf",
+      "read_scope": "Only indexed primary-source excerpts pp1021–1022 read. ProjectEuclid direct request returns a security HTML page; alternate PDF routes and AMS do not yield the paper. Theorem11.9 uses nearest-integer quotients and additive terms; its OCR formula not treated as verified scan.",
+      "assessment": "Supports the historical use of generalized Dedekind sums for full-period rectangles; does not settle the exact constant in TAOCP exercise19."
+    }
+  ]
+}

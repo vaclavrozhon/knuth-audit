@@ -1,0 +1,375 @@
+{
+  "volume": "vol1",
+  "reviewed_at_utc": "2026-11-07T00:28:23.736091+00:00",
+  "scope": "Every assertion/instruction212–214 and every part of all seven exercises and answers530–531; complete self-tracer and precise existingC0039 scope.",
+  "proof": "notes/quality-recovery-section-1.4.3.2-2026-11-07.md",
+  "reused_artifacts": [
+    {
+      "path": "notes/interpretive-root-review.md",
+      "sha256": "0337cf2055639eda97ad9e89ac770d45ed2d22e811c9813fc4145b6e8608a9a3",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "0337cf2055639eda97ad9e89ac770d45ed2d22e811c9813fc4145b6e8608a9a3",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/NOTES.md",
+      "sha256": "92f3c41dde05652b6b3af5f63686f495457410413526f1d00d7abfa8ad88ea26",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "92f3c41dde05652b6b3af5f63686f495457410413526f1d00d7abfa8ad88ea26",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/SELFTRACE.md",
+      "sha256": "48d67faf8d2b8e0380dc484373ae37345ce0b595c5564c7581ca373956c91ca5",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "48d67faf8d2b8e0380dc484373ae37345ce0b595c5564c7581ca373956c91ca5",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/UNIT_STATUS.json",
+      "sha256": "982bb8dd56f734be91ce90753ba94605ff6a9922b66313827996eeb1caaa9318",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "982bb8dd56f734be91ce90753ba94605ff6a9922b66313827996eeb1caaa9318",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/programs.py",
+      "sha256": "f16d8844e2695a425131d613b5b77ae71c61df00240267c6ff9d3e436f6c51b5",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "f16d8844e2695a425131d613b5b77ae71c61df00240267c6ff9d3e436f6c51b5",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/selftrace_program.py",
+      "sha256": "30a2eb971dc62cbf6e65ad69f281ed541b41d2832472328b27652dc713f2466c",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "30a2eb971dc62cbf6e65ad69f281ed541b41d2832472328b27652dc713f2466c",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/trace-private-read.txt",
+      "sha256": "a43d5ad52373c569144126d73f47941f398944d812eb17860189983a7fd448ee",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "a43d5ad52373c569144126d73f47941f398944d812eb17860189983a7fd448ee",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/check_trace.py",
+      "sha256": "93bda25e22ad46b60faf751df614c164ab8efc7d25ebe4522dc9bfefde08c7b5",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "93bda25e22ad46b60faf751df614c164ab8efc7d25ebe4522dc9bfefde08c7b5",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/check_mutual.py",
+      "sha256": "874fe3dd339b5ff791089ea00837b0524fc29f99b23c15a63338159cafd088fe",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "874fe3dd339b5ff791089ea00837b0524fc29f99b23c15a63338159cafd088fe",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/check_extensions.py",
+      "sha256": "1c514154bf0af4bc7c4849d33f171400bdd932addf491a68746658e6a4d9640a",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "1c514154bf0af4bc7c4849d33f171400bdd932addf491a68746658e6a4d9640a",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/check_selftrace.py",
+      "sha256": "5ad8ad0cc3bc9729efdeab3da3f0ec1450178b34efccbbad3de8f4a4265c2f9f",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "5ad8ad0cc3bc9729efdeab3da3f0ec1450178b34efccbbad3de8f4a4265c2f9f",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/check_self_checkpoint.py",
+      "sha256": "cdf9369d6a3820dbea06616b9520187e272e258a4ab86fd54ea630614853b4f3",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "cdf9369d6a3820dbea06616b9520187e272e258a4ab86fd54ea630614853b4f3",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/check_self_memory.py",
+      "sha256": "fea3ac785b9e04fa73a0f56706d6b369e288b7669e87f347a2b2bdabf93d7b17",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "fea3ac785b9e04fa73a0f56706d6b369e288b7669e87f347a2b2bdabf93d7b17",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/results/trace.json",
+      "sha256": "b1c2f0331897c1666523ac5177568363b861c9a1b8bc2a36953bf86908ed211a",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "b1c2f0331897c1666523ac5177568363b861c9a1b8bc2a36953bf86908ed211a",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/results/mutual_trace.json",
+      "sha256": "310050f70320d3c13ed53f4497c64e9e78b6b986061046bacd5cfc642c922d2e",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "310050f70320d3c13ed53f4497c64e9e78b6b986061046bacd5cfc642c922d2e",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/results/extensions.json",
+      "sha256": "5bf5d681b02b3257aaf297c303d79b9e26b381027c60d288dc4400de1e8c7520",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "5bf5d681b02b3257aaf297c303d79b9e26b381027c60d288dc4400de1e8c7520",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/results/selftrace-radices.json",
+      "sha256": "041f12af8bc41b0cd317911b67544b064a0b05a3ab21229254ade44696d0f356",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "041f12af8bc41b0cd317911b67544b064a0b05a3ab21229254ade44696d0f356",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/results/selftrace-full-64.json",
+      "sha256": "6a713dbf199518dc9d3c77b7b5959bbab2525ee92bafda3a34e02d210b9f31d0",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "6a713dbf199518dc9d3c77b7b5959bbab2525ee92bafda3a34e02d210b9f31d0",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/results/selftrace-full-100.json",
+      "sha256": "5d0f5744a22db6030a2d144ea65d53f8293e6aaba12bbf0e8eb2359ac0c093c0",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "5d0f5744a22db6030a2d144ea65d53f8293e6aaba12bbf0e8eb2359ac0c093c0",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/results/selftrace-memory.json",
+      "sha256": "8dca038cece2545666727c3775eb354081ab2d0259cddb0aaf1b3e11676565f3",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "8dca038cece2545666727c3775eb354081ab2d0259cddb0aaf1b3e11676565f3",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/results/selftrace-checkpoint.json",
+      "sha256": "4dec2881fa4101497cd40f3626448604651ec89a58bd55371bff2b049c0f1c38",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "4dec2881fa4101497cd40f3626448604651ec89a58bd55371bff2b049c0f1c38",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/results/selftrace-load64.json",
+      "sha256": "21e5937d3a7bc41e4e7d0a08b627fe937bd61f47eb92a158913f3b844d3a0f11",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "21e5937d3a7bc41e4e7d0a08b627fe937bd61f47eb92a158913f3b844d3a0f11",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/results/selftrace-load100.json",
+      "sha256": "61a990bb27699da22d603b43edc625645ec6c337fba253137cd4b0e6b8fa3efd",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "61a990bb27699da22d603b43edc625645ec6c337fba253137cd4b0e6b8fa3efd",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/results/selftrace-load64.mixal",
+      "sha256": "b1870a81f4df5ddfce6f1c3799eb707a5c37a860f97f1ddb81fb627ebdcc3f5a",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "b1870a81f4df5ddfce6f1c3799eb707a5c37a860f97f1ddb81fb627ebdcc3f5a",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/results/selftrace-load100.mixal",
+      "sha256": "71e5bdf16e94ae556e248c9b3dd1559423796dade484e7525a2648140f2ecc07",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "71e5bdf16e94ae556e248c9b3dd1559423796dade484e7525a2648140f2ecc07",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/images/vol1-p212.png",
+      "sha256": "850be7062efd0302787fd50dbaf5453b7fba729b6bbf9a6cc00913c1943870e8",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "850be7062efd0302787fd50dbaf5453b7fba729b6bbf9a6cc00913c1943870e8",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/images/vol1-p213.png",
+      "sha256": "6f996446edec67edbfc7ab763799ef739799782d6a3722c6979eed12cd842fa1",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "6f996446edec67edbfc7ab763799ef739799782d6a3722c6979eed12cd842fa1",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/images/vol1-p214.png",
+      "sha256": "5a34c60c17c01cf4ea41e97b34352b5bcb44fc182d603df718196fa30c2e9eb6",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "5a34c60c17c01cf4ea41e97b34352b5bcb44fc182d603df718196fa30c2e9eb6",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/images/vol1-p530.png",
+      "sha256": "a0158829afed50f0ae28b1d99d7451249b43d8e949abc1adc226ba1db5f15b55",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "a0158829afed50f0ae28b1d99d7451249b43d8e949abc1adc226ba1db5f15b55",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/images/vol1-p531.png",
+      "sha256": "06774c93c26319d2f3e2e4aaa9955c2702f19a1f4445efbad8dc68c5990f93c8",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "06774c93c26319d2f3e2e4aaa9955c2702f19a1f4445efbad8dc68c5990f93c8",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/images/errata-all1-prepre-p17.png",
+      "sha256": "24ce9f0663dc12b542f199936e719545f247d09ff96bdf452fef20bb51f0855d",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "24ce9f0663dc12b542f199936e719545f247d09ff96bdf452fef20bb51f0855d",
+      "matches": true
+    },
+    {
+      "path": "parallel/interpretive/images/errata-all1-prepre-p39.png",
+      "sha256": "336aa39108051a2ae6e3099be550167cde9b03a5d829c1a778c662b4bc9e5ee6",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "336aa39108051a2ae6e3099be550167cde9b03a5d829c1a778c662b4bc9e5ee6",
+      "matches": true
+    },
+    {
+      "path": "mixal.py",
+      "sha256": "e0b0b5f8cabb9d42d6fc453e92a6619ecda7fc2fe7879448f14d6f7f8595798b",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "e0b0b5f8cabb9d42d6fc453e92a6619ecda7fc2fe7879448f14d6f7f8595798b",
+      "matches": true
+    },
+    {
+      "path": "mix_machine.py",
+      "sha256": "5fda9d6efe247f7bb637c1725e8426d9a0d449b71129bfd3263fd9a21e6b8eac",
+      "prior_manifest": "results/artifact-manifest-mixal-crypt-easter.json",
+      "prior_sha256": "5fda9d6efe247f7bb637c1725e8426d9a0d449b71129bfd3263fd9a21e6b8eac",
+      "matches": true
+    },
+    {
+      "path": "mix_io.py",
+      "sha256": "2e9acf99129a3db88f8ece13c6965e22ff3445d5a309acfa110664cc1a494995",
+      "prior_manifest": "results/artifact-manifest-mixal-crypt-easter.json",
+      "prior_sha256": "2e9acf99129a3db88f8ece13c6965e22ff3445d5a309acfa110664cc1a494995",
+      "matches": true
+    }
+  ],
+  "recovery_context": [
+    {
+      "path": "notes/quality-recovery-section-1.4.3.2-2026-11-07.md",
+      "sha256": "77cc02de709b04bc850e135df5f68e435d40e69d78b08aefcef37b5a8d801f09"
+    },
+    {
+      "path": "notes/quality-recovery-section-1.4.3.1-2026-11-07.md",
+      "sha256": "5fe09829cef55c1980f7a0704e01db89308617f86f76757966b812aae9620b10"
+    },
+    {
+      "path": "notes/sequential-interpreters-2026-11-05.md",
+      "sha256": "f6cbd1968be2a7da4bec35c0074efb4a31c830cf2c8ea0d59314e66846ca7556"
+    },
+    {
+      "path": "sources/sequential-2026-11-05/interpreters-errata-extract.json",
+      "sha256": "fc9373fae0bca20e7c3493dcd97e5c56b8ef5e15072cb437bcf673ccccf52b78"
+    }
+  ],
+  "new_artifacts": [
+    {
+      "path": "parallel/interpretive/recovery_selftrace_program.py",
+      "sha256": "f52034469e67bdca41e11e7b8f864667775d83fb76e97e070f33ff078a3004f6"
+    },
+    {
+      "path": "parallel/interpretive/check_recovery_selftrace.py",
+      "sha256": "5d540add62cfd77a5e0038a551883669a054a588b5b519a9a6718b542fd5523c"
+    },
+    {
+      "path": "parallel/interpretive/results/recovery-selftrace-2026-11-07.json",
+      "sha256": "ba8bc11cc01825ef03f6b2c618990a0aae4db405edeabedd3c2da6c2a3e16e3f"
+    },
+    {
+      "path": "parallel/interpretive/results/recovery-selftrace-load64-2026-11-07.mixal",
+      "sha256": "690899988bc28c0885e570b907624774c0a59bf359ba1ee822a7ce9acf421c92"
+    },
+    {
+      "path": "parallel/interpretive/results/recovery-selftrace-load64-2026-11-07.json",
+      "sha256": "365cfc9c0e6e4f385da3386586751df3771b3e103bf5e4e82c72399f30f3652c"
+    },
+    {
+      "path": "parallel/interpretive/results/recovery-selftrace-load100-2026-11-07.mixal",
+      "sha256": "9787f2adb07d9766d7be1d91908f17ce10c62723d29b363a692854a7ea794be7"
+    },
+    {
+      "path": "parallel/interpretive/results/recovery-selftrace-load100-2026-11-07.json",
+      "sha256": "a98055969f6b2bcd4937222898a648d5472c34e5161f65cc70b2268e2f8f0bb9"
+    }
+  ],
+  "original_images": [
+    "parallel/interpretive/images/vol1-p212.png",
+    "parallel/interpretive/images/vol1-p213.png",
+    "parallel/interpretive/images/vol1-p214.png",
+    "parallel/interpretive/images/vol1-p530.png",
+    "parallel/interpretive/images/vol1-p531.png"
+  ],
+  "direct_errata_images": [
+    "parallel/interpretive/images/errata-all1-prepre-p17.png",
+    "parallel/interpretive/images/errata-all1-prepre-p39.png"
+  ],
+  "layers": [
+    {
+      "path": "errata/text/all1-prepre.txt",
+      "sha256": "1a3c3ac6137b9e98f427de0a344efca46fd83b7a3e6e8fe2fa38e94525ca0c31",
+      "bytes": 143588,
+      "selected_page_blocks": [
+        {
+          "page": 213,
+          "text": "xPage 213 line 28 of the program                                                 24 De 2001\n    JXL   y JXNP"
+        },
+        {
+          "page": 531,
+          "text": "Page 531 in the right-hand olumn of answer 2                                 03 Sep 2008\n      ..............lines 14{31\n            LD1 I1REG                  y              LD1 I1REG\n                                                ..............lines 14{35\n      ..............lines 32{35\nx"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all1-pre.txt",
+      "sha256": "89d231245ff44164e09a39903faac35a2dc5e89956857abcc974991c99a887e5",
+      "bytes": 63766,
+      "selected_page_blocks": []
+    },
+    {
+      "path": "errata/text/all1.txt",
+      "sha256": "b641d6e48aaf2d77fc98a3c4a8a798d8156516b97095ec345a976e65d9c79aef",
+      "bytes": 45229,
+      "selected_page_blocks": [
+        {
+          "page": 212,
+          "text": "Page 212 new exer ise                                                                01 Jan 2025\n      [20 ℄ Write the SPEC routine, whi h is missing from the program in the text\n      9.\n  (operation ode 5). It's OK to let NUM and CHAR simulate themselves."
+        }
+      ]
+    },
+    {
+      "path": "errata/text/err1.txt",
+      "sha256": "ecae8755d7d9f86c5dbcbd782767f0cf8e6bf7f89d9c57ed0a27ad2344461f30",
+      "bytes": 41067,
+      "selected_page_blocks": [
+        {
+          "page": 212,
+          "text": "Page 212 new exer ise                                                    01 Jan 2025\n   9. [20 ℄ Write the SPEC routine, whi h is missing from the program in the text\n  (operation ode 5). It's OK to let NUM and CHAR simulate themselves."
+        }
+      ]
+    }
+  ],
+  "new_mathematical_runs": 2,
+  "new_targeted_test_commands": 1,
+  "test_execution_note": "Small recovery validator run, then repeated after source trailing-whitespace normalization; final artifacts/hash match final source. Each execution222 LOG cases/4995 steps plus202 full-state checks/55634 steps in two100-instruction prefixes. Two new load images roundtrip exactly; no long run restarted.",
+  "old_runs_repeated": 0,
+  "new_findings": 0,
+  "new_mathematical_gaps": 0,
+  "internal_implementation_corrections": 1,
+  "complete_section_evidence_review": true,
+  "mathematical_scope": "Every short-tracer instruction/flag/branch, complete J restoration and tape format, both self/mutual failures, full logical-memory recursive self-tracer and finite-capacity proof; complete jump-trace reconstruction with assumptions.",
+  "retained_limits": [
+    "C0039 private-memory-read interpretation remains candidate and main text remains partial.",
+    "I/O timing is not equated with the uninstrumented physical machine; self-tracer logical printer is completed synchronously.",
+    "Jump-trace bursts require noninterference with patched words, separate STJ handling and start/end metadata.",
+    "Own oldLOG incorrectly claimed whole-word negative-zero sign preservation; corrected derivative adds2 words and ends3537.",
+    "Legacy4465344-step and maximum-capacity records belong to original source; neither is claimed as a new-version full run.",
+    "No full2000-word self-trace exhaustion run and no formal machine-emulator proof claimed."
+  ],
+  "remaining_scope": "Whole1.4.4 Input and Output and every subsection/exercise; oldest mathematical gap1.2.1/p16 unchanged."
+}

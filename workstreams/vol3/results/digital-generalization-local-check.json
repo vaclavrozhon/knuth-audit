@@ -1,0 +1,27 @@
+{
+  "purpose": "Targeted check of the missing 1/(M-1) coefficient in answer 6.3-28; no census or general verifier.",
+  "M": 3,
+  "expected_limiting_coefficient": "1/2, instead of 1 in the printed successful-search expansion",
+  "alpha_M": "0.682153502605238066761263181927",
+  "method": "Direct convergent product form preceding (14), 55 outer terms and 149 product factors at 60 decimal digits; numerical support, analytic argument is in the finding note.",
+  "rows": [
+    {
+      "N": 81,
+      "log_M_N": "4.0",
+      "residual": "1.42526359835090935289164",
+      "residual_div_log_M_N": "0.35631589958772733822291"
+    },
+    {
+      "N": 6561,
+      "log_M_N": "8.0",
+      "residual": "3.421782964626423864884625",
+      "residual_div_log_M_N": "0.4277228705783029831105782"
+    },
+    {
+      "N": 531441,
+      "log_M_N": "12.0",
+      "residual": "5.421739846842243051349039",
+      "residual_div_log_M_N": "0.4518116539035202542790866"
+    }
+  ]
+}

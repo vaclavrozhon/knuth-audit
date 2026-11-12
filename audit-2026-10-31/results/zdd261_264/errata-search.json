@@ -1,0 +1,38 @@
+{
+  "at_utc": "2026-11-03T20:12:56.147340+00:00",
+  "pattern": "(?:[Pp]age\\s+(?:121|123|153|155|482|483|484|290|291|292)\\b)|(?:\\b26[1-5]\\b)|Beluhov|Nishino|Huang|992340|3803972|47356|symmetric|vertex.disjoint",
+  "files": [
+    {
+      "file": "errata/text/all4b.txt",
+      "sha256": "b1a3425486f403fb4158585d5bbfef0159fd20b12e2e7d47b64e393e1ae8a303",
+      "matches": 12
+    },
+    {
+      "file": "errata/text/err4b.txt",
+      "sha256": "2a3450bf3c79d28ad3c2d96468344c96995cf0afb74961f257c311bb9c821e1c",
+      "matches": 12
+    },
+    {
+      "file": "errata/text/all4f5.txt",
+      "sha256": "0dd38c4cda72b01baefb797611c9bbab7713ff0c107a1df884afc89fe9bb91c3",
+      "matches": 11
+    },
+    {
+      "file": "errata/text/err4f5.txt",
+      "sha256": "5a716c34e2063eb46005593d53e89dbbd912b5677e0a6ab11753f2a5ee38b557",
+      "matches": 10
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "sha256": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+      "matches": 13
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "sha256": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b",
+      "matches": 13
+    }
+  ],
+  "context": "sources/zdd261_264/errata-contexts.txt",
+  "freshness_evidence": "results/csharp247_250/errata-search.json"
+}

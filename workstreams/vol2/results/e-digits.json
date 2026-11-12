@@ -1,0 +1,4074 @@
+{
+  "status": "completed",
+  "terms_through_k": 4797,
+  "rigorous_interval": "[sum(1/j!,j=0..K), sum(1/j!,j=0..K)+1/(K*K!)]",
+  "interpretation": "Fixed prefix counts; chi-square CDF is asymptotic calibration, not a proof about normality of e.",
+  "bases": {
+    "2": {
+      "scaled_floor_certified": true,
+      "fractional_sha256": "dabbbd2baded0629e977d7a4fe556e6e5b8e0a70de940bc325fda4d78d40964f",
+      "first32": "10110111111000010101000101100010",
+      "last32": "01101101001000110000101001000111",
+      "samples": {
+        "2000": {
+          "fractional_only": {
+            "counts": [
+              952,
+              1048
+            ],
+            "chi_square": "576/125",
+            "decimal_chi_square": 4.608,
+            "asymptotic_chi_square_CDF": "0.968176872613509831302697973741"
+          },
+          "including_integer_part": {
+            "counts": [
+              953,
+              1047
+            ],
+            "chi_square": "2209/500",
+            "decimal_chi_square": 4.418,
+            "asymptotic_chi_square_CDF": "0.964438305045348774157510466257"
+          }
+        },
+        "10000": {
+          "fractional_only": {
+            "counts": [
+              4978,
+              5022
+            ],
+            "chi_square": "121/625",
+            "decimal_chi_square": 0.1936,
+            "asymptotic_chi_square_CDF": "0.340062892678812655935321026615"
+          },
+          "including_integer_part": {
+            "counts": [
+              4979,
+              5021
+            ],
+            "chi_square": "441/2500",
+            "decimal_chi_square": 0.1764,
+            "asymptotic_chi_square_CDF": "0.325514546303501011421349583882"
+          }
+        }
+      }
+    },
+    "3": {
+      "scaled_floor_certified": true,
+      "fractional_sha256": "1b76ed48cb026179c44c0519a35cb1ca898c3e93da5fac0750d0a0510b864556",
+      "first32": "20110112122110201101222210201102",
+      "last32": "10101202201102012111012212002201",
+      "samples": {
+        "2000": {
+          "fractional_only": {
+            "counts": [
+              670,
+              667,
+              663
+            ],
+            "chi_square": "37/1000",
+            "decimal_chi_square": 0.037,
+            "asymptotic_chi_square_CDF": "0.0183299254082085182897315069275"
+          },
+          "including_integer_part": {
+            "counts": [
+              670,
+              667,
+              663
+            ],
+            "chi_square": "37/1000",
+            "decimal_chi_square": 0.037,
+            "asymptotic_chi_square_CDF": "0.0183299254082085182897315069275"
+          }
+        },
+        "10000": {
+          "fractional_only": {
+            "counts": [
+              3374,
+              3287,
+              3339
+            ],
+            "chi_square": "5749/5000",
+            "decimal_chi_square": 1.1498,
+            "asymptotic_chi_square_CDF": "0.437238857892545480785439246487"
+          },
+          "including_integer_part": {
+            "counts": [
+              3374,
+              3286,
+              3340
+            ],
+            "chi_square": "1477/1250",
+            "decimal_chi_square": 1.1816,
+            "asymptotic_chi_square_CDF": "0.446115999755842591199163516804"
+          }
+        }
+      }
+    },
+    "4": {
+      "scaled_floor_certified": true,
+      "fractional_sha256": "b0087859e6d843310f28e6672af9e8b61fdf551d8025e7e648c42667aa4db975",
+      "first32": "23133201110112022022323102221222",
+      "last32": "12222310021002303031323303123332",
+      "samples": {
+        "2000": {
+          "fractional_only": {
+            "counts": [
+              488,
+              484,
+              481,
+              547
+            ],
+            "chi_square": "297/50",
+            "decimal_chi_square": 5.94,
+            "asymptotic_chi_square_CDF": "0.885433874300854897296328983499"
+          },
+          "including_integer_part": {
+            "counts": [
+              488,
+              483,
+              482,
+              547
+            ],
+            "chi_square": "1483/250",
+            "decimal_chi_square": 5.932,
+            "asymptotic_chi_square_CDF": "0.885034149439620684869128212514"
+          }
+        },
+        "10000": {
+          "fractional_only": {
+            "counts": [
+              2519,
+              2472,
+              2463,
+              2546
+            ],
+            "chi_square": "463/250",
+            "decimal_chi_square": 1.852,
+            "asymptotic_chi_square_CDF": "0.396314949632622105664280339318"
+          },
+          "including_integer_part": {
+            "counts": [
+              2519,
+              2472,
+              2463,
+              2546
+            ],
+            "chi_square": "463/250",
+            "decimal_chi_square": 1.852,
+            "asymptotic_chi_square_CDF": "0.396314949632622105664280339318"
+          }
+        }
+      }
+    },
+    "5": {
+      "scaled_floor_certified": true,
+      "fractional_sha256": "5973b12b23b8b7f4685446171f02b4076e98a9620dc9962a7850f069af85b7a9",
+      "first32": "32434303404423034041031033101324",
+      "last32": "40040130104222214324400411403130",
+      "samples": {
+        "2000": {
+          "fractional_only": {
+            "counts": [
+              425,
+              416,
+              390,
+              401,
+              368
+            ],
+            "chi_square": "1003/200",
+            "decimal_chi_square": 5.015,
+            "asymptotic_chi_square_CDF": "0.714238138470860184538516637519"
+          },
+          "including_integer_part": {
+            "counts": [
+              425,
+              415,
+              391,
+              401,
+              368
+            ],
+            "chi_square": "489/100",
+            "decimal_chi_square": 4.89,
+            "asymptotic_chi_square_CDF": "0.701228465263536237697903866895"
+          }
+        },
+        "10000": {
+          "fractional_only": {
+            "counts": [
+              1990,
+              1967,
+              2002,
+              2003,
+              2038
+            ],
+            "chi_square": "1323/1000",
+            "decimal_chi_square": 1.323,
+            "asymptotic_chi_square_CDF": "0.142538664871239802945229814825"
+          },
+          "including_integer_part": {
+            "counts": [
+              1989,
+              1967,
+              2003,
+              2003,
+              2038
+            ],
+            "chi_square": "167/125",
+            "decimal_chi_square": 1.336,
+            "asymptotic_chi_square_CDF": "0.144761324238126619960267304343"
+          }
+        }
+      }
+    },
+    "6": {
+      "scaled_floor_certified": true,
+      "fractional_sha256": "05e598f986561558ca27d7c2160c9537fd89590c710461de8465052767094b69",
+      "first32": "41505205352424312312540435235440",
+      "last32": "05312531014051214035034151424532",
+      "samples": {
+        "2000": {
+          "fractional_only": {
+            "counts": [
+              347,
+              304,
+              312,
+              335,
+              350,
+              352
+            ],
+            "chi_square": "3197/500",
+            "decimal_chi_square": 6.394,
+            "asymptotic_chi_square_CDF": "0.730254197258396823727367622773"
+          },
+          "including_integer_part": {
+            "counts": [
+              347,
+              303,
+              313,
+              335,
+              350,
+              352
+            ],
+            "chi_square": "806/125",
+            "decimal_chi_square": 6.448,
+            "asymptotic_chi_square_CDF": "0.734967072750250075280713910675"
+          }
+        },
+        "10000": {
+          "fractional_only": {
+            "counts": [
+              1673,
+              1613,
+              1654,
+              1692,
+              1737,
+              1631
+            ],
+            "chi_square": "3728/625",
+            "decimal_chi_square": 5.9648,
+            "asymptotic_chi_square_CDF": "0.690340883536412859291807205417"
+          },
+          "including_integer_part": {
+            "counts": [
+              1673,
+              1613,
+              1654,
+              1692,
+              1737,
+              1631
+            ],
+            "chi_square": "3728/625",
+            "decimal_chi_square": 5.9648,
+            "asymptotic_chi_square_CDF": "0.690340883536412859291807205417"
+          }
+        }
+      }
+    },
+    "7": {
+      "scaled_floor_certified": true,
+      "fractional_sha256": "53b7256ab4b5cf32a89919c33d712c3f8d31238a4815499a42b27656635456d1",
+      "first32": "50124106542265043353530003006264",
+      "last32": "66130620002434631133515005404262",
+      "samples": {
+        "2000": {
+          "fractional_only": {
+            "counts": [
+              262,
+              287,
+              294,
+              295,
+              286,
+              263,
+              313
+            ],
+            "chi_square": "866/125",
+            "decimal_chi_square": 6.928,
+            "asymptotic_chi_square_CDF": "0.672442885926675934357501903993"
+          },
+          "including_integer_part": {
+            "counts": [
+              262,
+              287,
+              295,
+              294,
+              286,
+              263,
+              313
+            ],
+            "chi_square": "866/125",
+            "decimal_chi_square": 6.928,
+            "asymptotic_chi_square_CDF": "0.672442885926675934357501903993"
+          }
+        },
+        "10000": {
+          "fractional_only": {
+            "counts": [
+              1403,
+              1424,
+              1454,
+              1407,
+              1426,
+              1403,
+              1483
+            ],
+            "chi_square": "9467/2500",
+            "decimal_chi_square": 3.7868,
+            "asymptotic_chi_square_CDF": "0.294498152210609397303147694391"
+          },
+          "including_integer_part": {
+            "counts": [
+              1403,
+              1424,
+              1454,
+              1407,
+              1426,
+              1403,
+              1483
+            ],
+            "chi_square": "9467/2500",
+            "decimal_chi_square": 3.7868,
+            "asymptotic_chi_square_CDF": "0.294498152210609397303147694391"
+          }
+        }
+      }
+    },
+    "8": {
+      "scaled_floor_certified": true,
+      "fractional_sha256": "53b5f455826a4c31a54de75ac2608399d7ab8c309a9062aba864a32e32b15c66",
+      "first32": "55760521305053551246527734254200",
+      "last32": "45707505745730063407325571707352",
+      "samples": {
+        "2000": {
+          "fractional_only": {
+            "counts": [
+              227,
+              245,
+              249,
+              240,
+              258,
+              263,
+              263,
+              255
+            ],
+            "chi_square": "541/125",
+            "decimal_chi_square": 4.328,
+            "asymptotic_chi_square_CDF": "0.258682413143604899847553151206"
+          },
+          "including_integer_part": {
+            "counts": [
+              227,
+              244,
+              250,
+              240,
+              258,
+              263,
+              263,
+              255
+            ],
+            "chi_square": "546/125",
+            "decimal_chi_square": 4.368,
+            "asymptotic_chi_square_CDF": "0.26345158274391518175640837438"
+          }
+        },
+        "10000": {
+          "fractional_only": {
+            "counts": [
+              1256,
+              1219,
+              1285,
+              1253,
+              1229,
+              1227,
+              1260,
+              1271
+            ],
+            "chi_square": "1871/625",
+            "decimal_chi_square": 2.9936,
+            "asymptotic_chi_square_CDF": "0.114406348086297637235457123174"
+          },
+          "including_integer_part": {
+            "counts": [
+              1256,
+              1219,
+              1285,
+              1253,
+              1229,
+              1227,
+              1260,
+              1271
+            ],
+            "chi_square": "1871/625",
+            "decimal_chi_square": 2.9936,
+            "asymptotic_chi_square_CDF": "0.114406348086297637235457123174"
+          }
+        }
+      }
+    },
+    "9": {
+      "scaled_floor_certified": true,
+      "fractional_sha256": "ff49c718d0faae9f0f676a36ca6c07a01d343cc1b4b66a32abd93b5a5fffcc2b",
+      "first32": "64155736418836425865288378521548",
+      "last32": "53706660363538148226727153467370",
+      "samples": {
+        "2000": {
+          "fractional_only": {
+            "counts": [
+              219,
+              235,
+              220,
+              214,
+              221,
+              236,
+              223,
+              220,
+              212
+            ],
+            "chi_square": "308/125",
+            "decimal_chi_square": 2.464,
+            "asymptotic_chi_square_CDF": "0.0366114628112187505226722813194"
+          },
+          "including_integer_part": {
+            "counts": [
+              219,
+              235,
+              221,
+              214,
+              221,
+              236,
+              223,
+              220,
+              211
+            ],
+            "chi_square": "509/200",
+            "decimal_chi_square": 2.545,
+            "asymptotic_chi_square_CDF": "0.0404005331227069658664782917841"
+          }
+        },
+        "10000": {
+          "fractional_only": {
+            "counts": [
+              1118,
+              1148,
+              1146,
+              1071,
+              1103,
+              1067,
+              1126,
+              1131,
+              1090
+            ],
+            "chi_square": "3289/500",
+            "decimal_chi_square": 6.578,
+            "asymptotic_chi_square_CDF": "0.417230571595700829202401177247"
+          },
+          "including_integer_part": {
+            "counts": [
+              1117,
+              1148,
+              1147,
+              1071,
+              1103,
+              1067,
+              1126,
+              1131,
+              1090
+            ],
+            "chi_square": "33151/5000",
+            "decimal_chi_square": 6.6302,
+            "asymptotic_chi_square_CDF": "0.422995246358010575066595060891"
+          }
+        }
+      }
+    },
+    "10": {
+      "scaled_floor_certified": true,
+      "fractional_sha256": "2a663d056247d19b669fcae61f209cd4d71bcde9c7e66daaf6158a13767224f9",
+      "first32": "71828182845904523536028747135266",
+      "last32": "62583599051987042300179465536788",
+      "samples": {
+        "2000": {
+          "fractional_only": {
+            "counts": [
+              196,
+              190,
+              207,
+              202,
+              201,
+              197,
+              204,
+              198,
+              202,
+              203
+            ],
+            "chi_square": "53/50",
+            "decimal_chi_square": 1.06,
+            "asymptotic_chi_square_CDF": "0.00071366977230593809223811235371"
+          },
+          "including_integer_part": {
+            "counts": [
+              196,
+              190,
+              208,
+              202,
+              201,
+              197,
+              204,
+              198,
+              202,
+              202
+            ],
+            "chi_square": "111/100",
+            "decimal_chi_square": 1.11,
+            "asymptotic_chi_square_CDF": "0.000860661085456259359132155094544"
+          }
+        },
+        "10000": {
+          "fractional_only": {
+            "counts": [
+              974,
+              989,
+              1004,
+              1008,
+              982,
+              992,
+              1079,
+              1008,
+              996,
+              968
+            ],
+            "chi_square": "861/100",
+            "decimal_chi_square": 8.61,
+            "asymptotic_chi_square_CDF": "0.52597547570047028001156701165"
+          },
+          "including_integer_part": {
+            "counts": [
+              974,
+              989,
+              1005,
+              1008,
+              982,
+              992,
+              1079,
+              1008,
+              995,
+              968
+            ],
+            "chi_square": "2157/250",
+            "decimal_chi_square": 8.628,
+            "asymptotic_chi_square_CDF": "0.527703301919961966205753721057"
+          }
+        }
+      }
+    },
+    "11": {
+      "scaled_floor_certified": true,
+      "fractional_sha256": "fcb7dad11f703226a274997aa26d685f1d22810bc80e0b405a04049908088037",
+      "first32": "79A04008A9A1A053A780049724119153",
+      "last32": "9208361A7385A0083A8360734489A852",
+      "samples": {
+        "2000": {
+          "fractional_only": {
+            "counts": [
+              179,
+              196,
+              177,
+              179,
+              180,
+              169,
+              199,
+              185,
+              173,
+              171,
+              192
+            ],
+            "chi_square": "1391/250",
+            "decimal_chi_square": 5.564,
+            "asymptotic_chi_square_CDF": "0.149531509775755627285353776279"
+          },
+          "including_integer_part": {
+            "counts": [
+              179,
+              196,
+              178,
+              179,
+              180,
+              169,
+              198,
+              185,
+              173,
+              171,
+              192
+            ],
+            "chi_square": "5333/1000",
+            "decimal_chi_square": 5.333,
+            "asymptotic_chi_square_CDF": "0.132147310828616646474772121176"
+          }
+        },
+        "10000": {
+          "fractional_only": {
+            "counts": [
+              934,
+              924,
+              859,
+              916,
+              931,
+              919,
+              935,
+              878,
+              904,
+              864,
+              936
+            ],
+            "chi_square": "23097/2500",
+            "decimal_chi_square": 9.2388,
+            "asymptotic_chi_square_CDF": "0.490399394934931285172627932722"
+          },
+          "including_integer_part": {
+            "counts": [
+              934,
+              924,
+              859,
+              916,
+              931,
+              919,
+              935,
+              878,
+              904,
+              864,
+              936
+            ],
+            "chi_square": "23097/2500",
+            "decimal_chi_square": 9.2388,
+            "asymptotic_chi_square_CDF": "0.490399394934931285172627932722"
+          }
+        }
+      }
+    },
+    "12": {
+      "scaled_floor_certified": true,
+      "fractional_sha256": "5e4035204a608e089d13f48e6529a67ff5868bd0f1a06764e66b81a42d008b2e",
+      "first32": "8752360698219BA71971009B388AA876",
+      "last32": "19B1251542B273A4701414859629870B",
+      "samples": {
+        "2000": {
+          "fractional_only": {
+            "counts": [
+              162,
+              170,
+              159,
+              167,
+              167,
+              179,
+              179,
+              178,
+              160,
+              158,
+              163,
+              158
+            ],
+            "chi_square": "1099/250",
+            "decimal_chi_square": 4.396,
+            "asymptotic_chi_square_CDF": "0.043129170642468750987831719899"
+          },
+          "including_integer_part": {
+            "counts": [
+              162,
+              170,
+              160,
+              167,
+              167,
+              179,
+              179,
+              178,
+              160,
+              158,
+              163,
+              157
+            ],
+            "chi_square": "221/50",
+            "decimal_chi_square": 4.42,
+            "asymptotic_chi_square_CDF": "0.0440154936256737998159164121254"
+          }
+        },
+        "10000": {
+          "fractional_only": {
+            "counts": [
+              799,
+              865,
+              842,
+              845,
+              862,
+              833,
+              834,
+              810,
+              859,
+              809,
+              840,
+              802
+            ],
+            "chi_square": "1811/250",
+            "decimal_chi_square": 7.244,
+            "asymptotic_chi_square_CDF": "0.221006383718055088328554229221"
+          },
+          "including_integer_part": {
+            "counts": [
+              799,
+              865,
+              843,
+              845,
+              862,
+              833,
+              834,
+              810,
+              859,
+              809,
+              840,
+              801
+            ],
+            "chi_square": "4589/625",
+            "decimal_chi_square": 7.3424,
+            "asymptotic_chi_square_CDF": "0.229283789173458756665713374994"
+          }
+        }
+      }
+    },
+    "13": {
+      "scaled_floor_certified": true,
+      "fractional_sha256": "68ef3256d3d1df24f58e7de2e882438c87f67e7d24a5ff67d502625661d53a1e",
+      "first32": "9450B026A6BA1930037C3342517CA388",
+      "last32": "81B7776BC535491CA0A488000C9B251A",
+      "samples": {
+        "2000": {
+          "fractional_only": {
+            "counts": [
+              168,
+              150,
+              154,
+              142,
+              157,
+              156,
+              142,
+              135,
+              148,
+              185,
+              138,
+              171,
+              154
+            ],
+            "chi_square": "7851/500",
+            "decimal_chi_square": 15.702,
+            "asymptotic_chi_square_CDF": "0.794730624999487858230237939872"
+          },
+          "including_integer_part": {
+            "counts": [
+              168,
+              150,
+              155,
+              142,
+              157,
+              156,
+              142,
+              135,
+              147,
+              185,
+              138,
+              171,
+              154
+            ],
+            "chi_square": "15793/1000",
+            "decimal_chi_square": 15.793,
+            "asymptotic_chi_square_CDF": "0.799097935294769301786597653471"
+          }
+        },
+        "10000": {
+          "fractional_only": {
+            "counts": [
+              777,
+              753,
+              766,
+              740,
+              780,
+              758,
+              740,
+              733,
+              764,
+              815,
+              740,
+              837,
+              797
+            ],
+            "chi_square": "77599/5000",
+            "decimal_chi_square": 15.5198,
+            "asymptotic_chi_square_CDF": "0.785767280834502679754827863724"
+          },
+          "including_integer_part": {
+            "counts": [
+              777,
+              753,
+              767,
+              740,
+              780,
+              758,
+              740,
+              733,
+              764,
+              815,
+              739,
+              837,
+              797
+            ],
+            "chi_square": "1559/100",
+            "decimal_chi_square": 15.59,
+            "asymptotic_chi_square_CDF": "0.789255545199546625081557452123"
+          }
+        }
+      }
+    },
+    "14": {
+      "scaled_floor_certified": true,
+      "fractional_sha256": "fafb8c7a24809580542ac79b0defe1c8987c76294cea61e5280f6cc6fc87bd1d",
+      "first32": "A0AD72C57C64708D92524158ABB93C65",
+      "last32": "3009D32BA44499931133AB5A17CA2DDB",
+      "samples": {
+        "2000": {
+          "fractional_only": {
+            "counts": [
+              150,
+              132,
+              146,
+              136,
+              156,
+              145,
+              138,
+              150,
+              131,
+              145,
+              159,
+              136,
+              130,
+              146
+            ],
+            "chi_square": "387/50",
+            "decimal_chi_square": 7.74,
+            "asymptotic_chi_square_CDF": "0.139883494898366325200846339556"
+          },
+          "including_integer_part": {
+            "counts": [
+              150,
+              132,
+              147,
+              136,
+              156,
+              145,
+              138,
+              150,
+              130,
+              145,
+              159,
+              136,
+              130,
+              146
+            ],
+            "chi_square": "1991/250",
+            "decimal_chi_square": 7.964,
+            "asymptotic_chi_square_CDF": "0.154062329875757849719450859937"
+          }
+        },
+        "10000": {
+          "fractional_only": {
+            "counts": [
+              741,
+              687,
+              699,
+              679,
+              734,
+              752,
+              716,
+              682,
+              719,
+              737,
+              745,
+              700,
+              714,
+              695
+            ],
+            "chi_square": "13739/1250",
+            "decimal_chi_square": 10.9912,
+            "asymptotic_chi_square_CDF": "0.388445141248699054939115924653"
+          },
+          "including_integer_part": {
+            "counts": [
+              741,
+              687,
+              700,
+              679,
+              734,
+              752,
+              716,
+              682,
+              719,
+              737,
+              745,
+              699,
+              714,
+              695
+            ],
+            "chi_square": "13739/1250",
+            "decimal_chi_square": 10.9912,
+            "asymptotic_chi_square_CDF": "0.388445141248699054939115924653"
+          }
+        }
+      }
+    },
+    "15": {
+      "scaled_floor_certified": true,
+      "fractional_sha256": "fc0eaf501ef49a7b33289c30e3a4a946f8eca33504330039dd95d576d2a5744f",
+      "first32": "AB9303E43EB33620D2E31A85996E6CAC",
+      "last32": "9E0633657B8464391924798536B965C3",
+      "samples": {
+        "2000": {
+          "fractional_only": {
+            "counts": [
+              131,
+              149,
+              137,
+              145,
+              136,
+              136,
+              119,
+              118,
+              129,
+              113,
+              122,
+              121,
+              169,
+              134,
+              141
+            ],
+            "chi_square": "4349/200",
+            "decimal_chi_square": 21.745,
+            "asymptotic_chi_square_CDF": "0.915992007141433021853247406359"
+          },
+          "including_integer_part": {
+            "counts": [
+              131,
+              149,
+              138,
+              145,
+              136,
+              135,
+              119,
+              118,
+              129,
+              113,
+              122,
+              121,
+              169,
+              134,
+              141
+            ],
+            "chi_square": "871/40",
+            "decimal_chi_square": 21.775,
+            "asymptotic_chi_square_CDF": "0.916642749061528445923841397246"
+          }
+        },
+        "10000": {
+          "fractional_only": {
+            "counts": [
+              648,
+              674,
+              650,
+              738,
+              683,
+              666,
+              636,
+              624,
+              663,
+              652,
+              661,
+              656,
+              709,
+              701,
+              639
+            ],
+            "chi_square": "19361/1000",
+            "decimal_chi_square": 19.361,
+            "asymptotic_chi_square_CDF": "0.848391368452589279841492155326"
+          },
+          "including_integer_part": {
+            "counts": [
+              648,
+              674,
+              651,
+              737,
+              683,
+              666,
+              636,
+              624,
+              663,
+              652,
+              661,
+              656,
+              709,
+              701,
+              639
+            ],
+            "chi_square": "191/10",
+            "decimal_chi_square": 19.1,
+            "asymptotic_chi_square_CDF": "0.838836712706029840676101410287"
+          }
+        }
+      }
+    },
+    "16": {
+      "scaled_floor_certified": true,
+      "fractional_sha256": "14eff3080e7b0d5219553b0d97491a559b6627a342921d585c0919a5fe5208f4",
+      "first32": "B7E151628AED2A6ABF7158809CF4F3C7",
+      "last32": "301CAA36F09AEF9A9E40E77C14E8EDF6",
+      "samples": {
+        "2000": {
+          "fractional_only": {
+            "counts": [
+              142,
+              120,
+              116,
+              126,
+              118,
+              112,
+              114,
+              146,
+              130,
+              109,
+              128,
+              139,
+              117,
+              132,
+              121,
+              130
+            ],
+            "chi_square": "1816/125",
+            "decimal_chi_square": 14.528,
+            "asymptotic_chi_square_CDF": "0.514080909438985593978482088257"
+          },
+          "including_integer_part": {
+            "counts": [
+              142,
+              120,
+              117,
+              125,
+              118,
+              112,
+              114,
+              146,
+              130,
+              109,
+              128,
+              139,
+              117,
+              132,
+              121,
+              130
+            ],
+            "chi_square": "1798/125",
+            "decimal_chi_square": 14.384,
+            "asymptotic_chi_square_CDF": "0.503372465085521373368992616929"
+          }
+        },
+        "10000": {
+          "fractional_only": {
+            "counts": [
+              623,
+              620,
+              601,
+              611,
+              657,
+              602,
+              588,
+              639,
+              651,
+              575,
+              641,
+              650,
+              613,
+              642,
+              678,
+              609
+            ],
+            "chi_square": "11474/625",
+            "decimal_chi_square": 18.3584,
+            "asymptotic_chi_square_CDF": "0.755707627694655084960906003418"
+          },
+          "including_integer_part": {
+            "counts": [
+              623,
+              620,
+              602,
+              611,
+              657,
+              602,
+              587,
+              639,
+              651,
+              575,
+              641,
+              650,
+              613,
+              642,
+              678,
+              609
+            ],
+            "chi_square": "11502/625",
+            "decimal_chi_square": 18.4032,
+            "asymptotic_chi_square_CDF": "0.75793836776667807729257160551"
+          }
+        }
+      }
+    },
+    "17": {
+      "scaled_floor_certified": true,
+      "fractional_sha256": "0c7d1b7db54045bbc46b25d55d28efe09791e26bb5214817747ba7624d939043",
+      "first32": "C39FA835A5D75FF20D46116A0A470D80",
+      "last32": "1C4D5E7263221BE5851A0EG2C07090BC",
+      "samples": {
+        "2000": {
+          "fractional_only": {
+            "counts": [
+              121,
+              124,
+              127,
+              99,
+              117,
+              111,
+              106,
+              115,
+              122,
+              106,
+              127,
+              125,
+              123,
+              113,
+              109,
+              118,
+              137
+            ],
+            "chi_square": "6247/500",
+            "decimal_chi_square": 12.494,
+            "asymptotic_chi_square_CDF": "0.29066828747352985416754165149"
+          },
+          "including_integer_part": {
+            "counts": [
+              121,
+              124,
+              128,
+              99,
+              117,
+              111,
+              106,
+              115,
+              122,
+              106,
+              127,
+              125,
+              123,
+              113,
+              109,
+              118,
+              136
+            ],
+            "chi_square": "12341/1000",
+            "decimal_chi_square": 12.341,
+            "asymptotic_chi_square_CDF": "0.279808614800169578985953384062"
+          }
+        },
+        "10000": {
+          "fractional_only": {
+            "counts": [
+              555,
+              556,
+              631,
+              553,
+              568,
+              647,
+              583,
+              556,
+              612,
+              602,
+              590,
+              621,
+              591,
+              544,
+              550,
+              611,
+              630
+            ],
+            "chi_square": "18767/625",
+            "decimal_chi_square": 30.0272,
+            "asymptotic_chi_square_CDF": "0.982138332453344587037755442008"
+          },
+          "including_integer_part": {
+            "counts": [
+              555,
+              556,
+              632,
+              553,
+              568,
+              647,
+              583,
+              556,
+              612,
+              602,
+              590,
+              621,
+              590,
+              544,
+              550,
+              611,
+              630
+            ],
+            "chi_square": "150833/5000",
+            "decimal_chi_square": 30.1666,
+            "asymptotic_chi_square_CDF": "0.982842714473195566909438339148"
+          }
+        }
+      }
+    },
+    "18": {
+      "scaled_floor_certified": true,
+      "fractional_sha256": "c6fb7e3949211f12d89d5fd9776bf598ff4364b3ae19b19c787cfeb1d76c0500",
+      "first32": "CGD0668016A8FE9044BDBDGA903A5B41",
+      "last32": "32HCB9FD0G3G969F9139G36EH973BC92",
+      "samples": {
+        "2000": {
+          "fractional_only": {
+            "counts": [
+              101,
+              113,
+              115,
+              110,
+              109,
+              119,
+              110,
+              105,
+              112,
+              104,
+              109,
+              148,
+              110,
+              101,
+              100,
+              104,
+              103,
+              127
+            ],
+            "chi_square": "10079/500",
+            "decimal_chi_square": 20.158,
+            "asymptotic_chi_square_CDF": "0.733772262503948155249371364847"
+          },
+          "including_integer_part": {
+            "counts": [
+              101,
+              113,
+              116,
+              110,
+              109,
+              119,
+              110,
+              105,
+              112,
+              104,
+              109,
+              148,
+              110,
+              101,
+              99,
+              104,
+              103,
+              127
+            ],
+            "chi_square": "10223/500",
+            "decimal_chi_square": 20.446,
+            "asymptotic_chi_square_CDF": "0.747945191658991608300958497966"
+          }
+        },
+        "10000": {
+          "fractional_only": {
+            "counts": [
+              555,
+              538,
+              600,
+              522,
+              525,
+              560,
+              547,
+              533,
+              586,
+              569,
+              542,
+              585,
+              567,
+              604,
+              514,
+              545,
+              555,
+              553
+            ],
+            "chi_square": "51419/2500",
+            "decimal_chi_square": 20.5676,
+            "asymptotic_chi_square_CDF": "0.753769223829629488478783378455"
+          },
+          "including_integer_part": {
+            "counts": [
+              555,
+              538,
+              600,
+              522,
+              525,
+              560,
+              547,
+              533,
+              586,
+              569,
+              542,
+              585,
+              567,
+              604,
+              514,
+              545,
+              555,
+              553
+            ],
+            "chi_square": "51419/2500",
+            "decimal_chi_square": 20.5676,
+            "asymptotic_chi_square_CDF": "0.753769223829629488478783378455"
+          }
+        }
+      }
+    },
+    "19": {
+      "scaled_floor_certified": true,
+      "fractional_sha256": "de72b9e3afa7241e244f68eaa0c14250dc6b69fdf2b47fc5e2ca062af1d919ec",
+      "first32": "DC5D3H81FHG5G0CF3H61HBH493D3HAH2",
+      "last32": "11FDF070IH50I4EB38449H4047097G71",
+      "samples": {
+        "2000": {
+          "fractional_only": {
+            "counts": [
+              99,
+              95,
+              109,
+              112,
+              95,
+              103,
+              103,
+              108,
+              111,
+              113,
+              124,
+              107,
+              105,
+              122,
+              95,
+              89,
+              97,
+              106,
+              107
+            ],
+            "chi_square": "14209/1000",
+            "decimal_chi_square": 14.209,
+            "asymptotic_chi_square_CDF": "0.284631315900615328258371486343"
+          },
+          "including_integer_part": {
+            "counts": [
+              99,
+              95,
+              110,
+              112,
+              95,
+              103,
+              103,
+              108,
+              111,
+              112,
+              124,
+              107,
+              105,
+              122,
+              95,
+              89,
+              97,
+              106,
+              107
+            ],
+            "chi_square": "1769/125",
+            "decimal_chi_square": 14.152,
+            "asymptotic_chi_square_CDF": "0.280869840919046357176149911174"
+          }
+        },
+        "10000": {
+          "fractional_only": {
+            "counts": [
+              546,
+              534,
+              546,
+              534,
+              504,
+              490,
+              534,
+              532,
+              507,
+              528,
+              519,
+              542,
+              548,
+              537,
+              504,
+              517,
+              529,
+              537,
+              512
+            ],
+            "chi_square": "9447/1000",
+            "decimal_chi_square": 9.447,
+            "asymptotic_chi_square_CDF": "0.0515285939015084913311736754856"
+          },
+          "including_integer_part": {
+            "counts": [
+              546,
+              533,
+              547,
+              534,
+              504,
+              490,
+              534,
+              532,
+              507,
+              528,
+              519,
+              542,
+              548,
+              537,
+              504,
+              517,
+              529,
+              537,
+              512
+            ],
+            "chi_square": "23741/2500",
+            "decimal_chi_square": 9.4964,
+            "asymptotic_chi_square_CDF": "0.0528888094081540157777795554362"
+          }
+        }
+      }
+    },
+    "20": {
+      "scaled_floor_certified": true,
+      "fractional_sha256": "ab031bca768e7dccd47d16064a5ba148e30c0fec6d9864251f8569f548939c95",
+      "first32": "E7651H08B0C95DC5E73JB28H8C73JI54",
+      "last32": "D62GB2B9EB6CA69421GC8E744014307C",
+      "samples": {
+        "2000": {
+          "fractional_only": {
+            "counts": [
+              87,
+              97,
+              106,
+              95,
+              90,
+              119,
+              120,
+              102,
+              95,
+              102,
+              86,
+              101,
+              110,
+              98,
+              97,
+              102,
+              100,
+              91,
+              91,
+              111
+            ],
+            "chi_square": "173/10",
+            "decimal_chi_square": 17.3,
+            "asymptotic_chi_square_CDF": "0.430448548880426806066466617062"
+          },
+          "including_integer_part": {
+            "counts": [
+              87,
+              97,
+              107,
+              95,
+              90,
+              119,
+              120,
+              102,
+              95,
+              102,
+              86,
+              101,
+              110,
+              98,
+              97,
+              102,
+              100,
+              90,
+              91,
+              111
+            ],
+            "chi_square": "881/50",
+            "decimal_chi_square": 17.62,
+            "asymptotic_chi_square_CDF": "0.452060097178408827077710039168"
+          }
+        },
+        "10000": {
+          "fractional_only": {
+            "counts": [
+              485,
+              475,
+              486,
+              488,
+              456,
+              538,
+              554,
+              503,
+              495,
+              479,
+              470,
+              514,
+              522,
+              524,
+              532,
+              484,
+              524,
+              487,
+              482,
+              502
+            ],
+            "chi_square": "1247/50",
+            "decimal_chi_square": 24.94,
+            "asymptotic_chi_square_CDF": "0.837473306233523387675496298206"
+          },
+          "including_integer_part": {
+            "counts": [
+              485,
+              475,
+              487,
+              488,
+              456,
+              538,
+              554,
+              503,
+              495,
+              479,
+              470,
+              514,
+              521,
+              524,
+              532,
+              484,
+              524,
+              487,
+              482,
+              502
+            ],
+            "chi_square": "124/5",
+            "decimal_chi_square": 24.8,
+            "asymptotic_chi_square_CDF": "0.832768666499400329339327389859"
+          }
+        }
+      }
+    },
+    "21": {
+      "scaled_floor_certified": true,
+      "fractional_sha256": "49495b3bfaa2bfd5f24fa8d35d79399fde3587b374caf57fdd09f7f190b4c0de",
+      "first32": "F1G03B497F9EIBD0G75DH140JB9KFE02",
+      "last32": "51C86HFJCB9AB352K189J2EE2K9F60A9",
+      "samples": {
+        "2000": {
+          "fractional_only": {
+            "counts": [
+              105,
+              95,
+              101,
+              97,
+              89,
+              93,
+              86,
+              96,
+              96,
+              100,
+              105,
+              89,
+              99,
+              101,
+              86,
+              84,
+              97,
+              91,
+              92,
+              106,
+              92
+            ],
+            "chi_square": "1097/125",
+            "decimal_chi_square": 8.776,
+            "asymptotic_chi_square_CDF": "0.0146405556367933069450669294133"
+          },
+          "including_integer_part": {
+            "counts": [
+              105,
+              95,
+              102,
+              97,
+              89,
+              92,
+              86,
+              96,
+              96,
+              100,
+              105,
+              89,
+              99,
+              101,
+              86,
+              84,
+              97,
+              91,
+              92,
+              106,
+              92
+            ],
+            "chi_square": "1793/200",
+            "decimal_chi_square": 8.965,
+            "asymptotic_chi_square_CDF": "0.0166908883256144313966010131813"
+          }
+        },
+        "10000": {
+          "fractional_only": {
+            "counts": [
+              533,
+              467,
+              482,
+              469,
+              473,
+              500,
+              444,
+              459,
+              466,
+              479,
+              457,
+              460,
+              507,
+              461,
+              478,
+              470,
+              477,
+              481,
+              473,
+              494,
+              470
+            ],
+            "chi_square": "40211/2500",
+            "decimal_chi_square": 16.0844,
+            "asymptotic_chi_square_CDF": "0.288625402742856020653231448805"
+          },
+          "including_integer_part": {
+            "counts": [
+              533,
+              467,
+              483,
+              469,
+              473,
+              500,
+              444,
+              459,
+              466,
+              478,
+              457,
+              460,
+              507,
+              461,
+              478,
+              470,
+              477,
+              481,
+              473,
+              494,
+              470
+            ],
+            "chi_square": "40253/2500",
+            "decimal_chi_square": 16.1012,
+            "asymptotic_chi_square_CDF": "0.289673552984842606881258285339"
+          }
+        }
+      }
+    },
+    "22": {
+      "scaled_floor_certified": true,
+      "fractional_sha256": "9ad0720899f8c5130482906cc9fac45f8e2366d0f44c74607f61eacf451d03ab",
+      "first32": "FHE5I4GDFL242L51D7B8GBG02H0E0JL9",
+      "last32": "BLAE78H3JKF1H73E6GG0C50J465I0B1J",
+      "samples": {
+        "2000": {
+          "fractional_only": {
+            "counts": [
+              89,
+              91,
+              94,
+              83,
+              106,
+              99,
+              79,
+              89,
+              89,
+              98,
+              85,
+              103,
+              95,
+              84,
+              98,
+              83,
+              91,
+              104,
+              96,
+              77,
+              78,
+              89
+            ],
+            "chi_square": "8183/500",
+            "decimal_chi_square": 16.366,
+            "asymptotic_chi_square_CDF": "0.251252772236180735798797747674"
+          },
+          "including_integer_part": {
+            "counts": [
+              89,
+              91,
+              95,
+              83,
+              106,
+              99,
+              79,
+              89,
+              89,
+              97,
+              85,
+              103,
+              95,
+              84,
+              98,
+              83,
+              91,
+              104,
+              96,
+              77,
+              78,
+              89
+            ],
+            "chi_square": "163/10",
+            "decimal_chi_square": 16.3,
+            "asymptotic_chi_square_CDF": "0.247434641055197565880397228773"
+          }
+        },
+        "10000": {
+          "fractional_only": {
+            "counts": [
+              461,
+              419,
+              488,
+              443,
+              482,
+              444,
+              429,
+              461,
+              454,
+              482,
+              490,
+              513,
+              432,
+              422,
+              448,
+              440,
+              466,
+              467,
+              418,
+              437,
+              452,
+              452
+            ],
+            "chi_square": "36601/1250",
+            "decimal_chi_square": 29.2808,
+            "asymptotic_chi_square_CDF": "0.892578443137556908056308735149"
+          },
+          "including_integer_part": {
+            "counts": [
+              461,
+              419,
+              489,
+              443,
+              482,
+              444,
+              429,
+              461,
+              454,
+              482,
+              490,
+              513,
+              432,
+              422,
+              448,
+              440,
+              466,
+              467,
+              418,
+              436,
+              452,
+              452
+            ],
+            "chi_square": "36887/1250",
+            "decimal_chi_square": 29.5096,
+            "asymptotic_chi_square_CDF": "0.897705440172760027522143144388"
+          }
+        }
+      }
+    },
+    "23": {
+      "scaled_floor_certified": true,
+      "fractional_sha256": "23191ead6faba8c0bcc37330ba085d56c835800586cd38c90bba5868573876ca",
+      "first32": "GBM7G50F1BLGJ2GKAJD647IA81FB1J1A",
+      "last32": "1G3I23B02562JDIA5HKH42HH77BCBCAE",
+      "samples": {
+        "2000": {
+          "fractional_only": {
+            "counts": [
+              91,
+              96,
+              84,
+              95,
+              91,
+              86,
+              74,
+              104,
+              85,
+              73,
+              91,
+              91,
+              90,
+              90,
+              82,
+              79,
+              100,
+              91,
+              84,
+              78,
+              77,
+              81,
+              87
+            ],
+            "chi_square": "8021/500",
+            "decimal_chi_square": 16.042,
+            "asymptotic_chi_square_CDF": "0.186204157030387392099737479572"
+          },
+          "including_integer_part": {
+            "counts": [
+              91,
+              96,
+              85,
+              95,
+              91,
+              86,
+              74,
+              104,
+              85,
+              73,
+              91,
+              91,
+              90,
+              90,
+              82,
+              79,
+              100,
+              91,
+              84,
+              78,
+              77,
+              81,
+              86
+            ],
+            "chi_square": "3999/250",
+            "decimal_chi_square": 15.996,
+            "asymptotic_chi_square_CDF": "0.183915734016960905829132728825"
+          }
+        },
+        "10000": {
+          "fractional_only": {
+            "counts": [
+              420,
+              449,
+              454,
+              418,
+              412,
+              433,
+              446,
+              463,
+              451,
+              435,
+              451,
+              451,
+              441,
+              450,
+              426,
+              406,
+              455,
+              408,
+              420,
+              427,
+              417,
+              426,
+              441
+            ],
+            "chi_square": "9082/625",
+            "decimal_chi_square": 14.5312,
+            "asymptotic_chi_square_CDF": "0.118440604578870705412681825066"
+          },
+          "including_integer_part": {
+            "counts": [
+              420,
+              449,
+              455,
+              418,
+              412,
+              433,
+              446,
+              463,
+              451,
+              435,
+              451,
+              451,
+              441,
+              450,
+              425,
+              406,
+              455,
+              408,
+              420,
+              427,
+              417,
+              426,
+              441
+            ],
+            "chi_square": "73323/5000",
+            "decimal_chi_square": 14.6646,
+            "asymptotic_chi_square_CDF": "0.123774799627904587313402684687"
+          }
+        }
+      }
+    },
+    "24": {
+      "scaled_floor_certified": true,
+      "fractional_sha256": "50af16d97f8ed9c7a4591a66bf839dee752494a48f9e6989096c67555e329ed7",
+      "first32": "H5HCG30ECNGI02K1NK61707HABJDH9AF",
+      "last32": "CH3M67I22H2MF0GMC4L2BL8NKFEND084",
+      "samples": {
+        "2000": {
+          "fractional_only": {
+            "counts": [
+              97,
+              83,
+              88,
+              74,
+              73,
+              88,
+              73,
+              80,
+              84,
+              89,
+              89,
+              78,
+              97,
+              91,
+              81,
+              86,
+              85,
+              81,
+              79,
+              87,
+              103,
+              75,
+              75,
+              64
+            ],
+            "chi_square": "22",
+            "decimal_chi_square": 22.0,
+            "asymptotic_chi_square_CDF": "0.479748219599204393240173958857"
+          },
+          "including_integer_part": {
+            "counts": [
+              97,
+              83,
+              89,
+              74,
+              73,
+              88,
+              73,
+              80,
+              84,
+              89,
+              89,
+              77,
+              97,
+              91,
+              81,
+              86,
+              85,
+              81,
+              79,
+              87,
+              103,
+              75,
+              75,
+              64
+            ],
+            "chi_square": "2783/125",
+            "decimal_chi_square": 22.264,
+            "asymptotic_chi_square_CDF": "0.495634457789651037326912382298"
+          }
+        },
+        "10000": {
+          "fractional_only": {
+            "counts": [
+              447,
+              430,
+              408,
+              413,
+              390,
+              428,
+              417,
+              398,
+              394,
+              445,
+              444,
+              463,
+              410,
+              409,
+              433,
+              420,
+              414,
+              393,
+              422,
+              401,
+              431,
+              404,
+              394,
+              392
+            ],
+            "chi_square": "13943/625",
+            "decimal_chi_square": 22.3088,
+            "asymptotic_chi_square_CDF": "0.498319155054752896386068654092"
+          },
+          "including_integer_part": {
+            "counts": [
+              447,
+              430,
+              409,
+              413,
+              389,
+              428,
+              417,
+              398,
+              394,
+              445,
+              444,
+              463,
+              410,
+              409,
+              433,
+              420,
+              414,
+              393,
+              422,
+              401,
+              431,
+              404,
+              394,
+              392
+            ],
+            "chi_square": "112/5",
+            "decimal_chi_square": 22.4,
+            "asymptotic_chi_square_CDF": "0.503773421639796790218870706099"
+          }
+        }
+      }
+    },
+    "25": {
+      "scaled_floor_certified": true,
+      "fractional_sha256": "0b0b4caf353c0793c7e95455e2d88832563e590a8789b3fc44623cd4e4460744",
+      "first32": "HNN3KOD3KL35I58E1IDO6DD11B3I29NJ",
+      "last32": "33OLHEOIE74OEMNLOH324IF2EJ4N5JDI",
+      "samples": {
+        "2000": {
+          "fractional_only": {
+            "counts": [
+              94,
+              77,
+              80,
+              93,
+              77,
+              97,
+              73,
+              98,
+              84,
+              75,
+              74,
+              93,
+              62,
+              78,
+              80,
+              69,
+              83,
+              64,
+              85,
+              72,
+              67,
+              87,
+              74,
+              88,
+              76
+            ],
+            "chi_square": "607/20",
+            "decimal_chi_square": 30.35,
+            "asymptotic_chi_square_CDF": "0.826579203614901231744753678569"
+          },
+          "including_integer_part": {
+            "counts": [
+              94,
+              77,
+              81,
+              93,
+              77,
+              97,
+              73,
+              98,
+              84,
+              75,
+              74,
+              93,
+              62,
+              78,
+              80,
+              69,
+              83,
+              63,
+              85,
+              72,
+              67,
+              87,
+              74,
+              88,
+              76
+            ],
+            "chi_square": "1231/40",
+            "decimal_chi_square": 30.775,
+            "asymptotic_chi_square_CDF": "0.839623299754194965228928750624"
+          }
+        },
+        "10000": {
+          "fractional_only": {
+            "counts": [
+              364,
+              363,
+              365,
+              420,
+              417,
+              393,
+              382,
+              390,
+              390,
+              394,
+              425,
+              438,
+              386,
+              380,
+              454,
+              421,
+              403,
+              388,
+              395,
+              428,
+              402,
+              373,
+              409,
+              375,
+              445
+            ],
+            "chi_square": "3909/100",
+            "decimal_chi_square": 39.09,
+            "asymptotic_chi_square_CDF": "0.973278883198598590629690491131"
+          },
+          "including_integer_part": {
+            "counts": [
+              364,
+              363,
+              366,
+              420,
+              417,
+              393,
+              382,
+              390,
+              390,
+              394,
+              425,
+              438,
+              386,
+              380,
+              454,
+              421,
+              403,
+              388,
+              394,
+              428,
+              402,
+              373,
+              409,
+              375,
+              445
+            ],
+            "chi_square": "7789/200",
+            "decimal_chi_square": 38.945,
+            "asymptotic_chi_square_CDF": "0.972325694167429366104922043666"
+          }
+        }
+      }
+    },
+    "26": {
+      "scaled_floor_certified": true,
+      "fractional_sha256": "831a5939119c855f56fe46f1eb8a82fc50faa57ece8faaa2c55cf434853e36f8",
+      "first32": "IHEDECB19PM2KMPM76HJM69NA4PIHBDO",
+      "last32": "3FA93GAO3NPFB7HEO228FLJBKBM3D645",
+      "samples": {
+        "2000": {
+          "fractional_only": {
+            "counts": [
+              71,
+              67,
+              76,
+              71,
+              75,
+              71,
+              90,
+              65,
+              72,
+              77,
+              65,
+              89,
+              84,
+              83,
+              81,
+              89,
+              79,
+              96,
+              66,
+              82,
+              69,
+              84,
+              79,
+              79,
+              59,
+              81
+            ],
+            "chi_square": "13363/500",
+            "decimal_chi_square": 26.726,
+            "asymptotic_chi_square_CDF": "0.630289748423637899647490633298"
+          },
+          "including_integer_part": {
+            "counts": [
+              71,
+              67,
+              77,
+              71,
+              75,
+              71,
+              90,
+              65,
+              72,
+              77,
+              65,
+              89,
+              84,
+              83,
+              81,
+              89,
+              79,
+              96,
+              66,
+              82,
+              68,
+              84,
+              79,
+              79,
+              59,
+              81
+            ],
+            "chi_square": "13467/500",
+            "decimal_chi_square": 26.934,
+            "asymptotic_chi_square_CDF": "0.640810175850089307599447705438"
+          }
+        },
+        "10000": {
+          "fractional_only": {
+            "counts": [
+              392,
+              365,
+              384,
+              380,
+              352,
+              387,
+              371,
+              384,
+              392,
+              394,
+              361,
+              410,
+              368,
+              392,
+              355,
+              414,
+              399,
+              439,
+              351,
+              392,
+              363,
+              375,
+              382,
+              395,
+              386,
+              417
+            ],
+            "chi_square": "3642/125",
+            "decimal_chi_square": 29.136,
+            "asymptotic_chi_square_CDF": "0.741729170304135820749802019353"
+          },
+          "including_integer_part": {
+            "counts": [
+              392,
+              365,
+              385,
+              380,
+              352,
+              386,
+              371,
+              384,
+              392,
+              394,
+              361,
+              410,
+              368,
+              392,
+              355,
+              414,
+              399,
+              439,
+              351,
+              392,
+              363,
+              375,
+              382,
+              395,
+              386,
+              417
+            ],
+            "chi_square": "36407/1250",
+            "decimal_chi_square": 29.1256,
+            "asymptotic_chi_square_CDF": "0.741300311304611162307796385465"
+          }
+        }
+      }
+    },
+    "27": {
+      "scaled_floor_certified": true,
+      "fractional_sha256": "f77ab1f67214c9cb05d0b9dfddc87691509bc722cce7cc7e1972b8916202a3e3",
+      "first32": "JAGPB45QB47QJKQLNN6EEPC1KQEBB386",
+      "last32": "7PK3IHD6JDGG8B7C3NFP7IOQK0E56LKI",
+      "samples": {
+        "2000": {
+          "fractional_only": {
+            "counts": [
+              79,
+              73,
+              79,
+              78,
+              73,
+              81,
+              84,
+              66,
+              75,
+              68,
+              75,
+              78,
+              66,
+              69,
+              75,
+              69,
+              77,
+              75,
+              65,
+              81,
+              73,
+              75,
+              74,
+              64,
+              70,
+              83,
+              75
+            ],
+            "chi_square": "10663/1000",
+            "decimal_chi_square": 10.663,
+            "asymptotic_chi_square_CDF": "0.00345390656322081319203472665294"
+          },
+          "including_integer_part": {
+            "counts": [
+              78,
+              73,
+              80,
+              78,
+              73,
+              81,
+              84,
+              66,
+              75,
+              68,
+              75,
+              78,
+              66,
+              69,
+              75,
+              69,
+              77,
+              75,
+              65,
+              81,
+              73,
+              75,
+              74,
+              64,
+              70,
+              83,
+              75
+            ],
+            "chi_square": "1069/100",
+            "decimal_chi_square": 10.69,
+            "asymptotic_chi_square_CDF": "0.00352641940714927007821298502711"
+          }
+        },
+        "10000": {
+          "fractional_only": {
+            "counts": [
+              386,
+              384,
+              376,
+              396,
+              400,
+              337,
+              376,
+              381,
+              361,
+              360,
+              348,
+              335,
+              384,
+              356,
+              361,
+              364,
+              376,
+              371,
+              353,
+              373,
+              350,
+              386,
+              369,
+              356,
+              399,
+              388,
+              374
+            ],
+            "chi_square": "109003/5000",
+            "decimal_chi_square": 21.8006,
+            "asymptotic_chi_square_CDF": "0.300444270700229969685951141808"
+          },
+          "including_integer_part": {
+            "counts": [
+              386,
+              384,
+              377,
+              396,
+              400,
+              337,
+              376,
+              381,
+              361,
+              360,
+              348,
+              335,
+              384,
+              356,
+              361,
+              364,
+              376,
+              371,
+              352,
+              373,
+              350,
+              386,
+              369,
+              356,
+              399,
+              388,
+              374
+            ],
+            "chi_square": "109651/5000",
+            "decimal_chi_square": 21.9302,
+            "asymptotic_chi_square_CDF": "0.307490374335344577530261869049"
+          }
+        }
+      }
+    },
+    "28": {
+      "scaled_floor_certified": true,
+      "fractional_sha256": "6a434b78b80a1df78a4412e021b88c2549c8b5799e90013c03c786c83d0c5199",
+      "first32": "K33K6GIO7AALB3KA9LDP5F2RHHHE3M8R",
+      "last32": "O90OMDNM28EFME545IMLQOGR6FFH9NF8",
+      "samples": {
+        "2000": {
+          "fractional_only": {
+            "counts": [
+              65,
+              64,
+              53,
+              75,
+              71,
+              79,
+              78,
+              70,
+              67,
+              90,
+              68,
+              77,
+              75,
+              75,
+              71,
+              78,
+              71,
+              68,
+              70,
+              66,
+              69,
+              69,
+              70,
+              67,
+              79,
+              75,
+              73,
+              67
+            ],
+            "chi_square": "4189/250",
+            "decimal_chi_square": 16.756,
+            "asymptotic_chi_square_CDF": "0.0630314257722199721871188234806"
+          },
+          "including_integer_part": {
+            "counts": [
+              65,
+              64,
+              54,
+              75,
+              71,
+              79,
+              78,
+              70,
+              67,
+              90,
+              67,
+              77,
+              75,
+              75,
+              71,
+              78,
+              71,
+              68,
+              70,
+              66,
+              69,
+              69,
+              70,
+              67,
+              79,
+              75,
+              73,
+              67
+            ],
+            "chi_square": "4091/250",
+            "decimal_chi_square": 16.364,
+            "asymptotic_chi_square_CDF": "0.0543498808006629824804634624011"
+          }
+        },
+        "10000": {
+          "fractional_only": {
+            "counts": [
+              333,
+              371,
+              341,
+              350,
+              328,
+              401,
+              346,
+              378,
+              358,
+              390,
+              351,
+              359,
+              337,
+              373,
+              356,
+              410,
+              367,
+              350,
+              335,
+              362,
+              371,
+              362,
+              348,
+              351,
+              339,
+              349,
+              346,
+              338
+            ],
+            "chi_square": "38071/1250",
+            "decimal_chi_square": 30.4568,
+            "asymptotic_chi_square_CDF": "0.705975983427691712708113997205"
+          },
+          "including_integer_part": {
+            "counts": [
+              333,
+              371,
+              342,
+              350,
+              328,
+              401,
+              346,
+              378,
+              357,
+              390,
+              351,
+              359,
+              337,
+              373,
+              356,
+              410,
+              367,
+              350,
+              335,
+              362,
+              371,
+              362,
+              348,
+              351,
+              339,
+              349,
+              346,
+              338
+            ],
+            "chi_square": "37959/1250",
+            "decimal_chi_square": 30.3672,
+            "asymptotic_chi_square_CDF": "0.702090465865226356283089483315"
+          }
+        }
+      }
+    },
+    "29": {
+      "scaled_floor_certified": true,
+      "fractional_sha256": "2abce9084ff8b53eec819a3f9f726cb73f2236decd959103c487e8bc83d077fd",
+      "first32": "KO252HHQKDECN3HG5NCQ8J12J6N2HQ6L",
+      "last32": "0MNNA6C0IKB3N3HH56JAI737I8EIHKQE",
+      "samples": {
+        "2000": {
+          "fractional_only": {
+            "counts": [
+              63,
+              63,
+              89,
+              70,
+              81,
+              72,
+              63,
+              79,
+              77,
+              61,
+              69,
+              69,
+              57,
+              73,
+              53,
+              70,
+              71,
+              56,
+              85,
+              65,
+              70,
+              77,
+              68,
+              64,
+              63,
+              64,
+              70,
+              66,
+              72
+            ],
+            "chi_square": "27883/1000",
+            "decimal_chi_square": 27.883,
+            "asymptotic_chi_square_CDF": "0.529339333339693863897258937874"
+          },
+          "including_integer_part": {
+            "counts": [
+              63,
+              63,
+              90,
+              70,
+              81,
+              72,
+              63,
+              79,
+              77,
+              61,
+              69,
+              69,
+              57,
+              73,
+              53,
+              70,
+              71,
+              56,
+              85,
+              65,
+              70,
+              77,
+              68,
+              64,
+              63,
+              64,
+              69,
+              66,
+              72
+            ],
+            "chi_square": "28463/1000",
+            "decimal_chi_square": 28.463,
+            "asymptotic_chi_square_CDF": "0.559872940081882329566711140712"
+          }
+        },
+        "10000": {
+          "fractional_only": {
+            "counts": [
+              300,
+              337,
+              376,
+              365,
+              343,
+              377,
+              316,
+              363,
+              367,
+              353,
+              375,
+              323,
+              338,
+              347,
+              347,
+              340,
+              320,
+              326,
+              359,
+              345,
+              353,
+              345,
+              355,
+              330,
+              341,
+              317,
+              324,
+              366,
+              352
+            ],
+            "chi_square": "158893/5000",
+            "decimal_chi_square": 31.7786,
+            "asymptotic_chi_square_CDF": "0.716386068766769190785825647551"
+          },
+          "including_integer_part": {
+            "counts": [
+              300,
+              337,
+              377,
+              365,
+              343,
+              377,
+              316,
+              363,
+              367,
+              353,
+              375,
+              323,
+              338,
+              347,
+              346,
+              340,
+              320,
+              326,
+              359,
+              345,
+              353,
+              345,
+              355,
+              330,
+              341,
+              317,
+              324,
+              366,
+              352
+            ],
+            "chi_square": "159763/5000",
+            "decimal_chi_square": 31.9526,
+            "asymptotic_chi_square_CDF": "0.723555864805012605022010313638"
+          }
+        }
+      }
+    },
+    "30": {
+      "scaled_floor_certified": true,
+      "fractional_sha256": "a5acfa2a92145f69cc268ee8b55780b99d92946e7507e4d5e55fcea976c971f2",
+      "first32": "LGDI8CSBTBIIRMHQ8N9SOHOF9O3QR828",
+      "last32": "33FC6KEQG3O5T7QDMATHCRRGS8N1EF14",
+      "samples": {
+        "2000": {
+          "fractional_only": {
+            "counts": [
+              55,
+              69,
+              70,
+              57,
+              71,
+              58,
+              75,
+              78,
+              62,
+              61,
+              67,
+              69,
+              60,
+              81,
+              61,
+              59,
+              68,
+              72,
+              65,
+              65,
+              65,
+              74,
+              65,
+              62,
+              70,
+              71,
+              61,
+              72,
+              57,
+              80
+            ],
+            "chi_square": "85/4",
+            "decimal_chi_square": 21.25,
+            "asymptotic_chi_square_CDF": "0.150119858183753346325863059941"
+          },
+          "including_integer_part": {
+            "counts": [
+              55,
+              69,
+              71,
+              57,
+              71,
+              58,
+              75,
+              78,
+              62,
+              61,
+              67,
+              69,
+              60,
+              81,
+              61,
+              59,
+              68,
+              71,
+              65,
+              65,
+              65,
+              74,
+              65,
+              62,
+              70,
+              71,
+              61,
+              72,
+              57,
+              80
+            ],
+            "chi_square": "1061/50",
+            "decimal_chi_square": 21.22,
+            "asymptotic_chi_square_CDF": "0.148990575880620381443373965066"
+          }
+        },
+        "10000": {
+          "fractional_only": {
+            "counts": [
+              317,
+              324,
+              322,
+              331,
+              343,
+              321,
+              327,
+              345,
+              350,
+              318,
+              328,
+              321,
+              326,
+              333,
+              326,
+              317,
+              352,
+              337,
+              326,
+              346,
+              311,
+              355,
+              379,
+              325,
+              330,
+              349,
+              337,
+              331,
+              328,
+              345
+            ],
+            "chi_square": "367/20",
+            "decimal_chi_square": 18.35,
+            "asymptotic_chi_square_CDF": "0.0631742424212800804212767276732"
+          },
+          "including_integer_part": {
+            "counts": [
+              317,
+              324,
+              323,
+              331,
+              342,
+              321,
+              327,
+              345,
+              350,
+              318,
+              328,
+              321,
+              326,
+              333,
+              326,
+              317,
+              352,
+              337,
+              326,
+              346,
+              311,
+              355,
+              379,
+              325,
+              330,
+              349,
+              337,
+              331,
+              328,
+              345
+            ],
+            "chi_square": "1823/100",
+            "decimal_chi_square": 18.23,
+            "asymptotic_chi_square_CDF": "0.060549751797962273837622485687"
+          }
+        }
+      }
+    },
+    "31": {
+      "scaled_floor_certified": true,
+      "fractional_sha256": "1e7be08e3d0cc4696b53176a74e6bed26b50aaf2f92993b3ad919a401a2fb8f5",
+      "first32": "M88AASNAE1ORNPP79QRI4ODJ823HP4Q1",
+      "last32": "TO3C4L2ODJ81E73EGRO3G4FDE3MDM3R6",
+      "samples": {
+        "2000": {
+          "fractional_only": {
+            "counts": [
+              69,
+              65,
+              77,
+              80,
+              57,
+              60,
+              71,
+              59,
+              62,
+              63,
+              68,
+              73,
+              72,
+              61,
+              63,
+              53,
+              77,
+              63,
+              58,
+              64,
+              55,
+              71,
+              77,
+              55,
+              71,
+              64,
+              58,
+              52,
+              73,
+              48,
+              61
+            ],
+            "chi_square": "3952/125",
+            "decimal_chi_square": 31.616,
+            "asymptotic_chi_square_CDF": "0.614403594684203963331320088449"
+          },
+          "including_integer_part": {
+            "counts": [
+              69,
+              65,
+              78,
+              80,
+              57,
+              60,
+              71,
+              59,
+              62,
+              63,
+              68,
+              73,
+              72,
+              61,
+              63,
+              53,
+              77,
+              63,
+              58,
+              64,
+              55,
+              71,
+              77,
+              55,
+              71,
+              63,
+              58,
+              52,
+              73,
+              48,
+              61
+            ],
+            "chi_square": "641/20",
+            "decimal_chi_square": 32.05,
+            "asymptotic_chi_square_CDF": "0.634794408253616058501335901699"
+          }
+        },
+        "10000": {
+          "fractional_only": {
+            "counts": [
+              306,
+              308,
+              320,
+              332,
+              341,
+              300,
+              368,
+              309,
+              313,
+              308,
+              319,
+              338,
+              353,
+              340,
+              330,
+              301,
+              350,
+              323,
+              299,
+              319,
+              312,
+              334,
+              359,
+              294,
+              330,
+              334,
+              302,
+              313,
+              304,
+              294,
+              347
+            ],
+            "chi_square": "94159/2500",
+            "decimal_chi_square": 37.6636,
+            "asymptotic_chi_square_CDF": "0.841420895509619270543100845806"
+          },
+          "including_integer_part": {
+            "counts": [
+              306,
+              308,
+              321,
+              332,
+              341,
+              300,
+              367,
+              309,
+              313,
+              308,
+              319,
+              338,
+              353,
+              340,
+              330,
+              301,
+              350,
+              323,
+              299,
+              319,
+              312,
+              334,
+              359,
+              294,
+              330,
+              334,
+              302,
+              313,
+              304,
+              294,
+              347
+            ],
+            "chi_square": "186861/5000",
+            "decimal_chi_square": 37.3722,
+            "asymptotic_chi_square_CDF": "0.833457990613639866680620257355"
+          }
+        }
+      }
+    },
+    "32": {
+      "scaled_floor_certified": true,
+      "fractional_sha256": "28d85b0cc69241a5578defa233870f1c9a00cdab5718059945f8fe5fee3e0b43",
+      "first32": "MVGL2OKATKL6LFRHB209PT7JOTHEE5GF",
+      "last32": "LCI03MEE4PQL54QK50ALUP9DB231QCHP",
+      "samples": {
+        "2000": {
+          "fractional_only": {
+            "counts": [
+              60,
+              66,
+              49,
+              71,
+              55,
+              54,
+              66,
+              74,
+              70,
+              59,
+              67,
+              62,
+              59,
+              62,
+              61,
+              58,
+              62,
+              63,
+              53,
+              49,
+              64,
+              62,
+              75,
+              55,
+              64,
+              63,
+              70,
+              61,
+              74,
+              68,
+              64,
+              60
+            ],
+            "chi_square": "556/25",
+            "decimal_chi_square": 22.24,
+            "asymptotic_chi_square_CDF": "0.124669833767785123805483768067"
+          },
+          "including_integer_part": {
+            "counts": [
+              60,
+              66,
+              50,
+              71,
+              55,
+              54,
+              66,
+              73,
+              70,
+              59,
+              67,
+              62,
+              59,
+              62,
+              61,
+              58,
+              62,
+              63,
+              53,
+              49,
+              64,
+              62,
+              75,
+              55,
+              64,
+              63,
+              70,
+              61,
+              74,
+              68,
+              64,
+              60
+            ],
+            "chi_square": "2684/125",
+            "decimal_chi_square": 21.472,
+            "asymptotic_chi_square_CDF": "0.101101620816762684560906478739"
+          }
+        },
+        "10000": {
+          "fractional_only": {
+            "counts": [
+              300,
+              311,
+              295,
+              323,
+              291,
+              309,
+              323,
+              308,
+              333,
+              286,
+              313,
+              306,
+              306,
+              299,
+              345,
+              301,
+              317,
+              317,
+              285,
+              301,
+              325,
+              312,
+              336,
+              300,
+              304,
+              322,
+              310,
+              296,
+              347,
+              319,
+              336,
+              324
+            ],
+            "chi_square": "3164/125",
+            "decimal_chi_square": 25.312,
+            "asymptotic_chi_square_CDF": "0.246409966098625693390109952238"
+          },
+          "including_integer_part": {
+            "counts": [
+              300,
+              311,
+              296,
+              323,
+              291,
+              309,
+              323,
+              308,
+              333,
+              286,
+              313,
+              306,
+              306,
+              299,
+              345,
+              301,
+              317,
+              317,
+              285,
+              301,
+              325,
+              312,
+              336,
+              300,
+              304,
+              321,
+              310,
+              296,
+              347,
+              319,
+              336,
+              324
+            ],
+            "chi_square": "15716/625",
+            "decimal_chi_square": 25.1456,
+            "asymptotic_chi_square_CDF": "0.238833258226008438166246057747"
+          }
+        }
+      }
+    },
+    "33": {
+      "scaled_floor_certified": true,
+      "fractional_sha256": "8d7a82175c54b66e4e559e4b59ec9ca5d212feb4c81a8df5a9d85dacb5f5c2ee",
+      "first32": "NN6TGL5JN8HCQ2F5HL69UDEIAI7H1O53",
+      "last32": "GN0QH3KEM793SCUVLU8HWCVQ69FT6NVK",
+      "samples": {
+        "2000": {
+          "fractional_only": {
+            "counts": [
+              55,
+              53,
+              60,
+              70,
+              64,
+              47,
+              76,
+              65,
+              52,
+              68,
+              61,
+              53,
+              44,
+              59,
+              63,
+              65,
+              68,
+              64,
+              85,
+              62,
+              41,
+              60,
+              67,
+              54,
+              58,
+              66,
+              64,
+              56,
+              47,
+              74,
+              67,
+              54,
+              58
+            ],
+            "chi_square": "9167/200",
+            "decimal_chi_square": 45.835,
+            "asymptotic_chi_square_CDF": "0.946250511709201007279843477065"
+          },
+          "including_integer_part": {
+            "counts": [
+              55,
+              53,
+              61,
+              70,
+              64,
+              47,
+              76,
+              65,
+              52,
+              68,
+              61,
+              53,
+              44,
+              59,
+              63,
+              65,
+              68,
+              64,
+              85,
+              62,
+              41,
+              60,
+              67,
+              54,
+              58,
+              66,
+              64,
+              56,
+              46,
+              74,
+              67,
+              54,
+              58
+            ],
+            "chi_square": "46297/1000",
+            "decimal_chi_square": 46.297,
+            "asymptotic_chi_square_CDF": "0.951029712917768913763989195303"
+          }
+        },
+        "10000": {
+          "fractional_only": {
+            "counts": [
+              295,
+              284,
+              323,
+              301,
+              278,
+              284,
+              333,
+              293,
+              279,
+              302,
+              301,
+              269,
+              290,
+              301,
+              319,
+              314,
+              310,
+              314,
+              323,
+              324,
+              268,
+              318,
+              300,
+              289,
+              292,
+              305,
+              310,
+              291,
+              298,
+              344,
+              332,
+              322,
+              294
+            ],
+            "chi_square": "182737/5000",
+            "decimal_chi_square": 36.5474,
+            "asymptotic_chi_square_CDF": "0.734358172266290791963983075499"
+          },
+          "including_integer_part": {
+            "counts": [
+              295,
+              284,
+              324,
+              301,
+              278,
+              284,
+              333,
+              293,
+              279,
+              302,
+              301,
+              269,
+              290,
+              301,
+              319,
+              314,
+              310,
+              314,
+              323,
+              324,
+              267,
+              318,
+              300,
+              289,
+              292,
+              305,
+              310,
+              291,
+              298,
+              344,
+              332,
+              322,
+              294
+            ],
+            "chi_square": "36917/1000",
+            "decimal_chi_square": 36.917,
+            "asymptotic_chi_square_CDF": "0.747977445001814279251580641673"
+          }
+        }
+      }
+    },
+    "34": {
+      "scaled_floor_certified": true,
+      "fractional_sha256": "6ab8dee7261cd9ad5ad54c84429bbbe7527807e92167cb2a5420856848bb787e",
+      "first32": "OEBBTEI7OD3BUSFG3F31R3EXEQXWP05S",
+      "last32": "AQSIBK6X2G2SDKTRMX2MRGABG93AXKBH",
+      "samples": {
+        "2000": {
+          "fractional_only": {
+            "counts": [
+              57,
+              57,
+              53,
+              70,
+              78,
+              60,
+              64,
+              56,
+              41,
+              50,
+              65,
+              62,
+              35,
+              65,
+              63,
+              59,
+              65,
+              66,
+              54,
+              50,
+              64,
+              68,
+              57,
+              57,
+              53,
+              51,
+              69,
+              71,
+              60,
+              59,
+              67,
+              48,
+              52,
+              54
+            ],
+            "chi_square": "21649/500",
+            "decimal_chi_square": 43.298,
+            "asymptotic_chi_square_CDF": "0.891726380370305494799719698957"
+          },
+          "including_integer_part": {
+            "counts": [
+              57,
+              57,
+              54,
+              70,
+              78,
+              60,
+              64,
+              56,
+              41,
+              50,
+              65,
+              62,
+              35,
+              65,
+              63,
+              59,
+              65,
+              66,
+              54,
+              50,
+              64,
+              68,
+              57,
+              57,
+              53,
+              51,
+              69,
+              71,
+              60,
+              58,
+              67,
+              48,
+              52,
+              54
+            ],
+            "chi_square": "5391/125",
+            "decimal_chi_square": 43.128,
+            "asymptotic_chi_square_CDF": "0.888439888090093483407889723209"
+          }
+        },
+        "10000": {
+          "fractional_only": {
+            "counts": [
+              295,
+              289,
+              293,
+              326,
+              334,
+              288,
+              288,
+              313,
+              272,
+              265,
+              288,
+              286,
+              291,
+              288,
+              280,
+              312,
+              306,
+              317,
+              291,
+              298,
+              309,
+              319,
+              288,
+              289,
+              270,
+              283,
+              294,
+              288,
+              285,
+              315,
+              293,
+              267,
+              295,
+              285
+            ],
+            "chi_square": "74371/2500",
+            "decimal_chi_square": 29.7484,
+            "asymptotic_chi_square_CDF": "0.370196111074651579945553666449"
+          },
+          "including_integer_part": {
+            "counts": [
+              295,
+              289,
+              294,
+              326,
+              334,
+              288,
+              288,
+              313,
+              272,
+              265,
+              288,
+              286,
+              291,
+              288,
+              280,
+              312,
+              306,
+              316,
+              291,
+              298,
+              309,
+              319,
+              288,
+              289,
+              270,
+              283,
+              294,
+              288,
+              285,
+              315,
+              293,
+              267,
+              295,
+              285
+            ],
+            "chi_square": "3699/125",
+            "decimal_chi_square": 29.592,
+            "asymptotic_chi_square_CDF": "0.362429486794663374117284399861"
+          }
+        }
+      }
+    },
+    "35": {
+      "scaled_floor_certified": true,
+      "fractional_sha256": "66a793f8443145918aaa1740d4eb779cd01e54490ffcccb4b0966b6b7d027861",
+      "first32": "P4VBNEB51SCY4624GIKOWALMRR31G0DN",
+      "last32": "EU67Q12Q7F1XO4ILBUD8CX5XJ9CPY9BI",
+      "samples": {
+        "2000": {
+          "fractional_only": {
+            "counts": [
+              65,
+              55,
+              56,
+              52,
+              61,
+              75,
+              82,
+              57,
+              50,
+              53,
+              64,
+              63,
+              43,
+              49,
+              60,
+              55,
+              52,
+              55,
+              60,
+              61,
+              68,
+              53,
+              55,
+              50,
+              64,
+              53,
+              53,
+              52,
+              54,
+              46,
+              58,
+              50,
+              66,
+              58,
+              52
+            ],
+            "chi_square": "3707/100",
+            "decimal_chi_square": 37.07,
+            "asymptotic_chi_square_CDF": "0.670759301246287048419705212002"
+          },
+          "including_integer_part": {
+            "counts": [
+              65,
+              55,
+              57,
+              52,
+              61,
+              75,
+              82,
+              57,
+              50,
+              53,
+              64,
+              63,
+              43,
+              49,
+              60,
+              55,
+              52,
+              55,
+              60,
+              61,
+              68,
+              53,
+              55,
+              49,
+              64,
+              53,
+              53,
+              52,
+              54,
+              46,
+              58,
+              50,
+              66,
+              58,
+              52
+            ],
+            "chi_square": "7463/200",
+            "decimal_chi_square": 37.315,
+            "asymptotic_chi_square_CDF": "0.680806997118090774777234137549"
+          }
+        },
+        "10000": {
+          "fractional_only": {
+            "counts": [
+              286,
+              278,
+              287,
+              281,
+              304,
+              303,
+              308,
+              285,
+              291,
+              257,
+              299,
+              300,
+              286,
+              268,
+              303,
+              272,
+              258,
+              273,
+              315,
+              315,
+              280,
+              282,
+              296,
+              262,
+              302,
+              291,
+              260,
+              318,
+              278,
+              259,
+              261,
+              288,
+              287,
+              282,
+              285
+            ],
+            "chi_square": "4379/125",
+            "decimal_chi_square": 35.032,
+            "asymptotic_chi_square_CDF": "0.58108085886615131130225303678"
+          },
+          "including_integer_part": {
+            "counts": [
+              286,
+              278,
+              288,
+              281,
+              304,
+              303,
+              308,
+              285,
+              291,
+              257,
+              299,
+              300,
+              286,
+              268,
+              303,
+              272,
+              258,
+              273,
+              314,
+              315,
+              280,
+              282,
+              296,
+              262,
+              302,
+              291,
+              260,
+              318,
+              278,
+              259,
+              261,
+              288,
+              287,
+              282,
+              285
+            ],
+            "chi_square": "34843/1000",
+            "decimal_chi_square": 34.843,
+            "asymptotic_chi_square_CDF": "0.572282282121079062767161279005"
+          }
+        }
+      }
+    },
+    "36": {
+      "scaled_floor_certified": true,
+      "fractional_sha256": "2868fed7b7144ba0e2345ceee4075148178aac4d0ecf7eedd7ee57ff18f28735",
+      "first32": "PUW5NGGJF8Y4NFYORYFUKSO6DS803X1D",
+      "last32": "P9J4KMPBP4PV2CJOLQY2N47T5NWR0OWF",
+      "samples": {
+        "2000": {
+          "fractional_only": {
+            "counts": [
+              65,
+              59,
+              45,
+              59,
+              59,
+              60,
+              46,
+              48,
+              62,
+              42,
+              57,
+              52,
+              52,
+              65,
+              53,
+              49,
+              61,
+              57,
+              51,
+              50,
+              43,
+              70,
+              62,
+              59,
+              56,
+              48,
+              59,
+              48,
+              60,
+              57,
+              57,
+              57,
+              53,
+              52,
+              69,
+              58
+            ],
+            "chi_square": "3728/125",
+            "decimal_chi_square": 29.824,
+            "asymptotic_chi_square_CDF": "0.283908015971347577083763516168"
+          },
+          "including_integer_part": {
+            "counts": [
+              65,
+              59,
+              46,
+              59,
+              59,
+              60,
+              46,
+              48,
+              62,
+              42,
+              57,
+              52,
+              52,
+              65,
+              53,
+              49,
+              61,
+              57,
+              51,
+              50,
+              43,
+              70,
+              62,
+              59,
+              56,
+              48,
+              59,
+              48,
+              60,
+              57,
+              57,
+              57,
+              53,
+              52,
+              68,
+              58
+            ],
+            "chi_square": "7249/250",
+            "decimal_chi_square": 28.996,
+            "asymptotic_chi_square_CDF": "0.247513881914148898533319455178"
+          }
+        },
+        "10000": {
+          "fractional_only": {
+            "counts": [
+              295,
+              283,
+              282,
+              272,
+              303,
+              278,
+              248,
+              248,
+              280,
+              262,
+              275,
+              292,
+              266,
+              286,
+              281,
+              261,
+              309,
+              268,
+              251,
+              246,
+              304,
+              305,
+              280,
+              272,
+              268,
+              283,
+              293,
+              298,
+              289,
+              293,
+              262,
+              281,
+              287,
+              268,
+              257,
+              274
+            ],
+            "chi_square": "22541/625",
+            "decimal_chi_square": 36.0656,
+            "asymptotic_chi_square_CDF": "0.581480735089230005771640479602"
+          },
+          "including_integer_part": {
+            "counts": [
+              295,
+              283,
+              283,
+              272,
+              303,
+              278,
+              248,
+              248,
+              280,
+              262,
+              275,
+              292,
+              266,
+              286,
+              281,
+              260,
+              309,
+              268,
+              251,
+              246,
+              304,
+              305,
+              280,
+              272,
+              268,
+              283,
+              293,
+              298,
+              289,
+              293,
+              262,
+              281,
+              287,
+              268,
+              257,
+              274
+            ],
+            "chi_square": "4528/125",
+            "decimal_chi_square": 36.224,
+            "asymptotic_chi_square_CDF": "0.588693250264210704655413617576"
+          }
+        }
+      }
+    }
+  },
+  "decimal_independent_check": {
+    "method": "decimal.Decimal(1).exp()",
+    "precision": 10030,
+    "matching_digits": 10000
+  },
+  "book_threshold_1_15_upper_probability": "0.9990068148121132969563682109641711905219"
+}

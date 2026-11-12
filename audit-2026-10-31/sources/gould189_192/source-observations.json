@@ -1,0 +1,76 @@
+{
+  "at_utc": "2026-11-03T15:33:42.660938+00:00",
+  "original": {
+    "path": "books/taocp-vol4b-ed1-print2-2022.pdf",
+    "question_printed": 148,
+    "question_pdf": 168,
+    "answer_printed": 469,
+    "answer_pdf": 489,
+    "viewed": true
+  },
+  "draft": {
+    "path": "audit-2026-10-31/sources/fasc5c.pdf",
+    "question_printed": 84,
+    "question_pdf": 90,
+    "answer_printed": 173,
+    "answer_pdf": 179,
+    "viewed": true
+  },
+  "F142_domain_both_versions": "a,b>0",
+  "physical_copy_verified": false,
+  "historical_pages_viewed": {
+    "euler247.pdf": [
+      1,
+      24,
+      25,
+      26,
+      33
+    ],
+    "euler-index.pdf": [
+      19
+    ],
+    "gompertz1825.pdf": [
+      2,
+      7,
+      72
+    ],
+    "gompertz-errata1825.pdf": [
+      2,
+      3
+    ],
+    "gould.pdf": [
+      2,
+      8
+    ]
+  },
+  "cross_reference_4a": {
+    "printed": [
+      422,
+      423
+    ],
+    "djvu_pages": [
+      439,
+      440
+    ],
+    "scope": "(24),(26) in189; formula used as an input, not a re-audit of4A"
+  },
+  "known_189a_erratum": {
+    "date": "2019-12-19",
+    "rendered_all4f5_page": 14,
+    "applied_original_pdf": true,
+    "applied_author_draft": false,
+    "candidate": "C006 preserved"
+  },
+  "bibliographic_conclusions": {
+    "Euler_year": "1754/5 is volume nominal date,1760 actual publication; no new finding",
+    "Gompertz_pages": "Article513–583 plus adjacent author errata584–585 for1820. Book513–585 includes that appendix; bibliographic variant recorded without finding.",
+    "Gould": "Publisher-deposited DOI metadata matches six authors,JMAA416(2),2014,672–682; author PDF Corollary4 has(m−1)!."
+  },
+  "retrieval_note": "Failed403/404/TLS attempts retained. Gould public author PDF obtained without TLS certificate verification after initial certificate-chain failure; content inspected. No login or private data sent.",
+  "source_hashes": {
+    "books/taocp-vol4b-ed1-print2-2022.pdf": "6ce7187daa4f7dfa09814551a461fac81a833c93c140699fced8fd5897347552",
+    "audit-2026-10-31/sources/fasc5c.pdf": "751f23a5fee9f0134d00159a29696ba1fa5dd34ab1438b306574fcf1ec448528",
+    "audit-2026-10-31/sources/fasc5c.ps.gz": "1d0cb9e96f5066e05836fefe70157f13b9de244da0ce95b6884cb110d7b256ca",
+    "books/taocp-vol4a-ed1-print1-2011.djvu": "a523f1063cc6b7fa06af8ad398088066bd786458871910b2484661daa557a183"
+  }
+}

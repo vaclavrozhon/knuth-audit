@@ -1,0 +1,278 @@
+{
+  "checked_at_utc": "2026-11-06T13:00:13.098759+00:00",
+  "sources": [
+    "errata/originals/err1f1.textxt",
+    "errata/text/err1f1.txt",
+    "errata/text/all1f1.txt",
+    "errata/pdf/err1f1.pdf",
+    "errata/pdf/all1f1.pdf"
+  ],
+  "source_metadata": [
+    {
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/all1f1.ps.gz",
+      "label": "Errata for Volume 1 Fascicle 1, long form",
+      "kind": "errata",
+      "http_last_modified": "Wed, 08 Jan 2025 21:03:02 GMT",
+      "content_type": "application/x-gzip",
+      "file": "errata/originals/all1f1.ps.gz",
+      "bytes": 92443,
+      "sha256": "28fa055698244e105bc46a1d7eef3ec566b8614e7f3b7a99f0fec7fa655d0272",
+      "retrieved_at_utc": "2026-10-31T17:00:53.888358+00:00",
+      "derived_pdf": "errata/pdf/all1f1.pdf",
+      "derived_text": "errata/text/all1f1.txt",
+      "derived_pdf_sha256": "0aa41b122f1fbed2fe55bdbb5250192c901ddae7cf8333a2dba4df073a80b269"
+    },
+    {
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/err1f1.ps.gz",
+      "label": "Errata for Volume 1 Fascicle 1",
+      "kind": "errata",
+      "http_last_modified": "Wed, 08 Jan 2025 21:02:57 GMT",
+      "content_type": "application/x-gzip",
+      "file": "errata/originals/err1f1.ps.gz",
+      "bytes": 88035,
+      "sha256": "46074b89e813f0756c7f349d38bed14fb75372626e64f0fa34f6a7b2aee67205",
+      "retrieved_at_utc": "2026-10-31T17:00:53.790658+00:00",
+      "derived_pdf": "errata/pdf/err1f1.pdf",
+      "derived_text": "errata/text/err1f1.txt",
+      "derived_pdf_sha256": "3ac7d2f72bad5d6a0aacd68ee46945f71a949e300fa72dedb110adcbc0e4ce3a"
+    },
+    {
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/err1f1.textxt",
+      "label": "Errata for Volume 1 Fascicle 1, TeX form",
+      "kind": "errata",
+      "http_last_modified": "Wed, 08 Jan 2025 21:02:56 GMT",
+      "content_type": "text/plain; charset=utf-8",
+      "file": "errata/originals/err1f1.textxt",
+      "bytes": 39396,
+      "sha256": "07db671be6fcbc6c473ddc6593f6a16cce5833fb5f8a499ab7e2e3eee163dae3",
+      "retrieved_at_utc": "2026-10-31T17:00:54.199304+00:00"
+    }
+  ],
+  "relevant_entries": [
+    {
+      "type": "amendpage",
+      "printed_page": "ii",
+      "source_entry": "\\amendpage 1f1.ii new line to follow line 6 (06.01.01)\n\\ninepoint\\noindent Unicode is a trademark of Unicode, Inc.\n\\endchange"
+    },
+    {
+      "type": "amendpage",
+      "printed_page": "ii",
+      "source_entry": "\\amendpage 1f1.ii line $-15$ (13.08.07)\n\\ninepoint {\\tt http://mmixmasters.sourceforge.net}  \\becomes\n {\\tt http://mmix.cs.hm.edu/}\n\\endchange"
+    },
+    {
+      "type": "amendpage",
+      "printed_page": "iii",
+      "source_entry": "\\amendpage 1f1.iii line $-11$ (15.10.09)\ngratefully pay a reward of \\$2.56 \\becomes\ngratefully award one hexadecimal dollar ($\\Hex{}\\.{\\$1.00}=\\$2.56$)\n\\endchange"
+    },
+    {
+      "type": "bugonpage",
+      "printed_page": "iv",
+      "source_entry": "\\bugonpage 1f1.iv lines 7 and 8 (24.06.20)\nMixMaster \\becomes Mixmaster\n\\endchange"
+    },
+    {
+      "type": "amendpage",
+      "printed_page": "v",
+      "source_entry": "\\amendpage 1f1.v line 20 (13.08.07)\n\\.{mmixmasters.sourceforge.net} \\becomes\n\\.{mmix.cs.hm.edu/mmixmasters/}.\n\\endchange"
+    },
+    {
+      "type": "amendpage",
+      "printed_page": "v",
+      "source_entry": "\\amendpage 1f1.v new material to insert before the quotation (20.06.29)\n\\noindent \\em News flash:\nI'm pleased to report that the first phase of the \\MMIX masters\nproject was successfully completed in September 2012, under the inspired\nleadership of Martin Ruckert. Every instance of \\MIX\\ code in Volumes\n1, 2, and~3 now has a suitable \\MMIX\\ equivalent. Martin's book,\n{\\sl The {\\sltt MMIX}~Supplement\\/} (Addison--Wesley, 2015), makes it\neasy for readers to substitute this 21st-century material wherever needed.\nVolunteers are still, however,\nencouraged to submit improvements, so that the ultimate programs will have the\nhighest possible quality. (See \n\\.{http://mmix.cs.hm.edu/supplement/index.html} for further information.)\n\\endchange"
+    },
+    {
+      "type": "bugonpage",
+      "printed_page": "1",
+      "source_entry": "\\bugonpage 1f1.1 and all the following pages in the 2017 printing (17.11.11)\n[Page 1 was mistakenly printed as a {\\it left-hand\\/} page, and\nall subsequent pages were fouled up too\\dash---odd numbered pages\nat the left of even-numbered pages!]\n\\endchange"
+    },
+    {
+      "type": "improvepage",
+      "printed_page": "2",
+      "source_entry": "\\improvepage 1f1.2 line 24 (06.12.14)\n100\\% natural \\becomes 100\\% natural, organic\n\\endchange"
+    },
+    {
+      "type": "bugonpage",
+      "printed_page": "3",
+      "source_entry": "\\bugonpage 1f1.3 top line of Heller quote (24.04.27)\n{\\eightss 256th squadron} \\becomes {\\eightss 256th Squadron}\n\\endchange"
+    },
+    {
+      "type": "bugonpage",
+      "printed_page": "3",
+      "source_entry": "\\bugonpage 1f1.3 lines $-11$, $-10$, and $-9$ (07.02.22)\nbecame an international \\dots\\ includes \\becomes\nhas also been\ndeveloped. This code, known informally as Unicode, includes\n\\endchange"
+    },
+    {
+      "type": "amendpage",
+      "printed_page": "3",
+      "source_entry": "\\amendpage 1f1.3 line $-1$ (07.02.22)\n{\\it \\`a~l'Unicode}. \\becomes\n{\\it \\`a~l'Unicode}.\n[The mature Unicode Standard has in fact outgrown its 16-bit origins;\nit now contains many more than $2^{16}$ code points, which can be represented\nin 8-bit, 16-bit, or 32-bit encodings, as discussed in Section~7.1.3.\nBut its 16-bit ``Basic Multilingual Plane'' does include most of the common\ncharacters.]\n\\endchange"
+    },
+    {
+      "type": "amendpage",
+      "printed_page": "4",
+      "source_entry": "\\amendpage 1f1.4 line 2 (07.02.22)\nUnicode \\becomes Unicode's basic plane\n\\endchange"
+    },
+    {
+      "type": "improvepage",
+      "printed_page": "6",
+      "source_entry": "\\improvepage 1f1.6 line 13 (09.05.07)\nif $N$ is too large or too small to fit \\becomes\nif the representation of $N$ needs too many bits to fit\n\\endchange"
+    },
+    {
+      "type": "improvepage",
+      "printed_page": "7",
+      "source_entry": "\\improvepage 1f1.7 line $-7$ (18.11.09)\nOverflow is possible if \\becomes Overflow occurs if\n\\endchange"
+    },
+    {
+      "type": "improvepage",
+      "printed_page": "9",
+      "source_entry": "\\improvepage 1f1.9 line 5 (07.09.23)\nthe divisor, \\becomes the divisor \\$Z\n\\endchange"
+    },
+    {
+      "type": "improvepage",
+      "printed_page": "10",
+      "source_entry": "\\improvepage 1f1.10 lines 6, 10, 17, 21 (06.06.01)\ns(\\char`\\$Y)$\\mod2$ \\becomes \\char`\\$Y$\\mod2$\n\\endchange"
+    },
+    {
+      "type": "amendpage",
+      "printed_page": "10",
+      "source_entry": "\\amendpage 1f1.10 lines $-17$ through $-4$ (05.05.19)\nchange all occurrences of `$@\\land@$' to `$@\\band@$' and\n       all occurrences of `$@\\lor@$' to `$@\\bor@$'\n(16 changes altogether)\n\\endchange"
+    },
+    {
+      "type": "amendpage",
+      "printed_page": "11",
+      "source_entry": "\\amendpage 1f1.11 near the top (06.09.11)\n\\def\\v{{\\rm v}}%\n\\def\\X{{\\rm X}}\\def\\Y{{\\rm Y}}\\def\\Z{{\\rm Z}}%\nline 1: $\\v(\\$\\X)\\gets\\bigl(\\v(\\$\\Y)\\land\\v({\\rm rM})\\bigr)\\lor\n               \\bigl(\\v(\\$\\Z)\\land\\bar\\v({\\rm rM})\\bigr)$ \\becomes\\nl\\hskip5em\n $\\v(\\$\\X)\\gets\\bigl(\\v(\\$\\Y)\\band\\v({\\rm rM})\\bigr)\\bor\n               \\bigl(\\v(\\$\\Z)\\band\\bar\\v({\\rm rM})\\bigr)$\\nl\nline 4: $\\sum\\bigl(\\v(\\$\\Y)\\land\\bar\\v(\\$\\Z)\\bigr)$ \\becomes\n $\\nu\\bigl(\\v(\\$\\Y)\\band\\bar\\v(\\$\\Z)\\bigr)$\n\\endchange"
+    },
+    {
+      "type": "amendpage",
+      "printed_page": "11",
+      "source_entry": "\\amendpage 1f1.11 line 15 (06.07.09)\ndenotes the operation of {\\it saturating subtraction}, \\becomes\ndenotes {\\it saturating subtraction},\nalso known as ``dot minus'' or ``monus'':\n\\endchange"
+    },
+    {
+      "type": "amendpage",
+      "printed_page": "12",
+      "source_entry": "\\amendpage 1f1.12 near the top (05.05.19)\n\\def\\gmp#1#2{\\mathbin{^{\\smash{#1}}_#2}}%\nlines 1 and 2: $\\lor$ \\becomes $\\bor$\\qquad(four changes)\\nl\nlines 6, 7, and 9: $\\gmp\\lor\\times$ \\becomes\n  $\\gmp{{\\mskip4.5mu\\vert}}\\times$\\qquad (three changes)\n\\endchange"
+    },
+    {
+      "type": "amendpage",
+      "printed_page": "12",
+      "source_entry": "\\amendpage 1f1.12 line 20 (08.03.04)\nExercises 33--37 \\becomes Exercises 31--37\n\\endchange"
+    },
+    {
+      "type": "amendpage",
+      "printed_page": "12",
+      "source_entry": "\\amendpage 1f1.12 line $-11$ (06.07.16)\n(denormal) \\becomes (subnormal)\n\\endchange"
+    },
+    {
+      "type": "improvepage",
+      "printed_page": "14",
+      "source_entry": "\\improvepage 1f1.14 line 2 in the first printing (05.09.17)\n{\\sl by the number\\/} Z \\becomes {\\sl the nonnegative number\\/} Z\n\\endchange"
+    },
+    {
+      "type": "improvepage",
+      "printed_page": "14",
+      "source_entry": "\\improvepage 1f1.14 line 5 in the first printing (05.09.17)\n`\\.{SRU} \\becomes\n`\\.{NEG} \\.{\\$X,\\$Z}' has a counterpart `\\.{NEG} \\.{\\$X,Z}' meaning\n${\\rm s}(\\$\\X)\\gets-\\Z$; `\\.{SRU}\n\\endchange"
+    },
+    {
+      "type": "amendpage",
+      "printed_page": "14",
+      "source_entry": "\\amendpage 1f1.14 lines $-18$ through $-7$ (05.05.19)\nchange all occurrences of `$@\\land@$' to `$@\\band@$' and\n       all occurrences of `$@\\lor@$' to `$@\\bor@$'\n(eight changes altogether)\n\\endchange"
+    },
+    {
+      "type": "improvepage",
+      "printed_page": "15",
+      "source_entry": "\\improvepage 1f1.15 lines $-14$, $-10$, $-2$ (06.07.15)\ns(\\char`\\$X)$\\mod2$ \\becomes \\char`\\$X$\\mod2$\n\\endchange"
+    },
+    {
+      "type": "improvepage",
+      "printed_page": "16",
+      "source_entry": "\\improvepage 1f1.16 line 3 (06.07.15)\ns(\\char`\\$X)$\\mod2$ \\becomes \\char`\\$X$\\mod2$\n\\endchange"
+    },
+    {
+      "type": "amendpage",
+      "printed_page": "19",
+      "source_entry": "\\amendpage 1f1.19 line 5 (05.05.19)\n$\\rm rK\\land rQ\\ne0$ \\becomes $\\rm rK\\band rQ\\ne0$\n\\endchange"
+    },
+    {
+      "type": "amendpage",
+      "printed_page": "19",
+      "source_entry": "\\amendpage 1f1.19 lines $-4$ and $-3$ (11.06.03)\na ``clock register'' \\dots advancing; \\becomes\na {\\it continuation register},~rC, used by the operating system for\nstack overflow;\na {\\it failure register},~rF, to help diagnose hardware errors;\n\\endchange"
+    },
+    {
+      "type": "bugonpage",
+      "printed_page": "20",
+      "source_entry": "\\bugonpage 1f1.20 line $-10$ (05.11.11)\nincreases by 1 \\becomes increases\n\\endchange"
+    },
+    {
+      "type": "amendpage",
+      "printed_page": "21",
+      "source_entry": "\\amendpage 1f1.21 line 6 (11.06.03)\n\\ninepoint cycle counter \\becomes continuation register\n\\endchange"
+    },
+    {
+      "type": "amendpage",
+      "printed_page": "23",
+      "source_entry": "\\amendpage 1f1.23 lines $-12$ and $-11$ (20.01.24)\nCommercial machines do not (yet?)\\ have the powerful \\.{MOR} and \\.{MXOR}\noperations. They usually have a half dozen or so \\becomes\nCommercial machines rarely have the powerful \\.{MOR} and \\.{MXOR} operations\n(although the situation is slowly improving). They sometimes have a few\n\\endchange"
+    },
+    {
+      "type": "amendpage",
+      "printed_page": "25",
+      "source_entry": "\\amendpage 1f1.25 line $-2$ (05.05.19)\n\\ninepoint $\\land$ and $\\lor$ \\becomes $\\band$ and $\\bor$\n\\endchange"
+    },
+    {
+      "type": "bugonpage",
+      "printed_page": "29",
+      "source_entry": "\\bugonpage 1f1.29 line 7 (05.05.17)\n\\eightpoint \\Hex{55\\,00\\,ff\\,fa} \\becomes \\Hex{55\\,02\\,ff\\,fa}\n\\endchange"
+    },
+    {
+      "type": "amendpage",
+      "printed_page": "29",
+      "source_entry": "\\amendpage 1f1.29 insert new paragraph as the bottom two lines (20.02.09)\n[Why `\\.{LOC} \\.{\\#100}'? It's generally best to start at location\n{\\Hex{100}} because the smaller locations are used for trip handlers\nand other special purposes.]\n\\endchange"
+    },
+    {
+      "type": "improvepage",
+      "printed_page": "30",
+      "source_entry": "\\improvepage 1f1.30 line 20 (07.04.23)\nset to 100. \\becomes\nset to 100. Using principles\nexplained below in Section 1.4.1\\mm,\n\\endchange"
+    },
+    {
+      "type": "bugonpage",
+      "printed_page": "32",
+      "source_entry": "\\bugonpage 1f1.32 lines 10--14 (23.03.29)\n[these lines should all be indented so that `\\.{0002}' lies under `\\.{t Fi}']\n\\endchange"
+    },
+    {
+      "type": "improvepage",
+      "printed_page": "32",
+      "source_entry": "\\improvepage 1f1.32 step P1 (05.05.21)\nIn this program \\dots~keeps track \\becomes\nIn the following steps, $n$~will run\nthrough the odd numbers that are candidates for primes; $j$~will keep track\n\\endchange"
+    }
+  ],
+  "finding_checks": [
+    {
+      "id": "MMIX-C0001",
+      "terms": [
+        "golden",
+        "9e37",
+        "7c16",
+        "first 64",
+        "1f1.8"
+      ],
+      "result": "No matching correction in the complete TeX entries or short/long fascicle errata; golden ratio appears only in the updated index."
+    },
+    {
+      "id": "MMIX-C0002",
+      "terms": [
+        "arent",
+        "aren",
+        "1f1.v"
+      ],
+      "result": "No correction for the first paragraph; the page-v entries concern the website and MMIXmasters news flash."
+    },
+    {
+      "id": "MMIX-C0003",
+      "terms": [
+        "rY",
+        "NEG",
+        "1f1.18"
+      ],
+      "result": "No correction for the interrupt paragraph. NEG entries concern p.14 immediate spelling and answer 42 on p.97."
+    }
+  ],
+  "limitations": [
+    "This records the repository errata acquired 2026-10-31, not a fresh network refresh.",
+    "No claim of priority or of absence from private correspondence."
+  ]
+}

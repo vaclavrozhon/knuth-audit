@@ -1,0 +1,11 @@
+# Partition counting, asymptotics and algorithm analysis
+
+Reviewed main 395 from “The number of partitions” through 405/Table 3, before the Gray-code subsection, exercises 20–53 on 409–412, and answers 750–755 through answer 53.
+
+Checked Euler's product and pentagonal recurrence, logarithmic upper bound, Gaussian transform and mod-3 cancellations for Theorem D, and the interface to the cited Hardy–Ramanujan–Rademacher formula. Read the exact-part-count recurrence, bounded Gaussian-binomial formula, Erdos–Lehner inclusion–exclusion proof and its paired estimates and bracketing lemma. Checked the distribution's mode, median, mean and variance, as well as the algebra and endpoints of the bounded limiting curve. The general cited analytic theorems were not reproved.
+
+Checked the generating-function recurrences for distinct partitions and divisor sums; the mod-5 proof; Euler–Maclaurin/Mellin calculations with the documented local corrections; the small-part quasipolynomial forms; the composition/staircase bounds; and Franklin's bounded-difference bijection. Algorithm P's step frequencies, prime/double-prime definitions and memory-access estimate agree. Theorem H's recurrence and induction reduction, the uniform random-partition induction, smallest-part generating functions and second-smallest-part correspondence were checked. Unranking was checked at the hint-reduction and conjugation level.
+
+New findings F0081–F0086 document the missing Jacobi factor, wrong second-smallest-part order, wrong multiplicity normalization, preliminary calculus defects, Mellin contour through a pole and wrong quasipolynomial family index. Originals and relevant historical/current errata were inspected. The known Bernoulli factor B_2 B_1 t/2 and the historical millionth-partition correction are retained, not new findings. No mathematical program or census was run.
+
+Exact exceptions are in the matching results JSON. In particular, the omitted explicit asymptotic thresholds in answer 50(f) have not been filled in; the main cost theorem's reduction was checked without presenting this as a new complete proof. Next: Gray-code main 405 onward, exercise 54 and answers 755 onward. Shared 405,407,412,755 remain uncertified.

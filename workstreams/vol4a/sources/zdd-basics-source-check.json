@@ -1,0 +1,36 @@
+{
+  "checked_at_utc": "2026-11-11T18:03:40.041915+00:00",
+  "edition": "Volume4A, first edition, first printing, 2011; inventory/books.json",
+  "originals": [
+    "images/bookwise-p658.png",
+    "images/bookwise-p659.png",
+    "images/bookwise-p660.png"
+  ],
+  "errata": [
+    "errata/text/all4a-pre.txt",
+    "errata/text/all4a.txt",
+    "errata/text/err4a.txt",
+    "errata/text/all4f1.txt",
+    "errata/text/err4f1.txt"
+  ],
+  "retrieval_manifests": [
+    "integration/2026-11-10-bookwise/errata/vol4a-manifest.json",
+    "integration/2026-11-10-bookwise/errata/vol4a-fasc1-manifest.json"
+  ],
+  "pages_screened": "4A249–250,272–273,658–661; Fascicle1 corresponding117–118,140–141,224–227",
+  "known_excluded": [
+    "249: node branch wording (2019)",
+    "658: Sigma_n notation in185 (2025)",
+    "659: answer198 references200 ->201 (2023)"
+  ],
+  "public_queries": [
+    "Knuth \"197\" \"659\" \"ZDD\" error",
+    "\"master z-profile\" \"DEP\"",
+    "\"d(k+1)h\" \"ZDD\""
+  ],
+  "public_result": "No matching independent report located. Search results included an earlier draft of the book and unrelated ZDD implementation material. Absolute novelty is not established.",
+  "findings": [
+    "V4A-F0046"
+  ],
+  "existing_finding_extension": "V4A-F0038 also applies to the ZDD adaptation in answer202."
+}

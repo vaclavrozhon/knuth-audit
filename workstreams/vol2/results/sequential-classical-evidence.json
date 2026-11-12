@@ -1,0 +1,562 @@
+{
+  "volume": "vol2",
+  "section": "4.3.1",
+  "reviewed_at_utc": "2026-11-06T13:50:58+00:00",
+  "mode": "Separate mathematical arguments; reuse of closed archived evidence",
+  "original_pages": [
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274,
+    275,
+    276,
+    277,
+    278,
+    279,
+    280,
+    281,
+    282,
+    283,
+    284
+  ],
+  "answer_pages": [
+    623,
+    624,
+    625,
+    626,
+    627,
+    628,
+    629,
+    630
+  ],
+  "exercise_records": [
+    {
+      "id": "4.3.1-1",
+      "status": "checked",
+      "evidence": [
+        "notes/classical-history.md",
+        "results/classical-history.json",
+        "sources/classical-history-manifest.json"
+      ],
+      "scope_note": "Tři vybrané tradice, přesné přepisy a obecné invarianty;10000+500 párů a10000 půlení. Rozdíl mezi originálem, překladem a vlastním doplněním výslovně vymezen."
+    },
+    {
+      "id": "4.3.1-2",
+      "status": "checked",
+      "evidence": [
+        "notes/classical-basic.md",
+        "results/classical-basic.json"
+      ],
+      "scope_note": "Obecný důkaz a vymezené přesné kontroly; MIX porovnán s celými čísly."
+    },
+    {
+      "id": "4.3.1-3",
+      "status": "confirmed",
+      "evidence": [
+        "notes/classical-basic.md",
+        "results/classical-basic.json"
+      ],
+      "scope_note": "C0095: čas o1 cyklus vyšší, samotný program správný."
+    },
+    {
+      "id": "4.3.1-4",
+      "status": "checked",
+      "evidence": [
+        "notes/classical-basic.md",
+        "results/classical-basic.json"
+      ],
+      "scope_note": "Obecný důkaz a vymezené přesné kontroly; MIX porovnán s celými čísly."
+    },
+    {
+      "id": "4.3.1-5",
+      "status": "checked",
+      "evidence": [
+        "notes/classical-basic.md",
+        "results/classical-basic.json"
+      ],
+      "scope_note": "Obecný důkaz a vymezené přesné kontroly; MIX porovnán s celými čísly."
+    },
+    {
+      "id": "4.3.1-6",
+      "status": "checked",
+      "evidence": [
+        "notes/classical-basic.md",
+        "results/classical-basic.json"
+      ],
+      "scope_note": "Obecný důkaz a vymezené přesné kontroly; MIX porovnán s celými čísly."
+    },
+    {
+      "id": "4.3.1-7",
+      "status": "known_erratum",
+      "evidence": [
+        "notes/classical-basic.md",
+        "results/classical-basic.json"
+      ],
+      "scope_note": "Přesné rozdělení a střední hodnota přenosů obecně dokázány; erratum2026 mění jen číslo odkazované rovnice."
+    },
+    {
+      "id": "4.3.1-8",
+      "status": "confirmed",
+      "evidence": [
+        "notes/classical-basic.md",
+        "results/classical-basic.json"
+      ],
+      "scope_note": "C0095: čas o1 cyklus vyšší, samotný program správný."
+    },
+    {
+      "id": "4.3.1-9",
+      "status": "checked",
+      "evidence": [
+        "notes/classical-basic.md",
+        "results/classical-basic.json"
+      ],
+      "scope_note": "Obecný důkaz a vymezené přesné kontroly; MIX porovnán s celými čísly."
+    },
+    {
+      "id": "4.3.1-10",
+      "status": "checked",
+      "evidence": [
+        "notes/classical-basic.md",
+        "results/classical-basic.json"
+      ],
+      "scope_note": "Obecný důkaz a vymezené přesné kontroly; MIX porovnán s celými čísly."
+    },
+    {
+      "id": "4.3.1-11",
+      "status": "checked",
+      "evidence": [
+        "notes/classical-basic.md",
+        "results/classical-basic.json"
+      ],
+      "scope_note": "Obecný důkaz a vymezené přesné kontroly; MIX porovnán s celými čísly."
+    },
+    {
+      "id": "4.3.1-12",
+      "status": "checked",
+      "evidence": [
+        "notes/classical-basic.md",
+        "results/classical-basic.json"
+      ],
+      "scope_note": "Obecný důkaz a vymezené přesné kontroly; MIX porovnán s celými čísly."
+    },
+    {
+      "id": "4.3.1-13",
+      "status": "checked",
+      "evidence": [
+        "notes/classical-basic.md",
+        "results/classical-basic.json"
+      ],
+      "scope_note": "Obecný důkaz a vymezené přesné kontroly; MIX porovnán s celými čísly."
+    },
+    {
+      "id": "4.3.1-14",
+      "status": "checked",
+      "evidence": [
+        "notes/classical-basic.md",
+        "results/classical-basic.json"
+      ],
+      "scope_note": "Obecný důkaz a vymezené přesné kontroly; MIX porovnán s celými čísly."
+    },
+    {
+      "id": "4.3.1-15",
+      "status": "confirmed",
+      "evidence": [
+        "notes/classical-basic.md",
+        "results/classical-basic.json",
+        "notes/classical-context.md"
+      ],
+      "scope_note": "C0096: chybí malé případy n1/2; přesné maximum obecně odvozeno. Bibliografický dovětek vymezen v notes/classical-context.md; původní článek1993 se nepodařilo obrazově získat."
+    },
+    {
+      "id": "4.3.1-16",
+      "status": "known_erratum",
+      "evidence": [
+        "notes/classical-basic.md",
+        "results/classical-basic.json"
+      ],
+      "scope_note": "Krátké dělení dokázáno; známé přeznačení S1/S2/S3 na Q1/Q2/Q3."
+    },
+    {
+      "id": "4.3.1-17",
+      "status": "checked",
+      "evidence": [
+        "notes/classical-division-exercises.md",
+        "results/classical-division-exercises.json"
+      ],
+      "scope_note": "Obecný důkaz, původní odpověď a relevantní errata prověřeny; nové konečné kontroly doplňují dřívější D."
+    },
+    {
+      "id": "4.3.1-18",
+      "status": "checked",
+      "evidence": [
+        "notes/classical-division-exercises.md",
+        "results/classical-division-exercises.json"
+      ],
+      "scope_note": "Obecný důkaz, původní odpověď a relevantní errata prověřeny; nové konečné kontroly doplňují dřívější D."
+    },
+    {
+      "id": "4.3.1-19",
+      "status": "checked",
+      "evidence": [
+        "notes/classical-division-exercises.md",
+        "results/classical-division-exercises.json"
+      ],
+      "scope_note": "Obecný důkaz, původní odpověď a relevantní errata prověřeny; nové konečné kontroly doplňují dřívější D."
+    },
+    {
+      "id": "4.3.1-20",
+      "status": "partial",
+      "evidence": [
+        "notes/classical-division-exercises.md",
+        "results/classical-division-exercises.json",
+        "notes/C0098-division-upper-estimate.md",
+        "notes/sequential-classical-2026-11-06.md"
+      ],
+      "scope_note": "Podmíněný argument pro horní odhad je dokázán; rozsah zadání zůstává sporný (C0098 candidate). Nová hloubka nepovyšuje podmíněný důkaz na uzavření celé úlohy."
+    },
+    {
+      "id": "4.3.1-21",
+      "status": "partial",
+      "evidence": [
+        "notes/classical-division-exercises.md",
+        "results/classical-division-exercises.json",
+        "notes/C0098-division-upper-estimate.md",
+        "notes/sequential-classical-2026-11-06.md"
+      ],
+      "scope_note": "Podmíněný argument pro horní odhad je dokázán; rozsah zadání zůstává sporný (C0098 candidate). Nová hloubka nepovyšuje podmíněný důkaz na uzavření celé úlohy."
+    },
+    {
+      "id": "4.3.1-22",
+      "status": "known_erratum",
+      "evidence": [
+        "notes/classical-division-exercises.md",
+        "results/classical-division-exercises.json"
+      ],
+      "scope_note": "Obecný důkaz, původní odpověď a relevantní errata prověřeny; nové konečné kontroly doplňují dřívější D."
+    },
+    {
+      "id": "4.3.1-23",
+      "status": "known_erratum",
+      "evidence": [
+        "notes/classical-division-exercises.md",
+        "results/classical-division-exercises.json"
+      ],
+      "scope_note": "Obecný důkaz, původní odpověď a relevantní errata prověřeny; nové konečné kontroly doplňují dřívější D."
+    },
+    {
+      "id": "4.3.1-24",
+      "status": "checked",
+      "evidence": [
+        "notes/classical-division-exercises.md",
+        "results/classical-division-exercises.json"
+      ],
+      "scope_note": "Obecný důkaz, původní odpověď a relevantní errata prověřeny; nové konečné kontroly doplňují dřívější D."
+    },
+    {
+      "id": "4.3.1-25",
+      "status": "known_erratum",
+      "evidence": [
+        "notes/classical-division-exercises.md",
+        "results/classical-division-exercises.json",
+        "notes/classical-division-mix.md",
+        "results/classical-division.json"
+      ],
+      "scope_note": "Obecný důkaz, původní odpověď a relevantní errata prověřeny; nové konečné kontroly doplňují dřívější D."
+    },
+    {
+      "id": "4.3.1-26",
+      "status": "known_erratum",
+      "evidence": [
+        "notes/classical-division-exercises.md",
+        "results/classical-division-exercises.json",
+        "notes/classical-division-mix.md",
+        "results/classical-division.json"
+      ],
+      "scope_note": "Obecný důkaz, původní odpověď a relevantní errata prověřeny; nové konečné kontroly doplňují dřívější D."
+    },
+    {
+      "id": "4.3.1-27",
+      "status": "checked",
+      "evidence": [
+        "notes/classical-division-exercises.md",
+        "results/classical-division-exercises.json"
+      ],
+      "scope_note": "Obecný důkaz, původní odpověď a relevantní errata prověřeny; nové konečné kontroly doplňují dřívější D."
+    },
+    {
+      "id": "4.3.1-28",
+      "status": "known_erratum",
+      "evidence": [
+        "notes/classical-division-exercises.md",
+        "results/classical-division-exercises.json"
+      ],
+      "scope_note": "Obecný důkaz nejvýše3 iterací včetně lichých b a b2/3/4;216195 úplných vstupů,2000 dalších a5 symbolických identit. Známé convex→concave."
+    },
+    {
+      "id": "4.3.1-29",
+      "status": "checked",
+      "evidence": [
+        "notes/classical-division-exercises.md",
+        "results/classical-division-exercises.json"
+      ],
+      "scope_note": "Obecný důkaz, původní odpověď a relevantní errata prověřeny; nové konečné kontroly doplňují dřívější D."
+    },
+    {
+      "id": "4.3.1-30",
+      "status": "confirmed",
+      "evidence": [
+        "notes/classical-division-exercises.md",
+        "results/classical-division-exercises.json",
+        "notes/classical-division-mix.md",
+        "results/classical-division.json"
+      ],
+      "scope_note": "C0097 opravuje n→m v překryvuM. D alias podílu včetněD6 prokázán a cíleně ověřen, A/S1920 případů."
+    },
+    {
+      "id": "4.3.1-31",
+      "status": "checked",
+      "evidence": [
+        "notes/classical-roots.md",
+        "results/classical-roots.json"
+      ],
+      "scope_note": "Úplná konstrukce, obecný invariant a nezávislé přesné orákulum;31 včetně rovnosti,38 včetně počtu a šířky operací."
+    },
+    {
+      "id": "4.3.1-32",
+      "status": "checked",
+      "evidence": [
+        "notes/classical-quater.md",
+        "results/classical-quater.json"
+      ],
+      "scope_note": "Dvě vlastní konstrukce, obecné zbytkové meze a náklady;28392+420 párů. Citované nedostupné články nejsou vydávány za přečtené."
+    },
+    {
+      "id": "4.3.1-33",
+      "status": "checked",
+      "evidence": [
+        "notes/classical-roots.md",
+        "results/classical-roots.json"
+      ],
+      "scope_note": "Úplná konstrukce, obecný invariant a nezávislé přesné orákulum;31 včetně rovnosti,38 včetně počtu a šířky operací."
+    },
+    {
+      "id": "4.3.1-34",
+      "status": "checked",
+      "evidence": [
+        "notes/classical-linked.md",
+        "sources/linked_integer.py",
+        "results/classical-linked.json"
+      ],
+      "scope_note": "Propojený A/S/M/D s O(1) alokací;9604+720 párů,120 aliasů a4 cleanup případy. Důkaz a bibliografický limit uvedeny."
+    },
+    {
+      "id": "4.3.1-35",
+      "status": "checked",
+      "evidence": [
+        "notes/classical-decuple.md",
+        "sources/decuple_float.py",
+        "results/classical-decuple.json"
+      ],
+      "scope_note": "Desetislovný formát s9slovnou mantisou, přesné zaokrouhlení a exponentové hranice.76144 úplných+3000 p9 operací,24 krajních případů a4 cleanup. První orákulum přerušeno, checkpoint zachován, opravený zbytek exit0."
+    },
+    {
+      "id": "4.3.1-36",
+      "status": "checked",
+      "evidence": [
+        "notes/classical-special.md",
+        "results/classical-special.json"
+      ],
+      "scope_note": "Obecný důkaz a přesné kontroly.36 intervaly lnphi,37 shodné celé průběhy D,41 explicitní magnitudová konvence a Newton2006; primární Schooling/Montgomery přečteny, osobní atribuce vymezeny."
+    },
+    {
+      "id": "4.3.1-37",
+      "status": "checked",
+      "evidence": [
+        "notes/classical-special.md",
+        "results/classical-special.json"
+      ],
+      "scope_note": "Obecný důkaz a přesné kontroly.36 intervaly lnphi,37 shodné celé průběhy D,41 explicitní magnitudová konvence a Newton2006; primární Schooling/Montgomery přečteny, osobní atribuce vymezeny."
+    },
+    {
+      "id": "4.3.1-38",
+      "status": "checked",
+      "evidence": [
+        "notes/classical-roots.md",
+        "results/classical-roots.json"
+      ],
+      "scope_note": "Úplná konstrukce, obecný invariant a nezávislé přesné orákulum;31 včetně rovnosti,38 včetně počtu a šířky operací."
+    },
+    {
+      "id": "4.3.1-39",
+      "status": "confirmed",
+      "evidence": [
+        "notes/classical-bbp.md",
+        "notes/C0100-bbp-log-coefficients.md",
+        "notes/C0101-euler-bbp-attribution.md",
+        "results/classical-bbp.json"
+      ],
+      "scope_note": "Obecný filtr kořenů,12 identit, intervalový algoritmus a664+64 nezávislých kontrol. C0100 dvě lokální chyby; historická atribuceC0101 zůstává candidate s výslovným omezením pramenů."
+    },
+    {
+      "id": "4.3.1-40",
+      "status": "partial",
+      "evidence": [
+        "notes/classical-exact.md",
+        "notes/C0099-exact-division-shift.md",
+        "results/classical-exact.json"
+      ],
+      "scope_note": "C0099 confirmed: chybí /b. Přesný hybrid obecně dokázán s n²/4+O(n log n), s pevným guardem n²/4+O(n). Uniformní tištěný zbytek O(n) pro pevné maléb ještě nedoložen; neprohlášen za vyvrácený."
+    },
+    {
+      "id": "4.3.1-41",
+      "status": "known_erratum",
+      "evidence": [
+        "notes/classical-special.md",
+        "results/classical-special.json"
+      ],
+      "scope_note": "Obecný důkaz a přesné kontroly.36 intervaly lnphi,37 shodné celé průběhy D,41 explicitní magnitudová konvence a Newton2006; primární Schooling/Montgomery přečteny, osobní atribuce vymezeny."
+    },
+    {
+      "id": "4.3.1-42",
+      "status": "known_erratum",
+      "evidence": [
+        "notes/classical-carries.md",
+        "results/classical-carries.json",
+        "notes/classical-context.md"
+      ],
+      "scope_note": "Obecný vlastní důkaz a úplné konečné kontroly; známé opravy znaménka42 a jmen43. Bibliografie v notes/classical-context.md s výslovnými limity."
+    },
+    {
+      "id": "4.3.1-43",
+      "status": "known_erratum",
+      "evidence": [
+        "notes/classical-carries.md",
+        "results/classical-carries.json",
+        "notes/classical-context.md"
+      ],
+      "scope_note": "Obecný vlastní důkaz a úplné konečné kontroly; známé opravy znaménka42 a jmen43. Bibliografie v notes/classical-context.md s výslovnými limity."
+    }
+  ],
+  "text_record": {
+    "id": "4.3.1-text",
+    "status": "checked",
+    "evidence": [
+      "notes/division.md",
+      "notes/classical-basic.md",
+      "notes/classical-division-mix.md",
+      "notes/classical-carries.md",
+      "notes/classical-context.md",
+      "sources/classical-context-manifest.json"
+    ],
+    "scope_note": "Matematický a instrukční text265–280 dokončen; kontext kriticky porovnán s dostupnými prameny a výslovnými limity. Absolutní prvenství, nedostupné původní tisky a historické benchmarky nejsou nezávisle prokázány."
+  },
+  "subblocks": [
+    {
+      "id": "4.3.1-D",
+      "status": "checked",
+      "evidence": [
+        "notes/division.md"
+      ],
+      "scope_note": "D po opravách 1998/2005/2026, bez MIX."
+    },
+    {
+      "id": "4.3.1-basic",
+      "status": "confirmed",
+      "evidence": [
+        "notes/classical-basic.md",
+        "results/classical-basic.json"
+      ],
+      "scope_note": "A/S/M,2–16; čtyři úspěšné checkpointy, C0095/C0096. Bibliografie15 mimo tento blok."
+    },
+    {
+      "id": "4.3.1-D-MIX",
+      "status": "known_erratum",
+      "evidence": [
+        "notes/classical-division-mix.md",
+        "results/classical-division.json"
+      ],
+      "scope_note": "Úplný D1–D8 včetně25/26 po opravách, obecný instrukční důkaz a900+36 běhů; přesný čas všech větví."
+    },
+    {
+      "id": "4.3.1-division-exercises",
+      "status": "confirmed",
+      "evidence": [
+        "notes/classical-division-exercises.md",
+        "results/classical-division-exercises.json"
+      ],
+      "scope_note": "17–30 dokončeny; C0097 a výslovně nejistý výkladC0098. Svoboda obecně i přesnou aritmetikou."
+    },
+    {
+      "id": "4.3.1-carries",
+      "status": "checked",
+      "evidence": [
+        "notes/classical-carries.md",
+        "results/classical-carries.json"
+      ],
+      "scope_note": "Komplementy, celé rozdělení a rozptyl přenosů,42/43 dokončeny; tři checkpointy."
+    },
+    {
+      "id": "4.3.1-roots",
+      "status": "checked",
+      "evidence": [
+        "notes/classical-roots.md",
+        "results/classical-roots.json"
+      ],
+      "scope_note": "31/33/38, všechny3 checkpointy; bez nového nálezu."
+    },
+    {
+      "id": "4.3.1-special",
+      "status": "checked",
+      "evidence": [
+        "notes/classical-special.md",
+        "results/classical-special.json"
+      ],
+      "scope_note": "36/37/41, všechny3 checkpointy; bez nového nálezu."
+    },
+    {
+      "id": "4.3.1-exact",
+      "status": "partial",
+      "evidence": [
+        "notes/classical-exact.md",
+        "notes/C0099-exact-division-shift.md",
+        "results/classical-exact.json"
+      ],
+      "scope_note": "C0099 confirmed: chybí /b. Přesný hybrid obecně dokázán s n²/4+O(n log n), s pevným guardem n²/4+O(n). Uniformní tištěný zbytek O(n) pro pevné maléb ještě nedoložen; neprohlášen za vyvrácený."
+    },
+    {
+      "id": "4.3.1-bbp",
+      "status": "confirmed",
+      "evidence": [
+        "notes/classical-bbp.md",
+        "notes/C0100-bbp-log-coefficients.md",
+        "notes/C0101-euler-bbp-attribution.md",
+        "results/classical-bbp.json"
+      ],
+      "scope_note": "Obecný filtr kořenů,12 identit, intervalový algoritmus a664+64 nezávislých kontrol. C0100 dvě lokální chyby; historická atribuceC0101 zůstává candidate s výslovným omezením pramenů."
+    },
+    {
+      "id": "4.3.1-context",
+      "status": "checked",
+      "evidence": [
+        "notes/classical-context.md",
+        "sources/classical-context-manifest.json"
+      ],
+      "scope_note": "279 identity obecně; historické a bibliografické porovnání ve výslovném rozsahu bez nového nálezu."
+    }
+  ],
+  "new_computations": false,
+  "whole_section_complete": false,
+  "unresolved": [
+    "4.3.1-20",
+    "4.3.1-21",
+    "4.3.1-40",
+    "V2-C0101"
+  ],
+  "note": "Evidence is adopted at its recorded scope. Original statements and answers have been paired; this is not a rerun or a new claim to have read every external reference."
+}

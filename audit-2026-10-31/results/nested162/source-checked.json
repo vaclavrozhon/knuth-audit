@@ -1,0 +1,1019 @@
+{
+  "at_utc": "2026-11-03T12:08:16.542658+00:00",
+  "checker_sha256": "84ecb769e12fa5fb3f6727cff91e53ef8c2139e92d4fa3b4f22a01ab1cfed257",
+  "dependencies": {
+    "extract_chain150.py": "14c9e633bb5fb3bce2db40355ceb074738b1ec0ab6ae57216198a66ddda6dc7c",
+    "extract_jigsaw.py": "012a8cdc37835f26901339b783237350bc64f332b4e64365208e57ae3cd287ce",
+    "check_nested_queens.py": "7ce7fca609f05db1cd5a967bb4f550625b32171d0f996cb724c0d4d54f3d49f1"
+  },
+  "traces": {
+    "results/nested162/original-165.xml": "d9ec2b03e90d9ebcca33c41f450b5bb21ee4d304b3dde4a7bbba5307a9d13dd7",
+    "results/nested162/original-482.xml": "24d068f0cf0db65d8223d867f4b8babc02b2fe784a272b2b5bced523aa9fdd4d",
+    "results/nested162/draft-87.xml": "9539f0b1e48a0d93868c6fbd589eac0248e9e397166690904012dcf27aa9bc91",
+    "results/nested162/draft-172.xml": "d463c00ee8c6487f7b57f435f6b87ec30133047a935ff8fa57234fdd7a72252c"
+  },
+  "figures": {
+    "original_question": [
+      {
+        "n": 17,
+        "columns": [
+          3,
+          5,
+          13,
+          15,
+          12,
+          14,
+          6,
+          4,
+          1,
+          16,
+          0,
+          2,
+          10,
+          7,
+          9,
+          11,
+          8
+        ],
+        "shaded_blocks": [
+          [
+            2,
+            12,
+            4
+          ],
+          [
+            12,
+            7,
+            5
+          ]
+        ],
+        "all_blocks": {
+          "4": [
+            [
+              2,
+              12
+            ]
+          ],
+          "5": [
+            [
+              12,
+              7
+            ]
+          ],
+          "6": []
+        },
+        "source_bounds": [
+          322.2,
+          403.48,
+          71.75,
+          153.02698
+        ]
+      }
+    ],
+    "original_answer": [
+      {
+        "n": 22,
+        "columns": [
+          14,
+          16,
+          13,
+          15,
+          5,
+          7,
+          4,
+          6,
+          8,
+          17,
+          19,
+          21,
+          18,
+          20,
+          10,
+          12,
+          9,
+          11,
+          1,
+          3,
+          0,
+          2
+        ],
+        "shaded_blocks": [
+          [
+            0,
+            13,
+            4
+          ],
+          [
+            4,
+            4,
+            4
+          ],
+          [
+            10,
+            18,
+            4
+          ],
+          [
+            14,
+            9,
+            4
+          ],
+          [
+            18,
+            0,
+            4
+          ]
+        ],
+        "all_blocks": {
+          "4": [
+            [
+              0,
+              13
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              10,
+              18
+            ],
+            [
+              14,
+              9
+            ],
+            [
+              18,
+              0
+            ]
+          ],
+          "5": [
+            [
+              4,
+              4
+            ],
+            [
+              9,
+              17
+            ]
+          ],
+          "6": []
+        },
+        "source_bounds": [
+          68.58,
+          173.76,
+          250.88999,
+          356.07197
+        ],
+        "accepted_archive": "results/nested_queens/independent-n22-q4-t5.jsonl",
+        "archive_line": 161
+      },
+      {
+        "n": 19,
+        "columns": [
+          1,
+          11,
+          13,
+          10,
+          12,
+          9,
+          2,
+          0,
+          3,
+          18,
+          16,
+          14,
+          17,
+          15,
+          8,
+          6,
+          4,
+          7,
+          5
+        ],
+        "shaded_blocks": [
+          [
+            1,
+            9,
+            5
+          ],
+          [
+            9,
+            14,
+            5
+          ],
+          [
+            14,
+            4,
+            5
+          ]
+        ],
+        "all_blocks": {
+          "4": [
+            [
+              1,
+              10
+            ],
+            [
+              10,
+              14
+            ],
+            [
+              15,
+              4
+            ]
+          ],
+          "5": [
+            [
+              1,
+              9
+            ],
+            [
+              9,
+              14
+            ],
+            [
+              14,
+              4
+            ]
+          ],
+          "6": []
+        },
+        "source_bounds": [
+          183.12,
+          273.9,
+          258.08998,
+          348.87199
+        ],
+        "accepted_archive": "results/nested_queens/independent-n19-q5-t3.jsonl",
+        "archive_line": 44
+      },
+      {
+        "n": 25,
+        "columns": [
+          6,
+          8,
+          10,
+          7,
+          9,
+          21,
+          24,
+          20,
+          23,
+          19,
+          22,
+          11,
+          2,
+          5,
+          1,
+          4,
+          0,
+          3,
+          15,
+          18,
+          14,
+          17,
+          13,
+          16,
+          12
+        ],
+        "shaded_blocks": [
+          [
+            5,
+            19,
+            6
+          ],
+          [
+            12,
+            0,
+            6
+          ],
+          [
+            18,
+            13,
+            6
+          ]
+        ],
+        "all_blocks": {
+          "4": [
+            [
+              1,
+              7
+            ]
+          ],
+          "5": [
+            [
+              0,
+              6
+            ]
+          ],
+          "6": [
+            [
+              5,
+              19
+            ],
+            [
+              12,
+              0
+            ],
+            [
+              18,
+              13
+            ]
+          ]
+        },
+        "source_bounds": [
+          283.31,
+          402.8,
+          243.72998,
+          363.205
+        ],
+        "accepted_archive": "results/nested_queens/independent-n25-q6-t3.jsonl",
+        "archive_line": 3291
+      }
+    ],
+    "draft_question": [
+      {
+        "n": 17,
+        "columns": [
+          3,
+          5,
+          13,
+          15,
+          12,
+          14,
+          6,
+          4,
+          1,
+          16,
+          0,
+          2,
+          10,
+          7,
+          9,
+          11,
+          8
+        ],
+        "shaded_blocks": [
+          [
+            2,
+            12,
+            4
+          ],
+          [
+            12,
+            7,
+            5
+          ]
+        ],
+        "all_blocks": {
+          "4": [
+            [
+              2,
+              12
+            ]
+          ],
+          "5": [
+            [
+              12,
+              7
+            ]
+          ],
+          "6": []
+        },
+        "source_bounds": [
+          344.34,
+          425.62,
+          180.40999999999997,
+          261.6909999999999
+        ]
+      }
+    ],
+    "draft_answer": [
+      {
+        "n": 22,
+        "columns": [
+          14,
+          16,
+          13,
+          15,
+          5,
+          7,
+          4,
+          6,
+          8,
+          17,
+          19,
+          21,
+          18,
+          20,
+          10,
+          12,
+          9,
+          11,
+          1,
+          3,
+          0,
+          2
+        ],
+        "shaded_blocks": [
+          [
+            0,
+            13,
+            4
+          ],
+          [
+            4,
+            4,
+            4
+          ],
+          [
+            10,
+            18,
+            4
+          ],
+          [
+            14,
+            9,
+            4
+          ],
+          [
+            18,
+            0,
+            4
+          ]
+        ],
+        "all_blocks": {
+          "4": [
+            [
+              0,
+              13
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              10,
+              18
+            ],
+            [
+              14,
+              9
+            ],
+            [
+              18,
+              0
+            ]
+          ],
+          "5": [
+            [
+              4,
+              4
+            ],
+            [
+              9,
+              17
+            ]
+          ],
+          "6": []
+        },
+        "source_bounds": [
+          78.18,
+          183.36,
+          359.43,
+          464.611
+        ]
+      },
+      {
+        "n": 19,
+        "columns": [
+          1,
+          11,
+          13,
+          10,
+          12,
+          9,
+          2,
+          0,
+          3,
+          18,
+          16,
+          14,
+          17,
+          15,
+          8,
+          6,
+          4,
+          7,
+          5
+        ],
+        "shaded_blocks": [
+          [
+            1,
+            9,
+            5
+          ],
+          [
+            9,
+            14,
+            5
+          ],
+          [
+            14,
+            4,
+            5
+          ]
+        ],
+        "all_blocks": {
+          "4": [
+            [
+              1,
+              10
+            ],
+            [
+              10,
+              14
+            ],
+            [
+              15,
+              4
+            ]
+          ],
+          "5": [
+            [
+              1,
+              9
+            ],
+            [
+              9,
+              14
+            ],
+            [
+              14,
+              4
+            ]
+          ],
+          "6": []
+        },
+        "source_bounds": [
+          192.78,
+          283.56,
+          366.75,
+          457.53099999999995
+        ]
+      },
+      {
+        "n": 25,
+        "columns": [
+          6,
+          8,
+          10,
+          7,
+          9,
+          21,
+          24,
+          20,
+          23,
+          19,
+          22,
+          11,
+          2,
+          5,
+          1,
+          4,
+          0,
+          3,
+          15,
+          18,
+          14,
+          17,
+          13,
+          16,
+          12
+        ],
+        "shaded_blocks": [
+          [
+            5,
+            19,
+            6
+          ],
+          [
+            12,
+            0,
+            6
+          ],
+          [
+            18,
+            13,
+            6
+          ]
+        ],
+        "all_blocks": {
+          "4": [
+            [
+              1,
+              7
+            ]
+          ],
+          "5": [
+            [
+              0,
+              6
+            ]
+          ],
+          "6": [
+            [
+              5,
+              19
+            ],
+            [
+              12,
+              0
+            ],
+            [
+              18,
+              13
+            ]
+          ]
+        },
+        "source_bounds": [
+          292.98,
+          412.46,
+          352.33,
+          471.811
+        ]
+      }
+    ]
+  },
+  "original_draft_equal": true,
+  "all83_queens_per_version_checked": true,
+  "all13_shaded_blocks_per_version_checked": true,
+  "missing_Q5_shading_confirmed": [
+    [
+      0,
+      6
+    ]
+  ],
+  "printed_answer_witnesses_in_accepted_archives": true,
+  "disjoint_Q4_Q5_on_Q15_witness": {
+    "columns": [
+      6,
+      8,
+      5,
+      7,
+      14,
+      0,
+      2,
+      4,
+      13,
+      10,
+      12,
+      9,
+      11,
+      1,
+      3
+    ],
+    "Q4": [
+      0,
+      5
+    ],
+    "Q5": [
+      8,
+      9
+    ]
+  },
+  "all51_prior_ranges_complete": true,
+  "accepted_prior_hashes": {
+    "NESTED_QUEENS_NOTES.md": "87ac2a47de77125de07e5b509b95715ef5378d67a5b5966e9bf2a1f8e9854198",
+    "check_nested_queens.py": "7ce7fca609f05db1cd5a967bb4f550625b32171d0f996cb724c0d4d54f3d49f1",
+    "verify_nested_queens.py": "30954fa7e9bd39f941ab362549fcc994e4b66c17fe352691a882e785461ea6a1",
+    "nested_queens.cpp": "7b81fda8ed09118e8160af911107297ba8a5d33fadd658020861bec386da7f64",
+    "results/nested_queens/classification.json": "f0d2c9e52e3cd490c95595d4eac7337c51512dab7d86a8cb2eef53859090e997",
+    "results/nested_queens/collapsed-n16-q5-t2.log": "6f7173ef5d5aecaed8e04c3199cd7e290ae9862e1d3ef9e7d9077be388906e61",
+    "results/nested_queens/collapsed-n16-q5-t2.mcc": "1133c9f914124cf88975a59bda4150327c493553762cbb65fa55ffe6cf7c981d",
+    "results/nested_queens/collapsed-n20-q5-t4.log": "1c06a094021d9f80afcb51f7f6c3757e6d2700ae816790ae40d7a912b13656f1",
+    "results/nested_queens/collapsed-n20-q5-t4.mcc": "1bd7f6db5e6fdb33147dea8bc7803d9915a500d98e98454882ba00618b3a4253",
+    "results/nested_queens/collapsed-n22-q6-t2.log": "d1b70b5dce84447ae8d5c353ee9fc344025ed6f6819f0695b9106a009e3aa9fe",
+    "results/nested_queens/collapsed-n22-q6-t2.mcc": "f3ca1715bef8e7a1236e45217f2e5c62a088ea286f9dd1641791dedc957fd5fa",
+    "results/nested_queens/five-distinct-layouts.json": "9a9102802b5f3cb54f97c8458311824d06d2ee8cb989f7785eba8ec682a00bb4",
+    "results/nested_queens/five-distinct-layouts.png": "f53405e453e050633e04e2d250d1a48df8a6971864417536a76b1f99f2037a07",
+    "results/nested_queens/five-distinct-layouts.svg": "0e199a69cb6713ae5b2afe1d8e10ce1068c49a5d3c428a8d699864d2ed37f897",
+    "results/nested_queens/independent-n10-q4-t2.json": "cef158cf240bf1babe8b54148c97c071e986413a04f18f6742defba41f476962",
+    "results/nested_queens/independent-n10-q4-t2.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/independent-n10-q5-t2.json": "19a258b1441c53a2377b1a93a58b824606726d964e57143f5665d2d880a8dc17",
+    "results/nested_queens/independent-n10-q5-t2.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/independent-n11-q4-t2.json": "a48ea2af191235f037b6125c623c22931da847fdcaeb5c96a466a54bb9af5cd1",
+    "results/nested_queens/independent-n11-q4-t2.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/independent-n11-q5-t2.json": "f6f1f7b916fbad9c2f6bab05933730f50f8d1a5c60b8400a12ee7394c5107c93",
+    "results/nested_queens/independent-n11-q5-t2.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/independent-n12-q4-t2.json": "db5e31c08699538a6352d76fdccc764b8a851126cc37a12b7b7082630bcf4857",
+    "results/nested_queens/independent-n12-q4-t2.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/independent-n12-q4-t3.json": "3216ad73f22627da52a36bcaee9cf3f576cd79d37d7745fac6358ffecd422efe",
+    "results/nested_queens/independent-n12-q4-t3.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/independent-n12-q5-t2.json": "0fe1f1c87c8177a24162c72a9f65c60cde6724a82b9df3ff69f4c5a96ea022e0",
+    "results/nested_queens/independent-n12-q5-t2.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/independent-n12-q6-t2.json": "ea1d07ee368cec0775898ab427c214e809dc3f0a9a42a0b9eb64ba2c95ea3c13",
+    "results/nested_queens/independent-n12-q6-t2.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/independent-n13-q4-t2.json": "120187e5a46b64b518223797e7ab66d982b430c61862162fc17d64c5d7c7bbe1",
+    "results/nested_queens/independent-n13-q4-t2.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/independent-n13-q4-t3.json": "5d2ec178425095b9438ceb6096a450e029b57dfd07641b10ee3173bfca2e07b2",
+    "results/nested_queens/independent-n13-q4-t3.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/independent-n13-q5-t2.json": "f1d200058c1f6c64b091da8fa87c99a98ae17aeed87c7be7e26f99b9468f8dce",
+    "results/nested_queens/independent-n13-q5-t2.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/independent-n13-q6-t2.json": "d6b609d9a676cbc708dd9ac0212883c99b5b434a27c77c783d9fdb436f6c68de",
+    "results/nested_queens/independent-n13-q6-t2.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/independent-n14-q4-t2.json": "4ac77717b6ec9dfe84029c688a7404305c786de042b067df812ea0fca59a8653",
+    "results/nested_queens/independent-n14-q4-t2.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/independent-n14-q4-t3.json": "ad44a7bd2d39bb4a1bbb6be2b6ee9fb61b30742a48a4f625692cfada980340b8",
+    "results/nested_queens/independent-n14-q4-t3.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/independent-n14-q5-t2.json": "3b5bff3624008faae38791b370fd33219f83abf1894c7d498feda771a9f61fda",
+    "results/nested_queens/independent-n14-q5-t2.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/independent-n14-q6-t2.json": "a961b70f1f9662e342ea669682963694eefe4c724210a232144febac16fcff67",
+    "results/nested_queens/independent-n14-q6-t2.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/independent-n15-q4-t2.json": "6c97edaf7fbe255af9587fe47574b7adc9b1b5e253e0b8e6d3d7ec8d5bd48a1f",
+    "results/nested_queens/independent-n15-q4-t2.jsonl": "7ead48923702ceb8a0b4255ac99f3856c020bae828ed728e9545e37466289068",
+    "results/nested_queens/independent-n15-q4-t3.json": "a33ef45d5791f5ef54768b62690a4dfdc86cfc28f60c179da2db2a80cf7af175",
+    "results/nested_queens/independent-n15-q4-t3.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/independent-n15-q5-t2.json": "d4af65ecdbca7d60ecbed310671edad3a05fb7e196979bc010e444578fc04398",
+    "results/nested_queens/independent-n15-q5-t2.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/independent-n15-q5-t3.json": "e0f88fda6cf6469b26afeb47ce558b7826e0a44a01675679be227016b4d45614",
+    "results/nested_queens/independent-n15-q5-t3.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/independent-n15-q6-t2.json": "57aa5c3c1ce8d5153fb85fe4c2cbebdcb1b0c2459d702856d4314ba4d0b09a61",
+    "results/nested_queens/independent-n15-q6-t2.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/independent-n16-q4-t3.json": "b1888e3c14bbb19fb0e606df52ca970b95568378e60100ece22f6c18e72d9ed7",
+    "results/nested_queens/independent-n16-q4-t3.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/independent-n16-q4-t4.json": "e00fd46a033f0a3888b8411de9624005b48f5ffb3d1e9b0d87ae3cc503afce74",
+    "results/nested_queens/independent-n16-q4-t4.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/independent-n16-q5-t2.json": "314a0e557d4c42a34cf56b793e5b312f29899103036b99c02cae4994ae52f658",
+    "results/nested_queens/independent-n16-q5-t2.jsonl": "9a8faa6e458be710e3265fb724a7454ad289803865283882f2cadb076a71f179",
+    "results/nested_queens/independent-n16-q5-t3.json": "b05f72851d0b29da791519acda09001408f08102c6f40c064ac7de012de6c5c7",
+    "results/nested_queens/independent-n16-q5-t3.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/independent-n16-q6-t2.json": "b9de16b356c21304efc128043a0866a0b76235212b925aa8c22f4be32249d444",
+    "results/nested_queens/independent-n16-q6-t2.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/independent-n17-q4-t3.json": "1d94cdf9d04cc24f5dd093dfbc9f45ebbb654a46f219377d27c79481c30b741c",
+    "results/nested_queens/independent-n17-q4-t3.jsonl": "e505f8f9e8453fee5cadccdb7217133bbf78f00241bad07950947d99883475d9",
+    "results/nested_queens/independent-n17-q4-t4.json": "d96e08de2fd37082e60c1628f7f629c61c77d06a742dd07babdbefae317f43c1",
+    "results/nested_queens/independent-n17-q4-t4.jsonl": "7a3c7319f2a856fa9459c2ba57245213aa5a5e1e273bfa680772366ca20ef726",
+    "results/nested_queens/independent-n17-q5-t3.json": "a3e67795bfd29fbf2791608207442ca87a26e9a1a2d7d4dba98b7293367684ad",
+    "results/nested_queens/independent-n17-q5-t3.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/independent-n17-q6-t2.json": "395828e547bd27cca31b4d66c00604ad07885947d9a841fc4dec2b9c565e0a1c",
+    "results/nested_queens/independent-n17-q6-t2.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/independent-n18-q5-t3.json": "519c34508e5f952561633067fae5947ae8feec619ff31c94cfcd647c0bd900b5",
+    "results/nested_queens/independent-n18-q5-t3.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/independent-n18-q6-t2.json": "82e3fdc7ab223faa25ca240b30e6118fa0e60d3f910add506bf9234a14956e89",
+    "results/nested_queens/independent-n18-q6-t2.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/independent-n18-q6-t3.json": "8e7f295885087e3134002a161b45d43a7f4c0f096833cea6ae2108930b1d3852",
+    "results/nested_queens/independent-n18-q6-t3.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/independent-n19-q5-t3.json": "954a0151288190869b8d50145baec2428ffacb1d086663518405030f95a465ed",
+    "results/nested_queens/independent-n19-q5-t3.jsonl": "23fdf5a22db092cef063102f33b8430e284b9a60dd9e2116d0a6eabb2c5f84d3",
+    "results/nested_queens/independent-n19-q6-t2.json": "d047fa7de37f0c36638753d1b913b5c32d7ccdd37a5a8e4567740063e4fa8ab5",
+    "results/nested_queens/independent-n19-q6-t2.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/independent-n19-q6-t3.json": "1039f5c002ae54b06a7dc0954c16d5c936ba34e7d532f65b3606d907340904ff",
+    "results/nested_queens/independent-n19-q6-t3.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/independent-n20-q4-t5.json": "9c753581db899a22150ffbed97187cbc3df003ab953a64142d259ebce941e4f8",
+    "results/nested_queens/independent-n20-q4-t5.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/independent-n20-q5-t4.json": "3f580732a23a0cb41f366a5f4e658a7a567ababb4fbaa10301a8f4f36ae24999",
+    "results/nested_queens/independent-n20-q5-t4.jsonl": "b652d1ca12851ec65e3257fe010b7495e1f88f730be1b299777e2dd875bc5c2f",
+    "results/nested_queens/independent-n20-q6-t2.json": "93553b407026d52caa7b21c399074c7c4ff9f0ab195dd7d066973b13d507f560",
+    "results/nested_queens/independent-n20-q6-t2.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/independent-n20-q6-t3.json": "cf80785c1998ba34792f6d5fc2278d1ef83f0c9ab78daed2e4a7ed8eb8593629",
+    "results/nested_queens/independent-n20-q6-t3.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/independent-n21-q4-t5.json": "c578f822906622da2f579388230488a4eb4a8af4b632fa130306d3e7ecbdca2c",
+    "results/nested_queens/independent-n21-q4-t5.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/independent-n21-q6-t2.json": "cfc018481c1df44c5a3a77bdeba95c8c6f8ef4e0953ce02da9545075b8e6a73b",
+    "results/nested_queens/independent-n21-q6-t2.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/independent-n21-q6-t3.json": "bfa4423b25351b8836790ee59cbd64890ab6b673c1ff92b028300ecc2c941875",
+    "results/nested_queens/independent-n21-q6-t3.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/independent-n22-q4-t5.json": "49acd498712f7df44f3e0adf15ae2a22ed9714d6bb85faf4d75625b27b723ee8",
+    "results/nested_queens/independent-n22-q4-t5.jsonl": "7709df651fb3f401ec8e3cfcd5b94e076eda4c9093eb219b5e3771c7ef5516e8",
+    "results/nested_queens/independent-n22-q6-t2.json": "9df08cc8bb21b5c0733685e3b305b814c5eeaa6639a4c29f69ea60474bd7f5d4",
+    "results/nested_queens/independent-n22-q6-t2.jsonl": "9c1c8fd212bb08566034d9dc3c9925c26f1c1dc650197ce6488f51223f8ebf73",
+    "results/nested_queens/independent-n22-q6-t3.json": "2f9285c87ea933719fd5f10bb5e8e18896ad33bbb1a7d7e66d1ed921b44c3b73",
+    "results/nested_queens/independent-n22-q6-t3.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/independent-n23-q6-t3.json": "5d6bc547dabe90d8306a6bf4932748e0de25c1750e76b8be9bd52b50e88a42a8",
+    "results/nested_queens/independent-n23-q6-t3.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/independent-n24-q6-t3.json": "2f2255137e8fd3c91d3e264c0083053e22573c9278a09de7ba538f8802d5b8f7",
+    "results/nested_queens/independent-n24-q6-t3.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/independent-n25-q6-t3.json": "8a532843b59d88e0b7c7c6c98c9691d6f01a2cd08009300651bcb779d1cfbb7e",
+    "results/nested_queens/independent-n25-q6-t3.jsonl": "391d83bab70c80f76d4436cf5232e2c9ee596364483b60382d9569b817f331fb",
+    "results/nested_queens/independent-n5-q4-t1.json": "239f6e8f8efa4120db420dc35a02e737f09f848ce19b94fa0a49a55af1190c72",
+    "results/nested_queens/independent-n5-q4-t1.jsonl": "c7dc177f094e976bda5d7f2dbf9771e8de3bb413e3caefa20621ed9f7924e8c1",
+    "results/nested_queens/independent-n8-q4-t2.json": "400c3d5e07d266bb6b1c88447b0ce30b3351f33a56106d747eba76f2938f611b",
+    "results/nested_queens/independent-n8-q4-t2.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/independent-n9-q4-t2.json": "18a9b1cd512fb09c29cf47c60f8549499cf73475fb0687abf4682cc3c4777ec6",
+    "results/nested_queens/independent-n9-q4-t2.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/independent-suite.json": "6ecd402dc6ae788304deb969bac6671e079ffd5623ffe4c48f94c580a48f92d8",
+    "results/nested_queens/n10-q4-t2.json": "0c39d547426a5d1d906cc49ca97fa9c97c6af4afb59a023530041f837b925a1e",
+    "results/nested_queens/n10-q4-t2.log": "5361dfe9fcf9fcb8a07c5f5a6cf39bf047a57d5a5ce340116fc016c620f1f79c",
+    "results/nested_queens/n10-q4-t2.mcc": "6c6ce38fe0e6868dc7ae5b6eec3961bb80034650f31f05174f9c068b8dad362e",
+    "results/nested_queens/n10-q4-t2.out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/n10-q5-t2.json": "dcc935b19db9781b6ae6ec9299f35d328a10d5596881f02eaa483f01b3ee42f2",
+    "results/nested_queens/n10-q5-t2.log": "e07bad903ff00b99aef6107d00a0b00331ceaddc772790ba25124fb6d0c5da3c",
+    "results/nested_queens/n10-q5-t2.mcc": "c4e8fa9e6b4f57763b974ef7ef5e43aefcd4277f9c994884d92ce47a91134fa5",
+    "results/nested_queens/n10-q5-t2.out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/n11-q4-t2.json": "cb5fa279bfcd51ea5bb953a456bb4faed3dbed9632a4f6b59634377094e68462",
+    "results/nested_queens/n11-q4-t2.log": "0ea310151100677feba754ceeb5c70c5be18cd6cba45a4a0bf6055885010c4f5",
+    "results/nested_queens/n11-q4-t2.mcc": "3ccddbd63485891e01d33a6367958173ca33423d0a3df6205d7aab55649483f6",
+    "results/nested_queens/n11-q4-t2.out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/n11-q5-t2.json": "b7a2dd19ce580e297fdbf795e7a7b7498898c79856d50bf568cb94cbfb0cf074",
+    "results/nested_queens/n11-q5-t2.log": "61a45160ef91bdbbbc6e4534a3f562b1f7c00460da7994e40c2600023552077c",
+    "results/nested_queens/n11-q5-t2.mcc": "a62b74992536bc76bb6488b7bc988e043722fd02fa6cf8bc7b6426c2a2557782",
+    "results/nested_queens/n11-q5-t2.out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/n12-q4-t2.json": "ce6082e105affeeab67c40356ed86e086682406a0b5e746fba906be42de9bb47",
+    "results/nested_queens/n12-q4-t2.log": "bdefc6950ca85328633b96337e1c5081942b0ea2d533c29ef13f37e36c37d63b",
+    "results/nested_queens/n12-q4-t2.mcc": "78572a157851bf223decf7e2de3428737ad753cfbf8aed749f0e46bbc2e9a603",
+    "results/nested_queens/n12-q4-t2.out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/n12-q4-t3.json": "af96b4f76dfc511e25060de4bf8b58744eba53d5260bf23e5087f6c0c602957b",
+    "results/nested_queens/n12-q4-t3.log": "514754910c66da1e7ac3e5356a34bb73d4437ccb838c20e8d7bd48aafb05f244",
+    "results/nested_queens/n12-q4-t3.mcc": "dd8d448efb7d1b3e2a1916e9898ecb0f4d7efb695892420c9f828dd95c36e70f",
+    "results/nested_queens/n12-q4-t3.out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/n12-q5-t2.json": "78a735cfa3662698a7684254e31a177d9ed820d301dad8584645269adc30c8b8",
+    "results/nested_queens/n12-q5-t2.log": "4cf1e258ca8bc7d9f6f7f8699e595f66e7f438bb711a39e804ce08b090de9802",
+    "results/nested_queens/n12-q5-t2.mcc": "ddbaa5c312d7c33ef5ab241f3c3db9b4167024317fd0c648bb75eabb90b71f99",
+    "results/nested_queens/n12-q5-t2.out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/n12-q6-t2.json": "a2f175be1454f84e0b00f6a3b691fb439ecf21d150580b560f5993449df28ad0",
+    "results/nested_queens/n12-q6-t2.log": "79c7dd95d62a6bbfa4886fb5612444fc42cedeb84d7021d58d4ecbe5a7010f69",
+    "results/nested_queens/n12-q6-t2.mcc": "93035c62cbdfe132b26ea80ec07457a351672a6fb0ad06f4802a904469adde1f",
+    "results/nested_queens/n12-q6-t2.out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/n13-q4-t2.json": "3e68322fcdac0b55926b1622fd963c8aa83dac692bd2df0d3a7bf4901e514a64",
+    "results/nested_queens/n13-q4-t2.log": "b70f2327e4573b2e3ccbb0f8e34562f3044f91ef1c17b823757b356fe2c587be",
+    "results/nested_queens/n13-q4-t2.mcc": "b063e3af4fd6085ea7fd45a4912cbdb123bc0d20a1a018544cebd024dd2bbc7a",
+    "results/nested_queens/n13-q4-t2.out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/n13-q4-t3.json": "2405914c8580933eaef93c67517c1c433c35382a033e8259f567e2ae0de7f857",
+    "results/nested_queens/n13-q4-t3.log": "a5357d32bdf673ee06de4ed3f62cb8c6fca0fa11d2ea74cb2b608a20232d4413",
+    "results/nested_queens/n13-q4-t3.mcc": "986731c60b8d41d35802e98489df84ee013a50fa21e6d245e0a08d6773098895",
+    "results/nested_queens/n13-q4-t3.out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/n13-q5-t2.json": "d3b7ed649d69050abbee0a9fa46fc2d87ba770806e26d40b2d572d59173ddc55",
+    "results/nested_queens/n13-q5-t2.log": "ab3b0440aa9143f70572a40b1e04586724a3c790ff390047b7b862e0f3858e7c",
+    "results/nested_queens/n13-q5-t2.mcc": "499baf144dd3c54182e30273375f0f3126535690669991b4d534e4560071da59",
+    "results/nested_queens/n13-q5-t2.out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/n13-q6-t2.json": "ec9e854f8418fdb4e7d91f3cd29226209c9fa14e2973c23ca59653b8c85392d9",
+    "results/nested_queens/n13-q6-t2.log": "f7d962de7b57042d03efdb1a73277b08375f3027266c5cd907f0824ff29c66ac",
+    "results/nested_queens/n13-q6-t2.mcc": "b02860c0c1a757e0ac81ea92a0168f15c93868496fbc8174682b77fd431b0b61",
+    "results/nested_queens/n13-q6-t2.out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/n14-q4-t2.json": "b77af8c3a0a7269dd6b36c0e0e32e6318877ea7565b82ac2b6eba050b4bbf88e",
+    "results/nested_queens/n14-q4-t2.log": "0a87c314d8a296e03aa389d37712b588f7f156362cb5e33d44da2f60593a20ca",
+    "results/nested_queens/n14-q4-t2.mcc": "70e830198b33eaea5e670f3f042c2f9941fe160fd88862e7ddeca0a27d9e3317",
+    "results/nested_queens/n14-q4-t2.out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/n14-q4-t3.json": "ae7d0b00ef56ae48a446109c55b8109f98ac56e37ad3738760a867905e4c1663",
+    "results/nested_queens/n14-q4-t3.log": "7a97271a7a3696fd0e2b24cf96497339997bffe89ac319a63071e586bf7925bb",
+    "results/nested_queens/n14-q4-t3.mcc": "e89b1a5c5a756955dd4e0b293127f095cddcc265da35425ebcbde1f0877538b0",
+    "results/nested_queens/n14-q4-t3.out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/n14-q5-t2.json": "51fb5d93e986d56d420f83082175ab255ca92acd152b46c420035c90acd3aa53",
+    "results/nested_queens/n14-q5-t2.log": "378671d243670686f78457b760bc092cb49c2901b3d3f0d5dfd28b4b5ddf048c",
+    "results/nested_queens/n14-q5-t2.mcc": "fe34b2d0a46926c24894623631dab2383be7bf4910c898816b6c1b2c6271aa3f",
+    "results/nested_queens/n14-q5-t2.out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/n14-q6-t2.json": "916afafc983e8210909186a8e78f1ff6bc5d97814e04d1d07f47dd6a62aa0f5c",
+    "results/nested_queens/n14-q6-t2.log": "073d7800e518bd73f2e660ad9f63919aebc26a5f82b3ceac6e4da7f0c6b1f836",
+    "results/nested_queens/n14-q6-t2.mcc": "634d158a5450c39d314c838f1b1bc7dee2d9d7f3772ac49962d71d4bb1e5fc92",
+    "results/nested_queens/n14-q6-t2.out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/n15-q4-t2.json": "75b25febbb5caca6fbfd94dd10aef5f4d4f43bd5c0de1d1c8d1065c38e8c7ba1",
+    "results/nested_queens/n15-q4-t2.log": "7c01b7e24b6bdebb84a784444e608165515c9c536ba6d5b2bf46a8630122de8d",
+    "results/nested_queens/n15-q4-t2.mcc": "086a7ebf1c9098825f3f7180add42746d07c03ab7a7d9189f31b1f4dfe3556f7",
+    "results/nested_queens/n15-q4-t2.out": "4cc05e2e265bf43dae1e7fcaedb389677b31082bb50ef745ed9cef74711e538e",
+    "results/nested_queens/n15-q4-t3.json": "12af345e05c1546a73b45ac420461dda6fe109d61c59fbc5e02b9c9289ac5298",
+    "results/nested_queens/n15-q4-t3.log": "79d07b1fee5904537d3583a00e8508f6a9550e1f95ef3b222cdc7f77e22c05d2",
+    "results/nested_queens/n15-q4-t3.mcc": "a7e13e241f138cc06529e1d6048f7f48400d3a143c55fe91d69b51c7ee4528f2",
+    "results/nested_queens/n15-q4-t3.out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/n15-q5-t2.json": "607c019261500d7f0c83e812d17a8ae3e1e57abf14d41430c7ca4c2006cc626f",
+    "results/nested_queens/n15-q5-t2.log": "5dda72154a5265e6228b8d64b328e65cfff13031567025fb3eef113b4ff2c131",
+    "results/nested_queens/n15-q5-t2.mcc": "23716af86023ee7a1ccdbc6d0e19bda2e51f7b47c540566f3d140235202f4a4f",
+    "results/nested_queens/n15-q5-t2.out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/n15-q5-t3.json": "89dbe342b002013c4f248a82c29892e089db586e0382a442891d124ff7829073",
+    "results/nested_queens/n15-q5-t3.log": "990c635537490a1880ab00608753f333d09858ea6a7a3049cfe4879cab87cfc6",
+    "results/nested_queens/n15-q5-t3.mcc": "577fa639f198c3373243d55e408be731d01e92519d50e63946c4102abcd062be",
+    "results/nested_queens/n15-q5-t3.out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/n15-q6-t2.json": "aeaf425b7da40b630ef1565c45e52ccfa911687fe3952aa2c402ce396c118f7e",
+    "results/nested_queens/n15-q6-t2.log": "250471fa6da3a10806eada08c08e48c249c96d83c70e20a58e9918152a8fa72e",
+    "results/nested_queens/n15-q6-t2.mcc": "8c17f90ab0aba21647f3ba8826ee045a88bd44ffea5e0be8a48a34d6b5bf0669",
+    "results/nested_queens/n15-q6-t2.out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/n16-q4-t3.json": "c1d0ae7f6d24159e0bcd94a93f339d55e3fbf798ae90e0b65b766337b969c857",
+    "results/nested_queens/n16-q4-t3.log": "d8eb2ea578985533677401e8c9c6910787334ac6a030b5de4bcfcbc7d7dfcaff",
+    "results/nested_queens/n16-q4-t3.mcc": "b079769ad851867484923c0e1fb6b644e0e98b6840417c3feb0ff22563d4ab3b",
+    "results/nested_queens/n16-q4-t3.out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/n16-q4-t4.json": "7e6a4f9d19b8ed094bb718e28f79b8eecbbe097b713c97da251d000c5186da3a",
+    "results/nested_queens/n16-q4-t4.log": "11472414644d6266b19a0bc78d06c17e08415f9fb379c8707fb6d363573934e0",
+    "results/nested_queens/n16-q4-t4.mcc": "54a6eb5d79497b6763c77a7b54c3177e0fe7a3ddb593dc990938a64288493a81",
+    "results/nested_queens/n16-q4-t4.out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/n16-q5-t2.json": "a869cb4ea18e1236f97db00616db94b58a8c35e8712ba35d185b89ec080925d4",
+    "results/nested_queens/n16-q5-t2.log": "17d7785a6c5e90ce5f777ec9aaf8978e1d7519f95e33706070202c86f2f60fe3",
+    "results/nested_queens/n16-q5-t2.mcc": "0b19c669c54896e071551f013d798edd37abacb75a983dece27e5cdbe4eb0929",
+    "results/nested_queens/n16-q5-t2.out": "1329da74d2700a1b14c34a4e5c47c8be542ffdc1df13ba2906b8a7d8ff066020",
+    "results/nested_queens/n16-q5-t3.json": "02896c7e95a6b4ff952dd7b8db973f94aaf6684d83625f2d66d3942ec5a0e519",
+    "results/nested_queens/n16-q5-t3.log": "bda9dd511ef6db26f5a00e8467896a089f09f841cecc73888e62683003119319",
+    "results/nested_queens/n16-q5-t3.mcc": "dc47813482bf93f52cd1810d222165f61c5c7b81e921c898b2c31ced65a5926e",
+    "results/nested_queens/n16-q5-t3.out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/n16-q6-t2.json": "0b95cd03aec062c94cb73513d5aaf7b8437bd0793ca99c55f93e4632a3ce321f",
+    "results/nested_queens/n16-q6-t2.log": "7e93ca7c12c7c1ef9338444bd51875c159d443548b26185d2756f79effd4d35d",
+    "results/nested_queens/n16-q6-t2.mcc": "6dae2031b99209ea3e940e424c094abb414d3d25f998d93d59634a4cd1393acb",
+    "results/nested_queens/n16-q6-t2.out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/n17-q4-t3.json": "2dc0ff24b4e3ed48c3885d8f44b0ab54f36e18812ac00228eb963acb4f128562",
+    "results/nested_queens/n17-q4-t3.log": "287e12368bd38153792c1e7525af674727ad5ca571450d787b56a12ad68f2147",
+    "results/nested_queens/n17-q4-t3.mcc": "cd1ef39467e50e99a879242f42422336273d6db0acd6d65a11abd01209493c36",
+    "results/nested_queens/n17-q4-t3.out": "96e5539d21445ff9a1002e0eaea7bc4d2c74e413e4ad986fcb3184df22f21410",
+    "results/nested_queens/n17-q4-t4.json": "697df8356f2d55ede977244d0fae95129cd896ed7caf8c64d6a3dd714e3362a9",
+    "results/nested_queens/n17-q4-t4.log": "5a1937b5ee691b3e19bc86c45d43592fe921cad983356c71d4fab847a2094d7a",
+    "results/nested_queens/n17-q4-t4.mcc": "924a2247d43156f8a7a37dd619123cf65c15002bf2feb78b4959ab65b9361cbf",
+    "results/nested_queens/n17-q4-t4.out": "9ad1b1f14e6e93f030e0c3a2636a97cf685deea538fefae398bad11060d66927",
+    "results/nested_queens/n17-q5-t3.json": "9b24d44432edacee19002df2c844b1a9b51087be0101c54edbab8863829e8461",
+    "results/nested_queens/n17-q5-t3.log": "92851bb3a472210567d40d49dcc6226af9ce2785737fd287a50dafd682f2f369",
+    "results/nested_queens/n17-q5-t3.mcc": "42ee39ea0e571535e45e9308fa75e1f69a4ae1327d4268b5db4604b4c682c8d0",
+    "results/nested_queens/n17-q5-t3.out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/n17-q6-t2.json": "7a27b8c4d7b7d518cc7162a19eb57da02116385be77e6d54f7b1eac6c52af902",
+    "results/nested_queens/n17-q6-t2.log": "c72281284f7abf9e1ab4e8aeb196dddf73ed506f5660d4d83af5e37a32159142",
+    "results/nested_queens/n17-q6-t2.mcc": "7d33d766bdf3184253c4fa3689f32f8031796b2d0823f23b13b76f9d1d09d9d0",
+    "results/nested_queens/n17-q6-t2.out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/n18-q5-t3.json": "627472dc12f3612266aa1c7c59c8517f1f4544ce0dcf9e13022a4bcd993d962c",
+    "results/nested_queens/n18-q5-t3.log": "86a38f57315c77c9694ea4aa7be7a53632a4e766065fa953af594d6b9e954f29",
+    "results/nested_queens/n18-q5-t3.mcc": "c812300cfac6337cbbfaf1270d254318b88361838df6fb9d0abe7f3de4892512",
+    "results/nested_queens/n18-q5-t3.out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/n18-q6-t2.json": "86f7dec57f494acb54cba124273a7713cc78f5279c58cf69341041ac4f0d6066",
+    "results/nested_queens/n18-q6-t2.log": "491feefc8fcc701f1b33f02b01d601a6104c897d936e8e3c60a207860b569b66",
+    "results/nested_queens/n18-q6-t2.mcc": "8d8a35ada2d235f73e03c857b285390639ad56a4857f164f369225dd1d701a46",
+    "results/nested_queens/n18-q6-t2.out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/n18-q6-t3.json": "c0e0a8668439dce2b3a1508b95e7dcc4a9e363e56524d6152e4c6ddf90a0f55f",
+    "results/nested_queens/n18-q6-t3.log": "8711e1bf85f6b063d7eb53b15bd8b3bf40918739b2e832c4957f4a2e57b686a2",
+    "results/nested_queens/n18-q6-t3.mcc": "092de0d1ef8ee16c1e0e47aa354c8405007c357650446422ad61e12b06438a6e",
+    "results/nested_queens/n18-q6-t3.out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/n19-q5-t3.json": "e474998d77519934f1d7ad436ecd74880ea3a46e8e76d744d732acca90d0ca45",
+    "results/nested_queens/n19-q5-t3.log": "65e6ca28a7b4cdad960e1f16444757b584af9a17c431630f091843040ef4cf95",
+    "results/nested_queens/n19-q5-t3.mcc": "613032daf10a90426395fe07f95261f5d92ac11ad04500c2e05fa498006da97e",
+    "results/nested_queens/n19-q5-t3.out": "e2c22eb5f2f812dd9335faa33497f8251cc25266e290c124000f309b35ce3249",
+    "results/nested_queens/n19-q6-t2.json": "c68977dfaf263aa3f4805d30b6a164eaa9e03f8e2d61d4878d752521059ecd94",
+    "results/nested_queens/n19-q6-t2.log": "d501f6783a63426d5e0ca234732068313ca850eded23f7b577c4b899a7758f72",
+    "results/nested_queens/n19-q6-t2.mcc": "8f6128bb69e13d9dab877289fbf359d4c3c15062ddec2fd67e46d67fc98edb0b",
+    "results/nested_queens/n19-q6-t2.out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/n19-q6-t3.json": "5224dbc060f384f618f38e1ab81010a7e5bb0d19b2fd2a9bdec86cdd9b0ec11c",
+    "results/nested_queens/n19-q6-t3.log": "678b827a378bf5f8968ad6ead4250f9eafb77d1bd9ff3f35fc12fa04ae44b018",
+    "results/nested_queens/n19-q6-t3.mcc": "bb27c80b5f5692cd848ae01a61187589cd037c9fc0f8e157ea657e9659a4a181",
+    "results/nested_queens/n19-q6-t3.out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/n20-q4-t5.json": "1d9ce882d4aa346cd25c5767aefc04db316db3c955c99a64e23b6b6b43316e00",
+    "results/nested_queens/n20-q4-t5.log": "22f9fcb891d9005007d7d0c04bee703275f94244ba5afa174da7afaeab720506",
+    "results/nested_queens/n20-q4-t5.mcc": "2b1c32dd1c732c0e5f5a9e2f7e5c0720e0525f7db3077b5891854800f2551147",
+    "results/nested_queens/n20-q4-t5.out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/n20-q5-t4.json": "53ffbd0b40e3edfc166a55ff33fc2062c4edc0126695e93ee83ef540c2da1081",
+    "results/nested_queens/n20-q5-t4.log": "0f65ff0197da3624e428f76802696515193169dda8eea2469e9a9bd99c8f8ac6",
+    "results/nested_queens/n20-q5-t4.mcc": "eb04368b25f824c1e24d5509f9c6c0ee7dda0167a274a8e63a113d40b0bc2d86",
+    "results/nested_queens/n20-q5-t4.out": "870727f87899e0a7ef266d6bae017d871e340c59c103960c78b9222ef9bc780b",
+    "results/nested_queens/n20-q6-t2.json": "fc039ce7a39e000a11933a495c9ec4c20408b3d52eade6725e976250e6c6272e",
+    "results/nested_queens/n20-q6-t2.log": "9fc15d98a319cbefc4ac76b9ef5abedfb2f17d116eecd4bef4c2e867c906cd44",
+    "results/nested_queens/n20-q6-t2.mcc": "d2e33ab13155443caf755b9ba7bcd32900cc693da647591f696b2099636e84b0",
+    "results/nested_queens/n20-q6-t2.out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/n20-q6-t3.json": "b42cdddf8e149756747e37410feb12c5d36f70e669c0af419249eeb8e9d165ef",
+    "results/nested_queens/n20-q6-t3.log": "808985fca3c3ca9d60fa2c72cec95cdf5e17b524083b9c01ed2d3241551c4b78",
+    "results/nested_queens/n20-q6-t3.mcc": "5d307c91bd4a7dcab12c9c7b1cefc9c65ce1f3fb855178b4f74c3645e2f21073",
+    "results/nested_queens/n20-q6-t3.out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/n21-q4-t5.json": "e01e30b932231259fe7032f76ce513c6bf912eb3722947a03f8a5b1c241646d0",
+    "results/nested_queens/n21-q4-t5.log": "33e441996cf1b323691aa18d4db8610bfda5917f3ca05a9e79c7e353f8c3b881",
+    "results/nested_queens/n21-q4-t5.mcc": "a2110c0d2a4436f6afaf6e964e441050bf1a4d8380af5a58ac98ae05970f920d",
+    "results/nested_queens/n21-q4-t5.out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/n21-q6-t2.json": "472045fed23e99c010e9bb92de9d84c23e110a443e8a04642bd712f4dc2fbf6d",
+    "results/nested_queens/n21-q6-t2.log": "a9f504f618ecbc84a2e8a502be49de876d5d3577ce0011b895b3ffa2d6f8f017",
+    "results/nested_queens/n21-q6-t2.mcc": "a478ddce0288958e2a440abd0628e85901f9e54b0ccfd365bf231ae30fd3cd9a",
+    "results/nested_queens/n21-q6-t2.out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/n21-q6-t3.json": "618720b7f85dafce0cfa8bef33b9ac042765298ea9c36029ae0447b8600ff078",
+    "results/nested_queens/n21-q6-t3.log": "463bd0a93066d472d6f03b6592f4561063a0c6a0d86a8147aa933aa9f829c265",
+    "results/nested_queens/n21-q6-t3.mcc": "2b14a94ba2136e22959b5adf272bbc8e72d9d43cca9aa897e3a2f55f1a7c4554",
+    "results/nested_queens/n21-q6-t3.out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/n22-q4-t5.json": "21fc24fafa3cce8bfeb609105d185b049b6529962c29c9939d64a8b7416b279e",
+    "results/nested_queens/n22-q4-t5.log": "bc2d57472b6258d2408a8b8d7c5320ca7c6e2b94c452389e32f112fa8f67a1e8",
+    "results/nested_queens/n22-q4-t5.mcc": "41782a4d934134babf5f2727a2861fec6c9228c4d0aadf7fb3885accaa6e8409",
+    "results/nested_queens/n22-q4-t5.out": "160de42ddfc29f8d0490c3df82f934f93637881ff71d7ed5d26592da022c5a61",
+    "results/nested_queens/n22-q6-t2.json": "edda492b4151eb06a8538b68f9e6635ff188db585d1e365edd0db5cf4a79bbab",
+    "results/nested_queens/n22-q6-t2.log": "c44792825bbcd7af50e9fa2c60db68aa1b034e6dd0b1e1e3eb1316ab26986e2f",
+    "results/nested_queens/n22-q6-t2.mcc": "a71bb9e475deb2e72249f9a840a9bd2993af0b02c1bfbd12b0cd43627105d23f",
+    "results/nested_queens/n22-q6-t2.out": "3410a7181123fb2cce597c339f6ba7a2af16aecb88ce981087b2cf796a802cec",
+    "results/nested_queens/n22-q6-t3.json": "4d8d296d87205654b6a4b6b0bdde06e3ad6586a1173ea27e8989a30166163742",
+    "results/nested_queens/n22-q6-t3.log": "ed9f93ee1677f00fa359d77541447381821acef1062c9b36ec567ed9d1cff6f0",
+    "results/nested_queens/n22-q6-t3.mcc": "d94361ee91753d84d21e010d348194a2b811f075449c1753681ce4eb97d769e4",
+    "results/nested_queens/n22-q6-t3.out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/n23-q6-t3.json": "bf5dccf70eab264dc57736358b7a8e6b35a04389cedf8377f7107d35d53c231f",
+    "results/nested_queens/n23-q6-t3.log": "1ab62fd1b61f151c20ace1e74ba2640df995946b553a43e13fd852e4e4dd43cb",
+    "results/nested_queens/n23-q6-t3.mcc": "1091c12010e104536a7307ab720a06cace9205bf183e9b287276e8a48fae594a",
+    "results/nested_queens/n23-q6-t3.out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/n24-q6-t3.json": "96df8a8eafacfa0c6aa17a0a33e1c4f75b4fdc01b5c8d8f2ddd4c0ab20414592",
+    "results/nested_queens/n24-q6-t3.log": "be2a15a8dea98daf5f5c397bdd627b2bcefb5c0b3955e43b2cccff8dfc857e5f",
+    "results/nested_queens/n24-q6-t3.mcc": "c9af53b65a4005c0f34c75f430d9f8cc2515a0d96843d5d55276be17c0870eb3",
+    "results/nested_queens/n24-q6-t3.out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/n25-q6-t3.json": "805f5500ceb4db9a113af25b2502a8153c380704ad9579ec6755be776eeb66f6",
+    "results/nested_queens/n25-q6-t3.log": "f5d09d0074791df3ccf0e0468084cc2566857686e8c2b18a09a58fcc6d467d3c",
+    "results/nested_queens/n25-q6-t3.mcc": "ee0637239a7ab2c79f355feb7655b8172b05809101d171e61fa8b11fe1d61e23",
+    "results/nested_queens/n25-q6-t3.out": "08a02a368997a41686fdeb12f2656f9ce3d90bea057897cc7915a26c1c0dc0ba",
+    "results/nested_queens/n5-q4-t1.json": "1ee53675c82317214f696ac20506879473d7bc66d856aa06985f6d1ce0510068",
+    "results/nested_queens/n5-q4-t1.log": "b4c6c273bcd01e9efa16dd3028eb24bd82de1703afc36c6b15a74a013f279c43",
+    "results/nested_queens/n5-q4-t1.mcc": "2de2878d9a450b3873fa18966315a093223f2a7ebb5b11d539ca88cd950cca61",
+    "results/nested_queens/n5-q4-t1.out": "856bcc58cf1b7ffce1fe9a5c9ff2a251f26d36cd6dcea13e13da229484eea65d",
+    "results/nested_queens/n8-q4-t2.json": "9286da5af678a1b18db3fcdee36e6d4fd1035437f1a1a323a0e6c3e6bef5383c",
+    "results/nested_queens/n8-q4-t2.log": "5d9459331d1666c8acdfda75f4c1502e8f5660d8b9e0d7cbfc28ec194c272e72",
+    "results/nested_queens/n8-q4-t2.mcc": "1dcbd06ce01c72b07a748e73f69ca86b1208ee3a25f984d2de100671235d6e72",
+    "results/nested_queens/n8-q4-t2.out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/n9-q4-t2.json": "80d3253d2c3c345d96ac39663cce69c841cab55f480ea0976e70208a6bc9bd75",
+    "results/nested_queens/n9-q4-t2.log": "d606bcb7739126dfb35e57d8e0ba6ee787a4bea377c07f9c7d6a7f64baafc821",
+    "results/nested_queens/n9-q4-t2.mcc": "58c213949360edf345baed870dc2231bc1ab459299471526a8fa8545d9a29980",
+    "results/nested_queens/n9-q4-t2.out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/nested_queens/overlap.json": "f005290fbaff25ef67c3775c3d2e47dbe8053bf5e96969f843f43eb3f22cb6ce",
+    "results/nested_queens/suite.json": "7ad0c0af675ee25de96610b488ba03e8095cbbedf201c27580ab27aad2f876dc"
+  },
+  "new_placement_searches": 0
+}

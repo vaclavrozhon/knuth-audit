@@ -1,0 +1,122 @@
+{
+  "G9_three_word_overlap": {
+    "input": {
+      "heads": [
+        1,
+        2
+      ],
+      "sizes": [
+        1,
+        2
+      ],
+      "T": [
+        0,
+        0
+      ],
+      "use": 2,
+      "avail": 4,
+      "payload_word3": {
+        "SIZE": 1,
+        "LINK": 1
+      }
+    },
+    "trace": [
+      {
+        "p": 1,
+        "q": 0,
+        "size_before": 1,
+        "size_after": 1
+      },
+      {
+        "p": 2,
+        "q": 1,
+        "size_before": 2,
+        "size_after": 1
+      },
+      {
+        "p": 3,
+        "q": 1,
+        "size_before": 1,
+        "size_after": 1
+      }
+    ],
+    "expected_root_size": 2,
+    "actual_root_size": 1
+  },
+  "MIX_G8_null": {
+    "input": {
+      "size": 2,
+      "T": 1,
+      "LINK2": 0,
+      "LINK0": 1,
+      "USE": 1,
+      "AVAIL": 3
+    },
+    "actual_LINK2": 1,
+    "expected_LINK2": 0,
+    "time": 112
+  },
+  "MIX_timing": [
+    {
+      "stats": {
+        "a": 1,
+        "b": 0,
+        "c": 1,
+        "d": 0,
+        "w": 1
+      },
+      "actual": 117,
+      "printed": 118
+    },
+    {
+      "stats": {
+        "a": 2,
+        "b": 1,
+        "c": 2,
+        "d": 0,
+        "w": 3
+      },
+      "actual": 206,
+      "printed": 208
+    }
+  ],
+  "full_G1_prefix_radices": [
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100
+  ]
+}

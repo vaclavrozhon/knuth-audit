@@ -1,0 +1,51 @@
+{
+  "reviewed_at_utc": "2026-11-06T08:26:27.353372+00:00",
+  "claim": "Printed570 prose suggests zeros are more likely after half the period; intended scope uncertain.",
+  "status": "candidate",
+  "k": 11,
+  "period": 2047,
+  "window": 2045,
+  "positive_count": 1535,
+  "positive_probability": "1535/2047",
+  "positive_probability_decimal": 0.7498778700537372,
+  "proof": "The full-period signed sum is1. Omitting two consecutive bits yields a positive sum unless both omitted bits are1. This pair occurs2^(k−2) times in the maximal sequence.",
+  "existing_artifact": "results/lfsr-walks.json",
+  "existing_rows": [
+    {
+      "m": 445,
+      "right": 1306,
+      "tie": 0
+    },
+    {
+      "m": 1023,
+      "right": 1033,
+      "tie": 0
+    },
+    {
+      "m": 1025,
+      "right": 1029,
+      "tie": 0
+    },
+    {
+      "m": 2041,
+      "right": 1343,
+      "tie": 0
+    },
+    {
+      "m": 2043,
+      "right": 1407,
+      "tie": 0
+    },
+    {
+      "m": 2045,
+      "right": 1535,
+      "tie": 0
+    },
+    {
+      "m": 2047,
+      "right": 2047,
+      "tie": 0
+    }
+  ],
+  "new_exhaustive_computation": false
+}

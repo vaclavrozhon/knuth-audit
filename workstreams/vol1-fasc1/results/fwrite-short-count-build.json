@@ -1,0 +1,50 @@
+[
+  {
+    "version": "original-2013-and-2025-identical",
+    "command": [
+      "ctangle",
+      "workstreams/vol1-fasc1/sources/mmix-io-20250620.w",
+      "-",
+      "mmix-io.c"
+    ],
+    "returncode": 0,
+    "output": ""
+  },
+  {
+    "version": "original-2013-and-2025-identical",
+    "command": [
+      "gcc",
+      "-O0",
+      "-std=c11",
+      "driver.c",
+      "-o",
+      "driver"
+    ],
+    "returncode": 0,
+    "output": ""
+  },
+  {
+    "version": "audit-short-count",
+    "command": [
+      "ctangle",
+      "workstreams/vol1-fasc1/sources/mmix-io-20250620.w",
+      "workstreams/vol1-fasc1/sources/audit-fwrite-short-count.ch",
+      "mmix-io.c"
+    ],
+    "returncode": 0,
+    "output": ""
+  },
+  {
+    "version": "audit-short-count",
+    "command": [
+      "gcc",
+      "-O0",
+      "-std=c11",
+      "driver.c",
+      "-o",
+      "driver"
+    ],
+    "returncode": 0,
+    "output": ""
+  }
+]

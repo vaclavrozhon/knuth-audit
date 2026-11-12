@@ -1,0 +1,188 @@
+{
+  "at_utc": "2026-11-03T17:52:51.883880+00:00",
+  "pattern": "\\b(?:226|227|228|229|111|112|152|475|476|150|283|284)\\b|12016|12,016|lexicograph|3708|68880|37552|653.?443.?600",
+  "files": [
+    {
+      "file": "errata/text/all4b.txt",
+      "sha256": "b1a3425486f403fb4158585d5bbfef0159fd20b12e2e7d47b64e393e1ae8a303",
+      "matching_lines": [
+        189,
+        191,
+        208,
+        304,
+        453,
+        455,
+        460,
+        541,
+        1105,
+        1361,
+        1376,
+        1400,
+        1422,
+        1441,
+        1448,
+        1452,
+        1465,
+        1473
+      ]
+    },
+    {
+      "file": "errata/text/err4b.txt",
+      "sha256": "2a3450bf3c79d28ad3c2d96468344c96995cf0afb74961f257c311bb9c821e1c",
+      "matching_lines": [
+        174,
+        182,
+        409,
+        412,
+        416,
+        492,
+        1063,
+        1291,
+        1330,
+        1355,
+        1379,
+        1381,
+        1400,
+        1401,
+        1410,
+        1414,
+        1416
+      ]
+    },
+    {
+      "file": "errata/text/all4f5.txt",
+      "sha256": "0dd38c4cda72b01baefb797611c9bbab7713ff0c107a1df884afc89fe9bb91c3",
+      "matching_lines": [
+        141,
+        236,
+        341,
+        343,
+        345,
+        349,
+        473,
+        540,
+        542,
+        545,
+        547,
+        657,
+        681,
+        704,
+        705,
+        776,
+        1027,
+        1035,
+        1056,
+        1057,
+        1072,
+        1081,
+        1094,
+        1095,
+        1113
+      ]
+    },
+    {
+      "file": "errata/text/err4f5.txt",
+      "sha256": "5a716c34e2063eb46005593d53e89dbbd912b5677e0a6ab11753f2a5ee38b557",
+      "matching_lines": [
+        130,
+        196,
+        290,
+        294,
+        299,
+        487,
+        490,
+        494,
+        603,
+        621,
+        653,
+        658,
+        725,
+        968,
+        976,
+        997,
+        998,
+        1013,
+        1022,
+        1035,
+        1036,
+        1054
+      ]
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "sha256": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+      "matching_lines": [
+        185,
+        396,
+        400,
+        424,
+        602,
+        843,
+        847,
+        851,
+        957,
+        1658,
+        1763,
+        1891,
+        1897,
+        2045,
+        2055,
+        2068,
+        2083,
+        2096,
+        2111,
+        2116,
+        2119,
+        2131
+      ]
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "sha256": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b",
+      "matching_lines": [
+        275,
+        445,
+        447,
+        594,
+        598,
+        602,
+        610,
+        916,
+        920,
+        926,
+        931,
+        1108,
+        1147,
+        1193,
+        1196,
+        1306,
+        1661,
+        1669,
+        2038,
+        2221,
+        2339,
+        2351,
+        2355,
+        2361
+      ]
+    }
+  ],
+  "known": [
+    {
+      "id": "E102",
+      "date": "2023-07-03",
+      "location": "4B112, line before108",
+      "change": "remarkable pairing -> remarkable Langford pairing",
+      "book_and_draft": "both retain old wording"
+    }
+  ],
+  "no_correction_found": [
+    "F077 printed108 is not lexicographic maximum",
+    "226\u2013229 formulas and numerical examples"
+  ],
+  "freshness_evidence": [
+    "results/gould189_192/live-fascicle5-errata-check.json",
+    "sources/snakes172/retrieval.json",
+    "sources/snakes172/retrieval-additional.json"
+  ]
+}

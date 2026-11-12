@@ -1,0 +1,340 @@
+{
+  "scope": "4.4 A/B and1–5,7,8,10,19",
+  "blocks": {
+    "mixed": {
+      "status": "passed",
+      "seconds": 0.6533216169918887,
+      "result": {
+        "table1": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            3
+          ],
+          [
+            0,
+            0,
+            0,
+            4,
+            8
+          ],
+          [
+            0,
+            0,
+            0,
+            5,
+            1
+          ],
+          [
+            0,
+            2,
+            5,
+            9,
+            12
+          ],
+          [
+            0,
+            2,
+            5,
+            10,
+            8
+          ],
+          [
+            8,
+            3,
+            1,
+            0,
+            0
+          ],
+          [
+            8,
+            3,
+            1,
+            2,
+            5
+          ]
+        ],
+        "table2": [
+          [
+            3,
+            9,
+            12,
+            37
+          ],
+          [
+            0,
+            5,
+            4,
+            32
+          ],
+          [
+            0,
+            0,
+            21,
+            45
+          ],
+          [
+            0,
+            0,
+            2,
+            43
+          ],
+          [
+            0,
+            0,
+            0,
+            8
+          ]
+        ],
+        "value": 292357,
+        "mixed_cases": 2000
+      }
+    },
+    "fractions": {
+      "status": "passed",
+      "seconds": 11.09193153801607,
+      "result": {
+        "fraction_cases": 18900,
+        "tie_cases": 266,
+        "zero_digit_answers": 8710,
+        "termination_base_pairs": 2401
+      }
+    },
+    "constants": {
+      "status": "passed",
+      "seconds": 4.237516640016111,
+      "result": {
+        "constant_choices": 1904,
+        "input_checks": 71456,
+        "exercise5_counterexample": {
+          "w": 1073741824,
+          "D": 10,
+          "c": 8,
+          "rows": [
+            {
+              "u": 0,
+              "q": 0,
+              "output": 0
+            },
+            {
+              "u": 1,
+              "q": 107374183,
+              "output": 1
+            },
+            {
+              "u": 2,
+              "q": 214748365,
+              "output": 2
+            },
+            {
+              "u": 3,
+              "q": 322122548,
+              "output": 3
+            },
+            {
+              "u": 4,
+              "q": 429496730,
+              "output": 4
+            },
+            {
+              "u": 5,
+              "q": 536870912,
+              "output": 5
+            },
+            {
+              "u": 6,
+              "q": 644245095,
+              "output": 6
+            },
+            {
+              "u": 7,
+              "q": 751619277,
+              "output": 7
+            },
+            {
+              "u": 8,
+              "q": 858993460,
+              "output": 8
+            },
+            {
+              "u": 9,
+              "q": 966367642,
+              "output": 9
+            }
+          ]
+        },
+        "exercise7_cases": 77736
+      }
+    },
+    "mix": {
+      "status": "passed",
+      "seconds": 43.28148389598937,
+      "result": {
+        "instruction_runs": {
+          "R1": 2510,
+          "E8FIX": 2510,
+          "R4": 6936,
+          "R4_overflow": 42,
+          "R6": 1520
+        },
+        "correction_paths": 85,
+        "exercise8_counterexamples": {
+          "original": {
+            "digits_lsd_first": [
+              10
+            ],
+            "trace": [
+              {
+                "line": "E803",
+                "A": 10,
+                "X": 0,
+                "U": 10
+              },
+              {
+                "line": "E804",
+                "A": 0,
+                "X": 1073741820,
+                "U": 10
+              },
+              {
+                "line": "E807",
+                "A": 0,
+                "X": 0,
+                "U": 10
+              },
+              {
+                "line": "E812",
+                "A": 10,
+                "X": 0,
+                "U": 10
+              }
+            ],
+            "cycles": 36
+          },
+          "ceil_only": {
+            "digits_lsd_first": [
+              0,
+              10
+            ],
+            "trace": [
+              {
+                "line": "E803",
+                "A": 10,
+                "X": 0,
+                "U": 10
+              },
+              {
+                "line": "E804",
+                "A": 1,
+                "X": 6,
+                "U": 10
+              },
+              {
+                "line": "E807",
+                "A": -10,
+                "X": 0,
+                "U": 10
+              },
+              {
+                "line": "E812",
+                "A": 0,
+                "X": 0,
+                "U": 10
+              },
+              {
+                "line": "E803",
+                "A": 1,
+                "X": 0,
+                "U": 10
+              },
+              {
+                "line": "E804",
+                "A": 0,
+                "X": 107374183,
+                "U": 10
+              },
+              {
+                "line": "E807",
+                "A": 0,
+                "X": 0,
+                "U": 10
+              },
+              {
+                "line": "E812",
+                "A": 10,
+                "X": 0,
+                "U": 10
+              }
+            ],
+            "cycles": 69
+          },
+          "store_only": {
+            "digits_lsd_first": [
+              10
+            ],
+            "trace": [
+              {
+                "line": "F813",
+                "A": 10,
+                "X": 0,
+                "U": 10
+              }
+            ],
+            "cycles": 38
+          },
+          "both": {
+            "digits_lsd_first": [
+              0,
+              1
+            ],
+            "trace": [
+              {
+                "line": "F813",
+                "A": 0,
+                "X": 0,
+                "U": 10
+              },
+              {
+                "line": "F813",
+                "A": 1,
+                "X": 0,
+                "U": 10
+              }
+            ],
+            "cycles": 73
+          }
+        }
+      }
+    },
+    "bcd": {
+      "status": "passed",
+      "seconds": 0.7671355089987628,
+      "result": {
+        "doubling_halving_cases": 12000,
+        "table1_hex": [
+          "0x369",
+          "0x69c",
+          "0x88",
+          "0x66",
+          "0x3cf",
+          "0x738"
+        ],
+        "eight_digit_packed_cases": 15006,
+        "masks_hex": [
+          "0xf0f0f0f0",
+          "0xff00ff00",
+          "0xffff0000"
+        ]
+      }
+    }
+  }
+}

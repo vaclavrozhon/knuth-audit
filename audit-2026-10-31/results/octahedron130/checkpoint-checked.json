@@ -1,0 +1,115 @@
+{
+  "checked_at_utc": "2026-11-02T10:09:53.948656+00:00",
+  "source_sha256": "c53c51906f631ab0bd41400953868e6d77d0ea68d85c14b23f22f007824a6f2f",
+  "baseline_head": "37e2b81a45b02e3bf7441c25c6a32a982740a53b",
+  "native_cases": [
+    {
+      "path": "results/octahedron130/native/octahedron.json",
+      "solutions": 2723472,
+      "sha256": "015541aafc27481e0fbe7b87315182dbda5d15d610b6e05c0ed96f820725ff89"
+    },
+    {
+      "path": "results/octahedron130/native/partitions.json",
+      "solutions": 1615452,
+      "sha256": "869d3eeb348507817d2f7e4f2f2dba9a0c90ec3253fa4c0ce8be3edec12c32df"
+    }
+  ],
+  "independent_metadata_sha256": "4272a2b8c32d37e1547c8f38669071e71b56ce38de59910597eead40f8435d10",
+  "all_set_witnesses": 45356,
+  "native_validated_samples": 4338,
+  "independent_partition_samples": 1615,
+  "original_wedges": 72,
+  "wireframe_edges": 12,
+  "color_swap_symmetries": 4,
+  "partial131_acceptance_sha256": "63e1b219c041a0b1108003abf197bf6fe162b2e0987dc2bb910dcb954e5765df",
+  "partial131_halfturn_complete_sets": 18656,
+  "unrelated_ledger_items_unchanged": 491,
+  "annotations_unchanged": true,
+  "english_cards": 229,
+  "ledger_counts": {
+    "confirmed": 133,
+    "checked": 174,
+    "partial": 90,
+    "candidate": 30,
+    "known_erratum": 65,
+    "dismissed": 1
+  },
+  "review_counts": {
+    "pending": 992,
+    "reviewed": 138,
+    "partial": 72
+  },
+  "page_counts": {
+    "pending": 610,
+    "partial": 96,
+    "reviewed": 28
+  },
+  "live_observations": [
+    {
+      "pid": 684086,
+      "observation": "684086 Ss      19:33:29 /usr/bin/python3 -u audit-2026-10-31/run_framed_queens.py --n 27"
+    },
+    {
+      "pid": 697793,
+      "observation": "697793 Ss      18:14:01 /usr/bin/python3 -u audit-2026-10-31/run_langford_mems.py"
+    },
+    {
+      "pid": 862562,
+      "observation": "862562 Ss      09:28:49 /usr/bin/python3 -u audit-2026-10-31/run_double_word_job.py audit-2026-10-31/results/double_words/configs/dlx-all-sgb5.json"
+    },
+    {
+      "pid": 862564,
+      "observation": "862564 Ss      09:28:50 /usr/bin/python3 -u audit-2026-10-31/run_double_word_job.py audit-2026-10-31/results/double_words/configs/cell-ospd7.json"
+    },
+    {
+      "pid": 862565,
+      "observation": "862565 Ss      09:28:50 /usr/bin/python3 -u audit-2026-10-31/run_double_word_queue.py audit-2026-10-31/results/double_words/configs/short-queue.json"
+    },
+    {
+      "pid": 874050,
+      "observation": "874050 Rs      08:38:58 /usr/bin/python3 -u audit-2026-10-31/run_three_way_queue.py"
+    },
+    {
+      "pid": 882581,
+      "observation": "882581 Ss      07:57:31 /usr/bin/python3 -u audit-2026-10-31/run_universal95_slow.py"
+    },
+    {
+      "pid": 901946,
+      "observation": "901946 Ss      06:22:26 python3 -u audit-2026-10-31/run_diagrams_mcc.py a"
+    },
+    {
+      "pid": 918953,
+      "observation": "918953 Ss      05:13:37 /usr/bin/python3 -u audit-2026-10-31/run_torto_remaining.py"
+    },
+    {
+      "pid": 924397,
+      "observation": "924397 Ss      04:58:02 /usr/bin/python3 -u audit-2026-10-31/run_queen117.py cliques"
+    },
+    {
+      "pid": 924398,
+      "observation": "924398 Ss      04:58:02 /usr/bin/python3 -u audit-2026-10-31/run_queen117.py edges"
+    },
+    {
+      "pid": 944644,
+      "observation": "944644 Ss      04:03:33 /usr/bin/python3 -u audit-2026-10-31/run_graph117_symmetry.py queen-edges"
+    },
+    {
+      "pid": 944645,
+      "observation": "944645 Ss      04:03:33 /usr/bin/python3 -u audit-2026-10-31/run_graph117_symmetry.py queen-cliques"
+    },
+    {
+      "pid": 978039,
+      "observation": "978039 Ss      02:04:28 /usr/bin/python3 -u audit-2026-10-31/run_border_counts127.py"
+    },
+    {
+      "pid": 1015840,
+      "observation": "1015840 Rs         07:14 /usr/bin/python3 -u audit-2026-10-31/run_mating131.py --resume-after-label-fix"
+    },
+    {
+      "pid": 1016888,
+      "observation": "1016888 Rs         03:57 /usr/bin/python3 -u audit-2026-10-31/run_mating131_independent.py"
+    }
+  ],
+  "full_goal_complete": false,
+  "next_exercise": "DLX131, currently partial; see MATING131_NOTES.md"
+}

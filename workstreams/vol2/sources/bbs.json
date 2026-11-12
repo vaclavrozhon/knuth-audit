@@ -1,0 +1,294 @@
+{
+  "updated_at_utc": "2026-11-03T22:38:48.807521+00:00",
+  "scope": "4.5.4-43: own repaired constructive proofs (a),(b); C0182-C0185; external optimized theorem explicitly separated.",
+  "visual_reads": [
+    "images/vol2-p174.png",
+    "images/vol2-p416.png",
+    "images/vol2-p417.png",
+    "images/vol2-p668.png",
+    "images/vol2-p669.png",
+    "images/vol2-p669-bbs-detail.png",
+    "images/vol2-p669-bbs-stage-sum.png",
+    "images/all2-prepre-rsa-p42.png",
+    "images/acgs-1988-p194.png",
+    "images/fischlin-schnorr-2000-p221.png",
+    "images/fischlin-schnorr-2000-p222.png",
+    "images/fischlin-schnorr-2000-p224.png",
+    "images/fischlin-schnorr-2000-p225.png",
+    "images/fischlin-schnorr-2000-p226.png",
+    "images/fischlin-schnorr-2000-p227.png",
+    "images/fischlin-schnorr-2000-p228.png",
+    "images/fischlin-schnorr-2000-p239.png",
+    "images/fischlin-schnorr-2000-p240.png",
+    "images/fischlin-schnorr-2000-p241.png",
+    "images/fischlin-schnorr-2000-p242.png",
+    "images/factoring-all2-prepre-p24.png"
+  ],
+  "runs": [
+    {
+      "label": "bbs",
+      "pid": 1315040,
+      "child_pid": 1315041,
+      "command": "timeout 180 python3 -u workstreams/vol2/verify_bbs.py --resume",
+      "time_limit_seconds": 180,
+      "started_at_utc": "2026-11-03T22:31:33.858435+00:00",
+      "log": "results/bbs.log",
+      "status": "failed",
+      "exit_code": 1,
+      "finished_at_utc": "2026-11-03T22:31:37.700560+00:00",
+      "tool_session": 62256
+    },
+    {
+      "label": "bbs-recovery",
+      "pid": 1315200,
+      "child_pid": 1315201,
+      "command": "timeout 180 python3 -u workstreams/vol2/verify_bbs.py --resume",
+      "time_limit_seconds": 180,
+      "started_at_utc": "2026-11-03T22:33:11.597570+00:00",
+      "log": "results/bbs.log",
+      "status": "passed",
+      "scope": "Resume only recovery; first two successful blocks retained. Correct test modulus q769 (1 mod4) to q787 (3 mod4).",
+      "exit_code": 0,
+      "finished_at_utc": "2026-11-03T22:33:14.727959+00:00",
+      "tool_session": 87303
+    }
+  ],
+  "successful_blocks_seconds": 6.512897078006063,
+  "validation_scope": "11 permitted modules r<=12, exact counters and finite algebra. Recovery supplies correct initial branch and perfect oracle; no full branch enumeration or empirical hardness claim.",
+  "errata": {
+    "searched": [
+      "all2-prepre",
+      "all2-pre",
+      "all2",
+      "err2",
+      "sources/err2.textxt"
+    ],
+    "visual": "all2-prepre files24 and42",
+    "known": [
+      "2000-02-14: X1+...+Xn; upper j exponent epsilon^-2",
+      "2001-07-02: expanded Journal of Cryptology13(2000)221-244 reference",
+      "2001-04-27:416exercise43 S_m -> Q_m, already known erratum"
+    ],
+    "result": "No corrections for missing plus in G_j, uniform-Q sampling, sign in Z_j, or omitted stage0 found."
+  },
+  "source_scope": {
+    "fischlin_schnorr": "Original journal221–222,224–228,239–242 visually read; complete optimized sections3–4 not independently audited. Theorem8 is an explicit external result.",
+    "acgs": "Original194 visually read; publisher metadata194–209 confirmed, remaining proof not audited.",
+    "ben_or_chor_shamir": "Institutional TAU and publisher Crossref bibliographic records only; full original not read. https://cris.tau.ac.il/en/publications/on-the-cryptographic-security-of-single-rsa-bits/",
+    "conference1997": "Publisher Crossref confirmsLNCS1233,267–279,1997; replaced by expanded2000 paper per erratum."
+  },
+  "source_text_normalization": [
+    {
+      "path": "sources/fischlin-schnorr-2000.txt",
+      "raw_extraction_sha256": "dd2aff73424d7947e2b890c420c5380911b273b6bb3ac3768402df4e9224eed2",
+      "transformation": "pdftotext -layout; trailing horizontal whitespace and final empty lines normalized"
+    },
+    {
+      "path": "sources/acgs-1988.txt",
+      "raw_extraction_sha256": "f74ef61975b6a79d3a11995da8172f2ec89a10acc6bb0400028353339b0726d2",
+      "transformation": "pdftotext -layout; trailing horizontal whitespace and final empty lines normalized"
+    }
+  ],
+  "limitations": [
+    "No claim that actual error exceeds9/10: C0185 concerns the displayed union-bound calculation.",
+    "No claim that BBS security theorem is false: explicit repaired reductions supplied.",
+    "Physical book, later printing and priority not checked; reports unsent."
+  ],
+  "artifacts": [
+    {
+      "path": "images/acgs-1988-p194.png",
+      "bytes": 306100,
+      "sha256": "efcb0692dbd57a0f878f6d6a5b98a1fccd9ea40fabd7c1fd57f1c3a8586dcb94"
+    },
+    {
+      "path": "images/all2-prepre-rsa-p42.png",
+      "bytes": 134420,
+      "sha256": "b83cf51ad8fdb07ce0e5ed80153d46de55c6994f7ea61bcb37a389e08578612f"
+    },
+    {
+      "path": "images/fischlin-schnorr-2000-p221.png",
+      "bytes": 199455,
+      "sha256": "f691049c05a83f4adc89cd45606f35760b905a6c27aa14bf3aec4bde5f628384"
+    },
+    {
+      "path": "images/fischlin-schnorr-2000-p222.png",
+      "bytes": 206465,
+      "sha256": "e67321bf32e82e8757097b2f8d30eec3a8991e4202cf24210f84f27a0c9585f4"
+    },
+    {
+      "path": "images/fischlin-schnorr-2000-p224.png",
+      "bytes": 247703,
+      "sha256": "7cbc0464924e8a9f36d895380dbb3535a6a9d775369ddbc0e5c7c31aad1dc29b"
+    },
+    {
+      "path": "images/fischlin-schnorr-2000-p225.png",
+      "bytes": 262852,
+      "sha256": "f73bb5b69fa6334ff2c15643b1021882190baf63722ce25f1a18a41d3bda6d14"
+    },
+    {
+      "path": "images/fischlin-schnorr-2000-p226.png",
+      "bytes": 178630,
+      "sha256": "61d9ad172c81459c6e34f5a763d8fc1da12e96092f136bc25d93d193cc9c277c"
+    },
+    {
+      "path": "images/fischlin-schnorr-2000-p227.png",
+      "bytes": 203801,
+      "sha256": "677a3d7a67b66f14840227de944065286ec52bca96e2b3fd506f44151bef2b0a"
+    },
+    {
+      "path": "images/fischlin-schnorr-2000-p228.png",
+      "bytes": 237584,
+      "sha256": "99e5afb3c52ef2cf423710799b0d6055b810a33ebf7e6e55b7df4cfcea7fc7c1"
+    },
+    {
+      "path": "images/fischlin-schnorr-2000-p239.png",
+      "bytes": 189405,
+      "sha256": "4b1dc534ffffc4731d3309d6256b8efd162c9aba07280bd8828956d23836c625"
+    },
+    {
+      "path": "images/fischlin-schnorr-2000-p240.png",
+      "bytes": 254620,
+      "sha256": "575111208ffc01f491275b009844aad6153e04357ad89f14a5a3967fc62aeb70"
+    },
+    {
+      "path": "images/fischlin-schnorr-2000-p241.png",
+      "bytes": 242594,
+      "sha256": "63f4dcc8b39d05ac1014054758df9acd884229ebbe668418853c6c67a55dfb28"
+    },
+    {
+      "path": "images/fischlin-schnorr-2000-p242.png",
+      "bytes": 215015,
+      "sha256": "5300976e23eb753a9fe10923e727eaab929f58db89de4c23dab785677c3f1f2d"
+    },
+    {
+      "path": "images/vol2-p174.png",
+      "bytes": 647371,
+      "sha256": "994392c9c889112726a0d8e656b4706bbedfd53d870976de9ea57aea2def207f"
+    },
+    {
+      "path": "images/vol2-p416.png",
+      "bytes": 475569,
+      "sha256": "a2a52c38eff9dd993809958721afe3512e929418941d9c06f1d07fd771207af8"
+    },
+    {
+      "path": "images/vol2-p417.png",
+      "bytes": 423595,
+      "sha256": "bfa53ad49eecb2cd3cca44dfab3cf5c48f364f28911a2f5d632ea30c04fc677e"
+    },
+    {
+      "path": "images/vol2-p668.png",
+      "bytes": 606113,
+      "sha256": "9ad16ddda7e640056b54edb1ee310a750f795d30b8711b6e53c0102da76d2441"
+    },
+    {
+      "path": "images/vol2-p669-bbs-detail.png",
+      "bytes": 190478,
+      "sha256": "5ed785344b75d3f7a6f9817b9604255f8faa3329185ad4b4b62e420a622f510d"
+    },
+    {
+      "path": "images/vol2-p669-bbs-stage-sum.png",
+      "bytes": 172223,
+      "sha256": "c7b3d1dc6c0a84621ebdeb9300a9c0d6c985cfa6b1a7d98eb76cf1ded6239196"
+    },
+    {
+      "path": "images/vol2-p669.png",
+      "bytes": 686748,
+      "sha256": "b41fd874ca271d6ac532a83694dce8aa1f92a9280ce35f7a6658b57e2426fc6e"
+    },
+    {
+      "path": "notes/C0182-bbs-missing-plus.md",
+      "bytes": 811,
+      "sha256": "6394f5422f607ca7aeafbd3d00f11bcb702bca1a718b5ea484958415dbb2aecd"
+    },
+    {
+      "path": "notes/C0183-bbs-sampling-domain.md",
+      "bytes": 924,
+      "sha256": "bb1505d00922864e88a01ba77ae8d1d30fa91f2811e8ed499ed9b8000ad9496d"
+    },
+    {
+      "path": "notes/C0184-bbs-error-sign.md",
+      "bytes": 859,
+      "sha256": "bfee7ffe779972bebb81ddf0f544ce4822ebba7218673c5ac09728387ce62f28"
+    },
+    {
+      "path": "notes/C0185-bbs-stage-zero.md",
+      "bytes": 836,
+      "sha256": "fd8ea4801a11f48a0cd649724f60a199a956797decbf86e4147528384d581910"
+    },
+    {
+      "path": "notes/bbs.md",
+      "bytes": 20016,
+      "sha256": "53c95ef0d026242d472942f68a8a45f796aa1a0c0c009683b7fb5efbbd063d33"
+    },
+    {
+      "path": "reports/C0182-bbs-missing-plus-draft.txt",
+      "bytes": 955,
+      "sha256": "049425f3400ded8e4745c56e7629e6015300d983cdc77f34f87fe59aab7ea3e9"
+    },
+    {
+      "path": "reports/C0183-bbs-sampling-domain-draft.txt",
+      "bytes": 1687,
+      "sha256": "364ad383796993c65c110b0915821ea3658c6b6edd6e3675339b87a7302b8c19"
+    },
+    {
+      "path": "reports/C0184-bbs-error-sign-draft.txt",
+      "bytes": 1167,
+      "sha256": "da88b63047842e6103f479b33799bfe05b0c29f802a0cd3fa481e9da2d35bcf2"
+    },
+    {
+      "path": "reports/C0185-bbs-stage-zero-draft.txt",
+      "bytes": 1252,
+      "sha256": "c4ac558ae548c82982442d99d521df155e8d0de9227711138ff5f2e25ab75bfa"
+    },
+    {
+      "path": "results/bbs.json",
+      "bytes": 6103,
+      "sha256": "3cfad063f2bed98bf40187331ce06c0b394f4bba066b3f4cd016336985d3e0ac"
+    },
+    {
+      "path": "results/bbs.log",
+      "bytes": 797,
+      "sha256": "3dccb9915c54728d2c0e2822c40490027f0224248c321968189ba1854a462432"
+    },
+    {
+      "path": "sources/acgs-1988.pdf",
+      "bytes": 1984506,
+      "sha256": "00c100bc8a599176bba7b8cdb5ac222114b78358de2d5a7d3dccf8118f5119ca"
+    },
+    {
+      "path": "sources/acgs-1988.txt",
+      "bytes": 163129,
+      "sha256": "5934fff08d980cb0e8a09826e86dbc15e660a0e7f6b1b7aa617e744cecd4874c"
+    },
+    {
+      "path": "sources/bbs-bibliography.json",
+      "bytes": 31008,
+      "sha256": "e278748e072178ed4b9c0ea0d0404c29e8d23893d95ce9c203fa54f8f8966d07"
+    },
+    {
+      "path": "sources/bbs-downloads.json",
+      "bytes": 676,
+      "sha256": "90ec2197e0495ed093739e6bc3ae645ce4b8f77c1914f25ad03d2c2d54a6ac11"
+    },
+    {
+      "path": "sources/fischlin-schnorr-2000.pdf",
+      "bytes": 195767,
+      "sha256": "f5994977c53d48e9ca6de053ad11a869c7a00a7085d1602b91f35aff26d3de87"
+    },
+    {
+      "path": "sources/fischlin-schnorr-2000.txt",
+      "bytes": 82970,
+      "sha256": "e6410be4023740db6ac864234b2b51e4ad22df9c39fc1795aa31928f6a317d11"
+    },
+    {
+      "path": "verify_bbs.py",
+      "bytes": 8836,
+      "sha256": "7c9a218ad17703820919a3dc150b11087ecade0d9e2d81f3baf86e56534dbda8"
+    },
+    {
+      "path": "images/factoring-all2-prepre-p24.png",
+      "bytes": 119703,
+      "sha256": "c7971bba60022ab8ce84755a2ef31eae0cbc742ae0554ec1f2defb8d165e8e14"
+    }
+  ]
+}

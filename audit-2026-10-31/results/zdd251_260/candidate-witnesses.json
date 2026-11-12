@@ -1,0 +1,46 @@
+{
+  "at_utc": "2026-11-03T20:03:13.795213+00:00",
+  "C042": {
+    "primary": [
+      "a",
+      "b",
+      "c"
+    ],
+    "options": [
+      [
+        "a",
+        "b"
+      ],
+      [
+        "a",
+        "c"
+      ]
+    ],
+    "initial_lengths": {
+      "a": 2,
+      "b": 1,
+      "c": 1
+    },
+    "mrv_pivot": "b",
+    "chosen_option": 1,
+    "residual_primary": [
+      "c"
+    ],
+    "residual_length": 0,
+    "correct_signature": "001",
+    "incorrect_all_items_LEN_filter": "000",
+    "incorrect_result": "hit success S[0] while c remains uncovered",
+    "status": "candidate: context may intend only secondary fields; main signature definition and native source are correct",
+    "native_source": "sources/knuth-programs/dlx6.w",
+    "native_sha256": "3ef2b068f837f995283a7603b503f710dbe2aa180c10ddee150d8e24d9f3499d"
+  },
+  "C041": {
+    "q": 2,
+    "r": 2,
+    "correct_K4_nodes": 8,
+    "actual_combined_nodes": 15,
+    "additive_size": 16,
+    "source": "results/zdd251_260/bizarre256-2-2.json",
+    "status": "candidate: answer may describe costs schematically"
+  }
+}

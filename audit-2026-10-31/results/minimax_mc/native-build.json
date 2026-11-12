@@ -1,0 +1,49 @@
+{
+  "built_at_utc": "2026-11-02T00:22:35.710843+00:00",
+  "commands": [
+    [
+      "ctangle",
+      "gb_flip.w",
+      "gb_flip.ch"
+    ],
+    [
+      "ctangle",
+      "dlx2.w",
+      "dlx2-cutoff.ch"
+    ],
+    [
+      "cc",
+      "-O2",
+      "-Wno-implicit-int",
+      "-Wno-implicit-function-declaration",
+      "dlx2.c",
+      "gb_flip.c",
+      "-o",
+      "dlx2-cutoff"
+    ]
+  ],
+  "official_change_files": [
+    {
+      "path": "sources/minimax_mc/dlx2-cutoff.ch",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/programs/dlx2-cutoff.ch",
+      "sha256": "6e27b26b2874c330018160fda578c37921ad90f802cf669f986b4fd5e53ce28f",
+      "bytes": 5106
+    },
+    {
+      "path": "sources/minimax_mc/dance-random.ch",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/programs/dance-random.ch",
+      "sha256": "f5069dba73c83d618908d522c4624d27608b646d3fae545d5e8568b40ac4cc8d",
+      "bytes": 4232
+    }
+  ],
+  "binary": "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+  "binary_sha256": "e39f1e7bde11489a4d82d4a9ced5bc6a3576bf486756b6ea69c28a232fb7dd0c",
+  "other_sources": {
+    "dlx2.w": "02333262bfc49008cb132ee68efbad72157fec3722ea7b7c004e67dd98b5bcdb",
+    "gb_flip.w": "8e4faad04360d1ca35fad7c6c49281b63d3074f9f329444031f9ab09fd94611d",
+    "gb_flip.ch": "40f772938571cddea4929a85677f5c1ad70c1a9076e101e7e0ece1f7ed24ab20",
+    "boilerplate.w": "ef08ba0e208b7a3e8eac07f1fa285f4c06a5848d6dcf1d808e7babbfb42156a8"
+  },
+  "adapted_change_sha256": "4da0bfd92a0b8e4c1854a7d616f6355372d471c47820c9883f4fad336d5f7b41",
+  "scope": "Official DLX2 plus official dlx2-cutoff.ch with only the old @x context of unpurify updated to match current DLX2. Every @y replacement is unchanged and programmatically checked. Original source and failed initial build log retained. dance-random.ch is archived for source comparison only, not compiled."
+}

@@ -1,0 +1,28 @@
+{
+  "counts": {
+    "original": 3813,
+    "restore_j": 3808,
+    "tape": 7987
+  },
+  "total_success": 15608,
+  "known_2008_original_failure": "('memory', 64, 32, 2)",
+  "tape_full_block_records": 10,
+  "self_trace_locations": [
+    3500,
+    3501,
+    3502,
+    3503,
+    3504,
+    3505,
+    3501,
+    3502,
+    3503
+  ],
+  "original_trace_words": 47,
+  "limits": [
+    "No floating point; no device-dependent timing equivalence claimed",
+    "Trace variants have documented output-device and private-memory restrictions",
+    "Answer2 partial buffer inspected directly; final flushing is explicitly supplementary",
+    "Trace exercise5/6/7 have separate structural arguments"
+  ]
+}

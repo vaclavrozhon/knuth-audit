@@ -1,0 +1,633 @@
+{
+  "permutation_dp": [
+    {
+      "n": 1,
+      "states": 1,
+      "histories": 1,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "n": 2,
+      "states": 4,
+      "histories": 4,
+      "min": 2,
+      "max": 2
+    },
+    {
+      "n": 3,
+      "states": 15,
+      "histories": 27,
+      "min": 4,
+      "max": 5
+    },
+    {
+      "n": 4,
+      "states": 64,
+      "histories": 256,
+      "min": 8,
+      "max": 15
+    },
+    {
+      "n": 5,
+      "states": 325,
+      "histories": 3125,
+      "min": 16,
+      "max": 47
+    },
+    {
+      "n": 6,
+      "states": 1956,
+      "histories": 46656,
+      "min": 32,
+      "max": 159
+    },
+    {
+      "n": 7,
+      "states": 13699,
+      "histories": 823543,
+      "min": 64,
+      "max": 543
+    },
+    {
+      "n": 8,
+      "states": 109600,
+      "histories": 16777216,
+      "min": 128,
+      "max": 1931
+    }
+  ],
+  "partition_maxima": {
+    "cases": 18459,
+    "rows": [
+      {
+        "n": 1,
+        "partitions": 1,
+        "maximum": 1,
+        "winning_partitions": [
+          [
+            1
+          ]
+        ]
+      },
+      {
+        "n": 2,
+        "partitions": 2,
+        "maximum": 2,
+        "winning_partitions": [
+          [
+            1,
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      },
+      {
+        "n": 3,
+        "partitions": 3,
+        "maximum": 5,
+        "winning_partitions": [
+          [
+            1,
+            2
+          ],
+          [
+            3
+          ]
+        ]
+      },
+      {
+        "n": 4,
+        "partitions": 5,
+        "maximum": 15,
+        "winning_partitions": [
+          [
+            2,
+            2
+          ]
+        ]
+      },
+      {
+        "n": 5,
+        "partitions": 7,
+        "maximum": 47,
+        "winning_partitions": [
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      {
+        "n": 6,
+        "partitions": 11,
+        "maximum": 159,
+        "winning_partitions": [
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "n": 7,
+        "partitions": 15,
+        "maximum": 543,
+        "winning_partitions": [
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      {
+        "n": 8,
+        "partitions": 22,
+        "maximum": 1931,
+        "winning_partitions": [
+          [
+            4,
+            4
+          ]
+        ]
+      },
+      {
+        "n": 9,
+        "partitions": 30,
+        "maximum": 6879,
+        "winning_partitions": [
+          [
+            4,
+            5
+          ]
+        ]
+      },
+      {
+        "n": 10,
+        "partitions": 42,
+        "maximum": 25118,
+        "winning_partitions": [
+          [
+            5,
+            5
+          ]
+        ]
+      },
+      {
+        "n": 11,
+        "partitions": 56,
+        "maximum": 91693,
+        "winning_partitions": [
+          [
+            5,
+            6
+          ]
+        ]
+      },
+      {
+        "n": 12,
+        "partitions": 77,
+        "maximum": 340306,
+        "winning_partitions": [
+          [
+            6,
+            6
+          ]
+        ]
+      },
+      {
+        "n": 13,
+        "partitions": 101,
+        "maximum": 1262050,
+        "winning_partitions": [
+          [
+            6,
+            7
+          ]
+        ]
+      },
+      {
+        "n": 14,
+        "partitions": 135,
+        "maximum": 4736133,
+        "winning_partitions": [
+          [
+            7,
+            7
+          ]
+        ]
+      },
+      {
+        "n": 15,
+        "partitions": 176,
+        "maximum": 17758947,
+        "winning_partitions": [
+          [
+            7,
+            8
+          ]
+        ]
+      },
+      {
+        "n": 16,
+        "partitions": 231,
+        "maximum": 67184515,
+        "winning_partitions": [
+          [
+            8,
+            8
+          ]
+        ]
+      },
+      {
+        "n": 17,
+        "partitions": 297,
+        "maximum": 253977515,
+        "winning_partitions": [
+          [
+            8,
+            9
+          ]
+        ]
+      },
+      {
+        "n": 18,
+        "partitions": 385,
+        "maximum": 997313824,
+        "winning_partitions": [
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "n": 19,
+        "partitions": 490,
+        "maximum": 4809701440,
+        "winning_partitions": [
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "n": 20,
+        "partitions": 627,
+        "maximum": 23758664096,
+        "winning_partitions": [
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "n": 21,
+        "partitions": 792,
+        "maximum": 119952692896,
+        "winning_partitions": [
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "n": 22,
+        "partitions": 1002,
+        "maximum": 618884638912,
+        "winning_partitions": [
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "n": 23,
+        "partitions": 1255,
+        "maximum": 3257843882624,
+        "winning_partitions": [
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "n": 24,
+        "partitions": 1575,
+        "maximum": 17492190577600,
+        "winning_partitions": [
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "n": 25,
+        "partitions": 1958,
+        "maximum": 95680443760576,
+        "winning_partitions": [
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "n": 26,
+        "partitions": 2436,
+        "maximum": 532985208200576,
+        "winning_partitions": [
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "n": 27,
+        "partitions": 3010,
+        "maximum": 3020676745975552,
+        "winning_partitions": [
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "n": 28,
+        "partitions": 3718,
+        "maximum": 17411277367391104,
+        "winning_partitions": [
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        ]
+      }
+    ],
+    "Q_29": 101990226254706560,
+    "lemma5_bounds": {
+      "2": 1,
+      "3": 3,
+      "4": 11,
+      "5": 37,
+      "6": 134,
+      "7": 473,
+      "8": 1735,
+      "9": 6291,
+      "10": 55205,
+      "11": 242890,
+      "12": 997003,
+      "13": 4002731,
+      "14": 15915671,
+      "15": 62978687,
+      "16": 248564239,
+      "17": 979653758,
+      "18": 3858211982,
+      "19": 15189821338,
+      "20": 59797047627,
+      "21": 235415590051
+    },
+    "dependency": "Corollary15 and Lemma14 of primary paper; numerical reproduction is not independent proof of their general structural theorem."
+  }
+}

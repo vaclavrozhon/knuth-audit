@@ -1,0 +1,28 @@
+{
+  "checked_at_utc": "2026-11-11T21:23:51.811773+00:00",
+  "edition": "Volume 4A, first edition, first printing, 2011; inventory/books.json",
+  "originals": [
+    "images/bookwise-p450.png",
+    "images/bookwise-p476.png",
+    "images/bookwise-p793.png"
+  ],
+  "errata": [
+    "errata/text/all4a-pre.txt",
+    "errata/text/all4a.txt",
+    "errata/text/err4a.txt",
+    "errata/text/all4f4.txt",
+    "errata/text/err4f4.txt"
+  ],
+  "fresh_fascicle_manifest": "integration/2026-11-10-bookwise/errata/vol4a-fasc4-manifest.json",
+  "pages_screened": "4A 440–450,471–478,780–796; Fascicle 4 main 2–12, exercises 33–40, answers 75–91 (answer offset 705).",
+  "public_queries": [
+    "Knuth \"793\" \"44\" \"14\" errata",
+    "Knuth \"26/3\" \"10\" binary trees",
+    "Knuth \"795\" \"53\" errata",
+    "Knuth \"795\" \"54\" variance"
+  ],
+  "public_result": "No matching correction found for answer 44. The 2019 wording repair on 443 and 2020 answer-17 cross-reference repair on 783 are known and excluded. Fascicle 4 files refreshed 2026-11-11 are byte-identical to the archive. Queries for later answer-page suspicions were also screened; those answers are not certified by this block.",
+  "findings": [
+    "V4A-F0110"
+  ]
+}

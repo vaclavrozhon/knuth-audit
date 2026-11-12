@@ -1,0 +1,185 @@
+{
+  "checked_at_utc": "2026-11-06T20:31:05.303603+00:00",
+  "scope": "Complete finite claim1(b) over six equiprobable faces with values1..6; face permutations ignored and die labels identified only under cyclic rotation.",
+  "question_1a": {
+    "faces_in_printed_order": {
+      "A": [
+        5,
+        1,
+        5,
+        5,
+        1,
+        5
+      ],
+      "B": [
+        4,
+        3,
+        4,
+        4,
+        3,
+        6
+      ],
+      "C": [
+        3,
+        2,
+        3,
+        6,
+        2,
+        6
+      ]
+    },
+    "comparisons": [
+      {
+        "winner": "A",
+        "loser": "B",
+        "per_face_wins": [
+          5,
+          0,
+          5,
+          5,
+          0,
+          5
+        ],
+        "wins": 20,
+        "probability": "5/9"
+      },
+      {
+        "winner": "B",
+        "loser": "C",
+        "per_face_wins": [
+          4,
+          2,
+          4,
+          4,
+          2,
+          4
+        ],
+        "wins": 20,
+        "probability": "5/9"
+      },
+      {
+        "winner": "C",
+        "loser": "A",
+        "per_face_wins": [
+          2,
+          2,
+          2,
+          6,
+          2,
+          6
+        ],
+        "wins": 20,
+        "probability": "5/9"
+      }
+    ]
+  },
+  "answer_1b": {
+    "faces_in_printed_order": {
+      "A": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        6
+      ],
+      "B": [
+        2,
+        2,
+        2,
+        5,
+        5,
+        5
+      ],
+      "C": [
+        1,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    "comparisons": [
+      {
+        "winner": "A",
+        "loser": "B",
+        "per_face_wins": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          6
+        ],
+        "wins": 21,
+        "probability": "7/12"
+      },
+      {
+        "winner": "B",
+        "loser": "C",
+        "per_face_wins": [
+          1,
+          1,
+          1,
+          6,
+          6,
+          6
+        ],
+        "wins": 21,
+        "probability": "7/12"
+      },
+      {
+        "winner": "C",
+        "loser": "A",
+        "per_face_wins": [
+          0,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "wins": 25,
+        "probability": "25/36"
+      }
+    ]
+  },
+  "dice_count": 462,
+  "directed_pairs_examined": 213444,
+  "strict_win_edges": 55070,
+  "cycles_modulo_cyclic_relabeling": [
+    [
+      [
+        1,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      [
+        3,
+        3,
+        3,
+        3,
+        3,
+        6
+      ],
+      [
+        2,
+        2,
+        2,
+        5,
+        5,
+        5
+      ]
+    ]
+  ],
+  "cyclic_orbit_count": 1,
+  "labeled_cycle_count": 3,
+  "method": "Complete weakly increasing face tuples, exact histogram pair scores, bit intersections for every directed triangle; no stochastic sampling.",
+  "elapsed_seconds": 0.4620240880176425,
+  "long_search": false,
+  "old_tests_repeated": 0
+}

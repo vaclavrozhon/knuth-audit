@@ -1,0 +1,83 @@
+{
+  "description": "Complete MPR82(a–c), every printed answer step and the entire generalized-urn addition; D099 reused only in its established finite-game scope.",
+  "ledger_ids": [
+    "D183",
+    "F167"
+  ],
+  "claims": [
+    {
+      "id": "MPR082.01",
+      "file_pages": [
+        39,
+        402
+      ],
+      "claim": "Finite deck model, full-card and indicator histories, every conditional branch and integrability",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex082.md"
+    },
+    {
+      "id": "MPR082.02",
+      "file_pages": [
+        39
+      ],
+      "claim": "Explicit endpoint contradiction at n=51; valid transition range and constant continuation",
+      "status": "confirmed",
+      "proof": "audit-2026-10-31/notes/F167-ace-now-transition-endpoint.md"
+    },
+    {
+      "id": "MPR082.03",
+      "file_pages": [
+        402
+      ],
+      "claim": "Generalized urn for predictable positive or negative increments, all feasibility and zero-color branches",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex082.md"
+    },
+    {
+      "id": "MPR082.04",
+      "file_pages": [
+        39,
+        402
+      ],
+      "claim": "Every bounded stopping increment, full-card strategies and exact mean 1/13",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex082.md"
+    },
+    {
+      "id": "MPR082.05",
+      "file_pages": [
+        39,
+        402
+      ],
+      "claim": "Selected-card probability and exact zero net profit for every permitted strategy",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex082.md"
+    },
+    {
+      "id": "MPR082.06",
+      "file_pages": [
+        402
+      ],
+      "claim": "Explicit historical citation exception with no mathematical dependency",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex082.md"
+    }
+  ],
+  "bibliography_skips": [
+    {
+      "exercise": "MPR:82",
+      "file_pages": [
+        402
+      ],
+      "reference": "R. Connelly, Say Red, Pallbearers Review 9 (1974), p.702: original historical content and relationship to Ace Now",
+      "reason": "The primary magazine page was not immediately available. Secondary mentions do not establish the original contents; this is an explicit bibliography exception.",
+      "mathematical_dependency": false
+    }
+  ],
+  "new_findings": [
+    "F167"
+  ],
+  "new_calculations": 0,
+  "old_runs_repeated": 0,
+  "updated_at_utc": "2026-11-07T01:02:39.763655+00:00"
+}

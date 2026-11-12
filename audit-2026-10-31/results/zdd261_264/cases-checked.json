@@ -1,0 +1,181 @@
+{
+  "at_utc": "2026-11-03T20:16:42.311023+00:00",
+  "checker_sha256": "b1e71d902bd21d4fb32f76bd84e1d5165695593734bba3ab61495eed055d23d1",
+  "binary_sha256": "f72973ecfee017c8039eafa40e54516bb0be0371165a1ff98cf63466544d3304",
+  "nice": 15,
+  "elapsed_seconds": 0.3151519689708948,
+  "cases": [
+    {
+      "kind": "triangle",
+      "n": 2,
+      "stats": {
+        "count": 2,
+        "nodes": 10,
+        "signatures": 8,
+        "elapsed_seconds": null,
+        "reused_saved_terminal": true
+      }
+    },
+    {
+      "kind": "triangle",
+      "n": 3,
+      "stats": {
+        "count": 5,
+        "nodes": 36,
+        "signatures": 32,
+        "elapsed_seconds": 0.00618847698206082,
+        "reused_saved_terminal": false
+      }
+    },
+    {
+      "kind": "triangle",
+      "n": 4,
+      "stats": {
+        "count": 16,
+        "nodes": 96,
+        "signatures": 125,
+        "elapsed_seconds": 0.006497905997093767,
+        "reused_saved_terminal": false
+      }
+    },
+    {
+      "kind": "triangle",
+      "n": 5,
+      "stats": {
+        "count": 66,
+        "nodes": 238,
+        "signatures": 403,
+        "elapsed_seconds": 0.012856244982685894,
+        "reused_saved_terminal": false
+      }
+    },
+    {
+      "kind": "network261-0-0-4",
+      "stats": {
+        "count": 1,
+        "nodes": 12,
+        "signatures": 11,
+        "elapsed_seconds": 0.005576354975346476,
+        "reused_saved_terminal": false
+      }
+    },
+    {
+      "kind": "network261-1-0-4",
+      "stats": {
+        "count": 12,
+        "nodes": 23,
+        "signatures": 16,
+        "elapsed_seconds": 0.005306611012201756,
+        "reused_saved_terminal": false
+      }
+    },
+    {
+      "kind": "network261-2-0-4",
+      "stats": {
+        "count": 4,
+        "nodes": 16,
+        "signatures": 12,
+        "elapsed_seconds": 0.005939409020356834,
+        "reused_saved_terminal": false
+      }
+    },
+    {
+      "kind": "network261-2-1-4",
+      "stats": {
+        "count": 2,
+        "nodes": 10,
+        "signatures": 8,
+        "elapsed_seconds": 0.005997692991513759,
+        "reused_saved_terminal": false
+      }
+    },
+    {
+      "kind": "network261-2-1-5",
+      "stats": {
+        "count": 2,
+        "nodes": 10,
+        "signatures": 8,
+        "elapsed_seconds": 0.0050338649889454246,
+        "reused_saved_terminal": false
+      }
+    },
+    {
+      "kind": "duplicates265-first",
+      "stats": {
+        "count": 3,
+        "nodes": 7,
+        "signatures": 4,
+        "elapsed_seconds": 0.014216262963600457,
+        "reused_saved_terminal": false
+      }
+    },
+    {
+      "kind": "duplicates265-mrv",
+      "stats": {
+        "count": 57,
+        "nodes": 90,
+        "signatures": 42,
+        "elapsed_seconds": 0.005889788968488574,
+        "reused_saved_terminal": false
+      }
+    }
+  ],
+  "artifact_hashes": {
+    "results/zdd261_264/duplicates265-mrv.xcc": "0cc902ab6e127b9b442e0a21e4af7137fa1df802df9caa3c98b486aa17f274bd",
+    "results/zdd261_264/network261-2-0-4.xcc": "c7dc62125e316e884780e789b5d4475e734a43c92ba884ba7fb0cc946d1bdc27",
+    "results/zdd261_264/triangle261-5.xcc": "da00a3c90fc7c5a801e9687f2fdb2e0e6eea90184c80b3a398b4102ff0804976",
+    "results/zdd261_264/triangle261-2.log": "03579ee7fae1ecc04dc0f57069214c6bed75e5ce65b3844122fd2d329b789089",
+    "results/zdd261_264/network261-0-0-4.zdd": "bef4ea05b09152e2eaa7f5d868aee4d2bf272c075bf2a5adcc9c30c4075ae698",
+    "results/zdd261_264/triangle261-2.zdd": "7d7c385cbff1ff0d040af0cdd7d2c8facfc931618ae880c6427cec3685bbb280",
+    "results/zdd261_264/network261-2-1-5.zdd": "831e97a1caf69547e728d627eab89d624a4e95ea7d6d6b4d06ed1ae9573943ed",
+    "results/zdd261_264/network261-1-0-4.json": "6ef334d039d37e3964a7bd73f564de1593c7b2fee71bf2d44352df60362bf414",
+    "results/zdd261_264/network261-1-0-4.xcc": "4625f4d1379002a588d7bfafae6bc5221a68e4527a457b7c026658056a7c0fad",
+    "results/zdd261_264/network261-2-1-4.zdd": "2823366592d001ac883a4f018e5cd9b46e97667c43a643625c238a1c335dc827",
+    "results/zdd261_264/triangle261-3.zdd": "2545b6501afcd2526d6240de530867afba83477bfdb43f97211c52d018562155",
+    "results/zdd261_264/network261-2-0-4.log": "79ab982d4da1cfd723fe615226dc0592d17e690e99919301b54f35811310139c",
+    "results/zdd261_264/network261-2-1-4.json": "4b5fc773c05da42403365e79397505a5ddb0dd41c57eca3513980c835a98dafa",
+    "results/zdd261_264/duplicates265-first.log": "b84454343b7b6569b60f021c16e3f57f2d710d97af5c21a6ef9952ed2e3a52e4",
+    "results/zdd261_264/duplicates265-mrv-terminal.json": "478533539f4841714d24ec7cd0e3a35df4e0c8076857e212f1aff701b0ea72a4",
+    "results/zdd261_264/network261-1-0-4-terminal.json": "ff16255c85a3a5dad1facc8254b7c6a52cb0f64dbd44d3213348991cd410dc21",
+    "results/zdd261_264/network261-2-1-4.xcc": "f8d0a180e94657ae85e0ce24a192414e55764d451b53425ef58a8531c6319749",
+    "results/zdd261_264/duplicates265-mrv.zdd": "4854e8500fbba6163a03b0a1e50bf3a294e3a983c96d6d1c0bd4c7454584c595",
+    "results/zdd261_264/network261-0-0-4.log": "ce7c525ad8268d71282be7e29d26028fedc4a589cb77887cae719353bd8c8e1f",
+    "results/zdd261_264/duplicates265-first.xcc": "5cec932dcd2abc5d4ad7d8a6e319599bc5a7c232ea3506f8b4c54ce1a7eb687e",
+    "results/zdd261_264/triangle261-5.log": "92d3acf7857188a6bf117c471c7a7170dce85d9430c7bab987fad2abd6e8c96e",
+    "results/zdd261_264/triangle261-5-terminal.json": "d3a2004a58e17a74b620adde8b20919668040dc176c5c49bff89a85ef7d49afd",
+    "results/zdd261_264/network261-2-0-4.zdd": "aae0bb5f391bd77b00ee0e8deda4987b619a6b2b2ecbc1f0b61e3c9f86d8c836",
+    "results/zdd261_264/duplicates265-mrv.json": "8ba3950c80163e20141826f8684eba73ee588561e8830ed1a72aa7f3f6a9032b",
+    "results/zdd261_264/triangle261-5.json": "6073505a8d745d9f79a6e8d0aa69f82b124eda03dafee5f6d9613cc73c0dfb3f",
+    "results/zdd261_264/network261-0-0-4.xcc": "99b9810fcde65c8edb87fe1b631e401de78056947506247d8717dcd00f828933",
+    "results/zdd261_264/network261-2-0-4.json": "27dd94e2c8ea48e1c37e62d8545b18c69a74a8c8f39e4b56c5e42942fe51144e",
+    "results/zdd261_264/duplicates265-first.json": "4c003d4be39eba6211a392acfc74b34ac50b8e0bf1cb24021b02bb6d0f8c2bd0",
+    "results/zdd261_264/triangle261-3.log": "81076750d8210b65989c6ce1d582a91f45e683094e70d1b23f0b09edc43b41d7",
+    "results/zdd261_264/triangle261-4.zdd": "0ee7e88606dc6d6d22eaf67061ce3a64669536216b559ac452e2f1808e7ae91c",
+    "results/zdd261_264/network261-2-1-4-terminal.json": "a8cb7beba26941a34aaedbc8ce8cfec10eacf4d193917ada42f847dc748c0ce9",
+    "results/zdd261_264/triangle261-4-terminal.json": "3b053351bdc5be36e5d8ce0dcf6061d44331e614a9ced468b89504ba3351e6ef",
+    "results/zdd261_264/network261-0-0-4.json": "e0d25a5db6d3a4eaf94d06d0fab622c7bc9d733960104bd2777cfae7474913b8",
+    "results/zdd261_264/triangle261-2.xcc": "3d7b7a264f0f2cc54a0b25ab9d54c17e027b3f7c799908b698357df0350d2653",
+    "results/zdd261_264/network261-1-0-4.zdd": "015116c8369c4ebd15913c6d3e5a1c948009f0ad4ca8d033ea1566b474371266",
+    "results/zdd261_264/triangle261-4.json": "3769d7c708e42509e16149470729c2be9f7873dabb5f8268f539dbfc47596064",
+    "results/zdd261_264/network261-2-1-5-terminal.json": "21e3c10fe735da3599ee55504da195061b6273084797a26c3669e5b1ff121a6f",
+    "results/zdd261_264/network261-2-0-4-terminal.json": "3b66372771f5bec6cc5025202abef2a83edcd7b1f70e3ca2ee9f2523f2e0e9af",
+    "results/zdd261_264/duplicates265-first.zdd": "f5bf8184fa5d946789dca9e6da619ebc6c2f992ff6a4c7a8385dad68f3beb478",
+    "results/zdd261_264/triangle261-3-terminal.json": "28c7b2f64dbd330f5c502b53bd5139ac66a526a6bee9b27dafa27b0654b16c09",
+    "results/zdd261_264/network261-1-0-4.log": "4d88181a1065a4238ceef862a93973bbd3af227a31dbb35cac77ccb17ff23ec1",
+    "results/zdd261_264/network261-2-1-5.json": "46709ebcfac0ff33a1a299c1121d3e3ab221ffc81af5f8853c640f702a223ff5",
+    "results/zdd261_264/duplicates265-first-terminal.json": "fe487ccd635a96750a36e38e16d7a5cc9a5bf744cfab8ecbbf6bba3ae697f03e",
+    "results/zdd261_264/duplicates265-mrv.log": "ab6fab343914708105817a4c0c9cab2859d567d7a9aa9592f9603a40cfbf2f64",
+    "results/zdd261_264/triangle261-5.zdd": "5809b7af9cb6530897dfe1572b75c82b9641a8e1d451501af5fb2024494a0f4a",
+    "results/zdd261_264/triangle261-4.xcc": "4606f110d14419c24739c7a8fcd4f9d7b055a28c504964d6b3b8c41c0b43e27e",
+    "results/zdd261_264/network261-0-0-4-terminal.json": "69c430ad642c407be01e87aadc2a0847eba2278cf48dfea85ceb9feef6df562b",
+    "results/zdd261_264/path-pfaffians.json": "962c028df9d33ababd17a88e21f2f018f3118bf33316ea06a1b2475a4c9bdfdf",
+    "results/zdd261_264/network261-2-1-4.log": "6a9de3c82441aeb088a3cf53995f656ae161e061d5a56b01bcc9cf2c186fab40",
+    "results/zdd261_264/triangle261-4.log": "b657c98ae3ecfd1400755235ffca1afebc98d7aa7f765bd3f52b3180c45e3c99",
+    "results/zdd261_264/network261-2-1-5.log": "6a9de3c82441aeb088a3cf53995f656ae161e061d5a56b01bcc9cf2c186fab40",
+    "results/zdd261_264/network261-2-1-5.xcc": "248b6f3cb56de42d328245295e45ef6788f84fa1c9d0876a8ba19264783c585e",
+    "results/zdd261_264/triangle261-3.xcc": "3fe2899000418e3958737e2f3c1e018ad014873ec3ae1328c60028ec5b57fe99",
+    "results/zdd261_264/triangle261-2-terminal.json": "51eb2cb986b697489d7d7e7d96e94d6f816081d0ad239d4d8dac9cc3f7e5cce2",
+    "results/zdd261_264/triangle261-2.json": "de0ddc8f8d3b643950c9c9fd720eafde639d1c9d68d2454a2856573e15679ed1",
+    "results/zdd261_264/triangle261-3.json": "ab5b1eeb23d709557b123c18345d0aca8841b2b19a4020067a992cc1cad81507"
+  }
+}

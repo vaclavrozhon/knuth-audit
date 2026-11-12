@@ -1,0 +1,1535 @@
+{
+  "pid": 691860,
+  "status": "verified",
+  "started_at_utc": "2026-11-01T15:19:35.307899+00:00",
+  "command": [
+    "/usr/bin/python3",
+    "audit-2026-10-31/check_symmetric_word_costs.py"
+  ],
+  "compile_command": [
+    "g++",
+    "-O3",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "audit-2026-10-31/symmetric_word_costs.cpp",
+    "-o",
+    "/tmp/knuth-vol4b-symcost-2gq7lsj5/symmetric-word-costs"
+  ],
+  "source_sha256": "07a7270516e435244b3c9ddce9d1862e2f0f21b21e9eaa02c8ffac5e187faa34",
+  "temporary_directory": "/tmp/knuth-vol4b-symcost-2gq7lsj5",
+  "timeout_seconds_per_case": 1800,
+  "small_checks": [
+    {
+      "n": 1,
+      "vocabulary": 2,
+      "count": 2,
+      "words": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "n": 2,
+      "vocabulary": 4,
+      "count": 8,
+      "words": [
+        "aa",
+        "ab",
+        "ba",
+        "bb"
+      ]
+    },
+    {
+      "n": 4,
+      "vocabulary": 16,
+      "count": 1024,
+      "words": [
+        "aaaa",
+        "aaab",
+        "aaba",
+        "aabb",
+        "abaa",
+        "abab",
+        "abba",
+        "abbb",
+        "baaa",
+        "baab",
+        "baba",
+        "babb",
+        "bbaa",
+        "bbab",
+        "bbba",
+        "bbbb"
+      ]
+    },
+    {
+      "n": 1,
+      "vocabulary": 2,
+      "count": 2,
+      "words": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "n": 3,
+      "vocabulary": 2,
+      "count": 0,
+      "words": [
+        "acb",
+        "aac"
+      ]
+    },
+    {
+      "n": 3,
+      "vocabulary": 5,
+      "count": 6,
+      "words": [
+        "bcc",
+        "aac",
+        "bca",
+        "abc",
+        "cab"
+      ]
+    },
+    {
+      "n": 1,
+      "vocabulary": 1,
+      "count": 1,
+      "words": [
+        "c"
+      ]
+    },
+    {
+      "n": 4,
+      "vocabulary": 6,
+      "count": 1,
+      "words": [
+        "bcbc",
+        "aaba",
+        "cabc",
+        "abab",
+        "aacb",
+        "acaa"
+      ]
+    },
+    {
+      "n": 1,
+      "vocabulary": 2,
+      "count": 2,
+      "words": [
+        "b",
+        "c"
+      ]
+    },
+    {
+      "n": 3,
+      "vocabulary": 1,
+      "count": 0,
+      "words": [
+        "bbc"
+      ]
+    },
+    {
+      "n": 1,
+      "vocabulary": 1,
+      "count": 1,
+      "words": [
+        "a"
+      ]
+    },
+    {
+      "n": 1,
+      "vocabulary": 2,
+      "count": 2,
+      "words": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "n": 2,
+      "vocabulary": 6,
+      "count": 11,
+      "words": [
+        "ca",
+        "cb",
+        "ab",
+        "cc",
+        "aa",
+        "ba"
+      ]
+    },
+    {
+      "n": 1,
+      "vocabulary": 3,
+      "count": 3,
+      "words": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    {
+      "n": 2,
+      "vocabulary": 1,
+      "count": 0,
+      "words": [
+        "ac"
+      ]
+    },
+    {
+      "n": 3,
+      "vocabulary": 2,
+      "count": 0,
+      "words": [
+        "ccb",
+        "bcb"
+      ]
+    },
+    {
+      "n": 3,
+      "vocabulary": 2,
+      "count": 0,
+      "words": [
+        "caa",
+        "aab"
+      ]
+    },
+    {
+      "n": 3,
+      "vocabulary": 2,
+      "count": 0,
+      "words": [
+        "bba",
+        "bca"
+      ]
+    },
+    {
+      "n": 1,
+      "vocabulary": 2,
+      "count": 2,
+      "words": [
+        "c",
+        "b"
+      ]
+    },
+    {
+      "n": 2,
+      "vocabulary": 3,
+      "count": 3,
+      "words": [
+        "bc",
+        "ca",
+        "aa"
+      ]
+    },
+    {
+      "n": 3,
+      "vocabulary": 8,
+      "count": 28,
+      "words": [
+        "bbb",
+        "baa",
+        "ccc",
+        "bcb",
+        "abc",
+        "bbc",
+        "bcc",
+        "abb"
+      ]
+    },
+    {
+      "n": 3,
+      "vocabulary": 6,
+      "count": 7,
+      "words": [
+        "cca",
+        "bac",
+        "aac",
+        "bca",
+        "caa",
+        "bab"
+      ]
+    },
+    {
+      "n": 3,
+      "vocabulary": 4,
+      "count": 5,
+      "words": [
+        "cbc",
+        "bbb",
+        "ccc",
+        "abb"
+      ]
+    },
+    {
+      "n": 2,
+      "vocabulary": 3,
+      "count": 3,
+      "words": [
+        "bb",
+        "aa",
+        "bc"
+      ]
+    },
+    {
+      "n": 2,
+      "vocabulary": 2,
+      "count": 2,
+      "words": [
+        "ac",
+        "cc"
+      ]
+    },
+    {
+      "n": 2,
+      "vocabulary": 4,
+      "count": 4,
+      "words": [
+        "bc",
+        "aa",
+        "ca",
+        "ba"
+      ]
+    },
+    {
+      "n": 2,
+      "vocabulary": 2,
+      "count": 1,
+      "words": [
+        "cb",
+        "ba"
+      ]
+    },
+    {
+      "n": 1,
+      "vocabulary": 1,
+      "count": 1,
+      "words": [
+        "a"
+      ]
+    },
+    {
+      "n": 1,
+      "vocabulary": 3,
+      "count": 3,
+      "words": [
+        "c",
+        "b",
+        "a"
+      ]
+    },
+    {
+      "n": 4,
+      "vocabulary": 3,
+      "count": 0,
+      "words": [
+        "cabc",
+        "caac",
+        "bcba"
+      ]
+    },
+    {
+      "n": 1,
+      "vocabulary": 1,
+      "count": 1,
+      "words": [
+        "a"
+      ]
+    },
+    {
+      "n": 1,
+      "vocabulary": 1,
+      "count": 1,
+      "words": [
+        "a"
+      ]
+    },
+    {
+      "n": 1,
+      "vocabulary": 1,
+      "count": 1,
+      "words": [
+        "b"
+      ]
+    },
+    {
+      "n": 2,
+      "vocabulary": 6,
+      "count": 11,
+      "words": [
+        "aa",
+        "ca",
+        "bb",
+        "ac",
+        "ba",
+        "bc"
+      ]
+    },
+    {
+      "n": 3,
+      "vocabulary": 3,
+      "count": 1,
+      "words": [
+        "acb",
+        "baa",
+        "caa"
+      ]
+    },
+    {
+      "n": 4,
+      "vocabulary": 8,
+      "count": 3,
+      "words": [
+        "acca",
+        "bcba",
+        "bbbc",
+        "ccbb",
+        "abbc",
+        "aaba",
+        "bbac",
+        "bcab"
+      ]
+    },
+    {
+      "n": 2,
+      "vocabulary": 7,
+      "count": 15,
+      "words": [
+        "ba",
+        "bc",
+        "aa",
+        "bb",
+        "ca",
+        "cc",
+        "cb"
+      ]
+    },
+    {
+      "n": 1,
+      "vocabulary": 2,
+      "count": 2,
+      "words": [
+        "b",
+        "c"
+      ]
+    },
+    {
+      "n": 4,
+      "vocabulary": 2,
+      "count": 0,
+      "words": [
+        "accc",
+        "ccba"
+      ]
+    },
+    {
+      "n": 1,
+      "vocabulary": 2,
+      "count": 2,
+      "words": [
+        "c",
+        "b"
+      ]
+    },
+    {
+      "n": 2,
+      "vocabulary": 6,
+      "count": 12,
+      "words": [
+        "cc",
+        "ab",
+        "bc",
+        "bb",
+        "ac",
+        "ca"
+      ]
+    },
+    {
+      "n": 1,
+      "vocabulary": 3,
+      "count": 3,
+      "words": [
+        "b",
+        "a",
+        "c"
+      ]
+    },
+    {
+      "n": 3,
+      "vocabulary": 5,
+      "count": 6,
+      "words": [
+        "abc",
+        "bca",
+        "cab",
+        "baa",
+        "cac"
+      ]
+    },
+    {
+      "n": 3,
+      "vocabulary": 5,
+      "count": 3,
+      "words": [
+        "aab",
+        "bcc",
+        "abb",
+        "cca",
+        "cba"
+      ]
+    },
+    {
+      "n": 1,
+      "vocabulary": 1,
+      "count": 1,
+      "words": [
+        "c"
+      ]
+    },
+    {
+      "n": 3,
+      "vocabulary": 5,
+      "count": 6,
+      "words": [
+        "cca",
+        "bbb",
+        "aaa",
+        "bcb",
+        "bcc"
+      ]
+    },
+    {
+      "n": 4,
+      "vocabulary": 6,
+      "count": 3,
+      "words": [
+        "aabc",
+        "abba",
+        "baca",
+        "accc",
+        "abbb",
+        "cbcb"
+      ]
+    },
+    {
+      "n": 2,
+      "vocabulary": 3,
+      "count": 2,
+      "words": [
+        "aa",
+        "bc",
+        "ac"
+      ]
+    },
+    {
+      "n": 2,
+      "vocabulary": 6,
+      "count": 12,
+      "words": [
+        "ab",
+        "bc",
+        "cb",
+        "ac",
+        "cc",
+        "ba"
+      ]
+    },
+    {
+      "n": 1,
+      "vocabulary": 3,
+      "count": 3,
+      "words": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    {
+      "n": 3,
+      "vocabulary": 7,
+      "count": 10,
+      "words": [
+        "abb",
+        "aba",
+        "cab",
+        "bba",
+        "caa",
+        "bcc",
+        "aca"
+      ]
+    },
+    {
+      "n": 1,
+      "vocabulary": 3,
+      "count": 3,
+      "words": [
+        "c",
+        "b",
+        "a"
+      ]
+    },
+    {
+      "n": 3,
+      "vocabulary": 1,
+      "count": 0,
+      "words": [
+        "aac"
+      ]
+    },
+    {
+      "n": 2,
+      "vocabulary": 6,
+      "count": 12,
+      "words": [
+        "aa",
+        "ac",
+        "ca",
+        "bb",
+        "cc",
+        "ab"
+      ]
+    },
+    {
+      "n": 2,
+      "vocabulary": 5,
+      "count": 9,
+      "words": [
+        "bc",
+        "bb",
+        "aa",
+        "ba",
+        "cb"
+      ]
+    },
+    {
+      "n": 4,
+      "vocabulary": 2,
+      "count": 0,
+      "words": [
+        "cbba",
+        "babb"
+      ]
+    },
+    {
+      "n": 4,
+      "vocabulary": 3,
+      "count": 0,
+      "words": [
+        "aaac",
+        "aaca",
+        "caba"
+      ]
+    },
+    {
+      "n": 2,
+      "vocabulary": 1,
+      "count": 1,
+      "words": [
+        "cc"
+      ]
+    },
+    {
+      "n": 2,
+      "vocabulary": 3,
+      "count": 4,
+      "words": [
+        "ba",
+        "bb",
+        "cb"
+      ]
+    },
+    {
+      "n": 4,
+      "vocabulary": 6,
+      "count": 6,
+      "words": [
+        "bbac",
+        "baac",
+        "cccc",
+        "ccac",
+        "cacc",
+        "caba"
+      ]
+    },
+    {
+      "n": 4,
+      "vocabulary": 7,
+      "count": 3,
+      "words": [
+        "ccab",
+        "caab",
+        "aabb",
+        "bcbc",
+        "abca",
+        "bacb",
+        "bbac"
+      ]
+    },
+    {
+      "n": 3,
+      "vocabulary": 6,
+      "count": 3,
+      "words": [
+        "bcc",
+        "bcb",
+        "bab",
+        "bac",
+        "aab",
+        "cca"
+      ]
+    },
+    {
+      "n": 2,
+      "vocabulary": 1,
+      "count": 1,
+      "words": [
+        "cc"
+      ]
+    },
+    {
+      "n": 2,
+      "vocabulary": 4,
+      "count": 6,
+      "words": [
+        "ac",
+        "aa",
+        "ba",
+        "cb"
+      ]
+    },
+    {
+      "n": 4,
+      "vocabulary": 6,
+      "count": 2,
+      "words": [
+        "cbaa",
+        "ccaa",
+        "aabb",
+        "abac",
+        "bcca",
+        "cbca"
+      ]
+    },
+    {
+      "n": 2,
+      "vocabulary": 3,
+      "count": 2,
+      "words": [
+        "ba",
+        "bb",
+        "ca"
+      ]
+    },
+    {
+      "n": 4,
+      "vocabulary": 4,
+      "count": 0,
+      "words": [
+        "cbba",
+        "cccb",
+        "abba",
+        "abaa"
+      ]
+    },
+    {
+      "n": 2,
+      "vocabulary": 8,
+      "count": 21,
+      "words": [
+        "bb",
+        "ab",
+        "aa",
+        "cb",
+        "bc",
+        "cc",
+        "ac",
+        "ca"
+      ]
+    },
+    {
+      "n": 4,
+      "vocabulary": 1,
+      "count": 0,
+      "words": [
+        "bcaa"
+      ]
+    },
+    {
+      "n": 1,
+      "vocabulary": 3,
+      "count": 3,
+      "words": [
+        "a",
+        "c",
+        "b"
+      ]
+    },
+    {
+      "n": 3,
+      "vocabulary": 6,
+      "count": 11,
+      "words": [
+        "ccb",
+        "aab",
+        "ccc",
+        "bba",
+        "bbb",
+        "cba"
+      ]
+    },
+    {
+      "n": 1,
+      "vocabulary": 3,
+      "count": 3,
+      "words": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    {
+      "n": 2,
+      "vocabulary": 1,
+      "count": 0,
+      "words": [
+        "ac"
+      ]
+    },
+    {
+      "n": 1,
+      "vocabulary": 3,
+      "count": 3,
+      "words": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    {
+      "n": 1,
+      "vocabulary": 2,
+      "count": 2,
+      "words": [
+        "c",
+        "b"
+      ]
+    },
+    {
+      "n": 4,
+      "vocabulary": 3,
+      "count": 0,
+      "words": [
+        "aabc",
+        "accb",
+        "acab"
+      ]
+    },
+    {
+      "n": 4,
+      "vocabulary": 4,
+      "count": 0,
+      "words": [
+        "aacc",
+        "bcab",
+        "acbc",
+        "caaa"
+      ]
+    },
+    {
+      "n": 3,
+      "vocabulary": 8,
+      "count": 13,
+      "words": [
+        "baa",
+        "bcc",
+        "acb",
+        "aba",
+        "bca",
+        "bcb",
+        "cca",
+        "cbb"
+      ]
+    },
+    {
+      "n": 3,
+      "vocabulary": 7,
+      "count": 13,
+      "words": [
+        "bac",
+        "bcb",
+        "bbc",
+        "cac",
+        "aca",
+        "cbb",
+        "cca"
+      ]
+    },
+    {
+      "n": 2,
+      "vocabulary": 1,
+      "count": 0,
+      "words": [
+        "cb"
+      ]
+    },
+    {
+      "n": 3,
+      "vocabulary": 8,
+      "count": 20,
+      "words": [
+        "bab",
+        "ccc",
+        "bac",
+        "cba",
+        "cac",
+        "bcc",
+        "aba",
+        "abc"
+      ]
+    },
+    {
+      "n": 4,
+      "vocabulary": 7,
+      "count": 0,
+      "words": [
+        "bcab",
+        "abbb",
+        "bcaa",
+        "ccba",
+        "accb",
+        "abca",
+        "ccac"
+      ]
+    },
+    {
+      "n": 2,
+      "vocabulary": 8,
+      "count": 21,
+      "words": [
+        "cc",
+        "cb",
+        "ca",
+        "aa",
+        "ac",
+        "bb",
+        "bc",
+        "ab"
+      ]
+    },
+    {
+      "n": 1,
+      "vocabulary": 1,
+      "count": 1,
+      "words": [
+        "b"
+      ]
+    },
+    {
+      "n": 3,
+      "vocabulary": 2,
+      "count": 1,
+      "words": [
+        "bac",
+        "aaa"
+      ]
+    },
+    {
+      "n": 2,
+      "vocabulary": 2,
+      "count": 1,
+      "words": [
+        "aa",
+        "bc"
+      ]
+    },
+    {
+      "n": 1,
+      "vocabulary": 3,
+      "count": 3,
+      "words": [
+        "c",
+        "b",
+        "a"
+      ]
+    },
+    {
+      "n": 4,
+      "vocabulary": 2,
+      "count": 0,
+      "words": [
+        "aaca",
+        "cccb"
+      ]
+    },
+    {
+      "n": 3,
+      "vocabulary": 2,
+      "count": 1,
+      "words": [
+        "bba",
+        "ccc"
+      ]
+    },
+    {
+      "n": 1,
+      "vocabulary": 3,
+      "count": 3,
+      "words": [
+        "a",
+        "c",
+        "b"
+      ]
+    },
+    {
+      "n": 3,
+      "vocabulary": 5,
+      "count": 8,
+      "words": [
+        "cac",
+        "cba",
+        "aba",
+        "aac",
+        "aaa"
+      ]
+    },
+    {
+      "n": 2,
+      "vocabulary": 8,
+      "count": 21,
+      "words": [
+        "ca",
+        "ba",
+        "cc",
+        "aa",
+        "ac",
+        "bb",
+        "cb",
+        "ab"
+      ]
+    },
+    {
+      "n": 4,
+      "vocabulary": 3,
+      "count": 0,
+      "words": [
+        "bbca",
+        "abaa",
+        "baab"
+      ]
+    },
+    {
+      "n": 1,
+      "vocabulary": 3,
+      "count": 3,
+      "words": [
+        "b",
+        "a",
+        "c"
+      ]
+    },
+    {
+      "n": 1,
+      "vocabulary": 1,
+      "count": 1,
+      "words": [
+        "a"
+      ]
+    },
+    {
+      "n": 4,
+      "vocabulary": 2,
+      "count": 0,
+      "words": [
+        "ccca",
+        "cbaa"
+      ]
+    },
+    {
+      "n": 4,
+      "vocabulary": 3,
+      "count": 0,
+      "words": [
+        "caca",
+        "cabb",
+        "cbca"
+      ]
+    },
+    {
+      "n": 2,
+      "vocabulary": 7,
+      "count": 17,
+      "words": [
+        "bb",
+        "ab",
+        "bc",
+        "cb",
+        "cc",
+        "aa",
+        "ba"
+      ]
+    },
+    {
+      "n": 2,
+      "vocabulary": 3,
+      "count": 4,
+      "words": [
+        "aa",
+        "ba",
+        "bb"
+      ]
+    },
+    {
+      "n": 4,
+      "vocabulary": 2,
+      "count": 0,
+      "words": [
+        "bbac",
+        "cbbb"
+      ]
+    },
+    {
+      "n": 3,
+      "vocabulary": 1,
+      "count": 0,
+      "words": [
+        "aac"
+      ]
+    },
+    {
+      "n": 1,
+      "vocabulary": 3,
+      "count": 3,
+      "words": [
+        "c",
+        "a",
+        "b"
+      ]
+    },
+    {
+      "n": 4,
+      "vocabulary": 7,
+      "count": 2,
+      "words": [
+        "bcba",
+        "bbaa",
+        "cccc",
+        "abab",
+        "abca",
+        "abac",
+        "bbcc"
+      ]
+    },
+    {
+      "n": 2,
+      "vocabulary": 4,
+      "count": 5,
+      "words": [
+        "bc",
+        "ba",
+        "ca",
+        "ab"
+      ]
+    },
+    {
+      "n": 2,
+      "vocabulary": 5,
+      "count": 9,
+      "words": [
+        "aa",
+        "cb",
+        "ac",
+        "bc",
+        "ca"
+      ]
+    },
+    {
+      "n": 4,
+      "vocabulary": 7,
+      "count": 9,
+      "words": [
+        "acac",
+        "cccc",
+        "bcbb",
+        "cacb",
+        "abcc",
+        "aaab",
+        "cbcb"
+      ]
+    },
+    {
+      "n": 1,
+      "vocabulary": 1,
+      "count": 1,
+      "words": [
+        "b"
+      ]
+    },
+    {
+      "n": 3,
+      "vocabulary": 4,
+      "count": 6,
+      "words": [
+        "bbc",
+        "bbb",
+        "bcc",
+        "aab"
+      ]
+    },
+    {
+      "n": 3,
+      "vocabulary": 7,
+      "count": 17,
+      "words": [
+        "ccb",
+        "bab",
+        "cca",
+        "aab",
+        "aaa",
+        "aba",
+        "cab"
+      ]
+    },
+    {
+      "n": 2,
+      "vocabulary": 6,
+      "count": 14,
+      "words": [
+        "aa",
+        "ac",
+        "bc",
+        "ca",
+        "cb",
+        "cc"
+      ]
+    },
+    {
+      "n": 3,
+      "vocabulary": 7,
+      "count": 23,
+      "words": [
+        "abb",
+        "bbb",
+        "bcb",
+        "aba",
+        "aaa",
+        "cbb",
+        "baa"
+      ]
+    },
+    {
+      "n": 2,
+      "vocabulary": 8,
+      "count": 21,
+      "words": [
+        "cc",
+        "bb",
+        "ca",
+        "aa",
+        "cb",
+        "bc",
+        "ac",
+        "ab"
+      ]
+    },
+    {
+      "n": 4,
+      "vocabulary": 6,
+      "count": 3,
+      "words": [
+        "bbca",
+        "caaa",
+        "aaab",
+        "caba",
+        "acbc",
+        "aaac"
+      ]
+    },
+    {
+      "n": 4,
+      "vocabulary": 5,
+      "count": 0,
+      "words": [
+        "baaa",
+        "bbaa",
+        "aaba",
+        "abcc",
+        "ccca"
+      ]
+    },
+    {
+      "n": 2,
+      "vocabulary": 8,
+      "count": 21,
+      "words": [
+        "bb",
+        "ba",
+        "ca",
+        "ab",
+        "bc",
+        "cc",
+        "aa",
+        "cb"
+      ]
+    },
+    {
+      "n": 1,
+      "vocabulary": 2,
+      "count": 2,
+      "words": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "n": 3,
+      "vocabulary": 2,
+      "count": 2,
+      "words": [
+        "aaa",
+        "bba"
+      ]
+    },
+    {
+      "n": 2,
+      "vocabulary": 1,
+      "count": 1,
+      "words": [
+        "aa"
+      ]
+    },
+    {
+      "n": 3,
+      "vocabulary": 6,
+      "count": 9,
+      "words": [
+        "cac",
+        "caa",
+        "cba",
+        "bac",
+        "aba",
+        "aab"
+      ]
+    },
+    {
+      "n": 1,
+      "vocabulary": 2,
+      "count": 2,
+      "words": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "n": 3,
+      "vocabulary": 7,
+      "count": 7,
+      "words": [
+        "aca",
+        "bcb",
+        "acb",
+        "bcc",
+        "cbb",
+        "acc",
+        "bac"
+      ]
+    },
+    {
+      "n": 2,
+      "vocabulary": 5,
+      "count": 10,
+      "words": [
+        "ca",
+        "ac",
+        "cc",
+        "aa",
+        "ba"
+      ]
+    },
+    {
+      "n": 2,
+      "vocabulary": 2,
+      "count": 1,
+      "words": [
+        "ca",
+        "bc"
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "dictionary": "sources/wordlists/words5-from-sgb",
+      "dictionary_sha256": "52a04f4fb860953c2a29c2769014bd8b12d090a19e7577a460a2a2586bd6d4ce",
+      "started_at_utc": "2026-11-01T15:19:37.870315+00:00",
+      "command": [
+        "/tmp/knuth-vol4b-symcost-2gq7lsj5/symmetric-word-costs",
+        "audit-2026-10-31/sources/wordlists/words5-from-sgb"
+      ],
+      "status": "verified",
+      "pid": 691997,
+      "returncode": 0,
+      "finished_at_utc": "2026-11-01T15:19:38.442243+00:00",
+      "elapsed_seconds": 0.5688738860189915
+    },
+    {
+      "dictionary": "sources/wordlists/words2-from-OSPD4",
+      "dictionary_sha256": "74be6e2ff5eab65be336a88846a51acec5ec7eb3f67bed64db999a00dbb08c77",
+      "started_at_utc": "2026-11-01T15:19:38.444578+00:00",
+      "command": [
+        "/tmp/knuth-vol4b-symcost-2gq7lsj5/symmetric-word-costs",
+        "audit-2026-10-31/sources/wordlists/words2-from-OSPD4"
+      ],
+      "status": "verified",
+      "pid": 692001,
+      "returncode": 0,
+      "finished_at_utc": "2026-11-01T15:19:38.451416+00:00",
+      "elapsed_seconds": 0.0034071829868480563
+    },
+    {
+      "dictionary": "sources/wordlists/words3-from-OSPD4",
+      "dictionary_sha256": "fc8501e35e9eb72b1c1627d7f6c0aeaef2407ecec952e04b966607d7810b5fcd",
+      "started_at_utc": "2026-11-01T15:19:38.453625+00:00",
+      "command": [
+        "/tmp/knuth-vol4b-symcost-2gq7lsj5/symmetric-word-costs",
+        "audit-2026-10-31/sources/wordlists/words3-from-OSPD4"
+      ],
+      "status": "verified",
+      "pid": 692002,
+      "returncode": 0,
+      "finished_at_utc": "2026-11-01T15:19:38.472794+00:00",
+      "elapsed_seconds": 0.017655973992077634
+    },
+    {
+      "dictionary": "sources/wordlists/words4-from-OSPD4",
+      "dictionary_sha256": "b7190678e3a22099acdf1522da2365f2396eb9efb040d8b648c5e18148dac920",
+      "started_at_utc": "2026-11-01T15:19:38.476615+00:00",
+      "command": [
+        "/tmp/knuth-vol4b-symcost-2gq7lsj5/symmetric-word-costs",
+        "audit-2026-10-31/sources/wordlists/words4-from-OSPD4"
+      ],
+      "status": "verified",
+      "pid": 692003,
+      "returncode": 0,
+      "finished_at_utc": "2026-11-01T15:19:38.896294+00:00",
+      "elapsed_seconds": 0.417934149998473
+    },
+    {
+      "dictionary": "sources/wordlists/words5-from-OSPD4",
+      "dictionary_sha256": "91c385fad197fdb0358fae52ad195f82a3d52e74573f5e7fb8c811d84ab7b60c",
+      "started_at_utc": "2026-11-01T15:19:38.899088+00:00",
+      "command": [
+        "/tmp/knuth-vol4b-symcost-2gq7lsj5/symmetric-word-costs",
+        "audit-2026-10-31/sources/wordlists/words5-from-OSPD4"
+      ],
+      "status": "verified",
+      "pid": 692004,
+      "returncode": 0,
+      "finished_at_utc": "2026-11-01T15:19:42.481418+00:00",
+      "elapsed_seconds": 3.5793552140239626
+    },
+    {
+      "dictionary": "sources/wordlists/words6-from-OSPD4",
+      "dictionary_sha256": "a1cd9eceab7eaabe9470f470fb6b26b042b9fe80a7e04c03ae2307dec0b01af8",
+      "started_at_utc": "2026-11-01T15:19:42.485701+00:00",
+      "command": [
+        "/tmp/knuth-vol4b-symcost-2gq7lsj5/symmetric-word-costs",
+        "audit-2026-10-31/sources/wordlists/words6-from-OSPD4"
+      ],
+      "status": "verified",
+      "pid": 692005,
+      "returncode": 0,
+      "finished_at_utc": "2026-11-01T15:19:54.795225+00:00",
+      "elapsed_seconds": 12.306655546999536
+    },
+    {
+      "dictionary": "sources/wordlists/words7-from-OSPD4",
+      "dictionary_sha256": "ec2a726a6fc037a7c3880883370c9aeab63d6946ca0ca0957648059c14d6a366",
+      "started_at_utc": "2026-11-01T15:19:54.798603+00:00",
+      "command": [
+        "/tmp/knuth-vol4b-symcost-2gq7lsj5/symmetric-word-costs",
+        "audit-2026-10-31/sources/wordlists/words7-from-OSPD4"
+      ],
+      "status": "verified",
+      "pid": 692017,
+      "returncode": 0,
+      "finished_at_utc": "2026-11-01T15:20:20.187334+00:00",
+      "elapsed_seconds": 25.386148676014272
+    },
+    {
+      "dictionary": "sources/wordlists/words8-from-OSPD4",
+      "dictionary_sha256": "24bc6de1b941f6bcdb045b0ce7c7d0276b9622ee715a8f1730556b8b1ab855ad",
+      "started_at_utc": "2026-11-01T15:20:20.191841+00:00",
+      "command": [
+        "/tmp/knuth-vol4b-symcost-2gq7lsj5/symmetric-word-costs",
+        "audit-2026-10-31/sources/wordlists/words8-from-OSPD4"
+      ],
+      "status": "verified",
+      "pid": 692091,
+      "returncode": 0,
+      "finished_at_utc": "2026-11-01T15:20:45.677393+00:00",
+      "elapsed_seconds": 25.483599447994493
+    },
+    {
+      "dictionary": "sources/wordlists/words9-from-OSPD4",
+      "dictionary_sha256": "230f0f2bda8a5858e038b081b7818570a920d13e7bfd1b5b34a7c4ff1c55a4e9",
+      "started_at_utc": "2026-11-01T15:20:45.683433+00:00",
+      "command": [
+        "/tmp/knuth-vol4b-symcost-2gq7lsj5/symmetric-word-costs",
+        "audit-2026-10-31/sources/wordlists/words9-from-OSPD4"
+      ],
+      "status": "verified",
+      "pid": 692133,
+      "returncode": 0,
+      "finished_at_utc": "2026-11-01T15:20:58.548840+00:00",
+      "elapsed_seconds": 12.862261450005462
+    },
+    {
+      "dictionary": "sources/wordlists/words10-from-OSPD4",
+      "dictionary_sha256": "ced14cf16bd04ba47857f17249e9893f757371004490fc8715f094fc6d8e8684",
+      "started_at_utc": "2026-11-01T15:20:58.554657+00:00",
+      "command": [
+        "/tmp/knuth-vol4b-symcost-2gq7lsj5/symmetric-word-costs",
+        "audit-2026-10-31/sources/wordlists/words10-from-OSPD4"
+      ],
+      "status": "verified",
+      "pid": 692213,
+      "returncode": 0,
+      "finished_at_utc": "2026-11-01T15:21:01.435856+00:00",
+      "elapsed_seconds": 2.87799324298976
+    },
+    {
+      "dictionary": "sources/wordlists/words11-from-OSPD4",
+      "dictionary_sha256": "faec8fc650da7db5f6e649645e696fb53e93d65e4f44b14bca41026b8392d856",
+      "started_at_utc": "2026-11-01T15:21:01.443232+00:00",
+      "command": [
+        "/tmp/knuth-vol4b-symcost-2gq7lsj5/symmetric-word-costs",
+        "audit-2026-10-31/sources/wordlists/words11-from-OSPD4"
+      ],
+      "status": "verified",
+      "pid": 692217,
+      "returncode": 0,
+      "finished_at_utc": "2026-11-01T15:21:02.315686+00:00",
+      "elapsed_seconds": 0.8694134469842538
+    },
+    {
+      "dictionary": "sources/wordlists/words12-from-OSPD4",
+      "dictionary_sha256": "c4cac126c50d912e0ac0b3a66b35bc70acf4ed00f35e52c98a3ccb8f743b0b44",
+      "started_at_utc": "2026-11-01T15:21:02.321305+00:00",
+      "command": [
+        "/tmp/knuth-vol4b-symcost-2gq7lsj5/symmetric-word-costs",
+        "audit-2026-10-31/sources/wordlists/words12-from-OSPD4"
+      ],
+      "status": "verified",
+      "pid": 692219,
+      "returncode": 0,
+      "finished_at_utc": "2026-11-01T15:21:02.695081+00:00",
+      "elapsed_seconds": 0.3706997339904774
+    }
+  ],
+  "binary_sha256": "9ee87f1f220017acc7a29f7877e1daa2dd5e05e0467a61705fc5b574da403d49",
+  "small_checks_passed": 123,
+  "finished_at_utc": "2026-11-01T15:21:02.702717+00:00"
+}

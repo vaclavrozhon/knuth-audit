@@ -1,0 +1,625 @@
+{
+  "candidate_blocks": 104,
+  "allowed_blocks": 92,
+  "forbidden": [
+    {
+      "corner": "Ab",
+      "center": "DNb",
+      "neighbor_counts_W_E_N_S": [
+        0,
+        1,
+        3,
+        10
+      ]
+    },
+    {
+      "corner": "Ab",
+      "center": "DNd",
+      "neighbor_counts_W_E_N_S": [
+        0,
+        1,
+        3,
+        10
+      ]
+    },
+    {
+      "corner": "Ab",
+      "center": "DNc",
+      "neighbor_counts_W_E_N_S": [
+        0,
+        1,
+        3,
+        10
+      ]
+    },
+    {
+      "corner": "Ab",
+      "center": "DL",
+      "neighbor_counts_W_E_N_S": [
+        0,
+        1,
+        11,
+        10
+      ]
+    },
+    {
+      "corner": "Ab",
+      "center": "DLU",
+      "neighbor_counts_W_E_N_S": [
+        0,
+        1,
+        9,
+        6
+      ]
+    },
+    {
+      "corner": "Ab",
+      "center": "DLD",
+      "neighbor_counts_W_E_N_S": [
+        0,
+        1,
+        6,
+        9
+      ]
+    },
+    {
+      "corner": "Ab",
+      "center": "DLQ",
+      "neighbor_counts_W_E_N_S": [
+        0,
+        1,
+        10,
+        10
+      ]
+    },
+    {
+      "corner": "Ac",
+      "center": "DLU",
+      "neighbor_counts_W_E_N_S": [
+        7,
+        5,
+        0,
+        1
+      ]
+    },
+    {
+      "corner": "Ac",
+      "center": "DPU",
+      "neighbor_counts_W_E_N_S": [
+        8,
+        8,
+        0,
+        1
+      ]
+    },
+    {
+      "corner": "Ac",
+      "center": "DSU",
+      "neighbor_counts_W_E_N_S": [
+        5,
+        5,
+        0,
+        1
+      ]
+    },
+    {
+      "corner": "Ac",
+      "center": "DTU",
+      "neighbor_counts_W_E_N_S": [
+        8,
+        8,
+        0,
+        1
+      ]
+    },
+    {
+      "corner": "Ac",
+      "center": "DRU",
+      "neighbor_counts_W_E_N_S": [
+        5,
+        7,
+        0,
+        1
+      ]
+    }
+  ],
+  "edge_equivalence_checks": 16928,
+  "all_seeds_inflated": [
+    {
+      "seed": "Aa",
+      "side": 31
+    },
+    {
+      "seed": "Ab",
+      "side": 31
+    },
+    {
+      "seed": "Ac",
+      "side": 31
+    },
+    {
+      "seed": "Ad",
+      "side": 31
+    },
+    {
+      "seed": "BYP",
+      "side": 31
+    },
+    {
+      "seed": "BYT",
+      "side": 31
+    },
+    {
+      "seed": "BYUP",
+      "side": 31
+    },
+    {
+      "seed": "BYUT",
+      "side": 31
+    },
+    {
+      "seed": "BYQP",
+      "side": 31
+    },
+    {
+      "seed": "BYQT",
+      "side": 31
+    },
+    {
+      "seed": "BP",
+      "side": 31
+    },
+    {
+      "seed": "BS",
+      "side": 31
+    },
+    {
+      "seed": "BT",
+      "side": 31
+    },
+    {
+      "seed": "BUP",
+      "side": 31
+    },
+    {
+      "seed": "BUS",
+      "side": 31
+    },
+    {
+      "seed": "BUT",
+      "side": 31
+    },
+    {
+      "seed": "BDP",
+      "side": 31
+    },
+    {
+      "seed": "BDS",
+      "side": 31
+    },
+    {
+      "seed": "BDT",
+      "side": 31
+    },
+    {
+      "seed": "BQP",
+      "side": 31
+    },
+    {
+      "seed": "BQS",
+      "side": 31
+    },
+    {
+      "seed": "BQT",
+      "side": 31
+    },
+    {
+      "seed": "BK",
+      "side": 31
+    },
+    {
+      "seed": "BKU",
+      "side": 31
+    },
+    {
+      "seed": "BKQ",
+      "side": 31
+    },
+    {
+      "seed": "CXL",
+      "side": 31
+    },
+    {
+      "seed": "CXLQ",
+      "side": 31
+    },
+    {
+      "seed": "CXP",
+      "side": 31
+    },
+    {
+      "seed": "CXPQ",
+      "side": 31
+    },
+    {
+      "seed": "CXS",
+      "side": 31
+    },
+    {
+      "seed": "CXSQ",
+      "side": 31
+    },
+    {
+      "seed": "CXT",
+      "side": 31
+    },
+    {
+      "seed": "CXTQ",
+      "side": 31
+    },
+    {
+      "seed": "CL",
+      "side": 31
+    },
+    {
+      "seed": "CLQ",
+      "side": 31
+    },
+    {
+      "seed": "CP",
+      "side": 31
+    },
+    {
+      "seed": "CPQ",
+      "side": 31
+    },
+    {
+      "seed": "CS",
+      "side": 31
+    },
+    {
+      "seed": "CSQ",
+      "side": 31
+    },
+    {
+      "seed": "CT",
+      "side": 31
+    },
+    {
+      "seed": "CTQ",
+      "side": 31
+    },
+    {
+      "seed": "CR",
+      "side": 31
+    },
+    {
+      "seed": "CRQ",
+      "side": 31
+    },
+    {
+      "seed": "CJL",
+      "side": 31
+    },
+    {
+      "seed": "CJP",
+      "side": 31
+    },
+    {
+      "seed": "CJS",
+      "side": 31
+    },
+    {
+      "seed": "CJT",
+      "side": 31
+    },
+    {
+      "seed": "DXL",
+      "side": 31
+    },
+    {
+      "seed": "DXLQ",
+      "side": 31
+    },
+    {
+      "seed": "DXP",
+      "side": 31
+    },
+    {
+      "seed": "DXPQ",
+      "side": 31
+    },
+    {
+      "seed": "DXS",
+      "side": 31
+    },
+    {
+      "seed": "DXSQ",
+      "side": 31
+    },
+    {
+      "seed": "DXT",
+      "side": 31
+    },
+    {
+      "seed": "DXTQ",
+      "side": 31
+    },
+    {
+      "seed": "DYP",
+      "side": 31
+    },
+    {
+      "seed": "DYT",
+      "side": 31
+    },
+    {
+      "seed": "DYUP",
+      "side": 31
+    },
+    {
+      "seed": "DYUT",
+      "side": 31
+    },
+    {
+      "seed": "DYQP",
+      "side": 31
+    },
+    {
+      "seed": "DYQT",
+      "side": 31
+    },
+    {
+      "seed": "DNa",
+      "side": 31
+    },
+    {
+      "seed": "DNb",
+      "side": 31
+    },
+    {
+      "seed": "DNc",
+      "side": 31
+    },
+    {
+      "seed": "DNd",
+      "side": 31
+    },
+    {
+      "seed": "DJL",
+      "side": 31
+    },
+    {
+      "seed": "DJP",
+      "side": 31
+    },
+    {
+      "seed": "DJS",
+      "side": 31
+    },
+    {
+      "seed": "DJT",
+      "side": 31
+    },
+    {
+      "seed": "DK",
+      "side": 31
+    },
+    {
+      "seed": "DKU",
+      "side": 31
+    },
+    {
+      "seed": "DKQ",
+      "side": 31
+    },
+    {
+      "seed": "DR",
+      "side": 31
+    },
+    {
+      "seed": "DRU",
+      "side": 31
+    },
+    {
+      "seed": "DRD",
+      "side": 31
+    },
+    {
+      "seed": "DRQ",
+      "side": 31
+    },
+    {
+      "seed": "DL",
+      "side": 31
+    },
+    {
+      "seed": "DLU",
+      "side": 31
+    },
+    {
+      "seed": "DLD",
+      "side": 31
+    },
+    {
+      "seed": "DLQ",
+      "side": 31
+    },
+    {
+      "seed": "DP",
+      "side": 31
+    },
+    {
+      "seed": "DPU",
+      "side": 31
+    },
+    {
+      "seed": "DPD",
+      "side": 31
+    },
+    {
+      "seed": "DPQ",
+      "side": 31
+    },
+    {
+      "seed": "DS",
+      "side": 31
+    },
+    {
+      "seed": "DSU",
+      "side": 31
+    },
+    {
+      "seed": "DSD",
+      "side": 31
+    },
+    {
+      "seed": "DSQ",
+      "side": 31
+    },
+    {
+      "seed": "DT",
+      "side": 31
+    },
+    {
+      "seed": "DTU",
+      "side": 31
+    },
+    {
+      "seed": "DTD",
+      "side": 31
+    },
+    {
+      "seed": "DTQ",
+      "side": 31
+    }
+  ],
+  "largest_square": 255,
+  "W23_counts": {
+    "0": 1,
+    "1": 2,
+    "2": 4,
+    "3": 6,
+    "4": 10,
+    "5": 14,
+    "6": 20,
+    "7": 16,
+    "8": 6,
+    "9": 0
+  },
+  "W23_length8": [
+    "00110011",
+    "01011010",
+    "01100110",
+    "10011001",
+    "10100101",
+    "11001100"
+  ],
+  "main_example_decisions": {
+    "six": [
+      true,
+      6
+    ],
+    "three": [
+      false,
+      3
+    ]
+  },
+  "corrected_figure_valid": true,
+  "closed_inflation_alphabet": [
+    "Aa",
+    "Ab",
+    "Ac",
+    "Ad",
+    "BDP",
+    "BDS",
+    "BDT",
+    "BK",
+    "BKQ",
+    "BKU",
+    "BP",
+    "BQP",
+    "BQS",
+    "BQT",
+    "BS",
+    "BT",
+    "BUP",
+    "BUT",
+    "BYP",
+    "BYQP",
+    "BYQT",
+    "BYT",
+    "BYUP",
+    "BYUT",
+    "CJL",
+    "CJP",
+    "CJS",
+    "CJT",
+    "CL",
+    "CLQ",
+    "CP",
+    "CPQ",
+    "CR",
+    "CRQ",
+    "CS",
+    "CSQ",
+    "CT",
+    "CTQ",
+    "CXL",
+    "CXLQ",
+    "CXP",
+    "CXPQ",
+    "CXS",
+    "CXSQ",
+    "CXT",
+    "CXTQ",
+    "DJL",
+    "DJP",
+    "DJS",
+    "DJT",
+    "DK",
+    "DKQ",
+    "DKU",
+    "DL",
+    "DLQ",
+    "DNa",
+    "DNb",
+    "DNc",
+    "DNd",
+    "DP",
+    "DPD",
+    "DPQ",
+    "DPU",
+    "DR",
+    "DRQ",
+    "DS",
+    "DSD",
+    "DSQ",
+    "DT",
+    "DTD",
+    "DTQ",
+    "DTU",
+    "DXL",
+    "DXLQ",
+    "DXP",
+    "DXPQ",
+    "DXS",
+    "DXSQ",
+    "DXT",
+    "DXTQ",
+    "DYP",
+    "DYQP",
+    "DYQT",
+    "DYT",
+    "DYUP",
+    "DYUT"
+  ],
+  "six_omittable": [
+    "BUS",
+    "DLD",
+    "DLU",
+    "DRD",
+    "DRU",
+    "DSU"
+  ]
+}

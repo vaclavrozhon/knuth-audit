@@ -1,0 +1,9 @@
+{
+  "exercise": "MPR 50",
+  "nonzero_mean_joint_tables": 6642,
+  "zero_mean_cases": 6,
+  "zero_marginal_terms_omitted": 258,
+  "scope": "All nonzero joint tables on 1,2,3 binary variables with unnormalized cell weights in {0,1,2}. No independence assumption.",
+  "arithmetic": "Exact fractions; identity, conditional bound, second moment identity and comparison with the second moment bound all pass.",
+  "findings": "No discrepancy; conditioning on null events must be omitted, as usual."
+}

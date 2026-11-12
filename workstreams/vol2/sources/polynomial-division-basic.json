@@ -1,0 +1,283 @@
+{
+  "accessed_utc": "2026-11-03T23:40:58.195667+00:00",
+  "scope": "Algebra 420–427 and exercises 1–10; inventory 27 exercises verified through 439. Remaining section open.",
+  "book": {
+    "edition": 3,
+    "printing": 1,
+    "year": 1997,
+    "printed_pages_visually_read_for_this_scope": [
+      420,
+      421,
+      422,
+      423,
+      424,
+      425,
+      426,
+      427,
+      435,
+      436,
+      437,
+      438,
+      439,
+      672,
+      673
+    ],
+    "file_page_offset": 12
+  },
+  "findings": [
+    {
+      "id": "V2-C0188",
+      "status": "confirmed"
+    },
+    {
+      "id": "V2-C0189",
+      "status": "confirmed"
+    },
+    {
+      "id": "V2-C0190",
+      "status": "candidate"
+    },
+    {
+      "id": "V2-C0191",
+      "status": "confirmed"
+    },
+    {
+      "id": "V2-C0192",
+      "status": "confirmed"
+    }
+  ],
+  "verification": {
+    "result_file": "results/polynomial-division.json",
+    "successful_block_seconds": 1.1056457419181243,
+    "pseudo_cases": 1280,
+    "integer_gcd_cases": 160,
+    "monic_pairs": 13678,
+    "exact_degree_cases": 12810,
+    "reverse_divisions": 100,
+    "processes": [
+      {
+        "label": "polynomial-division",
+        "pid": 1321204,
+        "command": "timeout 180 python3 workstreams/vol2/verify_polynomial_division.py",
+        "time_limit_seconds": 180,
+        "started_at_utc": "2026-11-03T23:31:33.852585+00:00",
+        "log": "results/polynomial-division.log",
+        "status": "failed",
+        "exit_code": 1,
+        "finished_at_utc": "2026-11-03T23:31:34.261844+00:00"
+      },
+      {
+        "label": "polynomial-division-resume",
+        "pid": 1321264,
+        "command": "timeout 180 python3 workstreams/vol2/verify_polynomial_division.py --resume",
+        "time_limit_seconds": 180,
+        "started_at_utc": "2026-11-03T23:32:23.571540+00:00",
+        "log": "results/polynomial-division-resume.log",
+        "status": "passed",
+        "reason": "Prior printed-example block exposed incorrect coefficient 2*x^2 in book answer 2; corrected oracle to 3*x^2 and added explicit wrong-answer remainder. Core checkpoint reused.",
+        "exit_code": 0,
+        "finished_at_utc": "2026-11-03T23:32:24.536877+00:00"
+      }
+    ],
+    "failure_explanation": "First run found wrong printed gcd coefficient, not a crash in core algorithm. Resume reused successful core; fixed expected gcd and added exact rejection witness."
+  },
+  "errata": {
+    "layers": [
+      "all2-prepre",
+      "all2-pre",
+      "all2",
+      "err2",
+      "err2.textxt"
+    ],
+    "search_log": "sources/polynomial-division-basic-errata.txt",
+    "known_relevant": "2024-08-17 Lemma H, u -> u(x); 2022-12-08 answer12 is for a later block. No matching correction for C0188–C0192 located."
+  },
+  "external_sources": [
+    {
+      "url": "https://epubs.siam.org/doi/abs/10.1137/0218042?journalCode=smjcat",
+      "scope": "Publisher bibliographic record; Norton SICOMP18(1989),608–624; full paper not read"
+    },
+    {
+      "url": "https://cosec.bit.uni-bonn.de/fileadmin/user_upload/publications/pubs/magat90.pdf",
+      "scope": "Author-hosted scan; printed429–431/PDF1–3 visually read, original journal citation, introduction and ordinary division costs; not all27pages."
+    }
+  ],
+  "limitations": "Latest physical printing and priority unverified. C0190 explicitly remains interpretive candidate. Whole section and historical claims not closed. No reports sent.",
+  "artifacts": [
+    {
+      "path": "notes/polynomial-division-basic.md",
+      "bytes": 18816,
+      "sha256": "f158d55d8796b99ff0a65fc0184d96a61fd486c1cb643229cca7697c66445d00"
+    },
+    {
+      "path": "verify_polynomial_division.py",
+      "bytes": 10936,
+      "sha256": "132f43f416edaf1d24d0e9a41fdb959efa53a81337b485b28c832d7912ad911d"
+    },
+    {
+      "path": "results/polynomial-division.json",
+      "bytes": 11012,
+      "sha256": "30fe47393a1eafa55d07616fd023fac35fb25310dd4b91a3c064376783fe800f"
+    },
+    {
+      "path": "results/polynomial-division.log",
+      "bytes": 542,
+      "sha256": "725c1ca54b1fc338c732e243f71cfcae69f5a8236d3bad014b52296b618e66d3"
+    },
+    {
+      "path": "results/polynomial-division-resume.log",
+      "bytes": 133,
+      "sha256": "932fdfbcd0d4977f3e8ff9b3d7fd082ef12cd09721c751372b369967a0dd8fd5"
+    },
+    {
+      "path": "sources/polynomial-division-basic-errata.txt",
+      "bytes": 8019,
+      "sha256": "02e09b6a9e6dc246ee50cb4715d126a0aa100d37756ca46b731433ed46ff724f"
+    },
+    {
+      "path": "sources/ma-gathen-1990.pdf",
+      "bytes": 4937360,
+      "sha256": "205bef0132612ddb2fff3a4a8de9c882489fee464fe67ab3f7af10400b7d369a"
+    },
+    {
+      "path": "sources/polynomial-division-downloads.json",
+      "bytes": 334,
+      "sha256": "b7ec0ae758465852f1c1ac710c3175245efa2069bc46d7d4c17563f47bce6541"
+    },
+    {
+      "path": "images/vol2-p420.png",
+      "bytes": 595654,
+      "sha256": "67a1e8ec4b77dcdfd835d24649be752f7223b6fd3f6f62103f391fb6933d1d26"
+    },
+    {
+      "path": "images/vol2-p421.png",
+      "bytes": 567211,
+      "sha256": "e82262045f6b8f8203603bdcca644daf3a56a57ad7c764c415bde55e062bbf38"
+    },
+    {
+      "path": "images/vol2-p422.png",
+      "bytes": 705929,
+      "sha256": "ba4ee32dbf35e151e5b8d265b13aa82c839e7dfb4d5bf97d4d431dd6c9069bd7"
+    },
+    {
+      "path": "images/vol2-p423.png",
+      "bytes": 644988,
+      "sha256": "10f3494e9a31ae6e42061fe74412fb4afde3463c3428d9705b2114614588ed45"
+    },
+    {
+      "path": "images/vol2-p424.png",
+      "bytes": 530197,
+      "sha256": "2688ed91fc6fdada759b3907afe607e25eed7bb7566cd7addc884226f9cd439b"
+    },
+    {
+      "path": "images/vol2-p425.png",
+      "bytes": 579315,
+      "sha256": "10ac3d681a873f1dd6ac94f536be169ce9f9ee428adff671c92f277c1a1c4209"
+    },
+    {
+      "path": "images/vol2-p426.png",
+      "bytes": 681098,
+      "sha256": "525a722453bfaac0e1a94c8e9d5e8e00900573073ab6ed5e4c1fd69c0f1c021f"
+    },
+    {
+      "path": "images/vol2-p427.png",
+      "bytes": 361978,
+      "sha256": "e6357a7dedd5391ca18181233c289c2560e095da37dc47961d006eeacd0de5bc"
+    },
+    {
+      "path": "images/vol2-p435.png",
+      "bytes": 659156,
+      "sha256": "7908dce4c58af6693f63e98be476ebfab5f5d3dccaa1910f328d46cf9dfc19f8"
+    },
+    {
+      "path": "images/vol2-p436.png",
+      "bytes": 742587,
+      "sha256": "f8055ffac81d355f0c0bd242e6a67e43767874efea6f3e7b99a264892c91bb7a"
+    },
+    {
+      "path": "images/vol2-p437.png",
+      "bytes": 707067,
+      "sha256": "afbe30e7e6c156db8e179b43e22ea77b6fbe7f069aba795bb44839a451f7357f"
+    },
+    {
+      "path": "images/vol2-p438.png",
+      "bytes": 663784,
+      "sha256": "6d6438df99f6dd031082feda4716af8c5c46c5fc35dae9e87667ac301745dda4"
+    },
+    {
+      "path": "images/vol2-p439.png",
+      "bytes": 565998,
+      "sha256": "22a71a3c7946c3bdb34ec7bb52736da9c61ded708ba47e1254c2cdab2aa345d4"
+    },
+    {
+      "path": "images/vol2-p672.png",
+      "bytes": 684040,
+      "sha256": "95910f608343941b2bc2ccbc666b13aae80f203ea47c0ef79eb218df29914d5d"
+    },
+    {
+      "path": "images/vol2-p673.png",
+      "bytes": 743132,
+      "sha256": "db5e2c89ff75577fa9ce60095e6a4cb061839436d7cb4b5d7a9737a1011921d9"
+    },
+    {
+      "path": "images/ma-gathen-1990-01.png",
+      "bytes": 1036251,
+      "sha256": "b34975dc6bcec71c5d592b8f462ed1d1549913926f65b08cac76198acc8415a0"
+    },
+    {
+      "path": "images/ma-gathen-1990-02.png",
+      "bytes": 1231396,
+      "sha256": "49eb6ff79db1da04a71a796232445e70c7a694c2910da08e54f78ed9b3d6e051"
+    },
+    {
+      "path": "images/ma-gathen-1990-03.png",
+      "bytes": 918826,
+      "sha256": "0bab563619661113cc3d75f8af396b8a85c9c7c581210bada521ca7c15d4c610"
+    },
+    {
+      "path": "notes/C0188-irreducible-constant.md",
+      "bytes": 1948,
+      "sha256": "b1c5afbfd126cf6d0502fe3635074a0e454c9eb4e63361fbf85b73b58a75215f"
+    },
+    {
+      "path": "reports/C0188-irreducible-constant-draft.txt",
+      "bytes": 741,
+      "sha256": "397f09893c3f082ce5763f65223e60bbe1abf106cdc3fae853f3e0baab813cd7"
+    },
+    {
+      "path": "notes/C0189-bezout-divisible.md",
+      "bytes": 1578,
+      "sha256": "e1a8f469c9151779659e5f5513e17533ca7ab9c08ad9ef120eba425d4955c1df"
+    },
+    {
+      "path": "reports/C0189-bezout-divisible-draft.txt",
+      "bytes": 496,
+      "sha256": "3fd543468088505d3c50b71541a4dff6335cb97dff5387a261bf1f19c7792ad1"
+    },
+    {
+      "path": "notes/C0190-reverse-division-shift.md",
+      "bytes": 1781,
+      "sha256": "fd66318f43881c72f02dfa9a8fa066c3df9dee47e0ceb4a61428fc4d98dfc58e"
+    },
+    {
+      "path": "notes/C0191-remainder-degree-index.md",
+      "bytes": 1553,
+      "sha256": "6ae7e2259ab0abc463419f81d2327aa051469daf812670e2ee5b19777d66d402"
+    },
+    {
+      "path": "reports/C0191-remainder-degree-index-draft.txt",
+      "bytes": 562,
+      "sha256": "6c0dd7920cbbc78b1731b63fb181d0ff60b859228df6b696a843208b5e06c311"
+    },
+    {
+      "path": "notes/C0192-polynomial-gcd-coefficient.md",
+      "bytes": 1480,
+      "sha256": "99c883ed2308edafb4c15af8d076b1003a51e0c3f6d5e93563894cd767d0a15f"
+    },
+    {
+      "path": "reports/C0192-polynomial-gcd-coefficient-draft.txt",
+      "bytes": 611,
+      "sha256": "55d480392ddd3da36bc9cb6c5106e5d6762f99fc3266f0db21a2e06dc8265151"
+    }
+  ]
+}

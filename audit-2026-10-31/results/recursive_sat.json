@@ -1,0 +1,136 @@
+{
+  "exhaustive_formulas_by_variables": {
+    "1": 8,
+    "2": 512,
+    "3": 20854
+  },
+  "n3_scope": "all formulas with at most four distinct clauses, including the empty clause",
+  "random_3_to_6SAT_cases": 2000,
+  "checked_states": {
+    "R1_states": 45200,
+    "fallback_states": 484
+  },
+  "general_recurrence_formula_checks": 1481,
+  "F024_witnesses": [
+    {
+      "cycles": 0,
+      "variables": 2,
+      "clauses": 4,
+      "R1": 4,
+      "R2": 3,
+      "R3": 1
+    },
+    {
+      "cycles": 1,
+      "variables": 5,
+      "clauses": 7,
+      "R1": 12,
+      "R2": 11,
+      "R3": 3
+    },
+    {
+      "cycles": 2,
+      "variables": 8,
+      "clauses": 10,
+      "R1": 28,
+      "R2": 27,
+      "R3": 7
+    },
+    {
+      "cycles": 3,
+      "variables": 11,
+      "clauses": 13,
+      "R1": 60,
+      "R2": 59,
+      "R3": 15
+    },
+    {
+      "cycles": 4,
+      "variables": 14,
+      "clauses": 16,
+      "R1": 124,
+      "R2": 123,
+      "R3": 31
+    },
+    {
+      "cycles": 5,
+      "variables": 17,
+      "clauses": 19,
+      "R1": 252,
+      "R2": 251,
+      "R3": 63
+    },
+    {
+      "cycles": 6,
+      "variables": 20,
+      "clauses": 22,
+      "R1": 508,
+      "R2": 507,
+      "R3": 127
+    },
+    {
+      "cycles": 7,
+      "variables": 23,
+      "clauses": 25,
+      "R1": 1020,
+      "R2": 1019,
+      "R3": 255
+    },
+    {
+      "cycles": 8,
+      "variables": 26,
+      "clauses": 28,
+      "R1": 2044,
+      "R2": 2043,
+      "R3": 511
+    },
+    {
+      "cycles": 9,
+      "variables": 29,
+      "clauses": 31,
+      "R1": 4092,
+      "R2": 4091,
+      "R3": 1023
+    },
+    {
+      "cycles": 10,
+      "variables": 32,
+      "clauses": 34,
+      "R1": 8188,
+      "R2": 8187,
+      "R3": 2047
+    }
+  ],
+  "F024_formula": "For m disjoint implication 3-cycles followed by an unsatisfiable 2-variable core, R2 visits = 8*2^m-5 with n=3m+2. Thus Algorithm R itself does not have a linear 2SAT step bound.",
+  "F024_small_formula": [
+    [
+      -1,
+      2
+    ],
+    [
+      -2,
+      3
+    ],
+    [
+      -3,
+      1
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      -5
+    ],
+    [
+      -4,
+      5
+    ],
+    [
+      -4,
+      -5
+    ]
+  ],
+  "scope": "Truth-table oracle validates SAT result; actual step counts validate recurrence states for k>=3. Exponential 2SAT family uses a specific permitted minimum-clause and literal ordering; no preprocessing is added."
+}

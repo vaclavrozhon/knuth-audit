@@ -1,0 +1,190 @@
+{
+  "scope": "Finite termination certificates plus independent subset sums; general proofs in notes/generalized-bases.md.",
+  "examples": [
+    {
+      "period": [
+        7,
+        -13
+      ],
+      "group_modulus": 4,
+      "offsets": [
+        0,
+        5,
+        7,
+        -1
+      ],
+      "affine_error_bounds": [
+        "-7/4",
+        "13/2"
+      ],
+      "invariant_interval": [
+        -2,
+        8
+      ],
+      "paths": {
+        "-2": [
+          -2,
+          6,
+          8,
+          2,
+          7,
+          0
+        ],
+        "-1": [
+          -1,
+          -2,
+          6,
+          8,
+          2,
+          7,
+          0
+        ],
+        "0": [
+          0
+        ],
+        "1": [
+          1,
+          5,
+          6,
+          8,
+          2,
+          7,
+          0
+        ],
+        "2": [
+          2,
+          7,
+          0
+        ],
+        "3": [
+          3,
+          -1,
+          -2,
+          6,
+          8,
+          2,
+          7,
+          0
+        ],
+        "4": [
+          4,
+          1,
+          5,
+          6,
+          8,
+          2,
+          7,
+          0
+        ],
+        "5": [
+          5,
+          6,
+          8,
+          2,
+          7,
+          0
+        ],
+        "6": [
+          6,
+          8,
+          2,
+          7,
+          0
+        ],
+        "7": [
+          7,
+          0
+        ],
+        "8": [
+          8,
+          2,
+          7,
+          0
+        ]
+      },
+      "group_translation_checks": 804,
+      "integer_reconstructions": 20001,
+      "max_reconstruction_length": 27,
+      "distinct_subset_sums_and_recoveries": 16384
+    },
+    {
+      "period": [
+        5,
+        -3,
+        3
+      ],
+      "group_modulus": 8,
+      "offsets": [
+        0,
+        -2,
+        1,
+        -1,
+        -1,
+        0,
+        0,
+        1
+      ],
+      "affine_error_bounds": [
+        "-17/8",
+        "3/4"
+      ],
+      "invariant_interval": [
+        -2,
+        2
+      ],
+      "paths": {
+        "-2": [
+          -2,
+          -1,
+          0
+        ],
+        "-1": [
+          -1,
+          0
+        ],
+        "0": [
+          0
+        ],
+        "1": [
+          1,
+          -2,
+          -1,
+          0
+        ],
+        "2": [
+          2,
+          1,
+          -2,
+          -1,
+          0
+        ]
+      },
+      "group_translation_checks": 1608,
+      "integer_reconstructions": 20001,
+      "max_reconstruction_length": 23,
+      "distinct_subset_sums_and_recoveries": 16384
+    }
+  ],
+  "printed_one": {
+    "exponents": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      9,
+      10
+    ],
+    "terms": [
+      7,
+      -26,
+      28,
+      -104,
+      -416,
+      -6656,
+      7168
+    ],
+    "sum": 1
+  },
+  "status": "passed"
+}

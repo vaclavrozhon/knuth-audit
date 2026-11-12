@@ -1,0 +1,166 @@
+{
+  "penk": {
+    "status": "passed",
+    "seconds": 23.148309846990742,
+    "result": {
+      "input_pairs": 65786,
+      "counts": {
+        "zero_first_coefficient_corrections": 56101,
+        "adjusted_halves": 373400,
+        "even_coeff_halves": 309927
+      },
+      "known_1998_failure": {
+        "input": [
+          3,
+          1
+        ],
+        "stage": "Y6",
+        "offending": [
+          0,
+          2,
+          2
+        ]
+      }
+    }
+  },
+  "kung": {
+    "status": "passed",
+    "seconds": 13.481621240993263,
+    "result": {
+      "signed_input_pairs": 8506,
+      "first_family_cases": 299,
+      "recurrence_direct_runs": 103,
+      "recurrence_prefixes": 20000,
+      "empirical_ratios": [
+        {
+          "j": 10,
+          "bits": 19,
+          "log2_max_over_j": 1.8206914193117978
+        },
+        {
+          "j": 100,
+          "bits": 166,
+          "log2_max_over_j": 1.655216332302896
+        },
+        {
+          "j": 1000,
+          "bits": 1615,
+          "log2_max_over_j": 1.6145202371241025
+        },
+        {
+          "j": 10000,
+          "bits": 16216,
+          "log2_max_over_j": 1.6215491718962318
+        },
+        {
+          "j": 20000,
+          "bits": 32367,
+          "log2_max_over_j": 1.6183211197789487
+        }
+      ],
+      "phi": 1.618033988749895,
+      "small_trace": [
+        {
+          "u": 1,
+          "v": 11,
+          "c": 0,
+          "s": 0,
+          "K2": 1
+        },
+        {
+          "u": 1,
+          "v": 6,
+          "c": 0,
+          "s": 0,
+          "K2": 2
+        },
+        {
+          "u": 3,
+          "v": 2,
+          "c": -1,
+          "s": 1,
+          "K2": 3
+        },
+        {
+          "u": 3,
+          "v": 2,
+          "c": 0,
+          "s": 2,
+          "K2": 4
+        },
+        {
+          "u": 1,
+          "v": 2,
+          "c": -1,
+          "s": 3,
+          "K2": 5
+        },
+        {
+          "u": 1,
+          "v": 0,
+          "c": 0,
+          "s": 4,
+          "K2": 6
+        }
+      ]
+    }
+  },
+  "gosper": {
+    "status": "passed",
+    "seconds": 15.45766822900623,
+    "result": {
+      "input_pairs": 65856,
+      "word_bits": [
+        2,
+        3,
+        4,
+        8
+      ],
+      "counts": {
+        "halve_v": 160606,
+        "uncertain_sign_stops": 119575,
+        "batches": 261847,
+        "full_word_batches": 85055,
+        "subtract_v": 140290,
+        "coefficient_stops": 83664,
+        "halve_u": 160625,
+        "subtract_u": 140382,
+        "fallbacks": 26447
+      },
+      "guard_example": {
+        "u": 463,
+        "v": 65,
+        "W": 8,
+        "matrix": [
+          [
+            1,
+            -7
+          ],
+          [
+            0,
+            8
+          ]
+        ]
+      }
+    }
+  },
+  "arithmetic": {
+    "status": "passed",
+    "seconds": 3.9704489180003293,
+    "result": {
+      "repunit_pairs": 7623,
+      "bases": [
+        1,
+        2,
+        3,
+        5,
+        10,
+        16,
+        256
+      ],
+      "matrices": 64,
+      "largest_dimension": 16,
+      "column_entries": 5984
+    }
+  }
+}

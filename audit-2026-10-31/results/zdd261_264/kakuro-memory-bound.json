@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "case": "unmodified",
+      "primary": 1165,
+      "secondary": 66,
+      "options": 4889,
+      "maximum_occurrences_per_option": 10,
+      "conservative_bytes_upper_bound": 904708,
+      "printed_megabytes": 509,
+      "correction": "MB to KB; exact rounded KB figure has not been independently reproduced"
+    },
+    {
+      "case": "modified",
+      "primary": 1187,
+      "secondary": 66,
+      "options": 5143,
+      "maximum_occurrences_per_option": 10,
+      "conservative_bytes_upper_bound": 950204,
+      "printed_megabytes": 537,
+      "correction": "MB to KB; exact rounded KB figure has not been independently reproduced"
+    }
+  ],
+  "formula": "16*(11*options+2*(items+2))+4*primary+128",
+  "source": "sources/knuth-programs/dlx2.w, bytes calculation and 16-byte item/node structures; answer430(d)",
+  "searches_run": 0
+}

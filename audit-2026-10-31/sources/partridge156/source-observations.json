@@ -1,0 +1,75 @@
+{
+  "at_utc": "2026-11-03T11:33:02.020361+00:00",
+  "primary_sources": [
+    {
+      "file": "sources/partridge156/crux1993-19-7.pdf",
+      "sha256": "f9d278ee8902b3c27d749703cb167a78172ccb84aa02c7d648f7739d4dfd0f7c",
+      "url": "https://cms.math.ca/wp-content/uploads/crux-pdfs/Crux_v19n07_Sep.pdf",
+      "printed_pages": [
+        189,
+        190,
+        191
+      ],
+      "pdf_pages": [
+        4,
+        5,
+        6
+      ],
+      "visually_read": true,
+      "conclusions": [
+        "Correct1993year and pages. Original authors StephenT.Ahearn,CharlesH.Jepsen supportE079.",
+        "Explicit constructions11,16 and extensions through33; historical claim that article presented them corroborated. This review does not independently transcribe all source-article figures."
+      ]
+    },
+    {
+      "file": "sources/partridge154/puzzlers-tribute.pdf",
+      "sha256": "0fc228c4f6c64c976ed2a9a3391f8a7ecd4957985628489f330862e6a63d9f1c",
+      "printed_pages": [
+        278,
+        279
+      ],
+      "visually_read": true,
+      "conclusions": [
+        "Wainwright recalls Cutler modifiedBOX afterJanuary1996, found8 then10/11;first solution date corroborated.",
+        "Original Gardner correspondence recalled without1981year; exactyear remains open. Full2332 census completion date not stated."
+      ]
+    },
+    {
+      "file": "sources/partridge154/partridge-numbers.pdf",
+      "sha256": "7aad7115deda7d8788685feb98843d71235d3a7faef133a1200729070dee4141",
+      "url": "https://erich-friedman.github.io/papers/partridge/partridge.html",
+      "conclusion": "Hamlyn/Friedman credit Cutler with2332square packings; no exact completion year for square census."
+    }
+  ],
+  "open_historical_claims": [
+    "Wainwright12–15 alreadyin1981",
+    "Exact1996completiondate ofCutler full2332census, beyond first8solution"
+  ],
+  "research_question": {
+    "claim": "Every order n>7 has a solution.",
+    "status": "Explicit conjecture in book; no general proof accepted here.",
+    "searches": [
+      "\"partridge puzzle\" \"all n\"",
+      "\"partridge tiling\" squares theorem",
+      "\"partridge\" \"tilings\" \"conjecture\" square"
+    ],
+    "scope": "No proof found in targeted search. Not a global claim about absence of literature."
+  },
+  "history_searches": [
+    "\"Ahearn\" \"Jepsen\" \"1993\"",
+    "\"Crux\" \"1993\" \"189\" \"191\"",
+    "\"Bill Cutler\" \"2332\" \"1996\"",
+    "\"Wainwright\" \"Partridge\" \"1981\" letter"
+  ],
+  "source_codes": {
+    "dlx3": "sources/knuth-programs/dlx3.w",
+    "lines": [
+      456,
+      518,
+      545,
+      596,
+      597
+    ],
+    "meaning": "Option spacers included in reported entries."
+  }
+}

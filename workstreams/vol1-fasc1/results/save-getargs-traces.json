@@ -1,0 +1,25 @@
+{
+  "method": "Exact manual instruction/address traces; no simulator execution claimed.",
+  "MMIX-C0007": {
+    "G": 254,
+    "y": 2032,
+    "comparison_rhs": 224,
+    "t": 1,
+    "actual": "Store only $254, then BNZ exits before $255 and all special registers.",
+    "correction": "BZ t,1F"
+  },
+  "MMIX-C0008": {
+    "D": "#2000000000000000",
+    "Chunk0_minus_D": "#1010",
+    "second_node_minus_D": "#2028",
+    "second_node_DATA_minus_D": "#2038",
+    "virtual_buffer_minus_D": "#ff0",
+    "internal_buffer_minus_D": "#3028",
+    "requested_bytes": 17,
+    "true_bytes_to_boundary": 16,
+    "computed_bytes_to_boundary": 4056,
+    "wrong_seventeenth_destination_minus_D": "#3038 (internal padding)",
+    "expected_virtual_seventeenth_destination_minus_D": "#1000",
+    "correction": "AND zz,z,Mem:mask"
+  }
+}

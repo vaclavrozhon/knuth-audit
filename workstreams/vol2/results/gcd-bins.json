@@ -1,0 +1,265 @@
+{
+  "transitions": {
+    "status": "passed",
+    "seconds": 48.494450211001094,
+    "result": {
+      "direct_pairs": 699051,
+      "direct_bins": 66,
+      "lattice_bins": 1176,
+      "largest_bit_bin": 48
+    }
+  },
+  "fixed_operand": {
+    "status": "passed",
+    "seconds": 0.7638561020139605,
+    "result": {
+      "inputs": 16352,
+      "records": [
+        {
+          "v": 1,
+          "m": 6,
+          "mean_C": "9/2",
+          "mean_D": "6",
+          "parity_total": 112,
+          "max_abs_rounds_minus_m": 0
+        },
+        {
+          "v": 1,
+          "m": 9,
+          "mean_C": "6",
+          "mean_D": "9",
+          "parity_total": 1280,
+          "max_abs_rounds_minus_m": 0
+        },
+        {
+          "v": 1,
+          "m": 12,
+          "mean_C": "15/2",
+          "mean_D": "12",
+          "parity_total": 13312,
+          "max_abs_rounds_minus_m": 0
+        },
+        {
+          "v": 3,
+          "m": 6,
+          "mean_C": "145/32",
+          "mean_D": "47/8",
+          "parity_total": 112,
+          "max_abs_rounds_minus_m": 2
+        },
+        {
+          "v": 3,
+          "m": 9,
+          "mean_C": "1535/256",
+          "mean_D": "565/64",
+          "parity_total": 1280,
+          "max_abs_rounds_minus_m": 2
+        },
+        {
+          "v": 3,
+          "m": 12,
+          "mean_C": "15361/2048",
+          "mean_D": "6059/512",
+          "parity_total": 13312,
+          "max_abs_rounds_minus_m": 2
+        },
+        {
+          "v": 5,
+          "m": 6,
+          "mean_C": "73/16",
+          "mean_D": "99/16",
+          "parity_total": 112,
+          "max_abs_rounds_minus_m": 3
+        },
+        {
+          "v": 5,
+          "m": 9,
+          "mean_C": "781/128",
+          "mean_D": "37/4",
+          "parity_total": 1280,
+          "max_abs_rounds_minus_m": 3
+        },
+        {
+          "v": 5,
+          "m": 12,
+          "mean_C": "7783/1024",
+          "mean_D": "12545/1024",
+          "parity_total": 13312,
+          "max_abs_rounds_minus_m": 3
+        },
+        {
+          "v": 7,
+          "m": 6,
+          "mean_C": "81/16",
+          "mean_D": "13/2",
+          "parity_total": 112,
+          "max_abs_rounds_minus_m": 3
+        },
+        {
+          "v": 7,
+          "m": 9,
+          "mean_C": "833/128",
+          "mean_D": "151/16",
+          "parity_total": 1280,
+          "max_abs_rounds_minus_m": 3
+        },
+        {
+          "v": 7,
+          "m": 12,
+          "mean_C": "8193/1024",
+          "mean_D": "1591/128",
+          "parity_total": 13312,
+          "max_abs_rounds_minus_m": 3
+        },
+        {
+          "v": 11,
+          "m": 6,
+          "mean_C": "81/16",
+          "mean_D": "221/32",
+          "parity_total": 112,
+          "max_abs_rounds_minus_m": 4
+        },
+        {
+          "v": 11,
+          "m": 9,
+          "mean_C": "841/128",
+          "mean_D": "2533/256",
+          "parity_total": 1280,
+          "max_abs_rounds_minus_m": 4
+        },
+        {
+          "v": 11,
+          "m": 12,
+          "mean_C": "16547/2048",
+          "mean_D": "13219/1024",
+          "parity_total": 13312,
+          "max_abs_rounds_minus_m": 4
+        },
+        {
+          "v": 31,
+          "m": 6,
+          "mean_C": "45/8",
+          "mean_D": "125/16",
+          "parity_total": 112,
+          "max_abs_rounds_minus_m": 5
+        },
+        {
+          "v": 31,
+          "m": 9,
+          "mean_C": "911/128",
+          "mean_D": "1373/128",
+          "parity_total": 1280,
+          "max_abs_rounds_minus_m": 5
+        },
+        {
+          "v": 31,
+          "m": 12,
+          "mean_C": "4419/512",
+          "mean_D": "3521/256",
+          "parity_total": 13312,
+          "max_abs_rounds_minus_m": 5
+        },
+        {
+          "v": 63,
+          "m": 6,
+          "mean_C": "173/32",
+          "mean_D": "225/32",
+          "parity_total": 112,
+          "max_abs_rounds_minus_m": 5
+        },
+        {
+          "v": 63,
+          "m": 9,
+          "mean_C": "863/128",
+          "mean_D": "2493/256",
+          "parity_total": 1280,
+          "max_abs_rounds_minus_m": 6
+        },
+        {
+          "v": 63,
+          "m": 12,
+          "mean_C": "4221/512",
+          "mean_D": "13059/1024",
+          "parity_total": 13312,
+          "max_abs_rounds_minus_m": 6
+        }
+      ]
+    }
+  },
+  "averaging": {
+    "status": "passed",
+    "seconds": 2.883325386006618,
+    "result": {
+      "odd_pairs": 10923,
+      "records": [
+        {
+          "N": 1,
+          "pairs": 1,
+          "C_sum": 1,
+          "odd_D_weighted_sum": 0,
+          "initial_shifts": 0,
+          "actual_D_sum": 0
+        },
+        {
+          "N": 2,
+          "pairs": 9,
+          "C_sum": 13,
+          "odd_D_weighted_sum": 4,
+          "initial_shifts": 4,
+          "actual_D_sum": 8
+        },
+        {
+          "N": 3,
+          "pairs": 49,
+          "C_sum": 99,
+          "odd_D_weighted_sum": 62,
+          "initial_shifts": 36,
+          "actual_D_sum": 98
+        },
+        {
+          "N": 4,
+          "pairs": 225,
+          "C_sum": 577,
+          "odd_D_weighted_sum": 492,
+          "initial_shifts": 212,
+          "actual_D_sum": 704
+        },
+        {
+          "N": 5,
+          "pairs": 961,
+          "C_sum": 3087,
+          "odd_D_weighted_sum": 3244,
+          "initial_shifts": 1044,
+          "actual_D_sum": 4288
+        },
+        {
+          "N": 6,
+          "pairs": 3969,
+          "C_sum": 15261,
+          "odd_D_weighted_sum": 18246,
+          "initial_shifts": 4692,
+          "actual_D_sum": 22938
+        },
+        {
+          "N": 7,
+          "pairs": 16129,
+          "C_sum": 72693,
+          "odd_D_weighted_sum": 95276,
+          "initial_shifts": 20052,
+          "actual_D_sum": 115328
+        },
+        {
+          "N": 8,
+          "pairs": 65025,
+          "C_sum": 336767,
+          "odd_D_weighted_sum": 471576,
+          "initial_shifts": 83284,
+          "actual_D_sum": 554860
+        }
+      ],
+      "leading_off_diagonal": "11/27",
+      "leading_diagonal": "5/27",
+      "reused_census": "results/gcd-basic.json statistics"
+    }
+  }
+}

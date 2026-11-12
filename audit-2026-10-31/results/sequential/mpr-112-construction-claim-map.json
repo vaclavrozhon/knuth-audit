@@ -1,0 +1,214 @@
+{
+  "description": "Whole MPR112, including every printed intermediate and table",
+  "ledger_ids": [
+    "D210",
+    "F174",
+    "E133"
+  ],
+  "claims": [
+    {
+      "id": "MPR112.01",
+      "file_pages": [
+        43,
+        407,
+        408
+      ],
+      "claim": "Precise truncated-family domain and every infinity/zero-stage boundary",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex112.md"
+    },
+    {
+      "id": "MPR112.02",
+      "file_pages": [
+        43,
+        407,
+        408
+      ],
+      "claim": "Full inclusion-exclusion proof that truncation of any exact minwise family stays minwise",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex112.md"
+    },
+    {
+      "id": "MPR112.03",
+      "file_pages": [
+        43,
+        407,
+        408
+      ],
+      "claim": "Uniform distribution of prefix position sets without circular use of the construction",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex112.md"
+    },
+    {
+      "id": "MPR112.04",
+      "file_pages": [
+        43,
+        407,
+        408
+      ],
+      "claim": "Every finite-minimum and all-infinity branch of(a)",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex112.md"
+    },
+    {
+      "id": "MPR112.05",
+      "file_pages": [
+        43,
+        407,
+        408
+      ],
+      "claim": "Initial table and exact minwise probabilities",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex112.md"
+    },
+    {
+      "id": "MPR112.06",
+      "file_pages": [
+        43,
+        407,
+        408
+      ],
+      "claim": "Uniform blank-set invariant and its induction step",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex112.md"
+    },
+    {
+      "id": "MPR112.07",
+      "file_pages": [
+        43,
+        407,
+        408
+      ],
+      "claim": "Printed reciprocal-binomial identity and every integer divisibility step",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex112.md"
+    },
+    {
+      "id": "MPR112.08",
+      "file_pages": [
+        43,
+        407,
+        408
+      ],
+      "claim": "Finite termination, output permutations and minimal family size",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex112.md"
+    },
+    {
+      "id": "MPR112.09",
+      "file_pages": [
+        43,
+        407,
+        408
+      ],
+      "claim": "Cyclic-orbit construction with all stabilizer cases",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex112.md"
+    },
+    {
+      "id": "MPR112.10",
+      "file_pages": [
+        43,
+        407,
+        408
+      ],
+      "claim": "Choice ensuring distinct final permutations simultaneously with cyclicity",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex112.md"
+    },
+    {
+      "id": "MPR112.11",
+      "file_pages": [
+        43,
+        407,
+        408
+      ],
+      "claim": "Explicit construction cost and storage bound",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex112.md"
+    },
+    {
+      "id": "MPR112.12",
+      "file_pages": [
+        43,
+        407,
+        408
+      ],
+      "claim": "All twelve initial and m2 words; essentially forced seeding",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex112.md"
+    },
+    {
+      "id": "MPR112.13",
+      "file_pages": [
+        43,
+        407,
+        408
+      ],
+      "claim": "Every branch for the adjacent blank-pair orbit",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex112.md"
+    },
+    {
+      "id": "MPR112.14",
+      "file_pages": [
+        43,
+        407,
+        408
+      ],
+      "claim": "Every branch for the periodic blank-pair orbit",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex112.md"
+    },
+    {
+      "id": "MPR112.15",
+      "file_pages": [
+        408
+      ],
+      "claim": "F174 exact7/12 witness and all nine local repairs",
+      "status": "confirmed",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex112.md"
+    },
+    {
+      "id": "MPR112.16",
+      "file_pages": [
+        43,
+        407,
+        408
+      ],
+      "claim": "All printed/repaired tableaux and every final completion",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex112.md"
+    },
+    {
+      "id": "MPR112.17",
+      "file_pages": [
+        43,
+        407,
+        408
+      ],
+      "claim": "Primary reference scope and explicit historical exception",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex112.md"
+    }
+  ],
+  "bibliography_skips": [
+    {
+      "exercise": "MPR:112",
+      "file_pages": [
+        408
+      ],
+      "reference": "Exact historical constructions and compact sampler in the two IEICE E83-A(2000) articles,646–655 and747–755",
+      "reason": "Both primary publisher metadata records were checked. Complete historical articles were not quickly available without purchase. All required mathematics, including cyclicity and distinct final permutations, is proved independently.",
+      "mathematical_dependency": false
+    }
+  ],
+  "new_findings": [
+    "F174"
+  ],
+  "known_errata": [
+    "E133"
+  ],
+  "calculation": "results/sequential/mpr-112-tableaux-certificate.json",
+  "updated_at_utc": "2026-11-07T02:51:47.777586+00:00"
+}

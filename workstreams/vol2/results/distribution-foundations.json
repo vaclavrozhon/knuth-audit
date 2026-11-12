@@ -1,0 +1,198 @@
+{
+  "intervals": {
+    "repaired_one_dimensional_cases": 2418,
+    "C0059": {
+      "empty_box_actual_probability": "0",
+      "printed_inner_product": "1/4",
+      "outer_unit_interval_actual_probability": "1",
+      "printed_outer_product": "3/2"
+    }
+  },
+  "periodic": {
+    "example11": "0001000111011101",
+    "triple_counts": {
+      "000": 2,
+      "001": 2,
+      "010": 2,
+      "011": 2,
+      "100": 2,
+      "101": 2,
+      "110": 2,
+      "111": 2
+    },
+    "even_bits": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "C0060": {
+      "printed_even_upper_probability": "1/4",
+      "complemented_even_upper_probability": "3/4"
+    },
+    "earlier_ternary_evidence": "results/complete-sequences.json; no successful earlier census repeated"
+  },
+  "density_oscillation": {
+    "prefix_length": 65536,
+    "rows": [
+      {
+        "k": 1,
+        "n1": 1,
+        "n2": 3,
+        "count": 1,
+        "upper_ratio": "1",
+        "lower_ratio": "1/3"
+      },
+      {
+        "k": 2,
+        "n1": 7,
+        "n2": 15,
+        "count": 5,
+        "upper_ratio": "5/7",
+        "lower_ratio": "1/3"
+      },
+      {
+        "k": 3,
+        "n1": 31,
+        "n2": 63,
+        "count": 21,
+        "upper_ratio": "21/31",
+        "lower_ratio": "1/3"
+      },
+      {
+        "k": 4,
+        "n1": 127,
+        "n2": 255,
+        "count": 85,
+        "upper_ratio": "85/127",
+        "lower_ratio": "1/3"
+      },
+      {
+        "k": 5,
+        "n1": 511,
+        "n2": 1023,
+        "count": 341,
+        "upper_ratio": "341/511",
+        "lower_ratio": "1/3"
+      },
+      {
+        "k": 6,
+        "n1": 2047,
+        "n2": 4095,
+        "count": 1365,
+        "upper_ratio": "1365/2047",
+        "lower_ratio": "1/3"
+      },
+      {
+        "k": 7,
+        "n1": 8191,
+        "n2": 16383,
+        "count": 5461,
+        "upper_ratio": "5461/8191",
+        "lower_ratio": "1/3"
+      },
+      {
+        "k": 8,
+        "n1": 32767,
+        "n2": 65535,
+        "count": 21845,
+        "upper_ratio": "21845/32767",
+        "lower_ratio": "1/3"
+      }
+    ]
+  },
+  "run_patterns": {
+    "histories": 46230,
+    "rows": [
+      {
+        "length": 1,
+        "start_density": "1/6",
+        "run_frequency": "1/3",
+        "permutation_count": 1
+      },
+      {
+        "length": 2,
+        "start_density": "5/24",
+        "run_frequency": "5/12",
+        "permutation_count": 5
+      },
+      {
+        "length": 3,
+        "start_density": "11/120",
+        "run_frequency": "11/60",
+        "permutation_count": 11
+      },
+      {
+        "length": 4,
+        "start_density": "19/720",
+        "run_frequency": "19/360",
+        "permutation_count": 19
+      },
+      {
+        "length": 5,
+        "start_density": "29/5040",
+        "run_frequency": "29/2520",
+        "permutation_count": 29
+      },
+      {
+        "length": 6,
+        "start_density": "41/40320",
+        "run_frequency": "41/20160",
+        "permutation_count": 41
+      }
+    ]
+  },
+  "coupon_reset": {
+    "reset_states": 501,
+    "stationary_rows": [
+      {
+        "b": 2,
+        "proper_states": 3,
+        "start_density": "1/3",
+        "mean_coupon_length": "3"
+      },
+      {
+        "b": 3,
+        "proper_states": 7,
+        "start_density": "2/11",
+        "mean_coupon_length": "11/2"
+      },
+      {
+        "b": 4,
+        "proper_states": 15,
+        "start_density": "3/25",
+        "mean_coupon_length": "25/3"
+      },
+      {
+        "b": 5,
+        "proper_states": 31,
+        "start_density": "12/137",
+        "mean_coupon_length": "137/12"
+      },
+      {
+        "b": 6,
+        "proper_states": 63,
+        "start_density": "10/147",
+        "mean_coupon_length": "147/10"
+      },
+      {
+        "b": 7,
+        "proper_states": 127,
+        "start_density": "20/363",
+        "mean_coupon_length": "363/20"
+      },
+      {
+        "b": 8,
+        "proper_states": 255,
+        "start_density": "35/761",
+        "mean_coupon_length": "761/35"
+      }
+    ],
+    "enumerated_words": 97632,
+    "distribution_checks": 18
+  }
+}

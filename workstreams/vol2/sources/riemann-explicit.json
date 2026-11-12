@@ -1,0 +1,286 @@
+{
+  "updated_at_utc": "2026-11-03T22:09:24.628363+00:00",
+  "scope": "4.5.4-25: exact midpoint and branch conventions; C0179/C0180; constant and finite analytic checks.",
+  "visual_reads": [
+    "images/vol2-p381.png",
+    "images/vol2-p414.png",
+    "images/vol2-p414-riemann.png",
+    "images/vol2-p663.png",
+    "images/factoring-all2-pre-p15.png",
+    "images/mangoldt-1895-p255.png",
+    "images/mangoldt-1895-p256.png",
+    "images/mangoldt-1895-p257.png",
+    "images/mangoldt-1895-p258.png",
+    "images/mangoldt-1895-p294.png",
+    "images/mangoldt-1895-p295.png",
+    "images/mangoldt-1895-p296.png",
+    "images/mangoldt-1895-p297.png",
+    "images/mangoldt-1895-p298.png",
+    "images/mangoldt-1895-p299.png",
+    "images/mangoldt-1895-p300.png",
+    "images/mangoldt-1895-p301.png",
+    "images/mangoldt-1895-p302.png",
+    "images/riemann-1859-wilkins-file5.png",
+    "images/riemann-1859-wilkins-file6.png",
+    "images/riemann-1859-wilkins-file7.png",
+    "images/riemann-1859-wilkins-file8.png",
+    "images/riemann-1859-wilkins-file9.png",
+    "images/gonek-landau-formula-file1.png",
+    "images/gonek-landau-formula-file2.png"
+  ],
+  "analytic_inputs": [
+    "Riemann-von Mangoldt convergence and exact evaluation are external; original printed255-258,294-302 visually read, not the entire51-page proof.",
+    "Landau fixed-x sum formula unconditional: Gonek file1 formula1, file2 context. Proof of this classical theorem is not reproduced.",
+    "Own partial summation and integral remainder prove divergence of the unpaired sum at prime powers."
+  ],
+  "bibliography": {
+    "mangoldt": "Crelle114(1895)255-305; EuDML and GDZ primary scan.",
+    "riemann": "Wilkins1998 translation, printed4-8 visual, historical constant corrected by Mangoldt299.",
+    "karatsuba": "Author bibliography confirmsCRC1995; no whole-book reading claim.",
+    "bach_shallit": "Author publication pageAugust1996; author contentsCh8.3-8.5 confirmRH/ERH/applications."
+  },
+  "errata": {
+    "searched": [
+      "all2-prepre",
+      "all2-pre",
+      "all2",
+      "err2",
+      "sources/err2.textxt"
+    ],
+    "known": "all2-pre file15,2011-12-10: n -> x in663answer25; visually read.",
+    "result": "No real-part or jump-sign correction found. Historical2e text614,1995-10-24 adds the same minus half-jump."
+  },
+  "artifacts": [
+    {
+      "path": "images/vol2-p381.png",
+      "bytes": 346369,
+      "sha256": "6fea1f453520a9509bce79a03b0dfa4cb570702866561842858f97b617511462"
+    },
+    {
+      "path": "images/vol2-p414.png",
+      "bytes": 430740,
+      "sha256": "8d3736fb753cc2c357ead6c0e7e08b522a3b812846f3f8fbafcca6c14857d5d1"
+    },
+    {
+      "path": "images/vol2-p414-riemann.png",
+      "bytes": 170318,
+      "sha256": "cd7cd2c76aeb92881951751bf07d44b9a6df4ce4f36ff0d3103103c51ede0d62"
+    },
+    {
+      "path": "images/vol2-p663.png",
+      "bytes": 498615,
+      "sha256": "a7863b7efe6e305e551d54f3e7ad2aeddae3b0b148a0c8e3cd1229e6ecc9516c"
+    },
+    {
+      "path": "images/factoring-all2-pre-p15.png",
+      "bytes": 125009,
+      "sha256": "3262899fd815950e38fce97d8ec6ccc88a431334c4b548b32dd3825d0f114c55"
+    },
+    {
+      "path": "images/mangoldt-1895-p255.png",
+      "bytes": 445364,
+      "sha256": "95808ff0efe7cae679217b5936c7d517291c3ff3a750e47d4890796d9cfb6a1c"
+    },
+    {
+      "path": "images/mangoldt-1895-p256.png",
+      "bytes": 510715,
+      "sha256": "a19ce2a7d440d2ad7f214f38f5eaa4ac126e5947cb79d81248ae0b533e27b3f4"
+    },
+    {
+      "path": "images/mangoldt-1895-p257.png",
+      "bytes": 503752,
+      "sha256": "d2566ba3abca3afc56811b0793a4abbb283711ca4eba5e4cd628a4937852cd79"
+    },
+    {
+      "path": "images/mangoldt-1895-p258.png",
+      "bytes": 546588,
+      "sha256": "4a7166f486b4b7f858b8fbe78f81916207a07f92365235e01037ed3af58496d9"
+    },
+    {
+      "path": "images/mangoldt-1895-p294.png",
+      "bytes": 333821,
+      "sha256": "226fa92bff01ca38f54e6c4b2d33a66e7f873b9970b1a065a2c1607d778696af"
+    },
+    {
+      "path": "images/mangoldt-1895-p295.png",
+      "bytes": 387660,
+      "sha256": "e3a81bf997553a4dfea880b90b6ae07536ee8390347f9f10f6e3af6df7c43924"
+    },
+    {
+      "path": "images/mangoldt-1895-p296.png",
+      "bytes": 298124,
+      "sha256": "b177eb6602e5b705589524b508f37252120b0463b81ace5c5e60ada28acf3571"
+    },
+    {
+      "path": "images/mangoldt-1895-p297.png",
+      "bytes": 308563,
+      "sha256": "353457a1580b7ee9086193ee0d181eacfe332ea8468ffd7b4bff27a999ca796e"
+    },
+    {
+      "path": "images/mangoldt-1895-p298.png",
+      "bytes": 246023,
+      "sha256": "e1004eed47c788ba7402d512e597d5ede90b4273bae320a1ede79f6ab0d6f34e"
+    },
+    {
+      "path": "images/mangoldt-1895-p299.png",
+      "bytes": 364082,
+      "sha256": "473eae243d97b98e4b40ded91aec1094451700bfec0da33dc31c69be25a839ef"
+    },
+    {
+      "path": "images/mangoldt-1895-p300.png",
+      "bytes": 454204,
+      "sha256": "08967f7bed06a5641577bc270283a5fca823187b4ac317b1ca307f55fb57e9e0"
+    },
+    {
+      "path": "images/mangoldt-1895-p301.png",
+      "bytes": 292871,
+      "sha256": "6e5d54b244124c938d6ee3485fceb4fe91291a8a0ee7888a46ba3133a224646d"
+    },
+    {
+      "path": "images/mangoldt-1895-p302.png",
+      "bytes": 406135,
+      "sha256": "10c6e7303636136c5eb68963cf13c845a0eb9b4363b0cc83724771afe2971026"
+    },
+    {
+      "path": "images/riemann-1859-wilkins-file5.png",
+      "bytes": 280840,
+      "sha256": "d82a56ab9fb47313b6b5bc3f733af25f63dc4b39136c5227c04bc73640fbbeba"
+    },
+    {
+      "path": "images/riemann-1859-wilkins-file6.png",
+      "bytes": 139610,
+      "sha256": "aaf9f98f30d1a9b52ba014c21b037580cef01da4a518e70966e41eb6373363a8"
+    },
+    {
+      "path": "images/riemann-1859-wilkins-file7.png",
+      "bytes": 164139,
+      "sha256": "fe1780fe6d4f1266177701eacae89207250fa69eea15e23ef72d24e2490be58b"
+    },
+    {
+      "path": "images/riemann-1859-wilkins-file8.png",
+      "bytes": 155201,
+      "sha256": "5c1e731478cac95edfc0705e113f05c8b35bdb4f11cef2aea237a810627292ae"
+    },
+    {
+      "path": "images/riemann-1859-wilkins-file9.png",
+      "bytes": 188578,
+      "sha256": "45d810445333d929efb2cde0531ca7c0f50182b2e622f8734acee0a9580bc8f3"
+    },
+    {
+      "path": "images/gonek-landau-formula-file1.png",
+      "bytes": 1169478,
+      "sha256": "faea1fe3ae305e7008fe029a03cf3b8ca44057af0f5e715bfac4bcf03a1115c4"
+    },
+    {
+      "path": "images/gonek-landau-formula-file2.png",
+      "bytes": 1357193,
+      "sha256": "5a36f0384348a1730b439896067891acd10018f21b8187ad42fd93223dabeef7"
+    },
+    {
+      "path": "notes/riemann-explicit.md",
+      "bytes": 10330,
+      "sha256": "b1364d73981398db1e35e380e616abdae2ca96010ed2e017f19eeb41a65a5506"
+    },
+    {
+      "path": "notes/C0179-riemann-real-part.md",
+      "bytes": 1478,
+      "sha256": "8a9fc7e192eb05b5917b57c6f75be47297f55eaf730e9e79786b379f01ba1739"
+    },
+    {
+      "path": "notes/C0180-riemann-jump-sign.md",
+      "bytes": 1607,
+      "sha256": "4f80f723d6e289e849e46994a718fe61cd255cc0c6a9e12252c664dfa254fe3d"
+    },
+    {
+      "path": "reports/C0179-riemann-real-part-draft.txt",
+      "bytes": 1135,
+      "sha256": "712a548db1e85a6043f72add14923ea61b57e15fb572310841c2ad921c585436"
+    },
+    {
+      "path": "reports/C0180-riemann-jump-sign-draft.txt",
+      "bytes": 958,
+      "sha256": "8afed9670ff9186a73d917cd4b5da3ef5b4403ca02cdd27fe596406cb4a55900"
+    },
+    {
+      "path": "verify_riemann_explicit.py",
+      "bytes": 6436,
+      "sha256": "dc60205f3416f1f44fb1bc83706a58b2cfdbccdfce325c69e478281247b46713"
+    },
+    {
+      "path": "results/riemann-explicit.json",
+      "bytes": 21117,
+      "sha256": "8c18fd9c04569235f6aaa2bed6171e97fcc2b9eea980f6dbdc32f46a0a2e6330"
+    },
+    {
+      "path": "results/riemann-explicit.log",
+      "bytes": 169,
+      "sha256": "561ab15c946b30a9e37abfc21c5248949e1957403a6b8645ae93aa0088ccfe27"
+    },
+    {
+      "path": "sources/riemann-explicit-downloads.json",
+      "bytes": 4010,
+      "sha256": "66a539d2c08c558559d127d91b98d27713aa6c855ca8ac3beff1c064d3f2a1f1"
+    },
+    {
+      "path": "sources/mangoldt-1895-eudml.html",
+      "bytes": 35577,
+      "sha256": "ce13a93868d0fe2da6eec41b449035c7d8f14a0083a5cd3339881f6c32d12f4f"
+    },
+    {
+      "path": "sources/mangoldt-1895-riemann.pdf",
+      "bytes": 68046031,
+      "sha256": "424be8674eb047fd3450ef00902f8cb42e05e3de1fdce0c13e19e7bdd67bd7a7"
+    },
+    {
+      "path": "sources/mangoldt-1895-gdz.html",
+      "bytes": 5999,
+      "sha256": "82a898f0f5f08468bd1fa50e08d3cfe7f4cec4fe93512c503c5f690b1641528d"
+    },
+    {
+      "path": "sources/mangoldt-1895-gdz-manifest.json",
+      "bytes": 563043,
+      "sha256": "e2bf02b182b88d5bcaf9e319152491983ffc73564f2556621ae2276a98cc7682"
+    },
+    {
+      "path": "sources/mangoldt-1895-riemann.txt",
+      "bytes": 1463,
+      "sha256": "ca5eb4379a542ad5b33cb5bf866b1b01ebdd2312afe03a4c22184f310de69215"
+    },
+    {
+      "path": "sources/riemann-1859-wilkins.pdf",
+      "bytes": 119504,
+      "sha256": "6b24341e3406d165baeb7ab1e00cfa0a544d0399e2b33175dfa71480bdddd24f"
+    },
+    {
+      "path": "sources/riemann-1859-wilkins.txt",
+      "bytes": 25879,
+      "sha256": "edcfa6a0db7d47be617256090275a531afd67e6d8b78b15a416ac3580cdad2f0"
+    },
+    {
+      "path": "sources/gonek-landau-formula.pdf",
+      "bytes": 2563783,
+      "sha256": "7c68870fc4fe095115ddb1279b3fa8fa718f31e6ea350e3e29168ec91bd787a4"
+    },
+    {
+      "path": "sources/gonek-landau-formula.txt",
+      "bytes": 5,
+      "sha256": "2e9faebbd47a57f8d00d2f73a2e412bbf5353a95a112f2278b24f69ee5d14b62"
+    },
+    {
+      "path": "sources/riemann-karatsuba-author-bibliography.html",
+      "bytes": 50917,
+      "sha256": "848ed0843d06110061da6f91263c8740d3f949b4faf8e69a7f647e510f4b0906"
+    },
+    {
+      "path": "sources/riemann-bach-shallit-author.html",
+      "bytes": 1372,
+      "sha256": "748fb1e26172a0db93b43858ad131657cba00c7c1374a5806182608dd4a4153f"
+    },
+    {
+      "path": "sources/riemann-bach-shallit-toc.html",
+      "bytes": 8582,
+      "sha256": "f21533f5aaf2f1569236e575e4f28a97b0aa121626ddd1c7c3660e07e5466b98"
+    }
+  ],
+  "source_text_normalization": "HTML display whitespace normalized; raw download hashes retained in riemann-explicit-downloads.json."
+}

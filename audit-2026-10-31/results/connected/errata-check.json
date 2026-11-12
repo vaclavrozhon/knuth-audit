@@ -1,0 +1,53 @@
+{
+  "checked_at_utc": "2026-11-01T10:12:57.499841+00:00",
+  "findings": [
+    "F098",
+    "F099",
+    "F100"
+  ],
+  "files": [
+    {
+      "path": "errata/text/all4b.txt",
+      "sha256": "b1a3425486f403fb4158585d5bbfef0159fd20b12e2e7d47b64e393e1ae8a303",
+      "relevant_source_entries": []
+    },
+    {
+      "path": "errata/text/err4b.txt",
+      "sha256": "2a3450bf3c79d28ad3c2d96468344c96995cf0afb74961f257c311bb9c821e1c",
+      "relevant_source_entries": []
+    },
+    {
+      "path": "errata/text/all4f5.txt",
+      "sha256": "0dd38c4cda72b01baefb797611c9bbab7713ff0c107a1df884afc89fe9bb91c3",
+      "relevant_source_entries": []
+    },
+    {
+      "path": "errata/text/err4f5.txt",
+      "sha256": "5a716c34e2063eb46005593d53e89dbbd912b5677e0a6ab11753f2a5ee38b557",
+      "relevant_source_entries": []
+    },
+    {
+      "path": "audit-2026-10-31/sources/err4b.textxt",
+      "sha256": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+      "relevant_source_entries": []
+    },
+    {
+      "path": "audit-2026-10-31/sources/err4f5.textxt",
+      "sha256": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b",
+      "relevant_source_entries": [
+        "\\amendpage 4f5.60 in lines 4 and 6 of exercise 77 (21.06.01)\n\\ninepoint $P_3^\\to\\sqprod P_3^\\to$ \\becomes\n$P\\orie_{\\!3}\\,\\sqprod P\\orie_{\\!3}$",
+        "\\bugonpage 4f5.221 line 3 of answer 73 (19.12.12)\n\\.{roots} \\becomes \\.{roofs}",
+        "\\bugonpage 4f5.222 line 1 of step R6 (20.05.12)\nset $i\\gets i_l$ \\becomes set $i\\gets i_l$, $v\\gets v_i$",
+        "\\bugonpage 4f5.222 in step R2' (20.02.05)\n$p\\ge L$ \\becomes $w\\ge L$",
+        "\\bugonpage 4f5.223 line 19 (20.04.09)\n$(1+3wz^2+2w^2z^3+z^2z^4+w^3z^4)^8$ \\becomes\n$(1+3wz^2+2w^2z^3+w^2z^4+w^3z^4)^8$"
+      ]
+    }
+  ],
+  "known_changes": [
+    "4f5.221 roots -> roofs (2019-12-12)",
+    "4f5.222 R6 add v <- v_i (2020-05-12)",
+    "4f5.222 R2prime p>=L -> w>=L (2020-02-05)",
+    "4f5.223 z^2 z^4 -> w^2 z^4 (2020-04-09)"
+  ],
+  "conclusion": "No listed correction of the missing singleton lower-bound guard, the placement of minus one in h, or Q811=12; all four known changes are already in the local 4B PDF."
+}

@@ -1,0 +1,180 @@
+{
+  "checked_at_utc": "2026-11-07T01:51:37.816201+00:00",
+  "scope": "First native runs of one new complete MMIX inverse translator on three targeted cases. No old decoder or SAVE proof/checker is rerun.",
+  "source_sha256": "603a9e8a74f8874c4a10651bff059130188e7677775fdca996f08deb97891ae7",
+  "runs": {
+    "empty": {
+      "consumed_bytes": 1,
+      "whitespace_bytes": 0,
+      "significant_characters_including_period": 1,
+      "runs": [],
+      "full_tens": 0,
+      "residual_at_period": 0,
+      "changed_run_flushes": 0,
+      "empty_run_starts": 0,
+      "same_run_characters": 0,
+      "tokens_including_period": 1,
+      "single_tokens": 1,
+      "count_one_digit_tokens": 0,
+      "minimum_non_newline_characters": 1,
+      "output_bytes": 2,
+      "expected_mems": 2,
+      "expected_oops": 48,
+      "every_output_byte_agrees": true,
+      "input_sha256": "eb4bd64f7014f7d42e9d358035802242741b974e8dfcd37c59f9c21ce29d781e",
+      "instructions": 28,
+      "mems": 2,
+      "oops": 48
+    },
+    "book-example": {
+      "consumed_bytes": 54,
+      "whitespace_bytes": 13,
+      "significant_characters_including_period": 41,
+      "runs": [
+        [
+          97,
+          1
+        ],
+        [
+          98,
+          3
+        ],
+        [
+          101,
+          6
+        ],
+        [
+          52,
+          4
+        ],
+        [
+          54,
+          3
+        ],
+        [
+          102,
+          1
+        ],
+        [
+          103,
+          1
+        ],
+        [
+          122,
+          1
+        ],
+        [
+          121,
+          1
+        ],
+        [
+          119,
+          1
+        ],
+        [
+          50,
+          4
+        ],
+        [
+          48,
+          2
+        ],
+        [
+          112,
+          1
+        ],
+        [
+          113,
+          1
+        ],
+        [
+          57,
+          9
+        ],
+        [
+          114,
+          1
+        ]
+      ],
+      "full_tens": 0,
+      "residual_at_period": 1,
+      "changed_run_flushes": 15,
+      "empty_run_starts": 1,
+      "same_run_characters": 24,
+      "tokens_including_period": 17,
+      "single_tokens": 10,
+      "count_one_digit_tokens": 0,
+      "minimum_non_newline_characters": 24,
+      "output_bytes": 41,
+      "expected_mems": 78,
+      "expected_oops": 1450,
+      "every_output_byte_agrees": true,
+      "input_sha256": "c0ff0fc036a5720222e114f5169c87ea5622b661303fb72b98cbdc16b13b71ed",
+      "instructions": 954,
+      "mems": 78,
+      "oops": 1450
+    },
+    "boundaries": {
+      "consumed_bytes": 532,
+      "whitespace_bytes": 448,
+      "significant_characters_including_period": 84,
+      "runs": [
+        [
+          33,
+          1
+        ],
+        [
+          65,
+          9
+        ],
+        [
+          66,
+          10
+        ],
+        [
+          67,
+          11
+        ],
+        [
+          48,
+          1
+        ],
+        [
+          49,
+          9
+        ],
+        [
+          50,
+          10
+        ],
+        [
+          51,
+          11
+        ],
+        [
+          255,
+          21
+        ]
+      ],
+      "full_tens": 6,
+      "residual_at_period": 1,
+      "changed_run_flushes": 6,
+      "empty_run_starts": 7,
+      "same_run_characters": 70,
+      "tokens_including_period": 14,
+      "single_tokens": 4,
+      "count_one_digit_tokens": 2,
+      "minimum_non_newline_characters": 24,
+      "output_bytes": 38,
+      "expected_mems": 556,
+      "expected_oops": 7678,
+      "every_output_byte_agrees": true,
+      "input_sha256": "b20f3658e3ab266212cbaaea88dc51ee3b9f30bd4645acd2eeede2d863502243",
+      "instructions": 4210,
+      "mems": 556,
+      "oops": 7678
+    }
+  },
+  "object_sha256": "70ec9f1471c58cd1112351fba4e489969ab24741cf204710c8794664edad95bc",
+  "elapsed_seconds": 1.433271654008422
+}

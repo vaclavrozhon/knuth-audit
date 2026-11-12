@@ -1,0 +1,169 @@
+{
+  "accessed_utc": "2026-11-03T15:10:55.413055+00:00",
+  "scope": "4.5.4A pp380–381; exercises1/2/3/6/8/29, with original answers and all four errata layers.",
+  "book": {
+    "file": "books/taocp-vol2-ed3-print1-1997.djvu",
+    "printed_pages_visually_read": [
+      380,
+      381,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      657,
+      658,
+      659,
+      664
+    ],
+    "file_page_offset": 12,
+    "edition": "3rd edition, 1st printing, September1997; later physical printing unverified"
+  },
+  "sources": [
+    {
+      "title": "F. Mertens, Ein Beitrag zur analytischen Zahlentheorie",
+      "journal": "Journal für die reine und angewandte Mathematik78(1874),46–62",
+      "url": "https://gdz.sub.uni-goettingen.de/download/pdf/PPN243919689_0078/LOG_0005.pdf",
+      "landing": "https://gdz.sub.uni-goettingen.de/id/PPN243919689_0078",
+      "files": [
+        {
+          "file": "sources/mertens-1874.pdf",
+          "bytes": 19266417,
+          "sha256": "4f7d6ef6f7ccfa531b140d84bec130df6f38fa9da5e0b030b9d8d8fadf916953"
+        },
+        {
+          "file": "sources/mertens-1874.txt",
+          "bytes": 1690,
+          "sha256": "f130f03d05c962ee22b2c6de6db900f5734d51ec69b8dcd183203bc8f23ae335"
+        }
+      ],
+      "read_scope": "Article46–54 and62 visually read;55–61 rendered but not read. Text layer contains only cover/legal text. PDF1 cover,PDF2–18 printed46–62. Original49 explicitly gives Bd.LXXVIII, proving C0148."
+    },
+    {
+      "title": "Nicomachus, Introduction to Arithmetic, D’Ooge translation, Robbins/Karpinski edition1926",
+      "landing": "https://www.fulcrum.org/concern/monographs/zs25xc31c",
+      "download": "https://www.fulcrum.org/ebooks/k643b424z/download?locale=en",
+      "doi": "10.3998/mpub.12946934",
+      "files": [
+        {
+          "file": "sources/nicomachus-1926-chapter13.pdf",
+          "bytes": 571632,
+          "sha256": "d2c913d8350a09d9fb517eb92386c8cb889f90f5df7797d7576b8f90960f8356"
+        },
+        {
+          "file": "sources/nicomachus-1926-chapter13.txt",
+          "bytes": 16426,
+          "sha256": "95560948e82312550f33171458f030e8c72ef4c4f33fe42059286f833a07dc5a"
+        }
+      ],
+      "read_scope": "Excerpt printed203–206, all four pages visually read; fullPDF pages212–215. I.13.2–8 are on204–205; not the whole chapter, which continues207. Editorial note on205 explicitly records ambiguity about skipping composites. Greek manuscripts not read."
+    },
+    {
+      "title": "N.G.deBruijn, On the number of positive integers <=x and free of prime factors >y.II",
+      "journal": "Indagationes Mathematicae28(1966),239–247; parallel ProceedingsA69(3)",
+      "url": "https://pure.tue.nl/ws/files/2158712/597534.pdf",
+      "landing": "https://research.tue.nl/en/publications/on-the-number-of-positive-integers-leq-x-and-free-of-prime-factor-2/",
+      "files": [
+        {
+          "file": "sources/debruijn-1966-smooth.pdf",
+          "bytes": 452917,
+          "sha256": "fc65fe5e4542889819925d5081c43bcb2f04e50a58b49d682a10c7ed74bcc7a6"
+        },
+        {
+          "file": "sources/debruijn-1966-smooth.txt",
+          "bytes": 2238,
+          "sha256": "ce28c3c64c2e3136da029bf508f4d8d65c2e0eefc174dd0f3d56870a4788b741"
+        }
+      ],
+      "read_scope": "Printed239–240 and247 visually read,PDF2/3/10. Metadata specifies first239, second page explicitly240; the main Theorems1/2 are on240, so book range240–247 can be a pinpoint, not a confirmed error. Full proof not audited. Text layer cover only; poppler reconstructed an xref warning successfully."
+    },
+    {
+      "title": "H.Halberstam, On Integers All of Whose Prime Factors are Small",
+      "journal": "Proceedings of the London Mathematical Society(3)21(1970),102–107",
+      "doi": "10.1112/plms/s3-21.1.102",
+      "url": "https://academic.oup.com/plms/article-abstract/s3-21/1/102/1497295",
+      "secondary_publisher_url": "https://londmathsoc.onlinelibrary.wiley.com/doi/pdf/10.1112/plms/s3-21.1.102",
+      "read_scope": "Publisher bibliographic metadata only; full PDF subscriber-only, not read. No stronger theorem imported as an independently proved result."
+    }
+  ],
+  "errata": {
+    "layers": [
+      "all2-prepre",
+      "all2-pre",
+      "all2",
+      "err2"
+    ],
+    "visual_pages": {
+      "all2-prepre": [
+        21,
+        22,
+        23,
+        24,
+        41,
+        42
+      ],
+      "all2-pre": [
+        10,
+        11,
+        15,
+        16
+      ],
+      "all2": [
+        7,
+        10,
+        11
+      ],
+      "err2": [
+        7,
+        10
+      ]
+    },
+    "files": [
+      {
+        "file": "sources/factoring-errata-all2-prepre.txt",
+        "bytes": 14278,
+        "sha256": "36be06509135963567d8caac524e3cc59cd010f7f0bedb664fe6a347b05c41f8"
+      },
+      {
+        "file": "sources/factoring-errata-all2-pre.txt",
+        "bytes": 4957,
+        "sha256": "cb493950ef57578c6c5d6f0467970356cb9b558569d6dc6c8e26cfac5725b364"
+      },
+      {
+        "file": "sources/factoring-errata-all2.txt",
+        "bytes": 1907,
+        "sha256": "c68f43c5989b6de923fa83bfb6e33a1126e193292769ac4037d4ca29b5f8b710"
+      },
+      {
+        "file": "sources/factoring-errata-err2.txt",
+        "bytes": 1952,
+        "sha256": "b93b8dcadcb2983d88e8c550dcd534caa6002a4ea5b68b523253fee8545dfee6"
+      }
+    ],
+    "scope": "All47 exercises inventoried; no added number. Sieve2001 off-by-one and initialization applied, new empty range persists. Mertens volume and Nicomachus qualification not found in four layers or current sources/err2.textxt. Corrections elsewhere queued in inventory."
+  },
+  "verification": {
+    "script": {
+      "file": "verify_factoring_basic.py",
+      "bytes": 7354,
+      "sha256": "aac8501e29c3032f2ec52bbda9eb9dcb83bfdf7075dbe87a8732798ef9f7e403"
+    },
+    "result": {
+      "file": "results/factoring-basic.json",
+      "bytes": 5278,
+      "sha256": "c645524ecb0a743dd79ee9efe175de4352826e7a24b5293ae8f7a0755adda9fb"
+    },
+    "log": {
+      "file": "results/factoring-basic.log",
+      "bytes": 126,
+      "sha256": "dbe518dfac769e30e8ff7337ef4b5f4c16fe2f5bfe9567b1f35d9a4e3d2b48f1"
+    },
+    "initial_log": {
+      "file": "results/factoring-basic-initial.log",
+      "bytes": 566,
+      "sha256": "86519418b225ca353540e2631607cf848251909f978e81bb1820ee5b1eb1c929"
+    },
+    "scope": "Six checkpoints passed; first five recovered from initial run. Initial failure was own rounding-vs-truncation assertion, corrected. Main proofs in notes/factoring-basic.md; SPF sieve independently validates factoring algorithms. Arb interval constant includes explicit analytic tail."
+  }
+}

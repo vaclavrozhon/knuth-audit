@@ -1,0 +1,242 @@
+{
+  "at_utc": "2026-11-03T11:56:43.387908+00:00",
+  "files": {
+    "errata/text/all4b.txt": "b1a3425486f403fb4158585d5bbfef0159fd20b12e2e7d47b64e393e1ae8a303",
+    "errata/text/err4b.txt": "2a3450bf3c79d28ad3c2d96468344c96995cf0afb74961f257c311bb9c821e1c",
+    "errata/text/all4f5.txt": "0dd38c4cda72b01baefb797611c9bbab7713ff0c107a1df884afc89fe9bb91c3",
+    "errata/text/err4f5.txt": "5a716c34e2063eb46005593d53e89dbbd912b5677e0a6ab11753f2a5ee38b557",
+    "errata/originals/err4b.textxt": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+    "errata/originals/err4f5.textxt": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b"
+  },
+  "pattern": "(?:[Pp]age\\s+|(?:4b|4f5)\\.)(?:93|94|144|461|29|30|80|165|91|92|142|269)\\b|(?:answer|exercise|exer ise)\\s+(?:159|160|161)\\b|(?:dominat|queen|quadrant|component)",
+  "contexts": [
+    {
+      "file": "errata/text/all4b.txt",
+      "splitlines_index": 166,
+      "context": "  line 3: like hide(p)   y like hide(p) in (13)\nxPage 91 line 6                                                             17 De 2022\n  only 5.2 G\u0016 y only 4.5 G\u0016\n Page 95 the line after (66)                                         10 Jan 2026\n  to nd them       y\n                  to nd them, and to show that seven distin t letters is impos-"
+    },
+    {
+      "file": "errata/text/all4b.txt",
+      "splitlines_index": 213,
+      "context": "  (2, 3, 3, 57) y (2, 2, 3, 57)\nPage 142 line 7                                                                            13 Feb 2023\n     the boundary of    y the boundary path of\nPage 145 line 3 of exer ise 162                                                           04 Nov 2023\n     eight of the possible   y eight of the ten possible\nxPage 145 line 4 of exer ise 165                                                           02 Jan 2025"
+    },
+    {
+      "file": "errata/text/all4b.txt",
+      "splitlines_index": 1360,
+      "context": " Bitwise operations, 33, 55, 72, 76, 127,         Coil: A snake y le, 146, 161, 465.\n      144, 181, 195, 196, 265, 342, 345, 410,     Coloring a graph of queens, 126, 137,\n      561, 605, 610, 622{623.                          283{284, 298{299, 355.\n Bizarre result, 103.\n Blank (unmat hable) olor, 88{89, 463.            Covering problems, 93{94, 153, 186, 443,\n Borel, F\u0013elix E\u0013 douard Justin E\u0013 mile, 87{88.        557, 558, 668; see also Exa t over"
+    },
+    {
+      "file": "errata/text/err4b.txt",
+      "splitlines_index": 149,
+      "context": "  the olor of any other option   y its olor in any other option\nxPage 91 line 6                                                            17 De 2022\n  only 5.2 G\u0016 y only 4.5 G\u0016\n Page 95 the line after (66)                                         10 Jan 2026\n  to nd them    y to nd them, and to show that seven distin t letters is impos-\n  sible,"
+    },
+    {
+      "file": "errata/text/err4b.txt",
+      "splitlines_index": 1329,
+      "context": "Coil: A snake y le, 146, 161, 465.               Hardy, Thomas, 548.\nColoring a graph of queens, 126, 137,            Head of a list, see List heads.\n     283{284, 298{299, 355.                      Hexade imal digits, extended past f,\nCovering problems, 93{94, 153, 186, 443,              73, 80, 484.\n     557, 558, 668; see also Exa t over          Hunter, Za hary William Saunders, 549.\n     problem, Tilings by dominoes.               Indu ed subgraphs, 63, 114, 145{146,"
+    },
+    {
+      "file": "errata/text/all4f5.txt",
+      "splitlines_index": 161,
+      "context": "    formulas for entropy. Prove or disprove: If 0 \u0014 x \u0014 y \u0014 1 then jf (y) f (x)j \u0014 jf (y x)j.\nPage 30 line 2                                                                    14 Nov 2020\n level 5 y level 5 below the root.\nPage 35 lines 19 and 17                                                           15 May 2020\n line 19: four-letter words y four-letter odewords\n line 17: from words of the set y from strings of the set"
+    },
+    {
+      "file": "errata/text/all4f5.txt",
+      "splitlines_index": 300,
+      "context": "x\nPage 144         orre tion to puzzle (ii) in exer ise 173                            04 De 2019\n    : : : Diagram (ii) shows 8 : : : the other 19 an be dedu ed. : : :\n                                           n               n\n                                                               n\n                                           3               1"
+    },
+    {
+      "file": "errata/text/all4f5.txt",
+      "splitlines_index": 329,
+      "context": "x\nPage 144       rewording of exer ise 177                                             17 Nov 2021\n177.     [M21 ℄ Algorithm 7.2.1.5M generates the p(n1 ; : : : ; nm ) partitions of the multiset\n    fn1 \u0001 x1 ; : : : ; nm \u0001 xm g into submultisets. Consider the spe ial ases where n1 = \u0001 \u0001 \u0001 =\n    ns = 1 and ns+1 = \u0001 \u0001 \u0001 = ns+t = 2 and s + t = m.\n     a) Generate those partitions with Algorithm M, using the previous two exer ises."
+    },
+    {
+      "file": "errata/text/all4f5.txt",
+      "splitlines_index": 363,
+      "context": "     line 5: left-handed y right-handed\nx   Page 165   the illustrations in exer ise 341(a) and 345       25 May 2021\n     [the darker ubies should be mu h darker; ompare with the olored versions\n     online in s.stanford.edu/~knuth/fas 5 .ps.gz, page 103℄\n    Page 169 and 170, repla ement for exer ise 372                 10 Sep 2021\nx"
+    },
+    {
+      "file": "errata/text/all4f5.txt",
+      "splitlines_index": 1077,
+      "context": "     240, 250, 251, 267{271, 280, 302,               21, 25, 56, 147, 183, 204, 291.\n     303, 306, 325, 355.                        Queen domination problems, 91{92, 142.\nM Donald, Gary, 250, 356.                       R-twist, see L-twist.\nMebane, Palmer Croasdale, 346.                  Re urren e relations, 99{101, 146, 192,\n                  h i\nMedian fun tion ( xyz ), vi, 24, 201, 353.           197, 216, 226, 355, 384."
+    },
+    {
+      "file": "errata/text/all4f5.txt",
+      "splitlines_index": 1092,
+      "context": "                                                Simkin, Menahem Mi hael\nn queens problem (independent queens),               (OEWNEQ L\bKIN MDPN), 53.\n     29{32, 44{46, 51{53, 68{71, 103,           So ial distan ing, 157.\n     108, 110{111, 116, 120, 121, 124{126,      Spanning trees, 60, 353.\n     143, 148, 150, 232.                        Stappers, Filip Jan Jos, 234.\nn-queens problem (dominating queens),           Stong, Ri hard Andrew, 248."
+    },
+    {
+      "file": "errata/text/all4f5.txt",
+      "splitlines_index": 1096,
+      "context": "     143, 148, 150, 232.                        Stappers, Filip Jan Jos, 234.\nn-queens problem (dominating queens),           Stong, Ri hard Andrew, 248.\n     91{92, 142.                                Stork, David Geo rey, 183.\nNixon, Dennison, 319.                           Tatami tilings, 155, 169{170, 240,\nNobel, Parth Talpur, 207.                            296, 305, 328.\nOdlyzko, Andrew Mi hael, 384.                   Ternary ommafree odes, 36{37, 39, 214."
+    },
+    {
+      "file": "errata/text/all4f5.txt",
+      "splitlines_index": 1164,
+      "context": "for the number of n-element Baxter permutations with exa tlyPk as ents.\n      Sin e the terms with k \u0019 n=2 dominate the sum bn = k bn (k), we obtain the\nasymptoti value\n                                          n+2 \u0010                      \u0011\n                            bn = p8 4 1 22 + O(n 2 ) ;\n                                         12\u0019n          3n"
+    },
+    {
+      "file": "errata/text/err4f5.txt",
+      "splitlines_index": 255,
+      "context": "x\nPage 144         orre tion to puzzle (ii) in exer ise 173                            04 De 2019\n    : : : Diagram (ii) shows 8 : : : the other 19 an be dedu ed. : : :\n                                           n               n\n                                                               n\n                                           3               1"
+    },
+    {
+      "file": "errata/text/err4f5.txt",
+      "splitlines_index": 284,
+      "context": "x\nPage 144       rewording of exer ise 177                                             17 Nov 2021\n177.     [M21 ℄ Algorithm 7.2.1.5M generates the p(n1 ; : : : ; nm ) partitions of the multiset\n    fn1 \u0001 x1 ; : : : ; nm \u0001 xm g into submultisets. Consider the spe ial ases where n1 = \u0001 \u0001 \u0001 =\n    ns = 1 and ns+1 = \u0001 \u0001 \u0001 = ns+t = 2 and s + t = m.\n     a) Generate those partitions with Algorithm M, using the previous two exer ises."
+    },
+    {
+      "file": "errata/text/err4f5.txt",
+      "splitlines_index": 314,
+      "context": "     line 5: left-handed y right-handed\nx   Page 165   the illustrations in exer ise 341(a) and 345       25 May 2021\n     [the darker ubies should be mu h darker; ompare with the olored versions\n     online in s.stanford.edu/~knuth/fas 5 .ps.gz, page 103℄\n    Page 169 and 170, repla ement for exer ise 372                 10 Sep 2021\nx"
+    },
+    {
+      "file": "errata/text/err4f5.txt",
+      "splitlines_index": 1018,
+      "context": "     240, 250, 251, 267{271, 280, 302,               21, 25, 56, 147, 183, 204, 291.\n     303, 306, 325, 355.                        Queen domination problems, 91{92, 142.\nM Donald, Gary, 250, 356.                       R-twist, see L-twist.\nMebane, Palmer Croasdale, 346.                  Re urren e relations, 99{101, 146, 192,\n                  h i\nMedian fun tion ( xyz ), vi, 24, 201, 353.           197, 216, 226, 355, 384."
+    },
+    {
+      "file": "errata/text/err4f5.txt",
+      "splitlines_index": 1033,
+      "context": "                                                Simkin, Menahem Mi hael\nn queens problem (independent queens),               (OEWNEQ L\bKIN MDPN), 53.\n     29{32, 44{46, 51{53, 68{71, 103,           So ial distan ing, 157.\n     108, 110{111, 116, 120, 121, 124{126,      Spanning trees, 60, 353.\n     143, 148, 150, 232.                        Stappers, Filip Jan Jos, 234.\nn-queens problem (dominating queens),           Stong, Ri hard Andrew, 248."
+    },
+    {
+      "file": "errata/text/err4f5.txt",
+      "splitlines_index": 1037,
+      "context": "     143, 148, 150, 232.                        Stappers, Filip Jan Jos, 234.\nn-queens problem (dominating queens),           Stong, Ri hard Andrew, 248.\n     91{92, 142.                                Stork, David Geo rey, 183.\nNixon, Dennison, 319.                           Tatami tilings, 155, 169{170, 240,\nNobel, Parth Talpur, 207.                            296, 305, 328.\nOdlyzko, Andrew Mi hael, 384.                   Ternary ommafree odes, 36{37, 39, 214."
+    },
+    {
+      "file": "errata/text/err4f5.txt",
+      "splitlines_index": 1105,
+      "context": "for the number of n-element Baxter permutations with exa tlyPk as ents.\n      Sin e the terms with k \u0019 n=2 dominate the sum bn = k bn (k), we obtain the\nasymptoti value\n                                          n+2 \u0010                      \u0011\n                            bn = p8 4 1 22 + O(n 2 ) ;\n                                         12\u0019n          3n"
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "splitlines_index": 362,
+      "context": "\n\\bugonpage 4b.91 line $-6$ (22.12.17)\nonly 5.2 G$\\mu$ \\becomes only 4.5 G$\\mu$\n\\endchange\n\n\\amendpage 4b.95 the line after {\\eq(66)} (26.01.10)"
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "splitlines_index": 433,
+      "context": "\n\\improvepage 4b.142 line 7 (23.02.13)\n\\ninepoint the boundary of \\becomes the boundary path of\n\\endchange\n\n\\improvepage 4b.145 line 3 of exercise 162 (23.11.04)"
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "splitlines_index": 1274,
+      "context": "It has 14 instances of repeated edges.)\\tighten\\par\\breathe\n(b) The Somap has just two components, namely the isolated vertex and the\n239 others. The latter has just three bicomponents, namely the pendant\nvertex, its neighbor, and the 237 others. Its diameter is 8\n(or 21, if we use the edge lengths 2 and~3).\\tighten\\par\n% well I cheated, by using 100000 random trials of diameter-approx!"
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "splitlines_index": 1275,
+      "context": "(b) The Somap has just two components, namely the isolated vertex and the\n239 others. The latter has just three bicomponents, namely the pendant\nvertex, its neighbor, and the 237 others. Its diameter is 8\n(or 21, if we use the edge lengths 2 and~3).\\tighten\\par\n% well I cheated, by using 100000 random trials of diameter-approx!\n% longest seems to be #4210 (LR7g)  to #4169 (BB4h)"
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "splitlines_index": 1281,
+      "context": "The strong Somap has a much sparser and more intricate structure.\nBesides the 15 isolated vertices, there are 25 components of\nsizes $\\{8\\times2,6\\times3,4,3\\times5,\\allowbreak 2\\times6,\\allowbreak7,8,11,16,118\\}$.\nUsing the algorithm of Section 7.4.1.2, the large component breaks down into \nnine bicomponents (seven of size~1, and another of size~2, not counting\narticulation points; the other of size 109);"
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "splitlines_index": 1283,
+      "context": "sizes $\\{8\\times2,6\\times3,4,3\\times5,\\allowbreak 2\\times6,\\allowbreak7,8,11,16,118\\}$.\nUsing the algorithm of Section 7.4.1.2, the large component breaks down into \nnine bicomponents (seven of size~1, and another of size~2, not counting\narticulation points; the other of size 109);\nthe 16-vertex component breaks into seven; and so on,\ntotalling 58 bicomponents altogether for the nonisolated vertices.\\tighten\\par"
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "splitlines_index": 1284,
+      "context": "Using the algorithm of Section 7.4.1.2, the large component breaks down into \nnine bicomponents (seven of size~1, and another of size~2, not counting\narticulation points; the other of size 109);\nthe 16-vertex component breaks into seven; and so on,\ntotalling 58 bicomponents altogether for the nonisolated vertices.\\tighten\\par\n\\endgroup % end of \\def\\3 and \\font\\tiny"
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "splitlines_index": 1286,
+      "context": "articulation points; the other of size 109);\nthe 16-vertex component breaks into seven; and so on,\ntotalling 58 bicomponents altogether for the nonisolated vertices.\\tighten\\par\n\\endgroup % end of \\def\\3 and \\font\\tiny\n\\endchange\n"
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "splitlines_index": 1287,
+      "context": "the 16-vertex component breaks into seven; and so on,\ntotalling 58 bicomponents altogether for the nonisolated vertices.\\tighten\\par\n\\endgroup % end of \\def\\3 and \\font\\tiny\n\\endchange\n\n\\amendpage 4b.509 in answer {335(b)} (26.03.03)"
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "splitlines_index": 1891,
+      "context": "Coil: A snake cycle, 146, 161, 465. % 3rd\nColoring a graph of queens, 126, 137, 283--284, 298--299, 355. % 3rd\nCovering problems, 93--94, 153, 186, 443, 557, 558, 668; \\also Exact cover problem, Tilings by dominoes. % 3rd\n\\.{CUTOFF}, 434. % 3rd\nCycles, requiring just one, 178. % 3rd\nde La Vall\\'ee Poussin, Charles \\'Etienne Jean Gustave Nicolas, 388. % 3rd"
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "splitlines_index": 2215,
+      "context": "page 22, ex 109, [see ...] -> (see ...)\npage 80, line before (36):  August, -> August\npage 80, comma after last line of (37)\npage 87, footnote, Uppsala: -> Uppsala,\npage 90, in (55) and (57), if -> If\npage 188, line 11, ; thus -> . Thus"
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "splitlines_index": 2216,
+      "context": "page 80, line before (36):  August, -> August\npage 80, comma after last line of (37)\npage 87, footnote, Uppsala: -> Uppsala,\npage 90, in (55) and (57), if -> If\npage 188, line 11, ; thus -> . Thus\npage 188, line after (8), these -> those"
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "splitlines_index": 311,
+      "context": "\n\\improvepage 4f5.30 line 2 (20.11.14)\nlevel 5 \\becomes level 5 below the root.\n\\endchange\n\n\\improvepage 4f5.35 lines $-19$ and $-17$ (20.05.15)"
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "splitlines_index": 567,
+      "context": "\n\\bugonpage 4f5.144 correction to puzzle {(ii)} in exercise 173 (19.12.04)\n\\ninepoint \\dots\\ Diagram (ii) shows 8 \\dots\\ the other 19 can be deduced. \\dots\n$$\\def\\epsfsize#1#2{.5#1}\\vcenter{\\epsfbox{\\figdir/v4b.2121}}$$\n\\endchange\n"
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "splitlines_index": 572,
+      "context": "\n\\bugonpage 4f5.144 rewording of exercise 177 (21.11.17)\n\\ninepoint\n\\ex177. [M21] Algorithm 7.2.1.5M generates the\n$p(n_1,\\ldots,n_m)$ partitions of the multiset\n$\\{n_1\\cdot x_1,\\ldots,n_m\\cdot x_m\\}$ into submultisets."
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "splitlines_index": 637,
+      "context": "\n\\bugonpage 4f5.165 the illustrations in exercise {341(a)} and 345 (21.05.25)\n[the darker cubies should be much darker; compare with the colored versions\nonline in {\\tt cs.stanford.edu/\\char`\\~knuth/fasc5c.ps.gz}, page 103]\n\\endchange\n"
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "splitlines_index": 1852,
+      "context": "Coffin, Stewart Temple, 324. % 3rd\nConnected components, 134, 142--143, 151, 162, 167, 244, 248, 250. % 3rd\nConvex functions, 4, 8, 16, 20, 27, 189, 194, 195. % 3rd\nCutsets, 344. % 2nd\n$d^+(v)$ (out-degree of $v$), 218, 247, 337. % 2nd\nData structures, 30--32, 35, 37--40, 44, 56, 63--67, 94--95, 107, 118, 170. % 3rd"
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "splitlines_index": 2339,
+      "context": "), 331. % 3rd\n$n$ queens problem (independent queens), 29--32, 44--46, 51--53, 68--71, 103, 108, 110--111, 116, 120, 121, 124--126, 143, 148, 150, 232. % 3rd\n$n$-queens problem (dominating queens),  91--92, 142. % 2nd\nNixon, Dennison, 319. % 2nd\nNobel, Parth Talpur, 207. % 3rd\nOdlyzko, Andrew Michael, 384. % 3rd"
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "splitlines_index": 2340,
+      "context": "$n$ queens problem (independent queens), 29--32, 44--46, 51--53, 68--71, 103, 108, 110--111, 116, 120, 121, 124--126, 143, 148, 150, 232. % 3rd\n$n$-queens problem (dominating queens),  91--92, 142. % 2nd\nNixon, Dennison, 319. % 2nd\nNobel, Parth Talpur, 207. % 3rd\nOdlyzko, Andrew Michael, 384. % 3rd\nOEIS\\regtm: The On-Line Encyclopedia of Integer Sequences\\regtm\\ ({\\tt oeis\\period org}), 230, 231, 263, 277, 312, 324. % 3rd"
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "splitlines_index": 2359,
+      "context": "q\\period s\\period: Asymptotically quite surely, 12, 20, 21, 25, 56, 147, 183, 204, 291. % 4th\nQueen domination problems, 91--92, 142. % 2nd\nR-twist, \\see L-twist. % 3rd\nRecurrence relations, 99--101, 146, 192, 197, 216, 226, 355, 384. % 3rd\nReflection symmetry, 40, 53, 81, 89, 165, 169, 172, 206, 236--237, 257, 260--262, 303. % 3rd\nRight-to-left maxima or minima, 384. % 3rd"
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "splitlines_index": 2580,
+      "context": "for the number of $n$-element Baxter permutations with exactly $k$ ascents.\\par\nSince the terms with $k\\approx n/2$ dominate the sum\n$b_n=\\sum_k b_n(k)$, we obtain the asymptotic value\n$$b_n={8^{n+2}\\over\\sqrt{12} \\pi n^4}\\Bigl(1-{22\\over3n}+O(n^{-2})\\Bigr),$$\ndue to A.~M. Odlyzko.\n[See G. Baxter, {\\sl Proc.\\ American Math.\\ Soc.\\ \\bf15} (1964), 851--855;"
+    }
+  ],
+  "matching_correction_to_159_160_161_found": false,
+  "F067_still_not_in_checked_errata": true,
+  "latest_remote_retrieval": "2026-11-03T05:37:34Z; same six hashes",
+  "page_mapping": {
+    "volume4b": [
+      93,
+      94,
+      144,
+      461
+    ],
+    "author_draft": [
+      29,
+      30,
+      80,
+      165
+    ],
+    "published_fascicle5": [
+      91,
+      92,
+      142,
+      269
+    ]
+  }
+}

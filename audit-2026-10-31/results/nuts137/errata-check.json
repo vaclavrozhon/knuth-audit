@@ -1,0 +1,60 @@
+{
+  "checked_at_utc": "2026-11-02T14:13:58.309344+00:00",
+  "source_sha256": "e7347349730a773e5a57b456992fd4a078d94aaf835228555f0110fe5c34396b",
+  "local_files": {
+    "errata/text/all4b.txt": "b1a3425486f403fb4158585d5bbfef0159fd20b12e2e7d47b64e393e1ae8a303",
+    "errata/text/err4b.txt": "2a3450bf3c79d28ad3c2d96468344c96995cf0afb74961f257c311bb9c821e1c",
+    "errata/text/all4f5.txt": "0dd38c4cda72b01baefb797611c9bbab7713ff0c107a1df884afc89fe9bb91c3",
+    "errata/text/err4f5.txt": "5a716c34e2063eb46005593d53e89dbbd912b5677e0a6ab11753f2a5ee38b557",
+    "errata/originals/err4b.textxt": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+    "errata/originals/err4f5.textxt": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b"
+  },
+  "remote_verified_at_utc": "2026-11-02T14:10:12.072711+00:00",
+  "remote_files": [
+    {
+      "file": "all4b.ps.gz",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/all4b.ps.gz",
+      "status": 200,
+      "sha256": "61c41e43dc337c1259f9ff690bfef718da2a656abdb110c6e7875c11f9566eea",
+      "unchanged": true
+    },
+    {
+      "file": "all4f5.ps.gz",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/all4f5.ps.gz",
+      "status": 200,
+      "sha256": "4c3edee8aa4c92f69bc5eb243ffe03779ae56c1e89a0ad36f85a2ac770fcbb83",
+      "unchanged": true
+    },
+    {
+      "file": "err4b.textxt",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/err4b.textxt",
+      "status": 200,
+      "sha256": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+      "unchanged": true
+    },
+    {
+      "file": "err4f5.textxt",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/err4f5.textxt",
+      "status": 200,
+      "sha256": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b",
+      "unchanged": true
+    }
+  ],
+  "search_patterns": [
+    "(?:Page|page)\\s+(?:140|452|138|260|76|156)\\b",
+    "(?:4b|4f5)\\.(?:140|452|138|260)\\b",
+    "(?:answer|exercise)\\s+137\\b",
+    "Drive.?Ya.?Nuts|hex nuts|Super.?Dom|Hydes|Whitehouse|Haswell|93\\\\?%|0[.]4\\\\?%"
+  ],
+  "contexts_sha256": "371393be83668a02bfcf14f50bd2ff9cc8bf78d0b2dae315c22e4358dc76c7c5",
+  "page_mapping": {
+    "question4B": 140,
+    "answer4B": 452,
+    "questionF5": 138,
+    "answerF5": 260,
+    "questionDraft5C": 76,
+    "answerDraft5C": 156
+  },
+  "correction137_found": false,
+  "conclusion": "All six contexts concern other exercises:121 on4B p138 or138 onF5 p260. No published correction found for137 or its probability distribution."
+}

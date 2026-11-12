@@ -1,0 +1,15 @@
+{
+  "positive_integer_weight_cases": 84,
+  "independent_involution_terms": 4212,
+  "exact_Sturm_real_and_simple_root_checks": 84,
+  "exact_interval_interlacing_checks": 1344,
+  "F034": "In the first displayed recurrence of answer 341, each summand W(S\\{i,j}) needs the factor w_ij.",
+  "F034_two_vertex_weights": {
+    "w11": 1,
+    "w22": 1,
+    "w12": 2
+  },
+  "F034_actual_polynomial": "x^2-2",
+  "F034_printed_recurrence_polynomial": "x^2-1",
+  "scope": "General strict-interlacing proof for positive weights in COGRAPH_NOTES.md; independent full-permutation enumeration through n=7 and exact Sturm/isolating-interval checks."
+}

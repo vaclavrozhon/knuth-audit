@@ -1,0 +1,75 @@
+{
+  "checked_at_utc": "2026-11-12T03:49:07.705598+00:00",
+  "new_findings": [
+    "F251",
+    "F252",
+    "F253"
+  ],
+  "errata_ranges": {
+    "4B": [
+      [
+        303,
+        312
+      ],
+      [
+        365,
+        366
+      ],
+      [
+        648,
+        651
+      ]
+    ],
+    "4F6": [
+      [
+        119,
+        128
+      ],
+      [
+        181,
+        182
+      ],
+      [
+        284,
+        287
+      ]
+    ]
+  },
+  "errata_files": [
+    "errata/text/all4b.txt",
+    "errata/text/err4b.txt",
+    "errata/text/all4f6.txt",
+    "errata/text/err4f6.txt"
+  ],
+  "refresh_manifests": [
+    "integration/2026-11-10-bookwise/errata/vol4b-manifest.json",
+    "integration/2026-11-10-bookwise/errata/vol4b-sat-manifest.json"
+  ],
+  "draft_pages": [
+    126,
+    286
+  ],
+  "primary_source": {
+    "pdf": "audit-2026-10-31/sources/bookwise-paramils-2009.pdf",
+    "provenance": "audit-2026-10-31/sources/bookwise-paramils-2009.provenance.json",
+    "read_scope": "Printed272 Definitions3–4 and Section5.1.2 (training/test instances and seeds); no claim to review the complete paper."
+  },
+  "public_searches": [
+    "ParamILS 2009 Hutter Hoos overfitting training test instances random seeds 267 306",
+    "Knuth \"509\" \"overfitting\"",
+    "Knuth \"504\" \"11111100\"",
+    "Knuth \"A1\" \"x100\" \"310\"",
+    "Knuth \"504\" \"00000011\" errata",
+    "Knuth \"509\" \"randomness\" overfitting"
+  ],
+  "public_search_result": "No matching book correction. Official ParamILS source corroborates the distinction used in F252.",
+  "known_errata": [
+    "2017 main305 Langford method/time correction already incorporated.",
+    "2019 main309 wording and2018 main310 parameter-label correction incorporated.",
+    "2020 answer513 verb correction incorporated."
+  ],
+  "dismissed": "Answer506 has10^2, not102. Original typesetting agrees with100 interior cells.",
+  "new_checks": [
+    "audit-2026-10-31/results/bookwise-closest504-fixed-witness.json"
+  ]
+}

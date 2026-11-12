@@ -1,0 +1,27 @@
+{
+  "counterexample": {
+    "alpha": "sqrt(2)-1",
+    "beta": "alpha/2",
+    "gamma": "alpha",
+    "book": 0,
+    "correct": 3,
+    "family": 21
+  },
+  "comparisons": {
+    "cases": 12096,
+    "original_failures": 684,
+    "recursive_transitions": 4074,
+    "max_index": 29,
+    "max_depth": 4,
+    "quadratic_rotations": 16,
+    "seconds": 17.518603942007758
+  },
+  "thin_intervals": {
+    "cases": 8,
+    "max_depth": 10,
+    "seconds": 3.308579306001775
+  },
+  "status": "passed",
+  "final_pid": 1235492,
+  "scope": "Exact quadratic-field comparisons by rational squares; independent orbit uses repeated addition and one subtraction, without recursive formula. General proof covers arbitrary irrational alpha and real endpoints."
+}

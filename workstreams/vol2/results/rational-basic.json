@@ -1,0 +1,304 @@
+{
+  "arithmetic": {
+    "status": "passed",
+    "seconds": 10.778272461990127,
+    "result": {
+      "small_pairs": 91809,
+      "large_pairs": 1000,
+      "large_operand_bits": 512,
+      "text_example": [
+        67,
+        44
+      ],
+      "exercise5": [
+        -41,
+        168
+      ]
+    }
+  },
+  "maximum": {
+    "status": "passed",
+    "seconds": 0.3625688049942255,
+    "result": {
+      "pairs": 77764,
+      "rows": [
+        {
+          "N": 2,
+          "maximum": 2,
+          "witness": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        },
+        {
+          "N": 3,
+          "maximum": 5,
+          "witness": [
+            [
+              2,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ]
+        },
+        {
+          "N": 4,
+          "maximum": 13,
+          "witness": [
+            [
+              3,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "N": 5,
+          "maximum": 25,
+          "witness": [
+            [
+              4,
+              3
+            ],
+            [
+              3,
+              4
+            ]
+          ]
+        },
+        {
+          "N": 6,
+          "maximum": 41,
+          "witness": [
+            [
+              5,
+              4
+            ],
+            [
+              4,
+              5
+            ]
+          ]
+        },
+        {
+          "N": 7,
+          "maximum": 61,
+          "witness": [
+            [
+              6,
+              5
+            ],
+            [
+              5,
+              6
+            ]
+          ]
+        },
+        {
+          "N": 8,
+          "maximum": 85,
+          "witness": [
+            [
+              7,
+              6
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        {
+          "N": 9,
+          "maximum": 113,
+          "witness": [
+            [
+              8,
+              7
+            ],
+            [
+              7,
+              8
+            ]
+          ]
+        },
+        {
+          "N": 10,
+          "maximum": 145,
+          "witness": [
+            [
+              9,
+              8
+            ],
+            [
+              8,
+              9
+            ]
+          ]
+        },
+        {
+          "N": 11,
+          "maximum": 181,
+          "witness": [
+            [
+              10,
+              9
+            ],
+            [
+              9,
+              10
+            ]
+          ]
+        },
+        {
+          "N": 12,
+          "maximum": 221,
+          "witness": [
+            [
+              11,
+              10
+            ],
+            [
+              10,
+              11
+            ]
+          ]
+        },
+        {
+          "N": 13,
+          "maximum": 265,
+          "witness": [
+            [
+              12,
+              11
+            ],
+            [
+              11,
+              12
+            ]
+          ]
+        },
+        {
+          "N": 14,
+          "maximum": 313,
+          "witness": [
+            [
+              13,
+              12
+            ],
+            [
+              12,
+              13
+            ]
+          ]
+        },
+        {
+          "N": 15,
+          "maximum": 365,
+          "witness": [
+            [
+              14,
+              13
+            ],
+            [
+              13,
+              14
+            ]
+          ]
+        },
+        {
+          "N": 16,
+          "maximum": 421,
+          "witness": [
+            [
+              15,
+              14
+            ],
+            [
+              14,
+              15
+            ]
+          ]
+        }
+      ],
+      "C0113": "N=2 requires maximum2, not1"
+    }
+  },
+  "fingerprints": {
+    "status": "passed",
+    "seconds": 0.9890510080149397,
+    "result": {
+      "cases": 87372,
+      "distinct_by_n": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          9
+        ],
+        [
+          3,
+          37
+        ],
+        [
+          4,
+          145
+        ],
+        [
+          5,
+          617
+        ],
+        [
+          6,
+          2457
+        ],
+        [
+          7,
+          9917
+        ],
+        [
+          8,
+          39641
+        ]
+      ],
+      "short_fingerprint_collision": [
+        9,
+        9
+      ]
+    }
+  },
+  "quadratic": {
+    "status": "passed",
+    "seconds": 0.9552630779799074,
+    "result": {
+      "exact_divisions": 4000,
+      "example_inverse_1_plus_sqrt5": [
+        -1,
+        1,
+        4
+      ]
+    }
+  },
+  "extended": {
+    "status": "passed",
+    "seconds": 0.0005623259930871427,
+    "result": {
+      "operation_cases": 144,
+      "literal_finite_division_by_zero": "raises; special dispatch required"
+    }
+  }
+}

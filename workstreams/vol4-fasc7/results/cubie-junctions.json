@@ -1,0 +1,2776 @@
+{
+  "scope": "All64 local cases by proved classification; all32 visible central diagrams and78 labels; Table1 V/W/Y.",
+  "all_case_sizes": {
+    "1": 8,
+    "3": 24,
+    "7": 8,
+    "5": 24
+  },
+  "visible_case_sizes": {
+    "1": 7,
+    "3": 15,
+    "5": 9,
+    "7": 1
+  },
+  "patterns": {
+    "V": {
+      "OI": 3,
+      "I+": 3,
+      "IO": 3,
+      "+O": 3,
+      "-I": 3,
+      "O-": 3
+    },
+    "W": {
+      "O+I": 3,
+      "+-+": 3,
+      "-+-": 3
+    },
+    "Y": {
+      "+++": 1,
+      "---": 1,
+      "O-I": 1,
+      "-IO": 1,
+      "IO-": 1
+    }
+  },
+  "vector_checks": {
+    "svg_sha256": "fa0929eaf588e5fea91eb22b07c8304a61dcda224eb6fd5442be6f472a5f7884",
+    "central_discs": 32,
+    "visible_rays": 78,
+    "marks": {
+      "+": 21,
+      "O": 18,
+      "I": 18,
+      "-": 21
+    },
+    "max_center_error_squared_points": "24420313/3200000000000",
+    "max_ray_cross_squared_ratio": "505406127343123739209/3256478868572033481414754834"
+  },
+  "cases": [
+    {
+      "printed_label": "0",
+      "occupied": [
+        0
+      ],
+      "edges": [
+        {
+          "axis_bit": 4,
+          "negative": false,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "+",
+          "ray": [
+            3,
+            1
+          ],
+          "front_faces": [
+            [
+              2,
+              1,
+              false
+            ],
+            [
+              1,
+              2,
+              false
+            ]
+          ]
+        },
+        {
+          "axis_bit": 2,
+          "negative": false,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "+",
+          "ray": [
+            0,
+            -3
+          ],
+          "front_faces": [
+            [
+              4,
+              1,
+              false
+            ],
+            [
+              1,
+              4,
+              false
+            ]
+          ]
+        },
+        {
+          "axis_bit": 1,
+          "negative": false,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "+",
+          "ray": [
+            -4,
+            1
+          ],
+          "front_faces": [
+            [
+              4,
+              2,
+              false
+            ],
+            [
+              2,
+              4,
+              false
+            ]
+          ]
+        }
+      ],
+      "type": "Y",
+      "clockwise_pattern": "+++",
+      "printed_rays": [
+        {
+          "axis_bit": 4,
+          "negative": false,
+          "label": "+",
+          "ray_path": 24,
+          "mark_path": 25
+        },
+        {
+          "axis_bit": 1,
+          "negative": false,
+          "label": "+",
+          "ray_path": 26,
+          "mark_path": 27
+        },
+        {
+          "axis_bit": 2,
+          "negative": false,
+          "label": "+",
+          "ray_path": 28,
+          "mark_path": 29
+        }
+      ]
+    },
+    {
+      "printed_label": "1",
+      "occupied": [
+        1
+      ],
+      "edges": [
+        {
+          "axis_bit": 4,
+          "negative": false,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "O",
+          "ray": [
+            3,
+            1
+          ],
+          "front_faces": [
+            [
+              2,
+              1,
+              true
+            ]
+          ]
+        },
+        {
+          "axis_bit": 2,
+          "negative": false,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "I",
+          "ray": [
+            0,
+            -3
+          ],
+          "front_faces": [
+            [
+              4,
+              1,
+              true
+            ]
+          ]
+        },
+        {
+          "axis_bit": 1,
+          "negative": true,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "+",
+          "ray": [
+            4,
+            -1
+          ],
+          "front_faces": [
+            [
+              4,
+              2,
+              false
+            ],
+            [
+              2,
+              4,
+              false
+            ]
+          ]
+        }
+      ],
+      "type": "W",
+      "clockwise_pattern": "O+I",
+      "printed_rays": [
+        {
+          "axis_bit": 4,
+          "negative": false,
+          "label": "O",
+          "ray_path": 39,
+          "mark_path": 40
+        },
+        {
+          "axis_bit": 1,
+          "negative": true,
+          "label": "+",
+          "ray_path": 41,
+          "mark_path": 42
+        },
+        {
+          "axis_bit": 2,
+          "negative": false,
+          "label": "I",
+          "ray_path": 43,
+          "mark_path": 44
+        }
+      ]
+    },
+    {
+      "printed_label": "2",
+      "occupied": [
+        2
+      ],
+      "edges": [
+        {
+          "axis_bit": 4,
+          "negative": false,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "I",
+          "ray": [
+            3,
+            1
+          ],
+          "front_faces": [
+            [
+              1,
+              2,
+              true
+            ]
+          ]
+        },
+        {
+          "axis_bit": 2,
+          "negative": true,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "+",
+          "ray": [
+            0,
+            3
+          ],
+          "front_faces": [
+            [
+              4,
+              1,
+              false
+            ],
+            [
+              1,
+              4,
+              false
+            ]
+          ]
+        },
+        {
+          "axis_bit": 1,
+          "negative": false,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "O",
+          "ray": [
+            -4,
+            1
+          ],
+          "front_faces": [
+            [
+              4,
+              2,
+              true
+            ]
+          ]
+        }
+      ],
+      "type": "W",
+      "clockwise_pattern": "O+I",
+      "printed_rays": [
+        {
+          "axis_bit": 4,
+          "negative": false,
+          "label": "I",
+          "ray_path": 54,
+          "mark_path": 55
+        },
+        {
+          "axis_bit": 1,
+          "negative": false,
+          "label": "O",
+          "ray_path": 56,
+          "mark_path": 57
+        },
+        {
+          "axis_bit": 2,
+          "negative": true,
+          "label": "+",
+          "ray_path": 58,
+          "mark_path": 59
+        }
+      ]
+    },
+    {
+      "printed_label": "3",
+      "occupied": [
+        3
+      ],
+      "edges": [
+        {
+          "axis_bit": 4,
+          "negative": false,
+          "material_quadrants": 1,
+          "visible": false
+        },
+        {
+          "axis_bit": 2,
+          "negative": true,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "O",
+          "ray": [
+            0,
+            3
+          ],
+          "front_faces": [
+            [
+              4,
+              1,
+              true
+            ]
+          ]
+        },
+        {
+          "axis_bit": 1,
+          "negative": true,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "I",
+          "ray": [
+            4,
+            -1
+          ],
+          "front_faces": [
+            [
+              4,
+              2,
+              true
+            ]
+          ]
+        }
+      ],
+      "type": "V",
+      "clockwise_pattern": "OI",
+      "printed_rays": [
+        {
+          "axis_bit": 1,
+          "negative": true,
+          "label": "I",
+          "ray_path": 69,
+          "mark_path": 70
+        },
+        {
+          "axis_bit": 2,
+          "negative": true,
+          "label": "O",
+          "ray_path": 71,
+          "mark_path": 72
+        }
+      ]
+    },
+    {
+      "printed_label": "4",
+      "occupied": [
+        4
+      ],
+      "edges": [
+        {
+          "axis_bit": 4,
+          "negative": true,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "+",
+          "ray": [
+            -3,
+            -1
+          ],
+          "front_faces": [
+            [
+              2,
+              1,
+              false
+            ],
+            [
+              1,
+              2,
+              false
+            ]
+          ]
+        },
+        {
+          "axis_bit": 2,
+          "negative": false,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "O",
+          "ray": [
+            0,
+            -3
+          ],
+          "front_faces": [
+            [
+              1,
+              4,
+              true
+            ]
+          ]
+        },
+        {
+          "axis_bit": 1,
+          "negative": false,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "I",
+          "ray": [
+            -4,
+            1
+          ],
+          "front_faces": [
+            [
+              2,
+              4,
+              true
+            ]
+          ]
+        }
+      ],
+      "type": "W",
+      "clockwise_pattern": "O+I",
+      "printed_rays": [
+        {
+          "axis_bit": 4,
+          "negative": true,
+          "label": "+",
+          "ray_path": 82,
+          "mark_path": 83
+        },
+        {
+          "axis_bit": 1,
+          "negative": false,
+          "label": "I",
+          "ray_path": 84,
+          "mark_path": 85
+        },
+        {
+          "axis_bit": 2,
+          "negative": false,
+          "label": "O",
+          "ray_path": 86,
+          "mark_path": 87
+        }
+      ]
+    },
+    {
+      "printed_label": "5",
+      "occupied": [
+        5
+      ],
+      "edges": [
+        {
+          "axis_bit": 4,
+          "negative": true,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "I",
+          "ray": [
+            -3,
+            -1
+          ],
+          "front_faces": [
+            [
+              2,
+              1,
+              true
+            ]
+          ]
+        },
+        {
+          "axis_bit": 2,
+          "negative": false,
+          "material_quadrants": 1,
+          "visible": false
+        },
+        {
+          "axis_bit": 1,
+          "negative": true,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "O",
+          "ray": [
+            4,
+            -1
+          ],
+          "front_faces": [
+            [
+              2,
+              4,
+              true
+            ]
+          ]
+        }
+      ],
+      "type": "V",
+      "clockwise_pattern": "OI",
+      "printed_rays": [
+        {
+          "axis_bit": 4,
+          "negative": true,
+          "label": "I",
+          "ray_path": 97,
+          "mark_path": 98
+        },
+        {
+          "axis_bit": 1,
+          "negative": true,
+          "label": "O",
+          "ray_path": 99,
+          "mark_path": 100
+        }
+      ]
+    },
+    {
+      "printed_label": "6",
+      "occupied": [
+        6
+      ],
+      "edges": [
+        {
+          "axis_bit": 4,
+          "negative": true,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "O",
+          "ray": [
+            -3,
+            -1
+          ],
+          "front_faces": [
+            [
+              1,
+              2,
+              true
+            ]
+          ]
+        },
+        {
+          "axis_bit": 2,
+          "negative": true,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "I",
+          "ray": [
+            0,
+            3
+          ],
+          "front_faces": [
+            [
+              1,
+              4,
+              true
+            ]
+          ]
+        },
+        {
+          "axis_bit": 1,
+          "negative": false,
+          "material_quadrants": 1,
+          "visible": false
+        }
+      ],
+      "type": "V",
+      "clockwise_pattern": "OI",
+      "printed_rays": [
+        {
+          "axis_bit": 4,
+          "negative": true,
+          "label": "O",
+          "ray_path": 110,
+          "mark_path": 111
+        },
+        {
+          "axis_bit": 2,
+          "negative": true,
+          "label": "I",
+          "ray_path": 112,
+          "mark_path": 113
+        }
+      ]
+    },
+    {
+      "printed_label": "~7",
+      "occupied": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "edges": [
+        {
+          "axis_bit": 4,
+          "negative": true,
+          "material_quadrants": 3,
+          "visible": true,
+          "label": "-",
+          "ray": [
+            -3,
+            -1
+          ],
+          "front_faces": [
+            [
+              2,
+              1,
+              true
+            ],
+            [
+              1,
+              2,
+              true
+            ]
+          ]
+        },
+        {
+          "axis_bit": 2,
+          "negative": true,
+          "material_quadrants": 3,
+          "visible": true,
+          "label": "-",
+          "ray": [
+            0,
+            3
+          ],
+          "front_faces": [
+            [
+              4,
+              1,
+              true
+            ],
+            [
+              1,
+              4,
+              true
+            ]
+          ]
+        },
+        {
+          "axis_bit": 1,
+          "negative": true,
+          "material_quadrants": 3,
+          "visible": true,
+          "label": "-",
+          "ray": [
+            4,
+            -1
+          ],
+          "front_faces": [
+            [
+              4,
+              2,
+              true
+            ],
+            [
+              2,
+              4,
+              true
+            ]
+          ]
+        }
+      ],
+      "type": "Y",
+      "clockwise_pattern": "---",
+      "printed_rays": [
+        {
+          "axis_bit": 4,
+          "negative": true,
+          "label": "-",
+          "ray_path": 130,
+          "mark_path": 131
+        },
+        {
+          "axis_bit": 1,
+          "negative": true,
+          "label": "-",
+          "ray_path": 132,
+          "mark_path": 133
+        },
+        {
+          "axis_bit": 2,
+          "negative": true,
+          "label": "-",
+          "ray_path": 134,
+          "mark_path": 135
+        }
+      ]
+    },
+    {
+      "printed_label": "023",
+      "occupied": [
+        0,
+        2,
+        3
+      ],
+      "edges": [
+        {
+          "axis_bit": 4,
+          "negative": false,
+          "material_quadrants": 3,
+          "visible": false
+        },
+        {
+          "axis_bit": 2,
+          "negative": false,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "+",
+          "ray": [
+            0,
+            -3
+          ],
+          "front_faces": [
+            [
+              4,
+              1,
+              false
+            ],
+            [
+              1,
+              4,
+              false
+            ]
+          ]
+        },
+        {
+          "axis_bit": 1,
+          "negative": true,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "I",
+          "ray": [
+            4,
+            -1
+          ],
+          "front_faces": [
+            [
+              4,
+              2,
+              true
+            ]
+          ]
+        }
+      ],
+      "type": "V",
+      "clockwise_pattern": "I+",
+      "printed_rays": [
+        {
+          "axis_bit": 1,
+          "negative": true,
+          "label": "I",
+          "ray_path": 148,
+          "mark_path": 149
+        },
+        {
+          "axis_bit": 2,
+          "negative": false,
+          "label": "+",
+          "ray_path": 150,
+          "mark_path": 151
+        }
+      ]
+    },
+    {
+      "printed_label": "102",
+      "occupied": [
+        0,
+        1,
+        2
+      ],
+      "edges": [
+        {
+          "axis_bit": 4,
+          "negative": false,
+          "material_quadrants": 3,
+          "visible": true,
+          "label": "-",
+          "ray": [
+            3,
+            1
+          ],
+          "front_faces": [
+            [
+              2,
+              1,
+              true
+            ],
+            [
+              1,
+              2,
+              true
+            ]
+          ]
+        },
+        {
+          "axis_bit": 2,
+          "negative": true,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "+",
+          "ray": [
+            0,
+            3
+          ],
+          "front_faces": [
+            [
+              4,
+              1,
+              false
+            ],
+            [
+              1,
+              4,
+              false
+            ]
+          ]
+        },
+        {
+          "axis_bit": 1,
+          "negative": true,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "+",
+          "ray": [
+            4,
+            -1
+          ],
+          "front_faces": [
+            [
+              4,
+              2,
+              false
+            ],
+            [
+              2,
+              4,
+              false
+            ]
+          ]
+        }
+      ],
+      "type": "W",
+      "clockwise_pattern": "+-+",
+      "printed_rays": [
+        {
+          "axis_bit": 4,
+          "negative": false,
+          "label": "-",
+          "ray_path": 164,
+          "mark_path": 165
+        },
+        {
+          "axis_bit": 1,
+          "negative": true,
+          "label": "+",
+          "ray_path": 166,
+          "mark_path": 167
+        },
+        {
+          "axis_bit": 2,
+          "negative": true,
+          "label": "+",
+          "ray_path": 168,
+          "mark_path": 169
+        }
+      ]
+    },
+    {
+      "printed_label": "231",
+      "occupied": [
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        {
+          "axis_bit": 4,
+          "negative": false,
+          "material_quadrants": 3,
+          "visible": false
+        },
+        {
+          "axis_bit": 2,
+          "negative": false,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "I",
+          "ray": [
+            0,
+            -3
+          ],
+          "front_faces": [
+            [
+              4,
+              1,
+              true
+            ]
+          ]
+        },
+        {
+          "axis_bit": 1,
+          "negative": false,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "O",
+          "ray": [
+            -4,
+            1
+          ],
+          "front_faces": [
+            [
+              4,
+              2,
+              true
+            ]
+          ]
+        }
+      ],
+      "type": "V",
+      "clockwise_pattern": "IO",
+      "printed_rays": [
+        {
+          "axis_bit": 1,
+          "negative": false,
+          "label": "O",
+          "ray_path": 182,
+          "mark_path": 183
+        },
+        {
+          "axis_bit": 2,
+          "negative": false,
+          "label": "I",
+          "ray_path": 184,
+          "mark_path": 185
+        }
+      ]
+    },
+    {
+      "printed_label": "310",
+      "occupied": [
+        0,
+        1,
+        3
+      ],
+      "edges": [
+        {
+          "axis_bit": 4,
+          "negative": false,
+          "material_quadrants": 3,
+          "visible": false
+        },
+        {
+          "axis_bit": 2,
+          "negative": true,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "O",
+          "ray": [
+            0,
+            3
+          ],
+          "front_faces": [
+            [
+              4,
+              1,
+              true
+            ]
+          ]
+        },
+        {
+          "axis_bit": 1,
+          "negative": false,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "+",
+          "ray": [
+            -4,
+            1
+          ],
+          "front_faces": [
+            [
+              4,
+              2,
+              false
+            ],
+            [
+              2,
+              4,
+              false
+            ]
+          ]
+        }
+      ],
+      "type": "V",
+      "clockwise_pattern": "+O",
+      "printed_rays": [
+        {
+          "axis_bit": 1,
+          "negative": false,
+          "label": "+",
+          "ray_path": 198,
+          "mark_path": 199
+        },
+        {
+          "axis_bit": 2,
+          "negative": true,
+          "label": "O",
+          "ray_path": 200,
+          "mark_path": 201
+        }
+      ]
+    },
+    {
+      "printed_label": "~467",
+      "occupied": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "edges": [
+        {
+          "axis_bit": 4,
+          "negative": true,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "I",
+          "ray": [
+            -3,
+            -1
+          ],
+          "front_faces": [
+            [
+              2,
+              1,
+              true
+            ]
+          ]
+        },
+        {
+          "axis_bit": 2,
+          "negative": false,
+          "material_quadrants": 3,
+          "visible": false
+        },
+        {
+          "axis_bit": 1,
+          "negative": true,
+          "material_quadrants": 3,
+          "visible": true,
+          "label": "-",
+          "ray": [
+            4,
+            -1
+          ],
+          "front_faces": [
+            [
+              4,
+              2,
+              true
+            ],
+            [
+              2,
+              4,
+              true
+            ]
+          ]
+        }
+      ],
+      "type": "V",
+      "clockwise_pattern": "-I",
+      "printed_rays": [
+        {
+          "axis_bit": 4,
+          "negative": true,
+          "label": "I",
+          "ray_path": 217,
+          "mark_path": 218
+        },
+        {
+          "axis_bit": 1,
+          "negative": true,
+          "label": "-",
+          "ray_path": 219,
+          "mark_path": 220
+        }
+      ]
+    },
+    {
+      "printed_label": "546",
+      "occupied": [
+        4,
+        5,
+        6
+      ],
+      "edges": [
+        {
+          "axis_bit": 4,
+          "negative": true,
+          "material_quadrants": 3,
+          "visible": true,
+          "label": "-",
+          "ray": [
+            -3,
+            -1
+          ],
+          "front_faces": [
+            [
+              2,
+              1,
+              true
+            ],
+            [
+              1,
+              2,
+              true
+            ]
+          ]
+        },
+        {
+          "axis_bit": 2,
+          "negative": true,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "I",
+          "ray": [
+            0,
+            3
+          ],
+          "front_faces": [
+            [
+              1,
+              4,
+              true
+            ]
+          ]
+        },
+        {
+          "axis_bit": 1,
+          "negative": true,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "O",
+          "ray": [
+            4,
+            -1
+          ],
+          "front_faces": [
+            [
+              2,
+              4,
+              true
+            ]
+          ]
+        }
+      ],
+      "type": "Y",
+      "clockwise_pattern": "O-I",
+      "printed_rays": [
+        {
+          "axis_bit": 4,
+          "negative": true,
+          "label": "-",
+          "ray_path": 234,
+          "mark_path": 235
+        },
+        {
+          "axis_bit": 1,
+          "negative": true,
+          "label": "O",
+          "ray_path": 236,
+          "mark_path": 237
+        },
+        {
+          "axis_bit": 2,
+          "negative": true,
+          "label": "I",
+          "ray_path": 238,
+          "mark_path": 239
+        }
+      ]
+    },
+    {
+      "printed_label": "~675",
+      "occupied": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "edges": [
+        {
+          "axis_bit": 4,
+          "negative": true,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "+",
+          "ray": [
+            -3,
+            -1
+          ],
+          "front_faces": [
+            [
+              2,
+              1,
+              false
+            ],
+            [
+              1,
+              2,
+              false
+            ]
+          ]
+        },
+        {
+          "axis_bit": 2,
+          "negative": false,
+          "material_quadrants": 3,
+          "visible": true,
+          "label": "-",
+          "ray": [
+            0,
+            -3
+          ],
+          "front_faces": [
+            [
+              4,
+              1,
+              true
+            ],
+            [
+              1,
+              4,
+              true
+            ]
+          ]
+        },
+        {
+          "axis_bit": 1,
+          "negative": false,
+          "material_quadrants": 3,
+          "visible": true,
+          "label": "-",
+          "ray": [
+            -4,
+            1
+          ],
+          "front_faces": [
+            [
+              4,
+              2,
+              true
+            ],
+            [
+              2,
+              4,
+              true
+            ]
+          ]
+        }
+      ],
+      "type": "W",
+      "clockwise_pattern": "-+-",
+      "printed_rays": [
+        {
+          "axis_bit": 4,
+          "negative": true,
+          "label": "+",
+          "ray_path": 256,
+          "mark_path": 257
+        },
+        {
+          "axis_bit": 1,
+          "negative": false,
+          "label": "-",
+          "ray_path": 258,
+          "mark_path": 259
+        },
+        {
+          "axis_bit": 2,
+          "negative": false,
+          "label": "-",
+          "ray_path": 260,
+          "mark_path": 261
+        }
+      ]
+    },
+    {
+      "printed_label": "~754",
+      "occupied": [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      "edges": [
+        {
+          "axis_bit": 4,
+          "negative": true,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "O",
+          "ray": [
+            -3,
+            -1
+          ],
+          "front_faces": [
+            [
+              1,
+              2,
+              true
+            ]
+          ]
+        },
+        {
+          "axis_bit": 2,
+          "negative": true,
+          "material_quadrants": 3,
+          "visible": true,
+          "label": "-",
+          "ray": [
+            0,
+            3
+          ],
+          "front_faces": [
+            [
+              4,
+              1,
+              true
+            ],
+            [
+              1,
+              4,
+              true
+            ]
+          ]
+        },
+        {
+          "axis_bit": 1,
+          "negative": false,
+          "material_quadrants": 3,
+          "visible": false
+        }
+      ],
+      "type": "V",
+      "clockwise_pattern": "O-",
+      "printed_rays": [
+        {
+          "axis_bit": 4,
+          "negative": true,
+          "label": "O",
+          "ray_path": 277,
+          "mark_path": 278
+        },
+        {
+          "axis_bit": 2,
+          "negative": true,
+          "label": "-",
+          "ray_path": 279,
+          "mark_path": 280
+        }
+      ]
+    },
+    {
+      "printed_label": "046",
+      "occupied": [
+        0,
+        4,
+        6
+      ],
+      "edges": [
+        {
+          "axis_bit": 4,
+          "negative": false,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "+",
+          "ray": [
+            3,
+            1
+          ],
+          "front_faces": [
+            [
+              2,
+              1,
+              false
+            ],
+            [
+              1,
+              2,
+              false
+            ]
+          ]
+        },
+        {
+          "axis_bit": 2,
+          "negative": true,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "I",
+          "ray": [
+            0,
+            3
+          ],
+          "front_faces": [
+            [
+              1,
+              4,
+              true
+            ]
+          ]
+        },
+        {
+          "axis_bit": 1,
+          "negative": false,
+          "material_quadrants": 3,
+          "visible": false
+        }
+      ],
+      "type": "V",
+      "clockwise_pattern": "I+",
+      "printed_rays": [
+        {
+          "axis_bit": 4,
+          "negative": false,
+          "label": "+",
+          "ray_path": 294,
+          "mark_path": 295
+        },
+        {
+          "axis_bit": 2,
+          "negative": true,
+          "label": "I",
+          "ray_path": 296,
+          "mark_path": 297
+        }
+      ]
+    },
+    {
+      "printed_label": "~157",
+      "occupied": [
+        0,
+        2,
+        3,
+        4,
+        6
+      ],
+      "edges": [
+        {
+          "axis_bit": 4,
+          "negative": false,
+          "material_quadrants": 3,
+          "visible": false
+        },
+        {
+          "axis_bit": 2,
+          "negative": true,
+          "material_quadrants": 3,
+          "visible": true,
+          "label": "-",
+          "ray": [
+            0,
+            3
+          ],
+          "front_faces": [
+            [
+              4,
+              1,
+              true
+            ],
+            [
+              1,
+              4,
+              true
+            ]
+          ]
+        },
+        {
+          "axis_bit": 1,
+          "negative": true,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "I",
+          "ray": [
+            4,
+            -1
+          ],
+          "front_faces": [
+            [
+              4,
+              2,
+              true
+            ]
+          ]
+        }
+      ],
+      "type": "V",
+      "clockwise_pattern": "-I",
+      "printed_rays": [
+        {
+          "axis_bit": 1,
+          "negative": true,
+          "label": "I",
+          "ray_path": 313,
+          "mark_path": 314
+        },
+        {
+          "axis_bit": 2,
+          "negative": true,
+          "label": "-",
+          "ray_path": 315,
+          "mark_path": 316
+        }
+      ]
+    },
+    {
+      "printed_label": "204",
+      "occupied": [
+        0,
+        2,
+        4
+      ],
+      "edges": [
+        {
+          "axis_bit": 4,
+          "negative": true,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "+",
+          "ray": [
+            -3,
+            -1
+          ],
+          "front_faces": [
+            [
+              2,
+              1,
+              false
+            ],
+            [
+              1,
+              2,
+              false
+            ]
+          ]
+        },
+        {
+          "axis_bit": 2,
+          "negative": true,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "+",
+          "ray": [
+            0,
+            3
+          ],
+          "front_faces": [
+            [
+              4,
+              1,
+              false
+            ],
+            [
+              1,
+              4,
+              false
+            ]
+          ]
+        },
+        {
+          "axis_bit": 1,
+          "negative": false,
+          "material_quadrants": 3,
+          "visible": true,
+          "label": "-",
+          "ray": [
+            -4,
+            1
+          ],
+          "front_faces": [
+            [
+              4,
+              2,
+              true
+            ],
+            [
+              2,
+              4,
+              true
+            ]
+          ]
+        }
+      ],
+      "type": "W",
+      "clockwise_pattern": "+-+",
+      "printed_rays": [
+        {
+          "axis_bit": 4,
+          "negative": true,
+          "label": "+",
+          "ray_path": 329,
+          "mark_path": 330
+        },
+        {
+          "axis_bit": 1,
+          "negative": false,
+          "label": "-",
+          "ray_path": 331,
+          "mark_path": 332
+        },
+        {
+          "axis_bit": 2,
+          "negative": true,
+          "label": "+",
+          "ray_path": 333,
+          "mark_path": 334
+        }
+      ]
+    },
+    {
+      "printed_label": "315",
+      "occupied": [
+        1,
+        3,
+        5
+      ],
+      "edges": [
+        {
+          "axis_bit": 4,
+          "negative": true,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "I",
+          "ray": [
+            -3,
+            -1
+          ],
+          "front_faces": [
+            [
+              2,
+              1,
+              true
+            ]
+          ]
+        },
+        {
+          "axis_bit": 2,
+          "negative": true,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "O",
+          "ray": [
+            0,
+            3
+          ],
+          "front_faces": [
+            [
+              4,
+              1,
+              true
+            ]
+          ]
+        },
+        {
+          "axis_bit": 1,
+          "negative": true,
+          "material_quadrants": 3,
+          "visible": true,
+          "label": "-",
+          "ray": [
+            4,
+            -1
+          ],
+          "front_faces": [
+            [
+              4,
+              2,
+              true
+            ],
+            [
+              2,
+              4,
+              true
+            ]
+          ]
+        }
+      ],
+      "type": "Y",
+      "clockwise_pattern": "-IO",
+      "printed_rays": [
+        {
+          "axis_bit": 4,
+          "negative": true,
+          "label": "I",
+          "ray_path": 348,
+          "mark_path": 349
+        },
+        {
+          "axis_bit": 1,
+          "negative": true,
+          "label": "-",
+          "ray_path": 350,
+          "mark_path": 351
+        },
+        {
+          "axis_bit": 2,
+          "negative": true,
+          "label": "O",
+          "ray_path": 352,
+          "mark_path": 353
+        }
+      ]
+    },
+    {
+      "printed_label": "462",
+      "occupied": [
+        2,
+        4,
+        6
+      ],
+      "edges": [
+        {
+          "axis_bit": 4,
+          "negative": false,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "I",
+          "ray": [
+            3,
+            1
+          ],
+          "front_faces": [
+            [
+              1,
+              2,
+              true
+            ]
+          ]
+        },
+        {
+          "axis_bit": 2,
+          "negative": false,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "O",
+          "ray": [
+            0,
+            -3
+          ],
+          "front_faces": [
+            [
+              1,
+              4,
+              true
+            ]
+          ]
+        },
+        {
+          "axis_bit": 1,
+          "negative": false,
+          "material_quadrants": 3,
+          "visible": false
+        }
+      ],
+      "type": "V",
+      "clockwise_pattern": "IO",
+      "printed_rays": [
+        {
+          "axis_bit": 4,
+          "negative": false,
+          "label": "I",
+          "ray_path": 366,
+          "mark_path": 367
+        },
+        {
+          "axis_bit": 2,
+          "negative": false,
+          "label": "O",
+          "ray_path": 368,
+          "mark_path": 369
+        }
+      ]
+    },
+    {
+      "printed_label": "~573",
+      "occupied": [
+        0,
+        1,
+        2,
+        4,
+        6
+      ],
+      "edges": [
+        {
+          "axis_bit": 4,
+          "negative": false,
+          "material_quadrants": 3,
+          "visible": true,
+          "label": "-",
+          "ray": [
+            3,
+            1
+          ],
+          "front_faces": [
+            [
+              2,
+              1,
+              true
+            ],
+            [
+              1,
+              2,
+              true
+            ]
+          ]
+        },
+        {
+          "axis_bit": 2,
+          "negative": false,
+          "material_quadrants": 3,
+          "visible": true,
+          "label": "-",
+          "ray": [
+            0,
+            -3
+          ],
+          "front_faces": [
+            [
+              4,
+              1,
+              true
+            ],
+            [
+              1,
+              4,
+              true
+            ]
+          ]
+        },
+        {
+          "axis_bit": 1,
+          "negative": true,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "+",
+          "ray": [
+            4,
+            -1
+          ],
+          "front_faces": [
+            [
+              4,
+              2,
+              false
+            ],
+            [
+              2,
+              4,
+              false
+            ]
+          ]
+        }
+      ],
+      "type": "W",
+      "clockwise_pattern": "-+-",
+      "printed_rays": [
+        {
+          "axis_bit": 4,
+          "negative": false,
+          "label": "-",
+          "ray_path": 386,
+          "mark_path": 387
+        },
+        {
+          "axis_bit": 1,
+          "negative": true,
+          "label": "+",
+          "ray_path": 388,
+          "mark_path": 389
+        },
+        {
+          "axis_bit": 2,
+          "negative": false,
+          "label": "-",
+          "ray_path": 390,
+          "mark_path": 391
+        }
+      ]
+    },
+    {
+      "printed_label": "620",
+      "occupied": [
+        0,
+        2,
+        6
+      ],
+      "edges": [
+        {
+          "axis_bit": 4,
+          "negative": true,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "O",
+          "ray": [
+            -3,
+            -1
+          ],
+          "front_faces": [
+            [
+              1,
+              2,
+              true
+            ]
+          ]
+        },
+        {
+          "axis_bit": 2,
+          "negative": false,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "+",
+          "ray": [
+            0,
+            -3
+          ],
+          "front_faces": [
+            [
+              4,
+              1,
+              false
+            ],
+            [
+              1,
+              4,
+              false
+            ]
+          ]
+        },
+        {
+          "axis_bit": 1,
+          "negative": false,
+          "material_quadrants": 3,
+          "visible": false
+        }
+      ],
+      "type": "V",
+      "clockwise_pattern": "+O",
+      "printed_rays": [
+        {
+          "axis_bit": 4,
+          "negative": true,
+          "label": "O",
+          "ray_path": 404,
+          "mark_path": 405
+        },
+        {
+          "axis_bit": 2,
+          "negative": false,
+          "label": "+",
+          "ray_path": 406,
+          "mark_path": 407
+        }
+      ]
+    },
+    {
+      "printed_label": "~731",
+      "occupied": [
+        0,
+        2,
+        4,
+        5,
+        6
+      ],
+      "edges": [
+        {
+          "axis_bit": 4,
+          "negative": true,
+          "material_quadrants": 3,
+          "visible": true,
+          "label": "-",
+          "ray": [
+            -3,
+            -1
+          ],
+          "front_faces": [
+            [
+              2,
+              1,
+              true
+            ],
+            [
+              1,
+              2,
+              true
+            ]
+          ]
+        },
+        {
+          "axis_bit": 2,
+          "negative": false,
+          "material_quadrants": 3,
+          "visible": false
+        },
+        {
+          "axis_bit": 1,
+          "negative": true,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "O",
+          "ray": [
+            4,
+            -1
+          ],
+          "front_faces": [
+            [
+              2,
+              4,
+              true
+            ]
+          ]
+        }
+      ],
+      "type": "V",
+      "clockwise_pattern": "O-",
+      "printed_rays": [
+        {
+          "axis_bit": 4,
+          "negative": true,
+          "label": "-",
+          "ray_path": 423,
+          "mark_path": 424
+        },
+        {
+          "axis_bit": 1,
+          "negative": true,
+          "label": "O",
+          "ray_path": 425,
+          "mark_path": 426
+        }
+      ]
+    },
+    {
+      "printed_label": "015",
+      "occupied": [
+        0,
+        1,
+        5
+      ],
+      "edges": [
+        {
+          "axis_bit": 4,
+          "negative": true,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "I",
+          "ray": [
+            -3,
+            -1
+          ],
+          "front_faces": [
+            [
+              2,
+              1,
+              true
+            ]
+          ]
+        },
+        {
+          "axis_bit": 2,
+          "negative": false,
+          "material_quadrants": 3,
+          "visible": false
+        },
+        {
+          "axis_bit": 1,
+          "negative": false,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "+",
+          "ray": [
+            -4,
+            1
+          ],
+          "front_faces": [
+            [
+              4,
+              2,
+              false
+            ],
+            [
+              2,
+              4,
+              false
+            ]
+          ]
+        }
+      ],
+      "type": "V",
+      "clockwise_pattern": "I+",
+      "printed_rays": [
+        {
+          "axis_bit": 4,
+          "negative": true,
+          "label": "I",
+          "ray_path": 439,
+          "mark_path": 440
+        },
+        {
+          "axis_bit": 1,
+          "negative": false,
+          "label": "+",
+          "ray_path": 441,
+          "mark_path": 442
+        }
+      ]
+    },
+    {
+      "printed_label": "154",
+      "occupied": [
+        1,
+        4,
+        5
+      ],
+      "edges": [
+        {
+          "axis_bit": 4,
+          "negative": false,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "O",
+          "ray": [
+            3,
+            1
+          ],
+          "front_faces": [
+            [
+              2,
+              1,
+              true
+            ]
+          ]
+        },
+        {
+          "axis_bit": 2,
+          "negative": false,
+          "material_quadrants": 3,
+          "visible": false
+        },
+        {
+          "axis_bit": 1,
+          "negative": false,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "I",
+          "ray": [
+            -4,
+            1
+          ],
+          "front_faces": [
+            [
+              2,
+              4,
+              true
+            ]
+          ]
+        }
+      ],
+      "type": "V",
+      "clockwise_pattern": "IO",
+      "printed_rays": [
+        {
+          "axis_bit": 4,
+          "negative": false,
+          "label": "O",
+          "ray_path": 455,
+          "mark_path": 456
+        },
+        {
+          "axis_bit": 1,
+          "negative": false,
+          "label": "I",
+          "ray_path": 457,
+          "mark_path": 458
+        }
+      ]
+    },
+    {
+      "printed_label": "~237",
+      "occupied": [
+        0,
+        1,
+        4,
+        5,
+        6
+      ],
+      "edges": [
+        {
+          "axis_bit": 4,
+          "negative": true,
+          "material_quadrants": 3,
+          "visible": true,
+          "label": "-",
+          "ray": [
+            -3,
+            -1
+          ],
+          "front_faces": [
+            [
+              2,
+              1,
+              true
+            ],
+            [
+              1,
+              2,
+              true
+            ]
+          ]
+        },
+        {
+          "axis_bit": 2,
+          "negative": true,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "I",
+          "ray": [
+            0,
+            3
+          ],
+          "front_faces": [
+            [
+              1,
+              4,
+              true
+            ]
+          ]
+        },
+        {
+          "axis_bit": 1,
+          "negative": false,
+          "material_quadrants": 3,
+          "visible": false
+        }
+      ],
+      "type": "V",
+      "clockwise_pattern": "-I",
+      "printed_rays": [
+        {
+          "axis_bit": 4,
+          "negative": true,
+          "label": "-",
+          "ray_path": 474,
+          "mark_path": 475
+        },
+        {
+          "axis_bit": 2,
+          "negative": true,
+          "label": "I",
+          "ray_path": 476,
+          "mark_path": 477
+        }
+      ]
+    },
+    {
+      "printed_label": "~376",
+      "occupied": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "edges": [
+        {
+          "axis_bit": 4,
+          "negative": false,
+          "material_quadrants": 3,
+          "visible": true,
+          "label": "-",
+          "ray": [
+            3,
+            1
+          ],
+          "front_faces": [
+            [
+              2,
+              1,
+              true
+            ],
+            [
+              1,
+              2,
+              true
+            ]
+          ]
+        },
+        {
+          "axis_bit": 2,
+          "negative": true,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "+",
+          "ray": [
+            0,
+            3
+          ],
+          "front_faces": [
+            [
+              4,
+              1,
+              false
+            ],
+            [
+              1,
+              4,
+              false
+            ]
+          ]
+        },
+        {
+          "axis_bit": 1,
+          "negative": false,
+          "material_quadrants": 3,
+          "visible": true,
+          "label": "-",
+          "ray": [
+            -4,
+            1
+          ],
+          "front_faces": [
+            [
+              4,
+              2,
+              true
+            ],
+            [
+              2,
+              4,
+              true
+            ]
+          ]
+        }
+      ],
+      "type": "W",
+      "clockwise_pattern": "-+-",
+      "printed_rays": [
+        {
+          "axis_bit": 4,
+          "negative": false,
+          "label": "-",
+          "ray_path": 494,
+          "mark_path": 495
+        },
+        {
+          "axis_bit": 1,
+          "negative": false,
+          "label": "-",
+          "ray_path": 496,
+          "mark_path": 497
+        },
+        {
+          "axis_bit": 2,
+          "negative": true,
+          "label": "+",
+          "ray_path": 498,
+          "mark_path": 499
+        }
+      ]
+    },
+    {
+      "printed_label": "401",
+      "occupied": [
+        0,
+        1,
+        4
+      ],
+      "edges": [
+        {
+          "axis_bit": 4,
+          "negative": true,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "+",
+          "ray": [
+            -3,
+            -1
+          ],
+          "front_faces": [
+            [
+              2,
+              1,
+              false
+            ],
+            [
+              1,
+              2,
+              false
+            ]
+          ]
+        },
+        {
+          "axis_bit": 2,
+          "negative": false,
+          "material_quadrants": 3,
+          "visible": true,
+          "label": "-",
+          "ray": [
+            0,
+            -3
+          ],
+          "front_faces": [
+            [
+              4,
+              1,
+              true
+            ],
+            [
+              1,
+              4,
+              true
+            ]
+          ]
+        },
+        {
+          "axis_bit": 1,
+          "negative": true,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "+",
+          "ray": [
+            4,
+            -1
+          ],
+          "front_faces": [
+            [
+              4,
+              2,
+              false
+            ],
+            [
+              2,
+              4,
+              false
+            ]
+          ]
+        }
+      ],
+      "type": "W",
+      "clockwise_pattern": "+-+",
+      "printed_rays": [
+        {
+          "axis_bit": 4,
+          "negative": true,
+          "label": "+",
+          "ray_path": 512,
+          "mark_path": 513
+        },
+        {
+          "axis_bit": 1,
+          "negative": true,
+          "label": "+",
+          "ray_path": 514,
+          "mark_path": 515
+        },
+        {
+          "axis_bit": 2,
+          "negative": false,
+          "label": "-",
+          "ray_path": 516,
+          "mark_path": 517
+        }
+      ]
+    },
+    {
+      "printed_label": "540",
+      "occupied": [
+        0,
+        4,
+        5
+      ],
+      "edges": [
+        {
+          "axis_bit": 4,
+          "negative": false,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "+",
+          "ray": [
+            3,
+            1
+          ],
+          "front_faces": [
+            [
+              2,
+              1,
+              false
+            ],
+            [
+              1,
+              2,
+              false
+            ]
+          ]
+        },
+        {
+          "axis_bit": 2,
+          "negative": false,
+          "material_quadrants": 3,
+          "visible": false
+        },
+        {
+          "axis_bit": 1,
+          "negative": true,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "O",
+          "ray": [
+            4,
+            -1
+          ],
+          "front_faces": [
+            [
+              2,
+              4,
+              true
+            ]
+          ]
+        }
+      ],
+      "type": "V",
+      "clockwise_pattern": "+O",
+      "printed_rays": [
+        {
+          "axis_bit": 4,
+          "negative": false,
+          "label": "+",
+          "ray_path": 530,
+          "mark_path": 531
+        },
+        {
+          "axis_bit": 1,
+          "negative": true,
+          "label": "O",
+          "ray_path": 532,
+          "mark_path": 533
+        }
+      ]
+    },
+    {
+      "printed_label": "623",
+      "occupied": [
+        2,
+        3,
+        6
+      ],
+      "edges": [
+        {
+          "axis_bit": 4,
+          "negative": true,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "O",
+          "ray": [
+            -3,
+            -1
+          ],
+          "front_faces": [
+            [
+              1,
+              2,
+              true
+            ]
+          ]
+        },
+        {
+          "axis_bit": 2,
+          "negative": true,
+          "material_quadrants": 3,
+          "visible": true,
+          "label": "-",
+          "ray": [
+            0,
+            3
+          ],
+          "front_faces": [
+            [
+              4,
+              1,
+              true
+            ],
+            [
+              1,
+              4,
+              true
+            ]
+          ]
+        },
+        {
+          "axis_bit": 1,
+          "negative": true,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "I",
+          "ray": [
+            4,
+            -1
+          ],
+          "front_faces": [
+            [
+              4,
+              2,
+              true
+            ]
+          ]
+        }
+      ],
+      "type": "Y",
+      "clockwise_pattern": "IO-",
+      "printed_rays": [
+        {
+          "axis_bit": 4,
+          "negative": true,
+          "label": "O",
+          "ray_path": 547,
+          "mark_path": 548
+        },
+        {
+          "axis_bit": 1,
+          "negative": true,
+          "label": "I",
+          "ray_path": 549,
+          "mark_path": 550
+        },
+        {
+          "axis_bit": 2,
+          "negative": true,
+          "label": "-",
+          "ray_path": 551,
+          "mark_path": 552
+        }
+      ]
+    },
+    {
+      "printed_label": "~762",
+      "occupied": [
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      "edges": [
+        {
+          "axis_bit": 4,
+          "negative": false,
+          "material_quadrants": 3,
+          "visible": false
+        },
+        {
+          "axis_bit": 2,
+          "negative": true,
+          "material_quadrants": 1,
+          "visible": true,
+          "label": "O",
+          "ray": [
+            0,
+            3
+          ],
+          "front_faces": [
+            [
+              4,
+              1,
+              true
+            ]
+          ]
+        },
+        {
+          "axis_bit": 1,
+          "negative": true,
+          "material_quadrants": 3,
+          "visible": true,
+          "label": "-",
+          "ray": [
+            4,
+            -1
+          ],
+          "front_faces": [
+            [
+              4,
+              2,
+              true
+            ],
+            [
+              2,
+              4,
+              true
+            ]
+          ]
+        }
+      ],
+      "type": "V",
+      "clockwise_pattern": "O-",
+      "printed_rays": [
+        {
+          "axis_bit": 1,
+          "negative": true,
+          "label": "-",
+          "ray_path": 568,
+          "mark_path": 569
+        },
+        {
+          "axis_bit": 2,
+          "negative": true,
+          "label": "O",
+          "ray_path": 570,
+          "mark_path": 571
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "prior_completed_before_first_failure": {
+    "T": 1454,
+    "T-linked": 1454,
+    "T-opt": 1454,
+    "T-linked-opt": 1454,
+    "S": 2908
+  },
+  "domain": "all binary shapes n<=7 at radix64; all shapes n<=4 at each radix65..100; exact capacity/overflow cases",
+  "programs": {
+    "U": 1454,
+    "U-fixed": 1454
+  },
+  "empty": {
+    "U": {
+      "time": 3,
+      "overflow": false,
+      "n": 0,
+      "a": 0,
+      "right_spine": 0,
+      "printed_formula": -3,
+      "visited": [],
+      "expected": []
+    },
+    "U-fixed": {
+      "time": 3,
+      "overflow": false,
+      "n": 0,
+      "a": 0,
+      "right_spine": 0,
+      "printed_formula": -9,
+      "visited": [],
+      "expected": []
+    }
+  }
+}

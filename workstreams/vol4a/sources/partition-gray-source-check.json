@@ -1,0 +1,33 @@
+{
+  "checked_at_utc": "2026-11-11T20:30:10.031106+00:00",
+  "edition": "Volume 4A, first edition, first printing, 2011; inventory/books.json",
+  "originals": [
+    "images/bookwise-p759.png",
+    "images/bookwise-p761.png"
+  ],
+  "errata": [
+    "errata/text/all4a-pre.txt",
+    "errata/text/all4a.txt",
+    "errata/text/err4a.txt",
+    "errata/text/all4f3.txt",
+    "errata/text/err4f3.txt"
+  ],
+  "pages_screened": "4A 405–415 and 755–761; Fascicle 3 51–61 and 118–124",
+  "retrieval_manifests": [
+    "integration/2026-11-10-bookwise/errata/vol4a-manifest.json",
+    "integration/2026-11-10-bookwise/errata/vol4a-fasc3-manifest.json"
+  ],
+  "public_queries": [
+    "Knuth \"759\" \"K5\" errata",
+    "Knuth \"761\" \"occupied diagonals\"",
+    "Knuth \"757\" \"Initialize\" partitions errata",
+    "Knuth \"Bulgarian solitaire\" errata",
+    "\"Knuth\" \"binary partitions\" \"K5\"",
+    "\"Knuth\" \"occupied diagonals\""
+  ],
+  "public_result": "No matching repair found. Relevant 2019 answer-64 correction is bibliographical only. Historical answer-70 correction concerns the origin of Bulgarian solitaire. Searches returned general sources rather than a matching report. The arXiv 0907.3873 abstract was opened, but its full article was not used as evidence for the correction.",
+  "findings": [
+    "V4A-F0087",
+    "V4A-F0088"
+  ]
+}

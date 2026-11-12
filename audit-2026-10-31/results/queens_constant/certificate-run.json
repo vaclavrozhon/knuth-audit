@@ -1,0 +1,62 @@
+{
+  "started_at_utc": "2026-11-01T13:53:51.363241+00:00",
+  "pid": 672346,
+  "command": [
+    "/tmp/knuth-queens-cert-venv/bin/python",
+    "audit-2026-10-31/check_queens_constant.py"
+  ],
+  "status": "pass",
+  "precision_bits": 128,
+  "python_flint": "0.9.0",
+  "log": "results/queens_constant/certificate.log",
+  "time_limit_seconds": 7200,
+  "scope": "Independent exact-feasibility and interval numerical certification; Simkin enumeration and variational theorem imported.",
+  "source_sha256": {
+    "sources/queens/n-queens/src/witnesses/L_2048.npz": "0315f7eef40c4182991522102bf1d8db043b623d4fd6ecfe0993db6ce12a77a5",
+    "sources/queens/n-queens/src/witnesses/U_1024.npz": "862eb5893f5acf4915238182fc9ab539c40033a363e1eb3d8e24a6c7de39be0c"
+  },
+  "script_sha256": "dddfca6faf8b3d84fecc4317a0810280235a90239b5a82821fab98b3be83ea70",
+  "selfcheck": {
+    "sizes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "dual_coefficients": "match sparse published matrix",
+    "rational_projection": "all linear constraints exact; diagonal indexing matches source",
+    "uniform_queenon_objective": "contains exactly 2 for each size"
+  },
+  "lower": {
+    "n": 2048,
+    "dual_dimension": 12287,
+    "interval": "[1.9440007520197274311974566534358722 +/- 5.20e-35]",
+    "formula": "v^T b - sum exp(A^T v - 1) + 4 log n + 2 log 2 + 3",
+    "inputs": "all binary64 dual entries interpreted as exact dyadic rationals"
+  },
+  "upper": {
+    "n": 1024,
+    "interval": "[1.944001081309223136616683610690059 +/- 8.22e-34]",
+    "original_float_objective": 1.9440010813092221,
+    "rational_density_denominator": 2251799813685248,
+    "rational_slack_denominator": 4611686018427387904,
+    "rounded_grid_bits": 30,
+    "exact_constraint_checks": "all pass",
+    "min_density_numerator": 1009841487180047,
+    "min_slack_numerator": 802464220463230976,
+    "maximum_change_from_published_density": 5.192193341940765e-10,
+    "unique_density_values": 3924438,
+    "rational_grid_sha256": "1d3fa651cd9580ce741b5c951d34a6803f83c5e3cddf67d1a253d8aae0fd06e3"
+  },
+  "alpha_rational_interval": [
+    "1.944000752",
+    "1.944001082"
+  ],
+  "sigma_lower_endpoint": "[0.38906802390540672933906978795181459 +/- 4.08e-36]",
+  "sigma_upper_endpoint": "[0.38906815229787580287952244236269022 +/- 1.54e-36]",
+  "six_decimal_rounding": "0.389068",
+  "finished_at_utc": "2026-11-01T13:54:19.415212+00:00",
+  "elapsed_seconds": 28.052033185958862
+}

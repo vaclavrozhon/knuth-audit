@@ -1,0 +1,27 @@
+{
+  "arithmetic": "Exact rational Gaussian elimination versus independent closed formulas.",
+  "counts": {
+    "combinatorial": 343,
+    "vandermonde": 210,
+    "cauchy": 210,
+    "hilbert_entries": 650,
+    "binet_cauchy": 360,
+    "krattenthaler": 350
+  },
+  "hilbert_condition_number_lower_bounds": {
+    "1": 1,
+    "2": 6,
+    "3": 30,
+    "4": 140,
+    "5": 630,
+    "6": 2772,
+    "7": 12012,
+    "8": 51480,
+    "9": 218790,
+    "10": 923780,
+    "11": 3879876,
+    "12": 16224936
+  },
+  "bounds_status": "Values of the general proven bound; not measured floating-point condition numbers.",
+  "combinatorial_n1_x0": "Inverse exists when y!=0; use the cancelled scalar formula 1/y."
+}

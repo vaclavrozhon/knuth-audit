@@ -1,0 +1,3213 @@
+{
+  "scope": "Every one of256 symbolic Info entries compared with independent semantic-family roles and already accepted architectural costs; every explicitly printed entry compared with source. This is not a full simulator execution or a proof of its handlers.",
+  "proof": "notes/recovery-pages-087-097.md",
+  "source": "sources/sim-20250620.mms",
+  "source_sha256": "fb19657b40e35cb4ff0558f1eb8a85fa8472234e3cf1919d35a72b50134e500f",
+  "printed_source": "sources/file-096-targeted.txt",
+  "printed_source_sha256": "f85379ec318b7ae6ecc50b0101fd0a936eb6c64884a21c3e46b9807c48421b12",
+  "entries": [
+    {
+      "opcode": "00",
+      "name": "TRAP",
+      "host_instruction": "JMP Trap+@-O",
+      "mems": 0,
+      "oops": 5,
+      "special_source": "0",
+      "flags": "0a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "01",
+      "name": "FCMP",
+      "host_instruction": "FCMP x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "02",
+      "name": "FUN",
+      "host_instruction": "FUN x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "03",
+      "name": "FEQL",
+      "host_instruction": "FEQL x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "04",
+      "name": "FADD",
+      "host_instruction": "FADD x,y,z",
+      "mems": 0,
+      "oops": 4,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "05",
+      "name": "FIX",
+      "host_instruction": "FIX x,0,z",
+      "mems": 0,
+      "oops": 4,
+      "special_source": "0",
+      "flags": "26",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "06",
+      "name": "FSUB",
+      "host_instruction": "FSUB x,y,z",
+      "mems": 0,
+      "oops": 4,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "07",
+      "name": "FIXU",
+      "host_instruction": "FIXU x,0,z",
+      "mems": 0,
+      "oops": 4,
+      "special_source": "0",
+      "flags": "26",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "08",
+      "name": "FLOT",
+      "host_instruction": "FLOT x,0,z",
+      "mems": 0,
+      "oops": 4,
+      "special_source": "0",
+      "flags": "26",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "09",
+      "name": "FLOTI",
+      "host_instruction": "FLOT x,0,z",
+      "mems": 0,
+      "oops": 4,
+      "special_source": "0",
+      "flags": "25",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "0a",
+      "name": "FLOTU",
+      "host_instruction": "FLOTU x,0,z",
+      "mems": 0,
+      "oops": 4,
+      "special_source": "0",
+      "flags": "26",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "0b",
+      "name": "FLOTUI",
+      "host_instruction": "FLOTU x,0,z",
+      "mems": 0,
+      "oops": 4,
+      "special_source": "0",
+      "flags": "25",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "0c",
+      "name": "SFLOT",
+      "host_instruction": "SFLOT x,0,z",
+      "mems": 0,
+      "oops": 4,
+      "special_source": "0",
+      "flags": "26",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "0d",
+      "name": "SFLOTI",
+      "host_instruction": "SFLOT x,0,z",
+      "mems": 0,
+      "oops": 4,
+      "special_source": "0",
+      "flags": "25",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "0e",
+      "name": "SFLOTU",
+      "host_instruction": "SFLOTU x,0,z",
+      "mems": 0,
+      "oops": 4,
+      "special_source": "0",
+      "flags": "26",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "0f",
+      "name": "SFLOTUI",
+      "host_instruction": "SFLOTU x,0,z",
+      "mems": 0,
+      "oops": 4,
+      "special_source": "0",
+      "flags": "25",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "10",
+      "name": "FMUL",
+      "host_instruction": "FMUL x,y,z",
+      "mems": 0,
+      "oops": 4,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "11",
+      "name": "FCMPE",
+      "host_instruction": "FCMPE x,y,z",
+      "mems": 0,
+      "oops": 4,
+      "special_source": "rE",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "12",
+      "name": "FUNE",
+      "host_instruction": "FUNE x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "rE",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "13",
+      "name": "FEQLE",
+      "host_instruction": "FEQLE x,y,z",
+      "mems": 0,
+      "oops": 4,
+      "special_source": "rE",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "14",
+      "name": "FDIV",
+      "host_instruction": "FDIV x,y,z",
+      "mems": 0,
+      "oops": 40,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "15",
+      "name": "FSQRT",
+      "host_instruction": "FSQRT x,0,z",
+      "mems": 0,
+      "oops": 40,
+      "special_source": "0",
+      "flags": "26",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "16",
+      "name": "FREM",
+      "host_instruction": "FREM x,y,z",
+      "mems": 0,
+      "oops": 4,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "17",
+      "name": "FINT",
+      "host_instruction": "FINT x,0,z",
+      "mems": 0,
+      "oops": 4,
+      "special_source": "0",
+      "flags": "26",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "18",
+      "name": "MUL",
+      "host_instruction": "MUL x,y,z",
+      "mems": 0,
+      "oops": 10,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "19",
+      "name": "MULI",
+      "host_instruction": "MUL x,y,z",
+      "mems": 0,
+      "oops": 10,
+      "special_source": "0",
+      "flags": "29",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "1a",
+      "name": "MULU",
+      "host_instruction": "JMP MulU+@-O",
+      "mems": 0,
+      "oops": 10,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "1b",
+      "name": "MULUI",
+      "host_instruction": "JMP MulU+@-O",
+      "mems": 0,
+      "oops": 10,
+      "special_source": "0",
+      "flags": "29",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "1c",
+      "name": "DIV",
+      "host_instruction": "JMP Div+@-O",
+      "mems": 0,
+      "oops": 60,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "1d",
+      "name": "DIVI",
+      "host_instruction": "JMP Div+@-O",
+      "mems": 0,
+      "oops": 60,
+      "special_source": "0",
+      "flags": "29",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "1e",
+      "name": "DIVU",
+      "host_instruction": "JMP DivU+@-O",
+      "mems": 0,
+      "oops": 60,
+      "special_source": "rD",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "1f",
+      "name": "DIVUI",
+      "host_instruction": "JMP DivU+@-O",
+      "mems": 0,
+      "oops": 60,
+      "special_source": "rD",
+      "flags": "29",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "20",
+      "name": "ADD",
+      "host_instruction": "ADD x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "21",
+      "name": "ADDI",
+      "host_instruction": "ADD x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "29",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "22",
+      "name": "ADDU",
+      "host_instruction": "ADDU x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "23",
+      "name": "ADDUI",
+      "host_instruction": "ADDU x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "29",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "24",
+      "name": "SUB",
+      "host_instruction": "SUB x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "25",
+      "name": "SUBI",
+      "host_instruction": "SUB x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "29",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "26",
+      "name": "SUBU",
+      "host_instruction": "SUBU x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "27",
+      "name": "SUBUI",
+      "host_instruction": "SUBU x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "29",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "28",
+      "name": "2ADDU",
+      "host_instruction": "2ADDU x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "29",
+      "name": "2ADDUI",
+      "host_instruction": "2ADDU x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "29",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "2a",
+      "name": "4ADDU",
+      "host_instruction": "4ADDU x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "2b",
+      "name": "4ADDUI",
+      "host_instruction": "4ADDU x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "29",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "2c",
+      "name": "8ADDU",
+      "host_instruction": "8ADDU x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "2d",
+      "name": "8ADDUI",
+      "host_instruction": "8ADDU x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "29",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "2e",
+      "name": "16ADDU",
+      "host_instruction": "16ADDU x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "2f",
+      "name": "16ADDUI",
+      "host_instruction": "16ADDU x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "29",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "30",
+      "name": "CMP",
+      "host_instruction": "CMP x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "31",
+      "name": "CMPI",
+      "host_instruction": "CMP x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "29",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "32",
+      "name": "CMPU",
+      "host_instruction": "CMPU x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "33",
+      "name": "CMPUI",
+      "host_instruction": "CMPU x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "29",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "34",
+      "name": "NEG",
+      "host_instruction": "NEG x,0,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "26",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "35",
+      "name": "NEGI",
+      "host_instruction": "NEG x,0,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "25",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "36",
+      "name": "NEGU",
+      "host_instruction": "NEGU x,0,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "26",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "37",
+      "name": "NEGUI",
+      "host_instruction": "NEGU x,0,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "25",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "38",
+      "name": "SL",
+      "host_instruction": "SL x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "39",
+      "name": "SLI",
+      "host_instruction": "SL x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "29",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "3a",
+      "name": "SLU",
+      "host_instruction": "SLU x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "3b",
+      "name": "SLUI",
+      "host_instruction": "SLU x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "29",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "3c",
+      "name": "SR",
+      "host_instruction": "SR x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "3d",
+      "name": "SRI",
+      "host_instruction": "SR x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "29",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "3e",
+      "name": "SRU",
+      "host_instruction": "SRU x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "3f",
+      "name": "SRUI",
+      "host_instruction": "SRU x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "29",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "40",
+      "name": "BN",
+      "host_instruction": "BN x,BTaken+@-O",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "50",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "41",
+      "name": "BNB",
+      "host_instruction": "BN x,BTaken+@-O",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "50",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "42",
+      "name": "BZ",
+      "host_instruction": "BZ x,BTaken+@-O",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "50",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "43",
+      "name": "BZB",
+      "host_instruction": "BZ x,BTaken+@-O",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "50",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "44",
+      "name": "BP",
+      "host_instruction": "BP x,BTaken+@-O",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "50",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "45",
+      "name": "BPB",
+      "host_instruction": "BP x,BTaken+@-O",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "50",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "46",
+      "name": "BOD",
+      "host_instruction": "BOD x,BTaken+@-O",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "50",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "47",
+      "name": "BODB",
+      "host_instruction": "BOD x,BTaken+@-O",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "50",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "48",
+      "name": "BNN",
+      "host_instruction": "BNN x,BTaken+@-O",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "50",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "49",
+      "name": "BNNB",
+      "host_instruction": "BNN x,BTaken+@-O",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "50",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "4a",
+      "name": "BNZ",
+      "host_instruction": "BNZ x,BTaken+@-O",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "50",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "4b",
+      "name": "BNZB",
+      "host_instruction": "BNZ x,BTaken+@-O",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "50",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "4c",
+      "name": "BNP",
+      "host_instruction": "BNP x,BTaken+@-O",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "50",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "4d",
+      "name": "BNPB",
+      "host_instruction": "BNP x,BTaken+@-O",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "50",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "4e",
+      "name": "BEV",
+      "host_instruction": "BEV x,BTaken+@-O",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "50",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "4f",
+      "name": "BEVB",
+      "host_instruction": "BEV x,BTaken+@-O",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "50",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "50",
+      "name": "PBN",
+      "host_instruction": "PBN x,PBTaken+@-O",
+      "mems": 0,
+      "oops": 3,
+      "special_source": "0",
+      "flags": "50",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "51",
+      "name": "PBNB",
+      "host_instruction": "PBN x,PBTaken+@-O",
+      "mems": 0,
+      "oops": 3,
+      "special_source": "0",
+      "flags": "50",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "52",
+      "name": "PBZ",
+      "host_instruction": "PBZ x,PBTaken+@-O",
+      "mems": 0,
+      "oops": 3,
+      "special_source": "0",
+      "flags": "50",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "53",
+      "name": "PBZB",
+      "host_instruction": "PBZ x,PBTaken+@-O",
+      "mems": 0,
+      "oops": 3,
+      "special_source": "0",
+      "flags": "50",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "54",
+      "name": "PBP",
+      "host_instruction": "PBP x,PBTaken+@-O",
+      "mems": 0,
+      "oops": 3,
+      "special_source": "0",
+      "flags": "50",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "55",
+      "name": "PBPB",
+      "host_instruction": "PBP x,PBTaken+@-O",
+      "mems": 0,
+      "oops": 3,
+      "special_source": "0",
+      "flags": "50",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "56",
+      "name": "PBOD",
+      "host_instruction": "PBOD x,PBTaken+@-O",
+      "mems": 0,
+      "oops": 3,
+      "special_source": "0",
+      "flags": "50",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "57",
+      "name": "PBODB",
+      "host_instruction": "PBOD x,PBTaken+@-O",
+      "mems": 0,
+      "oops": 3,
+      "special_source": "0",
+      "flags": "50",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "58",
+      "name": "PBNN",
+      "host_instruction": "PBNN x,PBTaken+@-O",
+      "mems": 0,
+      "oops": 3,
+      "special_source": "0",
+      "flags": "50",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "59",
+      "name": "PBNNB",
+      "host_instruction": "PBNN x,PBTaken+@-O",
+      "mems": 0,
+      "oops": 3,
+      "special_source": "0",
+      "flags": "50",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "5a",
+      "name": "PBNZ",
+      "host_instruction": "PBNZ x,PBTaken+@-O",
+      "mems": 0,
+      "oops": 3,
+      "special_source": "0",
+      "flags": "50",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "5b",
+      "name": "PBNZB",
+      "host_instruction": "PBNZ x,PBTaken+@-O",
+      "mems": 0,
+      "oops": 3,
+      "special_source": "0",
+      "flags": "50",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "5c",
+      "name": "PBNP",
+      "host_instruction": "PBNP x,PBTaken+@-O",
+      "mems": 0,
+      "oops": 3,
+      "special_source": "0",
+      "flags": "50",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "5d",
+      "name": "PBNPB",
+      "host_instruction": "PBNP x,PBTaken+@-O",
+      "mems": 0,
+      "oops": 3,
+      "special_source": "0",
+      "flags": "50",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "5e",
+      "name": "PBEV",
+      "host_instruction": "PBEV x,PBTaken+@-O",
+      "mems": 0,
+      "oops": 3,
+      "special_source": "0",
+      "flags": "50",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "5f",
+      "name": "PBEVB",
+      "host_instruction": "PBEV x,PBTaken+@-O",
+      "mems": 0,
+      "oops": 3,
+      "special_source": "0",
+      "flags": "50",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "60",
+      "name": "CSN",
+      "host_instruction": "CSN x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "3a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "61",
+      "name": "CSNI",
+      "host_instruction": "CSN x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "39",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "62",
+      "name": "CSZ",
+      "host_instruction": "CSZ x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "3a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "63",
+      "name": "CSZI",
+      "host_instruction": "CSZ x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "39",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "64",
+      "name": "CSP",
+      "host_instruction": "CSP x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "3a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "65",
+      "name": "CSPI",
+      "host_instruction": "CSP x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "39",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "66",
+      "name": "CSOD",
+      "host_instruction": "CSOD x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "3a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "67",
+      "name": "CSODI",
+      "host_instruction": "CSOD x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "39",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "68",
+      "name": "CSNN",
+      "host_instruction": "CSNN x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "3a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "69",
+      "name": "CSNNI",
+      "host_instruction": "CSNN x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "39",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "6a",
+      "name": "CSNZ",
+      "host_instruction": "CSNZ x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "3a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "6b",
+      "name": "CSNZI",
+      "host_instruction": "CSNZ x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "39",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "6c",
+      "name": "CSNP",
+      "host_instruction": "CSNP x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "3a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "6d",
+      "name": "CSNPI",
+      "host_instruction": "CSNP x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "39",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "6e",
+      "name": "CSEV",
+      "host_instruction": "CSEV x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "3a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "6f",
+      "name": "CSEVI",
+      "host_instruction": "CSEV x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "39",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "70",
+      "name": "ZSN",
+      "host_instruction": "ZSN x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "71",
+      "name": "ZSNI",
+      "host_instruction": "ZSN x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "29",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "72",
+      "name": "ZSZ",
+      "host_instruction": "ZSZ x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "73",
+      "name": "ZSZI",
+      "host_instruction": "ZSZ x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "29",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "74",
+      "name": "ZSP",
+      "host_instruction": "ZSP x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "75",
+      "name": "ZSPI",
+      "host_instruction": "ZSP x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "29",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "76",
+      "name": "ZSOD",
+      "host_instruction": "ZSOD x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "77",
+      "name": "ZSODI",
+      "host_instruction": "ZSOD x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "29",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "78",
+      "name": "ZSNN",
+      "host_instruction": "ZSNN x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "79",
+      "name": "ZSNNI",
+      "host_instruction": "ZSNN x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "29",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "7a",
+      "name": "ZSNZ",
+      "host_instruction": "ZSNZ x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "7b",
+      "name": "ZSNZI",
+      "host_instruction": "ZSNZ x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "29",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "7c",
+      "name": "ZSNP",
+      "host_instruction": "ZSNP x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "7d",
+      "name": "ZSNPI",
+      "host_instruction": "ZSNP x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "29",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "7e",
+      "name": "ZSEV",
+      "host_instruction": "ZSEV x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "7f",
+      "name": "ZSEVI",
+      "host_instruction": "ZSEV x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "29",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "80",
+      "name": "LDB",
+      "host_instruction": "LDB x,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "aa",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "81",
+      "name": "LDBI",
+      "host_instruction": "LDB x,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "a9",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "82",
+      "name": "LDBU",
+      "host_instruction": "LDBU x,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "aa",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "83",
+      "name": "LDBUI",
+      "host_instruction": "LDBU x,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "a9",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "84",
+      "name": "LDW",
+      "host_instruction": "LDW x,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "aa",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "85",
+      "name": "LDWI",
+      "host_instruction": "LDW x,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "a9",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "86",
+      "name": "LDWU",
+      "host_instruction": "LDWU x,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "aa",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "87",
+      "name": "LDWUI",
+      "host_instruction": "LDWU x,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "a9",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "88",
+      "name": "LDT",
+      "host_instruction": "LDT x,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "aa",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "89",
+      "name": "LDTI",
+      "host_instruction": "LDT x,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "a9",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "8a",
+      "name": "LDTU",
+      "host_instruction": "LDTU x,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "aa",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "8b",
+      "name": "LDTUI",
+      "host_instruction": "LDTU x,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "a9",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "8c",
+      "name": "LDO",
+      "host_instruction": "LDO x,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "aa",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "8d",
+      "name": "LDOI",
+      "host_instruction": "LDO x,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "a9",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "8e",
+      "name": "LDOU",
+      "host_instruction": "LDOU x,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "aa",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "8f",
+      "name": "LDOUI",
+      "host_instruction": "LDOU x,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "a9",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "90",
+      "name": "LDSF",
+      "host_instruction": "LDSF x,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "aa",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "91",
+      "name": "LDSFI",
+      "host_instruction": "LDSF x,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "a9",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "92",
+      "name": "LDHT",
+      "host_instruction": "LDHT x,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "aa",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "93",
+      "name": "LDHTI",
+      "host_instruction": "LDHT x,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "a9",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "94",
+      "name": "CSWAP",
+      "host_instruction": "JMP Cswap+@-O",
+      "mems": 2,
+      "oops": 2,
+      "special_source": "0",
+      "flags": "ba",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "95",
+      "name": "CSWAPI",
+      "host_instruction": "JMP Cswap+@-O",
+      "mems": 2,
+      "oops": 2,
+      "special_source": "0",
+      "flags": "b9",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "96",
+      "name": "LDUNC",
+      "host_instruction": "LDUNC x,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "aa",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "97",
+      "name": "LDUNCI",
+      "host_instruction": "LDUNC x,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "a9",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "98",
+      "name": "LDVTS",
+      "host_instruction": "JMP Error+@-O",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "99",
+      "name": "LDVTSI",
+      "host_instruction": "JMP Error+@-O",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "29",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "9a",
+      "name": "PRELD",
+      "host_instruction": "SWYM 0",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "0a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "9b",
+      "name": "PRELDI",
+      "host_instruction": "SWYM 0",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "09",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "9c",
+      "name": "PREGO",
+      "host_instruction": "SWYM 0",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "0a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "9d",
+      "name": "PREGOI",
+      "host_instruction": "SWYM 0",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "09",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "9e",
+      "name": "GO",
+      "host_instruction": "JMP Go+@-O",
+      "mems": 0,
+      "oops": 3,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "9f",
+      "name": "GOI",
+      "host_instruction": "JMP Go+@-O",
+      "mems": 0,
+      "oops": 3,
+      "special_source": "0",
+      "flags": "29",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "a0",
+      "name": "STB",
+      "host_instruction": "STB x,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "9a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "a1",
+      "name": "STBI",
+      "host_instruction": "STB x,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "99",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "a2",
+      "name": "STBU",
+      "host_instruction": "STBU x,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "9a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "a3",
+      "name": "STBUI",
+      "host_instruction": "STBU x,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "99",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "a4",
+      "name": "STW",
+      "host_instruction": "STW x,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "9a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "a5",
+      "name": "STWI",
+      "host_instruction": "STW x,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "99",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "a6",
+      "name": "STWU",
+      "host_instruction": "STWU x,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "9a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "a7",
+      "name": "STWUI",
+      "host_instruction": "STWU x,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "99",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "a8",
+      "name": "STT",
+      "host_instruction": "STT x,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "9a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "a9",
+      "name": "STTI",
+      "host_instruction": "STT x,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "99",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "aa",
+      "name": "STTU",
+      "host_instruction": "STTU x,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "9a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "ab",
+      "name": "STTUI",
+      "host_instruction": "STTU x,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "99",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "ac",
+      "name": "STO",
+      "host_instruction": "STO x,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "9a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "ad",
+      "name": "STOI",
+      "host_instruction": "STO x,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "99",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "ae",
+      "name": "STOU",
+      "host_instruction": "STOU x,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "9a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "af",
+      "name": "STOUI",
+      "host_instruction": "STOU x,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "99",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "b0",
+      "name": "STSF",
+      "host_instruction": "STSF x,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "9a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "b1",
+      "name": "STSFI",
+      "host_instruction": "STSF x,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "99",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "b2",
+      "name": "STHT",
+      "host_instruction": "STHT x,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "9a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "b3",
+      "name": "STHTI",
+      "host_instruction": "STHT x,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "99",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "b4",
+      "name": "STCO",
+      "host_instruction": "STO xx,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "8a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "b5",
+      "name": "STCOI",
+      "host_instruction": "STO xx,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "89",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "b6",
+      "name": "STUNC",
+      "host_instruction": "STUNC x,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "9a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "b7",
+      "name": "STUNCI",
+      "host_instruction": "STUNC x,res,0",
+      "mems": 1,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "99",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "b8",
+      "name": "SYNCD",
+      "host_instruction": "SWYM 0",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "0a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "b9",
+      "name": "SYNCDI",
+      "host_instruction": "SWYM 0",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "09",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "ba",
+      "name": "PREST",
+      "host_instruction": "SWYM 0",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "0a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "bb",
+      "name": "PRESTI",
+      "host_instruction": "SWYM 0",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "09",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "bc",
+      "name": "SYNCID",
+      "host_instruction": "SWYM 0",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "0a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "bd",
+      "name": "SYNCIDI",
+      "host_instruction": "SWYM 0",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "09",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "be",
+      "name": "PUSHGO",
+      "host_instruction": "JMP PushGo+@-O",
+      "mems": 0,
+      "oops": 3,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "bf",
+      "name": "PUSHGOI",
+      "host_instruction": "JMP PushGo+@-O",
+      "mems": 0,
+      "oops": 3,
+      "special_source": "0",
+      "flags": "29",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "c0",
+      "name": "OR",
+      "host_instruction": "OR x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "c1",
+      "name": "ORI",
+      "host_instruction": "OR x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "29",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "c2",
+      "name": "ORN",
+      "host_instruction": "ORN x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "c3",
+      "name": "ORNI",
+      "host_instruction": "ORN x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "29",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "c4",
+      "name": "NOR",
+      "host_instruction": "NOR x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "c5",
+      "name": "NORI",
+      "host_instruction": "NOR x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "29",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "c6",
+      "name": "XOR",
+      "host_instruction": "XOR x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "c7",
+      "name": "XORI",
+      "host_instruction": "XOR x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "29",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "c8",
+      "name": "AND",
+      "host_instruction": "AND x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "c9",
+      "name": "ANDI",
+      "host_instruction": "AND x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "29",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "ca",
+      "name": "ANDN",
+      "host_instruction": "ANDN x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "cb",
+      "name": "ANDNI",
+      "host_instruction": "ANDN x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "29",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "cc",
+      "name": "NAND",
+      "host_instruction": "NAND x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "cd",
+      "name": "NANDI",
+      "host_instruction": "NAND x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "29",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "ce",
+      "name": "NXOR",
+      "host_instruction": "NXOR x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "cf",
+      "name": "NXORI",
+      "host_instruction": "NXOR x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "29",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "d0",
+      "name": "BDIF",
+      "host_instruction": "BDIF x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "d1",
+      "name": "BDIFI",
+      "host_instruction": "BDIF x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "29",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "d2",
+      "name": "WDIF",
+      "host_instruction": "WDIF x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "d3",
+      "name": "WDIFI",
+      "host_instruction": "WDIF x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "29",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "d4",
+      "name": "TDIF",
+      "host_instruction": "TDIF x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "d5",
+      "name": "TDIFI",
+      "host_instruction": "TDIF x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "29",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "d6",
+      "name": "ODIF",
+      "host_instruction": "ODIF x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "d7",
+      "name": "ODIFI",
+      "host_instruction": "ODIF x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "29",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "d8",
+      "name": "MUX",
+      "host_instruction": "MUX x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "rM",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "d9",
+      "name": "MUXI",
+      "host_instruction": "MUX x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "rM",
+      "flags": "29",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "da",
+      "name": "SADD",
+      "host_instruction": "SADD x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "db",
+      "name": "SADDI",
+      "host_instruction": "SADD x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "29",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "dc",
+      "name": "MOR",
+      "host_instruction": "MOR x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "dd",
+      "name": "MORI",
+      "host_instruction": "MOR x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "29",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "de",
+      "name": "MXOR",
+      "host_instruction": "MXOR x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "2a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "df",
+      "name": "MXORI",
+      "host_instruction": "MXOR x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "29",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "e0",
+      "name": "SETH",
+      "host_instruction": "SET x,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "20",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "e1",
+      "name": "SETMH",
+      "host_instruction": "SET x,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "20",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "e2",
+      "name": "SETML",
+      "host_instruction": "SET x,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "20",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "e3",
+      "name": "SETL",
+      "host_instruction": "SET x,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "20",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "e4",
+      "name": "INCH",
+      "host_instruction": "ADDU x,x,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "30",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "e5",
+      "name": "INCMH",
+      "host_instruction": "ADDU x,x,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "30",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "e6",
+      "name": "INCML",
+      "host_instruction": "ADDU x,x,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "30",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "e7",
+      "name": "INCL",
+      "host_instruction": "ADDU x,x,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "30",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "e8",
+      "name": "ORH",
+      "host_instruction": "OR x,x,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "30",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "e9",
+      "name": "ORMH",
+      "host_instruction": "OR x,x,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "30",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "ea",
+      "name": "ORML",
+      "host_instruction": "OR x,x,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "30",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "eb",
+      "name": "ORL",
+      "host_instruction": "OR x,x,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "30",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "ec",
+      "name": "ANDNH",
+      "host_instruction": "ANDN x,x,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "30",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "ed",
+      "name": "ANDNMH",
+      "host_instruction": "ANDN x,x,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "30",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "ee",
+      "name": "ANDNML",
+      "host_instruction": "ANDN x,x,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "30",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "ef",
+      "name": "ANDNL",
+      "host_instruction": "ANDN x,x,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "30",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "f0",
+      "name": "JMP",
+      "host_instruction": "SET inst_ptr,yz",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "41",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "f1",
+      "name": "JMPB",
+      "host_instruction": "SET inst_ptr,yz",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "41",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "f2",
+      "name": "PUSHJ",
+      "host_instruction": "JMP PushJ+@-O",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "60",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "f3",
+      "name": "PUSHJB",
+      "host_instruction": "JMP PushJ+@-O",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "60",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "f4",
+      "name": "GETA",
+      "host_instruction": "SET x,yz",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "60",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "f5",
+      "name": "GETAB",
+      "host_instruction": "SET x,yz",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "60",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "f6",
+      "name": "PUT",
+      "host_instruction": "JMP Put+@-O",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "02",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "f7",
+      "name": "PUTI",
+      "host_instruction": "JMP Put+@-O",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "01",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "f8",
+      "name": "POP",
+      "host_instruction": "JMP Pop+@-O",
+      "mems": 0,
+      "oops": 3,
+      "special_source": "rJ",
+      "flags": "00",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "f9",
+      "name": "RESUME",
+      "host_instruction": "JMP Resume+@-O",
+      "mems": 0,
+      "oops": 5,
+      "special_source": "0",
+      "flags": "00",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "fa",
+      "name": "SAVE",
+      "host_instruction": "JMP Save+@-O",
+      "mems": 20,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "20",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "fb",
+      "name": "UNSAVE",
+      "host_instruction": "JMP Unsave+@-O",
+      "mems": 20,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "02",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "fc",
+      "name": "SYNC",
+      "host_instruction": "JMP Sync+@-O",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "01",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "fd",
+      "name": "SWYM",
+      "host_instruction": "SWYM x,y,z",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "00",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "fe",
+      "name": "GET",
+      "host_instruction": "JMP Get+@-O",
+      "mems": 0,
+      "oops": 1,
+      "special_source": "0",
+      "flags": "20",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    },
+    {
+      "opcode": "ff",
+      "name": "TRIP",
+      "host_instruction": "JMP Trip+@-O",
+      "mems": 0,
+      "oops": 5,
+      "special_source": "0",
+      "flags": "0a",
+      "family_roles_agree": true,
+      "accepted_cost_agrees": true
+    }
+  ],
+  "printed_entries": [
+    {
+      "name": "LDB",
+      "all_fields_agree": true
+    },
+    {
+      "name": "LDBI",
+      "all_fields_agree": true
+    },
+    {
+      "name": "TRAP",
+      "all_fields_agree": true
+    },
+    {
+      "name": "FCMP",
+      "all_fields_agree": true
+    },
+    {
+      "name": "CSWAP",
+      "all_fields_agree": true
+    },
+    {
+      "name": "FUN",
+      "all_fields_agree": true
+    },
+    {
+      "name": "CSWAPI",
+      "all_fields_agree": true
+    },
+    {
+      "name": "FEQL",
+      "all_fields_agree": true
+    },
+    {
+      "name": "LDUNC",
+      "all_fields_agree": true
+    },
+    {
+      "name": "FADD",
+      "all_fields_agree": true
+    },
+    {
+      "name": "LDUNCI",
+      "all_fields_agree": true
+    },
+    {
+      "name": "FIX",
+      "all_fields_agree": true
+    },
+    {
+      "name": "LDVTS",
+      "all_fields_agree": true
+    },
+    {
+      "name": "FSUB",
+      "all_fields_agree": true
+    },
+    {
+      "name": "LDVTSI",
+      "all_fields_agree": true
+    },
+    {
+      "name": "FIXU",
+      "all_fields_agree": true
+    },
+    {
+      "name": "PRELD",
+      "all_fields_agree": true
+    },
+    {
+      "name": "FLOT",
+      "all_fields_agree": true
+    },
+    {
+      "name": "PRELDI",
+      "all_fields_agree": true
+    },
+    {
+      "name": "FLOTI",
+      "all_fields_agree": true
+    },
+    {
+      "name": "PREGO",
+      "all_fields_agree": true
+    },
+    {
+      "name": "FLOTU",
+      "all_fields_agree": true
+    },
+    {
+      "name": "PREGOI",
+      "all_fields_agree": true
+    },
+    {
+      "name": "GO",
+      "all_fields_agree": true
+    },
+    {
+      "name": "FMUL",
+      "all_fields_agree": true
+    },
+    {
+      "name": "GOI",
+      "all_fields_agree": true
+    },
+    {
+      "name": "FCMPE",
+      "all_fields_agree": true
+    },
+    {
+      "name": "STB",
+      "all_fields_agree": true
+    },
+    {
+      "name": "FUNE",
+      "all_fields_agree": true
+    },
+    {
+      "name": "STBI",
+      "all_fields_agree": true
+    },
+    {
+      "name": "FEQLE",
+      "all_fields_agree": true
+    },
+    {
+      "name": "FDIV",
+      "all_fields_agree": true
+    },
+    {
+      "name": "STCO",
+      "all_fields_agree": true
+    },
+    {
+      "name": "FSQRT",
+      "all_fields_agree": true
+    },
+    {
+      "name": "STCOI",
+      "all_fields_agree": true
+    },
+    {
+      "name": "FREM",
+      "all_fields_agree": true
+    },
+    {
+      "name": "STUNC",
+      "all_fields_agree": true
+    },
+    {
+      "name": "FINT",
+      "all_fields_agree": true
+    },
+    {
+      "name": "STUNCI",
+      "all_fields_agree": true
+    },
+    {
+      "name": "MUL",
+      "all_fields_agree": true
+    },
+    {
+      "name": "SYNCD",
+      "all_fields_agree": true
+    },
+    {
+      "name": "MULI",
+      "all_fields_agree": true
+    },
+    {
+      "name": "SYNCDI",
+      "all_fields_agree": true
+    },
+    {
+      "name": "MULU",
+      "all_fields_agree": true
+    },
+    {
+      "name": "PREST",
+      "all_fields_agree": true
+    },
+    {
+      "name": "MULUI",
+      "all_fields_agree": true
+    },
+    {
+      "name": "PRESTI",
+      "all_fields_agree": true
+    },
+    {
+      "name": "DIV",
+      "all_fields_agree": true
+    },
+    {
+      "name": "SYNCID",
+      "all_fields_agree": true
+    },
+    {
+      "name": "DIVI",
+      "all_fields_agree": true
+    },
+    {
+      "name": "SYNCIDI",
+      "all_fields_agree": true
+    },
+    {
+      "name": "DIVU",
+      "all_fields_agree": true
+    },
+    {
+      "name": "PUSHGO",
+      "all_fields_agree": true
+    },
+    {
+      "name": "DIVUI",
+      "all_fields_agree": true
+    },
+    {
+      "name": "PUSHGOI",
+      "all_fields_agree": true
+    },
+    {
+      "name": "ADD",
+      "all_fields_agree": true
+    },
+    {
+      "name": "OR",
+      "all_fields_agree": true
+    },
+    {
+      "name": "ADDI",
+      "all_fields_agree": true
+    },
+    {
+      "name": "ORI",
+      "all_fields_agree": true
+    },
+    {
+      "name": "ADDU",
+      "all_fields_agree": true
+    },
+    {
+      "name": "SETH",
+      "all_fields_agree": true
+    },
+    {
+      "name": "CMPUI",
+      "all_fields_agree": true
+    },
+    {
+      "name": "SETMH",
+      "all_fields_agree": true
+    },
+    {
+      "name": "NEG",
+      "all_fields_agree": true
+    },
+    {
+      "name": "NEGI",
+      "all_fields_agree": true
+    },
+    {
+      "name": "ANDNL",
+      "all_fields_agree": true
+    },
+    {
+      "name": "NEGU",
+      "all_fields_agree": true
+    },
+    {
+      "name": "JMP",
+      "all_fields_agree": true
+    },
+    {
+      "name": "NEGUI",
+      "all_fields_agree": true
+    },
+    {
+      "name": "JMPB",
+      "all_fields_agree": true
+    },
+    {
+      "name": "SL",
+      "all_fields_agree": true
+    },
+    {
+      "name": "PUSHJ",
+      "all_fields_agree": true
+    },
+    {
+      "name": "PUSHJB",
+      "all_fields_agree": true
+    },
+    {
+      "name": "BN",
+      "all_fields_agree": true
+    },
+    {
+      "name": "GETA",
+      "all_fields_agree": true
+    },
+    {
+      "name": "BNB",
+      "all_fields_agree": true
+    },
+    {
+      "name": "GETAB",
+      "all_fields_agree": true
+    },
+    {
+      "name": "BZ",
+      "all_fields_agree": true
+    },
+    {
+      "name": "PUT",
+      "all_fields_agree": true
+    },
+    {
+      "name": "PUTI",
+      "all_fields_agree": true
+    },
+    {
+      "name": "PBNPB",
+      "all_fields_agree": true
+    },
+    {
+      "name": "POP",
+      "all_fields_agree": true
+    },
+    {
+      "name": "PBEV",
+      "all_fields_agree": true
+    },
+    {
+      "name": "RESUME",
+      "all_fields_agree": true
+    },
+    {
+      "name": "PBEVB",
+      "all_fields_agree": true
+    },
+    {
+      "name": "SAVE",
+      "all_fields_agree": true
+    },
+    {
+      "name": "CSN",
+      "all_fields_agree": true
+    },
+    {
+      "name": "UNSAVE",
+      "all_fields_agree": true
+    },
+    {
+      "name": "CSNI",
+      "all_fields_agree": true
+    },
+    {
+      "name": "SYNC",
+      "all_fields_agree": true
+    },
+    {
+      "name": "SWYM",
+      "all_fields_agree": true
+    },
+    {
+      "name": "ZSEV",
+      "all_fields_agree": true
+    },
+    {
+      "name": "GET",
+      "all_fields_agree": true
+    },
+    {
+      "name": "ZSEVI",
+      "all_fields_agree": true
+    },
+    {
+      "name": "TRIP",
+      "all_fields_agree": true
+    }
+  ],
+  "printed_entry_count": 95,
+  "new_program_execution": false,
+  "old_run_repeated": false,
+  "cost_convention": "Probable branches use Info3 minus2 when taken, versus the accepted architectural base1 plus2 when not taken; ordinary branches use1 plus2 when taken.",
+  "differences": []
+}

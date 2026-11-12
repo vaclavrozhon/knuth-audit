@@ -1,0 +1,121 @@
+{
+  "status": "passed",
+  "arithmetic": "exact integers and rational outward intervals",
+  "checks": {
+    "matrix_and_binary_doubling": 1101,
+    "iterative_sequence": 1000,
+    "F1000_decimal": 1,
+    "printed_logarithms": 2,
+    "Cassini": 51,
+    "index_addition": 2601,
+    "exercise_17": 23409,
+    "gcd": 10201,
+    "Euclid_bound": 229969,
+    "fixed_points_initial_range": 1,
+    "squares_initial_range": 1,
+    "convolution": 81,
+    "tilings_binomial_sum": 81,
+    "squares_identity": 81,
+    "partial_sum": 81,
+    "odd_binomial_sum": 81,
+    "finite_generating_polynomial": 567,
+    "second_order": 31,
+    "homogeneous_initial_values": 1519,
+    "constant_forcing": 279,
+    "binomial_forcing": 372,
+    "linearity": 1519,
+    "binomial_index_sum": 1989,
+    "tridiagonal_determinant": 20,
+    "one_adjacent_multiple": 302,
+    "prime_congruence": 302,
+    "geometric_recurrence": 1029,
+    "fibonomial_integrality": 558,
+    "fibonomial_recurrence": 555,
+    "printed_fibonomial_table": 1,
+    "powers_recurrence": 492,
+    "four_remainder_classes": 21675,
+    "roots_3_minus2": 101
+  },
+  "total_cases": 300053,
+  "F1000": "43466557686937456435688527675040625802564660517371780402481729089536555417949051890403879840079255169295922593080322634775209689623239873322471161642996440906533187938298969649928516003704476137795166849228875",
+  "sequence_sha256": "ce8c18b02e019d0377033f69193cb79aec89a753348a51556d12d0ff46615cdf",
+  "log_phi1000_over_sqrt5": {
+    "lower": "480.407106103386397310458533757755329315415760410",
+    "upper": "480.407106103386397310458533757755329315477663811"
+  },
+  "log_F1000": {
+    "lower": "480.407106103386397310458533757755329315421440596",
+    "upper": "480.407106103386397310458533757755329315490740597"
+  },
+  "log10_F1000": {
+    "lower": "208.638155247810724366878958684917663335834368266",
+    "upper": "208.638155247810724366878958684917663335873525914"
+  },
+  "fibonomial_table": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      2,
+      2,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      3,
+      6,
+      3,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      5,
+      15,
+      15,
+      5,
+      1,
+      0
+    ],
+    [
+      1,
+      8,
+      40,
+      60,
+      40,
+      8,
+      1
+    ]
+  ],
+  "prime_certificate_nodes": 19,
+  "limits": "Finite checks supplement the general proofs; no historical priority is inferred."
+}

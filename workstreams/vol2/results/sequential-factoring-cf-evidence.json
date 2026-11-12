@@ -1,0 +1,2013 @@
+{
+  "schema_version": 1,
+  "volume": "vol2",
+  "section": "4.5.4",
+  "checkpoint": "V2-X0146",
+  "updated_at_utc": "2026-11-06T17:45:18.545Z",
+  "review_mode": "statement_and_exercise_arguments",
+  "printed_main_pages": [
+    396,
+    397,
+    398,
+    399,
+    400,
+    401,
+    402,
+    403
+  ],
+  "printed_question_pages": [
+    412,
+    413,
+    414,
+    415
+  ],
+  "printed_answer_pages": [
+    659,
+    660,
+    664,
+    665
+  ],
+  "scope": "Continued-fraction introduction through modern factorization, ending before Secret factors. Only the ten named exercises are paired in this checkpoint.",
+  "next_cursor": {
+    "printed_page": 403,
+    "file_page": 415,
+    "target": "Secret factors heading, then404"
+  },
+  "claims": [
+    {
+      "id": "4.5.4-cf-introduction",
+      "printed_page": 396,
+      "claim": "Continued-fraction factoring chronology and historical timing claims.",
+      "status": "partial",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "8",
+      "scope_note": "Historical primary text transcript and qualified timing comparison; no new benchmark."
+    },
+    {
+      "id": "4.5.4-F7-factorization",
+      "printed_page": 397,
+      "claim": "The two displayed factors of 2^128+1 multiply correctly and are prime.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "8",
+      "scope_note": "Reuse the 27-node n−1 certificates and exact product; no recomputation."
+    },
+    {
+      "id": "4.5.4-eq18",
+      "printed_page": 397,
+      "claim": "A nontrivial congruence of squares gives proper gcd factors.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-cf-approximation-motivation",
+      "printed_page": 397,
+      "claim": "Small norm and a good rational approximation are related by a difference of squares.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "2",
+      "scope_note": "Use the exact full convergent, not its reduced numerator."
+    },
+    {
+      "id": "4.5.4-factor-base-filter",
+      "printed_page": 397,
+      "claim": "Only 2 and odd primes with quadratic character zero or one can divide a norm.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "5",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-eq19",
+      "printed_page": 397,
+      "claim": "A smooth signed norm gives the stated modular relation.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "1–2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-eq20",
+      "printed_page": 397,
+      "claim": "Even exponent sums make the product a square.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-eq21",
+      "printed_page": 397,
+      "claim": "Products of relations give x and y modulo N.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "1",
+      "scope_note": "Trivial relations can occur; this is not a factor guarantee."
+    },
+    {
+      "id": "4.5.4-m-plus-two",
+      "printed_page": 397,
+      "claim": "m+2 parity vectors in m+1 dimensions have a nonempty dependence.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-E-input-domain",
+      "printed_page": 397,
+      "claim": "Algorithm E accepts nonsquare D=kN and attempts to generate relations.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "2",
+      "scope_note": "The factoring context uses N>1; it need not find a nontrivial factor."
+    },
+    {
+      "id": "4.5.4-E1",
+      "printed_page": 398,
+      "claim": "Algorithm E step 1: invariant-preserving operation or termination.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "2",
+      "scope_note": "Apply the published 2001 initialization correction."
+    },
+    {
+      "id": "4.5.4-E2",
+      "printed_page": 398,
+      "claim": "Algorithm E step 2: invariant-preserving operation or termination.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-E3",
+      "printed_page": 398,
+      "claim": "Algorithm E step 3: invariant-preserving operation or termination.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "2",
+      "scope_note": "C0158: the exact norm uses the full numerator; the modular relation remains valid."
+    },
+    {
+      "id": "4.5.4-E4",
+      "printed_page": 398,
+      "claim": "Algorithm E step 4: invariant-preserving operation or termination.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-E5",
+      "printed_page": 398,
+      "claim": "Algorithm E step 5: invariant-preserving operation or termination.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-E-state-bounds",
+      "printed_page": 398,
+      "claim": "The reduced quadratic state satisfies 0<V<=U<=2R.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-E-period-termination",
+      "printed_page": 398,
+      "claim": "V=1 returns the reduced state; E stops after a period, possibly with reversed sign.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "2",
+      "scope_note": "No claim that P modulo N has the same period or that a factor has been found."
+    },
+    {
+      "id": "4.5.4-E-table398-row1",
+      "printed_page": 398,
+      "claim": "Table 1 original row 1: state and any emitted relation.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "2,5",
+      "scope_note": "Reuse the saved exact trace; the first two original rows are superseded by the known initialization correction."
+    },
+    {
+      "id": "4.5.4-E-table398-row2",
+      "printed_page": 398,
+      "claim": "Table 1 original row 2: state and any emitted relation.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "2,5",
+      "scope_note": "Reuse the saved exact trace; the first two original rows are superseded by the known initialization correction."
+    },
+    {
+      "id": "4.5.4-E-table398-row3",
+      "printed_page": 398,
+      "claim": "Table 1 original row 3: state and any emitted relation.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "2,5",
+      "scope_note": "Reuse the saved exact trace; the first two original rows are superseded by the known initialization correction."
+    },
+    {
+      "id": "4.5.4-E-table398-row4",
+      "printed_page": 398,
+      "claim": "Table 1 original row 4: state and any emitted relation.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "2,5",
+      "scope_note": "Reuse the saved exact trace; the first two original rows are superseded by the known initialization correction."
+    },
+    {
+      "id": "4.5.4-E-table398-row5",
+      "printed_page": 398,
+      "claim": "Table 1 original row 5: state and any emitted relation.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "2,5",
+      "scope_note": "Reuse the saved exact trace; the first two original rows are superseded by the known initialization correction."
+    },
+    {
+      "id": "4.5.4-E-table398-row6",
+      "printed_page": 398,
+      "claim": "Table 1 original row 6: state and any emitted relation.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "2,5",
+      "scope_note": "Reuse the saved exact trace; the first two original rows are superseded by the known initialization correction."
+    },
+    {
+      "id": "4.5.4-E-table398-row7",
+      "printed_page": 398,
+      "claim": "Table 1 original row 7: state and any emitted relation.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "2,5",
+      "scope_note": "Reuse the saved exact trace; the first two original rows are superseded by the known initialization correction."
+    },
+    {
+      "id": "4.5.4-E-table398-row8",
+      "printed_page": 398,
+      "claim": "Table 1 original row 8: state and any emitted relation.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "2,5",
+      "scope_note": "Reuse the saved exact trace; the first two original rows are superseded by the known initialization correction."
+    },
+    {
+      "id": "4.5.4-E-table398-row9",
+      "printed_page": 398,
+      "claim": "Table 1 original row 9: state and any emitted relation.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "2,5",
+      "scope_note": "Reuse the saved exact trace; the first two original rows are superseded by the known initialization correction."
+    },
+    {
+      "id": "4.5.4-E-table398-row10",
+      "printed_page": 398,
+      "claim": "Table 1 original row 10: state and any emitted relation.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "2,5",
+      "scope_note": "Reuse the saved exact trace; the first two original rows are superseded by the known initialization correction."
+    },
+    {
+      "id": "4.5.4-E-table398-row11",
+      "printed_page": 398,
+      "claim": "Table 1 original row 11: state and any emitted relation.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "2,5",
+      "scope_note": "Reuse the saved exact trace; the first two original rows are superseded by the known initialization correction."
+    },
+    {
+      "id": "4.5.4-E-table398-row12",
+      "printed_page": 398,
+      "claim": "Table 1 original row 12: state and any emitted relation.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "2,5",
+      "scope_note": "Reuse the saved exact trace; the first two original rows are superseded by the known initialization correction."
+    },
+    {
+      "id": "4.5.4-E-table398-row13",
+      "printed_page": 398,
+      "claim": "Table 1 original row 13: state and any emitted relation.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "2,5",
+      "scope_note": "Reuse the saved exact trace; the first two original rows are superseded by the known initialization correction."
+    },
+    {
+      "id": "4.5.4-E-100-iterations",
+      "printed_page": 398,
+      "claim": "Corrected E emits 25 relations in its first 100 iterations.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "2",
+      "scope_note": "Original initialization emitted 24; the discrepancy is already corrected in errata."
+    },
+    {
+      "id": "4.5.4-E-trivial-197197",
+      "printed_page": 399,
+      "claim": "The next displayed relation with P=197197 is trivial.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "5",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-E-two-relation-product",
+      "printed_page": 399,
+      "claim": "The first two useful relations give x=126308 and y=540.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "5",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-E-factor-197209",
+      "printed_page": 399,
+      "claim": "gcd(126308−540,197209)=199 and 197209=199·991.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "5",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-E-heuristic-cost",
+      "printed_page": 399,
+      "claim": "Under the stated model, relation collection costs order m² log(N)/P.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "7",
+      "scope_note": "An explicitly heuristic model of the actual continued-fraction output."
+    },
+    {
+      "id": "4.5.4-eq22",
+      "printed_page": 399,
+      "claim": "The smooth-number bound gives the displayed heuristic upper bound.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "7",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-E-r-parameter",
+      "printed_page": 399,
+      "claim": "The integer r can be tuned with ln(m) asymptotic to sqrt(ln N ln ln N)/2.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "7",
+      "scope_note": "Floor effects retained; arbitrary substitution would not justify the remainder."
+    },
+    {
+      "id": "4.5.4-E-leading-time",
+      "printed_page": 399,
+      "claim": "The modeled time has logarithm 2sqrt(ln N ln ln N) plus the displayed remainder.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "7",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-E-vanishing-exponent",
+      "printed_page": 399,
+      "claim": "The modeled exponent epsilon(N) tends to zero.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "7",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-E-alpha50",
+      "printed_page": 399,
+      "claim": "The comparison at N=10^50 gives alpha approximately 4.75.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "7",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-E-alpha200",
+      "printed_page": 399,
+      "claim": "The comparison at N=10^200 gives alpha approximately 8.42.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "7",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-E-epsilon50",
+      "printed_page": 399,
+      "claim": "The leading exponent at N=10^50 is approximately 0.41.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "7",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-Wunderlich-benchmark",
+      "printed_page": 399,
+      "claim": "Reported practical exponent and range of the historical experiment.",
+      "status": "partial",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "8",
+      "scope_note": "Primary preview supports exponent 0.152 and 1,324 cases with 15–42 digits; full printed range and tables unverified."
+    },
+    {
+      "id": "4.5.4-multiplier-tradeoff",
+      "printed_page": 400,
+      "claim": "Changing k trades permitted small factors against the size of the norms.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "6–7",
+      "scope_note": "Heuristic choice of k; the exact norm requires the full numerator (C0158)."
+    },
+    {
+      "id": "4.5.4-local5-residue0",
+      "printed_page": 400,
+      "claim": "Probability that 5 divides a primitive quadratic norm, for D modulo 5 equal to 0.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "6",
+      "scope_note": "Exact local model, not a distribution theorem for fixed continued-fraction outputs."
+    },
+    {
+      "id": "4.5.4-local5-residue1",
+      "printed_page": 400,
+      "claim": "Probability that 5 divides a primitive quadratic norm, for D modulo 5 equal to 1.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "6",
+      "scope_note": "Exact local model, not a distribution theorem for fixed continued-fraction outputs."
+    },
+    {
+      "id": "4.5.4-local5-residue2",
+      "printed_page": 400,
+      "claim": "Probability that 5 divides a primitive quadratic norm, for D modulo 5 equal to 2.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "6",
+      "scope_note": "Exact local model, not a distribution theorem for fixed continued-fraction outputs."
+    },
+    {
+      "id": "4.5.4-local5-residue3",
+      "printed_page": 400,
+      "claim": "Probability that 5 divides a primitive quadratic norm, for D modulo 5 equal to 3.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "6",
+      "scope_note": "Exact local model, not a distribution theorem for fixed continued-fraction outputs."
+    },
+    {
+      "id": "4.5.4-local5-residue4",
+      "printed_page": 400,
+      "claim": "Probability that 5 divides a primitive quadratic norm, for D modulo 5 equal to 4.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "6",
+      "scope_note": "Exact local model, not a distribution theorem for fixed continued-fraction outputs."
+    },
+    {
+      "id": "4.5.4-local25-residue0",
+      "printed_page": 400,
+      "claim": "Probability that 25 divides a primitive quadratic norm, for D modulo 5 equal to 0.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "6",
+      "scope_note": "When D is divisible by 5, the printed exclusion of multiples of 25 applies."
+    },
+    {
+      "id": "4.5.4-local25-residue1",
+      "printed_page": 400,
+      "claim": "Probability that 25 divides a primitive quadratic norm, for D modulo 5 equal to 1.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "6",
+      "scope_note": "When D is divisible by 5, the printed exclusion of multiples of 25 applies."
+    },
+    {
+      "id": "4.5.4-local25-residue2",
+      "printed_page": 400,
+      "claim": "Probability that 25 divides a primitive quadratic norm, for D modulo 5 equal to 2.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "6",
+      "scope_note": "When D is divisible by 5, the printed exclusion of multiples of 25 applies."
+    },
+    {
+      "id": "4.5.4-local25-residue3",
+      "printed_page": 400,
+      "claim": "Probability that 25 divides a primitive quadratic norm, for D modulo 5 equal to 3.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "6",
+      "scope_note": "When D is divisible by 5, the printed exclusion of multiples of 25 applies."
+    },
+    {
+      "id": "4.5.4-local25-residue4",
+      "printed_page": 400,
+      "claim": "Probability that 25 divides a primitive quadratic norm, for D modulo 5 equal to 4.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "6",
+      "scope_note": "When D is divisible by 5, the printed exclusion of multiples of 25 applies."
+    },
+    {
+      "id": "4.5.4-odd-prime-valuation-tail",
+      "printed_page": 400,
+      "claim": "For a nonzero quadratic residue D, the p^e tail is 2/(p^(e−1)(p+1)).",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-odd-prime-valuation-mean",
+      "printed_page": 400,
+      "claim": "Summing the tail gives f(p,D)=2p/(p²−1).",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-eq23",
+      "printed_page": 400,
+      "claim": "Expected removed logarithmic size gives the multiplier score, minus log(k)/2.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-E-early-trial-division",
+      "printed_page": 400,
+      "claim": "The quotient test certifies that the remaining T is one or prime.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "7",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-E-large-prime-bound",
+      "printed_page": 400,
+      "claim": "An admitted large residual prime is at most p_m²+p_m−1.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "7",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-E-large-prime-pairing",
+      "printed_page": 400,
+      "claim": "A relation with one large prime needs another relation with the same prime.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "7",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-E-m150",
+      "printed_page": 400,
+      "claim": "The recommendation m≈150 at N≈10^40 is a historical empirical claim.",
+      "status": "partial",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "8",
+      "scope_note": "The relevant full source table was not obtained; do not treat as an independent benchmark."
+    },
+    {
+      "id": "4.5.4-E-abort-a",
+      "printed_page": 400,
+      "claim": "Practical abort rule (a) trades relation loss for speed.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "7",
+      "scope_note": "A declared heuristic, not a proof that discarded relations are unusable."
+    },
+    {
+      "id": "4.5.4-E-abort-b",
+      "printed_page": 400,
+      "claim": "Practical abort rule (b) trades relation loss for speed.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "7",
+      "scope_note": "A declared heuristic, not a proof that discarded relations are unusable."
+    },
+    {
+      "id": "4.5.4-E-abort-c",
+      "printed_page": 400,
+      "claim": "Practical abort rule (c) trades relation loss for speed.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "7",
+      "scope_note": "A declared heuristic, not a proof that discarded relations are unusable."
+    },
+    {
+      "id": "4.5.4-E-product-remainder",
+      "printed_page": 401,
+      "claim": "A remainder modulo a product of prime powers determines each component remainder.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "7",
+      "scope_note": "Valuations exceeding a stored power require further checking."
+    },
+    {
+      "id": "4.5.4-E-cycle-reference",
+      "printed_page": 401,
+      "claim": "Williams 1981 gives the cited cycle-length study.",
+      "status": "bibliography_skip",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "8",
+      "scope_note": "Primary abstract and metadata only; numerical tables not independently reproduced."
+    },
+    {
+      "id": "4.5.4-Dixon-preconditions",
+      "printed_page": 401,
+      "claim": "Small-factor trial division establishes odd N and coprimality of the factor base.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-dixon.md"
+      ],
+      "argument_section": "2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-Dixon-zero-residue",
+      "printed_page": 401,
+      "claim": "If 0<X<N and X² is zero modulo N, gcd(X,N) is a proper factor.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-dixon.md"
+      ],
+      "argument_section": "2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-eq24",
+      "printed_page": 401,
+      "claim": "Trial division decomposes the residue into the smooth part times T.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-dixon.md"
+      ],
+      "argument_section": "2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-Dixon-relation",
+      "printed_page": 401,
+      "claim": "T=1 yields a valid relation with sign exponent zero.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-dixon.md"
+      ],
+      "argument_section": "2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-Dixon-binomial",
+      "printed_page": 401,
+      "claim": "A fixed number of independent trials gives a binomial relation count.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-dixon.md"
+      ],
+      "argument_section": "2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-Dixon-mean-variance",
+      "printed_page": 401,
+      "claim": "The count has mean MP and variance MP(1−P)<MP.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-dixon.md"
+      ],
+      "argument_section": "2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-Dixon-failure-tail",
+      "printed_page": 401,
+      "claim": "At least k dependencies after m+k outputs give failure probability at most 2^−k.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-dixon.md"
+      ],
+      "argument_section": "2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-Dixon-smooth-square-bound",
+      "printed_page": 401,
+      "claim": "P(m,N)>=m^r/(r!N) for the stated even r.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-dixon.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-Dixon-even-r",
+      "printed_page": 401,
+      "claim": "An even r within one of sqrt(2 ln N/ln ln N) is admissible.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-dixon.md"
+      ],
+      "argument_section": "4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-Dixon-prime-cutoff",
+      "printed_page": 401,
+      "claim": "Choosing the prime cutoff downward achieves r=ln N/ln p_m+O(1/ln ln N).",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-dixon.md"
+      ],
+      "argument_section": "4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-Dixon-ln-pm",
+      "printed_page": 402,
+      "claim": "The displayed expansion of ln p_m includes the rounding term theta.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-dixon.md"
+      ],
+      "argument_section": "4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-Dixon-ln-m-exact",
+      "printed_page": 402,
+      "claim": "Prime counting gives ln m=ln p_m−ln ln p_m+O(1/ln p_m).",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-dixon.md"
+      ],
+      "argument_section": "4",
+      "scope_note": "PNT estimate from the preceding block is an explicit external input."
+    },
+    {
+      "id": "4.5.4-Dixon-ln-m-expansion",
+      "printed_page": 402,
+      "claim": "Substitution gives the stated theta-dependent expansion for ln m.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-dixon.md"
+      ],
+      "argument_section": "4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-Dixon-probability-exponent",
+      "printed_page": 402,
+      "claim": "The lower bound m^r/(r!N) has the displayed negative square-root exponent.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-dixon.md"
+      ],
+      "argument_section": "4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-Dixon-M-choice",
+      "printed_page": 402,
+      "claim": "An integer M can be chosen so the expected number of outputs is at least 4m.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-dixon.md"
+      ],
+      "argument_section": "4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-Dixon-elimination-cost",
+      "printed_page": 402,
+      "claim": "Elimination can be implemented in O(m³ poly(log N)) bit operations.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-dixon.md"
+      ],
+      "argument_section": "5",
+      "scope_note": "Normalize parity vectors and residues rather than assigning unit cost to unbounded exponents."
+    },
+    {
+      "id": "4.5.4-Dixon-total-cost",
+      "printed_page": 402,
+      "claim": "Trial division dominates elimination with leading constant sqrt(8).",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-dixon.md"
+      ],
+      "argument_section": "4–5",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-Dixon-two-failure-events",
+      "printed_page": 402,
+      "claim": "Insufficient outputs and failed dependencies give exp(−m/2)+2^−m.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-dixon.md"
+      ],
+      "argument_section": "2–4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-Dixon-random-bits",
+      "printed_page": 402,
+      "claim": "Bounded rejection sampling preserves the stated time and failure order.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-dixon.md"
+      ],
+      "argument_section": "5",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-Theorem-D",
+      "printed_page": 402,
+      "claim": "For every c>sqrt(8), the displayed bounded-time factorization succeeds with probability 1−O(1/N).",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-dixon.md"
+      ],
+      "argument_section": "4–5",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-Pollard-pminus1-summary",
+      "printed_page": 402,
+      "claim": "A smooth p−1 can make the modular-order method reveal a factor.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-pminusplus.md"
+      ],
+      "argument_section": "1,3–4",
+      "scope_note": "A gcd may equal N; random bases and refinement are part of the proved interpretation. Whole exercises 19–20 are paired separately."
+    },
+    {
+      "id": "4.5.4-Guy-quotation",
+      "printed_page": 402,
+      "claim": "Exact historical quotation attributed to Guy.",
+      "status": "bibliography_skip",
+      "evidence": [
+        "notes/factoring-modern.md"
+      ],
+      "argument_section": "3",
+      "scope_note": "Original pages were not obtained; expressly skipped."
+    },
+    {
+      "id": "4.5.4-QS-origin",
+      "printed_page": 402,
+      "claim": "Pomerance's primary account dates the quadratic-sieve proposal to 1981.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-modern.md"
+      ],
+      "argument_section": "1",
+      "scope_note": "Bibliographic support already archived."
+    },
+    {
+      "id": "4.5.4-ECM-time-input",
+      "printed_page": 402,
+      "claim": "The displayed ECM complexity is a heuristic estimate in the prime factor p.",
+      "status": "external_input",
+      "evidence": [
+        "notes/factoring-modern.md"
+      ],
+      "argument_section": "1",
+      "scope_note": "Lenstra's stated smoothness assumptions and Hasse input retained."
+    },
+    {
+      "id": "4.5.4-ECM-square-root-comparison",
+      "printed_page": 402,
+      "claim": "For p of order sqrt(N), the main exponent is half that in the earlier E estimate.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-modern.md"
+      ],
+      "argument_section": "1",
+      "scope_note": "A leading-exponent comparison, not equality of actual runtimes."
+    },
+    {
+      "id": "4.5.4-NFS-origin",
+      "printed_page": 403,
+      "claim": "The archived primary record dates Pollard's NFS proposal to 1988.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-modern.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-eq25",
+      "printed_page": 403,
+      "claim": "The general number-field sieve has the cited heuristic leading constant (64/9)^(1/3).",
+      "status": "external_input",
+      "evidence": [
+        "notes/factoring-modern.md"
+      ],
+      "argument_section": "1",
+      "scope_note": "Primary-source comparison; not an independent proof of every NFS variant."
+    },
+    {
+      "id": "4.5.4-NFS-crossover",
+      "printed_page": 403,
+      "claim": "The practical crossover near 10^112 is a historical estimate.",
+      "status": "partial",
+      "evidence": [
+        "notes/factoring-modern.md"
+      ],
+      "argument_section": "1",
+      "scope_note": "No source for this precise measurement was obtained."
+    },
+    {
+      "id": "4.5.4-F9-factor1",
+      "printed_page": 403,
+      "claim": "F9: factor 1 is prime and has 7 decimal digits.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-modern.md"
+      ],
+      "argument_section": "2",
+      "scope_note": "Reuse archived independently validated ECPP/Lucas certificates."
+    },
+    {
+      "id": "4.5.4-F9-factor2",
+      "printed_page": 403,
+      "claim": "F9: factor 2 is prime and has 49 decimal digits.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-modern.md"
+      ],
+      "argument_section": "2",
+      "scope_note": "Reuse archived independently validated ECPP/Lucas certificates."
+    },
+    {
+      "id": "4.5.4-F9-factor3",
+      "printed_page": 403,
+      "claim": "F9: factor 3 is prime and has 99 decimal digits.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-modern.md"
+      ],
+      "argument_section": "2",
+      "scope_note": "Reuse archived independently validated ECPP/Lucas certificates."
+    },
+    {
+      "id": "4.5.4-F9-product",
+      "printed_page": 403,
+      "claim": "F9: the stated factors and any residual multiply to 2^(2^9)+1.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-modern.md"
+      ],
+      "argument_section": "2",
+      "scope_note": "Exact saved product and division checks reused."
+    },
+    {
+      "id": "4.5.4-F10-factor1",
+      "printed_page": 403,
+      "claim": "F10: factor 1 is prime and has 8 decimal digits.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-modern.md"
+      ],
+      "argument_section": "2",
+      "scope_note": "Reuse archived independently validated ECPP/Lucas certificates."
+    },
+    {
+      "id": "4.5.4-F10-factor2",
+      "printed_page": 403,
+      "claim": "F10: factor 2 is prime and has 10 decimal digits.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-modern.md"
+      ],
+      "argument_section": "2",
+      "scope_note": "Reuse archived independently validated ECPP/Lucas certificates."
+    },
+    {
+      "id": "4.5.4-F10-factor3",
+      "printed_page": 403,
+      "claim": "F10: factor 3 is prime and has 40 decimal digits.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-modern.md"
+      ],
+      "argument_section": "2",
+      "scope_note": "Reuse archived independently validated ECPP/Lucas certificates."
+    },
+    {
+      "id": "4.5.4-F10-factor4",
+      "printed_page": 403,
+      "claim": "F10: factor 4 is prime and has 252 decimal digits.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-modern.md"
+      ],
+      "argument_section": "2",
+      "scope_note": "Reuse archived independently validated ECPP/Lucas certificates."
+    },
+    {
+      "id": "4.5.4-F10-product",
+      "printed_page": 403,
+      "claim": "F10: the stated factors and any residual multiply to 2^(2^10)+1.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-modern.md"
+      ],
+      "argument_section": "2",
+      "scope_note": "Exact saved product and division checks reused."
+    },
+    {
+      "id": "4.5.4-F11-factor1",
+      "printed_page": 403,
+      "claim": "F11: factor 1 is prime and has 6 decimal digits.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-modern.md"
+      ],
+      "argument_section": "2",
+      "scope_note": "Reuse archived independently validated ECPP/Lucas certificates."
+    },
+    {
+      "id": "4.5.4-F11-factor2",
+      "printed_page": 403,
+      "claim": "F11: factor 2 is prime and has 6 decimal digits.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-modern.md"
+      ],
+      "argument_section": "2",
+      "scope_note": "Reuse archived independently validated ECPP/Lucas certificates."
+    },
+    {
+      "id": "4.5.4-F11-factor3",
+      "printed_page": 403,
+      "claim": "F11: factor 3 is prime and has 21 decimal digits.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-modern.md"
+      ],
+      "argument_section": "2",
+      "scope_note": "Reuse archived independently validated ECPP/Lucas certificates."
+    },
+    {
+      "id": "4.5.4-F11-factor4",
+      "printed_page": 403,
+      "claim": "F11: factor 4 is prime and has 22 decimal digits.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-modern.md"
+      ],
+      "argument_section": "2",
+      "scope_note": "Reuse archived independently validated ECPP/Lucas certificates."
+    },
+    {
+      "id": "4.5.4-F11-factor5",
+      "printed_page": 403,
+      "claim": "F11: factor 5 is prime and has 564 decimal digits.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-modern.md"
+      ],
+      "argument_section": "2",
+      "scope_note": "Reuse archived independently validated ECPP/Lucas certificates."
+    },
+    {
+      "id": "4.5.4-F11-product",
+      "printed_page": 403,
+      "claim": "F11: the stated factors and any residual multiply to 2^(2^11)+1.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-modern.md"
+      ],
+      "argument_section": "2",
+      "scope_note": "Exact saved product and division checks reused."
+    },
+    {
+      "id": "4.5.4-F12-factor1",
+      "printed_page": 403,
+      "claim": "F12: factor 1 is prime and has 6 decimal digits.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-modern.md"
+      ],
+      "argument_section": "2",
+      "scope_note": "Reuse archived independently validated ECPP/Lucas certificates."
+    },
+    {
+      "id": "4.5.4-F12-factor2",
+      "printed_page": 403,
+      "claim": "F12: factor 2 is prime and has 8 decimal digits.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-modern.md"
+      ],
+      "argument_section": "2",
+      "scope_note": "Reuse archived independently validated ECPP/Lucas certificates."
+    },
+    {
+      "id": "4.5.4-F12-factor3",
+      "printed_page": 403,
+      "claim": "F12: factor 3 is prime and has 8 decimal digits.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-modern.md"
+      ],
+      "argument_section": "2",
+      "scope_note": "Reuse archived independently validated ECPP/Lucas certificates."
+    },
+    {
+      "id": "4.5.4-F12-factor4",
+      "printed_page": 403,
+      "claim": "F12: factor 4 is prime and has 12 decimal digits.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-modern.md"
+      ],
+      "argument_section": "2",
+      "scope_note": "Reuse archived independently validated ECPP/Lucas certificates."
+    },
+    {
+      "id": "4.5.4-F12-factor5",
+      "printed_page": 403,
+      "claim": "F12: factor 5 is prime and has 16 decimal digits.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-modern.md"
+      ],
+      "argument_section": "2",
+      "scope_note": "Reuse archived independently validated ECPP/Lucas certificates."
+    },
+    {
+      "id": "4.5.4-F12-product",
+      "printed_page": 403,
+      "claim": "F12: the stated factors and any residual multiply to 2^(2^12)+1.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-modern.md"
+      ],
+      "argument_section": "2",
+      "scope_note": "Exact saved product and division checks reused."
+    },
+    {
+      "id": "4.5.4-F13-factor1",
+      "printed_page": 403,
+      "claim": "F13: factor 1 is prime and has 13 decimal digits.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-modern.md"
+      ],
+      "argument_section": "2",
+      "scope_note": "Reuse archived independently validated ECPP/Lucas certificates."
+    },
+    {
+      "id": "4.5.4-F13-factor2",
+      "printed_page": 403,
+      "claim": "F13: factor 2 is prime and has 19 decimal digits.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-modern.md"
+      ],
+      "argument_section": "2",
+      "scope_note": "Reuse archived independently validated ECPP/Lucas certificates."
+    },
+    {
+      "id": "4.5.4-F13-factor3",
+      "printed_page": 403,
+      "claim": "F13: factor 3 is prime and has 19 decimal digits.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-modern.md"
+      ],
+      "argument_section": "2",
+      "scope_note": "Reuse archived independently validated ECPP/Lucas certificates."
+    },
+    {
+      "id": "4.5.4-F13-factor4",
+      "printed_page": 403,
+      "claim": "F13: factor 4 is prime and has 27 decimal digits.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-modern.md"
+      ],
+      "argument_section": "2",
+      "scope_note": "Reuse archived independently validated ECPP/Lucas certificates."
+    },
+    {
+      "id": "4.5.4-F13-product",
+      "printed_page": 403,
+      "claim": "F13: the stated factors and any residual multiply to 2^(2^13)+1.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-modern.md"
+      ],
+      "argument_section": "2",
+      "scope_note": "Exact saved product and division checks reused."
+    },
+    {
+      "id": "4.5.4-F12-residual",
+      "printed_page": 403,
+      "claim": "F12 has the stated composite residual with 1187 decimal digits.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-modern.md"
+      ],
+      "argument_section": "2",
+      "scope_note": "Saved base-3 Fermat witness and exact decimal inequalities reused."
+    },
+    {
+      "id": "4.5.4-F13-residual",
+      "printed_page": 403,
+      "claim": "F13 has the stated composite residual with 2391 decimal digits.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-modern.md"
+      ],
+      "argument_section": "2",
+      "scope_note": "Saved base-3 Fermat witness and exact decimal inequalities reused."
+    },
+    {
+      "id": "4.5.4-F9-timing",
+      "printed_page": 403,
+      "claim": "The original report records four months on approximately 700 workstations.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-modern.md"
+      ],
+      "argument_section": "3",
+      "scope_note": "Historical author report; computation not reproduced."
+    },
+    {
+      "id": "4.5.4-F10-date",
+      "printed_page": 403,
+      "claim": "The F10 factorization date is October 20, 1995.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-modern.md"
+      ],
+      "argument_section": "3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-F11-date",
+      "printed_page": 403,
+      "claim": "The F11 factorization was already obtained in 1988.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-modern.md"
+      ],
+      "argument_section": "3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-Fermat-digit-doubling",
+      "printed_page": 403,
+      "claim": "The successive displayed Fermat numbers have approximately twice as many digits.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-modern.md"
+      ],
+      "argument_section": "2",
+      "scope_note": "The exact first counts are 155 and 309, not an exact doubling assertion."
+    },
+    {
+      "id": "4.5.4-F11-small-factor-limit",
+      "printed_page": 403,
+      "claim": "All but one displayed F11 factors are below 10^22.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-modern.md"
+      ],
+      "argument_section": "2",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-F12-small-factor-limit",
+      "printed_page": 403,
+      "claim": "The five displayed F12 factors are below 10^16.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-modern.md"
+      ],
+      "argument_section": "2",
+      "scope_note": "Historical 1997 list, not a statement of current factorization status."
+    },
+    {
+      "id": "4.5.4-F13-small-factor-limit",
+      "printed_page": 403,
+      "claim": "The four displayed F13 factors are below 10^27.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-modern.md"
+      ],
+      "argument_section": "2",
+      "scope_note": "Historical 1997 list, not a statement of current factorization status."
+    },
+    {
+      "id": "4.5.4-ex11-table-row1",
+      "printed_page": 659,
+      "claim": "Exercise 11 table row 1: full state and any output.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "5",
+      "scope_note": "Original initial rows interpreted with the published E1 correction."
+    },
+    {
+      "id": "4.5.4-ex11-table-row2",
+      "printed_page": 659,
+      "claim": "Exercise 11 table row 2: full state and any output.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "5",
+      "scope_note": "Original initial rows interpreted with the published E1 correction."
+    },
+    {
+      "id": "4.5.4-ex11-table-row3",
+      "printed_page": 659,
+      "claim": "Exercise 11 table row 3: full state and any output.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "5",
+      "scope_note": "Original initial rows interpreted with the published E1 correction."
+    },
+    {
+      "id": "4.5.4-ex11-table-row4",
+      "printed_page": 659,
+      "claim": "Exercise 11 table row 4: full state and any output.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "5",
+      "scope_note": "Original initial rows interpreted with the published E1 correction."
+    },
+    {
+      "id": "4.5.4-ex11-table-row5",
+      "printed_page": 659,
+      "claim": "Exercise 11 table row 5: full state and any output.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "5",
+      "scope_note": "Original initial rows interpreted with the published E1 correction."
+    },
+    {
+      "id": "4.5.4-ex11-table-row6",
+      "printed_page": 659,
+      "claim": "Exercise 11 table row 6: full state and any output.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "5",
+      "scope_note": "Original initial rows interpreted with the published E1 correction."
+    },
+    {
+      "id": "4.5.4-ex11-table-row7",
+      "printed_page": 659,
+      "claim": "Exercise 11 table row 7: full state and any output.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "5",
+      "scope_note": "Original initial rows interpreted with the published E1 correction."
+    },
+    {
+      "id": "4.5.4-ex11-period",
+      "printed_page": 412,
+      "claim": "The stated period for sqrt(5·197209) is correct.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "5",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-ex11-three-outputs",
+      "printed_page": 659,
+      "claim": "The three outputs are 993²≡4, 2²≡4 and 99101²≡1; first and last split N.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "5",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-F1",
+      "printed_page": 659,
+      "claim": "Algorithm F step 1: parity elimination and modular relation invariant.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "3",
+      "scope_note": "Correctness and completeness are interpreted with the coprimality repair C0159."
+    },
+    {
+      "id": "4.5.4-F2",
+      "printed_page": 659,
+      "claim": "Algorithm F step 2: parity elimination and modular relation invariant.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "3",
+      "scope_note": "Correctness and completeness are interpreted with the coprimality repair C0159."
+    },
+    {
+      "id": "4.5.4-F3",
+      "printed_page": 659,
+      "claim": "Algorithm F step 3: parity elimination and modular relation invariant.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "3",
+      "scope_note": "Correctness and completeness are interpreted with the coprimality repair C0159."
+    },
+    {
+      "id": "4.5.4-F4",
+      "printed_page": 659,
+      "claim": "Algorithm F step 4: parity elimination and modular relation invariant.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "3",
+      "scope_note": "Correctness and completeness are interpreted with the coprimality repair C0159."
+    },
+    {
+      "id": "4.5.4-F5",
+      "printed_page": 660,
+      "claim": "Algorithm F step 5: parity elimination and modular relation invariant.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "3",
+      "scope_note": "Correctness and completeness are interpreted with the coprimality repair C0159."
+    },
+    {
+      "id": "4.5.4-F-completeness",
+      "printed_page": 660,
+      "claim": "Generated dependencies form a basis of the relation kernel; the root-class map is a homomorphism.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "3",
+      "scope_note": "This proves completeness for units; the unrestricted printed statement has counterexample C0159."
+    },
+    {
+      "id": "4.5.4-F-probability",
+      "printed_page": 660,
+      "claim": "For odd N and a unit relation, there are 2^d roots and exactly two trivial choices.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "4",
+      "scope_note": "C0159 supplies counterexamples when the assumptions are omitted."
+    },
+    {
+      "id": "4.5.4-ex14-proof",
+      "printed_page": 660,
+      "claim": "Coprimality of full convergent numerator and denominator permits the quadratic-character test.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "5",
+      "scope_note": "C0158 distinguishes full numerator p_n from the stored P modulo N."
+    },
+    {
+      "id": "4.5.4-ex28-p2recurrence",
+      "printed_page": 664,
+      "claim": "f(p,p²d)=2/(p+1)+f(p,d)/p.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "6",
+      "scope_note": "Compatible primitive local residue distributions; zero norm has probability zero."
+    },
+    {
+      "id": "4.5.4-ex28-poddvaluation",
+      "printed_page": 664,
+      "claim": "f(p,pd)=1/(p+1) when p does not divide d.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "6",
+      "scope_note": "Compatible primitive local residue distributions; zero norm has probability zero."
+    },
+    {
+      "id": "4.5.4-ex28-binary3mod4",
+      "printed_page": 664,
+      "claim": "f(2,4k+3)=1/3.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "6",
+      "scope_note": "Compatible primitive local residue distributions; zero norm has probability zero."
+    },
+    {
+      "id": "4.5.4-ex28-binary5mod8",
+      "printed_page": 664,
+      "claim": "f(2,8k+5)=2/3.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "6",
+      "scope_note": "Compatible primitive local residue distributions; zero norm has probability zero."
+    },
+    {
+      "id": "4.5.4-ex28-binary1mod8",
+      "printed_page": 664,
+      "claim": "f(2,8k+1)=4/3.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "6",
+      "scope_note": "Compatible primitive local residue distributions; zero norm has probability zero."
+    },
+    {
+      "id": "4.5.4-ex28-oddresidue",
+      "printed_page": 664,
+      "claim": "For an odd p not dividing d, the mean is 2p/(p²−1) or zero according to quadratic character.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "argument_section": "6",
+      "scope_note": "Compatible primitive local residue distributions; zero norm has probability zero."
+    },
+    {
+      "id": "4.5.4-ex29-count",
+      "printed_page": 664,
+      "claim": "Stars-and-bars and unique factorization prove the lower bound on smooth numbers.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-basic.md"
+      ],
+      "argument_section": "Hladká čísla, úloha 29",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-ex30-root-lifting",
+      "printed_page": 664,
+      "claim": "Two unit roots lift uniquely through each odd prime power.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-dixon.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-ex30-pair-multiplicity",
+      "printed_page": 664,
+      "claim": "A sum exponent vector is produced by at most binom(r,r/2) pairs.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-dixon.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-ex30-Cauchy",
+      "printed_page": 664,
+      "claim": "Cauchy–Schwarz over quadratic-character classes gives at least m^r/r! admissible roots.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-dixon.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-ex31-Markov",
+      "printed_page": 664,
+      "claim": "The binomial lower tail is at most exp(−m/2) when MP>=4m.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-dixon.md"
+      ],
+      "argument_section": "3",
+      "scope_note": "The original answer's equality MP=4m is safely weakened to the available inequality."
+    },
+    {
+      "id": "4.5.4-ex36-nth-prime",
+      "printed_page": 665,
+      "claim": "The displayed nth-prime expansion follows by inversion of the preceding PNT expansion.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-refinement.md"
+      ],
+      "argument_section": "1",
+      "scope_note": "PNT itself remains an explicit input."
+    },
+    {
+      "id": "4.5.4-ex36-floor-defect",
+      "printed_page": 665,
+      "claim": "The printed refined r expansion omits a nonvanishing fractional part.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-refinement.md"
+      ],
+      "argument_section": "2",
+      "scope_note": "C0174: a parametric exact counterexample and its effect on the time remainder."
+    },
+    {
+      "id": "4.5.4-ex36-tuned-optimum",
+      "printed_page": 665,
+      "claim": "Integer parameter tuning attains the final optimized bound within exp(O(log log N)).",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-refinement.md"
+      ],
+      "argument_section": "3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-ex36-epsilon50",
+      "printed_page": 665,
+      "claim": "The refined leading exponent at N=10^50 is approximately 0.33.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-refinement.md"
+      ],
+      "argument_section": "3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-ex36-census1",
+      "printed_page": 665,
+      "claim": "The first million noninteger partial quotients contain 415236 occurrences of 1.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-refinement.md"
+      ],
+      "argument_section": "4",
+      "scope_note": "Reuse the completed two-recurrence census; no new run."
+    },
+    {
+      "id": "4.5.4-ex36-census2",
+      "printed_page": 665,
+      "claim": "The first million noninteger partial quotients contain 169719 occurrences of 2.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-refinement.md"
+      ],
+      "argument_section": "4",
+      "scope_note": "Reuse the completed two-recurrence census; no new run."
+    },
+    {
+      "id": "4.5.4-ex36-census3",
+      "printed_page": 665,
+      "claim": "The first million noninteger partial quotients contain 93180 occurrences of 3.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-refinement.md"
+      ],
+      "argument_section": "4",
+      "scope_note": "Reuse the completed two-recurrence census; no new run."
+    },
+    {
+      "id": "4.5.4-ex36-census4",
+      "printed_page": 665,
+      "claim": "The first million noninteger partial quotients contain 58606 occurrences of 4.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-refinement.md"
+      ],
+      "argument_section": "4",
+      "scope_note": "Reuse the completed two-recurrence census; no new run."
+    },
+    {
+      "id": "4.5.4-ex36-norm-asymptotic",
+      "printed_page": 665,
+      "claim": "The quadratic norm equals 2sqrt(D) times the approximation coefficient, with O(q_n^−2) error.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-refinement.md"
+      ],
+      "argument_section": "4",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-ex36-density",
+      "printed_page": 665,
+      "claim": "The almost-everywhere approximation coefficient density is min(1,1/t−1)/ln 2.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-refinement.md"
+      ],
+      "argument_section": "4",
+      "scope_note": "Own change-of-variables calculation from an explicit invariant density; ergodicity is external input."
+    },
+    {
+      "id": "4.5.4-ex36-fixed-D-heuristic",
+      "printed_page": 665,
+      "claim": "Use of the almost-everywhere density for fixed sqrt(D) is heuristic.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-refinement.md"
+      ],
+      "argument_section": "4",
+      "scope_note": "Not promoted to a theorem for every quadratic irrational."
+    },
+    {
+      "id": "4.5.4-ex37-palindrome",
+      "printed_page": 665,
+      "claim": "The periodic quotient block before 2R is a palindrome, including the empty block.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-refinement.md"
+      ],
+      "argument_section": "5",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-ex37-state-symmetry",
+      "printed_page": 665,
+      "claim": "The involution gives the stated reflected U/V symmetries.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-refinement.md"
+      ],
+      "argument_section": "5",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-ex37-early-stop",
+      "printed_page": 665,
+      "claim": "The proposed early stop may lose factor-producing relations.",
+      "status": "partial",
+      "evidence": [
+        "notes/factoring-refinement.md"
+      ],
+      "argument_section": "5",
+      "scope_note": "C0175 remains candidate because the optional wording does not explicitly promise completeness."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "4.5.4-11",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "review_scope": "Complete original problem, answer and relevant addenda paired with the cited arguments; saved computations reused.",
+      "scope_note": "Existing finding and erratum classifications remain in coverage.json; this record describes the argument scope."
+    },
+    {
+      "id": "4.5.4-12",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "review_scope": "Complete original problem, answer and relevant addenda paired with the cited arguments; saved computations reused.",
+      "scope_note": "Existing finding and erratum classifications remain in coverage.json; this record describes the argument scope."
+    },
+    {
+      "id": "4.5.4-13",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "review_scope": "Complete original problem, answer and relevant addenda paired with the cited arguments; saved computations reused.",
+      "scope_note": "Existing finding and erratum classifications remain in coverage.json; this record describes the argument scope."
+    },
+    {
+      "id": "4.5.4-14",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "review_scope": "Complete original problem, answer and relevant addenda paired with the cited arguments; saved computations reused.",
+      "scope_note": "Existing finding and erratum classifications remain in coverage.json; this record describes the argument scope."
+    },
+    {
+      "id": "4.5.4-28",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-contfrac.md"
+      ],
+      "review_scope": "Complete original problem, answer and relevant addenda paired with the cited arguments; saved computations reused.",
+      "scope_note": "Existing finding and erratum classifications remain in coverage.json; this record describes the argument scope."
+    },
+    {
+      "id": "4.5.4-29",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-basic.md"
+      ],
+      "review_scope": "Complete original problem, answer and relevant addenda paired with the cited arguments; saved computations reused.",
+      "scope_note": "Existing finding and erratum classifications remain in coverage.json; this record describes the argument scope."
+    },
+    {
+      "id": "4.5.4-30",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-dixon.md"
+      ],
+      "review_scope": "Complete original problem, answer and relevant addenda paired with the cited arguments; saved computations reused.",
+      "scope_note": "Existing finding and erratum classifications remain in coverage.json; this record describes the argument scope."
+    },
+    {
+      "id": "4.5.4-31",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-dixon.md"
+      ],
+      "review_scope": "Complete original problem, answer and relevant addenda paired with the cited arguments; saved computations reused.",
+      "scope_note": "Existing finding and erratum classifications remain in coverage.json; this record describes the argument scope."
+    },
+    {
+      "id": "4.5.4-36",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-refinement.md"
+      ],
+      "review_scope": "Complete original problem, answer and relevant addenda paired with the cited arguments; saved computations reused.",
+      "scope_note": "Existing finding and erratum classifications remain in coverage.json; this record describes the argument scope."
+    },
+    {
+      "id": "4.5.4-37",
+      "status": "partial",
+      "evidence": [
+        "notes/factoring-refinement.md"
+      ],
+      "review_scope": "Complete original problem, answer and relevant addenda paired with the cited arguments; saved computations reused.",
+      "scope_note": "The palindrome is proved; interpretation of optional early termination remains candidate C0175."
+    }
+  ],
+  "new_computation": [],
+  "new_confirmed_findings": []
+}

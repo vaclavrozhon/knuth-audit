@@ -1,0 +1,119 @@
+{
+  "checked_at_utc": "2026-11-01T18:44:05.288702+00:00",
+  "remote_freshness_evidence": "../dlx_structure/errata-check.json",
+  "remote_checked_at_utc": "2026-11-01T18:17:54.561862+00:00",
+  "remote_checks": [
+    {
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/all4b.ps.gz",
+      "file": "errata/originals/all4b.ps.gz",
+      "sha256": "61c41e43dc337c1259f9ff690bfef718da2a656abdb110c6e7875c11f9566eea",
+      "local_sha256": "61c41e43dc337c1259f9ff690bfef718da2a656abdb110c6e7875c11f9566eea",
+      "status": "unchanged",
+      "http_last_modified": "Fri, 17 Apr 2026 06:28:39 GMT"
+    },
+    {
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/all4f5.ps.gz",
+      "file": "errata/originals/all4f5.ps.gz",
+      "sha256": "4c3edee8aa4c92f69bc5eb243ffe03779ae56c1e89a0ad36f85a2ac770fcbb83",
+      "local_sha256": "4c3edee8aa4c92f69bc5eb243ffe03779ae56c1e89a0ad36f85a2ac770fcbb83",
+      "status": "unchanged",
+      "http_last_modified": "Wed, 27 Jul 2022 05:22:26 GMT"
+    },
+    {
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/err4b.textxt",
+      "file": "errata/originals/err4b.textxt",
+      "sha256": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+      "local_sha256": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+      "status": "unchanged",
+      "http_last_modified": "Fri, 17 Apr 2026 06:27:21 GMT"
+    },
+    {
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/err4f5.textxt",
+      "file": "errata/originals/err4f5.textxt",
+      "sha256": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b",
+      "local_sha256": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b",
+      "status": "unchanged",
+      "http_last_modified": "Wed, 27 Jul 2022 05:22:16 GMT"
+    }
+  ],
+  "pattern": "4b\\.(127|422|423|424)\\b|4f5\\.(230|231|232)\\b|Page (127|422|423|424|230|231|232)\\b|75287520|particular set partition|lexicograph|5\\.726|\\\\\\\\ans39\\b",
+  "files": [
+    {
+      "path": "errata/originals/err4b.textxt",
+      "sha256": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+      "hits": [
+        {
+          "line": 410,
+          "context": "\n\\amendpage 4b.127 line 1 of exercise 33 (25.10.12)\n\\ninepoint construct \\becomes efficiently construct\n\\endchange\n\n\\improvepage 4b.135 lines 8 and 9 of exercise 103 (23.01.03)\n\\ninepoint twelve-tone row \\becomes {\\it twelve-tone row}\n\\endchange\n\n\\amendpage 4b.135 in exercise 104 (25.09.15)"
+        },
+        {
+          "line": 794,
+          "context": "\n\\amendpage 4b.422 replacement for answer 33 (25.12.20)\n\\ans33. (Solution by N. {Posting}.) Add a new row at the bottom of $A$,\nall $1$s. This $(m+1)\\times n$ matrix $A'$\nhas one solution that chooses only the last row.\nAll other solutions choose rows that solve~$A$.\n(Another construction, which adds a new column,\ncan be used if the all-$1$s row is already present.)\n\\endchange\n"
+        },
+        {
+          "line": 803,
+          "context": "\n\\bugonpage 4b.422 line 4 of answer 34 (25.01.02)\n$011\\alpha_k$ if $k>t/2$ \\becomes $001\\alpha_k$ if $k>t/2$\n\\endchange\n\n\\amendpage 4b.431 and 432, replacement for answer 73 (23.08.10)\n\\ans73. \\def\\\\{\\mkern.25mu/\\mkern.25mu}From\n$06151146\\\\66611014\\\\56132144\\\\55326224\\\\53632022\\\\34300525\\\\33040054$\nwe get 807,752 solutions, which is the current record. This array, found in\n2023 by Germ\\'an Gonz\\'alez-Morris based on previous work by Michael Keller,"
+        },
+        {
+          "line": 1763,
+          "context": "\\amendpage 4b.648 replacement for last two lines of answer 495 (24.02.16)\n\\noindent row increase lexicographically;\nand the same holds for columns.\n[See Anna Lubiw, {\\sl SICOMP\\/ \\bf16} (1987), 854--879. % proof on 856--857\nThe matrix entries needn't be only $0@$s and~1s.]\n\\endchange\n\n\\amendpage 4b.653 line 2 of answer 521 (23.01.19)\n\\arXiv:1402.1956 [cs.AI] (2014), 13~pages. \\becomes\n{\\sl Int.\\ J. Artificial Intelligence Tools\\/ \\bf27},8 (2018), 1850033:1--19."
+        }
+      ]
+    },
+    {
+      "path": "errata/originals/err4f5.textxt",
+      "sha256": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b",
+      "hits": [
+        {
+          "line": 938,
+          "context": "\n\\amendpage 4f5.231 last line of answer 37 (21.03.03)\n{\\sl Combinatorics}, to appear. \\becomes\n{\\sl Combinatorics\\/ \\bf27} (2020), \\#P1.52, 1--27.\n\\endchange\n\n\\amendpage 4f5.231 replacement for step G3 in answer 38 (21.02.07)\n\n\\algindentset{G1}\n\\algstep G3. [Found?] If $k>n-r$ go to G4."
+        },
+        {
+          "line": 943,
+          "context": "\n\\amendpage 4f5.231 replacement for step G3 in answer 38 (21.02.07)\n\n\\algindentset{G1}\n\\algstep G3. [Found?] If $k>n-r$ go to G4.\nOtherwise if $a_k=b_{k+n}=c_{k-n}=0$, go to G5.\nOtherwise set $k\\gets k+1$ and repeat this step.\n\\endchange\n\n\\amendpage 4f5.234 replacement for answer 52 (19.12.14)"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all4b.txt",
+      "sha256": "b1a3425486f403fb4158585d5bbfef0159fd20b12e2e7d47b64e393e1ae8a303",
+      "hits": [
+        {
+          "line": 197,
+          "context": " m.) Hint:\n Page 127 line 1 of exer ise 33                                             12 O t 2025\n  onstru t     y\n              eÆ iently onstru t\nPage 135 lines 8 and 9 of exer ise 103                                      03 Jan 2023\n twelve-tone row   y  twelve-tone row\n Page 135 in exer ise 104                                                   15 Sep 2025\n  line 2: whenever k is not a multiple of p y\n  line 3: (if xn is blank)  y (where xn is onsidered to be blank)\n"
+        },
+        {
+          "line": 427,
+          "context": " if T is just a root node marked as a solution, let there be no rows and no olumns.\nPage 422 repla ement for answer 33                                              20 De 2025\n 33. (Solution by N. Posting.) Add a new row at the bottom of A, all 1s. This (m+1)\u0002n\n matrix A0 has one solution that hooses only the last row. All other solutions hoose\n rows that solve A. (Another onstru tion, whi h adds a new olumn, an be used if\n the all-1s row is already present.)\n\n        CHANGES TO VOLUME 4B: COMBINATORIAL ALGORITHMS, PART 2                                           11\n\nxPage 422      line 4 of answer 34                                                        02 Jan 2025"
+        },
+        {
+          "line": 435,
+          "context": "\nxPage 422      line 4 of answer 34                                                        02 Jan 2025\n  011 k if k > t=2       y   001 k if k > t=2\n Page 431 and 432, repla ement for answer 73                                              10 Aug 2023\n  73. From 06151146=66611014=56132144 =55326224= 53632022= 34300525 =33040054 we\n  get 807,752 solutions, whi h is the urrent re ord. This array, found in 2023 by Germ\u0013an\n  Gonz\u0013alez-Morris based on previous work by Mi hael Keller, has the surprising property\n  that every andidate pla ement o urs in at least 35,082 solutions!\n Page 432 append to answer 75                                                             13 Feb 2024\n  \\Gropes\" of a ompletely di erent kind were introdu ed into the theory of topologi al"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all4f5.txt",
+      "sha256": "0dd38c4cda72b01baefb797611c9bbab7713ff0c107a1df884afc89fe9bb91c3",
+      "hits": [
+        {
+          "line": 276,
+          "context": "      CHANGES TO V4F5: MATH PRELIMINARIES, BACKTRACKING ET AL                                    7\nPage 127       last senten e of exer ise 53                                          21 Mar 2022\n    Show that : : : problems. y Show that exa tly 13 essentially di erent 4- lue shidoku\n    problems have a unique solution.\nx\nPage 127       line 1 of exer ise 57                                                 10 Sep 2021\n    has 27 y has at most\nPage 130       last line of exer ise 76                                              19 Sep 2021\n    an identity element y the identity element 0\nPage 130   an additional senten e in exer ise 77                                     02 Mar 2020"
+        },
+        {
+          "line": 280,
+          "context": "x\nPage 127       line 1 of exer ise 57                                                 10 Sep 2021\n    has 27 y has at most\nPage 130       last line of exer ise 76                                              19 Sep 2021\n    an identity element y the identity element 0\nPage 130   an additional senten e in exer ise 77                                     02 Mar 2020\n (In su h a ase we say that G is embedded in H .)\nPage 133 in exer ise 103(b)                                                          30 Mar 2022\n How many solutions y How many inequivalent solutions\nPage 135 line 1 of exer ise 116                                                      25 May 2021"
+        },
+        {
+          "line": 550,
+          "context": "                                  10 01 10 in lines 4{5, 9{10, 13{14 of the matrix.℄\n Page 231 last line of answer 37                                                03 Mar 2021\n  Combinatori s, to appear. y Combinatori s 27 (2020), #P1.52, 1{27.\n Page 231 repla ement for step G3 in answer 38                                   07 Feb 2021\n  G3. [Found?℄ If k > n      r go to G4. Otherwise if ak = bk+n = k n = 0, go to G5.\n       Otherwise set k k + 1 and repeat this step.\n Page 234 repla ement for answer 52                                              14 De 2019\n  52. (Solution by F. Stappers.) Puzzles laiming to be \\the world's         1 2 3        4\n  hardest sudoku\" keep appearing in online forums. Rated by sear h 5 4 2 1 6\n  tree size with Algorithm X, the toughest among nearly 27,000 su h 7"
+        },
+        {
+          "line": 552,
+          "context": "  Combinatori s, to appear. y Combinatori s 27 (2020), #P1.52, 1{27.\n Page 231 repla ement for step G3 in answer 38                                   07 Feb 2021\n  G3. [Found?℄ If k > n      r go to G4. Otherwise if ak = bk+n = k n = 0, go to G5.\n       Otherwise set k k + 1 and repeat this step.\n Page 234 repla ement for answer 52                                              14 De 2019\n  52. (Solution by F. Stappers.) Puzzles laiming to be \\the world's         1 2 3        4\n  hardest sudoku\" keep appearing in online forums. Rated by sear h 5 4 2 1 6\n  tree size with Algorithm X, the toughest among nearly 27,000 su h 7\n  extreme puzzles is shown here in a anoni al form. (It's number                   7       3 1\n  6539 in a list available from sites.google. om/site/sudoeleven/ 4 5 5 4 37"
+        }
+      ]
+    }
+  ],
+  "assessment": "No correction of DLX39 expectation or DLX37 index order found. The two historic Fascicle5 changes on p231 update the 37(b) citation and G3 of 38; both are already incorporated in Volume4B."
+}

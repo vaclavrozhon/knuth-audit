@@ -1,0 +1,30 @@
+{
+  "checked_at_utc": "2026-11-07T03:20:37.682754+00:00",
+  "scope": "Primary sources and explicit special-function dependencies for exercise5.2.2-16; the proof is in exchanging-proof-batcher-mean-16.md.",
+  "sources": [
+    {
+      "title": "Robert Sedgewick, Data Movement in Odd-Even Merging, SICOMP7(1978),239-272",
+      "url": "https://sedgewick.io/wp-content/themes/sedgewick/papers/1978Batcher.pdf",
+      "local_file": "workstreams/vol3/sources/sedgewick-1978-batcher.pdf",
+      "checked_scope": "Exact path identities and analytic derivation on254-270; original theorem266 and its negative sign visually checked. Independent bounds and normalization supplied locally."
+    },
+    {
+      "title": "NIST DLMF25.11",
+      "url": "https://dlmf.nist.gov/25.11",
+      "checked_scope": "Equations25.11.13 and25.11.18, a>0: zeta(0,a)=1/2-a and zeta derivative at0=lnGamma(a)-ln(2pi)/2; used only at a=1/4,1."
+    },
+    {
+      "title": "NIST DLMF5.4",
+      "url": "https://dlmf.nist.gov/5.4",
+      "checked_scope": "Equation5.4.3: exact modulus ofGamma(it) for nonzero realt."
+    },
+    {
+      "title": "NIST DLMF5.11",
+      "url": "https://dlmf.nist.gov/5.11",
+      "checked_scope": "Equation5.11.9 and Stirling expansion in a fixed vertical strip, used for Mellin contour bounds."
+    }
+  ],
+  "bibliography_skips": [
+    "The additional Flajolet-Odlyzko1990 pages238-239 were not separately verified; no proof step depends on them."
+  ]
+}

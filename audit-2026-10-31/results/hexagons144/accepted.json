@@ -1,0 +1,223 @@
+{
+  "at_utc": "2026-11-03T06:52:30.871962+00:00",
+  "source_sha256": "a8ea29bf57d747e8e1e94b701af0171e129ac0f7e8851f3945230e155a9e6982",
+  "geometry_sha256": "f38f1b2971a52cf11a0cbad3e3fb15dc59d87d75d53ab1559582668197f4aefb",
+  "case_ii": {
+    "independent_complete": true,
+    "color_classes": 204,
+    "reflection_classes": 102,
+    "reflection_fixed_classes": 0,
+    "all_204_models_valid": true,
+    "printed_figure_present": true,
+    "native_complete": false,
+    "native_timeout_seconds": 60,
+    "native_returncode": 124,
+    "native_partial_models": 2948,
+    "native_partial_color_classes": 204,
+    "all_emitted_native_models_valid": true,
+    "all_partial_native_classes_in_complete_independent_set": true,
+    "complete_cross_solver_set_comparison": false
+  },
+  "inventory": {
+    "oriented_words": 64,
+    "cyclic_types": 24,
+    "monochrome": 4,
+    "two_colors": 12,
+    "three_colors": 8
+  },
+  "all_regime_specifications": 16777216,
+  "local_transition_triples": [
+    [
+      "a",
+      "a",
+      "a"
+    ],
+    [
+      "b",
+      "b",
+      "b"
+    ],
+    [
+      "c",
+      "c",
+      "c"
+    ],
+    [
+      "d",
+      "d",
+      "d"
+    ]
+  ],
+  "impossible_regime": {
+    "vertex_positions": [
+      [
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        3,
+        0
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        2,
+        0
+      ],
+      [
+        1,
+        3,
+        0
+      ],
+      [
+        2,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        0
+      ],
+      [
+        2,
+        2,
+        0
+      ],
+      [
+        2,
+        3,
+        0
+      ],
+      [
+        3,
+        0,
+        0
+      ],
+      [
+        3,
+        1,
+        0
+      ],
+      [
+        3,
+        2,
+        0
+      ]
+    ],
+    "forced_monochrome_positions": [
+      [
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        3,
+        0
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        2,
+        0
+      ],
+      [
+        1,
+        3,
+        0
+      ],
+      [
+        2,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        0
+      ],
+      [
+        2,
+        2,
+        0
+      ],
+      [
+        2,
+        3,
+        0
+      ],
+      [
+        3,
+        0,
+        0
+      ],
+      [
+        3,
+        1,
+        0
+      ],
+      [
+        3,
+        2,
+        0
+      ]
+    ],
+    "available_monochrome_types": 4,
+    "proof": "12 distinct positions require 12 solid tiles, but only4 exist."
+  },
+  "omissions": [
+    {
+      "id": "DLX144-i-census",
+      "claim": "2*37586004=75172008 color-normalized arrangements",
+      "evidence": "Original and author draft agree; printed witness directly validated.",
+      "reason": "User explicitly permits omitting prolonged brute force; no case(i) census launched.",
+      "verified": false
+    },
+    {
+      "id": "DLX144-i-cost",
+      "claim": "643 teramems for AlgorithmC",
+      "evidence": "Author-reported historical benchmark.",
+      "reason": "Expensive historical benchmark deliberately not reproduced.",
+      "verified": false
+    },
+    {
+      "id": "DLX144-regime-proportion",
+      "claim": "Very few of the2^24 mode specifications are realizable",
+      "evidence": "2^24 formula proved; two valid witnesses and one explicit impossible mask checked.",
+      "reason": "No exhaustive census of all mode specifications; qualitative proportion not independently quantified.",
+      "verified": false
+    },
+    {
+      "id": "DLX144-ii-second-census",
+      "claim": "A second complete native count of case(ii)",
+      "evidence": "Complete independent census204, all models validated; 2948 valid native outputs before timeout.",
+      "reason": "Unnormalized original DLX2 stopped at60s; no extension or restart.",
+      "verified": false
+    }
+  ],
+  "author_characterization_question": "Recorded as an exploratory question in the book. No claim that a complete characterization is known or unknown worldwide.",
+  "artifacts": {
+    "results/hexagons144/bounded/ii.color-run.json": "808c938e5fd8af7ea7f76a2e2d37efd266633025bd79a268bfba0c691461789b",
+    "results/hexagons144/bounded/ii.color.out": "e98c83b7d0b565841f55338e05c99cd8656d58cf2d44d4fd53044a8635894e55",
+    "results/hexagons144/bounded/ii.color.log": "d8e82a9b051d7a4a4718db71d350d39de1411c8578526bd8a4516d0a59da4e92",
+    "results/hexagons144/bounded/ii.case": "1e532106850208b82f1cfb8c77d9d71c31557d742bd68e8a925935a0b00d6b27",
+    "results/hexagons144/bounded/ii.json": "d8b876ab77a9f2b6bd860608967be915ca7b77b56faebc3b83fd27d56920a6df",
+    "results/hexagons144/bounded/ii.out.gz": "3c3f82d84e8b8c163e655579c22aef7f2f3f8a7c46621327d02a8ca3ebc400b5",
+    "results/hexagons144/bounded/ii.log": "e5afe2400cca24c024d8b2e5c847e07c6254a330d005cf07fa11f848d2cac14c",
+    "results/hexagons144/bounded/small-checked.json": "f5c86cf13b47046fc97cc0d7bec7b68abc60912f4563c93ccef3db2100d34a64",
+    "results/hexagons144/bounded/build.json": "12912f78f62e343fc596143ea334ed3b50641f836a7e42cbb5cb06bc52b291bc",
+    "results/hexagons144/figures-checked.json": "82c3d9721c4dd39bcc86981dd760712b2ea023761943f1e0c7dfaee4909181f2",
+    "results/hexagons144/bounded/ii-canonical-models.txt.gz": "51a1bfe0dc520eec53978a0ec9cdd79b894f1ee96846824b903a0897b644d6cb"
+  }
+}

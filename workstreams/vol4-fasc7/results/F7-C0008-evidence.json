@@ -1,0 +1,119 @@
+{
+  "id": "F7-C0008",
+  "status": "candidate",
+  "severity": "medium",
+  "original": {
+    "file_page": 133,
+    "printed_page": 118,
+    "target": "Exercise50(a), claimed exhaustive six-case list; also answer50(a) onp169/file184.",
+    "context_file_pages": [
+      132,
+      184,
+      27
+    ],
+    "images": [
+      "images/file-133.png",
+      "images/file-184.png",
+      "images/file-132.png",
+      "images/file-027.png"
+    ]
+  },
+  "witness": {
+    "polygon_vertices_in_clockwise_order": {
+      "a": [
+        0,
+        0
+      ],
+      "b": [
+        0,
+        -1
+      ],
+      "c": [
+        2,
+        -1
+      ],
+      "d": [
+        2,
+        0
+      ],
+      "e": [
+        1,
+        0
+      ],
+      "f": [
+        1,
+        1
+      ],
+      "g": [
+        -1,
+        1
+      ],
+      "h": [
+        -1,
+        0
+      ]
+    },
+    "inner_chord": "ac",
+    "actual_W_at_a": "W(h,b,c)",
+    "only_printed_W_case_at_a": "W(b,c,h)",
+    "correct_W_determinants": [
+      1,
+      2,
+      1
+    ],
+    "wrong_order_c_h_determinant": -1,
+    "realizability": "Simple polygon with one interior chord;8 distinct vertices,9 edges,6V+2W, noT, biconnected.",
+    "valid_complete_labeling": {
+      "ab": "-",
+      "bc": ">",
+      "cd": ">",
+      "de": "-",
+      "ef": "<",
+      "fg": "+",
+      "gh": "<",
+      "ha": "+",
+      "ac": "+"
+    }
+  },
+  "support": [
+    "notes/F7-C0008.md",
+    "results/boundary-reflex-W50a.json",
+    "check_reflex_W50a.py",
+    "images/F7-C0008-reflex-W.png",
+    "images/F7-C0008-reflex-W.svg"
+  ],
+  "errata": [
+    {
+      "path": "workstreams/vol4-fasc7/sources/err4f7-2026-11-06.textxt",
+      "sha256": "5367c0ddd98ba05c1384dbf36a261c8492442aed6eb9d12cf3a9874258c55661",
+      "check": "Pages14,117,118,169 and answer50; only nearby47(e) replacement correction, no change affecting the chord occurrence argument."
+    },
+    {
+      "path": "errata/pdf/err4f7.pdf",
+      "sha256": "f117610d9e040d2543739e9fdb1e3c7947d6a63f7b99c2d9b21ecc1e21c13864",
+      "check": "Pages14,117,118,169 and answer50; only nearby47(e) replacement correction, no change affecting the chord occurrence argument."
+    },
+    {
+      "path": "errata/pdf/all4f7.pdf",
+      "sha256": "6675df9e26dd9d8cefbf3b8d722c88a701206c8c704ce499d5f86ac1c1d64039",
+      "check": "Pages14,117,118,169 and answer50; only nearby47(e) replacement correction, no change affecting the chord occurrence argument."
+    },
+    {
+      "path": "workstreams/vol4-fasc7/sources/err4f7-C0007-2026-11-07.txt",
+      "sha256": "0afe5f3e8fb61612c2f8370a3bb6280fd560e183cac2d745ec66386d3af5cca3",
+      "check": "Fresh pdftotext from the exact hashed repository PDF; no entry for118/169 or50. PDF title date30Oct2026; direct TeX snapshot includes later31Oct material."
+    },
+    {
+      "path": "workstreams/vol4-fasc7/sources/all4f7-C0007-2026-11-07.txt",
+      "sha256": "ef32430ffd04c186e1a332f2fae10a37f5813e8f383cbb61c5c42fc1ad91598e",
+      "check": "Fresh pdftotext from the exact hashed repository PDF; no entry for118/169 or50. PDF title date30Oct2026; direct TeX snapshot includes later31Oct material."
+    }
+  ],
+  "limits": [
+    "This is a missing W geometry in the exhaustive classification, distinct fromC0007.",
+    "The six printed matrices are correct for the configurations they actually represent.",
+    "Already audited example boundaries use the admitted cases and retain their valid counts."
+  ],
+  "independent_review": "Awaiting coordinator review",
+  "updated_at_utc": "2026-11-07T00:36:05.706479+00:00"
+}

@@ -1,0 +1,216 @@
+{
+  "scope": "3.3.3-18–28, exact arithmetic",
+  "blocks": {
+    "partial_sums": {
+      "result": {
+        "cases": 6525,
+        "scope": "Noncoprime and real shifts, negative shifts, z beyond full periods; direct partial sum versus closed form18."
+      },
+      "elapsed_seconds": 4.887891662976472
+    },
+    "rectangle_tests": {
+      "result": {
+        "full_period_multipliers": 95,
+        "rectangles": 27124,
+        "max_m_epsilon": "1",
+        "printed_discrepancy_bound_counterexample": null,
+        "scope": "Exact maxima for all full-period multipliers m<=50; all c covered by vertical-translation/complement symmetry."
+      },
+      "elapsed_seconds": 1.9171283559990115
+    },
+    "descending_triples": {
+      "result": {
+        "full_period_models": 2133,
+        "printed_formula_exceptions": [
+          {
+            "a": 1,
+            "m": 2,
+            "c": 1,
+            "printed": "1/8",
+            "actual": "0"
+          }
+        ],
+        "scope": "Nine printed sums, special noncoprime S9 reduction, boundary corrections vs actual consecutive triples."
+      },
+      "elapsed_seconds": 3.1998030919930898
+    },
+    "continuous_tests": {
+      "result": {
+        "correlation_integrals": 174,
+        "descending_triple_cases": 174,
+        "exact_one_sixth_cases": [
+          {
+            "a": 2,
+            "theta": "1/3",
+            "intervals": [
+              [
+                "1/2",
+                "2/3"
+              ]
+            ]
+          },
+          {
+            "a": 2,
+            "theta": "2/3",
+            "intervals": [
+              [
+                "1/4",
+                "1/3"
+              ],
+              [
+                "3/4",
+                "5/6"
+              ]
+            ]
+          },
+          {
+            "a": 3,
+            "theta": "1/2",
+            "intervals": [
+              [
+                "2/9",
+                "1/4"
+              ],
+              [
+                "5/9",
+                "7/12"
+              ],
+              [
+                "2/3",
+                "3/4"
+              ],
+              [
+                "8/9",
+                "11/12"
+              ]
+            ]
+          }
+        ],
+        "run_length_cases": 59,
+        "continuous_rectangles": 12348,
+        "a1_counterexample": {
+          "theta": "1/4",
+          "actual_descent": "1/4",
+          "printed_descent": "1/2"
+        },
+        "scope": "Exact rational interval clipping, not simulation; formula23 checked even at its breakpoints."
+      },
+      "elapsed_seconds": 4.299066637002397
+    },
+    "planar_tests": {
+      "result": {
+        "fibonacci_permutations": {
+          "123": "1/4",
+          "132": "0",
+          "213": "1/4",
+          "231": "0",
+          "312": "1/4",
+          "321": "1/4"
+        },
+        "fibonacci_runs": [
+          {
+            "k": 1,
+            "mass": "1/2",
+            "tail_after_k": "1/2",
+            "iid_mass": "1/3"
+          },
+          {
+            "k": 2,
+            "mass": "1/6",
+            "tail_after_k": "1/3",
+            "iid_mass": "5/12"
+          },
+          {
+            "k": 3,
+            "mass": "7/30",
+            "tail_after_k": "1/10",
+            "iid_mass": "11/60"
+          },
+          {
+            "k": 4,
+            "mass": "7/120",
+            "tail_after_k": "1/24",
+            "iid_mass": "19/360"
+          },
+          {
+            "k": 5,
+            "mass": "41/1560",
+            "tail_after_k": "1/65",
+            "iid_mass": "29/2520"
+          },
+          {
+            "k": 6,
+            "mass": "103/10920",
+            "tail_after_k": "1/168",
+            "iid_mass": "41/20160"
+          },
+          {
+            "k": 7,
+            "mass": "137/37128",
+            "tail_after_k": "1/442",
+            "iid_mass": "11/36288"
+          },
+          {
+            "k": 8,
+            "mass": "713/510510",
+            "tail_after_k": "1/1155",
+            "iid_mass": "71/1814400"
+          },
+          {
+            "k": 9,
+            "mass": "1871/3495030",
+            "tail_after_k": "1/3026",
+            "iid_mass": "89/19958400"
+          },
+          {
+            "k": 10,
+            "mass": "2447/11982960",
+            "tail_after_k": "1/7920",
+            "iid_mass": "109/239500800"
+          },
+          {
+            "k": 11,
+            "mass": "12817/164237040",
+            "tail_after_k": "1/20737",
+            "iid_mass": "131/3113510400"
+          },
+          {
+            "k": 12,
+            "mass": "33551/1125770256",
+            "tail_after_k": "1/54288",
+            "iid_mass": "31/8717829120"
+          },
+          {
+            "k": 13,
+            "mass": "43921/3857976720",
+            "tail_after_k": "1/142130",
+            "iid_mass": "181/653837184000"
+          },
+          {
+            "k": 14,
+            "mass": "229969/52886430870",
+            "tail_after_k": "1/372099",
+            "iid_mass": "19/951035904000"
+          },
+          {
+            "k": 15,
+            "mass": "602071/362487682830",
+            "tail_after_k": "1/974170",
+            "iid_mass": "239/177843714048000"
+          }
+        ],
+        "printed_fibonacci_row": [
+          "1/2",
+          "1/3",
+          "1/10",
+          "1/24",
+          "1/65"
+        ],
+        "table27_issue": "Printed Fibonacci row gives tails P(L>k), whereas text/formula and iid row give masses P(L=k).",
+        "potency2_alpha_cases": 47,
+        "scope": "Exact rational polygon clipping; original three figures checked by their affine boundaries."
+      },
+      "elapsed_seconds": 0.3589509419980459
+    }
+  }
+}

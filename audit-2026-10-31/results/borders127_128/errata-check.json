@@ -1,0 +1,62 @@
+{
+  "checked_at_utc": "2026-11-02T08:06:36.705568+00:00",
+  "local_files": {
+    "errata/text/all4b.txt": "b1a3425486f403fb4158585d5bbfef0159fd20b12e2e7d47b64e393e1ae8a303",
+    "errata/text/err4b.txt": "2a3450bf3c79d28ad3c2d96468344c96995cf0afb74961f257c311bb9c821e1c",
+    "errata/text/all4f5.txt": "0dd38c4cda72b01baefb797611c9bbab7713ff0c107a1df884afc89fe9bb91c3",
+    "errata/text/err4f5.txt": "5a716c34e2063eb46005593d53e89dbbd912b5677e0a6ab11753f2a5ee38b557",
+    "errata/originals/err4b.textxt": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+    "errata/originals/err4f5.textxt": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b"
+  },
+  "remote_files": [
+    {
+      "file": "all4b.ps.gz",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/all4b.ps.gz",
+      "sha256": "61c41e43dc337c1259f9ff690bfef718da2a656abdb110c6e7875c11f9566eea",
+      "unchanged": true
+    },
+    {
+      "file": "all4f5.ps.gz",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/all4f5.ps.gz",
+      "sha256": "4c3edee8aa4c92f69bc5eb243ffe03779ae56c1e89a0ad36f85a2ac770fcbb83",
+      "unchanged": true
+    },
+    {
+      "file": "err4b.textxt",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/err4b.textxt",
+      "sha256": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+      "unchanged": true
+    },
+    {
+      "file": "err4f5.textxt",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/err4f5.textxt",
+      "sha256": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b",
+      "unchanged": true
+    }
+  ],
+  "contexts_file": "errata-contexts.json",
+  "contexts_sha256": "9d4f494406ee3ba08a4ebfc196082e0fac39fe3cb029e6bcc85f24c73f8b743c",
+  "conclusions": [
+    "No correction to exercises127–128 or their answers found in all six relevant layers, including author TeX and both full/historical PDF text layers.",
+    "No mention found for boundary2099200/4054/576, counts48620416/49941040, or supertile1032/6192.",
+    "The21Oct2021 correction on publishedFascicle5p256 line-5 concerns answer129 only; local4Bp448 already includes the corrected -13.",
+    "Same-numbered pages/indices and nearby121/123 changes do not amend127/128."
+  ],
+  "page_mapping": {
+    "question4B": 138,
+    "questionFascicle5": 136,
+    "questionPrefascicle5C": 74,
+    "answer4B": [
+      447,
+      448
+    ],
+    "answerFascicle5": [
+      255,
+      256
+    ],
+    "answerPrefascicle5C": [
+      151,
+      152
+    ]
+  }
+}

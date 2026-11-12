@@ -1,0 +1,63 @@
+{
+  "checked_at_utc": "2026-11-12T01:52:16.281953+00:00",
+  "errata_ranges": {
+    "4B": [
+      [
+        254,
+        261
+      ],
+      [
+        341,
+        342
+      ],
+      [
+        601,
+        604
+      ]
+    ],
+    "4F6": [
+      [
+        70,
+        77
+      ],
+      [
+        157,
+        158
+      ],
+      [
+        237,
+        240
+      ]
+    ]
+  },
+  "errata_files": [
+    "errata/text/all4b.txt",
+    "errata/text/err4b.txt",
+    "errata/text/all4f6.txt",
+    "errata/text/err4f6.txt"
+  ],
+  "new_findings": [
+    "F224",
+    "F225",
+    "F226",
+    "F227",
+    "F228",
+    "F229"
+  ],
+  "known_errata": [
+    "2024 addition to answer 283 refers to F7 exercise 232.",
+    "2018 answer 288 adds the missing VAL read; incorporated in 4B.",
+    "2019 answer 293 adds the Mf increment; incorporated in 4B."
+  ],
+  "draft": "fasc6a, September 23, 2015, pages 72,76,238–240: all six issues also present.",
+  "official_program": "https://www-cs-faculty.stanford.edu/~knuth/programs/sat13.w",
+  "program_provenance": "audit-2026-10-31/sources/bookwise-sat13.w.provenance.json",
+  "program_scope": "Source portions computing ranges, protected counts, threshold deletion, and bounded flushing inspected; not compiled or run.",
+  "public_searches": [
+    "site:cs.stanford.edu/~knuth \"284\" \"certificate\" \"errata\"",
+    "site:cs.stanford.edu/~knuth \"288\" \"clauses\" \"errata\"",
+    "site:cs.stanford.edu/~knuth \"3114\""
+  ],
+  "search_result": "No matching report found; unrelated hits not used as evidence.",
+  "checks": "Six fixed witnesses, with independent defects isolated by assuming the other corrections."
+}

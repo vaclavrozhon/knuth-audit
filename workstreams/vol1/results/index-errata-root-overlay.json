@@ -1,0 +1,37 @@
+{
+  "source": "parallel/index-errata-content/results/index-errata-reference-review.json",
+  "source_sha256": "33e8705cec71ce8a53fc524a2e1644aae9cacd50d22a8a7d3b4c03bd1c880a1a",
+  "reviewed_utc": "2026-11-02T02:16:45.210342+00:00",
+  "scope": "Status overlay only; full unchanged individual evidence remains in frozen source",
+  "counts": {
+    "checked": 426,
+    "partial": 6,
+    "confirmed": 3
+  },
+  "independent_counts_without_short_duplicates": {
+    "checked": 380,
+    "partial": 6,
+    "confirmed": 2
+  },
+  "distinct_confirmed_findings": 2,
+  "overrides": [
+    {
+      "id": "idxerr-pre-19-054",
+      "status": "confirmed",
+      "ledger_ref": "V1-C0085",
+      "evidence": "notes/index-errata-root-review.md"
+    },
+    {
+      "id": "idxerr-all-16-004",
+      "status": "confirmed",
+      "ledger_ref": "V1-C0086",
+      "evidence": "notes/index-errata-root-review.md"
+    },
+    {
+      "id": "idxerr-short-14-004",
+      "status": "confirmed",
+      "ledger_ref": "V1-C0086",
+      "evidence": "notes/index-errata-root-review.md"
+    }
+  ]
+}

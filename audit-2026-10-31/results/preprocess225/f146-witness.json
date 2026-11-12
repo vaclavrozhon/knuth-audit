@@ -1,0 +1,239 @@
+{
+  "orientations": [
+    {
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "spans": [
+        2,
+        4
+      ],
+      "contains_diagonal_difference_22": false
+    },
+    {
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "spans": [
+        2,
+        4
+      ],
+      "contains_diagonal_difference_22": false
+    },
+    {
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "spans": [
+        4,
+        2
+      ],
+      "contains_diagonal_difference_22": false
+    },
+    {
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "spans": [
+        4,
+        2
+      ],
+      "contains_diagonal_difference_22": false
+    },
+    {
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "spans": [
+        2,
+        4
+      ],
+      "contains_diagonal_difference_22": false
+    },
+    {
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "spans": [
+        4,
+        2
+      ],
+      "contains_diagonal_difference_22": false
+    },
+    {
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "spans": [
+        4,
+        2
+      ],
+      "contains_diagonal_difference_22": false
+    },
+    {
+      "cells": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "spans": [
+        2,
+        4
+      ],
+      "contains_diagonal_difference_22": false
+    }
+  ],
+  "claim": "No translation or orientation of Y can contain both00 and22.",
+  "reason": "Those two cells require a3x3 bounding box; everyY has one dimension2.",
+  "implication": "A nonempty primary22 column cannot force00 under AlgorithmP; shortening never adds cells."
+}

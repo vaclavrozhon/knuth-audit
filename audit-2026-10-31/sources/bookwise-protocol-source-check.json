@@ -1,0 +1,31 @@
+{
+  "checked_at_utc": "2026-11-12T00:38:31.505004+00:00",
+  "fresh_errata_manifests": [
+    "integration/2026-11-10-bookwise/errata/vol4b-manifest.json",
+    "integration/2026-11-10-bookwise/errata/vol4b-sat-manifest.json"
+  ],
+  "scope": "4B main204–208, questions323–325, answers566–568; Fascicle6 main20–24, questions139–141, answers202–204.",
+  "errata_result": "No matching correction to the waiting-clause deletion.",
+  "originals_inspected": [
+    "images/bookwise-protocol-p205.png",
+    "images/bookwise-protocol-p208.png",
+    "images/bookwise-protocol-p567.png",
+    "images/bookwise-protocol-p568.png"
+  ],
+  "author_draft": {
+    "url": "https://www-cs-faculty.stanford.edu/~knuth/fasc6a.ps.gz",
+    "printed_page": 203,
+    "inspection": "text extraction",
+    "result": "Same instruction to omit the whole waiting clause."
+  },
+  "public_queries": [
+    "Knuth answer 92 clause omit",
+    "Knuth 53464 Life",
+    "Knuth predecessors 174 Life"
+  ],
+  "public_result": "No relevant correction located.",
+  "boundary_context": "sources/bookwise-sat-life-grid.ch",
+  "finding_ids": [
+    "F203"
+  ]
+}

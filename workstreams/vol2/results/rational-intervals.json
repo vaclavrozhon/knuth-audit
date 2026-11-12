@@ -1,0 +1,97 @@
+{
+  "containment": {
+    "status": "passed",
+    "seconds": 2.606259604974184,
+    "result": {
+      "interval_operations": 6000,
+      "nonzero_division_samples": 17994,
+      "unbounded_and_zero_divisor_checks": 4
+    }
+  },
+  "experiments": {
+    "status": "passed",
+    "seconds": 0.09534478498972021,
+    "result": {
+      "mediant_endpoint_failure": {
+        "exact": "1/10",
+        "point_pair": [
+          0,
+          1
+        ],
+        "outward": {
+          "lo": "0",
+          "hi": "1/7",
+          "width": "1/7",
+          "domain_issue": false
+        }
+      },
+      "rows": [
+        {
+          "q": 8,
+          "harmonic100": {
+            "lo": "20/7",
+            "hi": "58/3",
+            "width": "346/21",
+            "domain_issue": false
+          },
+          "determinant": {
+            "lo": "3/10",
+            "hi": "1/2",
+            "width": "1/5",
+            "domain_issue": false
+          },
+          "dependency_x_minus_x": {
+            "lo": "-1/6",
+            "hi": "1/6",
+            "width": "1/3",
+            "domain_issue": false
+          }
+        },
+        {
+          "q": 27,
+          "harmonic100": {
+            "lo": "4181/806",
+            "hi": "20843/4018",
+            "width": "50/809627",
+            "domain_issue": false
+          },
+          "determinant": {
+            "lo": "6298/16375",
+            "hi": "6297/16372",
+            "width": "2519/268091500",
+            "domain_issue": false
+          },
+          "dependency_x_minus_x": {
+            "lo": "-1/6",
+            "hi": "1/6",
+            "width": "1/3",
+            "domain_issue": false
+          }
+        },
+        {
+          "q": 58,
+          "harmonic100": {
+            "lo": "931133367/179499827",
+            "hi": "794291287/153120008",
+            "width": "413/27485014946238616",
+            "domain_issue": false
+          },
+          "determinant": {
+            "lo": "5/13",
+            "hi": "5/13",
+            "width": "0",
+            "domain_issue": false
+          },
+          "dependency_x_minus_x": {
+            "lo": "-1/6",
+            "hi": "1/6",
+            "width": "1/3",
+            "domain_issue": false
+          }
+        }
+      ],
+      "harmonic_exact": "14466636279520351160221518043104131447711/2788815009188499086581352357412492142272",
+      "determinant_exact": "5/13"
+    }
+  }
+}

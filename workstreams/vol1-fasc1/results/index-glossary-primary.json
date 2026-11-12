@@ -1,0 +1,53 @@
+{
+  "checked_at_utc": "2026-11-07T03:25:34.164705+00:00",
+  "scope": "Full-name equivalence only; no new historical, organizational or encoding claims.",
+  "sources": [
+    {
+      "key": "ANSI",
+      "url": "https://ansi.org/about/introduction",
+      "location": "Introduction, first sentence",
+      "verified": "American National Standards Institute"
+    },
+    {
+      "key": "ASCII",
+      "url": "https://www.unicode.org/reports/tr17/tr17-4.html",
+      "location": "Section9 Definitions and Acronyms",
+      "verified": "American Standard Code for Information Interchange",
+      "source_status": "Informative proposed update dated2004-03-25, used only for conventional full name, not normative encoding behavior."
+    },
+    {
+      "key": "IEEE",
+      "local_source": "sources/ieee754-1985.txt",
+      "location": "Title/copyright page, text line30",
+      "verified": "The Institute of Electrical and Electronics Engineers",
+      "source_sha256": "9f02a36fe805dbe6bdb3175363f8c8915ba37fab00fd5c7fbcb15a2797451f67"
+    },
+    {
+      "key": "ISO",
+      "url": "https://www.iso.org/about",
+      "location": "Opening paragraph and What does ISO mean?",
+      "verified": "International Organization for Standardization",
+      "qualification": "ISO is a short name, not an acronym; the index does not assert the stronger acronym claim."
+    },
+    {
+      "key": "RISC",
+      "url": "https://www2.eecs.berkeley.edu/Pubs/TechRpts/1982/5449.html",
+      "location": "1982 technical report abstract, first sentence",
+      "verified": "Reduced Instruction Set Computer"
+    }
+  ],
+  "failed_web_accesses_not_used_as_proof": [
+    {
+      "url": "https://r1.ieee.org/providence/about-ieee/",
+      "result": "403"
+    },
+    {
+      "url": "https://events.ieee.org/wp-content/uploads/ieee-constitution-and-bylaws.pdf",
+      "result": "404"
+    },
+    {
+      "url": "https://www.ieee.org/about/ieee-history.html",
+      "result": "restricted URL"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "checked_at_utc": "2026-11-06T12:53:00.064157+00:00",
+  "method": "Closed-form construction and two modular powers, no enumeration",
+  "clique_candidate": {
+    "components": "40 copies of complete 20-partite graph with 5 vertices per part; one complete 24-partite graph with 4 vertices per part",
+    "vertices": 4096,
+    "degrees": [
+      95,
+      92
+    ],
+    "edges": 194416,
+    "maximum_clique": 24,
+    "cliques_24": 281474976710656,
+    "nonempty_cliques": 205850982377909624
+  },
+  "discrete_log_candidate": {
+    "p": 17,
+    "a": 3,
+    "f": 4,
+    "d": 2,
+    "powers_of_a": [
+      3,
+      9,
+      10,
+      13,
+      5,
+      15,
+      11,
+      16,
+      14,
+      8,
+      7,
+      4,
+      12,
+      2,
+      6,
+      1
+    ],
+    "cases": [
+      {
+        "n": 2,
+        "b": 9,
+        "b_power_4": 16,
+        "n_div_d_mod_f": 1,
+        "n_div_d_mod_f_div_d": 1
+      },
+      {
+        "n": 6,
+        "b": 15,
+        "b_power_4": 16,
+        "n_div_d_mod_f": 3,
+        "n_div_d_mod_f_div_d": 1
+      }
+    ]
+  },
+  "euler_identity": {
+    "lhs": 61917364224,
+    "rhs": 61917364224
+  }
+}

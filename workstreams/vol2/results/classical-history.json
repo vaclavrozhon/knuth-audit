@@ -1,0 +1,98 @@
+{
+  "status": "passed",
+  "complete_pairs_0_to_99": 10000,
+  "random_pairs_up_to_16_digits": 500,
+  "halving_cases": 10000,
+  "sunzi_81_squared_trace": [
+    6400,
+    6480,
+    6560,
+    6561
+  ],
+  "sunzi_6561_by_9": [
+    729,
+    0,
+    [
+      {
+        "position": 3,
+        "digit": 0,
+        "partial_remainders": [
+          6561
+        ]
+      },
+      {
+        "position": 2,
+        "digit": 7,
+        "partial_remainders": [
+          261
+        ]
+      },
+      {
+        "position": 1,
+        "digit": 2,
+        "partial_remainders": [
+          81
+        ]
+      },
+      {
+        "position": 0,
+        "digit": 9,
+        "partial_remainders": [
+          0
+        ]
+      }
+    ]
+  ],
+  "khwarizmi_2326_times_214_rows": [
+    428326,
+    492226,
+    496486,
+    497764
+  ],
+  "khwarizmi_46468_by_324": [
+    143,
+    136,
+    [
+      {
+        "position": 2,
+        "digit": 1,
+        "partial_remainders": [
+          16468,
+          14468,
+          14068
+        ]
+      },
+      {
+        "position": 1,
+        "digit": 4,
+        "partial_remainders": [
+          2068,
+          1268,
+          1108
+        ]
+      },
+      {
+        "position": 0,
+        "digit": 3,
+        "partial_remainders": [
+          208,
+          148,
+          136
+        ]
+      }
+    ]
+  ],
+  "fibonacci_98_squared_totals": [
+    64,
+    150,
+    96
+  ],
+  "fibonacci_345_squared_totals": [
+    25,
+    42,
+    50,
+    29,
+    11
+  ],
+  "casting_out_nines_wrong_product": 497773
+}

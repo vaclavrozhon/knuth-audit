@@ -1,0 +1,3407 @@
+{
+  "status": "pass",
+  "started_at_utc": "2026-11-01T14:33:45.437476+00:00",
+  "source_sha256": "596da496386e6675401264027db67a7fba95172252e82db23eaa70dd2623a512",
+  "binary": "/tmp/knuth-vol4b-framed-596da496386e6675",
+  "binary_sha256": "68dc83e0c5af28b13f797a937bdf6c3ae74826465abf4cdf7c861f4d52afd159",
+  "compile_command": [
+    "g++",
+    "-O3",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "audit-2026-10-31/framed_queens.cpp",
+    "-o",
+    "/tmp/knuth-vol4b-framed-596da496386e6675"
+  ],
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "baseline": "small-comparison.json",
+  "baseline_sha256": "c172f28f0340145b93110018e66e26b4aaadd2c75786cd3ee20090e391d1ba3c",
+  "raw": [
+    {
+      "n": 4,
+      "method": "rows",
+      "count": 1,
+      "nodes": 5,
+      "hash_sum_mod_2_64": 2513474679225838698,
+      "hash_xor": 2513474679225838698,
+      "orbit_filter": false,
+      "minimum_multiplicities_1_to_4": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "full_count_numerator": 3,
+      "full_count_denominator": 3,
+      "all_models_pairwise_validated": true,
+      "seconds": 1.044e-06
+    },
+    {
+      "n": 4,
+      "method": "mrv",
+      "count": 1,
+      "nodes": 1,
+      "hash_sum_mod_2_64": 2513474679225838698,
+      "hash_xor": 2513474679225838698,
+      "orbit_filter": false,
+      "minimum_multiplicities_1_to_4": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "full_count_numerator": 3,
+      "full_count_denominator": 3,
+      "all_models_pairwise_validated": true,
+      "seconds": 8.58e-07
+    },
+    {
+      "n": 5,
+      "method": "rows",
+      "count": 1,
+      "nodes": 6,
+      "hash_sum_mod_2_64": 11100310044124909349,
+      "hash_xor": 11100310044124909349,
+      "orbit_filter": false,
+      "minimum_multiplicities_1_to_4": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "full_count_numerator": 3,
+      "full_count_denominator": 3,
+      "all_models_pairwise_validated": true,
+      "seconds": 1.2e-06
+    },
+    {
+      "n": 5,
+      "method": "mrv",
+      "count": 1,
+      "nodes": 2,
+      "hash_sum_mod_2_64": 11100310044124909349,
+      "hash_xor": 11100310044124909349,
+      "orbit_filter": false,
+      "minimum_multiplicities_1_to_4": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "full_count_numerator": 3,
+      "full_count_denominator": 3,
+      "all_models_pairwise_validated": true,
+      "seconds": 1.786e-06
+    },
+    {
+      "n": 6,
+      "method": "rows",
+      "count": 0,
+      "nodes": 3,
+      "hash_sum_mod_2_64": 0,
+      "hash_xor": 0,
+      "orbit_filter": false,
+      "minimum_multiplicities_1_to_4": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_count_numerator": 0,
+      "full_count_denominator": 3,
+      "all_models_pairwise_validated": true,
+      "seconds": 7.1e-07
+    },
+    {
+      "n": 6,
+      "method": "mrv",
+      "count": 0,
+      "nodes": 1,
+      "hash_sum_mod_2_64": 0,
+      "hash_xor": 0,
+      "orbit_filter": false,
+      "minimum_multiplicities_1_to_4": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_count_numerator": 0,
+      "full_count_denominator": 3,
+      "all_models_pairwise_validated": true,
+      "seconds": 6.83e-07
+    },
+    {
+      "n": 7,
+      "method": "rows",
+      "count": 0,
+      "nodes": 5,
+      "hash_sum_mod_2_64": 0,
+      "hash_xor": 0,
+      "orbit_filter": false,
+      "minimum_multiplicities_1_to_4": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_count_numerator": 0,
+      "full_count_denominator": 3,
+      "all_models_pairwise_validated": true,
+      "seconds": 8.03e-07
+    },
+    {
+      "n": 7,
+      "method": "mrv",
+      "count": 0,
+      "nodes": 2,
+      "hash_sum_mod_2_64": 0,
+      "hash_xor": 0,
+      "orbit_filter": false,
+      "minimum_multiplicities_1_to_4": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_count_numerator": 0,
+      "full_count_denominator": 3,
+      "all_models_pairwise_validated": true,
+      "seconds": 1.133e-06
+    },
+    {
+      "n": 8,
+      "method": "rows",
+      "count": 0,
+      "nodes": 5,
+      "hash_sum_mod_2_64": 0,
+      "hash_xor": 0,
+      "orbit_filter": false,
+      "minimum_multiplicities_1_to_4": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_count_numerator": 0,
+      "full_count_denominator": 3,
+      "all_models_pairwise_validated": true,
+      "seconds": 7.33e-07
+    },
+    {
+      "n": 8,
+      "method": "mrv",
+      "count": 0,
+      "nodes": 1,
+      "hash_sum_mod_2_64": 0,
+      "hash_xor": 0,
+      "orbit_filter": false,
+      "minimum_multiplicities_1_to_4": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_count_numerator": 0,
+      "full_count_denominator": 3,
+      "all_models_pairwise_validated": true,
+      "seconds": 1.047e-06
+    },
+    {
+      "n": 9,
+      "method": "rows",
+      "count": 0,
+      "nodes": 8,
+      "hash_sum_mod_2_64": 0,
+      "hash_xor": 0,
+      "orbit_filter": false,
+      "minimum_multiplicities_1_to_4": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_count_numerator": 0,
+      "full_count_denominator": 3,
+      "all_models_pairwise_validated": true,
+      "seconds": 7.14e-07
+    },
+    {
+      "n": 9,
+      "method": "mrv",
+      "count": 0,
+      "nodes": 5,
+      "hash_sum_mod_2_64": 0,
+      "hash_xor": 0,
+      "orbit_filter": false,
+      "minimum_multiplicities_1_to_4": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_count_numerator": 0,
+      "full_count_denominator": 3,
+      "all_models_pairwise_validated": true,
+      "seconds": 1.331e-06
+    },
+    {
+      "n": 10,
+      "method": "rows",
+      "count": 0,
+      "nodes": 11,
+      "hash_sum_mod_2_64": 0,
+      "hash_xor": 0,
+      "orbit_filter": false,
+      "minimum_multiplicities_1_to_4": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_count_numerator": 0,
+      "full_count_denominator": 3,
+      "all_models_pairwise_validated": true,
+      "seconds": 8.38e-07
+    },
+    {
+      "n": 10,
+      "method": "mrv",
+      "count": 0,
+      "nodes": 5,
+      "hash_sum_mod_2_64": 0,
+      "hash_xor": 0,
+      "orbit_filter": false,
+      "minimum_multiplicities_1_to_4": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_count_numerator": 0,
+      "full_count_denominator": 3,
+      "all_models_pairwise_validated": true,
+      "seconds": 1.437e-06
+    },
+    {
+      "n": 11,
+      "method": "rows",
+      "count": 0,
+      "nodes": 22,
+      "hash_sum_mod_2_64": 0,
+      "hash_xor": 0,
+      "orbit_filter": false,
+      "minimum_multiplicities_1_to_4": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_count_numerator": 0,
+      "full_count_denominator": 3,
+      "all_models_pairwise_validated": true,
+      "seconds": 1.113e-06
+    },
+    {
+      "n": 11,
+      "method": "mrv",
+      "count": 0,
+      "nodes": 12,
+      "hash_sum_mod_2_64": 0,
+      "hash_xor": 0,
+      "orbit_filter": false,
+      "minimum_multiplicities_1_to_4": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_count_numerator": 0,
+      "full_count_denominator": 3,
+      "all_models_pairwise_validated": true,
+      "seconds": 2.164e-06
+    },
+    {
+      "n": 12,
+      "method": "rows",
+      "count": 0,
+      "nodes": 59,
+      "hash_sum_mod_2_64": 0,
+      "hash_xor": 0,
+      "orbit_filter": false,
+      "minimum_multiplicities_1_to_4": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_count_numerator": 0,
+      "full_count_denominator": 3,
+      "all_models_pairwise_validated": true,
+      "seconds": 2.118e-06
+    },
+    {
+      "n": 12,
+      "method": "mrv",
+      "count": 0,
+      "nodes": 37,
+      "hash_sum_mod_2_64": 0,
+      "hash_xor": 0,
+      "orbit_filter": false,
+      "minimum_multiplicities_1_to_4": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_count_numerator": 0,
+      "full_count_denominator": 3,
+      "all_models_pairwise_validated": true,
+      "seconds": 3.067e-06
+    },
+    {
+      "n": 13,
+      "method": "rows",
+      "count": 0,
+      "nodes": 268,
+      "hash_sum_mod_2_64": 0,
+      "hash_xor": 0,
+      "orbit_filter": false,
+      "minimum_multiplicities_1_to_4": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_count_numerator": 0,
+      "full_count_denominator": 3,
+      "all_models_pairwise_validated": true,
+      "seconds": 7.144e-06
+    },
+    {
+      "n": 13,
+      "method": "mrv",
+      "count": 0,
+      "nodes": 130,
+      "hash_sum_mod_2_64": 0,
+      "hash_xor": 0,
+      "orbit_filter": false,
+      "minimum_multiplicities_1_to_4": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_count_numerator": 0,
+      "full_count_denominator": 3,
+      "all_models_pairwise_validated": true,
+      "seconds": 8.668e-06
+    },
+    {
+      "n": 14,
+      "method": "rows",
+      "count": 0,
+      "nodes": 685,
+      "hash_sum_mod_2_64": 0,
+      "hash_xor": 0,
+      "orbit_filter": false,
+      "minimum_multiplicities_1_to_4": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_count_numerator": 0,
+      "full_count_denominator": 3,
+      "all_models_pairwise_validated": true,
+      "seconds": 1.6148e-05
+    },
+    {
+      "n": 14,
+      "method": "mrv",
+      "count": 0,
+      "nodes": 355,
+      "hash_sum_mod_2_64": 0,
+      "hash_xor": 0,
+      "orbit_filter": false,
+      "minimum_multiplicities_1_to_4": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_count_numerator": 0,
+      "full_count_denominator": 3,
+      "all_models_pairwise_validated": true,
+      "seconds": 2.2139e-05
+    },
+    {
+      "n": 15,
+      "method": "rows",
+      "count": 0,
+      "nodes": 4268,
+      "hash_sum_mod_2_64": 0,
+      "hash_xor": 0,
+      "orbit_filter": false,
+      "minimum_multiplicities_1_to_4": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_count_numerator": 0,
+      "full_count_denominator": 3,
+      "all_models_pairwise_validated": true,
+      "seconds": 9.0304e-05
+    },
+    {
+      "n": 15,
+      "method": "mrv",
+      "count": 0,
+      "nodes": 1724,
+      "hash_sum_mod_2_64": 0,
+      "hash_xor": 0,
+      "orbit_filter": false,
+      "minimum_multiplicities_1_to_4": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_count_numerator": 0,
+      "full_count_denominator": 3,
+      "all_models_pairwise_validated": true,
+      "seconds": 0.000104412
+    },
+    {
+      "n": 16,
+      "method": "rows",
+      "count": 0,
+      "nodes": 12791,
+      "hash_sum_mod_2_64": 0,
+      "hash_xor": 0,
+      "orbit_filter": false,
+      "minimum_multiplicities_1_to_4": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_count_numerator": 0,
+      "full_count_denominator": 3,
+      "all_models_pairwise_validated": true,
+      "seconds": 0.000274703
+    },
+    {
+      "n": 16,
+      "method": "mrv",
+      "count": 0,
+      "nodes": 4831,
+      "hash_sum_mod_2_64": 0,
+      "hash_xor": 0,
+      "orbit_filter": false,
+      "minimum_multiplicities_1_to_4": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_count_numerator": 0,
+      "full_count_denominator": 3,
+      "all_models_pairwise_validated": true,
+      "seconds": 0.000383535
+    },
+    {
+      "n": 17,
+      "method": "rows",
+      "count": 16,
+      "nodes": 89532,
+      "hash_sum_mod_2_64": 6755459343137188803,
+      "hash_xor": 3589852771798807927,
+      "orbit_filter": false,
+      "minimum_multiplicities_1_to_4": [
+        0,
+        0,
+        0,
+        16
+      ],
+      "full_count_numerator": 48,
+      "full_count_denominator": 3,
+      "all_models_pairwise_validated": true,
+      "seconds": 0.00245154
+    },
+    {
+      "n": 17,
+      "method": "mrv",
+      "count": 16,
+      "nodes": 30092,
+      "hash_sum_mod_2_64": 6755459343137188803,
+      "hash_xor": 3589852771798807927,
+      "orbit_filter": false,
+      "minimum_multiplicities_1_to_4": [
+        0,
+        0,
+        0,
+        16
+      ],
+      "full_count_numerator": 48,
+      "full_count_denominator": 3,
+      "all_models_pairwise_validated": true,
+      "seconds": 0.00243354
+    },
+    {
+      "n": 18,
+      "method": "rows",
+      "count": 72,
+      "nodes": 323095,
+      "hash_sum_mod_2_64": 17913115405693095029,
+      "hash_xor": 11569079313954157567,
+      "orbit_filter": false,
+      "minimum_multiplicities_1_to_4": [
+        0,
+        0,
+        0,
+        72
+      ],
+      "full_count_numerator": 216,
+      "full_count_denominator": 3,
+      "all_models_pairwise_validated": true,
+      "seconds": 0.0105941
+    },
+    {
+      "n": 18,
+      "method": "mrv",
+      "count": 72,
+      "nodes": 110063,
+      "hash_sum_mod_2_64": 17913115405693095029,
+      "hash_xor": 11569079313954157567,
+      "orbit_filter": false,
+      "minimum_multiplicities_1_to_4": [
+        0,
+        0,
+        0,
+        72
+      ],
+      "full_count_numerator": 216,
+      "full_count_denominator": 3,
+      "all_models_pairwise_validated": true,
+      "seconds": 0.0101462
+    },
+    {
+      "n": 19,
+      "method": "rows",
+      "count": 1512,
+      "nodes": 2481192,
+      "hash_sum_mod_2_64": 16387870246681647469,
+      "hash_xor": 8306088601793844669,
+      "orbit_filter": false,
+      "minimum_multiplicities_1_to_4": [
+        0,
+        0,
+        0,
+        1512
+      ],
+      "full_count_numerator": 4536,
+      "full_count_denominator": 3,
+      "all_models_pairwise_validated": true,
+      "seconds": 0.0540858
+    },
+    {
+      "n": 19,
+      "method": "mrv",
+      "count": 1512,
+      "nodes": 745018,
+      "hash_sum_mod_2_64": 16387870246681647469,
+      "hash_xor": 8306088601793844669,
+      "orbit_filter": false,
+      "minimum_multiplicities_1_to_4": [
+        0,
+        0,
+        0,
+        1512
+      ],
+      "full_count_numerator": 4536,
+      "full_count_denominator": 3,
+      "all_models_pairwise_validated": true,
+      "seconds": 0.0484294
+    },
+    {
+      "n": 20,
+      "method": "rows",
+      "count": 5484,
+      "nodes": 10670603,
+      "hash_sum_mod_2_64": 12422319852515124341,
+      "hash_xor": 10986985275844862447,
+      "orbit_filter": false,
+      "minimum_multiplicities_1_to_4": [
+        0,
+        0,
+        0,
+        5484
+      ],
+      "full_count_numerator": 16452,
+      "full_count_denominator": 3,
+      "all_models_pairwise_validated": true,
+      "seconds": 0.221444
+    },
+    {
+      "n": 20,
+      "method": "mrv",
+      "count": 5484,
+      "nodes": 3239303,
+      "hash_sum_mod_2_64": 12422319852515124341,
+      "hash_xor": 10986985275844862447,
+      "orbit_filter": false,
+      "minimum_multiplicities_1_to_4": [
+        0,
+        0,
+        0,
+        5484
+      ],
+      "full_count_numerator": 16452,
+      "full_count_denominator": 3,
+      "all_models_pairwise_validated": true,
+      "seconds": 0.199499
+    },
+    {
+      "n": 21,
+      "method": "rows",
+      "count": 57808,
+      "nodes": 90587064,
+      "hash_sum_mod_2_64": 15066807763092687950,
+      "hash_xor": 6169321936449442964,
+      "orbit_filter": false,
+      "minimum_multiplicities_1_to_4": [
+        0,
+        0,
+        0,
+        57808
+      ],
+      "full_count_numerator": 173424,
+      "full_count_denominator": 3,
+      "all_models_pairwise_validated": true,
+      "seconds": 1.97897
+    },
+    {
+      "n": 21,
+      "method": "mrv",
+      "count": 57808,
+      "nodes": 25103876,
+      "hash_sum_mod_2_64": 15066807763092687950,
+      "hash_xor": 6169321936449442964,
+      "orbit_filter": false,
+      "minimum_multiplicities_1_to_4": [
+        0,
+        0,
+        0,
+        57808
+      ],
+      "full_count_numerator": 173424,
+      "full_count_denominator": 3,
+      "all_models_pairwise_validated": true,
+      "seconds": 1.73999
+    },
+    {
+      "n": 22,
+      "method": "rows",
+      "count": 238592,
+      "nodes": 446312355,
+      "hash_sum_mod_2_64": 17311727880610447430,
+      "hash_xor": 2492310251111879434,
+      "orbit_filter": false,
+      "minimum_multiplicities_1_to_4": [
+        0,
+        0,
+        0,
+        238592
+      ],
+      "full_count_numerator": 715776,
+      "full_count_denominator": 3,
+      "all_models_pairwise_validated": true,
+      "seconds": 9.17683
+    },
+    {
+      "n": 22,
+      "method": "mrv",
+      "count": 238592,
+      "nodes": 125607345,
+      "hash_sum_mod_2_64": 17311727880610447430,
+      "hash_xor": 2492310251111879434,
+      "orbit_filter": false,
+      "minimum_multiplicities_1_to_4": [
+        0,
+        0,
+        0,
+        238592
+      ],
+      "full_count_numerator": 715776,
+      "full_count_denominator": 3,
+      "all_models_pairwise_validated": true,
+      "seconds": 8.0663
+    }
+  ],
+  "orbit_filtered": [
+    {
+      "n": 8,
+      "count": 0,
+      "full_count_numerator": 0,
+      "hash_sum_mod_2_64": 0,
+      "hash_xor": 0
+    },
+    {
+      "n": 9,
+      "count": 0,
+      "full_count_numerator": 0,
+      "hash_sum_mod_2_64": 0,
+      "hash_xor": 0
+    },
+    {
+      "n": 10,
+      "count": 0,
+      "full_count_numerator": 0,
+      "hash_sum_mod_2_64": 0,
+      "hash_xor": 0
+    },
+    {
+      "n": 11,
+      "count": 0,
+      "full_count_numerator": 0,
+      "hash_sum_mod_2_64": 0,
+      "hash_xor": 0
+    },
+    {
+      "n": 12,
+      "count": 0,
+      "full_count_numerator": 0,
+      "hash_sum_mod_2_64": 0,
+      "hash_xor": 0
+    },
+    {
+      "n": 13,
+      "count": 0,
+      "full_count_numerator": 0,
+      "hash_sum_mod_2_64": 0,
+      "hash_xor": 0
+    },
+    {
+      "n": 14,
+      "count": 0,
+      "full_count_numerator": 0,
+      "hash_sum_mod_2_64": 0,
+      "hash_xor": 0
+    },
+    {
+      "n": 15,
+      "count": 0,
+      "full_count_numerator": 0,
+      "hash_sum_mod_2_64": 0,
+      "hash_xor": 0
+    },
+    {
+      "n": 16,
+      "count": 0,
+      "full_count_numerator": 0,
+      "hash_sum_mod_2_64": 0,
+      "hash_xor": 0
+    },
+    {
+      "n": 17,
+      "count": 7,
+      "full_count_numerator": 48,
+      "hash_sum_mod_2_64": 9948062728246604735,
+      "hash_xor": 4759637320549027717
+    },
+    {
+      "n": 18,
+      "count": 25,
+      "full_count_numerator": 216,
+      "hash_sum_mod_2_64": 766380683456465664,
+      "hash_xor": 16016937436775341448
+    },
+    {
+      "n": 19,
+      "count": 460,
+      "full_count_numerator": 4536,
+      "hash_sum_mod_2_64": 11866236342961793189,
+      "hash_xor": 1659857952588504901
+    },
+    {
+      "n": 20,
+      "count": 1717,
+      "full_count_numerator": 16452,
+      "hash_sum_mod_2_64": 7853424931006048579,
+      "hash_xor": 18059505328154577071
+    },
+    {
+      "n": 21,
+      "count": 17202,
+      "full_count_numerator": 173424,
+      "hash_sum_mod_2_64": 11303345494950056029,
+      "hash_xor": 17699107388019172211
+    },
+    {
+      "n": 22,
+      "count": 69287,
+      "full_count_numerator": 715776,
+      "hash_sum_mod_2_64": 6919278009981596494,
+      "hash_xor": 13022929943544525514
+    }
+  ],
+  "partitioned": [
+    {
+      "n": 17,
+      "prefix_count": 74,
+      "totals": {
+        "count": 16,
+        "full_count_numerator": 48,
+        "hash_sum_mod_2_64": 6755459343137188803,
+        "hash_xor": 3589852771798807927
+      },
+      "parts": [
+        {
+          "prefix": [
+            2,
+            5
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            2,
+            6
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            2,
+            7
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            2,
+            8
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            2,
+            9
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            2,
+            10
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            2,
+            11
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            2,
+            13
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            4,
+            6
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            4,
+            7
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            4,
+            8
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            4,
+            9
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            4,
+            10
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            4,
+            11
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            4,
+            13
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            5,
+            3
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            5,
+            7
+          ],
+          "count": 1,
+          "hash_sum_mod_2_64": 5477594250011404189,
+          "hash_xor": 5477594250011404189
+        },
+        {
+          "prefix": [
+            5,
+            8
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            5,
+            9
+          ],
+          "count": 1,
+          "hash_sum_mod_2_64": 15726555191066260104,
+          "hash_xor": 15726555191066260104
+        },
+        {
+          "prefix": [
+            5,
+            10
+          ],
+          "count": 2,
+          "hash_sum_mod_2_64": 12081280253182451971,
+          "hash_xor": 10928023109594078459
+        },
+        {
+          "prefix": [
+            5,
+            11
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            5,
+            13
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            6,
+            3
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            6,
+            8
+          ],
+          "count": 1,
+          "hash_sum_mod_2_64": 4346292800748280067,
+          "hash_xor": 4346292800748280067
+        },
+        {
+          "prefix": [
+            6,
+            9
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            6,
+            10
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            6,
+            11
+          ],
+          "count": 2,
+          "hash_sum_mod_2_64": 10038264519979226793,
+          "hash_xor": 166301134283784341
+        },
+        {
+          "prefix": [
+            6,
+            13
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            7,
+            3
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            7,
+            5
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            7,
+            9
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            7,
+            10
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            7,
+            11
+          ],
+          "count": 1,
+          "hash_sum_mod_2_64": 14581592074299830441,
+          "hash_xor": 14581592074299830441
+        },
+        {
+          "prefix": [
+            7,
+            13
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            8,
+            3
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            8,
+            5
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            8,
+            6
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            8,
+            10
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            8,
+            11
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            8,
+            13
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            9,
+            3
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            9,
+            5
+          ],
+          "count": 1,
+          "hash_sum_mod_2_64": 9629030082780689797,
+          "hash_xor": 9629030082780689797
+        },
+        {
+          "prefix": [
+            9,
+            6
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            9,
+            7
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            9,
+            11
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            9,
+            13
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            10,
+            3
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            10,
+            5
+          ],
+          "count": 2,
+          "hash_sum_mod_2_64": 8381502192485591385,
+          "hash_xor": 166301134283784341
+        },
+        {
+          "prefix": [
+            10,
+            6
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            10,
+            7
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            10,
+            8
+          ],
+          "count": 1,
+          "hash_sum_mod_2_64": 4756162474657522587,
+          "hash_xor": 4756162474657522587
+        },
+        {
+          "prefix": [
+            10,
+            13
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            11,
+            3
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            11,
+            5
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            11,
+            6
+          ],
+          "count": 2,
+          "hash_sum_mod_2_64": 10963724452917651384,
+          "hash_xor": 10940623050291500600
+        },
+        {
+          "prefix": [
+            11,
+            7
+          ],
+          "count": 1,
+          "hash_sum_mod_2_64": 14973100552618813588,
+          "hash_xor": 14973100552618813588
+        },
+        {
+          "prefix": [
+            11,
+            8
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            11,
+            9
+          ],
+          "count": 1,
+          "hash_sum_mod_2_64": 6480824940646776193,
+          "hash_xor": 6480824940646776193
+        },
+        {
+          "prefix": [
+            11,
+            13
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            12,
+            3
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            12,
+            5
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            12,
+            6
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            12,
+            7
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            12,
+            8
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            12,
+            9
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            12,
+            10
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            14,
+            3
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            14,
+            5
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            14,
+            6
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            14,
+            7
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            14,
+            8
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            14,
+            9
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            14,
+            10
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            14,
+            11
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "prefix_count": 92,
+      "totals": {
+        "count": 72,
+        "full_count_numerator": 216,
+        "hash_sum_mod_2_64": 17913115405693095029,
+        "hash_xor": 11569079313954157567
+      },
+      "parts": [
+        {
+          "prefix": [
+            2,
+            5
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            2,
+            6
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            2,
+            7
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            2,
+            8
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            2,
+            9
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            2,
+            10
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            2,
+            11
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            2,
+            12
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            2,
+            14
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            4,
+            6
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            4,
+            7
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            4,
+            8
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            4,
+            9
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            4,
+            10
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            4,
+            11
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            4,
+            12
+          ],
+          "count": 1,
+          "hash_sum_mod_2_64": 1206025605077611452,
+          "hash_xor": 1206025605077611452
+        },
+        {
+          "prefix": [
+            4,
+            14
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            5,
+            3
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            5,
+            7
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            5,
+            8
+          ],
+          "count": 1,
+          "hash_sum_mod_2_64": 9590017167289055093,
+          "hash_xor": 9590017167289055093
+        },
+        {
+          "prefix": [
+            5,
+            9
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            5,
+            10
+          ],
+          "count": 1,
+          "hash_sum_mod_2_64": 15571449965252643619,
+          "hash_xor": 15571449965252643619
+        },
+        {
+          "prefix": [
+            5,
+            11
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            5,
+            12
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            5,
+            14
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            6,
+            3
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            6,
+            8
+          ],
+          "count": 4,
+          "hash_sum_mod_2_64": 5291333023156480269,
+          "hash_xor": 13753436177674403387
+        },
+        {
+          "prefix": [
+            6,
+            9
+          ],
+          "count": 2,
+          "hash_sum_mod_2_64": 374058744559117348,
+          "hash_xor": 13893203982776196056
+        },
+        {
+          "prefix": [
+            6,
+            10
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            6,
+            11
+          ],
+          "count": 1,
+          "hash_sum_mod_2_64": 4352887843298946219,
+          "hash_xor": 4352887843298946219
+        },
+        {
+          "prefix": [
+            6,
+            12
+          ],
+          "count": 6,
+          "hash_sum_mod_2_64": 7200278078877588285,
+          "hash_xor": 4867617653517023447
+        },
+        {
+          "prefix": [
+            6,
+            14
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            7,
+            3
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            7,
+            5
+          ],
+          "count": 3,
+          "hash_sum_mod_2_64": 2439738535717123915,
+          "hash_xor": 15662796618348858039
+        },
+        {
+          "prefix": [
+            7,
+            9
+          ],
+          "count": 4,
+          "hash_sum_mod_2_64": 12825451787931780358,
+          "hash_xor": 14772623246456329800
+        },
+        {
+          "prefix": [
+            7,
+            10
+          ],
+          "count": 2,
+          "hash_sum_mod_2_64": 17730386401420129712,
+          "hash_xor": 16856678176922678318
+        },
+        {
+          "prefix": [
+            7,
+            11
+          ],
+          "count": 2,
+          "hash_sum_mod_2_64": 15122554437843846813,
+          "hash_xor": 981181100903593561
+        },
+        {
+          "prefix": [
+            7,
+            12
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            7,
+            14
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            8,
+            3
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            8,
+            5
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            8,
+            6
+          ],
+          "count": 1,
+          "hash_sum_mod_2_64": 12733011322144854387,
+          "hash_xor": 12733011322144854387
+        },
+        {
+          "prefix": [
+            8,
+            10
+          ],
+          "count": 4,
+          "hash_sum_mod_2_64": 2108358779634876483,
+          "hash_xor": 18355859988376621381
+        },
+        {
+          "prefix": [
+            8,
+            11
+          ],
+          "count": 4,
+          "hash_sum_mod_2_64": 10330607872629912710,
+          "hash_xor": 4261059997715445014
+        },
+        {
+          "prefix": [
+            8,
+            12
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            8,
+            14
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            9,
+            3
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            9,
+            5
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            9,
+            6
+          ],
+          "count": 4,
+          "hash_sum_mod_2_64": 2712974591732329585,
+          "hash_xor": 10820614198130889491
+        },
+        {
+          "prefix": [
+            9,
+            7
+          ],
+          "count": 4,
+          "hash_sum_mod_2_64": 10637791343938277066,
+          "hash_xor": 12404753819352077098
+        },
+        {
+          "prefix": [
+            9,
+            11
+          ],
+          "count": 1,
+          "hash_sum_mod_2_64": 14911499242689253125,
+          "hash_xor": 14911499242689253125
+        },
+        {
+          "prefix": [
+            9,
+            12
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            9,
+            14
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            10,
+            3
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            10,
+            5
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            10,
+            6
+          ],
+          "count": 2,
+          "hash_sum_mod_2_64": 10294899704005818779,
+          "hash_xor": 5663323515932407363
+        },
+        {
+          "prefix": [
+            10,
+            7
+          ],
+          "count": 2,
+          "hash_sum_mod_2_64": 2859720341561327583,
+          "hash_xor": 454638704514252703
+        },
+        {
+          "prefix": [
+            10,
+            8
+          ],
+          "count": 4,
+          "hash_sum_mod_2_64": 8202262027436326931,
+          "hash_xor": 11401492758121478165
+        },
+        {
+          "prefix": [
+            10,
+            12
+          ],
+          "count": 3,
+          "hash_sum_mod_2_64": 12569667095257932343,
+          "hash_xor": 6739096190235697641
+        },
+        {
+          "prefix": [
+            10,
+            14
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            11,
+            3
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            11,
+            5
+          ],
+          "count": 6,
+          "hash_sum_mod_2_64": 9178249615938727315,
+          "hash_xor": 8637757882890677301
+        },
+        {
+          "prefix": [
+            11,
+            6
+          ],
+          "count": 1,
+          "hash_sum_mod_2_64": 5942967410701253964,
+          "hash_xor": 5942967410701253964
+        },
+        {
+          "prefix": [
+            11,
+            7
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            11,
+            8
+          ],
+          "count": 2,
+          "hash_sum_mod_2_64": 5962748874220465935,
+          "hash_xor": 3044414940010343439
+        },
+        {
+          "prefix": [
+            11,
+            9
+          ],
+          "count": 4,
+          "hash_sum_mod_2_64": 16689393180298796076,
+          "hash_xor": 15088136425921949618
+        },
+        {
+          "prefix": [
+            11,
+            14
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            12,
+            3
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            12,
+            5
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            12,
+            6
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            12,
+            7
+          ],
+          "count": 1,
+          "hash_sum_mod_2_64": 2741667817916091706,
+          "hash_xor": 2741667817916091706
+        },
+        {
+          "prefix": [
+            12,
+            8
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            12,
+            9
+          ],
+          "count": 1,
+          "hash_sum_mod_2_64": 9041386048439614859,
+          "hash_xor": 9041386048439614859
+        },
+        {
+          "prefix": [
+            12,
+            10
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            12,
+            14
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            13,
+            3
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            13,
+            5
+          ],
+          "count": 1,
+          "hash_sum_mod_2_64": 10652657431237532491,
+          "hash_xor": 10652657431237532491
+        },
+        {
+          "prefix": [
+            13,
+            6
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            13,
+            7
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            13,
+            8
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            13,
+            9
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            13,
+            10
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            13,
+            11
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            15,
+            3
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            15,
+            5
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            15,
+            6
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            15,
+            7
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            15,
+            8
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            15,
+            9
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            15,
+            10
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            15,
+            11
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            15,
+            12
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "prefix_count": 112,
+      "totals": {
+        "count": 1512,
+        "full_count_numerator": 4536,
+        "hash_sum_mod_2_64": 16387870246681647469,
+        "hash_xor": 8306088601793844669
+      },
+      "parts": [
+        {
+          "prefix": [
+            2,
+            5
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            2,
+            6
+          ],
+          "count": 2,
+          "hash_sum_mod_2_64": 2053138431685386509,
+          "hash_xor": 1980783419212963469
+        },
+        {
+          "prefix": [
+            2,
+            7
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            2,
+            8
+          ],
+          "count": 4,
+          "hash_sum_mod_2_64": 2647616376219369605,
+          "hash_xor": 3226990129357784575
+        },
+        {
+          "prefix": [
+            2,
+            9
+          ],
+          "count": 1,
+          "hash_sum_mod_2_64": 2099922613050644562,
+          "hash_xor": 2099922613050644562
+        },
+        {
+          "prefix": [
+            2,
+            10
+          ],
+          "count": 3,
+          "hash_sum_mod_2_64": 8225991013381718172,
+          "hash_xor": 884794375883966054
+        },
+        {
+          "prefix": [
+            2,
+            11
+          ],
+          "count": 3,
+          "hash_sum_mod_2_64": 6205171939839422046,
+          "hash_xor": 9809659404648863644
+        },
+        {
+          "prefix": [
+            2,
+            12
+          ],
+          "count": 1,
+          "hash_sum_mod_2_64": 119799603449408416,
+          "hash_xor": 119799603449408416
+        },
+        {
+          "prefix": [
+            2,
+            13
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            2,
+            15
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            4,
+            6
+          ],
+          "count": 4,
+          "hash_sum_mod_2_64": 663631209470254938,
+          "hash_xor": 1497899011714679980
+        },
+        {
+          "prefix": [
+            4,
+            7
+          ],
+          "count": 5,
+          "hash_sum_mod_2_64": 8915026705942606797,
+          "hash_xor": 12692869425339148689
+        },
+        {
+          "prefix": [
+            4,
+            8
+          ],
+          "count": 8,
+          "hash_sum_mod_2_64": 3141569504441928061,
+          "hash_xor": 5549722330223636319
+        },
+        {
+          "prefix": [
+            4,
+            9
+          ],
+          "count": 10,
+          "hash_sum_mod_2_64": 10790336096969283986,
+          "hash_xor": 6828832027768292372
+        },
+        {
+          "prefix": [
+            4,
+            10
+          ],
+          "count": 17,
+          "hash_sum_mod_2_64": 15211695753942299323,
+          "hash_xor": 12362364776141247305
+        },
+        {
+          "prefix": [
+            4,
+            11
+          ],
+          "count": 3,
+          "hash_sum_mod_2_64": 480254630460980150,
+          "hash_xor": 9031955175746602824
+        },
+        {
+          "prefix": [
+            4,
+            12
+          ],
+          "count": 8,
+          "hash_sum_mod_2_64": 10981820652761193071,
+          "hash_xor": 10366994083475426125
+        },
+        {
+          "prefix": [
+            4,
+            13
+          ],
+          "count": 10,
+          "hash_sum_mod_2_64": 15453411892192960556,
+          "hash_xor": 7450584450066708730
+        },
+        {
+          "prefix": [
+            4,
+            15
+          ],
+          "count": 1,
+          "hash_sum_mod_2_64": 11360999838318181153,
+          "hash_xor": 11360999838318181153
+        },
+        {
+          "prefix": [
+            5,
+            3
+          ],
+          "count": 3,
+          "hash_sum_mod_2_64": 145068440292026424,
+          "hash_xor": 11385096016595176394
+        },
+        {
+          "prefix": [
+            5,
+            7
+          ],
+          "count": 14,
+          "hash_sum_mod_2_64": 15753599673458140398,
+          "hash_xor": 16786058213103567740
+        },
+        {
+          "prefix": [
+            5,
+            8
+          ],
+          "count": 20,
+          "hash_sum_mod_2_64": 3419937968913934275,
+          "hash_xor": 11704821146975875799
+        },
+        {
+          "prefix": [
+            5,
+            9
+          ],
+          "count": 10,
+          "hash_sum_mod_2_64": 4479577145313389270,
+          "hash_xor": 3308447734016211296
+        },
+        {
+          "prefix": [
+            5,
+            10
+          ],
+          "count": 24,
+          "hash_sum_mod_2_64": 13946010469777130262,
+          "hash_xor": 1457430157366840350
+        },
+        {
+          "prefix": [
+            5,
+            11
+          ],
+          "count": 10,
+          "hash_sum_mod_2_64": 17729602788173299256,
+          "hash_xor": 6354924796105503060
+        },
+        {
+          "prefix": [
+            5,
+            12
+          ],
+          "count": 22,
+          "hash_sum_mod_2_64": 14403119049835709536,
+          "hash_xor": 11121448466683585542
+        },
+        {
+          "prefix": [
+            5,
+            13
+          ],
+          "count": 11,
+          "hash_sum_mod_2_64": 3219640053554116456,
+          "hash_xor": 16673454164392220462
+        },
+        {
+          "prefix": [
+            5,
+            15
+          ],
+          "count": 7,
+          "hash_sum_mod_2_64": 6994422947367994372,
+          "hash_xor": 17238382919928600468
+        },
+        {
+          "prefix": [
+            6,
+            3
+          ],
+          "count": 2,
+          "hash_sum_mod_2_64": 18066418557977461772,
+          "hash_xor": 9274195795211813868
+        },
+        {
+          "prefix": [
+            6,
+            8
+          ],
+          "count": 30,
+          "hash_sum_mod_2_64": 3248084607740039372,
+          "hash_xor": 17596244111505988082
+        },
+        {
+          "prefix": [
+            6,
+            9
+          ],
+          "count": 23,
+          "hash_sum_mod_2_64": 16792802215045211323,
+          "hash_xor": 5477797221369172225
+        },
+        {
+          "prefix": [
+            6,
+            10
+          ],
+          "count": 16,
+          "hash_sum_mod_2_64": 5547593540499323808,
+          "hash_xor": 10537144854435283252
+        },
+        {
+          "prefix": [
+            6,
+            11
+          ],
+          "count": 18,
+          "hash_sum_mod_2_64": 7692831027278301860,
+          "hash_xor": 10844121242055756240
+        },
+        {
+          "prefix": [
+            6,
+            12
+          ],
+          "count": 27,
+          "hash_sum_mod_2_64": 17849211154758309841,
+          "hash_xor": 1523543662219125503
+        },
+        {
+          "prefix": [
+            6,
+            13
+          ],
+          "count": 26,
+          "hash_sum_mod_2_64": 667575942405318600,
+          "hash_xor": 5401983895046351378
+        },
+        {
+          "prefix": [
+            6,
+            15
+          ],
+          "count": 9,
+          "hash_sum_mod_2_64": 3973251773743521038,
+          "hash_xor": 4324598565981613978
+        },
+        {
+          "prefix": [
+            7,
+            3
+          ],
+          "count": 1,
+          "hash_sum_mod_2_64": 15014876939299647079,
+          "hash_xor": 15014876939299647079
+        },
+        {
+          "prefix": [
+            7,
+            5
+          ],
+          "count": 19,
+          "hash_sum_mod_2_64": 3807278192010433992,
+          "hash_xor": 8916149334106413678
+        },
+        {
+          "prefix": [
+            7,
+            9
+          ],
+          "count": 31,
+          "hash_sum_mod_2_64": 8653289784354793777,
+          "hash_xor": 7180914796391028465
+        },
+        {
+          "prefix": [
+            7,
+            10
+          ],
+          "count": 40,
+          "hash_sum_mod_2_64": 7181931001279456569,
+          "hash_xor": 12201015874157944735
+        },
+        {
+          "prefix": [
+            7,
+            11
+          ],
+          "count": 29,
+          "hash_sum_mod_2_64": 879678006032570521,
+          "hash_xor": 10238632350997857375
+        },
+        {
+          "prefix": [
+            7,
+            12
+          ],
+          "count": 24,
+          "hash_sum_mod_2_64": 831094853356982975,
+          "hash_xor": 4558123659174624035
+        },
+        {
+          "prefix": [
+            7,
+            13
+          ],
+          "count": 26,
+          "hash_sum_mod_2_64": 8115629164438314050,
+          "hash_xor": 13593417565816788708
+        },
+        {
+          "prefix": [
+            7,
+            15
+          ],
+          "count": 7,
+          "hash_sum_mod_2_64": 17391003989356092476,
+          "hash_xor": 4820434600274538360
+        },
+        {
+          "prefix": [
+            8,
+            3
+          ],
+          "count": 8,
+          "hash_sum_mod_2_64": 3423811687076996239,
+          "hash_xor": 16141676016915268863
+        },
+        {
+          "prefix": [
+            8,
+            5
+          ],
+          "count": 16,
+          "hash_sum_mod_2_64": 17517374810752537584,
+          "hash_xor": 4611956845759726484
+        },
+        {
+          "prefix": [
+            8,
+            6
+          ],
+          "count": 34,
+          "hash_sum_mod_2_64": 17679413870367102316,
+          "hash_xor": 18186163729962908482
+        },
+        {
+          "prefix": [
+            8,
+            10
+          ],
+          "count": 33,
+          "hash_sum_mod_2_64": 7189121447614610859,
+          "hash_xor": 12420963362251610263
+        },
+        {
+          "prefix": [
+            8,
+            11
+          ],
+          "count": 17,
+          "hash_sum_mod_2_64": 18285963907784467925,
+          "hash_xor": 6154398282402514911
+        },
+        {
+          "prefix": [
+            8,
+            12
+          ],
+          "count": 17,
+          "hash_sum_mod_2_64": 6586967717506820936,
+          "hash_xor": 6880800425935639544
+        },
+        {
+          "prefix": [
+            8,
+            13
+          ],
+          "count": 22,
+          "hash_sum_mod_2_64": 14204787906774647856,
+          "hash_xor": 5300940586614484270
+        },
+        {
+          "prefix": [
+            8,
+            15
+          ],
+          "count": 7,
+          "hash_sum_mod_2_64": 8757735523581411027,
+          "hash_xor": 15246010870536264167
+        },
+        {
+          "prefix": [
+            9,
+            3
+          ],
+          "count": 7,
+          "hash_sum_mod_2_64": 8832534298855239607,
+          "hash_xor": 10745708742007791169
+        },
+        {
+          "prefix": [
+            9,
+            5
+          ],
+          "count": 22,
+          "hash_sum_mod_2_64": 4414241054967903945,
+          "hash_xor": 9979880888002524379
+        },
+        {
+          "prefix": [
+            9,
+            6
+          ],
+          "count": 19,
+          "hash_sum_mod_2_64": 10015831949802343803,
+          "hash_xor": 3641590138326956939
+        },
+        {
+          "prefix": [
+            9,
+            7
+          ],
+          "count": 25,
+          "hash_sum_mod_2_64": 1109952442850591272,
+          "hash_xor": 16452060445833594016
+        },
+        {
+          "prefix": [
+            9,
+            11
+          ],
+          "count": 25,
+          "hash_sum_mod_2_64": 11892017386696939871,
+          "hash_xor": 3752108657300783393
+        },
+        {
+          "prefix": [
+            9,
+            12
+          ],
+          "count": 19,
+          "hash_sum_mod_2_64": 6977258682041304018,
+          "hash_xor": 12193979451486317202
+        },
+        {
+          "prefix": [
+            9,
+            13
+          ],
+          "count": 22,
+          "hash_sum_mod_2_64": 9767196268759514168,
+          "hash_xor": 9373108794043062124
+        },
+        {
+          "prefix": [
+            9,
+            15
+          ],
+          "count": 7,
+          "hash_sum_mod_2_64": 6795642235963714537,
+          "hash_xor": 12804221873005518831
+        },
+        {
+          "prefix": [
+            10,
+            3
+          ],
+          "count": 7,
+          "hash_sum_mod_2_64": 13850100866721000960,
+          "hash_xor": 11026094469196881926
+        },
+        {
+          "prefix": [
+            10,
+            5
+          ],
+          "count": 22,
+          "hash_sum_mod_2_64": 9918456815947888667,
+          "hash_xor": 6943340624600843623
+        },
+        {
+          "prefix": [
+            10,
+            6
+          ],
+          "count": 17,
+          "hash_sum_mod_2_64": 15986139654300471272,
+          "hash_xor": 1197961499448338428
+        },
+        {
+          "prefix": [
+            10,
+            7
+          ],
+          "count": 17,
+          "hash_sum_mod_2_64": 1731033974123733058,
+          "hash_xor": 16172342625640254178
+        },
+        {
+          "prefix": [
+            10,
+            8
+          ],
+          "count": 33,
+          "hash_sum_mod_2_64": 17099041135535525107,
+          "hash_xor": 12346491086526145843
+        },
+        {
+          "prefix": [
+            10,
+            12
+          ],
+          "count": 34,
+          "hash_sum_mod_2_64": 3119509972956398484,
+          "hash_xor": 13023438773999188178
+        },
+        {
+          "prefix": [
+            10,
+            13
+          ],
+          "count": 16,
+          "hash_sum_mod_2_64": 662964646417650906,
+          "hash_xor": 10267938519457156202
+        },
+        {
+          "prefix": [
+            10,
+            15
+          ],
+          "count": 8,
+          "hash_sum_mod_2_64": 69778820104701278,
+          "hash_xor": 4716562516492417060
+        },
+        {
+          "prefix": [
+            11,
+            3
+          ],
+          "count": 7,
+          "hash_sum_mod_2_64": 13152482083505654516,
+          "hash_xor": 9290502525467312598
+        },
+        {
+          "prefix": [
+            11,
+            5
+          ],
+          "count": 26,
+          "hash_sum_mod_2_64": 2887957931735724894,
+          "hash_xor": 4635736577442165788
+        },
+        {
+          "prefix": [
+            11,
+            6
+          ],
+          "count": 24,
+          "hash_sum_mod_2_64": 11097586643148583110,
+          "hash_xor": 1855547558315099162
+        },
+        {
+          "prefix": [
+            11,
+            7
+          ],
+          "count": 29,
+          "hash_sum_mod_2_64": 11834774229679305273,
+          "hash_xor": 14031336187173593345
+        },
+        {
+          "prefix": [
+            11,
+            8
+          ],
+          "count": 40,
+          "hash_sum_mod_2_64": 6802765212610823340,
+          "hash_xor": 16316461869586299626
+        },
+        {
+          "prefix": [
+            11,
+            9
+          ],
+          "count": 31,
+          "hash_sum_mod_2_64": 2051555874697092133,
+          "hash_xor": 11753453966778326539
+        },
+        {
+          "prefix": [
+            11,
+            13
+          ],
+          "count": 19,
+          "hash_sum_mod_2_64": 13119233273531915521,
+          "hash_xor": 5274939533274183573
+        },
+        {
+          "prefix": [
+            11,
+            15
+          ],
+          "count": 1,
+          "hash_sum_mod_2_64": 1134569329162015683,
+          "hash_xor": 1134569329162015683
+        },
+        {
+          "prefix": [
+            12,
+            3
+          ],
+          "count": 9,
+          "hash_sum_mod_2_64": 10852975902629796730,
+          "hash_xor": 803046327705648186
+        },
+        {
+          "prefix": [
+            12,
+            5
+          ],
+          "count": 26,
+          "hash_sum_mod_2_64": 14410062470752652250,
+          "hash_xor": 15368212569939986786
+        },
+        {
+          "prefix": [
+            12,
+            6
+          ],
+          "count": 27,
+          "hash_sum_mod_2_64": 879069662441131436,
+          "hash_xor": 14482134056531906248
+        },
+        {
+          "prefix": [
+            12,
+            7
+          ],
+          "count": 18,
+          "hash_sum_mod_2_64": 5635525211964180525,
+          "hash_xor": 5143007191894396253
+        },
+        {
+          "prefix": [
+            12,
+            8
+          ],
+          "count": 16,
+          "hash_sum_mod_2_64": 707503887950194137,
+          "hash_xor": 15140970970868635973
+        },
+        {
+          "prefix": [
+            12,
+            9
+          ],
+          "count": 23,
+          "hash_sum_mod_2_64": 17144315928309944674,
+          "hash_xor": 14594104813843010182
+        },
+        {
+          "prefix": [
+            12,
+            10
+          ],
+          "count": 30,
+          "hash_sum_mod_2_64": 7796631119322570025,
+          "hash_xor": 10426495721996568009
+        },
+        {
+          "prefix": [
+            12,
+            15
+          ],
+          "count": 2,
+          "hash_sum_mod_2_64": 11612166641622966838,
+          "hash_xor": 9225249454458904006
+        },
+        {
+          "prefix": [
+            13,
+            3
+          ],
+          "count": 7,
+          "hash_sum_mod_2_64": 17465263745651145196,
+          "hash_xor": 10219403569032511672
+        },
+        {
+          "prefix": [
+            13,
+            5
+          ],
+          "count": 11,
+          "hash_sum_mod_2_64": 2668756151804244811,
+          "hash_xor": 15559403240819209205
+        },
+        {
+          "prefix": [
+            13,
+            6
+          ],
+          "count": 22,
+          "hash_sum_mod_2_64": 4870221552022113960,
+          "hash_xor": 13424173116363444618
+        },
+        {
+          "prefix": [
+            13,
+            7
+          ],
+          "count": 10,
+          "hash_sum_mod_2_64": 4597781496843761266,
+          "hash_xor": 7965129143081481302
+        },
+        {
+          "prefix": [
+            13,
+            8
+          ],
+          "count": 24,
+          "hash_sum_mod_2_64": 13207452559481469066,
+          "hash_xor": 2642463861961706258
+        },
+        {
+          "prefix": [
+            13,
+            9
+          ],
+          "count": 10,
+          "hash_sum_mod_2_64": 1421626937341853649,
+          "hash_xor": 11971590555422148203
+        },
+        {
+          "prefix": [
+            13,
+            10
+          ],
+          "count": 20,
+          "hash_sum_mod_2_64": 1079513097527770942,
+          "hash_xor": 537076940282650296
+        },
+        {
+          "prefix": [
+            13,
+            11
+          ],
+          "count": 14,
+          "hash_sum_mod_2_64": 10425400059226193493,
+          "hash_xor": 9065473889459624945
+        },
+        {
+          "prefix": [
+            13,
+            15
+          ],
+          "count": 3,
+          "hash_sum_mod_2_64": 2458336176915958270,
+          "hash_xor": 3882239709008434956
+        },
+        {
+          "prefix": [
+            14,
+            3
+          ],
+          "count": 1,
+          "hash_sum_mod_2_64": 12689112852940236915,
+          "hash_xor": 12689112852940236915
+        },
+        {
+          "prefix": [
+            14,
+            5
+          ],
+          "count": 10,
+          "hash_sum_mod_2_64": 10121109878827698296,
+          "hash_xor": 11618896852874769882
+        },
+        {
+          "prefix": [
+            14,
+            6
+          ],
+          "count": 8,
+          "hash_sum_mod_2_64": 16864438239405681137,
+          "hash_xor": 16272283776840222635
+        },
+        {
+          "prefix": [
+            14,
+            7
+          ],
+          "count": 3,
+          "hash_sum_mod_2_64": 9844433330336624968,
+          "hash_xor": 18420263989081727862
+        },
+        {
+          "prefix": [
+            14,
+            8
+          ],
+          "count": 17,
+          "hash_sum_mod_2_64": 17829875424738508891,
+          "hash_xor": 9659389047875589145
+        },
+        {
+          "prefix": [
+            14,
+            9
+          ],
+          "count": 10,
+          "hash_sum_mod_2_64": 1795712286633712825,
+          "hash_xor": 17290016869030646707
+        },
+        {
+          "prefix": [
+            14,
+            10
+          ],
+          "count": 8,
+          "hash_sum_mod_2_64": 5400811695585306111,
+          "hash_xor": 17693649993832055379
+        },
+        {
+          "prefix": [
+            14,
+            11
+          ],
+          "count": 5,
+          "hash_sum_mod_2_64": 115159322857823974,
+          "hash_xor": 12916276015342200416
+        },
+        {
+          "prefix": [
+            14,
+            12
+          ],
+          "count": 4,
+          "hash_sum_mod_2_64": 9674564751596534122,
+          "hash_xor": 17495825935775986148
+        },
+        {
+          "prefix": [
+            16,
+            3
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            16,
+            5
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            16,
+            6
+          ],
+          "count": 1,
+          "hash_sum_mod_2_64": 3757510073060042032,
+          "hash_xor": 3757510073060042032
+        },
+        {
+          "prefix": [
+            16,
+            7
+          ],
+          "count": 3,
+          "hash_sum_mod_2_64": 14527554734739754019,
+          "hash_xor": 2767392753373082843
+        },
+        {
+          "prefix": [
+            16,
+            8
+          ],
+          "count": 3,
+          "hash_sum_mod_2_64": 1913836554111724907,
+          "hash_xor": 2715829275452888049
+        },
+        {
+          "prefix": [
+            16,
+            9
+          ],
+          "count": 1,
+          "hash_sum_mod_2_64": 2929149944903967083,
+          "hash_xor": 2929149944903967083
+        },
+        {
+          "prefix": [
+            16,
+            10
+          ],
+          "count": 4,
+          "hash_sum_mod_2_64": 6961071158138617139,
+          "hash_xor": 2840170313822389443
+        },
+        {
+          "prefix": [
+            16,
+            11
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        },
+        {
+          "prefix": [
+            16,
+            12
+          ],
+          "count": 2,
+          "hash_sum_mod_2_64": 12712693509965503690,
+          "hash_xor": 12615514196945637546
+        },
+        {
+          "prefix": [
+            16,
+            13
+          ],
+          "count": 0,
+          "hash_sum_mod_2_64": 0,
+          "hash_xor": 0
+        }
+      ]
+    }
+  ],
+  "explicit_orbits": [
+    {
+      "n": 17,
+      "models": 16,
+      "kept": 7,
+      "weighted_total": 16
+    },
+    {
+      "n": 18,
+      "models": 72,
+      "kept": 25,
+      "weighted_total": 72
+    }
+  ],
+  "finished_at_utc": "2026-11-01T14:34:22.148951+00:00",
+  "elapsed_seconds": 36.7077605779923
+}

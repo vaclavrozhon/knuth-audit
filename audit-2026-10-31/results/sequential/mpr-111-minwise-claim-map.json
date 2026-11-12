@@ -1,0 +1,173 @@
+{
+  "description": "Whole MPR111, all claims and table entries",
+  "ledger_ids": [
+    "D209",
+    "F173"
+  ],
+  "claims": [
+    {
+      "id": "MPR111.01",
+      "file_pages": [
+        43,
+        407
+      ],
+      "claim": "Ten distinct cyclic orbits contain exactly60permutations",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex111.md"
+    },
+    {
+      "id": "MPR111.02",
+      "file_pages": [
+        43,
+        407
+      ],
+      "claim": "Complete finite certificate over63nonempty subsets and192member conditions",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex111.md"
+    },
+    {
+      "id": "MPR111.03",
+      "file_pages": [
+        43,
+        407
+      ],
+      "claim": "Every printed triple and every bold minimum",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex111.md"
+    },
+    {
+      "id": "MPR111.04",
+      "file_pages": [
+        43,
+        407
+      ],
+      "claim": "Exact(a)winner counts20/20/20",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex111.md"
+    },
+    {
+      "id": "MPR111.05",
+      "file_pages": [
+        43,
+        407
+      ],
+      "claim": "Two-way equality-event equivalence in(b)",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex111.md"
+    },
+    {
+      "id": "MPR111.06",
+      "file_pages": [
+        43,
+        407
+      ],
+      "claim": "Triple collision formula and all finite/nonempty edge cases",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex111.md"
+    },
+    {
+      "id": "MPR111.07",
+      "file_pages": [
+        43,
+        407
+      ],
+      "claim": "Explicit empty-set domain and harmless infinity/Jaccard conventions",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex111.md"
+    },
+    {
+      "id": "MPR111.08",
+      "file_pages": [
+        407
+      ],
+      "claim": "F173 exact minwise two-state counterexample and repair",
+      "status": "confirmed",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex111.md"
+    },
+    {
+      "id": "MPR111.09",
+      "file_pages": [
+        43,
+        407
+      ],
+      "claim": "Independent Bernoulli sampling, binomial law, mean and variance",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex111.md"
+    },
+    {
+      "id": "MPR111.10",
+      "file_pages": [
+        43,
+        407
+      ],
+      "claim": "Concentration bound with fixed intervals inherited from completeMPR89",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex111.md"
+    },
+    {
+      "id": "MPR111.11",
+      "file_pages": [
+        43,
+        407
+      ],
+      "claim": "Sketch construction/storage/comparison costs",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex111.md"
+    },
+    {
+      "id": "MPR111.12",
+      "file_pages": [
+        43,
+        407
+      ],
+      "claim": "Approximate minwise collision bias via summing individual bounds",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex111.md"
+    },
+    {
+      "id": "MPR111.13",
+      "file_pages": [
+        43,
+        407
+      ],
+      "claim": "Divisibility by everyk and elementary exponential family-size lower bound",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex111.md"
+    },
+    {
+      "id": "MPR111.14",
+      "file_pages": [
+        43,
+        407
+      ],
+      "claim": "Primary-source notes assessed with two explicit historical exceptions",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex111.md"
+    }
+  ],
+  "bibliography_skips": [
+    {
+      "exercise": "MPR:111",
+      "file_pages": [
+        407
+      ],
+      "reference": "Original Jaccard ecological discussion, Bulletin de la Société Vaudoise des Sciences Naturelles37(1901),249",
+      "reason": "Primary ETH E-Periodica table of contents identifies the article, but its PDF endpoint returned HTML; the original historical passage was not inspected.",
+      "mathematical_dependency": false
+    },
+    {
+      "exercise": "MPR:111",
+      "file_pages": [
+        407
+      ],
+      "reference": "Exact original construction and historical independence of Mulmuley, Algorithmica16(1996),450–463",
+      "reason": "Publisher metadata and the later authors’ description were checked; the complete original is subscription content and was not quickly available.",
+      "mathematical_dependency": false
+    }
+  ],
+  "new_findings": [
+    "F173"
+  ],
+  "calculation": "results/sequential/mpr-111-minwise-certificate.json",
+  "updated_at_utc": "2026-11-07T02:40:10.032587+00:00"
+}

@@ -1,0 +1,64 @@
+{
+  "at_utc": "2026-11-03T07:22:17.771763+00:00",
+  "acceptor_sha256": "9dfe5ebdc35d4f40a1d0c6f58bf0ded2bab3369632343825de0e00cc84fb6079",
+  "mathematics": {
+    "normalized_rows": 2176,
+    "all_named_rows": 1566720,
+    "complete_sets_equal": true,
+    "all_models_directly_valid": true,
+    "symmetry_orbits": 33,
+    "automorphism_histogram": {
+      "1": 17,
+      "2": 9,
+      "4": 3,
+      "12": 3,
+      "6": 1
+    },
+    "six_cube_subsets": 15500,
+    "five_row_partition_witness": true,
+    "figure_glyphs_original_and_draft": 216
+  },
+  "omissions": [
+    {
+      "id": "DLX146-partition-census",
+      "claim": "163088368 partitions of all30 cubes into five feasible six-cube sets",
+      "evidence": "All15500 candidate sets derived from complete row census; exact-cover bijection proved; direct five-row witness found in9nodes.",
+      "reason": "User explicitly permits omitting expensive complete brute-force reproductions. No full partition census started.",
+      "verified": false
+    }
+  ],
+  "candidate": "C034",
+  "known_erratum": "E073",
+  "remaining_source_gaps": [
+    "Exact1961 pages168–174 problem text not obtained; publisher metadata alone is insufficient.",
+    "Perjes1981 report body unavailable: HTTPS and alternate officialHTTP closed the connection. The specific1981 dating and five symmetrical arrangements not fully corroborated from that body."
+  ],
+  "artifacts": {
+    "results/cubes146/bounded/rows-native.out.gz": "466b28084020197dfffeaf9e2fb91db8bf124dd9eeaada3f3b0328b7a7f31cc7",
+    "results/cubes146/bounded/symmetries-checked.json": "c3d42b47667f2d22565b4ee39c99339d3fe44606d00f3072ef21f563f74656ee",
+    "results/cubes146/bounded/census-checked.json": "2c8ccc3937ff365ad033eba9fc9b498414aa846a3ed491dafdc28cf35c3a6de8",
+    "results/cubes146/bounded/rows-run.json": "c8fb80051296a51e62f99c5ef5809870bc904ee94073770ba6df032533343cd6",
+    "results/cubes146/bounded/rows-native.json": "ec7afea88a1d315d5ce981dd7c8356cd1f4aca66ad40fa99dd3cb1b41cd223dd",
+    "results/cubes146/bounded/rows-native-run.json": "ec7afea88a1d315d5ce981dd7c8356cd1f4aca66ad40fa99dd3cb1b41cd223dd",
+    "results/cubes146/bounded/build.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/cubes146/bounded/rows.out": "cd8bba14f6fabb9318279fa96cf1d6d015016b00f01185bf5870076306146698",
+    "results/cubes146/bounded/rows-native.dlx": "3cbac71fecb7e8e9107dd4a1ff8966711d64564c699954f36bd4c3022e5ad5e0",
+    "results/cubes146/bounded/sets-and-witness.json": "2c17262c74275e6f1e727bf890acd519b4bb3b4a9569746adb12b85ebcdd4473",
+    "results/cubes146/bounded/started.json": "7027bc3bb56efe67321fd48ce561b090be7a537a63851c8a3a4a8a9996ae4363",
+    "results/cubes146/bounded/rows-native.log": "73377783a0775516a01f35ffd8cfbe9528c25a170f0e7bfc3634c038d4ed7afe",
+    "results/cubes146/bounded/rows.log": "a73e58b605d479a697dea6e7b5442ad6665853e2b80ba0da0f7ba58bf60897b2",
+    "results/cubes146/bounded/rows.case": "5b75bec82bfed2ed5c7d70bb21fd79263481a871d2c4269a40b79c171f302cfa",
+    "results/cubes146/bounded/native-encoding.json": "eef195644f4f6a38adfc87712826ae36a61eeef9989e5bcf5795574401305350",
+    "results/cubes146/bounded/build.json": "e38a850e8e705407492a13eb68cd6ac93bca67986061cf254f2dc097a9b63d8a",
+    "results/cubes146/figures-checked.json": "32bfcaa22e56d3960c7c22b9d5ed9d1f34896a9b5e0b99cf71ff675d688e5e2a",
+    "results/cubes146/sources-checked.json": "f2c5ea5b417b9d2c42bd2d029fe057ce1a91daaf6331a95970e934dd7d09e761",
+    "results/cubes146/errata-check.json": "87b3e6543d03955dd880ce6edd674d8e1274666f60d7b5c123c6e3a7613fa652",
+    "cubes146.py": "73498bb603079a7e9f2b5c8a7b7f812e7d9a0a538ab243580ae764c0958a14bf",
+    "check_cubes146.py": "9ab88afef3b880ed2e492714fcaf0d5ba8fa81e696237980ee353042eb3ca60c",
+    "extract_cubes146.py": "0ea3ad2fbc8156b41b03e2228ec8235114f5fbcaecf8a9b724781342f70ff353",
+    "count_cubes146.cpp": "f2e595313fc3685d8eea9a7a54ef928f7e7bd470bad11c63e6f7f8850cc94166",
+    "check_cubes146_sources.py": "3b732c57e853bb3368067ce67e3bcd5465553279b40c196f4d74b2b10b92dd0f",
+    "CUBES146_NOTES.md": "def20ae789b6a1ae4e14a95145db3737145d94fc77d404e064796dc4d0ad388f",
+    "C034_CUBES_REFERENCE.md": "ee6a269346324f37f72a367e42e673a1eaa54b2b6ece8225975a9c90db6118fd"
+  }
+}

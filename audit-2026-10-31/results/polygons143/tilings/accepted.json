@@ -1,0 +1,64 @@
+{
+  "at_utc": "2026-11-03T05:50:26.928891+00:00",
+  "checker_sha256": "fb8b98fb5415727a0dbf53961cfdae2632d434e52fcac0a03a64cb8a84fb008d",
+  "geometry_sha256": "9cc2fb14ad1f2e3e9d4e415f4d3f5ad1eef74c0a8d120d6d7eb2e97a24534f0b",
+  "triangles_sha256": "68f55bea6d1ffab0c06fb548b0b19b4b5b5bd25a3c7e8d0621c83c46dba674d2",
+  "independent_terminal_sha256": "f253fcc755bf6f8810e7b3e1118eddf27d38d05eed8ad82ed3feeee4ce3e6ce4",
+  "cases": {
+    "shape1": {
+      "parameters": [
+        7,
+        5,
+        0,
+        0
+      ],
+      "native_models": 0,
+      "color_classes": 0,
+      "native_nodes": 399365,
+      "independent_nodes": 23141,
+      "all_native_and_independent_models_valid": true,
+      "complete_sets_equal": true,
+      "each_color_class_has_24_labeled_models": true,
+      "native_terminal_sha256": "d5a85e478ae86fa2d26c762f41409fd9276a2286461c8751d49f59afb2a7794c",
+      "color_classes_sha256": "60aa5321d23b977d55f6bf64b5146ab1a508163dbd496694cd0552c7c7ca9301",
+      "native_net_search_mems": 833522377
+    },
+    "shape3": {
+      "parameters": [
+        12,
+        12,
+        1,
+        0
+      ],
+      "native_models": 206472,
+      "color_classes": 8603,
+      "native_nodes": 42941017,
+      "independent_nodes": 3346988,
+      "all_native_and_independent_models_valid": true,
+      "complete_sets_equal": true,
+      "each_color_class_has_24_labeled_models": true,
+      "native_terminal_sha256": "cb198315eb0edd46f351c2067b176eae7036fb2566c5288a5bf8583272143958",
+      "color_classes_sha256": "9abff8eb4f9e9c37694149c3444a28b659b33c0a118b3d3eb3d8b58ffd92e64d",
+      "native_net_search_mems": 64113143507
+    },
+    "shape5": {
+      "parameters": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "native_models": 0,
+      "color_classes": 0,
+      "native_nodes": 112267,
+      "independent_nodes": 5736,
+      "all_native_and_independent_models_valid": true,
+      "complete_sets_equal": true,
+      "each_color_class_has_24_labeled_models": true,
+      "native_terminal_sha256": "a58a6ba29dbfe30653dbf02468edebc0492e4d91c99c27476ff327a899e4423b",
+      "color_classes_sha256": "612666a8fa685ff78b644f6391acd70bd824dc1e43164b57b2175c7ee6591025",
+      "native_net_search_mems": 253377907
+    }
+  },
+  "scope": "Two complete independent enumerations. Shape3 is a counterexample to the claimed impossibility; shape1 and shape5 are untileable."
+}

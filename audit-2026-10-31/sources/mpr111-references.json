@@ -1,0 +1,44 @@
+{
+  "updated_at_utc": "2026-11-07T02:40:10.032587+00:00",
+  "sources": [
+    {
+      "url": "https://www.eecs.harvard.edu/~michaelm/postscripts/jcss2000.pdf",
+      "path": "sources/broder-charikar-frieze-mitzenmacher-2000.pdf",
+      "sha256": "1d057de13981f20b9c17dd4a5bdc7225108d944c7037de325058a3fd2060265e",
+      "scope": "Primary metadata; p633 directly viewed for universe2^64, typical size1000,100 sketches and approximate independence. Relevant text p636 and bibliography were read; no full article audit claimed."
+    },
+    {
+      "url": "https://doi.org/10.1007/BF01940875",
+      "scope": "Primary author/title, Algorithmica16(1996),450–463, abstract; full article not available without subscription."
+    },
+    {
+      "url": "https://doi.org/10.5169/seals-266440",
+      "path": "sources/jaccard-1901-landing.html",
+      "scope": "ETH E-Periodica table of contents contains the relevant Jaccard article. Landing viewer selected another item; no claim of having inspected original p249."
+    },
+    {
+      "url": "https://www.e-periodica.ch/cntmng?pid=bsv-002%3A1901%3A37%3A%3A745",
+      "scope": "Actual PDF link extracted from the article’s table-of-contents entry; returned2684bytes HTML, no PDF artifact saved."
+    }
+  ],
+  "bibliography_skips": [
+    {
+      "exercise": "MPR:111",
+      "file_pages": [
+        407
+      ],
+      "reference": "Original Jaccard ecological discussion, Bulletin de la Société Vaudoise des Sciences Naturelles37(1901),249",
+      "reason": "Primary ETH E-Periodica table of contents identifies the article, but its PDF endpoint returned HTML; the original historical passage was not inspected.",
+      "mathematical_dependency": false
+    },
+    {
+      "exercise": "MPR:111",
+      "file_pages": [
+        407
+      ],
+      "reference": "Exact original construction and historical independence of Mulmuley, Algorithmica16(1996),450–463",
+      "reason": "Publisher metadata and the later authors’ description were checked; the complete original is subscription content and was not quickly available.",
+      "mathematical_dependency": false
+    }
+  ]
+}

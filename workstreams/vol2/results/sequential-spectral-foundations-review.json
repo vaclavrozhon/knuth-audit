@@ -1,0 +1,151 @@
+{
+  "reviewed_at_utc": "2026-11-06T09:27:29.127738+00:00",
+  "scope": "Sequential foundational review of3.3.4, S correctness, exercises1–7,9–10,12–15. Archived programs/results read without rerun.",
+  "new_confirmed_findings": [],
+  "new_candidates": [
+    "V2-C0243"
+  ],
+  "reaffirmed_findings": [
+    "V2-C0036",
+    "V2-C0037",
+    "V2-C0038",
+    "V2-C0039",
+    "V2-C0040"
+  ],
+  "accepted_old_counts": {
+    "small_models": 1103,
+    "minima": 5515,
+    "potency_two_models": 650,
+    "interval_cases": 15600,
+    "rational_reductions": 48
+  },
+  "limits": [
+    "C0243 interpretive definition candidate",
+    "Original93 historical comparison not verified",
+    "Original102 usual intermediate magnitudes not independently established",
+    "S7 amendment frequency not reproduced",
+    "Numerical D/E and later exercises continue"
+  ],
+  "inputs": [
+    {
+      "path": "workstreams/vol2/spectral.py",
+      "sha256": "d6563e7eff568aa4bd8f50fb187267ee6b42c55a9245d47189c0381c5b5cec2a"
+    },
+    {
+      "path": "workstreams/vol2/verify_spectral_foundations.py",
+      "sha256": "2190d282c83e0ebb4068f1b61b1b708e8474e5fc7836589e7e9ac2626bfe6522"
+    },
+    {
+      "path": "workstreams/vol2/results/spectral-foundations.json",
+      "sha256": "87bb93c00d2fd3213045e822d4783fda5153a1e3ca7a7bd29476a13e54d2f003"
+    },
+    {
+      "path": "workstreams/vol2/results/spectral-foundations.log",
+      "sha256": "0a7f846d41d949698f0294b4073b2445b970a842d89a5bcca5e2fd1615c21eca"
+    },
+    {
+      "path": "workstreams/vol2/notes/spectral-foundations.md",
+      "sha256": "0e278f0bc5d52ca556d59e67e9aad8a2e591e89306cc471281db5ceeea9dd331"
+    },
+    {
+      "path": "workstreams/vol2/sources/sequential-2026-11-06/spectral-foundations-source-review.json",
+      "sha256": "dfbafb1a4331800351f1f7fecc60252827067b54afad68cf7867d1deab7ca5d5"
+    },
+    {
+      "path": "workstreams/vol2/images/all2-prepre-p32.png",
+      "sha256": "555de036864e003b38d046440e137133d56ea8db2ebc9b409700cc068a9b6b24"
+    },
+    {
+      "path": "errata/text/all2-prepre.txt",
+      "sha256": "62a1ff323ca421f2640e2337f922dbf8cfc8e86c20d9b11acfc91221721c6f58"
+    },
+    {
+      "path": "errata/text/all2-pre.txt",
+      "sha256": "c1735b70547678d739eae3a8d7b02872c737218eed7706a0aba8fb6fc21a6529"
+    },
+    {
+      "path": "errata/text/all2.txt",
+      "sha256": "1c4d7f2259e147db0ebe84b4bf0ce8864b307afb4ccfbe48efcb1f5f5999ac58"
+    },
+    {
+      "path": "errata/text/err2.txt",
+      "sha256": "1b5c93712c3c467a48679e0040ba6c5869998b25184dbd125a5d096ce96e9ab0"
+    },
+    {
+      "path": "errata/originals/err2.textxt",
+      "sha256": "8faa21566312314ec6bda0f8956913deb312517fd9fa688dcc0bf19e1f21962e"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p093.png",
+      "sha256": "1a25f44a8af5820fea5ed1a5ae804f0570f6de3891cc75fc5318ef5b15500ed0"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p94.png",
+      "sha256": "144db62ff542e3d30f3b6e8326499aec70483cb912f6ea006a7c0c76de1fca19"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p95.png",
+      "sha256": "9c5d14a890c025fea72d757732460bc24e2fb77530e6f529f7cd4dc26fa43175"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p96.png",
+      "sha256": "daa018ffbb862db6f563ca7c1026b1f635333e846f229186eb7d6d29ee0ba0f3"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p97.png",
+      "sha256": "3bd68e51e09f584d06680a8dd099a11cd3085ed5363e59e8b4f7757b816d716a"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p98.png",
+      "sha256": "dc5e9d56a418bb782edcb330997063eb08530bfef63b2285ef114ad75ff440e6"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p99.png",
+      "sha256": "680a987ed150795dceafeffe850d30f12abe3d9e1acc5320234312867768f4bb"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p100.png",
+      "sha256": "d573477b43166d2e78a89765e7f3e12ae91607a8025afa8899d4982ab2ea0e51"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p101.png",
+      "sha256": "08862af82aeb114cc6e3785dff15a2854f31a1624f4435b0aee0b6aa73548022"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p102.png",
+      "sha256": "3b93f2947c6bba4e8738acd3e638d312cca9f22e5fc3044b6ab4a07feed50fbf"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p103.png",
+      "sha256": "9e4bda09ec6cffd08261fa753f10c9a403b94fc9588a96d81eeebb525bda435f"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p104.png",
+      "sha256": "2b38cbacdd4ef40e858bcb4420f8a1e03357f3a0b8edbf7b5a49308129e7ca54"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p115.png",
+      "sha256": "e31e2046f7ecc193898ceea6e43c3f80f455c7de64abe06c3b390c6067b78c08"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p116.png",
+      "sha256": "90b677f56617d45b3328ec0fc9a7a49e0df933e5e723b0a2be61efddd3cf83e2"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p577.png",
+      "sha256": "d2da709eef7237ee80d97198d33c579030aea5ab5aa4beb5a4d82dc9ac1a2b55"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p578.png",
+      "sha256": "daf169e3ee57c3a415c75f651460d90be35b448e24d0061523936f356573afae"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p579.png",
+      "sha256": "75d23269f4933bc5bff35329827c4dba8f7f74e9761956478ed125ae4078d6e4"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p580.png",
+      "sha256": "2d4a93f522a402d19c5edbae5a50e5bf8208eb1e370a3469c73feea0bf871e22"
+    }
+  ]
+}

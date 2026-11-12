@@ -1,0 +1,66 @@
+{
+  "checked_at_utc": "2026-11-12T03:15:08.522891+00:00",
+  "new_findings": [
+    "F243",
+    "F244",
+    "F245"
+  ],
+  "errata_ranges": {
+    "4B": [
+      [
+        292,
+        295
+      ],
+      [
+        361,
+        362
+      ],
+      [
+        639,
+        641
+      ]
+    ],
+    "4F6": [
+      [
+        108,
+        111
+      ],
+      [
+        177,
+        178
+      ],
+      [
+        275,
+        277
+      ]
+    ]
+  },
+  "errata_files": [
+    "errata/text/all4b.txt",
+    "errata/text/err4b.txt",
+    "errata/text/all4f6.txt",
+    "errata/text/err4f6.txt",
+    "errata/originals/err4b.textxt",
+    "errata/originals/err4f6.textxt"
+  ],
+  "refresh_manifests": [
+    "integration/2026-11-10-bookwise/errata/vol4b-manifest.json",
+    "integration/2026-11-10-bookwise/errata/vol4b-sat-manifest.json"
+  ],
+  "known_errata": [
+    "2022 exponent457 incorporated.",
+    "2018 reference465 incorporated.",
+    "2022 left endpoint and min expression466 incorporated."
+  ],
+  "draft_difference": "Answer459 in author draft275 has the correct0 boundary; Volume4B639 has−infinity.",
+  "new_checks": [
+    "audit-2026-10-31/results/bookwise-sweep-fixed-matrix.json",
+    "audit-2026-10-31/results/bookwise-sat472-fixed-numbering.json"
+  ],
+  "public_searches": [
+    "Knuth \"459\" \"sweep\" erratum",
+    "Knuth \"463\" \"If i\" sweep",
+    "Knuth \"472\" \"numbering\" endomorphisms errata"
+  ],
+  "public_search_result": "No relevant correction; unrelated search hits not used."
+}

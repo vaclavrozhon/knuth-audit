@@ -1,0 +1,366 @@
+{
+  "accessed_utc": "2026-11-03T19:33:18.486760+00:00",
+  "scope": "BLS394 mathematics checked; timing394/396partial;C0165confirmed. External APR/AH theorem statements verified, not reproved.",
+  "book_visually_read": [
+    394,
+    396
+  ],
+  "errata_files": [
+    "errata/text/all2-prepre.txt",
+    "errata/text/all2-pre.txt",
+    "errata/text/all2.txt",
+    "errata/text/err2.txt",
+    "errata/originals/err2.textxt"
+  ],
+  "errata_result": "Known394prime/nonprime2000;396Selfridge2005 and replacementbyAKS28Apr2005. NoCN12yearcorrection found.",
+  "web_sources": [
+    {
+      "name": "BLS1975 primary OCR",
+      "url": "https://www.scribd.com/document/807489564/New-Primality-Criteria-and-Factorizations",
+      "scope": "623–626,631–636,645 read as indexed OCR. No local original PDF or reliable visualQ-sign verification; own theorem proof and certificates."
+    },
+    {
+      "name": "BLS1975 indexed PDF",
+      "url": "https://scispace.com/pdf/new-primality-criteria-and-factorizations-of-2-1-2qx5k7wzb4.pdf",
+      "scope": "Indexed text available; direct download403. Screenshot tool returned no displayable image; no visual-read claim."
+    },
+    {
+      "name": "BLS1975 official PDF",
+      "url": "https://www.ams.org/journals/mcom/1975-29-130/S0025-5718-1975-0384673-1/S0025-5718-1975-0384673-1.pdf",
+      "scope": "403, not obtained."
+    },
+    {
+      "name": "APR1983 author copy",
+      "url": "https://math.dartmouth.edu/~carlp/PDF/paper37.pdf",
+      "scope": "173–174 visually read,34-page proof not audited in full."
+    },
+    {
+      "name": "Cohen and HWLenstra1984 author copy",
+      "url": "https://pub.math.leidenuniv.nl/~lenstrahw/PUBLICATIONS/1984a/art.pdf",
+      "scope": "Introduction297–301 text;299–300 visual. Practical versus deterministic complexity explicitly distinguished."
+    },
+    {
+      "name": "Cohen and AKLenstra1987 CWI",
+      "url": "https://ir.cwi.nl/pub/1774/1774D.pdf",
+      "scope": "103–105 and118–121 text,120–121 visual.213-digit routine range and247-digit example do not certify all250-digit worstcase."
+    },
+    {
+      "name": "AdlemanHuang1992 official preview",
+      "url": "https://page-one.springer.com/pdf/preview/10.1007/BFb0090186",
+      "scope": "Theorems1/2, pages1–2 visually read. Separate unina2PDF onlyfrontmatter; full142-page proof not obtained."
+    },
+    {
+      "name": "WilliamsJudd1976 author-uploaded article",
+      "url": "https://www.researchgate.net/publication/266752123_Determination_of_the_Primality_of_N_by_Using_Factors_of_N_2_1",
+      "scope": "Abstract and introduction157–158, bibliography172 textread. No full numerical audit."
+    },
+    {
+      "name": "WilliamsJudd conference abstract",
+      "url": "https://www.ams.org/journals/notices/197601/197601FullIssue.pdf",
+      "scope": "Indexed abstract received14Oct1975 names N±1,N²+1,N²±N+1; directPDF403."
+    },
+    {
+      "name": "CongressusNumerantium publisher archive",
+      "url": "https://combinatorialpress.com/cn/archive/",
+      "scope": "Volume12 under1975; rawHTMLsaved losslessly. C0165."
+    },
+    {
+      "name": "Lenstra1986 author preprint",
+      "url": "https://pub.math.leidenuniv.nl/~lenstrahw/PUBLICATIONS/1986d/art.pdf",
+      "scope": "Version19860716, pages4 and18 visually read:35digits/30030recursive method and1975reference32."
+    },
+    {
+      "name": "Lenstra1988 author publication scan",
+      "url": "https://pub.math.leidenuniv.nl/~lenstrahw/PUBLICATIONS/1988a/art.pdf",
+      "scope": "PDF1=printed99 thenPDF2=104;100–103missing.99,104,106,117–120 visual;119reference32 supports1975.117–118 ECM reserved for subsequent block."
+    },
+    {
+      "name": "SelfridgeWunderlich full text unavailable",
+      "url": "https://www.researchgate.net/publication/268502303_An_efficient_algorithm_for_testing_large_numbers_for_primality",
+      "scope": "Metadata only/request-fulltext page; no contact/request sent."
+    }
+  ],
+  "runs": [
+    {
+      "command": "timeout 120 python3 -u workstreams/vol2/verify_primality_extended.py",
+      "time_limit_seconds": 120,
+      "registered_at_utc": "2026-11-03T19:33:18.486760+00:00",
+      "pid": 1293538,
+      "tool_session": 89833,
+      "status": "completed_partial_assertion_failed",
+      "exit_code": 1,
+      "log": "results/primality-extended-first-pass.log",
+      "note": "Own assumption base13 meets every minus condition failed at q37; no book/source error inferred."
+    },
+    {
+      "command": "timeout 120 python3 -u workstreams/vol2/verify_primality_extended.py",
+      "time_limit_seconds": 120,
+      "registered_at_utc": "2026-11-03T19:33:18.486760+00:00",
+      "pid": 1293707,
+      "status": "completed_partial_assertion_failed",
+      "exit_code": 1,
+      "log": "results/primality-extended-second-pass.log",
+      "note": "PositiveQ13 from ambiguous OCR has Jacobi+1. Own certificate changed to Q=-13; no source-typography claim."
+    },
+    {
+      "command": "timeout 120 python3 -u workstreams/vol2/verify_primality_extended.py",
+      "time_limit_seconds": 120,
+      "registered_at_utc": "2026-11-03T19:33:18.486760+00:00",
+      "pid": 1293965,
+      "tool_session": 50583,
+      "status": "completed_partial_assertion_failed",
+      "exit_code": 1,
+      "log": "results/primality-extended.log",
+      "result": "results/primality-extended.json",
+      "note": "M167 certificate passed and saved. M241Q=5 fails two Lucas gcd conditions; use Q=-5."
+    },
+    {
+      "command": "timeout 120 python3 -u workstreams/vol2/verify_primality_extended.py",
+      "time_limit_seconds": 120,
+      "registered_at_utc": "2026-11-03T19:33:18.486760+00:00",
+      "pid": 1294102,
+      "status": "completed",
+      "exit_code": 0,
+      "log": "results/primality-extended.log",
+      "result": "results/primality-extended.json",
+      "note": "Resumed only M241 with Q=-5; passed. M167 successful checkpoint not repeated. Successful times0.776997s/0.077950s."
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "images/adleman-huang-1992-intro-preview-p1.png",
+      "bytes": 103787,
+      "sha256": "3315e9137647c130a085210bbb2b4cead439824d7a0f902f7a699d17434579a3"
+    },
+    {
+      "file": "images/adleman-huang-1992-intro-preview-p2.png",
+      "bytes": 133671,
+      "sha256": "62b9fe6a5f28e5a961841176bbed5825445ceebea89357d3cbd33835b04ba4ca"
+    },
+    {
+      "file": "images/apr-1983-p1.png",
+      "bytes": 149586,
+      "sha256": "206e27ce3b21b323f1e3a050060bff68316a350440d1845580be080ec70ae878"
+    },
+    {
+      "file": "images/apr-1983-p2.png",
+      "bytes": 209200,
+      "sha256": "13df971f1eb5fb05e29e0a8d83c4a30b4116b1ef36a2cc94c1b98d821a7a952c"
+    },
+    {
+      "file": "images/cohen-lenstra-1984-p4.png",
+      "bytes": 221361,
+      "sha256": "e363aa11d31bdfd5618315bd2ede98210342edc7b160e2c18e49de0a11f98c07"
+    },
+    {
+      "file": "images/cohen-lenstra-1984-p5.png",
+      "bytes": 241103,
+      "sha256": "b041f98994c70092c5e44e342899bfcf4e7d6885c628b77da4438186d46dcab0"
+    },
+    {
+      "file": "images/cohen-lenstra-1987-p1.png",
+      "bytes": 203196,
+      "sha256": "68bcae3fff967b45de12d23bc05bb5c4f3220355e63b9141d425fbcd68966a6b"
+    },
+    {
+      "file": "images/cohen-lenstra-1987-p16.png",
+      "bytes": 240627,
+      "sha256": "751fad2086b8c0937f8124fcee98ffb6957559d50dbcdb30232defb06dbc306e"
+    },
+    {
+      "file": "images/cohen-lenstra-1987-p17.png",
+      "bytes": 195863,
+      "sha256": "0599b47bb8fee20ac5a56f7fa8db69e193a00f7b298449c22bf6cc4d3781b985"
+    },
+    {
+      "file": "images/cohen-lenstra-1987-p18.png",
+      "bytes": 198613,
+      "sha256": "794fc9e99fddd04ec51cbd5c8d1f04cc37a4f79b841bac35909da92d82cb1ef2"
+    },
+    {
+      "file": "images/cohen-lenstra-1987-p19.png",
+      "bytes": 196391,
+      "sha256": "49a6b3d3d75823cee910c9718b39ca5a3b9766488bbd6b0bc515f82cc8c9cd09"
+    },
+    {
+      "file": "images/lenstra-elliptic-numbertheory-1986-p18.png",
+      "bytes": 123139,
+      "sha256": "cb94f70c82c1e47988be4f8267dbc0b9396ca03bdd897569aaa82086639b1d3f"
+    },
+    {
+      "file": "images/lenstra-elliptic-numbertheory-1986-p4.png",
+      "bytes": 253532,
+      "sha256": "9c7fae79c42249610e89107760299b3fea7104029a8d8ee0916eb65f46b576d9"
+    },
+    {
+      "file": "images/lenstra-elliptic-numbertheory-1988-p1.png",
+      "bytes": 212180,
+      "sha256": "bcc931c4075e1a1e154a2d8a7f2fc981831cec70c7375977c379fdc7f29a8ccf"
+    },
+    {
+      "file": "images/lenstra-elliptic-numbertheory-1988-p15.png",
+      "bytes": 253410,
+      "sha256": "d774cdc8e6b21ba8daefb1822491351917d6c25318d35d774f597b0af864c45c"
+    },
+    {
+      "file": "images/lenstra-elliptic-numbertheory-1988-p16.png",
+      "bytes": 247919,
+      "sha256": "e7531192ec86484991d54b45a3bed881561fec80da657c3eaa6a36df2338112d"
+    },
+    {
+      "file": "images/lenstra-elliptic-numbertheory-1988-p17.png",
+      "bytes": 257116,
+      "sha256": "ead8a5fbbdba9fdca341b0cbff7ef050a857a8af9559831e707c15b48d3d6404"
+    },
+    {
+      "file": "images/lenstra-elliptic-numbertheory-1988-p18.png",
+      "bytes": 68736,
+      "sha256": "00d864727ef8063a647d9fb15490a078aa9769f00a7122e91269b3c9a265ef02"
+    },
+    {
+      "file": "images/lenstra-elliptic-numbertheory-1988-p2.png",
+      "bytes": 253533,
+      "sha256": "571d08328a66f1aa987f605054934fbfc1ada8eded21dd6e7c04141338c2bb5e"
+    },
+    {
+      "file": "images/lenstra-elliptic-numbertheory-1988-p4.png",
+      "bytes": 248733,
+      "sha256": "2b74e38de7881b8e8445b31d4d2ec5889f3d56bb04476acfe2f9ec360cbbc044"
+    },
+    {
+      "file": "images/vol2-p394.png",
+      "bytes": 463253,
+      "sha256": "18befe0c1f03f2b18a93e54ae07fc1c5dba68cdfd05626e29927ec4859dc76fd"
+    },
+    {
+      "file": "images/vol2-p396.png",
+      "bytes": 510867,
+      "sha256": "71a08e45e0ede2450afeac593ef178cf97502ce279c6cc40e6a6d8a91afcfe79"
+    },
+    {
+      "file": "notes/C0165-selfridge-wunderlich-year.md",
+      "bytes": 1709,
+      "sha256": "6febb06ca1107bf3dcf3e8be368b7260492d218e5cbd8ebb05357376b007d3d9"
+    },
+    {
+      "file": "notes/primality-extended.md",
+      "bytes": 12494,
+      "sha256": "6b3b206c2787616ccd54a7681673871c0e91cf3cc0c024173634d8dcafcf35f3"
+    },
+    {
+      "file": "reports/C0165-selfridge-wunderlich-year-draft.txt",
+      "bytes": 813,
+      "sha256": "5820cf6eb73e8e11f6fac6fdcda2fe650fe01af260686a288a16c0322ebd74e6"
+    },
+    {
+      "file": "results/primality-extended-first-pass.log",
+      "bytes": 531,
+      "sha256": "6b313a9015fc2e204dc9634389a780eb29cccc45042243c3877561f8637c7f62"
+    },
+    {
+      "file": "results/primality-extended-second-pass.log",
+      "bytes": 609,
+      "sha256": "dae468e505b062622dec5e41f0d28af3d2c0de78e361f0f83872357b0b06b5f0"
+    },
+    {
+      "file": "results/primality-extended.json",
+      "bytes": 8057,
+      "sha256": "8de09d90e4f2fc2acd46b965856bed03733aa171e6f7933a83273a2055c7d11f"
+    },
+    {
+      "file": "results/primality-extended.log",
+      "bytes": 660,
+      "sha256": "d3e69d068e23524073ebc6f6a77cce46c1763451f9ae88341f04750c4246620e"
+    },
+    {
+      "file": "sources/adleman-huang-1992-intro-preview.pdf",
+      "bytes": 127396,
+      "sha256": "925e319b769d011978d6fdf6b6cf1e96d8a54026f8b2f4d8ddb1b0d9bed0b41b"
+    },
+    {
+      "file": "sources/adleman-huang-1992-intro-preview.txt",
+      "bytes": 4781,
+      "sha256": "ea6503990af2ddc09244df4328a6c03ff9a972afa6df5c2fc25ba0f2f24e3bd6"
+    },
+    {
+      "file": "sources/adleman-huang-1992.pdf",
+      "bytes": 186966,
+      "sha256": "da3201d64f263e63980347a08304d126b51d107d3b77d8dfe349dd71987e89b5"
+    },
+    {
+      "file": "sources/adleman-huang-1992.txt",
+      "bytes": 6930,
+      "sha256": "cbe24f9bdf3749c2edbafb4c190fa6767f709b9ec2b4d095de2f2ecba562e132"
+    },
+    {
+      "file": "sources/apr-1983.pdf",
+      "bytes": 2575900,
+      "sha256": "736109064681de85a3b93ccce7dc323f9964ddc80a0696a9e5d0848585f4741b"
+    },
+    {
+      "file": "sources/apr-1983.txt",
+      "bytes": 34,
+      "sha256": "f2414d9869d9f6082830711ea4766451f91e20a3fd7f05ee82635f57263cb537"
+    },
+    {
+      "file": "sources/bls-1975-scribd.html.gz",
+      "bytes": 235889,
+      "sha256": "23d10d7b6d64e9a331b456c9f27af31bd8af43499bbcce4dd4f267327192eeb9"
+    },
+    {
+      "file": "sources/cohen-lenstra-1984.pdf",
+      "bytes": 3365865,
+      "sha256": "97dcec82eeac02941821748acbe172924946009b1eb88ba635e91db4ec9922f5"
+    },
+    {
+      "file": "sources/cohen-lenstra-1984.txt",
+      "bytes": 105972,
+      "sha256": "c892a4fbb0c3d002462eb77d1ac9b5ce4d689d45181a1c4decc32bb2a89ddead"
+    },
+    {
+      "file": "sources/cohen-lenstra-1987.pdf",
+      "bytes": 3163342,
+      "sha256": "d6ab7ba47cbe90597fa616512bf03b941d4641436257d8f91c21f688e1cc80cc"
+    },
+    {
+      "file": "sources/cohen-lenstra-1987.txt",
+      "bytes": 63104,
+      "sha256": "3ea159168606b4e584a44e49ab67c9f0a07f0d93210715908c778f0098133e91"
+    },
+    {
+      "file": "sources/congressus-numerantium-archive-2026-11-03.html.gz",
+      "bytes": 25688,
+      "sha256": "e8342680cc9ca3521effafe724648c1b0e2e140e0735fb23795b36f612198853"
+    },
+    {
+      "file": "sources/lenstra-elliptic-numbertheory-1986.pdf",
+      "bytes": 1555430,
+      "sha256": "3f6f2e6308df80f2bb204a3af15a3feb8575d0e81b349779c5023be94e32b7c6"
+    },
+    {
+      "file": "sources/lenstra-elliptic-numbertheory-1986.txt",
+      "bytes": 67096,
+      "sha256": "e0dfe745b5334da7bcb687906998b2299b945f7c3a3fb67f9800861b7de86438"
+    },
+    {
+      "file": "sources/lenstra-elliptic-numbertheory-1988.pdf",
+      "bytes": 4864785,
+      "sha256": "329ff8c54739b73b3a441827a59f645986458af06865b8423977af61ac5b4b0d"
+    },
+    {
+      "file": "sources/lenstra-elliptic-numbertheory-1988.txt",
+      "bytes": 18,
+      "sha256": "c6ff2e35abbf1a4ff38649cf74ab873b436afd8311dc0f42d3831b9aa5801198"
+    },
+    {
+      "file": "sources/primality-extended-downloads.json",
+      "bytes": 5047,
+      "sha256": "074e2a7a2bb83082a8c691e8c9149b1bf4fdf2f1c1a23b720835d0b1a3b02751"
+    },
+    {
+      "file": "verify_primality_extended.py",
+      "bytes": 5953,
+      "sha256": "b3643873396f0b3ed65dd02e5abbb34cdd3a0bbc7298b40b6a8882bc5f31a006"
+    }
+  ]
+}

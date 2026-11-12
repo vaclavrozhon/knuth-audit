@@ -1,0 +1,563 @@
+{
+  "special_examples": {
+    "avogadro": {
+      "printed": "60221400000000000000000",
+      "corrected": "602214000000000000000000",
+      "printed_fraction_digits": 9,
+      "corrected_pair": [
+        26,
+        602214
+      ]
+    },
+    "physical_product": [
+      -6,
+      39903
+    ],
+    "physical_sum": [
+      26,
+      602214
+    ],
+    "division_rounding": {
+      "post": [
+        4,
+        1
+      ],
+      "pre": [
+        3,
+        10
+      ]
+    },
+    "truncation_first": [
+      "10000000000000000000",
+      "998999999900",
+      "998999990000"
+    ],
+    "truncation_second": [
+      "12345678",
+      "6172839/500000000",
+      "154321/12500000"
+    ]
+  },
+  "b2_p2_afterTrue": {
+    "pairs": 147,
+    "associativity_triples": 27,
+    "division_extra_carry_cases": 12,
+    "division_witness": {
+      "u": [
+        0,
+        -3
+      ],
+      "v": [
+        0,
+        -1
+      ],
+      "result": [
+        4,
+        1
+      ],
+      "base_exponent": 2
+    },
+    "after_rounding": true
+  },
+  "b2_p2_afterFalse": {
+    "pairs": 147,
+    "associativity_triples": 27,
+    "division_extra_carry_cases": 0,
+    "division_witness": null,
+    "after_rounding": false
+  },
+  "b2_p3_afterTrue": {
+    "pairs": 675,
+    "associativity_triples": 343,
+    "division_extra_carry_cases": 48,
+    "division_witness": {
+      "u": [
+        0,
+        -7
+      ],
+      "v": [
+        0,
+        -2
+      ],
+      "result": [
+        4,
+        2
+      ],
+      "base_exponent": 2
+    },
+    "after_rounding": true
+  },
+  "b2_p3_afterFalse": {
+    "pairs": 675,
+    "associativity_triples": 343,
+    "division_extra_carry_cases": 0,
+    "division_witness": null,
+    "after_rounding": false
+  },
+  "b3_p2_afterTrue": {
+    "pairs": 867,
+    "associativity_triples": 512,
+    "division_extra_carry_cases": 12,
+    "division_witness": {
+      "u": [
+        0,
+        -8
+      ],
+      "v": [
+        0,
+        -1
+      ],
+      "result": [
+        4,
+        1
+      ],
+      "base_exponent": 2
+    },
+    "after_rounding": true
+  },
+  "b3_p2_afterFalse": {
+    "pairs": 867,
+    "associativity_triples": 512,
+    "division_extra_carry_cases": 0,
+    "division_witness": null,
+    "after_rounding": false
+  },
+  "b4_p2_afterTrue": {
+    "pairs": 2883,
+    "associativity_triples": 3375,
+    "division_extra_carry_cases": 12,
+    "division_witness": {
+      "u": [
+        0,
+        -15
+      ],
+      "v": [
+        0,
+        -1
+      ],
+      "result": [
+        4,
+        1
+      ],
+      "base_exponent": 2
+    },
+    "after_rounding": true
+  },
+  "b4_p2_afterFalse": {
+    "pairs": 2883,
+    "associativity_triples": 3375,
+    "division_extra_carry_cases": 0,
+    "division_witness": null,
+    "after_rounding": false
+  },
+  "b5_p2_afterTrue": {
+    "pairs": 7203,
+    "associativity_triples": 3000,
+    "division_extra_carry_cases": 24,
+    "division_witness": {
+      "u": [
+        0,
+        -24
+      ],
+      "v": [
+        0,
+        -1
+      ],
+      "result": [
+        4,
+        1
+      ],
+      "base_exponent": 2
+    },
+    "after_rounding": true
+  },
+  "b5_p2_afterFalse": {
+    "pairs": 7203,
+    "associativity_triples": 3000,
+    "division_extra_carry_cases": 0,
+    "division_witness": null,
+    "after_rounding": false
+  },
+  "b10_p2_afterTrue": {
+    "pairs": 118803,
+    "associativity_triples": 3000,
+    "division_extra_carry_cases": 60,
+    "division_witness": {
+      "u": [
+        0,
+        -99
+      ],
+      "v": [
+        0,
+        -1
+      ],
+      "result": [
+        4,
+        1
+      ],
+      "base_exponent": 2
+    },
+    "after_rounding": true
+  },
+  "b10_p2_afterFalse": {
+    "pairs": 118803,
+    "associativity_triples": 3000,
+    "division_extra_carry_cases": 0,
+    "division_witness": null,
+    "after_rounding": false
+  },
+  "distributive": {
+    "cases": 30000,
+    "maxima": [
+      {
+        "b": 2,
+        "p": 3,
+        "after": true,
+        "maximum_observed": "3/8"
+      },
+      {
+        "b": 2,
+        "p": 3,
+        "after": false,
+        "maximum_observed": "3/8"
+      },
+      {
+        "b": 3,
+        "p": 2,
+        "after": true,
+        "maximum_observed": "7/9"
+      },
+      {
+        "b": 3,
+        "p": 2,
+        "after": false,
+        "maximum_observed": "7/9"
+      },
+      {
+        "b": 4,
+        "p": 2,
+        "after": true,
+        "maximum_observed": "13/16"
+      },
+      {
+        "b": 4,
+        "p": 2,
+        "after": false,
+        "maximum_observed": "13/16"
+      },
+      {
+        "b": 10,
+        "p": 2,
+        "after": true,
+        "maximum_observed": "11/100"
+      },
+      {
+        "b": 10,
+        "p": 2,
+        "after": false,
+        "maximum_observed": "11/100"
+      },
+      {
+        "b": 10,
+        "p": 8,
+        "after": true,
+        "maximum_observed": "11/100000000"
+      },
+      {
+        "b": 10,
+        "p": 8,
+        "after": false,
+        "maximum_observed": "11/100000000"
+      }
+    ],
+    "lower_bound_family": [
+      {
+        "p": 2,
+        "after": true,
+        "left": [
+          -2,
+          2
+        ],
+        "right": [
+          -1,
+          1
+        ],
+        "required_epsilon": "2/25"
+      },
+      {
+        "p": 2,
+        "after": false,
+        "left": [
+          -2,
+          2
+        ],
+        "right": [
+          -1,
+          1
+        ],
+        "required_epsilon": "2/25"
+      },
+      {
+        "p": 3,
+        "after": true,
+        "left": [
+          -3,
+          2
+        ],
+        "right": [
+          -1,
+          1
+        ],
+        "required_epsilon": "49/500"
+      },
+      {
+        "p": 3,
+        "after": false,
+        "left": [
+          -3,
+          2
+        ],
+        "right": [
+          -1,
+          1
+        ],
+        "required_epsilon": "49/500"
+      },
+      {
+        "p": 4,
+        "after": true,
+        "left": [
+          -4,
+          2
+        ],
+        "right": [
+          -1,
+          1
+        ],
+        "required_epsilon": "499/5000"
+      },
+      {
+        "p": 4,
+        "after": false,
+        "left": [
+          -4,
+          2
+        ],
+        "right": [
+          -1,
+          1
+        ],
+        "required_epsilon": "499/5000"
+      },
+      {
+        "p": 5,
+        "after": true,
+        "left": [
+          -5,
+          2
+        ],
+        "right": [
+          -1,
+          1
+        ],
+        "required_epsilon": "4999/50000"
+      },
+      {
+        "p": 5,
+        "after": false,
+        "left": [
+          -5,
+          2
+        ],
+        "right": [
+          -1,
+          1
+        ],
+        "required_epsilon": "4999/50000"
+      },
+      {
+        "p": 6,
+        "after": true,
+        "left": [
+          -6,
+          2
+        ],
+        "right": [
+          -1,
+          1
+        ],
+        "required_epsilon": "49999/500000"
+      },
+      {
+        "p": 6,
+        "after": false,
+        "left": [
+          -6,
+          2
+        ],
+        "right": [
+          -1,
+          1
+        ],
+        "required_epsilon": "49999/500000"
+      },
+      {
+        "p": 7,
+        "after": true,
+        "left": [
+          -7,
+          2
+        ],
+        "right": [
+          -1,
+          1
+        ],
+        "required_epsilon": "499999/5000000"
+      },
+      {
+        "p": 7,
+        "after": false,
+        "left": [
+          -7,
+          2
+        ],
+        "right": [
+          -1,
+          1
+        ],
+        "required_epsilon": "499999/5000000"
+      },
+      {
+        "p": 8,
+        "after": true,
+        "left": [
+          -8,
+          2
+        ],
+        "right": [
+          -1,
+          1
+        ],
+        "required_epsilon": "4999999/50000000"
+      },
+      {
+        "p": 8,
+        "after": false,
+        "left": [
+          -8,
+          2
+        ],
+        "right": [
+          -1,
+          1
+        ],
+        "required_epsilon": "4999999/50000000"
+      },
+      {
+        "p": 9,
+        "after": true,
+        "left": [
+          -9,
+          2
+        ],
+        "right": [
+          -1,
+          1
+        ],
+        "required_epsilon": "49999999/500000000"
+      },
+      {
+        "p": 9,
+        "after": false,
+        "left": [
+          -9,
+          2
+        ],
+        "right": [
+          -1,
+          1
+        ],
+        "required_epsilon": "49999999/500000000"
+      },
+      {
+        "p": 10,
+        "after": true,
+        "left": [
+          -10,
+          2
+        ],
+        "right": [
+          -1,
+          1
+        ],
+        "required_epsilon": "499999999/5000000000"
+      },
+      {
+        "p": 10,
+        "after": false,
+        "left": [
+          -10,
+          2
+        ],
+        "right": [
+          -1,
+          1
+        ],
+        "required_epsilon": "499999999/5000000000"
+      },
+      {
+        "p": 11,
+        "after": true,
+        "left": [
+          -11,
+          2
+        ],
+        "right": [
+          -1,
+          1
+        ],
+        "required_epsilon": "4999999999/50000000000"
+      },
+      {
+        "p": 11,
+        "after": false,
+        "left": [
+          -11,
+          2
+        ],
+        "right": [
+          -1,
+          1
+        ],
+        "required_epsilon": "4999999999/50000000000"
+      },
+      {
+        "p": 12,
+        "after": true,
+        "left": [
+          -12,
+          2
+        ],
+        "right": [
+          -1,
+          1
+        ],
+        "required_epsilon": "49999999999/500000000000"
+      },
+      {
+        "p": 12,
+        "after": false,
+        "left": [
+          -12,
+          2
+        ],
+        "right": [
+          -1,
+          1
+        ],
+        "required_epsilon": "49999999999/500000000000"
+      }
+    ],
+    "scope": "Conservative upper bound plus nonvanishing lower bound; no optimal epsilon claim."
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "checked_at_utc": "2026-11-12T02:45:55.883497+00:00",
+  "errata_ranges": {
+    "4B": [
+      [
+        284,
+        285
+      ],
+      [
+        355,
+        357
+      ],
+      [
+        630,
+        633
+      ]
+    ],
+    "4F6": [
+      [
+        100,
+        101
+      ],
+      [
+        171,
+        173
+      ],
+      [
+        266,
+        269
+      ]
+    ]
+  },
+  "new_findings": [
+    "F233",
+    "F234",
+    "F235",
+    "F236",
+    "F237"
+  ],
+  "known_errata": [
+    "2022 replacement404 incorporated.",
+    "2018 delta bound408 corrected.",
+    "2022 indices and high-bit units410 incorporated in the checked circuit.",
+    "2025 replacement415 and rating change applied; not a new finding."
+  ],
+  "draft_answer_renumbering": "2015 draft413 corresponds to current414; draft414 to current415; draft415 to current413.",
+  "errata_files": [
+    "errata/text/all4b.txt",
+    "errata/text/err4b.txt",
+    "errata/text/all4f6.txt",
+    "errata/text/err4f6.txt",
+    "errata/originals/err4b.textxt",
+    "errata/originals/err4f6.textxt"
+  ],
+  "refresh_manifests": [
+    "integration/2026-11-10-bookwise/errata/vol4b-manifest.json",
+    "integration/2026-11-10-bookwise/errata/vol4b-sat-manifest.json"
+  ],
+  "new_check": "audit-2026-10-31/results/bookwise-order-fixed-witnesses.json",
+  "primary_source": "audit-2026-10-31/sources/bookwise-gonzalez-sahni-1976.provenance.json",
+  "primary_scope": "Section2 algorithm, Lemmas2.1–2.4 and full Theorem2.1 proof; Lemmas4.1–4.2 partition reductions. No preemptive multi-machine review.",
+  "scope": "Printed arguments and five precise findings. Fixed arithmetic/gate witnesses,64 decisions for the one given410 instance, and one3x3 multiplier witness; no general enumeration."
+}

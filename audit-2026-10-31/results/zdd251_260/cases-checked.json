@@ -1,0 +1,652 @@
+{
+  "at_utc": "2026-11-03T19:50:01.239800+00:00",
+  "checker_sha256": "78a87c9dcea5fffb2a9b3eaa5a1174ed2b2d0a6364392f584c13169c78f769e0",
+  "binary": "/tmp/knuth-vol4b-zdd-qw7qwwga/dlx6",
+  "binary_sha256": "f72973ecfee017c8039eafa40e54516bb0be0371165a1ff98cf63466544d3304",
+  "nice": 15,
+  "elapsed_seconds": 2.8670424229931086,
+  "new_native_cases": 35,
+  "cases": [
+    {
+      "case": "bizarre256-2-2",
+      "q": 2,
+      "r": 2,
+      "stats": {
+        "count": 9,
+        "updates": 65,
+        "nodes": 15,
+        "signatures": 13
+      }
+    },
+    {
+      "case": "bizarre256-2-3",
+      "q": 2,
+      "r": 3,
+      "stats": {
+        "count": 45,
+        "updates": 202,
+        "nodes": 35,
+        "signatures": 26
+      }
+    },
+    {
+      "case": "bizarre256-3-2",
+      "q": 3,
+      "r": 2,
+      "stats": {
+        "count": 45,
+        "updates": 159,
+        "nodes": 35,
+        "signatures": 21
+      }
+    },
+    {
+      "case": "bizarre256-3-3",
+      "q": 3,
+      "r": 3,
+      "stats": {
+        "count": 225,
+        "updates": 296,
+        "nodes": 55,
+        "signatures": 34
+      }
+    },
+    {
+      "case": "bizarre256-4-3",
+      "q": 4,
+      "r": 3,
+      "stats": {
+        "count": 1575,
+        "updates": 683,
+        "nodes": 126,
+        "signatures": 55
+      }
+    },
+    {
+      "case": "circular260-3",
+      "n": 3,
+      "stats": {
+        "count": 6,
+        "updates": 46,
+        "nodes": 15,
+        "signatures": 9
+      },
+      "printed": {
+        "signatures": 27,
+        "nodes": 15,
+        "updates": 44
+      }
+    },
+    {
+      "case": "circular260-4",
+      "n": 4,
+      "stats": {
+        "count": 9,
+        "updates": 78,
+        "nodes": 23,
+        "signatures": 15
+      },
+      "printed": {
+        "signatures": 33,
+        "nodes": 23,
+        "updates": 78
+      }
+    },
+    {
+      "case": "circular260-5",
+      "n": 5,
+      "stats": {
+        "count": 13,
+        "updates": 112,
+        "nodes": 31,
+        "signatures": 21
+      },
+      "printed": {
+        "signatures": 39,
+        "nodes": 31,
+        "updates": 112
+      }
+    },
+    {
+      "case": "circular260-6",
+      "n": 6,
+      "stats": {
+        "count": 20,
+        "updates": 146,
+        "nodes": 39,
+        "signatures": 27
+      },
+      "printed": {
+        "signatures": 45,
+        "nodes": 39,
+        "updates": 146
+      }
+    },
+    {
+      "case": "circular260-7",
+      "n": 7,
+      "stats": {
+        "count": 31,
+        "updates": 180,
+        "nodes": 47,
+        "signatures": 33
+      },
+      "printed": {
+        "signatures": 51,
+        "nodes": 47,
+        "updates": 180
+      }
+    },
+    {
+      "case": "circular260-8",
+      "n": 8,
+      "stats": {
+        "count": 49,
+        "updates": 214,
+        "nodes": 55,
+        "signatures": 39
+      },
+      "printed": {
+        "signatures": 57,
+        "nodes": 55,
+        "updates": 214
+      }
+    },
+    {
+      "case": "circular260-9",
+      "n": 9,
+      "stats": {
+        "count": 78,
+        "updates": 248,
+        "nodes": 63,
+        "signatures": 45
+      },
+      "printed": {
+        "signatures": 63,
+        "nodes": 63,
+        "updates": 248
+      }
+    },
+    {
+      "case": "circular260-10",
+      "n": 10,
+      "stats": {
+        "count": 125,
+        "updates": 282,
+        "nodes": 71,
+        "signatures": 51
+      },
+      "printed": {
+        "signatures": 69,
+        "nodes": 71,
+        "updates": 282
+      }
+    },
+    {
+      "case": "circular260-11",
+      "n": 11,
+      "stats": {
+        "count": 201,
+        "updates": 316,
+        "nodes": 79,
+        "signatures": 57
+      },
+      "printed": {
+        "signatures": 75,
+        "nodes": 79,
+        "updates": 316
+      }
+    },
+    {
+      "case": "circular260-12",
+      "n": 12,
+      "stats": {
+        "count": 324,
+        "updates": 350,
+        "nodes": 87,
+        "signatures": 63
+      },
+      "printed": {
+        "signatures": 81,
+        "nodes": 87,
+        "updates": 350
+      }
+    },
+    {
+      "case": "circular260-13",
+      "n": 13,
+      "stats": {
+        "count": 523,
+        "updates": 384,
+        "nodes": 95,
+        "signatures": 69
+      },
+      "printed": {
+        "signatures": 87,
+        "nodes": 95,
+        "updates": 384
+      }
+    },
+    {
+      "case": "circular260-14",
+      "n": 14,
+      "stats": {
+        "count": 845,
+        "updates": 418,
+        "nodes": 103,
+        "signatures": 75
+      },
+      "printed": {
+        "signatures": 93,
+        "nodes": 103,
+        "updates": 418
+      }
+    },
+    {
+      "case": "circular260-15",
+      "n": 15,
+      "stats": {
+        "count": 1366,
+        "updates": 452,
+        "nodes": 111,
+        "signatures": 81
+      },
+      "printed": {
+        "signatures": 99,
+        "nodes": 111,
+        "updates": 452
+      }
+    },
+    {
+      "case": "circular260-16",
+      "n": 16,
+      "stats": {
+        "count": 2209,
+        "updates": 486,
+        "nodes": 119,
+        "signatures": 87
+      },
+      "printed": {
+        "signatures": 105,
+        "nodes": 119,
+        "updates": 486
+      }
+    },
+    {
+      "case": "circular260-17",
+      "n": 17,
+      "stats": {
+        "count": 3573,
+        "updates": 520,
+        "nodes": 127,
+        "signatures": 93
+      },
+      "printed": {
+        "signatures": 111,
+        "nodes": 127,
+        "updates": 520
+      }
+    },
+    {
+      "case": "circular260-18",
+      "n": 18,
+      "stats": {
+        "count": 5780,
+        "updates": 554,
+        "nodes": 135,
+        "signatures": 99
+      },
+      "printed": {
+        "signatures": 117,
+        "nodes": 135,
+        "updates": 554
+      }
+    },
+    {
+      "case": "circular260-19",
+      "n": 19,
+      "stats": {
+        "count": 9351,
+        "updates": 588,
+        "nodes": 143,
+        "signatures": 105
+      },
+      "printed": {
+        "signatures": 123,
+        "nodes": 143,
+        "updates": 588
+      }
+    },
+    {
+      "case": "circular260-20",
+      "n": 20,
+      "stats": {
+        "count": 15129,
+        "updates": 622,
+        "nodes": 151,
+        "signatures": 111
+      },
+      "printed": {
+        "signatures": 129,
+        "nodes": 151,
+        "updates": 622
+      }
+    },
+    {
+      "case": "circular260-21",
+      "n": 21,
+      "stats": {
+        "count": 24478,
+        "updates": 656,
+        "nodes": 159,
+        "signatures": 117
+      },
+      "printed": {
+        "signatures": 135,
+        "nodes": 159,
+        "updates": 656
+      }
+    },
+    {
+      "case": "circular260-22",
+      "n": 22,
+      "stats": {
+        "count": 39605,
+        "updates": 690,
+        "nodes": 167,
+        "signatures": 123
+      },
+      "printed": {
+        "signatures": 141,
+        "nodes": 167,
+        "updates": 690
+      }
+    },
+    {
+      "case": "circular260-23",
+      "n": 23,
+      "stats": {
+        "count": 64081,
+        "updates": 724,
+        "nodes": 175,
+        "signatures": 129
+      },
+      "printed": {
+        "signatures": 147,
+        "nodes": 175,
+        "updates": 724
+      }
+    },
+    {
+      "case": "circular260-24",
+      "n": 24,
+      "stats": {
+        "count": 103684,
+        "updates": 758,
+        "nodes": 183,
+        "signatures": 135
+      },
+      "printed": {
+        "signatures": 153,
+        "nodes": 183,
+        "updates": 758
+      }
+    },
+    {
+      "case": "menage260-3",
+      "n": 3,
+      "stats": {
+        "count": 1,
+        "updates": 9,
+        "nodes": 5,
+        "signatures": 4
+      },
+      "leftmost": {
+        "count": 1,
+        "updates": 9,
+        "nodes": 5,
+        "signatures": 4
+      }
+    },
+    {
+      "case": "menage260-4",
+      "n": 4,
+      "stats": {
+        "count": 2,
+        "updates": 29,
+        "nodes": 10,
+        "signatures": 8
+      },
+      "leftmost": {
+        "count": 2,
+        "updates": 44,
+        "nodes": 10,
+        "signatures": 13
+      }
+    },
+    {
+      "case": "menage260-5",
+      "n": 5,
+      "stats": {
+        "count": 13,
+        "updates": 111,
+        "nodes": 31,
+        "signatures": 21
+      },
+      "leftmost": {
+        "count": 13,
+        "updates": 184,
+        "nodes": 39,
+        "signatures": 38
+      }
+    },
+    {
+      "case": "menage260-6",
+      "n": 6,
+      "stats": {
+        "count": 80,
+        "updates": 434,
+        "nodes": 108,
+        "signatures": 62
+      },
+      "leftmost": {
+        "count": 80,
+        "updates": 713,
+        "nodes": 150,
+        "signatures": 104
+      }
+    },
+    {
+      "case": "menage260-7",
+      "n": 7,
+      "stats": {
+        "count": 579,
+        "updates": 1553,
+        "nodes": 358,
+        "signatures": 176
+      },
+      "leftmost": {
+        "count": 579,
+        "updates": 2568,
+        "nodes": 555,
+        "signatures": 273
+      }
+    },
+    {
+      "case": "menage260-8",
+      "n": 8,
+      "stats": {
+        "count": 4738,
+        "updates": 5323,
+        "nodes": 1150,
+        "signatures": 493
+      },
+      "leftmost": {
+        "count": 4738,
+        "updates": 8719,
+        "nodes": 1844,
+        "signatures": 700
+      }
+    },
+    {
+      "case": "menage260-9",
+      "n": 9,
+      "stats": {
+        "count": 43387,
+        "updates": 18881,
+        "nodes": 3827,
+        "signatures": 1443
+      },
+      "leftmost": {
+        "count": 43387,
+        "updates": 28274,
+        "nodes": 5736,
+        "signatures": 1774
+      }
+    }
+  ],
+  "old_successful_cases_repeated": 0,
+  "new_long_jobs": 0,
+  "artifact_hashes": {
+    "results/zdd251_260/menage260-9.json": "b1306149fdef5db5b24c0a7eed2e34fed9e198edd67c25a88fc1030f6303fcc6",
+    "results/zdd251_260/domino252.json": "952da56c539cb1d4cb1a758c7292860a32e8e25e24d3c62100ed6c1c20fbd496",
+    "results/zdd251_260/domino252.zdd": "d5ba592e54f0c7e34ffe8a9d02cedb465fb3637c2279484e5a8a66ef8c1682e2",
+    "results/zdd251_260/circular260-20.xcc": "5d5244fa3ef7c923bbeb5dad7c38e36e26390133caef20a4aeacb984f0d8b0ad",
+    "results/zdd251_260/bizarre256-4-3.xcc": "3a554a9d97a31c80c9eb3c246df9a9d6f8928501b6b313320a1ecdb6a585000c",
+    "results/zdd251_260/circular260-11.xcc": "0dc216dcaa30cc9488122e31d311e52851a723767e8a906a9fbfa9eb4a783b55",
+    "results/zdd251_260/circular260-15.xcc": "5080f40ea207d5831d6b0574fd603ecffd6a6f2556abd3cea2feb6c7f1638108",
+    "results/zdd251_260/menage260-9.zdd": "1f53ddf49e9be4c6dcc0fec4ae67e74ac673c720efd5008a6da23bc33bc480e1",
+    "results/zdd251_260/circular260-3.xcc": "a1104aa0a9413aed1147389c89a6f99255bc17c7f8ca080b1e8201976f8072c4",
+    "results/zdd251_260/circular260-18.zdd": "c45b96106229c40930de53c795a7244d29e861baf23db455372093f8eb8416b6",
+    "results/zdd251_260/circular260-4.log": "7ef4aef40b076e487c30533f8d37bc1be291194f234103d73f0067c3b67af5c6",
+    "results/zdd251_260/circular260-5.xcc": "e15970e5e911b3b782ba56d8b16b385873ba676d68a5eefdf809233a6a7b1dbe",
+    "results/zdd251_260/circular260-24.log": "24e2543f7c31c669257a7aab548e308beb6aa863aefea91ae7dd8e033113c098",
+    "results/zdd251_260/menage260-7.xcc": "aa69ba049af2cd87713a52b80981e58ed0e4780b03cb09a649ead61268e5ffd3",
+    "results/zdd251_260/domino252.xcc": "0f5b5aa1a641e652822ec35419904947a0114565f72874784a33161f2fa470da",
+    "results/zdd251_260/bizarre256-4-3.json": "7f44e5788bcdbf04618c075ed19b8e867afe4740cd5693129e69a8e3b131bc26",
+    "results/zdd251_260/circular260-13.xcc": "6feeac9e31a229d6d1dfd551e8faa400811c7fd6453b21093a0e0bdfb69f0b79",
+    "results/zdd251_260/bizarre256-2-3.xcc": "9676e3eaaf4fcda5b6318380f13e4b79568c55692a3d5b2687c8bacc04969bf8",
+    "results/zdd251_260/menage260-5.zdd": "a674db52b84c948a859cf70c0d7e8716564b5b35cdead2f8e2a6fb69a159a59f",
+    "results/zdd251_260/circular260-17.xcc": "a6d348802e0913fa398ca14e13d1a5f88edc93900a89117841467ab3e6896fdc",
+    "results/zdd251_260/circular260-16.zdd": "3cbbb002f6351f93e9c0b6d7d777e84d9cf15023c159bd3c22377f8eabd740d0",
+    "results/zdd251_260/circular260-4.xcc": "aa5d5b6611256c09aa1182947af47e9a48aad570abef167b2f508c4c14cdcf60",
+    "results/zdd251_260/menage260-6.zdd": "02c7e84f8ebb906243d82cdcc9f21ac746f2064685fd81e511084f7740a71295",
+    "results/zdd251_260/menage260-4.xcc": "613e88f3b4dc62acd6dbd5f72a4fba46b11258432abf75ea80c1cfde8dcf5b07",
+    "results/zdd251_260/bizarre256-4-3.zdd": "8ac4f1d197c71fb11a24f7785972618a71c140acb6382b548735e411d13c89a4",
+    "results/zdd251_260/circular260-12.zdd": "72eb25740eda1e65487b4aae63530dc8d89844042eddc06b79c45f3b1b3fe718",
+    "results/zdd251_260/circular260-22.zdd": "133ad7eaf152c3a9c46a5a633c6cd25754a2d40adce183d72dae53c68f11edd0",
+    "results/zdd251_260/domino252.log": "0c7be27f72bef5b18bcee27356dbe1fc5e556f32dfa16420f246c92ae0d48780",
+    "results/zdd251_260/circular260-11.zdd": "6dabe84af1112273b1870700ce4f8084d8c94fd288fc5f5e3505218d8c596375",
+    "results/zdd251_260/circular260-6.json": "0d7bb15ebb664e4adab6b5cdc113cde8a952208fcb0162d50fefc1172e357214",
+    "results/zdd251_260/circular260-14.log": "eabac495faf5da194a24491e603f2128a662df41303c39d09a3cafc1e977b6c4",
+    "results/zdd251_260/menage260-7.log": "b9169c025325d00c217d165a3e09617c63ae352ae50da8cdf8a2ec2083dabaa6",
+    "results/zdd251_260/circular260-16.log": "f845c61d6e69d04069d444ae662fd69d282813e199d2adc09f263a7d76d20c3a",
+    "results/zdd251_260/circular260-10.xcc": "66d3e7c422a18c3e95a11e7f1a72a5e8d7914fb0cf334a1d1ee064049ee5f388",
+    "results/zdd251_260/circular260-6.log": "7db22fc95275c3849181f3ccaf5f295ca1e2f57ccdaa25e8834e68ee4745ae34",
+    "results/zdd251_260/bizarre256-3-2.zdd": "90e4ea1ee7b6390eb6b36fc17382674aca0a74dbfcb0916456eaf6b61d298dc1",
+    "results/zdd251_260/circular260-5.json": "3a74ab6ab67e638d84dde1f5ddaa43191e8d8cfeba0ab65711b65146c8fc4277",
+    "results/zdd251_260/menage260-9.xcc": "997af2bac88602a6dfa4f9cd23b436ece26bdf4a2310261b9d2d34d83f22cba8",
+    "results/zdd251_260/menage260-9.log": "495ce998e25cea3478f9e1a2beebddf1082622c21912c111bac1849de242eda2",
+    "results/zdd251_260/circular260-5.zdd": "c0a92e174011e951f46f718a54335c7581c3b5e7bef5f9eee5ea234b109780d2",
+    "results/zdd251_260/circular260-10.json": "c03aae5be0c610aa70b88bd19c695dc5cde2d8c4bfb2ffe583d9ccf7401b579b",
+    "results/zdd251_260/circular260-7.zdd": "2bea3732b084fbde86016a2627d31b183ef6685737b7062e9d282b3261a8c02c",
+    "results/zdd251_260/circular260-11.log": "4313d38eeebdb89b6e9fd226d26ccd3a7fa2435b7d9bdc4f941d5b30e8e7f253",
+    "results/zdd251_260/menage260-3.xcc": "120bc88657a19d0eab38a41c8ca74c7f45f8dd1df0e443f0eb574db36018f262",
+    "results/zdd251_260/circular260-16.xcc": "a56a14632fd13c7e7920ae83f67d3817acb2fa37aea1d17af8f59c32c28d0a32",
+    "results/zdd251_260/circular260-6.xcc": "268fce638b089258eacc2bac3656f1ff3e75c23af816f2353dd19965849d68e4",
+    "results/zdd251_260/circular260-15.log": "10fd0998d36b51ab2eae7c5d7c0269a7f892292c80c0a14ddbaff4a688a7d630",
+    "results/zdd251_260/circular260-3.log": "e32c91aa62f1a7aad8821addc1f81c5b8a28ea7f9ecbed740c98ceb86ddbb8bb",
+    "results/zdd251_260/circular260-10.log": "3fbab30546df5e0c55f271cc13ef574e55228a0514aac828dcdddc73ee6dfc0b",
+    "results/zdd251_260/circular260-17.json": "1e62bac50a3001d8890f8375152e0f606954cbd78e86e21fe3bd0fd3651517b9",
+    "results/zdd251_260/circular260-9.json": "01034f27252d3dd59e1e3d8c937bfdfdcf29dcdeafbe6f2f227be9c5100c92b1",
+    "results/zdd251_260/circular260-7.log": "e0df1f4e4504a8406c7d30c9ddae451dbfeb2267fea70c28da08f3b853201a23",
+    "results/zdd251_260/circular260-16.json": "780973e3f2c4421d66d9cf4b575437f034e9c4c60d9cbdf1633be7e822102a98",
+    "results/zdd251_260/menage260-8.json": "d0e80dc725c67e0fd06cfcc0dc6e1ce06dcabb4132334a523bd1bac4b06514f8",
+    "results/zdd251_260/circular260-6.zdd": "ec8af230ed79175388100f5c1bec9f60130fbfa123082dd15c58f06c26dbe47d",
+    "results/zdd251_260/circular260-11.json": "5b6b33a29e720c9d80bae379d54ecec4ec3cac7ebcb2cd5de6e5c097bcec9f13",
+    "results/zdd251_260/bizarre256-3-3.json": "533fc3bceef37f95ff0758c56d1b6d180c11dd4d12e82363cd7fd356287887d5",
+    "results/zdd251_260/circular260-24.json": "9a9b2fcfdfe93129e98aecabdf930224c7b6c049614aa90381c25f20e3194069",
+    "results/zdd251_260/circular260-23.log": "3a41bbb39190178eafde5b9aed4610e102d636f98c425ffe5d5ec4269b3466c9",
+    "results/zdd251_260/bizarre256-2-3.log": "e98affaf5f47d06d3ddcfdda649d5d0a154dae3572e0c5d287d77033dce62d2a",
+    "results/zdd251_260/circular260-14.json": "569010b11b1440fcee73597f2bf7983aa27b1cb24b8069aa119e8a56323f57da",
+    "results/zdd251_260/menage260-3.log": "26f2633f4a5178e38acf5bfff936d6c6264c629c9c44191f776800be868ce866",
+    "results/zdd251_260/circular260-7.json": "9b51460b3b181da972be3008999759c3e2ba80d3e9af844a14606cb2e674ede2",
+    "results/zdd251_260/circular260-24.xcc": "bdc38c5e764625b0bc64fb7b688b9a78499963042a436ec995d3c9662b4f6110",
+    "results/zdd251_260/circular260-13.zdd": "02107575ab201931e06723bdf24cc5e205c048f739a2d7dee51da3284e124626",
+    "results/zdd251_260/bizarre256-3-2.json": "9b1bdfc65f795dafa2275427c721d54a57908cd167c57e0c63872480e4b98f58",
+    "results/zdd251_260/bizarre256-2-2.json": "8eb38de33808054054aa843e94e149733f62c306fd73d1b9ea46079c73ab579b",
+    "results/zdd251_260/circular260-8.json": "5e768a93dc0ef30108dc99a4dab0b524fdace5a4ee4cebf3c79b36bd69043e29",
+    "results/zdd251_260/bizarre256-3-3.xcc": "ac1b28c7f11f26da86b302780cfae3ac75892b40a409f095d3db2dbaf8477bda",
+    "results/zdd251_260/circular260-19.zdd": "c9bf5d4311dbf58ab7d347e6a8d2eda6a1bae208fa0f2f23eca3751cb1903316",
+    "results/zdd251_260/circular260-17.zdd": "afad7532498832676df609e64f7e3b911b5dc592b0b41719834c9ae76b3cf2b8",
+    "results/zdd251_260/menage260-8.zdd": "31bb60a3ee2d4b665f39be7815e1f103fd90a3efe438e960e4cddff9623c76b7",
+    "results/zdd251_260/circular260-13.json": "7ef65f99aba18f7723aaa5686191c376d9fa9ea5c58334b21187e50f119e5fc0",
+    "results/zdd251_260/circular260-22.json": "30050d3811dcf35d817431f80a2effd540b055fd75b156837d4c02d2b21006ad",
+    "results/zdd251_260/menage260-7.zdd": "c42d0c14d160213fc8cd429023481f70efc5697037ecad000a109d5e4ee5a1d7",
+    "results/zdd251_260/menage260-5.xcc": "5f509b12b3cbfd3cbc5d646d32050807075a5bab548435d7c5fc5e4d0f9a8420",
+    "results/zdd251_260/circular260-17.log": "889d235d7cb6fef50263b94ce536dd998ba0ba7a244450482ae9ac8575e29d67",
+    "results/zdd251_260/circular260-21.log": "f279257f39199c4da6e58f11db069a326894a61a330357ca53d5d2130db8432d",
+    "results/zdd251_260/circular260-7.xcc": "f8bda3ba2d3e42c28a5af38ad2952316fd711d6152cba76682009c3895cb475b",
+    "results/zdd251_260/bizarre256-2-2.zdd": "cc7295b2e76e783e3d60c1d38be015682e1ad5960c4ea89c529e504acbe7c2e0",
+    "results/zdd251_260/menage260-3.json": "732297294a15acda36b716fb455f8f4c26804eae5d712151dbbd1d91d7c262f3",
+    "results/zdd251_260/circular260-20.log": "2205b92473a69db1939431dfef4b20e36796866537824a73390b29dd58c4692c",
+    "results/zdd251_260/circular260-23.xcc": "4079fb89cd659a714791d14e519799add6878bc77b76bcbc9f6880caa848cf86",
+    "results/zdd251_260/bizarre256-3-2.log": "2e6ebe6048d0cf128bd0d8a8d8acbc8e843be58e0564f588becd0dd8fd3096a3",
+    "results/zdd251_260/circular260-21.zdd": "546761d1dc1677e85176fdff02a1f8bb4253035404f8480ec63868d4d3ff33d9",
+    "results/zdd251_260/circular260-14.zdd": "eb8e82c643162beefeb3180a1209cf2b8c0c63e268eb505f6f5ffa687bcf05cb",
+    "results/zdd251_260/circular260-4.zdd": "fa3a6687bb8db066be87e3cf0ba54d0a8ed936ccbead22ac7c56e8538cced910",
+    "results/zdd251_260/menage260-8.xcc": "93417b5c71ec7af16df20dd6110e961a353c13cf54fea5f9250f2650152af5c9",
+    "results/zdd251_260/circular260-14.xcc": "bc55a0df80ee6a5d8bca6291f487c3aaeeec3f6411e4b65d4701a15911b99eef",
+    "results/zdd251_260/bizarre256-2-2.log": "57e7d53e116735f4fbfaca8b5d655e872785397f5b042296ec7a2991299813d7",
+    "results/zdd251_260/circular260-8.log": "58afed0d58aaa5a0e3fa3220fa95ee0e20e94032b1a5f11c7ab19369447eee2b",
+    "results/zdd251_260/circular260-19.json": "a2819bc494312aefee0ae477ac774caac8420f0fc9a08443ff80e9fb919bccd4",
+    "results/zdd251_260/circular260-18.json": "1f684d7164e439cfd554e856aa3b07264223d8d8a30dbfb85b617adfe9f4d583",
+    "results/zdd251_260/circular260-20.zdd": "1e485325069df7fea4a7155e8dfeae7c769a8f0b010fbd2f532a0cf33a82b050",
+    "results/zdd251_260/circular260-12.log": "6315665eeb1b72e4a5b6f9298ffefbf431b2b7da753eb6afd31ab3331b8f4beb",
+    "results/zdd251_260/circular260-10.zdd": "5c21c69c7ea351572d9a29fff1ce001f28c4bea4944388f753ffe5a0b532867b",
+    "results/zdd251_260/circular260-23.json": "09ce12273e967e1c1d022d63e359b859957db21adf7abe4b9878301955b7c56e",
+    "results/zdd251_260/circular260-13.log": "7f06df7f2d3572d5c9d55706c9f8e680220fcd88f5b8a446a567867f805328f6",
+    "results/zdd251_260/circular260-9.log": "6a6419348d0d4b07fb1be9609bf5da7854076627c61c5a16dae86f62aa072df0",
+    "results/zdd251_260/circular260-15.json": "f3fdfc766347276d6206ed0ebad95a5647a39db7557aba7987474bb4f361e571",
+    "results/zdd251_260/circular260-21.xcc": "e6f188aa47816ce83a131ab88ecc1477da98e74ce4d5587afc5e418811e89e6a",
+    "results/zdd251_260/bizarre256-3-3.log": "5464954bd1b61857eefd99cec1b6e9df7fcb5c679b181962355f48f0ed13422c",
+    "results/zdd251_260/circular260-8.zdd": "ba515a22d80e06a20150069c88751ddc61a892ad510b75c63b2b7d2d52931f58",
+    "results/zdd251_260/menage260-3.zdd": "b28732312e50d555eb3b1144f7c62ba2c6f261e554495682df92a629f1a60803",
+    "results/zdd251_260/menage260-6.xcc": "daf30d612379a6358dbccdef5f295958e044aae1727585570a0b26cfb0802a8c",
+    "results/zdd251_260/circular260-15.zdd": "88aac7123fb949c36cb9b6817ccf64a12fa2c3bea208ce3de06b73b9cb55c426",
+    "results/zdd251_260/menage260-4.json": "3d1eb3ec24e249778d1f4306339b4e6494fe21dc321732076b1f49e15c73547a",
+    "results/zdd251_260/circular260-4.json": "d74bc12fa4679fc857855e66b6ec0cae2be05f3c107db6dd2277a1943b845848",
+    "results/zdd251_260/circular260-5.log": "4ad0bc0ea81292d8a8a78d67e2c6aa893589d7565fd9c289ad8507356434adba",
+    "results/zdd251_260/menage260-6.log": "b905b99f25255f1d9c46e07722f0e6a7a52b6760ffdcd262e91b8fb132879715",
+    "results/zdd251_260/circular260-9.zdd": "68de57334abd0139ab879bc9545e38ff9cb99159a3930927a42b10f6f25b5b8b",
+    "results/zdd251_260/menage260-8.log": "4eaeb414958daaf01be4d0d114c33d2ff7926cc74966cb2f539bf720b73160d7",
+    "results/zdd251_260/circular260-24.zdd": "813c9698ff5b718b94b825afd7585247f10749a30ea37c98e6c25962acea6c8e",
+    "results/zdd251_260/circular260-22.xcc": "b62e65302e4be06679fe9b10cdc46dd1594fa3e03004d09517b8a93595e1656b",
+    "results/zdd251_260/bizarre256-2-3.json": "f7b504b3327411a533243674a6182259a8a5987eadaa912c9f2d3abe8c06084c",
+    "results/zdd251_260/circular260-18.log": "45abf3a780caa0cc7a2165301f8649574dfa8c034884903cfddc7dfc887829ba",
+    "results/zdd251_260/bizarre256-2-2.xcc": "8baaf2a318a277aee387debc619deb709ad9eb017ef1d65de1e6062cc05aff99",
+    "results/zdd251_260/circular260-19.log": "af031d711ef18ed0aa7490005d0daba33bb61e65e2db10a616febda0ac26ad5c",
+    "results/zdd251_260/circular260-9.xcc": "12536c7ac2f60cf7c208b21b529b5f5f7cf5df869c1af655524e05ed95b52e3e",
+    "results/zdd251_260/bizarre256-4-3.log": "472f6b83654f19a12fcd234e4f4420a7e5ba6b244b8fbc4029c85ff9c788bee0",
+    "results/zdd251_260/circular260-22.log": "87f26707ae1bc07609c18538da2667a5def8fad6f756e87743fefad97c014216",
+    "results/zdd251_260/circular260-18.xcc": "7e7989b86c19f9aa229b73db952d212c296c0710c016ac7a36e5c55e03ff5ade",
+    "results/zdd251_260/bizarre256-2-3.zdd": "812991734091003601b94c70b7531dc065e3d17c0368946e1629f3163fe83c41",
+    "results/zdd251_260/menage260-5.json": "29dc5e16484c83a71e5e1e7d1beb6e155e292128c066dd0618e0cc9f25380c1b",
+    "results/zdd251_260/circular260-3.json": "38e504d685e7d336a37f2f739d243d046985c790e1e64edb1b607c9de29f6ec8",
+    "results/zdd251_260/circular260-20.json": "b8eca5cef436380869c5cc954c0cf346ea2d297aacbacd3ab292dae66091bcc0",
+    "results/zdd251_260/menage260-7.json": "b64f02bcde9d1051a8e4916063101c5576868b1972d6f1b61a74746620b63c0e",
+    "results/zdd251_260/menage260-6.json": "6394eb934cdc93a03e24b1731a1138fcddb15fda42c16d2a1f852a1b85e2ac48",
+    "results/zdd251_260/menage260-4.zdd": "f034370b3f79433dfc1df263e52be7da8f7f046294f54015de9eaf94b7adb8e0",
+    "results/zdd251_260/circular260-19.xcc": "3069bbe66f8d38a5eb360f73b3e9cf6909d06a5214c9be10fd64e6acd373202b",
+    "results/zdd251_260/menage260-5.log": "467e8f9fc61e6ec70a04d700ed35e4af85035cd42ebdf5193c7beb978ebd746f",
+    "results/zdd251_260/circular260-3.zdd": "bff22adaf128278dac6d46f3be0878dd9d0aacded26ededb4eb4ba7baece4e14",
+    "results/zdd251_260/bizarre256-3-3.zdd": "bb946fab6c02942ec4fb3a7d25cfe4bb1def62448b0b7a0f1751065adf07bec4",
+    "results/zdd251_260/circular260-21.json": "a4e208f893c61513a1ba28d7b6f5c38fb80d8a6a5c43df8b85c35774d6f05177",
+    "results/zdd251_260/bizarre256-3-2.xcc": "88a33a2a8a820a1c76fad62b4253d0cec7b920c3b2b82c82c3ce35135651b067",
+    "results/zdd251_260/circular260-23.zdd": "f640ee81e6b7f8f9d19b9c2732777bd2b18f109f71ff09f0c6e6c4c8ee903d63",
+    "results/zdd251_260/menage260-4.log": "e57f32f9736ed8fe16a30d8d2e1f761f683bda21d5074c1f262bd493d461b543",
+    "results/zdd251_260/circular260-8.xcc": "c7f1fc55b51b9ac3907b22afc9ab1da6384d0bc42433f22be6dede272424a066",
+    "results/zdd251_260/circular260-12.json": "3a54fc2d056923c59856315dd9c9e91e4873eb733bfe79b01214e0f9ff8df848",
+    "results/zdd251_260/circular260-12.xcc": "bab6ff8717810c335377de79fbde982f8ae520dd805640523079e6c85e8c901d"
+  }
+}

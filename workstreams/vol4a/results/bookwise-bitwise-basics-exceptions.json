@@ -1,0 +1,71 @@
+{
+  "scope": "Section 7.1.3 main 133–155, exercises 1–114, answers 581–601",
+  "updated_at_utc": "2026-11-10T23:42:53.534614+00:00",
+  "exceptions": [
+    {
+      "file_pages": [
+        154,
+        155,
+        156,
+        158,
+        159,
+        604,
+        605,
+        606
+      ],
+      "detail": "The full prime-bit table, all display/table constants, the 94727-constant perfect-hash census in answer 33, historical sieve timings, and the reported large prime gap were not regenerated. The printed indexing, recurrences and selected constants were checked."
+    },
+    {
+      "file_pages": [
+        601,
+        602,
+        603,
+        203
+      ],
+      "detail": "Exercises 10–19: the printed finite-field, branching-map and translation arguments were reviewed; external Lenstra characterization, Buchi decidability and cited rearrangement/generalization results are accepted as cited. No independent reconstruction of all eight MMIX nim-multiplication constants or external proofs was attempted."
+    },
+    {
+      "file_pages": [
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        607,
+        608,
+        609,
+        610,
+        611,
+        612
+      ],
+      "detail": "Exercises 49–76: no exhaustive optimum-swap census, full 64-bit replay of the explicit 7-by-9 permutation masks, or independent implementation of every matrix/network example. Printed recursive constructions and routing criteria were reviewed; research problems 61 and 76 remain research exceptions."
+    },
+    {
+      "file_pages": [
+        613,
+        614,
+        615
+      ],
+      "detail": "The general scattered right-shift routine in answer 83 was reviewed with its gap invariant and a hand case, without a complete implementation test. Alpha-blend maximum/mean errors and probabilities in answer 91 were not regenerated over all 256^3 cases. Historical timing claims were not benchmarked."
+    },
+    {
+      "file_pages": [
+        209,
+        616
+      ],
+      "detail": "Answer 104: the ordinary date-field calculation was reviewed, but unrestricted high-bit validation is not certified. The tested borrow flags are periodic in the packed input modulo 2^24, hence in the year modulo 2^15. Larger encoded years can alias an ordinary valid year. This is retained as an explicit input-domain caveat, not promoted on a disputed implicit date domain."
+    },
+    {
+      "file_pages": [
+        171,
+        172,
+        210,
+        616,
+        617
+      ],
+      "detail": "Broadword logarithm, minterm construction and pattern detection were checked through their printed field/mask arguments, without an exhaustive implementation or independent asymptotic-optimality proof. Exercise 112 remains open research; its printed reductions were read."
+    }
+  ]
+}

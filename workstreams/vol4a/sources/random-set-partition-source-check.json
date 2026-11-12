@@ -1,0 +1,28 @@
+{
+  "checked_at_utc": "2026-11-11T21:07:28.269974+00:00",
+  "edition": "Volume 4A, first edition, first printing, 2011; inventory/books.json",
+  "originals": [
+    "images/bookwise-p427.png",
+    "images/bookwise-p778.png"
+  ],
+  "errata": [
+    "errata/text/all4a-pre.txt",
+    "errata/text/all4a.txt",
+    "errata/text/err4a.txt",
+    "errata/text/all4f3.txt",
+    "errata/text/err4f3.txt"
+  ],
+  "pages_screened": "4A 426–428,439,777–778; Fascicle 3 72–74,85,140–141",
+  "public_queries": [
+    "Knuth \"427\" \"50\" Bell error",
+    "Knuth \"778\" \"65\" variance",
+    "\"set partitions\" \"variance\" \"blocks of size\" Knuth"
+  ],
+  "public_result": "No matching report found. Louchard 2016, Multivariate asymptotic analysis of set partitions: focus on blocks of fixed size, introduction and fixed-size moment/variance passage, was screened; it does not supply the growing-k uniform claim at issue. No full audit of that paper was performed.",
+  "screened_primary_source": "https://guy.louchard.web.ulb.be/louchard.papers/partiREV2.pdf",
+  "known_errata": "2023 Algorithm P addition to page 428 inspected in errata/pdf/err4a.pdf, page 5; correct. 2012 answer-66 maximum census correction retained; not a new finding.",
+  "findings": [
+    "V4A-F0107",
+    "V4A-F0108"
+  ]
+}

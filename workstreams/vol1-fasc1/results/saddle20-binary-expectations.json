@@ -1,0 +1,106 @@
+{
+  "purpose": "Exact binary9x8 expectations from finite proven sums; no9x8 enumeration.",
+  "small_independent_count_validations": [
+    {
+      "rows": 2,
+      "columns": 2,
+      "binary_matrices": 16,
+      "all_count_expectations_match": true
+    },
+    {
+      "rows": 2,
+      "columns": 3,
+      "binary_matrices": 64,
+      "all_count_expectations_match": true
+    }
+  ],
+  "expected_counts": {
+    "I": {
+      "R": {
+        "numerator": 5157119595016904167457,
+        "denominator": 590295810358705651712,
+        "decimal": 8.736500419820144
+      },
+      "A": {
+        "numerator": 205975472254311433717311,
+        "denominator": 4722366482869645213696,
+        "decimal": 43.61700283141644
+      },
+      "B": {
+        "numerator": 20501420281764709368191,
+        "denominator": 4722366482869645213696,
+        "decimal": 4.3413446110405625
+      },
+      "C": {
+        "numerator": 164771516887834227915329,
+        "denominator": 4722366482869645213696,
+        "decimal": 34.891725893265985
+      },
+      "D": {
+        "numerator": 363641946999160728591059,
+        "denominator": 4722366482869645213696,
+        "decimal": 77.0041775279978
+      },
+      "S": {
+        "numerator": 924744796234036231,
+        "denominator": 18446744073709551616,
+        "decimal": 0.05013051585358036
+      },
+      "mems": {
+        "numerator": 1064444590222388256940947,
+        "denominator": 4722366482869645213696,
+        "decimal": 225.40490961124138
+      },
+      "oops": {
+        "numerator": 403103103707592028253789,
+        "denominator": 295147905179352825856,
+        "decimal": 1365.7664399231903
+      }
+    },
+    "II": {
+      "R": {
+        "numerator": 5157119595016904167457,
+        "denominator": 590295810358705651712,
+        "decimal": 8.736500419820144
+      },
+      "K": {
+        "numerator": 82790154677401341983487,
+        "denominator": 4722366482869645213696,
+        "decimal": 17.531497180009666
+      },
+      "H": {
+        "numerator": 41513186461342252038391,
+        "denominator": 4722366482869645213696,
+        "decimal": 8.790759169567012
+      },
+      "S": {
+        "numerator": 924744796234036231,
+        "denominator": 18446744073709551616,
+        "decimal": 0.05013051585358036
+      },
+      "mems": {
+        "numerator": 251046329884157605558779,
+        "denominator": 2361183241434822606848,
+        "decimal": 106.32225634957668
+      },
+      "oops": {
+        "numerator": 1387112021075431772792029,
+        "denominator": 2361183241434822606848,
+        "decimal": 587.4647916916961
+      }
+    }
+  },
+  "solution_I_minus_II": {
+    "mems": {
+      "numerator": 562351930454073045823389,
+      "denominator": 4722366482869645213696,
+      "decimal": 119.0826532616647
+    },
+    "oops": {
+      "numerator": 1837712808585304453238283,
+      "denominator": 2361183241434822606848,
+      "decimal": 778.3016482314941
+    }
+  },
+  "elapsed_seconds": 0.005119374021887779
+}

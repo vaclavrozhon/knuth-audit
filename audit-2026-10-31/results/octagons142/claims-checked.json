@@ -1,0 +1,109 @@
+{
+  "at_utc": "2026-11-02T21:07:42.610980+00:00",
+  "checker_sha256": "636070fffdf73ed4d5e86f1636a61c71c3d4f5e95479a8b76a8640f26b716164",
+  "geometry_sha256": "fb8075bfece4d0b43be6ad8085857de2fe58e3e0b026da9df314d749e390873f",
+  "printed_option": {
+    "r10": "a",
+    "l11": "b",
+    "a11": "b",
+    "b21": "c",
+    "r20": "a",
+    "l21": "c",
+    "a10": "a",
+    "b20": "a"
+  },
+  "printed_option_type": "aabc",
+  "coordinate_convention": "book (row,column), model (x,y)",
+  "geometry_groups": {
+    "i": {
+      "elements": [
+        "identity",
+        "reflect_y"
+      ],
+      "nonidentity_fixed_cells": 0,
+      "all_color_orbits_size": 6,
+      "all_geometry_orbits_mod_colors_size": 2
+    },
+    "ii": {
+      "elements": [
+        "identity",
+        "reflect_x"
+      ],
+      "nonidentity_fixed_cells": 0,
+      "all_color_orbits_size": 6,
+      "all_geometry_orbits_mod_colors_size": 2
+    },
+    "iii": {
+      "elements": [
+        "identity",
+        "halfturn"
+      ],
+      "nonidentity_fixed_cells": 0,
+      "all_color_orbits_size": 6,
+      "all_geometry_orbits_mod_colors_size": 2
+    }
+  },
+  "color_involutions": [
+    {
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "fixed_colors": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "permutation": [
+        0,
+        2,
+        1
+      ],
+      "fixed_colors": [
+        0
+      ]
+    },
+    {
+      "permutation": [
+        1,
+        0,
+        2
+      ],
+      "fixed_colors": [
+        2
+      ]
+    },
+    {
+      "permutation": [
+        2,
+        1,
+        0
+      ],
+      "fixed_colors": [
+        1
+      ]
+    }
+  ],
+  "factor_two_proof": "The complete inventory has exactly one monochromatic tile of each color. A placement fixed by a nonidentity board isometry modulo a color permutation pi would satisfy pi^2=id, since that isometry squares to the identity and all colors occur. Every involution on three colors fixes some color a. The unique all-a tile would then occupy a fixed cell, but the nonidentity isometry has no fixed cells. Thus every geometric orbit modulo colors has size two. All six color permutations are distinct because every color occurs. The same argument holds after periodic boundary constraints.",
+  "non_grid_patch": [
+    [
+      "V",
+      "aaaa",
+      "(0,0)"
+    ],
+    [
+      "E",
+      "bbba",
+      "(2,0)"
+    ],
+    [
+      "V",
+      "bacc",
+      "(-sqrt(2),sqrt(2))"
+    ]
+  ],
+  "non_grid_proof": "Regular octagons have vertices (+/-1,+/-(sqrt(2)-1)) and (+/-(sqrt(2)-1),+/-1). Centers (0,0),(2,0),(-sqrt(2),sqrt(2)) give contacts on x=1 and -x+y=sqrt(2). Each of those lines supports both incident octagons, so their interiors are disjoint. The east and northwest octagons are separated by x: 1-sqrt(2)<1. Matching colors are a at both contacts, and the three cyclic tile types are distinct. These centers cannot belong to any rotated/scaled square lattice: the ratio of the two nonzero complex displacements has irrational real/imaginary parts, whereas a quotient of Gaussian integers has rational real/imaginary parts. This is a local three-piece witness, not a classification of all complete non-grid arrangements."
+}

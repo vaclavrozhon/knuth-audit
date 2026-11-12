@@ -1,0 +1,178 @@
+{
+  "block": "V2-X0062",
+  "checked_at_utc": "2026-11-04T05:18:57.319517+00:00",
+  "edition": 3,
+  "printing": 1,
+  "physical_copy_verified": false,
+  "book_visual_pages": [
+    471,
+    472,
+    473,
+    483,
+    693,
+    694
+  ],
+  "book_scope": "471TheoremE through473firstparagraph;exercises17–18",
+  "primary_read": {
+    "url": "https://matwbn.icm.edu.pl/ksiazki/aa/aa6/aa618.pdf",
+    "visual_pages": "77–81 complete",
+    "file_mapping": {
+      "1": "76–77",
+      "2": "78–79",
+      "3": "80–81"
+    },
+    "original_erratum": "https://matwbn.icm.edu.pl/ksiazki/aa/aa6/aa6110.pdf,filepage3 right,erratum114;interval count after(7),not t=0 choice",
+    "limitation": "Generalizations on81 read only;not proved in this block. Wrong initial aa617 contains preceding paper;its bulk discarded,metadata retained."
+  },
+  "errata": {
+    "layers": [
+      "all2-prepre",
+      "all2-pre",
+      "all2",
+      "err2",
+      "err2-2e",
+      "err2.textxt"
+    ],
+    "extraction": "sources/powers-basic-errata.txt",
+    "known": [
+      "2000-04-02: final interval in answer17",
+      "2011-01-06: CorollaryE label"
+    ],
+    "C0224": "No corresponding correction found in six Knuth layers or original journal erratum114."
+  },
+  "verification": {
+    "blocks": [
+      "interval",
+      "chain"
+    ],
+    "seconds": 7.700352453044616,
+    "session": 21103,
+    "pids": [
+      1349501,
+      1349503
+    ],
+    "exit_codes": [
+      0,
+      0
+    ],
+    "timeout_seconds": 240,
+    "mathematical_tests_repeated": false
+  },
+  "artifacts": [
+    {
+      "path": "notes/powers-counting.md",
+      "bytes": 11922,
+      "sha256": "07bcf411bcb88ee912f0138ff51fefc7c94759dc1b41b3578c105919fe9a4e97"
+    },
+    {
+      "path": "reports/C0224-ministep-empty-choice.txt",
+      "bytes": 853,
+      "sha256": "57f3fdb25c2c9bdaa741da0362f6dc5fb24aafc37f817721da80abade24f33ae"
+    },
+    {
+      "path": "verify_powers_counting.py",
+      "bytes": 6216,
+      "sha256": "717ffaba3dfea2e6637fad255db68c34f6acfd2480c27b780c39eead0ced4514"
+    },
+    {
+      "path": "results/powers-counting.json",
+      "bytes": 1334,
+      "sha256": "4da694d1df63a22d47b593482cd59037cf91cd8af7ad7e645a83ca095c3782dd"
+    },
+    {
+      "path": "results/powers-counting.log",
+      "bytes": 731,
+      "sha256": "fc92655245442ac97c5fe112e54191d7dc79530b097182b76112ad0d1c5740e1"
+    },
+    {
+      "path": "sources/erdos-1960-access.json",
+      "bytes": 189,
+      "sha256": "7e2686715add81a6811c215fa35dbbc676f1d44524dfc5751eed97bf29353216"
+    },
+    {
+      "path": "sources/erdos-1960-addition-chains.json",
+      "bytes": 580,
+      "sha256": "4f1cf21be2982c66a421d40c3f2a4ad3ad4fb89cc4b35a4d9b84923c2f3a99b7"
+    },
+    {
+      "path": "sources/erdos-1960-addition-chains.pdf",
+      "bytes": 2094681,
+      "sha256": "846fe280834880455e0ae5c903b82849e0c5307763883aa7c2a86d2c85d90c30"
+    },
+    {
+      "path": "sources/erdos-1960-addition-chains.txt",
+      "bytes": 3,
+      "sha256": "9478ac3ef61ae9df286d951edbfce4c24049f65e860f053ed9eb2c3fbd78d051"
+    },
+    {
+      "path": "sources/icm-aa617-whiteman.json",
+      "bytes": 492,
+      "sha256": "370f753baaab0173e505dc694193d61c0ba07691495704f9b0f745683113e1a3"
+    },
+    {
+      "path": "sources/acta-arith-6-p114-source.pdf",
+      "bytes": 1811468,
+      "sha256": "966eaa0cf272ac8a19790512c8c2d16e4211ae09d707401e7d0d1c09de79b304"
+    },
+    {
+      "path": "sources/acta-arith-6-p114-source.json",
+      "bytes": 548,
+      "sha256": "7f30906fe9a5eca96d2862eb963502050d77a904591ce9004c1c87a187ef0a11"
+    },
+    {
+      "path": "images/acta-arith-6-p114-source.png",
+      "bytes": 632560,
+      "sha256": "c3aed20aadefb3111cea62078f180f1d725f0be12b2a5059216961a880111b0d"
+    },
+    {
+      "path": "sources/powers-basic-errata.txt",
+      "bytes": 39852,
+      "sha256": "8b5f49e0db8cda41d67694029f01f512ca3e81553fe089f35b35ee3a26eec0f3"
+    },
+    {
+      "path": "images/erdos-1960-spread01.png",
+      "bytes": 772587,
+      "sha256": "fc915d130ed56098159f4267ba20ec73c7360e2d385124d916462d3b8d01d947"
+    },
+    {
+      "path": "images/erdos-1960-spread02.png",
+      "bytes": 971102,
+      "sha256": "7447d771c063353f2772555a820bf5d99411c93c5c48a24c298f8ae95fe59483"
+    },
+    {
+      "path": "images/erdos-1960-spread03.png",
+      "bytes": 837966,
+      "sha256": "7a5d669b9a27f120b3fef40d9bf24ff1a3292a8fe0b8eec815da8e5887f5d3dc"
+    },
+    {
+      "path": "images/vol2-p471.png",
+      "bytes": 276819,
+      "sha256": "a4ff46e2777c9dff1e685e7f7807c2de4d22e3f0cb438ed86b96347d0d14272e"
+    },
+    {
+      "path": "images/vol2-p472.png",
+      "bytes": 278388,
+      "sha256": "2820b33fba0b8c591d1c86f297a67759c297ad5bcf074bf3a1b0d140bc90dfb3"
+    },
+    {
+      "path": "images/vol2-p473.png",
+      "bytes": 273288,
+      "sha256": "232215814c1f9ad871e264e9f6aec681b97b2950d23f54f0c273aa6ed85a36f5"
+    },
+    {
+      "path": "images/vol2-p483.png",
+      "bytes": 319261,
+      "sha256": "934257a50b0a1845b2e1d442e5ce5d43d6eeb466a507c28d62b2f084b908cb0c"
+    },
+    {
+      "path": "images/vol2-p693.png",
+      "bytes": 345226,
+      "sha256": "7ec0f21897a5b2c582c86868df0bdee51f5287e06e9e13b4a956f04b038db849"
+    },
+    {
+      "path": "images/vol2-p694.png",
+      "bytes": 395117,
+      "sha256": "bca76d8470401c80230acc8b66e77971dfd6ed3e7ad54d45f3686a90b3e70236"
+    }
+  ]
+}

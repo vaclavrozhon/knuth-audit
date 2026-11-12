@@ -1,0 +1,53 @@
+{
+  "cographs_by_order": {
+    "1": 1,
+    "2": 2,
+    "3": 8,
+    "4": 52,
+    "5": 472
+  },
+  "probability_vectors_checked": 119145,
+  "positive_root_but_outside_R_cases_by_order": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 27,
+    "5": 3075
+  },
+  "first_counterexample": [
+    4,
+    [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    [
+      2,
+      2,
+      3,
+      3
+    ],
+    "1/16"
+  ],
+  "cotree_criterion_matches_all_induced_subgraphs": true,
+  "F033_two_disjoint_edges_M_at_three_quarters": "1/4",
+  "F033_M_after_zeroing_other_edge": "-1/2",
+  "F033_actual_probability_space_points": 16,
+  "F033_actual_event_marginals": [
+    "3/4",
+    "3/4",
+    "3/4",
+    "3/4"
+  ],
+  "F033_lopsidependency_conditional_checks": 12,
+  "F033_actual_avoidance_probability": 0,
+  "F033_connected_five_vertex_cograph_M": "3/20",
+  "F035_boundary_M": 0,
+  "F035_boundary_after_strict_single_decrease_M": 0,
+  "scope": "All labelled cographs through five vertices and all probability vectors in {1/4,1/2,3/4}^n. General corrected cotree proof is in COGRAPH_NOTES.md."
+}

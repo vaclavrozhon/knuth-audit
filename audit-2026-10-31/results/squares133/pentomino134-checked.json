@@ -1,0 +1,704 @@
+{
+  "at_utc": "2026-11-02T11:28:12.174193+00:00",
+  "source_sha256": "bb61b86bd286f22be67b8eddc94f62345dc56039501143ec822744ae6b0910b9",
+  "shape_source_sha256": "4a5b6b920c44e2bef6d415bb4c619c78f6281c0dbc8e2b9a094c588851f109d4",
+  "model_sha256": "d1e48fa58641f66aaf2e5248054c8c4b93a2690883e1d887b49fc3bfe838526b",
+  "colors_sha256": "47292b30aaf54f8eb13ff35b7bada7136d96ee15d633e05a0351739791eddd4e",
+  "solutions": 13328,
+  "counts": {
+    "O": 0,
+    "P": 1685,
+    "Q": 22,
+    "R": 729,
+    "S": 402,
+    "T": 61,
+    "U": 36,
+    "V": 48,
+    "W": 174,
+    "X": 259,
+    "Y": 243,
+    "Z": 0
+  },
+  "book_counts": {
+    "O": 0,
+    "P": 1672,
+    "Q": 22,
+    "R": 729,
+    "S": 402,
+    "T": 61,
+    "U": 36,
+    "V": 48,
+    "W": 174,
+    "X": 259,
+    "Y": 242,
+    "Z": 0
+  },
+  "per_color_presence": {
+    "O": 0,
+    "P": 1631,
+    "Q": 22,
+    "R": 729,
+    "S": 402,
+    "T": 61,
+    "U": 36,
+    "V": 48,
+    "W": 174,
+    "X": 259,
+    "Y": 243,
+    "Z": 0
+  },
+  "per_solution_presence": {
+    "O": 0,
+    "P": 1611,
+    "Q": 22,
+    "R": 729,
+    "S": 402,
+    "T": 61,
+    "U": 36,
+    "V": 48,
+    "W": 174,
+    "X": 259,
+    "Y": 237,
+    "Z": 0
+  },
+  "same_color_repeats": {
+    "P": 54
+  },
+  "duplicate_witnesses": {
+    "P": {
+      "colors": "aabbaacbbaaaaaaacccaabbcaabccaaaaaacbbacbcbcbbccbbcbccaaaa",
+      "color": "c",
+      "type": "P",
+      "regions": [
+        {
+          "color": "b",
+          "size": 7,
+          "type": null,
+          "cells": [
+            [
+              2,
+              -2
+            ],
+            [
+              3,
+              -3
+            ],
+            [
+              3,
+              -2
+            ],
+            [
+              3,
+              -1
+            ],
+            [
+              4,
+              -3
+            ],
+            [
+              4,
+              -2
+            ],
+            [
+              4,
+              -1
+            ]
+          ]
+        },
+        {
+          "color": "c",
+          "size": 3,
+          "type": null,
+          "cells": [
+            [
+              2,
+              -1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ]
+          ]
+        },
+        {
+          "color": "b",
+          "size": 1,
+          "type": null,
+          "cells": [
+            [
+              3,
+              2
+            ]
+          ]
+        },
+        {
+          "color": "c",
+          "size": 5,
+          "type": "P",
+          "cells": [
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              5,
+              2
+            ]
+          ]
+        },
+        {
+          "color": "c",
+          "size": 1,
+          "type": null,
+          "cells": [
+            [
+              5,
+              -2
+            ]
+          ]
+        },
+        {
+          "color": "b",
+          "size": 1,
+          "type": null,
+          "cells": [
+            [
+              5,
+              0
+            ]
+          ]
+        },
+        {
+          "color": "b",
+          "size": 5,
+          "type": "Y",
+          "cells": [
+            [
+              5,
+              3
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              6,
+              4
+            ]
+          ]
+        },
+        {
+          "color": "c",
+          "size": 1,
+          "type": null,
+          "cells": [
+            [
+              5,
+              4
+            ]
+          ]
+        },
+        {
+          "color": "b",
+          "size": 1,
+          "type": null,
+          "cells": [
+            [
+              6,
+              -1
+            ]
+          ]
+        },
+        {
+          "color": "c",
+          "size": 1,
+          "type": null,
+          "cells": [
+            [
+              6,
+              0
+            ]
+          ]
+        },
+        {
+          "color": "b",
+          "size": 1,
+          "type": null,
+          "cells": [
+            [
+              7,
+              0
+            ]
+          ]
+        },
+        {
+          "color": "c",
+          "size": 5,
+          "type": "P",
+          "cells": [
+            [
+              7,
+              1
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              7,
+              3
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              8,
+              2
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "independent_half_wedge_components_checked": true,
+  "number_of_pentominoes_distribution": {
+    "0": 10232,
+    "1": 2572,
+    "2": 486,
+    "3": 37,
+    "4": 1
+  },
+  "solutions_with_repeated_type": {
+    "P": 74,
+    "Y": 6
+  },
+  "four_pentomino_witness": {
+    "colors": "abcbaaccbaaaaaaabbcaacccaacbbaaaaaacbcacbcabbccbcbcbbbaaaa",
+    "regions": [
+      {
+        "color": "b",
+        "size": 1,
+        "type": null,
+        "cells": [
+          [
+            1,
+            -1
+          ]
+        ]
+      },
+      {
+        "color": "c",
+        "size": 5,
+        "type": "P",
+        "cells": [
+          [
+            2,
+            -2
+          ],
+          [
+            2,
+            -1
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            -1
+          ],
+          [
+            3,
+            0
+          ]
+        ]
+      },
+      {
+        "color": "b",
+        "size": 4,
+        "type": null,
+        "cells": [
+          [
+            3,
+            -3
+          ],
+          [
+            3,
+            -2
+          ],
+          [
+            4,
+            -2
+          ],
+          [
+            4,
+            -1
+          ]
+        ]
+      },
+      {
+        "color": "c",
+        "size": 1,
+        "type": null,
+        "cells": [
+          [
+            4,
+            -3
+          ]
+        ]
+      },
+      {
+        "color": "b",
+        "size": 5,
+        "type": "P",
+        "cells": [
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            5,
+            2
+          ]
+        ]
+      },
+      {
+        "color": "c",
+        "size": 4,
+        "type": null,
+        "cells": [
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            6,
+            4
+          ]
+        ]
+      },
+      {
+        "color": "c",
+        "size": 1,
+        "type": null,
+        "cells": [
+          [
+            5,
+            -2
+          ]
+        ]
+      },
+      {
+        "color": "c",
+        "size": 5,
+        "type": "Y",
+        "cells": [
+          [
+            6,
+            -1
+          ],
+          [
+            6,
+            0
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            7,
+            1
+          ]
+        ]
+      },
+      {
+        "color": "b",
+        "size": 5,
+        "type": "W",
+        "cells": [
+          [
+            6,
+            3
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            8,
+            2
+          ]
+        ]
+      },
+      {
+        "color": "b",
+        "size": 1,
+        "type": null,
+        "cells": [
+          [
+            7,
+            0
+          ]
+        ]
+      }
+    ]
+  },
+  "original_figure_regions": [
+    {
+      "color": "b",
+      "size": 2,
+      "type": null,
+      "cells": [
+        [
+          1,
+          -1
+        ],
+        [
+          2,
+          -1
+        ]
+      ]
+    },
+    {
+      "color": "c",
+      "size": 4,
+      "type": null,
+      "cells": [
+        [
+          2,
+          -2
+        ],
+        [
+          3,
+          -3
+        ],
+        [
+          3,
+          -2
+        ],
+        [
+          4,
+          -3
+        ]
+      ]
+    },
+    {
+      "color": "b",
+      "size": 5,
+      "type": "S",
+      "cells": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ]
+      ]
+    },
+    {
+      "color": "c",
+      "size": 5,
+      "type": "V",
+      "cells": [
+        [
+          4,
+          -1
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          -1
+        ],
+        [
+          6,
+          -1
+        ]
+      ]
+    },
+    {
+      "color": "b",
+      "size": 1,
+      "type": null,
+      "cells": [
+        [
+          5,
+          -2
+        ]
+      ]
+    },
+    {
+      "color": "b",
+      "size": 7,
+      "type": null,
+      "cells": [
+        [
+          5,
+          0
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          7,
+          3
+        ]
+      ]
+    },
+    {
+      "color": "c",
+      "size": 5,
+      "type": "P",
+      "cells": [
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          6,
+          3
+        ]
+      ]
+    },
+    {
+      "color": "b",
+      "size": 1,
+      "type": null,
+      "cells": [
+        [
+          6,
+          4
+        ]
+      ]
+    },
+    {
+      "color": "c",
+      "size": 1,
+      "type": null,
+      "cells": [
+        [
+          7,
+          0
+        ]
+      ]
+    },
+    {
+      "color": "c",
+      "size": 1,
+      "type": null,
+      "cells": [
+        [
+          8,
+          2
+        ]
+      ]
+    }
+  ],
+  "structure_sha256": "ca1097113d07d1dc8f5752dc03ddf1c6b4de1cb61dd0b693b63dd63d766898a8"
+}

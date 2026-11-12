@@ -1,0 +1,1129 @@
+{
+  "exercise": "7.2.2.1-196(a-i)",
+  "status": "Exact formulas and duality pass; the example branch X_2 in answer (i) should be X_1 under the stated MRV rule.",
+  "all_admissible_bounds_by_n": {
+    "1": 1,
+    "2": 2,
+    "3": 5,
+    "4": 14,
+    "5": 42,
+    "6": 132,
+    "7": 429
+  },
+  "book_example": {
+    "bounds": [
+      2,
+      4,
+      6,
+      6,
+      7,
+      7,
+      8,
+      8,
+      9
+    ],
+    "solutions": 864,
+    "fixed_updates": 14483,
+    "mrv_updates": 8624,
+    "mrv_first_branch_path": [
+      [
+        "Y",
+        9
+      ],
+      [
+        "X",
+        1
+      ],
+      [
+        "Y",
+        8
+      ],
+      [
+        "X",
+        2
+      ],
+      [
+        "Y",
+        7
+      ],
+      [
+        "X",
+        3
+      ],
+      [
+        "X",
+        4
+      ],
+      [
+        "X",
+        6
+      ],
+      [
+        "X",
+        8
+      ]
+    ]
+  },
+  "part_i_counterexample": "After forced X_9 Y_9, X_1 still has length 2 and X_2 length 4. MRV cannot branch on X_2. With X-before-Y tie order the first branches are Y_9, X_1, Y_8.",
+  "first_mrv_improvement_examples": [
+    {
+      "bounds": [
+        2,
+        2,
+        3
+      ],
+      "solutions": 2,
+      "fixed_updates": 23,
+      "mrv_updates": 18,
+      "mrv_first_branch_path": [
+        [
+          "Y",
+          3
+        ],
+        [
+          "X",
+          1
+        ],
+        [
+          "X",
+          2
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        1,
+        3,
+        3,
+        4
+      ],
+      "solutions": 2,
+      "fixed_updates": 29,
+      "mrv_updates": 24,
+      "mrv_first_branch_path": [
+        [
+          "X",
+          1
+        ],
+        [
+          "Y",
+          4
+        ],
+        [
+          "X",
+          2
+        ],
+        [
+          "X",
+          3
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        2,
+        2,
+        3,
+        4
+      ],
+      "solutions": 2,
+      "fixed_updates": 35,
+      "mrv_updates": 24,
+      "mrv_first_branch_path": [
+        [
+          "Y",
+          4
+        ],
+        [
+          "Y",
+          3
+        ],
+        [
+          "X",
+          1
+        ],
+        [
+          "X",
+          2
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        2,
+        3,
+        3,
+        4
+      ],
+      "solutions": 4,
+      "fixed_updates": 57,
+      "mrv_updates": 41,
+      "mrv_first_branch_path": [
+        [
+          "Y",
+          4
+        ],
+        [
+          "X",
+          1
+        ],
+        [
+          "X",
+          2
+        ],
+        [
+          "X",
+          3
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3,
+        3,
+        3,
+        4
+      ],
+      "solutions": 6,
+      "fixed_updates": 85,
+      "mrv_updates": 58,
+      "mrv_first_branch_path": [
+        [
+          "Y",
+          4
+        ],
+        [
+          "X",
+          1
+        ],
+        [
+          "X",
+          2
+        ],
+        [
+          "X",
+          3
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        3,
+        3,
+        4,
+        4
+      ],
+      "solutions": 12,
+      "fixed_updates": 121,
+      "mrv_updates": 115,
+      "mrv_first_branch_path": [
+        [
+          "Y",
+          4
+        ],
+        [
+          "X",
+          1
+        ],
+        [
+          "X",
+          2
+        ],
+        [
+          "X",
+          4
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        1,
+        2,
+        4,
+        4,
+        5
+      ],
+      "solutions": 2,
+      "fixed_updates": 36,
+      "mrv_updates": 31,
+      "mrv_first_branch_path": [
+        [
+          "X",
+          1
+        ],
+        [
+          "X",
+          2
+        ],
+        [
+          "Y",
+          5
+        ],
+        [
+          "X",
+          3
+        ],
+        [
+          "X",
+          4
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        1,
+        3,
+        3,
+        4,
+        5
+      ],
+      "solutions": 2,
+      "fixed_updates": 42,
+      "mrv_updates": 31,
+      "mrv_first_branch_path": [
+        [
+          "X",
+          1
+        ],
+        [
+          "Y",
+          5
+        ],
+        [
+          "Y",
+          4
+        ],
+        [
+          "X",
+          2
+        ],
+        [
+          "X",
+          3
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        1,
+        3,
+        4,
+        4,
+        5
+      ],
+      "solutions": 4,
+      "fixed_updates": 64,
+      "mrv_updates": 48,
+      "mrv_first_branch_path": [
+        [
+          "X",
+          1
+        ],
+        [
+          "Y",
+          5
+        ],
+        [
+          "X",
+          2
+        ],
+        [
+          "X",
+          3
+        ],
+        [
+          "X",
+          4
+        ]
+      ]
+    },
+    {
+      "bounds": [
+        1,
+        4,
+        4,
+        4,
+        5
+      ],
+      "solutions": 6,
+      "fixed_updates": 92,
+      "mrv_updates": 65,
+      "mrv_first_branch_path": [
+        [
+          "X",
+          1
+        ],
+        [
+          "Y",
+          5
+        ],
+        [
+          "X",
+          2
+        ],
+        [
+          "X",
+          3
+        ],
+        [
+          "X",
+          4
+        ]
+      ]
+    }
+  ],
+  "special_families": [
+    {
+      "family": "g",
+      "bounds": [
+        1
+      ],
+      "solutions": 1,
+      "fixed_updates": 3,
+      "mrv_updates": 3,
+      "mrv_first_branch_path": [
+        [
+          "X",
+          1
+        ]
+      ]
+    },
+    {
+      "family": "h",
+      "bounds": [
+        1
+      ],
+      "solutions": 1,
+      "fixed_updates": 3,
+      "mrv_updates": 3,
+      "mrv_first_branch_path": [
+        [
+          "X",
+          1
+        ]
+      ]
+    },
+    {
+      "family": "g",
+      "bounds": [
+        2,
+        2
+      ],
+      "solutions": 2,
+      "fixed_updates": 13,
+      "mrv_updates": 13,
+      "mrv_first_branch_path": [
+        [
+          "X",
+          1
+        ],
+        [
+          "X",
+          2
+        ]
+      ]
+    },
+    {
+      "family": "h",
+      "bounds": [
+        2,
+        2
+      ],
+      "solutions": 2,
+      "fixed_updates": 13,
+      "mrv_updates": 13,
+      "mrv_first_branch_path": [
+        [
+          "X",
+          1
+        ],
+        [
+          "X",
+          2
+        ]
+      ]
+    },
+    {
+      "family": "g",
+      "bounds": [
+        2,
+        3,
+        3
+      ],
+      "solutions": 4,
+      "fixed_updates": 35,
+      "mrv_updates": 35,
+      "mrv_first_branch_path": [
+        [
+          "X",
+          1
+        ],
+        [
+          "X",
+          2
+        ],
+        [
+          "X",
+          3
+        ]
+      ]
+    },
+    {
+      "family": "h",
+      "bounds": [
+        2,
+        3,
+        3
+      ],
+      "solutions": 4,
+      "fixed_updates": 35,
+      "mrv_updates": 35,
+      "mrv_first_branch_path": [
+        [
+          "X",
+          1
+        ],
+        [
+          "X",
+          2
+        ],
+        [
+          "X",
+          3
+        ]
+      ]
+    },
+    {
+      "family": "g",
+      "bounds": [
+        2,
+        3,
+        4,
+        4
+      ],
+      "solutions": 8,
+      "fixed_updates": 81,
+      "mrv_updates": 81,
+      "mrv_first_branch_path": [
+        [
+          "X",
+          1
+        ],
+        [
+          "X",
+          2
+        ],
+        [
+          "X",
+          3
+        ],
+        [
+          "X",
+          4
+        ]
+      ]
+    },
+    {
+      "family": "h",
+      "bounds": [
+        2,
+        4,
+        4,
+        4
+      ],
+      "solutions": 12,
+      "fixed_updates": 115,
+      "mrv_updates": 115,
+      "mrv_first_branch_path": [
+        [
+          "X",
+          1
+        ],
+        [
+          "X",
+          2
+        ],
+        [
+          "X",
+          3
+        ],
+        [
+          "X",
+          4
+        ]
+      ]
+    },
+    {
+      "family": "g",
+      "bounds": [
+        2,
+        3,
+        4,
+        5,
+        5
+      ],
+      "solutions": 16,
+      "fixed_updates": 175,
+      "mrv_updates": 175,
+      "mrv_first_branch_path": [
+        [
+          "X",
+          1
+        ],
+        [
+          "X",
+          2
+        ],
+        [
+          "X",
+          3
+        ],
+        [
+          "X",
+          4
+        ],
+        [
+          "X",
+          5
+        ]
+      ]
+    },
+    {
+      "family": "h",
+      "bounds": [
+        2,
+        4,
+        5,
+        5,
+        5
+      ],
+      "solutions": 36,
+      "fixed_updates": 357,
+      "mrv_updates": 357,
+      "mrv_first_branch_path": [
+        [
+          "X",
+          1
+        ],
+        [
+          "X",
+          2
+        ],
+        [
+          "X",
+          3
+        ],
+        [
+          "X",
+          4
+        ],
+        [
+          "X",
+          5
+        ]
+      ]
+    },
+    {
+      "family": "g",
+      "bounds": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        6
+      ],
+      "solutions": 32,
+      "fixed_updates": 365,
+      "mrv_updates": 365,
+      "mrv_first_branch_path": [
+        [
+          "X",
+          1
+        ],
+        [
+          "X",
+          2
+        ],
+        [
+          "X",
+          3
+        ],
+        [
+          "X",
+          4
+        ],
+        [
+          "X",
+          5
+        ],
+        [
+          "X",
+          6
+        ]
+      ]
+    },
+    {
+      "family": "h",
+      "bounds": [
+        2,
+        4,
+        6,
+        6,
+        6,
+        6
+      ],
+      "solutions": 144,
+      "fixed_updates": 1427,
+      "mrv_updates": 1427,
+      "mrv_first_branch_path": [
+        [
+          "X",
+          1
+        ],
+        [
+          "X",
+          2
+        ],
+        [
+          "X",
+          3
+        ],
+        [
+          "X",
+          4
+        ],
+        [
+          "X",
+          5
+        ],
+        [
+          "X",
+          6
+        ]
+      ]
+    },
+    {
+      "family": "g",
+      "bounds": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        7
+      ],
+      "solutions": 64,
+      "fixed_updates": 747,
+      "mrv_updates": 747,
+      "mrv_first_branch_path": [
+        [
+          "X",
+          1
+        ],
+        [
+          "X",
+          2
+        ],
+        [
+          "X",
+          3
+        ],
+        [
+          "X",
+          4
+        ],
+        [
+          "X",
+          5
+        ],
+        [
+          "X",
+          6
+        ],
+        [
+          "X",
+          7
+        ]
+      ]
+    },
+    {
+      "family": "h",
+      "bounds": [
+        2,
+        4,
+        6,
+        7,
+        7,
+        7,
+        7
+      ],
+      "solutions": 576,
+      "fixed_updates": 5707,
+      "mrv_updates": 5707,
+      "mrv_first_branch_path": [
+        [
+          "X",
+          1
+        ],
+        [
+          "X",
+          2
+        ],
+        [
+          "X",
+          3
+        ],
+        [
+          "X",
+          4
+        ],
+        [
+          "X",
+          5
+        ],
+        [
+          "X",
+          6
+        ],
+        [
+          "X",
+          7
+        ]
+      ]
+    },
+    {
+      "family": "g",
+      "bounds": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        8
+      ],
+      "solutions": 128,
+      "fixed_updates": 1513,
+      "mrv_updates": 1513,
+      "mrv_first_branch_path": [
+        [
+          "X",
+          1
+        ],
+        [
+          "X",
+          2
+        ],
+        [
+          "X",
+          3
+        ],
+        [
+          "X",
+          4
+        ],
+        [
+          "X",
+          5
+        ],
+        [
+          "X",
+          6
+        ],
+        [
+          "X",
+          7
+        ],
+        [
+          "X",
+          8
+        ]
+      ]
+    },
+    {
+      "family": "h",
+      "bounds": [
+        2,
+        4,
+        6,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "solutions": 2880,
+      "fixed_updates": 28467,
+      "mrv_updates": 28467,
+      "mrv_first_branch_path": [
+        [
+          "X",
+          1
+        ],
+        [
+          "X",
+          2
+        ],
+        [
+          "X",
+          3
+        ],
+        [
+          "X",
+          4
+        ],
+        [
+          "X",
+          5
+        ],
+        [
+          "X",
+          6
+        ],
+        [
+          "X",
+          7
+        ],
+        [
+          "X",
+          8
+        ]
+      ]
+    },
+    {
+      "family": "g",
+      "bounds": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        9
+      ],
+      "solutions": 256,
+      "fixed_updates": 3047,
+      "mrv_updates": 3047,
+      "mrv_first_branch_path": [
+        [
+          "X",
+          1
+        ],
+        [
+          "X",
+          2
+        ],
+        [
+          "X",
+          3
+        ],
+        [
+          "X",
+          4
+        ],
+        [
+          "X",
+          5
+        ],
+        [
+          "X",
+          6
+        ],
+        [
+          "X",
+          7
+        ],
+        [
+          "X",
+          8
+        ],
+        [
+          "X",
+          9
+        ]
+      ]
+    },
+    {
+      "family": "h",
+      "bounds": [
+        2,
+        4,
+        6,
+        8,
+        9,
+        9,
+        9,
+        9,
+        9
+      ],
+      "solutions": 14400,
+      "fixed_updates": 142259,
+      "mrv_updates": 142259,
+      "mrv_first_branch_path": [
+        [
+          "X",
+          1
+        ],
+        [
+          "X",
+          2
+        ],
+        [
+          "X",
+          3
+        ],
+        [
+          "X",
+          4
+        ],
+        [
+          "X",
+          5
+        ],
+        [
+          "X",
+          6
+        ],
+        [
+          "X",
+          7
+        ],
+        [
+          "X",
+          8
+        ],
+        [
+          "X",
+          9
+        ]
+      ]
+    },
+    {
+      "family": "g",
+      "bounds": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        10
+      ],
+      "solutions": 512,
+      "fixed_updates": 6117,
+      "mrv_updates": 6117,
+      "mrv_first_branch_path": [
+        [
+          "X",
+          1
+        ],
+        [
+          "X",
+          2
+        ],
+        [
+          "X",
+          3
+        ],
+        [
+          "X",
+          4
+        ],
+        [
+          "X",
+          5
+        ],
+        [
+          "X",
+          6
+        ],
+        [
+          "X",
+          7
+        ],
+        [
+          "X",
+          8
+        ],
+        [
+          "X",
+          9
+        ],
+        [
+          "X",
+          10
+        ]
+      ]
+    },
+    {
+      "family": "h",
+      "bounds": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "solutions": 86400,
+      "fixed_updates": 853171,
+      "mrv_updates": 853171,
+      "mrv_first_branch_path": [
+        [
+          "X",
+          1
+        ],
+        [
+          "X",
+          2
+        ],
+        [
+          "X",
+          3
+        ],
+        [
+          "X",
+          4
+        ],
+        [
+          "X",
+          5
+        ],
+        [
+          "X",
+          6
+        ],
+        [
+          "X",
+          7
+        ],
+        [
+          "X",
+          8
+        ],
+        [
+          "X",
+          9
+        ],
+        [
+          "X",
+          10
+        ]
+      ]
+    }
+  ],
+  "coverage": "(a)-(e) exact tested for all bounds n<=7 and the book example; (f) included through n=7; (g),(h) through n=10; (i) recurrence preserving the original X-before-Y tie order agrees with MRV measurements. Asymptotic estimates in (f),(h) require separate proof.",
+  "seconds": 8.485
+}

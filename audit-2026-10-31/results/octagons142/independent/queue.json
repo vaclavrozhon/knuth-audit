@@ -1,0 +1,69 @@
+{
+  "status": "completed",
+  "method": "independent",
+  "wrapper_pid": 1157665,
+  "started_at_utc": "2026-11-02T20:49:26.633420+00:00",
+  "source_sha256": {
+    "octagons142.py": "fb8075bfece4d0b43be6ad8085857de2fe58e3e0b026da9df314d749e390873f",
+    "octagons142_jobs.py": "9dc6a65d2a3b08ddd11e3ac2f84588d766422371e190ee14ca6733076e865822",
+    "count_octagons142.cpp": "f7658c7a9d164bfba6a559cebfc619bc6e6de06d935752bbe83f70fb98dc92fa",
+    "run_octagons142.py": "a6e6448af530b1cd1402387a5bd0be57017b440cb940dfb38ec158fc1cf39a15",
+    "graph_native.py": "04673e54a1c4fc0f86f73d94fc61bfefbbadd00fc2d4413ac051ae82f7a16706"
+  },
+  "small_check_sha256": "666a4a1104095441f699a9975b474f661291836c3be4c231ef4773fcb2014ac2",
+  "done": [
+    {
+      "label": "iii-tb",
+      "solutions": 0,
+      "terminal_sha256": "5158a941292e87e308af5e0792d726c949b078d6274966a1e9f5ab34ed615647"
+    },
+    {
+      "label": "iii-lr",
+      "solutions": 0,
+      "terminal_sha256": "646d6a5f5c0c7eb65b7bca4e1cb47ff3022c34fb87733843545eaca7453a7c3f"
+    },
+    {
+      "label": "i-both",
+      "solutions": 192,
+      "terminal_sha256": "ff02bb9f0afc9000057cf7f3fa30577a3e675b9f5a4a6775769bd3eff2fbf1af"
+    },
+    {
+      "label": "ii-lr",
+      "solutions": 111960,
+      "terminal_sha256": "d0735afb39f83c772ff2fab3650937461d713dd3bb31c1dfe68db04ef8eff64b"
+    },
+    {
+      "label": "i-lr",
+      "solutions": 21024,
+      "terminal_sha256": "f04b3b75b7c3bee671936aa57068ae53b5a71a8c4baf02be55d43f70a7846f41"
+    },
+    {
+      "label": "iii",
+      "solutions": 239198,
+      "terminal_sha256": "47cc9e0daaf5409059eabac009e37214acd58e8eab3ff8179eaef438213d2179"
+    },
+    {
+      "label": "i-tb",
+      "solutions": 387840,
+      "terminal_sha256": "ba42b2d7614a04e1e5b464c203766aaa9739f3117769c3d6ca506832b7c0c8d8"
+    },
+    {
+      "label": "ii-tb",
+      "solutions": 0,
+      "terminal_sha256": "af719e7c771e63f47c59ba480bb4105d10a462a6e18ebc9bf5b1f498db13d499"
+    },
+    {
+      "label": "i",
+      "solutions": 264093722,
+      "terminal_sha256": "4a9e0648269617e045b3eb6299020593808a7d1f14ca35d2aede00153836ca37"
+    },
+    {
+      "label": "ii",
+      "solutions": 3317206,
+      "terminal_sha256": "41860dd4f85388b27839651c0a18a40304d198cfa930665f9bfa99f9b1729e10"
+    }
+  ],
+  "timeout_seconds_per_case": 172800,
+  "current": "ii",
+  "finished_at_utc": "2026-11-03T05:13:55.443119+00:00"
+}

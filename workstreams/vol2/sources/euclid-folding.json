@@ -1,0 +1,75 @@
+{
+  "accessed_utc": "2026-11-03",
+  "book_visual": [
+    "images/euclid-maximum-p378.png",
+    "images/euclid-stern-brocot-p655.png",
+    "images/euclid-approx-p656.png"
+  ],
+  "errata": {
+    "searched": [
+      "all2-prepre",
+      "all2-pre",
+      "all2",
+      "err2",
+      "sources/err2.textxt"
+    ],
+    "known": "2009-07-21 p655 adds Jacobi(-1/n)=1-2d_n, valid in the standard positive odd denominator domain.",
+    "visual": "images/euclid-folding-errata-p40.png",
+    "C0140": "No replacement of largest power by exponent found."
+  },
+  "sources": [
+    {
+      "file": "sources/shallit-1979.pdf",
+      "url": "https://cs.uwaterloo.ca/~shallit/Papers/scf.pdf",
+      "citation": "JNT11(1979),209-217",
+      "bytes": 88088,
+      "sha256": "592a08ecf6df04414fe7bf5083d56898139b5d553679b244296833a1e2f1f981",
+      "visually_read_pages": [
+        2,
+        3,
+        4,
+        8
+      ],
+      "scope": "Author retypeset version, file pages1-9, not journal scan. Text of folding and later theorems read; listed pages visually checked. Theorem11 gives first constant as2B(2,infinity)-1."
+    },
+    {
+      "file": "sources/allouche-et-al-1996.pdf",
+      "url": "https://matwbn.icm.edu.pl/ksiazki/aa/aa77/aa7716.pdf",
+      "citation": "ActaArith77(1996),77-96",
+      "bytes": 393913,
+      "sha256": "6eb1d854e7138c52cf89227063bf41af2cc6fcbb3d2baeb3734894f4e5c499a6",
+      "visually_read_pages": [
+        77,
+        78,
+        79,
+        80
+      ],
+      "scope": "Introduction and section2 folding framework; not a full audit of all external theorems."
+    },
+    {
+      "file": "sources/liouville-1851.pdf",
+      "url": "https://www.numdam.org/item/JMPA_1851_1_16__133_0.pdf",
+      "citation": "JMPA16(1851),133-142",
+      "bytes": 516077,
+      "sha256": "28c1f5abebbfd1c5beb122e4b53fbff656837e4d91ba456156fe309a270612ed",
+      "visually_read_pages": [
+        133,
+        135,
+        142
+      ],
+      "scope": "Pages133-136 text read; listed original pages visually checked.133 explicitly reproduces1844 notes,135 gives factorial series;142 confirms endpoint and extended complex statement. Own real transcendence proof in note, not full external article audit."
+    }
+  ],
+  "kempner": {
+    "title": "On Transcendental Numbers",
+    "citation": "TransactionsAMS17(1916),476-482",
+    "publisher_pdf": "https://www.ams.org/journals/tran/1916-017-04/S0002-9947-1916-1501054-4/S0002-9947-1916-1501054-4.pdf",
+    "jstor": "https://www.jstor.org/stable/1988833",
+    "access": "AMS403. JSTOR metadata confirms title and pages; direct public PDF URL returned non-PDF content. Original not obtained. No bypass attempted.",
+    "scope": "Original proof and historical priority remain on section context queue."
+  },
+  "author_corrigenda": {
+    "url": "https://cs.uwaterloo.ca/~shallit/papers.html",
+    "scope": "1996 entry notes first-line notation and special n=2 case in theorem10. Neither is used by our proof; no claim of correcting external paper."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "scope": "4.4-14,16",
+  "blocks": {
+    "divide_conquer": {
+      "status": "passed",
+      "seconds": 0.7706969100108836,
+      "result": {
+        "bidirectional_cases": 999,
+        "max_decimal_digits": 8192
+      }
+    },
+    "array": {
+      "status": "passed",
+      "seconds": 71.57852010100032,
+      "result": {
+        "cases": 1061,
+        "max_decimal_digits": 256,
+        "max_ticks": 2304,
+        "total_local_digit_transitions": 2131304,
+        "arithmetic_transition_table_cases": 20
+      }
+    }
+  }
+}

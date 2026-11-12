@@ -1,0 +1,37 @@
+{
+  "status": "completed",
+  "exercise": 97,
+  "command": [
+    "timeout",
+    "172800",
+    "/tmp/knuth-vol4b-ourotorus-nm22ren6/enumerate",
+    "97"
+  ],
+  "wrapper_pid": 881599,
+  "started_utc": "2026-11-02T02:07:52.760163+00:00",
+  "timeout_seconds": 172800,
+  "script_sha256": "1af40dda11f7f332a8aa14d17d5bd8bbb2e9a753c0db63b7ee0a3c3ae4818f71",
+  "compile_command": [
+    "g++",
+    "-O3",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "audit-2026-10-31/enumerate_ourotorus.cpp",
+    "-o",
+    "/tmp/knuth-vol4b-ourotorus-nm22ren6/enumerate"
+  ],
+  "source_sha256": "61a9290a1bedc27b7f0f678316103f8c8d308bbc75d538abe40a8c1b23d90958",
+  "binary": "/tmp/knuth-vol4b-ourotorus-nm22ren6/enumerate",
+  "binary_sha256": "62e842647c3369026a6d9b19fff111d7d1b8d292f995c2e538b1c0a5931c90be",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "stderr": "",
+  "pid": 881610,
+  "returncode": 0,
+  "finished_utc": "2026-11-02T02:07:58.530453+00:00",
+  "elapsed_seconds": 5.77032276999671,
+  "models_sha256": "88354a2ccc623b8978d834dd45afc61c827fde192b7996d9edc7151effb63783",
+  "stderr_sha256": "c8d7f2c069216679d9f12a84616cde1d9a4df5b6c6d61af7458eed2cc9e29920",
+  "nodes": 22590193,
+  "solutions": 5796
+}

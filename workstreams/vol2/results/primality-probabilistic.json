@@ -1,0 +1,59 @@
+{
+  "checks": {
+    "exhaustive": {
+      "status": "passed",
+      "seconds": 12.08201439701952,
+      "result": {
+        "odd_inputs": 2047,
+        "prime_inputs": 563,
+        "composite_inputs": 1484,
+        "base_cases": 4190209,
+        "exceptional_composites": 4,
+        "maximum_error": {
+          "n": 1891,
+          "numerator": 449,
+          "denominator": 1889
+        }
+      }
+    },
+    "printed_numbers": {
+      "status": "passed",
+      "seconds": 0.0003722419496625662,
+      "result": {
+        "examples": [
+          {
+            "n": 4987757503,
+            "prime_factors": [
+              49939,
+              99877
+            ],
+            "b": 1246901922,
+            "phi": 4987607688,
+            "numerator": 1246901921,
+            "denominator": 4987757501,
+            "decimal": "0.249992490763636265242719545759247608617851287153023921641535"
+          },
+          {
+            "n": 16157879263,
+            "prime_factors": [
+              1667,
+              2143,
+              4523
+            ],
+            "b": 4034270646,
+            "phi": 16137082584,
+            "numerator": 4034270645,
+            "denominator": 16157879261,
+            "decimal": "0.249678226940180872044702921486943768542125882394907443911986"
+          }
+        ],
+        "repetitions": 25,
+        "error_upper_bound_denominator": 1125899906842624,
+        "billion_inputs_expectation": {
+          "numerator": 1953125,
+          "denominator": 2199023255552
+        }
+      }
+    }
+  }
+}

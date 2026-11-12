@@ -1,0 +1,1530 @@
+{
+  "figure53a": {
+    "source_indexes": [
+      18,
+      19
+    ],
+    "source_origin": [
+      "2881/32",
+      "19419/256"
+    ],
+    "source_units": [
+      "22435/4096",
+      "262906249/48000000"
+    ],
+    "maximum_source_residual_squared": "6102140773/576000000000000",
+    "points": {
+      "g": [
+        0,
+        6
+      ],
+      "h": [
+        8,
+        4
+      ],
+      "f": [
+        8,
+        8
+      ],
+      "i": [
+        10,
+        6
+      ],
+      "c": [
+        12,
+        6
+      ],
+      "b": [
+        13,
+        3
+      ],
+      "d": [
+        13,
+        9
+      ],
+      "a": [
+        16,
+        0
+      ],
+      "e": [
+        16,
+        12
+      ]
+    },
+    "junctions": {
+      "a": {
+        "type": "V",
+        "neighbors": [
+          "b",
+          "h"
+        ]
+      },
+      "b": {
+        "type": "V",
+        "neighbors": [
+          "a",
+          "c"
+        ]
+      },
+      "c": {
+        "type": "V",
+        "neighbors": [
+          "b",
+          "d"
+        ]
+      },
+      "d": {
+        "type": "V",
+        "neighbors": [
+          "c",
+          "e"
+        ]
+      },
+      "e": {
+        "type": "V",
+        "neighbors": [
+          "f",
+          "d"
+        ]
+      },
+      "f": {
+        "type": "Y",
+        "neighbors": [
+          "g",
+          "i",
+          "e"
+        ]
+      },
+      "g": {
+        "type": "V",
+        "neighbors": [
+          "h",
+          "f"
+        ]
+      },
+      "h": {
+        "type": "Y",
+        "neighbors": [
+          "g",
+          "a",
+          "i"
+        ]
+      },
+      "i": {
+        "type": "V",
+        "neighbors": [
+          "f",
+          "h"
+        ]
+      }
+    },
+    "relations": {
+      "a": [
+        [
+          "ab",
+          "ah"
+        ],
+        [
+          "<+",
+          "<>",
+          "+>",
+          ">-",
+          "><",
+          "-<"
+        ]
+      ],
+      "b": [
+        [
+          "ab",
+          "bc"
+        ],
+        [
+          ">+",
+          ">>",
+          "+>",
+          "<-",
+          "<<",
+          "-<"
+        ]
+      ],
+      "c": [
+        [
+          "bc",
+          "cd"
+        ],
+        [
+          ">+",
+          ">>",
+          "+>",
+          "<-",
+          "<<",
+          "-<"
+        ]
+      ],
+      "d": [
+        [
+          "cd",
+          "de"
+        ],
+        [
+          ">+",
+          ">>",
+          "+>",
+          "<-",
+          "<<",
+          "-<"
+        ]
+      ],
+      "e": [
+        [
+          "ef",
+          "de"
+        ],
+        [
+          "<+",
+          "<<",
+          "+<",
+          ">-",
+          ">>",
+          "->"
+        ]
+      ],
+      "f": [
+        [
+          "fg",
+          "fi",
+          "ef"
+        ],
+        [
+          "<>-",
+          ">->",
+          "-<<",
+          "---",
+          "+++"
+        ]
+      ],
+      "g": [
+        [
+          "gh",
+          "fg"
+        ],
+        [
+          "<+",
+          "<<",
+          "+<",
+          ">-",
+          ">>",
+          "->"
+        ]
+      ],
+      "h": [
+        [
+          "gh",
+          "ah",
+          "hi"
+        ],
+        [
+          "><-",
+          "<-<",
+          "->>",
+          "---",
+          "+++"
+        ]
+      ],
+      "i": [
+        [
+          "fi",
+          "hi"
+        ],
+        [
+          ">+",
+          "><",
+          "+<",
+          "<-",
+          "<>",
+          "->"
+        ]
+      ]
+    },
+    "lines": [
+      "ab",
+      "ah",
+      "bc",
+      "cd",
+      "de",
+      "ef",
+      "fg",
+      "fi",
+      "gh",
+      "hi"
+    ],
+    "faces": [
+      {
+        "walk": [
+          "g",
+          "h",
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f"
+        ],
+        "area_twice": 100
+      },
+      {
+        "walk": [
+          "g",
+          "f",
+          "i",
+          "h"
+        ],
+        "area_twice": -40
+      },
+      {
+        "walk": [
+          "h",
+          "i",
+          "f",
+          "e",
+          "d",
+          "c",
+          "b",
+          "a"
+        ],
+        "area_twice": -60
+      }
+    ],
+    "boundary": [
+      "g",
+      "h",
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f"
+    ]
+  },
+  "figure53b": {
+    "source_indexes": [
+      38,
+      39
+    ],
+    "source_origin": [
+      "204574219/1000000",
+      "75855469/1000000"
+    ],
+    "source_units": [
+      "21908203/2000000",
+      "10954427/1000000"
+    ],
+    "maximum_source_residual_squared": "24751541/3200000000000",
+    "points": {
+      "c": [
+        0,
+        3
+      ],
+      "g": [
+        6,
+        3
+      ],
+      "a": [
+        7,
+        1
+      ],
+      "h": [
+        7,
+        2
+      ],
+      "f": [
+        7,
+        4
+      ],
+      "e": [
+        7,
+        5
+      ],
+      "b": [
+        8,
+        0
+      ],
+      "i": [
+        8,
+        3
+      ],
+      "d": [
+        8,
+        6
+      ]
+    },
+    "junctions": {
+      "a": {
+        "type": "V",
+        "neighbors": [
+          "b",
+          "h"
+        ]
+      },
+      "b": {
+        "type": "V",
+        "neighbors": [
+          "a",
+          "c"
+        ]
+      },
+      "c": {
+        "type": "V",
+        "neighbors": [
+          "b",
+          "d"
+        ]
+      },
+      "d": {
+        "type": "V",
+        "neighbors": [
+          "c",
+          "e"
+        ]
+      },
+      "e": {
+        "type": "V",
+        "neighbors": [
+          "f",
+          "d"
+        ]
+      },
+      "f": {
+        "type": "Y",
+        "neighbors": [
+          "g",
+          "i",
+          "e"
+        ]
+      },
+      "i": {
+        "type": "V",
+        "neighbors": [
+          "f",
+          "h"
+        ]
+      },
+      "h": {
+        "type": "Y",
+        "neighbors": [
+          "g",
+          "a",
+          "i"
+        ]
+      },
+      "g": {
+        "type": "V",
+        "neighbors": [
+          "h",
+          "f"
+        ]
+      }
+    },
+    "relations": {
+      "a": [
+        [
+          "ab",
+          "ah"
+        ],
+        [
+          "<+",
+          "<>",
+          "+>",
+          ">-",
+          "><",
+          "-<"
+        ]
+      ],
+      "b": [
+        [
+          "ab",
+          "bc"
+        ],
+        [
+          ">+",
+          ">>",
+          "+>",
+          "<-",
+          "<<",
+          "-<"
+        ]
+      ],
+      "c": [
+        [
+          "bc",
+          "cd"
+        ],
+        [
+          ">+",
+          ">>",
+          "+>",
+          "<-",
+          "<<",
+          "-<"
+        ]
+      ],
+      "d": [
+        [
+          "cd",
+          "de"
+        ],
+        [
+          ">+",
+          ">>",
+          "+>",
+          "<-",
+          "<<",
+          "-<"
+        ]
+      ],
+      "e": [
+        [
+          "ef",
+          "de"
+        ],
+        [
+          "<+",
+          "<<",
+          "+<",
+          ">-",
+          ">>",
+          "->"
+        ]
+      ],
+      "f": [
+        [
+          "fg",
+          "fi",
+          "ef"
+        ],
+        [
+          "<>-",
+          ">->",
+          "-<<",
+          "---",
+          "+++"
+        ]
+      ],
+      "i": [
+        [
+          "fi",
+          "hi"
+        ],
+        [
+          ">+",
+          "><",
+          "+<",
+          "<-",
+          "<>",
+          "->"
+        ]
+      ],
+      "h": [
+        [
+          "gh",
+          "ah",
+          "hi"
+        ],
+        [
+          "><-",
+          "<-<",
+          "->>",
+          "---",
+          "+++"
+        ]
+      ],
+      "g": [
+        [
+          "gh",
+          "fg"
+        ],
+        [
+          "<+",
+          "<<",
+          "+<",
+          ">-",
+          ">>",
+          "->"
+        ]
+      ]
+    },
+    "lines": [
+      "ab",
+      "ah",
+      "bc",
+      "cd",
+      "de",
+      "ef",
+      "fg",
+      "fi",
+      "gh",
+      "hi"
+    ],
+    "faces": [
+      {
+        "walk": [
+          "c",
+          "b",
+          "a",
+          "h",
+          "i",
+          "f",
+          "e",
+          "d"
+        ],
+        "area_twice": 40
+      },
+      {
+        "walk": [
+          "c",
+          "d",
+          "e",
+          "f",
+          "g",
+          "h",
+          "a",
+          "b"
+        ],
+        "area_twice": -36
+      },
+      {
+        "walk": [
+          "g",
+          "f",
+          "i",
+          "h"
+        ],
+        "area_twice": -4
+      }
+    ],
+    "boundary": [
+      "c",
+      "b",
+      "a",
+      "h",
+      "i",
+      "f",
+      "e",
+      "d"
+    ]
+  },
+  "connectivity_after_vertex_deletion": {
+    "g": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "h",
+      "i"
+    ],
+    "h": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g",
+      "i"
+    ],
+    "f": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "g",
+      "h",
+      "i"
+    ],
+    "i": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g",
+      "h"
+    ],
+    "c": [
+      "a",
+      "b",
+      "d",
+      "e",
+      "f",
+      "g",
+      "h",
+      "i"
+    ],
+    "b": [
+      "a",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g",
+      "h",
+      "i"
+    ],
+    "d": [
+      "a",
+      "b",
+      "c",
+      "e",
+      "f",
+      "g",
+      "h",
+      "i"
+    ],
+    "a": [
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g",
+      "h",
+      "i"
+    ],
+    "e": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "f",
+      "g",
+      "h",
+      "i"
+    ]
+  },
+  "figure54": {
+    "source_indexes": [
+      58,
+      59,
+      60
+    ],
+    "source_origin": [
+      "85659/256",
+      "3001/32"
+    ],
+    "source_units": [
+      "66411459/8000000",
+      "29882813/5000000"
+    ],
+    "maximum_source_residual_squared": "6103515689/1600000000000000",
+    "points": {
+      "a": [
+        0,
+        0
+      ],
+      "g": [
+        0,
+        4
+      ],
+      "b": [
+        2,
+        1
+      ],
+      "i": [
+        2,
+        3
+      ],
+      "h": [
+        3,
+        2
+      ],
+      "f": [
+        3,
+        5
+      ],
+      "c": [
+        4,
+        1
+      ],
+      "j": [
+        4,
+        3
+      ],
+      "d": [
+        6,
+        0
+      ],
+      "e": [
+        6,
+        4
+      ]
+    },
+    "junctions": {
+      "a": {
+        "type": "V",
+        "neighbors": [
+          "b",
+          "g"
+        ]
+      },
+      "b": {
+        "type": "Y",
+        "neighbors": [
+          "a",
+          "c",
+          "h"
+        ]
+      },
+      "c": {
+        "type": "Y",
+        "neighbors": [
+          "b",
+          "d",
+          "h"
+        ]
+      },
+      "d": {
+        "type": "V",
+        "neighbors": [
+          "e",
+          "c"
+        ]
+      },
+      "e": {
+        "type": "W",
+        "neighbors": [
+          "f",
+          "j",
+          "d"
+        ]
+      },
+      "f": {
+        "type": "V",
+        "neighbors": [
+          "g",
+          "e"
+        ]
+      },
+      "g": {
+        "type": "W",
+        "neighbors": [
+          "a",
+          "i",
+          "f"
+        ]
+      },
+      "h": {
+        "type": "V",
+        "neighbors": [
+          "b",
+          "c"
+        ]
+      },
+      "i": {
+        "type": "V",
+        "neighbors": [
+          "j",
+          "g"
+        ]
+      },
+      "j": {
+        "type": "V",
+        "neighbors": [
+          "e",
+          "i"
+        ]
+      }
+    },
+    "relations": {
+      "a": [
+        [
+          "ab",
+          "ag"
+        ],
+        [
+          "<+",
+          "<>",
+          "+>",
+          ">-",
+          "><",
+          "-<"
+        ]
+      ],
+      "b": [
+        [
+          "ab",
+          "bc",
+          "bh"
+        ],
+        [
+          ">>-",
+          "<-<",
+          "-<>",
+          "---",
+          "+++"
+        ]
+      ],
+      "c": [
+        [
+          "bc",
+          "cd",
+          "ch"
+        ],
+        [
+          ">>-",
+          "<-<",
+          "-<>",
+          "---",
+          "+++"
+        ]
+      ],
+      "d": [
+        [
+          "de",
+          "cd"
+        ],
+        [
+          "<+",
+          "<<",
+          "+<",
+          ">-",
+          ">>",
+          "->"
+        ]
+      ],
+      "e": [
+        [
+          "ef",
+          "ej",
+          "de"
+        ],
+        [
+          ">+>",
+          "-+-",
+          "+-+"
+        ]
+      ],
+      "f": [
+        [
+          "fg",
+          "ef"
+        ],
+        [
+          "<+",
+          "<<",
+          "+<",
+          ">-",
+          ">>",
+          "->"
+        ]
+      ],
+      "g": [
+        [
+          "ag",
+          "gi",
+          "fg"
+        ],
+        [
+          "<+>",
+          "-+-",
+          "+-+"
+        ]
+      ],
+      "h": [
+        [
+          "bh",
+          "ch"
+        ],
+        [
+          ">+",
+          "><",
+          "+<",
+          "<-",
+          "<>",
+          "->"
+        ]
+      ],
+      "i": [
+        [
+          "ij",
+          "gi"
+        ],
+        [
+          "<+",
+          "<<",
+          "+<",
+          ">-",
+          ">>",
+          "->"
+        ]
+      ],
+      "j": [
+        [
+          "ej",
+          "ij"
+        ],
+        [
+          ">+",
+          "><",
+          "+<",
+          "<-",
+          "<>",
+          "->"
+        ]
+      ]
+    },
+    "lines": [
+      "ab",
+      "ag",
+      "bc",
+      "bh",
+      "cd",
+      "ch",
+      "de",
+      "ef",
+      "ej",
+      "fg",
+      "gi",
+      "ij"
+    ],
+    "faces": [
+      {
+        "walk": [
+          "a",
+          "g",
+          "i",
+          "j",
+          "e",
+          "d",
+          "c",
+          "h",
+          "b"
+        ],
+        "area_twice": -30
+      },
+      {
+        "walk": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f",
+          "g"
+        ],
+        "area_twice": 46
+      },
+      {
+        "walk": [
+          "g",
+          "f",
+          "e",
+          "j",
+          "i"
+        ],
+        "area_twice": -14
+      },
+      {
+        "walk": [
+          "b",
+          "h",
+          "c"
+        ],
+        "area_twice": -2
+      }
+    ],
+    "boundary": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g"
+    ],
+    "boundary_case_word": "VYYVWVW",
+    "ports": [
+      [
+        "b",
+        "h"
+      ],
+      [
+        "c",
+        "h"
+      ],
+      [
+        "e",
+        "j"
+      ],
+      [
+        "g",
+        "i"
+      ]
+    ],
+    "complete_matrix_product": [
+      [
+        {
+          "mmpp": 3,
+          "glpp": 1
+        },
+        {},
+        {
+          "mmpp": 2,
+          "glpp": 1
+        },
+        {}
+      ],
+      [
+        {
+          "lmpp": 1
+        },
+        {},
+        {
+          "lmpp": 1
+        },
+        {}
+      ],
+      [
+        {
+          "mmpp": 2
+        },
+        {},
+        {
+          "mmpp": 1
+        },
+        {}
+      ],
+      [
+        {
+          "lmpp": 1
+        },
+        {},
+        {
+          "lmpp": 1
+        },
+        {}
+      ]
+    ],
+    "trace": {
+      "mmpp": 4,
+      "glpp": 1
+    },
+    "all_five_boundary_labelings": [
+      {
+        "boundary_labels": ">>>>>>>",
+        "inner_word": "mmpp",
+        "propagation": [
+          {
+            "constraint": "b",
+            "variable": "bh",
+            "before": "+-<>",
+            "after": "-",
+            "supporting_rows": [
+              ">>-"
+            ]
+          },
+          {
+            "constraint": "c",
+            "variable": "ch",
+            "before": "+-<>",
+            "after": "-",
+            "supporting_rows": [
+              ">>-"
+            ]
+          },
+          {
+            "constraint": "e",
+            "variable": "ej",
+            "before": "+-<>",
+            "after": "+",
+            "supporting_rows": [
+              ">+>"
+            ]
+          },
+          {
+            "constraint": "g",
+            "variable": "gi",
+            "before": "+-<>",
+            "after": "+",
+            "supporting_rows": [
+              "<+>"
+            ]
+          },
+          {
+            "constraint": "h",
+            "contradiction": true
+          }
+        ],
+        "extends": false
+      },
+      {
+        "boundary_labels": ">>>-->>",
+        "inner_word": "mmpp",
+        "propagation": [
+          {
+            "constraint": "b",
+            "variable": "bh",
+            "before": "+-<>",
+            "after": "-",
+            "supporting_rows": [
+              ">>-"
+            ]
+          },
+          {
+            "constraint": "c",
+            "variable": "ch",
+            "before": "+-<>",
+            "after": "-",
+            "supporting_rows": [
+              ">>-"
+            ]
+          },
+          {
+            "constraint": "e",
+            "variable": "ej",
+            "before": "+-<>",
+            "after": "+",
+            "supporting_rows": [
+              "-+-"
+            ]
+          },
+          {
+            "constraint": "g",
+            "variable": "gi",
+            "before": "+-<>",
+            "after": "+",
+            "supporting_rows": [
+              "<+>"
+            ]
+          },
+          {
+            "constraint": "h",
+            "contradiction": true
+          }
+        ],
+        "extends": false
+      },
+      {
+        "boundary_labels": "-<->>>>",
+        "inner_word": "glpp",
+        "propagation": [
+          {
+            "constraint": "b",
+            "variable": "bh",
+            "before": "+-<>",
+            "after": ">",
+            "supporting_rows": [
+              "-<>"
+            ]
+          },
+          {
+            "constraint": "c",
+            "variable": "ch",
+            "before": "+-<>",
+            "after": "<",
+            "supporting_rows": [
+              "<-<"
+            ]
+          },
+          {
+            "constraint": "e",
+            "variable": "ej",
+            "before": "+-<>",
+            "after": "+",
+            "supporting_rows": [
+              ">+>"
+            ]
+          },
+          {
+            "constraint": "g",
+            "variable": "gi",
+            "before": "+-<>",
+            "after": "+",
+            "supporting_rows": [
+              "<+>"
+            ]
+          },
+          {
+            "constraint": "i",
+            "variable": "ij",
+            "before": "+-<>",
+            "after": "<",
+            "supporting_rows": [
+              "<+"
+            ]
+          }
+        ],
+        "extends": true,
+        "complete_labeling": {
+          "ab": "-",
+          "ag": "<",
+          "bc": "<",
+          "bh": ">",
+          "cd": "-",
+          "ch": "<",
+          "de": ">",
+          "ef": ">",
+          "ej": "+",
+          "fg": ">",
+          "gi": "+",
+          "ij": "<"
+        }
+      },
+      {
+        "boundary_labels": "--->>>>",
+        "inner_word": "mmpp",
+        "propagation": [
+          {
+            "constraint": "b",
+            "variable": "bh",
+            "before": "+-<>",
+            "after": "-",
+            "supporting_rows": [
+              "---"
+            ]
+          },
+          {
+            "constraint": "c",
+            "variable": "ch",
+            "before": "+-<>",
+            "after": "-",
+            "supporting_rows": [
+              "---"
+            ]
+          },
+          {
+            "constraint": "e",
+            "variable": "ej",
+            "before": "+-<>",
+            "after": "+",
+            "supporting_rows": [
+              ">+>"
+            ]
+          },
+          {
+            "constraint": "g",
+            "variable": "gi",
+            "before": "+-<>",
+            "after": "+",
+            "supporting_rows": [
+              "<+>"
+            ]
+          },
+          {
+            "constraint": "h",
+            "contradiction": true
+          }
+        ],
+        "extends": false
+      },
+      {
+        "boundary_labels": ">>>>>--",
+        "inner_word": "mmpp",
+        "propagation": [
+          {
+            "constraint": "b",
+            "variable": "bh",
+            "before": "+-<>",
+            "after": "-",
+            "supporting_rows": [
+              ">>-"
+            ]
+          },
+          {
+            "constraint": "c",
+            "variable": "ch",
+            "before": "+-<>",
+            "after": "-",
+            "supporting_rows": [
+              ">>-"
+            ]
+          },
+          {
+            "constraint": "e",
+            "variable": "ej",
+            "before": "+-<>",
+            "after": "+",
+            "supporting_rows": [
+              ">+>"
+            ]
+          },
+          {
+            "constraint": "g",
+            "variable": "gi",
+            "before": "+-<>",
+            "after": "+",
+            "supporting_rows": [
+              "-+-"
+            ]
+          },
+          {
+            "constraint": "h",
+            "contradiction": true
+          }
+        ],
+        "extends": false
+      }
+    ],
+    "unique_labeling": {
+      "ab": "-",
+      "ag": "<",
+      "bc": "<",
+      "bh": ">",
+      "cd": "-",
+      "ch": "<",
+      "de": ">",
+      "ef": ">",
+      "ej": "+",
+      "fg": ">",
+      "gi": "+",
+      "ij": "<"
+    },
+    "standard_contradiction": [
+      {
+        "constraint": "b",
+        "variable": "bh",
+        "before": "+-<>",
+        "after": "-",
+        "supporting_rows": [
+          ">>-"
+        ]
+      },
+      {
+        "constraint": "c",
+        "variable": "ch",
+        "before": "+-<>",
+        "after": "-",
+        "supporting_rows": [
+          ">>-"
+        ]
+      },
+      {
+        "constraint": "e",
+        "variable": "ej",
+        "before": "+-<>",
+        "after": "+",
+        "supporting_rows": [
+          ">+>"
+        ]
+      },
+      {
+        "constraint": "g",
+        "variable": "gi",
+        "before": "+-<>",
+        "after": "+",
+        "supporting_rows": [
+          "<+>"
+        ]
+      },
+      {
+        "constraint": "h",
+        "contradiction": true
+      }
+    ],
+    "all_native_marks": [
+      {
+        "native_path": 61,
+        "line": "ab",
+        "label": "-"
+      },
+      {
+        "native_path": 62,
+        "line": "ab",
+        "label": "-"
+      },
+      {
+        "native_path": 63,
+        "line": "bc",
+        "label": "<"
+      },
+      {
+        "native_path": 64,
+        "line": "cd",
+        "label": "-"
+      },
+      {
+        "native_path": 65,
+        "line": "cd",
+        "label": "-"
+      },
+      {
+        "native_path": 66,
+        "line": "de",
+        "label": ">"
+      },
+      {
+        "native_path": 67,
+        "line": "de",
+        "label": ">"
+      },
+      {
+        "native_path": 68,
+        "line": "ef",
+        "label": ">"
+      },
+      {
+        "native_path": 69,
+        "line": "ef",
+        "label": ">"
+      },
+      {
+        "native_path": 70,
+        "line": "fg",
+        "label": ">"
+      },
+      {
+        "native_path": 71,
+        "line": "fg",
+        "label": ">"
+      },
+      {
+        "native_path": 72,
+        "line": "ag",
+        "label": "<"
+      },
+      {
+        "native_path": 73,
+        "line": "ag",
+        "label": "<"
+      },
+      {
+        "native_path": 74,
+        "line": "bh",
+        "label": ">"
+      },
+      {
+        "native_path": 75,
+        "line": "ch",
+        "label": "<"
+      },
+      {
+        "native_path": 76,
+        "line": "gi",
+        "label": "+"
+      },
+      {
+        "native_path": 77,
+        "line": "gi",
+        "label": "+"
+      },
+      {
+        "native_path": 78,
+        "line": "ij",
+        "label": "<"
+      },
+      {
+        "native_path": 79,
+        "line": "ej",
+        "label": "+"
+      },
+      {
+        "native_path": 80,
+        "line": "ej",
+        "label": "+"
+      }
+    ]
+  }
+}

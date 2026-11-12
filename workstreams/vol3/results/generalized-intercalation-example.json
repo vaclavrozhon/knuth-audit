@@ -1,0 +1,74 @@
+{
+  "scope": "One printed factorization and one explicit associativity witness; no enumeration",
+  "printed_word": "dbcbcacdaddbbbd",
+  "printed_factorization": [
+    "ddbca",
+    "cbba",
+    "cdb",
+    "db",
+    "d"
+  ],
+  "reconstruction": "passed",
+  "nonassociativity": {
+    "relation": "The unordered top pair differs from the unordered bottom pair",
+    "a": [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "b": [
+      [
+        2,
+        2
+      ]
+    ],
+    "c": [
+      [
+        1,
+        1
+      ]
+    ],
+    "left": [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "right": [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        2
+      ]
+    ]
+  },
+  "status": "passed"
+}

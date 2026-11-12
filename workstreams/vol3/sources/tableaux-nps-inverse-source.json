@@ -1,0 +1,29 @@
+{
+  "checked_at_utc": "2026-11-06T21:44:47.673187+00:00",
+  "url": "https://www.math.ucla.edu/~pak/papers/bij.pdf",
+  "local_pdf": "workstreams/vol3/sources/novelli-pak-stoyanovskii-1997.pdf",
+  "title": "A direct bijective proof of the hook-length formula",
+  "authors": [
+    "Jean-Christophe Novelli",
+    "Igor Pak",
+    "Alexander V. Stoyanovskii"
+  ],
+  "publication": "Discrete Mathematics and Theoretical Computer Science1(1997),53–67",
+  "doi": "10.46298/dmtcs.239",
+  "read_scope": "Definitions and algorithms in sections2,4–5; proofs in sections6.1–6.4. Figures of the local path comparison and stability on PDF10–12 were displayed.",
+  "mapping": {
+    "arrays": "A=P transpose, hook function f=−Q transpose",
+    "order": "Column order in the source becomes row order in the book.",
+    "candidate_rule": "Source nonnegative hook values become nonpositive Q values; source maximum path code becomes book minimum in D<Q<R.",
+    "boundary": "Source P-prime Step1 suppresses the left neighbor at the active-column boundary; after transpose this suppresses the upper neighbor at r=i, omitted from the book.",
+    "discarded_coordinate": "The source resets the departed hook coordinate to zero. The book never reads the corresponding departed Q coordinate again, so this omission is observationally irrelevant."
+  },
+  "exact_remaining_gap": null,
+  "evidence": [
+    "workstreams/vol3/notes/tableaux-proof-39-forward-examples.md",
+    "workstreams/vol3/notes/V3-C0020-inverse-tableau-row-boundary.md",
+    "workstreams/vol3/notes/tableaux-proof-39-inverse-invariant.md"
+  ],
+  "status": "checked",
+  "independent_completion": "P0594 is independently proved by local path inverses, planar tree order and two min-step barrier inequalities, including both state-stability directions and all boundary cases. No hook-formula counting argument is assumed."
+}

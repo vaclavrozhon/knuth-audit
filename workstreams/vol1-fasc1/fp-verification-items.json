@@ -1,0 +1,446 @@
+{
+  "volume": "vol1-fasc1",
+  "updated_at_utc": "2026-11-07T03:50:44.488796+00:00",
+  "parent_items": [
+    "MMIX-V0054",
+    "MMIX-V0055"
+  ],
+  "scope": "Subclaims of printed pages 12–13; does not close the whole pages or full IEEE implementation.",
+  "items": [
+    {
+      "id": "MMIX-FP-FORMAT",
+      "status": "reused",
+      "claim": "Binary64/binary32 field partition and normal/subnormal boundary.",
+      "argument_source": "notes/independent-arguments-009-015.md",
+      "limitation": "No blanket IEEE implementation conformance."
+    },
+    {
+      "id": "MMIX-FP-UNPACK",
+      "status": "argument_recorded",
+      "claim": "funpack types, exact value invariant, termination and bit helpers used by comparisons.",
+      "argument_source": "notes/fp-comparisons-recovery.md",
+      "argument_section": "1"
+    },
+    {
+      "id": "MMIX-FP-COMPARE",
+      "status": "argument_recorded",
+      "claim": "FCMP/FEQL/FUN for every 64-bit input pair, including NaNs, signed zero and infinity.",
+      "argument_source": "notes/fp-comparisons-recovery.md",
+      "argument_section": "2"
+    },
+    {
+      "id": "MMIX-FP-EPSILON-MATH",
+      "status": "argument_recorded",
+      "claim": "Neighborhood comparison relations for all non-NaN operands and finite nonnegative epsilon, including zeros and infinities.",
+      "argument_source": "notes/fp-comparisons-recovery.md",
+      "argument_section": "3"
+    },
+    {
+      "id": "MMIX-FP-EPSILON-IMPLEMENTATION",
+      "status": "counterexample_recorded",
+      "claim": "The original fepscomp implementation realizes those relations.",
+      "argument_source": "notes/MMIX-S0001-fepscomp.md",
+      "software_finding_id": "MMIX-S0001",
+      "correction_proof": "notes/fp-comparisons-recovery.md",
+      "correction_scope": "Finite nonnegative epsilon; normal/subnormal/zero/infinity operands; all finite branches and bounds.",
+      "correction_section": "4"
+    },
+    {
+      "id": "MMIX-FP-EPSILON-EXCEPTIONAL",
+      "status": "partial",
+      "claim": "Exact documentary contract for rE=-0.0 and rE=+infinity.",
+      "argument_source": "notes/fp-contract-boundaries.md",
+      "remaining": "Program behavior completely derived. Precise unresolved inherited prose: whether negative epsilon means sign-bit or epsilon<0 at -0; whether finite neighborhoods at epsilon=+infinity contain extended infinities or only real limits.",
+      "argument_section": "1–2",
+      "updated_at_utc": "2026-11-06T20:53:50.324515+00:00"
+    },
+    {
+      "id": "MMIX-FP-ARITHMETIC-CONVERSIONS",
+      "status": "counterexample_recorded",
+      "claim": "All seven arithmetic operations and conversion instructions: result values and disabled-trip event paths.",
+      "remaining": null,
+      "aggregate": true,
+      "data_path_coverage": "complete",
+      "software_finding_ids": [
+        "MMIX-S0002",
+        "MMIX-S0003",
+        "MMIX-S0004"
+      ],
+      "argument_source": "notes/fp-contract-boundaries.md",
+      "argument_section": "3",
+      "limitation": "All original failing families stay recorded separately; complete audit corrections are not changes to the official source. Whole IEEE environment remains separate."
+    },
+    {
+      "id": "MMIX-FP-IEEE-CONFORMANCE",
+      "status": "partial",
+      "claim": "Full implementation of IEEE/ANSI 754.",
+      "remaining": "Decimal conversion interface and trapping-result interface remain. The conditional precision-control requirement is now reconciled with the proven single-destination environment.",
+      "aggregate": true,
+      "argument_source": "notes/fp-contract-boundaries.md",
+      "argument_section": "3",
+      "updated_at_utc": "2026-11-07T03:36:42.880549+00:00"
+    },
+    {
+      "id": "MMIX-FP-ROUNDING-LEMMA",
+      "status": "argument_recorded",
+      "claim": "Two-bit guard/sticky rounding for every sign and mode; composition of jammed shifts.",
+      "argument_source": "notes/fp-conversions-recovery.md",
+      "argument_section": "1"
+    },
+    {
+      "id": "MMIX-FP-PACK-FINITE",
+      "status": "argument_recorded",
+      "claim": "All non-overflow finite fpack/sfpack branches, subnormal boundaries, safe shifts and flags; current 2025 sfpack tininess.",
+      "argument_source": "notes/fp-conversions-recovery.md",
+      "argument_section": "2",
+      "limitation": "Caller must provide a correct normalized significand with guard/sticky information. Known 2013 tininess defect is excluded as known erratum."
+    },
+    {
+      "id": "MMIX-FP-PACK-OVERFLOW",
+      "status": "counterexample_recorded",
+      "claim": "Overflow result in both packers with arithmetic trips disabled.",
+      "argument_source": "notes/fp-conversions-recovery.md",
+      "argument_section": "2",
+      "limitation": "MMIX-S0002; complete audit-only saturation correction proof, no enabled-handler claim.",
+      "software_finding_id": "MMIX-S0002"
+    },
+    {
+      "id": "MMIX-FP-SFUNPACK",
+      "status": "argument_recorded",
+      "claim": "All binary32 classifications, exact normalization and bounded termination.",
+      "argument_source": "notes/fp-conversions-recovery.md",
+      "argument_section": "3"
+    },
+    {
+      "id": "MMIX-FP-LDSF",
+      "status": "argument_recorded",
+      "claim": "Exact load of all 2^32 short-float patterns, signed zeros and signaling payload preservation without arithmetic exceptions.",
+      "argument_source": "notes/fp-conversions-recovery.md",
+      "argument_section": "3",
+      "limitation": "Assumes permitted memory access; address/alignment arguments inherited."
+    },
+    {
+      "id": "MMIX-FP-FLOT",
+      "status": "argument_recorded",
+      "claim": "All signed 64-bit integer and immediate inputs; four rounding modes, exact flags and termination.",
+      "argument_source": "notes/fp-conversions-recovery.md",
+      "argument_section": "4"
+    },
+    {
+      "id": "MMIX-FP-FLOTU",
+      "status": "argument_recorded",
+      "claim": "All unsigned 64-bit integer and immediate inputs; four rounding modes, exact flags and termination.",
+      "argument_source": "notes/fp-conversions-recovery.md",
+      "argument_section": "4"
+    },
+    {
+      "id": "MMIX-FP-SFLOT",
+      "status": "argument_recorded",
+      "claim": "Signed integer to short precision then exact binary64 widening; all inputs/modes and X preservation.",
+      "argument_source": "notes/fp-conversions-recovery.md",
+      "argument_section": "4"
+    },
+    {
+      "id": "MMIX-FP-SFLOTU",
+      "status": "argument_recorded",
+      "claim": "Unsigned integer to short precision then exact binary64 widening; all inputs/modes and X preservation.",
+      "argument_source": "notes/fp-conversions-recovery.md",
+      "argument_section": "4"
+    },
+    {
+      "id": "MMIX-FP-FINT-RESULT",
+      "status": "argument_recorded",
+      "claim": "All FINT result values, four modes, signed zero, NaN quieting and no O/U; bounded branches.",
+      "argument_source": "notes/fp-conversions-recovery.md",
+      "argument_section": "5",
+      "limitation": "Value proof is complete; separate original X-event defect and full correction proof are MMIX-S0004."
+    },
+    {
+      "id": "MMIX-FP-FINT-EXCEPTIONS",
+      "status": "counterexample_recorded",
+      "claim": "Normative status-event behavior of FINT when a finite noninteger changes value.",
+      "argument_source": "notes/MMIX-S0004-integerization-inexact.md",
+      "argument_section": "1–3",
+      "remaining": null,
+      "software_finding_id": "MMIX-S0004",
+      "data_path_coverage": "complete",
+      "verified_scope": "All input classes and four rounding modes; exact 1985 normative chain, I/W cases and missing X family. Visible rA events use disabled trips.",
+      "correction_scope": "Complete audit-only X detection and separate preservation through fixit’s second funpack, including zero result; no numeric result changes.",
+      "updated_at_utc": "2026-11-06T20:43:03.135638+00:00"
+    },
+    {
+      "id": "MMIX-FP-FIX-RESULT",
+      "status": "argument_recorded",
+      "claim": "FIX rounded result modulo 2^64 for every finite input, and exact original-bit result on NaN/infinity.",
+      "argument_source": "notes/fp-conversions-recovery.md",
+      "argument_section": "6",
+      "limitation": "Value proof is complete; separate original X-event defect and full correction proof are MMIX-S0004."
+    },
+    {
+      "id": "MMIX-FP-FIX-EXCEPTIONS",
+      "status": "counterexample_recorded",
+      "claim": "FIX I/W conditions and the normative inexact event.",
+      "argument_source": "notes/MMIX-S0004-integerization-inexact.md",
+      "argument_section": "1–3",
+      "remaining": null,
+      "software_finding_id": "MMIX-S0004",
+      "data_path_coverage": "complete",
+      "verified_scope": "All input classes and four rounding modes; exact 1985 normative chain, I/W cases and missing X family. Visible rA events use disabled trips.",
+      "correction_scope": "Complete audit-only X detection and separate preservation through fixit’s second funpack, including zero result; no numeric result changes.",
+      "updated_at_utc": "2026-11-06T20:43:03.135638+00:00"
+    },
+    {
+      "id": "MMIX-FP-FIXU-RESULT",
+      "status": "argument_recorded",
+      "claim": "FIXU has identical modulo result for all inputs and suppresses only W.",
+      "argument_source": "notes/fp-conversions-recovery.md",
+      "argument_section": "6",
+      "limitation": "Value proof is complete; separate original X-event defect and full correction proof are MMIX-S0004."
+    },
+    {
+      "id": "MMIX-FP-FIXU-EXCEPTIONS",
+      "status": "counterexample_recorded",
+      "claim": "FIXU exception contract, preserving I while suppressing W.",
+      "argument_source": "notes/MMIX-S0004-integerization-inexact.md",
+      "argument_section": "1–3",
+      "remaining": null,
+      "software_finding_id": "MMIX-S0004",
+      "data_path_coverage": "complete",
+      "verified_scope": "All input classes and four rounding modes; exact 1985 normative chain, I/W cases and missing X family. Visible rA events use disabled trips.",
+      "correction_scope": "Complete audit-only X detection and separate preservation through fixit’s second funpack, including zero result; no numeric result changes.",
+      "updated_at_utc": "2026-11-06T20:43:03.135638+00:00"
+    },
+    {
+      "id": "MMIX-FP-STSF-RESULT",
+      "status": "counterexample_recorded",
+      "claim": "Short-store result for all binary64 input classes; non-overflow rounding and NaN payload branches proved.",
+      "argument_source": "notes/fp-conversions-recovery.md",
+      "argument_section": "7",
+      "limitation": "Directed overflow differs from the inherited contract: MMIX-S0002. Corrected finite packing proof recorded.",
+      "software_finding_id": "MMIX-S0002"
+    },
+    {
+      "id": "MMIX-FP-STSF-EXCEPTIONS",
+      "status": "argument_recorded",
+      "claim": "STSF 2025 helper I/O/U/X conditions and event merge when arithmetic trips are disabled.",
+      "argument_source": "notes/fp-conversions-recovery.md",
+      "argument_section": "7",
+      "limitation": "Known 2013 sfpack tininess erratum excluded; enabled handlers remain outside scope."
+    },
+    {
+      "id": "MMIX-FP-ARITH-FADD",
+      "status": "counterexample_recorded",
+      "claim": "FADD full arithmetic semantics and implementation for all input classes.",
+      "remaining": "No uncovered branch within this explicit disabled-trip result/event domain. The shared directed-overflow contradiction is S0002; enabled-handler semantics remain in the separate IEEE-conformance obligation.",
+      "available_lemmas": [
+        "notes/fp-comparisons-recovery.md",
+        "notes/fp-conversions-recovery.md"
+      ],
+      "argument_source": "notes/fp-binary-arithmetic-recovery.md",
+      "argument_section": "2",
+      "software_finding_id": "MMIX-S0002",
+      "data_path_coverage": "complete",
+      "verified_scope": "Every operand class, all four rounding modes, complete finite caller invariant, bounded C arithmetic/termination, aliasing and non-overflow result; disabled-trip event merge.",
+      "correction_scope": "Complete result domain with arithmetic trips disabled after applying the already proved shared S0002 fpack correction. Official current source remains incorrect in directed overflow cases.",
+      "limitation": "No enabled-handler replacement or blanket IEEE conformance claim. FADD/FSUB use current 2025 alignment threshold; the known 2013 defect is excluded.",
+      "updated_at_utc": "2026-11-06T20:21:26.393649+00:00"
+    },
+    {
+      "id": "MMIX-FP-ARITH-FSUB",
+      "status": "counterexample_recorded",
+      "claim": "FSUB full arithmetic semantics and implementation for all input classes.",
+      "remaining": "No uncovered branch within this explicit disabled-trip result/event domain. The shared directed-overflow contradiction is S0002; enabled-handler semantics remain in the separate IEEE-conformance obligation.",
+      "available_lemmas": [
+        "notes/fp-comparisons-recovery.md",
+        "notes/fp-conversions-recovery.md"
+      ],
+      "argument_source": "notes/fp-binary-arithmetic-recovery.md",
+      "argument_section": "3",
+      "software_finding_id": "MMIX-S0002",
+      "data_path_coverage": "complete",
+      "verified_scope": "Every operand class, all four rounding modes, complete finite caller invariant, bounded C arithmetic/termination, aliasing and non-overflow result; disabled-trip event merge.",
+      "correction_scope": "Complete result domain with arithmetic trips disabled after applying the already proved shared S0002 fpack correction. Official current source remains incorrect in directed overflow cases.",
+      "limitation": "No enabled-handler replacement or blanket IEEE conformance claim. FADD/FSUB use current 2025 alignment threshold; the known 2013 defect is excluded.",
+      "updated_at_utc": "2026-11-06T20:21:26.393649+00:00"
+    },
+    {
+      "id": "MMIX-FP-ARITH-FMUL",
+      "status": "counterexample_recorded",
+      "claim": "FMUL full arithmetic semantics and implementation for all input classes.",
+      "remaining": "No uncovered branch within this explicit disabled-trip result/event domain. The shared directed-overflow contradiction is S0002; enabled-handler semantics remain in the separate IEEE-conformance obligation.",
+      "available_lemmas": [
+        "notes/fp-comparisons-recovery.md",
+        "notes/fp-conversions-recovery.md"
+      ],
+      "argument_source": "notes/fp-binary-arithmetic-recovery.md",
+      "argument_section": "5",
+      "software_finding_id": "MMIX-S0002",
+      "data_path_coverage": "complete",
+      "verified_scope": "Every operand class, all four rounding modes, complete finite caller invariant, bounded C arithmetic/termination, aliasing and non-overflow result; disabled-trip event merge.",
+      "correction_scope": "Complete result domain with arithmetic trips disabled after applying the already proved shared S0002 fpack correction. Official current source remains incorrect in directed overflow cases.",
+      "limitation": "No enabled-handler replacement or blanket IEEE conformance claim. FADD/FSUB use current 2025 alignment threshold; the known 2013 defect is excluded.",
+      "updated_at_utc": "2026-11-06T20:21:26.393649+00:00"
+    },
+    {
+      "id": "MMIX-FP-ARITH-FDIV",
+      "status": "counterexample_recorded",
+      "claim": "FDIV full arithmetic semantics and implementation for all input classes.",
+      "remaining": "No uncovered branch within this explicit disabled-trip result/event domain. The shared directed-overflow contradiction is S0002; enabled-handler semantics remain in the separate IEEE-conformance obligation.",
+      "available_lemmas": [
+        "notes/fp-comparisons-recovery.md",
+        "notes/fp-conversions-recovery.md"
+      ],
+      "argument_source": "notes/fp-binary-arithmetic-recovery.md",
+      "argument_section": "7",
+      "software_finding_id": "MMIX-S0002",
+      "data_path_coverage": "complete",
+      "verified_scope": "Every operand class, all four rounding modes, complete finite caller invariant, bounded C arithmetic/termination, aliasing and non-overflow result; disabled-trip event merge.",
+      "correction_scope": "Complete result domain with arithmetic trips disabled after applying the already proved shared S0002 fpack correction. Official current source remains incorrect in directed overflow cases.",
+      "limitation": "No enabled-handler replacement or blanket IEEE conformance claim. FADD/FSUB use current 2025 alignment threshold; the known 2013 defect is excluded.",
+      "updated_at_utc": "2026-11-06T20:21:26.393649+00:00"
+    },
+    {
+      "id": "MMIX-FP-ARITH-FREM",
+      "status": "argument_recorded",
+      "claim": "FREM full arithmetic semantics and implementation for all input classes.",
+      "remaining": null,
+      "available_lemmas": [
+        "notes/fp-comparisons-recovery.md",
+        "notes/fp-conversions-recovery.md"
+      ],
+      "argument_source": "notes/fp-remainder-recovery.md",
+      "data_path_coverage": "complete",
+      "verified_scope": "Actual instruction call fremstep(y,z,2500), every 64-bit pair, every sign and rA mode, full quotient-parity/remainder invariant, ties, finite termination and disabled-trip events.",
+      "limitation": "The uncalled partial-step API for smaller delta values is outside this instruction claim. No blanket claim about arbitrary user handlers or IEEE-library conformance.",
+      "updated_at_utc": "2026-11-06T20:33:14.650046+00:00"
+    },
+    {
+      "id": "MMIX-FP-ARITH-FSQRT",
+      "status": "counterexample_recorded",
+      "claim": "FSQRT full arithmetic semantics and implementation for all input classes.",
+      "remaining": "No uncovered numeric or class branch in this stated domain. Original negative NaNs remain S0003; arbitrary enabled handlers stay separate.",
+      "available_lemmas": [
+        "notes/fp-comparisons-recovery.md",
+        "notes/fp-conversions-recovery.md"
+      ],
+      "software_finding_id": "MMIX-S0003",
+      "argument_source": "notes/fp-square-root-recovery.md",
+      "data_path_coverage": "complete",
+      "verified_scope": "Every input class, all four modes and Y=0; complete 53-step integer recurrence, safe low-tetra increments, finite normalization/rounding and disabled-trip event merge.",
+      "correction_scope": "The audit-only NaN guard correction gives every 64-bit result and disabled-trip event correctly. No fpack overflow branch is reachable from positive finite square root.",
+      "updated_at_utc": "2026-11-06T20:28:06.645156+00:00"
+    },
+    {
+      "id": "MMIX-FP-OMULT",
+      "status": "argument_recorded",
+      "claim": "Concrete unsigned 64-by-64-to-128 omult kernel: all input pairs, zero multiplier rows, initialized limbs, carry bounds and exact high/low outputs.",
+      "argument_source": "notes/fp-binary-arithmetic-recovery.md",
+      "argument_section": "4",
+      "limitation": "No claim about the unrelated signed_omult overflow predicate.",
+      "updated_at_utc": "2026-11-06T20:21:26.393649+00:00"
+    },
+    {
+      "id": "MMIX-FP-ODIV-FDIV-DOMAIN",
+      "status": "argument_recorded",
+      "claim": "Every odiv path reachable from FDIV: normalized four-limb divisor, exact quotient/remainder, trial estimate through b+1, correction, borrow, initialized arrays and bounded termination.",
+      "argument_source": "notes/fp-binary-arithmetic-recovery.md",
+      "argument_section": "6",
+      "limitation": "Only the actual FDIV precondition A in [2^54,2^55), divisor B<<9 in [2^63,2^64), low dividend zero. General odiv n<4 and shifted normalization branches are not claimed.",
+      "updated_at_utc": "2026-11-06T20:21:26.393649+00:00"
+    },
+    {
+      "id": "MMIX-FP-SHORT-ARITHMETIC",
+      "status": "argument_recorded",
+      "claim": "Two short loads, one of seven arithmetic operations and a short store reproduce single result and disabled-trip events in all four rounding modes.",
+      "argument_source": "notes/fp-short-arithmetic-recovery.md",
+      "verified_scope": "All binary32 input classes; nested directed grids; exact multiplication; bounded sum alignment; rational/square-root separation from midpoints; exact FREM/FINT; no false exact subnormal hiding U.",
+      "limitation": "Mathematical MMIX contract and complete audit-corrected implementation composition. Original S0002/S0003/S0004 remain separate; no arbitrary traps or decimal conversion claim.",
+      "updated_at_utc": "2026-11-06T20:53:50.324515+00:00"
+    },
+    {
+      "id": "MMIX-FP-IEEE-DECIMAL",
+      "status": "partial",
+      "claim": "The full-IEEE statement includes binary/decimal conversion accuracy required by IEEE 754-1985 section5.6.",
+      "argument_source": "notes/fp-contract-boundaries.md",
+      "argument_section": "3",
+      "remaining": "Entire shortest-output algorithm and its bounded nearest-input roundtrip are now proved under explicit word semantics. General long-input/exponent scope and C portability, user-selectable decimal precision/direction, decimal event/trap behavior, and direct single-format conversion interface remain open. S0009 is a separate supported long-integer-input value defect.",
+      "updated_at_utc": "2026-11-07T03:50:44.488796+00:00",
+      "additional_evidence": [
+        "notes/MMIX-S0009-scan-constant-integer-length.md",
+        "notes/scan-constant-integer-length-contract.md",
+        "results/scan-constant-integer-length.json",
+        "results/scan-constant-integer-length-build.json",
+        "results/errata-S0009.json",
+        "images/scan-constant-contract-arith30.png",
+        "images/scan-constant-loop-arith31.png",
+        "images/scan-constant-buffer-arith32.png",
+        "sources/mmix-arith-upstream.pdf",
+        "sources/fp-primary-metadata.json",
+        "sources/mmix-arith-20131017.w",
+        "sources/mmix-arith-20250620.w",
+        "sources/mmix-arith-upstream-warnings.ch",
+        "sources/audit-scan-constant-integer-length.ch",
+        "sources/scan-constant-integer-length-driver.c",
+        "verify_scan_constant_integer_length.py",
+        "notes/fp-decimal-output-recovery.md",
+        "results/print-float-boundary-arithmetic.json",
+        "images/print-float-bound-arith29.png",
+        "notes/fp-conversions-recovery.md"
+      ]
+    },
+    {
+      "id": "MMIX-FP-IEEE-PRECISION-CONTROL",
+      "status": "argument_recorded",
+      "claim": "Exact conditional precision-control requirement of IEEE754-1985 section4.3.",
+      "argument_source": "notes/fp-precision-control-scope.md",
+      "argument_section": "entire note",
+      "remaining": null,
+      "updated_at_utc": "2026-11-07T03:36:42.880549+00:00",
+      "previous_status": "partial",
+      "resolution": "The programmer-visible environment supplies proven single-input/single-destination operations; the only-double-destinations antecedent does not apply. General single rounding of double operands is not an extra required operation. Enabled trips remain separate."
+    },
+    {
+      "id": "MMIX-FP-IEEE-TRAPPING",
+      "status": "partial",
+      "claim": "The full-IEEE statement imports trapping result/interface rules in sections7.3–7.4 and8.",
+      "argument_source": "notes/fp-contract-boundaries.md",
+      "argument_section": "3",
+      "remaining": "Match scaled exponent/result delivery to MMIX trip protocol and declared deviations. Actual trip/RESUME code has its own later-page obligations; arbitrary user handler correctness is not requested.",
+      "updated_at_utc": "2026-11-06T20:53:50.324515+00:00"
+    },
+    {
+      "id": "MMIX-FP-DECIMAL-INTEGER-LENGTH",
+      "status": "counterexample_recorded",
+      "claim": "scan_const preserves the value and decimal position of supported long floating literals.",
+      "finding_id": "MMIX-S0009",
+      "finding_scope": "program",
+      "argument_source": "notes/MMIX-S0009-scan-constant-integer-length.md",
+      "remaining": "General decimal conversion/interface proof remains in the separate partial leaf.",
+      "updated_at_utc": "2026-11-07T03:36:42.880549+00:00"
+    },
+    {
+      "id": "MMIX-FP-DECIMAL-OUTPUT",
+      "status": "argument_recorded",
+      "claim": "Entire print_float mathematical algorithm: shortest decimal,17-digit storage bound, all endpoints/special classes, finite-value monotonicity and exact nearest-input roundtrip.",
+      "argument_source": "notes/fp-decimal-output-recovery.md",
+      "argument_section": "1–8",
+      "assumptions": "Declared32-bit word arithmetic and documented host signed conversion; not a claim of universal ISO C portability or full IEEE decimal service.",
+      "updated_at_utc": "2026-11-07T03:50:44.488796+00:00"
+    },
+    {
+      "id": "MMIX-FP-DECIMAL-ROUNDTRIP-INPUT",
+      "status": "argument_recorded",
+      "claim": "scan_const exact nearest conversion of every generated print_float output; all buffer/radix/binary-prefix branches in this bounded domain.",
+      "argument_source": "notes/fp-decimal-output-recovery.md",
+      "argument_section": "7",
+      "assumptions": "Generated outputs only: at most17 significant coefficient digits, exponent magnitude at most324, no buffer truncation. Decimal exception flags are outside its stated contract.",
+      "updated_at_utc": "2026-11-07T03:50:44.488796+00:00"
+    }
+  ],
+  "leaf_status_counts": {
+    "reused": 1,
+    "argument_recorded": 22,
+    "counterexample_recorded": 12,
+    "partial": 3
+  }
+}

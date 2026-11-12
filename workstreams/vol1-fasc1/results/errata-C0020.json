@@ -1,0 +1,585 @@
+{
+  "checked_at_utc": "2026-11-07T00:45:25.476959+00:00",
+  "target": "Printed Delay34 can wait forever after a legal timer reset; ref_time0and1 exact repeated states.",
+  "sources": [
+    {
+      "path": "errata/originals/err1f1.textxt",
+      "sha256": "07db671be6fcbc6c473ddc6593f6a16cce5833fb5f8a499ab7e2e3eee163dae3",
+      "matches": [
+        {
+          "line": 374,
+          "text": "\\ninepoint cycle counter \\becomes continuation register"
+        },
+        {
+          "line": 473,
+          "text": "interval counter rI decreases"
+        },
+        {
+          "line": 542,
+          "text": "\\ninepoint cycle counter, rC \\becomes clock"
+        },
+        {
+          "line": 731,
+          "text": "\\amendpage 1f1.111 line 10 (14.08.27)"
+        },
+        {
+          "line": 736,
+          "text": "\\amendpage 1f1.111 replacement for answer 34 {(continues to page 113)} (11.06.04)"
+        },
+        {
+          "line": 737,
+          "text": "\\ans34. The following program follows the protocol to within a few hundred"
+        },
+        {
+          "line": 743,
+          "text": "will return soon after, resetting rI to some not-too-small value."
+        },
+        {
+          "line": 747,
+          "text": "* Traffic Signal Problem\\hidewidth\\cr"
+        },
+        {
+          "line": 755,
+          "text": "delta &GREG&&Number of cycles to delay\\cr"
+        },
+        {
+          "line": 756,
+          "text": "ref_time&GREG&&Internal register for \\.{Delay}\\cr"
+        },
+        {
+          "line": 757,
+          "text": "delay_go&GREG&&Exit location for \\.{Delay}\\cr"
+        },
+        {
+          "line": 760,
+          "text": "1H&SET&ref_time,t&Remember previous value of rI.\\cr"
+        },
+        {
+          "line": 762,
+          "text": "  &CMPU&ref_time,ref_time,t\\cr"
+        },
+        {
+          "line": 763,
+          "text": "  &PBP &ref_time,1B&Repeat until rI increases.\\cr"
+        },
+        {
+          "line": 764,
+          "text": "Delay&GET&t,rI&Wait busily for $\\delta$ cycles:\\cr"
+        },
+        {
+          "line": 765,
+          "text": "     &SUBU&ref_time,t,delta&Compute $\\rm rI-\\delta$.\\cr"
+        },
+        {
+          "line": 767,
+          "text": "     &BN  &ref_time,2B&Branch if rI is less than $\\delta$.\\cr"
+        },
+        {
+          "line": 769,
+          "text": "     &SUBU&t,t,ref_time&(N.B. {\\it Not\\/} \\.{CMPU}\\hair; see below)\\cr"
+        },
+        {
+          "line": 771,
+          "text": "     &GO  &delay_go,delay_go,0&Return to caller.\\cr"
+        },
+        {
+          "line": 793,
+          "text": "     &GO   &delay_go,Delay\\cr"
+        },
+        {
+          "line": 797,
+          "text": "     &GO   &delay_go,Delay\\cr"
+        },
+        {
+          "line": 803,
+          "text": "     &GO   &delay_go,Delay&Hold for 4 sec.\\cr"
+        },
+        {
+          "line": 821,
+          "text": "     &GO   &delay_go,Delay&Amber for 8 sec.\\cr"
+        },
+        {
+          "line": 825,
+          "text": "     &GO   &delay_go,Delay\\cr"
+        },
+        {
+          "line": 831,
+          "text": "     &GO   &delay_go,Delay&Amber for 5 sec.\\cr"
+        },
+        {
+          "line": 834,
+          "text": "     &MUL  &delay,rho,18\\cr"
+        },
+        {
+          "line": 835,
+          "text": "     &GO   &delay_go,Delay&At least 18 sec to \\.{WALK}.\\cr"
+        },
+        {
+          "line": 840,
+          "text": "The final \\.{SUBU} instruction in the \\.{Delay} subroutine is an interesting"
+        },
+        {
+          "line": 845,
+          "text": "``wrap around'' modulo~$2^{64}$."
+        },
+        {
+          "line": 848,
+          "text": "\\bugonpage 1f1.113 a correction to 3rd-last line of that program (24.03.15)"
+        },
+        {
+          "line": 849,
+          "text": "\\.{MUL} \\.{delay,rho,18} \\becomes \\.{MUL} \\.{delta,rho,18}"
+        },
+        {
+          "line": 921,
+          "text": "Cycle counter, \\see rI. % 2nd"
+        },
+        {
+          "line": 1033,
+          "text": "rI (interval counter), 19, 50. % 3rd"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/err1f1.txt",
+      "sha256": "7d6366838076d106c09e85a4f93f1b151e94c9af9f6874ea27aa6f106cdf84b6",
+      "matches": [
+        {
+          "line": 299,
+          "text": "Page 111      line 10                                                                  27 Aug 2014"
+        },
+        {
+          "line": 301,
+          "text": "Page 111       repla ement for answer 34 ( ontinues to page 113)                  04 Jun 2011"
+        },
+        {
+          "line": 302,
+          "text": "    34. The following program follows the proto ol to within a few hundred \u001d ; this slight"
+        },
+        {
+          "line": 306,
+          "text": "    will return soon after, resetting rI to some not-too-small value."
+        },
+        {
+          "line": 307,
+          "text": "             * Traffi Signal Problem"
+        },
+        {
+          "line": 314,
+          "text": "             delta          GREG                                Number of y les to delay"
+        },
+        {
+          "line": 315,
+          "text": "             ref_time       GREG                                Internal register for Delay"
+        },
+        {
+          "line": 316,
+          "text": "             delay_go       GREG                                Exit lo ation for Delay"
+        },
+        {
+          "line": 318,
+          "text": "             1H             SET      ref_time,t                 Remember previous value of rI."
+        },
+        {
+          "line": 320,
+          "text": "                            CMPU     ref_time,ref_time,t"
+        },
+        {
+          "line": 321,
+          "text": "                            PBP      ref_time,1B                Repeat until rI in reases."
+        },
+        {
+          "line": 324,
+          "text": "Delay       GET    t,rI                 Wait busily for Æ y les:"
+        },
+        {
+          "line": 325,
+          "text": "            SUBU   ref_time,t,delta     Compute rI Æ ."
+        },
+        {
+          "line": 327,
+          "text": "            BN     ref_time,2B          Bran h if rI is less than Æ ."
+        },
+        {
+          "line": 329,
+          "text": "            SUBU   t,t,ref_time         (N.B. Not CMPU ; see below)"
+        },
+        {
+          "line": 330,
+          "text": "            PBP    t,1B                 Repeat until rI passes ref_time."
+        },
+        {
+          "line": 331,
+          "text": "            GO     delay_go,delay_go,0 Return to aller."
+        },
+        {
+          "line": 350,
+          "text": "            GO     delay_go,Delay"
+        },
+        {
+          "line": 354,
+          "text": "            GO     delay_go,Delay"
+        },
+        {
+          "line": 360,
+          "text": "            GO     delay_go,Delay       Hold for 4 se ."
+        },
+        {
+          "line": 379,
+          "text": "                         GO delay_go,Delay         Amber for 8 se ."
+        },
+        {
+          "line": 385,
+          "text": "                         GO delay_go,Delay"
+        },
+        {
+          "line": 394,
+          "text": "                         GO delay_go,Delay         Amber for 5 se ."
+        },
+        {
+          "line": 399,
+          "text": "                         MULdelay,rho,18"
+        },
+        {
+          "line": 400,
+          "text": "                         GO delay_go,Delay         At least 18 se to WALK."
+        },
+        {
+          "line": 402,
+          "text": "    The nal SUBU instru tion in the Delay subroutine is an interesting example of a"
+        },
+        {
+          "line": 405,
+          "text": "  rI and ref_time, \\wrap around\" modulo 264 ."
+        },
+        {
+          "line": 406,
+          "text": "xPage 113 a orre tion to 3rd-last line of that program                     15 Mar 2024"
+        },
+        {
+          "line": 407,
+          "text": "  MUL delay,rho,18 y MUL delta,rho,18"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all1f1.txt",
+      "sha256": "c0b1a7c575ffcbced2bc6a7048143a16286a081908850ad0956258dd2f84b18e",
+      "matches": [
+        {
+          "line": 364,
+          "text": " Page 111   line 10                                                            27 Aug 2014"
+        },
+        {
+          "line": 366,
+          "text": " Page 111    repla ement for answer 34 ( ontinues to page 113)                  04 Jun 2011"
+        },
+        {
+          "line": 367,
+          "text": "  34. The following program follows the proto ol to within a few hundred \u001d ; this slight"
+        },
+        {
+          "line": 371,
+          "text": "  will return soon after, resetting rI to some not-too-small value."
+        },
+        {
+          "line": 372,
+          "text": "       * Traffi Signal Problem"
+        },
+        {
+          "line": 379,
+          "text": "       delta       GREG                        Number of y les to delay"
+        },
+        {
+          "line": 380,
+          "text": "       ref_time    GREG                        Internal register for Delay"
+        },
+        {
+          "line": 381,
+          "text": "       delay_go    GREG                        Exit lo ation for Delay"
+        },
+        {
+          "line": 383,
+          "text": "       1H          SET    ref_time,t           Remember previous value of rI."
+        },
+        {
+          "line": 385,
+          "text": "                   CMPU   ref_time,ref_time,t"
+        },
+        {
+          "line": 386,
+          "text": "                   PBP    ref_time,1B          Repeat until rI in reases."
+        },
+        {
+          "line": 387,
+          "text": "       Delay       GET    t,rI                 Wait busily for Æ y les:"
+        },
+        {
+          "line": 388,
+          "text": "                   SUBU   ref_time,t,delta     Compute rI Æ ."
+        },
+        {
+          "line": 390,
+          "text": "                   BN     ref_time,2B          Bran h if rI is less than Æ ."
+        },
+        {
+          "line": 392,
+          "text": "                   SUBU   t,t,ref_time         (N.B. Not CMPU ; see below)"
+        },
+        {
+          "line": 393,
+          "text": "                   PBP    t,1B                 Repeat until rI passes ref_time."
+        },
+        {
+          "line": 394,
+          "text": "                   GO     delay_go,delay_go,0 Return to aller."
+        },
+        {
+          "line": 415,
+          "text": "           GO     delay_go,Delay"
+        },
+        {
+          "line": 419,
+          "text": "           GO     delay_go,Delay"
+        },
+        {
+          "line": 425,
+          "text": "           GO     delay_go,Delay         Hold for 4 se ."
+        },
+        {
+          "line": 441,
+          "text": "           GO     delay_go,Delay         Amber for 8 se ."
+        },
+        {
+          "line": 445,
+          "text": "           GO     delay_go,Delay"
+        },
+        {
+          "line": 451,
+          "text": "           GO     delay_go,Delay         Amber for 5 se ."
+        },
+        {
+          "line": 454,
+          "text": "           MUL    delay,rho,18"
+        },
+        {
+          "line": 455,
+          "text": "           GO     delay_go,Delay         At least 18 se to WALK."
+        },
+        {
+          "line": 459,
+          "text": "    The nal SUBU instru tion in the Delay subroutine is an interesting example of a"
+        },
+        {
+          "line": 462,
+          "text": "    rI and ref_time, \\wrap around\" modulo 264 ."
+        },
+        {
+          "line": 464,
+          "text": "Page 113       a orre tion to 3rd-last line of that program                             15 Mar 2024"
+        },
+        {
+          "line": 465,
+          "text": "    MUL delay,rho,18     y MUL delta,rho,18"
+        }
+      ]
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmixware-errata.html",
+      "sha256": "740b68475c94774ee2d143b0baa2d98111664e2e2c69ce3a29117311f8c4957e",
+      "matches": [
+        {
+          "line": 120,
+          "text": "<dd>change \"cycle counter\" to \"continuation register\"</dd>"
+        },
+        {
+          "line": 122,
+          "text": "<dd>The <i>interval counter</i> rI decreases by 1 on every ``clock pulse'' of the"
+        },
+        {
+          "line": 124,
+          "text": "the interval counter decreases every 2 nanoseconds. It causes an</dd>"
+        },
+        {
+          "line": 137,
+          "text": "<dd>change \"rC (the cycle counter) or rN\" to \"rN\"</dd>"
+        },
+        {
+          "line": 238,
+          "text": "<dt>page 111, line 5 from the bottom (16 Feb 2002)***</dt>"
+        },
+        {
+          "line": 240,
+          "text": "<dt>page 113, line 8 (16 Sep 2001)</dt>"
+        },
+        {
+          "line": 242,
+          "text": "<dt>page 113, line 12 of section 5 (13 Oct 2001)</dt>"
+        },
+        {
+          "line": 309,
+          "text": "<dd>change \"cycle counter\" to \"continuation register\"</dd>"
+        },
+        {
+          "line": 437,
+          "text": "register int off, delay;<br>"
+        }
+      ]
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmixware-current.html",
+      "sha256": "13614aa34f4ad039b12d331064d993292837bc12bf7fd2073ff34bfa41ae9834",
+      "matches": [
+        {
+          "line": 121,
+          "text": "<dt>page 112, line $-9$</dt>"
+        }
+      ]
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmix-upstream-bugs.html",
+      "sha256": "a9b8c36c7fe466afd03a42ac900cd1e3c13250b7bd9ef575d0f331e31960a61a",
+      "matches": [
+        {
+          "line": 108,
+          "text": "        /* white-space: -pre-wrap;  Opera CSS Extension  */"
+        },
+        {
+          "line": 109,
+          "text": "        /* white-space: pre-wrap;   CSS 2.1 Addition  */"
+        },
+        {
+          "line": 110,
+          "text": "\t/* word-wrap: break-word; */"
+        }
+      ]
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmix-upstream-rounding.html",
+      "sha256": "f864c5fc573f7049aaf2d3682c72ee09f78dfb3d7445a19dc891282f99314c1b",
+      "matches": [
+        {
+          "line": 151,
+          "text": "pre {\t white-space:pre-wrap;\t} "
+        }
+      ]
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmix-arith-upstream-warnings.ch",
+      "sha256": "b4a916e0962e2f79828d6afca1a5a40775e82b725f45ec28664a3e66f6b093b4",
+      "matches": []
+    },
+    {
+      "path": "errata/text/all1.txt",
+      "sha256": "b641d6e48aaf2d77fc98a3c4a8a798d8156516b97095ec345a976e65d9c79aef",
+      "matches": [
+        {
+          "line": 279,
+          "text": "Page 112 line before (4)                                                   04 Sep 2024"
+        },
+        {
+          "line": 281,
+          "text": " Page 112 line 2                                                           04 Sep 2024"
+        }
+      ]
+    },
+    {
+      "path": "errata/originals/err1.textxt",
+      "sha256": "f752c0a5fcf49686906e39fa5a1dab28b53adc8226b0a7e1a1b6cf850592bc91",
+      "matches": [
+        {
+          "line": 1337,
+          "text": "page 112, Osaka, 1974"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all1-pre.txt",
+      "sha256": "89d231245ff44164e09a39903faac35a2dc5e89956857abcc974991c99a887e5",
+      "matches": [
+        {
+          "line": 385,
+          "text": "Page 111      repla ement for Fig. 12 and the lines just above and below 21 Mar 2021"
+        },
+        {
+          "line": 400,
+          "text": "Page 112        repla ement for (3)                                                                      21 Mar 2021"
+        },
+        {
+          "line": 407,
+          "text": "Page 112  repla ement for (4) and the line above                                                         21 Mar 2021"
+        },
+        {
+          "line": 413,
+          "text": "Page 112        in (5)                                                                                   21 Mar 2021"
+        },
+        {
+          "line": 420,
+          "text": "Page 112        repla ement for line 3                                                                   21 Mar 2021"
+        },
+        {
+          "line": 424,
+          "text": "Page 112 append a footnote                                                                               21 Mar 2021"
+        },
+        {
+          "line": 430,
+          "text": "Page 113   repla ement for lines 1{12                                                                    21 Mar 2021"
+        },
+        {
+          "line": 456,
+          "text": "Page 113       repla ement for (10)                                                               21 Mar 2021"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all1-prepre.txt",
+      "sha256": "1a3c3ac6137b9e98f427de0a344efca46fd83b7a3e6e8fe2fa38e94525ca0c31",
+      "matches": [
+        {
+          "line": 479,
+          "text": "Page 112 line 10                                                                  20 Mar 2006"
+        },
+        {
+          "line": 482,
+          "text": "Page 113 line 13                                                                  04 Nov 2001"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/err1-2e.txt",
+      "sha256": "1778c2089c0d317e283c6d28203b3a03b8db531c0d23faa9558661074e78a52a",
+      "matches": [
+        {
+          "line": 757,
+          "text": " Page 111 replacement for line 3                                    \u0012     \u0013"
+        },
+        {
+          "line": 769,
+          "text": "xPage 111 line 8                                                                                     15 Nov 1978"
+        },
+        {
+          "line": 773,
+          "text": " Page 112 new wording for exercise 3                            25 Oct 1979"
+        },
+        {
+          "line": 780,
+          "text": " Page 112 new exercise                                                      28 Mar 1995"
+        },
+        {
+          "line": 1506,
+          "text": "for an empty cell wraps around from N to 1 instead of going into an over ow"
+        },
+        {
+          "line": 1513,
+          "text": "becausep we avoid some congestion by not wrapping around. Therefore fewer"
+        }
+      ]
+    }
+  ],
+  "semantic_review": "All relevant contexts read:2011MMIX traffic replacement repeats the same two BN guards and GET/SUBU/PBP loop;2024delay-to-delta spelling correction is applied and unrelated.2011MMIXware interval-counter changes agree with the primary clock contract. Other MMIXware delay is copy_block; CSS wrap and older Volume1 Bernoulli-page changes are unrelated. No reset-loop correction found.",
+  "original_pages": [
+    "images/file-119-p111.png",
+    "images/recovery-delay-120.png",
+    "images/recovery-delay-121.png"
+  ]
+}

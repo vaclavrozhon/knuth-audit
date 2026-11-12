@@ -1,0 +1,42 @@
+{
+  "exercise": "7.2.2.1-197(a,b)",
+  "book_page": 149,
+  "status": "confirmed counterexample in local PDF; no matching public erratum found",
+  "printed_bound": "j <= t_j <= a_n",
+  "proposed_bound": "j <= t_j <= a_j",
+  "counterexample": {
+    "n": 2,
+    "bounds": [
+      1,
+      2
+    ],
+    "allowed_by_printed_bound": [
+      2,
+      2
+    ],
+    "product": "(2 2)(1 2) = (1 2)",
+    "generated_permutation": [
+      2,
+      1
+    ],
+    "violation": "p_1 = 2 > a_1 = 1",
+    "actual_permutations": [
+      [
+        1,
+        2
+      ]
+    ]
+  },
+  "corrected_bounds_tested_by_n": {
+    "1": 1,
+    "2": 2,
+    "3": 5,
+    "4": 14,
+    "5": 42,
+    "6": 132,
+    "7": 429
+  },
+  "total_bound_vectors_tested": 625,
+  "generating_functions_in_answer_c": "both match exact enumeration",
+  "seconds": 4.79
+}

@@ -1,0 +1,6672 @@
+{
+  "checked_at_utc": "2026-11-02T00:22:35.979305+00:00",
+  "source_sha256": "ff9bd7ac07e6357151a27b21a4620d4b21e043e9cbd46c514647316cffe751a9",
+  "native_cutoff_cases": [
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i2 i3:A\ni2 i3\ni1 i2 i3:B\ni1 i2\ni1\ni1 i3:A\ni1 i3\ni1 i3:B\ni2 i3:A\n",
+      "stdout": "1:\n i2 i3:A i1 (1 of 1)\n",
+      "stderr": "(9 options, 2+1 items, 28 entries successfully read)\n new cutoff after option 1:\n i1 i2 i3:A (?)\nAltogether 1 solution, 463+167-12 mems, 11 updates, 2 cleansings, 580 bytes, 2 nodes, ccost 3%.\n",
+      "solutions": 1,
+      "updates": 11,
+      "cleansings": 2,
+      "models": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1\ni2\ni1 i2 i3:A\ni1 i2 i3:B\ni2 i3\ni1 i3:A\ni1 i3\ni2 i3:A\n",
+      "stdout": "1:\n i1 (1 of 1)\n i2 (1 of 1)\n",
+      "stderr": "(8 options, 2+1 items, 24 entries successfully read)\n new cutoff after option 2:\n i2 (1 of 3)\nAltogether 1 solution, 400+141-12 mems, 10 updates, 0 cleansings, 520 bytes, 3 nodes, ccost 6%.\n",
+      "solutions": 1,
+      "updates": 10,
+      "cleansings": 0,
+      "models": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni2\ni1 i2 i3:A\ni2 i3\ni2 i3:B\ni2 i3:A\ni1 i2 i3:B\ni1 i2\n",
+      "stdout": "1:\n i1 i2 i3:A (1 of 1)\n",
+      "stderr": "(7 options, 2+1 items, 22 entries successfully read)\n new cutoff after option 2:\n i1 i2 i3:A (1 of 3)\nAltogether 1 solution, 377+145-12 mems, 10 updates, 1 cleansings, 484 bytes, 2 nodes, ccost 4%.\n",
+      "solutions": 1,
+      "updates": 10,
+      "cleansings": 1,
+      "models": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni2 i3:B\ni1 i3:A\n",
+      "stdout": "",
+      "stderr": "(2 options, 2+1 items, 6 entries successfully read)\nAltogether 0 solutions, 138+81-4 mems, 4 updates, 1 cleansings, 228 bytes, 2 nodes, ccost 10%.\n",
+      "solutions": 0,
+      "updates": 4,
+      "cleansings": 1,
+      "models": []
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1\ni2 i3\ni2\ni1 i3:A\n",
+      "stdout": "1:\n i1 (1 of 1)\n i2 i3 (1 of 1)\n",
+      "stderr": "(4 options, 2+1 items, 10 entries successfully read)\n new cutoff after option 2:\n i2 i3 (1 of 2)\nAltogether 1 solution, 183+106-6 mems, 5 updates, 0 cleansings, 296 bytes, 3 nodes, ccost 8%.\n",
+      "solutions": 1,
+      "updates": 5,
+      "cleansings": 0,
+      "models": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1\ni1 i2\ni2\ni1 i2 i3:B\ni1 i3:A\ni1 i3:B\ni2 i3:A\ni1 i3\ni2 i3:B\n",
+      "stdout": "1:\n i2 i1 (1 of 1)\n",
+      "stderr": "(9 options, 2+1 items, 26 entries successfully read)\n new cutoff after option 2:\n i1 i2 (?)\nAltogether 1 solution, 425+138-12 mems, 10 updates, 0 cleansings, 548 bytes, 2 nodes, ccost 4%.\n",
+      "solutions": 1,
+      "updates": 10,
+      "cleansings": 0,
+      "models": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni2 i3\ni1 i3\ni1 i2\ni1 i2 i3:B\ni2 i3:B\ni1 i3:B\ni2\ni2 i3:A\ni1\n",
+      "stdout": "1:\n i1 i3 (1 of 4)\n i2 (1 of 1)\n2:\n i1 i2 (2 of 2)\n",
+      "stderr": "(9 options, 2+1 items, 26 entries successfully read)\n new cutoff after option 7:\n i2 (1 of 1)\n new cutoff after option 3:\n i1 i2 (2 of 4)\nAltogether 2 solutions, 424+249-16 mems, 14 updates, 0 cleansings, 552 bytes, 4 nodes, ccost 3%.\n",
+      "solutions": 2,
+      "updates": 14,
+      "cleansings": 0,
+      "models": [
+        [
+          1,
+          6
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i3:B\ni1 i2 i3:B\ni1\ni2 i3:B\ni2 i3:A\ni2\n",
+      "stdout": "1:\n i1 i3:B (1 of 3)\n i2 i3:B (1 of 1)\n2:\n i1 i2 i3:B (2 of 2)\n",
+      "stderr": "(6 options, 2+1 items, 17 entries successfully read)\n new cutoff after option 4:\n i2 i3:B (1 of 2)\n new cutoff after option 2:\n i1 i2 i3:B (2 of 3)\nAltogether 2 solutions, 295+195-12 mems, 8 updates, 3 cleansings, 408 bytes, 4 nodes, ccost 4%.\n",
+      "solutions": 2,
+      "updates": 8,
+      "cleansings": 3,
+      "models": [
+        [
+          0,
+          3
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i2 i3:B\ni1\ni2 i3\ni1 i3\n",
+      "stdout": "1:\n i2 i3:B i1 (1 of 1)\n",
+      "stderr": "(4 options, 2+1 items, 12 entries successfully read)\n new cutoff after option 1:\n i1 i2 i3:B (?)\nAltogether 1 solution, 221+111-8 mems, 6 updates, 1 cleansings, 324 bytes, 2 nodes, ccost 5%.\n",
+      "solutions": 1,
+      "updates": 6,
+      "cleansings": 1,
+      "models": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni2\ni1 i3:A\ni2 i3:A\n",
+      "stdout": "1:\n i1 i3:A (1 of 1)\n i2 (1 of 1)\n",
+      "stderr": "(3 options, 2+1 items, 8 entries successfully read)\n new cutoff after option 2:\n i1 i3:A (1 of 1)\nAltogether 1 solution, 162+98-6 mems, 3 updates, 2 cleansings, 264 bytes, 3 nodes, ccost 9%.\n",
+      "solutions": 1,
+      "updates": 3,
+      "cleansings": 2,
+      "models": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni2 i3:B\ni1 i2\ni1\ni1 i2 i3:A\ni1 i2 i3:B\ni2 i3:A\ni1 i3\ni1 i3:A\n",
+      "stdout": "1:\n i2 i3:B (1 of 2)\n i1 (1 of 1)\n2:\n i2 i1 (2 of 2)\n",
+      "stderr": "(8 options, 2+1 items, 25 entries successfully read)\n new cutoff after option 3:\n i1 (1 of 1)\n new cutoff after option 2:\n i1 i2 (?)\nAltogether 2 solutions, 420+199-12 mems, 12 updates, 1 cleansings, 536 bytes, 4 nodes, ccost 4%.\n",
+      "solutions": 2,
+      "updates": 12,
+      "cleansings": 1,
+      "models": [
+        [
+          0,
+          2
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i3:B\ni2 i3:A\ni2\ni1 i2\ni2 i3\ni1 i2 i3:A\ni2 i3:B\ni1 i3\n",
+      "stdout": "1:\n i1 i3:B (1 of 1)\n i2 (1 of 1)\n",
+      "stderr": "(8 options, 2+1 items, 24 entries successfully read)\n new cutoff after option 3:\n i2 (1 of 2)\nAltogether 1 solution, 401+167-10 mems, 9 updates, 2 cleansings, 520 bytes, 3 nodes, ccost 5%.\n",
+      "solutions": 1,
+      "updates": 9,
+      "cleansings": 2,
+      "models": [
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni2 i3\ni1 i3:B\n",
+      "stdout": "",
+      "stderr": "(2 options, 2+1 items, 6 entries successfully read)\nAltogether 0 solutions, 136+81-4 mems, 4 updates, 1 cleansings, 228 bytes, 2 nodes, ccost 10%.\n",
+      "solutions": 0,
+      "updates": 4,
+      "cleansings": 1,
+      "models": []
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni2 i3\ni1 i3:A\ni1 i2 i3:A\ni1 i3\ni2\n",
+      "stdout": "1:\n i1 i3:A (1 of 3)\n i2 (1 of 1)\n2:\n i1 i2 i3:A (2 of 2)\n",
+      "stderr": "(5 options, 2+1 items, 15 entries successfully read)\n new cutoff after option 5:\n i2 (1 of 1)\n new cutoff after option 3:\n i1 i2 i3:A (2 of 3)\nAltogether 2 solutions, 267+199-14 mems, 9 updates, 2 cleansings, 376 bytes, 4 nodes, ccost 4%.\n",
+      "solutions": 2,
+      "updates": 9,
+      "cleansings": 2,
+      "models": [
+        [
+          1,
+          4
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i2\ni1 i3\ni2 i3:A\ni2\n",
+      "stdout": "1:\n i1 i2 (1 of 1)\n",
+      "stderr": "(4 options, 2+1 items, 11 entries successfully read)\n new cutoff after option 1:\n i1 i2 (1 of 2)\nAltogether 1 solution, 202+87-4 mems, 5 updates, 0 cleansings, 308 bytes, 2 nodes, ccost 6%.\n",
+      "solutions": 1,
+      "updates": 5,
+      "cleansings": 0,
+      "models": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i3\ni2 i3:A\ni1 i2\ni1 i3:B\ni2 i3:B\ni1 i3:A\n",
+      "stdout": "1:\n i2 i3:A (1 of 3)\n i1 i3:A (1 of 1)\n2:\n i2 i1 (2 of 2)\n",
+      "stderr": "(6 options, 2+1 items, 18 entries successfully read)\n new cutoff after option 6:\n i1 i3:A (1 of 1)\n new cutoff after option 3:\n i1 i2 (?)\nAltogether 2 solutions, 314+227-14 mems, 11 updates, 2 cleansings, 424 bytes, 4 nodes, ccost 4%.\n",
+      "solutions": 2,
+      "updates": 11,
+      "cleansings": 2,
+      "models": [
+        [
+          1,
+          5
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i2\n",
+      "stdout": "1:\n i1 i2 (1 of 1)\n",
+      "stderr": "(1 options, 2+1 items, 3 entries successfully read)\n new cutoff after option 1:\n i1 i2 (1 of 1)\nAltogether 1 solution, 89+54-0 mems, 3 updates, 0 cleansings, 180 bytes, 2 nodes, ccost 9%.\n",
+      "solutions": 1,
+      "updates": 3,
+      "cleansings": 0,
+      "models": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1\ni1 i3:B\ni1 i3\ni2 i3:A\ni2 i3:B\ni1 i2 i3:B\ni1 i2\n",
+      "stdout": "1:\n i2 i3:A (1 of 1)\n i1 (1 of 1)\n",
+      "stderr": "(7 options, 2+1 items, 21 entries successfully read)\n new cutoff after option 4:\n i2 i3:A (1 of 4)\nAltogether 1 solution, 356+161-8 mems, 9 updates, 1 cleansings, 472 bytes, 3 nodes, ccost 5%.\n",
+      "solutions": 1,
+      "updates": 9,
+      "cleansings": 1,
+      "models": [
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni2\ni1 i2 i3:A\ni1 i3:A\ni2 i3:B\ni1\ni1 i2\ni1 i3:B\n",
+      "stdout": "1:\n i2 (1 of 2)\n i1 i3:A (1 of 1)\n2:\n i2 i3:A i1 (2 of 2)\n",
+      "stderr": "(7 options, 2+1 items, 20 entries successfully read)\n new cutoff after option 3:\n i1 i3:A (1 of 3)\n new cutoff after option 2:\n i1 i2 i3:A (?)\nAltogether 2 solutions, 336+199-14 mems, 9 updates, 3 cleansings, 456 bytes, 4 nodes, ccost 4%.\n",
+      "solutions": 2,
+      "updates": 9,
+      "cleansings": 3,
+      "models": [
+        [
+          0,
+          2
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i3\ni1 i3:A\ni1 i2 i3:A\ni2 i3:A\ni1 i2\n",
+      "stdout": "1:\n i2 i3:A i1 (1 of 1)\n",
+      "stderr": "(5 options, 2+1 items, 16 entries successfully read)\n new cutoff after option 3:\n i1 i2 i3:A (?)\nAltogether 1 solution, 287+132-6 mems, 7 updates, 2 cleansings, 388 bytes, 2 nodes, ccost 4%.\n",
+      "solutions": 1,
+      "updates": 7,
+      "cleansings": 2,
+      "models": [
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i2 i3:B\ni1 i3\ni1 i3:B\ni2 i3:A\n",
+      "stdout": "1:\n i2 i3:B i1 (1 of 1)\n",
+      "stderr": "(4 options, 2+1 items, 13 entries successfully read)\n new cutoff after option 1:\n i1 i2 i3:B (?)\nAltogether 1 solution, 245+116-8 mems, 6 updates, 2 cleansings, 340 bytes, 2 nodes, ccost 5%.\n",
+      "solutions": 1,
+      "updates": 6,
+      "cleansings": 2,
+      "models": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\n",
+      "stdout": "",
+      "stderr": "(0 options, 2+1 items, 0 entries successfully read)\nAltogether 0 solutions, 47+13-0 mems, 1 updates, 0 cleansings, 128 bytes, 1 nodes, ccost 23%.\n",
+      "solutions": 0,
+      "updates": 1,
+      "cleansings": 0,
+      "models": []
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i3:A\ni1\ni2 i3:B\ni1 i2\ni1 i2 i3:A\ni1 i3\ni1 i2 i3:B\ni2\ni2 i3\n",
+      "stdout": "1:\n i1 i3:A (1 of 6)\n i2 (1 of 1)\n2:\n i1 (2 of 2)\n i2 i3:B (1 of 1)\n",
+      "stderr": "(9 options, 2+1 items, 27 entries successfully read)\n new cutoff after option 8:\n i2 (1 of 1)\n new cutoff after option 3:\n i2 i3:B (1 of 2)\nAltogether 2 solutions, 442+243-16 mems, 13 updates, 2 cleansings, 568 bytes, 5 nodes, ccost 5%.\n",
+      "solutions": 2,
+      "updates": 13,
+      "cleansings": 2,
+      "models": [
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1\ni1 i3\ni2 i3:A\ni1 i3:A\ni1 i2 i3:A\ni1 i2\ni2\ni1 i3:B\n",
+      "stdout": "1:\n i2 i3:A (1 of 1)\n i1 (1 of 1)\n",
+      "stderr": "(8 options, 2+1 items, 23 entries successfully read)\n new cutoff after option 3:\n i2 i3:A (1 of 4)\nAltogether 1 solution, 379+164-8 mems, 8 updates, 2 cleansings, 504 bytes, 3 nodes, ccost 5%.\n",
+      "solutions": 1,
+      "updates": 8,
+      "cleansings": 2,
+      "models": [
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i3:A\ni1\ni2 i3:B\ni2 i3:A\ni1 i2 i3:A\n",
+      "stdout": "1:\n i1 i3:A (1 of 2)\n i2 i3:A (1 of 1)\n2:\n i1 (2 of 2)\n i2 i3:B (1 of 1)\n",
+      "stderr": "(5 options, 2+1 items, 15 entries successfully read)\n new cutoff after option 4:\n i2 i3:A (1 of 1)\n new cutoff after option 3:\n i2 i3:B (1 of 2)\nAltogether 2 solutions, 271+210-12 mems, 9 updates, 3 cleansings, 376 bytes, 5 nodes, ccost 6%.\n",
+      "solutions": 2,
+      "updates": 9,
+      "cleansings": 3,
+      "models": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\n",
+      "stdout": "",
+      "stderr": "(0 options, 2+1 items, 0 entries successfully read)\nAltogether 0 solutions, 47+13-0 mems, 1 updates, 0 cleansings, 128 bytes, 1 nodes, ccost 23%.\n",
+      "solutions": 0,
+      "updates": 1,
+      "cleansings": 0,
+      "models": []
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i2\n",
+      "stdout": "1:\n i1 i2 (1 of 1)\n",
+      "stderr": "(1 options, 2+1 items, 3 entries successfully read)\n new cutoff after option 1:\n i1 i2 (1 of 1)\nAltogether 1 solution, 89+54-0 mems, 3 updates, 0 cleansings, 180 bytes, 2 nodes, ccost 9%.\n",
+      "solutions": 1,
+      "updates": 3,
+      "cleansings": 0,
+      "models": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1\ni1 i2\ni1 i3:B\ni1 i3:A\ni1 i2 i3:B\ni2\ni2 i3\ni1 i3\n",
+      "stdout": "1:\n i2 i1 (1 of 1)\n",
+      "stderr": "(8 options, 2+1 items, 23 entries successfully read)\n new cutoff after option 2:\n i1 i2 (?)\nAltogether 1 solution, 377+128-10 mems, 9 updates, 0 cleansings, 500 bytes, 2 nodes, ccost 4%.\n",
+      "solutions": 1,
+      "updates": 9,
+      "cleansings": 0,
+      "models": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni2\ni1 i2\n",
+      "stdout": "1:\n i1 i2 (1 of 1)\n",
+      "stderr": "(2 options, 2+1 items, 5 entries successfully read)\n new cutoff after option 2:\n i1 i2 (1 of 1)\nAltogether 1 solution, 113+60-0 mems, 3 updates, 0 cleansings, 212 bytes, 2 nodes, ccost 8%.\n",
+      "solutions": 1,
+      "updates": 3,
+      "cleansings": 0,
+      "models": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni2 i3:B\ni2\ni1 i3:A\ni1 i2 i3:B\ni2 i3\n",
+      "stdout": "1:\n i1 i3:A (1 of 1)\n i2 (1 of 1)\n",
+      "stderr": "(5 options, 2+1 items, 15 entries successfully read)\n new cutoff after option 3:\n i1 i3:A (1 of 2)\nAltogether 1 solution, 270+136-8 mems, 7 updates, 1 cleansings, 376 bytes, 3 nodes, ccost 6%.\n",
+      "solutions": 1,
+      "updates": 7,
+      "cleansings": 1,
+      "models": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i3:B\ni2 i3\ni1 i2 i3:B\ni1 i3:A\ni2 i3:A\ni2\ni2 i3:B\ni1 i2\n",
+      "stdout": "1:\n i1 i3:B (1 of 3)\n i2 (1 of 1)\n2:\n i1 i2 i3:B (2 of 2)\n",
+      "stderr": "(8 options, 2+1 items, 24 entries successfully read)\n new cutoff after option 6:\n i2 (1 of 2)\n new cutoff after option 3:\n i1 i2 i3:B (2 of 3)\nAltogether 2 solutions, 403+261-18 mems, 12 updates, 3 cleansings, 520 bytes, 4 nodes, ccost 3%.\n",
+      "solutions": 2,
+      "updates": 12,
+      "cleansings": 3,
+      "models": [
+        [
+          0,
+          5
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i2\ni1 i2 i3:A\ni1 i3\ni1 i3:A\ni1\ni2 i3\n",
+      "stdout": "1:\n i2 i1 (1 of 1)\n",
+      "stderr": "(6 options, 2+1 items, 18 entries successfully read)\n new cutoff after option 1:\n i1 i2 (?)\nAltogether 1 solution, 308+112-8 mems, 8 updates, 0 cleansings, 420 bytes, 2 nodes, ccost 5%.\n",
+      "solutions": 1,
+      "updates": 8,
+      "cleansings": 0,
+      "models": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i2\n",
+      "stdout": "1:\n i1 i2 (1 of 1)\n",
+      "stderr": "(1 options, 2+1 items, 3 entries successfully read)\n new cutoff after option 1:\n i1 i2 (1 of 1)\nAltogether 1 solution, 89+54-0 mems, 3 updates, 0 cleansings, 180 bytes, 2 nodes, ccost 9%.\n",
+      "solutions": 1,
+      "updates": 3,
+      "cleansings": 0,
+      "models": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\n",
+      "stdout": "",
+      "stderr": "(0 options, 2+1 items, 0 entries successfully read)\nAltogether 0 solutions, 47+13-0 mems, 1 updates, 0 cleansings, 128 bytes, 1 nodes, ccost 23%.\n",
+      "solutions": 0,
+      "updates": 1,
+      "cleansings": 0,
+      "models": []
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i3:B\ni1 i3:A\ni2 i3:B\ni2 i3:A\ni1 i2 i3:B\ni1\n",
+      "stdout": "1:\n i2 i3:B (1 of 1)\n i1 i3:B (1 of 1)\n",
+      "stderr": "(6 options, 2+1 items, 18 entries successfully read)\n new cutoff after option 3:\n i2 i3:B (1 of 3)\nAltogether 1 solution, 316+150-8 mems, 7 updates, 2 cleansings, 424 bytes, 3 nodes, ccost 6%.\n",
+      "solutions": 1,
+      "updates": 7,
+      "cleansings": 2,
+      "models": [
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i3:A\ni1 i3\ni2 i3:B\n",
+      "stdout": "",
+      "stderr": "(3 options, 2+1 items, 9 entries successfully read)\nAltogether 0 solutions, 181+101-4 mems, 5 updates, 1 cleansings, 276 bytes, 2 nodes, ccost 8%.\n",
+      "solutions": 0,
+      "updates": 5,
+      "cleansings": 1,
+      "models": []
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni2 i3:B\ni1 i3:B\ni1 i2 i3:A\ni1 i2\ni2\n",
+      "stdout": "1:\n i1 i3:B (1 of 1)\n i2 i3:B (1 of 1)\n",
+      "stderr": "(5 options, 2+1 items, 15 entries successfully read)\n new cutoff after option 2:\n i1 i3:B (1 of 3)\nAltogether 1 solution, 268+129-6 mems, 6 updates, 2 cleansings, 376 bytes, 3 nodes, ccost 7%.\n",
+      "solutions": 1,
+      "updates": 6,
+      "cleansings": 2,
+      "models": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni2 i3\ni1 i3\n",
+      "stdout": "",
+      "stderr": "(2 options, 2+1 items, 6 entries successfully read)\nAltogether 0 solutions, 134+83-4 mems, 5 updates, 0 cleansings, 228 bytes, 2 nodes, ccost 10%.\n",
+      "solutions": 0,
+      "updates": 5,
+      "cleansings": 0,
+      "models": []
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i2 i3:B\ni2 i3:A\ni2 i3:B\ni1 i3:B\ni1 i2 i3:A\ni1 i3\ni2\n",
+      "stdout": "1:\n i1 i2 i3:B (1 of 1)\n",
+      "stderr": "(7 options, 2+1 items, 22 entries successfully read)\n new cutoff after option 1:\n i1 i2 i3:B (1 of 4)\nAltogether 1 solution, 379+143-14 mems, 10 updates, 1 cleansings, 484 bytes, 2 nodes, ccost 4%.\n",
+      "solutions": 1,
+      "updates": 10,
+      "cleansings": 1,
+      "models": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1\ni1 i3:B\ni2 i3:A\ni1 i2\ni2\ni2 i3\ni1 i3\ni1 i2 i3:A\ni1 i2 i3:B\n",
+      "stdout": "1:\n i1 (1 of 2)\n i2 i3:A (1 of 1)\n",
+      "stderr": "(9 options, 2+1 items, 27 entries successfully read)\n new cutoff after option 3:\n i2 i3:A (1 of 3)\nAltogether 1 solution, 442+221-16 mems, 13 updates, 2 cleansings, 568 bytes, 4 nodes, ccost 5%.\n",
+      "solutions": 1,
+      "updates": 13,
+      "cleansings": 2,
+      "models": [
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni2 i3:A\ni1 i3:B\ni2 i3:B\ni1 i2\ni2 i3\ni1 i3\ni1 i2 i3:B\n",
+      "stdout": "1:\n i1 i3:B (1 of 1)\n i2 i3:B (1 of 1)\n",
+      "stderr": "(7 options, 2+1 items, 22 entries successfully read)\n new cutoff after option 3:\n i2 i3:B (1 of 1)\nAltogether 1 solution, 377+165-10 mems, 9 updates, 2 cleansings, 488 bytes, 3 nodes, ccost 5%.\n",
+      "solutions": 1,
+      "updates": 9,
+      "cleansings": 2,
+      "models": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni2 i3\ni1 i2\ni2 i3:B\ni1\ni1 i3\ni1 i3:A\ni1 i3:B\ni2 i3:A\n",
+      "stdout": "1:\n i2 i3 (1 of 3)\n i1 (1 of 1)\n2:\n i2 i1 (2 of 2)\n",
+      "stderr": "(8 options, 2+1 items, 23 entries successfully read)\n new cutoff after option 4:\n i1 (1 of 1)\n new cutoff after option 2:\n i1 i2 (?)\nAltogether 2 solutions, 381+193-10 mems, 11 updates, 0 cleansings, 504 bytes, 4 nodes, ccost 4%.\n",
+      "solutions": 2,
+      "updates": 11,
+      "cleansings": 0,
+      "models": [
+        [
+          0,
+          3
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i2 i3:B\n",
+      "stdout": "1:\n i1 i2 i3:B (1 of 1)\n",
+      "stderr": "(1 options, 2+1 items, 4 entries successfully read)\n new cutoff after option 1:\n i1 i2 i3:B (1 of 1)\nAltogether 1 solution, 111+73-4 mems, 4 updates, 1 cleansings, 196 bytes, 2 nodes, ccost 7%.\n",
+      "solutions": 1,
+      "updates": 4,
+      "cleansings": 1,
+      "models": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni2 i3:A\ni2 i3\ni1 i2\ni1 i3:A\ni1 i2 i3:B\n",
+      "stdout": "1:\n i1 i2 (1 of 1)\n",
+      "stderr": "(5 options, 2+1 items, 16 entries successfully read)\n new cutoff after option 3:\n i1 i2 (1 of 3)\nAltogether 1 solution, 288+121-12 mems, 8 updates, 0 cleansings, 388 bytes, 2 nodes, ccost 5%.\n",
+      "solutions": 1,
+      "updates": 8,
+      "cleansings": 0,
+      "models": [
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni2\ni1\ni2 i3:B\ni2 i3\ni2 i3:A\n",
+      "stdout": "1:\n i1 (1 of 1)\n i2 (1 of 1)\n",
+      "stderr": "(5 options, 2+1 items, 13 entries successfully read)\n new cutoff after option 2:\n i1 (1 of 1)\nAltogether 1 solution, 230+95-6 mems, 5 updates, 0 cleansings, 344 bytes, 3 nodes, ccost 9%.\n",
+      "solutions": 1,
+      "updates": 5,
+      "cleansings": 0,
+      "models": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i2\ni1 i3:A\ni1 i3:B\ni2 i3:B\ni1 i2 i3:B\ni2 i3:A\ni1\ni2 i3\n",
+      "stdout": "1:\n i1 i2 (1 of 1)\n",
+      "stderr": "(8 options, 2+1 items, 24 entries successfully read)\n new cutoff after option 1:\n i1 i2 (1 of 5)\nAltogether 1 solution, 402+133-12 mems, 10 updates, 0 cleansings, 516 bytes, 2 nodes, ccost 4%.\n",
+      "solutions": 1,
+      "updates": 10,
+      "cleansings": 0,
+      "models": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\n",
+      "stdout": "",
+      "stderr": "(0 options, 2+1 items, 0 entries successfully read)\nAltogether 0 solutions, 47+13-0 mems, 1 updates, 0 cleansings, 128 bytes, 1 nodes, ccost 23%.\n",
+      "solutions": 0,
+      "updates": 1,
+      "cleansings": 0,
+      "models": []
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i2 i3:B\ni1 i2\ni2\ni1 i3:B\ni1\ni1 i3\ni2 i3:B\n",
+      "stdout": "1:\n i2 i3:B i1 (1 of 1)\n",
+      "stderr": "(7 options, 2+1 items, 20 entries successfully read)\n new cutoff after option 1:\n i1 i2 i3:B (?)\nAltogether 1 solution, 334+134-8 mems, 7 updates, 2 cleansings, 452 bytes, 2 nodes, ccost 4%.\n",
+      "solutions": 1,
+      "updates": 7,
+      "cleansings": 2,
+      "models": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i3:A\ni1 i2\ni2 i3:B\n",
+      "stdout": "1:\n i1 i2 (2 of 2)\n",
+      "stderr": "(3 options, 2+1 items, 9 entries successfully read)\n new cutoff after option 2:\n i1 i2 (2 of 2)\nAltogether 1 solution, 180+136-6 mems, 7 updates, 1 cleansings, 276 bytes, 3 nodes, ccost 6%.\n",
+      "solutions": 1,
+      "updates": 7,
+      "cleansings": 1,
+      "models": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i2 i3:A\ni2 i3:A\ni1 i2 i3:B\ni1 i2\ni1 i3:A\ni2\ni1\n",
+      "stdout": "1:\n i1 i2 i3:A (1 of 1)\n",
+      "stderr": "(7 options, 2+1 items, 21 entries successfully read)\n new cutoff after option 1:\n i1 i2 i3:A (1 of 5)\nAltogether 1 solution, 355+137-10 mems, 9 updates, 1 cleansings, 468 bytes, 2 nodes, ccost 4%.\n",
+      "solutions": 1,
+      "updates": 9,
+      "cleansings": 1,
+      "models": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\n",
+      "stdout": "",
+      "stderr": "(0 options, 2+1 items, 0 entries successfully read)\nAltogether 0 solutions, 47+13-0 mems, 1 updates, 0 cleansings, 128 bytes, 1 nodes, ccost 23%.\n",
+      "solutions": 0,
+      "updates": 1,
+      "cleansings": 0,
+      "models": []
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni2 i3:B\ni1 i2\ni1 i2 i3:A\n",
+      "stdout": "1:\n i1 i2 (1 of 1)\n",
+      "stderr": "(3 options, 2+1 items, 10 entries successfully read)\n new cutoff after option 2:\n i1 i2 (1 of 2)\nAltogether 1 solution, 199+93-6 mems, 6 updates, 0 cleansings, 292 bytes, 2 nodes, ccost 6%.\n",
+      "solutions": 1,
+      "updates": 6,
+      "cleansings": 0,
+      "models": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni2 i3\ni1\ni1 i3:B\ni2 i3:B\ni2 i3:A\ni1 i2 i3:B\ni1 i2\ni1 i3\n",
+      "stdout": "1:\n i1 (1 of 1)\n i2 i3 (1 of 1)\n",
+      "stderr": "(8 options, 2+1 items, 24 entries successfully read)\n new cutoff after option 2:\n i1 (1 of 5)\nAltogether 1 solution, 400+158-14 mems, 11 updates, 0 cleansings, 520 bytes, 3 nodes, ccost 6%.\n",
+      "solutions": 1,
+      "updates": 11,
+      "cleansings": 0,
+      "models": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni2 i3\ni1 i2\ni2 i3:B\n",
+      "stdout": "1:\n i1 i2 (1 of 1)\n",
+      "stderr": "(3 options, 2+1 items, 9 entries successfully read)\n new cutoff after option 2:\n i1 i2 (1 of 1)\nAltogether 1 solution, 179+88-6 mems, 5 updates, 0 cleansings, 276 bytes, 2 nodes, ccost 6%.\n",
+      "solutions": 1,
+      "updates": 5,
+      "cleansings": 0,
+      "models": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni2 i3:B\ni1\ni1 i3\ni1 i2 i3:B\ni1 i2 i3:A\ni1 i2\n",
+      "stdout": "1:\n i2 i3:B (1 of 1)\n i1 (1 of 1)\n",
+      "stderr": "(6 options, 2+1 items, 19 entries successfully read)\n new cutoff after option 2:\n i1 (1 of 1)\nAltogether 1 solution, 329+141-10 mems, 9 updates, 1 cleansings, 440 bytes, 3 nodes, ccost 6%.\n",
+      "solutions": 1,
+      "updates": 9,
+      "cleansings": 1,
+      "models": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i2 i3:A\n",
+      "stdout": "1:\n i1 i2 i3:A (1 of 1)\n",
+      "stderr": "(1 options, 2+1 items, 4 entries successfully read)\n new cutoff after option 1:\n i1 i2 i3:A (1 of 1)\nAltogether 1 solution, 111+73-4 mems, 4 updates, 1 cleansings, 196 bytes, 2 nodes, ccost 7%.\n",
+      "solutions": 1,
+      "updates": 4,
+      "cleansings": 1,
+      "models": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\n",
+      "stdout": "",
+      "stderr": "(0 options, 2+1 items, 0 entries successfully read)\nAltogether 0 solutions, 47+13-0 mems, 1 updates, 0 cleansings, 128 bytes, 1 nodes, ccost 23%.\n",
+      "solutions": 0,
+      "updates": 1,
+      "cleansings": 0,
+      "models": []
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i2\ni2\ni2 i3\ni1 i2 i3:A\ni1 i3:A\ni2 i3:A\ni2 i3:B\ni1 i3\n",
+      "stdout": "1:\n i1 i2 (1 of 1)\n",
+      "stderr": "(8 options, 2+1 items, 24 entries successfully read)\n new cutoff after option 1:\n i1 i2 (1 of 4)\nAltogether 1 solution, 401+133-12 mems, 10 updates, 0 cleansings, 516 bytes, 2 nodes, ccost 4%.\n",
+      "solutions": 1,
+      "updates": 10,
+      "cleansings": 0,
+      "models": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i3\ni2 i3\ni1 i2 i3:B\ni1\ni2\n",
+      "stdout": "1:\n i1 i3 (1 of 3)\n i2 (1 of 1)\n2:\n i1 i2 i3:B (2 of 2)\n",
+      "stderr": "(5 options, 2+1 items, 14 entries successfully read)\n new cutoff after option 5:\n i2 (1 of 1)\n new cutoff after option 3:\n i1 i2 i3:B (2 of 3)\nAltogether 2 solutions, 245+194-12 mems, 9 updates, 1 cleansings, 360 bytes, 4 nodes, ccost 4%.\n",
+      "solutions": 2,
+      "updates": 9,
+      "cleansings": 1,
+      "models": [
+        [
+          0,
+          4
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1\ni2\ni1 i2\ni2 i3\ni2 i3:A\ni1 i3:B\ni1 i3:A\ni1 i2 i3:B\ni1 i3\n",
+      "stdout": "1:\n i2 (1 of 1)\n i1 (1 of 1)\n",
+      "stderr": "(9 options, 2+1 items, 26 entries successfully read)\n new cutoff after option 2:\n i2 (1 of 5)\nAltogether 1 solution, 423+145-12 mems, 10 updates, 0 cleansings, 552 bytes, 3 nodes, ccost 6%.\n",
+      "solutions": 1,
+      "updates": 10,
+      "cleansings": 0,
+      "models": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni2\ni1 i2 i3:A\ni1 i3:B\ni1 i2 i3:B\ni2 i3:A\n",
+      "stdout": "1:\n i1 i2 i3:A (1 of 1)\n",
+      "stderr": "(5 options, 2+1 items, 16 entries successfully read)\n new cutoff after option 2:\n i1 i2 i3:A (1 of 3)\nAltogether 1 solution, 290+125-10 mems, 8 updates, 1 cleansings, 388 bytes, 2 nodes, ccost 4%.\n",
+      "solutions": 1,
+      "updates": 8,
+      "cleansings": 1,
+      "models": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i2 i3:A\n",
+      "stdout": "1:\n i1 i2 i3:A (1 of 1)\n",
+      "stderr": "(1 options, 2+1 items, 4 entries successfully read)\n new cutoff after option 1:\n i1 i2 i3:A (1 of 1)\nAltogether 1 solution, 111+73-4 mems, 4 updates, 1 cleansings, 196 bytes, 2 nodes, ccost 7%.\n",
+      "solutions": 1,
+      "updates": 4,
+      "cleansings": 1,
+      "models": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1\n",
+      "stdout": "",
+      "stderr": "(1 options, 2+1 items, 2 entries successfully read)\nAltogether 0 solutions, 70+15-0 mems, 1 updates, 0 cleansings, 160 bytes, 1 nodes, ccost 33%.\n",
+      "solutions": 0,
+      "updates": 1,
+      "cleansings": 0,
+      "models": []
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\n",
+      "stdout": "",
+      "stderr": "(0 options, 2+1 items, 0 entries successfully read)\nAltogether 0 solutions, 47+13-0 mems, 1 updates, 0 cleansings, 128 bytes, 1 nodes, ccost 23%.\n",
+      "solutions": 0,
+      "updates": 1,
+      "cleansings": 0,
+      "models": []
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i3:B\ni2 i3\ni1\n",
+      "stdout": "1:\n i2 i3 (1 of 1)\n i1 (1 of 1)\n",
+      "stderr": "(3 options, 2+1 items, 8 entries successfully read)\n new cutoff after option 3:\n i1 (1 of 1)\nAltogether 1 solution, 159+101-4 mems, 5 updates, 0 cleansings, 264 bytes, 3 nodes, ccost 8%.\n",
+      "solutions": 1,
+      "updates": 5,
+      "cleansings": 0,
+      "models": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i2 i3:B\ni2 i3\ni2 i3:B\n",
+      "stdout": "1:\n i1 i2 i3:B (1 of 1)\n",
+      "stderr": "(3 options, 2+1 items, 10 entries successfully read)\n new cutoff after option 1:\n i1 i2 i3:B (1 of 1)\nAltogether 1 solution, 201+99-8 mems, 6 updates, 1 cleansings, 292 bytes, 2 nodes, ccost 5%.\n",
+      "solutions": 1,
+      "updates": 6,
+      "cleansings": 1,
+      "models": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1\n",
+      "stdout": "",
+      "stderr": "(1 options, 2+1 items, 2 entries successfully read)\nAltogether 0 solutions, 70+15-0 mems, 1 updates, 0 cleansings, 160 bytes, 1 nodes, ccost 33%.\n",
+      "solutions": 0,
+      "updates": 1,
+      "cleansings": 0,
+      "models": []
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i2\ni2\n",
+      "stdout": "1:\n i1 i2 (1 of 1)\n",
+      "stderr": "(2 options, 2+1 items, 5 entries successfully read)\n new cutoff after option 1:\n i1 i2 (1 of 1)\nAltogether 1 solution, 113+63-0 mems, 3 updates, 0 cleansings, 212 bytes, 2 nodes, ccost 8%.\n",
+      "solutions": 1,
+      "updates": 3,
+      "cleansings": 0,
+      "models": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni2 i3\ni2 i3:A\n",
+      "stdout": "",
+      "stderr": "(2 options, 2+1 items, 6 entries successfully read)\nAltogether 0 solutions, 137+13-0 mems, 1 updates, 0 cleansings, 224 bytes, 1 nodes, ccost 23%.\n",
+      "solutions": 0,
+      "updates": 1,
+      "cleansings": 0,
+      "models": []
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni2 i3\ni1 i3:A\ni1 i3\ni2\ni1\ni1 i2 i3:B\ni2 i3:A\n",
+      "stdout": "1:\n i1 i3:A (1 of 2)\n i2 (1 of 1)\n2:\n i1 i3 (2 of 2)\n i2 (1 of 1)\n",
+      "stderr": "(7 options, 2+1 items, 20 entries successfully read)\n new cutoff after option 4:\n i2 (1 of 2)\nAltogether 2 solutions, 336+223-12 mems, 10 updates, 2 cleansings, 456 bytes, 5 nodes, ccost 5%.\n",
+      "solutions": 2,
+      "updates": 10,
+      "cleansings": 2,
+      "models": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i3\ni1 i2\ni2 i3:B\n",
+      "stdout": "1:\n i1 i2 (2 of 2)\n",
+      "stderr": "(3 options, 2+1 items, 9 entries successfully read)\n new cutoff after option 2:\n i1 i2 (2 of 2)\nAltogether 1 solution, 178+138-6 mems, 8 updates, 0 cleansings, 276 bytes, 3 nodes, ccost 6%.\n",
+      "solutions": 1,
+      "updates": 8,
+      "cleansings": 0,
+      "models": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1\ni1 i3:A\ni1 i2\ni1 i2 i3:B\ni1 i2 i3:A\ni2\ni2 i3:A\ni1 i3\ni2 i3\n",
+      "stdout": "1:\n i1 (1 of 5)\n i2 (1 of 1)\n2:\n i1 i3:A (2 of 5)\n i2 (1 of 1)\n3:\n i1 i2 (3 of 3)\n",
+      "stderr": "(9 options, 2+1 items, 27 entries successfully read)\n new cutoff after option 6:\n i2 (1 of 3)\n new cutoff after option 3:\n i1 i2 (3 of 5)\nAltogether 3 solutions, 442+244-14 mems, 13 updates, 1 cleansings, 568 bytes, 6 nodes, ccost 5%.\n",
+      "solutions": 3,
+      "updates": 13,
+      "cleansings": 1,
+      "models": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i2 i3:A\ni2 i3\n",
+      "stdout": "1:\n i1 i2 i3:A (1 of 1)\n",
+      "stderr": "(2 options, 2+1 items, 7 entries successfully read)\n new cutoff after option 1:\n i1 i2 i3:A (1 of 1)\nAltogether 1 solution, 155+89-6 mems, 5 updates, 1 cleansings, 244 bytes, 2 nodes, ccost 6%.\n",
+      "solutions": 1,
+      "updates": 5,
+      "cleansings": 1,
+      "models": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\n",
+      "stdout": "",
+      "stderr": "(0 options, 2+1 items, 0 entries successfully read)\nAltogether 0 solutions, 47+13-0 mems, 1 updates, 0 cleansings, 128 bytes, 1 nodes, ccost 23%.\n",
+      "solutions": 0,
+      "updates": 1,
+      "cleansings": 0,
+      "models": []
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni2 i3\ni1\ni1 i3:A\ni1 i3:B\ni1 i2 i3:A\n",
+      "stdout": "1:\n i2 i3 (1 of 1)\n i1 (1 of 1)\n",
+      "stderr": "(5 options, 2+1 items, 15 entries successfully read)\n new cutoff after option 2:\n i1 (1 of 1)\nAltogether 1 solution, 268+128-8 mems, 8 updates, 0 cleansings, 376 bytes, 3 nodes, ccost 7%.\n",
+      "solutions": 1,
+      "updates": 8,
+      "cleansings": 0,
+      "models": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni2 i3:A\ni2 i3\n",
+      "stdout": "",
+      "stderr": "(2 options, 2+1 items, 6 entries successfully read)\nAltogether 0 solutions, 137+13-0 mems, 1 updates, 0 cleansings, 224 bytes, 1 nodes, ccost 23%.\n",
+      "solutions": 0,
+      "updates": 1,
+      "cleansings": 0,
+      "models": []
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1\ni1 i3:B\n",
+      "stdout": "",
+      "stderr": "(2 options, 2+1 items, 5 entries successfully read)\nAltogether 0 solutions, 115+15-0 mems, 1 updates, 0 cleansings, 208 bytes, 1 nodes, ccost 33%.\n",
+      "solutions": 0,
+      "updates": 1,
+      "cleansings": 0,
+      "models": []
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i3:B\ni1 i3\ni1 i2 i3:B\ni2 i3\n",
+      "stdout": "1:\n i2 i3:B i1 (1 of 1)\n",
+      "stderr": "(4 options, 2+1 items, 13 entries successfully read)\n new cutoff after option 3:\n i1 i2 i3:B (?)\nAltogether 1 solution, 243+121-6 mems, 6 updates, 2 cleansings, 340 bytes, 2 nodes, ccost 4%.\n",
+      "solutions": 1,
+      "updates": 6,
+      "cleansings": 2,
+      "models": [
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni2 i3:A\ni2\n",
+      "stdout": "",
+      "stderr": "(2 options, 2+1 items, 5 entries successfully read)\nAltogether 0 solutions, 117+13-0 mems, 1 updates, 0 cleansings, 208 bytes, 1 nodes, ccost 23%.\n",
+      "solutions": 0,
+      "updates": 1,
+      "cleansings": 0,
+      "models": []
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i3\n",
+      "stdout": "",
+      "stderr": "(1 options, 2+1 items, 3 entries successfully read)\nAltogether 0 solutions, 90+15-0 mems, 1 updates, 0 cleansings, 176 bytes, 1 nodes, ccost 33%.\n",
+      "solutions": 0,
+      "updates": 1,
+      "cleansings": 0,
+      "models": []
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i2 i3:B\ni1 i3:A\n",
+      "stdout": "1:\n i2 i3:B i1 (1 of 1)\n",
+      "stderr": "(2 options, 2+1 items, 7 entries successfully read)\n new cutoff after option 1:\n i1 i2 i3:B (?)\nAltogether 1 solution, 156+89-6 mems, 5 updates, 1 cleansings, 244 bytes, 2 nodes, ccost 6%.\n",
+      "solutions": 1,
+      "updates": 5,
+      "cleansings": 1,
+      "models": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i2\ni1 i3:B\n",
+      "stdout": "1:\n i2 i1 (1 of 1)\n",
+      "stderr": "(2 options, 2+1 items, 6 entries successfully read)\n new cutoff after option 1:\n i1 i2 (?)\nAltogether 1 solution, 134+68-2 mems, 4 updates, 0 cleansings, 228 bytes, 2 nodes, ccost 8%.\n",
+      "solutions": 1,
+      "updates": 4,
+      "cleansings": 0,
+      "models": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni2 i3:A\ni1 i3:B\ni1 i3:A\n",
+      "stdout": "1:\n i2 i3:A (1 of 1)\n i1 i3:A (1 of 1)\n",
+      "stderr": "(3 options, 2+1 items, 9 entries successfully read)\n new cutoff after option 3:\n i1 i3:A (1 of 1)\nAltogether 1 solution, 183+110-4 mems, 4 updates, 2 cleansings, 280 bytes, 3 nodes, ccost 8%.\n",
+      "solutions": 1,
+      "updates": 4,
+      "cleansings": 2,
+      "models": [
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni2 i3:B\ni1 i2 i3:B\ni1 i3:B\ni1 i3\ni2 i3\ni1\n",
+      "stdout": "1:\n i2 i3:B (1 of 2)\n i1 i3:B (1 of 1)\n2:\n i2 i3:B i1 (2 of 2)\n",
+      "stderr": "(6 options, 2+1 items, 18 entries successfully read)\n new cutoff after option 3:\n i1 i3:B (1 of 2)\n new cutoff after option 2:\n i1 i2 i3:B (?)\nAltogether 2 solutions, 312+203-14 mems, 8 updates, 4 cleansings, 424 bytes, 4 nodes, ccost 4%.\n",
+      "solutions": 2,
+      "updates": 8,
+      "cleansings": 4,
+      "models": [
+        [
+          0,
+          2
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\n",
+      "stdout": "",
+      "stderr": "(0 options, 2+1 items, 0 entries successfully read)\nAltogether 0 solutions, 47+13-0 mems, 1 updates, 0 cleansings, 128 bytes, 1 nodes, ccost 23%.\n",
+      "solutions": 0,
+      "updates": 1,
+      "cleansings": 0,
+      "models": []
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni2\ni1 i2\ni1 i3\ni2 i3:B\ni2 i3:A\n",
+      "stdout": "1:\n i1 i2 (1 of 1)\n",
+      "stderr": "(5 options, 2+1 items, 14 entries successfully read)\n new cutoff after option 2:\n i1 i2 (1 of 2)\nAltogether 1 solution, 248+99-6 mems, 6 updates, 0 cleansings, 356 bytes, 2 nodes, ccost 5%.\n",
+      "solutions": 1,
+      "updates": 6,
+      "cleansings": 0,
+      "models": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i3:B\ni1\n",
+      "stdout": "",
+      "stderr": "(2 options, 2+1 items, 5 entries successfully read)\nAltogether 0 solutions, 115+15-0 mems, 1 updates, 0 cleansings, 208 bytes, 1 nodes, ccost 33%.\n",
+      "solutions": 0,
+      "updates": 1,
+      "cleansings": 0,
+      "models": []
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i3:B\ni2\ni2 i3:A\ni1 i2 i3:A\n",
+      "stdout": "1:\n i1 i3:B (1 of 1)\n i2 (1 of 1)\n",
+      "stderr": "(4 options, 2+1 items, 12 entries successfully read)\n new cutoff after option 2:\n i2 (1 of 1)\nAltogether 1 solution, 226+115-8 mems, 6 updates, 1 cleansings, 328 bytes, 3 nodes, ccost 7%.\n",
+      "solutions": 1,
+      "updates": 6,
+      "cleansings": 1,
+      "models": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i3\ni2 i3:A\ni1 i2 i3:A\ni2 i3\ni1 i3:A\ni1 i3:B\ni2 i3:B\ni2\n",
+      "stdout": "1:\n i1 i3 (1 of 4)\n i2 (1 of 1)\n2:\n i1 i2 i3:A (2 of 2)\n",
+      "stderr": "(8 options, 2+1 items, 24 entries successfully read)\n new cutoff after option 8:\n i2 (1 of 1)\n new cutoff after option 3:\n i1 i2 i3:A (2 of 4)\nAltogether 2 solutions, 404+268-20 mems, 15 updates, 1 cleansings, 520 bytes, 4 nodes, ccost 3%.\n",
+      "solutions": 2,
+      "updates": 15,
+      "cleansings": 1,
+      "models": [
+        [
+          0,
+          7
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i3:B\n",
+      "stdout": "",
+      "stderr": "(1 options, 2+1 items, 3 entries successfully read)\nAltogether 0 solutions, 92+15-0 mems, 1 updates, 0 cleansings, 176 bytes, 1 nodes, ccost 33%.\n",
+      "solutions": 0,
+      "updates": 1,
+      "cleansings": 0,
+      "models": []
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i3\ni1 i3:B\ni1 i2 i3:B\ni1 i3:A\ni2\ni1 i2 i3:A\ni1\ni2 i3\ni2 i3:B\n",
+      "stdout": "1:\n i2 i3:B i1 (1 of 1)\n",
+      "stderr": "(9 options, 2+1 items, 27 entries successfully read)\n new cutoff after option 3:\n i1 i2 i3:B (?)\nAltogether 1 solution, 445+175-12 mems, 10 updates, 2 cleansings, 564 bytes, 2 nodes, ccost 3%.\n",
+      "solutions": 1,
+      "updates": 10,
+      "cleansings": 2,
+      "models": [
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1\ni2 i3:B\ni2 i3\ni1 i3:A\n",
+      "stdout": "1:\n i1 (1 of 1)\n i2 i3:B (1 of 1)\n",
+      "stderr": "(4 options, 2+1 items, 11 entries successfully read)\n new cutoff after option 2:\n i2 i3:B (1 of 2)\nAltogether 1 solution, 205+109-8 mems, 5 updates, 1 cleansings, 312 bytes, 3 nodes, ccost 8%.\n",
+      "solutions": 1,
+      "updates": 5,
+      "cleansings": 1,
+      "models": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni2 i3\ni1 i3:B\ni2 i3:A\ni1 i2\ni1 i3\ni2 i3:B\ni1 i2 i3:A\n",
+      "stdout": "1:\n i1 i3:B (1 of 3)\n i2 i3:B (1 of 1)\n2:\n i1 i2 (2 of 2)\n",
+      "stderr": "(7 options, 2+1 items, 22 entries successfully read)\n new cutoff after option 6:\n i2 i3:B (1 of 1)\n new cutoff after option 4:\n i1 i2 (2 of 3)\nAltogether 2 solutions, 377+255-18 mems, 13 updates, 2 cleansings, 488 bytes, 4 nodes, ccost 3%.\n",
+      "solutions": 2,
+      "updates": 13,
+      "cleansings": 2,
+      "models": [
+        [
+          1,
+          5
+        ],
+        [
+          3
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni2 i3:A\ni1\ni1 i3:A\ni1 i3:B\ni2\n",
+      "stdout": "1:\n i2 i3:A (1 of 1)\n i1 (1 of 1)\n",
+      "stderr": "(5 options, 2+1 items, 13 entries successfully read)\n new cutoff after option 2:\n i1 (1 of 2)\nAltogether 1 solution, 230+116-6 mems, 4 updates, 2 cleansings, 344 bytes, 3 nodes, ccost 7%.\n",
+      "solutions": 1,
+      "updates": 4,
+      "cleansings": 2,
+      "models": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i2 i3:A\ni1 i3:B\ni2 i3:A\ni1 i3\ni2 i3:B\ni2 i3\ni1 i2\n",
+      "stdout": "1:\n i1 i2 i3:A (1 of 1)\n",
+      "stderr": "(7 options, 2+1 items, 22 entries successfully read)\n new cutoff after option 1:\n i1 i2 i3:A (1 of 4)\nAltogether 1 solution, 377+143-14 mems, 10 updates, 1 cleansings, 484 bytes, 2 nodes, ccost 4%.\n",
+      "solutions": 1,
+      "updates": 10,
+      "cleansings": 1,
+      "models": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i2\ni1 i3\ni1\ni2 i3\ni1 i2 i3:A\ni2\ni1 i2 i3:B\n",
+      "stdout": "1:\n i1 i2 (1 of 1)\n",
+      "stderr": "(7 options, 2+1 items, 21 entries successfully read)\n new cutoff after option 1:\n i1 i2 (1 of 5)\nAltogether 1 solution, 351+123-8 mems, 9 updates, 0 cleansings, 468 bytes, 2 nodes, ccost 4%.\n",
+      "solutions": 1,
+      "updates": 9,
+      "cleansings": 0,
+      "models": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i2\ni1 i2 i3:B\ni2\n",
+      "stdout": "1:\n i1 i2 (1 of 1)\n",
+      "stderr": "(3 options, 2+1 items, 9 entries successfully read)\n new cutoff after option 1:\n i1 i2 (1 of 2)\nAltogether 1 solution, 177+83-2 mems, 5 updates, 0 cleansings, 276 bytes, 2 nodes, ccost 6%.\n",
+      "solutions": 1,
+      "updates": 5,
+      "cleansings": 0,
+      "models": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\n",
+      "stdout": "",
+      "stderr": "(0 options, 2+1 items, 0 entries successfully read)\nAltogether 0 solutions, 47+13-0 mems, 1 updates, 0 cleansings, 128 bytes, 1 nodes, ccost 23%.\n",
+      "solutions": 0,
+      "updates": 1,
+      "cleansings": 0,
+      "models": []
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni2 i3:A\ni1 i2\n",
+      "stdout": "1:\n i1 i2 (1 of 1)\n",
+      "stderr": "(2 options, 2+1 items, 6 entries successfully read)\n new cutoff after option 2:\n i1 i2 (1 of 1)\nAltogether 1 solution, 135+72-4 mems, 4 updates, 0 cleansings, 228 bytes, 2 nodes, ccost 7%.\n",
+      "solutions": 1,
+      "updates": 4,
+      "cleansings": 0,
+      "models": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-minimax-xyr4hgt2/dlx2-cutoff",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i3:A\ni2\ni1\ni1 i3\ni1 i2 i3:A\n",
+      "stdout": "1:\n i2 (1 of 1)\n i1 i3:A (1 of 1)\n",
+      "stderr": "(5 options, 2+1 items, 14 entries successfully read)\n new cutoff after option 2:\n i2 (1 of 2)\nAltogether 1 solution, 246+118-8 mems, 6 updates, 1 cleansings, 360 bytes, 3 nodes, ccost 7%.\n",
+      "solutions": 1,
+      "updates": 6,
+      "cleansings": 1,
+      "models": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  ],
+  "native_cost_witnesses": {
+    "cleansing_minimal": {
+      "n": 2,
+      "primary": 1,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-colored-4ulh1ceo/dlx2-original",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 | i2\ni1 i2:A\ni1 i2:B\n",
+      "stdout": "1:\n i1 i2:A (1 of 2)\n2:\n i1 i2:B (2 of 2)\n",
+      "stderr": "(2 options, 1+1 items, 6 entries successfully read)\nAltogether 2 solutions, 122+75-8 mems, 3 updates, 2 cleansings, 196 bytes, 3 nodes, ccost 4%.\n",
+      "solutions": 2,
+      "updates": 3,
+      "cleansings": 2,
+      "models": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    "cleansing_markers": {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-colored-4ulh1ceo/dlx2-original",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i3:A\ni1 i3:B\ni2 i3:A\ni2 i3:B\n",
+      "stdout": "1:\n i1 i3:A (1 of 2)\n i2 i3:A (1 of 1)\n2:\n i1 i3:B (2 of 2)\n i2 i3:B (1 of 1)\n",
+      "stderr": "(4 options, 2+1 items, 12 entries successfully read)\nAltogether 2 solutions, 229+193-8 mems, 7 updates, 4 cleansings, 328 bytes, 5 nodes, ccost 6%.\n",
+      "solutions": 2,
+      "updates": 7,
+      "cleansings": 4,
+      "models": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    "dead_empty_root": {
+      "n": 1,
+      "primary": 1,
+      "rows": [],
+      "command": [
+        "/tmp/knuth-vol4b-colored-4ulh1ceo/dlx2-original",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 |\n",
+      "stdout": "",
+      "stderr": "(0 options, 1+0 items, 0 entries successfully read)\nAltogether 0 solutions, 22+13-0 mems, 1 updates, 0 cleansings, 64 bytes, 1 nodes, ccost 23%.\n",
+      "solutions": 0,
+      "updates": 1,
+      "cleansings": 0,
+      "models": []
+    },
+    "dead_nonempty": {
+      "n": 3,
+      "primary": 2,
+      "rows": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ]
+      ],
+      "command": [
+        "/tmp/knuth-vol4b-colored-4ulh1ceo/dlx2-original",
+        "v9",
+        "m1"
+      ],
+      "input": "i1 i2 | i3\ni1 i3\ni2 i3\n",
+      "stdout": "",
+      "stderr": "(2 options, 2+1 items, 6 entries successfully read)\nAltogether 0 solutions, 134+83-4 mems, 5 updates, 0 cleansings, 228 bytes, 2 nodes, ccost 10%.\n",
+      "solutions": 0,
+      "updates": 5,
+      "cleansings": 0,
+      "models": []
+    }
+  },
+  "original_binary": {
+    "binary": "/tmp/knuth-vol4b-colored-4ulh1ceo/dlx2-original",
+    "sha256": "317a401448733049a4577e5d86bbd1b6bf2f230c89754697bd175ae515cfcd38"
+  },
+  "all_complete_optimal_model_sets_match": true,
+  "all_original_costs_match": true
+}

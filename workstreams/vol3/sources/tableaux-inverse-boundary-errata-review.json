@@ -1,0 +1,105 @@
+{
+  "finding_id": "V3-C0020",
+  "checked_at_utc": "2026-11-06T21:19:10.973878+00:00",
+  "book": "books/taocp-vol3-ed2-print1-1998.djvu",
+  "edition": "Second edition, first printing1998",
+  "target": {
+    "section": "5.1.4",
+    "exercise": "39(f)",
+    "printed_page": 614,
+    "file_page": 625,
+    "location": "AlgorithmQ2–Q3 and the following candidate-path invariant"
+  },
+  "context": {
+    "printed_page": 71,
+    "file_page": 82,
+    "location": "The oriented-tree hint"
+  },
+  "search_terms": [
+    "AlgorithmQ",
+    "Q2.",
+    "Q3.",
+    "candidate / OCR variants",
+    "Unfix",
+    "Pak",
+    "Stoyan",
+    "Novelli",
+    "pages70,71,613,614"
+  ],
+  "layers": [
+    {
+      "file": "errata/text/all3-prepre.txt",
+      "pdf": "errata/pdf/all3-prepre.pdf",
+      "matched_page_entries": [
+        {
+          "page": 70,
+          "text": "Page 70 line 6                                                                                   03 Jan 2003\n    outdegree y out-degree"
+        },
+        {
+          "page": 70,
+          "text": "xPage 70        line 12                                                                          01 Jan 2006\n     olumns sets y olumn sets"
+        },
+        {
+          "page": 613,
+          "text": "Page 613       line 4 of answer 37                                           19 Aug 2002\n    211    y   A211"
+        },
+        {
+          "page": 613,
+          "text": "xPage 613    line 1 of answer 39                                              01 Jan 2006\n  original permutations y original permutation"
+        },
+        {
+          "page": 614,
+          "text": "xPage 614    line 5 of answer 41                                              01 Jan 2006\n  n + (length y n (length"
+        },
+        {
+          "page": 614,
+          "text": "Page 614    line 8                                                           14 Aug 2001\n  Le ture Notes in Comp. S i.       (1994), 307{325 y Algorithmi a (1995), 180{210\n                                    807                               13"
+        }
+      ],
+      "assessment": "No correction to AlgorithmQ, its candidate-path invariant or the missing active-row boundary. The matched changes concern wording in39(a), other exercises, or bibliography."
+    },
+    {
+      "file": "errata/text/all3-pre.txt",
+      "pdf": "errata/pdf/all3-pre.pdf",
+      "matched_page_entries": [
+        {
+          "page": 614,
+          "text": "Page 614 new senten e appended to answer 40                               06 Apr 2014\n  See also Dan Romik,     The Surprising Mathemati s of Longest In reasing Subsequen es\n\n  (2014), Chapter 4.\n\f           EARLIER CHANGES TO VOLUME 3: SORTING AND SEARCHING                            11"
+        }
+      ],
+      "assessment": "No correction to AlgorithmQ, its candidate-path invariant or the missing active-row boundary. The matched changes concern wording in39(a), other exercises, or bibliography."
+    },
+    {
+      "file": "errata/text/all3.txt",
+      "pdf": "errata/pdf/all3.pdf",
+      "matched_page_entries": [],
+      "assessment": "No correction to AlgorithmQ, its candidate-path invariant or the missing active-row boundary. The matched changes concern wording in39(a), other exercises, or bibliography."
+    },
+    {
+      "file": "errata/text/err3.txt",
+      "pdf": "errata/pdf/err3.pdf",
+      "matched_page_entries": [],
+      "assessment": "No correction to AlgorithmQ, its candidate-path invariant or the missing active-row boundary. The matched changes concern wording in39(a), other exercises, or bibliography."
+    },
+    {
+      "file": "errata/text/err3-1e.txt",
+      "pdf": "errata/pdf/err3-1e.pdf",
+      "assessment": "The first-edition corrections and added Tableaux exercises were checked by topic, not only shifted page numbers. No Pak–Stoyanovskii/Novelli AlgorithmP/Q or candidate-boundary correction occurs; first-edition pages613–614 concern other sections."
+    }
+  ],
+  "originals_viewed": [
+    "workstreams/vol3/images/tableaux-file-625.png",
+    "workstreams/vol3/images/tableaux-file-082.png",
+    "workstreams/vol3/images/tableaux-file-081.png"
+  ],
+  "primary_comparison": {
+    "url": "https://www.math.ucla.edu/~pak/papers/bij.pdf",
+    "local_pdf": "workstreams/vol3/sources/novelli-pak-stoyanovskii-1997.pdf",
+    "location": "AlgorithmP-prime Step1, printed58 / PDF6",
+    "assessment": "The source explicitly sets the left-neighbor value to zero at the active-column boundary. Transposition gives the missing active-row boundary in the book. This is corroboration, not a known correction to the book.",
+    "image": "workstreams/vol3/images/tableaux-nps-boundary-file006.png"
+  },
+  "result": "No corresponding correction found in all five layers; the four-cell counterexample disproves the printed candidate invariant and prevents Q3 from reaching its target.",
+  "physical_copy_verified": false,
+  "novelty_claimed": false
+}

@@ -1,0 +1,35 @@
+{
+  "checked_at_utc": "2026-11-11T19:15:38.481652+00:00",
+  "edition": "Volume 4A, first edition, first printing, 2011; inventory/books.json",
+  "originals": [
+    "images/bookwise-p714.png",
+    "images/bookwise-p351.png",
+    "images/bookwise-p338.png",
+    "errata/pdf/all4f2.pdf, PDF page 14"
+  ],
+  "errata": [
+    "errata/text/all4a-pre.txt",
+    "errata/text/all4a.txt",
+    "errata/text/err4a.txt",
+    "errata/text/all4f2.txt",
+    "errata/text/err4f2.txt"
+  ],
+  "pages_screened": "4A 337–339,348–352,711–715; Fascicle 2 57–59,68–72,109–114",
+  "retrieval_manifests": [
+    "integration/2026-11-10-bookwise/errata/vol4a-manifest.json",
+    "integration/2026-11-10-bookwise/errata/vol4a-fasc2-manifest.json"
+  ],
+  "public_queries": [
+    "Knuth \"k(j + g/c)\"",
+    "Knuth \"714\" \"72\" \"Hamiltonian\" errata",
+    "\"Any Hamiltonian path includes\"",
+    "\"Knuth\" \"answer 74\" \"k(j)\"",
+    "\"Knuth\" \"answer 72\" \"Cayley\"",
+    "\"Knuth\" \"k(j)\" \"Hamiltonian\""
+  ],
+  "public_result": "No explicit matching correction found. An earlier Knuth draft repeats the full-symmetric-group count for 72, but uses a correct verbal repetition argument for 74; the later 2008 erratum introduces the false cumulative-count equation still printed in 4A. The erratum original was visually inspected. Absolute novelty is not established.",
+  "findings": [
+    "V4A-F0061",
+    "V4A-F0062"
+  ]
+}

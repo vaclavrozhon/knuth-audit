@@ -1,0 +1,511 @@
+{
+  "section": "2.3.2",
+  "original_exercises": 22,
+  "added_exercises": 0,
+  "added_answers": [
+    19
+  ],
+  "units": [
+    {
+      "unit": "main-conversion",
+      "printed_pages": [
+        334,
+        337
+      ],
+      "title": "Bijekce, obrázky, průchody, dynastický model",
+      "technical_status": "checked",
+      "source_status": "checked",
+      "status": "checked",
+      "evidence": [
+        "PROOFS.md",
+        "check_trees.py",
+        "ERRATA.md"
+      ]
+    },
+    {
+      "unit": "main-notation",
+      "printed_pages": [
+        337,
+        338
+      ],
+      "title": "Algebraické stromy, prefix/postfix, MIX pole, Łukasiewicz",
+      "technical_status": "checked",
+      "source_status": "checked",
+      "status": "checked",
+      "evidence": [
+        "PROOFS.md",
+        "SOURCES.md",
+        "images/lukasiewicz-1931-p367.png"
+      ]
+    },
+    {
+      "unit": "main-differentiation-history",
+      "printed_pages": [
+        338,
+        338
+      ],
+      "title": "Historické použití diferenciace v roce 1952",
+      "technical_status": "not_applicable",
+      "source_status": "partial",
+      "status": "partial",
+      "evidence": [
+        "SOURCES.md",
+        "images/hopper-1978-p13.png"
+      ],
+      "qualification": "Direct participant account confirms working differentiation by May 1953; exact 1952 operation date not established by acquired primary material."
+    },
+    {
+      "unit": "main-D",
+      "printed_pages": [
+        338,
+        346
+      ],
+      "title": "Pravidla derivace, Algorithm D a celý Program D",
+      "technical_status": "checked",
+      "source_status": "checked",
+      "status": "checked",
+      "evidence": [
+        "PROOFS.md",
+        "programs.py",
+        "check_mix.py",
+        "results/mix-validation.json"
+      ],
+      "confirmed_findings": [
+        "V1-C0042",
+        "V1-C0043",
+        "V1-C0044"
+      ],
+      "qualification": "Audit complete, original program not unconditionally correct: boundary comparison defects confirmed by root."
+    },
+    {
+      "unit": "2.3.2-1",
+      "exercise_page": 346,
+      "answer_pages": [
+        571
+      ],
+      "title": "Inverze převodu",
+      "technical_status": "checked",
+      "source_status": "checked",
+      "status": "checked",
+      "evidence": [
+        "PROOFS.md",
+        "images/page-346.png",
+        "images/page-571.png",
+        "check_trees.py",
+        "results/trees.json"
+      ]
+    },
+    {
+      "unit": "2.3.2-2",
+      "exercise_page": 346,
+      "answer_pages": [
+        571
+      ],
+      "title": "Deweyho zápis",
+      "technical_status": "checked",
+      "source_status": "checked",
+      "status": "checked",
+      "evidence": [
+        "PROOFS.md",
+        "images/page-346.png",
+        "images/page-571.png",
+        "check_trees.py",
+        "results/trees.json"
+      ]
+    },
+    {
+      "unit": "2.3.2-3",
+      "exercise_page": 346,
+      "answer_pages": [
+        571
+      ],
+      "title": "Dewey a průchody",
+      "technical_status": "checked",
+      "source_status": "checked",
+      "status": "checked",
+      "evidence": [
+        "PROOFS.md",
+        "images/page-346.png",
+        "images/page-571.png",
+        "check_trees.py",
+        "results/trees.json"
+      ]
+    },
+    {
+      "unit": "2.3.2-4",
+      "exercise_page": 346,
+      "answer_pages": [
+        571
+      ],
+      "title": "Pořadí listů",
+      "technical_status": "checked",
+      "source_status": "checked",
+      "status": "checked",
+      "evidence": [
+        "PROOFS.md",
+        "images/page-346.png",
+        "images/page-571.png",
+        "check_trees.py",
+        "results/trees.json"
+      ]
+    },
+    {
+      "unit": "2.3.2-5",
+      "exercise_page": 346,
+      "answer_pages": [
+        571
+      ],
+      "title": "Alternativní převod",
+      "technical_status": "checked",
+      "source_status": "checked",
+      "status": "checked",
+      "evidence": [
+        "PROOFS.md",
+        "images/page-346.png",
+        "images/page-571.png",
+        "check_trees.py",
+        "results/trees.json"
+      ]
+    },
+    {
+      "unit": "2.3.2-6",
+      "exercise_page": 346,
+      "answer_pages": [
+        571
+      ],
+      "title": "Převod původně binárního stromu",
+      "technical_status": "checked",
+      "source_status": "checked",
+      "status": "checked",
+      "evidence": [
+        "PROOFS.md",
+        "images/page-346.png",
+        "images/page-571.png",
+        "check_trees.py",
+        "results/trees.json",
+        "check_tree_orders.py",
+        "results/tree-orders.json"
+      ]
+    },
+    {
+      "unit": "2.3.2-7",
+      "exercise_page": 346,
+      "answer_pages": [
+        572
+      ],
+      "title": "Topologická pořadí",
+      "technical_status": "checked",
+      "source_status": "checked",
+      "status": "checked",
+      "evidence": [
+        "PROOFS.md",
+        "images/page-346.png",
+        "images/page-572.png",
+        "check_trees.py",
+        "results/trees.json"
+      ]
+    },
+    {
+      "unit": "2.3.2-8",
+      "exercise_page": 346,
+      "answer_pages": [
+        572
+      ],
+      "title": "Lineární stromové uspořádání",
+      "technical_status": "checked",
+      "source_status": "checked",
+      "status": "checked",
+      "evidence": [
+        "PROOFS.md",
+        "images/page-346.png",
+        "images/page-572.png",
+        "check_trees.py",
+        "results/trees.json",
+        "check_tree_orders.py",
+        "results/tree-orders.json"
+      ],
+      "qualification": "Explicit bound k<nprime supplied; printed implicit index convention separately triaged, no wrong result claimed."
+    },
+    {
+      "unit": "2.3.2-9",
+      "exercise_page": 346,
+      "answer_pages": [
+        572
+      ],
+      "title": "Počet nulových pravých odkazů",
+      "technical_status": "checked",
+      "source_status": "checked",
+      "status": "checked",
+      "evidence": [
+        "PROOFS.md",
+        "images/page-346.png",
+        "images/page-572.png",
+        "check_trees.py",
+        "results/trees.json"
+      ]
+    },
+    {
+      "unit": "2.3.2-10",
+      "exercise_page": 346,
+      "answer_pages": [
+        572
+      ],
+      "title": "Rekonstrukce podle stupňů",
+      "technical_status": "checked",
+      "source_status": "checked",
+      "status": "checked",
+      "evidence": [
+        "PROOFS.md",
+        "images/page-346.png",
+        "images/page-572.png",
+        "check_trees.py",
+        "results/trees.json"
+      ]
+    },
+    {
+      "unit": "2.3.2-11",
+      "exercise_page": 346,
+      "answer_pages": [
+        572
+      ],
+      "title": "Stromy pro e^(−x²)",
+      "technical_status": "checked",
+      "source_status": "checked",
+      "status": "checked",
+      "evidence": [
+        "PROOFS.md",
+        "images/page-346.png",
+        "images/page-572.png",
+        "images/exercise11.svg",
+        "results/exercise11.json"
+      ]
+    },
+    {
+      "unit": "2.3.2-12",
+      "exercise_page": 346,
+      "answer_pages": [
+        572
+      ],
+      "title": "DIFF8",
+      "technical_status": "checked",
+      "source_status": "checked",
+      "status": "checked",
+      "evidence": [
+        "PROOFS.md",
+        "images/page-346.png",
+        "images/page-572.png",
+        "programs.py",
+        "own_programs.py",
+        "check_mix.py",
+        "validate_mix.py",
+        "results/mix-validation.json"
+      ]
+    },
+    {
+      "unit": "2.3.2-13",
+      "exercise_page": 347,
+      "answer_pages": [
+        572,
+        573
+      ],
+      "title": "Tištěné a vlastní skutečné MIX COPY",
+      "technical_status": "checked",
+      "source_status": "checked",
+      "status": "checked",
+      "evidence": [
+        "PROOFS.md",
+        "images/page-347.png",
+        "images/page-572.png",
+        "programs.py",
+        "own_programs.py",
+        "check_mix.py",
+        "validate_mix.py",
+        "results/mix-validation.json"
+      ]
+    },
+    {
+      "unit": "2.3.2-14",
+      "exercise_page": 347,
+      "answer_pages": [
+        573
+      ],
+      "title": "Přesný čas COPY",
+      "technical_status": "checked",
+      "source_status": "checked",
+      "status": "checked",
+      "evidence": [
+        "PROOFS.md",
+        "images/page-347.png",
+        "images/page-573.png",
+        "programs.py",
+        "own_programs.py",
+        "check_mix.py",
+        "validate_mix.py",
+        "results/mix-validation.json"
+      ],
+      "confirmed_findings": [
+        "V1-C0044"
+      ],
+      "qualification": "Printed total 36n+22 is false; full COPY is 36n+17, excluding caller JMP."
+    },
+    {
+      "unit": "2.3.2-15",
+      "exercise_page": 347,
+      "answer_pages": [
+        573
+      ],
+      "title": "Tištěné a vlastní skutečné MIX DIV",
+      "technical_status": "checked",
+      "source_status": "checked",
+      "status": "checked",
+      "evidence": [
+        "PROOFS.md",
+        "images/page-347.png",
+        "images/page-573.png",
+        "programs.py",
+        "own_programs.py",
+        "check_mix.py",
+        "validate_mix.py",
+        "results/mix-validation.json"
+      ]
+    },
+    {
+      "unit": "2.3.2-16",
+      "exercise_page": 347,
+      "answer_pages": [
+        574
+      ],
+      "title": "Tištěné a vlastní skutečné MIX PWR",
+      "technical_status": "checked",
+      "source_status": "checked",
+      "status": "checked",
+      "evidence": [
+        "PROOFS.md",
+        "images/page-347.png",
+        "images/page-574.png",
+        "programs.py",
+        "own_programs.py",
+        "check_mix.py",
+        "validate_mix.py",
+        "results/mix-validation.json"
+      ],
+      "confirmed_findings": [
+        "V1-C0043"
+      ],
+      "qualification": "Printed boundary test fails despite representable output; own safe program tested."
+    },
+    {
+      "unit": "2.3.2-17",
+      "exercise_page": 347,
+      "answer_pages": [
+        574
+      ],
+      "title": "Běžící algebraický zjednodušovač",
+      "technical_status": "checked",
+      "source_status": "partial",
+      "status": "partial",
+      "evidence": [
+        "PROOFS.md",
+        "images/page-347.png",
+        "images/page-574.png",
+        "algebra.py",
+        "results/algebra.json",
+        "SOURCES.md"
+      ],
+      "qualification": "Complete executable solution to requested simplification; publisher metadata/references checked, full Sammet PDF unavailable."
+    },
+    {
+      "unit": "2.3.2-18",
+      "exercise_page": 347,
+      "answer_pages": [
+        574
+      ],
+      "title": "Rodičovské pole na obousměrný preorder",
+      "technical_status": "checked",
+      "source_status": "checked",
+      "status": "checked",
+      "evidence": [
+        "PROOFS.md",
+        "images/page-347.png",
+        "images/page-574.png",
+        "check_trees.py",
+        "results/trees.json"
+      ]
+    },
+    {
+      "unit": "2.3.2-19",
+      "exercise_page": 347,
+      "answer_pages": [
+        574
+      ],
+      "title": "Rozhodování ve volném svazu",
+      "technical_status": "checked",
+      "source_status": "partial",
+      "status": "partial",
+      "evidence": [
+        "PROOFS.md",
+        "images/page-347.png",
+        "images/page-574.png",
+        "algebra.py",
+        "results/algebra.json",
+        "SOURCES.md",
+        "images/errata-all1-15.png",
+        "images/errata-err1-13.png"
+      ],
+      "qualification": "Algorithm and general proof complete; Skolem primary verified, Whitman primary issue metadata verified, article contents unavailable."
+    },
+    {
+      "unit": "2.3.2-20",
+      "exercise_page": 348,
+      "answer_pages": [
+        574
+      ],
+      "title": "Vlastní předek a dvě pořadí",
+      "technical_status": "checked",
+      "source_status": "checked",
+      "status": "checked",
+      "evidence": [
+        "PROOFS.md",
+        "images/page-348.png",
+        "images/page-574.png",
+        "check_trees.py",
+        "results/trees.json"
+      ]
+    },
+    {
+      "unit": "2.3.2-21",
+      "exercise_page": 348,
+      "answer_pages": [
+        574,
+        575
+      ],
+      "title": "Libovolné arity přes zásobník derivací",
+      "technical_status": "checked",
+      "source_status": "checked",
+      "status": "checked",
+      "evidence": [
+        "PROOFS.md",
+        "images/page-348.png",
+        "images/page-575.png"
+      ]
+    },
+    {
+      "unit": "2.3.2-22",
+      "exercise_page": 348,
+      "answer_pages": [
+        575
+      ],
+      "title": "Dostatečná podmínka vložení a protipříklad obrácení",
+      "technical_status": "checked",
+      "source_status": "checked",
+      "status": "checked",
+      "evidence": [
+        "PROOFS.md",
+        "images/page-348.png",
+        "images/page-575.png",
+        "check_trees.py",
+        "results/trees.json"
+      ]
+    }
+  ]
+}

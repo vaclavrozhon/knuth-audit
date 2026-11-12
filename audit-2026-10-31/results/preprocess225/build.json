@@ -1,0 +1,34 @@
+{
+  "source": "audit-2026-10-31/sources/knuth-programs/dlx-pre.w",
+  "source_sha256": "bc3329b5459610b13cdded33d697904e0fc9e30822c2ffbbdc1190c59a189e1a",
+  "include": "/tmp/knuth-program-build/gb_flip.h",
+  "include_sha256": "8d09b34b9d2396ea4eb3ca0cbbd90d34c70b1020dc448f8e129d919d52be015f",
+  "commands": [
+    {
+      "command": [
+        "ctangle",
+        "dlx-pre.w"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "gcc",
+        "-O2",
+        "-Wno-implicit-int",
+        "-Wno-implicit-function-declaration",
+        "dlx-pre.c",
+        "-o",
+        "dlx-pre"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "binary": "/tmp/knuth-vol4b-preprocess225-compiler-4uroe6zy/dlx-pre",
+  "binary_sha256": "c1b4f11e48a2836c85c869d37c633e72f04718f6d8de46ed189b04a69dfe34be",
+  "generated_c_sha256": "87a6a6e715fd591cef565690d8142c89e400d8adc58d9cb27d20222285b24efe"
+}

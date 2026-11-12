@@ -1,0 +1,30 @@
+{
+  "reciprocal": {
+    "cases": 16563,
+    "exhaustive_input_width_max": 14,
+    "max_target_bits": 4096,
+    "seed": 43354,
+    "iterations": 74565,
+    "zero_error_strict_failures": 259,
+    "strict_inequality_witness": {
+      "v": "1/2",
+      "z0": 2,
+      "delta0": 0,
+      "left": 0,
+      "right": 0
+    },
+    "seconds": 30.309
+  },
+  "division": {
+    "exhaustive_cases": 86870,
+    "large_cases": 210,
+    "max_bits": 16384,
+    "initial_minus_final_quotient": {
+      "-1": 191,
+      "0": 86889,
+      "1": 0
+    },
+    "seed": 433312,
+    "seconds": 59.177
+  }
+}

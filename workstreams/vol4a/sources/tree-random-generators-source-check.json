@@ -1,0 +1,32 @@
+{
+  "checked_at_utc": "2026-11-11T21:53:43.301531+00:00",
+  "edition": "Volume 4A, first edition, first printing, 2011; inventory/books.json",
+  "originals": [
+    "images/bookwise-p456.png",
+    "images/bookwise-p457.png",
+    "images/bookwise-p478.png",
+    "images/bookwise-p479.png",
+    "images/bookwise-p797.png",
+    "images/bookwise-p798.png",
+    "images/bookwise-p799.png"
+  ],
+  "errata": [
+    "errata/text/all4a-pre.txt",
+    "errata/text/all4a.txt",
+    "errata/text/err4a.txt",
+    "errata/text/all4f4.txt",
+    "errata/text/err4f4.txt"
+  ],
+  "fresh_fascicle_manifest": "integration/2026-11-10-bookwise/errata/vol4a-fasc4-manifest.json",
+  "pages_screened": "4A main 455–457, exercises 478–479, answers 797–799; corresponding Fascicle 4 pages 17–19,40–41,92–94.",
+  "public_queries": [
+    "Knuth \"797\" \"60\" \"errata\"",
+    "Knuth \"798\" \"67\" \"errata\"",
+    "Knuth Schroder \"recurrence\" \"n - 1\" errata"
+  ],
+  "public_result": "No matching repair found. Known 2013 clarifications of Remy link notation and the already incorporated 2010 inverse-scan termination correction are excluded.",
+  "findings": [
+    "V4A-F0124"
+  ],
+  "dismissed_ocr_suspicion": "Answer 60(c) correctly prints u_j<=m<v_j. An OCR reading with strict first inequality was rejected after enlarged original inspection."
+}

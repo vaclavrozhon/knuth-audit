@@ -1,0 +1,3044 @@
+{
+  "authorized_start_utc": "2026-10-31T16:31:04Z",
+  "authorized_end_utc": null,
+  "task": "Continue all unfinished books in order under the 10 November2026 authorization.",
+  "user_steering": "2026-11-10: continue unfinished books in order; 40 hours of pure work authorized. Volume 4B now complete.",
+  "working_directory": "audit-2026-10-31",
+  "delegation": "Main agent alone; old workers and computations remain stopped.",
+  "communications": "User explicitly requested no further Knuth email drafts. Existing drafts are archived; do not create new ones or send messages.",
+  "current_focus": "Complete under the agreed review scope; the entire bookwise continuation is now complete.",
+  "next_actions": [],
+  "known_confirmed_finding": "F001: Volume 4B p.149 exercise 7.2.2.1-197(a,b), upper bound a_n should be a_j; original author PS corroborates; no public erratum found.",
+  "open_scope_issue": "C001 dismissed in D260 under the natural occurring-variable convention. Other candidates retain their individual qualifications.",
+  "stop_policy": "Continue until the authorized audit is complete, within 40 hours of pure working time.",
+  "known_confirmed_findings": [
+    "F001: 197(a,b), a_n should be a_j.",
+    "F002: answer 201(b), fixed-point partition is wrong for even n; total L_n+2 is correct.",
+    "F003: answer 196(i), example X_2 should be X_1.",
+    "F004: answer 196(h), both factorial signs missing.",
+    "F005: answer 196(h), initial 6 should be 2 (or delete 4/1! term).",
+    "F006: MPR 121(d), entropy uses y(Y), not Y.",
+    "F007: MPR 123, mixture weights reversed.",
+    "F008: MPR 121 expectation identity needs absolute continuity; exact counterexample gives -1/2 versus infinity.",
+    "F009: MPR 127(b), O(1/n) omits floor effect; use O(1) or fractional-part term.",
+    "F010: Ve společné hustotě má p dělit celý rozdíl z−qy. Přesný protipříklad p=q=1/2,z=1,y=0. PDF i autorův PS.",
+    "F011: Ve výsledku integrálu chybí π. Při p=q=1/2,z=0 je integrál 2π, tisk dává 2. Nezávislá rezidua i přímý integrál; PDF i PS.",
+    "F012: Horní parametr −N má být −n. N=4,K=2,n=1: tisk dává polynom 1/2+2z+z² místo (1+z)/2. Oprava souhlasí s 1767 regulárními polynomy. Zatím pouze PDF; autorův stažený draft úlohu neobsahuje.",
+    "F013: V rozptylu chybí faktor K. Pro N=4,K=2,n=1 má být 1/4, tisk dává 1/8. Odvozeno z kovariancí a ověřeno na 3306 distribucích. Zatím pouze PDF.",
+    "F014: Nepravdivá dvouvýběrová mez: dva férové bity, m=1, ε=9/10 dávají pravděpodobnost 1/2 proti tvrzené mezi ≈0.3958. Chybí faktor 1/2 v prahu hypergeometrického ocasu. Přesný důkaz, znění PDF; část (c) po opravě funguje.",
+    "F015: Pro x<m chybí kladná část: c−m+2 max(0,x−c). Platný mediánový příklad dává Δ=−1 místo vytištěného −3. Věta i navazující mez jsou správné. Zatím pouze PDF.",
+    "F016: MPR 28(b), delta should be epsilon in the negative smoothing step.",
+    "F017: D(1)=1 should be 2 for the all-node doomsday bound; affects finite values and exercise 181 constants, not the asymptotic exponent.",
+    "F018: V o_6 je nadbytečný i_2; odporuje přesně čtyřem výskytům určeným o dva řádky dříve. Strict příklad t=u=4. PDF i PS; odlišeno od známé opravy zadání na p.147.",
+    "F019: Obecná diferenciální rovnice T_(r,s) postrádá exp(sz); alternativně omezit indexy na s=0. Přímá derivace, PDF i PS.",
+    "F020: R(z) má před integrálem minus. Koeficient při z^0 má být −g, tisk dává +g; při z^1 rovněž opačné znaménko. PDF i PS; odhady absolutní hodnoty zůstávají.",
+    "F021: Odstavec má dvě chyby: g/3 má být g/e a v maximalizovaném modulu exp(exp(uz)) chybí minus uvnitř vnější exponenciály. Substituce a z=0 dávají přímý důkaz. PDF i PS.",
+    "F022: První integrál pro g_k potřebuje (k−1)! místo k!. Integrace per partes, 12 numerických dvojic integrálů, původní článek, PDF i PS.",
+    "F023: Gamma-řada G(z) postrádá konstantu −e: v nule dává e místo 0. Obecné odvození a šest numerických kontrol. PDF i PS; střední hodnota a rozptyl jsou správně.",
+    "F024: Algorithm R může na 2SAT potřebovat exponenciální počet kroků: m implikačních trojcyklů a nesplnitelné jádro dávají 8·2^m−5 návštěv R2 při n=3m+2. Obecný důkaz a 11 přímých běhů; PDF i autorův PS.",
+    "F025: Orientace blokovacího grafu nesouhlasí s mezí stupňů a testem binární klauzule. Pět klauzulí na třech proměnných: tisk dovoluje přidat x∨y a změnit SAT na UNSAT. Obrácení šipky v definici opraví oba projevy; počítáno jako jeden nález. PDF i PS.",
+    "F026: Silně souvislá komponenta musí být konzistentní, aby byla autarkií. Dvě komplementární ternární klauzule mají v blokovacím grafu jedinou komponentu se všemi šesti literály. Platí i po obrácení všech hran; samostatná chybějící podmínka. PDF i PS.",
+    "F027: Ve výpočtu E X chybí stará hodnota α u E_Nj. Pro p1=p∞=1/2,Nj=1 se tiskovaný součet rozbíhá, správná střední hodnota je 2. PDF i autorův PS, v erratech nenalezeno.",
+    "F028: P_j je Pr(X>T_(j−1)), ne Pr(X>T_j). Při j=1 je prázdný součin 1, zatímco jednoduchý příklad dává Pr(X>T1)=1/2. Následující důkaz používá součin správně. PDF i PS.",
+    "F029: Předpoklad N*=∞ nedovoluje najít požadované n′: příklad z 306(j) má ell(2)=4 a všechna q_N ell(N)<3. Počáteční předpoklad má být E∞=∞; věta platí. PDF i PS.",
+    "F030: Dvě chyby v jedné tabulce: u protější dvojice má být 2θ′c(1−c)² a u všech čtyř 2θ²c². Pro p=3/10 se tiskované hmotnosti sečtou na 1.795530737…, opravené na 1 a souhlasí s číselným řádkem knihy. Symbolické odvození, PDF i PS.",
+    "F031: Druhé řešení má ν=1/3, ne 2/3: tisk dává průměry 1/3,1/3,1/6,2/3 a poslední porušuje mez 1/3. Oprava i úplná klasifikace dokázány nezávisle; PDF i PS.",
+    "F032: V pravém obrázku jsou prohozené osy W,Y: C po fixaci Z závisí na Y, D na W. Obrázek zobrazuje opak. Správný součin pod ním se nemění. PDF i PS.",
+    "F033: Tvrzení M_G(p)>0⇒p∈R(G) pro kogreafy je nepravdivé. Dvě disjunktní hrany při p_i=3/4 dávají M=1/4, po vynulování jedné hrany −1/2. Existuje i souvislý pětivrcholový protipříklad a explicitní nevyhnutelné události. Opravený test potřebuje všechny uzly rozkladového stromu. PDF i PS.",
+    "F034: V první rekurenci chybí faktor w_ij před W(S\\{i,j}). Dva vrcholy s w12=2 dávají x²−2 místo tiskovaného x²−1. Věta o kořenech platí, ověřen obecný důkaz a přesné Sturmovy testy. PDF i PS.",
+    "F035: Na hranici nemusí M_G po snížení jediné pravděpodobnosti zkladnět: dvě hrany s p′=(1/2,…,1/2) zůstanou na nule po p1′→1/4. Stačí nezápornost a limitní konstrukce, hlavní závěr zůstává. PDF i PS.",
+    "F036: Prostřední faktor b7 a8 c3 není pyramida: má dva maximální prvky a8,c3. Správně jsou čtyři faktory b6 c2 e4 d1 · b7 c3 · f5 · a8. Obecná věta platí. PDF i autorův PS.",
+    "F037: V důkazu346(a) má být increase místo decrease. Jediná hrana dává K=2→4/3 při snížení p_b. Zadání i algoritmus správně; PDF i PS.",
+    "F038: V derivované řadě má být a_m místo a_n. f(z)=1/(1−2z),n=0,r=1/4: skutečnost2, tisk4/3. Věta i důkaz po opravě správné; PDF i PS.",
+    "F039: Závěrečné E_j>1/δ má opačné znaménko: jediná hrana,p_i=1/4,dáváE=1/2,δ=1. Pro nulové souřadnice použít neostré nerovnosti. Úplný opravený důkaz; PDF i PS.",
+    "F040: Minimum má běžet přes kliky j s i∈U_j, ne přes sousední vrcholy. Jediná hrana a jediná klika jinak požadují nedefinované θ12,Σ2. Odlišeno od známé opravy odkazu2017. PDF i PS.",
+    "F041: Rozklad překrývajících se klik nesplňuje podmínku disjunktního podmiňování. Platné parametry a dvě disjunktní události p=2/5 dávají v mezikroku2/3>2/5. Oprava přiřadí vrchol poslední klice; věta platí. PDF i PS.",
+    "F042: Pokrytí hran opomíjí izolované vrcholy: prázdný graf na2vrcholech,U1={1},θ11=0,p=(0,1)splňuje předpoklady,aleM=0. Doplnit pokrytí všech vrcholů nebo p_i<1 pro nepokryté. PDF i PS.",
+    "F043: Case1 je pomalejší, nikoli rychlejší nežCase2. Průměry7 a1139/729 i obecný kvadratický/lineární rozdíl nezávisle ověřeny. PDF i PS.",
+    "F044: V krajním případě (p,q)=(1,0) má být y=0, ne1. Tiskované x=1/2,y=1 dávají pole(0,1/2,1/2). Přímá kontrola(155), PDF i PS.",
+    "F045: Chybí celá rodina: a=b=c=0,d=1 dovoluje x=y=z=t pro každé t∈[0,1], ne pouze1. Plný přepočet21zpráv a obecný důkaz redukce; PDF i PS.",
+    "F046: S3 lze přeskočit: protikladné jednotky s počátečními zprávami1/2 dojdou při i=1 doS8 sπ=(0,0),δ=0 a polem0/0. Přidat kontrolu poS5; související inicializace362 také ignoruje počáteční rozpor. PDF i PS.",
+    "F047: Negativní část klauzule má být indexována L,neL′. Protože l∈L′, tisk vytváří samé tautologie. Rodina{∅,{1},{1,2}} dává přesný protipříklad. Oprava ověřena obecně a na639 rodinách≤4. Odlišeno od známého přejmenování zadání2024; PDF i PS.",
+    "F048: Prázdné ohodnocení R′ má čtyři hvězdičky,ne tři; formule má4proměnné. Úplný výčet potvrzuje správnost samotné klasifikace i vah q3. PDF i PS.",
+    "F049: Při vyjmutí z exploitation stack chybí LINK(c)←0. Čtyřklauzulový příklad přeskočí opětovné zpracování zkrácené C; oprava dokončí zjednodušení. PDF i PS, odlišeno od známých oprav 2022.",
+    "F050: Ve SIZE(c)−[TIME(l)=T] má být ≠. Tisk vynechá každý platný pivot staré klauzule proti nové. Obecný důkaz, 1280 kombinací značek a dosažitelný 29klauzulový příklad celého kola. PDF i PS.",
+    "F051: Kódování sleduje procházky přesně k kroků, ne vzdálenost≤k. Jediná hrana,k2 má chybný SAT model. Oprava přidá jednotky s_j pro všechny vrstvy. Obecný důkaz a185739 parametrických případů; chyba trvá i v oficiální náhradě2016.",
+    "F052: Tvrzení just n variables opomíjí pomocné proměnné Sinzových(18),(19), které část(b) výslovně používá. Vrchol stupně4 s r2 potřebuje4 další proměnné. Počet O(m) klauzulí a princip(b) správný. PDF, PS i oficiální náhrada2016.",
+    "F053: Odkaz443(e) na(c) je chybný: všechny příklady jsou UC0. Konkrétní protipříklad(x),(¬x),n1. PDF i PS.",
+    "F054: Definice442 nedovoluje všechny literály po sporu, na rozdíl od odpovědí(b,f). Šest klauzulí,k2: jen a může začít, proto ¬a nelze odvodit, ačkoli F⊢₂ε. Oprava dovolí zakončení nižším sporem. PDF i PS.",
+    "F055: Definice212 musí vyžadovat všechny předepsané symboly, jinak(a,b) neplatí. n1r=c1p0. Primární článek má počty; PDF i PS.",
+    "F056: Redukce212(d) potřebuje k=K′ místo k=(I,J,K′). N1,L11={1} jinak dává nesplnitelný výstup. Opravená bijekce a614 vstupů; PDF i PS.",
+    "F057: V odpovědi60 má být402/2^11≈.196 místo404/2^11≈.197. Úplný výčet11proměnných a nezávislá inkluze-exkluze, PDF iPS.",
+    "F058: V262(b) chybí x+y<n+16 u nečárkovaných položek; tisk přidává28 izolovaných položek. Oprava dává správné počty i ZDD. PDF iPS.",
+    "F059: V obdélníkové asymptotice262(a) má být a_(2m)^(-1/2) místo a_(2m). m1: Fibonacciho konstanta1/sqrt5 místo5. PDF iPS, součinový důkaz.",
+    "F060: Mez (mn+2)/3 je nepravdivá: čtyři černé rohy 3×3 a nekonečná rodina 3×liché n. Chybný člen −[mn odd] v důkazu; oprava 3s≤mn+3−[m even]−[n even]. Jednoznačný puzzle AAA/BCD/EEE, obecný důkaz a 4 950 obvodových kontrol. PDF i PS.",
+    "F061: První interval počtu černých polí má být [0..0], nikoli [1..1]: jediná buňka 1×1 je bílá. Ostatní intervaly a všech 45 počtů souhlasí. PDF i PS.",
+    "F062: Nejtěžší kakuro má11→13; původní součty31 versus29 nemožné, oprava jedinečná a79 uzlů. PDF iPS.",
+    "F063: p.447, odpověď 125, druhá souřadnice ky místo kx v obou tvarech. k=1,(0,1) je protipříklad; 400 geometrických kontrol, PDF i PS.",
+    "F064: Zadání 515(vi) potřebuje omezení na dva boxy. Přesná rekonstrukce 58 212 klauzulí má čtyřboxový protipříklad; všechny číselné údaje správně, PDF i PS.",
+    "F065: p.449, slabé nesilné LR vzory294457 místo281618. Nezávislý DLX2, všechny747906modely geometricky ověřeny a kanonizovány. Rozdíl12839. PDF iPS.",
+    "F066: Mod-5 hitori construction on7x7 needs13 black cells, exceeding mn/5+2; other11-black covers exist.",
+    "F067: Queen-domination graph p461: max small component20 instead12; last diagram65 component20 instead8.",
+    "F068: Partridge n=6 p461 has a28x16 packing, area448, improving the displayed30x15 packing claimed optimal. Explicit21-piece witness independently checked.",
+    "F069: Nested queens162(e,h) have19 and116 D4 classes instead4 and28; even collapsed-pattern conventions give5 and30.",
+    "F070: Multiset partition recurrence177(b) needs binom(t,k), not binom(n,k).",
+    "F071: Answer167 wrongly asserts equivalence of all upper bounds >=Mp+2; SLACK tie breaking changes root and37/35 nodes.",
+    "F072: Answer215(d) level profile needs2(q−l+1).",
+    "F073: Answer216 levelwise worst-case assertion false; K7 first12,13,23 gives1,6,2,4.",
+    "F074: Construction224 n6 takes4 working rounds/5 P2 visits, not6; replacement equality chain verified.",
+    "F075: Costs in236 N20 are1024 times too large.",
+    "F076: Ultimate n16 queens optimal iff N=2 or integerN>=21; full exact certificate.",
+    "F077: Lexicographic maximum229 is not108; larger pairing independently verified by DFS and SAT.",
+    "F078: Exercise243 must weight only primary items; secondary optional item invalidates constant total weight.",
+    "C013: Missing initialization of primary header COLOR in P1; explicit blocking example. ID retained after confirmation.",
+    "F079: For positive even N the ZDD node formula is V_N+3, not V_N+2; numerical examples are correct.",
+    "F080: Answer 259(b) has binom(n+1,2)+1 memos, not binom(n,2)+1.",
+    "F081: Recursive answer 7.2.2--5 iterates over integers outside a noncontiguous domain; {1,3} produces 2.",
+    "F082: Loose Langford symmetry adaptation produces13 instead10 representatives at n6 and loops at n10; two missing forced-choice guards.",
+    "F083: Answer33 exchanges5-letter and6-letter labels of tries; all four sizes correct.",
+    "F084: After SLUMS,TOTAL there are62 eligible SGB words, not221; persists in April2026 preview.",
+    "F085: Answer44(b) indexes the previous class; prefix0001,0011 returns green0011 instead of0111.",
+    "F086: Algorithm C outputs at least g words, not exactly g; m2g2 yields fifteen2-word and fourteen3-word codes.",
+    "F087: Answer38 n9 probability is wrong; binary486/504=27/28, not32/35; general corrected formula established.",
+    "F088: Ve výpočtu druhého momentu chybí c před COST. Dva uzly s cenou 2 vracejí rozptyl −4 místo 0; oprava a obecné rekurence ověřeny přesně na 1000 stromech. PDF i PS.",
+    "F089: Poslední podmiňující prefix v Π má končit x_(l−1), nikoli x_l. Samotné převažování je správné a obecně ověřené. PDF i PS.",
+    "F090: 3⅓ bitu nestačí pro samostatnou rovnoměrnou volbu z pěti možností: už dolní mez je 27/8. Přesné optimum 18/5 dokázáno a dosaženo recyklováním. PDF i PS; obecné testy do q=40.",
+    "F091: Pr(l≥20) pro n100 je 1.951987e−8; vytištěných 2.7e−9 odpovídá l≥21. Přesná konvoluce a Stirlingova čísla; PDF, PS i ukázka duben2026.",
+    "F092: Návratová značka (*) musí být až za inicializací u,T,S. Čtyřvrcholová hvězda jinak dojde k u=Λ; známá oprava2025 značku nepřemisťuje. Oprava prošla162366 BFS kontrolami, PDF i PS.",
+    "F093: Procenta dávají110.9%; poslední12.2 má být přibližně1.2. Přesný vážený výčet všech4^24 barvení dává1.210466708%, nezávislé fyzické rotace potvrzují grafový model. PDF iPS, errata bez opravy.",
+    "F094: 9+7+4+4=24 vyvrací never24. Dvě konkrétní rotace splňují N+S=24, vyloučí je až NE+SW=19 nebo20. Konečné řešení knihy je jediné a správné; PDF iPS, známé erratum opravuje jen bibliografii.",
+    "F095: Údajně nemožný vzor má8 platných orientací: skrýt A a jeho protější stěnu, ostatní doplnit O. Otočení D o90° dává zamýšlený nemožný vzor. PDF iPS, explicitní 3D svědek a úplný výčet24rotací; errata bez opravy.",
+    "F096: ρ_m=2^m+3m−15/2+O(m²/2^m), nikoli 2^m+O(1). Obecný důkaz, přesné polynomy a kořeny; PDF i PS.",
+    "F097: Samostatný oficiální BACK-20Q má předčasný goto bad u otázky 18; 0 místo 1 platného výsledku pro 18 20. Oprava a nezávislý model souhlasí. Nejde o chybu tištěných výsledků.",
+    "F098: Počáteční singleton potřebuje WT(v)≥L. Váhy1,1 a L2,U3 jinak vypíší neplatný singleton. Doslovný přepis a112974 vážených případů potvrzují opravu; PDF+PS, odlišeno od známých oprav R6/R2prime.",
+    "F099: V h(w,z) má být −1 až za celým součinem. K11:32 jednotlivých pedálů dává32 nových trojic, tisk jen8. Opravené celé polynomy souhlasí s nezávislým modelem; knižní P3/P10 a Q1..10 správné. PDF+PS; staré erratum opravuje jiný monom.",
+    "F100: Q811=8 místo12, rozsah vypnutého pedálu12≤j<20 místo24. p20 vypne tři píšťaly. Obecný důkaz, všech812 cílových množin a nezávislé celé polynomy souhlasí; PDF+PS, errata bez opravy.",
+    "F101: Scholtz and Algorithm O select different representatives: published 33-letter example differs by rotation13; four methods agree on all rotations. PDF+PS, errata checked.",
+    "F102: Answer27 word-rectangle cost18.3Tμ should be1.83Tμ. Original program1,828,460,227,444 accesses; independent bound below6.636Tμ. PDF+PS, errata checked.",
+    "F103: Strand56 citation in answer32 should be1918, not1919. Original title, July1918 contents and exact word square onp74 verified; PDF+PS, errata checked.",
+    "F104: The trie prefix range onp36 should be0<=l<n, not0<=l<=n;23667 proper prefixes versus39394 including words. PDF+PS, errata checked; text only.",
+    "F105: DLX14 p418, the explicit finite menage expansion needs n−2j rather than n−j subscripts; n3 gives−5/6 instead of1/6. PDF+PS.",
+    "F106: DLX23(a) example mixes a=1/2 and uses bottom-column14 instead15 with an extra y1; a valid16-queen witness is wrongly excluded. PDF+PS, errata absent.",
+    "F107: DLX24 printed half/quarter filters discard both n4 solutions. Correct geometric half cut and duplicate-option quarter reduction proved; full counts and n32 validated. PDF+PS, errata absent.",
+    "F108: DLX22(c), n16 count1220908 should1220918. Independent row-bit and literalDLX enumerations plus partition identity agree. PDF+PS, errata absent.",
+    "F109: DLX32(d) needs equal PRIMARY item counts; total-size2 options ab,ax,by have solutions100/011 at distance3. PDF+PS, independent complete enumeration and originalDLX1; errata checked.",
+    "F110: Answer39(b) P*g counts geometric partitions, not indexed solutions with repeated options. Correct E=P*(m)_k/N^k; exact counterexamples and enumerations, PDF+PS, errata checked.",
+    "F111: Answer37(a) needs a[q_i,i]=1 instead of a[i,q_i]=1; i2 has a[2,3]=5 and a[3,2]=1. General proof, two complete matrix computations, PDF+PS, errata checked.",
+    "F112: Answer48(a), row5/value5 must show column4, not6; original clue, full162-cell conversion, PDF+PS and errata checked.",
+    "F113: Answer49 column edges needu_i, notu_j; complement usesr−q, notn−q. One notation cluster; correct graph proof and81 box mappings, PDF+PS and errata checked.",
+    "F114: Answer57 literal first-row normalization leaves432 solutions, not864. Weaker restriction reproduces864 and16417 options; complete independent enumerations, PDF+PS, errata checked.",
+    "F115: Answer57 needs symbol relabeling in addition to row/column permutations. Six classes144/72; short row-transition counterexample and all864 positive maps, PDF+PS, errata checked.",
+    "F116: Obrázek35b na str.78 má v6.řádku a7.sloupci5 místo6. Jediná ze504 jednobuněčných oprav; ruční rozpor v řádku, sloupci a boxu. PDF iPS; errata bez odpovídající opravy.",
+    "F117: Only our local PDF has an S painted over the correct lower-right G in SOLVING, answer65. AuthorPS is correct. Separate file artifact, not an established printed-book or author error.",
+    "F118: SUDOKU answer65 row2 should beDUSKO. insteadDUSK.O. RepeatedO in column6; complete unique solution confirmed by two independent solvers. PDF+PS, distinct from known top-row D/U erratum.",
+    "F119: DLX69 N6 placement count1467→1647; all1647 witnesses and three independent complete placement constructions. PDF+authorPS; final0/60 districtings correct.",
+    "F120: mainp82 last20×3 cell must bej2, not2j; printed2j lies outside stated bounds. All71191 nodes and8solutions correct; PDF+PS.",
+    "F121: Answer75(b) requires XOR in f(t XOR f(t))=t; ordinary+ fails. PDF+PS.",
+    "F122: Answer76(c) must also omit diagonal items x=y; the literal model is UNSAT for every n≥2. Explicit n2 XOR witness, general bijection, PDF+PS.",
+    "F123: Answer83 requires stronger terminal-marker occurrence conditions. Four all-uncolored rows p a / p a b / p c / q a return forbidden p c + q a; independent originalDLX2 extension reproduces. E042 threshold fix already applied.",
+    "F124: answer86 empty C6 omits uncommit and restoring i; singleton p/q leaves p covered and corrupts later trials. PDF+PS.",
+    "F125: answer86 cleansing estimate needs D theta C instead of DC. Two colored options prove2 versus1; originalDLX2 agrees. PDF+PS.",
+    "F126: answer86 zero-degree branch omits cover update; one empty primary item proves1 versus0, nonempty conflict5 versus4. PDF+PS.",
+    "F127: Levý WORDS(500) core má12269 hran místo13677; nezávislá úplná projekceDLX2/join a tři redukce. Maxima5/36 správně; PDF+PS.",
+    "F128: Odpověď92 potřebuje v pravýchd_i i−j místoi+j. VlastníWAVES/LINED/LEPER jinak odmítnuto; přesné0/1 nativní modely a39 úplných kontrol, PDF+PS.",
+    "F129:109 nucenéH00/H20/V30 mají býtH11/H31/V41;1-based definice a přímé možnosti, PDF iPS.",
+    "F130:109 minimum5×11 pro(i),(ii) vyvrací1×53,43písmen+10mezer; nesouvislost je zde dovolena, PDF iPS. Skutečné minimum netvrdíme.",
+    "F131: Exercise120 cites Scientific American231 instead of213 for November1965.",
+    "F132: Answer120(b) misses a3-cell tiling using printed types2,4,6; exactly two translation classes exist.",
+    "F133: answer134, P/Y counts1672/242 should be1685/243. Independent1734-tiling lower-bound certificate plus complete dual enumeration and component census. Original4B+2019draft; six errata layers without matching correction.",
+    "F134: p454 answer140(c), rotate the rightmost downward triangle of the third tetrahex120 degrees clockwise; all counts remain correct.",
+    "F135: p454 historical note, Surprenant Triangles should be Surprenants triangles.",
+    "F136: DLX142(ii) LR cylinders:2·5980 should be2·55980. Two complete sets111960 equal; standalone5981-class certificate proves11962>11960. PDF and authorPS; no matching public erratum.",
+    "F137: p455 answer143, thin12×1 strip is tileable with all24 Langford pieces; standalone two-row witness, equal full censuses206472 labeled/8603 color classes. No matching public correction found.",
+    "F138: answer147(b), four2x2x4 histogram rows misclassify exterior colors/symmetries. Five standalone inequivalent six-exterior-color witnesses disprove the printed three; two complete244 sets equal. PDF+PS, no matching public correction.",
+    "F139: exercise150 inventory has odd endpoint parity, hence zero solutions. All four answers use two L-dominoes and one S instead. Corrected census43/8/[1,15,9,3], PDF+PS, no matching public erratum.",
+    "F142: Gompertz CDF domain onp469 must bea>1,b>1; alloweda=4,b=1/2 givesF(1)=-1. PDF andPS, no correction in six errata layers.",
+    "F148: population summaries14.3/33.7/37.3million should round14.4/33.8/37.2 from exact inputs; both sources.",
+    "F149: four dashed internal USA edges should be solid; both sources. Partition costs remain correct.",
+    "F150: editorial items/options confusion in248; both source versions. No change to algorithm results.",
+    "F151: matching ZDD asymptotic N/sqrt(5), notN/5; separate fromF079.",
+    "F152: circular260 cache6n-9, not6n+9; update formula needsn>=4, n3=46.",
+    "F153: figure123 edge01111011 must lead to00101011, not00101101.",
+    "F154: path product through n−1, with corrected P16; printed value is P17.",
+    "F155: one Randall blue bend misses its horizontal-domino diagonal.",
+    "F156: four first-column digits disagree with the middle lozenge illustration.",
+    "F157: two Algorithm C kakuro memory cells use MB instead of KB; exact rounded amounts not reproduced.",
+    "F158: Answer77 constant auxiliary sequence fails for the bounded two-atom martingale Z0=0, Zn=ξ (n≥1); both deterministic and random time-constant helper interpretations excluded. Main theorem valid. PDF and author PS.",
+    "F159: Answer84(a) falsely identifies conditioning on the original and transformed histories; three positive atoms give 1 or 2 versus 3/2. Condition both sides again to repair the proof; theorem valid. PDF and author PS.",
+    "F160: The arbitrary predictable-width extension after(38) fails on three positive atoms, even after averaging the displayed exponential. Positive widths throughout; exact 4/5 versus an upper bound11106/14167. Require deterministic v≥sum widths². PDF and author PS.",
+    "F161: Answer90(e) individual product denominators4 should be8; its printed product yields exp(ct²/2), not exp(ct²/4). The theorem and final bound remain true. PDF and author PS.",
+    "F162: Odpověď MPR11 zaměňuje remízy hodnot a jejich vzdáleností od α. Férové ±1 při α0 dávají1 proti3/4; nahradit lokální rovnost ≥. Hlavní věta správná. PDF+PS,6errat+3TeX.",
+    "F167: MPR82(a) includes an undefined final transition; use n<51 or explicit constant continuation. Main game conclusions remain valid.",
+    "F168: First line of answer83 uses X_n instead of X_k inside a k-sum. Exact two-outcome counterexample; Wald identity remains true.",
+    "F169: answer96,p384 missing centering in P(|X|<sqrt(n))=Theta(1); the printed probability tends to zero. All four exercise classifications remain valid.",
+    "F170: answer103(b),p385 uses g112 instead of g122 in the first recurrence. Exact two-bit coefficient0 versus1/4; final laws and moments remain true.",
+    "F171: answer109(c),p386 deletes x_i→x_j instead of the actual middle arcs x_i→y_j. Local vertex label; main theorem remains true.",
+    "F172: answer109(c),p386 uses the upper closure where the cut proof needs the lower closure. Exact positive two-state witness gives5/4≥1/2≥1; main theorem remains true."
+  ],
+  "project_root": ".",
+  "repository_milestone": "Completed local initial commit 0df540f: seven independent book copies, 52 official errata files, three indexes, Czech inventory and user notes.",
+  "authorization_history": [
+    {
+      "at_utc": "2026-10-31T19:42:31+00:00",
+      "user_instruction": "poracuj pristich 10 hodin",
+      "previous_end_utc": "2026-11-01T02:31:04Z",
+      "new_end_utc": "2026-11-01T05:42:31+00:00"
+    },
+    {
+      "at_utc": "2026-11-01T05:46:03.287758+00:00",
+      "user_instruction": "pokracuj nez bude cely svazek hotovy. bude to trvat par dni",
+      "previous_end_utc": "2026-11-01T05:42:31+00:00",
+      "new_end_utc": null
+    }
+  ],
+  "updated_at_utc": "2026-11-12T05:37:54.111189+00:00",
+  "coverage_summary": {
+    "total_file_pages": 734,
+    "reviewed_file_pages": 734,
+    "unread_file_pages": 0,
+    "exercise_registry": {
+      "total": 1202,
+      "reviewed": 1202,
+      "partial": 0,
+      "pending": 0
+    },
+    "supplementary_exercises_reviewed": 3,
+    "scope": "Printed-argument review with exact permitted exceptions; not independent proofs of all cited results."
+  },
+  "active_audit_jobs": [],
+  "current_window_start_utc": "2026-11-01T05:46:03.287758+00:00",
+  "final_checks": {
+    "checked_at_utc": "2026-11-02T04:24:28.641459+00:00",
+    "archive": {
+      "status": "pass",
+      "book_copies": 11,
+      "official_files": 55,
+      "errata_files": 52,
+      "supplementary_indexes": 3,
+      "derived_pdfs": 41,
+      "ledger_items": 465,
+      "originals_unchanged": true,
+      "command": "python3 scripts/verify_archive.py"
+    },
+    "ui": {
+      "cards": 313,
+      "english_digest_checks": 313,
+      "new_live_cards": [
+        "F154",
+        "F155",
+        "F156",
+        "F157",
+        "C043",
+        "C044",
+        "E110",
+        "E111"
+      ],
+      "previous_cards_preserved": 305,
+      "personal_annotations_modified": false,
+      "checked_at_utc": "2026-11-03T20:40:13.718118+00:00",
+      "updated_known_card": "E011",
+      "updated_live_cards": []
+    },
+    "goal": {
+      "reviewed_exercises": 243,
+      "partial_exercises": 108,
+      "pending_exercises": 851,
+      "reviewed_pages": 80,
+      "partial_pages": 162,
+      "pending_pages": 492,
+      "complete": false,
+      "checked_at_utc": "2026-11-06T20:36:43.650153+00:00"
+    },
+    "findings_scope": {
+      "book_text_findings": 160,
+      "local_pdf_artifacts": 1,
+      "program_findings": 1,
+      "physical_copy_verified": false,
+      "author_ps_corroborated_book_text_findings": 155,
+      "f137_ps_qualification": "Same impossibility sentence, but the draft tuple requires known2021 correction; excluded from exact-case PS corroboration count.",
+      "published_errata_findings": 1,
+      "checked_at_utc": "2026-11-06T20:19:18.163521+00:00"
+    },
+    "live_wrappers": {
+      "at_utc": "2026-11-03T20:26:32.764804+00:00",
+      "root_pids": [
+        684086,
+        697793,
+        862565,
+        874050,
+        882581,
+        944644,
+        1015840,
+        1016888
+      ],
+      "processes": [
+        {
+          "pid": 684086,
+          "ppid": 1620,
+          "nice": 15,
+          "cpu_percent": 0.0,
+          "command": "python3"
+        },
+        {
+          "pid": 697793,
+          "ppid": 1620,
+          "nice": 15,
+          "cpu_percent": 0.0,
+          "command": "python3"
+        },
+        {
+          "pid": 845134,
+          "ppid": 697793,
+          "nice": 15,
+          "cpu_percent": 39.5,
+          "command": "langford-mems"
+        },
+        {
+          "pid": 874050,
+          "ppid": 1620,
+          "nice": 15,
+          "cpu_percent": 37.1,
+          "command": "python3"
+        },
+        {
+          "pid": 882581,
+          "ppid": 1620,
+          "nice": 15,
+          "cpu_percent": 0.0,
+          "command": "python3"
+        },
+        {
+          "pid": 882583,
+          "ppid": 882581,
+          "nice": 15,
+          "cpu_percent": 0.0,
+          "command": "timeout"
+        },
+        {
+          "pid": 882584,
+          "ppid": 882583,
+          "nice": 15,
+          "cpu_percent": 36.0,
+          "command": "dlx2-original"
+        },
+        {
+          "pid": 944644,
+          "ppid": 1620,
+          "nice": 15,
+          "cpu_percent": 0.0,
+          "command": "python3"
+        },
+        {
+          "pid": 944673,
+          "ppid": 944644,
+          "nice": 15,
+          "cpu_percent": 0.0,
+          "command": "timeout"
+        },
+        {
+          "pid": 944674,
+          "ppid": 944673,
+          "nice": 15,
+          "cpu_percent": 33.3,
+          "command": "dlx2-symmetry12"
+        },
+        {
+          "pid": 1015840,
+          "ppid": 1620,
+          "nice": 15,
+          "cpu_percent": 0.1,
+          "command": "python3"
+        },
+        {
+          "pid": 1016888,
+          "ppid": 1620,
+          "nice": 15,
+          "cpu_percent": 0.0,
+          "command": "python3"
+        },
+        {
+          "pid": 1020191,
+          "ppid": 1015840,
+          "nice": 15,
+          "cpu_percent": 0.0,
+          "command": "timeout"
+        },
+        {
+          "pid": 1020192,
+          "ppid": 1020191,
+          "nice": 15,
+          "cpu_percent": 32.0,
+          "command": "dlx2-original"
+        },
+        {
+          "pid": 1021810,
+          "ppid": 1016888,
+          "nice": 15,
+          "cpu_percent": 0.0,
+          "command": "timeout"
+        },
+        {
+          "pid": 1021812,
+          "ppid": 1021810,
+          "nice": 15,
+          "cpu_percent": 33.4,
+          "command": "xcc-bitset"
+        },
+        {
+          "pid": 1301513,
+          "ppid": 684086,
+          "nice": 15,
+          "cpu_percent": 90.5,
+          "command": "knuth-vol4b-fra"
+        }
+      ],
+      "all_nice_at_least15": true,
+      "evidence": "results/zdd261_264/process-priority.json"
+    },
+    "graphs115_117": {
+      "checked_at_utc": "2026-11-02T05:04:28.297511+00:00",
+      "evidence": "results/graphs115_120/integration-verified.json",
+      "counts": {
+        "confirmed": 131,
+        "checked": 167,
+        "partial": 84,
+        "candidate": 29,
+        "known_erratum": 59,
+        "dismissed": 1
+      },
+      "exercise_counts": {
+        "pending": 1006,
+        "reviewed": 130,
+        "partial": 66
+      },
+      "page_counts": {
+        "pending": 617,
+        "partial": 90,
+        "reviewed": 27
+      },
+      "live_jobs": 11
+    },
+    "tilings117_120": {
+      "checked_at_utc": "2026-11-02T05:39:57.164108+00:00",
+      "evidence": "results/graphs117_120/integration-verified.json",
+      "counts": {
+        "confirmed": 133,
+        "checked": 170,
+        "partial": 84,
+        "candidate": 29,
+        "known_erratum": 60,
+        "dismissed": 1
+      },
+      "exercise_counts": {
+        "pending": 1003,
+        "reviewed": 133,
+        "partial": 66
+      },
+      "page_counts": {
+        "pending": 615,
+        "partial": 92,
+        "reviewed": 27
+      },
+      "live_jobs": 14
+    },
+    "symmetry121_123": {
+      "at_utc": "2026-11-02T06:19:25.532820+00:00",
+      "mathematical_checkpoint": "results/symmetry121_123/checkpoint-checked.json",
+      "integration": "pass",
+      "goal": "active and incomplete",
+      "checked_at_utc": "2026-11-02T06:32:08.978119+00:00",
+      "evidence": "results/symmetry121_123/integration-verified.json",
+      "counts": {
+        "confirmed": 133,
+        "checked": 171,
+        "partial": 86,
+        "candidate": 30,
+        "known_erratum": 63,
+        "dismissed": 1
+      },
+      "exercise_counts": {
+        "pending": 1000,
+        "reviewed": 134,
+        "partial": 68
+      },
+      "page_counts": {
+        "pending": 614,
+        "partial": 93,
+        "reviewed": 27
+      },
+      "live_jobs": 15
+    },
+    "octahedron130": {
+      "record": "results/octahedron130/checkpoint-checked.json",
+      "sha256": "1abfbd9eff848cd1db61d25766cfb7f9b194040a55b39114bb5aa37b26a1b2ef",
+      "checked_at_utc": "2026-11-02T10:09:53.948656+00:00",
+      "native_terminal_counts": [
+        2723472,
+        1615452
+      ],
+      "all_set_witnesses": 45356,
+      "original_wedges": 72,
+      "prior_ledger_items_unchanged": 491
+    },
+    "previous_findings_scope_before_usa239_246": {
+      "book_text_findings": 145,
+      "local_pdf_artifacts": 1,
+      "program_findings": 1,
+      "physical_copy_verified": false,
+      "author_ps_corroborated_book_text_findings": 140,
+      "f137_ps_qualification": "Same impossibility sentence, but the draft tuple requires known2021 correction; excluded from exact-case PS corroboration count.",
+      "published_errata_findings": 1
+    }
+  },
+  "review_ui": {
+    "url": "http://localhost:4318",
+    "path": "review-ui/",
+    "runtime_metadata": "review-ui/data/server.json",
+    "database": "review-ui/data/annotations.sqlite3",
+    "completed_at_utc": "2026-11-01T11:43:34.908115+00:00",
+    "verification": "All 305 old English cards preserved; eight new cards compared with the live API. Personal notes unchanged.",
+    "research": "review-ui/research.json: eight entries, unchanged in this source block.",
+    "followup": "Inspect personal rejected/followup verdicts before further claims; never overwrite user notes or convert user verdicts into ledger status automatically.",
+    "language": "en",
+    "translated_findings": 313,
+    "last_language_review_at_utc": "2026-11-03T20:40:13.718118+00:00",
+    "language_policy": "All interface copy, finding titles/impacts/summaries/locations, help, related work, and API errors are English. Original evidence and user-authored notes retain their original wording. Update curation translations and source digests whenever ledger conclusions change.",
+    "last_finding_update_at_utc": "2026-11-03T20:40:13.718118+00:00",
+    "personal_annotations_checked_at_utc": "2026-11-03T20:40:13.718118+00:00",
+    "personal_annotations_at_last_check": 0,
+    "cards": 313
+  },
+  "completed_audit_jobs": [
+    {
+      "task": "Column word rectangles 5x6 and6x5",
+      "wrapper_pid": 631413,
+      "status": "finished",
+      "finished_at_utc": "2026-11-01T14:45:32.776297+00:00",
+      "verification": "Every model validated; profiles and rounded domain costs match; F102 corrects6x5 mems.",
+      "metadata": "results/word_rectangles/column-wrapper.json"
+    },
+    {
+      "task": "Binary commafree n12: 335 UNSAT, exact maximum334",
+      "status": "verified",
+      "solver_finished_at_utc": "2026-11-01T13:51:17.391761+00:00",
+      "verification_seconds": 4391.209,
+      "proof_archive_bytes": 749447859,
+      "metadata": "results/commafree/compact-m2-n12-g335-cadical195-run.json"
+    },
+    {
+      "task": "Symmetric word squares: counts and memory bounds",
+      "status": "verified",
+      "metadata": "results/word_rectangles/symmetric-costs-run.json",
+      "verification": "123 small Cartesian-product oracles; 12 full dictionaries; every model validated; even unpacked continuations stay below the book bounds."
+    },
+    {
+      "task": "n16 queens memory counts and complete Figure68 topology",
+      "status": "verified",
+      "metadata": "results/queen_backtrack_mems/run.json",
+      "verification": "40 literal small cases; exact n16 access counts; all2057 vector dots and2056 edges match the ordered legal-prefix tree."
+    },
+    {
+      "task": "Loose Langford n15: node profile and9.93Gμ rounding",
+      "status": "verified",
+      "metadata": "results/langford_mems/validation.json",
+      "verification": "37 small full-model checks; n15 profile matches prior literal enumeration; conservative original uncached interval rounds to9.93Gμ."
+    },
+    {
+      "task": "Complete queen symmetry classification n4..17 and rotational n32 verification",
+      "status": "verified",
+      "metadata": "results/queen_symmetry/large-wrapper.json",
+      "verification": "Seven complete permutation model comparisons; full n17 total95815104; independent exact-cover counts, all42 table values, and all1589 reduced n32 models validated."
+    },
+    {
+      "task": "Quinary commafree length4: 140 UNSAT, exact maximum139",
+      "status": "verified",
+      "solver_finished_at_utc": "2026-11-01T16:06:18.308555+00:00",
+      "verification_seconds": 5421.268,
+      "proof_archive_bytes": 473058160,
+      "metadata": "results/commafree/compact-m5-n4-g140-cadical195-run.json"
+    },
+    {
+      "task": "Independent complete balanced8x8queen partitions",
+      "status": "verified",
+      "metadata": "results/queen_coloring/independent.json",
+      "verification": "11092 full expanded models independently checked;1392 representatives;11755508nodes. Small full sets compared separately."
+    },
+    {
+      "task": "DLX26 originalDLX1 and independent full model-set comparison",
+      "status": "verified",
+      "metadata": "results/queen_coloring/comparison.json",
+      "verification": "11092partitions; entire sets equal; all models geometrically validated; memory accounting remains separate."
+    },
+    {
+      "task": "DLX15 n16 complete comparison of both mirror cuts",
+      "status": "verified",
+      "metadata": "results/langford_dlx/large-comparison.json",
+      "verification": "Both326721800 solutions; exact authenticated profiles and memory counts;7.895%saving. Exercise15 closed; p70 exact book accounting remains partial."
+    },
+    {
+      "task": "Langfordn17-L21 complete memory/profile check",
+      "status": "verified",
+      "metadata": "results/langford_mems/n17-L21-run.json",
+      "verification": "160392399085nodes,3943329114242uncached mems; all printed160G/3.94T/24.6 roundings pass. Wrapper continuesL20 thenL."
+    },
+    {
+      "task": "DLX38 greedy infinite queens: first 1000000004 terms and access histogram",
+      "status": "verified",
+      "metadata": "results/greedy_queens/billion-run.json",
+      "verification": "All eight printed billion-index terms match; 5725793906 accesses, maximum19, average5.725793883. Small source and independent-definition comparisons passed."
+    },
+    {
+      "task": "Sudoku55: all2043 small minimal unavoidable sets and no19-clue certificate",
+      "status": "verified",
+      "metadata": "results/sudoku_variants/unavoidable55/run.json",
+      "verification": "Two DRAT proofs independently verified; all2043 complete alternative-grid witnesses and2085903 antichain pairs replayed."
+    },
+    {
+      "task": "Sudoku58: original coloredDLX2 full census",
+      "status": "verified",
+      "metadata": "results/sudoku_variants/queens58/validation.json",
+      "verification": "Exactly the same four normalized grids as independent queen-pattern clique/coloring enumeration; symmetries and71-cell AppendixE diagram checked."
+    },
+    {
+      "task": "DLX64 complete connected-region census n1–6",
+      "status": "verified",
+      "metadata": "results/sudoku_extensions/clueless64/run.json",
+      "verification": "57275 D4 classes, all witnesses and stabilizers verified;2201 rare classes independently solved; full tiling counts agree with originalDLX1. General Harris induction and printed diagram separately verified."
+    },
+    {
+      "task": "DLX65 complete word-grid solutions and DLX67 full profiles",
+      "status": "verified",
+      "metadata": "results/sudoku_extensions/small-check.json",
+      "verification": "Seven unique word solutions; all four hypersudoku profiles match independent bitset search; all six printed node counts exact. F118 text error, F117 localPDF overprint only."
+    },
+    {
+      "task": "DLX66 complete card arrangement comparison",
+      "status": "verified",
+      "metadata": "results/sudoku_extensions/cards66/validation.json",
+      "verification": "All10080 arrangements per variant; entire normalized model sets agree with originalDLX2; six automorphisms checked."
+    },
+    {
+      "task": "DLX64–67 original diagrams, citations and Brouwer map supplement",
+      "status": "verified",
+      "metadata": "results/sudoku_extensions/supplement.json",
+      "verification": "Eight referenced n4 diagrams and all census inputs; all four original Brouwer11clue puzzles unique; explicit rotation/digit map to book. Henle author reproduction separately visually checked;65/66 reviewed,64/67 explicit gaps."
+    },
+    {
+      "task": "DLX68 complete options and all D4 symmetry classifications",
+      "status": "verified",
+      "metadata": "results/convex68/symmetry.json",
+      "verification": "All nonidentity fixed sets and profiles match originalDLX1 and independent bitset covers; asymmetric counts use completed independent mask totals. Full native large counts remain separate."
+    },
+    {
+      "task": "DLX69 all Bitland solutions and independent F119 geometric census",
+      "status": "verified",
+      "metadata": "results/convex68/F119-count.json",
+      "verification": "All11440 4x4 subsets,325 shapes,12097 placements;1647 six-B witnesses. Independent capacity search and originalDLX3 give identical0/60 complete model sets."
+    },
+    {
+      "task": "DLX70 original bitmap diagrams and complete Dominosa solutions;71 general3DM proof",
+      "status": "verified",
+      "metadata": "results/convex68/dominosa70.json",
+      "verification": "All112 numeric cells,168 pip cells and84 original pieces checked; complete2/1 solution sets and exactly4changed pieces; orientations disambiguate first instance.71 fully reviewed;70 history gaps explicit."
+    },
+    {
+      "task": "Main pentomino short cases, original diagrams and1935 source",
+      "status": "verified",
+      "metadata": "results/pentomino_main/short-check.json",
+      "verification": "All9 profiles match3 implementations; all complete models match2 solvers.29 icons and original36/38 checked. Hansson1935 original coordinates reconstruct exactly36; first-cell20×3 gives71191."
+    },
+    {
+      "task": "Dominosa72–74 numerical audit",
+      "status": "verified_math_with_explicit_historical_gaps",
+      "metadata": "results/dominosa72/records.json",
+      "verification": "1292697 valid geometric tilings;730924/793648/807752 records and all97 edge frequencies;20000 new counts agree across independent solvers;74 unique solution,572 nodes and MCC witness verified."
+    },
+    {
+      "task": "Langfordn17L20 complete literal measurement",
+      "status": "verified",
+      "metadata": "results/langford_mems/n17-L20-run.json",
+      "verification": "330438173533nodes;8073717908199uncachedmems; all printed330G/8.1T/24.4 roundings match. BaseL remains live."
+    },
+    {
+      "task": "DLX75–76 algebra and complete small models",
+      "status": "verified_math_with_explicit_bibliographic_gaps",
+      "metadata": "results/gropes75/check.json",
+      "verification": "All five printed tables,18classes4/12/2, complete labelled sets1–6 and all restricted variants; full corrected bijections. Two inaccessible full original articles remain."
+    },
+    {
+      "task": "Both pentomino billion-node cases completed in both implementations",
+      "status": "verified",
+      "metadata": "results/pentomino_main/large-verified.json",
+      "verification": "1086521921/1528716954nodes; all13-depth profiles agree, both complete8-model sets agree with independent short solver; source/input/output hashes checked."
+    },
+    {
+      "task": "DLX68 all full counts including final n9-no-square",
+      "status": "verified",
+      "metadata": "results/convex68/final-verified.json",
+      "verification": "Both methods5406376; originalDLX1 complete83027265-node profile and all hashes. Exercise68 now reviewed."
+    },
+    {
+      "task": "DLX90 all19 independent word-stair optimum exclusions",
+      "status": "verified_math_with_historical_gaps",
+      "metadata": "results/double_words/csp-queue.json",
+      "verification": "520complete small CSP/permutation comparisons; all19 B−1 thresholds UNSAT,122123nodes, all printed B witnesses valid. No timeout."
+    },
+    {
+      "task": "DLX88 independent full prefix and native minimax",
+      "status": "verified_math_with_historical_cost_gap",
+      "metadata": "results/double_words/checkpoint.json",
+      "verification": "2482prefix1800 squares;8double, ranks1720:2/1800:6. Native full5757-word minimax confirms1720."
+    },
+    {
+      "task": "DLX91 complete left kernel projection and longest stairs",
+      "status": "verified",
+      "metadata": "results/stair_kernels/checkpoint.json",
+      "verification": "5372478 native local completions,136771 identical projected kernels; core12269arcs, maxima5/36;3798 deletions independently UNSAT by SAT."
+    },
+    {
+      "task": "Jigsaw n7 original DLX1 completed",
+      "status": "verified",
+      "metadata": "results/jigsaw/tilings/terminal-checked.json",
+      "finished_at_utc": "2026-11-02T02:15:29.458102+00:00",
+      "original_wrapper_pid": 789648,
+      "verification": "132418528 solutions agree with independent masks and Harris tables;983498562 nodes.24.619T mems, printed1.9Tmu not reproduced; updates are not mems. No restart."
+    },
+    {
+      "task": "All-interval musical rows n2–18 independently enumerated",
+      "status": "verified",
+      "metadata": "results/puzzles101_107/checkpoint-checked.json",
+      "queue_metadata": "results/puzzles101_107/music-queue.json",
+      "original_wrapper_pid": 889269,
+      "finished_at_utc": "2026-11-02T03:11:12.449497+00:00",
+      "verification": "Terminal return codes and input/output/source hashes accepted; no completed search restarted."
+    },
+    {
+      "task": "Original DLX2 complete word-puzzle enumerations105/106",
+      "status": "verified",
+      "metadata": "results/puzzles101_107/checkpoint-checked.json",
+      "queue_metadata": "results/puzzles101_107/word-puzzles-queue.json",
+      "original_wrapper_pid": 891119,
+      "finished_at_utc": "2026-11-02T02:56:47.364156+00:00",
+      "verification": "Terminal return codes and input/output/source hashes accepted; no completed search restarted."
+    },
+    {
+      "task": "DLX108–114 completed mathematical evidence at checkpoint",
+      "status": "verified_with_explicit_gaps",
+      "metadata": "results/layouts108_114/checkpoint-checked.json",
+      "verification": "14 terminal runs accepted with hashes; all printed figures, independent3223 block subsets, full30258432 Sudoku count and1264 small Torto instances. Live jobs excluded."
+    },
+    {
+      "task": "DLX115 complete independent censuses;DLX117(e-g) independent counts; new111/112 terminals",
+      "status": "verified_with_explicit_gaps",
+      "metadata": "results/graphs115_120/checkpoint-checked.json",
+      "additional_metadata": "results/graphs115_120/torto-new-terminals-checked.json",
+      "verification": "Six completed hyper runs with whole-set equality;105 graph counts and300 small oracle cases; sharp111(a)4 boards; Torto10/1444 classes. Interrupted/live results excluded."
+    },
+    {
+      "task": "DLX118–120 complete finite counts and infinite-plane proofs; seven new stair optima",
+      "status": "verified",
+      "metadata": "results/graphs117_120/tetrads120-plane-checked.json",
+      "additional_metadata": "results/graphs117_120/stairs-new-checked.json",
+      "verification": "Full sets agree:380 no-three sets/four covers;125 and1636 Wang neighborhoods; general period-lattice induction and3-cell counterexample."
+    },
+    {
+      "task": "All105 native AlgorithmC Mycielski117 cases",
+      "status": "verified_with_historical_benchmark_gaps",
+      "metadata": "results/symmetry121_123/native117-mycielski-accepted.json",
+      "original_wrapper_pid": 944646,
+      "verification": "Counts equal the independentDSATUR totals and every edge-deletion count. All emitted models validated; no previous search repeated."
+    },
+    {
+      "task": "Q8 independent DSATUR count",
+      "pid": 924399,
+      "status": "verified",
+      "metadata": "results/graphs117_120/queen117-independent-checked.json",
+      "verification": "Terminal0;262164 nine-color partitions, none≤8; all input/source/binary/output hashes verified."
+    },
+    {
+      "task": "MacMahon126 independent complete model sets and native orbit comparison",
+      "pid": 958057,
+      "status": "verified",
+      "metadata": "results/triangles124_126/cross-solver-checked.json",
+      "verification": "987816 models,164636 orbits of size6; both center sets2138/2670 identical toDLX2."
+    },
+    {
+      "task": "MacMahon126 official-author input-order comparison",
+      "pid": 962900,
+      "status": "verified_with_cost_gap",
+      "metadata": "results/triangles124_126/author-order-queue.json",
+      "verification": "Both164636counts complete;328 valid samples;6.81866G/4.49257G, so6.9G remains unresolved."
+    },
+    {
+      "task": "MacMahon126 complete native enumeration queue",
+      "pid": 958056,
+      "status": "verified",
+      "metadata": "results/triangles124_126/native-queue.json",
+      "verification": "All6 cases terminal; full11853792 with118 valid samples and339.830815607G; two complete centers and164636 complete fast orbit representatives."
+    },
+    {
+      "task": "All unrestricted OSPD6 squares with original cell solver",
+      "pid": 862563,
+      "script": "run_double_word_job.py",
+      "metadata": "results/double_words/cell-ospd6-run.json",
+      "timeout_seconds_per_case": 172800,
+      "status": "verified",
+      "verification": "2038753 squares; all389514 stored double models replayed,194757 transpose orbits; optimal5772, next5906;4.597T rounds4.6T.",
+      "accepted_metadata": "results/double_words/ospd6-terminal-checked.json"
+    },
+    {
+      "task": "DLX129 literal paired options:68,024,064 solutions and0.5T benchmark",
+      "pid": 985933,
+      "script": "run_symmetry129_literal.py",
+      "metadata": "results/symmetries129/literal-strong-rotation-checked.json",
+      "timeout_seconds_per_case": 172800,
+      "frozen_modules": [
+        "run_symmetry129_literal.py",
+        "check_macmahon.py",
+        "macmahon126.py",
+        "graph_native.py"
+      ],
+      "acceptance": "Terminal0, all source/input/binary/output hashes,680 geometric samples and agreement with old independent compressed counter.",
+      "status": "completed_validated",
+      "completed_at_utc": "2026-11-02T09:08:45.857334+00:00"
+    },
+    {
+      "task": "DLX129 independent native fixed-monochrome branch32 cases",
+      "pid": 992996,
+      "script": "run_symmetry129_fixed.py",
+      "metadata": "results/symmetries129/fixed-queue.json",
+      "command": "/usr/bin/python3 -u audit-2026-10-31/run_symmetry129_fixed.py",
+      "started_at_utc": "2026-11-02T08:50:27.591370+00:00",
+      "timeout_seconds_per_case": 172800,
+      "frozen_modules": [
+        "run_symmetry129_fixed.py",
+        "symmetries129.py",
+        "check_macmahon.py",
+        "macmahon126.py",
+        "graph_native.py"
+      ],
+      "acceptance": "Require32 terminal zero-exit native counts, agreement with old independent bitset counts and all emitted geometric samples. No implicit restarts.",
+      "status": "completed_validated",
+      "completed_at_utc": "2026-11-02T09:08:45.857365+00:00"
+    },
+    {
+      "task": "DLX129 independent TB and both-axis counterparts27 cases",
+      "pid": 999528,
+      "script": "run_symmetry129_reflections.py",
+      "metadata": "results/symmetries129/reflections-queue.json",
+      "command": "/usr/bin/python3 -u audit-2026-10-31/run_symmetry129_reflections.py",
+      "started_at_utc": "2026-11-02T09:08:45.851261+00:00",
+      "timeout_seconds_per_case": 172800,
+      "frozen_modules": [
+        "run_symmetry129_reflections.py",
+        "symmetries129.py",
+        "check_macmahon.py",
+        "macmahon126.py",
+        "graph_native.py"
+      ],
+      "acceptance": "27 terminal counts equal archived bitset; every emitted model geometrically validated; all1298 both-axis models explicitly canonicalized. No implicit restarts.",
+      "status": "completed_validated",
+      "completed_at_utc": "2026-11-02T09:19:22.066696+00:00",
+      "verification": "All27 native counts match old independent bitset results;2391 emitted models geometrically validated; all1298 both-axis models explicitly quotient to261 strong and194 nonstrong."
+    },
+    {
+      "task": "DLX130 independent edge coloring and native octahedron/partition counts",
+      "pid": 1010361,
+      "script": "run_octahedron130.py",
+      "metadata": "results/octahedron130/queue.json",
+      "timeout_seconds_per_case": 172800,
+      "frozen_modules": [
+        "octahedron130.py",
+        "octahedron130_edges.cpp",
+        "run_octahedron130.py",
+        "graph_native.py",
+        "macmahon126.py"
+      ],
+      "acceptance": "Require completed terminal records, matching independent counts and every saved witness; no implicit restart.",
+      "status": "completed_validated",
+      "completed_at_utc": "2026-11-02T09:52:54.783263+00:00",
+      "verification": "Two originalDLX2 terminal counts match independent dual-cube/complement enumeration;45356 valid set witnesses,4338 native samples,1615 independent partition samples."
+    },
+    {
+      "task": "DLX131 native jigsaw counts, then trimino symmetry/full cases",
+      "pid": 1013539,
+      "script": "run_mating131.py",
+      "metadata": "results/mating131/queue.json",
+      "timeout_seconds_per_case": 172800,
+      "frozen_modules": [
+        "mating131.py",
+        "run_mating131.py",
+        "check_macmahon.py",
+        "symmetries129.py",
+        "macmahon126.py",
+        "graph_native.py",
+        "borders127_128.py"
+      ],
+      "acceptance": "Validate terminal hashes and geometric samples. Known preflight assertion: halfturn helper name #/20 differs harmlessly from book #/23. Do not edit loaded sources while first two cases run; repair after wrapper reaches setup assertion, retain immutable initial sources and reuse completed terminals.",
+      "status": "completed_first_stage_then_setup_assertion",
+      "observed_at_utc": "2026-11-02T10:09:38.998189+00:00",
+      "record": "results/mating131/setup-interruption.json",
+      "verification": "Both(a) native searches completed and validated; wrapper absent at known harmless helper-label assertion. Explicit continuation skips those successful searches."
+    },
+    {
+      "task": "DLX133 native complete enumeration",
+      "pid": 1042462,
+      "script": "run_squares133.py",
+      "status": "completed_validated",
+      "completed_at_utc": "2026-11-02T11:40:41.098412+00:00",
+      "verification": "All13328 or106624 models valid; exact orbit expansion equality accepted.",
+      "metadata": "results/squares133/accepted.json"
+    },
+    {
+      "task": "DLX133 independent complete enumeration",
+      "pid": 1042463,
+      "script": "run_squares133_independent.py",
+      "status": "completed_validated",
+      "completed_at_utc": "2026-11-02T11:40:41.098412+00:00",
+      "verification": "All13328 or106624 models valid; exact orbit expansion equality accepted.",
+      "metadata": "results/squares133/accepted.json"
+    },
+    {
+      "task": "DLX127 exact two-color border counts and one-edge cyclic-shift comparison",
+      "pid": 978039,
+      "script": "run_border_counts127.py",
+      "metadata": "results/borders127_128/counts127-queue.json",
+      "timeout_seconds_per_case": 172800,
+      "frozen_modules": [
+        "borders127_128.py",
+        "run_border_counts127.py",
+        "macmahon126.py",
+        "graph_native.py"
+      ],
+      "acceptance": "Terminal0, input/source/binary/output hashes and geometric samples; multiply threshold count by free c/d factor2.",
+      "status": "completed_validated",
+      "completed_at_utc": "2026-11-02T11:36:13.330227+00:00",
+      "verification": "Allthree saved terminals accepted:48620416,52555816,49941040 labeled solutions;243+262+249 geometrically validated samples. Do not repeat searches."
+    },
+    {
+      "task": "DLX135 original DLX2 orbit enumeration",
+      "pid": 1055801,
+      "script": "run_cube135_xcc.py",
+      "status": "completed_validated",
+      "completed_at_utc": "2026-11-02T12:22:08.605266+00:00",
+      "metadata": "results/cube135/xcc-accepted.json",
+      "verification": "All732 emitted models validated and fullset equals independent3^12 scan."
+    },
+    {
+      "task": "DLX135 all27 mono-placement Monte Carlo classes",
+      "pid": 1057643,
+      "script": "run_cube135_sampling.py",
+      "status": "completed_validated",
+      "completed_at_utc": "2026-11-02T12:38:06.624428+00:00",
+      "metadata": "results/cube135/accepted.json",
+      "verification": "27million paths; all27 first witnesses independently validated; estimates are not exact counts."
+    },
+    {
+      "task": "Q8 nine-colorings: cliques",
+      "pid": 924397,
+      "script": "run_queen117.py",
+      "status": "completed_validated",
+      "completed_at_utc": "2026-11-02T14:37:30.626098+00:00",
+      "metadata": "results/graphs117_120/queen117-cliques-accepted.json",
+      "verification": "Complete AlgorithmX clique count262164 equals accepted independent DSATUR count. All26 emitted models validated geometrically; net6.803279468569T mems. Historical convention and three otherX/C jobs remain open."
+    },
+    {
+      "task": "DLX140:21 originalDLX2 cases, independent vertex-color census and AlgorithmC normalization",
+      "status": "verified",
+      "metadata": "results/vertices140/accepted.json",
+      "wrapper_pids": [
+        1136342,
+        1136810
+      ],
+      "verification": "Complete sets agree:7536 raw models/314 color classes; all21 printed counts, geometry/color orbits and17 valid figures plus corrected c3."
+    },
+    {
+      "task": "All double SGB5 squares with original DLX2",
+      "pid": 862562,
+      "script": "run_double_word_job.py",
+      "metadata": "results/double_words/sgb5-terminal-checked.json",
+      "timeout_seconds_per_case": 172800,
+      "status": "completed_validated",
+      "completed_at_utc": "2026-11-02T18:53:21.959073+00:00",
+      "verification": "All323264 native models validated and transpose classes unique; count equals earlier cell census. Net14.284514144977T remains a historical15T gap. No restart."
+    },
+    {
+      "task": "Q8 nine-colorings using AlgorithmC/queen-cliques",
+      "pid": 944645,
+      "script": "run_graph117_symmetry.py",
+      "metadata": "results/symmetry121_123/graphs/q8-queen-cliques-accepted.json",
+      "timeout_seconds_per_case": 172800,
+      "frozen_modules": [
+        "run_graph117_symmetry.py",
+        "native_symmetry122.py",
+        "graph_native.py",
+        "puzzle_xcc.py",
+        "run_queen117.py",
+        "run_mycielski_counts.py"
+      ],
+      "acceptance": "Only terminal runs with valid hashes, counts and samples; every10000th model is emitted.",
+      "status": "completed_validated",
+      "completed_at_utc": "2026-11-02T19:48:42.898174+00:00",
+      "verification": "Third complete262164 partition count matches X and DSATUR; all26 emitted samples directly verified. Net6.951597006912T; historical convention remains open."
+    },
+    {
+      "task": "DLX141 independent full census of all three boards",
+      "pid": 1147293,
+      "script": "run_vertices141_independent.py",
+      "command": [
+        "/usr/bin/python3",
+        "-u",
+        "audit-2026-10-31/run_vertices141_independent.py"
+      ],
+      "log": "results/vertices141/independent-wrapper.log",
+      "metadata": "results/vertices141/independent-accepted.json",
+      "timeout_seconds": 172800,
+      "frozen_modules": [
+        "vertices141.py",
+        "count_vertices141.cpp",
+        "run_vertices141_independent.py"
+      ],
+      "acceptance": "Zero-exit terminal, frozen hashes and every geometric model/orbit/subcount checked. Complete cross-solver set comparison is a separate pending acceptance.",
+      "status": "completed_validated",
+      "completed_at_utc": "2026-11-02T20:09:13.966721+00:00",
+      "verification": "All335292 models,66542 geometric classes, all printed boundary subcounts and30 published families checked; native comparison remains pending."
+    },
+    {
+      "task": "DLX142 mixed-octagon independent queue,10 cases",
+      "method": "independent",
+      "pid": 1157665,
+      "script": "run_octagons142.py",
+      "command": [
+        "/usr/bin/python3",
+        "-u",
+        "audit-2026-10-31/run_octagons142.py",
+        "independent"
+      ],
+      "log": "results/octagons142/independent-wrapper.log",
+      "metadata": "results/octagons142/independent-accepted.json",
+      "timeout_seconds_per_case": 172800,
+      "frozen_modules": [
+        "octagons142.py",
+        "octagons142_jobs.py",
+        "count_octagons142.cpp",
+        "run_octagons142.py",
+        "graph_native.py"
+      ],
+      "acceptance": "Require zero-exit terminals, hashes, direct sample/all-model validation and independent counts. Full sets only for unsampled cases; no automatic restart.",
+      "status": "completed_validated",
+      "completed_at_utc": "2026-11-03T05:13:55.443119+00:00",
+      "verification": "All10 terminal cases accepted; main counts264093722/3317206/239198 and all boundary subcounts. Newly checked653780 saved models; maini/ii samples only. F136 independently reproduced in unrestrictedii."
+    },
+    {
+      "task": "DLX141 native full census of all three boards",
+      "pid": 1147292,
+      "script": "run_vertices141.py",
+      "command": [
+        "/usr/bin/python3",
+        "-u",
+        "audit-2026-10-31/run_vertices141.py"
+      ],
+      "log": "results/vertices141/native-wrapper.log",
+      "metadata": "results/vertices141/native/queue.json",
+      "timeout_seconds": 172800,
+      "frozen_modules": [
+        "vertices141.py",
+        "count_vertices141.cpp",
+        "run_vertices141.py"
+      ],
+      "acceptance": "Require zero-exit terminal, hashes, every geometric model and complete cross-solver equality. Source frozen; no implicit restart.",
+      "status": "completed_validated",
+      "accepted_at_utc": "2026-11-03T06:59:29.501530+00:00",
+      "verification": "All335292 models directly valid; allthree complete sets equal to independent census.",
+      "acceptance_evidence": "results/vertices141/native-all-accepted.json"
+    },
+    {
+      "task": "All unrestricted OSPD7 squares with original cell solver",
+      "pid": 862564,
+      "script": "run_double_word_job.py",
+      "metadata": "results/double_words/cell-ospd7-run.json",
+      "timeout_seconds_per_case": 172800,
+      "observation": {
+        "at_utc": "2026-11-03T06:09:07.785524+00:00",
+        "wrapper_pid": 862564,
+        "all_recorded_processes_absent": true,
+        "status": "finished_pending_integration",
+        "terminal_sha256": "f8fb53b84984b514133f081829c10f87b0c263b1a0a6ef4e70d5bfa2be0102b8",
+        "result_sha256": "3f7d2c242a82fedcb1fb7266d1eedc25dadbc48c4e8fde1645e3c62059a5e5f9",
+        "count": 14513,
+        "double_count": 14,
+        "book_total_matches": true,
+        "scope": "Original streaming validator completed with rc0 and final result hash. Dedicated followup integration still pending; no rerun."
+      },
+      "status": "completed_validated",
+      "accepted_at_utc": "2026-11-03T06:59:29.501530+00:00",
+      "verification": "14513 total;14double,7transpose classes; minimum22038;8.7T rounded. All14 saved double models directly checked.",
+      "acceptance_evidence": "results/double_words/ospd7-terminal-checked.json"
+    },
+    {
+      "task": "DLX142 mixed-octagon native queue,10 cases",
+      "method": "native",
+      "pid": 1157664,
+      "script": "run_octagons142.py",
+      "command": [
+        "/usr/bin/python3",
+        "-u",
+        "audit-2026-10-31/run_octagons142.py",
+        "native"
+      ],
+      "log": "results/octagons142/native-wrapper.log",
+      "metadata": "results/octagons142/native/queue.json",
+      "timeout_seconds_per_case": 172800,
+      "frozen_modules": [
+        "octagons142.py",
+        "octagons142_jobs.py",
+        "count_octagons142.cpp",
+        "run_octagons142.py",
+        "graph_native.py"
+      ],
+      "acceptance": "Require zero-exit terminals, hashes, direct sample/all-model validation and independent counts. Full sets only for unsampled cases; no automatic restart.",
+      "status": "completed_validated",
+      "accepted_at_utc": "2026-11-03T10:00:50.081557+00:00",
+      "acceptance_evidence": "results/octagons142/final/accepted.json",
+      "verification": "All10 paired counts accepted;8whole sets equal; maini/ii validated samples only. No restart."
+    },
+    {
+      "task": "Q8 nine-colorings: edges",
+      "pid": 924398,
+      "script": "run_queen117.py",
+      "metadata": "results/graphs117_120/queen117-edges-run.json",
+      "timeout_seconds_per_case": 172800,
+      "frozen_modules": [
+        "run_queen117.py",
+        "graph_native.py",
+        "count_graph_colorings.cpp"
+      ],
+      "acceptance": "results/q8_edges_completion/accepted.json",
+      "status": "accepted",
+      "reported_solutions": 262164,
+      "reported_validated_samples": 26,
+      "terminal_metadata": "results/graphs117_120/queen117-edges.json",
+      "observation_at_utc": "2026-11-03T19:34:41.192323+00:00",
+      "accepted_at_utc": "2026-11-03T19:39:21.822883+00:00",
+      "solutions": 262164,
+      "sample_models": 26
+    }
+  ],
+  "next_review_notes": "audit-2026-10-31/notes/bookwise-completion-2026-11-12.md",
+  "last_continuation_assessment": {
+    "at_utc": "2026-11-03T20:40:13.718118+00:00",
+    "previous_goal_turn_classification": "progress",
+    "previous_goal_turn_evidence": "Commit16556317: F137 standalone witness, completed143 and141hole5/142iii followup;242 Englishcards.",
+    "current_goal_turn_classification": "progress",
+    "goal_complete": false,
+    "next_safe_action": "266 and tiling generators; accept any newly completed old job without restart.",
+    "current_goal_turn_evidence": "Complete source geometry, exact small path models/Pfaffians, general 264–265 proofs, four findings and two separated candidates."
+  },
+  "library_acquisition": {
+    "at_utc": "2026-11-01T17:59:14.303500+00:00",
+    "metadata": "../inventory/acquisition-2026-11-01.json",
+    "publications": [
+      "MMIX1F1 digital3 May2023",
+      "4F7 Constraint Satisfaction digital1 March2025"
+    ],
+    "formats": [
+      "PDF",
+      "EPUB"
+    ],
+    "missing_previously_identified_publications": [],
+    "copies_verified": 11
+  },
+  "last_stairs_checkpoint": {
+    "at_utc": "2026-11-02T01:43:25.506499+00:00",
+    "native_left_solutions": 5372478,
+    "native_left_kernels": 136771,
+    "core_left_arcs": 12269,
+    "maximum_periods": {
+      "left500": 36,
+      "right1000": 5
+    },
+    "three_way_proved_at_checkpoint": [
+      "diagonal-3",
+      "diagonal-4",
+      "diagonal-5",
+      "diagonal-6",
+      "diagonal-7",
+      "diagonal-8",
+      "two-way-2",
+      "two-way-3",
+      "two-way-4",
+      "two-way-5",
+      "two-way-6",
+      "diagonal-9",
+      "diagonal-10"
+    ],
+    "three_way_live_wrapper_pid": 874050,
+    "next_free_ids": {
+      "F": "F129",
+      "C": "C029",
+      "E": "E048",
+      "D": "D081"
+    },
+    "three_way_updated_at_utc": "2026-11-02T05:34:20.110569+00:00"
+  },
+  "last_universal_checkpoint": {
+    "at_utc": "2026-11-02T02:23:09.513516+00:00",
+    "exercises": "DLX94–100",
+    "new_confirmed_findings": 0,
+    "candidate": "C028",
+    "known_erratum": "E047",
+    "binary94": 64,
+    "cycles95": [
+      137216,
+      41280
+    ],
+    "torus96_translation_classes": 80,
+    "torus97_native_models": 17388,
+    "torus97_translation_classes": 5796,
+    "slow95_wrapper_pid": 882581,
+    "three_way_proved": [
+      "diagonal-3",
+      "diagonal-4",
+      "diagonal-5",
+      "diagonal-6",
+      "diagonal-7",
+      "diagonal-8"
+    ],
+    "next_free_ids": {
+      "F": "F129",
+      "C": "C029",
+      "E": "E048",
+      "D": "D081"
+    }
+  },
+  "last_puzzles_checkpoint": {
+    "at_utc": "2026-11-02T03:27:51.296067+00:00",
+    "exercises": "DLX101–107",
+    "new_confirmed_findings": 0,
+    "new_candidates": 0,
+    "known_errata": [
+      "E048",
+      "E049",
+      "E050"
+    ],
+    "fully_reviewed": [
+      102,
+      106
+    ],
+    "partial": [
+      101,
+      103,
+      104,
+      105,
+      107
+    ],
+    "music_n18": 103653120,
+    "music_n18_R_orbits": 1872,
+    "music_n18_negative_Q_orbits": 1346,
+    "figures_glyphs": 311,
+    "figures_ovals": 91,
+    "words105_classes": 5,
+    "words106_boards": 8,
+    "words107_maximum_words": 11,
+    "words107_boards": 8,
+    "sat_pid": 892255,
+    "next_free_ids": {
+      "F": "F129",
+      "C": "C029",
+      "E": "E051",
+      "D": "D081"
+    }
+  },
+  "last_layouts_checkpoint": {
+    "at_utc": "2026-11-02T04:18:14.607242+00:00",
+    "exercises": "DLX108–114",
+    "new_confirmed_findings": [
+      "F129",
+      "F130"
+    ],
+    "known_errata": [
+      "E051",
+      "E052",
+      "E053",
+      "E054",
+      "E055",
+      "E056",
+      "E057",
+      "E058"
+    ],
+    "fully_reviewed": [
+      114
+    ],
+    "partial": [
+      108,
+      109,
+      110,
+      111,
+      112,
+      113
+    ],
+    "sudoku_count": 30258432,
+    "blocks_models": 8,
+    "block_candidates": 3223,
+    "torto_small_instances": 1264,
+    "accepted_native_or_independent_runs": 14,
+    "next_free_ids": {
+      "F": "F131",
+      "C": "C029",
+      "E": "E059",
+      "D": "D081"
+    }
+  },
+  "interrupted_audit_jobs": [
+    {
+      "task": "Independent Boolean/cardinality complete enumeration for DLX105–107",
+      "pid": 892255,
+      "script": "check_word_puzzles_sat.py",
+      "metadata": "results/puzzles101_107/words105-sat-run.json",
+      "order": [
+        "words105",
+        "words106",
+        "words107-pair",
+        "words107-eleven"
+      ],
+      "timeout_seconds_per_case": null,
+      "command": "/tmp/knuth-audit-sat-venv/bin/python -u audit-2026-10-31/check_word_puzzles_sat.py",
+      "started_at_utc": "2026-11-02T03:01:44.815109+00:00",
+      "acceptance": "Only completed, exhausted terminal records with equal full projected model sets count as accepted.",
+      "observed_at_utc": "2026-11-02T04:23:26.510858+00:00",
+      "status": "interrupted_without_terminal",
+      "cause": "unknown",
+      "record": "results/layouts108_114/process-observation.json",
+      "restart_policy": "Do not count as UNSAT/exhaustion. Inspect and preserve partial evidence before a deliberate future continuation."
+    },
+    {
+      "task": "diagrams111-b-mcc",
+      "pid": 901974,
+      "script": "dlx3",
+      "metadata": "results/layouts108_114/diagrams111-b-mcc-run.json",
+      "timeout_seconds_per_case": 172800,
+      "original_wrapper_pid": 901947,
+      "command": "timeout 172800 /tmp/knuth-vol4b-wordvariants-1ywhz35c/dlx3 v129 m1",
+      "observation": "results/layouts108_114/process-observation.json",
+      "acceptance": "Wrapper ended143; no terminal metadata. Check surviving timer/solver and eventual terminal log. Incomplete gzip is not a complete model set. No restart.",
+      "status": "terminal_log_only_wrapper_interrupted",
+      "observed_at_utc": "2026-11-02T04:28:19.997360+00:00",
+      "record": "results/layouts108_114/diagrams111-b-orphan-terminal.json",
+      "accepted_as_complete": false
+    },
+    {
+      "task": "Original Torto112 complete counts, five sequential cases",
+      "pid": 902988,
+      "script": "run_torto112.py",
+      "metadata": "results/layouts108_114/torto-queue.json",
+      "timeout_seconds_per_case": 172800,
+      "frozen_modules": [
+        "torto112.py",
+        "run_torto112.py",
+        "layout_native.py"
+      ],
+      "status": "interrupted_without_terminal",
+      "observed_at_utc": "2026-11-02T06:27:32.431502+00:00",
+      "record": "results/symmetry121_123/torto-one-ten-interrupted.json",
+      "accepted_as_complete": false,
+      "child_timeout_pid": 912693,
+      "cause": "unknown",
+      "pids_observed_absent": [
+        902988,
+        912693,
+        912694
+      ],
+      "restart_policy": "Preserve partial files; do not infer UNSAT, completion or a count. No implicit restart."
+    },
+    {
+      "task": "diagrams111-a-mcc",
+      "pid": 901946,
+      "script": "run_diagrams_mcc.py",
+      "metadata": "results/layouts108_114/diagrams111-a-mcc-run.json",
+      "timeout_seconds_per_case": 172800,
+      "last_observed_utc": "2026-11-03T13:26:39.862063+00:00",
+      "observed_status": "process_absent_terminal_not_reviewed",
+      "automatic_restart": false,
+      "status": "stopped_incomplete",
+      "reason": "Original wrapper absent; orphan901978/901980 had a stdout pipe without a reader. Own orphan stopped with SIGTERM; no terminal count.",
+      "observed_at_utc": "2026-11-03T13:30:57.140018+00:00",
+      "observation": "results/layouts108_114/diagrams111-a-mcc-orphan-stop.json"
+    },
+    {
+      "task": "Framed n27 queens: row-order and independent MRV enumeration with exact rotation weights",
+      "pid": 684086,
+      "script": "run_framed_queens.py",
+      "metadata": "results/framed_queens/large-n27-wrapper.json",
+      "parts": 344,
+      "timeout_seconds_per_method_per_part": 28800,
+      "observed_at_utc": "2026-11-04T14:23:16.666528+00:00",
+      "status": "terminated_by_user",
+      "complete": false,
+      "process_stop_evidence": "integration/2026-11-04/process-stop.json"
+    }
+  ],
+  "last_graphs_checkpoint": {
+    "at_utc": "2026-11-02T04:58:56.448316+00:00",
+    "exercises": "DLX115–117",
+    "fully_reviewed": [
+      115
+    ],
+    "partial": [
+      116,
+      117
+    ],
+    "new_confirmed_findings": [],
+    "new_candidates": [
+      "C029",
+      "C030"
+    ],
+    "known_errata": [
+      "E059"
+    ],
+    "hyper_counts": [
+      7784,
+      16384,
+      372,
+      32
+    ],
+    "mycielski_counts": [
+      1,
+      5,
+      520,
+      23713820
+    ],
+    "newly_accepted_prior_runs": [
+      "diagrams111-a-sharp",
+      "torto112-dancing",
+      "torto112-programming"
+    ],
+    "next_free_ids": {
+      "F": "F131",
+      "C": "C031",
+      "E": "E060",
+      "D": "D081"
+    }
+  },
+  "last_tiling_checkpoint": {
+    "at_utc": "2026-11-02T05:34:20.110569+00:00",
+    "fully_reviewed": [
+      118,
+      119,
+      120
+    ],
+    "new_confirmed_findings": [
+      "F131",
+      "F132"
+    ],
+    "known_errata": [
+      "E060"
+    ],
+    "translation_classes": {
+      "a": [
+        12
+      ],
+      "b": [
+        13,
+        3
+      ]
+    },
+    "next_free_ids": {
+      "F": "F133",
+      "C": "C031",
+      "E": "E061",
+      "D": "D081"
+    }
+  },
+  "symmetry_graph_launch": {
+    "record": "results/symmetry121_123/graphs/launch.json",
+    "jobs": [
+      {
+        "mode": "queen-edges",
+        "pid": 944644,
+        "command": [
+          "/usr/bin/python3",
+          "-u",
+          "audit-2026-10-31/run_graph117_symmetry.py",
+          "queen-edges"
+        ],
+        "timeout_seconds_per_case": 172800,
+        "log": "results/symmetry121_123/graphs/queen-edges-wrapper.log"
+      },
+      {
+        "mode": "queen-cliques",
+        "pid": 944645,
+        "command": [
+          "/usr/bin/python3",
+          "-u",
+          "audit-2026-10-31/run_graph117_symmetry.py",
+          "queen-cliques"
+        ],
+        "timeout_seconds_per_case": 172800,
+        "log": "results/symmetry121_123/graphs/queen-cliques-wrapper.log",
+        "status": "completed_accepted"
+      },
+      {
+        "mode": "mycielski",
+        "pid": 944646,
+        "command": [
+          "/usr/bin/python3",
+          "-u",
+          "audit-2026-10-31/run_graph117_symmetry.py",
+          "mycielski"
+        ],
+        "timeout_seconds_per_case": 172800,
+        "log": "results/symmetry121_123/graphs/mycielski-wrapper.log",
+        "status": "completed_accepted"
+      }
+    ],
+    "frozen_modules": [
+      "run_graph117_symmetry.py",
+      "native_symmetry122.py",
+      "graph_native.py",
+      "puzzle_xcc.py",
+      "run_queen117.py",
+      "run_mycielski_counts.py"
+    ]
+  },
+  "last_symmetry_checkpoint": {
+    "at_utc": "2026-11-02T06:19:25.532820+00:00",
+    "fully_reviewed": [
+      123
+    ],
+    "partial": [
+      121,
+      122
+    ],
+    "new_confirmed_findings": [],
+    "new_candidates": [
+      "C031"
+    ],
+    "known_errata": [
+      "E061",
+      "E062",
+      "E063"
+    ],
+    "native_graph_cases_accepted": 105,
+    "short_native_cases": 232,
+    "next_free_ids": {
+      "F": "F133",
+      "C": "C032",
+      "E": "E064",
+      "D": "D081"
+    }
+  },
+  "last_triangles_checkpoint": {
+    "at_utc": "2026-11-02T07:21:18.895988+00:00",
+    "fully_reviewed": [
+      124,
+      125
+    ],
+    "partial": [
+      126
+    ],
+    "new_confirmed_findings": [],
+    "existing_finding_extended": "F063",
+    "known_errata": [
+      "E064"
+    ],
+    "native_canonical_orbits": 164636,
+    "independent_labeled_models": 987816,
+    "center_solutions": [
+      2138,
+      2670
+    ],
+    "q8_independent_partitions": 262164,
+    "next_free_ids": {
+      "F": "F133",
+      "C": "C032",
+      "E": "E065",
+      "D": "D081"
+    },
+    "native_full_solutions": 11853792,
+    "native_full_net_mems": 339830815607
+  },
+  "last_borders_checkpoint": {
+    "at_utc": "2026-11-02T08:16:07.969900+00:00",
+    "fully_reviewed": [
+      128
+    ],
+    "partial": [
+      127
+    ],
+    "new_confirmed_findings": [],
+    "border_witnesses": 7889,
+    "admissible_labeled_borders": 2099200,
+    "labeled128models": 6192,
+    "color128orbits": 1032,
+    "original_wedges": 1055,
+    "next_free_ids": {
+      "F": "F133",
+      "C": "C032",
+      "E": "E065",
+      "D": "D081"
+    },
+    "ospd6_accepted": {
+      "total": 2038753,
+      "double_models": 389514,
+      "minimum_rank": 5772,
+      "mems": 4597044464264
+    }
+  },
+  "last_symmetries129_checkpoint": {
+    "at_utc": "2026-11-02T09:19:22.066696+00:00",
+    "exercises": [
+      129
+    ],
+    "fully_reviewed_exercises": [],
+    "partial": [
+      129
+    ],
+    "new_confirmed_findings": [],
+    "existing_finding_extended": "F065",
+    "known_errata": [
+      "E065"
+    ],
+    "original_wedges": 360,
+    "native129_cases": 60,
+    "fixed_lr_cases": 32,
+    "reflection_cases": 27,
+    "literal_strong_solutions": 68024064,
+    "literal_net_mems": 453526853015,
+    "both_axis_full_models": 1298,
+    "corrected_symmetric_total": 2362048,
+    "side127_labeled_solutions": 48620416,
+    "next_free_ids": {
+      "F": "F133",
+      "C": "C032",
+      "E": "E066",
+      "D": "D081"
+    }
+  },
+  "last_octahedron130_checkpoint": {
+    "at_utc": "2026-11-02T10:00:27.267324+00:00",
+    "fully_reviewed": [
+      130
+    ],
+    "partial": [
+      131
+    ],
+    "new_confirmed_findings": [],
+    "octahedron_colorings": 2723472,
+    "distinct_sets": 45356,
+    "partitions": 1615452,
+    "original_wedges": 72,
+    "wireframe_edges": 12,
+    "color_swaps": 4,
+    "next_free_ids": {
+      "F": "F133",
+      "C": "C032",
+      "E": "E066",
+      "D": "D081"
+    },
+    "partial131": {
+      "anchored_a": 4463448,
+      "canonical_a": 2231724,
+      "halfturn_equal_complete_models": 18656,
+      "native_wrapper_pid": 1015840,
+      "independent_wrapper_pid": 1016888
+    }
+  },
+  "last_mating131_checkpoint": {
+    "at_utc": "2026-11-02T10:53:59.717563+00:00",
+    "partial": [
+      131,
+      132
+    ],
+    "fully_reviewed": [],
+    "new_confirmed_findings": [],
+    "complete_top_down_sets": 169368,
+    "complete_halfturn_sets": 18656,
+    "anchored_a_independent": 4463448,
+    "jigsaw_side_occurrences": 72,
+    "trimino_dots": 108,
+    "symmetric_orbits": 47006,
+    "full_b_verified": false,
+    "existence132": {
+      "tiles": 4624,
+      "internal_edges": 6834,
+      "boundary_edges": 204
+    },
+    "checkpoint": "results/mating131/checkpoint-followup-checked.json",
+    "next_free_ids": {
+      "F": "F133",
+      "C": "C032",
+      "E": "E066",
+      "D": "D081"
+    },
+    "verified_at_utc": "2026-11-02T11:03:58.124717+00:00",
+    "live_observations": [
+      {
+        "pid": 684086,
+        "observation": "684086    1620 Ss      20:27:33 /usr/bin/python3 -u audit-2026-10-31/run_framed_queens.py --n 27"
+      },
+      {
+        "pid": 697793,
+        "observation": "697793    1620 Ss      19:08:04 /usr/bin/python3 -u audit-2026-10-31/run_langford_mems.py"
+      },
+      {
+        "pid": 862562,
+        "observation": "862562    1620 Ss      10:22:53 /usr/bin/python3 -u audit-2026-10-31/run_double_word_job.py audit-2026-10-31/results/double_words/configs/dlx-all-sgb5.json"
+      },
+      {
+        "pid": 862564,
+        "observation": "862564    1620 Ss      10:22:53 /usr/bin/python3 -u audit-2026-10-31/run_double_word_job.py audit-2026-10-31/results/double_words/configs/cell-ospd7.json"
+      },
+      {
+        "pid": 862565,
+        "observation": "862565    1620 Ss      10:22:53 /usr/bin/python3 -u audit-2026-10-31/run_double_word_queue.py audit-2026-10-31/results/double_words/configs/short-queue.json"
+      },
+      {
+        "pid": 874050,
+        "observation": "874050    1620 Rs      09:33:02 /usr/bin/python3 -u audit-2026-10-31/run_three_way_queue.py"
+      },
+      {
+        "pid": 882581,
+        "observation": "882581    1620 Ss      08:51:35 /usr/bin/python3 -u audit-2026-10-31/run_universal95_slow.py"
+      },
+      {
+        "pid": 901946,
+        "observation": "901946  232656 Ss      07:16:29 python3 -u audit-2026-10-31/run_diagrams_mcc.py a"
+      },
+      {
+        "pid": 918953,
+        "observation": "918953    1620 Ss      06:07:40 /usr/bin/python3 -u audit-2026-10-31/run_torto_remaining.py"
+      },
+      {
+        "pid": 924397,
+        "observation": "924397    1620 Ss      05:52:06 /usr/bin/python3 -u audit-2026-10-31/run_queen117.py cliques"
+      },
+      {
+        "pid": 924398,
+        "observation": "924398    1620 Ss      05:52:06 /usr/bin/python3 -u audit-2026-10-31/run_queen117.py edges"
+      },
+      {
+        "pid": 944644,
+        "observation": "944644    1620 Ss      04:57:37 /usr/bin/python3 -u audit-2026-10-31/run_graph117_symmetry.py queen-edges"
+      },
+      {
+        "pid": 944645,
+        "observation": "944645    1620 Ss      04:57:37 /usr/bin/python3 -u audit-2026-10-31/run_graph117_symmetry.py queen-cliques"
+      },
+      {
+        "pid": 978039,
+        "observation": "978039    1620 Ss      02:58:32 /usr/bin/python3 -u audit-2026-10-31/run_border_counts127.py"
+      },
+      {
+        "pid": 1015840,
+        "observation": "1015840    1620 Ss      01:01:18 /usr/bin/python3 -u audit-2026-10-31/run_mating131.py --resume-after-label-fix"
+      },
+      {
+        "pid": 1016888,
+        "observation": "1016888    1620 Ss         58:01 /usr/bin/python3 -u audit-2026-10-31/run_mating131_independent.py"
+      },
+      {
+        "pid": 1020191,
+        "observation": "1020191 1015840 S          50:13 timeout 172800 /tmp/knuth-vol4b-symmetry122-native-ukh0j3mc/dlx2-original v129 m100000",
+        "case": "131full(b)"
+      },
+      {
+        "pid": 1021810,
+        "observation": "1021810 1016888 S          46:39 timeout 172800 /tmp/knuth-vol4b-macmahon126-native-g0hwkln2/xcc-bitset",
+        "case": "131full(b)"
+      }
+    ]
+  },
+  "last_squares133_checkpoint": {
+    "at_utc": "2026-11-02T11:40:41.098412+00:00",
+    "partial": [
+      133,
+      134
+    ],
+    "fully_reviewed": [],
+    "new_confirmed_findings": [
+      "F133"
+    ],
+    "known_errata": [
+      "E066"
+    ],
+    "canonical": 13328,
+    "full": 106624,
+    "lower_bound_certificate_tilings": 1734,
+    "pentomino_counts": {
+      "P": 1685,
+      "Y": 243
+    },
+    "accepted_corner127": 52555816,
+    "next_free_ids": {
+      "F": "F134",
+      "C": "C032",
+      "E": "E067",
+      "D": "D081"
+    },
+    "checkpoint": "results/squares133/checkpoint-checked.json",
+    "accepted_separated127": 49941040
+  },
+  "last_cube135_checkpoint": {
+    "at_utc": "2026-11-02T12:42:47.015215+00:00",
+    "partial": [
+      135
+    ],
+    "fully_reviewed": [],
+    "new_confirmed_findings": [],
+    "fixed_axis_models": 732,
+    "classes_including_reflections": 61,
+    "classes_without_reflections": 122,
+    "mono_placement_classes": 27,
+    "sampling_trials": 27000000,
+    "accepted": "results/cube135/accepted.json",
+    "checkpoint": "results/cube135/checkpoint-checked.json",
+    "next_free_ids": {
+      "F": "F134",
+      "C": "C032",
+      "E": "E067",
+      "D": "D081"
+    }
+  },
+  "last_dodeca136_checkpoint": {
+    "at_utc": "2026-11-02T13:37:51.508992+00:00",
+    "partial": [
+      136
+    ],
+    "fully_reviewed": [],
+    "new_confirmed_findings": [],
+    "known_amendments": [
+      "E067"
+    ],
+    "anchored_models": 60,
+    "classes": 3,
+    "stabilizer_orders": [
+      4,
+      6,
+      12
+    ],
+    "printed_digits": 240,
+    "historical_rings": 3,
+    "accepted": "results/dodeca136/accepted.json",
+    "checkpoint": "results/dodeca136/checkpoint-checked.json",
+    "next_free_ids": {
+      "F": "F134",
+      "C": "C032",
+      "E": "E068",
+      "D": "D081"
+    }
+  },
+  "last_nuts137_checkpoint": {
+    "at_utc": "2026-11-02T14:37:07.441372+00:00",
+    "partial": [
+      137
+    ],
+    "fully_reviewed": [],
+    "new_confirmed_findings": [],
+    "new_candidates": [
+      "C032"
+    ],
+    "book_counts": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "printed_digits": 126,
+    "sampling_trials": 1000000,
+    "native_sampling_comparisons": 454,
+    "exact_type_sets": 59487568920,
+    "exact_nonempty_orbits": 5623238,
+    "independent_anchored_count": 43500008,
+    "exact_0_1_2_3plus": [
+      55439557440,
+      3180020160,
+      662739120,
+      205252200
+    ],
+    "maximum_solutions": 20,
+    "accepted": "results/nuts137/accepted.json",
+    "checkpoint": "results/nuts137/checkpoint-checked.json",
+    "next_free_ids": {
+      "F": "F134",
+      "C": "C033",
+      "E": "E068",
+      "D": "D081"
+    },
+    "accepted_q8_cliques": {
+      "solutions": 262164,
+      "net_search_mems": 6803279468569,
+      "samples": 26
+    }
+  },
+  "last_heads138_checkpoint": {
+    "at_utc": "2026-11-02T15:33:46.994584+00:00",
+    "partial": [
+      138
+    ],
+    "fully_reviewed": [],
+    "new_confirmed_findings": [],
+    "new_candidates": [
+      "C033"
+    ],
+    "known_errata": [
+      "E068"
+    ],
+    "independent_counts": [
+      85360,
+      6
+    ],
+    "book_normalized_count": 42680,
+    "book_orbit_count": 1056,
+    "color_only_orbit_count": 1361,
+    "printed_signed_edges": 488,
+    "accepted": "results/heads138/accepted.json",
+    "checkpoint": "results/heads138/checkpoint-checked.json",
+    "next_free_ids": {
+      "F": "F134",
+      "C": "C034",
+      "E": "E069",
+      "D": "D081"
+    }
+  },
+  "last_heads139_checkpoint": {
+    "at_utc": "2026-11-02T18:48:05.124403+00:00",
+    "partial": [
+      139
+    ],
+    "fully_reviewed": [],
+    "new_confirmed_findings": [],
+    "new_candidates": [],
+    "known_errata": [],
+    "all_sets": 1307504,
+    "full_group_classes": 14124,
+    "color_only_classes": 54498,
+    "complete_independent_models": 11431,
+    "printed_signed_edges": 108,
+    "accepted": "results/heads139/accepted.json",
+    "checkpoint": "results/heads139/checkpoint-checked.json",
+    "next_free_ids": {
+      "F": "F134",
+      "C": "C034",
+      "E": "E069",
+      "D": "D081"
+    }
+  },
+  "last_vertices140_checkpoint": {
+    "at_utc": "2026-11-02T19:35:05.437767+00:00",
+    "partial": [
+      140
+    ],
+    "fully_reviewed": [],
+    "new_confirmed_findings": [
+      "F134",
+      "F135"
+    ],
+    "raw_models": 7536,
+    "color_classes": 314,
+    "cases": 21,
+    "original_corners": 1296,
+    "accepted": "results/vertices140/accepted.json",
+    "checkpoint": "results/vertices140/checkpoint-checked.json",
+    "next_free_ids": {
+      "F": "F136",
+      "C": "C034",
+      "E": "E069",
+      "D": "D082"
+    },
+    "sgb5_followup": {
+      "record": "results/double_words/sgb5-terminal-checked.json",
+      "checked_block": "D081",
+      "models": 323264,
+      "net_mems": 14284514144977
+    }
+  },
+  "last_vertices141_checkpoint": {
+    "at_utc": "2026-11-02T20:26:06.440535+00:00",
+    "partial": [
+      141
+    ],
+    "fully_reviewed": [],
+    "new_confirmed_findings": [],
+    "geometric_models": 335292,
+    "geometric_classes": 66542,
+    "original_corners": 288,
+    "published_cylinder_families": 30,
+    "accepted": "results/vertices141/accepted-partial.json",
+    "checkpoint": "results/vertices141/checkpoint-checked.json",
+    "native_still_running": 1147292,
+    "q8_third_method": "results/symmetry121_123/graphs/q8-queen-cliques-accepted.json",
+    "next_free_ids": {
+      "F": "F136",
+      "C": "C034",
+      "E": "E069",
+      "D": "D082"
+    },
+    "metadata_followup": "After diff review: refreshed stale next-review pointers to142 and clarified independent completion does not claim cross-solver equality."
+  },
+  "last_octagons142_checkpoint": {
+    "at_utc": "2026-11-03T05:14:20.381620+00:00",
+    "partial": [
+      142
+    ],
+    "fully_reviewed": [],
+    "new_confirmed_findings": [
+      "F136"
+    ],
+    "paired_color_classes": 133176,
+    "original_sectors": 288,
+    "small_complete_comparisons": 29,
+    "gallery_witnesses": 483,
+    "accepted": "results/octagons142/accepted-partial.json",
+    "checkpoint": "results/octagons142/checkpoint-checked.json",
+    "live_142_wrappers": [
+      1157664
+    ],
+    "next_free_ids": {
+      "F": "F137",
+      "C": "C034",
+      "E": "E069",
+      "D": "D082"
+    },
+    "independent_accepted": "results/octagons142/independent-accepted.json",
+    "independent_finished_at_utc": "2026-11-03T05:13:55.443119+00:00",
+    "newly_validated_independent_models": 653780
+  },
+  "last_polygons143_checkpoint": {
+    "at_utc": "2026-11-03T05:53:41.724674+00:00",
+    "fully_reviewed": [
+      143
+    ],
+    "new_confirmed_findings": [
+      "F137"
+    ],
+    "known_errata": [
+      "E069",
+      "E070",
+      "E071"
+    ],
+    "native_models": 206472,
+    "color_classes": 8603,
+    "oeis_values": 5200,
+    "accepted": "results/polygons143/accepted.json",
+    "checkpoint": "results/polygons143/checkpoint-checked.json",
+    "followup_141": "results/vertices141/native-accepted/hole5.json",
+    "followup_142": "results/octagons142/accepted/iii.json",
+    "next_free_ids": {
+      "F": "F138",
+      "C": "C034",
+      "E": "E072",
+      "D": "D082"
+    }
+  },
+  "resource_policy": {
+    "updated_at_utc": "2026-11-03T06:38:27.070326+00:00",
+    "scope": "This main4B audit only",
+    "background_nice": 15,
+    "existing_jobs": "All verified live4B wrapper trees and current validator set to nice15; no restart or termination.",
+    "future_jobs": "Use nice15 or lower priority. Prefer proofs, explicit witnesses and small targeted checks. Do not start long duplicate censuses or historical benchmarks without a concrete unresolved mathematical reason.",
+    "evidence": "results/hexagons144/resource-priority-change.json",
+    "observation": "results/hexagons144/resource-observation.json",
+    "user_steering": "2026-11-03: continue; low priority for brute force; no need to reproduce every claim when long brute force is required.",
+    "authorized_omissions": "Record each expensive omitted reproduction and its evidence precisely; never label an unperformed census as verified."
+  },
+  "finished_audit_jobs_pending_review": [
+    {
+      "task": "Literal Langford n17 variants: complete nodes and memory counts",
+      "pid": 697793,
+      "script": "run_langford_mems.py",
+      "metadata": "results/langford_mems/large-wrapper.json",
+      "timeout_seconds_per_case": 172800,
+      "order": [
+        "L21",
+        "L20",
+        "L"
+      ],
+      "observed_at_utc": "2026-11-04T14:23:16.666528+00:00",
+      "status": "finished_pending_acceptance",
+      "coverage_promoted": false
+    },
+    {
+      "task": "Sequential native minimax, word stairs, prefix cells and OSPD6",
+      "pid": 862565,
+      "script": "run_double_word_queue.py",
+      "metadata": "results/double_words/short-queue.json",
+      "timeout_seconds_per_case": 172800,
+      "observed_at_utc": "2026-11-04T14:23:16.666528+00:00",
+      "status": "finished_previously_accepted_minimax",
+      "acceptance_evidence": "results/double_words/ospd6-minimax-accepted.json"
+    },
+    {
+      "task": "DLX92–93 exact physical word-CSP optima",
+      "pid": 874050,
+      "script": "run_three_way_queue.py",
+      "metadata": "results/three_way_stairs/queue.json",
+      "timeout_seconds_per_case": 172800,
+      "observed_at_utc": "2026-11-04T14:23:16.666528+00:00",
+      "status": "finished_pending_acceptance",
+      "coverage_promoted": false
+    },
+    {
+      "task": "DLX95 slow benchmark: a-items secondary, reported nearly50T mems",
+      "pid": 882581,
+      "script": "run_universal95_slow.py",
+      "metadata": "results/universal_cycles/native95-7-0-3-a-secondary-run.json",
+      "timeout_seconds_per_case": 172800,
+      "observed_at_utc": "2026-11-04T14:23:16.666528+00:00",
+      "status": "finished_pending_acceptance",
+      "coverage_promoted": false
+    },
+    {
+      "task": "Q8 nine-colorings using AlgorithmC/queen-edges",
+      "pid": 944644,
+      "script": "run_graph117_symmetry.py",
+      "metadata": "results/symmetry121_123/graphs/q8-queen-edges-run.json",
+      "timeout_seconds_per_case": 172800,
+      "frozen_modules": [
+        "run_graph117_symmetry.py",
+        "native_symmetry122.py",
+        "graph_native.py",
+        "puzzle_xcc.py",
+        "run_queen117.py",
+        "run_mycielski_counts.py"
+      ],
+      "acceptance": "Only terminal runs with valid hashes, counts and samples; every10000th model is emitted.",
+      "observed_at_utc": "2026-11-04T14:23:16.666528+00:00",
+      "status": "finished_pending_acceptance",
+      "coverage_promoted": false
+    },
+    {
+      "task": "DLX131 native jigsaw counts, then trimino symmetry/full cases",
+      "pid": 1015840,
+      "script": "run_mating131.py",
+      "metadata": "results/mating131/queue.json",
+      "timeout_seconds_per_case": 172800,
+      "frozen_modules": [
+        "mating131.py",
+        "run_mating131.py",
+        "check_macmahon.py",
+        "symmetries129.py",
+        "macmahon126.py",
+        "graph_native.py",
+        "borders127_128.py"
+      ],
+      "acceptance": "First four native cases accepted; all halfturn/top-down model sets identical to independent method. Currentlyfull(b), require zero-exit terminal, hashes, geometric samples. Source frozen; no implicit restart.",
+      "previous_wrapper_pid": 1013539,
+      "observed_at_utc": "2026-11-04T14:23:16.666528+00:00",
+      "status": "finished_pending_acceptance",
+      "coverage_promoted": false
+    },
+    {
+      "task": "DLX131 independent conflict-bitset counts with contracted equalities",
+      "pid": 1016888,
+      "script": "run_mating131_independent.py",
+      "metadata": "results/mating131/independent/queue.json",
+      "timeout_seconds_per_case": 172800,
+      "frozen_modules": [
+        "run_mating131_independent.py",
+        "mating131.py",
+        "macmahon126.py",
+        "check_macmahon.py",
+        "symmetries129.py",
+        "xcc_bitset.cpp"
+      ],
+      "acceptance": "Halfturn18656,top-down169368 complete sets and anchored(a)4463448 count accepted. Currentlyfull(b), require terminal hashes/count. Source frozen; no implicit restart.",
+      "observed_at_utc": "2026-11-04T14:23:16.666528+00:00",
+      "status": "finished_pending_acceptance",
+      "coverage_promoted": false
+    }
+  ],
+  "last_hexagons144_checkpoint": {
+    "at_utc": "2026-11-03T06:59:29.501530+00:00",
+    "reviewed": [
+      144,
+      145
+    ],
+    "new_findings": [],
+    "known_errata": [
+      "E072"
+    ],
+    "completed_old_run_block": "D082",
+    "accepted": "results/hexagons144/accepted.json",
+    "checkpoint": "results/hexagons144/checkpoint-checked.json",
+    "explicit_omissions": 5,
+    "next_free_ids": {
+      "F": "F138",
+      "C": "C034",
+      "E": "E073",
+      "D": "D083"
+    }
+  },
+  "last_bricks147_checkpoint": {
+    "at_utc": "2026-11-03T07:48:04.211808+00:00",
+    "mathematics_complete": true,
+    "whole_exercise_status": "partial",
+    "new_findings": [
+      "F138"
+    ],
+    "known_errata": [
+      "E074",
+      "E075"
+    ],
+    "accepted": "results/bricks147/accepted.json",
+    "next_free_ids": {
+      "F": "F139",
+      "C": "C035",
+      "E": "E076",
+      "D": "D083"
+    }
+  },
+  "last_cubes148_checkpoint": {
+    "at_utc": "2026-11-03T09:45:56.065446+00:00",
+    "reviewed": [
+      148
+    ],
+    "new_findings": [],
+    "checked": "results/cubes148/checked.json",
+    "next_free_ids": {
+      "F": "F139",
+      "C": "C035",
+      "E": "E076",
+      "D": "D083"
+    }
+  },
+  "last_octagons142_final_checkpoint": {
+    "at_utc": "2026-11-03T10:00:50.081557+00:00",
+    "evidence": "results/octagons142/final/accepted.json",
+    "next": "DLX149"
+  },
+  "last_tetra149_checkpoint": {
+    "at_utc": "2026-11-03T10:09:31.896085+00:00",
+    "mathematics_complete": true,
+    "history_open": true,
+    "new_findings": [],
+    "evidence": "results/tetra149/bounded/checked.json"
+  },
+  "last_chain150_checkpoint": {
+    "at_utc": "2026-11-03T10:39:32.611980+00:00",
+    "mathematics_complete": true,
+    "whole_exercise_status": "partial",
+    "new_findings": [
+      "F139"
+    ],
+    "accepted": "results/chain150/accepted.json",
+    "next_free_ids": {
+      "F": "F140",
+      "C": "C035",
+      "E": "E076",
+      "D": "D083"
+    }
+  },
+  "last_paths151_checkpoint": {
+    "at_utc": "2026-11-03T10:52:16.378504+00:00",
+    "exercise151_status": "partial",
+    "exercise152_status": "reviewed",
+    "new_findings": [],
+    "known_errata": [
+      "E076",
+      "E077"
+    ],
+    "new_searches": 0,
+    "accepted": "results/paths151_152/accepted.json",
+    "next_free_ids": {
+      "F": "F140",
+      "C": "C035",
+      "E": "E078",
+      "D": "D083"
+    }
+  },
+  "last_path153_checkpoint": {
+    "at_utc": "2026-11-03T11:02:14.250470+00:00",
+    "mathematics_complete": true,
+    "source_gaps_open": true,
+    "solver_calls": 0,
+    "new_findings": [],
+    "evidence": "results/path153/figures-checked.json"
+  },
+  "last_partridge154_checkpoint": {
+    "at_utc": "2026-11-03T11:17:25.255278+00:00",
+    "mathematics_complete": true,
+    "source_gaps_open": true,
+    "solver_calls": 0,
+    "new_candidate": "C035",
+    "known_erratum": "E078",
+    "next_ids": {
+      "F": "F140",
+      "C": "C036",
+      "E": "E079",
+      "D": "D083"
+    },
+    "open_scope": "Only C035: intended carol variant.",
+    "final_evidence": "results/partridge154/source-followup-checked.json",
+    "singleton1996_date_corroborated": true
+  },
+  "last_partridge155_checkpoint": {
+    "at_utc": "2026-11-03T11:25:50.371593+00:00",
+    "mathematics_complete": true,
+    "source_gap": "RobertReid suggestedexercise and minimumbyhand2000",
+    "new_solver_calls": 0,
+    "verified_figures": 4,
+    "labels_per_version": 114,
+    "next_ids": {
+      "F": "F140",
+      "C": "C036",
+      "E": "E079",
+      "D": "D083"
+    }
+  },
+  "last_partridge156_checkpoint": {
+    "at_utc": "2026-11-03T11:34:08.388055+00:00",
+    "mathematics_complete": true,
+    "new_searches": 0,
+    "known_erratum": "E079",
+    "historical_gaps": [
+      "Wainwright1981",
+      "Cutler full2332 census exact1996date"
+    ],
+    "next_ids": {
+      "F": "F140",
+      "C": "C036",
+      "E": "E080",
+      "D": "D083"
+    }
+  },
+  "last_partridge157_158_checkpoint": {
+    "at_utc": "2026-11-03T11:46:47.693970+00:00",
+    "both_exercises_reviewed": true,
+    "new_large_searches": 0,
+    "new_small_cases": 12,
+    "complete_independent_runs": 24,
+    "max_seconds": 0.03700458098319359,
+    "F068_standalone_verifier": "verify_f068.py",
+    "next_ids": {
+      "F": "F140",
+      "C": "C036",
+      "E": "E080",
+      "D": "D083"
+    }
+  },
+  "last_queens159_161_checkpoint": {
+    "at_utc": "2026-11-03T11:59:35.974625+00:00",
+    "all_three_reviewed": true,
+    "new_full_censuses": 0,
+    "printed_figures_per_version": 4,
+    "F067_standalone_verifier": "verify_f067.py",
+    "verifier_seconds": 0.18762820499250665,
+    "own_processes_nice15": 29,
+    "next_ids": {
+      "F": "F140",
+      "C": "C036",
+      "E": "E080",
+      "D": "D083"
+    }
+  },
+  "last_nested162_checkpoint": {
+    "at_utc": "2026-11-03T12:18:34.542354+00:00",
+    "all_reviewed": true,
+    "new_placement_searches": 0,
+    "queens_per_version": 83,
+    "shaded_blocks_per_version": 13,
+    "prior_ranges": 51,
+    "answer161_continuation_supplied": true,
+    "reference_edition": 1921,
+    "exact1910_copy_acquired": false,
+    "next_ids": {
+      "F": "F140",
+      "C": "C036",
+      "E": "E083",
+      "D": "D083"
+    }
+  },
+  "last_mcc163_170_checkpoint": {
+    "at_utc": "2026-11-03T12:31:00.587842+00:00",
+    "all_eight_reviewed": true,
+    "new_large_searches": 0,
+    "printing_cases": 10,
+    "printed_solution_steps": 162,
+    "null_branches": 41,
+    "new_F071_verifier": "verify_f071.py",
+    "next_ids": {
+      "F": "F140",
+      "C": "C036",
+      "E": "E085",
+      "D": "D083"
+    }
+  },
+  "last_petersen171_checkpoint": {
+    "at_utc": "2026-11-03T12:43:46.214140+00:00",
+    "reviewed": true,
+    "new_dictionary_searches": 0,
+    "printed_words": 11,
+    "new_base": [
+      0,
+      1,
+      3
+    ],
+    "old_E009_presentation_archived": true,
+    "next_ids": {
+      "F": "F140",
+      "C": "C036",
+      "E": "E085",
+      "D": "D083"
+    }
+  },
+  "last_snakes172_checkpoint": {
+    "at_utc": "2026-11-03T13:05:52.684357+00:00",
+    "whole_exercise_status": "partial",
+    "new_searches": 0,
+    "figures_per_version": 16,
+    "pieces_per_version": 305,
+    "old_E010_presentation_archived": true,
+    "next_ids": {
+      "F": "F141",
+      "C": "C037",
+      "E": "E085",
+      "D": "D083"
+    }
+  },
+  "last_chess173_174_checkpoint": {
+    "at_utc": "2026-11-03T13:26:39.862063+00:00",
+    "board_occurrences": 141,
+    "piece_occurrences": 2374,
+    "reused_cases": 11,
+    "new_cases": 28,
+    "new_valid_unique": 27,
+    "known_impossible_draft": 1,
+    "long_searches": 0,
+    "next_ids": {
+      "F": "F142",
+      "C": "C037",
+      "E": "E087",
+      "D": "D083"
+    }
+  },
+  "last_mcc175_179_checkpoint": {
+    "at_utc": "2026-11-03T13:51:07.992139+00:00",
+    "printed_digits_per_version": 82,
+    "subset_checks": 640,
+    "tiny_native_checks": 6,
+    "old_calculations_rerun": 0,
+    "new_long_searches": 0,
+    "next_ids": {
+      "F": "F142",
+      "C": "C038",
+      "E": "E090",
+      "D": "D083"
+    }
+  },
+  "last_extreme180_188_checkpoint": {
+    "at_utc": "2026-11-03T15:12:02.964953+00:00",
+    "tree_nodes_per_version": 16,
+    "tree_edges_per_version": 15,
+    "matrix_cells_per_version": 69,
+    "triangle_entries_per_version": 21,
+    "original181_residue_certificates": 595,
+    "old_censuses_rerun": 0,
+    "new_solver_calls": 0,
+    "new_long_searches": 0,
+    "next_ids": {
+      "F": "F142",
+      "C": "C039",
+      "E": "E092",
+      "D": "D083"
+    }
+  },
+  "last_gould189_192_checkpoint": {
+    "at_utc": "2026-11-03T15:36:02.627535+00:00",
+    "new_finding": "F142",
+    "exact_figure_cells_per_version": 5050,
+    "checker_wall_seconds": 1.304490080976393,
+    "old_censuses_rerun": 0,
+    "new_solver_calls": 0,
+    "new_long_searches": 0,
+    "general190_research_problem_solved": false,
+    "process_snapshot": "results/gould189_192/process-priority.json",
+    "next_ids": {
+      "F": "F143",
+      "C": "C039",
+      "E": "E092",
+      "D": "D083"
+    }
+  },
+  "last_matching193_198_checkpoint": {
+    "at_utc": "2026-11-03T15:53:02.522799+00:00",
+    "known_errata": [
+      "E092",
+      "E093"
+    ],
+    "new_findings": [],
+    "upgraded_to_checked": "M196",
+    "source_graph_vertices_per_version": 18,
+    "source_graph_edges_per_version": 66,
+    "source_matrix_cells_per_version": 81,
+    "checker_wall_seconds": 0.1533705820038449,
+    "old_censuses_rerun": 0,
+    "new_solver_calls": 0,
+    "new_long_searches": 0,
+    "process_snapshot": "results/matching193_198/process-priority.json",
+    "next_ids": {
+      "F": "F143",
+      "C": "C039",
+      "E": "E094",
+      "D": "D083"
+    }
+  },
+  "last_matching199_201_checkpoint": {
+    "at_utc": "2026-11-03T16:08:56.059867+00:00",
+    "promoted_existing_id": "C003",
+    "new_ids": [],
+    "upgraded_to_checked": [
+      "M200",
+      "M201"
+    ],
+    "remaining_candidate": "C002",
+    "source_matrix_cells_per_version": 63,
+    "checker_wall_seconds": 0.16246359000797383,
+    "old_censuses_rerun": 0,
+    "new_solver_calls": 0,
+    "new_long_searches": 0,
+    "process_snapshot": "results/matching199_201/process-priority.json",
+    "next_ids": {
+      "F": "F143",
+      "C": "C039",
+      "E": "E094",
+      "D": "D083"
+    }
+  },
+  "last_focus202_207_checkpoint": {
+    "at_utc": "2026-11-03T16:32:42.028307+00:00",
+    "new_findings": [
+      "F143",
+      "F144"
+    ],
+    "known_errata": [
+      "E094"
+    ],
+    "new_checked": "X202",
+    "remaining_partial": "X207",
+    "trees_per_version": 14,
+    "nodes_per_version": 89,
+    "edges_per_version": 75,
+    "source_label_glyphs_per_version": 58,
+    "checker_wall_seconds": 2.36914966700715,
+    "old_censuses_rerun": 0,
+    "distinct_new_tiny_inputs": 2,
+    "new_long_searches": 0,
+    "explicit_omission": "DLX207-historical-benchmarks",
+    "next_ids": {
+      "F": "F145",
+      "C": "C039",
+      "E": "E095",
+      "D": "D083"
+    }
+  },
+  "last_exchanges208_214_checkpoint": {
+    "at_utc": "2026-11-03T16:54:20.218328+00:00",
+    "new_findings": [],
+    "known_errata": [
+      "E095",
+      "E096",
+      "E097"
+    ],
+    "new_checked": [
+      "X208",
+      "X209"
+    ],
+    "figure_tiles_per_version": 45,
+    "figure_labels_per_version": 45,
+    "new_small_tree_nodes_per_version": 21,
+    "new_small_tree_edges_per_version": 19,
+    "checker_wall_seconds": 11.860702404985204,
+    "bounded_solver_seconds": 20.258325468021212,
+    "bounded_solver_status": "time_limit",
+    "incongruent_tiling_lower_bound": 212,
+    "upper_bound_verified": false,
+    "old_censuses_rerun": 0,
+    "new_long_searches": 0,
+    "explicit_omission": "DLX208-census-and-benchmarks",
+    "next_ids": {
+      "F": "F145",
+      "C": "C039",
+      "E": "E098",
+      "D": "D083"
+    }
+  },
+  "last_bipairs215_217_checkpoint": {
+    "at_utc": "2026-11-03T17:06:36.507917+00:00",
+    "new_findings": [],
+    "known_errata": [
+      "E098"
+    ],
+    "completed_blocks": [
+      "X215",
+      "X217"
+    ],
+    "printed_diagrams_per_version": 38,
+    "pieces_per_version": 76,
+    "cells_per_version": 380,
+    "source_checker_seconds": 1.1109328599995933,
+    "old_censuses_rerun": 0,
+    "new_solver_searches": 0,
+    "original_miller_citation_checked": true,
+    "explicit_omission": "DLX216-historical-benchmarks",
+    "next_ids": {
+      "F": "F145",
+      "C": "C039",
+      "E": "E099",
+      "D": "D083"
+    }
+  },
+  "last_preprocess218_224_checkpoint": {
+    "at_utc": "2026-11-03T17:27:24.902443+00:00",
+    "new_findings": [
+      "F145"
+    ],
+    "known_errata": [
+      "E011",
+      "E099",
+      "E100"
+    ],
+    "completed_blocks": [
+      "X218"
+    ],
+    "source_checker_seconds": 0.022731899982318282,
+    "targeted_inputs": 6,
+    "variants_each": 2,
+    "old_suites_repeated": 0,
+    "new_solver_searches": 0,
+    "prior_model_scope_corrected": true,
+    "next_ids": {
+      "F": "F146",
+      "C": "C039",
+      "E": "E101",
+      "D": "D083"
+    }
+  },
+  "completed_torto225_job": [
+    {
+      "task": "Only never-started Torto zero-eight and ordinals, direct stdout",
+      "pid": 918953,
+      "script": "run_torto_remaining.py",
+      "metadata": "results/graphs115_120/torto-remaining-queue.json",
+      "timeout_seconds_per_case": 172800,
+      "acceptance": "Completed terminal, every word path and all projected board classes; do not duplicate old one-ten child."
+    }
+  ],
+  "last_preprocess225_checkpoint": {
+    "at_utc": "2026-11-03T17:50:46.184948+00:00",
+    "new_findings": [
+      "F146"
+    ],
+    "known_errata": [
+      "E101"
+    ],
+    "completed_blocks": [
+      "X225"
+    ],
+    "checker_seconds": 4.3338099789689295,
+    "short_preprocessing_runs": 7,
+    "new_full_searches": 0,
+    "old_successful_suites_repeated": 0,
+    "torto_classes": [
+      553,
+      72853
+    ],
+    "next_ids": {
+      "F": "F147",
+      "C": "C039",
+      "E": "E102",
+      "D": "D083"
+    }
+  },
+  "last_cost226_229_checkpoint": {
+    "at_utc": "2026-11-03T17:59:26.603940+00:00",
+    "known_errata": [
+      "E102"
+    ],
+    "new_findings": [],
+    "completed_blocks": [
+      "X226"
+    ],
+    "printed_values_per_version": 204,
+    "source_checker_seconds": 1.4232156010111794,
+    "new_suffix_nodes": 1040,
+    "new_suffix_solutions": 12,
+    "bounded_new_attempt_seconds": 20.038332019001245,
+    "bounded_attempt_status": "timeout_not_UNSAT",
+    "old_censuses_repeated": 0,
+    "new_full_censuses": 0,
+    "next_ids": {
+      "F": "F147",
+      "C": "C039",
+      "E": "E103",
+      "D": "D083"
+    }
+  },
+  "last_queen230_236_checkpoint": {
+    "at_utc": "2026-11-03T18:22:30.350379+00:00",
+    "new_findings": [
+      "F147"
+    ],
+    "known_errata": [
+      "E103",
+      "E104",
+      "E105"
+    ],
+    "completed_blocks": [
+      "X232"
+    ],
+    "figures_per_version": 13,
+    "printed_queen_occurrences_per_version": 389,
+    "source_checker_seconds": 0.028887138003483415,
+    "figure_checker_seconds": 1.8311496290261857,
+    "old_censuses_repeated": 0,
+    "new_optimization_searches": 0,
+    "process_priority_record": "results/queen230_236/process-priority.json",
+    "next_ids": {
+      "F": "F148",
+      "C": "C039",
+      "E": "E106",
+      "D": "D083"
+    }
+  },
+  "last_words_primes231_238_checkpoint": {
+    "at_utc": "2026-11-03T18:40:44.977316+00:00",
+    "new_findings": [],
+    "new_checked_blocks": [
+      "X231"
+    ],
+    "updated_blocks": [
+      "X237"
+    ],
+    "word_counts": [
+      27,
+      8017,
+      310077
+    ],
+    "word_maxima": [
+      139,
+      176,
+      197
+    ],
+    "word_models_independently_validated": 318121,
+    "longest_new_word_search_seconds": 5.659753156010993,
+    "new_prime_n3_grids": 29490,
+    "new_prime_n3_seconds": 5.483261485991534,
+    "prime_digits_per_version": 450,
+    "word_letters_per_version": 80,
+    "old_optimizations_repeated": 0,
+    "next_ids": {
+      "F": "F148",
+      "C": "C039",
+      "E": "E106",
+      "D": "D083"
+    }
+  },
+  "last_usa239_246_checkpoint": {
+    "at_utc": "2026-11-03T19:13:45.325075+00:00",
+    "new_findings": [
+      "F148",
+      "F149"
+    ],
+    "new_candidates": [
+      "C039",
+      "C040"
+    ],
+    "known_errata": [
+      "E106",
+      "E107"
+    ],
+    "source_graphs_per_version": 11,
+    "vertices_per_version": 530,
+    "edges_per_version": 1159,
+    "source_checker_seconds": 0.9259268409805372,
+    "old_censuses_repeated": 0,
+    "population_global_optima_repeated": 0,
+    "complete_new_counts": 4,
+    "next_ids": {
+      "F": "F150",
+      "C": "C041",
+      "E": "E108",
+      "D": "D084"
+    },
+    "previous_ui_snapshot": {
+      "url": "http://localhost:4318",
+      "path": "review-ui/",
+      "runtime_metadata": "review-ui/data/server.json",
+      "database": "review-ui/data/annotations.sqlite3",
+      "completed_at_utc": "2026-11-01T11:43:34.908115+00:00",
+      "verification": "All249 prior English cards preserved; two published corrections added.",
+      "research": "review-ui/research.json: seven primary sources, now including the2026 greedy-queens preprint and its stated AI involvement.",
+      "followup": "Inspect personal rejected/followup verdicts before further claims; never overwrite user notes or convert user verdicts into ledger status automatically.",
+      "language": "en",
+      "translated_findings": 251,
+      "last_language_review_at_utc": "2026-11-03T10:52:16.378504+00:00",
+      "language_policy": "All interface copy, finding titles/impacts/summaries/locations, help, related work, and API errors are English. Original evidence and user-authored notes retain their original wording. Update curation translations and source digests whenever ledger conclusions change.",
+      "last_finding_update_at_utc": "2026-11-03T10:52:16.378504+00:00",
+      "personal_annotations_checked_at_utc": "2026-11-03T07:48:55.900846+00:00",
+      "personal_annotations_at_last_check": 0,
+      "cards": 251
+    }
+  },
+  "last_csharp247_250_checkpoint": {
+    "at_utc": "2026-11-03T19:34:41.192323+00:00",
+    "new_findings": [
+      "F150"
+    ],
+    "known_errata": [
+      "E108"
+    ],
+    "new_spacer_cases": 512,
+    "spacer_seconds": 1.704999351000879,
+    "heuristic248_cases": 3600,
+    "old_tests_repeated": 0,
+    "new_long_jobs": 0,
+    "next_ids": {
+      "F": "F151",
+      "C": "C041",
+      "E": "E109",
+      "D": "D085"
+    }
+  },
+  "completed_q8_edges_job": {
+    "at_utc": "2026-11-03T19:39:21.822883+00:00",
+    "solutions": 262164,
+    "sample_models": 26,
+    "net_search_mems": 30914137077371,
+    "evidence": "results/q8_edges_completion/accepted.json",
+    "x117_still_partial": true
+  },
+  "last_zdd251_260_checkpoint": {
+    "at_utc": "2026-11-03T20:03:14.573917+00:00",
+    "new_findings": [
+      "F151",
+      "F152",
+      "F153"
+    ],
+    "new_candidates": [
+      "C041",
+      "C042"
+    ],
+    "known_errata": [
+      "E109"
+    ],
+    "new_native_cases": 35,
+    "new_cases_seconds": 2.8670424229931086,
+    "figure_arcs_per_version": [
+      97,
+      21
+    ],
+    "old_tests_repeated": 0,
+    "new_long_jobs": 0,
+    "next_ids": {
+      "F": "F154",
+      "C": "C043",
+      "E": "E110",
+      "D": "D086"
+    }
+  },
+  "last_zdd261_265_checkpoint": {
+    "at_utc": "2026-11-03T20:40:13.718118+00:00",
+    "new_findings": [
+      "F154",
+      "F155",
+      "F156",
+      "F157"
+    ],
+    "new_candidates": [
+      "C043",
+      "C044"
+    ],
+    "known_errata": [
+      "E110",
+      "E111"
+    ],
+    "new_native_cases": 11,
+    "old_tests_repeated": 0,
+    "new_long_jobs": 0,
+    "next_ids": {
+      "F": "F158",
+      "C": "C045",
+      "E": "E112",
+      "D": "D087"
+    }
+  },
+  "status": "review_complete",
+  "running_processes": [],
+  "integration_handoff": "integration/2026-11-04/4b-handoff.md",
+  "assigned_agent": "/root",
+  "resumed_at_utc": "2026-11-06T19:16:40.676842+00:00",
+  "sequential_review": {
+    "reading_cursor_file_page": null,
+    "detailed_cursor_file_page": null,
+    "earliest_unreviewed_original_file_page": null,
+    "whole_volume_complete": true,
+    "note": "Completed under current agreed scope; historical partial records remain available as history.",
+    "last_closed_block": "D224: requested main1–100 and paired exercise groups complete with exact exceptions.",
+    "reading_cursor_scope": "The next main-text page outside the completed request is printed101/file121. Frontmatter and later gray pages are not implicitly certified.",
+    "earliest_unclosed_assessed_file_page": 7,
+    "earliest_unclosed_mathematical_exercise": {
+      "id": "Front:3",
+      "file_page": 15
+    },
+    "detailed_cursor_semantics": "Future optional main-text continuation only; current task complete and no automatic continuation authorized.",
+    "first100_requested_scope_complete": true,
+    "next_unrequested_main_printed_page": 101,
+    "first100_evidence": "notes/first100-completion-2026-11-07.md"
+  },
+  "last_sequential_checkpoint": {
+    "at_utc": "2026-11-07T03:56:49.917832+00:00",
+    "new_ledger_ids": [
+      "D222"
+    ],
+    "updated_ledger_ids": [
+      "C004",
+      "F008",
+      "E002"
+    ],
+    "assessed_file_pages": [
+      45,
+      410
+    ],
+    "new_findings": [
+      "C004"
+    ],
+    "finding_id_note": "Existing C004 promoted locally, original ID preserved; root acceptance not yet claimed.",
+    "reused_findings": [
+      "F008"
+    ],
+    "new_candidates": [],
+    "known_corrections": [
+      "E002"
+    ],
+    "next_detailed_file_page": 45,
+    "next_detailed_scope": "MPR125",
+    "evidence": "notes/sequential-mpr-ex124.md",
+    "ledger_counts": {
+      "confirmed": 179,
+      "checked": 328,
+      "partial": 116,
+      "candidate": 44,
+      "known_erratum": 135,
+      "dismissed": 2
+    },
+    "exercise_counts": {
+      "reviewed": 358,
+      "partial": 110,
+      "pending": 734
+    },
+    "page_counts": {
+      "reviewed": 107,
+      "partial": 163,
+      "pending": 464
+    },
+    "next_ids": {
+      "F": "F177",
+      "C": "C049",
+      "E": "E136",
+      "D": "D223"
+    },
+    "new_calculations": 0,
+    "old_runs_repeated": 0
+  },
+  "paused_at_utc": "2026-11-07T04:03:44.098262+00:00",
+  "pause_checkpoint": {
+    "at_utc": "2026-11-07T04:03:44.098262+00:00",
+    "reason": "Explicit user instruction relayed by coordinator: stop all processes and record current position.",
+    "last_completed_ledger_id": "D222",
+    "last_completed_at_utc": "2026-11-07T03:56:49.917832+00:00",
+    "in_progress": "MPR125(a–g), no new completed ledger entry",
+    "file_page": 45,
+    "printed_page": 25,
+    "answer_file_pages": [
+      410,
+      411
+    ],
+    "reading_cursor_file_page": 46,
+    "detailed_cursor_file_page": 45,
+    "draft_evidence": "notes/paused-mpr125-2026-11-07.md",
+    "open_items": [
+      "C005: meaning of the no-internal-zeros hypothesis after a right shift.",
+      "125(e): contextual sufficiency of the printed reference to (c).",
+      "Full final proof write-up, all boundaries/supports, source manifest and three bibliography references."
+    ],
+    "own_running_audit_processes": [],
+    "process_check": "A ps snapshot found no process whose arguments named this audit directory or framedqueens; no process was killed or restarted.",
+    "ledger_and_coverage_changed": false,
+    "prior_stop_policy": "Continue until the entire systematic review is complete. Prior ten-hour deadline is superseded. Preserve unresolved checks and do not claim full verification for partial coverage."
+  },
+  "last_completed_block": "D262",
+  "argument_inventory_is_historical": true,
+  "agreed_task_block_complete": true,
+  "current_review_page_counts": {
+    "reviewed": 734,
+    "with_errors": 187
+  },
+  "first100_completion": {
+    "completed_at_utc": "2026-11-07T11:24:10.173750+00:00",
+    "paired_exercises": 499,
+    "whole_page_ranges": [
+      [
+        21,
+        120
+      ],
+      [
+        145,
+        167
+      ],
+      [
+        176,
+        187
+      ],
+      [
+        390,
+        488
+      ],
+      [
+        505,
+        534
+      ]
+    ],
+    "evidence": "notes/first100-completion-2026-11-07.md",
+    "exceptions": "results/first100-exceptions-2026-11-07.json",
+    "whole_volume_complete": false
+  },
+  "cursor": {
+    "volume": "vol4b",
+    "phase": "complete",
+    "printed_page": null,
+    "file_page": null
+  },
+  "resume_target": null,
+  "bookwise_forward_dependencies": [
+    {
+      "id": "DLX263(g)",
+      "target": "DLX431",
+      "status": "closed",
+      "evidence": "audit-2026-10-31/notes/bookwise-dlx421-435-2026-11-11.md",
+      "closed_by": "D232",
+      "note": "Question 431 and the printed answer reviewed; historical exact costs and large census limits retained."
+    }
+  ],
+  "historical_coverage_summary_before_bookwise_completion": {
+    "exercise_numbers_with_evidence": 458,
+    "exercise_numbers_in_checked_blocks": 343,
+    "total_exercise_numbers": 1202,
+    "caveat": "Evidence in a checked block can cover only one subpart; this is not a count of completely checked exercises.",
+    "whole_book_percentage_reported": false,
+    "exercise_registry": {
+      "total": 1202,
+      "reviewed": 358,
+      "partial": 110,
+      "pending": 734
+    }
+  },
+  "whole_volume_complete": true,
+  "completion_note": "audit-2026-10-31/notes/bookwise-completion-2026-11-12.md",
+  "historical_next_book_handoff": {
+    "current_focus": "Volume 4B complete under the agreed review scope; next is MMIX.",
+    "next_actions": [],
+    "resume_target": "MMIX: reconcile retained review and continue its 80 uncertified pages."
+  },
+  "automatic_follow_up": false,
+  "bookwise_project_result": "integration/2026-11-10-bookwise/RESULT.md"
+}

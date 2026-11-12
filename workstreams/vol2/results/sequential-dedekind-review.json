@@ -1,0 +1,190 @@
+{
+  "reviewed_at_utc": "2026-11-06T08:53:44.990639+00:00",
+  "scope": "Sequential P/B/D/K and exercises1–17; explicit open historical claims, exercise14 measurements and later dependencies. Prior calculations accepted after source/program review, without rerun.",
+  "new_bounded_calculation": "results/sequential-unit-theory-edges.json",
+  "book_printing": "Volume2 third edition, first printing September1997",
+  "source_primary_reread": "Knuth1977 printed304–317; cached scan. Web open returned403 on6Nov2026.",
+  "original_pages_read": [
+    10,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    572,
+    573,
+    574
+  ],
+  "new_findings": [
+    "V2-C0242"
+  ],
+  "reaffirmed_findings": [
+    "V2-C0032"
+  ],
+  "inputs": [
+    {
+      "path": "workstreams/vol2/verify_dedekind.py",
+      "sha256": "96bdf3e94b6cbbdfdf07fc95a6c55865fec578f71916c9faa94494ab2670e045"
+    },
+    {
+      "path": "workstreams/vol2/results/dedekind.json",
+      "sha256": "401d443698d0092ce503fa6c663063f27dfff2d461168fbf58939944318b8ce6"
+    },
+    {
+      "path": "workstreams/vol2/results/dedekind.log",
+      "sha256": "af43fe3cdd5505f5e6c44ff7c700182e4737c95b650de9ba23b42ebfd03ba197"
+    },
+    {
+      "path": "workstreams/vol2/notes/dedekind.md",
+      "sha256": "8dda4a1f58927d5266045ad697b729cc8fa22e32e099dea19a17d36debeddeb7"
+    },
+    {
+      "path": "workstreams/vol2/notes/C0032-dedekind-cauchy-index.md",
+      "sha256": "0280f2ea9f86b8ddbf7740a82bebcf0503e851a77d0441d867c0abc9c4cafbad"
+    },
+    {
+      "path": "workstreams/vol2/sources/knuth-1977-dedekind.pdf",
+      "sha256": "d9d88e9f820c5a444f666a268f385d9b7b6bd90c15776647f3b03d6666675a7f"
+    },
+    {
+      "path": "workstreams/vol2/sources/knuth-1977-dedekind.json",
+      "sha256": "115441ffbbbf983c25ff0d3fd55241d758b2b583b82ce3836e4046f7a8eda238"
+    },
+    {
+      "path": "workstreams/vol2/sources/theoretical-tests-history.json",
+      "sha256": "95148fb1376b26889c7609bd3ee8d49a14321629a8109e5cb01ad310541c676f"
+    },
+    {
+      "path": "workstreams/vol2/sources/sequential-2026-11-06/theoretical-tests-errata.json",
+      "sha256": "49e67d67e99bc736596fe0593cfec25e81c356eefd14822eb31c82db4e13d30b"
+    },
+    {
+      "path": "workstreams/vol2/results/sequential-unit-theory-edges.json",
+      "sha256": "0a01ee2f735d92ac6fbb6e03d57def176701fda6ef62368e87f4112a73e6f4c0"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p010.png",
+      "sha256": "eac7254f557bd0dbddf14138898bf93799d5c4525a574e1e0ec3771fa9e6e883"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p080.png",
+      "sha256": "d4ae5d4e434cf26aa5e9244bb56e0f4306e3e10996fa5d9a8aed4f3d53369760"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p081.png",
+      "sha256": "9060cf759363e240990650e51d21ca8e647785291db7174e6240980cd55da10b"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p082.png",
+      "sha256": "338d6889c5c08e42c20f322b133c5ed836d9cb58072fef9ef1856dbd2b2925bc"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p083.png",
+      "sha256": "64e040da597be0a5618d23c796de491b4f6d01aca08a94ba5fa8cfceba552ee0"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p084.png",
+      "sha256": "d3ccc2fed8f604487662abcd2208b1f6fa3ef076e8e830e9ee851a9bdc14205c"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p085.png",
+      "sha256": "e3b8cd52d942afe13af69b3128b260c6b34be08db323e7295d8771ba13c57fab"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p086.png",
+      "sha256": "10bb1ef4e54e9b5f09fdaa2ec37d5e537b75339ab4a2522369dadd709b806fa9"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p087.png",
+      "sha256": "d4a462c8262bdc89c3e42f0b89bd6fc3816906687a7b34e76d7a38b0dfc3627f"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p088.png",
+      "sha256": "91bf73289b165147aafbabd87bd081b09f15e8b40df050841af0cb817c3ad6e9"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p089.png",
+      "sha256": "860e106e48dbb78a39a83b815ae9bf89b6c4ada03df0c2eb954554b27b5bba77"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p090.png",
+      "sha256": "1c73c0c0467b982cf3d634cd0bc5c35a1fb67fe16536354754621d21e5113bf0"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p091.png",
+      "sha256": "e98febf71138260a115680e310a1a8315d24bf28b509186c7e5371a2846b553c"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p092.png",
+      "sha256": "8ddd355a8cdc140c6956242c347a0bb45d40d10a01e115c720d53f00cbdae378"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p572.png",
+      "sha256": "7b6d5fc8d795ce1680a28565ea2ea78f953e1734a32224f58d13d0a35736c0b5"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p573.png",
+      "sha256": "eb9446fb627de22fd160581b236a78fc2fc5ac1148b180aab5c7e1104840bee8"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p574.png",
+      "sha256": "e28d2c19bd83038c4e8e2c7dab9f863ac0acf39e8583d9afd4e6478f271bf495"
+    },
+    {
+      "path": "workstreams/vol2/images/knuth1977-sequential-05.png",
+      "sha256": "88ddbc457595861f0a57ca8f45e38ceb746cb2095a368367175cc19bc042675f"
+    },
+    {
+      "path": "workstreams/vol2/images/knuth1977-sequential-06.png",
+      "sha256": "6e3751293dc7dbd76d2471e2433cdbd2422327a0a94ef3d5d9042b2d09cd6753"
+    },
+    {
+      "path": "workstreams/vol2/images/knuth1977-sequential-07.png",
+      "sha256": "5cb548be24a880932b51e34be6a54efa0a3df38df0f0c10172fef19513e3c19b"
+    },
+    {
+      "path": "workstreams/vol2/images/knuth1977-sequential-08.png",
+      "sha256": "72a27d66b1debc6b82e55599f8cd8b6dd3944c6df05e2a0cbe654fa0baac4b1b"
+    },
+    {
+      "path": "workstreams/vol2/images/knuth1977-sequential-09.png",
+      "sha256": "57a0234508782f12306690e3797c2dbf1527cd7a53d7badf63c96e38f6b03bf2"
+    },
+    {
+      "path": "workstreams/vol2/images/knuth1977-sequential-10.png",
+      "sha256": "2a1c01c2f663810c114b5a31c58fb5cca85b72ee0e963a8365008936801fedee"
+    },
+    {
+      "path": "workstreams/vol2/images/knuth1977-tail-11.png",
+      "sha256": "81905d402aa117971250933cc086b585d6630ce142ee7945c823b532d23c7ee2"
+    },
+    {
+      "path": "errata/text/all2-prepre.txt",
+      "sha256": "62a1ff323ca421f2640e2337f922dbf8cfc8e86c20d9b11acfc91221721c6f58"
+    },
+    {
+      "path": "errata/text/all2-pre.txt",
+      "sha256": "c1735b70547678d739eae3a8d7b02872c737218eed7706a0aba8fb6fc21a6529"
+    },
+    {
+      "path": "errata/text/all2.txt",
+      "sha256": "1c4d7f2259e147db0ebe84b4bf0ce8864b307afb4ccfbe48efcb1f5f5999ac58"
+    },
+    {
+      "path": "errata/text/err2.txt",
+      "sha256": "1b5c93712c3c467a48679e0040ba6c5869998b25184dbd125a5d096ce96e9ab0"
+    },
+    {
+      "path": "errata/originals/err2.textxt",
+      "sha256": "8faa21566312314ec6bda0f8956913deb312517fd9fa688dcc0bf19e1f21962e"
+    }
+  ]
+}

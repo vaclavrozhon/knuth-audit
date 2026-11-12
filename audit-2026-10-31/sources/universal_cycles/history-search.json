@@ -1,0 +1,16 @@
+[
+  {
+    "file": "gallica-search.xml",
+    "url": "https://gallica.bnf.fr/SRU?operation=searchRetrieve&version=1.2&query=dc.title+all+%22Interm%C3%A9diaire+des+math%C3%A9maticiens%22&maximumRecords=20",
+    "checked_at_utc": "2026-11-02T02:14:45.473904+00:00",
+    "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "archive-search.json",
+    "url": "https://archive.org/advancedsearch.php?q=title%3Amath%2A+AND+identifier%3Alinter%2A&output=json&rows=100&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=date&fl%5B%5D=volume",
+    "checked_at_utc": "2026-11-02T02:14:45.475895+00:00",
+    "content_type": "application/json",
+    "bytes": 1089,
+    "sha256": "228448e8a8700ea06d18526fd2207ebe3511049ed38d22c98c7ce6075b0b3f7e"
+  }
+]

@@ -1,0 +1,255 @@
+{
+  "at_utc": "2026-11-03T05:47:42.570209+00:00",
+  "checker_sha256": "20c85e9bff742401c89cace32a6440a061b60758e980b36d14b90aa4b0d1a2a3",
+  "files": {
+    "errata/text/all4b.txt": "b1a3425486f403fb4158585d5bbfef0159fd20b12e2e7d47b64e393e1ae8a303",
+    "errata/text/err4b.txt": "2a3450bf3c79d28ad3c2d96468344c96995cf0afb74961f257c311bb9c821e1c",
+    "errata/text/all4f5.txt": "0dd38c4cda72b01baefb797611c9bbab7713ff0c107a1df884afc89fe9bb91c3",
+    "errata/text/err4f5.txt": "5a716c34e2063eb46005593d53e89dbbd912b5677e0a6ab11753f2a5ee38b557",
+    "errata/originals/err4b.textxt": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+    "errata/originals/err4f5.textxt": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b"
+  },
+  "pattern": "(?:[Pp]age\\s+|(?:4b|4f5)\\.)(?:141|142|454|455|139|140|262|263)\\b|(?:answer|exercise|exer ise)\\s+143\\b|Langford|Boddington|096004|other three|convex|simplex|boundary",
+  "contexts": [
+    {
+      "file": "errata/text/all4b.txt",
+      "line": 192,
+      "context": "Page 112 the line before (108)                                              03 Jul 2023\n  remarkable pairing     y remarkable Langford pairing\nPage 126 in exer ise 20                                                      03 Apr 2026\n Hint:     y\n           (Option j should be ompatible with option       k if and only if 0 \u0014j\u0014k<"
+    },
+    {
+      "file": "errata/text/all4b.txt",
+      "line": 213,
+      "context": "  (2, 3, 3, 57) y (2, 2, 3, 57)\nPage 142 line 7                                                                            13 Feb 2023\n     the boundary of    y the boundary path of\nPage 145 line 3 of exer ise 162                                                           04 Nov 2023\n     eight of the possible   y eight of the ten possible"
+    },
+    {
+      "file": "errata/text/all4b.txt",
+      "line": 214,
+      "context": "Page 142 line 7                                                                            13 Feb 2023\n     the boundary of    y the boundary path of\nPage 145 line 3 of exer ise 162                                                           04 Nov 2023\n     eight of the possible   y eight of the ten possible\nxPage 145 line 4 of exer ise 165                                                           02 Jan 2025"
+    },
+    {
+      "file": "errata/text/all4b.txt",
+      "line": 520,
+      "context": "x\nPage 455    line 11                                                           20 De 2022\n q \u0011 x (modulo 2)  y     q \u0011 x=q (modulo 2)\nx\nPage 456 line      3 of answer 146                                            13 Mar 2026"
+    },
+    {
+      "file": "errata/text/all4b.txt",
+      "line": 785,
+      "context": "                                                           both even. But now we extend the\n ranges to 0 \u0014 x \u0014 2n and 0 \u0014 y \u0014 2m, allowing small squares to ross the boundary.\n in 3rd paragraph: Algorithm M nds : : : single 20- y le.                Algorithm M nds          y\n respe tively (0, 0, 4 \u0001 10, 8 \u0001 10) solutions in those four ases. However, (0, 0, 4 \u0001 1, 8 \u0001 8)\n of those solutions are spurious, be ause their small squares form disjoint y les instead"
+    },
+    {
+      "file": "errata/text/err4b.txt",
+      "line": 472,
+      "context": "x\nPage 455      line 11                                                               20 De 2022\n q \u0011 x (modulo 2)    y         q \u0011 x=q (modulo 2)\nx\nPage 456 line          3 of answer 146                                              13 Mar 2026"
+    },
+    {
+      "file": "errata/text/err4b.txt",
+      "line": 738,
+      "context": " line 2: both even, and 0 < x < 2n, 0 < y < 2m.      y     both even. But now we extend the\n ranges to 0 \u0014 x \u0014 2n and 0 \u0014 y \u0014 2m, allowing small squares to ross the boundary.\n in 3rd paragraph: Algorithm M nds : : : single 20- y le.            y   Algorithm M nds\n respe tively (0, 0, 4 \u0001 10, 8 \u0001 10) solutions in those four ases. However, (0, 0, 4 \u0001 1, 8 \u0001 8)\n of those solutions are spurious, be ause their small squares form disjoint y les instead"
+    },
+    {
+      "file": "errata/text/all4f5.txt",
+      "line": 372,
+      "context": "     when room r is adja ent to bound s: Either s # r, r ! s, r # s, or s ! r, meaning\n     respe tively that the top, right, bottom, or left boundary of r is part of s.\n          For example, the oorplans shown on the next page have 10 rooms fA; B; : : : ; Jg,\n     7 + 6 bounds fh0 ; : : : ; h6 ; v0 ; : : : ; v5 g, and the following adja en ies: h0 # A # h3 # D #\n     h5 # E # h6 , h0 # B # h1 # C # h3 # F # h6 , h1 # G # h2 # H # h4 # I # h6 , h2 # J # h6 ;"
+    },
+    {
+      "file": "errata/text/all4f5.txt",
+      "line": 653,
+      "context": "  96=6 = 12 ases y 96=6 = 16 ases\nxPage 263 line 4 of answer 143                                             21 O t 2021\n  (5; 1; 1; 0) y (12; 12; 1; 0)\nxPage 263 line 5 of answer 145                                              24 Jul 2020\n  3 three odd y 3 odd"
+    },
+    {
+      "file": "errata/text/all4f5.txt",
+      "line": 655,
+      "context": "  (5; 1; 1; 0) y (12; 12; 1; 0)\nxPage 263 line 5 of answer 145                                              24 Jul 2020\n  3 three odd y 3 odd\nxPage 267 line 2 of answer 152                                              22 Jul 2022\n  multipli ity 11, and without y multipli ity 11, and a blank pattern of multipli ity 1,"
+    },
+    {
+      "file": "errata/text/all4f5.txt",
+      "line": 725,
+      "context": "  303. (a) Represent the tree as a sequen e a0 a1 : : : a2n 1 of nested parentheses; then\n  a0 will mat h a2n 1 . The left boundary of the orresponding parallomino is obtained\n  by mapping ea h `(' into N or E, a ording as it is immediately followed by `(' or `)'.\n  The right boundary, similarly, maps ea h `)' into N or E a ording as it is immediately\n  pre eded by `)' or `('. For example, if we take 7.2.1.6{(1) and en lose it in an additional"
+    },
+    {
+      "file": "errata/text/all4f5.txt",
+      "line": 727,
+      "context": "  by mapping ea h `(' into N or E, a ording as it is immediately followed by `(' or `)'.\n  The right boundary, similarly, maps ea h `)' into N or E a ording as it is immediately\n  pre eded by `)' or `('. For example, if we take 7.2.1.6{(1) and en lose it in an additional\n  pair of parentheses, the orresponding parallomino is shown below with part (d).\nxPage 304 repla ement for lines 6, 7, 8 of part (b)                                 19 Jan 2020"
+    },
+    {
+      "file": "errata/text/all4f5.txt",
+      "line": 1053,
+      "context": "      162, 167, 244, 248, 250.                    a esses, 75.\nConvex fun tions, 4, 8, 16, 20, 27,          Knuth, Donald Ervin (             ), i, iv{vi,\n      189, 194, 195.                              viii, 44, 52, 53, 61, 71, 75{77, 98, 116,\nCutsets, 344.                                     121, 196, 200, 209, 214, 219, 221,\nd+ (v) (out-degree of v), 218, 247, 337.          227, 228, 232{235, 237, 239{240, 248,"
+    },
+    {
+      "file": "errata/text/err4f5.txt",
+      "line": 323,
+      "context": "     when room r is adja ent to bound s: Either s # r, r ! s, r # s, or s ! r, meaning\n     respe tively that the top, right, bottom, or left boundary of r is part of s.\n          For example, the oorplans shown on the next page have 10 rooms fA; B; : : : ; Jg,\n     7 + 6 bounds fh0 ; : : : ; h6 ; v0 ; : : : ; v5 g, and the following adja en ies: h0 # A # h3 # D #\n     h5 # E # h6 , h0 # B # h1 # C # h3 # F # h6 , h1 # G # h2 # H # h4 # I # h6 , h2 # J # h6 ;"
+    },
+    {
+      "file": "errata/text/err4f5.txt",
+      "line": 599,
+      "context": "      CHANGES TO V4F5: MATH PRELIMINARIES, BACKTRACKING ET AL                                          13\nxPage 263      line 4 of answer 143                                        21 O t 2021\n  (5; 1; 1; 0) y (12; 12; 1; 0)\nxPage 263 line 5 of answer 145                                              24 Jul 2020\n  3 three odd y 3 odd"
+    },
+    {
+      "file": "errata/text/err4f5.txt",
+      "line": 601,
+      "context": "  (5; 1; 1; 0) y (12; 12; 1; 0)\nxPage 263 line 5 of answer 145                                              24 Jul 2020\n  3 three odd y 3 odd\nxPage 267 line 2 of answer 152                                              22 Jul 2022\n  multipli ity 11, and without y multipli ity 11, and a blank pattern of multipli ity 1,"
+    },
+    {
+      "file": "errata/text/err4f5.txt",
+      "line": 676,
+      "context": "    303. (a) Represent the tree as a sequen e a0 a1 : : : a2n 1 of nested parentheses; then\n  a0 will mat h a2n 1 . The left boundary of the orresponding parallomino is obtained\n  by mapping ea h `(' into N or E, a ording as it is immediately followed by `(' or `)'.\n  The right boundary, similarly, maps ea h `)' into N or E a ording as it is immediately\n  pre eded by `)' or `('. For example, if we take 7.2.1.6{(1) and en lose it in an additional"
+    },
+    {
+      "file": "errata/text/err4f5.txt",
+      "line": 678,
+      "context": "  by mapping ea h `(' into N or E, a ording as it is immediately followed by `(' or `)'.\n  The right boundary, similarly, maps ea h `)' into N or E a ording as it is immediately\n  pre eded by `)' or `('. For example, if we take 7.2.1.6{(1) and en lose it in an additional\n  pair of parentheses, the orresponding parallomino is shown below with part (d).\nxPage 304 repla ement for lines 6, 7, 8 of part (b)                                19 Jan 2020"
+    },
+    {
+      "file": "errata/text/err4f5.txt",
+      "line": 994,
+      "context": "      162, 167, 244, 248, 250.                    a esses, 75.\nConvex fun tions, 4, 8, 16, 20, 27,          Knuth, Donald Ervin (             ), i, iv{vi,\n      189, 194, 195.                              viii, 44, 52, 53, 61, 71, 75{77, 98, 116,\nCutsets, 344.                                     121, 196, 200, 209, 214, 219, 221,\nd+ (v) (out-degree of v), 218, 247, 337.          227, 228, 232{235, 237, 239{240, 248,"
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "line": 401,
+      "context": "\\improvepage 4b.112 the line before {\\eq(108)} (23.07.03)\nremarkable pairing \\becomes remarkable Langford pairing\n\\endchange\n\n\\improvepage 4b.126 in exercise 20 (26.04.03)"
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "line": 433,
+      "context": "\n\\improvepage 4b.142 line 7 (23.02.13)\n\\ninepoint the boundary of \\becomes the boundary path of\n\\endchange\n"
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "line": 434,
+      "context": "\\improvepage 4b.142 line 7 (23.02.13)\n\\ninepoint the boundary of \\becomes the boundary path of\n\\endchange\n\n\\improvepage 4b.145 line 3 of exercise 162 (23.11.04)"
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "line": 923,
+      "context": "\n\\bugonpage 4b.455 line 11 (22.12.20)\n$q\\equiv x$ (modulo~2) \\becomes $q\\equiv x/q$ (modulo~2)\n\\endchange\n"
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "line": 1200,
+      "context": "both even. But now we extend the ranges to $0\\le x\\le 2n$ and\n$0\\le y\\le 2m$, allowing small squares to cross the boundary.\\nl\nin 3rd paragraph: Algorithm M finds \\dots\\ single 20-cycle. \\becomes\nAlgorithm M finds respectively (0, 0, $4\\cdot10$, $8\\cdot10$) solutions in those\nfour cases. However, (0, 0, $4\\cdot1$, $8\\cdot8$) of those solutions are"
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "line": 306,
+      "context": "\\ninepoint\n\\ex136. [\\HM20] Let $f(x)=x\\ln x$ be the fundamental convex function\nthat underlies formulas for entropy. Prove or disprove: If $0\\le x\\le y\\le 1$\nthen $\\vert f(y)-f(x)\\vert\\le\\vert f(y-x)\\vert$.\n\\endchange"
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "line": 653,
+      "context": "$s\\rightarrow r$, meaning respectively that the top, right, bottom, or\nleft boundary of~$r$ is part of~$s$.\n\n For example, the floorplans shown\non the next page have 10 rooms $\\rm\\{A,B,\\ldots,J\\}$,"
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "line": 1100,
+      "context": "\n\\bugonpage 4f5.263 line $-4$ of answer 143 (21.10.21)\n$(5,1,1,0)$ \\becomes $(12,12,1,0)$\n\\endchange\n"
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "line": 1104,
+      "context": "\n\\bugonpage 4f5.263  line 5 of answer 145 (20.07.24)\n3 three odd \\becomes 3 odd\n\\endchange\n"
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "line": 1222,
+      "context": "nested parentheses; then $a_0$ will match $a_{2n-1}$. The left\nboundary of the corresponding parallomino is obtained by mapping each `\\.('\ninto N or~E, according as it is immediately followed by `\\.(' or `\\.)'.\nThe right boundary, similarly, maps each `\\.)' into N or~E according as it\nis immediately {\\it preceded\\/} by `\\.)' or `\\.('. For example, if we take"
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "line": 1224,
+      "context": "into N or~E, according as it is immediately followed by `\\.(' or `\\.)'.\nThe right boundary, similarly, maps each `\\.)' into N or~E according as it\nis immediately {\\it preceded\\/} by `\\.)' or `\\.('. For example, if we take\n7.2.1.6--\\eq(1) and enclose it in an additional pair of parentheses,\nthe corresponding parallomino is shown below with part~(d).\\tighten\\par"
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "line": 1258,
+      "context": "by the number of symmetries).\nFor example, the convex polyabolo shape $(3\\times11;2,2,1,1)$ displayed\non line 12 of this page has $2\\cdot 236$ solutions, not $236\\cdot2$.\nThis change affects the answers to exercises\n290, 305, 306, 309, 313, 316, 317, 319, 320, 328, 329, 330, 332, 333, 338, 339,"
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "line": 1853,
+      "context": "Connected components, 134, 142--143, 151, 162, 167, 244, 248, 250. % 3rd\nConvex functions, 4, 8, 16, 20, 27, 189, 194, 195. % 3rd\nCutsets, 344. % 2nd\n$d^+(v)$ (out-degree of $v$), 218, 247, 337. % 2nd\nData structures, 30--32, 35, 37--40, 44, 56, 63--67, 94--95, 107, 118, 170. % 3rd"
+    }
+  ],
+  "relevant_corrections": [
+    {
+      "id": "E069",
+      "context": "\\bugonpage 4b.455 line 11 (22.12.20)\n$q\\equiv x$ (modulo~2) \\becomes $q\\equiv x/q$ (modulo~2)\n\\endchange"
+    },
+    {
+      "id": "E070",
+      "context": "\\improvepage 4b.142 line 7 (23.02.13)\n\\ninepoint the boundary of \\becomes the boundary path of\n\\endchange"
+    },
+    {
+      "id": "E071",
+      "context": "\\bugonpage 4f5.263 line $-4$ of answer 143 (21.10.21)\n$(5,1,1,0)$ \\becomes $(12,12,1,0)$\n\\endchange"
+    }
+  ],
+  "remote_retrieval_sha256": "6561c869c516f3f391d6e8c72a4a748e917b0a9518fe3c1e932cf09bae4072be",
+  "remote_retrieval": [
+    {
+      "name": "all4b.ps.gz",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/all4b.ps.gz",
+      "status": 200,
+      "checked_at_utc": "2026-11-03T05:37:34.492125+00:00",
+      "bytes": 190404,
+      "sha256": "61c41e43dc337c1259f9ff690bfef718da2a656abdb110c6e7875c11f9566eea",
+      "matches_previous_refresh": true
+    },
+    {
+      "name": "all4f5.ps.gz",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/all4f5.ps.gz",
+      "status": 200,
+      "checked_at_utc": "2026-11-03T05:37:34.795945+00:00",
+      "bytes": 222954,
+      "sha256": "4c3edee8aa4c92f69bc5eb243ffe03779ae56c1e89a0ad36f85a2ac770fcbb83",
+      "matches_previous_refresh": true
+    },
+    {
+      "name": "err4b.textxt",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/err4b.textxt",
+      "status": 200,
+      "checked_at_utc": "2026-11-03T05:37:34.132110+00:00",
+      "bytes": 91865,
+      "sha256": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+      "matches_previous_refresh": true
+    },
+    {
+      "name": "err4f5.textxt",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/err4f5.textxt",
+      "status": 200,
+      "checked_at_utc": "2026-11-03T05:37:34.337008+00:00",
+      "bytes": 123776,
+      "sha256": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b",
+      "matches_previous_refresh": true
+    }
+  ],
+  "page_mapping": {
+    "question4B": [
+      141,
+      142
+    ],
+    "answer4B": [
+      454,
+      455
+    ],
+    "questionF5": [
+      139,
+      140
+    ],
+    "answerF5": [
+      262,
+      263
+    ],
+    "questionDraft5C": [
+      77,
+      78
+    ],
+    "answerDraft5C": [
+      158,
+      159
+    ]
+  },
+  "reviewed_conclusion": "E069 fixes parity, E070 clarifies boundary path, E071 corrects the thin-strip tuple. All matched contexts inspected; none corrects the assertion that the other three shapes cannot be tiled. Absence is limited to these public layers."
+}

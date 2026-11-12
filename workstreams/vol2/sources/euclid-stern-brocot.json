@@ -1,0 +1,49 @@
+{
+  "accessed_utc": "2026-11-03",
+  "book_visual": [
+    "images/euclid-maximum-p378.png",
+    "images/vol2-p654.png",
+    "images/euclid-stern-brocot-p655.png"
+  ],
+  "errata": {
+    "searched": [
+      "all2-prepre",
+      "all2-pre",
+      "all2",
+      "err2",
+      "sources/err2.textxt"
+    ],
+    "corrections": [
+      "2000-01-08 page654 answer39 first-line deletion, not the general interval rule",
+      "2000-07-25 page655 Brocot volume3(1861)",
+      "2017-05-16 page654 answer40 Eisenstein letter1850-01-14"
+    ],
+    "C0138": "No correction found for finite prefix endpoint"
+  },
+  "stern": {
+    "title": "Ueber eine zahlentheoretische Funktion",
+    "citation": "Crelle55(1858),193-220",
+    "manifest": "https://manifests.sub.uni-goettingen.de/iiif/presentation/PPN243919689_0055/manifest?version=29486bf2",
+    "images_metadata": "sources/stern-1858-access.json",
+    "visually_read_pages": [
+      193,
+      194,
+      220
+    ],
+    "scope": "Page193 explicitly credits Eisenstein and January14 letter in1850 context;194 insertion of sums;220 author dateJuly1855. Remaining article not audited. Letter itself not obtained."
+  },
+  "brocot": {
+    "gallica": "https://gallica.bnf.fr/ark:/12148/bpt6k1661912",
+    "google": "https://books.google.co.uk/books?id=_2oEAAAAYAAJ",
+    "access": "Gallica IIIF403 and GooglePDF403; no bypass. Google viewer metadata only.",
+    "discovery": "https://joaoff.com/publication/2008/mpc/"
+  },
+  "remaining_context": [
+    "Schwenter",
+    "Wallis",
+    "Huygens",
+    "Lagrange",
+    "Brocot original",
+    "Lehmer1929"
+  ]
+}

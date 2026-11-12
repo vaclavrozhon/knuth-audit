@@ -1,0 +1,288 @@
+{
+  "review_date": "2026-11-10",
+  "edition": "Volume 3, second edition, first printing (1998)",
+  "scope": "6.5, printed559–582; exercises1–20 and answers743–747",
+  "official_manifest": "integration/2026-11-10-bookwise/errata/vol3-manifest.json",
+  "layers": {
+    "all3-prepre": [
+      {
+        "page": 558,
+        "text": "Page 558       new exer ise                                                   26 Sep 2007\n    x\n    78.  [ ℄ (P. Woelfel.) If 0 \u0014 x < 2 , let ha;b (x) = b(ax + ) 2 mod 2n k . Show\n          M26\n                                           n                      b=k\n    that the set fha;b j 0 < a < 2n ; a odd, and 0 \u0014 b < 2k g is a universal family of hash\n    fun tions from n-bit keys to (n k)-bit keys. (These fun tions are parti ularly easy to\n    implement on a binary omputer.)"
+      },
+      {
+        "page": 561,
+        "text": "xPage 561   line 12                                                            12 De 1999\n  for examples y for example"
+      },
+      {
+        "page": 565,
+        "text": "xPage 565 line 7                                                               07 Apr 2002\n  (k mod l) + 1 y (l mod k) + 1"
+      },
+      {
+        "page": 566,
+        "text": "Page 566 line   4                                                              09 Sep 2010\n \\(CLASS, MAJOR) attribute\" y (CLASS, MAJOR) attribute"
+      },
+      {
+        "page": 571,
+        "text": "Page 571 rst two lines of (11)                                                 20 Nov 1999\n [semi olons are missing after the numeri values℄"
+      },
+      {
+        "page": 571,
+        "text": "Page 571  line 15                                                  19 May 2005\n  0010001000 _ 0000100100 _ 0000001001 y 0010001000 j 0000100100 j 0000001001"
+      },
+      {
+        "page": 573,
+        "text": "xPage 573 line 15                                                   17 Nov 1999\n    IEEE/   y IEEE"
+      },
+      {
+        "page": 574,
+        "text": "xPage 574     line 2                                         04 Aug 1998\n  1, 2, 5, 7, and 8 y 0, 1, 4, 6, and 7"
+      },
+      {
+        "page": 575,
+        "text": "Page 575 line 18                                            20 Mar 2000\n  In 1997, A. E. Brouwer found y A. E. Brouwer [SICOMP 28 (1999), 1970{\n  1971℄ has found"
+      },
+      {
+        "page": 575,
+        "text": "Page 575 line      6                                                            02 Jul 2001\n    stored three pla es y stored thri e"
+      },
+      {
+        "page": 576,
+        "text": "xPage 576    near the top                                                       26 Jul 2008\n  line 6: 15 that use it y 16 that use it\n  line 7: 16{15 split y 16{16 split"
+      },
+      {
+        "page": 577,
+        "text": "xPage 577 line 3                                                               25 Mar 2001\n  triples, y triples."
+      },
+      {
+        "page": 578,
+        "text": "Page 578 line 22                                                               12 De 1999\n Pro .ACM       yPro . ACM"
+      },
+      {
+        "page": 578,
+        "text": "xPage 578       line 3                                                         07 Apr 2005\n    J. Algorithms 1   y J. Algorithms     2"
+      },
+      {
+        "page": 580,
+        "text": "xPage 580       line 9 of exer ise 8                                           17 May 2001\n    ea h of the queries y ea h of the queries in\n\f    26        CHANGES TO VOLUME 3: SORTING AND SEARCHING"
+      },
+      {
+        "page": 584,
+        "text": "Page 584    quotation from Lewis Carroll                                     13 Feb 2008\n  [The extra quotation marks, and the la k of a hyphen in down-stairs, are erroneous. not\n  I trans ribed them faithfully from page 59 of Carroll's handwritten manus ript, whi h\n  was published in fa simile in 1888, of a privately ir ulated work that predated Ali e's\n  Adventures in Wonderland.℄"
+      },
+      {
+        "page": 584,
+        "text": "xPage 584    line 6                                                           06 Jul 1998\n    (1862)   y     (1864)"
+      },
+      {
+        "page": 584,
+        "text": "Page 584        line 11                                                                08 O t 2010\n    Annals of Mathemati s         y Annals of Mathemati s (2)"
+      },
+      {
+        "page": 584,
+        "text": "xPage 584        line 13                                                                24 Aug 2002\n    p(1) : : : p(n) and q (1) : : : q (n)   y p(1) : : : p(N ) and q(1) : : : q(N )"
+      },
+      {
+        "page": 584,
+        "text": "xPage 584        line 13                                                                    06 Jul 1998\n    Rp(n)   y Rp     (1)"
+      },
+      {
+        "page": 743,
+        "text": "Page 743     new answer                                                                26 Sep 2007\n                                                      0      P k                    0\n    78. Let g(x) = bx=2 mod 2 and Æ(x; x ) = b [ g(x + b) = g(x + b)℄. Then\n                           k         n   k                        2   1\n\n  Æ (x + 1; x0 + 1) = Æ (x; x0 ) + [ g (x + 2k )= g (x0 + 2k )℄ [ g (x)= g (x0 )℄ = Æ (x; x0 ). Also\n                                                                   =0\n\n\n  Æ (x; 0) = (2k . (x mod 2n )) + (2k . (( x) mod 2n )) when 0 < x < 2n , where a . b =\n  max(a b; 0).  0\n                   Thereforen Æ(x; x0 ) = (2k . ((x x0 ) mod 2n )) + (2k . ((x0 x) mod 2n ))\n  when x 6\u0011 x (modulo 2 ).\n\f                            CHANGES TO VOLUME 3: SORTING AND SEARCHING                                                  39\n      Now letP A =Pfa j 0 < a < 2n ; a odd\n                                         0\n                                           g and B = fb j n0 \u0014 bk <n 2kkg. Wek want to\n  show that a2A b2B [ g(ax + b)= g(ax + b)℄ \u0014 R=M = 2 =2 = 2 when                      1+                   2       1\n\n  0 \u0014 x < x0 < 2n . And indeed, if x0 x = 2p q with q odd, then we have\n          [ g(ax + b)= g(ax0 + b)℄ = Æ(ax; ax0 ) = 2 (2k . ((2p aq) mod 2n ))\n  X X                                X                X\n\n  a2A b2B                                        a2A                      a2A\n              n p 1 1                                   k p 1 1\n                        (2k . 2p (2j +1)) = 2\n          2    X                                      2   X\n  =2   p+1                                         p+1\n                                                                   (2k 2p (2j +1))[ p < k ℄ = 2 k [ p < k ℄:\n                                                                                                        2       1\n\n               j =0                                        j =0\n\n  [See Le ture Notes in Computer S ien e       (1999), 262{272.℄\n                                                          1672"
+      },
+      {
+        "page": 744,
+        "text": "Page 744   in the third paragraph of answer 1                                                         04 May 2003\n                          y\n  Sperner's Lemma y Sperner's Theorem\n  Sperner's Lemma               Sperner's Theorem"
+      },
+      {
+        "page": 744,
+        "text": "xPage 744        just before the nal display in answer 4                        12 De 1999\n  And If y And if"
+      },
+      {
+        "page": 745,
+        "text": "Page 745        new material at end of answer 10                               04 De 2005\n  Kirkman wrote his paper in response to a substantially more general problem posed\n  by W. S. B. Woolhouse, namely to nd the maximum number of t-element subsets of\n  f1; : : : ; ng in whi h no q-element subset appears more than on e; that problem remains\n  unsolved. [See Lady's and Gentleman's Diary (1844), 84; (1845), 63{64; (1846), 76,\n  78; (1847), 62{67.℄"
+      },
+      {
+        "page": 747,
+        "text": "xPage 747        line 6 of answer 18(e)                                         25 Mar 2001\n  32 \u0002 8 = 512 y 32 \u0002 16 = 512"
+      },
+      {
+        "page": 747,
+        "text": "xPage 747        last line of answer 18                                         04 Jun 2001\n  also yields on y also yields an"
+      }
+    ],
+    "all3-pre": [
+      {
+        "page": 570,
+        "text": "Page 570 line 1                                                  28 De 2017\n Superimposed oding      y Superimposed random oding"
+      },
+      {
+        "page": 571,
+        "text": "Page 571 line 8                                                  28 De 2017\n 32.  y32; U.S. Patent 3521034 (1970)."
+      },
+      {
+        "page": 571,
+        "text": "Page 571 line 9                                                  28 De 2017\n superimposed oding      y superimposed random oding"
+      },
+      {
+        "page": 573,
+        "text": "xPage 573 line 16                                                21 Apr 2016\n  286=8008 \u0019 3:5 per ent   y 286=8008 \u0019 3:6 per ent"
+      },
+      {
+        "page": 583,
+        "text": "xPage 583 line 10                                                17 Feb 2019\n  Information and Control 63    y Information and Control 64"
+      }
+    ],
+    "all3": [
+      {
+        "page": 562,
+        "text": "Page 562 lines 11 and following                                             03 Nov 2024\n 30,000 bits, so an inverted list : : : shortest possible one.)      y\n 30,000 bits. An inverted list for any parti ular attribute will o upy at most a million\n bits; so it will t in at most 34 tra ks."
+      },
+      {
+        "page": 584,
+        "text": "Page 584         new answer for Notes on the Exer ises                                        24 Nov 2023\n        2.   They often extend the material that's in the main text."
+      }
+    ],
+    "err3": [
+      {
+        "page": 584,
+        "text": "Page 584         new answer for Notes on the Exer ises                        24 Nov 2023\n        2.   They often extend the material that's in the main text."
+      }
+    ],
+    "err3-1e": [
+      {
+        "page": 551,
+        "text": "Page 551 lines 2{10                                                                          31 May 1995\n  machine! Computers : : : People climb y machine! People climb"
+      },
+      {
+        "page": 555,
+        "text": "Page 555 lines 8 and 13                                                                         14 May 1976\n  [Acta Informatica 3 (to appear).] Bentley has recently improved on y [Acta\n  Informatica 4 (1974), 1{9.] Then Bentley modi ed\n  Section 6.2.2. y Section 6.2.2. [CACM 18 (1975), 509{517.]"
+      },
+      {
+        "page": 555,
+        "text": "Page 555 future revisions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14 May 1976\n  The second edition will delete the material on post-o\u000ece trees and pay more\n  attention to k-D trees. In the binary tree line, I also plan to discuss Burkhard's\n  search procedure and its analysis by Dubost and Trousse [cf. Stanford CS report\n  of September 1975] | this is related to the generalized tries discussed brie y on\n  page 565."
+      },
+      {
+        "page": 558,
+        "text": "xPage 558 Fig. 46                                                                                29 Mar 1984\n  The three rightmost notches should move left one position (to start with `SALT')"
+      },
+      {
+        "page": 560,
+        "text": "xPage 560 the superimposed codes for To ee Bars                                                   02 Feb 1998\n   0010111101 y 0010101101"
+      },
+      {
+        "page": 561,
+        "text": "xPage 561 the numbers in (5) should be respectively:                                           01 Jul 1975\n  .07948358; .00708659; .00067094; .00006786; .00000728; .00000082."
+      },
+      {
+        "page": 561,
+        "text": "Page 561 new paragraph to insert after line 18                          02 Mar 1977\n       If carefully selected nonrandom codes are used, it is possible to avoid false\n  drops in superimposed coding, as shown by W. H. Kautz and R. C. Singleton,\n  IEEE Trans. IT-10 (1964), 363{377; one of their constructions appears in exer-\n  cise 16."
+      },
+      {
+        "page": 563,
+        "text": "Page 563 line 9                                                         25 Aug 1976\n  his Ph.D. thesis (Stanford University, 1973). y SICOMP 5 (1976), 19{50."
+      },
+      {
+        "page": 563,
+        "text": "xPage 563 quick, Watson, near the top                                    27 May 1978\n  line 11: the N**D*E y the form N**D*E\n  line 12: fNEEDLE; NODDLE; NOODLEg y\n         fNEEDLE; NIDDLE; NODDLE; NOODLE; NUDDLEg"
+      },
+      {
+        "page": 564,
+        "text": "Page 564 replacement for (7)                                                                  03 Jan 1997\n                     \u0003001!1                 \u0003110!5\n                     0\u000300!2                 1\u000311!6                                                       (7)\n                     10\u00030!3                 01\u00031!7\n                     110\u0003!4                 001\u0003!8"
+      },
+      {
+        "page": 564,
+        "text": "Page 564 line 2 after (7)                                                                     03 Jan 1997\n   locations 1, 2, 3, 5, and 7 y locations 1, 2, 5, 7, and 8\n\f   60        CHANGES TO VOLUME 3: SORTING AND SEARCHING"
+      },
+      {
+        "page": 564,
+        "text": "Page 564 lines 15 thru 13                                         17 Feb 1997\n  Some further : : : \u0014 2. y In 1997, A. E. Brouwer found an attractive way to\n  compress 8 bits to 5, with a mapping analogous to (7). Every 8-bit byte belongs\n  to exactly one of the 32 classes\n                 0 \u0003 000 \u0003 0 \u0003 01 \u0003 0 \u0003\u0003 11 00 \u0003 11 \u0003\u0003 1 \u0003 11 \u0003\u0003 101\n                 1 \u0003 000 \u0003 0 \u0003 11 \u0003 0 \u0003\u0003 11 10 \u0003 11 \u0003\u0003 1 \u0003 11 \u0003\u0003 010\n                 0 \u0003 010 \u0003 0 \u0003 01 \u0003 1 \u0003\u0003 11 00 \u0003 0 \u0003 01 \u0003 \u0003 10 \u0003 0 \u0003 10\n                 1 \u0003 010 \u0003 0 \u0003 11 \u0003 1 \u0003\u0003 11 10 \u0003 0 \u0003 01 \u0003 \u0003 10 \u0003 1 \u0003 01 :                                    (\u0003)\n                 0 \u0003 10 \u0003 1 \u0003 0 0 \u0003 1 \u0003 000 \u0003 \u0003 01 \u0003 01 \u0003 1 \u0003 0 \u0003 1001 \u0003\n                 1 \u0003 10 \u0003 1 \u0003 0 1 \u0003 1 \u0003 000 \u0003 \u0003 10 \u0003 10 \u0003 0 \u0003 0 \u0003 0100 \u0003\n                 0 \u0003 11 \u0003 1 \u0003 0 0 \u0003 0 \u0003 11 \u0003 0 \u0003 00 \u0003 011 \u0003 \u0003 0 \u0003 011 \u0003 1\n                 1 \u0003 11 \u0003 1 \u0003 0 1 \u0003 0 \u0003 11 \u0003 0 \u0003 11 \u0003 100 \u0003 \u0003 0 \u0003 110 \u0003 0\n  The \u0003's in this design are arranged in such a way that there are 3 in each row\n  and 12 in each column. Exercise 17 explains how to obtain similar schemes that\n  will compress records having, say, m = 4r bits into addresses having n = 3r bits."
+      },
+      {
+        "page": 565,
+        "text": "xPage 565 line 13                                                                                    17 Feb 1997\n  speci ed y unspeci ed"
+      },
+      {
+        "page": 566,
+        "text": "xPage 566 replacement for Eq. (11)                                                                   02 Mar 1977\n         f0; 4; 16; 21; 22; 24g; f1; 5; 17; 22; 23; 25g; : : : ; f30; 3; 15; 20; 21; 23g (11)\n  two lines later: (1; 5; 17; 22; 23; 25) y (0; 4; 16; 21; 22; 24)"
+      },
+      {
+        "page": 567,
+        "text": "Page 567 following line 3 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 01 Sep 1996\n  Among the signi cant data structures I plan to include in the next edition of\n  this book are E. M. McCreight's \\priority search trees,\" [SICOMP 14 (1985),\n  257{276], which are especially designed to represent intersections of dynamically\n  changing families of intervals."
+      },
+      {
+        "page": 567,
+        "text": "xPage 567 line 8                                                                                    22 May 1997\n  68 (1963) y 82 (1963)"
+      },
+      {
+        "page": 699,
+        "text": "Page 699 last line of answer 1                                                             01 Jun 1995\n  involve Bi . y involve Bi . Further comments appear in a paper by C. Greene and\n  D. J. Kleitman, J. Combinatorial Theory A20 (1976), 80{88."
+      },
+      {
+        "page": 699,
+        "text": "Page 699 line 17                                                                           27 Sep 1996\n  N. G. de Bruijn et al. y N. G. de Bruijn, C. van Ebbenhorst Tengbergen, and\n  D. Kruyswijk"
+      },
+      {
+        "page": 700,
+        "text": "xPage    700 lineP1                                                                          01 Jul 1975\n  P\n       p P\n     t t t  . y          p\n                  \u0001 t \u0001t t  P  , minus the  probability\n                                              \u0001             that  a particular record is a \\true drop,\"\n  namely Nr qq / Nr , where N = nk ."
+      },
+      {
+        "page": 700,
+        "text": "xPage 700 line 10                                                                           24 Jun 1996\n  f (n; k; q) y f (n; k; q))"
+      },
+      {
+        "page": 700,
+        "text": "Page 700 new answer                                                                        17 Feb 1997\n    8. (a) When S = S00 [ S1 1, we have ft(S) = ft (S0 [ S1) + ft 1(S0 ) + ft 1 (S1).\n  Therefore ft (s; m) is the minimum of ft (s0 ; m 1)+ft 1 (s0 ; m 1)+ft 1 (s1 ; m 1) over\n  all s0 and s1 such that 2m 1 \u0015 s0 \u0015 s1 \u0015 0 and s0 + s1 = s. To prove that the minimum\n  occurs for s0 = ds=2e and s1 = bs=2c, we can use induction on m, the result being clear\n  for m = 1 Given m \u0015 2, let gt(s) = ft (s; m 1) and ht (s) = ft (s; m 2). Then, by\n  induction, gt (s0 ) + gt 1 (s0 ) + gt 1 (s1 ) = ht (ds0 =2e) + ht 1 (ds0 =2e) + ht 1 (bs0 =2c) +\n\f 102      CHANGES TO VOLUME 3: SORTING AND SEARCHING\n ht 1 (ds0 =2e)+ht 2 (ds0 =2e)+ht 2 (bs0 =2c)+ht 1 (ds1 =2e)+ht 2 (ds1 =2e)+ht 2 (bs1 =2c),\n which is \u0015 gt(ds0 =2e + ds1 =2e) + gt 1 (ds0 =2e + ds1 =2e) + gt 1 (bs0 =2c + bs1 =2c). And if\n s0 > s1 +1, we have ds0 =2e + ds1 =2e < s0 , except in the case s0 = 2k +1 and s1 = 2k 1.\n In the latter case, however, gt (s0 ) + gt 1 (s0 ) + gt 1 (s1 ) \u0015 ht (2k + 1) + 2ht 1 (2k) \u0015\n ht (2k) + 2ht 1 (2k).\n      (b) Observe that the set S containing the numbers 0, 1, : : : , s 1 in binary\n notation has the property that S0 [ S1 = S0 , and S0 contains ds0 =2e elements. It\n follows, incidentally, that ft (2m r ; m) = [zt ] (1 + z)r (1 + 2z)m r ."
+      },
+      {
+        "page": 700,
+        "text": "Page 700 new paragraph for end of answer 10                                             19 Jun 1996\n      Incidentally, \\Steiner triple systems\" should not have been named after Steiner,\n although that name has become deeply entrenched in the literature. Steiner's publica-\n tion [Crelle 45 (1853), 181{182] came several years after Kirkman's, and Felix Klein has\n noted [Vorlesungen uber die Entwicklung der Math. im 19. Jahrhundert 1 (Springer,\n 1926), 128] that Steiner quoted English authors without giving them credit, during the\n later years of his life. Moreover, the concept had appeared already in two well-known\n books of J. Plucker [System der analytischen Geometrie (1835), 283{284; Theorie der\n algebraischen Curven (1839), 245{247]."
+      },
+      {
+        "page": 700,
+        "text": "Page 700 new answer                                                                    02 Mar 1977\n 16. Let each triple correspond to a codeword, where each codeword has exactly three\n 1 bits, identifying the elements of the corresponding triple. If u, v, w are distinct\n codewords, u has at most two 1 bits in common with the superposition of v and w,\n since it had at most one in common with v or w alone. [Similarly, from quadruple\n systems of order v we can construct v(v 1)=12 codewords, none of which is contained\n in the superposition of any three others, etc.]"
+      },
+      {
+        "page": 700,
+        "text": "Page 700 new answer                                                                     03 Jan 1997\n 17. (a) There are 2 (m n) \u0003's altogether, hence 2 n digits, with 2 n=m digits in each\n                       n                                     n                   n\n column. Half of the digits in each column must be 0. Hence 2n 1 n=m is an integer,\n and each column contains (2n 1 n=m)2 mismatches. Since each pair of rows has at least\n one mismatch, we must have 2n (2n 1)=2 \u0014 (2n 1 n=m)2 m.\n      (b) Consider the 2n m-bit numbers that are 0 in m n speci ed columns. Half of\n these have odd parity. A row with \u0003 in any of the unspeci ed columns covers as many\n evens as odds.\n      (c) \u0003 0 0 0, \u0003 1 1 1, 0 \u0003 1 0, 1 \u0003 1 0, 0 0 \u0003 1, 1 0 \u0003 1, 0 1 0 \u0003, 1 1 0 \u0003. This one isn't as\n uniform as (7), because a query like *01* hits four rows while *10* hits only two.\n Notice that (7) has cyclic symmetry.\n      (d) Generate 43 rows from each row of (7) by replacing each \u0003 by \u0003 \u0003 \u0003 \u0003, each 0 by\n any one of the rst four rows, and each 1 by any one of the last four rows. (A similar\n construction makes an ABD(mm0; nn0 ) from any ABD(m; n) and ABD(m0 ; n0 ).)\n      (e) Given an ABD(16; 9), we can encircle one \u0003 in each row in such a way that\n there are equally many circles in each column. Then we can split each row into two\n rows, with the circled element replaced by 0 and 1. To show that such encirclement\n is possible, note that the asterisks of each column can be arbitrarily divided into 32\n groups of 7 each; then the 512 rows each contain asterisks of 7 di erent groups, and the\n 32 \u0002 8 = 512 groups each appear in 7 di erent rows. Theorem 7.5.1E now guarantees\n the existence of a perfect matching with exactly one circled element in each row and\n each group.\n\f                        CHANGES TO VOLUME 3: SORTING AND SEARCHING                                103\n        References: R. L. Rivest, SICOMP 5 (1976), 19{50; A. E. Brouwer, Combina-\n  torics, ed. by Hajnal and S\u0013os, Colloq. Math. Soc. J\u0013anos Bolyai 18 (1978), 173{184.\n  Brouwer went on to prove that an ABD(2n; n) exists for all n \u0015 32. The method of\n  part (d) also yields on ABD(32; 15) when (7) is combined with (\u0003)."
+      },
+      {
+        "page": 700,
+        "text": "Page 700 new answers                                                                    17 Feb 1997\n                                                                                                     \u0001\n  18. By exercise 8, the average number 104                                      k\n                                                 with 8 k speci ed bits is 2 f8 k (8; 8)= k8 ,\n                                                                                    3\n                                                                 28 ; 8 ; 1) \u0019 (32; 22; 14:9; 9:9; 6:4;\n  which has the respective values (32; 22; 7 ; 697 ; 457 ; 338 ; 73   13\n  4:1; 2:6; 1:6; 1) for 8 \u0015 k \u0015 0. These are only slightly higher than the values of 32k=8 \u0019\n  (32; 20:7; 13:5; 8:7; 5:7; 3:7; 2:4; 1:5; 1). The worst-case numbers are (32; 22; 18; 15; 11;\n  8; 4; 2; 1).\n  19. J. A. La Poutr\u0013e [Disc.\u0001 Math. 58 (1986), 205{208] showed that an ABD(m; n)\n  cannot exist when m > n2 and n > 3; therefore no ABD(16; 6) exists. La Poutr\u0013e\n  and van Lint [Util. Math. 31 (1987), 219{225] proved that there is no ABD(10; 5). We\n  get an ABD(8; 6) from an ABD(8; 5) or ABD(4; 3) using the methods of exercise 17;\n  this produces several nonisomorphic solutions, and additional examples of ABD(8; 6)\n  might also exist. The only remaining possibilities (besides the trivial ABD(5; 5) and\n  ABD(6; 6)) are ABD(8; 5) distinct from (\u0003), and perhaps one or more ABD(12; 6)."
+      }
+    ]
+  },
+  "new_findings": [
+    "V3-C0079",
+    "V3-C0080",
+    "V3-C0081"
+  ],
+  "known_errata_excluded": [
+    "2024 bit-list wording; coordinate index (l mod k)+1; semicolons and bitwise OR; 286/8008 rounding; shifted example addresses; vanilla 16–16 split; group count 32*16; historical references and Sperner theorem name."
+  ],
+  "public_search_queries": [
+    "D. T. Lee C. K. Wong 1977 23 29",
+    "Knuth 745 8 error",
+    "Knuth 574 All the other",
+    "Lee Wong Worst-case analysis region partial region searches multidimensional binary search trees balanced quad trees Acta 1977",
+    "Worst-case analysis for region and partial region searches doi",
+    "Knuth 745 s0 8",
+    "Knuth 566 Acta Informatica"
+  ],
+  "public_result": "No correction matching the proof indices or blanket complexity comparison located. Publisher metadata confirms the journal-volume defect. This is a limited screen, not proof of absolute priority.",
+  "primary_source": {
+    "url": "https://link.springer.com/article/10.1007/BF00263763",
+    "title": "Worst-case analysis for region and partial region searches in multidimensional binary search trees and balanced quad trees",
+    "authors": [
+      "D. T. Lee",
+      "C. K. Wong"
+    ],
+    "journal": "Acta Informatica",
+    "volume": 9,
+    "pages": "23–29",
+    "year": 1977
+  },
+  "excluded_suspicions": [
+    "Unconditional versus conditional false-drop probabilities do not contradict the coarse .007M statement at its stated precision.",
+    "Partial-match complexity is read in the usual proper-partial-match domain; no new edge-case finding."
+  ]
+}

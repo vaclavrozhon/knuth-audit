@@ -1,0 +1,75 @@
+{
+  "checked_at_utc": "2026-11-02T19:44:20.060663+00:00",
+  "script_sha256": "07e16eca8e5d8b1658df45946db0dc2d1e12e781ce785a1e003161d5d25e6de4",
+  "finished_at_utc": "2026-11-02T18:53:21.959073+00:00",
+  "wrapper_pid": 862562,
+  "status": "verified",
+  "complete_double_squares": 323264,
+  "transpose_classes": 323264,
+  "all_stored_models_valid_unique_and_transpose_distinct": true,
+  "rank_histogram_matches": true,
+  "best_two_ranks": [
+    1720,
+    1800
+  ],
+  "best_orbits": {
+    "1720": [
+      [
+        "BEAST",
+        "LANCE",
+        "ARGON",
+        "STEPS",
+        "THREE"
+      ]
+    ],
+    "1800": [
+      [
+        "START",
+        "THREE",
+        "ROOFS",
+        "ASSET",
+        "PEERS"
+      ],
+      [
+        "STAMP",
+        "THREE",
+        "ROOTS",
+        "ASSET",
+        "PEERS"
+      ],
+      [
+        "STRAP",
+        "WHOSE",
+        "AROSE",
+        "METER",
+        "PESTS"
+      ]
+    ]
+  },
+  "exact_input_reconstructed": true,
+  "statistics": {
+    "input_mems": 350349033,
+    "search_mems": 18357857861641,
+    "secondary_length_mems": 4073343716664,
+    "updates": 1285819615350,
+    "cleansings": 19918534747,
+    "bytes": 7922824,
+    "nodes": 934675303,
+    "effective_mems": 14284514144977
+  },
+  "independent_cell_count_matches": true,
+  "complete_cross_solver_set_comparison": false,
+  "historical_15T_reproduced": false,
+  "scope": "Complete native DLX2 count matches the earlier independent cell count. All 323264 saved native models were checked directly. Raw solver stdout has only its streaming hash; the complete row-word model list is archived. 14.284514144977T net search mems do not reproduce the historical 15T. No search restarted; exercise87 remains partial only for the benchmark.",
+  "artifacts": {
+    "results/double_words/dlx-all-sgb5-run.json": "d961530bc809a2aa4cb1d2877ec24c915b10a631b0372e23976d5dd541dff93d",
+    "results/double_words/dlx-all-sgb5.json": "2c91ce5bbc8be8e8b6aee536d8eca2c8ab0510408e20fe17ef9d673f51658794",
+    "results/double_words/dlx-all-sgb5.dlx": "35c877713ba6dc2d8bb24e563a1a845539b6019d47a42ed1f715e0d1856363e2",
+    "results/double_words/dlx-all-sgb5.log": "9844abdc08c5074b8ced29c02ca337844444a85a3065a53600f7480ac74d3aa1",
+    "results/double_words/dlx-all-sgb5-double-models.txt.gz": "18b32b3b401c80241c18ac0e09582e686c18c7f908ff8fef8b8665e357dae6e2",
+    "results/double_words/build.json": "a8e6a2d6c92358df3e7e76d5f89bd0a986b363397cacd932b056957e6a71663f",
+    "sources/wordlists/words5-from-sgb": "52a04f4fb860953c2a29c2769014bd8b12d090a19e7577a460a2a2586bd6d4ce",
+    "results/word_rectangles/cell-5x5.json": "52db50e5c3faabeb8a15e8e7a589b480b856fbe7878e7b88f35c21aeb6decc2f",
+    "results/word_rectangles/cell-5x5-run.json": "2acb540252dc6f4134129ff012262d7086cd0917246a9f746de6631cac6e1b10"
+  }
+}

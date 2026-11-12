@@ -1,0 +1,209 @@
+{
+  "accessed_at_utc": "2026-11-03T20:35:42.116344+00:00",
+  "scope": "Exercise4.5.4-45; own repaired proof and finite exact validation. External analytic theorems explicitly identified.",
+  "book_visually_read": [
+    417,
+    670,
+    671
+  ],
+  "primary_reading": [
+    {
+      "source": "McCurley1990",
+      "url": "https://www.mccurley.org/papers/oddsends.pdf",
+      "pages": "145 and152–154 visually; rest not audited",
+      "result": "GRH conditional algorithm, prime progression, descent, statement of unconditional AEM improvement."
+    },
+    {
+      "source": "Pollard–Schnorr1987",
+      "url": "https://www.researchgate.net/publication/262234058_An_efficient_solution_of_the_congruencex2_ky2_mpmodn",
+      "scope": "Author-uploaded abstract and metadata only; PDF recognized by web but screenshots returned no image data; local download403."
+    },
+    {
+      "source": "Crossref publisher metadata",
+      "url": "https://api.crossref.org/works?query.title=Solving%20bivariate%20quadratic%20congruences%20in%20random%20polynomial%20time&rows=1",
+      "DOI": "10.1090/s0025-5718-1987-0866095-8",
+      "title": "Solving bivariate quadratic congruences in random polynomial time",
+      "scope": "Selected fields transcribed from retrieved API record; primary AMS PDF403; full proof not read."
+    }
+  ],
+  "downloads_manifest": "sources/norm-equations-downloads.json",
+  "errata_search": {
+    "date": "2026-11-03T20:35:42.116344+00:00",
+    "files": [
+      "../../errata/text/all2-prepre.txt",
+      "../../errata/text/all2-pre.txt",
+      "../../errata/text/all2.txt",
+      "../../errata/text/err2.txt",
+      "../../errata/originals/err2.textxt"
+    ],
+    "terms": [
+      "417",
+      "670",
+      "671",
+      "45",
+      "Pollard",
+      "Schnorr",
+      "uniform",
+      "modulo 8",
+      "nonzero pair",
+      "Fact3",
+      "hinted"
+    ],
+    "known_correction": "6 February1998,670,answer45 line14: y_2 to y^2; all2-prepre file42 visually read",
+    "new_findings": [
+      "V2-C0169",
+      "V2-C0170",
+      "V2-C0171",
+      "V2-C0172"
+    ]
+  },
+  "checks": {
+    "elementary": {
+      "status": "passed",
+      "seconds": 7.943184718023986
+    },
+    "lattice": {
+      "status": "passed",
+      "seconds": 0.060956278000958264
+    },
+    "solver": {
+      "status": "passed",
+      "seconds": 5.439167888020165
+    }
+  },
+  "processes": [
+    {
+      "label": "norm-equations",
+      "pid": 1303342,
+      "command": "timeout 180 python3 -u workstreams/vol2/verify_norm_equations.py",
+      "time_limit_seconds": 180,
+      "started_at_utc": "2026-11-03T20:29:52.800794+00:00",
+      "log": "results/norm-equations.log",
+      "checkpoints": "results/norm-equations.json",
+      "status": "completed",
+      "scope": "Three exact resumable checkpoints: fibers and composition, shortest vectors, repaired recursive solver including overlapping factors.",
+      "exit_code": 0,
+      "child_pid": 1303343,
+      "tool_session": 64048,
+      "finished_at_utc": "2026-11-03T20:30:42.814763+00:00"
+    }
+  ],
+  "limitations": [
+    "ERH analytic prime bounds and standard algorithmic runtimes external; own algebraic proof complete.",
+    "Finite solver uses trial division and exhaustive modular roots as small-instance oracles.",
+    "Original1987 papers not locally available; McCurley author source confirms cited scope.",
+    "Later physical printing and priority not verified; reports unsent."
+  ],
+  "artifacts": [
+    {
+      "file": "images/all2-prepre-rsa-p42.png",
+      "bytes": 134420,
+      "sha256": "b83cf51ad8fdb07ce0e5ed80153d46de55c6994f7ea61bcb37a389e08578612f"
+    },
+    {
+      "file": "images/mccurley-oddsends-p145.png",
+      "bytes": 109650,
+      "sha256": "85086705e42f363eaa41833013285214486d41901b9d47810364f182fb14545e"
+    },
+    {
+      "file": "images/mccurley-oddsends-p152.png",
+      "bytes": 144333,
+      "sha256": "26a93bed7e33fbbbcdf0720a030df6d72ee21f352624dd4fc2aec3598dc80509"
+    },
+    {
+      "file": "images/mccurley-oddsends-p153.png",
+      "bytes": 143691,
+      "sha256": "9a284d50fa71287135c1a8aaad6d882e2f78f31cb02abbfc7d59d3f94fc603c7"
+    },
+    {
+      "file": "images/mccurley-oddsends-p154.png",
+      "bytes": 126403,
+      "sha256": "3fe9f6f63b0e2055781ba8753ee5d3bd55e2a5207d3ebf770486a192946de8cc"
+    },
+    {
+      "file": "images/vol2-p417.png",
+      "bytes": 423595,
+      "sha256": "bfa53ad49eecb2cd3cca44dfab3cf5c48f364f28911a2f5d632ea30c04fc677e"
+    },
+    {
+      "file": "images/vol2-p670.png",
+      "bytes": 617444,
+      "sha256": "c55cb1df3aa9b3f2d6b175a6adfc14f14cc78adb732093efa253bfc0b0fee112"
+    },
+    {
+      "file": "images/vol2-p671.png",
+      "bytes": 553993,
+      "sha256": "4cce20cc9d6d414b7a723a5696d764ebb0944a437f3d6f2f2710a1d024c942d9"
+    },
+    {
+      "file": "notes/C0169-norm-composition-sign.md",
+      "bytes": 1023,
+      "sha256": "9aaca472f1aeae927187b181300c95095fc096e258ffed42348d5a280de90961"
+    },
+    {
+      "file": "notes/C0170-norm-lattice-factor.md",
+      "bytes": 1022,
+      "sha256": "f6ba9c7b7710e2d861609e0548bcf7610220f9770732b6f730469d755c50aeb9"
+    },
+    {
+      "file": "notes/C0171-norm-sampling-uniformity.md",
+      "bytes": 1090,
+      "sha256": "72b07863b52ac24ed6e37a26b6cda6f664ce4ecf5ceeb55153325f2626dbf81e"
+    },
+    {
+      "file": "notes/C0172-norm-mod-eight.md",
+      "bytes": 1010,
+      "sha256": "14ed7a228a02a98085de14ec1b61b92145b1c991a44e32732c0017c1a668c12f"
+    },
+    {
+      "file": "notes/norm-equations.md",
+      "bytes": 13874,
+      "sha256": "ecddc900e63e36d905ce5b2c4d940747b78f1366f04e59866b7f27b9775432e8"
+    },
+    {
+      "file": "reports/C0169-norm-composition-sign-draft.txt",
+      "bytes": 797,
+      "sha256": "bb27e001e4736121b49ee2619aec1117f1edf81072a866de15f44f71032ce703"
+    },
+    {
+      "file": "reports/C0170-norm-lattice-factor-draft.txt",
+      "bytes": 855,
+      "sha256": "93a701c6f2bd41e8fa70cb493237efcd461f6ba87b7c410bb29b9b4ecd1393c5"
+    },
+    {
+      "file": "reports/C0171-norm-sampling-uniformity-draft.txt",
+      "bytes": 1038,
+      "sha256": "3754677bae15f713e3aa9ecd47e9f8c84f10f6f90d5c9e486e1f96b5937105ae"
+    },
+    {
+      "file": "reports/C0172-norm-mod-eight-draft.txt",
+      "bytes": 740,
+      "sha256": "6e39a6f7a73da0fd86175c2100dfaec1adda39d3284d71340efbf42e244902b1"
+    },
+    {
+      "file": "results/norm-equations.json",
+      "bytes": 4573,
+      "sha256": "584858f48ddb9591fb426f04af7b2313a9f5b286e5d3fb5bfca650b4f0255253"
+    },
+    {
+      "file": "results/norm-equations.log",
+      "bytes": 146,
+      "sha256": "858bdf6e4f355f66807d7f4d9848bfbbcb918e91cce1151a40d552982cd65ed6"
+    },
+    {
+      "file": "sources/mccurley-oddsends.pdf",
+      "bytes": 1090261,
+      "sha256": "4eb8e216f66ae1d8ed44603e03bb3606ba0b59eeac9773e187433a4e41ccdfb4"
+    },
+    {
+      "file": "sources/norm-equations-downloads.json",
+      "bytes": 1882,
+      "sha256": "9878962089009c0e78dac9fb8ac79f7f5de4c167336776e984d48dc8dc385d72"
+    },
+    {
+      "file": "verify_norm_equations.py",
+      "bytes": 13131,
+      "sha256": "5a120ed1ff6ccf1a2bd1305780ecdf32c3b7dd0508d1d3e1a6dae0c6568fe474"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "at_utc": "2026-11-02T19:18:08.432599+00:00",
+  "checker_sha256": "1c838e226688ca10c63ca885057023c838bbe20d44215e3e6a4d5e29617e5824",
+  "local_files": {
+    "errata/text/all4b.txt": "b1a3425486f403fb4158585d5bbfef0159fd20b12e2e7d47b64e393e1ae8a303",
+    "errata/text/err4b.txt": "2a3450bf3c79d28ad3c2d96468344c96995cf0afb74961f257c311bb9c821e1c",
+    "errata/text/all4f5.txt": "0dd38c4cda72b01baefb797611c9bbab7713ff0c107a1df884afc89fe9bb91c3",
+    "errata/text/err4f5.txt": "5a716c34e2063eb46005593d53e89dbbd912b5677e0a6ab11753f2a5ee38b557",
+    "errata/originals/err4b.textxt": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+    "errata/originals/err4f5.textxt": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b"
+  },
+  "search_patterns": [
+    "(?:Page|page)\\s+(?:138|139|140|141|453|454|261|262)\\b",
+    "(?:4b|4f5)\\.(?:138|139|140|141|453|454|261|262)\\b",
+    "(?:answer|exercise|exer ise)\\s+140\\b",
+    "Trioker|Surprenant|Odier|1582023|3608906|vertex.colored|Langford"
+  ],
+  "contexts_sha256": "e31fc0e8654390adc159364eabddad603c2c0aba5438519d2899ec593e4ef092",
+  "context_count": 8,
+  "remote_retrieval": "sources/vertices140/retrieval-followup.json",
+  "remote_retrieval_sha256": "b62761f4e977998addbef5170b97ce9db08b62281dbea09bdd2182d224c92caf",
+  "remote_checked_at_utc": "2026-11-02T19:14:22.256614+00:00",
+  "fresh_official_files_equal": 4,
+  "relevant140_erratum_found": false,
+  "page_mapping": {
+    "question4B": [
+      140,
+      141
+    ],
+    "answer4B": [
+      453,
+      454
+    ],
+    "questionF5": [
+      138,
+      139
+    ],
+    "answerF5": [
+      261,
+      262
+    ],
+    "answerDraft5C": [
+      157,
+      158
+    ]
+  },
+  "scope": "No published correction located for the mismatched c3 corners or the cited book title. Absence is not a priority or reward claim."
+}

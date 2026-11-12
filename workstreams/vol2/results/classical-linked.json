@@ -1,0 +1,113 @@
+{
+  "small": {
+    "complete_pairs": 9604,
+    "bases": [
+      2,
+      3,
+      10,
+      256
+    ],
+    "stats": [
+      {
+        "base": 2,
+        "peak_nodes": 43,
+        "allocations": 77040,
+        "word_products": 51348,
+        "trial_decrements": 316,
+        "add_backs": 108,
+        "division_steps": 2184
+      },
+      {
+        "base": 3,
+        "peak_nodes": 29,
+        "allocations": 51080,
+        "word_products": 24232,
+        "trial_decrements": 364,
+        "add_backs": 32,
+        "division_steps": 1396
+      },
+      {
+        "base": 10,
+        "peak_nodes": 18,
+        "allocations": 30888,
+        "word_products": 8964,
+        "trial_decrements": 12,
+        "add_backs": 0,
+        "division_steps": 480
+      },
+      {
+        "base": 256,
+        "peak_nodes": 8,
+        "allocations": 17184,
+        "word_products": 2304,
+        "trial_decrements": 0,
+        "add_backs": 0,
+        "division_steps": 0
+      }
+    ],
+    "elapsed_seconds": 3.03157666901825
+  },
+  "larger": {
+    "random_pairs": 720,
+    "input_alias_cases": 120,
+    "max_operand_words": 100,
+    "stats": [
+      {
+        "base": 2,
+        "peak_nodes": 804,
+        "word_products": 357482,
+        "trial_decrements": 154,
+        "add_backs": 180,
+        "division_steps": 2065
+      },
+      {
+        "base": 3,
+        "peak_nodes": 814,
+        "word_products": 336492,
+        "trial_decrements": 334,
+        "add_backs": 175,
+        "division_steps": 2187
+      },
+      {
+        "base": 10,
+        "peak_nodes": 826,
+        "word_products": 335513,
+        "trial_decrements": 676,
+        "add_backs": 48,
+        "division_steps": 2246
+      },
+      {
+        "base": 256,
+        "peak_nodes": 836,
+        "word_products": 333235,
+        "trial_decrements": 662,
+        "add_backs": 1,
+        "division_steps": 2168
+      },
+      {
+        "base": 65536,
+        "peak_nodes": 874,
+        "word_products": 368562,
+        "trial_decrements": 515,
+        "add_backs": 0,
+        "division_steps": 1702
+      },
+      {
+        "base": 4294967296,
+        "peak_nodes": 846,
+        "word_products": 349515,
+        "trial_decrements": 640,
+        "add_backs": 0,
+        "division_steps": 1978
+      }
+    ],
+    "elapsed_seconds": 10.819133242010139
+  },
+  "allocation": {
+    "fragmented_free_nodes_reused": 62,
+    "filled_capacity": 80,
+    "failed_operation_cleanup_cases": 4,
+    "out_of_space_allocator_check": true,
+    "elapsed_seconds": 0.001181949017336592
+  }
+}

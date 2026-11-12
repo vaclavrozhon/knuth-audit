@@ -1,0 +1,114 @@
+{
+  "prefix_and_skips": {
+    "prefix_probabilities": 163064,
+    "exact_skip_masses_and_inverse_intervals": 11480,
+    "elapsed_seconds": 1.8940208319982048
+  },
+  "squeeze": {
+    "models": 1128,
+    "rational_squeeze_probes": 73696,
+    "max_expected_expensive_product_factors": 2.3963316782750725,
+    "note": "Global inequalities proved in notes; probes independently confirm exact arithmetic at rational points.",
+    "elapsed_seconds": 2.4085547949944157
+  },
+  "permutations_and_conversion": {
+    "full_choice_vectors": 46233,
+    "largest_t": 8,
+    "multiset_outputs": 90,
+    "factorial13_over_2power32": "6081075/4194304",
+    "elapsed_seconds": 0.42446796101285145
+  },
+  "dahl": {
+    "choice_vectors": 21753,
+    "invariant_checked_steps": 115137,
+    "elapsed_seconds": 0.3836953900172375
+  },
+  "perfect_shuffle": {
+    "groups": 15,
+    "arrangements": 3237,
+    "rows": [
+      [
+        3,
+        2,
+        6
+      ],
+      [
+        5,
+        4,
+        20
+      ],
+      [
+        7,
+        3,
+        21
+      ],
+      [
+        9,
+        6,
+        54
+      ],
+      [
+        11,
+        10,
+        110
+      ],
+      [
+        13,
+        12,
+        156
+      ],
+      [
+        15,
+        4,
+        60
+      ],
+      [
+        17,
+        8,
+        136
+      ],
+      [
+        19,
+        18,
+        342
+      ],
+      [
+        21,
+        6,
+        126
+      ],
+      [
+        23,
+        11,
+        253
+      ],
+      [
+        25,
+        20,
+        500
+      ],
+      [
+        27,
+        18,
+        486
+      ],
+      [
+        29,
+        28,
+        812
+      ],
+      [
+        31,
+        5,
+        155
+      ]
+    ],
+    "elapsed_seconds": 0.026249618997098878
+  },
+  "floyd": {
+    "intermediate_subsets": 16278,
+    "implicit_choice_histories": 1421542628,
+    "max_N": 12,
+    "elapsed_seconds": 0.13843825398362242
+  }
+}

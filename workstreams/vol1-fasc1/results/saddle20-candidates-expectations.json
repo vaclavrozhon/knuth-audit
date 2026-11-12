@@ -1,0 +1,143 @@
+{
+  "purpose": "Concrete general third MMIX method; exact new counts and fixed9x8 comparisons.",
+  "binary_new_method_checks": [
+    {
+      "rows": 2,
+      "columns": 2,
+      "matrices": 16,
+      "new_method_counts_match": true
+    },
+    {
+      "rows": 3,
+      "columns": 2,
+      "matrices": 64,
+      "new_method_counts_match": true
+    }
+  ],
+  "binary_9x8": {
+    "R": {
+      "numerator": 5157119595016904167457,
+      "denominator": 590295810358705651712,
+      "decimal": 8.736500419820144
+    },
+    "C": {
+      "numerator": 20706061684130651408255,
+      "denominator": 4722366482869645213696,
+      "decimal": 4.384679113584632
+    },
+    "K": {
+      "numerator": 31119629800698380026043,
+      "denominator": 2361183241434822606848,
+      "decimal": 13.179675873774151
+    },
+    "S": {
+      "numerator": 924744796234036231,
+      "denominator": 18446744073709551616,
+      "decimal": 0.05013051585358036
+    },
+    "mems": {
+      "numerator": 221753301564073224388927,
+      "denominator": 2361183241434822606848,
+      "decimal": 93.91617629359429
+    },
+    "oops": {
+      "numerator": 2628573652287829589991265,
+      "denominator": 4722366482869645213696,
+      "decimal": 556.6221219430902
+    }
+  },
+  "distinct_9x8": {
+    "I_bounds": {
+      "mems_lower": {
+        "numerator": 668181,
+        "denominator": 5720,
+        "decimal": 116.81486013986014
+      },
+      "mems_upper": {
+        "numerator": 51417,
+        "denominator": 440,
+        "decimal": 116.85681818181818
+      },
+      "oops_lower": {
+        "numerator": 3836711,
+        "denominator": 5720,
+        "decimal": 670.7536713286713
+      },
+      "oops_upper": {
+        "numerator": 3838391,
+        "denominator": 5720,
+        "decimal": 671.0473776223777
+      }
+    },
+    "II_bounds": {
+      "mems_lower": {
+        "numerator": 10108054405575701,
+        "denominator": 109419511321120,
+        "decimal": 92.37890284403655
+      },
+      "mems_upper": {
+        "numerator": 10110196885517653,
+        "denominator": 109419511321120,
+        "decimal": 92.39848326361697
+      },
+      "oops_lower": {
+        "numerator": 16109582313653,
+        "denominator": 32497627360,
+        "decimal": 495.71564518219645
+      },
+      "oops_upper": {
+        "numerator": 209499019187441,
+        "denominator": 422469155680,
+        "decimal": 495.8918689584202
+      }
+    },
+    "III_exact": {
+      "R": {
+        "numerator": 6433,
+        "denominator": 715,
+        "decimal": 8.997202797202798
+      },
+      "C": {
+        "numerator": 1,
+        "denominator": 1,
+        "decimal": 1.0
+      },
+      "K": {
+        "numerator": 31448415930439,
+        "denominator": 19894456603840,
+        "decimal": 1.5807627499797543
+      },
+      "S": {
+        "numerator": 1,
+        "denominator": 1430,
+        "decimal": 0.0006993006993006993
+      },
+      "mems": {
+        "numerator": 18071281272129997,
+        "denominator": 218839022642240,
+        "decimal": 82.57796554718256
+      },
+      "oops": {
+        "numerator": 12819355150853393,
+        "denominator": 27354877830280,
+        "decimal": 468.6314166851527
+      }
+    },
+    "all_row_K_II": {
+      "numerator": 535086028033889,
+      "denominator": 43767804528448,
+      "decimal": 12.22556246078316
+    },
+    "all_row_H_II": {
+      "numerator": 38453956612933,
+      "denominator": 218839022642240,
+      "decimal": 0.1757180056310061
+    },
+    "expected_rows_skipped_after_saddle": {
+      "numerator": 2,
+      "denominator": 715,
+      "decimal": 0.002797202797202797
+    }
+  },
+  "elapsed_seconds": 0.005625716992653906
+}

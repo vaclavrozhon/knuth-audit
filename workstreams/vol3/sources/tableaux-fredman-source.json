@@ -1,0 +1,23 @@
+{
+  "checked_at_utc": "2026-11-06T21:52:48.782903+00:00",
+  "status": "checked_with_external_dependency",
+  "title": "On computing the length of longest increasing subsequences",
+  "author": "Michael L. Fredman",
+  "publication": "Discrete Mathematics11(1),1975,29–35",
+  "doi": "10.1016/0012-365X(75)90103-X",
+  "publisher_url": "https://www.sciencedirect.com/science/article/pii/0012365X7590103X",
+  "accessible_evidence": "Primary publisher abstract returned by web search and the indexed introduction of the university-hosted primary PDF. They state n distinct linearly ordered elements, the comparison model, n log n−n log log n+O(n) worst-case comparisons and worst-case optimality.",
+  "full_pdf_attempt": {
+    "url": "https://par.cse.nsysu.edu.tw/resource/paper/2014/140127/On%20computing%20the%20length%20of%20longest%20increasing%20subsequences.pdf",
+    "result": "Browser fetch and a bounded direct request timed out. Publisher full page returned403. No full-PDF proof review claimed."
+  },
+  "independently_proved": "The exact deletion-insertion distance, a constructive upper bound for moves, rank-invariant applicability and the sharp algorithmic comparison upper bound. The minimum-tail invariant is reused from P0403.",
+  "external_dependency": "The matching comparison-tree lower bound is an explicitly cited primary theorem; its full proof has not been independently reread.",
+  "known_erratum": "all3-prepre p614 answer41,1 January2006: n+first-row-length becomes n−first-row-length.",
+  "evidence": [
+    "workstreams/vol3/notes/tableaux-proof-41-library-distance.md",
+    "workstreams/vol3/sources/tableaux-errata-review.json",
+    "workstreams/vol3/images/tableaux-file-083.png",
+    "workstreams/vol3/images/tableaux-file-625.png"
+  ]
+}

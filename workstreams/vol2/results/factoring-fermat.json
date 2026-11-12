@@ -1,0 +1,148 @@
+{
+  "checkpoints": {
+    "C": {
+      "result": {
+        "inputs": 4096,
+        "x_increments": 2340338,
+        "y_increments": 2506340,
+        "example377": [
+          13,
+          29,
+          2,
+          8
+        ]
+      },
+      "seconds": 3.1205965359986294
+    },
+    "D": {
+      "result": {
+        "inputs": 2048,
+        "examples": {
+          "11111": {
+            "factors": [
+              41,
+              271
+            ],
+            "examined": [
+              144,
+              156
+            ]
+          },
+          "8616460799": {
+            "factors": [
+              89681,
+              96079
+            ],
+            "examined": [
+              92880
+            ]
+          }
+        }
+      },
+      "seconds": 3.780204409995349
+    },
+    "residues": {
+      "result": {
+        "printed_allowed_residues": {
+          "3": [
+            0
+          ],
+          "5": [
+            0,
+            2,
+            3
+          ],
+          "7": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "8": [
+            0,
+            4
+          ],
+          "11": [
+            1,
+            2,
+            4,
+            7,
+            9,
+            10
+          ],
+          "25": [
+            0,
+            5,
+            7,
+            10,
+            15,
+            18,
+            20
+          ]
+        },
+        "square_endings": [
+          0,
+          1,
+          4,
+          9,
+          16,
+          21,
+          24,
+          25,
+          29,
+          36,
+          41,
+          44,
+          49,
+          56,
+          61,
+          64,
+          69,
+          76,
+          81,
+          84,
+          89,
+          96
+        ],
+        "prime_power_models": 948,
+        "coprimality_qualification": "N9,p3 gives no extra information"
+      },
+      "seconds": 0.1919558439985849
+    },
+    "pairing": {
+      "result": {
+        "paired_predicates": 11610,
+        "printed_index_counterexample": {
+          "r": 2,
+          "m": [
+            3,
+            5
+          ],
+          "N": 31,
+          "x": 7,
+          "printed_modulus": 9,
+          "correct_modulus": 15
+        }
+      },
+      "seconds": 0.041386826982488856
+    },
+    "words": {
+      "result": {
+        "compact_blocks": 161577,
+        "shifted_windows": 34170,
+        "corrected_wraps": 9315,
+        "printed_wrap_counterexample": {
+          "word_bits": 30,
+          "modulus": 7,
+          "stored_words": 7,
+          "printed_next_index": 209,
+          "correct_next_index": 6
+        }
+      },
+      "seconds": 1.57305641201674
+    }
+  },
+  "pid": 1259264,
+  "status": "passed",
+  "elapsed_this_run": 8.710329384979559
+}

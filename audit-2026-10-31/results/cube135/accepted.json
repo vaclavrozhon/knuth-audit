@@ -1,0 +1,42 @@
+{
+  "at_utc": "2026-11-02T12:39:13.997330+00:00",
+  "source_sha256": "e2637308164658bd25c9e18072b9c3e45b6c2fd607065253ae23491959cacadc",
+  "geometry_sha256": "c18b80408f3bcdd685c82ba0ccd8afba25a4326c386a4cf508723d435df25e4f",
+  "exact_cyclic_models": 732,
+  "exact_cyclic_classes": 61,
+  "all_mono_placement_classes_extend": 27,
+  "unordered_nonadjacent_triples": 1104,
+  "ordered_color_placements": 6624,
+  "sampling_trials": 27000000,
+  "minimum_estimate": {
+    "class_index": 14,
+    "orbit_size": 48,
+    "trials": 1000000,
+    "successful_paths": 22548,
+    "estimate": 795167454.933702,
+    "empirical_standard_error": 10704982.364131257
+  },
+  "maximum_estimate": {
+    "class_index": 5,
+    "orbit_size": 24,
+    "trials": 1000000,
+    "successful_paths": 25366,
+    "estimate": 1056424442.704776,
+    "empirical_standard_error": 13244136.286202399
+  },
+  "statistical_scope": "Unbiased random-path estimator; empirical standard errors only, no certified confidence interval or exact total. The27 class results are not identical, but remain of the coarse order9e8. The pilot overlaps the first million-trial run and is excluded.",
+  "artifacts": {
+    "cyclic-exhaustive.json": "dabb6909e5594297cb7726dd7725c6a21451e65e089b4f036cbedde4bc8442ea",
+    "xcc-accepted.json": "d4540288494e8483590d49fd17de0dda49c4b40b33484361ba22295882e47dce",
+    "symmetry-checked.json": "2194f29d14dd5e81087a90e887f23109912a5c68fc551332a675057aff9aa4c9",
+    "figure-checked.json": "693f5d715041be31adea5de0c035accd32f179872fcbef8a904fbc51fc31defb",
+    "sampling/calibration-checked.json": "93f5c99660b71ea9f9a09d6b564b6b374631befaf07e41003eed68551f8b1b2f",
+    "sampling/queue.json": "8a853f2ec88c5cd087aceae6f4271e7294a0247d71d606c9d602eddd593f84a2",
+    "mono-placement-classes.json": "b6ba68ed165bdc9ffb13a4a9c4ea80e94a76cbcc8fc13abae8b9bf2d709c0673",
+    "mono-witnesses.json": "7922687793574e1620e9c1a5fdeef617b78076e2b56039f9f295884e9f8f7aa0",
+    "estimates.csv": "f5efac1951a342f07f1a86bf7e05286ebc60c3afa4aa42edb1c513d4d8ac6695"
+  },
+  "no_new_error": true,
+  "whole_exercise_status": "partial",
+  "remaining": "Original historical sources,1993/39 chronology and ancillary polyhedron photo reconstruction; full exact unrestricted counts not claimed."
+}

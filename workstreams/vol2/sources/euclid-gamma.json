@@ -1,0 +1,55 @@
+{
+  "accessed_at_utc": "2026-11-03T06:24:48.115738+00:00",
+  "sources": [
+    {
+      "id": "demailly-gamma-extended",
+      "url": "https://www-fourier.univ-grenoble-alpes.fr/~demailly/manuscripts/gamma_gazmath_eng.pdf",
+      "local_file": "sources/demailly-gamma-extended.pdf",
+      "bytes": 420732,
+      "sha256": "5269b43c4457c254f8daeab9f7c6d2a7c61f8eb957b14b12c39b9100fe21f381",
+      "edition_note": "Extended English translation of 1985 Gazette paper; first-page footnote says expanded after more than30 years. Not the original1985 published pagination.",
+      "scope": "PDF1,5–9 visually read. Bessel identities and elementary bounds; Sweeney positive exponential series. Obvious page5 transcription errors exp(t) and missing Weierstrass factors are not adopted; independent correct derivation in notes. Later refined asymptotic expansion not used.",
+      "images": [
+        "images/demailly-gamma-p1.png",
+        "images/demailly-gamma-p5.png",
+        "images/demailly-gamma-p6.png",
+        "images/demailly-gamma-p7.png",
+        "images/demailly-gamma-p8.png",
+        "images/demailly-gamma-p9.png"
+      ]
+    },
+    {
+      "id": "wrench-shanks-catalog",
+      "url": "https://www.jstor.org/stable/i334518",
+      "scope": "Journal issue contents list article444–448; next Kravitz article448–449. Original article pages not obtained. CandidateC0131 only."
+    },
+    {
+      "id": "utah-bibliography",
+      "url": "https://ftp.math.utah.edu/pub/tex/bib/mathcomp1960.bib",
+      "scope": "Navigation: confirms Sweeney170–178, DOI10.1090/S0025-5718-1963-0160308-X; WrenchShanks444–448. Derived catalog, not used as sole confirmation."
+    },
+    {
+      "id": "arb-documentation",
+      "url": "https://python-flint.readthedocs.io/en/stable/arb.html",
+      "scope": "Version0.9.0 ball arithmetic, outward endpoint extraction, exact dyadic man_exp; locally installed into temporary python-deps only."
+    }
+  ],
+  "unavailable": [
+    {
+      "url": "https://www.ams.org/journals/mcom/1963-17-082/S0025-5718-1963-0160308-X/S0025-5718-1963-0160308-X.pdf",
+      "outcome": "HTTP403; not retried."
+    },
+    {
+      "url": "https://electronicsandbooks.com/edt/manual/Magazine/M/Mathematics%20of%20Computation/1960-2002/pdf/1963_v017_n082/2003637.pdf",
+      "outcome": "Direct: no route to host; webopen unavailable."
+    },
+    {
+      "url": "https://electronicsandbooks.com/edt/manual/Magazine/M/Mathematics%20of%20Computation/1960-2002/pdf/1966_v020_n095/2003606.pdf",
+      "outcome": "Direct: no route to host; webopen unavailable."
+    },
+    {
+      "url": "https://www.ams.org/journals/mcom/1966-20-095/",
+      "outcome": "Webopen unavailable."
+    }
+  ]
+}

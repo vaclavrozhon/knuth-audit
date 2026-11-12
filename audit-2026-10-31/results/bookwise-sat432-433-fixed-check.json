@@ -1,0 +1,52 @@
+{
+  "d": 4,
+  "a": 2,
+  "partial": [
+    "x^1",
+    "not y^3"
+  ],
+  "residual_clauses": [
+    [
+      "not x^3",
+      "x^2"
+    ],
+    [
+      "not y^2",
+      "y^1"
+    ],
+    [
+      "x^2",
+      "y^2"
+    ],
+    [
+      "x^3",
+      "not y^1"
+    ],
+    [
+      "not x^2",
+      "not y^2"
+    ]
+  ],
+  "remaining_units": 0,
+  "all_consistent_numeric_pairs": [
+    [
+      2,
+      0
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      1
+    ]
+  ],
+  "forced_literal": "x^2",
+  "old_counterexample": "not x^2 immediately forces y^2 via the j=0 clause",
+  "433_values": {
+    "printed_lower": 145,
+    "correct_lower": 273,
+    "upper": 271
+  }
+}

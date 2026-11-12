@@ -1,0 +1,7 @@
+{
+  "purpose": "Specific check of equation 50 fixed-k remainder after the missing-exponential discrepancy was identified.",
+  "A_k1": "xi*(xi + 2)/(2*(xi + 1)**2)",
+  "second_ratio_coefficient": "-xi**2*(2*xi**4 + 2*xi**3 - 19*xi**2 - 52*xi - 48)/(24*(xi + 1)**5)",
+  "coefficient_divided_by_xi_limit": "-1/12",
+  "conclusion": "The fixed-k=1 second coefficient grows as -xi/12; the printed O(n^-2) is also too small."
+}

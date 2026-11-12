@@ -1,0 +1,1106 @@
+[
+  {
+    "b": 64,
+    "operation": "DFADD",
+    "inputs": [
+      [
+        2048,
+        4398046511104,
+        1
+      ],
+      [
+        2048,
+        4398046511104,
+        1
+      ]
+    ],
+    "time": 80,
+    "variables": {
+      "swapped": 0,
+      "equal_high_words": 1,
+      "tested_X": 0,
+      "zero": 0,
+      "left_shifts": 1
+    },
+    "formula_value": 80
+  },
+  {
+    "b": 64,
+    "operation": "DFMUL",
+    "inputs": [
+      [
+        2048,
+        4398046511104,
+        1
+      ],
+      [
+        2048,
+        4398046511104,
+        1
+      ]
+    ],
+    "time": 112,
+    "variables": {
+      "left_shifts": 1,
+      "division_borrow": 0
+    },
+    "formula_value": 112
+  },
+  {
+    "b": 64,
+    "operation": "DFDIV",
+    "inputs": [
+      [
+        2048,
+        4398046511104,
+        1
+      ],
+      [
+        2048,
+        4398046511104,
+        1
+      ]
+    ],
+    "time": 123,
+    "variables": {
+      "left_shifts": 0,
+      "division_borrow": 0
+    },
+    "formula_value": 123
+  },
+  {
+    "b": 64,
+    "operation": "DFADD",
+    "inputs": [
+      [
+        2048,
+        140737488355328,
+        1
+      ],
+      [
+        2048,
+        140737488355328,
+        1
+      ]
+    ],
+    "time": 74,
+    "variables": {
+      "swapped": 0,
+      "equal_high_words": 1,
+      "tested_X": 0,
+      "zero": 0,
+      "left_shifts": 0
+    },
+    "formula_value": 74
+  },
+  {
+    "b": 64,
+    "operation": "DFMUL",
+    "inputs": [
+      [
+        2048,
+        140737488355328,
+        1
+      ],
+      [
+        2048,
+        140737488355328,
+        1
+      ]
+    ],
+    "time": 106,
+    "variables": {
+      "left_shifts": 0,
+      "division_borrow": 0
+    },
+    "formula_value": 106
+  },
+  {
+    "b": 64,
+    "operation": "DFDIV",
+    "inputs": [
+      [
+        2048,
+        140737488355328,
+        1
+      ],
+      [
+        2048,
+        140737488355328,
+        1
+      ]
+    ],
+    "time": 123,
+    "variables": {
+      "left_shifts": 0,
+      "division_borrow": 0
+    },
+    "formula_value": 123
+  },
+  {
+    "b": 64,
+    "operation": "DFADD",
+    "inputs": [
+      [
+        2048,
+        4398046511104,
+        1
+      ],
+      [
+        2048,
+        4398046511104,
+        -1
+      ]
+    ],
+    "time": 60,
+    "variables": {
+      "swapped": 0,
+      "equal_high_words": 1,
+      "tested_X": 1,
+      "zero": 1,
+      "left_shifts": 0
+    },
+    "formula_value": 60
+  },
+  {
+    "b": 64,
+    "operation": "DFMUL",
+    "inputs": [
+      [
+        2048,
+        4398046511104,
+        1
+      ],
+      [
+        2048,
+        4398046511104,
+        -1
+      ]
+    ],
+    "time": 112,
+    "variables": {
+      "left_shifts": 1,
+      "division_borrow": 0
+    },
+    "formula_value": 112
+  },
+  {
+    "b": 64,
+    "operation": "DFDIV",
+    "inputs": [
+      [
+        2048,
+        4398046511104,
+        1
+      ],
+      [
+        2048,
+        4398046511104,
+        -1
+      ]
+    ],
+    "time": 123,
+    "variables": {
+      "left_shifts": 0,
+      "division_borrow": 0
+    },
+    "formula_value": 123
+  },
+  {
+    "b": 64,
+    "operation": "DFADD",
+    "inputs": [
+      [
+        2048,
+        4398046511104,
+        1
+      ],
+      [
+        2048,
+        4398046511105,
+        -1
+      ]
+    ],
+    "time": 137,
+    "variables": {
+      "swapped": 1,
+      "equal_high_words": 1,
+      "tested_X": 1,
+      "zero": 0,
+      "left_shifts": 8
+    },
+    "formula_value": 137
+  },
+  {
+    "b": 64,
+    "operation": "DFMUL",
+    "inputs": [
+      [
+        2048,
+        4398046511104,
+        1
+      ],
+      [
+        2048,
+        4398046511105,
+        -1
+      ]
+    ],
+    "time": 112,
+    "variables": {
+      "left_shifts": 1,
+      "division_borrow": 0
+    },
+    "formula_value": 112
+  },
+  {
+    "b": 64,
+    "operation": "DFDIV",
+    "inputs": [
+      [
+        2048,
+        4398046511104,
+        1
+      ],
+      [
+        2048,
+        4398046511105,
+        -1
+      ]
+    ],
+    "time": 130,
+    "variables": {
+      "left_shifts": 1,
+      "division_borrow": 1
+    },
+    "formula_value": 130
+  },
+  {
+    "b": 64,
+    "operation": "DFADD",
+    "inputs": [
+      [
+        2048,
+        4398046511105,
+        1
+      ],
+      [
+        2048,
+        4398046511104,
+        -1
+      ]
+    ],
+    "time": 123,
+    "variables": {
+      "swapped": 0,
+      "equal_high_words": 1,
+      "tested_X": 1,
+      "zero": 0,
+      "left_shifts": 8
+    },
+    "formula_value": 123
+  },
+  {
+    "b": 64,
+    "operation": "DFMUL",
+    "inputs": [
+      [
+        2048,
+        4398046511105,
+        1
+      ],
+      [
+        2048,
+        4398046511104,
+        -1
+      ]
+    ],
+    "time": 112,
+    "variables": {
+      "left_shifts": 1,
+      "division_borrow": 0
+    },
+    "formula_value": 112
+  },
+  {
+    "b": 64,
+    "operation": "DFDIV",
+    "inputs": [
+      [
+        2048,
+        4398046511105,
+        1
+      ],
+      [
+        2048,
+        4398046511104,
+        -1
+      ]
+    ],
+    "time": 123,
+    "variables": {
+      "left_shifts": 0,
+      "division_borrow": 0
+    },
+    "formula_value": 123
+  },
+  {
+    "b": 64,
+    "operation": "DFADD",
+    "inputs": [
+      [
+        2048,
+        281474976710655,
+        1
+      ],
+      [
+        2048,
+        281474976710655,
+        1
+      ]
+    ],
+    "time": 74,
+    "variables": {
+      "swapped": 0,
+      "equal_high_words": 1,
+      "tested_X": 0,
+      "zero": 0,
+      "left_shifts": 0
+    },
+    "formula_value": 74
+  },
+  {
+    "b": 64,
+    "operation": "DFMUL",
+    "inputs": [
+      [
+        2048,
+        281474976710655,
+        1
+      ],
+      [
+        2048,
+        281474976710655,
+        1
+      ]
+    ],
+    "time": 106,
+    "variables": {
+      "left_shifts": 0,
+      "division_borrow": 0
+    },
+    "formula_value": 106
+  },
+  {
+    "b": 64,
+    "operation": "DFDIV",
+    "inputs": [
+      [
+        2048,
+        281474976710655,
+        1
+      ],
+      [
+        2048,
+        281474976710655,
+        1
+      ]
+    ],
+    "time": 123,
+    "variables": {
+      "left_shifts": 0,
+      "division_borrow": 0
+    },
+    "formula_value": 123
+  },
+  {
+    "b": 64,
+    "operation": "DFADD",
+    "inputs": [
+      [
+        2048,
+        281474976710655,
+        1
+      ],
+      [
+        2048,
+        4398046511104,
+        1
+      ]
+    ],
+    "time": 71,
+    "variables": {
+      "swapped": 0,
+      "equal_high_words": 0,
+      "tested_X": 0,
+      "zero": 0,
+      "left_shifts": 0
+    },
+    "formula_value": 71
+  },
+  {
+    "b": 64,
+    "operation": "DFMUL",
+    "inputs": [
+      [
+        2048,
+        281474976710655,
+        1
+      ],
+      [
+        2048,
+        4398046511104,
+        1
+      ]
+    ],
+    "time": 112,
+    "variables": {
+      "left_shifts": 1,
+      "division_borrow": 0
+    },
+    "formula_value": 112
+  },
+  {
+    "b": 64,
+    "operation": "DFDIV",
+    "inputs": [
+      [
+        2048,
+        281474976710655,
+        1
+      ],
+      [
+        2048,
+        4398046511104,
+        1
+      ]
+    ],
+    "time": 123,
+    "variables": {
+      "left_shifts": 0,
+      "division_borrow": 0
+    },
+    "formula_value": 123
+  },
+  {
+    "b": 64,
+    "operation": "DFADD",
+    "inputs": [
+      [
+        2048,
+        4398046511104,
+        1
+      ],
+      [
+        2048,
+        281474976710655,
+        1
+      ]
+    ],
+    "time": 84,
+    "variables": {
+      "swapped": 1,
+      "equal_high_words": 0,
+      "tested_X": 0,
+      "zero": 0,
+      "left_shifts": 0
+    },
+    "formula_value": 84
+  },
+  {
+    "b": 64,
+    "operation": "DFMUL",
+    "inputs": [
+      [
+        2048,
+        4398046511104,
+        1
+      ],
+      [
+        2048,
+        281474976710655,
+        1
+      ]
+    ],
+    "time": 112,
+    "variables": {
+      "left_shifts": 1,
+      "division_borrow": 0
+    },
+    "formula_value": 112
+  },
+  {
+    "b": 64,
+    "operation": "DFDIV",
+    "inputs": [
+      [
+        2048,
+        4398046511104,
+        1
+      ],
+      [
+        2048,
+        281474976710655,
+        1
+      ]
+    ],
+    "time": 129,
+    "variables": {
+      "left_shifts": 1,
+      "division_borrow": 0
+    },
+    "formula_value": 129
+  },
+  {
+    "b": 100,
+    "operation": "DFADD",
+    "inputs": [
+      [
+        5000,
+        100000000000000,
+        1
+      ],
+      [
+        5000,
+        100000000000000,
+        1
+      ]
+    ],
+    "time": 80,
+    "variables": {
+      "swapped": 0,
+      "equal_high_words": 1,
+      "tested_X": 0,
+      "zero": 0,
+      "left_shifts": 1
+    },
+    "formula_value": 80
+  },
+  {
+    "b": 100,
+    "operation": "DFMUL",
+    "inputs": [
+      [
+        5000,
+        100000000000000,
+        1
+      ],
+      [
+        5000,
+        100000000000000,
+        1
+      ]
+    ],
+    "time": 112,
+    "variables": {
+      "left_shifts": 1,
+      "division_borrow": 0
+    },
+    "formula_value": 112
+  },
+  {
+    "b": 100,
+    "operation": "DFDIV",
+    "inputs": [
+      [
+        5000,
+        100000000000000,
+        1
+      ],
+      [
+        5000,
+        100000000000000,
+        1
+      ]
+    ],
+    "time": 123,
+    "variables": {
+      "left_shifts": 0,
+      "division_borrow": 0
+    },
+    "formula_value": 123
+  },
+  {
+    "b": 100,
+    "operation": "DFADD",
+    "inputs": [
+      [
+        5000,
+        5000000000000000,
+        1
+      ],
+      [
+        5000,
+        5000000000000000,
+        1
+      ]
+    ],
+    "time": 74,
+    "variables": {
+      "swapped": 0,
+      "equal_high_words": 1,
+      "tested_X": 0,
+      "zero": 0,
+      "left_shifts": 0
+    },
+    "formula_value": 74
+  },
+  {
+    "b": 100,
+    "operation": "DFMUL",
+    "inputs": [
+      [
+        5000,
+        5000000000000000,
+        1
+      ],
+      [
+        5000,
+        5000000000000000,
+        1
+      ]
+    ],
+    "time": 106,
+    "variables": {
+      "left_shifts": 0,
+      "division_borrow": 0
+    },
+    "formula_value": 106
+  },
+  {
+    "b": 100,
+    "operation": "DFDIV",
+    "inputs": [
+      [
+        5000,
+        5000000000000000,
+        1
+      ],
+      [
+        5000,
+        5000000000000000,
+        1
+      ]
+    ],
+    "time": 123,
+    "variables": {
+      "left_shifts": 0,
+      "division_borrow": 0
+    },
+    "formula_value": 123
+  },
+  {
+    "b": 100,
+    "operation": "DFADD",
+    "inputs": [
+      [
+        5000,
+        100000000000000,
+        1
+      ],
+      [
+        5000,
+        100000000000000,
+        -1
+      ]
+    ],
+    "time": 60,
+    "variables": {
+      "swapped": 0,
+      "equal_high_words": 1,
+      "tested_X": 1,
+      "zero": 1,
+      "left_shifts": 0
+    },
+    "formula_value": 60
+  },
+  {
+    "b": 100,
+    "operation": "DFMUL",
+    "inputs": [
+      [
+        5000,
+        100000000000000,
+        1
+      ],
+      [
+        5000,
+        100000000000000,
+        -1
+      ]
+    ],
+    "time": 112,
+    "variables": {
+      "left_shifts": 1,
+      "division_borrow": 0
+    },
+    "formula_value": 112
+  },
+  {
+    "b": 100,
+    "operation": "DFDIV",
+    "inputs": [
+      [
+        5000,
+        100000000000000,
+        1
+      ],
+      [
+        5000,
+        100000000000000,
+        -1
+      ]
+    ],
+    "time": 123,
+    "variables": {
+      "left_shifts": 0,
+      "division_borrow": 0
+    },
+    "formula_value": 123
+  },
+  {
+    "b": 100,
+    "operation": "DFADD",
+    "inputs": [
+      [
+        5000,
+        100000000000000,
+        1
+      ],
+      [
+        5000,
+        100000000000001,
+        -1
+      ]
+    ],
+    "time": 137,
+    "variables": {
+      "swapped": 1,
+      "equal_high_words": 1,
+      "tested_X": 1,
+      "zero": 0,
+      "left_shifts": 8
+    },
+    "formula_value": 137
+  },
+  {
+    "b": 100,
+    "operation": "DFMUL",
+    "inputs": [
+      [
+        5000,
+        100000000000000,
+        1
+      ],
+      [
+        5000,
+        100000000000001,
+        -1
+      ]
+    ],
+    "time": 112,
+    "variables": {
+      "left_shifts": 1,
+      "division_borrow": 0
+    },
+    "formula_value": 112
+  },
+  {
+    "b": 100,
+    "operation": "DFDIV",
+    "inputs": [
+      [
+        5000,
+        100000000000000,
+        1
+      ],
+      [
+        5000,
+        100000000000001,
+        -1
+      ]
+    ],
+    "time": 130,
+    "variables": {
+      "left_shifts": 1,
+      "division_borrow": 1
+    },
+    "formula_value": 130
+  },
+  {
+    "b": 100,
+    "operation": "DFADD",
+    "inputs": [
+      [
+        5000,
+        100000000000001,
+        1
+      ],
+      [
+        5000,
+        100000000000000,
+        -1
+      ]
+    ],
+    "time": 123,
+    "variables": {
+      "swapped": 0,
+      "equal_high_words": 1,
+      "tested_X": 1,
+      "zero": 0,
+      "left_shifts": 8
+    },
+    "formula_value": 123
+  },
+  {
+    "b": 100,
+    "operation": "DFMUL",
+    "inputs": [
+      [
+        5000,
+        100000000000001,
+        1
+      ],
+      [
+        5000,
+        100000000000000,
+        -1
+      ]
+    ],
+    "time": 112,
+    "variables": {
+      "left_shifts": 1,
+      "division_borrow": 0
+    },
+    "formula_value": 112
+  },
+  {
+    "b": 100,
+    "operation": "DFDIV",
+    "inputs": [
+      [
+        5000,
+        100000000000001,
+        1
+      ],
+      [
+        5000,
+        100000000000000,
+        -1
+      ]
+    ],
+    "time": 123,
+    "variables": {
+      "left_shifts": 0,
+      "division_borrow": 0
+    },
+    "formula_value": 123
+  },
+  {
+    "b": 100,
+    "operation": "DFADD",
+    "inputs": [
+      [
+        5000,
+        9999999999999999,
+        1
+      ],
+      [
+        5000,
+        9999999999999999,
+        1
+      ]
+    ],
+    "time": 74,
+    "variables": {
+      "swapped": 0,
+      "equal_high_words": 1,
+      "tested_X": 0,
+      "zero": 0,
+      "left_shifts": 0
+    },
+    "formula_value": 74
+  },
+  {
+    "b": 100,
+    "operation": "DFMUL",
+    "inputs": [
+      [
+        5000,
+        9999999999999999,
+        1
+      ],
+      [
+        5000,
+        9999999999999999,
+        1
+      ]
+    ],
+    "time": 106,
+    "variables": {
+      "left_shifts": 0,
+      "division_borrow": 0
+    },
+    "formula_value": 106
+  },
+  {
+    "b": 100,
+    "operation": "DFDIV",
+    "inputs": [
+      [
+        5000,
+        9999999999999999,
+        1
+      ],
+      [
+        5000,
+        9999999999999999,
+        1
+      ]
+    ],
+    "time": 123,
+    "variables": {
+      "left_shifts": 0,
+      "division_borrow": 0
+    },
+    "formula_value": 123
+  },
+  {
+    "b": 100,
+    "operation": "DFADD",
+    "inputs": [
+      [
+        5000,
+        9999999999999999,
+        1
+      ],
+      [
+        5000,
+        100000000000000,
+        1
+      ]
+    ],
+    "time": 71,
+    "variables": {
+      "swapped": 0,
+      "equal_high_words": 0,
+      "tested_X": 0,
+      "zero": 0,
+      "left_shifts": 0
+    },
+    "formula_value": 71
+  },
+  {
+    "b": 100,
+    "operation": "DFMUL",
+    "inputs": [
+      [
+        5000,
+        9999999999999999,
+        1
+      ],
+      [
+        5000,
+        100000000000000,
+        1
+      ]
+    ],
+    "time": 112,
+    "variables": {
+      "left_shifts": 1,
+      "division_borrow": 0
+    },
+    "formula_value": 112
+  },
+  {
+    "b": 100,
+    "operation": "DFDIV",
+    "inputs": [
+      [
+        5000,
+        9999999999999999,
+        1
+      ],
+      [
+        5000,
+        100000000000000,
+        1
+      ]
+    ],
+    "time": 123,
+    "variables": {
+      "left_shifts": 0,
+      "division_borrow": 0
+    },
+    "formula_value": 123
+  },
+  {
+    "b": 100,
+    "operation": "DFADD",
+    "inputs": [
+      [
+        5000,
+        100000000000000,
+        1
+      ],
+      [
+        5000,
+        9999999999999999,
+        1
+      ]
+    ],
+    "time": 84,
+    "variables": {
+      "swapped": 1,
+      "equal_high_words": 0,
+      "tested_X": 0,
+      "zero": 0,
+      "left_shifts": 0
+    },
+    "formula_value": 84
+  },
+  {
+    "b": 100,
+    "operation": "DFMUL",
+    "inputs": [
+      [
+        5000,
+        100000000000000,
+        1
+      ],
+      [
+        5000,
+        9999999999999999,
+        1
+      ]
+    ],
+    "time": 112,
+    "variables": {
+      "left_shifts": 1,
+      "division_borrow": 0
+    },
+    "formula_value": 112
+  },
+  {
+    "b": 100,
+    "operation": "DFDIV",
+    "inputs": [
+      [
+        5000,
+        100000000000000,
+        1
+      ],
+      [
+        5000,
+        9999999999999999,
+        1
+      ]
+    ],
+    "time": 129,
+    "variables": {
+      "left_shifts": 1,
+      "division_borrow": 0
+    },
+    "formula_value": 129
+  }
+]

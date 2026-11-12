@@ -1,0 +1,68 @@
+{
+  "complete": true,
+  "method": "Independent edge-SAT cycle cover with distinct word resources",
+  "core_vertices": 6280,
+  "core_edges": 12269,
+  "checked_deletions": 3798,
+  "checks": [
+    {
+      "round": 1,
+      "unsat_vertices": 3285
+    },
+    {
+      "round": 2,
+      "unsat_vertices": 317
+    },
+    {
+      "round": 3,
+      "unsat_vertices": 104
+    },
+    {
+      "round": 4,
+      "unsat_vertices": 42
+    },
+    {
+      "round": 5,
+      "unsat_vertices": 21
+    },
+    {
+      "round": 6,
+      "unsat_vertices": 7
+    },
+    {
+      "round": 7,
+      "unsat_vertices": 13
+    },
+    {
+      "round": 8,
+      "unsat_vertices": 4
+    },
+    {
+      "round": 9,
+      "unsat_vertices": 3
+    },
+    {
+      "round": 10,
+      "unsat_vertices": 2
+    },
+    {
+      "round": 11,
+      "unsat_vertices": 0
+    }
+  ],
+  "solver": "cadical195",
+  "pysat_version": "1.9.dev17",
+  "networkx_version": "3.4.2",
+  "variables": 51927,
+  "clauses": 136893,
+  "solver_stats": {
+    "restarts": 1016,
+    "conflicts": 9143,
+    "decisions": 74374,
+    "propagations": 17632244
+  },
+  "source_sha256": "2857e85e1af5e67082884362eb08326c3db865b2ede4580c9c7713d250a35c52",
+  "kernels_sha256": "d29639712e8343bd6ce0d8a5320fa2d097658ecf13f218592c7bcf18c0e50600",
+  "cnf_sha256": "65f427c835d9bee160e5ce636357a8efaae2a55802ea2ce97e8f6c9f66eba4ff",
+  "seconds": 56.411148790008156
+}

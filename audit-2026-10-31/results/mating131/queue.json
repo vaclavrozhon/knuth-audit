@@ -1,0 +1,77 @@
+{
+  "status": "completed",
+  "wrapper_pid": 1015840,
+  "started_at_utc": "2026-11-02T09:53:03.457221+00:00",
+  "runner_sha256": "d97e549ba36dac7f7e87be3acbde25473675162346f97b41f21d805427ea0a23",
+  "model_sha256": "a80b31783a2b0b869a40635fbdc5f0a012cf9010d605e9d5bf4a3184a2153309",
+  "done": [
+    {
+      "label": "jigsaw-anchored",
+      "solutions": 4463448,
+      "validated_models": 4463,
+      "complete_models": false,
+      "metadata_sha256": "09d4996eac21290ec7b94886d863ff05c0fd933c9ebc49cbc880335b5ec4c399",
+      "colors_sha256": "1ccf27c5daada53414d368fc66599629cdc4f9c9ead212319a758cd862bb0da4",
+      "net_search_mems": 44692654181,
+      "validation_model_sha256": "7d21c4417144caa2ef1fbe502382850fff5144550710e2304a042a8b7214c58b",
+      "validation_model_archive": "results/mating131/initial-mating131.py",
+      "validation_runner_sha256": "226d8a42a87bedc5c1b58f4319ce4d538ffc0282cb9433f58b1519f06346d987",
+      "validation_runner_archive": "results/mating131/initial-run_mating131.py"
+    },
+    {
+      "label": "jigsaw-canonical",
+      "solutions": 2231724,
+      "validated_models": 2231,
+      "complete_models": false,
+      "metadata_sha256": "35a6b1443b8953cb74ed633594a7c94f7929be774636067aabfd0cb401912132",
+      "colors_sha256": "c1879ace433a24d9051a3f2d21570f9d19dc5757eca2b6c4f993010e06811638",
+      "net_search_mems": 23195290015,
+      "validation_model_sha256": "7d21c4417144caa2ef1fbe502382850fff5144550710e2304a042a8b7214c58b",
+      "validation_model_archive": "results/mating131/initial-mating131.py",
+      "validation_runner_sha256": "226d8a42a87bedc5c1b58f4319ce4d538ffc0282cb9433f58b1519f06346d987",
+      "validation_runner_archive": "results/mating131/initial-run_mating131.py"
+    },
+    {
+      "label": "trimino-halfturn",
+      "solutions": 18656,
+      "validated_models": 18656,
+      "complete_models": true,
+      "metadata_sha256": "b349bf5f3f704ce1b6c5eb87bcadee027c7f5caf440b922404c13ef2a6ac9fb8",
+      "colors_sha256": "b629c1441f39022700ba4bd31ba456a5bd383f56ae4a3f7523d28bcde8c12f35",
+      "net_search_mems": 608422391,
+      "validation_model_sha256": "a80b31783a2b0b869a40635fbdc5f0a012cf9010d605e9d5bf4a3184a2153309",
+      "validation_runner_sha256": "d97e549ba36dac7f7e87be3acbde25473675162346f97b41f21d805427ea0a23"
+    },
+    {
+      "label": "trimino-top-down",
+      "solutions": 169368,
+      "validated_models": 169368,
+      "complete_models": true,
+      "metadata_sha256": "c67c77638fb367464b15d833947b9601c90256d81e58b28ee4f04819cf1554fc",
+      "colors_sha256": "6348513c29e0e228230643c0c16e460d03625a7a3395150c3a9af294c0d30045",
+      "net_search_mems": 1699395937,
+      "validation_model_sha256": "a80b31783a2b0b869a40635fbdc5f0a012cf9010d605e9d5bf4a3184a2153309",
+      "validation_runner_sha256": "d97e549ba36dac7f7e87be3acbde25473675162346f97b41f21d805427ea0a23"
+    },
+    {
+      "label": "trimino-full",
+      "solutions": 3419736176,
+      "validated_models": 34197,
+      "complete_models": false,
+      "metadata_sha256": "118ee6e3cec57fa3c49eda0d39d01ac38e993961f2a22b44cfe54d24253beaf0",
+      "colors_sha256": "6e48cf5a36184ac61cafd0c66f85b7fc5b3fbd4aa9b8784de8b2312b100de8f1",
+      "net_search_mems": 18141378300657,
+      "validation_model_sha256": "a80b31783a2b0b869a40635fbdc5f0a012cf9010d605e9d5bf4a3184a2153309",
+      "validation_runner_sha256": "d97e549ba36dac7f7e87be3acbde25473675162346f97b41f21d805427ea0a23"
+    }
+  ],
+  "timeout_seconds_per_case": 172800,
+  "current": null,
+  "continuation": {
+    "previous_wrapper_pid": 1013539,
+    "interruption_sha256": "d81eeec3d84412e751b1d3401a0fd10aef888b0e0493c59c73162a28665f901d",
+    "reason": "Only helper-name assertion changed; completed searches are skipped."
+  },
+  "resumed_at_utc": "2026-11-02T10:02:39.719043+00:00",
+  "finished_at_utc": "2026-11-03T21:17:45.328054+00:00"
+}

@@ -1,0 +1,202 @@
+{
+  "checkpoints": {
+    "nonuniform": {
+      "status": "passed",
+      "seconds": 103.02347434597323,
+      "result": {
+        "composite_rows": 340,
+        "row_endpoint_checks": 727824,
+        "false_printed_inequalities": 24,
+        "first_failure": [
+          9,
+          12,
+          "6",
+          "21/4"
+        ],
+        "example": {
+          "n": 9,
+          "N": 12,
+          "accepted_columns": [
+            8,
+            9,
+            10
+          ],
+          "printed_chain": [
+            "5",
+            "6",
+            "21/4",
+            "21/4",
+            "11/2",
+            "6"
+          ]
+        },
+        "finite_covers": [
+          {
+            "N": 9,
+            "bases": [
+              2
+            ],
+            "composite_rows": 1
+          },
+          {
+            "N": 12,
+            "bases": [
+              2
+            ],
+            "composite_rows": 1
+          },
+          {
+            "N": 64,
+            "bases": [
+              2
+            ],
+            "composite_rows": 14
+          },
+          {
+            "N": 256,
+            "bases": [
+              2
+            ],
+            "composite_rows": 74
+          },
+          {
+            "N": 1024,
+            "bases": [
+              2
+            ],
+            "composite_rows": 340
+          },
+          {
+            "N": 4096,
+            "bases": [
+              2,
+              3
+            ],
+            "composite_rows": 1484
+          },
+          {
+            "N": 10000,
+            "bases": [
+              2,
+              3
+            ],
+            "composite_rows": 3771
+          }
+        ]
+      }
+    },
+    "pocklington": {
+      "status": "passed",
+      "seconds": 0.9912115400074981,
+      "result": {
+        "parameter_pairs": 1224,
+        "prime_pairs": 372,
+        "verified_witnesses": 682,
+        "boundary_prime_pairs": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            7
+          ],
+          [
+            3,
+            4,
+            13
+          ],
+          [
+            5,
+            6,
+            31
+          ],
+          [
+            6,
+            7,
+            43
+          ],
+          [
+            8,
+            9,
+            73
+          ],
+          [
+            12,
+            13,
+            157
+          ],
+          [
+            14,
+            15,
+            211
+          ],
+          [
+            15,
+            16,
+            241
+          ],
+          [
+            17,
+            18,
+            307
+          ],
+          [
+            20,
+            21,
+            421
+          ],
+          [
+            21,
+            22,
+            463
+          ],
+          [
+            24,
+            25,
+            601
+          ],
+          [
+            27,
+            28,
+            757
+          ],
+          [
+            33,
+            34,
+            1123
+          ],
+          [
+            38,
+            39,
+            1483
+          ],
+          [
+            41,
+            42,
+            1723
+          ]
+        ],
+        "printed_boundary": "r=f+1 is included in the printed exercise and general proof"
+      }
+    },
+    "proth": {
+      "status": "passed",
+      "seconds": 0.32917171000735834,
+      "result": {
+        "parameter_pairs": 5472,
+        "sieve_limit": 16781313,
+        "modular_reductions": 32827,
+        "sole_mismatch": {
+          "k": 1,
+          "exponent": 1,
+          "n": 3,
+          "residue": 0,
+          "prime": true
+        }
+      }
+    }
+  }
+}

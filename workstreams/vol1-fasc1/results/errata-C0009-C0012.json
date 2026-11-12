@@ -1,0 +1,27 @@
+{
+  "checked_at_utc": "2026-11-06T17:56:29.068980+00:00",
+  "findings": [
+    "MMIX-C0009",
+    "MMIX-C0012"
+  ],
+  "sources": [
+    "errata/originals/err1f1.textxt",
+    "errata/text/all1f1.txt",
+    "errata/text/err1f1.txt"
+  ],
+  "targets": [
+    "MemFind/GetReg timing, §1.4.3′ answer 2, printed 116–117",
+    "GetReg printed 80 lines 064–073 and MemFind printed 78 lines 029–051"
+  ],
+  "known_nearby_corrections": [
+    "2009-04-19 p80 line068: comment says t negative if local, rather than boolean local indicator.",
+    "2023-03-29 p116 answer4: indentation of coroutine remainder linkage; different section."
+  ],
+  "result": "No correction of U/A indicator swap or omission of marginal-register timing found in the complete local historical/current layers.",
+  "typesetting_viewed": [
+    "images/file-086-p078.png",
+    "images/file-088-p080.png",
+    "images/file-124-p116.png",
+    "images/file-125-p117.png"
+  ]
+}

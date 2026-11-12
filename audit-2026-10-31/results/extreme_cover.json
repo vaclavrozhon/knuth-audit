@@ -1,0 +1,121 @@
+{
+  "partition_enumeration_count": 5296,
+  "coefficient_identity_through_n": 80,
+  "update_identity_through_n": 80,
+  "measured_DLX": [
+    {
+      "n": 0,
+      "solutions": 1,
+      "root_updates": 0,
+      "total_updates": 0
+    },
+    {
+      "n": 1,
+      "solutions": 1,
+      "root_updates": 1,
+      "total_updates": 1
+    },
+    {
+      "n": 2,
+      "solutions": 2,
+      "root_updates": 3,
+      "total_updates": 4
+    },
+    {
+      "n": 3,
+      "solutions": 5,
+      "root_updates": 12,
+      "total_updates": 18
+    },
+    {
+      "n": 4,
+      "solutions": 15,
+      "root_updates": 57,
+      "total_updates": 90
+    },
+    {
+      "n": 5,
+      "solutions": 52,
+      "root_updates": 294,
+      "total_updates": 484
+    },
+    {
+      "n": 6,
+      "solutions": 203,
+      "root_updates": 1535,
+      "total_updates": 2694
+    },
+    {
+      "n": 7,
+      "solutions": 877,
+      "root_updates": 7848,
+      "total_updates": 15222
+    },
+    {
+      "n": 8,
+      "solutions": 4140,
+      "root_updates": 38941,
+      "total_updates": 87056
+    }
+  ],
+  "all_prescribed_counts_through_n7": 1162,
+  "n9_10000_Bell_digits": [
+    0,
+    1,
+    0,
+    1,
+    2,
+    3,
+    2,
+    6,
+    1
+  ],
+  "cycle_lower_bound": [
+    {
+      "copies": 0,
+      "solutions": 1,
+      "nodes": 1
+    },
+    {
+      "copies": 1,
+      "solutions": 7,
+      "nodes": 16
+    },
+    {
+      "copies": 2,
+      "solutions": 49,
+      "nodes": 121
+    },
+    {
+      "copies": 3,
+      "solutions": 343,
+      "nodes": 856
+    },
+    {
+      "copies": 4,
+      "solutions": 2401,
+      "nodes": 6001
+    },
+    {
+      "copies": 5,
+      "solutions": 16807,
+      "nodes": 42016
+    }
+  ],
+  "mixed_primary_secondary_checks": 30,
+  "symbolic_checks": "187(a,d), answer 187(d); exact differential equations and initial values.",
+  "F018": {
+    "rows_binary": [
+      "1000",
+      "1100",
+      "1110",
+      "1111",
+      "0111",
+      "0011",
+      "0001"
+    ],
+    "issue": "Answer 180 includes i2 in o6, but i2 already occurs in exactly o2,o3,o4,o5."
+  },
+  "F019": "Answer 187(b) prints T_rs derivative as exp(z)*T_rs+z^r; the general formula needs z^r*exp(s*z), or all subscripts must use s=0.",
+  "limitation": "Full saddle-point argument in exercise 189 is not covered here; 187(c) integration-by-parts formula is checked separately in the notes."
+}

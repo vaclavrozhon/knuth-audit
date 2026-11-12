@@ -1,0 +1,205 @@
+{
+  "accessed_at_utc": "2026-11-03T20:46:08.942242+00:00",
+  "scope": "Exercise4.5.4-46: corrected formulas, own unconditional subexponential proof, exact integer-lattice implementation and independent finite validation.",
+  "book_visually_read": [
+    417,
+    671
+  ],
+  "errata_visually_read": [
+    "all2-prepre file42"
+  ],
+  "primary_reading": [
+    {
+      "source": "Adleman1979",
+      "url": "https://pages.cs.wisc.edu/~cs812-1/adleman.pdf",
+      "pages": "55–60, all six pages visually",
+      "scope": "Original algorithm and proof outline; bibliographic match. Our full-basis proof and implementation differ; no audit of all historical statements or generalizations."
+    },
+    {
+      "source": "Coppersmith–Odlyzko–Schroeppel1986",
+      "url": "https://link.springer.com/article/10.1007/BF01840433",
+      "pages": "Original first page visually; publisher abstract/metadata",
+      "scope": "Citation matches, sharper constant explicitly heuristic; full15page paper not audited."
+    }
+  ],
+  "downloads_manifest": "sources/discrete-log-downloads.json",
+  "derived_text_normalization": "Trailing whitespace and trailing blank lines removed from pdftotext output; source PDFs preserved.",
+  "errata_search": {
+    "date": "2026-11-03T20:46:08.942242+00:00",
+    "files": [
+      "../../errata/text/all2-prepre.txt",
+      "../../errata/text/all2-pre.txt",
+      "../../errata/text/all2.txt",
+      "../../errata/text/err2.txt",
+      "../../errata/originals/err2.textxt"
+    ],
+    "terms": [
+      "417",
+      "671",
+      "46",
+      "Adleman",
+      "Coppersmith",
+      "Schroeppel",
+      "discrete logarithm",
+      "xijk"
+    ],
+    "known_correction": "9 February1998: final modulus p becomes p−1; visually verified.",
+    "new_findings": [
+      "V2-C0173"
+    ]
+  },
+  "checks": {
+    "integer_lattice": {
+      "status": "passed",
+      "seconds": 1.1441927870037034
+    },
+    "escape": {
+      "status": "passed",
+      "seconds": 1.0631371380295604
+    },
+    "logarithms": {
+      "status": "passed",
+      "seconds": 0.4473778830142692
+    }
+  },
+  "processes": [
+    {
+      "label": "discrete-log",
+      "pid": 1305145,
+      "command": "timeout 180 python3 -u workstreams/vol2/verify_discrete_log.py",
+      "time_limit_seconds": 180,
+      "started_at_utc": "2026-11-03T20:42:19.799061+00:00",
+      "log": "results/discrete-log.log",
+      "checkpoints": "results/discrete-log.json",
+      "status": "completed",
+      "scope": "Three exact resumable checkpoints: integer row lattices versus enumerated subgroups, escape lemma, full logarithm reconstructions and target recovery.",
+      "exit_code": 0,
+      "child_pid": 1305146,
+      "tool_session": 78527,
+      "finished_at_utc": "2026-11-03T20:45:18.246238+00:00"
+    }
+  ],
+  "limitations": [
+    "Asymptotic proof uses an explicit elementary smooth-number lower bound, not numerical extrapolation.",
+    "Finite implementation retains redundant rows for certificates; theoretical complexity may discard them.",
+    "Full COS1986 paper not audited.",
+    "Physical latest printing and priority unverified; report unsent."
+  ],
+  "artifacts": [
+    {
+      "file": "images/adleman-dlog-1979-p55.png",
+      "bytes": 137670,
+      "sha256": "27f7c966a53c2052e87cd2883b1841b126920731fab0c9c33fd962d246b770f6"
+    },
+    {
+      "file": "images/adleman-dlog-1979-p56.png",
+      "bytes": 171876,
+      "sha256": "363bd8a8f35fdce86d9d2da129ad80dc661560dbfa809ec7fba50abf0dffda7b"
+    },
+    {
+      "file": "images/adleman-dlog-1979-p57.png",
+      "bytes": 129648,
+      "sha256": "0e714b5bdb7b9836df52e054042061a2073f3a205c0cf1185f9e1d7470cb00a1"
+    },
+    {
+      "file": "images/adleman-dlog-1979-p58.png",
+      "bytes": 167567,
+      "sha256": "12eaea8734638bd105dbe8660aef1ddd0c3fea8e2eddc84fbe7128e783839363"
+    },
+    {
+      "file": "images/adleman-dlog-1979-p59.png",
+      "bytes": 172580,
+      "sha256": "bd6799cb81203c01117f03d4735511e9fe97f45e9ee1a95b05ec1c15f34d09f7"
+    },
+    {
+      "file": "images/adleman-dlog-1979-p60.png",
+      "bytes": 230136,
+      "sha256": "e602140c9908ad1f5ee6368a0c48182573b3cc17eb7b00cb2531be528587b968"
+    },
+    {
+      "file": "images/all2-prepre-rsa-p42.png",
+      "bytes": 134420,
+      "sha256": "b83cf51ad8fdb07ce0e5ed80153d46de55c6994f7ea61bcb37a389e08578612f"
+    },
+    {
+      "file": "images/cos-dlog-1986-preview-p1.png",
+      "bytes": 144173,
+      "sha256": "d849df95fafeb515c57e3f1cf81b9397390eebbdd48a4f7340ab1fdbd14eec5c"
+    },
+    {
+      "file": "images/vol2-p417.png",
+      "bytes": 423595,
+      "sha256": "bfa53ad49eecb2cd3cca44dfab3cf5c48f364f28911a2f5d632ea30c04fc677e"
+    },
+    {
+      "file": "images/vol2-p671-answer46-detail.png",
+      "bytes": 88688,
+      "sha256": "233f67d02d9e10841f884b15a5287df956b28cb6bf505e9a009c05f5ddb2efbc"
+    },
+    {
+      "file": "images/vol2-p671.png",
+      "bytes": 553993,
+      "sha256": "4cce20cc9d6d414b7a723a5696d764ebb0944a437f3d6f2f2710a1d024c942d9"
+    },
+    {
+      "file": "notes/C0173-discrete-log-reconstruction.md",
+      "bytes": 1016,
+      "sha256": "b4f54244e3655bd3937d8d7e4ffacbad9df8df4a15988f24f733213da3f4ecab"
+    },
+    {
+      "file": "notes/discrete-log.md",
+      "bytes": 12335,
+      "sha256": "0d2a65533a7cfd2538d1ebb5ed619ebe30b54db2e832bbe49172625592024b2b"
+    },
+    {
+      "file": "reports/C0173-discrete-log-reconstruction-draft.txt",
+      "bytes": 902,
+      "sha256": "1c40523287ea8153c72fbe31c7a60d3c80311f964b45c02262918d7b4647acd9"
+    },
+    {
+      "file": "results/discrete-log.json",
+      "bytes": 343117,
+      "sha256": "96ee2f03bb0761844022b305082bc7858ade9ca1d674ec13578ebd4b19d1304d"
+    },
+    {
+      "file": "results/discrete-log.log",
+      "bytes": 3306,
+      "sha256": "60c0bd4f3466b6b338ccec77cb9c2091c363013c0f17350ee423b4f8d54810e0"
+    },
+    {
+      "file": "sources/adleman-dlog-1979.pdf",
+      "bytes": 348568,
+      "sha256": "b794afa7cf74243e338727f195ca0b14a1fd5896382971859a8c31bdeec24706"
+    },
+    {
+      "file": "sources/adleman-dlog-1979.txt",
+      "bytes": 19258,
+      "sha256": "9b65fd1b9b1f0dab31945ef23a3e0428d509076b44f99cee83558efe0e046c7c"
+    },
+    {
+      "file": "sources/cos-dlog-1986-preview.pdf",
+      "bytes": 123648,
+      "sha256": "762271ff45b9859af86cf9673b9acdd81b8b11d64a563d7445b363161edc4ff1"
+    },
+    {
+      "file": "sources/cos-dlog-1986-preview.txt",
+      "bytes": 5973,
+      "sha256": "cfe00c8273a252408171b60f4818cd64eac9c8677b98418a2f6fe5274e762630"
+    },
+    {
+      "file": "sources/cos-dlog-1986-publisher.html.gz",
+      "bytes": 64219,
+      "sha256": "e9edc52f88645654f3a8e613441175f1cadd23e73348e8406c3a745dca7e239a"
+    },
+    {
+      "file": "sources/discrete-log-downloads.json",
+      "bytes": 1230,
+      "sha256": "6a2709ea3d1869a4fbc46d235779cb684f62d052a62ddc69c12924069b97698b"
+    },
+    {
+      "file": "verify_discrete_log.py",
+      "bytes": 9741,
+      "sha256": "e8d023f216be8680ff24c152f0ec26774c2763ce5e359e2db23900fd13d6fbda"
+    }
+  ]
+}

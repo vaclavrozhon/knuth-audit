@@ -1,0 +1,2491 @@
+{
+  "schema_version": 1,
+  "volume": "vol2",
+  "section": "4.5.4",
+  "checkpoint": "V2-X0145",
+  "updated_at_utc": "2026-11-06T17:29:58.142Z",
+  "review_mode": "statement_and_exercise_arguments",
+  "printed_main_pages": [
+    379,
+    380,
+    381,
+    382,
+    383,
+    384,
+    385,
+    386,
+    387,
+    388,
+    389,
+    390,
+    391,
+    392,
+    393,
+    394,
+    395,
+    396
+  ],
+  "printed_question_pages": [
+    412,
+    413,
+    414
+  ],
+  "printed_answer_pages": [
+    657,
+    658,
+    659,
+    660,
+    661,
+    662
+  ],
+  "scope": "First main-text block only; other exercise material on read pages awaits later paired review.",
+  "claims": [
+    {
+      "id": "4.5.4-eq1",
+      "printed_page": 380,
+      "claim": "Unique sorted prime factorization, including N=1.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/sequential-factoring-2026-11-06.md"
+      ],
+      "argument_section": "Doplnění k 379–382 a 391",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-figure11",
+      "printed_page": 381,
+      "claim": "The flowchart branches coincide with the proved A1–A7 transitions.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/sequential-factoring-2026-11-06.md"
+      ],
+      "argument_section": "Doplnění k 379–382 a 391",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-eq4",
+      "printed_page": 382,
+      "claim": "Fixed-order integration by parts produces the factorial expansion.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/sequential-factoring-2026-11-06.md"
+      ],
+      "argument_section": "Doplnění k 379–382 a 391",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-primitive-root-count",
+      "printed_page": 391,
+      "claim": "The exact phi(n−1) count and n/phi(n−1)=O(lnln n).",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/sequential-factoring-2026-11-06.md"
+      ],
+      "argument_section": "Doplnění k 379–382 a 391",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-eq2",
+      "printed_page": 380,
+      "claim": "The trial sequence has every required prime and a sentinel.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-basic.md"
+      ],
+      "argument_section": "Dělení A a úlohy 1–3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-A1",
+      "printed_page": 380,
+      "claim": "The product and least-factor invariants hold initially.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-basic.md"
+      ],
+      "argument_section": "Dělení A a úlohy 1–3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-A2",
+      "printed_page": 380,
+      "claim": "N=1 exits with exactly the removed factors.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-basic.md"
+      ],
+      "argument_section": "Dělení A a úlohy 1–3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-A3",
+      "printed_page": 380,
+      "claim": "The quotient and remainder satisfy n=q*d+r.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-basic.md"
+      ],
+      "argument_section": "Dělení A a úlohy 1–3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-A4",
+      "printed_page": 380,
+      "claim": "Nonzero remainder rules out the current divisor.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-basic.md"
+      ],
+      "argument_section": "Dělení A a úlohy 1–3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-A5",
+      "printed_page": 380,
+      "claim": "A successful divisor is prime; division preserves the invariant.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-basic.md"
+      ],
+      "argument_section": "Dělení A a úlohy 1–3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-A6",
+      "printed_page": 380,
+      "claim": "The q>d branch is exactly the case requiring another trial divisor.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-basic.md"
+      ],
+      "argument_section": "Dělení A a úlohy 1–3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-A7",
+      "printed_page": 380,
+      "claim": "Nonzero remainder and q<=d imply that n is prime.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-basic.md"
+      ],
+      "argument_section": "Dělení A a úlohy 1–3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-A-termination",
+      "printed_page": 381,
+      "claim": "The algorithm terminates before passing the sentinel.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-basic.md"
+      ],
+      "argument_section": "Dělení A a úlohy 1–3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-A-count",
+      "printed_page": 381,
+      "claim": "The exact division count is t+k.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-basic.md"
+      ],
+      "argument_section": "Dělení A a úlohy 1–3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-A-example25852",
+      "printed_page": 381,
+      "claim": "25852=2²*23*281 and the trace uses twelve divisions.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-basic.md"
+      ],
+      "argument_section": "Dělení A a úlohy 1–3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-A-example25849",
+      "printed_page": 381,
+      "claim": "The prime25849 requires38 divisions with the listed prime sequence.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-basic.md"
+      ],
+      "argument_section": "Dělení A a úlohy 1–3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-A-wheel6",
+      "printed_page": 381,
+      "claim": "Alternating gaps2,4 retain every prime above3.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-basic.md"
+      ],
+      "argument_section": "Dělení A a úlohy 1–3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-A-wheel5",
+      "printed_page": 381,
+      "claim": "The additional density reduction is20 percent.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-basic.md"
+      ],
+      "argument_section": "Dělení A a úlohy 1–3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-A-wheel7",
+      "printed_page": 381,
+      "claim": "The additional density reduction is1/7, about14 percent.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-basic.md"
+      ],
+      "argument_section": "Dělení A a úlohy 1–3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-A-table168",
+      "printed_page": 381,
+      "claim": "168 primes below1000 and sentinel1000 suffice below a million.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-basic.md"
+      ],
+      "argument_section": "Dělení A a úlohy 1–3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-A-rough-cost",
+      "printed_page": 381,
+      "claim": "The max-factor expression describes search scale, not uniform Theta total time.",
+      "status": "model_qualification",
+      "evidence": [
+        "notes/factoring-basic.md"
+      ],
+      "argument_section": "Dělení A a úlohy 1–3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-eq3",
+      "printed_page": 381,
+      "claim": "PNT error x*exp(−A sqrt(ln x)) for some A>0.",
+      "status": "external_input",
+      "evidence": [
+        "notes/sequential-factoring-2026-11-06.md"
+      ],
+      "argument_section": "Doplnění k 379–382 a 391",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-pnt-improved-error",
+      "printed_page": 382,
+      "claim": "The improved error uses powers3/5 and−1/5.",
+      "status": "external_input",
+      "evidence": [
+        "notes/sequential-factoring-2026-11-06.md"
+      ],
+      "argument_section": "Doplnění k 379–382 a 391",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-littlewood",
+      "printed_page": 382,
+      "claim": "Positive oscillations have scale sqrt(x)*lnlnln(x)/ln(x).",
+      "status": "external_input",
+      "evidence": [
+        "notes/sequential-factoring-2026-11-06.md"
+      ],
+      "argument_section": "Doplnění k 379–382 a 391",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-eq5",
+      "printed_page": 382,
+      "claim": "The finite Mobius approximation is an explicitly refuted historical conjecture.",
+      "status": "historical_false_conjecture_not_finding",
+      "evidence": [
+        "notes/sequential-factoring-2026-11-06.md"
+      ],
+      "argument_section": "Doplnění k 379–382 a 391",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-RH-consequence",
+      "printed_page": 382,
+      "claim": "RH implies the stated O(sqrt(x)*ln x) prime-count error.",
+      "status": "closed_with_external_input",
+      "evidence": [
+        "notes/sequential-factoring-2026-11-06.md"
+      ],
+      "argument_section": "Doplnění k 379–382 a 391",
+      "scope_note": "Own partial summation; explicit formulas and zero-count estimates are named inputs."
+    },
+    {
+      "id": "4.5.4-brent-zeros",
+      "printed_page": 382,
+      "claim": "The author reports75 million simple critical-line zeros below32585736.4.",
+      "status": "external_computation_not_repeated",
+      "evidence": [
+        "notes/sequential-factoring-2026-11-06.md"
+      ],
+      "argument_section": "Nová kontrola tabulky a pramenů na 382",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-table-pi-10pow3",
+      "printed_page": 382,
+      "claim": "The pi(10^3) entry agrees with Oliveira e Silva's primary table.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/sequential-factoring-2026-11-06.md"
+      ],
+      "argument_section": "Nová kontrola tabulky a pramenů na 382",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-table-L-10pow3",
+      "printed_page": 382,
+      "claim": "The printed L(10^3) is certified inside its one-decimal rounding cell.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/sequential-factoring-2026-11-06.md"
+      ],
+      "argument_section": "Nová kontrola tabulky a pramenů na 382",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-table-R-10pow3",
+      "printed_page": 382,
+      "claim": "The printed R(10^3) is certified inside its one-decimal rounding cell.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/sequential-factoring-2026-11-06.md"
+      ],
+      "argument_section": "Nová kontrola tabulky a pramenů na 382",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-table-pi-10pow6",
+      "printed_page": 382,
+      "claim": "The pi(10^6) entry agrees with Oliveira e Silva's primary table.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/sequential-factoring-2026-11-06.md"
+      ],
+      "argument_section": "Nová kontrola tabulky a pramenů na 382",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-table-L-10pow6",
+      "printed_page": 382,
+      "claim": "The printed L(10^6) is certified inside its one-decimal rounding cell.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/sequential-factoring-2026-11-06.md"
+      ],
+      "argument_section": "Nová kontrola tabulky a pramenů na 382",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-table-R-10pow6",
+      "printed_page": 382,
+      "claim": "The printed R(10^6) is certified inside its one-decimal rounding cell.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/sequential-factoring-2026-11-06.md"
+      ],
+      "argument_section": "Nová kontrola tabulky a pramenů na 382",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-table-pi-10pow9",
+      "printed_page": 382,
+      "claim": "The pi(10^9) entry agrees with Oliveira e Silva's primary table.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/sequential-factoring-2026-11-06.md"
+      ],
+      "argument_section": "Nová kontrola tabulky a pramenů na 382",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-table-L-10pow9",
+      "printed_page": 382,
+      "claim": "The printed L(10^9) is certified inside its one-decimal rounding cell.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/sequential-factoring-2026-11-06.md"
+      ],
+      "argument_section": "Nová kontrola tabulky a pramenů na 382",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-table-R-10pow9",
+      "printed_page": 382,
+      "claim": "The printed R(10^9) is certified inside its one-decimal rounding cell.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/sequential-factoring-2026-11-06.md"
+      ],
+      "argument_section": "Nová kontrola tabulky a pramenů na 382",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-table-pi-10pow12",
+      "printed_page": 382,
+      "claim": "The pi(10^12) entry agrees with Oliveira e Silva's primary table.",
+      "status": "external_computation_not_repeated",
+      "evidence": [
+        "notes/sequential-factoring-2026-11-06.md"
+      ],
+      "argument_section": "Nová kontrola tabulky a pramenů na 382",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-table-L-10pow12",
+      "printed_page": 382,
+      "claim": "The printed L(10^12) is certified inside its one-decimal rounding cell.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/sequential-factoring-2026-11-06.md"
+      ],
+      "argument_section": "Nová kontrola tabulky a pramenů na 382",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-table-R-10pow12",
+      "printed_page": 382,
+      "claim": "The printed R(10^12) is certified inside its one-decimal rounding cell.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/sequential-factoring-2026-11-06.md"
+      ],
+      "argument_section": "Nová kontrola tabulky a pramenů na 382",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-table-pi-10pow15",
+      "printed_page": 382,
+      "claim": "The pi(10^15) entry agrees with Oliveira e Silva's primary table.",
+      "status": "external_computation_not_repeated",
+      "evidence": [
+        "notes/sequential-factoring-2026-11-06.md"
+      ],
+      "argument_section": "Nová kontrola tabulky a pramenů na 382",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-table-L-10pow15",
+      "printed_page": 382,
+      "claim": "The printed L(10^15) is certified inside its one-decimal rounding cell.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/sequential-factoring-2026-11-06.md"
+      ],
+      "argument_section": "Nová kontrola tabulky a pramenů na 382",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-table-R-10pow15",
+      "printed_page": 382,
+      "claim": "The printed R(10^15) is certified inside its one-decimal rounding cell.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/sequential-factoring-2026-11-06.md"
+      ],
+      "argument_section": "Nová kontrola tabulky a pramenů na 382",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-table-pi-10pow18",
+      "printed_page": 382,
+      "claim": "The pi(10^18) entry agrees with Oliveira e Silva's primary table.",
+      "status": "external_computation_not_repeated",
+      "evidence": [
+        "notes/sequential-factoring-2026-11-06.md"
+      ],
+      "argument_section": "Nová kontrola tabulky a pramenů na 382",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-table-L-10pow18",
+      "printed_page": 382,
+      "claim": "The printed L(10^18) is certified inside its one-decimal rounding cell.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/sequential-factoring-2026-11-06.md"
+      ],
+      "argument_section": "Nová kontrola tabulky a pramenů na 382",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-table-R-10pow18",
+      "printed_page": 382,
+      "claim": "The printed R(10^18) is certified inside its one-decimal rounding cell.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/sequential-factoring-2026-11-06.md"
+      ],
+      "argument_section": "Nová kontrola tabulky a pramenů na 382",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-F-limit",
+      "printed_page": 383,
+      "claim": "Largest-factor limit exists with O(1/ln X) error for fixed positive exponent.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-distribution.md"
+      ],
+      "argument_section": "2–7: limitní rozdělení, rovnice, konstanty a certifikované obaly",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-eq6",
+      "printed_page": 383,
+      "claim": "The Dickman integral equation and all boundary values.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-distribution.md"
+      ],
+      "argument_section": "2–7: limitní rozdělení, rovnice, konstanty a certifikované obaly",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-F-half",
+      "printed_page": 383,
+      "claim": "F(alpha)=1+ln(alpha) on[1/2,1].",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-distribution.md"
+      ],
+      "argument_section": "2–7: limitní rozdělení, rovnice, konstanty a certifikované obaly",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-F-sqrt",
+      "printed_page": 383,
+      "claim": "The limiting probability of a factor above sqrt(X) is ln2.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-distribution.md"
+      ],
+      "argument_section": "2–7: limitní rozdělení, rovnice, konstanty a certifikované obaly",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-G-limit",
+      "printed_page": 383,
+      "claim": "The second-factor limit exists.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-distribution.md"
+      ],
+      "argument_section": "2–7: limitní rozdělení, rovnice, konstanty a certifikované obaly",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-eq7",
+      "printed_page": 383,
+      "claim": "The second-factor integral equation follows from finite factorial moments.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-distribution.md"
+      ],
+      "argument_section": "2–7: limitní rozdělení, rovnice, konstanty a certifikované obaly",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-G-half",
+      "printed_page": 383,
+      "claim": "G(beta)=1 for beta>=1/2.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-distribution.md"
+      ],
+      "argument_section": "2–7: limitní rozdělení, rovnice, konstanty a certifikované obaly",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-figure12",
+      "printed_page": 384,
+      "claim": "Curve order, endpoints and sampled values agree with the derived distributions.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-distribution.md"
+      ],
+      "argument_section": "2–7: limitní rozdělení, rovnice, konstanty a certifikované obaly",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-eq8",
+      "printed_page": 384,
+      "claim": "The centered and normalized factor count tends to a standard normal law.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-distribution.md"
+      ],
+      "argument_section": "2–7: limitní rozdělení, rovnice, konstanty a certifikované obaly",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-factor-variance",
+      "printed_page": 384,
+      "claim": "The variance is asymptotic to lnln X.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-distribution.md"
+      ],
+      "argument_section": "2–7: limitní rozdělení, rovnice, konstanty a certifikované obaly",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-three-sigma",
+      "printed_page": 384,
+      "claim": "The limiting probability within three standard deviations rounds99.73 percent.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-distribution.md"
+      ],
+      "argument_section": "2–7: limitní rozdělení, rovnice, konstanty a certifikované obaly",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-eq9-series",
+      "printed_page": 384,
+      "claim": "The two series for the mean-offset constant agree.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-distribution.md"
+      ],
+      "argument_section": "2–7: limitní rozdělení, rovnice, konstanty a certifikované obaly",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-eq9-digits",
+      "printed_page": 384,
+      "claim": "All40 printed digits of the factor-count constant are certified.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-distribution.md"
+      ],
+      "argument_section": "2–7: limitní rozdělení, rovnice, konstanty a certifikované obaly",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-permutation-mean",
+      "printed_page": 384,
+      "claim": "The kth largest factor bit count and kth largest permutation cycle have equal asymptotic means.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-distribution.md"
+      ],
+      "argument_section": "2–7: limitní rozdělení, rovnice, konstanty a certifikované obaly",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-quantile-F-1",
+      "printed_page": 383,
+      "claim": "Printed quantile1 ofF, with four-decimal rounding.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/factoring-distribution.md"
+      ],
+      "argument_section": "5. Certifikované kvantily a obrázek12",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-quantile-G-1",
+      "printed_page": 383,
+      "claim": "Printed quantile1 ofG, with four-decimal rounding.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/factoring-distribution.md"
+      ],
+      "argument_section": "5. Certifikované kvantily a obrázek12",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-quantile-F-2",
+      "printed_page": 383,
+      "claim": "Printed quantile2 ofF, with four-decimal rounding.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/factoring-distribution.md"
+      ],
+      "argument_section": "5. Certifikované kvantily a obrázek12",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-quantile-G-2",
+      "printed_page": 383,
+      "claim": "Printed quantile2 ofG, with four-decimal rounding.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/factoring-distribution.md"
+      ],
+      "argument_section": "5. Certifikované kvantily a obrázek12",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-quantile-F-3",
+      "printed_page": 383,
+      "claim": "Printed quantile3 ofF, with four-decimal rounding.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/factoring-distribution.md"
+      ],
+      "argument_section": "5. Certifikované kvantily a obrázek12",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-quantile-G-3",
+      "printed_page": 383,
+      "claim": "Printed quantile3 ofG, with four-decimal rounding.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/factoring-distribution.md"
+      ],
+      "argument_section": "5. Certifikované kvantily a obrázek12",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-quantile-F-4",
+      "printed_page": 383,
+      "claim": "Printed quantile4 ofF, with four-decimal rounding.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/factoring-distribution.md"
+      ],
+      "argument_section": "5. Certifikované kvantily a obrázek12",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-quantile-G-4",
+      "printed_page": 383,
+      "claim": "Printed quantile4 ofG, with four-decimal rounding.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/factoring-distribution.md"
+      ],
+      "argument_section": "5. Certifikované kvantily a obrázek12",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-quantile-F-5",
+      "printed_page": 383,
+      "claim": "Printed quantile5 ofF, with four-decimal rounding.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/factoring-distribution.md"
+      ],
+      "argument_section": "5. Certifikované kvantily a obrázek12",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-quantile-G-5",
+      "printed_page": 383,
+      "claim": "Printed quantile5 ofG, with four-decimal rounding.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/factoring-distribution.md"
+      ],
+      "argument_section": "5. Certifikované kvantily a obrázek12",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-quantile-F-6",
+      "printed_page": 383,
+      "claim": "Printed quantile6 ofF, with four-decimal rounding.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/factoring-distribution.md"
+      ],
+      "argument_section": "5. Certifikované kvantily a obrázek12",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-quantile-G-6",
+      "printed_page": 383,
+      "claim": "Printed quantile6 ofG, with four-decimal rounding.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/factoring-distribution.md"
+      ],
+      "argument_section": "5. Certifikované kvantily a obrázek12",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-quantile-F-7",
+      "printed_page": 383,
+      "claim": "Printed quantile7 ofF, with four-decimal rounding.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/factoring-distribution.md"
+      ],
+      "argument_section": "5. Certifikované kvantily a obrázek12",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-quantile-G-7",
+      "printed_page": 383,
+      "claim": "Printed quantile7 ofG, with four-decimal rounding.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/factoring-distribution.md"
+      ],
+      "argument_section": "5. Certifikované kvantily a obrázek12",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-quantile-F-8",
+      "printed_page": 383,
+      "claim": "Printed quantile8 ofF, with four-decimal rounding.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/factoring-distribution.md"
+      ],
+      "argument_section": "5. Certifikované kvantily a obrázek12",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-quantile-G-8",
+      "printed_page": 383,
+      "claim": "Printed quantile8 ofG, with four-decimal rounding.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/factoring-distribution.md"
+      ],
+      "argument_section": "5. Certifikované kvantily a obrázek12",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-quantile-F-9",
+      "printed_page": 383,
+      "claim": "Printed quantile9 ofF, with four-decimal rounding.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/factoring-distribution.md"
+      ],
+      "argument_section": "5. Certifikované kvantily a obrázek12",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-quantile-G-9",
+      "printed_page": 383,
+      "claim": "Printed quantile9 ofG, with four-decimal rounding.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/factoring-distribution.md"
+      ],
+      "argument_section": "5. Certifikované kvantily a obrázek12",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-quantile-F-10",
+      "printed_page": 383,
+      "claim": "Printed quantile10 ofF, with four-decimal rounding.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/factoring-distribution.md"
+      ],
+      "argument_section": "5. Certifikované kvantily a obrázek12",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-quantile-G-10",
+      "printed_page": 383,
+      "claim": "Printed quantile10 ofG, with four-decimal rounding.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/factoring-distribution.md"
+      ],
+      "argument_section": "5. Certifikované kvantily a obrázek12",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-quantile-F-11",
+      "printed_page": 383,
+      "claim": "Printed quantile11 ofF, with four-decimal rounding.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/factoring-distribution.md"
+      ],
+      "argument_section": "5. Certifikované kvantily a obrázek12",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-quantile-G-11",
+      "printed_page": 383,
+      "claim": "Printed quantile11 ofG, with four-decimal rounding.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/factoring-distribution.md"
+      ],
+      "argument_section": "5. Certifikované kvantily a obrázek12",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-factor-count-domain",
+      "printed_page": 384,
+      "claim": "The lower bound1<=t needs N>=2; N=1 has t=0.",
+      "status": "minor_domain_qualification",
+      "evidence": [
+        "notes/sequential-factoring-2026-11-06.md"
+      ],
+      "argument_section": "Drobné doménové podmínky a otevřené části",
+      "scope_note": "Recorded trivial qualification; no new algorithm defect claimed."
+    },
+    {
+      "id": "4.5.4-eq10",
+      "printed_page": 385,
+      "claim": "Polynomial iterations modulo N and its divisor.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-rho.md"
+      ],
+      "argument_section": "1–6: invariant, očekávání a model",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-eq11",
+      "printed_page": 385,
+      "claim": "Reduction commutes with integer-polynomial evaluation.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-rho.md"
+      ],
+      "argument_section": "1–6: invariant, očekávání a model",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-rho-detection",
+      "printed_page": 385,
+      "claim": "The dyadic detector has exact index L−1+lambda.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-rho.md"
+      ],
+      "argument_section": "1–6: invariant, očekávání a model",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-rho-random-bound",
+      "printed_page": 385,
+      "claim": "Random-map mean detection is below1.625 Q(p).",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-rho.md"
+      ],
+      "argument_section": "1–6: invariant, očekávání a model",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-B1",
+      "printed_page": 385,
+      "claim": "Residue, anchor and index invariants hold initially.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-rho.md"
+      ],
+      "argument_section": "1–6: invariant, očekávání a model",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-B2",
+      "printed_page": 385,
+      "claim": "A prime residual is a terminal factor.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-rho.md"
+      ],
+      "argument_section": "1–6: invariant, očekávání a model",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-B3",
+      "printed_page": 385,
+      "claim": "The gcd splits n or reports failure; composite outputs require testing.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-rho.md"
+      ],
+      "argument_section": "1–6: invariant, očekávání a model",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-B4",
+      "printed_page": 386,
+      "claim": "The anchor/index update preserves the invariant.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-rho.md"
+      ],
+      "argument_section": "1–6: invariant, očekávání a model",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-rho-composite-retry",
+      "printed_page": 386,
+      "claim": "The same seed and polynomial cannot split a composite output on retry.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-rho.md"
+      ],
+      "argument_section": "1–6: invariant, očekávání a model",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-rho-example25852",
+      "printed_page": 386,
+      "claim": "Indices3 and9 give4 and23; six advances differ from seven gcd calls.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-rho.md"
+      ],
+      "argument_section": "1–6: invariant, očekávání a model",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-rho-batch",
+      "printed_page": 386,
+      "claim": "Gcd of a product detects each constituent hit; full-n hits can need replay.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-rho.md"
+      ],
+      "argument_section": "1–6: invariant, očekávání a model",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-rho-minus2",
+      "printed_page": 386,
+      "claim": "The c=−2 orbit has the stated reciprocal-power representation.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-rho.md"
+      ],
+      "argument_section": "1–6: invariant, očekávání a model",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-rho-zero",
+      "printed_page": 386,
+      "claim": "The c=0 orbit consists of repeated squares.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-rho.md"
+      ],
+      "argument_section": "1–6: invariant, očekávání a model",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-rho-F8",
+      "printed_page": 386,
+      "claim": "The displayed divisor of2^256+1 has an archived prime certificate.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-rho.md"
+      ],
+      "argument_section": "1–6: invariant, očekávání a model",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-rho-runtime-model",
+      "printed_page": 385,
+      "claim": "The sqrt(p_(t-1)) scale and usual N^(1/4) comparison use a random-map heuristic.",
+      "status": "heuristic",
+      "evidence": [
+        "notes/factoring-rho.md"
+      ],
+      "argument_section": "5. Experimenty a hranice interpretace",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-quadratic-image-domain",
+      "printed_page": 385,
+      "claim": "The (p+1)/2 image count is for odd p; p=2 has two images.",
+      "status": "minor_domain_qualification",
+      "evidence": [
+        "notes/sequential-factoring-2026-11-06.md"
+      ],
+      "argument_section": "Drobné doménové podmínky a otevřené části",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-rho-table-999863",
+      "printed_page": 386,
+      "claim": "The printed dyadic detection count at p=999863.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/factoring-rho.md"
+      ],
+      "argument_section": "5. Experimenty",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-rho-table-999883",
+      "printed_page": 386,
+      "claim": "The printed dyadic detection count at p=999883.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/factoring-rho.md"
+      ],
+      "argument_section": "5. Experimenty",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-rho-table-999907",
+      "printed_page": 386,
+      "claim": "The printed dyadic detection count at p=999907.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/factoring-rho.md"
+      ],
+      "argument_section": "5. Experimenty",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-rho-table-999917",
+      "printed_page": 386,
+      "claim": "The printed dyadic detection count at p=999917.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/factoring-rho.md"
+      ],
+      "argument_section": "5. Experimenty",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-rho-table-999931",
+      "printed_page": 386,
+      "claim": "The printed dyadic detection count at p=999931.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/factoring-rho.md"
+      ],
+      "argument_section": "5. Experimenty",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-rho-table-999953",
+      "printed_page": 386,
+      "claim": "The printed dyadic detection count at p=999953.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/factoring-rho.md"
+      ],
+      "argument_section": "5. Experimenty",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-rho-table-999959",
+      "printed_page": 386,
+      "claim": "The printed dyadic detection count at p=999959.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/factoring-rho.md"
+      ],
+      "argument_section": "5. Experimenty",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-rho-table-999961",
+      "printed_page": 386,
+      "claim": "The printed dyadic detection count at p=999961.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/factoring-rho.md"
+      ],
+      "argument_section": "5. Experimenty",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-rho-table-999979",
+      "printed_page": 386,
+      "claim": "The printed dyadic detection count at p=999979.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/factoring-rho.md"
+      ],
+      "argument_section": "5. Experimenty",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-rho-table-999983",
+      "printed_page": 386,
+      "claim": "The printed dyadic detection count at p=999983.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/factoring-rho.md"
+      ],
+      "argument_section": "5. Experimenty",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-rho-million-max",
+      "printed_page": 386,
+      "claim": "Both maxima and the12sqrt(p) bound below10^6.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/factoring-rho.md"
+      ],
+      "argument_section": "5,9",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-rho-billion-max",
+      "printed_page": 386,
+      "claim": "Both corrected maxima and the16sqrt(p) bound below10^9.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/factoring-rho.md"
+      ],
+      "argument_section": "5,9",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-rho-practical-rates",
+      "printed_page": 386,
+      "claim": "Digit-size predictions and small batch-failure increase are empirical or model claims.",
+      "status": "empirical_not_reproduced",
+      "evidence": [
+        "notes/factoring-rho.md"
+      ],
+      "argument_section": "5. Experimenty",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-eq12",
+      "printed_page": 387,
+      "claim": "Odd factor pairs correspond to integral half-sums and half-differences.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-fermat.md"
+      ],
+      "argument_section": "Rozdíl čtverců a algoritmus C",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-eq13",
+      "printed_page": 387,
+      "claim": "Difference-of-squares representation and finite search interval.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-fermat.md"
+      ],
+      "argument_section": "Rozdíl čtverců a algoritmus C",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-fermat-largest",
+      "printed_page": 387,
+      "claim": "The least feasible X gives the largest divisor at most sqrt(N).",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-fermat.md"
+      ],
+      "argument_section": "Rozdíl čtverců a algoritmus C",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-fermat-termination",
+      "printed_page": 387,
+      "claim": "The trivial pair1,N bounds the search.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-fermat.md"
+      ],
+      "argument_section": "Rozdíl čtverců a algoritmus C",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-fermat-cost",
+      "printed_page": 387,
+      "claim": "The exact increment count is v−floor(sqrt(N)).",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-fermat.md"
+      ],
+      "argument_section": "Rozdíl čtverců a algoritmus C",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-fermat-example377",
+      "printed_page": 387,
+      "claim": "377=13*29 and the archived trace matches C.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-fermat.md"
+      ],
+      "argument_section": "Rozdíl čtverců a algoritmus C",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-square-last-digits",
+      "printed_page": 387,
+      "claim": "The listed endings exhaust square residues modulo100.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-fermat.md"
+      ],
+      "argument_section": "Rozdíl čtverců a algoritmus C",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-C1",
+      "printed_page": 387,
+      "claim": "Initialization gives ",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-fermat.md"
+      ],
+      "argument_section": "Rozdíl čtverců a algoritmus C",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-C2",
+      "printed_page": 387,
+      "claim": "Zero residual gives the required factor pair.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-fermat.md"
+      ],
+      "argument_section": "Rozdíl čtverců a algoritmus C",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-C3",
+      "printed_page": 387,
+      "claim": "Increasing X preserves the algebraic invariant.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-fermat.md"
+      ],
+      "argument_section": "Rozdíl čtverců a algoritmus C",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-C4",
+      "printed_page": 387,
+      "claim": "Increasing Y finds the first nonpositive residual for that X.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-fermat.md"
+      ],
+      "argument_section": "Rozdíl čtverců a algoritmus C",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-C5",
+      "printed_page": 387,
+      "claim": "The known1997 return-to-C4 repair restores the loop.",
+      "status": "known_erratum_applied",
+      "evidence": [
+        "notes/factoring-fermat.md"
+      ],
+      "argument_section": "Rozdíl čtverců a algoritmus C",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-lehman-bound",
+      "printed_page": 387,
+      "claim": "Worst-case O(N^(1/3)) arithmetic operation bound.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-context.md"
+      ],
+      "argument_section": "1. Proč stačí O(n^(1/3)) aritmetických operací",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-sieve-table-3",
+      "printed_page": 388,
+      "claim": "All square/residual table entries and allowed classes modulo3.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/factoring-fermat.md"
+      ],
+      "argument_section": "Moduly a číselné příklady",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-sieve-table-5",
+      "printed_page": 388,
+      "claim": "All square/residual table entries and allowed classes modulo5.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/factoring-fermat.md"
+      ],
+      "argument_section": "Moduly a číselné příklady",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-sieve-table-7",
+      "printed_page": 388,
+      "claim": "All square/residual table entries and allowed classes modulo7.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/factoring-fermat.md"
+      ],
+      "argument_section": "Moduly a číselné příklady",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-sieve-table-8",
+      "printed_page": 388,
+      "claim": "All square/residual table entries and allowed classes modulo8.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/factoring-fermat.md"
+      ],
+      "argument_section": "Moduly a číselné příklady",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-sieve-table-11",
+      "printed_page": 388,
+      "claim": "All square/residual table entries and allowed classes modulo11.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/factoring-fermat.md"
+      ],
+      "argument_section": "Moduly a číselné příklady",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-eq14",
+      "printed_page": 388,
+      "claim": "The conjunction of residue restrictions has the printed form.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-fermat.md"
+      ],
+      "argument_section": "Síta a algoritmus D; moduly a číselné příklady",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-sieve-example92880",
+      "printed_page": 388,
+      "claim": "First survivor92880 gives3199² and factors89681,96079.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-fermat.md"
+      ],
+      "argument_section": "Síta a algoritmus D; moduly a číselné příklady",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-sieve-mod25",
+      "printed_page": 388,
+      "claim": "The seven allowed classes modulo25 are correct.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-fermat.md"
+      ],
+      "argument_section": "Síta a algoritmus D; moduly a číselné příklady",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-sieve-p-square",
+      "printed_page": 388,
+      "claim": "For p coprime to N, lifting to p² gives extra information precisely in the stated quadratic-residue case.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-fermat.md"
+      ],
+      "argument_section": "Síta a algoritmus D; moduly a číselné příklady",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-sieve-CRT",
+      "printed_page": 389,
+      "claim": "Coprime periodic restrictions are independent over a whole CRT period.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-fermat.md"
+      ],
+      "argument_section": "Síta a algoritmus D; moduly a číselné příklady",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-sieve-speed3",
+      "printed_page": 389,
+      "claim": "For N=2 mod3, only X=0 mod3 survives.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-fermat.md"
+      ],
+      "argument_section": "Síta a algoritmus D; moduly a číselné příklady",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-sieve-speed9",
+      "printed_page": 389,
+      "claim": "For N=1,4,7 mod9, the stated two classes survive.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-fermat.md"
+      ],
+      "argument_section": "Síta a algoritmus D; moduly a číselné příklady",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-sieve-speed4",
+      "printed_page": 389,
+      "claim": "The parity and mod4 reductions for odd N.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-fermat.md"
+      ],
+      "argument_section": "Síta a algoritmus D; moduly a číselné příklady",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-D1",
+      "printed_page": 389,
+      "claim": "Initialization at ceil(sqrt(N)) with phase−X.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-fermat.md"
+      ],
+      "argument_section": "Síta a algoritmus D; moduly a číselné příklady",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-D2",
+      "printed_page": 389,
+      "claim": "The bit-table conjunction tests precisely the modular restrictions.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-fermat.md"
+      ],
+      "argument_section": "Síta a algoritmus D; moduly a číselné příklady",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-D3",
+      "printed_page": 389,
+      "claim": "Increment and phase decrement preserve all table invariants.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-fermat.md"
+      ],
+      "argument_section": "Síta a algoritmus D; moduly a číselné příklady",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-D4",
+      "printed_page": 389,
+      "claim": "An exact square test accepts precisely a valid factor pair.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-fermat.md"
+      ],
+      "argument_section": "Síta a algoritmus D; moduly a číselné příklady",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-sieve-p-square-domain",
+      "printed_page": 388,
+      "claim": "Without coprimality N=9,p=3 gains no information; this was already recorded.",
+      "status": "model_qualification",
+      "evidence": [
+        "notes/factoring-fermat.md"
+      ],
+      "argument_section": "Moduly a číselné příklady",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-sieve-pair-index",
+      "printed_page": 389,
+      "claim": "C0150: the paired index is r+1−k, not r−k.",
+      "status": "confirmed_defect",
+      "evidence": [
+        "notes/factoring-fermat.md"
+      ],
+      "argument_section": "Síta a algoritmus D; Slovní AND a úloha7",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-word-wrap",
+      "printed_page": 390,
+      "claim": "C0151: wrapping a word index must add words, not bits.",
+      "status": "confirmed_defect",
+      "evidence": [
+        "notes/factoring-fermat.md"
+      ],
+      "argument_section": "Síta a algoritmus D; Slovní AND a úloha7",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-word-period",
+      "printed_page": 390,
+      "claim": "lcm(m,30) bits occupy lcm(m,30)/30 words.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-fermat.md"
+      ],
+      "argument_section": "Slovní AND a úloha7",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-word-AND",
+      "printed_page": 390,
+      "claim": "Aligned bitwise AND tests thirty candidate values at once.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-fermat.md"
+      ],
+      "argument_section": "Slovní AND a úloha7",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-word-cost",
+      "printed_page": 390,
+      "claim": "Ordinary-path cost2+8r gives three cycles per candidate when r=11.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-fermat.md"
+      ],
+      "argument_section": "Slovní AND a úloha7",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-word-padding",
+      "printed_page": 390,
+      "claim": "Two-word alignment needs phase indices and repeated guard bits.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-fermat.md"
+      ],
+      "argument_section": "Slovní AND a úloha7",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-sieve-rate",
+      "printed_page": 390,
+      "claim": "C0152:256 tests at6144 million/s take125/3 ns, not5.2 ns.",
+      "status": "confirmed_defect",
+      "evidence": [
+        "notes/factoring-context.md"
+      ],
+      "argument_section": "4. Síta a rozsah historických zdrojů",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-sieve-practical-ratio",
+      "printed_page": 390,
+      "claim": "The v/u threshold is a practical estimate, not a uniform theorem.",
+      "status": "empirical_not_reproduced",
+      "evidence": [
+        "notes/factoring-fermat.md"
+      ],
+      "argument_section": "Slovní AND",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-fermat-theorem",
+      "printed_page": 391,
+      "claim": "Every nonzero residue modulo a prime has (p−1)st power1.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/primality-basic.md"
+      ],
+      "argument_section": "1–5: Fermat, Korselt, řádové kritérium a celý příklad",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-modexp-cost",
+      "printed_page": 391,
+      "claim": "Binary powering takes O(log n) modular multiplications.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/primality-basic.md"
+      ],
+      "argument_section": "1–5: Fermat, Korselt, řádové kritérium a celý příklad",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-F5-witness",
+      "printed_page": 391,
+      "claim": "Thirty-two squarings give3029026160 modulo2^32+1.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/primality-basic.md"
+      ],
+      "argument_section": "1–5: Fermat, Korselt, řádové kritérium a celý příklad",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-F0-F4",
+      "printed_page": 391,
+      "claim": "Prime certificates cover the first five Fermat numbers.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/primality-basic.md"
+      ],
+      "argument_section": "1–5: Fermat, Korselt, řádové kritérium a celý příklad",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-composite-witness",
+      "printed_page": 391,
+      "claim": "A proper prime divisor supplies a failing Fermat base.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/primality-basic.md"
+      ],
+      "argument_section": "1–5: Fermat, Korselt, řádové kritérium a celý příklad",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-carmichael-small-factor",
+      "printed_page": 391,
+      "claim": "The Carmichael exception has at least three distinct factors.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/primality-basic.md"
+      ],
+      "argument_section": "1–5: Fermat, Korselt, řádové kritérium a celý příklad",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-order-criterion",
+      "printed_page": 391,
+      "claim": "An element of order n−1 proves n prime.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/primality-basic.md"
+      ],
+      "argument_section": "1–5: Fermat, Korselt, řádové kritérium a celý příklad",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-order-subtests",
+      "printed_page": 391,
+      "claim": "Full order is equivalent to the complete power and every prime-divisor subtest.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/primality-basic.md"
+      ],
+      "argument_section": "1–5: Fermat, Korselt, řádové kritérium a celý příklad",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-different-bases",
+      "printed_page": 392,
+      "claim": "Different witnesses for different prime divisors still prove primality.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/primality-basic.md"
+      ],
+      "argument_section": "1–5: Fermat, Korselt, řádové kritérium a celý příklad",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-prime-bases",
+      "printed_page": 392,
+      "claim": "Prime bases suffice because the order of a product divides the lcm of orders.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/primality-basic.md"
+      ],
+      "argument_section": "1–5: Fermat, Korselt, řádové kritérium a celý příklad",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-eq15",
+      "printed_page": 392,
+      "claim": "The algebraic factorization follows from the Sophie Germain identity.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/primality-basic.md"
+      ],
+      "argument_section": "1–5: Fermat, Korselt, řádové kritérium a celý příklad",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-eq16",
+      "printed_page": 392,
+      "claim": "The29-digit n0 and its small-factor split agree.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/primality-basic.md"
+      ],
+      "argument_section": "1–5: Fermat, Korselt, řádové kritérium a celý příklad",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-half-root-search",
+      "printed_page": 393,
+      "claim": "Half the bases modulo a prime have full2-primary order.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/primality-basic.md"
+      ],
+      "argument_section": "1–5: Fermat, Korselt, řádové kritérium a celý příklad",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-base5-reciprocity",
+      "printed_page": 393,
+      "claim": "For prime q=±1 mod5, base5 is a square.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/primality-basic.md"
+      ],
+      "argument_section": "1–5: Fermat, Korselt, řádové kritérium a celý příklad",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-factor-chain-n5",
+      "printed_page": 393,
+      "claim": "The other33-digit factor is composite and its split agrees.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/primality-basic.md"
+      ],
+      "argument_section": "1–5: Fermat, Korselt, řádové kritérium a celý příklad",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-factor-chain-n6",
+      "printed_page": 393,
+      "claim": "The displayed two-prime split agrees.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/primality-basic.md"
+      ],
+      "argument_section": "1–5: Fermat, Korselt, řádové kritérium a celý příklad",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-rho6432966",
+      "printed_page": 393,
+      "claim": "The archived two-detector computation gives6432966 iterations.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/primality-basic.md"
+      ],
+      "argument_section": "1–5: Fermat, Korselt, řádové kritérium a celý příklad",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-F214-complete",
+      "printed_page": 394,
+      "claim": "The full six-prime product equals2^214+1.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/primality-basic.md"
+      ],
+      "argument_section": "1–5: Fermat, Korselt, řádové kritérium a celý příklad",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-F214-high-residual",
+      "printed_page": 394,
+      "claim": "Without the algebraic split the residual has55 digits.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/primality-basic.md"
+      ],
+      "argument_section": "1–5: Fermat, Korselt, řádové kritérium a celý příklad",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-pseudoprime-example",
+      "printed_page": 394,
+      "claim": "(2^28−9)/7=2341*16381 is a base3 pseudoprime.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/primality-basic.md"
+      ],
+      "argument_section": "1–5: Fermat, Korselt, řádové kritérium a celý příklad",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-carmichael561",
+      "printed_page": 394,
+      "claim": "561 is the least Carmichael number and its group exponent is80.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/primality-basic.md"
+      ],
+      "argument_section": "1–5: Fermat, Korselt, řádové kritérium a celý příklad",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-factor-chain-n0",
+      "printed_page": 392,
+      "claim": "The displayed n0 product and power claims.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/primality-basic.md"
+      ],
+      "argument_section": "4. Celý příklad",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-factor-chain-n1",
+      "printed_page": 392,
+      "claim": "The displayed n1 product and power claims.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/primality-basic.md"
+      ],
+      "argument_section": "4. Celý příklad",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-factor-chain-n2",
+      "printed_page": 392,
+      "claim": "The displayed n2 product and power claims.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/primality-basic.md"
+      ],
+      "argument_section": "4. Celý příklad",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-factor-chain-n3",
+      "printed_page": 392,
+      "claim": "The displayed n3 product and power claims.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/primality-basic.md"
+      ],
+      "argument_section": "4. Celý příklad",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-factor-chain-n4",
+      "printed_page": 392,
+      "claim": "The displayed n4 product and power claims.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/primality-basic.md"
+      ],
+      "argument_section": "4. Celý příklad",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-eq17-row1",
+      "printed_page": 393,
+      "claim": "Row1 of table(17), including inferred parenthesized powers.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/primality-basic.md"
+      ],
+      "argument_section": "4. Celý příklad",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-eq17-row2",
+      "printed_page": 393,
+      "claim": "Row2 of table(17), including inferred parenthesized powers.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/primality-basic.md"
+      ],
+      "argument_section": "4. Celý příklad",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-eq17-row3",
+      "printed_page": 393,
+      "claim": "Row3 of table(17), including inferred parenthesized powers.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/primality-basic.md"
+      ],
+      "argument_section": "4. Celý příklad",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-eq17-row4",
+      "printed_page": 393,
+      "claim": "Row4 of table(17), including inferred parenthesized powers.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/primality-basic.md"
+      ],
+      "argument_section": "4. Celý příklad",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-eq17-row5",
+      "printed_page": 393,
+      "claim": "Row5 of table(17), including inferred parenthesized powers.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/primality-basic.md"
+      ],
+      "argument_section": "4. Celý příklad",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-eq17-row6",
+      "printed_page": 393,
+      "claim": "Row6 of table(17), including inferred parenthesized powers.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/primality-basic.md"
+      ],
+      "argument_section": "4. Celý příklad",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-eq17-row7",
+      "printed_page": 393,
+      "claim": "Row7 of table(17), including inferred parenthesized powers.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/primality-basic.md"
+      ],
+      "argument_section": "4. Celý příklad",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-eq17-row8",
+      "printed_page": 393,
+      "claim": "Row8 of table(17), including inferred parenthesized powers.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/primality-basic.md"
+      ],
+      "argument_section": "4. Celý příklad",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-eq17-row9",
+      "printed_page": 393,
+      "claim": "Row9 of table(17), including inferred parenthesized powers.",
+      "status": "reused_computation",
+      "evidence": [
+        "notes/primality-basic.md"
+      ],
+      "argument_section": "4. Celý příklad",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-Pocklington-forward",
+      "printed_page": 393,
+      "claim": "Partial factorization removes the unnecessary p=2 subtest.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/primality-deterministic.md"
+      ],
+      "argument_section": "3. Úloha26: Pocklingtonovo kritérium",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-BLS",
+      "printed_page": 394,
+      "claim": "The combined n±1 factorization bound is derived with the needed auxiliary conditions.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/primality-extended.md"
+      ],
+      "argument_section": "1–3",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-partial-factor-35-digits",
+      "printed_page": 394,
+      "claim": "The35-digit/30030 statement has primary historical support; subsecond timing was not reproduced.",
+      "status": "empirical_not_reproduced",
+      "evidence": [
+        "notes/primality-extended.md"
+      ],
+      "argument_section": "6. Kontext",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-n2-plusminus-context",
+      "printed_page": 394,
+      "claim": "Author abstracts support the additional n²±1 and n²±n+1 methods.",
+      "status": "external_input",
+      "evidence": [
+        "notes/primality-extended.md"
+      ],
+      "argument_section": "6. Kontext",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-P1",
+      "printed_page": 395,
+      "claim": "Uniform base selection uses2,...,n−1 for odd n>=3.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/primality-probabilistic.md"
+      ],
+      "argument_section": "1–5: invariant, přesný počet, obecná mez a čas",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-P2",
+      "printed_page": 395,
+      "claim": "Powering establishes y=x^(2^j q).",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/primality-probabilistic.md"
+      ],
+      "argument_section": "1–5: invariant, přesný počet, obecná mez a čas",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-P3",
+      "printed_page": 395,
+      "claim": "Acceptance is exactly the strong probable-prime condition.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/primality-probabilistic.md"
+      ],
+      "argument_section": "1–5: invariant, přesný počet, obecná mez a čas",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-P4",
+      "printed_page": 395,
+      "claim": "The square loop preserves the exponent and index range.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/primality-probabilistic.md"
+      ],
+      "argument_section": "1–5: invariant, přesný počet, obecná mez a čas",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-P5",
+      "printed_page": 395,
+      "claim": "Rejection supplies a correct compositeness decision.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/primality-probabilistic.md"
+      ],
+      "argument_section": "1–5: invariant, přesný počet, obecná mez a čas",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-P-prime-correct",
+      "printed_page": 395,
+      "claim": "The first square root of1 before1 is−1 over a prime field.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/primality-probabilistic.md"
+      ],
+      "argument_section": "1–5: invariant, přesný počet, obecná mez a čas",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-P-quarter",
+      "printed_page": 395,
+      "claim": "The error probability is strictly below1/4 for every allowed input.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/primality-probabilistic.md"
+      ],
+      "argument_section": "1–5: invariant, přesný počet, obecná mez a čas",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-P-repeat25",
+      "printed_page": 395,
+      "claim": "Twenty-five independent attempts have error below2^−50.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/primality-probabilistic.md"
+      ],
+      "argument_section": "1–5: invariant, přesný počet, obecná mez a čas",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-P-billion",
+      "printed_page": 395,
+      "claim": "For a fixed billion tested inputs, expected errors are below10^−6.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/primality-probabilistic.md"
+      ],
+      "argument_section": "1–5: invariant, přesný počet, obecná mez a čas",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-P-bit-cost",
+      "printed_page": 396,
+      "claim": "Classical arithmetic gives O((ln n)^3) per attempt.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/primality-probabilistic.md"
+      ],
+      "argument_section": "1–5: invariant, přesný počet, obecná mez a čas",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-P-ERH-cost",
+      "printed_page": 396,
+      "claim": "All O((ln n)^2) ERH bases cost O((ln n)^5).",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/primality-probabilistic.md"
+      ],
+      "argument_section": "1–5: invariant, přesný počet, obecná mez a čas",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-Bach",
+      "printed_page": 396,
+      "claim": "Under ERH a failing base exists below2(ln n)².",
+      "status": "external_input",
+      "evidence": [
+        "notes/primality-probabilistic.md"
+      ],
+      "argument_section": "5–6",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-APR",
+      "printed_page": 396,
+      "claim": "Deterministic APR has the quoted quasipolynomial-in-bitlength bound.",
+      "status": "external_input",
+      "evidence": [
+        "notes/primality-extended.md"
+      ],
+      "argument_section": "4. APR",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-APR-benchmark",
+      "printed_page": 396,
+      "claim": "The universal250-digit/few-hours reading is unverified.",
+      "status": "partial",
+      "evidence": [
+        "notes/primality-extended.md"
+      ],
+      "argument_section": "4. APR",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-Adleman-Huang",
+      "printed_page": 396,
+      "claim": "The external certificate theorem plus geometric repetition gives expected polynomial time.",
+      "status": "closed_with_external_input",
+      "evidence": [
+        "notes/primality-extended.md"
+      ],
+      "argument_section": "5. Adleman–Huang",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-AKS-standard",
+      "printed_page": 396,
+      "claim": "Standard AKS with nonpower and small-factor prechecks has a complete group-size proof.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/primality-aks.md"
+      ],
+      "argument_section": "1–5: obecný důkaz a čas",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-AKS-r-bound",
+      "printed_page": 396,
+      "claim": "The lcm argument supplies r<=4 ceil(lg n)^5.",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/primality-aks.md"
+      ],
+      "argument_section": "1–5: obecný důkaz a čas",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-AKS-bit-bound",
+      "printed_page": 396,
+      "claim": "Packed polynomial arithmetic gives soft-O(L^10.5), hence O(L^11).",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/primality-aks.md"
+      ],
+      "argument_section": "1–5: obecný důkaz a čas",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-AKS-C0153",
+      "printed_page": 396,
+      "claim": "The2005 theorem quantifies the indeterminate in place of the parameter.",
+      "status": "confirmed_defect",
+      "evidence": [
+        "notes/primality-aks.md"
+      ],
+      "argument_section": "1",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-AKS-C0155",
+      "printed_page": 396,
+      "claim": "The stronger theorem without two prechecks remains unresolved.",
+      "status": "partial",
+      "evidence": [
+        "notes/primality-aks.md"
+      ],
+      "argument_section": "6. Co zůstává z vynechaných předpokladů",
+      "scope_note": ""
+    },
+    {
+      "id": "4.5.4-AKS-faster-context",
+      "printed_page": 396,
+      "claim": "Lenstra–Pomerance and Bernstein bounds are named external inputs.",
+      "status": "external_input",
+      "evidence": [
+        "notes/primality-aks.md"
+      ],
+      "argument_section": "8. Prameny",
+      "scope_note": ""
+    }
+  ],
+  "exercises": [
+    {
+      "id": "4.5.4-1",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-basic.md"
+      ],
+      "review_scope": "Complete original problem and answer/addenda paired with the cited general arguments; previous computations reused.",
+      "scope_note": "Finding and erratum statuses remain in coverage.json; this row records the argument audit."
+    },
+    {
+      "id": "4.5.4-2",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-basic.md"
+      ],
+      "review_scope": "Complete original problem and answer/addenda paired with the cited general arguments; previous computations reused.",
+      "scope_note": "Finding and erratum statuses remain in coverage.json; this row records the argument audit."
+    },
+    {
+      "id": "4.5.4-3",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-basic.md"
+      ],
+      "review_scope": "Complete original problem and answer/addenda paired with the cited general arguments; previous computations reused.",
+      "scope_note": "Finding and erratum statuses remain in coverage.json; this row records the argument audit."
+    },
+    {
+      "id": "4.5.4-4",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-rho.md"
+      ],
+      "review_scope": "Complete original problem and answer/addenda paired with the cited general arguments; previous computations reused.",
+      "scope_note": "Finding and erratum statuses remain in coverage.json; this row records the argument audit."
+    },
+    {
+      "id": "4.5.4-5",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-fermat.md"
+      ],
+      "review_scope": "Complete original problem and answer/addenda paired with the cited general arguments; previous computations reused.",
+      "scope_note": "Finding and erratum statuses remain in coverage.json; this row records the argument audit."
+    },
+    {
+      "id": "4.5.4-6",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-basic.md"
+      ],
+      "review_scope": "Complete original problem and answer/addenda paired with the cited general arguments; previous computations reused.",
+      "scope_note": "Finding and erratum statuses remain in coverage.json; this row records the argument audit."
+    },
+    {
+      "id": "4.5.4-7",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-fermat.md"
+      ],
+      "review_scope": "Complete original problem and answer/addenda paired with the cited general arguments; previous computations reused.",
+      "scope_note": "Finding and erratum statuses remain in coverage.json; this row records the argument audit."
+    },
+    {
+      "id": "4.5.4-8",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-basic.md"
+      ],
+      "review_scope": "Complete original problem and answer/addenda paired with the cited general arguments; previous computations reused.",
+      "scope_note": "Finding and erratum statuses remain in coverage.json; this row records the argument audit."
+    },
+    {
+      "id": "4.5.4-9",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/primality-basic.md"
+      ],
+      "review_scope": "Complete original problem and answer/addenda paired with the cited general arguments; previous computations reused.",
+      "scope_note": "Finding and erratum statuses remain in coverage.json; this row records the argument audit."
+    },
+    {
+      "id": "4.5.4-10",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/primality-basic.md"
+      ],
+      "review_scope": "Complete original problem and answer/addenda paired with the cited general arguments; previous computations reused.",
+      "scope_note": "Finding and erratum statuses remain in coverage.json; this row records the argument audit."
+    },
+    {
+      "id": "4.5.4-17",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/primality-basic.md"
+      ],
+      "review_scope": "Complete original problem and answer/addenda paired with the cited general arguments; previous computations reused.",
+      "scope_note": "Finding and erratum statuses remain in coverage.json; this row records the argument audit."
+    },
+    {
+      "id": "4.5.4-18",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/factoring-distribution.md"
+      ],
+      "review_scope": "Complete original problem and answer/addenda paired with the cited general arguments; previous computations reused.",
+      "scope_note": "Finding and erratum statuses remain in coverage.json; this row records the argument audit."
+    },
+    {
+      "id": "4.5.4-21",
+      "status": "partial",
+      "evidence": [
+        "notes/factoring-rho.md"
+      ],
+      "review_scope": "Complete original problem and answer/addenda paired with the cited general arguments; previous computations reused.",
+      "scope_note": "Requested O(sqrt(p log p)) bound remains unproved. Finite bounds, archived experiments and the qualified external Heath-Brown input are retained."
+    },
+    {
+      "id": "4.5.4-22",
+      "status": "argument_recorded",
+      "evidence": [
+        "notes/primality-probabilistic.md"
+      ],
+      "review_scope": "Complete original problem and answer/addenda paired with the cited general arguments; previous computations reused.",
+      "scope_note": "Finding and erratum statuses remain in coverage.json; this row records the argument audit."
+    }
+  ],
+  "next_cursor": {
+    "printed_page": 396,
+    "file_page": 408,
+    "target": "Continued-fraction factoring introduction at bottom396, then397"
+  },
+  "new_computation": [
+    "Twelve interval-certified decimal cells in six rows; no census."
+  ],
+  "new_confirmed_findings": []
+}

@@ -1,0 +1,177 @@
+{
+  "polynomial": {
+    "seed_versions": 264,
+    "one_based_fortran_states": 264,
+    "recurrence_polynomial_cases": 1848,
+    "exhaustive_spacing_parameter_sets": 60,
+    "seed0": {
+      "original": {
+        "polynomial_hex": "0xf85b80e5838f40561323f10da",
+        "first_word": 1028764519
+      },
+      "revised": {
+        "polynomial_hex": "0x756ad685d69f50f0d866a2334",
+        "first_word": 58678820
+      }
+    },
+    "modular_distance_witness": {
+      "s": 0,
+      "s_prime": 536870912,
+      "n": 633825300114114700748351602687,
+      "n_prime": 0,
+      "ordinary_h_distance": 633825300114114700748351602688
+    }
+  },
+  "compiled": {
+    "current": [
+      {
+        "floating": false,
+        "compiled_source": "knuth-rng.c",
+        "block_calls": 48,
+        "exact_word_comparisons": 33240,
+        "rudimentary": [
+          995235265,
+          995235265
+        ]
+      },
+      {
+        "floating": true,
+        "compiled_source": "knuth-rng-double.c",
+        "block_calls": 48,
+        "exact_word_comparisons": 33240,
+        "rudimentary": [
+          "0.36410514377569680455",
+          "0.36410514377569680455"
+        ]
+      }
+    ],
+    "original": [
+      {
+        "bits": 30,
+        "seed": 310952,
+        "output": 461390032,
+        "method": "integer recurrence"
+      },
+      {
+        "bits": 15,
+        "seed": 12509,
+        "output": 9387,
+        "method": "integer recurrence"
+      },
+      {
+        "bits": 52,
+        "seed": 310952,
+        "output": "0.27452626307394156768",
+        "method": "integer recurrence"
+      }
+    ],
+    "revised_15bit": 24130
+  },
+  "wrapper": [
+    {
+      "floating": false,
+      "checked_outputs": 1252
+    },
+    {
+      "floating": true,
+      "checked_outputs": 1252
+    }
+  ],
+  "lcg": {
+    "schrage_constants": [
+      {
+        "a": 48271,
+        "m": 2147483647,
+        "q": 44488,
+        "r": 3399,
+        "division_boundary_cases": 144815
+      },
+      {
+        "a": 40692,
+        "m": 2147483399,
+        "q": 52774,
+        "r": 3791,
+        "division_boundary_cases": 122078
+      },
+      {
+        "a": 157,
+        "m": 32363,
+        "q": 206,
+        "r": 21,
+        "division_boundary_cases": 473
+      },
+      {
+        "a": 146,
+        "m": 31727,
+        "q": 217,
+        "r": 45,
+        "division_boundary_cases": 440
+      },
+      {
+        "a": 142,
+        "m": 31657,
+        "q": 222,
+        "r": 133,
+        "division_boundary_cases": 428
+      }
+    ],
+    "affine_power_identities": 23920,
+    "millionth": 1263606197
+  },
+  "errata_compile": {
+    "unrepaired_compiler_returncode": 1,
+    "diagnostic": "results/errata-ranf-compile.log",
+    "repair": "Add int x[KK+KK-1] declaration",
+    "repaired_outputs": [
+      "0.36410514377569680455",
+      "0.36410514377569680455"
+    ]
+  },
+  "small_primes": {
+    "rows": [
+      {
+        "a": 157,
+        "m": 32363,
+        "prime_divisors": [
+          2,
+          11,
+          1471
+        ],
+        "residues": [
+          32362,
+          18269,
+          235
+        ]
+      },
+      {
+        "a": 146,
+        "m": 31727,
+        "prime_divisors": [
+          2,
+          29,
+          547
+        ],
+        "residues": [
+          31726,
+          20778,
+          27505
+        ]
+      },
+      {
+        "a": 142,
+        "m": 31657,
+        "prime_divisors": [
+          2,
+          3,
+          1319
+        ],
+        "residues": [
+          31656,
+          19122,
+          11208
+        ]
+      }
+    ],
+    "combined_state_period": 8125436850168
+  }
+}

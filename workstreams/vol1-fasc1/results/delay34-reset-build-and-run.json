@@ -1,0 +1,80 @@
+[
+  {
+    "command": [
+      "make",
+      "basic",
+      "CFLAGS=-O0"
+    ],
+    "returncode": 0,
+    "stdout": "make mmix-arith.c\nmake[1]: Entering directory 'workstreams/vol1-fasc1/results/delay34-new-build-xbcahvlu'\nif test -r mmix-arith.ch; then ctangle mmix-arith.w mmix-arith.ch; else ctangle mmix-arith.w; fi\nmake[1]: Leaving directory 'workstreams/vol1-fasc1/results/delay34-new-build-xbcahvlu'\nmake mmix-arith.o\nmake[1]: Entering directory 'workstreams/vol1-fasc1/results/delay34-new-build-xbcahvlu'\ncc -O0   -c -o mmix-arith.o mmix-arith.c\nmake[1]: Leaving directory 'workstreams/vol1-fasc1/results/delay34-new-build-xbcahvlu'\nif test -r mmixal.ch; then ctangle mmixal.w mmixal.ch; else ctangle mmixal.w; fi\ncc -O0 mmixal.c mmix-arith.o -o mmixal\nmake mmix-io.c\nmake[1]: Entering directory 'workstreams/vol1-fasc1/results/delay34-new-build-xbcahvlu'\nif test -r mmix-io.ch; then ctangle mmix-io.w mmix-io.ch; else ctangle mmix-io.w; fi\nmake[1]: Leaving directory 'workstreams/vol1-fasc1/results/delay34-new-build-xbcahvlu'\nmake mmix-io.o\nmake[1]: Entering directory 'workstreams/vol1-fasc1/results/delay34-new-build-xbcahvlu'\ncc -O0   -c -o mmix-io.o mmix-io.c\nmake[1]: Leaving directory 'workstreams/vol1-fasc1/results/delay34-new-build-xbcahvlu'\nif test -r mmix-sim.ch; then ctangle mmix-sim.w mmix-sim.ch; else ctangle mmix-sim.w; fi\nmake abstime.c\nmake[1]: Entering directory 'workstreams/vol1-fasc1/results/delay34-new-build-xbcahvlu'\nif test -r abstime.ch; then ctangle abstime.w abstime.ch; else ctangle abstime.w; fi\nmake[1]: Leaving directory 'workstreams/vol1-fasc1/results/delay34-new-build-xbcahvlu'\nmake abstime\nmake[1]: Entering directory 'workstreams/vol1-fasc1/results/delay34-new-build-xbcahvlu'\ncc -O0    abstime.c   -o abstime\nmake[1]: Leaving directory 'workstreams/vol1-fasc1/results/delay34-new-build-xbcahvlu'\n./abstime > abstime.h\ncc -O0 mmix-sim.c mmix-arith.o mmix-io.o -o mmix\nrm abstime.h\n",
+    "stderr": "abstime.w:21:1: warning: return type defaults to \u2018int\u2019 [-Wimplicit-int]\n   21 | main()\n      | ^~~~\nmmix-sim.w: In function \u2018trace_print\u2019:\nmmix-sim.w:2835:1: warning: format not a string literal and no format arguments [-Wformat-security]\n 2835 |  case handle:@+if (o.h==0 && o.l<3) printf(stream_name[o.l]);\n      | ^~~~\nmmix-sim.w: In function \u2018scan_option\u2019:\nmmix-sim.w:2987:1: warning: format not a string literal and no format arguments [-Wformat-security]\n 2987 |     for (k=0;usage_help[k][0];k++) fprintf(stderr,usage_help[k]);\n      | ^  \nmmix-sim.w:2989:1: warning: format not a string literal and no format arguments [-Wformat-security]\n 2989 |   }@+else@+ for (k=0;usage_help[k][1]!='b';k++) printf(usage_help[k]);\n      | ^\nmmix-sim.w: In function \u2018main\u2019:\nmmix-sim.w:3093:1: warning: format not a string literal and no format arguments [-Wformat-security]\n 3093 |   case 'h':@+ for (k=0;interactive_help[k][0];k++) printf(interactive_help[k]);\n      | ^ ~~\nmmix-sim.w:2846:1: warning: format not a string literal and no format arguments [-Wformat-security]\n 2846 | case 's': printf(special_name[zz]);@+break;\n      | ^~~~\nmmix-sim.w:2848:16: warning: format not a string literal and no format arguments [-Wformat-security]\n 2848 | case 'l': printf(lhs);@+break;\n      |                ^~~\nmmix-sim.w: In function \u2018print_line\u2019:\nmmix-sim.w:1157:13: warning: \u2018:    \u2019 directive writing 5 bytes into a region of size between 0 and 10 [-Wformat-overflow=]\n 1157 |   sprintf(buf,\"%d:    \",k);\n      |             ^~~~~~~~~\nmmix-sim.w:1157:1: note: \u2018sprintf\u2019 output between 7 and 17 bytes into a destination of size 11\n 1157 |   sprintf(buf,\"%d:    \",k);\n      | ^ ~~~~~~~~~~~~~~~~~~~~~~\n",
+    "elapsed_seconds": 1.3672088090097532
+  },
+  {
+    "command": [
+      "workstreams/vol1-fasc1/results/delay34-new-build-xbcahvlu/mmixal",
+      "-b250",
+      "-o",
+      "delay34-delta18.mmo",
+      "-l",
+      "delay34-delta18.lst",
+      "delay34-delta18.mms"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "elapsed_seconds": 0.0017120089614763856
+  },
+  {
+    "command": [
+      "workstreams/vol1-fasc1/results/delay34-new-build-xbcahvlu/mmix",
+      "-q",
+      "-i",
+      "-P",
+      "delay34-delta18.mmo"
+    ],
+    "returncode": 2,
+    "stdout": "mmix> g[12]=20\nmmix>          5. 0000000000000130: 26fffffd (SUBU) $255=g[255] = #2 - #0 = #2\n  20 instructions, 0 mems, 20 oops; 6 good guesses, 0 bad\n  (now at location #0000000000000134)\nmmix>   20 instructions, 0 mems, 20 oops; 6 good guesses, 0 bad\n  (now at location #0000000000000134)\nmmix> g[12]=0\nmmix> $253=g[253]=0\nmmix> $254=g[254]=18\nmmix> $255=g[255]=2\nmmix> g[12]=60\nmmix>  ...............................................\n        25. 0000000000000130: 26fffffd (SUBU) $255=g[255] = #2 - #0 = #2\n  80 instructions, 0 mems, 80 oops; 26 good guesses, 0 bad\n  (now at location #0000000000000134)\nmmix>   80 instructions, 0 mems, 80 oops; 26 good guesses, 0 bad\n  (now at location #0000000000000134)\nmmix> g[12]=0\nmmix> $253=g[253]=0\nmmix> $254=g[254]=18\nmmix> $255=g[255]=2\nmmix> g[12]=60\nmmix>  ...............................................\n        45. 0000000000000130: 26fffffd (SUBU) $255=g[255] = #2 - #0 = #2\n  140 instructions, 0 mems, 140 oops; 46 good guesses, 0 bad\n  (now at location #0000000000000134)\nmmix>   140 instructions, 0 mems, 140 oops; 46 good guesses, 0 bad\n  (now at location #0000000000000134)\nmmix> g[12]=0\nmmix> $253=g[253]=0\nmmix> $254=g[254]=18\nmmix> $255=g[255]=2\nmmix> g[12]=60\nmmix>  ...............................................\n        65. 0000000000000130: 26fffffd (SUBU) $255=g[255] = #2 - #0 = #2\n  200 instructions, 0 mems, 200 oops; 66 good guesses, 0 bad\n  (now at location #0000000000000134)\nmmix>   200 instructions, 0 mems, 200 oops; 66 good guesses, 0 bad\n  (now at location #0000000000000134)\nmmix> g[12]=0\nmmix> $253=g[253]=0\nmmix> $254=g[254]=18\nmmix> $255=g[255]=2\nmmix> \nProgram profile:\n         1. 0000000000000100: f4fc000f (GETA)\n         1. 0000000000000104: f0000006 (JMP)\n         0.        ...\n         1. 000000000000011c: feff000c (GET)\n         1. 0000000000000120: 26fdfffe (SUBU)\n         1. 0000000000000124: 40ff0002 (BN)\n         1. 0000000000000128: 41fdfff8 (BNB)\n        65. 000000000000012c: feff000c (GET)\n        65. 0000000000000130: 26fffffd (SUBU)\n        64. 0000000000000134: 55fffffe (PBPB)\n  200 instructions, 0 mems, 200 oops; 66 good guesses, 0 bad\n  (now at location #0000000000000134)\n",
+    "stderr": "",
+    "elapsed_seconds": 0.0016023850184865296
+  },
+  {
+    "command": [
+      "make",
+      "basic",
+      "CFLAGS=-O0"
+    ],
+    "returncode": 0,
+    "stdout": "make mmix-arith.c\nmake[1]: Entering directory 'workstreams/vol1-fasc1/results/delay34-new-build-dxyf_bsz'\nif test -r mmix-arith.ch; then ctangle mmix-arith.w mmix-arith.ch; else ctangle mmix-arith.w; fi\nmake[1]: Leaving directory 'workstreams/vol1-fasc1/results/delay34-new-build-dxyf_bsz'\nmake mmix-arith.o\nmake[1]: Entering directory 'workstreams/vol1-fasc1/results/delay34-new-build-dxyf_bsz'\ncc -O0   -c -o mmix-arith.o mmix-arith.c\nmake[1]: Leaving directory 'workstreams/vol1-fasc1/results/delay34-new-build-dxyf_bsz'\nif test -r mmixal.ch; then ctangle mmixal.w mmixal.ch; else ctangle mmixal.w; fi\ncc -O0 mmixal.c mmix-arith.o -o mmixal\nmake mmix-io.c\nmake[1]: Entering directory 'workstreams/vol1-fasc1/results/delay34-new-build-dxyf_bsz'\nif test -r mmix-io.ch; then ctangle mmix-io.w mmix-io.ch; else ctangle mmix-io.w; fi\nmake[1]: Leaving directory 'workstreams/vol1-fasc1/results/delay34-new-build-dxyf_bsz'\nmake mmix-io.o\nmake[1]: Entering directory 'workstreams/vol1-fasc1/results/delay34-new-build-dxyf_bsz'\ncc -O0   -c -o mmix-io.o mmix-io.c\nmake[1]: Leaving directory 'workstreams/vol1-fasc1/results/delay34-new-build-dxyf_bsz'\nif test -r mmix-sim.ch; then ctangle mmix-sim.w mmix-sim.ch; else ctangle mmix-sim.w; fi\nmake abstime.c\nmake[1]: Entering directory 'workstreams/vol1-fasc1/results/delay34-new-build-dxyf_bsz'\nif test -r abstime.ch; then ctangle abstime.w abstime.ch; else ctangle abstime.w; fi\nmake[1]: Leaving directory 'workstreams/vol1-fasc1/results/delay34-new-build-dxyf_bsz'\nmake abstime\nmake[1]: Entering directory 'workstreams/vol1-fasc1/results/delay34-new-build-dxyf_bsz'\ncc -O0    abstime.c   -o abstime\nmake[1]: Leaving directory 'workstreams/vol1-fasc1/results/delay34-new-build-dxyf_bsz'\n./abstime > abstime.h\ncc -O0 mmix-sim.c mmix-arith.o mmix-io.o -o mmix\nrm abstime.h\n",
+    "stderr": "abstime.w:21:1: warning: return type defaults to \u2018int\u2019 [-Wimplicit-int]\n   21 | main()\n      | ^~~~\nmmix-sim.w: In function \u2018trace_print\u2019:\nmmix-sim.w:2835:1: warning: format not a string literal and no format arguments [-Wformat-security]\n 2835 |  case handle:@+if (o.h==0 && o.l<3) printf(stream_name[o.l]);\n      | ^~~~\nmmix-sim.w: In function \u2018scan_option\u2019:\nmmix-sim.w:2987:1: warning: format not a string literal and no format arguments [-Wformat-security]\n 2987 |     for (k=0;usage_help[k][0];k++) fprintf(stderr,usage_help[k]);\n      | ^  \nmmix-sim.w:2989:1: warning: format not a string literal and no format arguments [-Wformat-security]\n 2989 |   }@+else@+ for (k=0;usage_help[k][1]!='b';k++) printf(usage_help[k]);\n      | ^\nmmix-sim.w: In function \u2018main\u2019:\nmmix-sim.w:3093:1: warning: format not a string literal and no format arguments [-Wformat-security]\n 3093 |   case 'h':@+ for (k=0;interactive_help[k][0];k++) printf(interactive_help[k]);\n      | ^ ~~\nmmix-sim.w:2846:1: warning: format not a string literal and no format arguments [-Wformat-security]\n 2846 | case 's': printf(special_name[zz]);@+break;\n      | ^~~~\nmmix-sim.w:2848:16: warning: format not a string literal and no format arguments [-Wformat-security]\n 2848 | case 'l': printf(lhs);@+break;\n      |                ^~~\nmmix-sim.w: In function \u2018print_line\u2019:\nmmix-sim.w:1157:13: warning: \u2018:    \u2019 directive writing 5 bytes into a region of size between 0 and 10 [-Wformat-overflow=]\n 1157 |   sprintf(buf,\"%d:    \",k);\n      |             ^~~~~~~~~\nmmix-sim.w:1157:1: note: \u2018sprintf\u2019 output between 7 and 17 bytes into a destination of size 11\n 1157 |   sprintf(buf,\"%d:    \",k);\n      | ^ ~~~~~~~~~~~~~~~~~~~~~~\n",
+    "elapsed_seconds": 1.373187416989822
+  },
+  {
+    "command": [
+      "workstreams/vol1-fasc1/results/delay34-new-build-dxyf_bsz/mmixal",
+      "-b250",
+      "-o",
+      "delay34-delta17.mmo",
+      "-l",
+      "delay34-delta17.lst",
+      "delay34-delta17.mms"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "elapsed_seconds": 0.0016151319723576307
+  },
+  {
+    "command": [
+      "workstreams/vol1-fasc1/results/delay34-new-build-dxyf_bsz/mmix",
+      "-q",
+      "-i",
+      "-P",
+      "delay34-delta17.mmo"
+    ],
+    "returncode": 1,
+    "stdout": "mmix> g[12]=20\nmmix>          5. 0000000000000130: 26fffffd (SUBU) $255=g[255] = #2 - #1 = #1\n  20 instructions, 0 mems, 20 oops; 6 good guesses, 0 bad\n  (now at location #0000000000000134)\nmmix>   20 instructions, 0 mems, 20 oops; 6 good guesses, 0 bad\n  (now at location #0000000000000134)\nmmix> g[12]=0\nmmix> $253=g[253]=1\nmmix> $254=g[254]=17\nmmix> $255=g[255]=1\nmmix> g[12]=60\nmmix>  ...............................................\n        25. 0000000000000130: 26fffffd (SUBU) $255=g[255] = #2 - #1 = #1\n  80 instructions, 0 mems, 80 oops; 26 good guesses, 0 bad\n  (now at location #0000000000000134)\nmmix>   80 instructions, 0 mems, 80 oops; 26 good guesses, 0 bad\n  (now at location #0000000000000134)\nmmix> g[12]=0\nmmix> $253=g[253]=1\nmmix> $254=g[254]=17\nmmix> $255=g[255]=1\nmmix> g[12]=60\nmmix>  ...............................................\n        45. 0000000000000130: 26fffffd (SUBU) $255=g[255] = #2 - #1 = #1\n  140 instructions, 0 mems, 140 oops; 46 good guesses, 0 bad\n  (now at location #0000000000000134)\nmmix>   140 instructions, 0 mems, 140 oops; 46 good guesses, 0 bad\n  (now at location #0000000000000134)\nmmix> g[12]=0\nmmix> $253=g[253]=1\nmmix> $254=g[254]=17\nmmix> $255=g[255]=1\nmmix> g[12]=60\nmmix>  ...............................................\n        65. 0000000000000130: 26fffffd (SUBU) $255=g[255] = #2 - #1 = #1\n  200 instructions, 0 mems, 200 oops; 66 good guesses, 0 bad\n  (now at location #0000000000000134)\nmmix>   200 instructions, 0 mems, 200 oops; 66 good guesses, 0 bad\n  (now at location #0000000000000134)\nmmix> g[12]=0\nmmix> $253=g[253]=1\nmmix> $254=g[254]=17\nmmix> $255=g[255]=1\nmmix> \nProgram profile:\n         1. 0000000000000100: f4fc000f (GETA)\n         1. 0000000000000104: f0000006 (JMP)\n         0.        ...\n         1. 000000000000011c: feff000c (GET)\n         1. 0000000000000120: 26fdfffe (SUBU)\n         1. 0000000000000124: 40ff0002 (BN)\n         1. 0000000000000128: 41fdfff8 (BNB)\n        65. 000000000000012c: feff000c (GET)\n        65. 0000000000000130: 26fffffd (SUBU)\n        64. 0000000000000134: 55fffffe (PBPB)\n  200 instructions, 0 mems, 200 oops; 66 good guesses, 0 bad\n  (now at location #0000000000000134)\n",
+    "stderr": "",
+    "elapsed_seconds": 0.00121606100583449
+  }
+]

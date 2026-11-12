@@ -1,0 +1,1662 @@
+{
+  "scope": "All19 relations in(22), exact4-solution propagation certificate, physical104(d) identification, dual constraints43(a,b), and complete state-space ratio43(d).",
+  "edges": [
+    "ab",
+    "ac",
+    "bd",
+    "be",
+    "cd",
+    "cm",
+    "dg",
+    "ef",
+    "eg",
+    "fh",
+    "fq",
+    "gh",
+    "hj",
+    "ij",
+    "ik",
+    "jl",
+    "kl",
+    "kn",
+    "ls",
+    "mn",
+    "mo",
+    "np",
+    "op",
+    "or",
+    "qs",
+    "rs"
+  ],
+  "relations": {
+    "a": {
+      "variables": [
+        "ab",
+        "ac"
+      ],
+      "tuples": [
+        "<+",
+        "<>",
+        "+>",
+        ">-",
+        "><",
+        "-<"
+      ]
+    },
+    "b": {
+      "variables": [
+        "be",
+        "bd",
+        "ab"
+      ],
+      "tuples": [
+        ">+>",
+        "-+-",
+        "+-+"
+      ]
+    },
+    "c": {
+      "variables": [
+        "ac",
+        "cd",
+        "cm"
+      ],
+      "tuples": [
+        "<+<",
+        "-+-",
+        "+-+"
+      ]
+    },
+    "d": {
+      "variables": [
+        "bd",
+        "dg",
+        "cd"
+      ],
+      "tuples": [
+        "<->",
+        "-<<",
+        ">>-",
+        "---",
+        "+++"
+      ]
+    },
+    "e": {
+      "variables": [
+        "be",
+        "ef",
+        "eg"
+      ],
+      "tuples": [
+        "<-<",
+        "-<>",
+        ">>-",
+        "---",
+        "+++"
+      ]
+    },
+    "f": {
+      "variables": [
+        "fq",
+        "fh",
+        "ef"
+      ],
+      "tuples": [
+        ">+>",
+        "-+-",
+        "+-+"
+      ]
+    },
+    "g": {
+      "variables": [
+        "dg",
+        "eg",
+        "gh"
+      ],
+      "tuples": [
+        "<+<",
+        "-+-",
+        "+-+"
+      ]
+    },
+    "h": {
+      "variables": [
+        "fh",
+        "hj",
+        "gh"
+      ],
+      "tuples": [
+        "<->",
+        "-<<",
+        ">>-",
+        "---",
+        "+++"
+      ]
+    },
+    "i": {
+      "variables": [
+        "ij",
+        "ik"
+      ],
+      "tuples": [
+        "<+",
+        "<>",
+        "+>",
+        ">-",
+        "><",
+        "-<"
+      ]
+    },
+    "j": {
+      "variables": [
+        "jl",
+        "ij",
+        "hj"
+      ],
+      "tuples": [
+        ">+>",
+        "-+-",
+        "+-+"
+      ]
+    },
+    "k": {
+      "variables": [
+        "ik",
+        "kl",
+        "kn"
+      ],
+      "tuples": [
+        "<+<",
+        "-+-",
+        "+-+"
+      ]
+    },
+    "l": {
+      "variables": [
+        "jl",
+        "ls",
+        "kl"
+      ],
+      "tuples": [
+        "<->",
+        "-<<",
+        ">>-",
+        "---",
+        "+++"
+      ]
+    },
+    "m": {
+      "variables": [
+        "cm",
+        "mn",
+        "mo"
+      ],
+      "tuples": [
+        "<-<",
+        "-<>",
+        ">>-",
+        "---",
+        "+++"
+      ]
+    },
+    "n": {
+      "variables": [
+        "kn",
+        "np"
+      ],
+      "tuples": [
+        "<<"
+      ]
+    },
+    "o": {
+      "variables": [
+        "mo",
+        "op",
+        "or"
+      ],
+      "tuples": [
+        "<+<",
+        "-+-",
+        "+-+"
+      ]
+    },
+    "p": {
+      "variables": [
+        "op",
+        "np"
+      ],
+      "tuples": [
+        ">+",
+        "><",
+        "+<",
+        "<-",
+        "<>",
+        "->"
+      ]
+    },
+    "q": {
+      "variables": [
+        "qs",
+        "fq"
+      ],
+      "tuples": [
+        "<+",
+        "<<",
+        "+<",
+        ">-",
+        ">>",
+        "->"
+      ]
+    },
+    "r": {
+      "variables": [
+        "or",
+        "rs"
+      ],
+      "tuples": [
+        ">+",
+        ">>",
+        "+>",
+        "<-",
+        "<<",
+        "-<"
+      ]
+    },
+    "s": {
+      "variables": [
+        "rs",
+        "ls",
+        "qs"
+      ],
+      "tuples": [
+        "<+>",
+        "-+-",
+        "+-+"
+      ]
+    }
+  },
+  "full_T_rows": [
+    [
+      "kn",
+      "mn",
+      "np"
+    ],
+    [
+      "<+<",
+      "<-<",
+      "<<<",
+      "<><"
+    ]
+  ],
+  "solutions": [
+    {
+      "ab": "-",
+      "ac": "<",
+      "bd": "+",
+      "be": "-",
+      "cd": "+",
+      "cm": "<",
+      "dg": "+",
+      "ef": "-",
+      "eg": "-",
+      "fh": "+",
+      "fq": "-",
+      "gh": "+",
+      "hj": "+",
+      "ij": "-",
+      "ik": "<",
+      "jl": "+",
+      "kl": "+",
+      "kn": "<",
+      "ls": "+",
+      "mn": "-",
+      "mo": "<",
+      "np": "<",
+      "op": "+",
+      "or": "<",
+      "qs": ">",
+      "rs": "<"
+    },
+    {
+      "ab": ">",
+      "ac": "-",
+      "bd": "+",
+      "be": ">",
+      "cd": "+",
+      "cm": "-",
+      "dg": "+",
+      "ef": ">",
+      "eg": "-",
+      "fh": "+",
+      "fq": ">",
+      "gh": "+",
+      "hj": "+",
+      "ij": "-",
+      "ik": "<",
+      "jl": "+",
+      "kl": "+",
+      "kn": "<",
+      "ls": "+",
+      "mn": "-",
+      "mo": "-",
+      "np": "<",
+      "op": "+",
+      "or": "-",
+      "qs": ">",
+      "rs": "<"
+    },
+    {
+      "ab": ">",
+      "ac": "<",
+      "bd": "+",
+      "be": ">",
+      "cd": "+",
+      "cm": "<",
+      "dg": "+",
+      "ef": ">",
+      "eg": "-",
+      "fh": "+",
+      "fq": ">",
+      "gh": "+",
+      "hj": "+",
+      "ij": "-",
+      "ik": "<",
+      "jl": "+",
+      "kl": "+",
+      "kn": "<",
+      "ls": "+",
+      "mn": "-",
+      "mo": "<",
+      "np": "<",
+      "op": "+",
+      "or": "<",
+      "qs": "-",
+      "rs": "-"
+    },
+    {
+      "ab": ">",
+      "ac": "<",
+      "bd": "+",
+      "be": ">",
+      "cd": "+",
+      "cm": "<",
+      "dg": "+",
+      "ef": ">",
+      "eg": "-",
+      "fh": "+",
+      "fq": ">",
+      "gh": "+",
+      "hj": "+",
+      "ij": "-",
+      "ik": "<",
+      "jl": "+",
+      "kl": "+",
+      "kn": "<",
+      "ls": "+",
+      "mn": "-",
+      "mo": "<",
+      "np": "<",
+      "op": "+",
+      "or": "<",
+      "qs": ">",
+      "rs": "<"
+    }
+  ],
+  "propagation_tree": [
+    {
+      "parent": null,
+      "branch": null,
+      "propagation": [
+        {
+          "constraint": "b",
+          "variable": "be",
+          "before": "+-<>",
+          "after": "+->",
+          "supporting_rows": [
+            ">+>",
+            "-+-",
+            "+-+"
+          ]
+        },
+        {
+          "constraint": "b",
+          "variable": "bd",
+          "before": "+-<>",
+          "after": "+-",
+          "supporting_rows": [
+            ">+>",
+            "-+-",
+            "+-+"
+          ]
+        },
+        {
+          "constraint": "b",
+          "variable": "ab",
+          "before": "+-<>",
+          "after": "+->",
+          "supporting_rows": [
+            ">+>",
+            "-+-",
+            "+-+"
+          ]
+        },
+        {
+          "constraint": "c",
+          "variable": "ac",
+          "before": "+-<>",
+          "after": "+-<",
+          "supporting_rows": [
+            "<+<",
+            "-+-",
+            "+-+"
+          ]
+        },
+        {
+          "constraint": "c",
+          "variable": "cd",
+          "before": "+-<>",
+          "after": "+-",
+          "supporting_rows": [
+            "<+<",
+            "-+-",
+            "+-+"
+          ]
+        },
+        {
+          "constraint": "c",
+          "variable": "cm",
+          "before": "+-<>",
+          "after": "+-<",
+          "supporting_rows": [
+            "<+<",
+            "-+-",
+            "+-+"
+          ]
+        },
+        {
+          "constraint": "d",
+          "variable": "dg",
+          "before": "+-<>",
+          "after": "+-",
+          "supporting_rows": [
+            "---",
+            "+++"
+          ]
+        },
+        {
+          "constraint": "e",
+          "variable": "eg",
+          "before": "+-<>",
+          "after": "+->",
+          "supporting_rows": [
+            "-<>",
+            ">>-",
+            "---",
+            "+++"
+          ]
+        },
+        {
+          "constraint": "f",
+          "variable": "fq",
+          "before": "+-<>",
+          "after": "+->",
+          "supporting_rows": [
+            ">+>",
+            "-+-",
+            "+-+"
+          ]
+        },
+        {
+          "constraint": "f",
+          "variable": "fh",
+          "before": "+-<>",
+          "after": "+-",
+          "supporting_rows": [
+            ">+>",
+            "-+-",
+            "+-+"
+          ]
+        },
+        {
+          "constraint": "f",
+          "variable": "ef",
+          "before": "+-<>",
+          "after": "+->",
+          "supporting_rows": [
+            ">+>",
+            "-+-",
+            "+-+"
+          ]
+        },
+        {
+          "constraint": "g",
+          "variable": "eg",
+          "before": "+->",
+          "after": "+-",
+          "supporting_rows": [
+            "-+-",
+            "+-+"
+          ]
+        },
+        {
+          "constraint": "g",
+          "variable": "gh",
+          "before": "+-<>",
+          "after": "+-",
+          "supporting_rows": [
+            "-+-",
+            "+-+"
+          ]
+        },
+        {
+          "constraint": "h",
+          "variable": "hj",
+          "before": "+-<>",
+          "after": "+-",
+          "supporting_rows": [
+            "---",
+            "+++"
+          ]
+        },
+        {
+          "constraint": "j",
+          "variable": "jl",
+          "before": "+-<>",
+          "after": "+-",
+          "supporting_rows": [
+            "-+-",
+            "+-+"
+          ]
+        },
+        {
+          "constraint": "j",
+          "variable": "ij",
+          "before": "+-<>",
+          "after": "+-",
+          "supporting_rows": [
+            "-+-",
+            "+-+"
+          ]
+        },
+        {
+          "constraint": "k",
+          "variable": "ik",
+          "before": "+-<>",
+          "after": "+-<",
+          "supporting_rows": [
+            "<+<",
+            "-+-",
+            "+-+"
+          ]
+        },
+        {
+          "constraint": "k",
+          "variable": "kl",
+          "before": "+-<>",
+          "after": "+-",
+          "supporting_rows": [
+            "<+<",
+            "-+-",
+            "+-+"
+          ]
+        },
+        {
+          "constraint": "k",
+          "variable": "kn",
+          "before": "+-<>",
+          "after": "+-<",
+          "supporting_rows": [
+            "<+<",
+            "-+-",
+            "+-+"
+          ]
+        },
+        {
+          "constraint": "l",
+          "variable": "ls",
+          "before": "+-<>",
+          "after": "+-",
+          "supporting_rows": [
+            "---",
+            "+++"
+          ]
+        },
+        {
+          "constraint": "m",
+          "variable": "mn",
+          "before": "+-<>",
+          "after": "+-<",
+          "supporting_rows": [
+            "<-<",
+            "-<>",
+            "---",
+            "+++"
+          ]
+        },
+        {
+          "constraint": "n",
+          "variable": "kn",
+          "before": "+-<",
+          "after": "<",
+          "supporting_rows": [
+            "<<"
+          ]
+        },
+        {
+          "constraint": "n",
+          "variable": "np",
+          "before": "+-<>",
+          "after": "<",
+          "supporting_rows": [
+            "<<"
+          ]
+        },
+        {
+          "constraint": "o",
+          "variable": "mo",
+          "before": "+-<>",
+          "after": "+-<",
+          "supporting_rows": [
+            "<+<",
+            "-+-",
+            "+-+"
+          ]
+        },
+        {
+          "constraint": "o",
+          "variable": "op",
+          "before": "+-<>",
+          "after": "+-",
+          "supporting_rows": [
+            "<+<",
+            "-+-",
+            "+-+"
+          ]
+        },
+        {
+          "constraint": "o",
+          "variable": "or",
+          "before": "+-<>",
+          "after": "+-<",
+          "supporting_rows": [
+            "<+<",
+            "-+-",
+            "+-+"
+          ]
+        },
+        {
+          "constraint": "p",
+          "variable": "op",
+          "before": "+-",
+          "after": "+",
+          "supporting_rows": [
+            "+<"
+          ]
+        },
+        {
+          "constraint": "q",
+          "variable": "qs",
+          "before": "+-<>",
+          "after": "-<>",
+          "supporting_rows": [
+            "<+",
+            ">-",
+            ">>",
+            "->"
+          ]
+        },
+        {
+          "constraint": "r",
+          "variable": "rs",
+          "before": "+-<>",
+          "after": "-<>",
+          "supporting_rows": [
+            "+>",
+            "<-",
+            "<<",
+            "-<"
+          ]
+        },
+        {
+          "constraint": "s",
+          "variable": "rs",
+          "before": "-<>",
+          "after": "-<",
+          "supporting_rows": [
+            "<+>",
+            "-+-"
+          ]
+        },
+        {
+          "constraint": "s",
+          "variable": "ls",
+          "before": "+-",
+          "after": "+",
+          "supporting_rows": [
+            "<+>",
+            "-+-"
+          ]
+        },
+        {
+          "constraint": "s",
+          "variable": "qs",
+          "before": "-<>",
+          "after": "->",
+          "supporting_rows": [
+            "<+>",
+            "-+-"
+          ]
+        },
+        {
+          "constraint": "a",
+          "variable": "ab",
+          "before": "+->",
+          "after": "->",
+          "supporting_rows": [
+            ">-",
+            "><",
+            "-<"
+          ]
+        },
+        {
+          "constraint": "a",
+          "variable": "ac",
+          "before": "+-<",
+          "after": "-<",
+          "supporting_rows": [
+            ">-",
+            "><",
+            "-<"
+          ]
+        },
+        {
+          "constraint": "b",
+          "variable": "be",
+          "before": "+->",
+          "after": "->",
+          "supporting_rows": [
+            ">+>",
+            "-+-"
+          ]
+        },
+        {
+          "constraint": "b",
+          "variable": "bd",
+          "before": "+-",
+          "after": "+",
+          "supporting_rows": [
+            ">+>",
+            "-+-"
+          ]
+        },
+        {
+          "constraint": "c",
+          "variable": "cd",
+          "before": "+-",
+          "after": "+",
+          "supporting_rows": [
+            "<+<",
+            "-+-"
+          ]
+        },
+        {
+          "constraint": "c",
+          "variable": "cm",
+          "before": "+-<",
+          "after": "-<",
+          "supporting_rows": [
+            "<+<",
+            "-+-"
+          ]
+        },
+        {
+          "constraint": "d",
+          "variable": "dg",
+          "before": "+-",
+          "after": "+",
+          "supporting_rows": [
+            "+++"
+          ]
+        },
+        {
+          "constraint": "e",
+          "variable": "ef",
+          "before": "+->",
+          "after": "->",
+          "supporting_rows": [
+            ">>-",
+            "---"
+          ]
+        },
+        {
+          "constraint": "e",
+          "variable": "eg",
+          "before": "+-",
+          "after": "-",
+          "supporting_rows": [
+            ">>-",
+            "---"
+          ]
+        },
+        {
+          "constraint": "f",
+          "variable": "fq",
+          "before": "+->",
+          "after": "->",
+          "supporting_rows": [
+            ">+>",
+            "-+-"
+          ]
+        },
+        {
+          "constraint": "f",
+          "variable": "fh",
+          "before": "+-",
+          "after": "+",
+          "supporting_rows": [
+            ">+>",
+            "-+-"
+          ]
+        },
+        {
+          "constraint": "g",
+          "variable": "gh",
+          "before": "+-",
+          "after": "+",
+          "supporting_rows": [
+            "+-+"
+          ]
+        },
+        {
+          "constraint": "h",
+          "variable": "hj",
+          "before": "+-",
+          "after": "+",
+          "supporting_rows": [
+            "+++"
+          ]
+        },
+        {
+          "constraint": "i",
+          "variable": "ij",
+          "before": "+-",
+          "after": "-",
+          "supporting_rows": [
+            "-<"
+          ]
+        },
+        {
+          "constraint": "i",
+          "variable": "ik",
+          "before": "+-<",
+          "after": "<",
+          "supporting_rows": [
+            "-<"
+          ]
+        },
+        {
+          "constraint": "j",
+          "variable": "jl",
+          "before": "+-",
+          "after": "+",
+          "supporting_rows": [
+            "+-+"
+          ]
+        },
+        {
+          "constraint": "k",
+          "variable": "kl",
+          "before": "+-",
+          "after": "+",
+          "supporting_rows": [
+            "<+<"
+          ]
+        },
+        {
+          "constraint": "m",
+          "variable": "mn",
+          "before": "+-<",
+          "after": "-",
+          "supporting_rows": [
+            "<-<",
+            "---"
+          ]
+        },
+        {
+          "constraint": "m",
+          "variable": "mo",
+          "before": "+-<",
+          "after": "-<",
+          "supporting_rows": [
+            "<-<",
+            "---"
+          ]
+        },
+        {
+          "constraint": "o",
+          "variable": "or",
+          "before": "+-<",
+          "after": "-<",
+          "supporting_rows": [
+            "<+<",
+            "-+-"
+          ]
+        }
+      ],
+      "fixed_point": {
+        "ab": "->",
+        "ac": "-<",
+        "bd": "+",
+        "be": "->",
+        "cd": "+",
+        "cm": "-<",
+        "dg": "+",
+        "ef": "->",
+        "eg": "-",
+        "fh": "+",
+        "fq": "->",
+        "gh": "+",
+        "hj": "+",
+        "ij": "-",
+        "ik": "<",
+        "jl": "+",
+        "kl": "+",
+        "kn": "<",
+        "ls": "+",
+        "mn": "-",
+        "mo": "-<",
+        "np": "<",
+        "op": "+",
+        "or": "-<",
+        "qs": "->",
+        "rs": "-<"
+      },
+      "split_variable": "ab"
+    },
+    {
+      "parent": 0,
+      "branch": {
+        "ab": "-"
+      },
+      "propagation": [
+        {
+          "constraint": "a",
+          "variable": "ac",
+          "before": "-<",
+          "after": "<",
+          "supporting_rows": [
+            "-<"
+          ]
+        },
+        {
+          "constraint": "b",
+          "variable": "be",
+          "before": "->",
+          "after": "-",
+          "supporting_rows": [
+            "-+-"
+          ]
+        },
+        {
+          "constraint": "c",
+          "variable": "cm",
+          "before": "-<",
+          "after": "<",
+          "supporting_rows": [
+            "<+<"
+          ]
+        },
+        {
+          "constraint": "e",
+          "variable": "ef",
+          "before": "->",
+          "after": "-",
+          "supporting_rows": [
+            "---"
+          ]
+        },
+        {
+          "constraint": "f",
+          "variable": "fq",
+          "before": "->",
+          "after": "-",
+          "supporting_rows": [
+            "-+-"
+          ]
+        },
+        {
+          "constraint": "m",
+          "variable": "mo",
+          "before": "-<",
+          "after": "<",
+          "supporting_rows": [
+            "<-<"
+          ]
+        },
+        {
+          "constraint": "o",
+          "variable": "or",
+          "before": "-<",
+          "after": "<",
+          "supporting_rows": [
+            "<+<"
+          ]
+        },
+        {
+          "constraint": "q",
+          "variable": "qs",
+          "before": "->",
+          "after": ">",
+          "supporting_rows": [
+            ">-"
+          ]
+        },
+        {
+          "constraint": "s",
+          "variable": "rs",
+          "before": "-<",
+          "after": "<",
+          "supporting_rows": [
+            "<+>"
+          ]
+        }
+      ],
+      "fixed_point": {
+        "ab": "-",
+        "ac": "<",
+        "bd": "+",
+        "be": "-",
+        "cd": "+",
+        "cm": "<",
+        "dg": "+",
+        "ef": "-",
+        "eg": "-",
+        "fh": "+",
+        "fq": "-",
+        "gh": "+",
+        "hj": "+",
+        "ij": "-",
+        "ik": "<",
+        "jl": "+",
+        "kl": "+",
+        "kn": "<",
+        "ls": "+",
+        "mn": "-",
+        "mo": "<",
+        "np": "<",
+        "op": "+",
+        "or": "<",
+        "qs": ">",
+        "rs": "<"
+      },
+      "result": "solution"
+    },
+    {
+      "parent": 0,
+      "branch": {
+        "ab": ">"
+      },
+      "propagation": [
+        {
+          "constraint": "b",
+          "variable": "be",
+          "before": "->",
+          "after": ">",
+          "supporting_rows": [
+            ">+>"
+          ]
+        },
+        {
+          "constraint": "e",
+          "variable": "ef",
+          "before": "->",
+          "after": ">",
+          "supporting_rows": [
+            ">>-"
+          ]
+        },
+        {
+          "constraint": "f",
+          "variable": "fq",
+          "before": "->",
+          "after": ">",
+          "supporting_rows": [
+            ">+>"
+          ]
+        }
+      ],
+      "fixed_point": {
+        "ab": ">",
+        "ac": "-<",
+        "bd": "+",
+        "be": ">",
+        "cd": "+",
+        "cm": "-<",
+        "dg": "+",
+        "ef": ">",
+        "eg": "-",
+        "fh": "+",
+        "fq": ">",
+        "gh": "+",
+        "hj": "+",
+        "ij": "-",
+        "ik": "<",
+        "jl": "+",
+        "kl": "+",
+        "kn": "<",
+        "ls": "+",
+        "mn": "-",
+        "mo": "-<",
+        "np": "<",
+        "op": "+",
+        "or": "-<",
+        "qs": "->",
+        "rs": "-<"
+      },
+      "split_variable": "ac"
+    },
+    {
+      "parent": 2,
+      "branch": {
+        "ac": "-"
+      },
+      "propagation": [
+        {
+          "constraint": "c",
+          "variable": "cm",
+          "before": "-<",
+          "after": "-",
+          "supporting_rows": [
+            "-+-"
+          ]
+        },
+        {
+          "constraint": "m",
+          "variable": "mo",
+          "before": "-<",
+          "after": "-",
+          "supporting_rows": [
+            "---"
+          ]
+        },
+        {
+          "constraint": "o",
+          "variable": "or",
+          "before": "-<",
+          "after": "-",
+          "supporting_rows": [
+            "-+-"
+          ]
+        },
+        {
+          "constraint": "r",
+          "variable": "rs",
+          "before": "-<",
+          "after": "<",
+          "supporting_rows": [
+            "-<"
+          ]
+        },
+        {
+          "constraint": "s",
+          "variable": "qs",
+          "before": "->",
+          "after": ">",
+          "supporting_rows": [
+            "<+>"
+          ]
+        }
+      ],
+      "fixed_point": {
+        "ab": ">",
+        "ac": "-",
+        "bd": "+",
+        "be": ">",
+        "cd": "+",
+        "cm": "-",
+        "dg": "+",
+        "ef": ">",
+        "eg": "-",
+        "fh": "+",
+        "fq": ">",
+        "gh": "+",
+        "hj": "+",
+        "ij": "-",
+        "ik": "<",
+        "jl": "+",
+        "kl": "+",
+        "kn": "<",
+        "ls": "+",
+        "mn": "-",
+        "mo": "-",
+        "np": "<",
+        "op": "+",
+        "or": "-",
+        "qs": ">",
+        "rs": "<"
+      },
+      "result": "solution"
+    },
+    {
+      "parent": 2,
+      "branch": {
+        "ac": "<"
+      },
+      "propagation": [
+        {
+          "constraint": "c",
+          "variable": "cm",
+          "before": "-<",
+          "after": "<",
+          "supporting_rows": [
+            "<+<"
+          ]
+        },
+        {
+          "constraint": "m",
+          "variable": "mo",
+          "before": "-<",
+          "after": "<",
+          "supporting_rows": [
+            "<-<"
+          ]
+        },
+        {
+          "constraint": "o",
+          "variable": "or",
+          "before": "-<",
+          "after": "<",
+          "supporting_rows": [
+            "<+<"
+          ]
+        }
+      ],
+      "fixed_point": {
+        "ab": ">",
+        "ac": "<",
+        "bd": "+",
+        "be": ">",
+        "cd": "+",
+        "cm": "<",
+        "dg": "+",
+        "ef": ">",
+        "eg": "-",
+        "fh": "+",
+        "fq": ">",
+        "gh": "+",
+        "hj": "+",
+        "ij": "-",
+        "ik": "<",
+        "jl": "+",
+        "kl": "+",
+        "kn": "<",
+        "ls": "+",
+        "mn": "-",
+        "mo": "<",
+        "np": "<",
+        "op": "+",
+        "or": "<",
+        "qs": "->",
+        "rs": "-<"
+      },
+      "split_variable": "qs"
+    },
+    {
+      "parent": 4,
+      "branch": {
+        "qs": "-"
+      },
+      "propagation": [
+        {
+          "constraint": "s",
+          "variable": "rs",
+          "before": "-<",
+          "after": "-",
+          "supporting_rows": [
+            "-+-"
+          ]
+        }
+      ],
+      "fixed_point": {
+        "ab": ">",
+        "ac": "<",
+        "bd": "+",
+        "be": ">",
+        "cd": "+",
+        "cm": "<",
+        "dg": "+",
+        "ef": ">",
+        "eg": "-",
+        "fh": "+",
+        "fq": ">",
+        "gh": "+",
+        "hj": "+",
+        "ij": "-",
+        "ik": "<",
+        "jl": "+",
+        "kl": "+",
+        "kn": "<",
+        "ls": "+",
+        "mn": "-",
+        "mo": "<",
+        "np": "<",
+        "op": "+",
+        "or": "<",
+        "qs": "-",
+        "rs": "-"
+      },
+      "result": "solution"
+    },
+    {
+      "parent": 4,
+      "branch": {
+        "qs": ">"
+      },
+      "propagation": [
+        {
+          "constraint": "s",
+          "variable": "rs",
+          "before": "-<",
+          "after": "<",
+          "supporting_rows": [
+            "<+>"
+          ]
+        }
+      ],
+      "fixed_point": {
+        "ab": ">",
+        "ac": "<",
+        "bd": "+",
+        "be": ">",
+        "cd": "+",
+        "cm": "<",
+        "dg": "+",
+        "ef": ">",
+        "eg": "-",
+        "fh": "+",
+        "fq": ">",
+        "gh": "+",
+        "hj": "+",
+        "ij": "-",
+        "ik": "<",
+        "jl": "+",
+        "kl": "+",
+        "kn": "<",
+        "ls": "+",
+        "mn": "-",
+        "mo": "<",
+        "np": "<",
+        "op": "+",
+        "or": "<",
+        "qs": ">",
+        "rs": "<"
+      },
+      "result": "solution"
+    }
+  ],
+  "dual_constraints": {
+    "ab": [
+      "33",
+      "41",
+      "51",
+      "62"
+    ],
+    "np": [
+      "12",
+      "13",
+      "22",
+      "23",
+      "32",
+      "33",
+      "42",
+      "43"
+    ],
+    "op": [
+      "13",
+      "23",
+      "36"
+    ]
+  },
+  "physical104d_solution": {
+    "ab": ">",
+    "ac": "<",
+    "bd": "+",
+    "be": ">",
+    "cd": "+",
+    "cm": "<",
+    "dg": "+",
+    "ef": ">",
+    "eg": "-",
+    "fh": "+",
+    "fq": ">",
+    "gh": "+",
+    "hj": "+",
+    "ij": "-",
+    "ik": "<",
+    "jl": "+",
+    "kl": "+",
+    "kn": "<",
+    "ls": "+",
+    "mn": "-",
+    "mo": "<",
+    "np": "<",
+    "op": "+",
+    "or": "<",
+    "qs": ">",
+    "rs": "<"
+  },
+  "physical_line_correspondence": [
+    {
+      "line": "ab",
+      "physical_edge": [
+        1,
+        3
+      ],
+      "label": ">"
+    },
+    {
+      "line": "ac",
+      "physical_edge": [
+        1,
+        7
+      ],
+      "label": "<"
+    },
+    {
+      "line": "bd",
+      "physical_edge": [
+        3,
+        11
+      ],
+      "label": "+"
+    },
+    {
+      "line": "be",
+      "physical_edge": [
+        2,
+        3
+      ],
+      "label": ">"
+    },
+    {
+      "line": "cd",
+      "physical_edge": [
+        7,
+        11
+      ],
+      "label": "+"
+    },
+    {
+      "line": "cm",
+      "physical_edge": [
+        6,
+        7
+      ],
+      "label": "<"
+    },
+    {
+      "line": "dg",
+      "physical_edge": [
+        10,
+        11
+      ],
+      "label": "+"
+    },
+    {
+      "line": "ef",
+      "physical_edge": [
+        2,
+        5
+      ],
+      "label": ">"
+    },
+    {
+      "line": "eg",
+      "physical_edge": [
+        2,
+        10
+      ],
+      "label": "-"
+    },
+    {
+      "line": "fh",
+      "physical_edge": [
+        5,
+        13
+      ],
+      "label": "+"
+    },
+    {
+      "line": "fq",
+      "physical_edge": [
+        4,
+        5
+      ],
+      "label": ">"
+    },
+    {
+      "line": "gh",
+      "physical_edge": [
+        10,
+        13
+      ],
+      "label": "+"
+    },
+    {
+      "line": "hj",
+      "physical_edge": [
+        12,
+        13
+      ],
+      "label": "+"
+    },
+    {
+      "line": "ij",
+      "physical_edge": [
+        9,
+        12
+      ],
+      "label": "-"
+    },
+    {
+      "line": "ik",
+      "physical_edge": [
+        9,
+        17
+      ],
+      "label": "<"
+    },
+    {
+      "line": "jl",
+      "physical_edge": [
+        12,
+        19
+      ],
+      "label": "+"
+    },
+    {
+      "line": "kl",
+      "physical_edge": [
+        17,
+        19
+      ],
+      "label": "+"
+    },
+    {
+      "line": "kn",
+      "physical_edge": [
+        16,
+        17
+      ],
+      "label": "<"
+    },
+    {
+      "line": "ls",
+      "physical_edge": [
+        18,
+        19
+      ],
+      "label": "+"
+    },
+    {
+      "line": "mn",
+      "physical_edge": [
+        6,
+        8
+      ],
+      "label": "-"
+    },
+    {
+      "line": "mo",
+      "physical_edge": [
+        6,
+        15
+      ],
+      "label": "<"
+    },
+    {
+      "line": "np",
+      "physical_edge": [
+        16,
+        17
+      ],
+      "label": "<"
+    },
+    {
+      "line": "op",
+      "physical_edge": [
+        15,
+        16
+      ],
+      "label": "+"
+    },
+    {
+      "line": "or",
+      "physical_edge": [
+        14,
+        15
+      ],
+      "label": "<"
+    },
+    {
+      "line": "qs",
+      "physical_edge": [
+        4,
+        18
+      ],
+      "label": ">"
+    },
+    {
+      "line": "rs",
+      "physical_edge": [
+        14,
+        18
+      ],
+      "label": "<"
+    }
+  ],
+  "state_space_ratio": "4982259375/35184372088832",
+  "state_space_ratio_decimal": 0.00014160432826315628,
+  "full_XCC_options": 83,
+  "reduced_XCC_options": 80
+}

@@ -1,0 +1,118 @@
+{
+  "accessed_utc": "2026-11-04T00:12:09.887272+00:00",
+  "scope": "4.6.1-25 and27 closed;21 explicitly partial, not counted complete.",
+  "book": {
+    "edition": 3,
+    "printing": 1,
+    "printed_pages_visually_read": [
+      438,
+      439,
+      677,
+      678
+    ],
+    "file_page_offset": 12
+  },
+  "findings": [
+    {
+      "id": "V2-C0199",
+      "status": "confirmed",
+      "limitation": "Leaves UFD for equal degrees; no claim that fractional computation gives wrong gcd."
+    }
+  ],
+  "verification": {
+    "result": "results/polynomial-c-extensions.json",
+    "successful_seconds": 0.07975569105474278,
+    "processes": [
+      {
+        "label": "polynomial-c-extensions",
+        "command": "timeout 120 python3 -u workstreams/vol2/verify_polynomial_c_extensions.py",
+        "time_limit_seconds": 120,
+        "started_at_utc": "2026-11-04T00:09:30.623272+00:00",
+        "log": "results/polynomial-c-extensions.log",
+        "pid": 1324149,
+        "status": "passed",
+        "exit_code": 0,
+        "finished_at_utc": "2026-11-04T00:09:30.791626+00:00"
+      }
+    ]
+  },
+  "errata": {
+    "layers": [
+      "all2-prepre",
+      "all2-pre",
+      "all2",
+      "err2",
+      "err2.textxt",
+      "err2-2e"
+    ],
+    "search_log": "sources/polynomial-c-extensions-errata.txt",
+    "matching_correction": "none located"
+  },
+  "limitations": "21 complexity remains open; FFT accuracy not inferred from exact finite-field checks. Latest physical printing and priority unverified; unsent.",
+  "artifacts": [
+    {
+      "path": "notes/polynomial-c-extensions.md",
+      "bytes": 7861,
+      "sha256": "44ba9db0cbcfad52dadef468e626089fbb061af788138f60a94b130f460394e3"
+    },
+    {
+      "path": "notes/polynomial-c-complexity-open.md",
+      "bytes": 10373,
+      "sha256": "03ac623bb0214b9ca66af7de9fcaddaffe929afc2767a33212556183957bbb44"
+    },
+    {
+      "path": "notes/C0199-brown-equal-degrees.md",
+      "bytes": 1028,
+      "sha256": "37a8e2bfd22c510bcc53aa554a46ebdac7c9c34791416400cf9189a4f70e8e6b"
+    },
+    {
+      "path": "reports/C0199-brown-equal-degrees-draft.txt",
+      "bytes": 1005,
+      "sha256": "149efb9877edf4ce5c26038626084df9758badb811efe9d0860e9703ddc600b4"
+    },
+    {
+      "path": "verify_polynomial_c_extensions.py",
+      "bytes": 5084,
+      "sha256": "cc9cfcee41510cdcebe3a971dece33587d56fed1e8c04ac2bd85805d76d7ccac"
+    },
+    {
+      "path": "results/polynomial-c-extensions.json",
+      "bytes": 949,
+      "sha256": "ce888cd2dc6d0eb4cb44fa283af3d069638ad0596d0bf19d3b36e99585d94943"
+    },
+    {
+      "path": "results/polynomial-c-extensions.log",
+      "bytes": 117,
+      "sha256": "0fafc54b25aa321aa1a5a41cf9bfdfb64e528069db55c28517c2c0fb2724bb9c"
+    },
+    {
+      "path": "sources/polynomial-c-extensions-errata.txt",
+      "bytes": 3459,
+      "sha256": "396544c4ed42891bac4cda2cc4fc119d839b77a1180be6a164d500e536731df8"
+    },
+    {
+      "path": "images/vol2-p438.png",
+      "bytes": 663784,
+      "sha256": "6d6438df99f6dd031082feda4716af8c5c46c5fc35dae9e87667ac301745dda4"
+    },
+    {
+      "path": "images/vol2-p439.png",
+      "bytes": 565998,
+      "sha256": "22a71a3c7946c3bdb34ec7bb52736da9c61ded708ba47e1254c2cdab2aa345d4"
+    },
+    {
+      "path": "images/vol2-p677.png",
+      "bytes": 685692,
+      "sha256": "e2e242c68d54ff1e1e99142150862887add721f7b714eee56aca34b87a50170e"
+    },
+    {
+      "path": "images/vol2-p678.png",
+      "bytes": 718095,
+      "sha256": "de33edc75727d68d023994165c5d10d3894a65c2064a6b311f9eab59c104cc43"
+    }
+  ],
+  "subsequent_update": {
+    "date_utc": "2026-11-04T01:05:02.887693+00:00",
+    "exercise21": "Closed by sources/polynomial-c-complexity.json with explicit dense schoolbook model; original partial scope above describes the earlier block."
+  }
+}

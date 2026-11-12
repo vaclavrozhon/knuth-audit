@@ -1,0 +1,92 @@
+{
+  "at_utc": "2026-11-03T13:24:46.407602+00:00",
+  "edition": "4B ed1 print2 (2022), local digital source; physical copy not checked",
+  "author_draft": "fasc5c, September11 2019; original PostScript converted PDF",
+  "page_mapping": {
+    "question": [
+      146,
+      166,
+      82,
+      88
+    ],
+    "answer": [
+      466,
+      486,
+      170,
+      176
+    ],
+    "continuation": [
+      467,
+      487,
+      171,
+      177
+    ],
+    "appendix": [
+      671,
+      691,
+      253,
+      259
+    ]
+  },
+  "viewed_images": [
+    "images/vol4b-p146.png",
+    "images/vol4b-p466.png",
+    "images/snakes172-draft-176.png",
+    "images/chess173-174-original-487.png",
+    "images/chess173-174-draft-177.png",
+    "images/chess173-174-original-691.png",
+    "images/chess173-174-draft-259.png",
+    "images/snakes172-all4b-Kautz-pdf14.png",
+    "images/chess173-174-errata-23.png",
+    "images/chess173-174-fascicle-errata-7.png",
+    "images/chess173-174-nacin-cv-pdf2.png"
+  ],
+  "source_observations": [
+    {
+      "source": "nacin-knights2018.html",
+      "url": "https://quadratablog.blogspot.com/2018/05/knights-sudoku.html",
+      "date_shown": "2018-05-16",
+      "observation": "Same27-knight,three-per-row/column/box and attack-label rules. Author announces four accepted CMJ puzzles for the autumn."
+    },
+    {
+      "source": "nacin-bishops2018.html",
+      "url": "https://quadratablog.blogspot.com/2018/06/bishops-sudoku.html",
+      "date_shown": "2018-06-06",
+      "observation": "Same bishop variant, linked explicitly to the previous knight post."
+    },
+    {
+      "url": "https://www.jstor.org/stable/e48509400",
+      "access": "Public publisher issue table read through web tool; no local article copy",
+      "observation": "CMJ49(4),September2018; DavidNacin Knightdoku1–4,pp250,261,269,277;solutions287."
+    },
+    {
+      "source": "nacin-cv2019.pdf",
+      "page": 2,
+      "observation": "Author lists Knightdoku inCMJ49(4)2018 and Bishop’sSudoku inMAAFocus38(6):36,2018. Stale2015runningheader is not used as date."
+    },
+    {
+      "source": "knightdoku-crossref.json",
+      "observation": "Primary publisher deposit confirms title,author,volume49,issue4,page250. Datefields differAug8/Sep6 but both precedeDecember2018; exact day not resolved."
+    }
+  ],
+  "unsuccessful_retrievals": [
+    {
+      "url": "https://digitaleditions.walsworthprintgroup.com/publication/?i=546728",
+      "result": "zero-byte response; the empty maa-focus-2018-issue.html is not evidence and is excluded from commit"
+    },
+    {
+      "url": "https://www.tandfonline.com/doi/full/10.1080/07468342.2018.1502549",
+      "result": "403 / inaccessible; full article not read"
+    },
+    {
+      "url": "https://www.jstor.org/stable/48661714",
+      "result": "individual article inaccessible; only issue TOC read"
+    }
+  ],
+  "not_claimed": [
+    "Absolute earliest publication date",
+    "Priority of our report",
+    "Independent provenance of private Beluhov/Stappers computations",
+    "Global minimality of corrected clue counts"
+  ]
+}

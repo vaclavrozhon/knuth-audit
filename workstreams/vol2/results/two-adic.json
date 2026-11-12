@@ -1,0 +1,56 @@
+{
+  "division_comparisons": 17885,
+  "criterion_comparisons": 8193,
+  "criterion_modulus": 32768,
+  "algorithm_h_64_bit_roots": 1025,
+  "independent_odd_root_sets_mod_1024": 128,
+  "rational_periods_count": 100,
+  "checkpoint_note": "First run passed these blocks, then failed on a transcription of 1/10 as 7/10. Counts recovered from code and log; period details were not saved. Completed blocks are skipped on resume.",
+  "status": "passed",
+  "printed_rational_suffixes": [
+    [
+      7,
+      1,
+      "000000000000111",
+      0
+    ],
+    [
+      -7,
+      1,
+      "111111111111001",
+      0
+    ],
+    [
+      7,
+      4,
+      "00000000000000111",
+      2
+    ],
+    [
+      1,
+      7,
+      "110110110110111",
+      0
+    ],
+    [
+      -1,
+      7,
+      "001001001001001",
+      0
+    ],
+    [
+      1,
+      10,
+      "1100110011001101",
+      1
+    ]
+  ],
+  "printed_square_root_suffixes": [
+    "100000010110101",
+    "011111101001011"
+  ],
+  "zero_exception": {
+    "square_root": 0,
+    "reason": "0 mod 2^(2k+3) is 0, never 2^(2k), for every k >= 0."
+  }
+}

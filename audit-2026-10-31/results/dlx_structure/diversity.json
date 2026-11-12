@@ -1,0 +1,180 @@
+{
+  "status": "verified",
+  "checked_at_utc": "2026-11-01T18:16:22.909159+00:00",
+  "source_sha256": "d2cba63121d207596f5a70f4056bbe175aa70539578eda0afca6b83c028210d1",
+  "examples": [
+    {
+      "primary": [
+        "a"
+      ],
+      "secondary": [
+        "x",
+        "y"
+      ],
+      "options": [
+        [
+          "a",
+          "x"
+        ],
+        [
+          "a",
+          "y"
+        ]
+      ],
+      "solution_vectors": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "distance": 2,
+      "solutions": 2,
+      "initialization_mems": 114,
+      "search_mems": 83,
+      "updates": 5,
+      "bytes": 228,
+      "nodes": 3,
+      "profile": [
+        1,
+        2
+      ],
+      "label": "distance2",
+      "command": [
+        "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+        "v129",
+        "m1"
+      ],
+      "input_sha256": "84971eab5ffeaf3c989a2c968156cc8db27bf00f3f98774ddd59b5eac7b510ed",
+      "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+      "elapsed_seconds": 0.0031167469860520214
+    },
+    {
+      "primary": [
+        "a",
+        "b"
+      ],
+      "secondary": [],
+      "options": [
+        [
+          "a",
+          "b"
+        ],
+        [
+          "a"
+        ],
+        [
+          "b"
+        ]
+      ],
+      "solution_vectors": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "distance": 3,
+      "solutions": 2,
+      "initialization_mems": 105,
+      "search_mems": 97,
+      "updates": 4,
+      "bytes": 216,
+      "nodes": 4,
+      "profile": [
+        1,
+        2,
+        1
+      ],
+      "label": "distance3",
+      "command": [
+        "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+        "v129",
+        "m1"
+      ],
+      "input_sha256": "e6c3662bb028d070996f83d0716bac80ac70aa38bb6ae8b33ee8f7f24cc90193",
+      "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+      "elapsed_seconds": 0.0018144499917980283
+    },
+    {
+      "primary": [
+        "a",
+        "b"
+      ],
+      "secondary": [
+        "x",
+        "y"
+      ],
+      "options": [
+        [
+          "a",
+          "b"
+        ],
+        [
+          "a",
+          "x"
+        ],
+        [
+          "b",
+          "y"
+        ]
+      ],
+      "solution_vectors": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "distance": 3,
+      "solutions": 2,
+      "initialization_mems": 165,
+      "search_mems": 153,
+      "updates": 9,
+      "bytes": 312,
+      "nodes": 4,
+      "profile": [
+        1,
+        2,
+        1
+      ],
+      "label": "f109-total-uniform",
+      "command": [
+        "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+        "v129",
+        "m1"
+      ],
+      "input_sha256": "824547c2d49fa7d4c1afad17d691cc26cab6d1059232bd07aab1fe280dbeb04d",
+      "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+      "elapsed_seconds": 0.0017864640103653073
+    }
+  ],
+  "exhaustive": {
+    "problems": 10435,
+    "solutions": 14668,
+    "uniform_primary_problems": 737,
+    "quasi_uniform_problems": 4021
+  },
+  "solution_pair_distances": {
+    "2": 3756,
+    "3": 3956,
+    "4": 960,
+    "5": 40
+  },
+  "duplicate_option_cases": 3,
+  "finding": "F109: equal total option sizes do not imply even distance; equal PRIMARY sizes do.",
+  "scope": "All families of up to five distinct options on up to four items, every nonempty primary prefix; exact subset enumeration. General proofs in notes."
+}

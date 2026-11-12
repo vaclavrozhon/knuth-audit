@@ -1,0 +1,47 @@
+{
+  "quarter_turn_example": [
+    [
+      0,
+      1,
+      2,
+      4
+    ],
+    [
+      2,
+      4,
+      3,
+      4
+    ],
+    [
+      3,
+      4,
+      0,
+      2
+    ],
+    [
+      0,
+      2,
+      0,
+      1
+    ]
+  ],
+  "bidiagonal_example": [
+    [
+      0,
+      1,
+      3,
+      4
+    ],
+    [
+      3,
+      4,
+      0,
+      1
+    ]
+  ],
+  "literal_rejection": "b > n-d (1 > 0), although antidiagonal image is itself",
+  "correct_secondary_tokens": {
+    "371a_third_component": "x34 y02",
+    "371b_third_example_first_component": "x01 y23"
+  }
+}

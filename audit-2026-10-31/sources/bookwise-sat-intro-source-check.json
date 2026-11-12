@@ -1,0 +1,53 @@
+{
+  "checked_at_utc": "2026-11-12T00:13:31.689489+00:00",
+  "edition": "Volume 4B first edition, second printing, November 2022",
+  "fresh_errata_manifests": [
+    "integration/2026-11-10-bookwise/errata/vol4b-manifest.json",
+    "integration/2026-11-10-bookwise/errata/vol4b-sat-manifest.json"
+  ],
+  "errata_scope": "4B main 185–192, exercises 317–320, answers 549–556; Fascicle 6 main 1–8, questions 133–136, answers 185–192.",
+  "known_corrections": [
+    "SAT 5 replacement (2023)",
+    "answer 10 wording (2024)",
+    "equation 20 index (2025)",
+    "answer 17 replacement (2025)",
+    "answer 19 h(6) and wording (2024/2025)",
+    "answer 35 inequality (2025)",
+    "historical answer 11 and 24 changes incorporated"
+  ],
+  "originals_inspected": [
+    "images/bookwise-p318.png",
+    "images/bookwise-p319.png",
+    "images/bookwise-p553.png",
+    "images/bookwise-mcgregor-570.png",
+    "images/bookwise-mcgregor-571.png",
+    "images/bookwise-p555.png",
+    "images/bookwise-sat-main-211.png",
+    "images/bookwise-sat-main-212.png",
+    "images/bookwise-fasc6a-p189.png"
+  ],
+  "author_draft": {
+    "url": "https://www-cs-faculty.stanford.edu/~knuth/fasc6a.ps.gz",
+    "printed_pages": [
+      134,
+      189
+    ],
+    "result": "Same unrounded coloring bound, totalizer node count and missing prefix-cap normalization."
+  },
+  "public_queries": [
+    "Knuth \"553\" \"25\" \"clauses\" errata",
+    "Knuth \"Sinz\" \"29\" \"constraints\" errata",
+    "Knuth \"5n\" \"12\" \"nodes\" SAT",
+    "Knuth McGregor graph \"5/6\" \"8\"",
+    "Knuth McGregor \"18\" \"ceiling\" errata",
+    "Knuth \"McGregor\" \"7\" \"8\" coloring"
+  ],
+  "public_report_inspected": "https://taocp-fun.gitlab.io/v4f6-sat-tut/",
+  "public_result": "Tutorial restates 18 and 29 but supplies no matching correction. No matching correction found in searched sources; no absolute priority claim.",
+  "primary_graph_source": "audit-2026-10-31/sources/bookwise-mcgregor-graph.provenance.json",
+  "proof_check": {
+    "file": "audit-2026-10-31/results/bookwise-mcgregor18/drat-check.txt",
+    "result": "s VERIFIED",
+    "cnf_sha256": "43e786f54617c447859a1a2b03d0c882cd49d848aa3f95c16b83e07d10443caf"
+  }
+}

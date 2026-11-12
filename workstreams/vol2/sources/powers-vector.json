@@ -1,0 +1,310 @@
+{
+  "block": "V2-X0070",
+  "checked_at_utc": "2026-11-04T07:26:04.192267+00:00",
+  "edition": 3,
+  "printing": 1,
+  "physical_copy_verified": false,
+  "book_visual_pages": [
+    485,
+    696,
+    697,
+    698
+  ],
+  "scope": "Complete independent proofs of36/37/39/40, including fixed-m counting lower bound, repeated outputs, and nonzero coefficient matrix. Pippenger uniform asymptotic sourced to original theorem; its external1979 graph upper bound not independently reproved.",
+  "primary_read": {
+    "Straus": "Original806–808, proof807–808 visually read.",
+    "Yao": "Original100–103 complete text and visual.",
+    "Olivos": "Original13–21 complete visual, including1979 preliminary-report reference.",
+    "Pippenger": "Original230–250 complete visual. Exact main theorem and dependence on external reference6 distinguished.",
+    "Knuth_Q58": "Author bibliography only, full article unavailable; known2022 citation correction."
+  },
+  "verification": {
+    "blocks": [
+      "straus",
+      "yao",
+      "duality",
+      "composition"
+    ],
+    "block_seconds": {
+      "straus": 0.22229180997237563,
+      "yao": 6.403495748003479,
+      "duality": 0.018953346996568143,
+      "composition": 1.0798324180068448
+    },
+    "wrapper_seconds": 8.101999125035945,
+    "tool_session": 12714,
+    "pids": [
+      1575527,
+      1575529,
+      1575537,
+      1575540
+    ],
+    "exit_codes": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "timeout_seconds_per_block": 300,
+    "mathematical_tests_repeated": false
+  },
+  "errata": {
+    "new_findings": [],
+    "known": [
+      "2002-01-01 answer37 bucket construction.",
+      "2002-01-31 Pippenger characterization.",
+      "2022-08-14 exercise37/answer39 repeated targets and Q58 pages2–4.",
+      "2022-02-22 answer40 nonzero matrix.",
+      "1981-06-15 second-edition Olivos citation."
+    ],
+    "searched": "Six complete layers; selected page blocks485/697/698 and second-edition465/639 preserved in powers-basic-errata."
+  },
+  "errata_source_hashes": [
+    {
+      "path_from_repository": "errata/text/all2-prepre.txt",
+      "sha256": "62a1ff323ca421f2640e2337f922dbf8cfc8e86c20d9b11acfc91221721c6f58"
+    },
+    {
+      "path_from_repository": "errata/text/all2-pre.txt",
+      "sha256": "c1735b70547678d739eae3a8d7b02872c737218eed7706a0aba8fb6fc21a6529"
+    },
+    {
+      "path_from_repository": "errata/text/all2.txt",
+      "sha256": "1c4d7f2259e147db0ebe84b4bf0ce8864b307afb4ccfbe48efcb1f5f5999ac58"
+    },
+    {
+      "path_from_repository": "errata/text/err2.txt",
+      "sha256": "1b5c93712c3c467a48679e0040ba6c5869998b25184dbd125a5d096ce96e9ab0"
+    },
+    {
+      "path_from_repository": "errata/text/err2-2e.txt",
+      "sha256": "cf2d9ced25e86f6fd9be0e4f82700a979fc174dff6860e7a4b7950292c24e154"
+    },
+    {
+      "path_from_repository": "errata/originals/err2.textxt",
+      "sha256": "8faa21566312314ec6bda0f8956913deb312517fd9fa688dcc0bf19e1f21962e"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "notes/powers-vector.md",
+      "sha256": "d7e345b96c3d86e4d2bc7281760684df425532b769a70ad1ab60d4bfe1e11941",
+      "bytes": 17851
+    },
+    {
+      "path": "verify_powers_vector.py",
+      "sha256": "f2a86a959236bebb0286258d09ab5db2f41f5ba833e5a1a43fd6e0ff921677ed",
+      "bytes": 11893
+    },
+    {
+      "path": "results/powers-vector.json",
+      "sha256": "cb6a7ebb8220923fbb054f7deca4abc9c8457d1032e1e2be978b102bf000023b",
+      "bytes": 11023
+    },
+    {
+      "path": "results/powers-vector.log",
+      "sha256": "cdca8465084bcd17b79368cd96691ac1b0a80c6cdcbbbe493271f5e93461dcf6",
+      "bytes": 137
+    },
+    {
+      "path": "sources/powers-vector-source-access.json",
+      "sha256": "c959d75ea6a37be0eb5fa2470a4e9ead15c2f84bec52124b79d019b599f38f87",
+      "bytes": 11663
+    },
+    {
+      "path": "sources/powers-basic-errata.txt",
+      "sha256": "8b5f49e0db8cda41d67694029f01f512ca3e81553fe089f35b35ee3a26eec0f3",
+      "bytes": 39852
+    },
+    {
+      "path": "sources/bernstein-pippenger-2002.pdf",
+      "sha256": "be00217ef7c7c513ba7da9eb05922271b015d4b6c362d205eafa5b293823a42c",
+      "bytes": 357011
+    },
+    {
+      "path": "sources/bernstein-pippenger-2002.txt",
+      "sha256": "49aa9ba79917934f081aa2d5c6ad7a3abed8954603089bb6afd6f78d70c57558",
+      "bytes": 69358
+    },
+    {
+      "path": "sources/knuth-vita-graphs.pdf",
+      "sha256": "5b53e469a33094cce5a776c91c7297108b08249cb3b1dd043494a0b6db320ae4",
+      "bytes": 330116
+    },
+    {
+      "path": "sources/knuth-vita-graphs.txt",
+      "sha256": "e67b94f837e81986f17ea4de59d5ee735611cbfd1023e9d7d3e8ba47f69c1e12",
+      "bytes": 167418
+    },
+    {
+      "path": "sources/yao-1976-powers.pdf",
+      "sha256": "b1cb3672339e6086ea50c57163150d18b3cb138f5273b6604f7693014af4599d",
+      "bytes": 326690
+    },
+    {
+      "path": "sources/yao-1976-powers.txt",
+      "sha256": "8493790df96a567d6ecf8fd5a6d30a9b8004fb67263ae7010d1a20c5a243eb56",
+      "bytes": 33450
+    },
+    {
+      "path": "images/yao-1976-p100.png",
+      "sha256": "f50185f4aad94f110934b92a8cf5b59e120efec28138ac1ead2ec380106fda9c",
+      "bytes": 340033
+    },
+    {
+      "path": "images/yao-1976-p101.png",
+      "sha256": "6d03cbe5414eacb7d48ef92272848a4434c6c7039e86e2f8990380ac92be4132",
+      "bytes": 241235
+    },
+    {
+      "path": "images/yao-1976-p102.png",
+      "sha256": "50ab276b933ad69056cbe7c1a7154830e774d67edef6de90538fddf627a41772",
+      "bytes": 319380
+    },
+    {
+      "path": "images/yao-1976-p103.png",
+      "sha256": "be32447d9fe5b861a22826e3736083c39507568204c74c55ac464f6c545dc40e",
+      "bytes": 256988
+    },
+    {
+      "path": "sources/straus-1964-crossref.json",
+      "sha256": "be8f9c53ea7facd94dca01c5cb0d9fad41e45a6d19180f8ef7648d54022be44d",
+      "bytes": 1573
+    },
+    {
+      "path": "sources/straus-1964-scan.html",
+      "sha256": "afaeb848be7783379ee01e57537ec0fc8e44c150e77aa9352aa6f933387a3e62",
+      "bytes": 218
+    },
+    {
+      "path": "sources/straus-1964-scan01.jpg",
+      "sha256": "4aba6c3574b890bb3fdcd2969bf1c76410bb3f086037780434923f8750b867b9",
+      "bytes": 343587
+    },
+    {
+      "path": "sources/straus-1964-scan02.jpg",
+      "sha256": "53d1aab71f4d715add7e1d754b962906e857fc589e5cc147bdb86a83ebee1ac4",
+      "bytes": 385768
+    },
+    {
+      "path": "sources/olivos-1981-scan.html",
+      "sha256": "2ee9d404cb8e062f5164ebc9db6b97a4986ea7f33c8e7686482d0ff079f390e4",
+      "bytes": 500
+    },
+    {
+      "path": "sources/olivos-1981-scan01.jpg",
+      "sha256": "afd7d5e25d8fbd1e38140abaebedf8feb0d748955e44794224ab8820cce1233e",
+      "bytes": 304689
+    },
+    {
+      "path": "sources/olivos-1981-scan02.jpg",
+      "sha256": "96a4b7f5a958382ee8aaf3862bb922012c20c5ef41faee80bf56334fcf755db3",
+      "bytes": 360413
+    },
+    {
+      "path": "sources/olivos-1981-scan03.jpg",
+      "sha256": "df9a7cde74cb53f05d10484d447b157babd71e1f8ad21aa721a83ecc81b0fe82",
+      "bytes": 351862
+    },
+    {
+      "path": "sources/olivos-1981-scan04.jpg",
+      "sha256": "169c84a5c759bc4a5f5f26ec75a4ecc2cb18c51821c29daff32e2630e11165e5",
+      "bytes": 363579
+    },
+    {
+      "path": "sources/olivos-1981-scan05.jpg",
+      "sha256": "0b09e84f21de4fa42b4690a27cf0288881c8801703fc225888964a788c040f03",
+      "bytes": 320500
+    },
+    {
+      "path": "sources/pippenger-1980-page.html",
+      "sha256": "49ce044e9f660650582a87b967a52350f7881c03c3c4fd5ee8c6352d2e51c7f9",
+      "bytes": 33128
+    },
+    {
+      "path": "sources/pippenger-1980-scan.html",
+      "sha256": "cf86c3506cd2e0608813ebe252338212d34e8cf9d9e982d1287818b7d16420fe",
+      "bytes": 1130
+    },
+    {
+      "path": "sources/pippenger-1980-scan01.jpg",
+      "sha256": "7dd479704e11273572dbad19c7fa51c0f5b7c87bb6bf75014330fa977c27e159",
+      "bytes": 338732
+    },
+    {
+      "path": "sources/pippenger-1980-scan02.jpg",
+      "sha256": "309c09b0034a3c14f5a2536246164edac31783043227d450dc7d83d3cef95eb5",
+      "bytes": 296833
+    },
+    {
+      "path": "sources/pippenger-1980-scan03.jpg",
+      "sha256": "5a5ebde7bce8709f70149bf802815e56e94a05fb60185fa56d46c21320811cd9",
+      "bytes": 273952
+    },
+    {
+      "path": "sources/pippenger-1980-scan04.jpg",
+      "sha256": "3cf7f91d1b2f151d9ca4b66e1755ae86fe9896b9b74db6c5bbaf365dcc36d511",
+      "bytes": 240213
+    },
+    {
+      "path": "sources/pippenger-1980-scan05.jpg",
+      "sha256": "98de9975c4a60bdbe0aec7ab1b994359aeff20c929ed15ae546dc4e4fde6a22b",
+      "bytes": 241166
+    },
+    {
+      "path": "sources/pippenger-1980-scan06.jpg",
+      "sha256": "7eece28c598f53c8b34a78f21e3cc0df231db879678cebf9e0c1b7f62fed8347",
+      "bytes": 194628
+    },
+    {
+      "path": "sources/pippenger-1980-scan07.jpg",
+      "sha256": "3ccbea4d4963c919fd9e5b55834ff662ec02032ed6847c6efabc70b9ffd24d11",
+      "bytes": 297712
+    },
+    {
+      "path": "sources/pippenger-1980-scan08.jpg",
+      "sha256": "74aaec4588e59d30ce6bcafa2478a0b62083da0a70fda3d7c2bb8f8740a79253",
+      "bytes": 229902
+    },
+    {
+      "path": "sources/pippenger-1980-scan09.jpg",
+      "sha256": "73175078562a8fa29f6ad2ac757e91a06b77d3160aa580ccc0830bb7db169c7e",
+      "bytes": 288669
+    },
+    {
+      "path": "sources/pippenger-1980-scan10.jpg",
+      "sha256": "f4d51db8a606d572cad811b764d5169b87a1f970a019a1b2891a59b28d988c0d",
+      "bytes": 248041
+    },
+    {
+      "path": "sources/pippenger-1980-scan11.jpg",
+      "sha256": "1543e845fd9afb0975ba4ddcad2746055352c0e2362e1035773eaf70102d19fb",
+      "bytes": 388344
+    },
+    {
+      "path": "sources/bernstein-bibliography-vector.html",
+      "sha256": "2b199bf5e42bf5d15b28c56a860c54eeb529d423f9667c6d495bd19adbb0320c",
+      "bytes": 602343
+    },
+    {
+      "path": "images/vol2-p485.png",
+      "sha256": "f1495bc3a517b11fae66966e47a53b4da22c79de63b976ebca18827569395882",
+      "bytes": 337946
+    },
+    {
+      "path": "images/vol2-p696.png",
+      "sha256": "3fb1e24143e2eed5d6a17a12331ad2d398cb66df552a5b8f65f20eb923423101",
+      "bytes": 388218
+    },
+    {
+      "path": "images/vol2-p697.png",
+      "sha256": "3c76bc667674c0f6223e7fe23c8d49342201fb16ad22deb6f5298f7321bcbd83",
+      "bytes": 379881
+    },
+    {
+      "path": "images/vol2-p698.png",
+      "sha256": "72fdf9b1e08e9a593f23f63688c433b5faba0556946aa5eb1a4cecf108d8230b",
+      "bytes": 295431
+    }
+  ]
+}

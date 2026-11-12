@@ -1,0 +1,31 @@
+{
+  "started_at_utc": "2026-11-02T19:59:58.968049+00:00",
+  "jobs": [
+    {
+      "task": "DLX141 native full census of all three boards",
+      "pid": 1147292,
+      "script": "run_vertices141.py",
+      "command": [
+        "/usr/bin/python3",
+        "-u",
+        "audit-2026-10-31/run_vertices141.py"
+      ],
+      "log": "results/vertices141/native-wrapper.log",
+      "metadata": "results/vertices141/native/queue.json",
+      "timeout_seconds": 172800
+    },
+    {
+      "task": "DLX141 independent full census of all three boards",
+      "pid": 1147293,
+      "script": "run_vertices141_independent.py",
+      "command": [
+        "/usr/bin/python3",
+        "-u",
+        "audit-2026-10-31/run_vertices141_independent.py"
+      ],
+      "log": "results/vertices141/independent-wrapper.log",
+      "metadata": "results/vertices141/independent/run.json",
+      "timeout_seconds": 172800
+    }
+  ]
+}

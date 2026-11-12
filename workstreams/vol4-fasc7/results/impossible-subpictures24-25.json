@@ -1,0 +1,1806 @@
+{
+  "subpictures": [
+    {
+      "name": "24-TT",
+      "source_path_range_half_open": [
+        18,
+        21
+      ],
+      "source_origin": [
+        "18419/256",
+        "19499/64"
+      ],
+      "source_grid_unit": "2799/1024",
+      "maximum_source_residual_squared": "244203133/32000000000000",
+      "source_path_grid_vertices": {
+        "18": [
+          [
+            0,
+            2
+          ],
+          [
+            12,
+            2
+          ]
+        ],
+        "19": [
+          [
+            2,
+            0
+          ],
+          [
+            6,
+            2
+          ]
+        ],
+        "20": [
+          [
+            6,
+            4
+          ],
+          [
+            10,
+            2
+          ]
+        ]
+      },
+      "points": {
+        "v00": [
+          0,
+          2
+        ],
+        "v01": [
+          2,
+          0
+        ],
+        "v02": [
+          6.0,
+          2.0
+        ],
+        "v03": [
+          6,
+          4
+        ],
+        "v04": [
+          10.0,
+          2.0
+        ],
+        "v05": [
+          12,
+          2
+        ]
+      },
+      "lines": [
+        "v00_v02",
+        "v01_v02",
+        "v02_v04",
+        "v03_v04",
+        "v04_v05"
+      ],
+      "junctions": {
+        "v02": {
+          "type": "T",
+          "neighbors": [
+            "v04",
+            "v01",
+            "v00"
+          ]
+        },
+        "v04": {
+          "type": "T",
+          "neighbors": [
+            "v02",
+            "v03",
+            "v05"
+          ]
+        }
+      },
+      "relations": {
+        "v02": [
+          [
+            "v02_v04",
+            "v01_v02",
+            "v00_v02"
+          ],
+          [
+            ">+>",
+            ">->",
+            "><>",
+            ">>>"
+          ]
+        ],
+        "v04": [
+          [
+            "v02_v04",
+            "v03_v04",
+            "v04_v05"
+          ],
+          [
+            "<+<",
+            "<-<",
+            "<<<",
+            "<><"
+          ]
+        ]
+      },
+      "dangling_ends": [
+        "v00",
+        "v01",
+        "v03",
+        "v05"
+      ],
+      "contradiction_propagation": [
+        {
+          "constraint": "v02",
+          "variable": "v02_v04",
+          "before": "+-<>",
+          "after": ">",
+          "supporting_rows": [
+            ">+>",
+            ">->",
+            "><>",
+            ">>>"
+          ]
+        },
+        {
+          "constraint": "v02",
+          "variable": "v00_v02",
+          "before": "+-<>",
+          "after": ">",
+          "supporting_rows": [
+            ">+>",
+            ">->",
+            "><>",
+            ">>>"
+          ]
+        },
+        {
+          "constraint": "v04",
+          "contradiction": true
+        }
+      ]
+    },
+    {
+      "name": "24-VTT",
+      "source_path_range_half_open": [
+        21,
+        24
+      ],
+      "source_origin": [
+        "9831/64",
+        "9749/32"
+      ],
+      "source_grid_unit": "2803/1024",
+      "maximum_source_residual_squared": "1220890633/64000000000000",
+      "source_path_grid_vertices": {
+        "21": [
+          [
+            8,
+            4
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            8,
+            0
+          ]
+        ],
+        "22": [
+          [
+            0,
+            0
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "23": [
+          [
+            4,
+            3
+          ],
+          [
+            8,
+            2
+          ]
+        ]
+      },
+      "points": {
+        "v00": [
+          0,
+          0
+        ],
+        "v01": [
+          0,
+          2
+        ],
+        "v02": [
+          4.0,
+          1.0
+        ],
+        "v03": [
+          4.0,
+          3.0
+        ],
+        "v04": [
+          8,
+          0
+        ],
+        "v05": [
+          8,
+          2
+        ],
+        "v06": [
+          8,
+          4
+        ]
+      },
+      "lines": [
+        "v00_v02",
+        "v01_v02",
+        "v01_v03",
+        "v02_v04",
+        "v03_v05",
+        "v03_v06"
+      ],
+      "junctions": {
+        "v03": {
+          "type": "T",
+          "neighbors": [
+            "v06",
+            "v05",
+            "v01"
+          ]
+        },
+        "v01": {
+          "type": "V",
+          "neighbors": [
+            "v02",
+            "v03"
+          ]
+        },
+        "v02": {
+          "type": "T",
+          "neighbors": [
+            "v04",
+            "v00",
+            "v01"
+          ]
+        }
+      },
+      "relations": {
+        "v03": [
+          [
+            "v03_v06",
+            "v03_v05",
+            "v01_v03"
+          ],
+          [
+            ">+>",
+            ">->",
+            ">>>",
+            "><>"
+          ]
+        ],
+        "v01": [
+          [
+            "v01_v02",
+            "v01_v03"
+          ],
+          [
+            "<+",
+            "<>",
+            "+>",
+            ">-",
+            "><",
+            "-<"
+          ]
+        ],
+        "v02": [
+          [
+            "v02_v04",
+            "v00_v02",
+            "v01_v02"
+          ],
+          [
+            ">+>",
+            ">->",
+            "><>",
+            ">>>"
+          ]
+        ]
+      },
+      "dangling_ends": [
+        "v00",
+        "v04",
+        "v05",
+        "v06"
+      ],
+      "contradiction_propagation": [
+        {
+          "constraint": "v03",
+          "variable": "v03_v06",
+          "before": "+-<>",
+          "after": ">",
+          "supporting_rows": [
+            ">+>",
+            ">->",
+            ">>>",
+            "><>"
+          ]
+        },
+        {
+          "constraint": "v03",
+          "variable": "v01_v03",
+          "before": "+-<>",
+          "after": ">",
+          "supporting_rows": [
+            ">+>",
+            ">->",
+            ">>>",
+            "><>"
+          ]
+        },
+        {
+          "constraint": "v01",
+          "variable": "v01_v02",
+          "before": "+-<>",
+          "after": "+<",
+          "supporting_rows": [
+            "<>",
+            "+>"
+          ]
+        },
+        {
+          "constraint": "v02",
+          "contradiction": true
+        }
+      ]
+    },
+    {
+      "name": "24-YTT",
+      "source_path_range_half_open": [
+        24,
+        28
+      ],
+      "source_origin": [
+        "58801/256",
+        "19499/64"
+      ],
+      "source_grid_unit": "2799/1024",
+      "maximum_source_residual_squared": "244140641/64000000000000",
+      "source_path_grid_vertices": {
+        "24": [
+          [
+            12,
+            4
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            12,
+            0
+          ]
+        ],
+        "25": [
+          [
+            4,
+            0
+          ],
+          [
+            8,
+            1
+          ]
+        ],
+        "26": [
+          [
+            8,
+            3
+          ],
+          [
+            12,
+            2
+          ]
+        ],
+        "27": [
+          [
+            0,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ]
+      },
+      "points": {
+        "v00": [
+          0,
+          2
+        ],
+        "v01": [
+          4,
+          0
+        ],
+        "v02": [
+          4,
+          2
+        ],
+        "v03": [
+          8.0,
+          1.0
+        ],
+        "v04": [
+          8.0,
+          3.0
+        ],
+        "v05": [
+          12,
+          0
+        ],
+        "v06": [
+          12,
+          2
+        ],
+        "v07": [
+          12,
+          4
+        ]
+      },
+      "lines": [
+        "v00_v02",
+        "v01_v03",
+        "v02_v03",
+        "v02_v04",
+        "v03_v05",
+        "v04_v06",
+        "v04_v07"
+      ],
+      "junctions": {
+        "v04": {
+          "type": "T",
+          "neighbors": [
+            "v07",
+            "v06",
+            "v02"
+          ]
+        },
+        "v02": {
+          "type": "Y",
+          "neighbors": [
+            "v00",
+            "v03",
+            "v04"
+          ]
+        },
+        "v03": {
+          "type": "T",
+          "neighbors": [
+            "v05",
+            "v01",
+            "v02"
+          ]
+        }
+      },
+      "relations": {
+        "v04": [
+          [
+            "v04_v07",
+            "v04_v06",
+            "v02_v04"
+          ],
+          [
+            ">+>",
+            ">->",
+            ">>>",
+            "><>"
+          ]
+        ],
+        "v02": [
+          [
+            "v00_v02",
+            "v02_v03",
+            "v02_v04"
+          ],
+          [
+            ">>-",
+            "<-<",
+            "-<>",
+            "---",
+            "+++"
+          ]
+        ],
+        "v03": [
+          [
+            "v03_v05",
+            "v01_v03",
+            "v02_v03"
+          ],
+          [
+            ">+>",
+            ">->",
+            "><>",
+            ">>>"
+          ]
+        ]
+      },
+      "dangling_ends": [
+        "v00",
+        "v01",
+        "v05",
+        "v06",
+        "v07"
+      ],
+      "contradiction_propagation": [
+        {
+          "constraint": "v04",
+          "variable": "v04_v07",
+          "before": "+-<>",
+          "after": ">",
+          "supporting_rows": [
+            ">+>",
+            ">->",
+            ">>>",
+            "><>"
+          ]
+        },
+        {
+          "constraint": "v04",
+          "variable": "v02_v04",
+          "before": "+-<>",
+          "after": ">",
+          "supporting_rows": [
+            ">+>",
+            ">->",
+            ">>>",
+            "><>"
+          ]
+        },
+        {
+          "constraint": "v02",
+          "variable": "v00_v02",
+          "before": "+-<>",
+          "after": "-",
+          "supporting_rows": [
+            "-<>"
+          ]
+        },
+        {
+          "constraint": "v02",
+          "variable": "v02_v03",
+          "before": "+-<>",
+          "after": "<",
+          "supporting_rows": [
+            "-<>"
+          ]
+        },
+        {
+          "constraint": "v03",
+          "contradiction": true
+        }
+      ]
+    },
+    {
+      "name": "24-WTVT",
+      "source_path_range_half_open": [
+        28,
+        32
+      ],
+      "source_origin": [
+        "1267/4",
+        "19499/64"
+      ],
+      "source_grid_unit": "5466797/2000000",
+      "maximum_source_residual_squared": "381421/100000000000",
+      "source_path_grid_vertices": {
+        "28": [
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            8,
+            2
+          ]
+        ],
+        "29": [
+          [
+            4,
+            2
+          ],
+          [
+            8,
+            0
+          ]
+        ],
+        "30": [
+          [
+            0,
+            2
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            12,
+            2
+          ]
+        ],
+        "31": [
+          [
+            8,
+            3
+          ],
+          [
+            12,
+            4
+          ]
+        ]
+      },
+      "points": {
+        "v00": [
+          0,
+          2
+        ],
+        "v01": [
+          0,
+          4
+        ],
+        "v02": [
+          4.0,
+          2.0
+        ],
+        "v03": [
+          4,
+          4
+        ],
+        "v04": [
+          8,
+          0
+        ],
+        "v05": [
+          8,
+          2
+        ],
+        "v06": [
+          8.0,
+          3.0
+        ],
+        "v07": [
+          12,
+          2
+        ],
+        "v08": [
+          12,
+          4
+        ]
+      },
+      "lines": [
+        "v00_v01",
+        "v00_v02",
+        "v00_v03",
+        "v02_v04",
+        "v02_v05",
+        "v03_v06",
+        "v06_v07",
+        "v06_v08"
+      ],
+      "junctions": {
+        "v00": {
+          "type": "W",
+          "neighbors": [
+            "v02",
+            "v03",
+            "v01"
+          ]
+        },
+        "v02": {
+          "type": "T",
+          "neighbors": [
+            "v05",
+            "v04",
+            "v00"
+          ]
+        },
+        "v03": {
+          "type": "V",
+          "neighbors": [
+            "v00",
+            "v06"
+          ]
+        },
+        "v06": {
+          "type": "T",
+          "neighbors": [
+            "v03",
+            "v08",
+            "v07"
+          ]
+        }
+      },
+      "relations": {
+        "v00": [
+          [
+            "v00_v02",
+            "v00_v03",
+            "v00_v01"
+          ],
+          [
+            ">+<",
+            "-+-",
+            "+-+"
+          ]
+        ],
+        "v02": [
+          [
+            "v02_v05",
+            "v02_v04",
+            "v00_v02"
+          ],
+          [
+            ">+>",
+            ">->",
+            ">>>",
+            "><>"
+          ]
+        ],
+        "v03": [
+          [
+            "v00_v03",
+            "v03_v06"
+          ],
+          [
+            ">+",
+            ">>",
+            "+>",
+            "<-",
+            "<<",
+            "-<"
+          ]
+        ],
+        "v06": [
+          [
+            "v03_v06",
+            "v06_v08",
+            "v06_v07"
+          ],
+          [
+            "<+<",
+            "<-<",
+            "<><",
+            "<<<"
+          ]
+        ]
+      },
+      "dangling_ends": [
+        "v01",
+        "v04",
+        "v05",
+        "v07",
+        "v08"
+      ],
+      "contradiction_propagation": [
+        {
+          "constraint": "v00",
+          "variable": "v00_v02",
+          "before": "+-<>",
+          "after": "+->",
+          "supporting_rows": [
+            ">+<",
+            "-+-",
+            "+-+"
+          ]
+        },
+        {
+          "constraint": "v00",
+          "variable": "v00_v03",
+          "before": "+-<>",
+          "after": "+-",
+          "supporting_rows": [
+            ">+<",
+            "-+-",
+            "+-+"
+          ]
+        },
+        {
+          "constraint": "v00",
+          "variable": "v00_v01",
+          "before": "+-<>",
+          "after": "+-<",
+          "supporting_rows": [
+            ">+<",
+            "-+-",
+            "+-+"
+          ]
+        },
+        {
+          "constraint": "v02",
+          "variable": "v02_v05",
+          "before": "+-<>",
+          "after": ">",
+          "supporting_rows": [
+            ">+>",
+            ">->",
+            ">>>",
+            "><>"
+          ]
+        },
+        {
+          "constraint": "v02",
+          "variable": "v00_v02",
+          "before": "+->",
+          "after": ">",
+          "supporting_rows": [
+            ">+>",
+            ">->",
+            ">>>",
+            "><>"
+          ]
+        },
+        {
+          "constraint": "v03",
+          "variable": "v03_v06",
+          "before": "+-<>",
+          "after": "<>",
+          "supporting_rows": [
+            "+>",
+            "-<"
+          ]
+        },
+        {
+          "constraint": "v06",
+          "variable": "v03_v06",
+          "before": "<>",
+          "after": "<",
+          "supporting_rows": [
+            "<+<",
+            "<-<",
+            "<><",
+            "<<<"
+          ]
+        },
+        {
+          "constraint": "v06",
+          "variable": "v06_v07",
+          "before": "+-<>",
+          "after": "<",
+          "supporting_rows": [
+            "<+<",
+            "<-<",
+            "<><",
+            "<<<"
+          ]
+        },
+        {
+          "constraint": "v00",
+          "variable": "v00_v03",
+          "before": "+-",
+          "after": "+",
+          "supporting_rows": [
+            ">+<"
+          ]
+        },
+        {
+          "constraint": "v00",
+          "variable": "v00_v01",
+          "before": "+-<",
+          "after": "<",
+          "supporting_rows": [
+            ">+<"
+          ]
+        },
+        {
+          "constraint": "v03",
+          "contradiction": true
+        }
+      ]
+    },
+    {
+      "name": "25-WT",
+      "source_path_range_half_open": [
+        32,
+        35
+      ],
+      "source_origin": [
+        "289/4",
+        "88175/256"
+      ],
+      "source_grid_unit": "43812501/16000000",
+      "maximum_source_residual_squared": "3906250001/64000000000000",
+      "source_path_grid_vertices": {
+        "32": [
+          [
+            0,
+            2
+          ],
+          [
+            8,
+            2
+          ]
+        ],
+        "33": [
+          [
+            4,
+            0
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "34": [
+          [
+            4,
+            2
+          ],
+          [
+            8,
+            4
+          ]
+        ]
+      },
+      "points": {
+        "v00": [
+          0,
+          2
+        ],
+        "v01": [
+          4,
+          0
+        ],
+        "v02": [
+          4.0,
+          2.0
+        ],
+        "v03": [
+          4,
+          4
+        ],
+        "v04": [
+          8,
+          2
+        ],
+        "v05": [
+          8,
+          4
+        ]
+      },
+      "lines": [
+        "v00_v01",
+        "v00_v02",
+        "v00_v03",
+        "v02_v04",
+        "v02_v05"
+      ],
+      "junctions": {
+        "v00": {
+          "type": "W",
+          "neighbors": [
+            "v01",
+            "v02",
+            "v03"
+          ]
+        },
+        "v02": {
+          "type": "T",
+          "neighbors": [
+            "v00",
+            "v05",
+            "v04"
+          ]
+        }
+      },
+      "relations": {
+        "v00": [
+          [
+            "v00_v01",
+            "v00_v02",
+            "v00_v03"
+          ],
+          [
+            ">+<",
+            "-+-",
+            "+-+"
+          ]
+        ],
+        "v02": [
+          [
+            "v00_v02",
+            "v02_v05",
+            "v02_v04"
+          ],
+          [
+            "<+<",
+            "<-<",
+            "<><",
+            "<<<"
+          ]
+        ]
+      },
+      "dangling_ends": [
+        "v01",
+        "v03",
+        "v04",
+        "v05"
+      ],
+      "contradiction_propagation": [
+        {
+          "constraint": "v00",
+          "variable": "v00_v01",
+          "before": "+-<>",
+          "after": "+->",
+          "supporting_rows": [
+            ">+<",
+            "-+-",
+            "+-+"
+          ]
+        },
+        {
+          "constraint": "v00",
+          "variable": "v00_v02",
+          "before": "+-<>",
+          "after": "+-",
+          "supporting_rows": [
+            ">+<",
+            "-+-",
+            "+-+"
+          ]
+        },
+        {
+          "constraint": "v00",
+          "variable": "v00_v03",
+          "before": "+-<>",
+          "after": "+-<",
+          "supporting_rows": [
+            ">+<",
+            "-+-",
+            "+-+"
+          ]
+        },
+        {
+          "constraint": "v02",
+          "contradiction": true
+        }
+      ]
+    },
+    {
+      "name": "25-WWT-left",
+      "source_path_range_half_open": [
+        35,
+        39
+      ],
+      "source_origin": [
+        "37127/256",
+        "22045/64"
+      ],
+      "source_grid_unit": "5466797/2000000",
+      "maximum_source_residual_squared": "305167969/16000000000000",
+      "source_path_grid_vertices": {
+        "35": [
+          [
+            0,
+            2
+          ],
+          [
+            8,
+            2
+          ],
+          [
+            12,
+            0
+          ]
+        ],
+        "36": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "37": [
+          [
+            4,
+            0
+          ],
+          [
+            8,
+            2
+          ]
+        ],
+        "38": [
+          [
+            10,
+            1
+          ],
+          [
+            12,
+            4
+          ]
+        ]
+      },
+      "points": {
+        "v00": [
+          0,
+          0
+        ],
+        "v01": [
+          0,
+          2
+        ],
+        "v02": [
+          4,
+          0
+        ],
+        "v03": [
+          4,
+          4
+        ],
+        "v04": [
+          8,
+          2
+        ],
+        "v05": [
+          10.0,
+          1.0
+        ],
+        "v06": [
+          12,
+          0
+        ],
+        "v07": [
+          12,
+          4
+        ]
+      },
+      "lines": [
+        "v00_v01",
+        "v01_v03",
+        "v01_v04",
+        "v02_v04",
+        "v04_v05",
+        "v05_v06",
+        "v05_v07"
+      ],
+      "junctions": {
+        "v01": {
+          "type": "W",
+          "neighbors": [
+            "v00",
+            "v04",
+            "v03"
+          ]
+        },
+        "v04": {
+          "type": "W",
+          "neighbors": [
+            "v01",
+            "v02",
+            "v05"
+          ]
+        },
+        "v05": {
+          "type": "T",
+          "neighbors": [
+            "v04",
+            "v07",
+            "v06"
+          ]
+        }
+      },
+      "relations": {
+        "v01": [
+          [
+            "v00_v01",
+            "v01_v04",
+            "v01_v03"
+          ],
+          [
+            "<+<",
+            "-+-",
+            "+-+"
+          ]
+        ],
+        "v04": [
+          [
+            "v01_v04",
+            "v02_v04",
+            "v04_v05"
+          ],
+          [
+            "<+<",
+            "-+-",
+            "+-+"
+          ]
+        ],
+        "v05": [
+          [
+            "v04_v05",
+            "v05_v07",
+            "v05_v06"
+          ],
+          [
+            "<+<",
+            "<-<",
+            "<><",
+            "<<<"
+          ]
+        ]
+      },
+      "dangling_ends": [
+        "v00",
+        "v02",
+        "v03",
+        "v06",
+        "v07"
+      ],
+      "contradiction_propagation": [
+        {
+          "constraint": "v01",
+          "variable": "v00_v01",
+          "before": "+-<>",
+          "after": "+-<",
+          "supporting_rows": [
+            "<+<",
+            "-+-",
+            "+-+"
+          ]
+        },
+        {
+          "constraint": "v01",
+          "variable": "v01_v04",
+          "before": "+-<>",
+          "after": "+-",
+          "supporting_rows": [
+            "<+<",
+            "-+-",
+            "+-+"
+          ]
+        },
+        {
+          "constraint": "v01",
+          "variable": "v01_v03",
+          "before": "+-<>",
+          "after": "+-<",
+          "supporting_rows": [
+            "<+<",
+            "-+-",
+            "+-+"
+          ]
+        },
+        {
+          "constraint": "v04",
+          "variable": "v02_v04",
+          "before": "+-<>",
+          "after": "+-",
+          "supporting_rows": [
+            "-+-",
+            "+-+"
+          ]
+        },
+        {
+          "constraint": "v04",
+          "variable": "v04_v05",
+          "before": "+-<>",
+          "after": "+-",
+          "supporting_rows": [
+            "-+-",
+            "+-+"
+          ]
+        },
+        {
+          "constraint": "v05",
+          "contradiction": true
+        }
+      ]
+    },
+    {
+      "name": "25-WWT-right",
+      "source_path_range_half_open": [
+        39,
+        43
+      ],
+      "source_origin": [
+        "15111/64",
+        "172220703/500000"
+      ],
+      "source_grid_unit": "10945313/4000000",
+      "maximum_source_residual_squared": "244265641/4000000000000",
+      "source_path_grid_vertices": {
+        "39": [
+          [
+            0,
+            2
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            8,
+            0
+          ],
+          [
+            12,
+            4
+          ]
+        ],
+        "40": [
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "41": [
+          [
+            8,
+            2
+          ],
+          [
+            8,
+            0
+          ]
+        ],
+        "42": [
+          [
+            10,
+            2
+          ],
+          [
+            14,
+            2
+          ]
+        ]
+      },
+      "points": {
+        "v00": [
+          0,
+          2
+        ],
+        "v01": [
+          4,
+          2
+        ],
+        "v02": [
+          4,
+          4
+        ],
+        "v03": [
+          8,
+          0
+        ],
+        "v04": [
+          8,
+          2
+        ],
+        "v05": [
+          10.0,
+          2.0
+        ],
+        "v06": [
+          12,
+          4
+        ],
+        "v07": [
+          14,
+          2
+        ]
+      },
+      "lines": [
+        "v00_v02",
+        "v01_v02",
+        "v02_v03",
+        "v03_v04",
+        "v03_v05",
+        "v05_v06",
+        "v05_v07"
+      ],
+      "junctions": {
+        "v02": {
+          "type": "W",
+          "neighbors": [
+            "v00",
+            "v01",
+            "v03"
+          ]
+        },
+        "v03": {
+          "type": "W",
+          "neighbors": [
+            "v05",
+            "v04",
+            "v02"
+          ]
+        },
+        "v05": {
+          "type": "T",
+          "neighbors": [
+            "v06",
+            "v07",
+            "v03"
+          ]
+        }
+      },
+      "relations": {
+        "v02": [
+          [
+            "v00_v02",
+            "v01_v02",
+            "v02_v03"
+          ],
+          [
+            "<+<",
+            "-+-",
+            "+-+"
+          ]
+        ],
+        "v03": [
+          [
+            "v03_v05",
+            "v03_v04",
+            "v02_v03"
+          ],
+          [
+            ">+>",
+            "-+-",
+            "+-+"
+          ]
+        ],
+        "v05": [
+          [
+            "v05_v06",
+            "v05_v07",
+            "v03_v05"
+          ],
+          [
+            ">+>",
+            ">->",
+            ">>>",
+            "><>"
+          ]
+        ]
+      },
+      "dangling_ends": [
+        "v00",
+        "v01",
+        "v04",
+        "v06",
+        "v07"
+      ],
+      "contradiction_propagation": [
+        {
+          "constraint": "v02",
+          "variable": "v00_v02",
+          "before": "+-<>",
+          "after": "+-<",
+          "supporting_rows": [
+            "<+<",
+            "-+-",
+            "+-+"
+          ]
+        },
+        {
+          "constraint": "v02",
+          "variable": "v01_v02",
+          "before": "+-<>",
+          "after": "+-",
+          "supporting_rows": [
+            "<+<",
+            "-+-",
+            "+-+"
+          ]
+        },
+        {
+          "constraint": "v02",
+          "variable": "v02_v03",
+          "before": "+-<>",
+          "after": "+-<",
+          "supporting_rows": [
+            "<+<",
+            "-+-",
+            "+-+"
+          ]
+        },
+        {
+          "constraint": "v03",
+          "variable": "v03_v05",
+          "before": "+-<>",
+          "after": "+-",
+          "supporting_rows": [
+            "-+-",
+            "+-+"
+          ]
+        },
+        {
+          "constraint": "v03",
+          "variable": "v03_v04",
+          "before": "+-<>",
+          "after": "+-",
+          "supporting_rows": [
+            "-+-",
+            "+-+"
+          ]
+        },
+        {
+          "constraint": "v03",
+          "variable": "v02_v03",
+          "before": "+-<",
+          "after": "+-",
+          "supporting_rows": [
+            "-+-",
+            "+-+"
+          ]
+        },
+        {
+          "constraint": "v05",
+          "contradiction": true
+        }
+      ]
+    },
+    {
+      "name": "25-WYT",
+      "source_path_range_half_open": [
+        43,
+        47
+      ],
+      "source_origin": [
+        "332648437/1000000",
+        "88175/256"
+      ],
+      "source_grid_unit": "43812501/16000000",
+      "maximum_source_residual_squared": "1/65536",
+      "source_path_grid_vertices": {
+        "43": [
+          [
+            0,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "44": [
+          [
+            4,
+            0
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "45": [
+          [
+            8,
+            0
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            8,
+            4
+          ]
+        ],
+        "46": [
+          [
+            6,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      },
+      "points": {
+        "v00": [
+          0,
+          2
+        ],
+        "v01": [
+          0,
+          4
+        ],
+        "v02": [
+          4,
+          0
+        ],
+        "v03": [
+          4,
+          2
+        ],
+        "v04": [
+          4,
+          4
+        ],
+        "v05": [
+          6.0,
+          3.0
+        ],
+        "v06": [
+          8,
+          0
+        ],
+        "v07": [
+          8,
+          4
+        ]
+      },
+      "lines": [
+        "v00_v01",
+        "v00_v02",
+        "v00_v03",
+        "v03_v05",
+        "v03_v06",
+        "v04_v05",
+        "v05_v07"
+      ],
+      "junctions": {
+        "v00": {
+          "type": "W",
+          "neighbors": [
+            "v02",
+            "v03",
+            "v01"
+          ]
+        },
+        "v03": {
+          "type": "Y",
+          "neighbors": [
+            "v00",
+            "v06",
+            "v05"
+          ]
+        },
+        "v05": {
+          "type": "T",
+          "neighbors": [
+            "v03",
+            "v04",
+            "v07"
+          ]
+        }
+      },
+      "relations": {
+        "v00": [
+          [
+            "v00_v02",
+            "v00_v03",
+            "v00_v01"
+          ],
+          [
+            ">+<",
+            "-+-",
+            "+-+"
+          ]
+        ],
+        "v03": [
+          [
+            "v00_v03",
+            "v03_v06",
+            "v03_v05"
+          ],
+          [
+            ">>-",
+            "<-<",
+            "-<>",
+            "---",
+            "+++"
+          ]
+        ],
+        "v05": [
+          [
+            "v03_v05",
+            "v04_v05",
+            "v05_v07"
+          ],
+          [
+            "<+<",
+            "<-<",
+            "<<<",
+            "<><"
+          ]
+        ]
+      },
+      "dangling_ends": [
+        "v01",
+        "v02",
+        "v04",
+        "v06",
+        "v07"
+      ],
+      "contradiction_propagation": [
+        {
+          "constraint": "v00",
+          "variable": "v00_v02",
+          "before": "+-<>",
+          "after": "+->",
+          "supporting_rows": [
+            ">+<",
+            "-+-",
+            "+-+"
+          ]
+        },
+        {
+          "constraint": "v00",
+          "variable": "v00_v03",
+          "before": "+-<>",
+          "after": "+-",
+          "supporting_rows": [
+            ">+<",
+            "-+-",
+            "+-+"
+          ]
+        },
+        {
+          "constraint": "v00",
+          "variable": "v00_v01",
+          "before": "+-<>",
+          "after": "+-<",
+          "supporting_rows": [
+            ">+<",
+            "-+-",
+            "+-+"
+          ]
+        },
+        {
+          "constraint": "v03",
+          "variable": "v03_v06",
+          "before": "+-<>",
+          "after": "+-<",
+          "supporting_rows": [
+            "-<>",
+            "---",
+            "+++"
+          ]
+        },
+        {
+          "constraint": "v03",
+          "variable": "v03_v05",
+          "before": "+-<>",
+          "after": "+->",
+          "supporting_rows": [
+            "-<>",
+            "---",
+            "+++"
+          ]
+        },
+        {
+          "constraint": "v05",
+          "contradiction": true
+        }
+      ]
+    }
+  ]
+}

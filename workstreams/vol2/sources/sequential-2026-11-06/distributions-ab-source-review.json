@@ -1,0 +1,51 @@
+{
+  "reviewed_at_utc": "2026-11-06T10:54:00.471589+00:00",
+  "original_scan": "TAOCP Volume 2, edition 3, printing 1, September 1997; original page + 12 = file page.",
+  "matias_vitter_ni": {
+    "url": "https://theory.stanford.edu/~matias/papers/MVN03.dynamic_rv_gen.pdf",
+    "access_record": "workstreams/vol2/sources/sequential-2026-11-06/matias-vitter-ni-2003-access.json",
+    "read_scope": "Abstract, introduction, computational model, Section 5 / Theorem 8 outline, opening of Section 6 and cited short-version metadata. Local PDF file pages 4 and 17 visually inspected.",
+    "verified_claim": "Theorem 8 states expected constant update/generation time and linear space under the stated RAM assumptions. Reference 19 gives SODA 1993, 361–370.",
+    "limitation": "Full external algorithm proof and priority not audited. Earlier failed retrieval metadata preserved."
+  },
+  "errata": {
+    "layers": [
+      "all2-prepre",
+      "all2-pre",
+      "all2",
+      "err2",
+      "err2.textxt"
+    ],
+    "freshness": "Fetched 6 November 2026; identical to preserved archive.",
+    "searched": "Original pages 119–142 and 584–590, alias, remainder, m/3, polar, minimum/maximum and related exercise terms.",
+    "visually_inspected": "all2-prepre PDF pages 7, 8 and 32",
+    "known_mathematical_corrections": [
+      {
+        "original_page": 122,
+        "date": "2003-09-30",
+        "change": ".587 to .590"
+      },
+      {
+        "original_page": 584,
+        "date": "2001-08-20",
+        "change": "Reject U >= k floor(m/k), including equality"
+      },
+      {
+        "original_page": 585,
+        "date": "1999-10-04",
+        "change": "Absolute minimum to absolute maximum"
+      }
+    ],
+    "editorial_changes": "Exercise 3 wording, exercise 9 concavity terminology and Fig. A4 redraw do not constitute separate mathematical defects.",
+    "c0052": "No corresponding ratio correction located; latest physical printing and novelty unverified."
+  },
+  "cross_reference": "Volume 1 §2.3.4.5, original399–404, consulted in OCR for weighted path length; no new independent whole-page audit of Volume 1 claimed.",
+  "factual_gaps": [
+    "Original119 global historical statement that no other direct generators had proved practical; revisit alongside Wallace exercise31."
+  ],
+  "bibliography_skips": [
+    "Complete Walker 1974/1977 papers.",
+    "Complete Matias–Vitter–Ni proof.",
+    "Priority of MacLaren variant and broad von Neumann/Marsaglia/Ahrens/Dieter attributions."
+  ]
+}

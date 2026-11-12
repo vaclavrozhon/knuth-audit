@@ -1,0 +1,127 @@
+{
+  "source_sha256": "13989fa871c1e2a00269c543c237174b243686407e36152ae17282533bb8c179",
+  "growth_sha256": "b4e5690aeb856d106135352189175610b093cf354c291f9db11ce9c289de58c3",
+  "prior_archive_sha256": "ebd5ead93a447807016cdadbb595e642344dcbd043c40275fffed2f5ba4debab",
+  "cases": {
+    "n1": {
+      "n": 1,
+      "all_fixed_shapes": 1,
+      "convex_shapes": 1,
+      "options": 1,
+      "json_sha256": "a511865634810ca1846bd1a58f8e960560ebd5caa24877a7573b14eb497137b8",
+      "dlx_sha256": "a8759d0d6221749a8fdffd8ec42b974e9593f1f03cc39e010a8501ee75fc1893",
+      "complete_placement_sets_equal": true,
+      "all_convexity_predicates_agree": true
+    },
+    "n2": {
+      "n": 2,
+      "all_fixed_shapes": 2,
+      "convex_shapes": 2,
+      "options": 4,
+      "json_sha256": "13619789736478e6f9278bf60e4b587aac014f63e84522e9e54d9d0ac6ba8efa",
+      "dlx_sha256": "a2c8285950cf218349b0601ae768416374b4295ea23291f0c349c40402e336b5",
+      "complete_placement_sets_equal": true,
+      "all_convexity_predicates_agree": true
+    },
+    "n3": {
+      "n": 3,
+      "all_fixed_shapes": 6,
+      "convex_shapes": 6,
+      "options": 22,
+      "json_sha256": "4057045a26290a6a9817ad7d663aad12e7461368464fff436f647a5c23645cd0",
+      "dlx_sha256": "d124a438953d40834f5c291afbfbe6aa7a6ffd4a09cae13734163222a3ce2875",
+      "complete_placement_sets_equal": true,
+      "all_convexity_predicates_agree": true
+    },
+    "n4": {
+      "n": 4,
+      "all_fixed_shapes": 19,
+      "convex_shapes": 19,
+      "options": 113,
+      "json_sha256": "e6501f18e963c9ac1aacf28ff30222e8eb777774c34de666506c8242ba1d5420",
+      "dlx_sha256": "49b8ca04ece36f0a486d4f49093f76c926b59dd97bea83d9d03cc4a63f59adcf",
+      "complete_placement_sets_equal": true,
+      "all_convexity_predicates_agree": true
+    },
+    "n5": {
+      "n": 5,
+      "all_fixed_shapes": 63,
+      "convex_shapes": 59,
+      "options": 523,
+      "json_sha256": "7340d2182cbe924d0fcb803c1d83fc022a7e6a11a0984f6d7867340ce5e1d20c",
+      "dlx_sha256": "979671018c40c169c80e24c276878727f15bcf4a6199f61c492b633198e669e0",
+      "complete_placement_sets_equal": true,
+      "all_convexity_predicates_agree": true
+    },
+    "n6": {
+      "n": 6,
+      "all_fixed_shapes": 216,
+      "convex_shapes": 176,
+      "options": 2196,
+      "json_sha256": "870acb16eb485d3d29715233a07efd209522f07749d29b9b905362f0e1c758eb",
+      "dlx_sha256": "c80b4673f7ff3c2c45fd2b49829432c9e2d61ea583bee7e4b5234ebdf5891cb2",
+      "complete_placement_sets_equal": true,
+      "all_convexity_predicates_agree": true
+    },
+    "n7": {
+      "n": 7,
+      "all_fixed_shapes": 760,
+      "convex_shapes": 502,
+      "options": 8438,
+      "json_sha256": "d0c67f1ba21de30c29085cf2b8c342415d917c97f93806d96ca40c3d06630407",
+      "dlx_sha256": "5e701bc9a11b5b9375786fea69b6eb1c55eba1a007fd62cf03a7e4a0eea6bae6",
+      "complete_placement_sets_equal": true,
+      "all_convexity_predicates_agree": true
+    },
+    "n9": {
+      "n": 9,
+      "all_fixed_shapes": 9910,
+      "convex_shapes": 325,
+      "options": 12097,
+      "json_sha256": "ff0c1d690570bc2dd4c9c69c1c2fcf2a94330b15e9b113e23d31cb9bab532a9c",
+      "dlx_sha256": "8e76450948608e1024fdf96b342c253ae9c12a4ec397f5f24753723f2ef05a2e",
+      "complete_placement_sets_equal": true,
+      "all_convexity_predicates_agree": true
+    },
+    "n9-no-square": {
+      "n": 9,
+      "all_fixed_shapes": 9910,
+      "convex_shapes": 325,
+      "options": 12048,
+      "json_sha256": "90deadb6ccf3be5fba2ee21cf266ee579b99d674a72afbe3f8f600df5d8a495e",
+      "dlx_sha256": "4faa57d76aa496b27222a2797ec6cfb46606bf44ad0821089df8a1c26ee3f907",
+      "complete_placement_sets_equal": true,
+      "all_convexity_predicates_agree": true
+    }
+  },
+  "pentominoes": {
+    "free": 12,
+    "convex": 11,
+    "unique_nonconvex": [
+      [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    ]
+  },
+  "status": "verified",
+  "checked_at_utc": "2026-11-01T22:17:35.380107+00:00"
+}

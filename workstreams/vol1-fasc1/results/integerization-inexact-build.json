@@ -1,0 +1,74 @@
+[
+  {
+    "version": "20131017",
+    "command": [
+      "ctangle",
+      "workstreams/vol1-fasc1/sources/mmix-arith-20131017.w",
+      "-",
+      "mmix-arith.c"
+    ],
+    "returncode": 0,
+    "output": ""
+  },
+  {
+    "version": "20131017",
+    "command": [
+      "gcc",
+      "-O0",
+      "-std=c11",
+      "driver.c",
+      "-o",
+      "driver"
+    ],
+    "returncode": 0,
+    "output": ""
+  },
+  {
+    "version": "20250620",
+    "command": [
+      "ctangle",
+      "workstreams/vol1-fasc1/sources/mmix-arith-20250620.w",
+      "-",
+      "mmix-arith.c"
+    ],
+    "returncode": 0,
+    "output": ""
+  },
+  {
+    "version": "20250620",
+    "command": [
+      "gcc",
+      "-O0",
+      "-std=c11",
+      "driver.c",
+      "-o",
+      "driver"
+    ],
+    "returncode": 0,
+    "output": ""
+  },
+  {
+    "version": "audit-integerization-20250620",
+    "command": [
+      "ctangle",
+      "workstreams/vol1-fasc1/sources/mmix-arith-20250620.w",
+      "workstreams/vol1-fasc1/sources/audit-integerization-inexact.ch",
+      "mmix-arith.c"
+    ],
+    "returncode": 0,
+    "output": ""
+  },
+  {
+    "version": "audit-integerization-20250620",
+    "command": [
+      "gcc",
+      "-O0",
+      "-std=c11",
+      "driver.c",
+      "-o",
+      "driver"
+    ],
+    "returncode": 0,
+    "output": ""
+  }
+]

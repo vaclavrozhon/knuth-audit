@@ -1,0 +1,50 @@
+{
+  "updated_at_utc": "2026-11-07T02:59:34.489521+00:00",
+  "sources": [
+    {
+      "url": "https://www.eecs.harvard.edu/~michaelm/postscripts/rsa2001.pdf",
+      "path": "sources/broder-mitzenmacher-2001.pdf",
+      "sha256": "c6f3cfa59b3032cc2cbfe0bfb56c82b536e99fb294707a89d5f6541370edd528",
+      "scope": "Primary metadata and original pp24–25: Lemma5 and Theorem2 for complete events and rank uniformity, read and viewed. The needed lemma is independently proved in the audit; unrelated results are outside scope."
+    },
+    {
+      "url": "https://arxiv.org/abs/1401.2689",
+      "pdf_url": "https://arxiv.org/pdf/1401.2689",
+      "path": "sources/trudgian-2014-pnt.pdf",
+      "sha256": "72594a54fe04ad73eb1e142e0365d4b3d7e576de2fad234dc2eff5b5e5ea8d79",
+      "version": "v2,17October2014",
+      "scope": "Primary Theorem1,p3 directly viewed for its exact sqrt(log x) exponential scale. Used as a formulation comparison; the full analytic proof and external zero estimates were not reconstructed."
+    },
+    {
+      "url": "https://www.numdam.org/item/JMPA_1852_1_17__366_0/",
+      "scope": "Primary Chebyshev author/title/year/volume/pages metadata."
+    },
+    {
+      "url": "https://dlmf.nist.gov/25.16",
+      "scope": "NIST statement of ψ(x)=x+o(x) as the prime number theorem; does not establish the stronger printed bound."
+    }
+  ],
+  "bibliography_skips": [
+    {
+      "exercise": "MPR:113",
+      "file_pages": [
+        408
+      ],
+      "reference": "Exact historical content and priority of Chebyshev, JMPA17(1852),366–390",
+      "reason": "Primary Numdam metadata confirmed; the original article was not fully assessed. The printed Θ(n) claim has a complete independent elementary proof.",
+      "mathematical_dependency": false
+    },
+    {
+      "exercise": "MPR:113",
+      "file_pages": [
+        408
+      ],
+      "reference": "Exact historical attribution to de la Vallée Poussin, Annales de la Société Scientifique de Bruxelles20(1896),183–256",
+      "reason": "The complete historical article was not quickly inspected. This bibliography exception does not close the separate mathematical exponent issue C048.",
+      "mathematical_dependency": false
+    }
+  ],
+  "mathematical_open_scope": [
+    "C048: printed fixed-power error saving and intended exponent; no counterexample or complete proof claimed."
+  ]
+}

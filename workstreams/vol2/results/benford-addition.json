@@ -1,0 +1,719 @@
+{
+  "config": {
+    "formats": [
+      [
+        2,
+        53
+      ],
+      [
+        10,
+        16
+      ],
+      [
+        16,
+        14
+      ],
+      [
+        64,
+        9
+      ]
+    ],
+    "horner_points": 1001,
+    "horner_degree": 12,
+    "gaussian_n": 24,
+    "rk_steps": 2000,
+    "ties": "even",
+    "exponent_range": "unbounded",
+    "normalization": "exact sum, with rounded result tabulated separately"
+  },
+  "blocks": {
+    "horner-b2-p53": {
+      "counts": {
+        "operations": 12012,
+        "nonzero_operands": 12000,
+        "same_sign": 6000,
+        "zero_operand": 12,
+        "opposite_sign": 6000
+      },
+      "alignment_counts": {
+        "0": 1443,
+        "1": 3322,
+        "2": 3744,
+        "3": 1852,
+        "4": 836,
+        "5": 406,
+        "over5": 409
+      },
+      "exact_normalization_counts": {
+        "right1": 2567,
+        "none": 5904,
+        "left1": 3275,
+        "left2": 229,
+        "left3": 37
+      },
+      "rounded_normalization_counts": {
+        "right1": 2567,
+        "none": 5904,
+        "left1": 3275,
+        "left2": 229,
+        "left3": 37
+      },
+      "alignment_frequencies": {
+        "0": 0.12012987012987013,
+        "1": 0.2765567765567766,
+        "2": 0.3116883116883117,
+        "3": 0.15417915417915418,
+        "4": 0.0695970695970696,
+        "5": 0.0337995337995338,
+        "over5": 0.03404928404928405
+      },
+      "normalization_frequencies": {
+        "right1": 0.2137029637029637,
+        "none": 0.4915084915084915,
+        "left1": 0.27264402264402265,
+        "left2": 0.019064269064269064,
+        "left3": 0.0030802530802530805,
+        "left4": 0.0,
+        "left>4": 0.0
+      },
+      "mean_gap_given_nonzero_operands": 2.0391666666666666,
+      "mean_left_shifts_given_nonzero_result": 0.32001332001332,
+      "b": 2,
+      "p": 53,
+      "workload": "horner",
+      "elapsed_seconds": 11.731334195996169,
+      "diagnostics": {
+        "max_absolute_value_error": 6.730598971478124e-16
+      }
+    },
+    "gaussian-b2-p53": {
+      "counts": {
+        "operations": 4876,
+        "nonzero_operands": 4813,
+        "opposite_sign": 2337,
+        "zero_operand": 63,
+        "same_sign": 2476
+      },
+      "alignment_counts": {
+        "over5": 4305,
+        "5": 295,
+        "3": 62,
+        "2": 42,
+        "4": 121,
+        "1": 34,
+        "0": 17
+      },
+      "exact_normalization_counts": {
+        "none": 4620,
+        "left1": 154,
+        "right1": 89,
+        "left2": 9,
+        "left3": 2,
+        "left>4": 2
+      },
+      "rounded_normalization_counts": {
+        "none": 4620,
+        "left1": 154,
+        "right1": 89,
+        "left2": 9,
+        "left3": 2,
+        "left>4": 2
+      },
+      "alignment_frequencies": {
+        "0": 0.003486464315012305,
+        "1": 0.00697292863002461,
+        "2": 0.008613617719442166,
+        "3": 0.012715340442986054,
+        "4": 0.024815422477440525,
+        "5": 0.060500410172272354,
+        "over5": 0.882895816242822
+      },
+      "normalization_frequencies": {
+        "right1": 0.018252666119770302,
+        "none": 0.9474979491386383,
+        "left1": 0.03158326497128794,
+        "left2": 0.0018457752255947497,
+        "left3": 0.00041017227235438887,
+        "left4": 0.0,
+        "left>4": 0.00041017227235438887
+      },
+      "mean_gap_given_nonzero_operands": 8.281944733014752,
+      "mean_left_shifts_given_nonzero_result": 0.03855619360131255,
+      "b": 2,
+      "p": 53,
+      "workload": "gaussian",
+      "elapsed_seconds": 6.18142877300852,
+      "diagnostics": {
+        "max_error_from_exact_solution_one": 4.440892098500626e-16
+      }
+    },
+    "oscillator-b2-p53": {
+      "counts": {
+        "operations": 28000,
+        "zero_operand": 6,
+        "nonzero_operands": 27994,
+        "opposite_sign": 8032,
+        "same_sign": 19962
+      },
+      "alignment_counts": {
+        "over5": 12105,
+        "0": 2531,
+        "1": 5628,
+        "2": 3299,
+        "3": 1462,
+        "4": 962,
+        "5": 2013
+      },
+      "exact_normalization_counts": {
+        "none": 21880,
+        "left1": 249,
+        "right1": 5832,
+        "left4": 2,
+        "left3": 7,
+        "left2": 25,
+        "left>4": 5
+      },
+      "rounded_normalization_counts": {
+        "none": 21880,
+        "left1": 249,
+        "right1": 5832,
+        "left4": 2,
+        "left3": 7,
+        "left2": 25,
+        "left>4": 5
+      },
+      "alignment_frequencies": {
+        "0": 0.09039285714285715,
+        "1": 0.201,
+        "2": 0.11782142857142858,
+        "3": 0.05221428571428571,
+        "4": 0.03435714285714286,
+        "5": 0.07189285714285715,
+        "over5": 0.4323214285714286
+      },
+      "normalization_frequencies": {
+        "right1": 0.2082857142857143,
+        "none": 0.7814285714285715,
+        "left1": 0.008892857142857143,
+        "left2": 0.0008928571428571428,
+        "left3": 0.00025,
+        "left4": 7.142857142857143e-05,
+        "left>4": 0.00017857142857142857
+      },
+      "mean_gap_given_nonzero_operands": 4.485354004429521,
+      "mean_left_shifts_given_nonzero_result": 0.012607142857142857,
+      "b": 2,
+      "p": 53,
+      "workload": "oscillator",
+      "elapsed_seconds": 25.501192800991703,
+      "diagnostics": {
+        "final_x": 0.40808206332924707,
+        "final_v": -0.912945250034833,
+        "absolute_energy_defect": 2.7780721592146052e-11,
+        "note": "Energy defect includes RK4 discretization error; it is not a pure rounding error."
+      }
+    },
+    "horner-b10-p16": {
+      "counts": {
+        "operations": 12012,
+        "nonzero_operands": 12000,
+        "same_sign": 6000,
+        "zero_operand": 12,
+        "opposite_sign": 6000
+      },
+      "alignment_counts": {
+        "0": 4702,
+        "1": 6402,
+        "2": 818,
+        "3": 76,
+        "4": 2,
+        "over5": 12
+      },
+      "exact_normalization_counts": {
+        "right1": 890,
+        "none": 8997,
+        "left1": 2125
+      },
+      "rounded_normalization_counts": {
+        "right1": 890,
+        "none": 8997,
+        "left1": 2125
+      },
+      "alignment_frequencies": {
+        "0": 0.39144189144189145,
+        "1": 0.532967032967033,
+        "2": 0.0680985680985681,
+        "3": 0.006327006327006327,
+        "4": 0.0001665001665001665,
+        "5": 0.0,
+        "over5": 0.000999000999000999
+      },
+      "normalization_frequencies": {
+        "right1": 0.0740925740925741,
+        "none": 0.749000999000999,
+        "left1": 0.1769064269064269,
+        "left2": 0.0,
+        "left3": 0.0,
+        "left4": 0.0,
+        "left>4": 0.0
+      },
+      "mean_gap_given_nonzero_operands": 0.6895,
+      "mean_left_shifts_given_nonzero_result": 0.1769064269064269,
+      "b": 10,
+      "p": 16,
+      "workload": "horner",
+      "elapsed_seconds": 5.904543578013545,
+      "diagnostics": {
+        "max_absolute_value_error": 1.48633351949939e-15
+      }
+    },
+    "gaussian-b10-p16": {
+      "counts": {
+        "operations": 4876,
+        "nonzero_operands": 4813,
+        "opposite_sign": 2337,
+        "zero_operand": 63,
+        "same_sign": 2476
+      },
+      "alignment_counts": {
+        "5": 234,
+        "over5": 114,
+        "3": 1674,
+        "2": 1871,
+        "4": 405,
+        "1": 538,
+        "0": 40
+      },
+      "exact_normalization_counts": {
+        "none": 4853,
+        "left1": 17,
+        "right1": 5,
+        "left2": 1
+      },
+      "rounded_normalization_counts": {
+        "none": 4853,
+        "left1": 17,
+        "right1": 5,
+        "left2": 1
+      },
+      "alignment_frequencies": {
+        "0": 0.008203445447087777,
+        "1": 0.1103363412633306,
+        "2": 0.38371616078753074,
+        "3": 0.34331419196062346,
+        "4": 0.08305988515176374,
+        "5": 0.04799015586546349,
+        "over5": 0.023379819524200166
+      },
+      "normalization_frequencies": {
+        "right1": 0.001025430680885972,
+        "none": 0.9952830188679245,
+        "left1": 0.003486464315012305,
+        "left2": 0.00020508613617719443,
+        "left3": 0.0,
+        "left4": 0.0,
+        "left>4": 0.0
+      },
+      "mean_gap_given_nonzero_operands": 2.5782256388946605,
+      "mean_left_shifts_given_nonzero_result": 0.003896636587366694,
+      "b": 10,
+      "p": 16,
+      "workload": "gaussian",
+      "elapsed_seconds": 5.456778938998468,
+      "diagnostics": {
+        "max_error_from_exact_solution_one": 2e-15
+      }
+    },
+    "oscillator-b10-p16": {
+      "counts": {
+        "operations": 28000,
+        "zero_operand": 6,
+        "nonzero_operands": 27994,
+        "opposite_sign": 8032,
+        "same_sign": 19962
+      },
+      "alignment_counts": {
+        "over5": 6,
+        "5": 16,
+        "0": 5035,
+        "1": 7960,
+        "4": 134,
+        "3": 1356,
+        "2": 13493
+      },
+      "exact_normalization_counts": {
+        "none": 26832,
+        "left1": 81,
+        "right1": 1084,
+        "left2": 3
+      },
+      "rounded_normalization_counts": {
+        "none": 26832,
+        "left1": 81,
+        "right1": 1084,
+        "left2": 3
+      },
+      "alignment_frequencies": {
+        "0": 0.17982142857142858,
+        "1": 0.2842857142857143,
+        "2": 0.4818928571428571,
+        "3": 0.04842857142857143,
+        "4": 0.0047857142857142855,
+        "5": 0.0005714285714285715,
+        "over5": 0.00021428571428571427
+      },
+      "normalization_frequencies": {
+        "right1": 0.038714285714285715,
+        "none": 0.9582857142857143,
+        "left1": 0.0028928571428571428,
+        "left2": 0.00010714285714285714,
+        "left3": 0.0,
+        "left4": 0.0,
+        "left>4": 0.0
+      },
+      "mean_gap_given_nonzero_operands": 1.4156604986782881,
+      "mean_left_shifts_given_nonzero_result": 0.003107142857142857,
+      "b": 10,
+      "p": 16,
+      "workload": "oscillator",
+      "elapsed_seconds": 29.317496349016437,
+      "diagnostics": {
+        "final_x": 0.4080820633292439,
+        "final_v": -0.9129452500348377,
+        "absolute_energy_defect": 2.777464553420339e-11,
+        "note": "Energy defect includes RK4 discretization error; it is not a pure rounding error."
+      }
+    },
+    "horner-b16-p14": {
+      "counts": {
+        "operations": 12012,
+        "nonzero_operands": 12000,
+        "same_sign": 6000,
+        "zero_operand": 12,
+        "opposite_sign": 6000
+      },
+      "alignment_counts": {
+        "0": 4943,
+        "1": 6574,
+        "2": 463,
+        "3": 20,
+        "over5": 12
+      },
+      "exact_normalization_counts": {
+        "none": 10686,
+        "right1": 177,
+        "left1": 1149
+      },
+      "rounded_normalization_counts": {
+        "none": 10686,
+        "right1": 177,
+        "left1": 1149
+      },
+      "alignment_frequencies": {
+        "0": 0.41150516150516153,
+        "1": 0.5472860472860472,
+        "2": 0.038544788544788544,
+        "3": 0.001665001665001665,
+        "4": 0.0,
+        "5": 0.0,
+        "over5": 0.000999000999000999
+      },
+      "normalization_frequencies": {
+        "right1": 0.014735264735264736,
+        "none": 0.8896103896103896,
+        "left1": 0.09565434565434565,
+        "left2": 0.0,
+        "left3": 0.0,
+        "left4": 0.0,
+        "left>4": 0.0
+      },
+      "mean_gap_given_nonzero_operands": 0.63,
+      "mean_left_shifts_given_nonzero_result": 0.09565434565434565,
+      "b": 16,
+      "p": 14,
+      "workload": "horner",
+      "elapsed_seconds": 7.132242038991535,
+      "diagnostics": {
+        "max_absolute_value_error": 2.4714960852263654e-16
+      }
+    },
+    "gaussian-b16-p14": {
+      "counts": {
+        "operations": 4876,
+        "nonzero_operands": 4813,
+        "opposite_sign": 2337,
+        "zero_operand": 63,
+        "same_sign": 2476
+      },
+      "alignment_counts": {
+        "5": 78,
+        "over5": 76,
+        "3": 917,
+        "1": 692,
+        "2": 2698,
+        "4": 337,
+        "0": 78
+      },
+      "exact_normalization_counts": {
+        "none": 4821,
+        "left1": 41,
+        "right1": 14
+      },
+      "rounded_normalization_counts": {
+        "none": 4821,
+        "left1": 41,
+        "right1": 14
+      },
+      "alignment_frequencies": {
+        "0": 0.015996718621821164,
+        "1": 0.14191960623461855,
+        "2": 0.5533223954060705,
+        "3": 0.18806398687448728,
+        "4": 0.06911402789171452,
+        "5": 0.015996718621821164,
+        "over5": 0.015586546349466776
+      },
+      "normalization_frequencies": {
+        "right1": 0.002871205906480722,
+        "none": 0.9887202625102544,
+        "left1": 0.008408531583264971,
+        "left2": 0.0,
+        "left3": 0.0,
+        "left4": 0.0,
+        "left>4": 0.0
+      },
+      "mean_gap_given_nonzero_operands": 2.214003739871182,
+      "mean_left_shifts_given_nonzero_result": 0.008408531583264971,
+      "b": 16,
+      "p": 14,
+      "workload": "gaussian",
+      "elapsed_seconds": 2.031336893007392,
+      "diagnostics": {
+        "max_error_from_exact_solution_one": 4.440892098500626e-16
+      }
+    },
+    "oscillator-b16-p14": {
+      "counts": {
+        "operations": 28000,
+        "zero_operand": 6,
+        "nonzero_operands": 27994,
+        "opposite_sign": 8032,
+        "same_sign": 19962
+      },
+      "alignment_counts": {
+        "over5": 6,
+        "4": 26,
+        "0": 11003,
+        "3": 340,
+        "1": 10404,
+        "2": 6221
+      },
+      "exact_normalization_counts": {
+        "none": 27519,
+        "left1": 77,
+        "right1": 401,
+        "left2": 3
+      },
+      "rounded_normalization_counts": {
+        "none": 27519,
+        "left1": 77,
+        "right1": 401,
+        "left2": 3
+      },
+      "alignment_frequencies": {
+        "0": 0.3929642857142857,
+        "1": 0.37157142857142855,
+        "2": 0.22217857142857142,
+        "3": 0.012142857142857143,
+        "4": 0.0009285714285714286,
+        "5": 0.0,
+        "over5": 0.00021428571428571427
+      },
+      "normalization_frequencies": {
+        "right1": 0.014321428571428572,
+        "none": 0.9828214285714286,
+        "left1": 0.00275,
+        "left2": 0.00010714285714285714,
+        "left3": 0.0,
+        "left4": 0.0,
+        "left>4": 0.0
+      },
+      "mean_gap_given_nonzero_operands": 0.8562549117668071,
+      "mean_left_shifts_given_nonzero_result": 0.0029642857142857144,
+      "b": 16,
+      "p": 14,
+      "workload": "oscillator",
+      "elapsed_seconds": 25.533911263017217,
+      "diagnostics": {
+        "final_x": 0.40808206332924435,
+        "final_v": -0.9129452500348358,
+        "absolute_energy_defect": 2.777771036978687e-11,
+        "note": "Energy defect includes RK4 discretization error; it is not a pure rounding error."
+      }
+    },
+    "horner-b64-p9": {
+      "counts": {
+        "operations": 12012,
+        "nonzero_operands": 12000,
+        "same_sign": 6000,
+        "zero_operand": 12,
+        "opposite_sign": 6000
+      },
+      "alignment_counts": {
+        "0": 9509,
+        "1": 2447,
+        "2": 44,
+        "over5": 12
+      },
+      "exact_normalization_counts": {
+        "none": 11298,
+        "right1": 177,
+        "left1": 537
+      },
+      "rounded_normalization_counts": {
+        "none": 11298,
+        "right1": 177,
+        "left1": 537
+      },
+      "alignment_frequencies": {
+        "0": 0.7916250416250417,
+        "1": 0.20371295371295373,
+        "2": 0.003663003663003663,
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.0,
+        "over5": 0.000999000999000999
+      },
+      "normalization_frequencies": {
+        "right1": 0.014735264735264736,
+        "none": 0.9405594405594405,
+        "left1": 0.044705294705294704,
+        "left2": 0.0,
+        "left3": 0.0,
+        "left4": 0.0,
+        "left>4": 0.0
+      },
+      "mean_gap_given_nonzero_operands": 0.21125,
+      "mean_left_shifts_given_nonzero_result": 0.044705294705294704,
+      "b": 64,
+      "p": 9,
+      "workload": "horner",
+      "elapsed_seconds": 9.584218305011746,
+      "diagnostics": {
+        "max_absolute_value_error": 3.7177831485557555e-15
+      }
+    },
+    "gaussian-b64-p9": {
+      "counts": {
+        "operations": 4876,
+        "nonzero_operands": 4813,
+        "opposite_sign": 2337,
+        "zero_operand": 63,
+        "same_sign": 2476
+      },
+      "alignment_counts": {
+        "3": 136,
+        "over5": 63,
+        "2": 1253,
+        "1": 3253,
+        "0": 165,
+        "4": 6
+      },
+      "exact_normalization_counts": {
+        "none": 4802,
+        "left1": 51,
+        "right1": 23
+      },
+      "rounded_normalization_counts": {
+        "none": 4802,
+        "left1": 51,
+        "right1": 23
+      },
+      "alignment_frequencies": {
+        "0": 0.03383921246923708,
+        "1": 0.6671452009844134,
+        "2": 0.25697292863002463,
+        "3": 0.02789171452009844,
+        "4": 0.0012305168170631665,
+        "5": 0.0,
+        "over5": 0.012920426579163249
+      },
+      "normalization_frequencies": {
+        "right1": 0.0047169811320754715,
+        "none": 0.9848236259228876,
+        "left1": 0.010459392945036915,
+        "left2": 0.0,
+        "left3": 0.0,
+        "left4": 0.0,
+        "left>4": 0.0
+      },
+      "mean_gap_given_nonzero_operands": 1.286307916060669,
+      "mean_left_shifts_given_nonzero_result": 0.010459392945036915,
+      "b": 64,
+      "p": 9,
+      "workload": "gaussian",
+      "elapsed_seconds": 1.5796213900030125,
+      "diagnostics": {
+        "max_error_from_exact_solution_one": 3.3306690738754696e-16
+      }
+    },
+    "oscillator-b64-p9": {
+      "counts": {
+        "operations": 28000,
+        "zero_operand": 6,
+        "nonzero_operands": 27994,
+        "opposite_sign": 8032,
+        "same_sign": 19962
+      },
+      "alignment_counts": {
+        "over5": 6,
+        "3": 8,
+        "0": 6244,
+        "1": 21384,
+        "2": 358
+      },
+      "exact_normalization_counts": {
+        "none": 26258,
+        "left1": 40,
+        "right1": 1702
+      },
+      "rounded_normalization_counts": {
+        "none": 26258,
+        "left1": 40,
+        "right1": 1702
+      },
+      "alignment_frequencies": {
+        "0": 0.223,
+        "1": 0.7637142857142857,
+        "2": 0.012785714285714286,
+        "3": 0.00028571428571428574,
+        "4": 0.0,
+        "5": 0.0,
+        "over5": 0.00021428571428571427
+      },
+      "normalization_frequencies": {
+        "right1": 0.06078571428571428,
+        "none": 0.9377857142857143,
+        "left1": 0.0014285714285714286,
+        "left2": 0.0,
+        "left3": 0.0,
+        "left4": 0.0,
+        "left>4": 0.0
+      },
+      "mean_gap_given_nonzero_operands": 0.7903122097592341,
+      "mean_left_shifts_given_nonzero_result": 0.0014285714285714286,
+      "b": 64,
+      "p": 9,
+      "workload": "oscillator",
+      "elapsed_seconds": 18.969163994013797,
+      "diagnostics": {
+        "final_x": 0.4080820633292359,
+        "final_v": -0.9129452500348395,
+        "absolute_energy_defect": 2.777786798093484e-11,
+        "note": "Energy defect includes RK4 discretization error; it is not a pure rounding error."
+      }
+    }
+  },
+  "classifier_cases": 5019,
+  "status": "completed"
+}

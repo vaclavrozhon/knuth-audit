@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "counts": {
+    "cyclic_direct_polynomial_and_recurrence": 25,
+    "cyclic_coefficients_compared": 1183,
+    "open_chain_direct_polynomial_and_factorization": 75,
+    "open_chain_coefficients_compared": 4695,
+    "infinite_cyclic_coefficients_and_square_root": 3431,
+    "equal_variables_matrix_trace": 48,
+    "equal_variables_matrix_determinant": 48,
+    "right_justified_pascal_characteristic_coefficients": 152
+  },
+  "total_checks_and_compared_coefficients": 9657,
+  "limits": {
+    "finite_sums": "All coefficients for 1<=m<=5, 0<=n<=4, 0<=r<=n.",
+    "infinite_series": "All monomials of total degree <=6, 1<=m<=7.",
+    "equal_variables": "1<=m<=8 and six exact specializations.",
+    "characteristic_polynomial": "Matrices of size 1 through 16."
+  },
+  "method": "Exact multivariate coefficient dictionaries, direct index enumeration, subset enumeration, and independent matrix arithmetic.",
+  "script_sha256": "b12ebfd120c447599ac777674db2efa4f0788f690fb062a5d004f3d1561f9f09"
+}

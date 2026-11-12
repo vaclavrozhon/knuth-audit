@@ -1,0 +1,247 @@
+{
+  "at_utc": "2026-11-03T09:43:58.526880+00:00",
+  "checker_sha256": "f24496999e5d520aecb35e40ce1abee7a4063a1de33734a35ef8b88cefc4049e",
+  "dependencies": {
+    "results/bricks147/original-478.xml": "528c4b952b7a30a70cd3c2d743beb2afe0464d5f55102f2d2b2511d0613e3cfa",
+    "results/bricks147/draft-168.xml": "ccde972fd270d7c6e0591d77c66eb30eae5829eb416d424ea33205bbe4aba44d",
+    "bricks147.py": "140542c1806da220d16df7b301e586a493d3b3eeb695ec8b7d5c24a9366bd1a2",
+    "cubes146.py": "73498bb603079a7e9f2b5c8a7b7f812e7d9a0a538ab243580ae764c0958a14bf",
+    "extract_bricks147.py": "b5fdcbc95cff696526bfa15b6618e03c033d73615aa36be16cd3c857cab9b783"
+  },
+  "oriented_colorings": 216,
+  "rotation_classes": 11,
+  "orbit_size_histogram": {
+    "8": 3,
+    "24": 8
+  },
+  "burnside_fixed_counts": [
+    0,
+    0,
+    0,
+    216,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    0,
+    0,
+    0,
+    0
+  ],
+  "figure_words": [
+    "abbaab",
+    "abcaab",
+    "abcbab",
+    "accaab",
+    "accbab",
+    "acbcab",
+    "bccbab",
+    "accaac",
+    "accbac",
+    "bccbac",
+    "bccbbc"
+  ],
+  "all66_inventory_labels_equal_and_valid": true,
+  "tensor": [
+    [
+      ".......",
+      ".......",
+      ".......",
+      "...c...",
+      ".......",
+      ".......",
+      "......."
+    ],
+    [
+      ".......",
+      ".......",
+      "...a...",
+      "..a.c..",
+      "...c...",
+      ".......",
+      "......."
+    ],
+    [
+      ".......",
+      ".a.b.a.",
+      ".......",
+      ".b.a.b.",
+      ".......",
+      ".a.b.a.",
+      "......."
+    ],
+    [
+      ".a.a.a.",
+      "a.b.a.c",
+      ".c.b.c.",
+      "a.b.a.c",
+      ".b.a.a.",
+      "a.c.b.c",
+      ".c.c.c."
+    ],
+    [
+      ".......",
+      ".b.c.b.",
+      ".......",
+      ".c.b.c.",
+      ".......",
+      ".b.c.b.",
+      "......."
+    ],
+    [
+      ".......",
+      ".......",
+      "...b...",
+      "..b.c..",
+      "...c...",
+      ".......",
+      "......."
+    ],
+    [
+      ".......",
+      ".......",
+      ".......",
+      "...c...",
+      ".......",
+      ".......",
+      "......."
+    ]
+  ],
+  "occupied_cells": [
+    {
+      "position": [
+        0,
+        1,
+        1
+      ],
+      "word": "accaac",
+      "type": "acacac"
+    },
+    {
+      "position": [
+        1,
+        0,
+        0
+      ],
+      "word": "acabab",
+      "type": "ababac"
+    },
+    {
+      "position": [
+        1,
+        0,
+        1
+      ],
+      "word": "abbcba",
+      "type": "ababbc"
+    },
+    {
+      "position": [
+        1,
+        0,
+        2
+      ],
+      "word": "acabac",
+      "type": "abacac"
+    },
+    {
+      "position": [
+        1,
+        1,
+        0
+      ],
+      "word": "cbbcab",
+      "type": "abbcbc"
+    },
+    {
+      "position": [
+        1,
+        1,
+        1
+      ],
+      "word": "baabba",
+      "type": "ababab"
+    },
+    {
+      "position": [
+        1,
+        1,
+        2
+      ],
+      "word": "cabcac",
+      "type": "acacbc"
+    },
+    {
+      "position": [
+        1,
+        2,
+        0
+      ],
+      "word": "bcabac",
+      "type": "abacbc"
+    },
+    {
+      "position": [
+        1,
+        2,
+        1
+      ],
+      "word": "acbccb",
+      "type": "acbcbc"
+    },
+    {
+      "position": [
+        1,
+        2,
+        2
+      ],
+      "word": "acabbc",
+      "type": "abaccb"
+    },
+    {
+      "position": [
+        2,
+        1,
+        1
+      ],
+      "word": "bcbcbc",
+      "type": "bcbcbc"
+    }
+  ],
+  "colored_facets": 52,
+  "tensor_characters": 343,
+  "all11_types_used_once": true,
+  "all_contacts_valid": true,
+  "spatial_shape_symmetries": 16,
+  "colored_symmetries": [
+    {
+      "axes": [
+        0,
+        1,
+        2
+      ],
+      "signs": [
+        1,
+        1,
+        1
+      ],
+      "colors": "abc"
+    }
+  ],
+  "all_original_and_draft_characters_equal": true,
+  "known_errata": [],
+  "new_findings": [],
+  "expensive_searches_started": false
+}

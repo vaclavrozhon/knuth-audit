@@ -1,0 +1,115 @@
+{
+  "accessed_utc": "2026-11-03T19:02:06.681436+00:00",
+  "scope": "Mathematics of exercises19/20 and Pollard paragraph402. C0161 fixed-base failure. Historical1920s claim not independently dated.",
+  "book_visually_read": [
+    392,
+    393,
+    402,
+    413,
+    661
+  ],
+  "errata_files": [
+    "errata/text/all2-prepre.txt",
+    "errata/text/all2-pre.txt",
+    "errata/text/all2.txt",
+    "errata/text/err2.txt",
+    "errata/originals/err2.textxt"
+  ],
+  "errata_result": "All full text layers searched by page, name, characteristic numbers, and base. No relevant correction found; neighboring17/22 corrections separate. Inclusive33<=r<=3334 confirmed visually.",
+  "web_sources": [
+    {
+      "name": "Pollard1974 publisher metadata",
+      "url": "https://doi.org/10.1017/S0305004100049252",
+      "scope": "ProcCambridgePhilSoc76(3),521-528. Full article not obtained; no claim of reading."
+    },
+    {
+      "name": "Williams1982 primary article OCR mirror",
+      "url": "https://paperzz.com/doc/9339784/io-phiitf-j---i.---american-mathematical-society",
+      "doi": "10.1090/S0025-5718-1982-0658227-7",
+      "scope": "Sections1-5,225-230 read in OCR. General mathematics independently proved. Tables231-234 not audited. Earlier unpublished Lehmer knowledge corroborated, specific1920s decade not established."
+    },
+    {
+      "name": "Williams1982 official PDF",
+      "url": "https://www.ams.org/mcom/1982-39-159/S0025-5718-1982-0658227-7/S0025-5718-1982-0658227-7.pdf",
+      "scope": "HTTP403; not obtained, no visual-read claim."
+    },
+    {
+      "name": "Attempted archive mirror",
+      "url": "https://electronicsandbooks.com/edt/manual/Magazine/M/Mathematics%20of%20Computation/1960-2002/pdf/1982_v039_n159/2007633.pdf",
+      "scope": "No route to host; no file saved."
+    }
+  ],
+  "run": {
+    "command": "timeout 180 python3 -u workstreams/vol2/verify_factoring_pminusplus.py",
+    "tool_session": 10253,
+    "pid": null,
+    "pid_note": "Short3.706s run exited before PID recorded. Not rerun.",
+    "time_limit_seconds": 180,
+    "exit_code": 0,
+    "checkpoints": 4,
+    "result": "results/factoring-pminusplus.json",
+    "log": "results/factoring-pminusplus.log"
+  },
+  "artifacts": [
+    {
+      "file": "notes/factoring-pminusplus.md",
+      "bytes": 15316,
+      "sha256": "3f74f1bfbcaa25fed4e153b78586d4142028a646dc960087e751412b98eb28ee"
+    },
+    {
+      "file": "verify_factoring_pminusplus.py",
+      "bytes": 10529,
+      "sha256": "23021b7e9347702baef047ef2876a61776d96279d3b7fdb62ffef6c9eda31392"
+    },
+    {
+      "file": "results/factoring-pminusplus.json",
+      "bytes": 3544,
+      "sha256": "e0b01280bbf8e2695480b01be277f1b261839b3cb0531f0f2e64e4d9bc800966"
+    },
+    {
+      "file": "results/factoring-pminusplus.log",
+      "bytes": 2677,
+      "sha256": "d32a358e6d32698b49f0d88d465ccadb64d1bb1a7d02fb08cc5be12bc1a3836c"
+    },
+    {
+      "file": "notes/C0161-pollard-base2-example.md",
+      "bytes": 1617,
+      "sha256": "b07383488a6bd709679ba534ee91649371cca233bf47df9efe3dd978108eec63"
+    },
+    {
+      "file": "reports/C0161-pollard-base2-example-draft.txt",
+      "bytes": 1193,
+      "sha256": "bbbefc68aa6a687b1c693cf8cfd440918c33f4c3ea604dbfb7bf5efdde05f3b0"
+    },
+    {
+      "file": "results/primality-certificates.json",
+      "bytes": 8680,
+      "sha256": "7863ee17e2f9384787e285f57b953822aea8135bd14d296eecb4dd362a845536"
+    },
+    {
+      "file": "images/vol2-p392.png",
+      "bytes": 404834,
+      "sha256": "69819d65000ec318663f369620cd0516ed332be45f8360d3cad593615505e80c"
+    },
+    {
+      "file": "images/vol2-p393.png",
+      "bytes": 347702,
+      "sha256": "72ced6efdea0672091cbbfbd6daaf44d069410a97e2ee40311c8e898acfc4194"
+    },
+    {
+      "file": "images/vol2-p402.png",
+      "bytes": 615921,
+      "sha256": "e93d97353fe41fe5aca2c01f964bf7871819871ea9fb27e6bd14098d23fbcde8"
+    },
+    {
+      "file": "images/vol2-p413.png",
+      "bytes": 403928,
+      "sha256": "de1d1a711a8b45a155b12864ae2e8a3d8e90ca9fb4b53deab2573b3312463dd5"
+    },
+    {
+      "file": "images/vol2-p661.png",
+      "bytes": 438286,
+      "sha256": "471304a6f154f59fd456894b676d7911eba179072c8718d0f725458a8e56d11b"
+    }
+  ]
+}

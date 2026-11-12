@@ -1,0 +1,35 @@
+# Volume 4B: final exercises, notation, and index
+
+Second review on 12 November 2026 of F240–F256, completing all 259 baseline-confirmed Volume 4B cards. These seventeen cards are retained. The 2022 second-printing originals were checked at pp. ix, xi, 298, 310, 634, 638–642, 645, 648, 650, 654, 664, and 683, together with the existing individual proof notes. SAT below denotes section 7.2.2.2. The current review preserves the limits of each claim.
+
+| Card | Rechecked reason and scope |
+| --- | --- |
+| F240 | SAT432 still distinguishes parts (a)/(b) of an answer replaced in 2022. Its former counterexample now propagates correctly. The replacement encoding remains nonforcing: d=4,a=2,x^1=1,y^3=0 semantically forces x^2 but leaves five binary clauses and no unit. This reports the stale dependent answer, not the already published replacement of SAT404. |
+| F241 | SAT433's partial assignment `1***10**1` has minimum completion `100010001` (273), not `10010001` (145). The corrected minimum exceeds the printed upper bound 271 as intended. Insert the missing zero; the general argument survives. |
+| F242 | SAT450 must add positive x15 to rule out five points on a line. The printed negative unit is satisfied by the explicit 34-incidence matrix. Also, four points belong to four lines each; the four large lines together cover all ten points. Correct the polarity and the ambiguous degree wording, without disputing the uniqueness theorem. |
+| F243 | SAT459's recurrence starts all empty boundaries at negative infinity and consequently never produces a finite value. Use zero for the nonnegative binary-matrix problem. The 2015 author draft already used zero; the later printing introduced the defect. |
+| F244 | SAT463 advances the row index under i<n although the number of rows is m. Use i<m. The extremal formula k(m+n-k) remains valid. |
+| F245 | Every one of the 24 relevant neighbor comparisons in SAT472's displayed 4-by-4 rank array has the opposite direction to the formula. Complement ranks r to 17-r or reverse the comparison symbols. The nine intended domino flips still work. |
+| F246 | SAT477's simplified clause repeats truth-table column 1 instead of the current column t. Replace x_i1 with x_it. The n=4,t=2 witness permits output 1 on two zero inputs under the printed simplification. The preceding general gate encoding is correct. |
+| F247 | SAT478's first-use ordering checks q only as second operand. The explicit two-gate chain uses q first as the smaller operand while satisfying the other ordering restrictions. Add the missing s_iqk clauses. This is an incomplete symmetry reduction; the weaker printed constraints do not invalidate SAT answers. |
+| F248 | SAT485's last unconditional quenching interchange needs an edge that need not exist. The five-vertex witness with edges 15,23,25,45 has a unique winning sequence excluded by the extra clause. The five-card instance AH,KH,KC,QD,QH gives the same failure. Add the missing edge guard. The corresponding author change file repeats the unguarded j=i+3 case; larger separated cases are sound. No claim is made about the larger historical benchmark's answer. |
+| F249 | SAT492 ends its transformed-literal list at n instead of the clause length k. Change that endpoint; the closure proof is unaffected. |
+| F250 | SAT495 compares `12 22 13` with `13 23 33` instead of comparing `12 22 32` with `13 23 33`. The recorded sorted matrix is fixed by the column swap yet violates the printed comparison. The double-lex principle remains valid. |
+| F251 | SAT504(d)'s last boilerplate string duplicates `00000011` instead of giving `11111100`. The duplicated list admits `00000011` even for the unsatisfiable eight-clause example R. The corrected last string excludes this spurious witness; the general reduction is correct. |
+| F252 | SAT509 treats fresh random solver seeds as if they supplied fresh problem instances. A parameter choice can have cost 1+U on training instances and 100+U elsewhere, while a competitor costs 2+U everywhere, for fresh seed noise U. Rerandomizing U does not remove instance overfitting. This is a defect in the stated justification, not evidence that the historical measurements actually overfit. |
+| F253 | The tuning paragraph assigns length 100 to benchmark A1; Table 6 defines A1 with length 99 and A2 with length 100. Change the A1 reference to x99. |
+| F254 | SAT525 describes an exact-cover instance with 3n items and 5n options. One SAT variable per option gives 5n variables, not 3n. Its counts of 10n binary and 2n five-literal clauses, totalling 30n literal occurrences, remain consistent. |
+| F255 | Appendix B's subset/superset family definitions need an existential quantifier, not a universal implication. F={{1}}, G={{1},{2}} separates the definitions from their printed complement equalities. This repeats the same defect as V4A-F0133; it is a second affected location, not an independent mathematical discovery. |
+| F256 | The Dell workstation index entry points to xi, the exercise-rating page. The acknowledgement is on ix. Replace xi by ix and retain the second, correct locator 714. |
+
+## Prior-publication check
+
+The current and historical Volume 4B and Fascicle 6 errata, with relevant draft-page mappings, were screened against these cards. The source refresh and hashes are in `../sources/manifest.json`. Known neighboring corrections include the 2022 SAT404 replacement, SAT456 percentage, SAT465/466 references and indices, SAT483's benchmark replacement, SAT484/485 indices, SAT495 attribution, and SAT525's items/options terminology. None repairs the reported issue. The existing V4A-F0133 review supplies the cross-volume notation comparison for F255.
+
+Public searches used Knuth/TAOCP together with graph quenching, commutation bug, sweep recurrence/boundary, SAT504 boilerplate, overfitting/random seeds, SAT variable counts, and the Dell index locator. No matching public report was found; many search results were irrelevant and provide no evidence either way.
+
+The [public tamnd/brain collection](https://github.com/tamnd/brain/tree/main/content/en/practice/maths/taocp/vol4/7.2.2.2) was inspected at exercises 432,433,450,459,463,472,477,478,485,492,495,504,509,525. The retrieved answer bodies repeat an unrelated all-different encoding and do not report these defects.
+
+The primary [ParamILS paper](https://www.cs.ubc.ca/labs/algorithms/Projects/ParamILS/papers/09-JAIR-ParamILS.pdf), definitions 3–4 and its experimental protocol, distinguishes problem instances from random seeds and separates training from test data. This supports the statistical distinction in F252; it is not a prior report of the later book error. The earlier correct sweep boundary and the quenching source-code comparison likewise establish scope and provenance, not absolute priority.
+
+Result: **no matching prior report found in the checked sources; priority not established**. Volume 4B as a whole finishes with 256 retained cards, two previously public findings (F097 and F101), and one dismissed card (F025). Counts refer to cards/locations, not mutually independent mathematical defects.

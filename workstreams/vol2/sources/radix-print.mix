@@ -1,0 +1,59 @@
+# TAOCP2 4.4-13, pp.637-638. Local labels made unique.
+# Original data: BUF ALF .____ ; ORIG *+39 (40 words total).
+# Ellipsis expanded from 4.3.1-13, adapting the descending fraction index.
+# In the simulation BUF is 2000; U is 1000; M is the input word count.
+P01 R13 JOV OFLO
+P02 - ENT2 -40
+P03 P8 ENT3 10
+P04 P1 ENT1 M
+P05 - ENTX 0
+P06 P2 STX CARRY
+P07 - LDA U,1
+P08 - MUL =1000000000=
+P09 - SLC 5
+P10 - ADD CARRY
+P11 - JNOV *+2
+P12 - INCX 1
+P13 - STA U,1
+P14 - DEC1 1
+P15 - J1P P2
+P16 - SLAX 5
+P17 - CHAR 0
+P18 - STA BUF+40,2(2:5)
+P19 - STX BUF+41,2
+P20 - INC2 2
+P21 - DEC3 1
+P22 - J3P P1
+P23 - OUT BUF+20,2(18)
+P24 - J2N P8
+PEND R13_END CON 0
+# Repair: 48 initially blank words, except leading period in BUF.
+# Use two disjoint 24-word printer blocks. Skip four padding words per line.
+F01 R13FIX JOV OFLO
+F02 - ENT2 -48
+F03 F8 ENT3 10
+F04 F1 ENT1 M
+F05 - ENTX 0
+F06 F2 STX CARRY
+F07 - LDA U,1
+F08 - MUL =1000000000=
+F09 - SLC 5
+F10 - ADD CARRY
+F11 - JNOV *+2
+F12 - INCX 1
+F13 - STA U,1
+F14 - DEC1 1
+F15 - J1P F2
+F16 - SLAX 5
+F17 - CHAR 0
+F18 - STA BUF+48,2(2:5)
+F19 - STX BUF+49,2
+F20 - INC2 2
+F21 - DEC3 1
+F22 - J3P F1
+F23 - OUT BUF+28,2(18)
+F24 - INC2 4
+F25 - J2N F8
+FEND R13FIX_END CON 0
+CARRY CARRY CON 0
+TRAP OFLO HLT 99

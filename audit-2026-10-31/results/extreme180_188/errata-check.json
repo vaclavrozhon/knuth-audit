@@ -1,0 +1,104 @@
+{
+  "at_utc": "2026-11-03T15:04:49.085578+00:00",
+  "files": [
+    {
+      "file": "errata/text/all4b.txt",
+      "sha256": "b1a3425486f403fb4158585d5bbfef0159fd20b12e2e7d47b64e393e1ae8a303",
+      "matching_lines": [
+        172,
+        174,
+        215,
+        217,
+        219,
+        223,
+        230,
+        736,
+        737
+      ]
+    },
+    {
+      "file": "errata/text/err4b.txt",
+      "sha256": "2a3450bf3c79d28ad3c2d96468344c96995cf0afb74961f257c311bb9c821e1c",
+      "matching_lines": [
+        154,
+        159,
+        187,
+        189,
+        192,
+        200,
+        202,
+        686,
+        687
+      ]
+    },
+    {
+      "file": "errata/text/all4f5.txt",
+      "sha256": "0dd38c4cda72b01baefb797611c9bbab7713ff0c107a1df884afc89fe9bb91c3",
+      "matching_lines": [
+        259,
+        260,
+        261,
+        365
+      ]
+    },
+    {
+      "file": "errata/text/err4f5.txt",
+      "sha256": "5a716c34e2063eb46005593d53e89dbbd912b5677e0a6ab11753f2a5ee38b557",
+      "matching_lines": [
+        216,
+        217,
+        218,
+        316
+      ]
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "sha256": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+      "matching_lines": [
+        371,
+        375,
+        437,
+        441,
+        445,
+        449,
+        461,
+        1123,
+        1124
+      ]
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "sha256": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b",
+      "matching_lines": [
+        494,
+        495,
+        498,
+        639
+      ]
+    }
+  ],
+  "pattern": "(?:[Pp]age\\s+|(?:4b|4f5)\\.)(?:9[7-9]|10[0-4]|147|468|145|276)\\b|(?:answer|exercise|exer ise)\\s+18[0-8]\\b|doomsday|Eppstein|A113547|Moser|A046936|A298804|D\\(1\\)|zero (?:items|primary)|empty matrix",
+  "known_entries": [
+    {
+      "id": "E090",
+      "date": "2026-02-15",
+      "book_page": 147,
+      "exercise": 180,
+      "applied_original_pdf": false,
+      "applied_author_draft": false
+    },
+    {
+      "id": "E091",
+      "date": "2023-08-10",
+      "book_page": 468,
+      "exercise": 185,
+      "applied_original_pdf": false,
+      "applied_author_draft": false
+    }
+  ],
+  "F017": "No correction of the original D(1)=1 base found.",
+  "F018": "Question180 correction does not remove extra i2 in answer180.",
+  "F019": "No correction of missing exp(sz) in general derivative found.",
+  "C038": "No explicit positive-size qualification for184–185 found.",
+  "live_4b_archive_match": "results/snakes172/errata-check.json (same day; current TeX/PS agree with archive)."
+}

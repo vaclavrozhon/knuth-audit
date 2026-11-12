@@ -1,0 +1,645 @@
+{
+  "blocks": {
+    "partition": {
+      "status": "passed",
+      "seconds": 1.1508208140148781,
+      "result": {
+        "multisets": 43757,
+        "binary_groups": 183090,
+        "exponents": [
+          0,
+          7
+        ],
+        "multiplicity_total": [
+          1,
+          10
+        ]
+      }
+    },
+    "structure": {
+      "status": "passed",
+      "seconds": 6.09525399497943,
+      "result": {
+        "star_chains_by_length": {
+          "0": 1,
+          "1": 1,
+          "2": 2,
+          "3": 6,
+          "4": 24,
+          "5": 120,
+          "6": 720,
+          "7": 5040,
+          "8": 40320
+        },
+        "chains": 46234,
+        "lemma_K_ordered_location_pairs": 6204228,
+        "printed_example": [
+          [
+            [
+              0
+            ],
+            [],
+            [],
+            []
+          ],
+          [
+            [
+              1
+            ],
+            [],
+            [],
+            []
+          ],
+          [
+            [
+              1
+            ],
+            [
+              0
+            ],
+            [],
+            []
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            [
+              0
+            ],
+            [],
+            []
+          ],
+          [
+            [
+              2,
+              2
+            ],
+            [
+              1
+            ],
+            [],
+            []
+          ],
+          [
+            [
+              3,
+              3
+            ],
+            [
+              2
+            ],
+            [],
+            []
+          ],
+          [
+            [
+              3,
+              3
+            ],
+            [
+              2
+            ],
+            [
+              1
+            ],
+            [
+              0
+            ]
+          ]
+        ],
+        "answer20_parameter_cases": {
+          "type3": 56,
+          "type5": 576
+        }
+      }
+    },
+    "construction": {
+      "status": "passed",
+      "seconds": 1.0248788699973375,
+      "result": {
+        "finite_constructions": {
+          "equality": 16384,
+          "strict": 32768
+        },
+        "book_example": {
+          "exponents": [
+            6103,
+            3048,
+            2032,
+            1016,
+            0
+          ],
+          "m": 508,
+          "general_length": 6106,
+          "star_minimum_by_H": 6107
+        },
+        "answer21_symbolic_parameter_checks": [
+          {
+            "q": 1,
+            "u_bit_length": 14,
+            "gap_lower_bound": 1
+          },
+          {
+            "q": 2,
+            "u_bit_length": 22,
+            "gap_lower_bound": 2
+          },
+          {
+            "q": 3,
+            "u_bit_length": 30,
+            "gap_lower_bound": 3
+          },
+          {
+            "q": 4,
+            "u_bit_length": 38,
+            "gap_lower_bound": 4
+          },
+          {
+            "q": 5,
+            "u_bit_length": 46,
+            "gap_lower_bound": 5
+          },
+          {
+            "q": 6,
+            "u_bit_length": 54,
+            "gap_lower_bound": 6
+          },
+          {
+            "q": 7,
+            "u_bit_length": 62,
+            "gap_lower_bound": 7
+          },
+          {
+            "q": 8,
+            "u_bit_length": 70,
+            "gap_lower_bound": 8
+          },
+          {
+            "q": 9,
+            "u_bit_length": 78,
+            "gap_lower_bound": 9
+          },
+          {
+            "q": 10,
+            "u_bit_length": 86,
+            "gap_lower_bound": 10
+          },
+          {
+            "q": 11,
+            "u_bit_length": 94,
+            "gap_lower_bound": 11
+          },
+          {
+            "q": 12,
+            "u_bit_length": 102,
+            "gap_lower_bound": 12
+          },
+          {
+            "q": 13,
+            "u_bit_length": 110,
+            "gap_lower_bound": 13
+          },
+          {
+            "q": 14,
+            "u_bit_length": 118,
+            "gap_lower_bound": 14
+          },
+          {
+            "q": 15,
+            "u_bit_length": 126,
+            "gap_lower_bound": 15
+          },
+          {
+            "q": 16,
+            "u_bit_length": 134,
+            "gap_lower_bound": 16
+          },
+          {
+            "q": 17,
+            "u_bit_length": 142,
+            "gap_lower_bound": 17
+          },
+          {
+            "q": 18,
+            "u_bit_length": 150,
+            "gap_lower_bound": 18
+          },
+          {
+            "q": 19,
+            "u_bit_length": 158,
+            "gap_lower_bound": 19
+          },
+          {
+            "q": 20,
+            "u_bit_length": 166,
+            "gap_lower_bound": 20
+          },
+          {
+            "q": 21,
+            "u_bit_length": 174,
+            "gap_lower_bound": 21
+          },
+          {
+            "q": 22,
+            "u_bit_length": 182,
+            "gap_lower_bound": 22
+          },
+          {
+            "q": 23,
+            "u_bit_length": 190,
+            "gap_lower_bound": 23
+          },
+          {
+            "q": 24,
+            "u_bit_length": 198,
+            "gap_lower_bound": 24
+          },
+          {
+            "q": 25,
+            "u_bit_length": 206,
+            "gap_lower_bound": 25
+          },
+          {
+            "q": 26,
+            "u_bit_length": 214,
+            "gap_lower_bound": 26
+          },
+          {
+            "q": 27,
+            "u_bit_length": 222,
+            "gap_lower_bound": 27
+          },
+          {
+            "q": 28,
+            "u_bit_length": 230,
+            "gap_lower_bound": 28
+          },
+          {
+            "q": 29,
+            "u_bit_length": 238,
+            "gap_lower_bound": 29
+          },
+          {
+            "q": 30,
+            "u_bit_length": 246,
+            "gap_lower_bound": 30
+          },
+          {
+            "q": 31,
+            "u_bit_length": 254,
+            "gap_lower_bound": 31
+          },
+          {
+            "q": 32,
+            "u_bit_length": 262,
+            "gap_lower_bound": 32
+          },
+          {
+            "q": 33,
+            "u_bit_length": 270,
+            "gap_lower_bound": 33
+          },
+          {
+            "q": 34,
+            "u_bit_length": 278,
+            "gap_lower_bound": 34
+          },
+          {
+            "q": 35,
+            "u_bit_length": 286,
+            "gap_lower_bound": 35
+          },
+          {
+            "q": 36,
+            "u_bit_length": 294,
+            "gap_lower_bound": 36
+          },
+          {
+            "q": 37,
+            "u_bit_length": 302,
+            "gap_lower_bound": 37
+          },
+          {
+            "q": 38,
+            "u_bit_length": 310,
+            "gap_lower_bound": 38
+          },
+          {
+            "q": 39,
+            "u_bit_length": 318,
+            "gap_lower_bound": 39
+          },
+          {
+            "q": 40,
+            "u_bit_length": 326,
+            "gap_lower_bound": 40
+          },
+          {
+            "q": 41,
+            "u_bit_length": 334,
+            "gap_lower_bound": 41
+          },
+          {
+            "q": 42,
+            "u_bit_length": 342,
+            "gap_lower_bound": 42
+          },
+          {
+            "q": 43,
+            "u_bit_length": 350,
+            "gap_lower_bound": 43
+          },
+          {
+            "q": 44,
+            "u_bit_length": 358,
+            "gap_lower_bound": 44
+          },
+          {
+            "q": 45,
+            "u_bit_length": 366,
+            "gap_lower_bound": 45
+          },
+          {
+            "q": 46,
+            "u_bit_length": 374,
+            "gap_lower_bound": 46
+          },
+          {
+            "q": 47,
+            "u_bit_length": 382,
+            "gap_lower_bound": 47
+          },
+          {
+            "q": 48,
+            "u_bit_length": 390,
+            "gap_lower_bound": 48
+          },
+          {
+            "q": 49,
+            "u_bit_length": 398,
+            "gap_lower_bound": 49
+          },
+          {
+            "q": 50,
+            "u_bit_length": 406,
+            "gap_lower_bound": 50
+          },
+          {
+            "q": 51,
+            "u_bit_length": 414,
+            "gap_lower_bound": 51
+          },
+          {
+            "q": 52,
+            "u_bit_length": 422,
+            "gap_lower_bound": 52
+          },
+          {
+            "q": 53,
+            "u_bit_length": 430,
+            "gap_lower_bound": 53
+          },
+          {
+            "q": 54,
+            "u_bit_length": 438,
+            "gap_lower_bound": 54
+          },
+          {
+            "q": 55,
+            "u_bit_length": 446,
+            "gap_lower_bound": 55
+          },
+          {
+            "q": 56,
+            "u_bit_length": 454,
+            "gap_lower_bound": 56
+          },
+          {
+            "q": 57,
+            "u_bit_length": 462,
+            "gap_lower_bound": 57
+          },
+          {
+            "q": 58,
+            "u_bit_length": 470,
+            "gap_lower_bound": 58
+          },
+          {
+            "q": 59,
+            "u_bit_length": 478,
+            "gap_lower_bound": 59
+          },
+          {
+            "q": 60,
+            "u_bit_length": 486,
+            "gap_lower_bound": 60
+          },
+          {
+            "q": 61,
+            "u_bit_length": 494,
+            "gap_lower_bound": 61
+          },
+          {
+            "q": 62,
+            "u_bit_length": 502,
+            "gap_lower_bound": 62
+          },
+          {
+            "q": 63,
+            "u_bit_length": 510,
+            "gap_lower_bound": 63
+          },
+          {
+            "q": 64,
+            "u_bit_length": 518,
+            "gap_lower_bound": 64
+          },
+          {
+            "q": 65,
+            "u_bit_length": 526,
+            "gap_lower_bound": 65
+          },
+          {
+            "q": 66,
+            "u_bit_length": 534,
+            "gap_lower_bound": 66
+          },
+          {
+            "q": 67,
+            "u_bit_length": 542,
+            "gap_lower_bound": 67
+          },
+          {
+            "q": 68,
+            "u_bit_length": 550,
+            "gap_lower_bound": 68
+          },
+          {
+            "q": 69,
+            "u_bit_length": 558,
+            "gap_lower_bound": 69
+          },
+          {
+            "q": 70,
+            "u_bit_length": 566,
+            "gap_lower_bound": 70
+          },
+          {
+            "q": 71,
+            "u_bit_length": 574,
+            "gap_lower_bound": 71
+          },
+          {
+            "q": 72,
+            "u_bit_length": 582,
+            "gap_lower_bound": 72
+          },
+          {
+            "q": 73,
+            "u_bit_length": 590,
+            "gap_lower_bound": 73
+          },
+          {
+            "q": 74,
+            "u_bit_length": 598,
+            "gap_lower_bound": 74
+          },
+          {
+            "q": 75,
+            "u_bit_length": 606,
+            "gap_lower_bound": 75
+          },
+          {
+            "q": 76,
+            "u_bit_length": 614,
+            "gap_lower_bound": 76
+          },
+          {
+            "q": 77,
+            "u_bit_length": 622,
+            "gap_lower_bound": 77
+          },
+          {
+            "q": 78,
+            "u_bit_length": 630,
+            "gap_lower_bound": 78
+          },
+          {
+            "q": 79,
+            "u_bit_length": 638,
+            "gap_lower_bound": 79
+          },
+          {
+            "q": 80,
+            "u_bit_length": 646,
+            "gap_lower_bound": 80
+          },
+          {
+            "q": 81,
+            "u_bit_length": 654,
+            "gap_lower_bound": 81
+          },
+          {
+            "q": 82,
+            "u_bit_length": 662,
+            "gap_lower_bound": 82
+          },
+          {
+            "q": 83,
+            "u_bit_length": 670,
+            "gap_lower_bound": 83
+          },
+          {
+            "q": 84,
+            "u_bit_length": 678,
+            "gap_lower_bound": 84
+          },
+          {
+            "q": 85,
+            "u_bit_length": 686,
+            "gap_lower_bound": 85
+          },
+          {
+            "q": 86,
+            "u_bit_length": 694,
+            "gap_lower_bound": 86
+          },
+          {
+            "q": 87,
+            "u_bit_length": 702,
+            "gap_lower_bound": 87
+          },
+          {
+            "q": 88,
+            "u_bit_length": 710,
+            "gap_lower_bound": 88
+          },
+          {
+            "q": 89,
+            "u_bit_length": 718,
+            "gap_lower_bound": 89
+          },
+          {
+            "q": 90,
+            "u_bit_length": 726,
+            "gap_lower_bound": 90
+          },
+          {
+            "q": 91,
+            "u_bit_length": 734,
+            "gap_lower_bound": 91
+          },
+          {
+            "q": 92,
+            "u_bit_length": 742,
+            "gap_lower_bound": 92
+          },
+          {
+            "q": 93,
+            "u_bit_length": 750,
+            "gap_lower_bound": 93
+          },
+          {
+            "q": 94,
+            "u_bit_length": 758,
+            "gap_lower_bound": 94
+          },
+          {
+            "q": 95,
+            "u_bit_length": 766,
+            "gap_lower_bound": 95
+          },
+          {
+            "q": 96,
+            "u_bit_length": 774,
+            "gap_lower_bound": 96
+          },
+          {
+            "q": 97,
+            "u_bit_length": 782,
+            "gap_lower_bound": 97
+          },
+          {
+            "q": 98,
+            "u_bit_length": 790,
+            "gap_lower_bound": 98
+          },
+          {
+            "q": 99,
+            "u_bit_length": 798,
+            "gap_lower_bound": 99
+          },
+          {
+            "q": 100,
+            "u_bit_length": 806,
+            "gap_lower_bound": 100
+          }
+        ],
+        "giant_integer_allocated_for_answer21": false
+      }
+    }
+  },
+  "updated_at_utc": "2026-11-04T05:28:19.940923+00:00"
+}

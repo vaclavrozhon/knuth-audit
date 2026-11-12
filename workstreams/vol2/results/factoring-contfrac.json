@@ -1,0 +1,355 @@
+{
+  "checkpoints": {
+    "recurrence": {
+      "status": "passed",
+      "seconds": 0.6141141330008395,
+      "result": {
+        "parameter_pairs": 3940,
+        "exact_state_comparisons": 65956,
+        "factor_base_checks": 46589,
+        "n_range": [
+          2,
+          256
+        ],
+        "k_range": [
+          1,
+          16
+        ]
+      }
+    },
+    "tables": {
+      "status": "passed",
+      "seconds": 0.0012001650175079703,
+      "result": {
+        "table1_rows": 13,
+        "exercise11_rows": 7,
+        "first100_outputs": 24,
+        "corrected_first100_outputs": 25,
+        "exercise11_outputs": [
+          [
+            993,
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            2,
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            99101,
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        "example_factor": 199,
+        "example_trace": [
+          {
+            "input": 1,
+            "action": "store",
+            "pivot": 3,
+            "x": 159316,
+            "e": [
+              0,
+              4,
+              2,
+              1
+            ],
+            "multiplied_pivots": []
+          },
+          {
+            "input": 2,
+            "action": "F5",
+            "x": 126308,
+            "y": 540,
+            "e": [
+              0,
+              4,
+              6,
+              2
+            ],
+            "skip": false,
+            "gcd": 199,
+            "multiplied_pivots": [
+              3
+            ]
+          }
+        ],
+        "fermat7_product_factors": [
+          59649589127497217,
+          5704689200685129054721
+        ],
+        "asymptotic_illustrations": {
+          "a_for_10^50": 4.745404983865783,
+          "a_for_10^200": 8.417907712941787,
+          "e_for_10^50": 0.40607247560360277
+        }
+      }
+    },
+    "unit_elimination": {
+      "status": "passed",
+      "seconds": 0.8104289430193603,
+      "result": {
+        "parameter_pairs": 623,
+        "independently_enumerated_prefixes": 2912,
+        "max_relations": 9,
+        "n_max": 300,
+        "k_max": 8,
+        "factor_base": [
+          2,
+          3,
+          5
+        ]
+      }
+    },
+    "probability": {
+      "status": "passed",
+      "seconds": 0.6317584029748105,
+      "result": {
+        "odd_moduli": 511,
+        "unit_square_fibers": 71702,
+        "unit_roots": 212446,
+        "largest_modulus": 1023
+      }
+    },
+    "counterexamples": {
+      "status": "passed",
+      "seconds": 0.0006764009594917297,
+      "result": {
+        "E3": {
+          "N": 197209,
+          "P": 159316,
+          "V": 720,
+          "S": 0,
+          "forced_Q_squared": 128704,
+          "full_numerator": 750943,
+          "full_denominator": 1691
+        },
+        "F": {
+          "N": 155,
+          "k": 29,
+          "primes": [
+            2,
+            3,
+            5
+          ],
+          "outputs": [
+            [
+              80,
+              [
+                0,
+                0,
+                2,
+                1
+              ]
+            ],
+            [
+              152,
+              [
+                0,
+                0,
+                2,
+                0
+              ]
+            ],
+            [
+              30,
+              [
+                1,
+                1,
+                1,
+                1
+              ]
+            ],
+            [
+              109,
+              [
+                1,
+                1,
+                3,
+                0
+              ]
+            ],
+            [
+              25,
+              [
+                0,
+                0,
+                0,
+                1
+              ]
+            ],
+            [
+              139,
+              [
+                1,
+                1,
+                3,
+                0
+              ]
+            ]
+          ],
+          "trace": [
+            {
+              "input": 1,
+              "action": "store",
+              "pivot": 3,
+              "x": 80,
+              "e": [
+                0,
+                0,
+                2,
+                1
+              ],
+              "multiplied_pivots": []
+            },
+            {
+              "input": 2,
+              "action": "F5",
+              "x": 152,
+              "y": 3,
+              "e": [
+                0,
+                0,
+                2,
+                0
+              ],
+              "skip": true,
+              "gcd": 1,
+              "multiplied_pivots": []
+            },
+            {
+              "input": 3,
+              "action": "store",
+              "pivot": 2,
+              "x": 75,
+              "e": [
+                1,
+                1,
+                3,
+                2
+              ],
+              "multiplied_pivots": [
+                3
+              ]
+            },
+            {
+              "input": 4,
+              "action": "F5",
+              "x": 115,
+              "y": 40,
+              "e": [
+                2,
+                2,
+                6,
+                2
+              ],
+              "skip": true,
+              "gcd": 5,
+              "multiplied_pivots": [
+                2
+              ]
+            },
+            {
+              "input": 5,
+              "action": "F5",
+              "x": 140,
+              "y": 15,
+              "e": [
+                0,
+                0,
+                2,
+                2
+              ],
+              "skip": true,
+              "gcd": 5,
+              "multiplied_pivots": [
+                3
+              ]
+            },
+            {
+              "input": 6,
+              "action": "F5",
+              "x": 40,
+              "y": 40,
+              "e": [
+                2,
+                2,
+                6,
+                2
+              ],
+              "skip": true,
+              "gcd": 155,
+              "multiplied_pivots": [
+                2
+              ]
+            }
+          ],
+          "independent_subset": {
+            "mask": 40,
+            "x": 116,
+            "y": 101,
+            "factor": 5
+          }
+        },
+        "exercise13": [
+          {
+            "N": 15,
+            "square": 9,
+            "roots": [
+              3,
+              12
+            ],
+            "failure_probability": "1"
+          },
+          {
+            "N": 8,
+            "square": 1,
+            "roots": [
+              1,
+              3,
+              5,
+              7
+            ],
+            "failure_probability": "1/2"
+          }
+        ]
+      }
+    },
+    "valuations": {
+      "status": "passed",
+      "seconds": 1.7409070620196871,
+      "result": {
+        "primitive_residue_pairs": 2693344,
+        "exact_tail_cases": 640,
+        "rational_means": 1536,
+        "d_max_mean": 256,
+        "base_cases_two": {
+          "1": "4/3",
+          "3": "1/3",
+          "5": "2/3",
+          "7": "1/3"
+        },
+        "scope": "Exact local residue model; general proof and interpretation in notes."
+      }
+    },
+    "fermat7_certificates": {
+      "status": "passed",
+      "seconds": 0.002305970003362745,
+      "result": {
+        "proved_nodes": 27,
+        "independently_checked_powers": 97,
+        "targets": [
+          59649589127497217,
+          5704689200685129054721
+        ]
+      }
+    }
+  }
+}

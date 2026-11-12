@@ -1,0 +1,104 @@
+{
+  "loveland": {
+    "C0066": [
+      {
+        "prefix": [
+          0,
+          1,
+          2
+        ],
+        "printed_boundaries": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "prefix": [
+          1,
+          0,
+          2
+        ],
+        "printed_boundaries": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "permutation_histories": 5040,
+    "stage_set_checks": 10080
+  },
+  "bit_lifting": {
+    "interval_cells": 4216,
+    "safe_error": "2/2^k",
+    "fixed_precision_bracket_example": {
+      "b": 3,
+      "k": 3,
+      "a": 1,
+      "outer_mass": "1/2",
+      "true_mass": "1/3",
+      "difference": "1/6"
+    },
+    "note": "This tests the proof bracket only, not a counterexample to the full R6 theorem or its final exact frequencies."
+  },
+  "coppersmith": {
+    "proper_coordinate_sets": 672,
+    "rows": [
+      {
+        "n": 2,
+        "coordinates": 3,
+        "independent_up_to": 2,
+        "even_parity_words": 4
+      },
+      {
+        "n": 3,
+        "coordinates": 5,
+        "independent_up_to": 4,
+        "even_parity_words": 16
+      },
+      {
+        "n": 4,
+        "coordinates": 7,
+        "independent_up_to": 6,
+        "even_parity_words": 64
+      },
+      {
+        "n": 5,
+        "coordinates": 9,
+        "independent_up_to": 8,
+        "even_parity_words": 256
+      }
+    ]
+  },
+  "schmidt": {
+    "oscillation_lemma_arrays": 6561,
+    "safe_c": "1/200",
+    "source_c": "1/100 with1<=n<=N",
+    "C0067_before_publication_review": {
+      "N": 1,
+      "only_n": 0,
+      "left_side": 0,
+      "right_side": 0,
+      "strict_inequality": false
+    },
+    "C0067": {
+      "status": "dismissed",
+      "N": 1,
+      "only_n": 0,
+      "printed_count": "j <= n",
+      "choose_u": "(1+U_0)/2",
+      "left_side": 1,
+      "right_side": 0,
+      "strict_inequality": true,
+      "reviewed_at": "2026-11-12",
+      "note": "Original image inspected; the historical empty-count calculation did not match the book."
+    }
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "accessed_utc": "2026-11-03T17:04:39.273667+00:00",
+  "scope": "Algorithm P pp395-396, exercise4.5.4-22 pp413,661-662; C0154.",
+  "book_visually_read": [
+    395,
+    396,
+    413,
+    661,
+    662
+  ],
+  "book_djvu_offset": 12,
+  "primary_sources": [
+    {
+      "name": "rabin-1980-primality",
+      "url": "https://math.nyu.edu/~goodman/teaching/Algebra_2_2021/MillerRabinTest.pdf",
+      "read_scope": "Printed128-134 and138 text;129,130,132,133,138 visually. No reproduction of later implementation experiments.",
+      "path": "sources/rabin-1980-primality.pdf",
+      "bytes": 649544,
+      "sha256": "dff8397cf56e50ed4fecdb1a3b8557b83618d29e4fff564f67967c0a0ae56c87"
+    },
+    {
+      "name": "miller-1976-primality",
+      "url": "https://www.cs.cmu.edu/~glmiller/Publications/Papers/Mi76.pdf",
+      "read_scope": "Printed300,306-307 visually;301,308-309 text. Analytic results are external dependencies, not a complete audit of paper.",
+      "path": "sources/miller-1976-primality.pdf",
+      "bytes": 435251,
+      "sha256": "0c22f3cb788a3d0e604b5b96780b459e3dee016f3dc95fa6f74232528a13daaf"
+    }
+  ],
+  "web_sources": [
+    {
+      "url": "https://doi.org/10.1090/S0025-5718-1990-1023756-8",
+      "scope": "Bibliography and indexed author abstract only. Publisher PDF and landing page403; full constant2 proof not read. Abstract indexed at https://cir.nii.ac.jp/crid/1362544419609691648 ."
+    },
+    {
+      "url": "https://epubs.siam.org/doi/10.1137/0206006",
+      "scope": "Publisher abstract and bibliography only; not full paper."
+    },
+    {
+      "url": "https://epubs.siam.org/doi/10.1137/0207009",
+      "scope": "Publisher correction metadata;7(1)1978page118."
+    },
+    {
+      "url": "https://academic.oup.com/comjnl/article-abstract/37/3/219/403831",
+      "scope": "Publisher abstract supports divisionless Montgomery formulation, no timing replication/full paper."
+    }
+  ],
+  "errata_files": [
+    {
+      "path": "errata/text/all2-prepre.txt",
+      "bytes": 137797,
+      "sha256": "62a1ff323ca421f2640e2337f922dbf8cfc8e86c20d9b11acfc91221721c6f58"
+    },
+    {
+      "path": "errata/text/all2-pre.txt",
+      "bytes": 58401,
+      "sha256": "c1735b70547678d739eae3a8d7b02872c737218eed7706a0aba8fb6fc21a6529"
+    },
+    {
+      "path": "errata/text/all2.txt",
+      "bytes": 38902,
+      "sha256": "1c4d7f2259e147db0ebe84b4bf0ce8864b307afb4ccfbe48efcb1f5f5999ac58"
+    },
+    {
+      "path": "errata/text/err2.txt",
+      "bytes": 35603,
+      "sha256": "1b5c93712c3c467a48679e0040ba6c5869998b25184dbd125a5d096ce96e9ab0"
+    },
+    {
+      "path": "errata/originals/err2.textxt",
+      "bytes": 48721,
+      "sha256": "8faa21566312314ec6bda0f8956913deb312517fd9fa688dcc0bf19e1f21962e"
+    }
+  ],
+  "errata_visually_read": [
+    {
+      "file": "errata/pdf/all2-prepre.pdf",
+      "pages": [
+        22,
+        24,
+        41
+      ]
+    }
+  ],
+  "new_findings": [
+    "V2-C0154"
+  ],
+  "computations": {
+    "script": "verify_primality_probabilistic.py",
+    "results": "results/primality-probabilistic.json",
+    "log": "results/primality-probabilistic.log",
+    "pid": 1271960,
+    "tool_session": 75927,
+    "limit_seconds": 120,
+    "exit_code": 0,
+    "seconds": 12.183807479043026
+  },
+  "artifacts": [
+    {
+      "path": "workstreams/vol2/verify_primality_probabilistic.py",
+      "bytes": 5261,
+      "sha256": "966f7b15ed8a7e0ef5e08102bc62b08b189cb53a7dbfdabbe0b0d14643dce243"
+    },
+    {
+      "path": "workstreams/vol2/results/primality-probabilistic.json",
+      "bytes": 1525,
+      "sha256": "c8ac84d44c5aecfb43e062eddf58751d42edd3048f8c6d3e73939a1fceb69d2d"
+    },
+    {
+      "path": "workstreams/vol2/results/primality-probabilistic.log",
+      "bytes": 41,
+      "sha256": "e95caa778417329dc41afb611ecb62718d97ccc95131df5de15d6d14a58255df"
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "status": "passed",
+  "checks": {
+    "elementary": {
+      "status": "passed",
+      "seconds": 7.943184718023986,
+      "identity_cases": 5625,
+      "fiber_instances": 31872,
+      "residue_pairs": 1883016,
+      "bijection_checks": 1562576,
+      "sign_counterexample": {
+        "a": 2,
+        "pairs": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "printed_norm": -7,
+        "correct_norm": 1
+      },
+      "uniformity_counterexample": {
+        "n": 7,
+        "a": 3,
+        "b": 1,
+        "nonzero_coordinate_counts": {
+          "1": 4,
+          "2": 4,
+          "3": 8,
+          "4": 4,
+          "5": 8,
+          "6": 8
+        },
+        "all_coordinate_counts": {
+          "0": 1,
+          "1": 8,
+          "2": 8,
+          "3": 8,
+          "4": 8,
+          "5": 8,
+          "6": 8
+        }
+      }
+    },
+    "lattice": {
+      "status": "passed",
+      "seconds": 0.060956278000958264,
+      "cases": 2315,
+      "shortest_comparisons": 5712,
+      "max_gauss_steps": 3,
+      "missing_factor_witness": {
+        "a": 2,
+        "s": 17,
+        "z": 6,
+        "m": 2,
+        "u": 1,
+        "v": -3,
+        "squared_length": 2,
+        "t": -1,
+        "X": -1,
+        "Y": -3
+      }
+    },
+    "solver": {
+      "status": "passed",
+      "seconds": 5.439167888020165,
+      "exhaustive_instances": 62448,
+      "stats": {
+        "known_square": 36191,
+        "minus_one_base": 19970,
+        "random_pairs": 423936,
+        "norm_descents": 60508,
+        "unit_target": 10622,
+        "zero_norm_square": 7297,
+        "factor_splits": 14573,
+        "hensel_doublings": 5303,
+        "crt_merges": 10804,
+        "recursive_square": 352
+      },
+      "max_call_depth": 5,
+      "forced_factor_examples": [
+        {
+          "n": 81,
+          "divisor": 9,
+          "a": 2,
+          "b": 1,
+          "x": 66,
+          "y": 52
+        },
+        {
+          "n": 81,
+          "divisor": 9,
+          "a": -1,
+          "b": 2,
+          "x": 32,
+          "y": 29
+        },
+        {
+          "n": 81,
+          "divisor": 9,
+          "a": 7,
+          "b": 11,
+          "x": 0,
+          "y": 35
+        },
+        {
+          "n": 81,
+          "divisor": 9,
+          "a": 13,
+          "b": 17,
+          "x": 0,
+          "y": 40
+        },
+        {
+          "n": 225,
+          "divisor": 15,
+          "a": 2,
+          "b": 1,
+          "x": 3,
+          "y": 2
+        },
+        {
+          "n": 225,
+          "divisor": 15,
+          "a": -1,
+          "b": 2,
+          "x": 4,
+          "y": 106
+        },
+        {
+          "n": 225,
+          "divisor": 15,
+          "a": 7,
+          "b": 11,
+          "x": 207,
+          "y": 197
+        },
+        {
+          "n": 225,
+          "divisor": 15,
+          "a": 13,
+          "b": 17,
+          "x": 78,
+          "y": 203
+        },
+        {
+          "n": 675,
+          "divisor": 15,
+          "a": 2,
+          "b": 1,
+          "x": 474,
+          "y": 245
+        },
+        {
+          "n": 675,
+          "divisor": 15,
+          "a": -1,
+          "b": 2,
+          "x": 229,
+          "y": 331
+        },
+        {
+          "n": 675,
+          "divisor": 15,
+          "a": 7,
+          "b": 11,
+          "x": 669,
+          "y": 395
+        },
+        {
+          "n": 675,
+          "divisor": 15,
+          "a": 13,
+          "b": 17,
+          "x": 48,
+          "y": 482
+        },
+        {
+          "n": 945,
+          "divisor": 9,
+          "a": 2,
+          "b": 1,
+          "x": 921,
+          "y": 110
+        },
+        {
+          "n": 945,
+          "divisor": 9,
+          "a": -1,
+          "b": 2,
+          "x": 356,
+          "y": 596
+        },
+        {
+          "n": 945,
+          "divisor": 9,
+          "a": 13,
+          "b": 17,
+          "x": 540,
+          "y": 94
+        },
+        {
+          "n": 4725,
+          "divisor": 15,
+          "a": 2,
+          "b": 1,
+          "x": 3837,
+          "y": 3647
+        },
+        {
+          "n": 4725,
+          "divisor": 15,
+          "a": -1,
+          "b": 2,
+          "x": 3604,
+          "y": 1681
+        },
+        {
+          "n": 4725,
+          "divisor": 15,
+          "a": 13,
+          "b": 17,
+          "x": 2328,
+          "y": 428
+        }
+      ],
+      "oracle_scope": "Trial division and exhaustive roots only for finite validation; see proof for efficient replacements."
+    }
+  },
+  "updated_at_utc": "2026-11-03T20:30:06.330303+00:00"
+}

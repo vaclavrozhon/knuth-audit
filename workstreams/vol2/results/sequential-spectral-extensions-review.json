@@ -1,0 +1,151 @@
+{
+  "reviewed_at_utc": "2026-11-06T09:58:50.377370+00:00",
+  "scope": "Sequential exercise16–24 review; general arguments, exact original typesetting and archived completed programs/results. Research items audited as stated research questions, not all solved.",
+  "reaffirmed_findings": [
+    "V2-C0044",
+    "V2-C0045",
+    "V2-C0046",
+    "V2-C0047",
+    "V2-C0048"
+  ],
+  "new_findings": [],
+  "new_computation": null,
+  "accepted_archived_checks": {
+    "L1_models": 1259,
+    "L1_minima": 5036,
+    "orbits": 120,
+    "integer_normals": 18000,
+    "batched_models": 252,
+    "second_order_recurrences": 31,
+    "second_order_minima": 124,
+    "Alexeev_constructions": 12,
+    "Pell_certificates": 5
+  },
+  "qualifications": [
+    "C0046 changes the claimed type3 orbit lattice; RANDU nu2–nu9 remain correct. Equality of nu does not establish the same density normalization for mu.",
+    "Exercise22 optimal tradeoff and exercise23 dimensions3–5 not solved. No present open-status claim.",
+    "Exercise16 is scoped to the unshifted lattice; C0038 handles the shift issue."
+  ],
+  "inputs": [
+    {
+      "path": "workstreams/vol2/notes/sequential-spectral-extensions-2026-11-06.md",
+      "sha256": "25f0d71651c12baee87f34806436b93361137b59c543c75f9741da29d32eef99"
+    },
+    {
+      "path": "workstreams/vol2/sources/sequential-2026-11-06/spectral-extensions-source-review.json",
+      "sha256": "6c31277cbfc29534bb219bf1eb433627763d72ce7eed694e4faf62d3803f2abe"
+    },
+    {
+      "path": "workstreams/vol2/notes/spectral-extensions.md",
+      "sha256": "c291e17a8b5d6fa34b3ce4b68ab8f27d1b6a761b3af4ee73a97c54bf7baa69c3"
+    },
+    {
+      "path": "workstreams/vol2/notes/spectral-research.md",
+      "sha256": "c7ea8088925ac9246e188c18313bdd659bc96e3fb66a5494ee5f4ff501088c4b"
+    },
+    {
+      "path": "workstreams/vol2/verify_spectral_extensions.py",
+      "sha256": "291dcb49e4219516f0dc7381dfad7533430db6ed3e6fc906bf744ddcb25c170f"
+    },
+    {
+      "path": "workstreams/vol2/verify_spectral_research.py",
+      "sha256": "d81df2fdb66fcc1ebbc8829cfe59588af858ab0eb603e8de49d57d3cc81fbd6d"
+    },
+    {
+      "path": "workstreams/vol2/results/spectral-extensions.json",
+      "sha256": "c116178e3334a6ae8d6844439eb6d49f5ffae1afcd82469ae1eafcd9ec3d78c0"
+    },
+    {
+      "path": "workstreams/vol2/results/spectral-extensions.log",
+      "sha256": "ebf3e916e87d4aac6583f9d49a498534ee1cb84cf2a60bae2f677d8df8da1a06"
+    },
+    {
+      "path": "workstreams/vol2/results/spectral-research.json",
+      "sha256": "422b9f84e0a178c553d995c3d53e564515ed35af9741431ac5c0c6ed74b8695d"
+    },
+    {
+      "path": "workstreams/vol2/results/spectral-research.log",
+      "sha256": "8ae3b3f72f5657a97e7975472fbabd4de0057f7c7e49c3022bcef2e557cdfeb5"
+    },
+    {
+      "path": "workstreams/vol2/spectral.py",
+      "sha256": "d6563e7eff568aa4bd8f50fb187267ee6b42c55a9245d47189c0381c5b5cec2a"
+    },
+    {
+      "path": "workstreams/vol2/spectral_independent.py",
+      "sha256": "a77fc9a3f9bc060e7ffb8e01a185e64c4047cf7341bb2d4ef8cdceb349b5cd04"
+    },
+    {
+      "path": "workstreams/vol2/results/spectral-table.json",
+      "sha256": "a4d77943c8813393060366b9f44ae6f473f59e95a0936a8660456ebcd9f1d1c9"
+    },
+    {
+      "path": "workstreams/vol2/results/spectral-details.json",
+      "sha256": "bbf90c7fca121b7ce6b504a18d349b5b04bfaee5647e378a585512e130368910"
+    },
+    {
+      "path": "workstreams/vol2/results/sequential-spectral-certificates.json",
+      "sha256": "bdb007c45e2b36bad26a90b2a9f47c5b75edfa09fb23f794662bc027a14eed27"
+    },
+    {
+      "path": "workstreams/vol2/notes/sequential-spectral-numerics-2026-11-06.md",
+      "sha256": "85a78a329855b7b21835f407e80d56031584eb2874da93a82f183bf7158ac616"
+    },
+    {
+      "path": "workstreams/vol2/sources/steele-vigna-2022.json",
+      "sha256": "8b6b40ecaf11a7c1c3cca0b4043c1389fdaeec8e618722ab0242a367f9c7a9a3"
+    },
+    {
+      "path": "workstreams/vol2/sources/steele-vigna-2022.pdf",
+      "sha256": "5529e2d8911991c1c0e8c6f069a13f3d184c01e43aa2c4aba41f8fb74aebea45"
+    },
+    {
+      "path": "workstreams/vol2/sources/steele-vigna-2022.txt",
+      "sha256": "d6dc0bc4b61b934ca8f0bb22cc7c160997673a9509b17982b9933d566bfb454f"
+    },
+    {
+      "path": "errata/text/all2-prepre.txt",
+      "sha256": "62a1ff323ca421f2640e2337f922dbf8cfc8e86c20d9b11acfc91221721c6f58"
+    },
+    {
+      "path": "errata/text/all2-pre.txt",
+      "sha256": "c1735b70547678d739eae3a8d7b02872c737218eed7706a0aba8fb6fc21a6529"
+    },
+    {
+      "path": "errata/text/all2.txt",
+      "sha256": "1c4d7f2259e147db0ebe84b4bf0ce8864b307afb4ccfbe48efcb1f5f5999ac58"
+    },
+    {
+      "path": "errata/text/err2.txt",
+      "sha256": "1b5c93712c3c467a48679e0040ba6c5869998b25184dbd125a5d096ce96e9ab0"
+    },
+    {
+      "path": "errata/originals/err2.textxt",
+      "sha256": "8faa21566312314ec6bda0f8956913deb312517fd9fa688dcc0bf19e1f21962e"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p116.png",
+      "sha256": "90b677f56617d45b3328ec0fc9a7a49e0df933e5e723b0a2be61efddd3cf83e2"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p117.png",
+      "sha256": "907b0183221f10c1f13bfe06f849693cff88de0e6e82e78bb8b1423449461a6b"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p580.png",
+      "sha256": "2d4a93f522a402d19c5edbae5a50e5bf8208eb1e370a3469c73feea0bf871e22"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p581.png",
+      "sha256": "f3e9165e04f433f98ae0e671a7e44aac7f1cf2eafe9e94ad7ef34a64dcd5adae"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p582.png",
+      "sha256": "d15a61ee09a3eab34b5a149e533da278fd45a7272b77626e722f5e96d61fda7c"
+    },
+    {
+      "path": "workstreams/vol2/images/all2-prepre-p32.png",
+      "sha256": "555de036864e003b38d046440e137133d56ea8db2ebc9b409700cc068a9b6b24"
+    }
+  ]
+}

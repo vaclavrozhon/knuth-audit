@@ -1,0 +1,250 @@
+{
+  "gap_checks": 100000,
+  "local_steps": {
+    "add": 49,
+    "subtract": 8590,
+    "done": 175
+  },
+  "constructed": [
+    {
+      "exponent": 2,
+      "start": 9,
+      "result": 10,
+      "lower_bound": 5,
+      "steps": 1,
+      "cases": {
+        "add": 1,
+        "subtract": 0
+      },
+      "ternary": "101",
+      "quinary": "20"
+    },
+    {
+      "exponent": 3,
+      "start": 27,
+      "result": 27,
+      "lower_bound": 25,
+      "steps": 0,
+      "cases": {
+        "add": 0,
+        "subtract": 0
+      },
+      "ternary": "1000",
+      "quinary": "102"
+    },
+    {
+      "exponent": 5,
+      "start": 243,
+      "result": 252,
+      "lower_bound": 125,
+      "steps": 1,
+      "cases": {
+        "add": 1,
+        "subtract": 0
+      },
+      "ternary": "100100",
+      "quinary": "2002"
+    },
+    {
+      "exponent": 6,
+      "start": 729,
+      "result": 756,
+      "lower_bound": 625,
+      "steps": 1,
+      "cases": {
+        "add": 1,
+        "subtract": 0
+      },
+      "ternary": "1001000",
+      "quinary": "11011"
+    },
+    {
+      "exponent": 9,
+      "start": 19683,
+      "result": 19686,
+      "lower_bound": 15625,
+      "steps": 1,
+      "cases": {
+        "add": 1,
+        "subtract": 0
+      },
+      "ternary": "1000000010",
+      "quinary": "1112221"
+    },
+    {
+      "exponent": 12,
+      "start": 531441,
+      "result": 551376,
+      "lower_bound": 390625,
+      "steps": 3,
+      "cases": {
+        "add": 3,
+        "subtract": 0
+      },
+      "ternary": "1001000100100",
+      "quinary": "120121001"
+    },
+    {
+      "exponent": 15,
+      "start": 14348907,
+      "result": 14532625,
+      "lower_bound": 9765625,
+      "steps": 3,
+      "cases": {
+        "add": 3,
+        "subtract": 0
+      },
+      "ternary": "1000100100000101",
+      "quinary": "12210021000"
+    },
+    {
+      "exponent": 18,
+      "start": 387420489,
+      "result": 537287661,
+      "lower_bound": 244140625,
+      "steps": 4,
+      "cases": {
+        "add": 4,
+        "subtract": 0
+      },
+      "ternary": "1101110000001010000",
+      "quinary": "2100021201121"
+    },
+    {
+      "exponent": 21,
+      "start": 10460353203,
+      "result": 13966800925,
+      "lower_bound": 6103515625,
+      "steps": 4,
+      "cases": {
+        "add": 4,
+        "subtract": 0
+      },
+      "ternary": "1100001101000000000011",
+      "quinary": "212101000112200"
+    },
+    {
+      "exponent": 22,
+      "start": 31381059609,
+      "result": 31787612785,
+      "lower_bound": 30517578125,
+      "steps": 5,
+      "cases": {
+        "add": 5,
+        "subtract": 0
+      },
+      "ternary": "10001001100000001010001",
+      "quinary": "1010100112102120"
+    },
+    {
+      "exponent": 24,
+      "start": 282429536481,
+      "result": 313830266250,
+      "lower_bound": 152587890625,
+      "steps": 6,
+      "cases": {
+        "add": 6,
+        "subtract": 0
+      },
+      "ternary": "1010000001101000100101110",
+      "quinary": "20120211022010000"
+    },
+    {
+      "exponent": 25,
+      "start": 847288609443,
+      "result": 946095721885,
+      "lower_bound": 762939453125,
+      "steps": 7,
+      "cases": {
+        "add": 7,
+        "subtract": 0
+      },
+      "ternary": "10100110001001000101011001",
+      "quinary": "111000101001100020"
+    },
+    {
+      "exponent": 27,
+      "start": 7625597484987,
+      "result": 7629492594036,
+      "lower_bound": 3814697265625,
+      "steps": 6,
+      "cases": {
+        "add": 6,
+        "subtract": 0
+      },
+      "ternary": "1000000101001110100001010010",
+      "quinary": "2000000200101002121"
+    },
+    {
+      "exponent": 28,
+      "start": 22876792454961,
+      "result": 22888430156286,
+      "lower_bound": 19073486328125,
+      "steps": 5,
+      "cases": {
+        "add": 5,
+        "subtract": 0
+      },
+      "ternary": "10000001010001001101111000000",
+      "quinary": "11000001001110000121"
+    },
+    {
+      "exponent": 31,
+      "start": 617673396283947,
+      "result": 617987355860676,
+      "lower_bound": 476837158203125,
+      "steps": 6,
+      "cases": {
+        "add": 6,
+        "subtract": 0
+      },
+      "ternary": "10000001010000101101100000000110",
+      "quinary": "1122000101101100020201"
+    },
+    {
+      "exponent": 34,
+      "start": 16677181699666569,
+      "result": 16708532714850126,
+      "lower_bound": 11920928955078125,
+      "steps": 5,
+      "cases": {
+        "add": 5,
+        "subtract": 0
+      },
+      "ternary": "10000011010000010110011010001101010",
+      "quinary": "120010010100000000201001"
+    },
+    {
+      "exponent": 37,
+      "start": 450283905890997363,
+      "result": 601006385548906401,
+      "lower_bound": 298023223876953125,
+      "steps": 8,
+      "cases": {
+        "add": 8,
+        "subtract": 0
+      },
+      "ternary": "11000010001100000100001000100010000110",
+      "quinary": "20020200102110101010001101"
+    },
+    {
+      "exponent": 40,
+      "start": 12157665459056928801,
+      "result": 16416111755922375250,
+      "lower_bound": 7450580596923828125,
+      "steps": 9,
+      "cases": {
+        "add": 9,
+        "subtract": 0
+      },
+      "ternary": "11001101001000000001010100000010101000101",
+      "quinary": "2100202020100002112112002000"
+    }
+  ],
+  "oeis": {
+    "listed_checked": 48,
+    "full_intersection_bound": 20011,
+    "full_intersection_count": 47
+  },
+  "status": "passed"
+}

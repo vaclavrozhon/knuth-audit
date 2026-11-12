@@ -1,0 +1,19 @@
+{
+  "scope": "All pairs of Boolean events on at most three variables; joint avoidance of two nonneighbors on two variables under four product laws; three-letter logs for three overlapping conjunctions",
+  "counts": {
+    "event_pairs": 33042,
+    "nonadjacent_pairs": 1071,
+    "positive_correlation_checks": 1071,
+    "commutation_tables": 518280,
+    "word_probability_checks": 1071,
+    "joint_conditioning_checks": 3448,
+    "three_letter_tables": 13824,
+    "three_letter_probabilities": 27
+  },
+  "identical_fair_bit_example": {
+    "simultaneous_occurrence": "1/2",
+    "product_of_marginals": "1/4",
+    "legal_two_step_resampling_log": "1/4"
+  },
+  "status": "all assertions passed"
+}

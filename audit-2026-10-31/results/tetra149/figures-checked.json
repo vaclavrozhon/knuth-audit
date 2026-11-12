@@ -1,0 +1,769 @@
+{
+  "at_utc": "2026-11-03T10:04:07.589091+00:00",
+  "checker_sha256": "56e6d6cec0bf40bff40d005169a0391093d9fb83db52d5a577d5d7ceb28d8339",
+  "geometry_sha256": "9f99d43ea245fb51080ef30955ca98704cb56def8c00252ab4c0580823813540",
+  "trace_sha256": {
+    "results/bricks147/original-478.xml": "528c4b952b7a30a70cd3c2d743beb2afe0464d5f55102f2d2b2511d0613e3cfa",
+    "results/bricks147/draft-168.xml": "ccde972fd270d7c6e0591d77c66eb30eae5829eb416d424ea33205bbe4aba44d"
+  },
+  "original": {
+    "model": "eabcdcaaebcdeebdbacd",
+    "physical_types": [
+      "acde",
+      "abcd",
+      "abce",
+      "aced",
+      "abec",
+      "abde",
+      "bced",
+      "abed",
+      "bcde",
+      "abdc"
+    ],
+    "matches": [
+      {
+        "vertex": [
+          0,
+          2,
+          0,
+          1
+        ],
+        "color": "a",
+        "label_position": [
+          64.56,
+          485.68850000000003
+        ],
+        "color_position": [
+          247.094,
+          485.9318
+        ],
+        "squared_error": 0.06615089000001267
+      },
+      {
+        "vertex": [
+          0,
+          0,
+          1,
+          2
+        ],
+        "color": "a",
+        "label_position": [
+          98.07749999999999,
+          479.29380000000003
+        ],
+        "color_position": [
+          280.61219,
+          479.53682000000003
+        ],
+        "squared_error": 0.06627311649999929
+      },
+      {
+        "vertex": [
+          2,
+          0,
+          1,
+          0
+        ],
+        "color": "a",
+        "label_position": [
+          198.62959999999998,
+          453.8616
+        ],
+        "color_position": [
+          381.17909,
+          454.10457
+        ],
+        "squared_error": 0.06606468099999288
+      },
+      {
+        "vertex": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "color": "a",
+        "label_position": [
+          119.0258,
+          434.7508
+        ],
+        "color_position": [
+          301.568,
+          434.99350000000004
+        ],
+        "squared_error": 0.06626412999999357
+      },
+      {
+        "vertex": [
+          0,
+          3,
+          0,
+          0
+        ],
+        "color": "b",
+        "label_position": [
+          60.370299999999986,
+          472.97240000000005
+        ],
+        "color_position": [
+          242.90652999999998,
+          473.77522000000005
+        ],
+        "squared_error": 0.09188956529999878
+      },
+      {
+        "vertex": [
+          2,
+          0,
+          0,
+          1
+        ],
+        "color": "b",
+        "label_position": [
+          173.4915,
+          485.68850000000003
+        ],
+        "color_position": [
+          356.042,
+          486.49135
+        ],
+        "squared_error": 0.09171837249998668
+      },
+      {
+        "vertex": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "color": "b",
+        "label_position": [
+          144.1638,
+          453.8616
+        ],
+        "color_position": [
+          326.71128,
+          454.65797000000003
+        ],
+        "squared_error": 0.08784152730001465
+      },
+      {
+        "vertex": [
+          0,
+          0,
+          2,
+          1
+        ],
+        "color": "b",
+        "label_position": [
+          123.2156,
+          447.46680000000003
+        ],
+        "color_position": [
+          305.76164,
+          448.26301
+        ],
+        "squared_error": 0.08775604569998445
+      },
+      {
+        "vertex": [
+          2,
+          1,
+          0,
+          0
+        ],
+        "color": "c",
+        "label_position": [
+          169.3018,
+          472.97240000000005
+        ],
+        "color_position": [
+          351.85453,
+          473.22182000000004
+        ],
+        "squared_error": 0.06279778930000687
+      },
+      {
+        "vertex": [
+          1,
+          0,
+          0,
+          2
+        ],
+        "color": "c",
+        "label_position": [
+          123.21549999999999,
+          498.4046
+        ],
+        "color_position": [
+          305.76164,
+          498.6541
+        ],
+        "squared_error": 0.0627651495999941
+      },
+      {
+        "vertex": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "color": "c",
+        "label_position": [
+          93.8878,
+          466.57770000000005
+        ],
+        "color_position": [
+          276.4309,
+          466.82070000000004
+        ],
+        "squared_error": 0.0660966100000026
+      },
+      {
+        "vertex": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "color": "c",
+        "label_position": [
+          148.3537,
+          415.6399
+        ],
+        "color_position": [
+          330.9049,
+          415.87623
+        ],
+        "squared_error": 0.06952330889999496
+      },
+      {
+        "vertex": [
+          0,
+          1,
+          0,
+          2
+        ],
+        "color": "d",
+        "label_position": [
+          68.74969999999999,
+          498.4046
+        ],
+        "color_position": [
+          251.29383,
+          499.20135000000005
+        ],
+        "squared_error": 0.08809501940001847
+      },
+      {
+        "vertex": [
+          3,
+          0,
+          0,
+          0
+        ],
+        "color": "d",
+        "label_position": [
+          223.76760000000002,
+          472.97240000000005
+        ],
+        "color_position": [
+          406.32856,
+          473.76906
+        ],
+        "squared_error": 0.08812727719998381
+      },
+      {
+        "vertex": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "color": "d",
+        "label_position": [
+          148.3535,
+          466.57770000000005
+        ],
+        "color_position": [
+          330.9049,
+          467.3741
+        ],
+        "squared_error": 0.08785491999996956
+      },
+      {
+        "vertex": [
+          1,
+          2,
+          0,
+          0
+        ],
+        "color": "d",
+        "label_position": [
+          114.83600000000001,
+          472.97240000000005
+        ],
+        "color_position": [
+          297.38673,
+          473.76906
+        ],
+        "squared_error": 0.08800768849998476
+      },
+      {
+        "vertex": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "color": "e",
+        "label_position": [
+          119.0257,
+          485.68850000000003
+        ],
+        "color_position": [
+          301.5742,
+          485.93178
+        ],
+        "squared_error": 0.06590740840001529
+      },
+      {
+        "vertex": [
+          0,
+          0,
+          0,
+          3
+        ],
+        "color": "e",
+        "label_position": [
+          72.9394,
+          511.12070000000006
+        ],
+        "color_position": [
+          255.48129999999998,
+          511.36405
+        ],
+        "squared_error": 0.06593483250001916
+      },
+      {
+        "vertex": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "color": "e",
+        "label_position": [
+          89.69800000000001,
+          453.8616
+        ],
+        "color_position": [
+          272.24348,
+          454.0984
+        ],
+        "squared_error": 0.06929467039999167
+      },
+      {
+        "vertex": [
+          1,
+          0,
+          2,
+          0
+        ],
+        "color": "e",
+        "label_position": [
+          173.4916,
+          434.7508
+        ],
+        "color_position": [
+          356.0482,
+          434.98732
+        ],
+        "squared_error": 0.06946527040000805
+      }
+    ]
+  },
+  "draft": {
+    "model": "eabcdcaaebcdeebdbacd",
+    "physical_types": [
+      "acde",
+      "abcd",
+      "abce",
+      "aced",
+      "abec",
+      "abde",
+      "bced",
+      "abed",
+      "bcde",
+      "abdc"
+    ],
+    "matches": [
+      {
+        "vertex": [
+          0,
+          2,
+          0,
+          1
+        ],
+        "color": "a",
+        "label_position": [
+          74.2801,
+          594.348
+        ],
+        "color_position": [
+          256.694,
+          594.532
+        ],
+        "squared_error": 0.09989320999994739
+      },
+      {
+        "vertex": [
+          0,
+          0,
+          1,
+          2
+        ],
+        "color": "a",
+        "label_position": [
+          107.798,
+          587.954
+        ],
+        "color_position": [
+          290.2151,
+          588.13669
+        ],
+        "squared_error": 0.1006940460999407
+      },
+      {
+        "vertex": [
+          2,
+          0,
+          1,
+          0
+        ],
+        "color": "a",
+        "label_position": [
+          208.35,
+          562.521
+        ],
+        "color_position": [
+          390.77909,
+          562.70149
+        ],
+        "squared_error": 0.10216926819995101
+      },
+      {
+        "vertex": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "color": "a",
+        "label_position": [
+          128.746,
+          543.4110000000001
+        ],
+        "color_position": [
+          311.16578,
+          543.5886
+        ],
+        "squared_error": 0.10394180840001033
+      },
+      {
+        "vertex": [
+          0,
+          3,
+          0,
+          0
+        ],
+        "color": "b",
+        "label_position": [
+          70.0902,
+          581.6320000000001
+        ],
+        "color_position": [
+          252.50366,
+          582.3675000000001
+        ],
+        "squared_error": 0.05550302160000087
+      },
+      {
+        "vertex": [
+          2,
+          0,
+          0,
+          1
+        ],
+        "color": "b",
+        "label_position": [
+          183.212,
+          594.348
+        ],
+        "color_position": [
+          365.63768,
+          595.0851
+        ],
+        "squared_error": 0.05624867240002619
+      },
+      {
+        "vertex": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "color": "b",
+        "label_position": [
+          153.884,
+          562.521
+        ],
+        "color_position": [
+          336.30638,
+          563.2546
+        ],
+        "squared_error": 0.0545746244000113
+      },
+      {
+        "vertex": [
+          0,
+          0,
+          2,
+          1
+        ],
+        "color": "b",
+        "label_position": [
+          132.936,
+          556.127
+        ],
+        "color_position": [
+          315.35557,
+          556.85888
+        ],
+        "squared_error": 0.05376851930002156
+      },
+      {
+        "vertex": [
+          2,
+          1,
+          0,
+          0
+        ],
+        "color": "c",
+        "label_position": [
+          179.022,
+          581.6320000000001
+        ],
+        "color_position": [
+          361.44737,
+          581.81439
+        ],
+        "squared_error": 0.10090494900003734
+      },
+      {
+        "vertex": [
+          1,
+          0,
+          0,
+          2
+        ],
+        "color": "c",
+        "label_position": [
+          132.936,
+          607.064
+        ],
+        "color_position": [
+          315.35557,
+          607.24959
+        ],
+        "squared_error": 0.09885383299997016
+      },
+      {
+        "vertex": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "color": "c",
+        "label_position": [
+          103.608,
+          575.237
+        ],
+        "color_position": [
+          286.02427,
+          575.41908
+        ],
+        "squared_error": 0.10108703929997337
+      },
+      {
+        "vertex": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "color": "c",
+        "label_position": [
+          158.074,
+          524.3
+        ],
+        "color_position": [
+          340.49656,
+          524.47527
+        ],
+        "squared_error": 0.10545612649995537
+      },
+      {
+        "vertex": [
+          0,
+          1,
+          0,
+          2
+        ],
+        "color": "d",
+        "label_position": [
+          78.4695,
+          607.064
+        ],
+        "color_position": [
+          260.88368,
+          607.80258
+        ],
+        "squared_error": 0.05695428880003272
+      },
+      {
+        "vertex": [
+          3,
+          0,
+          0,
+          0
+        ],
+        "color": "d",
+        "label_position": [
+          233.488,
+          581.6320000000001
+        ],
+        "color_position": [
+          415.91969,
+          582.36738
+        ],
+        "squared_error": 0.055540400499983295
+      },
+      {
+        "vertex": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "color": "d",
+        "label_position": [
+          158.073,
+          575.237
+        ],
+        "color_position": [
+          340.49699,
+          575.97207
+        ],
+        "squared_error": 0.05527382500003012
+      },
+      {
+        "vertex": [
+          1,
+          2,
+          0,
+          0
+        ],
+        "color": "d",
+        "label_position": [
+          124.556,
+          581.6320000000001
+        ],
+        "color_position": [
+          306.976,
+          582.367
+        ],
+        "squared_error": 0.05522499999995298
+      },
+      {
+        "vertex": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "color": "e",
+        "label_position": [
+          128.746,
+          594.348
+        ],
+        "color_position": [
+          311.166,
+          594.532
+        ],
+        "squared_error": 0.0998559999999477
+      },
+      {
+        "vertex": [
+          0,
+          0,
+          0,
+          3
+        ],
+        "color": "e",
+        "label_position": [
+          82.6594,
+          619.781
+        ],
+        "color_position": [
+          265.0742,
+          619.9672
+        ],
+        "squared_error": 0.09849747999993763
+      },
+      {
+        "vertex": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "color": "e",
+        "label_position": [
+          99.418,
+          562.521
+        ],
+        "color_position": [
+          281.83509,
+          562.7016
+        ],
+        "squared_error": 0.102024828099983
+      },
+      {
+        "vertex": [
+          1,
+          0,
+          2,
+          0
+        ],
+        "color": "e",
+        "label_position": [
+          183.212,
+          543.4110000000001
+        ],
+        "color_position": [
+          365.63819,
+          543.5887
+        ],
+        "squared_error": 0.1039156061000269
+      }
+    ]
+  },
+  "all100_labels_characters_equal": true,
+  "all10_tetrahedra_used_once": true,
+  "orbit_size": 2880,
+  "combined_symmetry_group": 2880,
+  "stabilizer": 1,
+  "all_orbit_models_valid": true
+}

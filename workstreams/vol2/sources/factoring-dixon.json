@@ -1,0 +1,145 @@
+{
+  "accessed_utc": "2026-11-03T18:28:46.606769+00:00",
+  "scope": "TAOCP Volume2 4.5.4 pp401-402, exercises30-31; general proofs and exact finite cross-checks. No new finding.",
+  "book_visually_read": [
+    401,
+    402,
+    414,
+    415,
+    664
+  ],
+  "book_djvu_offset": 12,
+  "errata_files": [
+    "errata/text/all2-prepre.txt",
+    "errata/text/all2-pre.txt",
+    "errata/text/all2.txt",
+    "errata/text/err2.txt",
+    "errata/originals/err2.textxt"
+  ],
+  "errata_result": "No relevant correction to Dixon/Theorem D/exercises30-31 found; p402 and p664 corrections concern other material.",
+  "web_sources": [
+    {
+      "name": "Dixon1981",
+      "url": "https://pages.cs.wisc.edu/~cs812-1/dixon.pdf",
+      "doi": "10.1090/S0025-5718-1981-0595059-1",
+      "file": "sources/dixon-1981.pdf",
+      "printed_pages": [
+        255,
+        256,
+        257,
+        258,
+        259,
+        260
+      ],
+      "scope": "Entire six-page primary article read as text and visually; relevant algorithm, theorem constant3sqrt2, probability and operation model compared. Not an independent audit of every auxiliary result in the source."
+    },
+    {
+      "name": "Schnorr1982 journal",
+      "url": "https://www.sciencedirect.com/science/article/pii/0196677482900128",
+      "doi": "10.1016/0196-6774(82)90012-8",
+      "scope": "Publisher metadata and abstract read; bibliography3(2),101-127 confirmed. Full article not obtained."
+    },
+    {
+      "name": "Schnorr1981 conference",
+      "url": "https://link.springer.com/chapter/10.1007/3-540-10843-2_1",
+      "scope": "Publisher abstract and reference5 read. Reference cites Dixon Carleton report1978, corroborating discovery date. Report1978 not itself obtained; stronger Schnorr theorem not independently proved."
+    }
+  ],
+  "run": {
+    "command": "timeout 180 python3 -u workstreams/vol2/verify_factoring_dixon.py",
+    "pid": 1285838,
+    "tool_session": 34067,
+    "time_limit_seconds": 180,
+    "exit_code": 0,
+    "checkpoints": 3,
+    "result": "results/factoring-dixon.json",
+    "log": "results/factoring-dixon.log"
+  },
+  "artifacts": [
+    {
+      "file": "notes/factoring-dixon.md",
+      "bytes": 12378,
+      "sha256": "bbd8e67695e9de3998971cb65b46e9d1336f71e8fbb67443bdbd2b5ca918c743"
+    },
+    {
+      "file": "verify_factoring_dixon.py",
+      "bytes": 8558,
+      "sha256": "ec1324c874bd591a27907615262da9fd673bbd7418111f66e68cfd501b73448f"
+    },
+    {
+      "file": "results/factoring-dixon.json",
+      "bytes": 1504,
+      "sha256": "7488e03609a6a6557e0b42bc470e571aa2aedeccb4cbbee12a6178579363f00f"
+    },
+    {
+      "file": "results/factoring-dixon.log",
+      "bytes": 793,
+      "sha256": "1dffcf27c9bd1608b46946e650026b4a6fecf23227f4d95a71f325a0780ada97"
+    },
+    {
+      "file": "sources/dixon-1981.pdf",
+      "bytes": 808082,
+      "sha256": "c586a9b9bd18220098a11c7f9e8de660c2ad59fdac6f2297160c199bd56d14d2"
+    },
+    {
+      "file": "sources/dixon-1981.txt",
+      "bytes": 17946,
+      "sha256": "73afb6a41ab6ecf99b3ce9d0c99e2d90c58359c8d28353bed1e2ddc2cdcedb4e"
+    },
+    {
+      "file": "images/dixon-1981-p255.png",
+      "bytes": 244766,
+      "sha256": "29076c2e2e7b41537ba6bf877c791d914187290f148127dd4804f20abb40ca5e"
+    },
+    {
+      "file": "images/dixon-1981-p256.png",
+      "bytes": 234418,
+      "sha256": "16439ebf5756605f27f89dc0233363c39bc79ee6fa7222ff4c21fca5ef84eb18"
+    },
+    {
+      "file": "images/dixon-1981-p257.png",
+      "bytes": 294362,
+      "sha256": "057d507d694d585d641db0ac5dc858540f788fb4ea65634ad92773d580918c61"
+    },
+    {
+      "file": "images/dixon-1981-p258.png",
+      "bytes": 243199,
+      "sha256": "7799940828d69f419b2af3a3cec9b13a7f2cd33c7a4431ab25df399a6be41be1"
+    },
+    {
+      "file": "images/dixon-1981-p259.png",
+      "bytes": 246113,
+      "sha256": "09d3322af34e0353e660e6e00724fcb26bf9abf252d5b8f06cdb4229ecc3940e"
+    },
+    {
+      "file": "images/dixon-1981-p260.png",
+      "bytes": 192614,
+      "sha256": "4f1374d911fe96598cc7fa4cd4e018fd987899676115f689e378fd5aea080b72"
+    },
+    {
+      "file": "images/vol2-p401.png",
+      "bytes": 687163,
+      "sha256": "8b39aa92f06e1157bd42654a0d7ac37701491a1c6e2c0937400e5dd1eec40a36"
+    },
+    {
+      "file": "images/vol2-p402.png",
+      "bytes": 615921,
+      "sha256": "e93d97353fe41fe5aca2c01f964bf7871819871ea9fb27e6bd14098d23fbcde8"
+    },
+    {
+      "file": "images/vol2-p414.png",
+      "bytes": 430740,
+      "sha256": "8d3736fb753cc2c357ead6c0e7e08b522a3b812846f3f8fbafcca6c14857d5d1"
+    },
+    {
+      "file": "images/vol2-p415.png",
+      "bytes": 446628,
+      "sha256": "a88682dd8c5d0a33a4cd716d3d3f91e89a0c99d7cca1e5bee96c1731bfaed482"
+    },
+    {
+      "file": "images/vol2-p664.png",
+      "bytes": 463391,
+      "sha256": "d5703b25fbae544e4c8b20a3b539750841dc486d458235c9a101e29f8a0a442d"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "checked_at_utc": "2026-11-02T00:06:56.727072+00:00",
+  "status": "verified",
+  "case": {
+    "expected": 8113709,
+    "methods": {
+      "cell-mask": {
+        "status": "finished",
+        "command": [
+          "/tmp/knuth-vol4b-convex68-_bnmv0eg/cell-mask",
+          "audit-2026-10-31/results/convex68/n9.masks"
+        ],
+        "started_at_utc": "2026-11-01T22:18:01.581207+00:00",
+        "input_sha256": "d7b2c79e2deb8496b1d43cf4de602db05302082fb24641b766ad140632625cce",
+        "pid": 808785,
+        "finished_at_utc": "2026-11-01T22:18:04.413242+00:00",
+        "elapsed_seconds": 2.8314851660106797,
+        "output": {
+          "solutions": 8113709,
+          "calls": 2588709,
+          "cache_hits": 447496,
+          "component_splits": 4923,
+          "cached_states": 230945
+        },
+        "stdout_sha256": "8422ae63f83f11db0bb00c31583de7d21131e3ccf25804e3453b60b59bbdec06",
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "dlx1": {
+        "status": "finished",
+        "command": [
+          "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+          "v129"
+        ],
+        "started_at_utc": "2026-11-01T22:50:49.659125+00:00",
+        "input_sha256": "8e76450948608e1024fdf96b342c253ae9c12a4ec397f5f24753723f2ef05a2e",
+        "pid": 817294,
+        "finished_at_utc": "2026-11-01T23:59:16.943691+00:00",
+        "elapsed_seconds": 4107.283582464996,
+        "output": {
+          "solutions": 8113709,
+          "initialization_mems": 6488294,
+          "search_mems": 5797027853800,
+          "updates": 454710452726,
+          "bytes": 1938180,
+          "nodes": 111286419,
+          "profile": [
+            1,
+            119,
+            2144,
+            31143,
+            219109,
+            1704257,
+            7875080,
+            28910462,
+            64430395,
+            8113709
+          ]
+        },
+        "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stderr_sha256": "e0c5cddf34102f5f240194f550de20aaccb10e69aaf0cd307b99ed79d9ad3f34"
+      }
+    },
+    "independent_counts_equal": true
+  },
+  "source_sha256": "5ba06c17f88fd39e5deaca9e99924db2d0d57329edc4b1f3b5dc9d47d4d0c7ae",
+  "cpp_sha256": "b69c6c2320ec8ad6592caf04d3856404a18431d7f8729173e3c354b1ef7365ed",
+  "native_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+  "scope": "Both complete n9 counts8113709 agree. Native111286419 nodes. The separate no-square native count is still pending; this does not close exercise68."
+}

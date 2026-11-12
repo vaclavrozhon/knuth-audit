@@ -1,0 +1,38 @@
+# §1.3.2′ — samostatné argumenty p.28–32 / file36–40
+
+Tento blok navazuje na vyřešené a otevřené úlohy §1.3.1′. Na stejných stránkách se mohou překrývat staršípartial úlohy; čtenářské pokrytí není přepsáno na úplnou verifikaci.
+
+**V0078 — symboly a umístění programuM (p.28–30).** IS přiřazuje assemblerové jméno číslu registru aLOC mění čítač umístění, nikoli běhový stav. Prvních šest řádků proto nevytváří instrukce. Od100hex se po čtyřech bytech získají100,104,108,10c,110,114,118,11c,120,124,128. Loop=10c,DecrK=120; tyto rovnosti jsou definice labelů v aktuálním programu. x0 je externí globální registr; vytištěné numeric kódy předpokládají x0=$254.
+
+**V0079 — korektnost vnitřku programuM (p.28–29).** Předpoklady:1≤n<2^60, celé signed hodnotyX[1..n] v korektně adresované octabyte tabulce a nezměněný global base x0. Mez n zaručuje, že signed kk=8n nepřeteče a k lze testovat znaménkem; jde o explicitní důkazový předpoklad, nikoli tvrzení pro libovolně obrovské pole. Po inicializaci m=X[n],j=n. Při vstupu doLoop s1≤k<n platí m=max X[k+1..n] a j je největší index v tomto suffixu dosahující maxima. CMP správně rozlišíX[k]>m bez odečítacího overflow. Pokud je větší, SET změním aSR(8k,3)=k změníj; při rovnosti se oba zachovají. Po DecrK je tedy invariant platný pro následující suffix. k klesá po1, posledníSUB dává0 aPBP skončí. Výstupní lokální registry obsahují maximum a jeho nejpravější pozici; všechny n prvky byly zpracovány. Pro n=1 seLoop neprovede a vrátí původníX[1],j=1.
+
+**V0080 — profil a čas programuM (p.29).** Inicializační tři instrukce jednou; LDO/CMP/PBNP vLoop n−1krát; změny m,j právěAkrát;SUB/PBP nkrát;POPjednou. PBNP je správně předpovězeno n−1−Akrát a chybněAkrát, tedy(n−1+2A)υ. PBP je taken n−1krát a poslednínot-taken, tedy(n+2)υ. Mem počty jsou1+(n−1)=n. Upsilon součet je3+3(n−1)+2A+2A+n+(n+2)+3=5n+4A+5. Výsledek nμ+(5n+4A+5)υ souhlasí. Pro n=1 vycházíμ+10υ, rovněž přímým průchodem.
+
+**V0081 — všech11 sestavených instrukcíM.** OdděleníOP a operandových polí dává v pořadí39020003,8c01fe02,f0000006,8c03fe02,30ff0301,5cff0003,c1010300,3d000203,25020208,5502fffa,f8020000. Jump na108 má offset(120−108)/4=6; PBNP na114 máoffset3; PBP na124 máoffset(10c−124)/4=−6=fffa v16bitech a backward opcode55. SET jeORI s nulou, ostatní pole přímo z IS definic. Každý řádek souhlasí s vytištěným numeric sloupcem; žádný assembler run není tvrzen.
+
+**V0082 — rozhraníPUSHJ/POP (p.30), partial.** CallerSET $2,100 aPUSHJ $1 vytvoří callee$0=100 podle posunu X+1. Publikovaný návrat POP2 má přinést m do caller$1 a j do caller$2. Přesné přeuspořádání dvou návratových hodnot je dosud otevřená vazba na plnou sémantiku §1.4.1′ (V0066), proto zde **není uzavřena obecná správnost volání/návratu**, jen vnitřekM a profil. Nenahrazuji důkaz skutečným spuštěním simulátoru.
+
+**V0083 — ProgramH pod uvedeným NNIX kontraktem (p.30–31).** LDOU $255,$1,0 načte první argv pointer, tedy jménoHello. Fputs seZ=StdOut=1 vypíše tento nulou ukončený řetězec;GETA načteString a druhýFputs připojí`, world` aLF. Halt ukončí program. Výstup je tedyHello, world s koncem řádku, pokud argv0 jeHello a standardní výstup úspěšně přijímá data. To je programový důkaz podle popsaného I/O kontraktu, nikoli empirické tvrzení o libovolné verzi hostitelského simulátoru či selhávajícím souboru.
+
+**V0084 — sestaveníH aString (p.30,32).** LDOU immediate má8fff0100; oběTRAP Fputs00000701;GETA z108na114 máoffset3 a kód f4ff0003;Halt00000000. Bytes comma2c,space20,w77,o6f,r72,l6c,d64,LF0a,NUL00 tvoří přesně9bytů2c20776f726c640a00, rozdělených na tetras2c20776f,726c640a a koncovýbyte00. Po5instrukcích od100 začínáStringna114; žádné překrytí dat a instrukcí.
+
+**V0085 — argv příklad (p.31).** Commandfoo bar xyzzy má3argumenty. Pole pointerů na08,10,18 a nulovýsentinel20hex má čtyři sousední8bytové sloty; argumenty na28,30,38 jsou8zarovnané a nepřekrývají pole. Každé uvedené slovo je správnýASCII řetězec:666f6f=foo,626172=bar,78797a7a79=xyzzy; následuje nula a padding. ProgramH musí provést právě jednoLDOU, protože$1 ukazuje do pole pointerů, nikoli přímo na první znak. Popis argv je NNIX definice, jeho hostitelská implementace nebyla spuštěna.
+
+**V0086 — matematický testAlgorithmP (p.32).** Invariant generování je, žePRIME[1..j] obsahuje dosud nalezené prvočísla vzestupně a n roste po lichých kandidátech.2 a3 se vloží přímo. PřiP6 se postupně zkoušejí známé liché prvočíselné dělitele, takže r=0 správně zamítá kompozitn. Při r≠0 a q=floor(n/p)≤p je n=qp+r<p(p+1)<(p+1)^2. Kdyby n bylo složené, jeho nejmenší prvočíselný dělitel by byl≤floor(sqrt(n))≤p, ale všichni tito dělitelé byli již zamítnuti. ProtoP7 smí n prohlásit za prime, včetně nezvyklého případu q=p. P8 přeskočením na dalšího divisora zachová invariant. Dostupnost tabulkového divisora a dostatečný číselný rozsah uzavírá níže uvedený dodatkový argument bez prime census. Přesná hodnota500.prime je samostatnou neuzavřenou součástíV0087.
+
+**V0087 — tabulkové indexy (p.32), vzorové hodnoty partial.** Mapa(c,m)↦50c+m pro0≤c≤9,1≤m≤50 je bijekce na1..500: jednoznačné dělení k−1 číslem50 dá c a m−1. P9–P11 tedy vypíší všech500míst právě jednou v10sloupcích a50řádcích. Zobrazená indexová mapa je doložena; přesné numerické hodnoty všech ukázaných prvočísel/indexů (např.3571jako500.prime) nejsou tímto obecným důkazem ověřeny a nejsou prohlášeny za nový potvrzený výpočet. Zůstávajípartial odděleně od správného formátovacího schématu.
+
+Další kurzor file41/p33, vlastní instrukceProgramuP. Žádný nový nález v tomto bloku.
+
+## DoplněníV0086: bezpečný konečný rozsah bez generování prvočísel
+
+Označmeπ(N) počet prvočísel≤N. Prostřední binomický koeficient C(8192,4096) je největší z8193 koeficientů se součtem2^8192, takže C≥2^8192/8193>2^8178. Pro každé prvočíslo p je jeho exponent v tomto koeficientu součtem členů floor(8192/p^i)−2floor(4096/p^i), které jsou0 nebo1. Je tedy nejvýše floor(log_p8192), a příspěvek p^v≤8192=2^13. Proto C≤2^(13π(8192)), což dává13π(8192)>8178 a zvlášťπ(8192)>500.500.prvočíslo tudíž je<8192 (samotné8192 není prime). Prvočíselný census ani odhad založený na experimentu nebyl použit.
+
+Dokud se hledá těchto500čísel, stačí dostupné známé divisory: pro kandidáty5..11 je uložené3; pro13..29 je už uložené5; pro31..119 je už uložené11; pro121..8191 je už uložené97. Vždy jde o prime menší než aktuální n a větší nežsqrt(n), případně rovné floor(sqrt(n)); konkrétně3²=9 nevadí pro n=11, protožefloor(11/3)=3 aP7stačí,5²=25 nevadí pro29 ze stejného důvodu. U11²=121 a97²=9409 už platí obvyklá ostrá square-root mez. Čísla5,11 jsou prime z přímého testu;97 je prime, protože není dělitelné2,3,5,7 a sqrt97<10. Indukce přes první tři rozsahy zaručuje, že97 bylo správně uloženo před dosažením121.
+
+Na každém kandidátu se tedy P6/P8 zastaví nejpozději u takového již uloženého divisora, nebo dříve najde dělitele. Indukce invariantů tak nepotřebuje předem známou přesnou tabulku ani Bertrandovu větu. Existuje více než500prime pod8192, takže v tomto konečném rozsahu algoritmus určitě dokončí j=500. Všechna uložená čísla se vejdou do16bitového wyde a do čtyř desetinných číslic; n,j,k jsou v použitém programu bezpečně malé. **Tím je matematický generátorP1–P8 včetně dostupnosti tabulky uzavřen; přesné numerické ukázky a instrukční implementace ještě nikoli.**
+
+
+## Obnova úplného rozsahu 6. listopadu 2026
+
+Historické partial V0082 je vyřešeno přesným V0124 v independent-arguments-052-065.md. Numerické pořadí všech 40 ukázek V0087 nyní uzavírá malý úplný certifikát results/printed-prime-indices.json. Plný rozsah každého odstavce těchto stran, předpoklady a doplněné primární zdroje jsou v recovery-pages-037-040.md; nejde o opakování Program P ani jeho historických časů.

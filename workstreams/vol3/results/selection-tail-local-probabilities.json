@@ -1,0 +1,68 @@
+{
+  "purpose": "One local probability in each of five sizes confirms the suspected false tail rate in5.3.3-24. The proof is asymptotic, not this floating-point check.",
+  "method": "log binomial coefficients via math.lgamma; no distribution enumeration",
+  "kappa": 0.1715728752538097,
+  "predicted_local_exponent": 0.6715728752538097,
+  "rows": [
+    {
+      "n": 10000,
+      "t": 5000,
+      "sample_rank": 4785,
+      "lower_target": 9685,
+      "population_rank": 9686,
+      "log_probability": -6.535951209916675,
+      "probability": 0.0014503487852597688,
+      "effective_exponent": 0.7096318861139235,
+      "scaled_local_probability": 0.7043101652270777,
+      "c": 4.648595252622099
+    },
+    {
+      "n": 100000,
+      "t": 50000,
+      "sample_rank": 49241,
+      "lower_target": 98895,
+      "population_rank": 98896,
+      "log_probability": -8.047122163174208,
+      "probability": 0.0003200215684056502,
+      "effective_exponent": 0.6989641501335836,
+      "scaled_local_probability": 0.7295307891519561,
+      "c": 5.237938796046662
+    },
+    {
+      "n": 1000000,
+      "t": 500000,
+      "sample_rank": 497371,
+      "lower_target": 996190,
+      "population_rank": 996191,
+      "log_probability": -9.581199042499065,
+      "probability": 6.901414720000383e-05,
+      "effective_exponent": 0.6935103123623441,
+      "scaled_local_probability": 0.7385423047241965,
+      "c": 5.796160243915137
+    },
+    {
+      "n": 10000000,
+      "t": 5000000,
+      "sample_rank": 4991022,
+      "lower_target": 9987034,
+      "population_rank": 9987035,
+      "log_probability": -11.12292394042015,
+      "probability": 1.476983045615543e-05,
+      "effective_exponent": 0.6900892128505779,
+      "scaled_local_probability": 0.7419687886673126,
+      "c": 6.313191475621804
+    },
+    {
+      "n": 100000000,
+      "t": 50000000,
+      "sample_rank": 49969651,
+      "lower_target": 99956280,
+      "population_rank": 99956281,
+      "log_probability": -12.665740013122559,
+      "probability": 3.15746832916833e-06,
+      "effective_exponent": 0.6875826246150434,
+      "scaled_local_probability": 0.7445982395960805,
+      "c": 6.7916025021942525
+    }
+  ]
+}

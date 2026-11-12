@@ -1,0 +1,217 @@
+{
+  "lehmer": {
+    "status": "passed",
+    "seconds": 32.82246987801045,
+    "result": {
+      "input_pairs": 132610,
+      "configs": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          10,
+          2
+        ],
+        [
+          10,
+          4
+        ],
+        [
+          64,
+          1
+        ],
+        [
+          100,
+          1
+        ]
+      ],
+      "counts": {
+        "final_euclidean_steps": 358320,
+        "inner_tests": 510837,
+        "endpoint_word_overflow": 101505,
+        "unequal_quotient_stops": 244437,
+        "full_divisions": 308712,
+        "full_divisions_with_quotient_one": 116249,
+        "zero_endpoint_stops": 152672,
+        "simulated_steps": 113728,
+        "matrix_batches": 88397
+      },
+      "book_example": [
+        {
+          "input": [
+            27182818,
+            10000000
+          ],
+          "heads": [
+            2718,
+            1000
+          ],
+          "scale": 10000,
+          "matrix": [
+            -4,
+            11,
+            7,
+            -19
+          ],
+          "quotients": [
+            2,
+            1,
+            2,
+            1,
+            1
+          ],
+          "output": [
+            1268728,
+            279726
+          ]
+        },
+        {
+          "input": [
+            1268728,
+            279726
+          ],
+          "heads": [
+            1268,
+            279
+          ],
+          "scale": 1000,
+          "matrix": [
+            -1,
+            5,
+            2,
+            -9
+          ],
+          "quotients": [
+            4,
+            1,
+            1
+          ],
+          "output": [
+            129902,
+            19922
+          ]
+        },
+        {
+          "input": [
+            129902,
+            19922
+          ],
+          "heads": [
+            1299,
+            199
+          ],
+          "scale": 100,
+          "matrix": [
+            0,
+            1,
+            1,
+            -6
+          ],
+          "quotients": [
+            6
+          ],
+          "output": [
+            19922,
+            10370
+          ]
+        },
+        {
+          "input": [
+            19922,
+            10370
+          ],
+          "heads": [
+            1992,
+            1037
+          ],
+          "scale": 10,
+          "matrix": [
+            -1,
+            2,
+            12,
+            -23
+          ],
+          "quotients": [
+            1,
+            1,
+            11
+          ],
+          "output": [
+            818,
+            554
+          ]
+        }
+      ],
+      "bezout": [
+        -2310511,
+        6280620,
+        2
+      ],
+      "fallback_quotient_one": [
+        {
+          "input": [
+            10001,
+            10000
+          ],
+          "heads": [
+            1000,
+            1000
+          ],
+          "scale": 10,
+          "matrix": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "quotients": [],
+          "output": [
+            10000,
+            1
+          ]
+        }
+      ]
+    }
+  },
+  "inverses": {
+    "status": "passed",
+    "seconds": 0.42809826499433257,
+    "result": {
+      "modular_divisions": 30035,
+      "newton_cases": 1633,
+      "known_2001_erratum": {
+        "e": 2,
+        "u": 3,
+        "v": 3,
+        "old_value": 9,
+        "old_product_mod16": 11,
+        "correct_value": 11
+      }
+    }
+  },
+  "equations": {
+    "status": "passed",
+    "seconds": 1.3379298410145566,
+    "result": {
+      "systems": 2428,
+      "transformations": 3789,
+      "bounded_vectors": 119260,
+      "bounded_solutions": 2253,
+      "inconsistent": 896,
+      "displayed_family_points": 56
+    }
+  }
+}

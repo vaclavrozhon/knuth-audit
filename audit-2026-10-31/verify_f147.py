@@ -1,0 +1,17 @@
+"""Standalone witness for the missing queen in answer236's128x128 figure."""
+import json
+PRINTED = [64, 67, 69, 63, 57, 74, 68, 77, 50, 81, 83, 70, 86, 41, 39, 37, 54, 34, 59, 98, 101, 26, 105, 23, 25, 107, 78, 21, 108, 49, 53, 19, 76, 111, 88, 51, 113, 93, 114, 43, 115, 32, 13, 94, 87, 11, 29, 10, 97, 120, 35, 8, 99, 27, 6, 112, 124, 15, 104, 3, 7, 2, 125, 128, 1, 4, 127, 122, 126, 117, 18, 5, 17, 123, 100, 96, 121, 91, 9, 30, 119, 89, 118, 42, 12, 38, 116, 14, 95, 45, 36, 16, 84, 47, 44, 110, 82, 109, 20, 80, 75, 56, 22, 106, 103, 24, 102, 28, 31, 33, 71, 73, 92, 90, 40, 58, 85, 46, 48, 79, 52, 61, 55, 72, 66, 60, 62, 0]
+
+def verify():
+    assert len(PRINTED)==128 and PRINTED.count(0)==1 and PRINTED[-1]==0
+    occupied=[(r,c) for r,c in enumerate(PRINTED,1) if c]
+    assert len(occupied)==127
+    assert set(range(1,129))-{c for r,c in occupied}=={65}
+    assert len({r+c for r,c in occupied})==len({r-c for r,c in occupied})==127
+    repaired=PRINTED[:-1]+[65]
+    assert sorted(repaired)==list(range(1,129))
+    assert len({r+c for r,c in enumerate(repaired,1)})==len({r-c for r,c in enumerate(repaired,1)})==128
+    return dict(printed_queens=127,missing_one_based=[128,65],repaired_valid=True,
+        repaired=repaired,optimality_claimed_from_this_check=False)
+
+if __name__=='__main__':print(json.dumps(verify(),indent=2))

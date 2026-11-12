@@ -1,0 +1,244 @@
+{
+  "accessed_utc": "2026-11-04T02:16:06.463021+00:00",
+  "scope": "Own complete mathematics of exercise15. Historical bibliography is explicitly separate and remains partly open.",
+  "book": {
+    "edition": 3,
+    "printing": 1,
+    "printed_pages": [
+      456,
+      681,
+      682
+    ]
+  },
+  "sources": [
+    {
+      "id": "tonelli-1891",
+      "url": "https://gdz.sub.uni-goettingen.de/download/pdf/PPN252457072_1891/LOG_0050.pdf",
+      "local": "sources/tonelli-1891.pdf",
+      "printed_pages_visually_read": [
+        344,
+        345,
+        346
+      ],
+      "scope": "Entire article. Extra image p1 is not a verified title page."
+    },
+    {
+      "id": "pocklington-1917",
+      "url": "https://archive.org/details/proceedingsofcam1920191721camb",
+      "local_manifest": "sources/pocklington-1917-ia-metadata.json",
+      "leaves_visually_read": [
+        7,
+        75,
+        76,
+        77
+      ],
+      "printed_article_pages": [
+        57,
+        58,
+        59
+      ],
+      "scope": "Whole article read; quadratic sections1–3 checked for relevance, cubic sections4–5 not independently audited."
+    }
+  ],
+  "errata": {
+    "layers": [
+      "all2-prepre",
+      "all2-pre",
+      "all2",
+      "err2",
+      "err2-2e",
+      "err2.textxt"
+    ],
+    "log": "sources/polynomial-factorization-errata.txt",
+    "specific_originals_visually_read": [
+      "all2-prepre43"
+    ],
+    "known_changes": [
+      "2001-08-07 probability and random shifts",
+      "1999-07-07 Atkin bibliographic details",
+      "1996-04-20 Pocklington in second-edition errata"
+    ],
+    "new_findings": [
+      "C0207",
+      "C0208"
+    ]
+  },
+  "verification": {
+    "result": "results/sqrt-mod-prime.json",
+    "successful_blocks": 4,
+    "elapsed_seconds": 3.2918264829786494,
+    "timing_scope": "Exact correctness checks, not an asymptotic benchmark."
+  },
+  "artifacts": [
+    {
+      "path": "images/factorization-errata-all2-prepre-43.png",
+      "bytes": 170731,
+      "sha256": "a22d3cc5c21548d0e914951948854838859808b117300c6dff11b5036886a255"
+    },
+    {
+      "path": "images/pocklington-1917-leaf7.jpg",
+      "bytes": 262230,
+      "sha256": "802650535b06f2c94abc34fbcd294d220f020f163c1b99479190db1ca20841b5"
+    },
+    {
+      "path": "images/pocklington-1917-leaf75.jpg",
+      "bytes": 487688,
+      "sha256": "6fa90d29ad1b83412ae32207cd02200334b653976dfe308119c4476d11766264"
+    },
+    {
+      "path": "images/pocklington-1917-leaf76.jpg",
+      "bytes": 739425,
+      "sha256": "6355379e05d597485b03f60ada81e3067bdb4e6f4c847fc5f0165962473f5052"
+    },
+    {
+      "path": "images/pocklington-1917-leaf77.jpg",
+      "bytes": 464476,
+      "sha256": "1cbd570d05efd3e21765fcd19aa5dc4424bdf9fb88a1555900fa43ed8c0b9ebe"
+    },
+    {
+      "path": "images/tonelli-1891-p1.jpg",
+      "bytes": 547947,
+      "sha256": "70af5f4fa368a4f5f1c2eea6387b3b3b86dc3196eeab92ddbeccd58bee2906db"
+    },
+    {
+      "path": "images/tonelli-1891-p344.jpg",
+      "bytes": 785163,
+      "sha256": "1d5a79734ad363c62dfd0a39e983b06faf520b020bf03d1bda096e5ab4b004d0"
+    },
+    {
+      "path": "images/tonelli-1891-p345.jpg",
+      "bytes": 489773,
+      "sha256": "a2cad2779cb1ac69a762e3c8dcfbe5a56077678f0406cd808d5b6f8823338495"
+    },
+    {
+      "path": "images/tonelli-1891-p346.jpg",
+      "bytes": 789067,
+      "sha256": "428d1b3e3bb7ca02e7e7840b095f5b74de5db14a2902cef75b1921ef07109085"
+    },
+    {
+      "path": "images/vol2-p456.png",
+      "bytes": 338498,
+      "sha256": "7c574eda1b6c5c879b0d561e69d83f9a66a6580e2c704a371eb5fe66ac562fa2"
+    },
+    {
+      "path": "images/vol2-p681.png",
+      "bytes": 390486,
+      "sha256": "f71cf7ffe635cd3fc234f33ee465073be225b675ee307d89edb492d776317109"
+    },
+    {
+      "path": "images/vol2-p682.png",
+      "bytes": 341991,
+      "sha256": "f383e1eb411660450f2d9785f8d689b97124ea5d810305f8fba1e76566bfae48"
+    },
+    {
+      "path": "notes/C0207-first-square-root-gcd.md",
+      "bytes": 905,
+      "sha256": "2d11ce1b5dbbc773f3e579bae81b0e2acc53a707962d878461d826c99316cb47"
+    },
+    {
+      "path": "notes/C0208-square-root-erratum-shift.md",
+      "bytes": 1214,
+      "sha256": "0096bdfe16a521b6c46e5cda0b439b9aa68d492e30d07e1f80c18feb3245db51"
+    },
+    {
+      "path": "notes/sqrt-mod-prime.md",
+      "bytes": 11933,
+      "sha256": "86a443087996334c10e41627e862dd0a840f466a1f3d37baec90d3d3a392118d"
+    },
+    {
+      "path": "reports/C0207-first-square-root-gcd-draft.txt",
+      "bytes": 525,
+      "sha256": "50e00582bdce27d5c2f22893a25d6cf5eebf727647fd94bdb520957c958855df"
+    },
+    {
+      "path": "reports/C0208-square-root-erratum-shift-draft.txt",
+      "bytes": 721,
+      "sha256": "a00cb85f0846636f86cd750f50d90020aca6af656f4e7ce9e79021ac95ea2fe8"
+    },
+    {
+      "path": "results/sqrt-mod-prime-algorithms.log",
+      "bytes": 280,
+      "sha256": "3d7117cc02ee9c203f910cc030b0fd532f7354344f08eb85cdb6b565bceda999"
+    },
+    {
+      "path": "results/sqrt-mod-prime-average.log",
+      "bytes": 167,
+      "sha256": "38a4e03dc0e70f33f01ea2635ef9f66ac9c28a06556851e196fc20e1936bd63f"
+    },
+    {
+      "path": "results/sqrt-mod-prime-cipolla.log",
+      "bytes": 206,
+      "sha256": "570732a45acf61220f2f6043d6a526a40faaaf24d1f2e6623f93c9c766bddcc6"
+    },
+    {
+      "path": "results/sqrt-mod-prime-shifts.log",
+      "bytes": 498,
+      "sha256": "8cafa47d85e7e48b1cc681638a935cf9dc00131e53d32ec11fcf9ae62d4a4313"
+    },
+    {
+      "path": "results/sqrt-mod-prime.json",
+      "bytes": 3386,
+      "sha256": "4c501dead5bd32d4e217337a25098e5855113772973b7adf5e8c2ba3a3b92e30"
+    },
+    {
+      "path": "sources/cipolla-1903-ia-search.json",
+      "bytes": 441,
+      "sha256": "25f04337143c25df7dcad4276ed250c1eeb8c79616caf199a2ee20a0c48c2f16"
+    },
+    {
+      "path": "sources/pocklington-1917-ia-metadata.json",
+      "bytes": 148892,
+      "sha256": "557c761777e1377909f270c1a12e62cb0c50d8315838152314dab6cd4df0138b"
+    },
+    {
+      "path": "sources/pocklington-1917-scandata.xml",
+      "bytes": 480335,
+      "sha256": "d90f45ffab5192ba7b428ddc5aa5290ade778bd67423a32fc95cda434a066756"
+    },
+    {
+      "path": "sources/polynomial-factorization-errata.txt",
+      "bytes": 71419,
+      "sha256": "f89710743f4d0e130086a9c10b5be38f0932a97aa58792de07ed570ab10a4c72"
+    },
+    {
+      "path": "sources/sqrt-mod-prime-downloads.json",
+      "bytes": 5846,
+      "sha256": "1ec3e7b01abdef9bfd3be5681ab274af8fc7608fb593ac1b6ea4a0ae3a20a77e"
+    },
+    {
+      "path": "sources/sqrt-mod-prime-ia-searches.json",
+      "bytes": 2701,
+      "sha256": "44ede3c6a1b9cc46bc3f7fe8fbf84ead7859a580dd203024bbcc48c316b4b2ec"
+    },
+    {
+      "path": "sources/tonelli-1891-manifest.json",
+      "bytes": 508798,
+      "sha256": "1ef669a714ba790143956ccce375aa0361386ed735ee82385daf3d437022acd2"
+    },
+    {
+      "path": "sources/tonelli-1891.pdf",
+      "bytes": 290693,
+      "sha256": "f6d68e758fa928888b7c501a249f678fe238a669a2254473c2875cf97af4f8f1"
+    },
+    {
+      "path": "sources/tonelli-1891.txt",
+      "bytes": 1704,
+      "sha256": "975d7ffddb8f86a82f14a4ccb771cf4b223ee7ff6578730581d1037d07dc8c38"
+    },
+    {
+      "path": "verify_berlekamp.py",
+      "bytes": 18458,
+      "sha256": "54b821a8c5b66725c67f1d7a63005ca429b5e26ea6aaa003b9158f8ea4462543"
+    },
+    {
+      "path": "verify_fast_sturm.py",
+      "bytes": 13606,
+      "sha256": "126e5345b76f17096318143bf0a08420aeb3e9003666d6ed50bceaf53dc93635"
+    },
+    {
+      "path": "verify_sqrt_mod_prime.py",
+      "bytes": 7442,
+      "sha256": "53711560dd2a0eb6c29f81c205cf1291e48eacae877d043de31e24088b8a8b30"
+    }
+  ]
+}

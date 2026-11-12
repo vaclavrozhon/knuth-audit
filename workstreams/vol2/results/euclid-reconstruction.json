@@ -1,0 +1,31 @@
+{
+  "square": {
+    "cases": 522753,
+    "solutions": 222654,
+    "boundary_solutions": 204,
+    "max_modulus": 1024,
+    "seconds": 9.752846018993296
+  },
+  "rectangles": {
+    "cases": 215381,
+    "twin_cases_in_grid": 7,
+    "twin_family": 255,
+    "seconds": 1.5056242839782499
+  },
+  "book_example": {
+    "a": 28481,
+    "m": 199999,
+    "x": 316,
+    "y": 41,
+    "z": 45,
+    "boundary_example": [
+      3,
+      18,
+      1,
+      3
+    ]
+  },
+  "status": "passed",
+  "final_pid": 1237182,
+  "scope": "Exact Euclidean recurrence and independent exhaustive denominator/residue enumeration. General proof and classification of rectangular equality are in euclid-reconstruction.md."
+}

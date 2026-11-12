@@ -1,0 +1,135 @@
+{
+  "volume": "vol1",
+  "reviewed_at_utc": "2026-11-07T02:44:08.517217+00:00",
+  "scope": "All18, full post-repacking charge proof, uniform-init first interval, arbitrary-init repair,90-percent corollary and exact C0035 interpretation; whole2.2.2 review complete with limits.",
+  "proof": "notes/quality-recovery-section-2.2.2-amortization-2026-11-07.md",
+  "proof_sha256": "8c2e8071b40e04d2fbb2ee0ee3b5dad56dc3bcc6fcd7d9caa00cd419149eccb0",
+  "reused_artifacts": [
+    {
+      "path": "notes/sequential-initial-amortization.md",
+      "sha256": "574900874765d262ceb5d7ade705a3e15dd91ab5eddcbfdd52184419b15d3215",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "574900874765d262ceb5d7ade705a3e15dd91ab5eddcbfdd52184419b15d3215",
+      "matches": true
+    },
+    {
+      "path": "parallel/linked-allocation/notes/review-sequential-overflow.md",
+      "sha256": "07128b6c50fff371a8c500a43473df0ef1b42bd0b963c6c1756018e63677cab9",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "07128b6c50fff371a8c500a43473df0ef1b42bd0b963c6c1756018e63677cab9",
+      "matches": true
+    },
+    {
+      "path": "images/vol1-file263-p248.png",
+      "sha256": "387252a44badad9067215f1b53d17b3eaf1b3e6273b57edf62fa03e0924830ef",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "387252a44badad9067215f1b53d17b3eaf1b3e6273b57edf62fa03e0924830ef",
+      "matches": true
+    },
+    {
+      "path": "images/vol1-file264-p249.png",
+      "sha256": "6e25bc7af8c3537e6df7d1cab894772b3f1e208ea2aa972b3a8c86711f358663",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "6e25bc7af8c3537e6df7d1cab894772b3f1e208ea2aa972b3a8c86711f358663",
+      "matches": true
+    },
+    {
+      "path": "images/vol1-file265-p250.png",
+      "sha256": "cb528a16f487b6a31912dd2d69b4d03105348dfb433bcd9144f645b207c9c707",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "cb528a16f487b6a31912dd2d69b4d03105348dfb433bcd9144f645b207c9c707",
+      "matches": true
+    },
+    {
+      "path": "images/vol1-file266-p251.png",
+      "sha256": "023d2b438399511958224cdb62576da8b431d116b0f9f00471ac33fe64fe70dc",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "023d2b438399511958224cdb62576da8b431d116b0f9f00471ac33fe64fe70dc",
+      "matches": true
+    },
+    {
+      "path": "images/vol1-file269-p254.png",
+      "sha256": "78fdf4caa5d1daf135cdab4002910942ccf4f8a0b18fa19b0ef441810d13780a",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "78fdf4caa5d1daf135cdab4002910942ccf4f8a0b18fa19b0ef441810d13780a",
+      "matches": true
+    },
+    {
+      "path": "images/vol1-file559-p544.png",
+      "sha256": "9accb1a4ef7465dfae67e25e4f94822f075f1ee347cf7887b48c335ca05d7811",
+      "prior_manifest": "results/artifact-manifest-interpretive-allocation.json",
+      "prior_sha256": "9accb1a4ef7465dfae67e25e4f94822f075f1ee347cf7887b48c335ca05d7811",
+      "matches": true
+    }
+  ],
+  "additional_accepted_artifacts": [
+    {
+      "path": "notes/quality-recovery-section-2.2.2-basic-2026-11-07.md",
+      "sha256": "eb328551702364c4822e907334e03db6d484d9419a455e25225827c6a2cd6673"
+    },
+    {
+      "path": "notes/quality-recovery-section-2.2.2-experiment-2026-11-07.md",
+      "sha256": "997eb18489fa8f29888278fdcf9aa35d1338b012b379f8985abde4e555da3835"
+    },
+    {
+      "path": "notes/quality-recovery-section-2.2.2-initialization-2026-11-07.md",
+      "sha256": "ab499c865f60082df21ecd61e9c00ec16e625e16620d6211272d7f1b23ea14e0"
+    }
+  ],
+  "errata_layers": [
+    {
+      "path": "errata/text/all1-prepre.txt",
+      "sha256": "1a3c3ac6137b9e98f427de0a344efca46fd83b7a3e6e8fe2fa38e94525ca0c31",
+      "matching_blocks": [
+        {
+          "printed_page": 248,
+          "text": "Page 248 line       6                                                       20 Feb 2009\n  NODE(TOP[i℄)      y CONTENTS(TOP[i℄)",
+          "disposition": "Known allocator notation/adjacent exercise or unrelated topic; no initial-interval clarification"
+        },
+        {
+          "printed_page": 249,
+          "text": "xPage 249 line 2                                                           06 Mar 1998\n  NEWBASE[ j ℄ > NEWBASE[ j ℄         y NEWBASE[ j ℄ > BASE[ j ℄",
+          "disposition": "Known allocator notation/adjacent exercise or unrelated topic; no initial-interval clarification"
+        },
+        {
+          "printed_page": 529,
+          "text": "Page 529 lines 2{7 of answer 3                                                17 Jul 2006\n But if : : : program.)     y  But the omparison indi ator isn't initialized; and if the\n   nal period is pre eded by a repli ation digit, it won't be noti ed. [Note: The most\n nitpi kingly eÆ ient program would probably remove lines 40, 44, and 48, and would\n insert \\CMPA PERIOD\" between lines 26 and 27, \\CMPX PERIOD\" between lines 59 and 60.\n The state of the omparison indi ator should then be ome part of the oroutine har-\n a teristi s in the program do umentation.℄\nx",
+          "disposition": "Known allocator notation/adjacent exercise or unrelated topic; no initial-interval clarification"
+        },
+        {
+          "printed_page": 544,
+          "text": "Page 544   line 6                                                                  18 Nov 1999\n 3\u0014j\u0014m           y\n                 3\u0014j\u0014n\nx",
+          "disposition": "Known allocator notation/adjacent exercise or unrelated topic; no initial-interval clarification"
+        },
+        {
+          "printed_page": 544,
+          "text": "Page 544 line 3 of answer 17                                                       20 Feb 2009\n less   ymore\nx",
+          "disposition": "Known allocator notation/adjacent exercise or unrelated topic; no initial-interval clarification"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all1-pre.txt",
+      "sha256": "89d231245ff44164e09a39903faac35a2dc5e89956857abcc974991c99a887e5",
+      "matching_blocks": []
+    },
+    {
+      "path": "errata/text/all1.txt",
+      "sha256": "b641d6e48aaf2d77fc98a3c4a8a798d8156516b97095ec345a976e65d9c79aef",
+      "matching_blocks": []
+    },
+    {
+      "path": "errata/text/err1.txt",
+      "sha256": "ecae8755d7d9f86c5dbcbd782767f0cf8e6bf7f89d9c57ed0a27ad2344461f30",
+      "matching_blocks": []
+    }
+  ],
+  "current_tex": {
+    "path": "errata/originals/err1.textxt",
+    "sha256": "f752c0a5fcf49686906e39fa5a1dab28b53adc8226b0a7e1a1b6cf850592bc91",
+    "matching_records": []
+  },
+  "mathematical_runs": 0,
+  "old_checks_repeated": false,
+  "new_findings": 0
+}

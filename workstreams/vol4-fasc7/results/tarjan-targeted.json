@@ -1,0 +1,272 @@
+{
+  "scope": "Eight fixed traces only; general proof is separate.",
+  "cases": [
+    {
+      "name": "empty",
+      "adjacency_zero_based": [],
+      "representative_codes": [],
+      "T_step_visits": {
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "shortcuts": 0,
+      "arcs_scanned": 0,
+      "total_arcs": 0,
+      "partition_matches_reachability": true
+    },
+    {
+      "name": "three_isolates",
+      "adjacency_zero_based": [
+        [],
+        [],
+        []
+      ],
+      "representative_codes": [
+        5,
+        6,
+        7
+      ],
+      "T_step_visits": {
+        "2": 4,
+        "3": 3,
+        "4": 3,
+        "5": 0,
+        "6": 0,
+        "7": 3,
+        "8": 3,
+        "9": 3
+      },
+      "shortcuts": 0,
+      "arcs_scanned": 0,
+      "total_arcs": 0,
+      "partition_matches_reachability": true
+    },
+    {
+      "name": "one_loop",
+      "adjacency_zero_based": [
+        [
+          0
+        ]
+      ],
+      "representative_codes": [
+        3
+      ],
+      "T_step_visits": {
+        "2": 2,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 0,
+        "8": 1,
+        "9": 1
+      },
+      "shortcuts": 1,
+      "arcs_scanned": 1,
+      "total_arcs": 1,
+      "partition_matches_reachability": true
+    },
+    {
+      "name": "parallel_arcs_two_components",
+      "adjacency_zero_based": [
+        [
+          1,
+          1
+        ],
+        [
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "representative_codes": [
+        5,
+        5,
+        7
+      ],
+      "T_step_visits": {
+        "2": 4,
+        "3": 3,
+        "4": 8,
+        "5": 5,
+        "6": 5,
+        "7": 3,
+        "8": 2,
+        "9": 3
+      },
+      "shortcuts": 0,
+      "arcs_scanned": 5,
+      "total_arcs": 5,
+      "partition_matches_reachability": true
+    },
+    {
+      "name": "chain_and_previously_settled_sink",
+      "adjacency_zero_based": [
+        [],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "representative_codes": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "T_step_visits": {
+        "2": 5,
+        "3": 4,
+        "4": 8,
+        "5": 4,
+        "6": 4,
+        "7": 4,
+        "8": 4,
+        "9": 4
+      },
+      "shortcuts": 0,
+      "arcs_scanned": 4,
+      "total_arcs": 4,
+      "partition_matches_reachability": true
+    },
+    {
+      "name": "sibling_cross_arc_merges_suffix",
+      "adjacency_zero_based": [
+        [
+          2
+        ],
+        [
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "representative_codes": [
+        7,
+        7,
+        7
+      ],
+      "T_step_visits": {
+        "2": 4,
+        "3": 3,
+        "4": 3,
+        "5": 3,
+        "6": 3,
+        "7": 0,
+        "8": 1,
+        "9": 1
+      },
+      "shortcuts": 1,
+      "arcs_scanned": 3,
+      "total_arcs": 4,
+      "partition_matches_reachability": true
+    },
+    {
+      "name": "shortcut_with_inactive_stack_and_unread_arcs",
+      "adjacency_zero_based": [
+        [
+          5,
+          0
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          5
+        ],
+        [
+          3
+        ],
+        [
+          4,
+          2,
+          5
+        ]
+      ],
+      "representative_codes": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "T_step_visits": {
+        "2": 7,
+        "3": 6,
+        "4": 9,
+        "5": 7,
+        "6": 7,
+        "7": 2,
+        "8": 1,
+        "9": 3
+      },
+      "shortcuts": 1,
+      "arcs_scanned": 7,
+      "total_arcs": 9,
+      "partition_matches_reachability": true
+    },
+    {
+      "name": "multiple_roots_and_nonroot_cycle",
+      "adjacency_zero_based": [
+        [
+          1
+        ],
+        [
+          0
+        ],
+        [],
+        [
+          4
+        ],
+        [
+          3
+        ],
+        [
+          5
+        ]
+      ],
+      "representative_codes": [
+        9,
+        9,
+        10,
+        12,
+        12,
+        13
+      ],
+      "T_step_visits": {
+        "2": 7,
+        "3": 6,
+        "4": 9,
+        "5": 5,
+        "6": 5,
+        "7": 4,
+        "8": 4,
+        "9": 5
+      },
+      "shortcuts": 1,
+      "arcs_scanned": 5,
+      "total_arcs": 5,
+      "partition_matches_reachability": true
+    }
+  ]
+}

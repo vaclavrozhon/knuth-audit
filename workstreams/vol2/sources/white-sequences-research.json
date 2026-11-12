@@ -1,0 +1,40 @@
+{
+  "checked_at_utc": "2026-11-01T22:14:53.994879+00:00",
+  "queries": [
+    "\"Coppersmith\" \"white sequence\"",
+    "\"white sequences\" equidistributed",
+    "\"Coppersmith\" \"7/8\" equidistributed",
+    "\"Coppersmith\" \"white\" \"sequence\" Knuth",
+    "\"white sequence\" \"highest\""
+  ],
+  "result": "No independent primary construction or current solution found in these bounded searches. Results mainly repeat Knuth, including his 1973 errata report. This is not proof that the problem remains open.",
+  "historical_primary_url": "https://ftpmirror.your.org/pub/misc/bitsavers/pdf/stanford/Stanford_CS_TR_Collection_2025-12-12/OCR/CS-TR-73-392-ocr.pdf",
+  "exploratory_one_step_LP": {
+    "model": "Grid midpoints, uniform row/column marginals, E(UV)=1/4; objective Pr(U>V). Does not impose other lags or prove an infinite white construction.",
+    "solver": "scipy.optimize.linprog highs",
+    "values": [
+      {
+        "n": 10,
+        "objective": 0.8414062499999999
+      },
+      {
+        "n": 30,
+        "objective": 0.8796006944444444
+      },
+      {
+        "n": 70,
+        "objective": 0.8896205357142847
+      }
+    ],
+    "rigorous_certificate": false
+  },
+  "historical_primary_artifact": {
+    "file": "knuth-1973-errata-file26.pdf",
+    "source_file_page": 26,
+    "printed_page": 24,
+    "full_pdf_bytes": 7246184,
+    "full_pdf_sha256": "2ba45ec082fb16ce985aa304c970084343de71d42c5648ab0fb2d78f5d652c1b",
+    "excerpt_sha256": "92af22d67049d203f9205a8a1943ff852b5b021423852067212ab215aff89a28",
+    "scope": "Page24 only, not full report. Coppersmith 7/8 mentioned with to appear, without construction."
+  }
+}

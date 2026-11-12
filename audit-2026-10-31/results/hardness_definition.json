@@ -1,0 +1,128 @@
+{
+  "counts": {
+    "formulas": 17902,
+    "levels": 71608,
+    "442c_restriction_checks": 97260
+  },
+  "raw_vs_operational_mismatches_by_k": {
+    "1": 456
+  },
+  "first_witness_by_k": {
+    "1": {
+      "F": [
+        [
+          -2,
+          -1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          1
+        ]
+      ],
+      "raw": [
+        -3,
+        -2,
+        1,
+        2,
+        3
+      ],
+      "operational": [
+        -3,
+        -2,
+        -1,
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  "minimal_explanatory_witness": {
+    "F": [
+      [
+        -2,
+        -1
+      ],
+      [
+        -1,
+        2
+      ],
+      [
+        1
+      ]
+    ],
+    "L1_printed": [
+      -2,
+      1,
+      2
+    ],
+    "L1_procedure": [
+      -2,
+      -1,
+      1,
+      2
+    ],
+    "raw_PC_index": 2,
+    "operational_PC_index": 1
+  },
+  "repair": "Permit a valid forcing sequence to terminate at a lower-level contradiction, independently of target literal.",
+  "status": "all assertions passed; the printed definition differs from the procedure",
+  "level_two_witness_442bf": {
+    "F": [
+      [
+        -4,
+        -3,
+        -1
+      ],
+      [
+        -4,
+        -1,
+        3
+      ],
+      [
+        -3,
+        -1,
+        4
+      ],
+      [
+        -2,
+        1
+      ],
+      [
+        -1,
+        3,
+        4
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "k": 2,
+    "raw": [
+      -4,
+      -3,
+      -2,
+      1,
+      2,
+      3,
+      4
+    ],
+    "operational": [
+      -4,
+      -3,
+      -2,
+      -1,
+      1,
+      2,
+      3,
+      4
+    ],
+    "only_possible_first_literal": 1,
+    "raw_PC_index": 3,
+    "operational_PC_index": 2,
+    "repair_verified": true
+  }
+}

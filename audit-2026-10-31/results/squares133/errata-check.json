@@ -1,0 +1,60 @@
+{
+  "checked_at_utc": "2026-11-02T11:29:44.335697+00:00",
+  "source_sha256": "dabc97e4bb674324ad27125289bd101fe5a858ec73e8d65a33eced4c4a10e172",
+  "local_files": {
+    "errata/text/all4b.txt": "b1a3425486f403fb4158585d5bbfef0159fd20b12e2e7d47b64e393e1ae8a303",
+    "errata/text/err4b.txt": "2a3450bf3c79d28ad3c2d96468344c96995cf0afb74961f257c311bb9c821e1c",
+    "errata/text/all4f5.txt": "0dd38c4cda72b01baefb797611c9bbab7713ff0c107a1df884afc89fe9bb91c3",
+    "errata/text/err4f5.txt": "5a716c34e2063eb46005593d53e89dbbd912b5677e0a6ab11753f2a5ee38b557",
+    "errata/originals/err4b.textxt": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+    "errata/originals/err4f5.textxt": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b"
+  },
+  "remote_check_source": "results/borders127_128/errata-check.json",
+  "remote_check_source_sha256": "0532a05036e3372dea02d78135258483c0c391cf9d8071a0227800f902f05408",
+  "remote_verified_at_utc": "2026-11-02T08:06:36.705568+00:00",
+  "remote_files": [
+    {
+      "file": "all4b.ps.gz",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/all4b.ps.gz",
+      "sha256": "61c41e43dc337c1259f9ff690bfef718da2a656abdb110c6e7875c11f9566eea",
+      "unchanged": true
+    },
+    {
+      "file": "all4f5.ps.gz",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/all4f5.ps.gz",
+      "sha256": "4c3edee8aa4c92f69bc5eb243ffe03779ae56c1e89a0ad36f85a2ac770fcbb83",
+      "unchanged": true
+    },
+    {
+      "file": "err4b.textxt",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/err4b.textxt",
+      "sha256": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+      "unchanged": true
+    },
+    {
+      "file": "err4f5.textxt",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/err4f5.textxt",
+      "sha256": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b",
+      "unchanged": true
+    }
+  ],
+  "search_patterns": [
+    "(?:Page|page)\\s+(?:139|450|137|258|75|154)\\b",
+    "(?:4b|4f5)\\.(?:139|450|137|258)\\b",
+    "(?:answer|exercise)\\s+13[34]\\b",
+    "13328|13[, ]?328|12261|12[, ]?261|1672|1[, ]?672|1685|1[, ]?685",
+    "MacMahon|Feldman|O.Beirne|Fern.ndez|Multimatch|15\\s*G"
+  ],
+  "contexts_sha256": "82cc190e4df6305d1cae782ae4dddf827d696e7bd24ad983ef53a8a461f6f1ca",
+  "page_mapping": {
+    "question4B": 139,
+    "answer4B": 450,
+    "questionF5": 137,
+    "answerF5": 258,
+    "questionDraft5C": 75,
+    "answerDraft5C": 154
+  },
+  "known_correction133": "16Jan2023: explicitly remove options with non-a boundary edges before symmetry restrictions.",
+  "correction134_found": false,
+  "conclusion": "No matching correction for134 counts. The page450 correction addresses the missing133 boundary constraint. Full matched contexts retained for review."
+}

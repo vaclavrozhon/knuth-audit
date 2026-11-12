@@ -1,0 +1,43 @@
+{
+  "finding": "V3-C0030",
+  "checked_at_utc": "2026-11-07T03:32:31.596906+00:00",
+  "scope": "Volume 3, first-print p.631, answer 5.2.2-18: the claimed third partition after changing both scan tests to non-strict inequalities.",
+  "original_evidence": [
+    "workstreams/vol3/images/exchanging-file-126.png",
+    "workstreams/vol3/images/exchanging-file-127.png",
+    "workstreams/vol3/images/exchanging-file-642.png"
+  ],
+  "query_scope": [
+    "Every modern 113-119 and 630-632 entry; answer18 and Q3/Q4/Q9 terminology.",
+    "Full-layer semantic searches for quicksort, partition, third and catastrophe.",
+    "Historical corresponding 117-120 and 607-609 entries, including the608 replacement of19 and corrections of20/22."
+  ],
+  "layers": [
+    {
+      "name": "all3-prepre",
+      "source": "errata/text/all3-prepre.txt",
+      "conclusion": "The116 closing parenthesis,118 program-comment punctuation and119 first-s-keys clarification do not change the scans. No matching correction of answer18 or the claimed third phase."
+    },
+    {
+      "name": "all3-pre",
+      "source": "errata/text/all3-pre.txt",
+      "conclusion": "The2016-03-11 entry for631 answer18 moves a comma relative to quotation marks; the scan conditions and phase description are unchanged. No substantive correction found."
+    },
+    {
+      "name": "all3",
+      "source": "errata/text/all3.txt",
+      "conclusion": "No matching page, answer or semantic correction. Its649 answer18 is a different section."
+    },
+    {
+      "name": "err3",
+      "source": "errata/text/err3.txt",
+      "conclusion": "No matching page, answer or semantic correction."
+    },
+    {
+      "name": "err3-1e",
+      "source": "errata/text/err3-1e.txt",
+      "conclusion": "Historical117-118 changes remove a redundant R assignment and repair an arrow; corresponding608 changes replace19, add max(0,...) in20 and repair22 displays. None changes18 or bounds the modified Q4 scan."
+    }
+  ],
+  "conclusion": "No supplied layer repairs the second-phase out-of-range access or the claimed third-phase trace. The known2016 punctuation change is not this finding."
+}

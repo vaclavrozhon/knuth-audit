@@ -1,0 +1,49 @@
+{
+  "accessed_date_utc": "2026-11-02",
+  "entry": "index-1171",
+  "sources": [
+    {
+      "url": "https://www.ams.org/books/psapm/048/psapm048-endmatter.pdf",
+      "title": "Eugene Isaacson, Mathematics of Computation: A Brief History, Proceedings of Symposia in Applied Mathematics 48 (1994), xvii-xix",
+      "read_method": "Indexovaný text primárního vydavatelského PDF ve webovém hledání; přímé otevření i requests HTTP 403.",
+      "actual_read_scope": [
+        "xvii: autor, titul, úvodní odstavec o lednu 1943, NRC-NAS a prvním názvu bez Other",
+        "xviii: odstavec o prvním doplnění Other od října 1943, výslovně podle prohlídky obálek",
+        "xix: odstavec o vydávání AMS pro NRC-NAS od ledna 1962 a převzetí plné kontroly v červenci 1965"
+      ],
+      "not_read": "Celé tři strany, jejich obrazy, jejich další reference a původní obálky časopisu.",
+      "reproduction_queries": [
+        "site.ams.org \"Mathematics of Computation\" \"July 1965\"",
+        "\"Mathematics of Computation: A Brief History\" \"Eugene\"",
+        "\"Mathematical Tables and Aids to Computation\" \"title\" \"October\""
+      ]
+    },
+    {
+      "url": "https://www.nature.com/articles/152352e0",
+      "title": "Mathematical Tables and Aids to Computation, Nature 152 (25 September 1943), 352-353",
+      "doi": "10.1038/152352e0",
+      "read_method": "Celý vydavatelský webový abstrakt a bibliografická metadata.",
+      "actual_read_scope": "Oznámení prvního čísla k 1. lednu 1943, titul bez Other, vydavatel NRC, editor a stručný popis obsahu.",
+      "not_read": "Obraz původních stran 352-353. PDF URL poskytlo HTTP 200, ale HTML, nikoli PDF."
+    },
+    {
+      "url": "https://www.ams.org/journals/notices/196204/196204FullIssue.pdf",
+      "title": "Notices of the AMS, April 1962",
+      "read_method": "Indexované primární textové výřezy; přímé otevření a requests HTTP 403.",
+      "actual_read_scope": "Oznámení Mathematics of Computation v Memoranda to Members, zadní oznámení začínající Beginning with Volume 16, Number 77, a odstavec tajemníkovy zprávy o tříleté dohodě s NRC.",
+      "supports": "Vznik 1943, nový název 1960, vydávání AMS pro NRC-NAS od ledna 1962.",
+      "limit": "Oznámení zjednodušeně uvádí dřívější titul s Other; nebylo rozhodujícím zdrojem pro přesný název prvního čísla. Čísla jednotlivých tištěných stran nejsou z výřezů doložena."
+    },
+    {
+      "url": "https://ci.nii.ac.jp/ncid/AA00723750.amp?l=en",
+      "read_method": "Institucionální katalogový záznam, pole názvu, počátku, vydavatelů a poznámky.",
+      "supports": "Vol. 14 no. 69 (1960); plný vydavatelský přechod na AMS od července 1965.",
+      "limit": "Katalog není obraz původního čísla."
+    }
+  ],
+  "navigation_only": [
+    "https://ftp.math.utah.edu/pub/tex/bib/mathcomp1940.html",
+    "https://www.jstor.org/journal/mathtablotheaids"
+  ],
+  "assessment": "candidate pouze pro original title; roky 1943, 1960 a 1965 jsou v příslušném smyslu doložené."
+}

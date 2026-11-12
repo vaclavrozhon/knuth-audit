@@ -1,0 +1,90 @@
+{
+  "precision_digits": 60,
+  "probabilities_1_to_12": [
+    "0.5963473623231940743410784993692793760742",
+    "0.2659653850324091806248400547893199183059",
+    "0.0967803251388619300397888618524614078035",
+    "0.03009381391565566683839894649436809764115",
+    "0.008229900497396474564660578611833239774569",
+    "0.00201875456296780952887651706772879280434",
+    "0.0004505722188023490525399655937183211358105",
+    "0.0000925069222670338164454131002624070377116",
+    "0.00001762156046770655648089985858913775118557",
+    "0.000003136118520665142388546662921857105256437",
+    "0.0000005244583338048210915693282329901069711576",
+    "0.00000008281222125703710384324180831773814495801"
+  ],
+  "two_integral_forms_checked": 12,
+  "base_integral": "0.219383934395520273677163775460121649031",
+  "g_over_3": "0.1987824541077313581136928331230931253581",
+  "mean": "1.596347362323194074341078499369279376074",
+  "variance": "0.772647955838181524191636096591155797514",
+  "gamma_series_checks": [
+    {
+      "z": "0.0",
+      "G": "0.0",
+      "printed_minus_true": "2.71828182845904523536028747135"
+    },
+    {
+      "z": "0.25",
+      "G": "0.167347982541063365858102615538",
+      "printed_minus_true": "2.71828182845904523536028747135"
+    },
+    {
+      "z": "0.5",
+      "G": "0.378936078070656053021675619957",
+      "printed_minus_true": "2.71828182845904523536028747135"
+    },
+    {
+      "z": "1.0",
+      "G": "1.0",
+      "printed_minus_true": "2.71828182845904523536028747135"
+    },
+    {
+      "z": "2.0",
+      "G": "4.0",
+      "printed_minus_true": "2.71828182845904523536028747135"
+    },
+    {
+      "z": "3.0",
+      "G": "15.0",
+      "printed_minus_true": "2.71828182845904523536028747135"
+    }
+  ],
+  "saddle_ratios": [
+    {
+      "n": 10,
+      "integral_over_asymptotic": "1.0253132720995913028243101753049461"
+    },
+    {
+      "n": 20,
+      "integral_over_asymptotic": "1.0148668256948685651020024932060448"
+    },
+    {
+      "n": 50,
+      "integral_over_asymptotic": "1.0071429380875668393863387795060449"
+    },
+    {
+      "n": 100,
+      "integral_over_asymptotic": "1.0040334613580336343241899546796786"
+    },
+    {
+      "n": 200,
+      "integral_over_asymptotic": "1.0022517897364118750862301832127087"
+    },
+    {
+      "n": 500,
+      "integral_over_asymptotic": "1.0010274038165385583525232275643084"
+    },
+    {
+      "n": 1000,
+      "integral_over_asymptotic": "1.000562460096642924511174127988839"
+    }
+  ],
+  "F020": "R(0)=-g by the definition of rho, but the printed positive integral gives +g.",
+  "F021": "Answer 189(c): g/3 should be g/e; the maximum in the next sentence needs the modulus of exp(-exp(u*z)), not exp(exp(u*z)).",
+  "F022": "After answer 189(d), first integral needs (k-1)! instead of k!.",
+  "F023": "Answer 191 gamma series is missing -e; at z=0 it gives e instead of 0.",
+  "C006": "The published 2019 correction to answer 189(a) itself prints exp(exp(-x)*cos(y)); it should print exp(-exp(x)*cos(y)). Follow-up to an existing erratum, not counted as a new independent finding.",
+  "limitation": "Numerical integrals corroborate analytic counterexamples and identities. The n=10..1000 saddle ratios do not prove the full asymptotic remainder."
+}

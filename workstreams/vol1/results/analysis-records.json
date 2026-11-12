@@ -1,0 +1,90 @@
+{
+  "counts": {
+    "permutation_maximum": 46233,
+    "step_counts": 46233,
+    "inverse_records": 40319,
+    "permutation_distribution": 36,
+    "ties_rightmost": 25384,
+    "occupancy_distribution": 60,
+    "conditional_distinct_distribution": 265,
+    "mixture_record_distribution": 112,
+    "expected_records_bernoulli": 28,
+    "fixed_multiplicity_pgf": 2708,
+    "subtraction_records": 6651,
+    "record_cumulants": 16,
+    "uniform_mean": 16,
+    "uniform_cumulants": 112,
+    "binomial_cumulants": 80,
+    "figure10_mean": 1,
+    "figure10_variance": 1,
+    "exercise3_rounding": 1,
+    "figure11_deviation": 1,
+    "gaussian_percentages": 3,
+    "C0013_distribution": 1,
+    "C0013_standardization": 1,
+    "C0015_binomial_counterexample": 1,
+    "C0015_missing_n": 1
+  },
+  "total_checks": 168264,
+  "record_samples": [
+    {
+      "n": 12,
+      "pgf": [
+        "1/12",
+        "83711/332640",
+        "190553/604800",
+        "341747/1555200",
+        "139381/1451520",
+        "242537/8709120",
+        "1903/345600",
+        "10831/14515200",
+        "11/161280",
+        "1/248832",
+        "1/7257600",
+        "1/479001600"
+      ],
+      "mean": "58301/27720",
+      "variance": "47279063/30735936"
+    }
+  ],
+  "n1000": {
+    "mean": {
+      "lower": "6.485470860550344912656518204333900176521679169",
+      "upper": "6.485470860550344912656518204333900176521679170"
+    },
+    "deviation": {
+      "lower": "2.416927035280292674296412137499105348360331396",
+      "upper": "2.416927035280292674296412137499105348360331397"
+    }
+  },
+  "gaussian_percentages": [
+    {
+      "r": 1,
+      "percent": {
+        "lower": "68.268949213708589717046509126407584495582260859",
+        "upper": "68.268949213708589717046509126407584495583347394"
+      },
+      "rounded_12": "68.268949213709"
+    },
+    {
+      "r": 2,
+      "percent": {
+        "lower": "95.449973610364158559943472566693312505644290395",
+        "upper": "95.449973610364158559943472566693312505645809529"
+      },
+      "rounded_12": "95.449973610364"
+    },
+    {
+      "r": 3,
+      "percent": {
+        "lower": "99.730020393673981094669637046481004524433640659",
+        "upper": "99.730020393673981094669637046481004524435227912"
+      },
+      "rounded_12": "99.730020393674"
+    }
+  ],
+  "C0015": {
+    "actual_tail": "277/65536",
+    "claimed_bound_after_inserting_n": "1/256"
+  }
+}

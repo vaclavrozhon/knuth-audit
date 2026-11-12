@@ -1,0 +1,290 @@
+{
+  "created_at_utc": "2026-11-05T20:19:43.482109+00:00",
+  "scope": "Only three tiny cases; the omitted E6 deletion is established by source comparison and the two-node trace.",
+  "script_sha256": "c9a63f93f2db9a43ce103b31424546054346b0d95a33a9b374586cc3c632b252",
+  "existing_implementation_sha256": "77be1fa06279872e2d625f0ce80570476bc220f10f3423775c865309fb2e1d13",
+  "cases": [
+    {
+      "name": "singleton",
+      "input_links": {
+        "1": [
+          0,
+          0
+        ]
+      },
+      "literal_error": null,
+      "literal_trace": [
+        {
+          "step": "E4",
+          "T": 0,
+          "P": 1,
+          "memory": {
+            "1": {
+              "mark": 0,
+              "a": 0,
+              "b": 0
+            }
+          }
+        },
+        {
+          "step": "E5",
+          "T": 0,
+          "P": 1,
+          "memory": {
+            "1": {
+              "mark": 0,
+              "a": 0,
+              "b": 0
+            }
+          }
+        },
+        {
+          "step": "E6",
+          "T": 0,
+          "P": 1,
+          "memory": {
+            "1": {
+              "mark": 1,
+              "a": 0,
+              "b": 0
+            }
+          }
+        }
+      ],
+      "repaired_marks_and_links": {
+        "1": {
+          "mark": 1,
+          "a": 0,
+          "b": 0
+        }
+      }
+    },
+    {
+      "name": "left_child",
+      "input_links": {
+        "1": [
+          2,
+          0
+        ],
+        "2": [
+          0,
+          0
+        ]
+      },
+      "literal_error": "'Node' object has no attribute 'atom'",
+      "literal_trace": [
+        {
+          "step": "E4",
+          "T": 0,
+          "P": 1,
+          "memory": {
+            "1": {
+              "mark": 0,
+              "a": 2,
+              "b": 0
+            },
+            "2": {
+              "mark": 0,
+              "a": 0,
+              "b": 0
+            }
+          }
+        },
+        {
+          "step": "E4",
+          "T": 1,
+          "P": 2,
+          "memory": {
+            "1": {
+              "mark": 0,
+              "a": 0,
+              "b": 0
+            },
+            "2": {
+              "mark": 0,
+              "a": 0,
+              "b": 0
+            }
+          }
+        },
+        {
+          "step": "E5",
+          "T": 1,
+          "P": 2,
+          "memory": {
+            "1": {
+              "mark": 0,
+              "a": 0,
+              "b": 0
+            },
+            "2": {
+              "mark": 0,
+              "a": 0,
+              "b": 0
+            }
+          }
+        },
+        {
+          "step": "E6",
+          "T": 1,
+          "P": 2,
+          "memory": {
+            "1": {
+              "mark": 0,
+              "a": 0,
+              "b": 0
+            },
+            "2": {
+              "mark": 1,
+              "a": 0,
+              "b": 0
+            }
+          },
+          "next_assignment": "ATOM(1) <- 0"
+        }
+      ],
+      "repaired_marks_and_links": {
+        "1": {
+          "mark": 1,
+          "a": 2,
+          "b": 0
+        },
+        "2": {
+          "mark": 1,
+          "a": 0,
+          "b": 0
+        }
+      }
+    },
+    {
+      "name": "right_child",
+      "input_links": {
+        "1": [
+          0,
+          2
+        ],
+        "2": [
+          0,
+          0
+        ]
+      },
+      "literal_error": null,
+      "literal_trace": [
+        {
+          "step": "E4",
+          "T": 0,
+          "P": 1,
+          "memory": {
+            "1": {
+              "mark": 0,
+              "a": 0,
+              "b": 2
+            },
+            "2": {
+              "mark": 0,
+              "a": 0,
+              "b": 0
+            }
+          }
+        },
+        {
+          "step": "E5",
+          "T": 0,
+          "P": 1,
+          "memory": {
+            "1": {
+              "mark": 0,
+              "a": 0,
+              "b": 2
+            },
+            "2": {
+              "mark": 0,
+              "a": 0,
+              "b": 0
+            }
+          }
+        },
+        {
+          "step": "E4",
+          "T": 1,
+          "P": 2,
+          "memory": {
+            "1": {
+              "mark": 1,
+              "a": 0,
+              "b": 0
+            },
+            "2": {
+              "mark": 0,
+              "a": 0,
+              "b": 0
+            }
+          }
+        },
+        {
+          "step": "E5",
+          "T": 1,
+          "P": 2,
+          "memory": {
+            "1": {
+              "mark": 1,
+              "a": 0,
+              "b": 0
+            },
+            "2": {
+              "mark": 0,
+              "a": 0,
+              "b": 0
+            }
+          }
+        },
+        {
+          "step": "E6",
+          "T": 1,
+          "P": 2,
+          "memory": {
+            "1": {
+              "mark": 1,
+              "a": 0,
+              "b": 0
+            },
+            "2": {
+              "mark": 1,
+              "a": 0,
+              "b": 0
+            }
+          }
+        },
+        {
+          "step": "E6",
+          "T": 0,
+          "P": 1,
+          "memory": {
+            "1": {
+              "mark": 1,
+              "a": 0,
+              "b": 2
+            },
+            "2": {
+              "mark": 1,
+              "a": 0,
+              "b": 0
+            }
+          }
+        }
+      ],
+      "repaired_marks_and_links": {
+        "1": {
+          "mark": 1,
+          "a": 0,
+          "b": 2
+        },
+        "2": {
+          "mark": 1,
+          "a": 0,
+          "b": 0
+        }
+      }
+    }
+  ]
+}

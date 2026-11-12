@@ -1,0 +1,79 @@
+{
+  "checked_at": "November 3, 2026: new Partridge entry; earlier source review dates retained",
+  "conclusion": "Yes. TAOCP error hunting has several precedents: manual algorithm reviews, computational checks of individual exercises, and a tool that uses language models to solve and review exercises. In the public sources searched so far, we have not found a complete audit of Volume 4B that combines coverage tracking, historical errata checks, and reproductions of every new finding.",
+  "limitation": "This search does not establish priority. These descriptions are based on the linked primary sources; the other tools and their results have not been independently verified by this review. Each of our findings still requires its own verification and comparison against the errata.",
+  "sources": [
+    {
+      "title": "TAOCP solver",
+      "author": "tamnd · GitHub",
+      "date": "checked November 1, 2026",
+      "category": "AI and solution review",
+      "summary": "The tool loads exercises and surrounding text, generates several independent candidate solutions, and reviews them with two further model judgments. Its README also describes counterexample searches, boundary cases, and iterative repair of unsuccessful solutions.",
+      "relevance": "The closest project found in terms of model use. It focuses on the correctness of generated exercise solutions; agreement between reviewers does not replace a mathematical proof of an error in the book.",
+      "url": "https://github.com/tamnd/taocp-solver"
+    },
+    {
+      "title": "Greedy queens and the golden ratio",
+      "author": "Boon Suan Ho",
+      "date": "September 25, 2026; revised October 5, 2026",
+      "category": "AI research",
+      "summary": "This preprint reports proofs of the conjecture in 4B exercise 37(b) and the tighter bounds in answer 38. The author states that GPT-6 Pro helped find the proof and that Claude assisted with revision. The paper supplies computational verification and companion code.",
+      "relevance": "It provides a newer research status for two exercises in our audit. We have checked the theorem statements and indexing, and archived the paper; we have not independently certified its full computer-assisted proof.",
+      "url": "https://arxiv.org/abs/2609.31336v2"
+    },
+    {
+      "title": "Discovering Errors in Donald Knuth’s TAOCP",
+      "author": "Guillaume Lethuillier",
+      "date": "findings from 2019–2020 · updated March 28, 2026",
+      "category": "Manual audit",
+      "summary": "The author describes reading and manually tracing Dancing Links. Ambiguities and small errors led to correspondence with Knuth; some comments resulted in corrections, while others prompted explanations of the conventions.",
+      "relevance": "A direct precedent involving material now in 4B. It illustrates how a suspicious initialization or phrase can have a valid interpretation. These earlier findings must be distinguished from new ones.",
+      "url": "https://glthr.com/discovering-errors-in-donald-knuths-taocp"
+    },
+    {
+      "title": "A long division story",
+      "author": "Nikola Kaluđerović",
+      "date": "August 13, 2026",
+      "category": "Newly discovered error",
+      "summary": "While implementing long division from Volume 2, the author found a counterexample to an earlier bound on the quotient estimate. The article distinguishes odd number bases, the algorithm wording, and common implementations, and shows the subsequent correction in Knuth’s errata.",
+      "relevance": "A useful model for a concrete finding: precise assumptions, a small counterexample, an explanation of the impact, and a corrected statement. Even long-established parts of the books can still contain errors.",
+      "url": "https://kolja.rs/algorithm-d/"
+    },
+    {
+      "title": "TAOCP Open Problems",
+      "author": "sytelus · GitHub",
+      "date": "status review: August 3, 2026",
+      "category": "Catalog and viewer",
+      "summary": "A small catalog of nine selected exercises rated 50, M50, or HM50. It distinguishes the original rating in the book from the problem’s subsequently established status. It includes a standalone HTML viewer, source links, and review records.",
+      "relevance": "Similar to our findings overview and source tracking. The catalog concerns open mathematical problems, rather than a systematic search for typographical or substantive errors across all exercises.",
+      "url": "https://github.com/sytelus/taocp"
+    },
+    {
+      "title": "Comma-free codes",
+      "author": "Aaron Windsor",
+      "date": "January 20, 2021",
+      "category": "Computational verification",
+      "summary": "Starting from Knuth’s Fascicle 5, this article investigates comma-free codes using SAT. It includes explicit constructions and computations of maximum code sizes for selected word lengths and alphabets.",
+      "relevance": "Directly overlaps with part of our backtracking audit. We use its constructions as external witnesses and check them independently; this alone does not establish the novelty of an error.",
+      "url": "https://blog.aaw.io/2021/01/20/comma-free-codes.html"
+    },
+    {
+      "title": "Knuth’s official errata",
+      "author": "Donald E. Knuth · Stanford",
+      "date": "continuously updated source",
+      "category": "Published corrections",
+      "summary": "The official TAOCP page links to corrections for individual volumes and fascicles. It is the primary record of errors already reported and accepted; the scope of each list depends on the edition and printing.",
+      "relevance": "Before treating a finding as new, we compare it against current and historical errata. Cards in this notebook represent our audit conclusion, not acceptance of a correction by the book’s author.",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/taocp.html"
+    },
+    {
+      "title": "Partridge Puzzle",
+      "author": "Munklar · GitHub",
+      "date": "README dated February 17, 2017; checked November 3, 2026",
+      "category": "Computational verification",
+      "summary": "Public Python and Java solvers, solution files and visualizations for ordinary and reversed Partridge puzzles. The README reports 18,656 square packings for n=8, or 2,332 classes under rotations and reflections.",
+      "relevance": "A direct precedent for the puzzles in 4B exercises 154–158. This is a study of one puzzle family; we have not run its programs or independently verified its archived solution files.",
+      "url": "https://github.com/Munklar/Partridge-Puzzle"
+    }
+  ]
+}

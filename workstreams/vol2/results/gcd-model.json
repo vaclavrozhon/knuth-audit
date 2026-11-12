@@ -1,0 +1,178 @@
+{
+  "algebra": {
+    "status": "passed",
+    "seconds": 2.3760954799945466,
+    "result": {
+      "stirling_orders": 16,
+      "exact_preimage_cases": 4896,
+      "functional_identity": true,
+      "golden_ratio_correct_rhs": "-2*G(1+4*phi)",
+      "golden_ratio_printed_rhs": "2*G(2*phi**2)"
+    }
+  },
+  "psi_coefficients": {
+    "status": "passed",
+    "seconds": 0.3990487979899626,
+    "result": {
+      "exact_coefficients": 64,
+      "literal_sum_checks": [
+        {
+          "n": 1,
+          "coefficient": "1",
+          "tail": "1/8192"
+        },
+        {
+          "n": 2,
+          "coefficient": "1/6",
+          "tail": "12287/201326592"
+        },
+        {
+          "n": 3,
+          "coefficient": "2/21",
+          "tail": "234852353/5772436045824"
+        },
+        {
+          "n": 7,
+          "coefficient": "1754/82677",
+          "tail": "111519971019102234156728351/6396823039249836561739680841728"
+        },
+        {
+          "n": 16,
+          "coefficient": "1067115026724155/244488968463037872",
+          "tail": "1428353830768234390161078175352691123570989531390459650011042448015/187339126980253233737380326608302747036536710984386512495918756434804736"
+        }
+      ],
+      "convention": "Bernoulli B1=+1/2; corrected formula includes(-1)^k"
+    }
+  },
+  "saved_distribution": {
+    "status": "passed",
+    "seconds": 0.010321934008970857,
+    "result": {
+      "reused": "gcd-distribution.json",
+      "two_grid_coefficient_differences": {
+        "1": "1.1677654e-18",
+        "3": "1.0620704e-16",
+        "5": "1.8895265e-15",
+        "7": "1.468196e-14"
+      },
+      "S1": "0.54325829588674532007",
+      "scope": "Floating diagnostics; not a rigorous interval certificate."
+    }
+  },
+  "mellin": {
+    "status": "passed",
+    "seconds": 0.9676584129920229,
+    "result": {
+      "cases": [
+        {
+          "x": "0.14285714285714285714",
+          "error": "4.2168792e-81"
+        },
+        {
+          "x": "0.33333333333333333333",
+          "error": "1.1069308e-80"
+        },
+        {
+          "x": "0.3535533905932737622",
+          "error": "6.3253188e-81"
+        },
+        {
+          "x": "9.5367431640625e-7",
+          "error": "2.1084396e-81"
+        },
+        {
+          "x": "1.0",
+          "error": "0.0"
+        },
+        {
+          "x": "1.4142135623730950488",
+          "error": "6.3253188e-81"
+        },
+        {
+          "x": "3.0",
+          "error": "2.1084396e-81"
+        },
+        {
+          "x": "100.0",
+          "error": "1.5201849e-78"
+        }
+      ],
+      "periodic_absolute_bound": "7.77489251478604221229793055773e-12",
+      "scope": "80-digit floating evaluation; omitted series tails below1e-86 for these inputs."
+    }
+  },
+  "asymptotic": {
+    "status": "passed",
+    "seconds": 1.9683312150009442,
+    "result": {
+      "mellin_rows": [
+        {
+          "n": 1,
+          "tau": "0.845193551147118450134025301632",
+          "omitted_remainder": "1.52807066556315173846837737778",
+          "error": "7.9054974e-65"
+        },
+        {
+          "n": 2,
+          "tau": "0.356792564504111218629756826685",
+          "omitted_remainder": "0.236523489673456328520843843167",
+          "error": "1.9763737e-65"
+        },
+        {
+          "n": 3,
+          "tau": "0.201231200001159730269584758774",
+          "omitted_remainder": "0.062433653536398892653102660123",
+          "error": "-7.178666e-66"
+        },
+        {
+          "n": 8,
+          "tau": "0.0367462280443045663877160612304",
+          "omitted_remainder": "0.00033602534179340530919648063534",
+          "error": "1.235233e-66"
+        },
+        {
+          "n": 32,
+          "tau": "0.00231764083661845906550793888898",
+          "omitted_remainder": "1.26641655490949776285661784769e-14",
+          "error": "7.7202057e-68"
+        },
+        {
+          "n": 100,
+          "tau": "0.000237298913774559059423793248428",
+          "omitted_remainder": "3.72007597602083596295969580386e-44",
+          "error": "7.8432605e-69"
+        }
+      ],
+      "uniform_bound_cases": 30,
+      "nonuniform_diagnostics": [
+        {
+          "n": 1,
+          "ratio_to_printed_error": "537395541.50006"
+        },
+        {
+          "n": 2,
+          "ratio_to_printed_error": "89653418.7778266"
+        },
+        {
+          "n": 3,
+          "ratio_to_printed_error": "29913671.2361905"
+        },
+        {
+          "n": 8,
+          "ratio_to_printed_error": "1878755.70396343"
+        },
+        {
+          "n": 32,
+          "ratio_to_printed_error": "32783.6779067022"
+        },
+        {
+          "n": 100,
+          "ratio_to_printed_error": "1172.16810958878"
+        }
+      ],
+      "exact_correction": "tau(x)=x^-2 Q(log2 x)-sum_{r>=0}4^r/(exp(2^r*x)-1)",
+      "scope": "General proof and bounds in notes/gcd-model.md; numerical checks are diagnostics."
+    }
+  }
+}

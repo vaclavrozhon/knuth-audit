@@ -1,0 +1,161 @@
+{
+  "checked_at_utc": "2026-11-01T22:43:02.669882+00:00",
+  "source_sha256": "86babf8737160f5e6dc890fcda24d20a1b3f21c2249c0aa138a6f1f06903af23",
+  "remote_files": [
+    {
+      "file": "all4b.ps.gz",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/all4b.ps.gz",
+      "sha256": "61c41e43dc337c1259f9ff690bfef718da2a656abdb110c6e7875c11f9566eea",
+      "unchanged": true
+    },
+    {
+      "file": "all4f5.ps.gz",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/all4f5.ps.gz",
+      "sha256": "4c3edee8aa4c92f69bc5eb243ffe03779ae56c1e89a0ad36f85a2ac770fcbb83",
+      "unchanged": true
+    },
+    {
+      "file": "err4b.textxt",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/err4b.textxt",
+      "sha256": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+      "unchanged": true
+    },
+    {
+      "file": "err4f5.textxt",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/err4f5.textxt",
+      "sha256": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b",
+      "unchanged": true
+    }
+  ],
+  "local_files": {
+    "errata/text/all4b.txt": "b1a3425486f403fb4158585d5bbfef0159fd20b12e2e7d47b64e393e1ae8a303",
+    "errata/text/err4b.txt": "2a3450bf3c79d28ad3c2d96468344c96995cf0afb74961f257c311bb9c821e1c",
+    "errata/text/all4f5.txt": "0dd38c4cda72b01baefb797611c9bbab7713ff0c107a1df884afc89fe9bb91c3",
+    "errata/text/err4f5.txt": "5a716c34e2063eb46005593d53e89dbbd912b5677e0a6ab11753f2a5ee38b557",
+    "errata/originals/err4b.textxt": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+    "errata/originals/err4f5.textxt": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b"
+  },
+  "search_hits": [
+    {
+      "file": "errata/text/all4b.txt",
+      "line": 919,
+      "context": "      The onstru tion of answer 399 gives an XC problem with 9186 options, 342 items,\n and 107388 total entries. There are respe tively (720, 684, 744, 1310, 990, 360, 792,\n 708, 568, 1200, 606, 30) options for the pentominoes (O, P, : : : , Z); prepro essing with\n Algorithm P redu es those ounts to (486, 231, 60, 957, 852, 186, 360, 572, 175, 765,\n 477, 22). Overall, the redu ed problem has 5528 options, 324 items, and 62914 total\n entries. The total time to nd the solution and prove its uniqueness was 2.5 G\u0016 for\n Algorithm P and 11 G\u0016 for Algorithm X, with a sear h tree of 829 kilonodes. (Without\n prepro essing, Algorithm X would have taken 27.4 G\u0016, and its sear h tree would have\n had 1.8 meganodes. Could a human being solve this puzzle by hand?)"
+    },
+    {
+      "file": "errata/text/all4b.txt",
+      "line": 1092,
+      "context": "Page 565 at end of answer 84                                                           10 Jan 2024\n There's no known way : : : for all j \u0015 0.\u2104     y           There's no known way to prove even the\n spe ial ases that, say, f \u0003 (j; 2j ) = 6j for all j \u0015 0. There has, however, been a re ent\n spe ta ular breakthrough: As of February 2024, Tomas Roki ki has veri ed equality\n for all ells (i; j ) with i \u0014 6 or j \u0014 6.\u2104\nPage 588 in nal paragraph of answer 205                                                 22 Jul 2024\n delete `Is there a shorter solution?' at the beginning; add this at the end:\n See T. Zhang, T. Peitl, and S. Szeider, arXiv:2405.16149 [ s.DM\u2104 (2024), 25 pages.\nx"
+    },
+    {
+      "file": "errata/text/err4b.txt",
+      "line": 876,
+      "context": "       The onstru tion of answer 399 gives an XC problem with 9186 options, 342 items,\n and 107388 total entries. There are respe tively (720, 684, 744, 1310, 990, 360, 792,\n 708, 568, 1200, 606, 30) options for the pentominoes (O, P, : : : , Z); prepro essing with\n Algorithm P redu es those ounts to (486, 231, 60, 957, 852, 186, 360, 572, 175, 765,\n 477, 22). Overall, the redu ed problem has 5528 options, 324 items, and 62914 total\n entries. The total time to nd the solution and prove its uniqueness was 2.5 G\u0016 for\n Algorithm P and 11 G\u0016 for Algorithm X, with a sear h tree of 829 kilonodes. (Without\n prepro essing, Algorithm X would have taken 27.4 G\u0016, and its sear h tree would have\n had 1.8 meganodes. Could a human being solve this puzzle by hand?)"
+    },
+    {
+      "file": "errata/text/err4b.txt",
+      "line": 1047,
+      "context": "Page 565       at end of answer 84                                                 10 Jan 2024\n    There's no known way : : : for all j \u0015 0.\u2104     y   There's no known way to prove even the\n    spe ial ases that, say, f \u0003 (j; 2j ) = 6j for all j \u0015 0. There has, however, been a re ent\n    spe ta ular breakthrough: As of February 2024, Tomas Roki ki has veri ed equality\n    for all ells (i; j ) with i \u0014 6 or j \u0014 6.\u2104\nPage 588        in nal paragraph of answer 205                                   22 Jul 2024\n    delete `Is there a shorter solution?' at the beginning; add this at the end:\n    See T. Zhang, T. Peitl, and S. Szeider, arXiv:2405.16149 [ s.DM\u2104 (2024), 25 pages.\n"
+    },
+    {
+      "file": "errata/text/all4f5.txt",
+      "line": 137,
+      "context": " Page 14       new rating for exer ise 24                                               27 O t 2020\n    [HM27 \u2104 y [HM28 \u2104\nPage 18 line 3 of exer ise 63                                                          16 Aug 2020\n    those probabilities y those nine probabilities\n Page 19       new rating for exer ise 72                                               21 Jun 2022\n    72.   [M21 \u2104 y x 72. [M23 \u2104\nxPage 23       line 6 of exer ise 112                                                   26 Feb 2020\n    mina2\u0019 a\u0019 = 1 y mina2A a\u0019 = 1\n Page 24   line 4 of exer ise 121                                                      31 May 2021"
+    },
+    {
+      "file": "errata/text/all4f5.txt",
+      "line": 232,
+      "context": "Page 71 line 6                                                                     29 Nov 2019\n amendment of y amendment to\nPage 78 line 6 before (37)                                                         21 Nov 2020\n  onse utive letters. y onse utive letters from O to Z.\nx\nPage 84        line 24                                                              22 Jun 2021\n    ` 4 000 011 111 121 4- ' y ` 4 001 011 111 121 4- '\n\n    6        CHANGES TO V4F5: MATH PRELIMINARIES, BACKTRACKING ET AL"
+    },
+    {
+      "file": "errata/text/all4f5.txt",
+      "line": 1026,
+      "context": "As ents of a permutation, 330, 384.          Fujiyoshi, Kunihiro (              ), 331.\nAse, Mitsuhiro (            ), 346.          Games, 8, 13.\nAsymptoti methods, 11, 12, 16, 26, 53,       Ghost pentominoes, 303.\n      145{146, 226, 231, 232.                Goh, Jun Herng Gabriel (               ), 348.\nAzte diamonds, 153, 155, 290.                Golomb, Solomon Wolf, 35, 52, 77, 78, 82,\nBarequet, Gill (HWXA LIB), 331.                   155, 221, 294, 310, 371.\nBaumert, Leonard Daniel, 52, 221, 371.       Graham, Ronald Lewis (               ), 182,\nBaxter, Glen Earl, 384.                           328, 331, 364, 384.\n   permutations, 27, 330.                    Guibert, Olivier, 331, 384."
+    },
+    {
+      "file": "errata/text/err4f5.txt",
+      "line": 967,
+      "context": "As ents of a permutation, 330, 384.          Fujiyoshi, Kunihiro (              ), 331.\nAse, Mitsuhiro (            ), 346.          Games, 8, 13.\nAsymptoti methods, 11, 12, 16, 26, 53,       Ghost pentominoes, 303.\n      145{146, 226, 231, 232.                Goh, Jun Herng Gabriel (               ), 348.\nAzte diamonds, 153, 155, 290.                Golomb, Solomon Wolf, 35, 52, 77, 78, 82,\nBarequet, Gill (HWXA LIB), 331.                   155, 221, 294, 310, 371.\nBaumert, Leonard Daniel, 52, 221, 371.       Graham, Ronald Lewis (               ), 182,\nBaxter, Glen Earl, 384.                           328, 331, 364, 384.\n   permutations, 27, 330.                    Guibert, Olivier, 331, 384."
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "line": 972,
+      "context": "primary items $\\#uv$, for each edge $u\\adj v$,\nwhere the edges are\n$0\\adj1\\adj2\\adj3\\adj4\\adj0$,\n$0\\adj5$,\n$1\\adj6$,\n$2\\adj7$,\n$3\\adj8$,\n$4\\adj9$, and\n$5\\adj7\\adj9\\adj6\\adj8\\adj5$. Let there be $26\\cdot10$ secondary items"
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "line": 1424,
+      "context": "9186 options, 342 items, and 107388 total entries. There\nare respectively (720, 684, 744, 1310, 990, 360, 792, 708, 568, 1200, 606, 30)\noptions for the pentominoes (O, P, \\dots,~Z); preprocessing with\nAlgorithm~P reduces those counts to\n(486, 231, 60, 957, 852, 186, 360, 572, 175, 765, 477, 22).\nOverall, the reduced problem has 5528 options, 324\nitems, and 62914 total entries. The total time to find the solution and\nprove its uniqueness was 2.5~G$\\mu$ for Algorithm~P and 11~G$\\mu$ for\nAlgorithm~X, with a search tree of 829 kilonodes."
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "line": 1632,
+      "context": "\\amendpage 4b.565 at end of answer 84 (24.01.10)\nThere's no known way \\dots\\ for all $j\\ge0$.] \\becomes\nThere's no known way to prove even the special cases that, say, $f^*(j,2j)=6j$\nfor all $j\\ge0$. There has, however, been a recent spectacular breakthrough:\nAs of February 2024, Tomas Rokicki has verified equality for all\ncells $(i,j)$ with  $i\\le6$ or $j\\le6$.]\n\\endchange\n\n\\amendpage 4b.588 in final paragraph of answer 205 (24.07.22)"
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "line": 2053,
+      "context": "Lubiw, Anna, 648. % 3rd\nMarkov (= Markoff), Andrei Andreevich ({\\rus Markovp2, Andrei0 Andreevich}), the elder, 4, 87--88. % 4th\nMeka, Raghu Vardhan Reddy ({\\tl \\|0128|\\C103\\\\1\\|0128|\\C74\\C135\\ \\|1128|\\C107\\\\2\\|0128|\\raise.1ex\\hbox{\\|0167|}\\C103\\\\1\\|1148|\\C90\\ \\|0141|\\C103\\\\2\\raise.1ex\\hbox{\\|2161|}\\|3131|\\C83\\ \\|0142|\\C101\\|0128|\\C71}), 549. % 3rd\nMikusi\\'nski, Jan Geniusz, Cube, 509. % 4th\nMinimax solutions, 133, 402, 434--435, 476--477. % 3rd\nModel RB, 333--334. % 2nd\nModifications of Algorithm 7\\period2\\period2\\period1C and related algorithms, 126, 127, 132, 133, 138, 183, 422, 442, 445, 463, 542. % 3rd\nMultiple covering with colors, \\see {\\mc MCC} problem. % 3rd\nMycielski, Jan Stanis{\\l}aw, 444. % 4th"
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "line": 2072,
+      "context": "Parent in a tree, 63, 105. % 3rd\nPath length of a tree: this entry leaves the index. % 3rd\nPaturi, Ramamohan ({\\tl\\|2103|\\C129\\|1128|\\C101\\\\1\\C239\\|0128|\\C111\\\\{-2.5}\\|1148|\\C90\\ \\|0129|\\C209\\\\4\\C86\\C136\\\\1\\C221}), 652. % 4th\nPeitl, Tom\\'a\\v{s}, 588. % 3rd\nPi day puzzle, 60, 411, 439. % 3rd\nPosting, Natalia, 422. % 4th\nPrime clauses, 288, 358, 634, 637. % 3rd\nProof logging, \\see Certificates of unsatisfiability. % 3rd\nProgress, display of, 73, 126, 214, 329, 339. % 3rd"
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "line": 2215,
+      "context": "page 10, line -8, well known\npage 22, ex 109, [see ...] -> (see ...)\npage 80, line before (36):  August, -> August\npage 80, comma after last line of (37)\npage 87, footnote, Uppsala: -> Uppsala,\npage 90, in (55) and (57), if -> If\npage 188, line 11, ; thus -> . Thus\npage 188, line after (8), these -> those\npage 203, second grid in bottom row of Life figures was too light"
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "line": 2216,
+      "context": "page 22, ex 109, [see ...] -> (see ...)\npage 80, line before (36):  August, -> August\npage 80, comma after last line of (37)\npage 87, footnote, Uppsala: -> Uppsala,\npage 90, in (55) and (57), if -> If\npage 188, line 11, ; thus -> . Thus\npage 188, line after (8), these -> those\npage 203, second grid in bottom row of Life figures was too light\npage 241, line 19, well-known"
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "line": 266,
+      "context": "\\endchange\n\n\\improvepage 4f5.18 line 3 of exercise 63 (20.08.16)\n\\ninepoint those probabilities \\becomes those nine probabilities\n\\endchange\n\n\\amendpage 4f5.19 new rating for exercise 72 (22.06.21)\n\\ninepoint {\\bf72.}\\enspace[{\\it M21\\/}] \\becomes\\enspace\n  {\\manfnt x}\\kern3pt{\\bf72.}\\enspace[{\\it M23\\/}]"
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "line": 440,
+      "context": "\\endchange\n\n\\improvepage 4f5.78 line 6 before {\\eq(37)} (20.11.21)\nconsecutive letters. \\becomes consecutive letters from O to Z.\n\\endchange\n\n\\bugonpage 4f5.84 line 24 (21.06.22)\n`$@$\\.{4}\\enspace\\.{000}\\enspace\\.{011}\\enspace\\.{111}\\enspace\n\\.{121}\\enspace\\.{4-}$@$' \\becomes"
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "line": 1640,
+      "context": " 0f9c3c003c3e0fb03c007c1f0fc03c00780f0fc03c01f00f07c03c07e00f0380181f0006%\n >%% unicode char \"702c\n\\JC48:48:0:40% J2487\n<000007800000000007c00000000003e00380000003e003e0038003c003f003c003c003f0%\n 01f003c003e001fc03c003e000fe03c007c0007e03c00780003f03c00f00003f03c00e00%\n 001f03c01c00000f03c03800000f03c07000000603c0e000000003c3c000000003c30000%\n 000003c0000c000003c0001effffffffffff7fffffffffff0000f03c00000000f03c0000%\n 0000f03c00000000f03c00000000f03c00000000f03c00000000f03c00000000f03c0000%\n 0000f03c00000000f03c00000001f03c00000001f03c00000001f03c00000001e03c0000%"
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "line": 1700,
+      "context": " fc03c0001fffe0000000fc07800001ffc0000000fc06000000ffc0000000fc040000007f%\n 80000000fc000000007e00000000f8000000007c00000000f8000000002000000000>% uni9648\n\\JC48:48:0:40% J2508\n<000007000000000007800000000003e00000000003e00000030003c00000030003c00000%\n 038003c0000c078003c0001e07ffffffffff0fffffffffff0f000000001f1f000000003e%\n 1f000e00003c1f000f00003c1e000fc000780c000fc000e000000f80000000000f000000%\n 00000f00000c00000f00001effffffffffff7fffffffffff00001e00000000001e000000%\n 00003e30000000003c3c000000003c3f00000000781f00000000781e00000000f01e0000%\n 0001f01c00000001e03c00000003c03800000007c0780000000f80703000000f00f03c00%"
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "line": 1883,
+      "context": " 380f0f878fe0381f060787e031ff043f83e0707e001f81c0603e000f8000c01c00070000%\n >%% unicode char \"85e4\n\\JC48:48:0:40% J2140\n<000003000000000003c00000000003e00000000003e00000000003c00000000003c00000%\n 000003c0000c000003c0001effffffffffff7fffffffffff000003c00000000003c00000%\n 000003c00000000003c00000000003c00000000003c00000000003c00000000003c000c0%\n 000003c001e00ffffffffff007fffffffff0000000000000000000000000000000000000%\n 00000000000000000000000000c00000060000f000000f0000ffffffff8000ffffffff80%\n 00f000000f0000f000000f0000f000000f0000f000000f0000f000000f0000f000000f00%"
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "line": 1915,
+      "context": "), 331. % 3rd\nGames, 8, 13. % 3rd\nGhost pentominoes, 303. % 3rd\nGoh, Jun Herng Gabriel (\\GC76:74:-3:60% G4666\n<00000000000001c000000000f000000007e0000000007c0000000fe0000000007fffffff%\n fff0000000007ffffffffff8000000007ffffffffff8000000007e00000007e000000000%\n 7e00000007e0000000007e00000007e0000000007e00000007e0000000007e00000007e0%\n 000000007e00000007e0000000007e00000007e0000000007e00000007e0000000007e00%\n 000007e0000000007e00000007e0000000007e00000007e0000000007e00000007e00000%"
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "line": 2143,
+      "context": " 0fc00003c0000fc00003c0000fc00003c0000fc00003c00007c00003c000078000018000%\n >%% unicode char \"6d0b\n\\JC45:48:0:40% J2742\n<0000000000600000000000f0fffffffffff87ffffffffff80000000000f00000000000f0%\n 0000000000f00000000000f00000000700f00000000f80f00fffffffc0f007ffffffc0f0%\n 0000000000f00000000000f00000000000f00000000000f00060006000f0007800f000f0%\n 007ffff800f0007ffff800f0007800f000f0007800f000f0007800f000f0007800f000f0%\n 007800f000f0007800f000f0007800f000f0007800f000f0007800f000f0007800f000f0%\n 007800f000f0007800f000f0007ffff000f0007ffff000f0007800f000f00078006000f0%"
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "line": 2410,
+      "context": " 003c3c0f003c00781e0f003c00781e0f003c00f00f0ffffc00f00f0ffffc01e0070f003c%\n 03c0070f003c0780000f003c0f00000600183c0000000000f00000000000>%% uni \"77e5\n\\JC44:46:-4:38% J2442\n<000000001c00000000003e00ffffffffff007fffffffff00000000003c00000000003c00%\n 000000003c00000000003c00000000003c00000000003c00000000003c00000000003c00%\n 000000003c00000000003c00c00000003c00e00000003c00fffffffffc00fffffffffc00%\n f00000003c00f00000003c00f00000003c00f00000001800f00000000000f00000000000%\n f00000000000f00000000000f00000000000f00000000000f00000000000f00000000000%\n f00000000000f00000000000f00000000080f000000000c0f000000000c0f000000000e0%"
+    }
+  ],
+  "page_mapping": "4B79--82 = published Fascicle5 pp77--80 = author pre-fascicle5c pp15--18.",
+  "conclusions": [
+    "F120: no matching correction found for last20x3 cell2j; it should bej2. Both local PDF and authorPS print2j.",
+    "Known21Nov2020 improvement specifies consecutive letters from O to Z; incorporated in local4B80.",
+    "No matching corrections found for placement counts, search-node counts, or figures36--38."
+  ]
+}

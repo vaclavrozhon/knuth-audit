@@ -1,0 +1,29 @@
+{
+  "pid": 644641,
+  "started_at_utc": "2026-11-01T10:21:10.219785+00:00",
+  "status": "pass",
+  "reason": "Remove shared initial arc-consistency pruning from the independent SAT count.",
+  "count": 720,
+  "elapsed_seconds": 5279.365079641342,
+  "finished_at_utc": "2026-11-01T11:49:09.584846+00:00",
+  "independent_sat": {
+    "variables": 191875,
+    "clauses": 901001,
+    "stats": {
+      "restarts": 14852,
+      "conflicts": 1564038,
+      "decisions": 11213282,
+      "propagations": 7430025607
+    },
+    "initial_pruning": "none; all original dictionary alternatives encoded",
+    "support_encoding": true
+  },
+  "solutions_sha256": "06c2836e32b22bd27441dda8494a77c718db882d0f7be1f0aff44778c0278800",
+  "command": [
+    "/tmp/knuth-audit-sat-venv/bin/python",
+    "-u",
+    "audit-2026-10-31/check_anacrostic_full_sat.py"
+  ],
+  "log": "results/anacrostic/full-sat.log",
+  "time_limit_seconds": null
+}

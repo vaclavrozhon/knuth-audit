@@ -1,0 +1,31 @@
+{
+  "checked_at_utc": "2026-11-07T01:32:36.282343+00:00",
+  "scope": "First runs of two four-instruction witnesses for the book register-equivalence claim. No existing SAVE inverse test is rerun.",
+  "runs": {
+    "local": {
+      "expected_exit_status": 0,
+      "exit_status": 0,
+      "instructions": 4,
+      "mems": 20,
+      "oops": 8,
+      "initial_G": 254,
+      "initial_L": 2,
+      "SAVE_destination": 255,
+      "source_sha256": "671c425ed6ce8e0add2c04b915963bdd9b02a442a9ec680f30e75e78bfed1ef0",
+      "object_sha256": "b4114e30d84259e8f5ecba8769bdcff850098502aec0f3b311852264315b5940"
+    },
+    "global": {
+      "expected_exit_status": 5,
+      "exit_status": 5,
+      "instructions": 4,
+      "mems": 20,
+      "oops": 8,
+      "initial_G": 254,
+      "initial_L": 2,
+      "SAVE_destination": 255,
+      "source_sha256": "e8fedc10ced4e587cc6e4fb893e1e89dcbbc580a15f28c1f515ba9af2cef8fb8",
+      "object_sha256": "a03ba06a799b74894e33ef315928b4d944ddd5c8c7bd45082c801853fca8705c"
+    }
+  },
+  "elapsed_seconds": 1.4354847919894382
+}

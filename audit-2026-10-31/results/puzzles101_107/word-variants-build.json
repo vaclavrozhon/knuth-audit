@@ -1,0 +1,82 @@
+{
+  "source_hashes": {
+    "dlx2.w": "02333262bfc49008cb132ee68efbad72157fec3722ea7b7c004e67dd98b5bcdb",
+    "gb_flip.w": "8e4faad04360d1ca35fad7c6c49281b63d3074f9f329444031f9ab09fd94611d",
+    "gb_flip.ch": "40f772938571cddea4929a85677f5c1ad70c1a9076e101e7e0ece1f7ed24ab20",
+    "boilerplate.w": "ef08ba0e208b7a3e8eac07f1fa285f4c06a5848d6dcf1d808e7babbfb42156a8",
+    "dlx3.w": "0acc801044d60d9d951663e9270c420b8b43c40ad6f7c2819c65bd5dff9820b7",
+    "dlx2-sharp.ch": "b7672cc88bd29c8f9bbe8e532a644b3f9deca462e9bd0bdcfea36e3d127f9bb1"
+  },
+  "commands": [
+    {
+      "command": [
+        "ctangle",
+        "gb_flip.w",
+        "gb_flip.ch"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "ctangle",
+        "dlx3.w"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "ctangle",
+        "dlx2.w",
+        "dlx2-sharp.ch",
+        "dlx2-sharp.c"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "gcc",
+        "-O2",
+        "-Wno-implicit-int",
+        "-Wno-implicit-function-declaration",
+        "dlx3.c",
+        "gb_flip.c",
+        "-o",
+        "dlx3"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "gcc",
+        "-O2",
+        "-Wno-implicit-int",
+        "-Wno-implicit-function-declaration",
+        "dlx2-sharp.c",
+        "gb_flip.c",
+        "-o",
+        "dlx2-sharp"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "binaries": {
+    "dlx3": {
+      "path": "/tmp/knuth-vol4b-wordvariants-1ywhz35c/dlx3",
+      "sha256": "a600ad6eff931d6e9058805f18b700a501f244f3d4e6f49b5ac7bbfbba0cc704"
+    },
+    "dlx2-sharp": {
+      "path": "/tmp/knuth-vol4b-wordvariants-1ywhz35c/dlx2-sharp",
+      "sha256": "778b5d4e8258882a0c61b3dfe94644496874b92256410e0e0753eec4da2acea8"
+    }
+  }
+}

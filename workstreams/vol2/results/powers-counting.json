@@ -1,0 +1,65 @@
+{
+  "blocks": {
+    "interval": {
+      "status": "passed",
+      "seconds": 0.8677189500303939,
+      "result": {
+        "families": 32768,
+        "intervals": 15,
+        "retained_size_histogram": {
+          "0": 1,
+          "1": 17525,
+          "2": 13442,
+          "3": 1722,
+          "4": 77,
+          "5": 1
+        }
+      }
+    },
+    "chain": {
+      "status": "passed",
+      "seconds": 6.832633503014222,
+      "result": {
+        "chains_by_length": {
+          "0": 1,
+          "1": 1,
+          "2": 2,
+          "3": 6,
+          "4": 25,
+          "5": 135,
+          "6": 913,
+          "7": 7499,
+          "8": 73191
+        },
+        "chains": 81773,
+        "rational_delta_checks": 245319,
+        "ministep_count_histogram": {
+          "0": 42005,
+          "1": 63762,
+          "2": 61657,
+          "3": 45139,
+          "4": 24397,
+          "5": 7639,
+          "6": 720
+        },
+        "beta_bounds": {
+          "9/8": 24,
+          "5/4": 10,
+          "4/3": 7
+        },
+        "strict_count_counterexample": {
+          "chain": [
+            1,
+            2,
+            4
+          ],
+          "r": 2,
+          "t": 0,
+          "actual_empty_pair_choices": 1,
+          "printed_binomial": 1
+        }
+      }
+    }
+  },
+  "updated_at_utc": "2026-11-04T05:14:05.638458+00:00"
+}

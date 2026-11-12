@@ -1,0 +1,126 @@
+{
+  "book_example": {
+    "E": 7128865274665093053166384155714272920668358861885893040452001991154324087581111499476444151913871586911717817019575256512980264067621009251465871004305131072686268143200196609974862745937188343705015434452523739745298963145674982128236956232823794011068809262317708861979540791247754558049326475737829923352751796735248042463638051137034331214781746850878453485678021888075373249921995672056932029099390891687487672697950931603520000,
+    "E_bits": 1438,
+    "stage1_primes": 168,
+    "independent_state_checks": 672,
+    "examples": [
+      {
+        "N": 26328072917139296674479506920917608079723773850137277813577744385,
+        "base": 2,
+        "stage1_residue": 1,
+        "stage1_gcd": 26328072917139296674479506920917608079723773850137277813577744385,
+        "stage2_q": 41231,
+        "stage2_gcd": 26328072917139296674479506920917608079723773850137277813577744385
+      },
+      {
+        "N": 26328072917139296674479506920917608079723773850137277813577744385,
+        "base": 3,
+        "stage1_residue": 3693032723865455240471466715390352051865046192842070447528535961,
+        "stage1_gcd": 3614778865,
+        "stage2_q": 41231,
+        "stage2_gcd": 85050574322280713284865
+      },
+      {
+        "N": 192343993140277293096491917,
+        "base": 2,
+        "stage1_residue": 1,
+        "stage1_gcd": 192343993140277293096491917,
+        "stage2_q": 41231,
+        "stage2_gcd": 192343993140277293096491917
+      },
+      {
+        "N": 192343993140277293096491917,
+        "base": 3,
+        "stage1_residue": 73685933081392488107523778,
+        "stage1_gcd": 1,
+        "stage2_q": 41231,
+        "stage2_gcd": 23528569104401
+      }
+    ],
+    "base2_n6_gcd_period": {
+      "1": 427,
+      "192343993140277293096491917": 1
+    },
+    "stage2_target_primes": 9424,
+    "wheel_size": 26416,
+    "six_wheel_size": 32997,
+    "batch_identity_checks": 64192,
+    "prime_certificates_reused": "results/primality-certificates.json",
+    "seconds": 1.3143194669974037,
+    "passed": true
+  },
+  "lucas_identities": {
+    "sequence_checks": 37375,
+    "composition_checks": 46575,
+    "discriminant_cases": 1058,
+    "deterministic_product_cases": 106,
+    "seconds": 0.5288840249995701,
+    "passed": true
+  },
+  "pminus_probability": {
+    "instances": 450,
+    "uniform_unit_samples": 94280,
+    "minimum_success": "1/2",
+    "seconds": 0.2548828209983185,
+    "passed": true
+  },
+  "pplus_probability": {
+    "norm_unit_samples": 389344,
+    "trace_identity_checks": 85060,
+    "cases": [
+      {
+        "p": 3,
+        "r": 5,
+        "uniform_delta_count": 8,
+        "success_probabilities": [
+          "25/32",
+          "25/32",
+          "25/32"
+        ]
+      },
+      {
+        "p": 3,
+        "r": 7,
+        "uniform_delta_count": 12,
+        "success_probabilities": [
+          "55/64",
+          "55/64",
+          "55/64"
+        ]
+      },
+      {
+        "p": 5,
+        "r": 7,
+        "uniform_delta_count": 24,
+        "success_probabilities": [
+          "43/64",
+          "47/64",
+          "43/64"
+        ]
+      },
+      {
+        "p": 5,
+        "r": 11,
+        "uniform_delta_count": 40,
+        "success_probabilities": [
+          "113/160",
+          "129/160",
+          "21/32"
+        ]
+      },
+      {
+        "p": 7,
+        "r": 11,
+        "uniform_delta_count": 60,
+        "success_probabilities": [
+          "2069/2880",
+          "2069/2880",
+          "457/576"
+        ]
+      }
+    ],
+    "seconds": 1.6083644889877178,
+    "passed": true
+  }
+}

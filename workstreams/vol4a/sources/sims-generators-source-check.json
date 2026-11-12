@@ -1,0 +1,35 @@
+{
+  "checked_at_utc": "2026-11-11T19:06:48.986443+00:00",
+  "edition": "Volume 4A, first edition, first printing, 2011; inventory/books.json",
+  "originals": [
+    "images/bookwise-p710.png",
+    "images/bookwise-p329.png",
+    "images/bookwise-p335.png"
+  ],
+  "errata": [
+    "errata/text/all4a-pre.txt",
+    "errata/text/all4a.txt",
+    "errata/text/err4a.txt",
+    "errata/text/all4f2.txt",
+    "errata/text/err4f2.txt"
+  ],
+  "pages_screened": "4A main 326–336, exercises 347–348, answers 708–711; Fascicle 2 corresponding 46–56,67–68,106–110",
+  "retrieval_manifests": [
+    "integration/2026-11-10-bookwise/errata/vol4a-manifest.json",
+    "integration/2026-11-10-bookwise/errata/vol4a-fasc2-manifest.json"
+  ],
+  "public_queries": [
+    "Knuth \"Gray code can be used with any Sims table\"",
+    "Knuth \"710\" \"52\" \"Sims\" errata",
+    "\"Sims table\" \"Gray code\" conjugate",
+    "\"Sims table\" \"conjugation\""
+  ],
+  "public_result": "No explicit matching correction found; an earlier Knuth draft has the same wording. Wilson, Random and exhaustive generation of permutations and cycles, page 4, independently includes conjugation for a middle-factor update; it does not identify itself as a Knuth erratum. Absolute novelty is not established.",
+  "primary_source": [
+    "sources/wilson-random-exhaustive-permutations.pdf",
+    "sources/wilson-random-exhaustive-permutations.provenance.json"
+  ],
+  "findings": [
+    "V4A-F0060"
+  ]
+}

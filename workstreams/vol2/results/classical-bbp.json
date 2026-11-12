@@ -1,0 +1,5006 @@
+{
+  "identities": {
+    "odd_generating_functions": 4,
+    "S_identities": 8,
+    "root_filter_coefficients": [
+      "2",
+      "-2 + 2*I",
+      "0",
+      "0",
+      "2",
+      "0",
+      "0",
+      "-2 - 2*I"
+    ],
+    "printed_expression": "(pi/2-ln(2))*(1+3i)",
+    "corrected_expression": "pi",
+    "independent_integral_decomposition": true,
+    "elapsed_seconds": 5.955238742986694
+  },
+  "bits": {
+    "ordinary_cases": 664,
+    "max_n": 10000,
+    "oracle": {
+      "precision": 10064,
+      "atan5_terms": 2165,
+      "atan239_terms": 636,
+      "interval_width_ticks": 37204
+    },
+    "max_m": 32,
+    "adaptive_cases": 18,
+    "forced_low_precision_cases": 64,
+    "forced": [
+      {
+        "n": 1,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 2,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 3,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 4,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 5,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 6,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 7,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 8,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 9,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 10,
+        "m": 24,
+        "attempts": 4
+      },
+      {
+        "n": 11,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 12,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 13,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 14,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 15,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 16,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 17,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 18,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 19,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 20,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 21,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 22,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 23,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 24,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 25,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 26,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 27,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 28,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 29,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 30,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 31,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 32,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 33,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 34,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 35,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 36,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 37,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 38,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 39,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 40,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 41,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 42,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 43,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 44,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 45,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 46,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 47,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 48,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 49,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 50,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 51,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 52,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 53,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 54,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 55,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 56,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 57,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 58,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 59,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 60,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 61,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 62,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 63,
+        "m": 12,
+        "attempts": 3
+      },
+      {
+        "n": 64,
+        "m": 12,
+        "attempts": 3
+      }
+    ],
+    "cases": [
+      {
+        "n": 1,
+        "bit": 0,
+        "m": 8,
+        "attempts": 2,
+        "width_ticks": 42
+      },
+      {
+        "n": 2,
+        "bit": 0,
+        "m": 8,
+        "attempts": 2,
+        "width_ticks": 42
+      },
+      {
+        "n": 3,
+        "bit": 1,
+        "m": 16,
+        "attempts": 3,
+        "width_ticks": 58
+      },
+      {
+        "n": 4,
+        "bit": 0,
+        "m": 12,
+        "attempts": 2,
+        "width_ticks": 50
+      },
+      {
+        "n": 5,
+        "bit": 0,
+        "m": 12,
+        "attempts": 2,
+        "width_ticks": 58
+      },
+      {
+        "n": 6,
+        "bit": 1,
+        "m": 12,
+        "attempts": 2,
+        "width_ticks": 58
+      },
+      {
+        "n": 7,
+        "bit": 0,
+        "m": 12,
+        "attempts": 2,
+        "width_ticks": 58
+      },
+      {
+        "n": 8,
+        "bit": 0,
+        "m": 8,
+        "attempts": 1,
+        "width_ticks": 50
+      },
+      {
+        "n": 9,
+        "bit": 0,
+        "m": 8,
+        "attempts": 1,
+        "width_ticks": 58
+      },
+      {
+        "n": 10,
+        "bit": 0,
+        "m": 16,
+        "attempts": 2,
+        "width_ticks": 74
+      },
+      {
+        "n": 11,
+        "bit": 1,
+        "m": 16,
+        "attempts": 2,
+        "width_ticks": 74
+      },
+      {
+        "n": 12,
+        "bit": 1,
+        "m": 16,
+        "attempts": 2,
+        "width_ticks": 74
+      },
+      {
+        "n": 13,
+        "bit": 1,
+        "m": 16,
+        "attempts": 2,
+        "width_ticks": 82
+      },
+      {
+        "n": 14,
+        "bit": 1,
+        "m": 16,
+        "attempts": 2,
+        "width_ticks": 82
+      },
+      {
+        "n": 15,
+        "bit": 1,
+        "m": 8,
+        "attempts": 1,
+        "width_ticks": 66
+      },
+      {
+        "n": 16,
+        "bit": 1,
+        "m": 10,
+        "attempts": 1,
+        "width_ticks": 74
+      },
+      {
+        "n": 17,
+        "bit": 0,
+        "m": 10,
+        "attempts": 1,
+        "width_ticks": 82
+      },
+      {
+        "n": 18,
+        "bit": 1,
+        "m": 10,
+        "attempts": 1,
+        "width_ticks": 82
+      },
+      {
+        "n": 19,
+        "bit": 1,
+        "m": 10,
+        "attempts": 1,
+        "width_ticks": 82
+      },
+      {
+        "n": 20,
+        "bit": 0,
+        "m": 10,
+        "attempts": 1,
+        "width_ticks": 82
+      },
+      {
+        "n": 21,
+        "bit": 1,
+        "m": 10,
+        "attempts": 1,
+        "width_ticks": 90
+      },
+      {
+        "n": 22,
+        "bit": 0,
+        "m": 10,
+        "attempts": 1,
+        "width_ticks": 90
+      },
+      {
+        "n": 23,
+        "bit": 1,
+        "m": 10,
+        "attempts": 1,
+        "width_ticks": 90
+      },
+      {
+        "n": 24,
+        "bit": 0,
+        "m": 10,
+        "attempts": 1,
+        "width_ticks": 90
+      },
+      {
+        "n": 25,
+        "bit": 1,
+        "m": 20,
+        "attempts": 2,
+        "width_ticks": 114
+      },
+      {
+        "n": 26,
+        "bit": 0,
+        "m": 10,
+        "attempts": 1,
+        "width_ticks": 98
+      },
+      {
+        "n": 27,
+        "bit": 0,
+        "m": 10,
+        "attempts": 1,
+        "width_ticks": 98
+      },
+      {
+        "n": 28,
+        "bit": 0,
+        "m": 10,
+        "attempts": 1,
+        "width_ticks": 98
+      },
+      {
+        "n": 29,
+        "bit": 1,
+        "m": 20,
+        "attempts": 2,
+        "width_ticks": 122
+      },
+      {
+        "n": 30,
+        "bit": 0,
+        "m": 10,
+        "attempts": 1,
+        "width_ticks": 106
+      },
+      {
+        "n": 31,
+        "bit": 0,
+        "m": 10,
+        "attempts": 1,
+        "width_ticks": 106
+      },
+      {
+        "n": 32,
+        "bit": 0,
+        "m": 12,
+        "attempts": 1,
+        "width_ticks": 106
+      },
+      {
+        "n": 33,
+        "bit": 1,
+        "m": 12,
+        "attempts": 1,
+        "width_ticks": 114
+      },
+      {
+        "n": 34,
+        "bit": 0,
+        "m": 12,
+        "attempts": 1,
+        "width_ticks": 114
+      },
+      {
+        "n": 35,
+        "bit": 0,
+        "m": 12,
+        "attempts": 1,
+        "width_ticks": 114
+      },
+      {
+        "n": 36,
+        "bit": 0,
+        "m": 12,
+        "attempts": 1,
+        "width_ticks": 114
+      },
+      {
+        "n": 37,
+        "bit": 0,
+        "m": 12,
+        "attempts": 1,
+        "width_ticks": 122
+      },
+      {
+        "n": 38,
+        "bit": 1,
+        "m": 12,
+        "attempts": 1,
+        "width_ticks": 122
+      },
+      {
+        "n": 39,
+        "bit": 0,
+        "m": 12,
+        "attempts": 1,
+        "width_ticks": 122
+      },
+      {
+        "n": 40,
+        "bit": 1,
+        "m": 12,
+        "attempts": 1,
+        "width_ticks": 122
+      },
+      {
+        "n": 41,
+        "bit": 1,
+        "m": 12,
+        "attempts": 1,
+        "width_ticks": 130
+      },
+      {
+        "n": 42,
+        "bit": 0,
+        "m": 12,
+        "attempts": 1,
+        "width_ticks": 130
+      },
+      {
+        "n": 43,
+        "bit": 1,
+        "m": 12,
+        "attempts": 1,
+        "width_ticks": 130
+      },
+      {
+        "n": 44,
+        "bit": 0,
+        "m": 12,
+        "attempts": 1,
+        "width_ticks": 130
+      },
+      {
+        "n": 45,
+        "bit": 0,
+        "m": 12,
+        "attempts": 1,
+        "width_ticks": 138
+      },
+      {
+        "n": 46,
+        "bit": 0,
+        "m": 12,
+        "attempts": 1,
+        "width_ticks": 138
+      },
+      {
+        "n": 47,
+        "bit": 1,
+        "m": 12,
+        "attempts": 1,
+        "width_ticks": 138
+      },
+      {
+        "n": 48,
+        "bit": 1,
+        "m": 12,
+        "attempts": 1,
+        "width_ticks": 138
+      },
+      {
+        "n": 49,
+        "bit": 0,
+        "m": 12,
+        "attempts": 1,
+        "width_ticks": 146
+      },
+      {
+        "n": 50,
+        "bit": 0,
+        "m": 12,
+        "attempts": 1,
+        "width_ticks": 146
+      },
+      {
+        "n": 51,
+        "bit": 0,
+        "m": 12,
+        "attempts": 1,
+        "width_ticks": 146
+      },
+      {
+        "n": 52,
+        "bit": 0,
+        "m": 12,
+        "attempts": 1,
+        "width_ticks": 146
+      },
+      {
+        "n": 53,
+        "bit": 1,
+        "m": 12,
+        "attempts": 1,
+        "width_ticks": 154
+      },
+      {
+        "n": 54,
+        "bit": 0,
+        "m": 12,
+        "attempts": 1,
+        "width_ticks": 154
+      },
+      {
+        "n": 55,
+        "bit": 0,
+        "m": 12,
+        "attempts": 1,
+        "width_ticks": 154
+      },
+      {
+        "n": 56,
+        "bit": 0,
+        "m": 12,
+        "attempts": 1,
+        "width_ticks": 154
+      },
+      {
+        "n": 57,
+        "bit": 1,
+        "m": 12,
+        "attempts": 1,
+        "width_ticks": 162
+      },
+      {
+        "n": 58,
+        "bit": 1,
+        "m": 12,
+        "attempts": 1,
+        "width_ticks": 162
+      },
+      {
+        "n": 59,
+        "bit": 0,
+        "m": 12,
+        "attempts": 1,
+        "width_ticks": 162
+      },
+      {
+        "n": 60,
+        "bit": 1,
+        "m": 12,
+        "attempts": 1,
+        "width_ticks": 162
+      },
+      {
+        "n": 61,
+        "bit": 0,
+        "m": 12,
+        "attempts": 1,
+        "width_ticks": 170
+      },
+      {
+        "n": 62,
+        "bit": 0,
+        "m": 12,
+        "attempts": 1,
+        "width_ticks": 170
+      },
+      {
+        "n": 63,
+        "bit": 1,
+        "m": 12,
+        "attempts": 1,
+        "width_ticks": 170
+      },
+      {
+        "n": 64,
+        "bit": 1,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 178
+      },
+      {
+        "n": 65,
+        "bit": 0,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 186
+      },
+      {
+        "n": 66,
+        "bit": 0,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 186
+      },
+      {
+        "n": 67,
+        "bit": 0,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 186
+      },
+      {
+        "n": 68,
+        "bit": 1,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 186
+      },
+      {
+        "n": 69,
+        "bit": 0,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 194
+      },
+      {
+        "n": 70,
+        "bit": 0,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 194
+      },
+      {
+        "n": 71,
+        "bit": 1,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 194
+      },
+      {
+        "n": 72,
+        "bit": 1,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 194
+      },
+      {
+        "n": 73,
+        "bit": 0,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 202
+      },
+      {
+        "n": 74,
+        "bit": 0,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 202
+      },
+      {
+        "n": 75,
+        "bit": 0,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 202
+      },
+      {
+        "n": 76,
+        "bit": 1,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 202
+      },
+      {
+        "n": 77,
+        "bit": 1,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 210
+      },
+      {
+        "n": 78,
+        "bit": 0,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 210
+      },
+      {
+        "n": 79,
+        "bit": 0,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 210
+      },
+      {
+        "n": 80,
+        "bit": 1,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 210
+      },
+      {
+        "n": 81,
+        "bit": 1,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 218
+      },
+      {
+        "n": 82,
+        "bit": 0,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 218
+      },
+      {
+        "n": 83,
+        "bit": 0,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 218
+      },
+      {
+        "n": 84,
+        "bit": 0,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 218
+      },
+      {
+        "n": 85,
+        "bit": 1,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 226
+      },
+      {
+        "n": 86,
+        "bit": 0,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 226
+      },
+      {
+        "n": 87,
+        "bit": 1,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 226
+      },
+      {
+        "n": 88,
+        "bit": 0,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 226
+      },
+      {
+        "n": 89,
+        "bit": 0,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 234
+      },
+      {
+        "n": 90,
+        "bit": 0,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 234
+      },
+      {
+        "n": 91,
+        "bit": 1,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 234
+      },
+      {
+        "n": 92,
+        "bit": 0,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 234
+      },
+      {
+        "n": 93,
+        "bit": 1,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 242
+      },
+      {
+        "n": 94,
+        "bit": 1,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 242
+      },
+      {
+        "n": 95,
+        "bit": 1,
+        "m": 28,
+        "attempts": 2,
+        "width_ticks": 266
+      },
+      {
+        "n": 96,
+        "bit": 0,
+        "m": 28,
+        "attempts": 2,
+        "width_ticks": 266
+      },
+      {
+        "n": 97,
+        "bit": 0,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 250
+      },
+      {
+        "n": 98,
+        "bit": 0,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 250
+      },
+      {
+        "n": 99,
+        "bit": 0,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 250
+      },
+      {
+        "n": 100,
+        "bit": 0,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 250
+      },
+      {
+        "n": 101,
+        "bit": 0,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 258
+      },
+      {
+        "n": 102,
+        "bit": 0,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 258
+      },
+      {
+        "n": 103,
+        "bit": 1,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 258
+      },
+      {
+        "n": 104,
+        "bit": 1,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 258
+      },
+      {
+        "n": 105,
+        "bit": 0,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 266
+      },
+      {
+        "n": 106,
+        "bit": 1,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 266
+      },
+      {
+        "n": 107,
+        "bit": 1,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 266
+      },
+      {
+        "n": 108,
+        "bit": 1,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 266
+      },
+      {
+        "n": 109,
+        "bit": 0,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 274
+      },
+      {
+        "n": 110,
+        "bit": 0,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 274
+      },
+      {
+        "n": 111,
+        "bit": 0,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 274
+      },
+      {
+        "n": 112,
+        "bit": 0,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 274
+      },
+      {
+        "n": 113,
+        "bit": 0,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 282
+      },
+      {
+        "n": 114,
+        "bit": 1,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 282
+      },
+      {
+        "n": 115,
+        "bit": 1,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 282
+      },
+      {
+        "n": 116,
+        "bit": 1,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 282
+      },
+      {
+        "n": 117,
+        "bit": 0,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 290
+      },
+      {
+        "n": 118,
+        "bit": 0,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 290
+      },
+      {
+        "n": 119,
+        "bit": 1,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 290
+      },
+      {
+        "n": 120,
+        "bit": 1,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 290
+      },
+      {
+        "n": 121,
+        "bit": 0,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 298
+      },
+      {
+        "n": 122,
+        "bit": 1,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 298
+      },
+      {
+        "n": 123,
+        "bit": 0,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 298
+      },
+      {
+        "n": 124,
+        "bit": 0,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 298
+      },
+      {
+        "n": 125,
+        "bit": 0,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 306
+      },
+      {
+        "n": 126,
+        "bit": 1,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 306
+      },
+      {
+        "n": 127,
+        "bit": 0,
+        "m": 14,
+        "attempts": 1,
+        "width_ticks": 306
+      },
+      {
+        "n": 128,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 306
+      },
+      {
+        "n": 129,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 314
+      },
+      {
+        "n": 130,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 314
+      },
+      {
+        "n": 131,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 314
+      },
+      {
+        "n": 132,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 314
+      },
+      {
+        "n": 133,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 322
+      },
+      {
+        "n": 134,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 322
+      },
+      {
+        "n": 135,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 322
+      },
+      {
+        "n": 136,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 322
+      },
+      {
+        "n": 137,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 330
+      },
+      {
+        "n": 138,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 330
+      },
+      {
+        "n": 139,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 330
+      },
+      {
+        "n": 140,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 330
+      },
+      {
+        "n": 141,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 338
+      },
+      {
+        "n": 142,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 338
+      },
+      {
+        "n": 143,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 338
+      },
+      {
+        "n": 144,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 338
+      },
+      {
+        "n": 145,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 346
+      },
+      {
+        "n": 146,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 346
+      },
+      {
+        "n": 147,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 346
+      },
+      {
+        "n": 148,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 346
+      },
+      {
+        "n": 149,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 354
+      },
+      {
+        "n": 150,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 354
+      },
+      {
+        "n": 151,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 354
+      },
+      {
+        "n": 152,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 354
+      },
+      {
+        "n": 153,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 362
+      },
+      {
+        "n": 154,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 362
+      },
+      {
+        "n": 155,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 362
+      },
+      {
+        "n": 156,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 362
+      },
+      {
+        "n": 157,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 370
+      },
+      {
+        "n": 158,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 370
+      },
+      {
+        "n": 159,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 370
+      },
+      {
+        "n": 160,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 370
+      },
+      {
+        "n": 161,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 378
+      },
+      {
+        "n": 162,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 378
+      },
+      {
+        "n": 163,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 378
+      },
+      {
+        "n": 164,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 378
+      },
+      {
+        "n": 165,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 386
+      },
+      {
+        "n": 166,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 386
+      },
+      {
+        "n": 167,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 386
+      },
+      {
+        "n": 168,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 386
+      },
+      {
+        "n": 169,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 394
+      },
+      {
+        "n": 170,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 394
+      },
+      {
+        "n": 171,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 394
+      },
+      {
+        "n": 172,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 394
+      },
+      {
+        "n": 173,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 402
+      },
+      {
+        "n": 174,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 402
+      },
+      {
+        "n": 175,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 402
+      },
+      {
+        "n": 176,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 402
+      },
+      {
+        "n": 177,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 410
+      },
+      {
+        "n": 178,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 410
+      },
+      {
+        "n": 179,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 410
+      },
+      {
+        "n": 180,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 410
+      },
+      {
+        "n": 181,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 418
+      },
+      {
+        "n": 182,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 418
+      },
+      {
+        "n": 183,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 418
+      },
+      {
+        "n": 184,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 418
+      },
+      {
+        "n": 185,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 426
+      },
+      {
+        "n": 186,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 426
+      },
+      {
+        "n": 187,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 426
+      },
+      {
+        "n": 188,
+        "bit": 1,
+        "m": 32,
+        "attempts": 2,
+        "width_ticks": 458
+      },
+      {
+        "n": 189,
+        "bit": 0,
+        "m": 32,
+        "attempts": 2,
+        "width_ticks": 466
+      },
+      {
+        "n": 190,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 434
+      },
+      {
+        "n": 191,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 434
+      },
+      {
+        "n": 192,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 434
+      },
+      {
+        "n": 193,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 442
+      },
+      {
+        "n": 194,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 442
+      },
+      {
+        "n": 195,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 442
+      },
+      {
+        "n": 196,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 442
+      },
+      {
+        "n": 197,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 450
+      },
+      {
+        "n": 198,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 450
+      },
+      {
+        "n": 199,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 450
+      },
+      {
+        "n": 200,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 450
+      },
+      {
+        "n": 201,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 458
+      },
+      {
+        "n": 202,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 458
+      },
+      {
+        "n": 203,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 458
+      },
+      {
+        "n": 204,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 458
+      },
+      {
+        "n": 205,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 466
+      },
+      {
+        "n": 206,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 466
+      },
+      {
+        "n": 207,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 466
+      },
+      {
+        "n": 208,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 466
+      },
+      {
+        "n": 209,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 474
+      },
+      {
+        "n": 210,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 474
+      },
+      {
+        "n": 211,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 474
+      },
+      {
+        "n": 212,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 474
+      },
+      {
+        "n": 213,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 482
+      },
+      {
+        "n": 214,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 482
+      },
+      {
+        "n": 215,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 482
+      },
+      {
+        "n": 216,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 482
+      },
+      {
+        "n": 217,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 490
+      },
+      {
+        "n": 218,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 490
+      },
+      {
+        "n": 219,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 490
+      },
+      {
+        "n": 220,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 490
+      },
+      {
+        "n": 221,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 498
+      },
+      {
+        "n": 222,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 498
+      },
+      {
+        "n": 223,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 498
+      },
+      {
+        "n": 224,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 498
+      },
+      {
+        "n": 225,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 506
+      },
+      {
+        "n": 226,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 506
+      },
+      {
+        "n": 227,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 506
+      },
+      {
+        "n": 228,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 506
+      },
+      {
+        "n": 229,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 514
+      },
+      {
+        "n": 230,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 514
+      },
+      {
+        "n": 231,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 514
+      },
+      {
+        "n": 232,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 514
+      },
+      {
+        "n": 233,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 522
+      },
+      {
+        "n": 234,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 522
+      },
+      {
+        "n": 235,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 522
+      },
+      {
+        "n": 236,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 522
+      },
+      {
+        "n": 237,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 530
+      },
+      {
+        "n": 238,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 530
+      },
+      {
+        "n": 239,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 530
+      },
+      {
+        "n": 240,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 530
+      },
+      {
+        "n": 241,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 538
+      },
+      {
+        "n": 242,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 538
+      },
+      {
+        "n": 243,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 538
+      },
+      {
+        "n": 244,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 538
+      },
+      {
+        "n": 245,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 546
+      },
+      {
+        "n": 246,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 546
+      },
+      {
+        "n": 247,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 546
+      },
+      {
+        "n": 248,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 546
+      },
+      {
+        "n": 249,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 554
+      },
+      {
+        "n": 250,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 554
+      },
+      {
+        "n": 251,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 554
+      },
+      {
+        "n": 252,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 554
+      },
+      {
+        "n": 253,
+        "bit": 1,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 562
+      },
+      {
+        "n": 254,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 562
+      },
+      {
+        "n": 255,
+        "bit": 0,
+        "m": 16,
+        "attempts": 1,
+        "width_ticks": 562
+      },
+      {
+        "n": 256,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 570
+      },
+      {
+        "n": 257,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 578
+      },
+      {
+        "n": 258,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 578
+      },
+      {
+        "n": 259,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 578
+      },
+      {
+        "n": 260,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 578
+      },
+      {
+        "n": 261,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 586
+      },
+      {
+        "n": 262,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 586
+      },
+      {
+        "n": 263,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 586
+      },
+      {
+        "n": 264,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 586
+      },
+      {
+        "n": 265,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 594
+      },
+      {
+        "n": 266,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 594
+      },
+      {
+        "n": 267,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 594
+      },
+      {
+        "n": 268,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 594
+      },
+      {
+        "n": 269,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 602
+      },
+      {
+        "n": 270,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 602
+      },
+      {
+        "n": 271,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 602
+      },
+      {
+        "n": 272,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 602
+      },
+      {
+        "n": 273,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 610
+      },
+      {
+        "n": 274,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 610
+      },
+      {
+        "n": 275,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 610
+      },
+      {
+        "n": 276,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 610
+      },
+      {
+        "n": 277,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 618
+      },
+      {
+        "n": 278,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 618
+      },
+      {
+        "n": 279,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 618
+      },
+      {
+        "n": 280,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 618
+      },
+      {
+        "n": 281,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 626
+      },
+      {
+        "n": 282,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 626
+      },
+      {
+        "n": 283,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 626
+      },
+      {
+        "n": 284,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 626
+      },
+      {
+        "n": 285,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 634
+      },
+      {
+        "n": 286,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 634
+      },
+      {
+        "n": 287,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 634
+      },
+      {
+        "n": 288,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 634
+      },
+      {
+        "n": 289,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 642
+      },
+      {
+        "n": 290,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 642
+      },
+      {
+        "n": 291,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 642
+      },
+      {
+        "n": 292,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 642
+      },
+      {
+        "n": 293,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 650
+      },
+      {
+        "n": 294,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 650
+      },
+      {
+        "n": 295,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 650
+      },
+      {
+        "n": 296,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 650
+      },
+      {
+        "n": 297,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 658
+      },
+      {
+        "n": 298,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 658
+      },
+      {
+        "n": 299,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 658
+      },
+      {
+        "n": 300,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 658
+      },
+      {
+        "n": 301,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 666
+      },
+      {
+        "n": 302,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 666
+      },
+      {
+        "n": 303,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 666
+      },
+      {
+        "n": 304,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 666
+      },
+      {
+        "n": 305,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 674
+      },
+      {
+        "n": 306,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 674
+      },
+      {
+        "n": 307,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 674
+      },
+      {
+        "n": 308,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 674
+      },
+      {
+        "n": 309,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 682
+      },
+      {
+        "n": 310,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 682
+      },
+      {
+        "n": 311,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 682
+      },
+      {
+        "n": 312,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 682
+      },
+      {
+        "n": 313,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 690
+      },
+      {
+        "n": 314,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 690
+      },
+      {
+        "n": 315,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 690
+      },
+      {
+        "n": 316,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 690
+      },
+      {
+        "n": 317,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 698
+      },
+      {
+        "n": 318,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 698
+      },
+      {
+        "n": 319,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 698
+      },
+      {
+        "n": 320,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 698
+      },
+      {
+        "n": 321,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 706
+      },
+      {
+        "n": 322,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 706
+      },
+      {
+        "n": 323,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 706
+      },
+      {
+        "n": 324,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 706
+      },
+      {
+        "n": 325,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 714
+      },
+      {
+        "n": 326,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 714
+      },
+      {
+        "n": 327,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 714
+      },
+      {
+        "n": 328,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 714
+      },
+      {
+        "n": 329,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 722
+      },
+      {
+        "n": 330,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 722
+      },
+      {
+        "n": 331,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 722
+      },
+      {
+        "n": 332,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 722
+      },
+      {
+        "n": 333,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 730
+      },
+      {
+        "n": 334,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 730
+      },
+      {
+        "n": 335,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 730
+      },
+      {
+        "n": 336,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 730
+      },
+      {
+        "n": 337,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 738
+      },
+      {
+        "n": 338,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 738
+      },
+      {
+        "n": 339,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 738
+      },
+      {
+        "n": 340,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 738
+      },
+      {
+        "n": 341,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 746
+      },
+      {
+        "n": 342,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 746
+      },
+      {
+        "n": 343,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 746
+      },
+      {
+        "n": 344,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 746
+      },
+      {
+        "n": 345,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 754
+      },
+      {
+        "n": 346,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 754
+      },
+      {
+        "n": 347,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 754
+      },
+      {
+        "n": 348,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 754
+      },
+      {
+        "n": 349,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 762
+      },
+      {
+        "n": 350,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 762
+      },
+      {
+        "n": 351,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 762
+      },
+      {
+        "n": 352,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 762
+      },
+      {
+        "n": 353,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 770
+      },
+      {
+        "n": 354,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 770
+      },
+      {
+        "n": 355,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 770
+      },
+      {
+        "n": 356,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 770
+      },
+      {
+        "n": 357,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 778
+      },
+      {
+        "n": 358,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 778
+      },
+      {
+        "n": 359,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 778
+      },
+      {
+        "n": 360,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 778
+      },
+      {
+        "n": 361,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 786
+      },
+      {
+        "n": 362,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 786
+      },
+      {
+        "n": 363,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 786
+      },
+      {
+        "n": 364,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 786
+      },
+      {
+        "n": 365,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 794
+      },
+      {
+        "n": 366,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 794
+      },
+      {
+        "n": 367,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 794
+      },
+      {
+        "n": 368,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 794
+      },
+      {
+        "n": 369,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 802
+      },
+      {
+        "n": 370,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 802
+      },
+      {
+        "n": 371,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 802
+      },
+      {
+        "n": 372,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 802
+      },
+      {
+        "n": 373,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 810
+      },
+      {
+        "n": 374,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 810
+      },
+      {
+        "n": 375,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 810
+      },
+      {
+        "n": 376,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 810
+      },
+      {
+        "n": 377,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 818
+      },
+      {
+        "n": 378,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 818
+      },
+      {
+        "n": 379,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 818
+      },
+      {
+        "n": 380,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 818
+      },
+      {
+        "n": 381,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 826
+      },
+      {
+        "n": 382,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 826
+      },
+      {
+        "n": 383,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 826
+      },
+      {
+        "n": 384,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 826
+      },
+      {
+        "n": 385,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 834
+      },
+      {
+        "n": 386,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 834
+      },
+      {
+        "n": 387,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 834
+      },
+      {
+        "n": 388,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 834
+      },
+      {
+        "n": 389,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 842
+      },
+      {
+        "n": 390,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 842
+      },
+      {
+        "n": 391,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 842
+      },
+      {
+        "n": 392,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 842
+      },
+      {
+        "n": 393,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 850
+      },
+      {
+        "n": 394,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 850
+      },
+      {
+        "n": 395,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 850
+      },
+      {
+        "n": 396,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 850
+      },
+      {
+        "n": 397,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 858
+      },
+      {
+        "n": 398,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 858
+      },
+      {
+        "n": 399,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 858
+      },
+      {
+        "n": 400,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 858
+      },
+      {
+        "n": 401,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 866
+      },
+      {
+        "n": 402,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 866
+      },
+      {
+        "n": 403,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 866
+      },
+      {
+        "n": 404,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 866
+      },
+      {
+        "n": 405,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 874
+      },
+      {
+        "n": 406,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 874
+      },
+      {
+        "n": 407,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 874
+      },
+      {
+        "n": 408,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 874
+      },
+      {
+        "n": 409,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 882
+      },
+      {
+        "n": 410,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 882
+      },
+      {
+        "n": 411,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 882
+      },
+      {
+        "n": 412,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 882
+      },
+      {
+        "n": 413,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 890
+      },
+      {
+        "n": 414,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 890
+      },
+      {
+        "n": 415,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 890
+      },
+      {
+        "n": 416,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 890
+      },
+      {
+        "n": 417,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 898
+      },
+      {
+        "n": 418,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 898
+      },
+      {
+        "n": 419,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 898
+      },
+      {
+        "n": 420,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 898
+      },
+      {
+        "n": 421,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 906
+      },
+      {
+        "n": 422,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 906
+      },
+      {
+        "n": 423,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 906
+      },
+      {
+        "n": 424,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 906
+      },
+      {
+        "n": 425,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 914
+      },
+      {
+        "n": 426,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 914
+      },
+      {
+        "n": 427,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 914
+      },
+      {
+        "n": 428,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 914
+      },
+      {
+        "n": 429,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 922
+      },
+      {
+        "n": 430,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 922
+      },
+      {
+        "n": 431,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 922
+      },
+      {
+        "n": 432,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 922
+      },
+      {
+        "n": 433,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 930
+      },
+      {
+        "n": 434,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 930
+      },
+      {
+        "n": 435,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 930
+      },
+      {
+        "n": 436,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 930
+      },
+      {
+        "n": 437,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 938
+      },
+      {
+        "n": 438,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 938
+      },
+      {
+        "n": 439,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 938
+      },
+      {
+        "n": 440,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 938
+      },
+      {
+        "n": 441,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 946
+      },
+      {
+        "n": 442,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 946
+      },
+      {
+        "n": 443,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 946
+      },
+      {
+        "n": 444,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 946
+      },
+      {
+        "n": 445,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 954
+      },
+      {
+        "n": 446,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 954
+      },
+      {
+        "n": 447,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 954
+      },
+      {
+        "n": 448,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 954
+      },
+      {
+        "n": 449,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 962
+      },
+      {
+        "n": 450,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 962
+      },
+      {
+        "n": 451,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 962
+      },
+      {
+        "n": 452,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 962
+      },
+      {
+        "n": 453,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 970
+      },
+      {
+        "n": 454,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 970
+      },
+      {
+        "n": 455,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 970
+      },
+      {
+        "n": 456,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 970
+      },
+      {
+        "n": 457,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 978
+      },
+      {
+        "n": 458,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 978
+      },
+      {
+        "n": 459,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 978
+      },
+      {
+        "n": 460,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 978
+      },
+      {
+        "n": 461,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 986
+      },
+      {
+        "n": 462,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 986
+      },
+      {
+        "n": 463,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 986
+      },
+      {
+        "n": 464,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 986
+      },
+      {
+        "n": 465,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 994
+      },
+      {
+        "n": 466,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 994
+      },
+      {
+        "n": 467,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 994
+      },
+      {
+        "n": 468,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 994
+      },
+      {
+        "n": 469,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 1002
+      },
+      {
+        "n": 470,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 1002
+      },
+      {
+        "n": 471,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 1002
+      },
+      {
+        "n": 472,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 1002
+      },
+      {
+        "n": 473,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 1010
+      },
+      {
+        "n": 474,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 1010
+      },
+      {
+        "n": 475,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 1010
+      },
+      {
+        "n": 476,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 1010
+      },
+      {
+        "n": 477,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 1018
+      },
+      {
+        "n": 478,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 1018
+      },
+      {
+        "n": 479,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 1018
+      },
+      {
+        "n": 480,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 1018
+      },
+      {
+        "n": 481,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 1026
+      },
+      {
+        "n": 482,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 1026
+      },
+      {
+        "n": 483,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 1026
+      },
+      {
+        "n": 484,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 1026
+      },
+      {
+        "n": 485,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 1034
+      },
+      {
+        "n": 486,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 1034
+      },
+      {
+        "n": 487,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 1034
+      },
+      {
+        "n": 488,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 1034
+      },
+      {
+        "n": 489,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 1042
+      },
+      {
+        "n": 490,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 1042
+      },
+      {
+        "n": 491,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 1042
+      },
+      {
+        "n": 492,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 1042
+      },
+      {
+        "n": 493,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 1050
+      },
+      {
+        "n": 494,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 1050
+      },
+      {
+        "n": 495,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 1050
+      },
+      {
+        "n": 496,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 1050
+      },
+      {
+        "n": 497,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 1058
+      },
+      {
+        "n": 498,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 1058
+      },
+      {
+        "n": 499,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 1058
+      },
+      {
+        "n": 500,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 1058
+      },
+      {
+        "n": 501,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 1066
+      },
+      {
+        "n": 502,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 1066
+      },
+      {
+        "n": 503,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 1066
+      },
+      {
+        "n": 504,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 1066
+      },
+      {
+        "n": 505,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 1074
+      },
+      {
+        "n": 506,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 1074
+      },
+      {
+        "n": 507,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 1074
+      },
+      {
+        "n": 508,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 1074
+      },
+      {
+        "n": 509,
+        "bit": 0,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 1082
+      },
+      {
+        "n": 510,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 1082
+      },
+      {
+        "n": 511,
+        "bit": 1,
+        "m": 18,
+        "attempts": 1,
+        "width_ticks": 1082
+      },
+      {
+        "n": 512,
+        "bit": 1,
+        "m": 20,
+        "attempts": 1,
+        "width_ticks": 1082
+      },
+      {
+        "n": 515,
+        "bit": 0,
+        "m": 20,
+        "attempts": 1,
+        "width_ticks": 1090
+      },
+      {
+        "n": 544,
+        "bit": 1,
+        "m": 20,
+        "attempts": 1,
+        "width_ticks": 1146
+      },
+      {
+        "n": 571,
+        "bit": 0,
+        "m": 20,
+        "attempts": 1,
+        "width_ticks": 1202
+      },
+      {
+        "n": 653,
+        "bit": 1,
+        "m": 20,
+        "attempts": 1,
+        "width_ticks": 1370
+      },
+      {
+        "n": 723,
+        "bit": 1,
+        "m": 20,
+        "attempts": 1,
+        "width_ticks": 1506
+      },
+      {
+        "n": 752,
+        "bit": 0,
+        "m": 20,
+        "attempts": 1,
+        "width_ticks": 1562
+      },
+      {
+        "n": 755,
+        "bit": 1,
+        "m": 20,
+        "attempts": 1,
+        "width_ticks": 1570
+      },
+      {
+        "n": 766,
+        "bit": 1,
+        "m": 20,
+        "attempts": 1,
+        "width_ticks": 1594
+      },
+      {
+        "n": 796,
+        "bit": 0,
+        "m": 20,
+        "attempts": 1,
+        "width_ticks": 1650
+      },
+      {
+        "n": 952,
+        "bit": 0,
+        "m": 20,
+        "attempts": 1,
+        "width_ticks": 1962
+      },
+      {
+        "n": 1000,
+        "bit": 1,
+        "m": 20,
+        "attempts": 1,
+        "width_ticks": 2058
+      },
+      {
+        "n": 1004,
+        "bit": 1,
+        "m": 20,
+        "attempts": 1,
+        "width_ticks": 2066
+      },
+      {
+        "n": 1024,
+        "bit": 1,
+        "m": 22,
+        "attempts": 1,
+        "width_ticks": 2114
+      },
+      {
+        "n": 1035,
+        "bit": 0,
+        "m": 22,
+        "attempts": 1,
+        "width_ticks": 2138
+      },
+      {
+        "n": 1086,
+        "bit": 1,
+        "m": 22,
+        "attempts": 1,
+        "width_ticks": 2242
+      },
+      {
+        "n": 1095,
+        "bit": 0,
+        "m": 22,
+        "attempts": 1,
+        "width_ticks": 2258
+      },
+      {
+        "n": 1137,
+        "bit": 1,
+        "m": 22,
+        "attempts": 1,
+        "width_ticks": 2346
+      },
+      {
+        "n": 1171,
+        "bit": 0,
+        "m": 22,
+        "attempts": 1,
+        "width_ticks": 2410
+      },
+      {
+        "n": 1227,
+        "bit": 0,
+        "m": 22,
+        "attempts": 1,
+        "width_ticks": 2522
+      },
+      {
+        "n": 1363,
+        "bit": 1,
+        "m": 22,
+        "attempts": 1,
+        "width_ticks": 2794
+      },
+      {
+        "n": 1396,
+        "bit": 0,
+        "m": 22,
+        "attempts": 1,
+        "width_ticks": 2858
+      },
+      {
+        "n": 1420,
+        "bit": 0,
+        "m": 22,
+        "attempts": 1,
+        "width_ticks": 2906
+      },
+      {
+        "n": 1479,
+        "bit": 1,
+        "m": 22,
+        "attempts": 1,
+        "width_ticks": 3026
+      },
+      {
+        "n": 1480,
+        "bit": 0,
+        "m": 22,
+        "attempts": 1,
+        "width_ticks": 3026
+      },
+      {
+        "n": 1499,
+        "bit": 1,
+        "m": 22,
+        "attempts": 1,
+        "width_ticks": 3066
+      },
+      {
+        "n": 1518,
+        "bit": 0,
+        "m": 22,
+        "attempts": 1,
+        "width_ticks": 3106
+      },
+      {
+        "n": 1522,
+        "bit": 0,
+        "m": 22,
+        "attempts": 1,
+        "width_ticks": 3114
+      },
+      {
+        "n": 1541,
+        "bit": 1,
+        "m": 22,
+        "attempts": 1,
+        "width_ticks": 3154
+      },
+      {
+        "n": 1644,
+        "bit": 1,
+        "m": 22,
+        "attempts": 1,
+        "width_ticks": 3354
+      },
+      {
+        "n": 1652,
+        "bit": 0,
+        "m": 22,
+        "attempts": 1,
+        "width_ticks": 3370
+      },
+      {
+        "n": 1683,
+        "bit": 1,
+        "m": 22,
+        "attempts": 1,
+        "width_ticks": 3434
+      },
+      {
+        "n": 1719,
+        "bit": 0,
+        "m": 22,
+        "attempts": 1,
+        "width_ticks": 3506
+      },
+      {
+        "n": 1721,
+        "bit": 0,
+        "m": 22,
+        "attempts": 1,
+        "width_ticks": 3514
+      },
+      {
+        "n": 1749,
+        "bit": 0,
+        "m": 22,
+        "attempts": 1,
+        "width_ticks": 3570
+      },
+      {
+        "n": 1818,
+        "bit": 1,
+        "m": 22,
+        "attempts": 1,
+        "width_ticks": 3706
+      },
+      {
+        "n": 1833,
+        "bit": 1,
+        "m": 22,
+        "attempts": 1,
+        "width_ticks": 3738
+      },
+      {
+        "n": 1850,
+        "bit": 1,
+        "m": 22,
+        "attempts": 1,
+        "width_ticks": 3770
+      },
+      {
+        "n": 1911,
+        "bit": 0,
+        "m": 22,
+        "attempts": 1,
+        "width_ticks": 3890
+      },
+      {
+        "n": 1916,
+        "bit": 1,
+        "m": 22,
+        "attempts": 1,
+        "width_ticks": 3898
+      },
+      {
+        "n": 1944,
+        "bit": 0,
+        "m": 22,
+        "attempts": 1,
+        "width_ticks": 3954
+      },
+      {
+        "n": 2112,
+        "bit": 0,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 4290
+      },
+      {
+        "n": 2125,
+        "bit": 1,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 4322
+      },
+      {
+        "n": 2159,
+        "bit": 0,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 4386
+      },
+      {
+        "n": 2162,
+        "bit": 0,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 4394
+      },
+      {
+        "n": 2168,
+        "bit": 1,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 4402
+      },
+      {
+        "n": 2187,
+        "bit": 0,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 4442
+      },
+      {
+        "n": 2212,
+        "bit": 1,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 4490
+      },
+      {
+        "n": 2344,
+        "bit": 0,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 4754
+      },
+      {
+        "n": 2381,
+        "bit": 1,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 4834
+      },
+      {
+        "n": 2494,
+        "bit": 0,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 5058
+      },
+      {
+        "n": 2509,
+        "bit": 1,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 5090
+      },
+      {
+        "n": 2514,
+        "bit": 0,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 5098
+      },
+      {
+        "n": 2548,
+        "bit": 0,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 5162
+      },
+      {
+        "n": 2567,
+        "bit": 0,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 5202
+      },
+      {
+        "n": 2630,
+        "bit": 1,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 5330
+      },
+      {
+        "n": 2631,
+        "bit": 1,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 5330
+      },
+      {
+        "n": 2655,
+        "bit": 0,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 5378
+      },
+      {
+        "n": 2659,
+        "bit": 1,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 5386
+      },
+      {
+        "n": 2686,
+        "bit": 0,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 5442
+      },
+      {
+        "n": 2770,
+        "bit": 0,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 5610
+      },
+      {
+        "n": 2829,
+        "bit": 1,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 5730
+      },
+      {
+        "n": 2839,
+        "bit": 1,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 5746
+      },
+      {
+        "n": 2869,
+        "bit": 0,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 5810
+      },
+      {
+        "n": 2931,
+        "bit": 1,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 5930
+      },
+      {
+        "n": 2986,
+        "bit": 0,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 6042
+      },
+      {
+        "n": 2989,
+        "bit": 1,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 6050
+      },
+      {
+        "n": 3011,
+        "bit": 1,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 6090
+      },
+      {
+        "n": 3043,
+        "bit": 1,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 6154
+      },
+      {
+        "n": 3050,
+        "bit": 1,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 6170
+      },
+      {
+        "n": 3118,
+        "bit": 0,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 6306
+      },
+      {
+        "n": 3170,
+        "bit": 1,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 6410
+      },
+      {
+        "n": 3251,
+        "bit": 1,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 6570
+      },
+      {
+        "n": 3287,
+        "bit": 1,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 6642
+      },
+      {
+        "n": 3294,
+        "bit": 1,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 6658
+      },
+      {
+        "n": 3329,
+        "bit": 1,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 6730
+      },
+      {
+        "n": 3334,
+        "bit": 0,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 6738
+      },
+      {
+        "n": 3351,
+        "bit": 0,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 6770
+      },
+      {
+        "n": 3380,
+        "bit": 0,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 6826
+      },
+      {
+        "n": 3402,
+        "bit": 1,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 6874
+      },
+      {
+        "n": 3422,
+        "bit": 1,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 6914
+      },
+      {
+        "n": 3441,
+        "bit": 0,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 6954
+      },
+      {
+        "n": 3457,
+        "bit": 0,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 6986
+      },
+      {
+        "n": 3532,
+        "bit": 0,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 7130
+      },
+      {
+        "n": 3540,
+        "bit": 0,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 7146
+      },
+      {
+        "n": 3615,
+        "bit": 1,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 7298
+      },
+      {
+        "n": 3628,
+        "bit": 0,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 7322
+      },
+      {
+        "n": 3634,
+        "bit": 1,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 7338
+      },
+      {
+        "n": 3645,
+        "bit": 1,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 7362
+      },
+      {
+        "n": 3676,
+        "bit": 1,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 7418
+      },
+      {
+        "n": 3709,
+        "bit": 0,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 7490
+      },
+      {
+        "n": 3753,
+        "bit": 1,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 7578
+      },
+      {
+        "n": 3769,
+        "bit": 1,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 7610
+      },
+      {
+        "n": 3780,
+        "bit": 0,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 7626
+      },
+      {
+        "n": 3783,
+        "bit": 1,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 7634
+      },
+      {
+        "n": 3803,
+        "bit": 1,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 7674
+      },
+      {
+        "n": 3815,
+        "bit": 1,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 7698
+      },
+      {
+        "n": 3871,
+        "bit": 1,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 7810
+      },
+      {
+        "n": 3880,
+        "bit": 0,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 7826
+      },
+      {
+        "n": 3887,
+        "bit": 1,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 7842
+      },
+      {
+        "n": 3934,
+        "bit": 1,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 7938
+      },
+      {
+        "n": 3972,
+        "bit": 1,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 8010
+      },
+      {
+        "n": 4003,
+        "bit": 0,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 8074
+      },
+      {
+        "n": 4010,
+        "bit": 1,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 8090
+      },
+      {
+        "n": 4014,
+        "bit": 0,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 8098
+      },
+      {
+        "n": 4019,
+        "bit": 0,
+        "m": 24,
+        "attempts": 1,
+        "width_ticks": 8106
+      },
+      {
+        "n": 4096,
+        "bit": 1,
+        "m": 26,
+        "attempts": 1,
+        "width_ticks": 8266
+      },
+      {
+        "n": 4136,
+        "bit": 0,
+        "m": 26,
+        "attempts": 1,
+        "width_ticks": 8346
+      },
+      {
+        "n": 4171,
+        "bit": 1,
+        "m": 26,
+        "attempts": 1,
+        "width_ticks": 8418
+      },
+      {
+        "n": 4182,
+        "bit": 0,
+        "m": 26,
+        "attempts": 1,
+        "width_ticks": 8442
+      },
+      {
+        "n": 4248,
+        "bit": 0,
+        "m": 26,
+        "attempts": 1,
+        "width_ticks": 8570
+      },
+      {
+        "n": 4265,
+        "bit": 1,
+        "m": 26,
+        "attempts": 1,
+        "width_ticks": 8610
+      },
+      {
+        "n": 4311,
+        "bit": 1,
+        "m": 26,
+        "attempts": 1,
+        "width_ticks": 8698
+      },
+      {
+        "n": 4403,
+        "bit": 1,
+        "m": 26,
+        "attempts": 1,
+        "width_ticks": 8882
+      },
+      {
+        "n": 4450,
+        "bit": 0,
+        "m": 26,
+        "attempts": 1,
+        "width_ticks": 8978
+      },
+      {
+        "n": 4455,
+        "bit": 1,
+        "m": 26,
+        "attempts": 1,
+        "width_ticks": 8986
+      },
+      {
+        "n": 4458,
+        "bit": 1,
+        "m": 26,
+        "attempts": 1,
+        "width_ticks": 8994
+      },
+      {
+        "n": 4590,
+        "bit": 0,
+        "m": 26,
+        "attempts": 1,
+        "width_ticks": 9258
+      },
+      {
+        "n": 4633,
+        "bit": 0,
+        "m": 26,
+        "attempts": 1,
+        "width_ticks": 9346
+      },
+      {
+        "n": 4691,
+        "bit": 0,
+        "m": 26,
+        "attempts": 1,
+        "width_ticks": 9458
+      },
+      {
+        "n": 4692,
+        "bit": 1,
+        "m": 26,
+        "attempts": 1,
+        "width_ticks": 9458
+      },
+      {
+        "n": 4705,
+        "bit": 1,
+        "m": 26,
+        "attempts": 1,
+        "width_ticks": 9490
+      },
+      {
+        "n": 4780,
+        "bit": 0,
+        "m": 26,
+        "attempts": 1,
+        "width_ticks": 9634
+      },
+      {
+        "n": 4801,
+        "bit": 1,
+        "m": 26,
+        "attempts": 1,
+        "width_ticks": 9682
+      },
+      {
+        "n": 4806,
+        "bit": 0,
+        "m": 26,
+        "attempts": 1,
+        "width_ticks": 9690
+      },
+      {
+        "n": 4816,
+        "bit": 1,
+        "m": 26,
+        "attempts": 1,
+        "width_ticks": 9706
+      },
+      {
+        "n": 4865,
+        "bit": 1,
+        "m": 26,
+        "attempts": 1,
+        "width_ticks": 9810
+      },
+      {
+        "n": 4922,
+        "bit": 1,
+        "m": 26,
+        "attempts": 1,
+        "width_ticks": 9922
+      },
+      {
+        "n": 4942,
+        "bit": 0,
+        "m": 26,
+        "attempts": 1,
+        "width_ticks": 9962
+      },
+      {
+        "n": 4968,
+        "bit": 0,
+        "m": 26,
+        "attempts": 1,
+        "width_ticks": 10010
+      },
+      {
+        "n": 4969,
+        "bit": 0,
+        "m": 26,
+        "attempts": 1,
+        "width_ticks": 10018
+      },
+      {
+        "n": 5004,
+        "bit": 0,
+        "m": 26,
+        "attempts": 1,
+        "width_ticks": 10082
+      },
+      {
+        "n": 5049,
+        "bit": 0,
+        "m": 26,
+        "attempts": 1,
+        "width_ticks": 10178
+      },
+      {
+        "n": 5068,
+        "bit": 1,
+        "m": 26,
+        "attempts": 1,
+        "width_ticks": 10210
+      },
+      {
+        "n": 5096,
+        "bit": 1,
+        "m": 26,
+        "attempts": 1,
+        "width_ticks": 10266
+      },
+      {
+        "n": 5130,
+        "bit": 0,
+        "m": 26,
+        "attempts": 1,
+        "width_ticks": 10338
+      },
+      {
+        "n": 5288,
+        "bit": 1,
+        "m": 26,
+        "attempts": 1,
+        "width_ticks": 10650
+      },
+      {
+        "n": 5296,
+        "bit": 1,
+        "m": 26,
+        "attempts": 1,
+        "width_ticks": 10666
+      },
+      {
+        "n": 5336,
+        "bit": 1,
+        "m": 26,
+        "attempts": 1,
+        "width_ticks": 10746
+      },
+      {
+        "n": 5354,
+        "bit": 0,
+        "m": 26,
+        "attempts": 1,
+        "width_ticks": 10786
+      },
+      {
+        "n": 5448,
+        "bit": 0,
+        "m": 26,
+        "attempts": 1,
+        "width_ticks": 10970
+      },
+      {
+        "n": 5526,
+        "bit": 1,
+        "m": 26,
+        "attempts": 1,
+        "width_ticks": 11130
+      },
+      {
+        "n": 5543,
+        "bit": 1,
+        "m": 26,
+        "attempts": 1,
+        "width_ticks": 11162
+      },
+      {
+        "n": 5577,
+        "bit": 0,
+        "m": 26,
+        "attempts": 1,
+        "width_ticks": 11234
+      },
+      {
+        "n": 5608,
+        "bit": 0,
+        "m": 26,
+        "attempts": 1,
+        "width_ticks": 11290
+      },
+      {
+        "n": 5690,
+        "bit": 1,
+        "m": 26,
+        "attempts": 1,
+        "width_ticks": 11458
+      },
+      {
+        "n": 5824,
+        "bit": 0,
+        "m": 26,
+        "attempts": 1,
+        "width_ticks": 11722
+      },
+      {
+        "n": 5859,
+        "bit": 1,
+        "m": 26,
+        "attempts": 1,
+        "width_ticks": 11794
+      },
+      {
+        "n": 5870,
+        "bit": 0,
+        "m": 26,
+        "attempts": 1,
+        "width_ticks": 11818
+      },
+      {
+        "n": 5956,
+        "bit": 1,
+        "m": 26,
+        "attempts": 1,
+        "width_ticks": 11986
+      },
+      {
+        "n": 5997,
+        "bit": 1,
+        "m": 26,
+        "attempts": 1,
+        "width_ticks": 12074
+      },
+      {
+        "n": 8192,
+        "bit": 0,
+        "m": 28,
+        "attempts": 1,
+        "width_ticks": 16458
+      },
+      {
+        "n": 10000,
+        "bit": 1,
+        "m": 28,
+        "attempts": 1,
+        "width_ticks": 20074
+      }
+    ],
+    "elapsed_seconds": 5.405322915001307
+  }
+}

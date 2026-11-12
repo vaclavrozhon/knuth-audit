@@ -1,0 +1,19 @@
+{
+  "limit": 1000000,
+  "solutions": [
+    0,
+    1,
+    6,
+    25,
+    96,
+    361,
+    1350,
+    5041,
+    18816,
+    70225,
+    262086,
+    978121
+  ],
+  "recurrence": "(a,b) -> (2a+3b,a+2b)",
+  "general_proof": "PARTRIDGE_NOTES.md"
+}

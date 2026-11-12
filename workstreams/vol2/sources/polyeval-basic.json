@@ -1,0 +1,774 @@
+{
+  "block": "V2-X0076",
+  "status": "checked_mathematical_scope",
+  "checked_at_utc": "2026-11-04T12:22:50.261798+00:00",
+  "edition": 3,
+  "printing": 1,
+  "physical_copy_verified": false,
+  "findings": [
+    "V2-C0234"
+  ],
+  "scope": "Mathematical algorithms pp485-489 and exercises1-7; historical/source gaps remain explicit.",
+  "source_read": "See notes/polyeval-basic.md section8; full archived papers are not all audited.",
+  "open": [
+    "Historical priority and supporting sources for485-488 (Miller, Horner/Newton/Qin, BIT/Goertzel, Estrin/Dorn).",
+    "Full de Jong-van Leeuwen1975, Wozniakowski1974, Hassler1996 not obtained; independent proofs supplied for audited claims."
+  ],
+  "known_errata": [
+    {
+      "date": "1999-06-07",
+      "page": 489,
+      "description": "Explain n-1 divisions by v_n=u_n; does not fix answer6."
+    },
+    {
+      "date": "1999-06-28",
+      "page": 699,
+      "description": "Remove extraneous parenthesis in x_nd."
+    },
+    {
+      "date": "1997-07-04",
+      "edition": 2,
+      "page": 470,
+      "description": "D3 uses n-1-j and positive multiple; already incorporated."
+    },
+    {
+      "date": "1996-02-26",
+      "edition": 2,
+      "page": 640,
+      "description": "Descending order in answer7; already incorporated."
+    }
+  ],
+  "errata_source_hashes": [
+    {
+      "path_from_repository": "errata/text/all2-prepre.txt",
+      "sha256": "62a1ff323ca421f2640e2337f922dbf8cfc8e86c20d9b11acfc91221721c6f58"
+    },
+    {
+      "path_from_repository": "errata/text/all2-pre.txt",
+      "sha256": "c1735b70547678d739eae3a8d7b02872c737218eed7706a0aba8fb6fc21a6529"
+    },
+    {
+      "path_from_repository": "errata/text/all2.txt",
+      "sha256": "1c4d7f2259e147db0ebe84b4bf0ce8864b307afb4ccfbe48efcb1f5f5999ac58"
+    },
+    {
+      "path_from_repository": "errata/text/err2.txt",
+      "sha256": "1b5c93712c3c467a48679e0040ba6c5869998b25184dbd125a5d096ce96e9ab0"
+    },
+    {
+      "path_from_repository": "errata/text/err2-2e.txt",
+      "sha256": "cf2d9ced25e86f6fd9be0e4f82700a979fc174dff6860e7a4b7950292c24e154"
+    },
+    {
+      "path_from_repository": "errata/originals/err2.textxt",
+      "sha256": "8faa21566312314ec6bda0f8956913deb312517fd9fa688dcc0bf19e1f21962e"
+    }
+  ],
+  "verification": {
+    "basic": {
+      "real_cases": 192,
+      "complex_cases": 384,
+      "bivariate_cases": 39,
+      "degrees": [
+        1,
+        24
+      ],
+      "scope": "Exact identities and executed generic operation counts, including repeated complex multiplier and Estrin degree 7.",
+      "status": "passed",
+      "pid": 1592222,
+      "seconds": 0.7284626209875569,
+      "completed_at_utc": "2026-11-04T12:09:28.516344+00:00"
+    },
+    "shifts": {
+      "shift_cases": 164,
+      "basis_cases": 135,
+      "D_cases": 384,
+      "identical_expression_DAGs": 41,
+      "endpoint_counts": [
+        {
+          "n": 1,
+          "actual_M_D_A": [
+            1,
+            0,
+            1
+          ],
+          "printed_after_saving_M_D": [
+            0,
+            0
+          ]
+        },
+        {
+          "n": 2,
+          "actual_M_D_A": [
+            2,
+            0,
+            3
+          ],
+          "printed_after_saving_M_D": [
+            1,
+            1
+          ]
+        },
+        {
+          "n": 3,
+          "actual_M_D_A": [
+            4,
+            1,
+            6
+          ],
+          "printed_after_saving_M_D": [
+            3,
+            2
+          ]
+        },
+        {
+          "n": 4,
+          "actual_M_D_A": [
+            5,
+            2,
+            10
+          ],
+          "printed_after_saving_M_D": [
+            4,
+            3
+          ]
+        },
+        {
+          "n": 5,
+          "actual_M_D_A": [
+            7,
+            3,
+            15
+          ],
+          "printed_after_saving_M_D": [
+            6,
+            4
+          ]
+        },
+        {
+          "n": 6,
+          "actual_M_D_A": [
+            8,
+            4,
+            21
+          ],
+          "printed_after_saving_M_D": [
+            7,
+            5
+          ]
+        },
+        {
+          "n": 7,
+          "actual_M_D_A": [
+            10,
+            5,
+            28
+          ],
+          "printed_after_saving_M_D": [
+            9,
+            6
+          ]
+        },
+        {
+          "n": 8,
+          "actual_M_D_A": [
+            11,
+            6,
+            36
+          ],
+          "printed_after_saving_M_D": [
+            10,
+            7
+          ]
+        },
+        {
+          "n": 9,
+          "actual_M_D_A": [
+            13,
+            7,
+            45
+          ],
+          "printed_after_saving_M_D": [
+            12,
+            8
+          ]
+        },
+        {
+          "n": 10,
+          "actual_M_D_A": [
+            14,
+            8,
+            55
+          ],
+          "printed_after_saving_M_D": [
+            13,
+            9
+          ]
+        },
+        {
+          "n": 11,
+          "actual_M_D_A": [
+            16,
+            9,
+            66
+          ],
+          "printed_after_saving_M_D": [
+            15,
+            10
+          ]
+        },
+        {
+          "n": 12,
+          "actual_M_D_A": [
+            17,
+            10,
+            78
+          ],
+          "printed_after_saving_M_D": [
+            16,
+            11
+          ]
+        },
+        {
+          "n": 13,
+          "actual_M_D_A": [
+            19,
+            11,
+            91
+          ],
+          "printed_after_saving_M_D": [
+            18,
+            12
+          ]
+        },
+        {
+          "n": 14,
+          "actual_M_D_A": [
+            20,
+            12,
+            105
+          ],
+          "printed_after_saving_M_D": [
+            19,
+            13
+          ]
+        },
+        {
+          "n": 15,
+          "actual_M_D_A": [
+            22,
+            13,
+            120
+          ],
+          "printed_after_saving_M_D": [
+            21,
+            14
+          ]
+        },
+        {
+          "n": 16,
+          "actual_M_D_A": [
+            23,
+            14,
+            136
+          ],
+          "printed_after_saving_M_D": [
+            22,
+            15
+          ]
+        },
+        {
+          "n": 17,
+          "actual_M_D_A": [
+            25,
+            15,
+            153
+          ],
+          "printed_after_saving_M_D": [
+            24,
+            16
+          ]
+        },
+        {
+          "n": 18,
+          "actual_M_D_A": [
+            26,
+            16,
+            171
+          ],
+          "printed_after_saving_M_D": [
+            25,
+            17
+          ]
+        },
+        {
+          "n": 19,
+          "actual_M_D_A": [
+            28,
+            17,
+            190
+          ],
+          "printed_after_saving_M_D": [
+            27,
+            18
+          ]
+        },
+        {
+          "n": 20,
+          "actual_M_D_A": [
+            29,
+            18,
+            210
+          ],
+          "printed_after_saving_M_D": [
+            28,
+            19
+          ]
+        },
+        {
+          "n": 21,
+          "actual_M_D_A": [
+            31,
+            19,
+            231
+          ],
+          "printed_after_saving_M_D": [
+            30,
+            20
+          ]
+        },
+        {
+          "n": 22,
+          "actual_M_D_A": [
+            32,
+            20,
+            253
+          ],
+          "printed_after_saving_M_D": [
+            31,
+            21
+          ]
+        },
+        {
+          "n": 23,
+          "actual_M_D_A": [
+            34,
+            21,
+            276
+          ],
+          "printed_after_saving_M_D": [
+            33,
+            22
+          ]
+        },
+        {
+          "n": 24,
+          "actual_M_D_A": [
+            35,
+            22,
+            300
+          ],
+          "printed_after_saving_M_D": [
+            34,
+            23
+          ]
+        },
+        {
+          "n": 25,
+          "actual_M_D_A": [
+            37,
+            23,
+            325
+          ],
+          "printed_after_saving_M_D": [
+            36,
+            24
+          ]
+        },
+        {
+          "n": 26,
+          "actual_M_D_A": [
+            38,
+            24,
+            351
+          ],
+          "printed_after_saving_M_D": [
+            37,
+            25
+          ]
+        },
+        {
+          "n": 27,
+          "actual_M_D_A": [
+            40,
+            25,
+            378
+          ],
+          "printed_after_saving_M_D": [
+            39,
+            26
+          ]
+        },
+        {
+          "n": 28,
+          "actual_M_D_A": [
+            41,
+            26,
+            406
+          ],
+          "printed_after_saving_M_D": [
+            40,
+            27
+          ]
+        },
+        {
+          "n": 29,
+          "actual_M_D_A": [
+            43,
+            27,
+            435
+          ],
+          "printed_after_saving_M_D": [
+            42,
+            28
+          ]
+        },
+        {
+          "n": 30,
+          "actual_M_D_A": [
+            44,
+            28,
+            465
+          ],
+          "printed_after_saving_M_D": [
+            43,
+            29
+          ]
+        },
+        {
+          "n": 31,
+          "actual_M_D_A": [
+            46,
+            29,
+            496
+          ],
+          "printed_after_saving_M_D": [
+            45,
+            30
+          ]
+        },
+        {
+          "n": 32,
+          "actual_M_D_A": [
+            47,
+            30,
+            528
+          ],
+          "printed_after_saving_M_D": [
+            46,
+            31
+          ]
+        },
+        {
+          "n": 33,
+          "actual_M_D_A": [
+            49,
+            31,
+            561
+          ],
+          "printed_after_saving_M_D": [
+            48,
+            32
+          ]
+        },
+        {
+          "n": 34,
+          "actual_M_D_A": [
+            50,
+            32,
+            595
+          ],
+          "printed_after_saving_M_D": [
+            49,
+            33
+          ]
+        },
+        {
+          "n": 35,
+          "actual_M_D_A": [
+            52,
+            33,
+            630
+          ],
+          "printed_after_saving_M_D": [
+            51,
+            34
+          ]
+        },
+        {
+          "n": 36,
+          "actual_M_D_A": [
+            53,
+            34,
+            666
+          ],
+          "printed_after_saving_M_D": [
+            52,
+            35
+          ]
+        },
+        {
+          "n": 37,
+          "actual_M_D_A": [
+            55,
+            35,
+            703
+          ],
+          "printed_after_saving_M_D": [
+            54,
+            36
+          ]
+        },
+        {
+          "n": 38,
+          "actual_M_D_A": [
+            56,
+            36,
+            741
+          ],
+          "printed_after_saving_M_D": [
+            55,
+            37
+          ]
+        },
+        {
+          "n": 39,
+          "actual_M_D_A": [
+            58,
+            37,
+            780
+          ],
+          "printed_after_saving_M_D": [
+            57,
+            38
+          ]
+        },
+        {
+          "n": 40,
+          "actual_M_D_A": [
+            59,
+            38,
+            820
+          ],
+          "printed_after_saving_M_D": [
+            58,
+            39
+          ]
+        }
+      ],
+      "scope": "General identities checked against direct binomial expansion; C0234 operation allocation has an additional mathematical impossibility proof.",
+      "status": "passed",
+      "pid": 1592225,
+      "seconds": 1.8159049189998768,
+      "completed_at_utc": "2026-11-04T12:09:30.440661+00:00"
+    },
+    "differences": {
+      "initializations": 33,
+      "tabulated_values": 1749,
+      "single_error_propagation_checks": 792,
+      "spread_node_matrices": 27,
+      "scope": "Exact differences including negative k and h=0; fixed-point error propagation, not a claim that every initialization method improves every input.",
+      "status": "passed",
+      "pid": 1592232,
+      "seconds": 0.6117795039899647,
+      "completed_at_utc": "2026-11-04T12:09:31.178905+00:00"
+    }
+  },
+  "artifacts": [
+    {
+      "path": "images/shaw-traub-1974-p161.png",
+      "bytes": 428063,
+      "sha256": "858a134bea07dc9be262038627825457e2a61f35b694ba979e15f69fcac88af5"
+    },
+    {
+      "path": "images/shaw-traub-1974-p162.png",
+      "bytes": 405750,
+      "sha256": "9240648094258dcef6b996ee06c0c38b0ce143eee2db03f04961823ab31fb613"
+    },
+    {
+      "path": "images/shaw-traub-1974-p163.png",
+      "bytes": 312962,
+      "sha256": "28fab52db652278140875dd59c225826d3f88b6c27613f1e5de0ce4f57bae392"
+    },
+    {
+      "path": "images/shaw-traub-1974-p164.png",
+      "bytes": 371632,
+      "sha256": "f9580d92742fa41ad89b355734f43fafbd3d977322819b0063a3cbe6578fb20e"
+    },
+    {
+      "path": "images/shaw-traub-1974-p165.png",
+      "bytes": 457249,
+      "sha256": "03104bd492599a6773e7c80b7b38adcaf849ae3397a3367a9a6b4837ea4c4c96"
+    },
+    {
+      "path": "images/shaw-traub-1974-p167.png",
+      "bytes": 404480,
+      "sha256": "785d49582d84afb3e14226cdd9f0562263ae1c5e224a1a71c61db3cea094f5c5"
+    },
+    {
+      "path": "images/shaw-traub-1975-analysis-file5.png",
+      "bytes": 225540,
+      "sha256": "c450a8eacf7157936ef3685e89e3b096094e2b7de5de130f781880a83d97bfaa"
+    },
+    {
+      "path": "images/vol2-p485.png",
+      "bytes": 337946,
+      "sha256": "f1495bc3a517b11fae66966e47a53b4da22c79de63b976ebca18827569395882"
+    },
+    {
+      "path": "images/vol2-p486.png",
+      "bytes": 364346,
+      "sha256": "6b47970e55a20c53e1f42344c740ed30ca34c5de8228825a2b6ffd8b944e4840"
+    },
+    {
+      "path": "images/vol2-p487.png",
+      "bytes": 308795,
+      "sha256": "b2ef0582cda06fa7737d400a3eb56d6cda4daa13edac41f95cd4386e7de6eb5f"
+    },
+    {
+      "path": "images/vol2-p488.png",
+      "bytes": 304285,
+      "sha256": "609321d8e6042de771c11629ea55fa459ff1f3305b425642ed7f1f4af72b6923"
+    },
+    {
+      "path": "images/vol2-p489.png",
+      "bytes": 315776,
+      "sha256": "737825e77648db09506fb65b396636981ee096db5ab637e35910137d4b135173"
+    },
+    {
+      "path": "images/vol2-p515.png",
+      "bytes": 325052,
+      "sha256": "37cc28cefd047747b770a4fa2a09dd56b4bfb5a13d1b089e9269405bcc05926d"
+    },
+    {
+      "path": "images/vol2-p698.png",
+      "bytes": 295431,
+      "sha256": "72fdf9b1e08e9a593f23f63688c433b5faba0556946aa5eb1a4cecf108d8230b"
+    },
+    {
+      "path": "images/vol2-p699.png",
+      "bytes": 341752,
+      "sha256": "dd147c78223534971e98942cd40de98299604860eaeeb3622feeae55354e48a8"
+    },
+    {
+      "path": "notes/polyeval-basic.md",
+      "bytes": 17759,
+      "sha256": "50e27593dbe29acce4237a1f7947e8a8b446e6b95531a19b00975f0c49b76103"
+    },
+    {
+      "path": "reports/C0234-polynomial-shift-operation-count.txt",
+      "bytes": 2181,
+      "sha256": "788439866c1a82c2e5a9f48c62e3d5879449ecc714816569cf2baea631531923"
+    },
+    {
+      "path": "results/polyeval-basic-run.json",
+      "bytes": 1589,
+      "sha256": "a57a38189ac5881a5232a50fac3ae83dea1e9d8877a679a3a39817299ba660b1"
+    },
+    {
+      "path": "results/polyeval-basic.json",
+      "bytes": 8776,
+      "sha256": "8ad7a018c427a08a542bf8b70ddf726853e0c430bd241caadaec88c9f44ced1b"
+    },
+    {
+      "path": "results/polyeval-basic.log",
+      "bytes": 4302,
+      "sha256": "4dd4e215e8c25a6a6c8e47d2514dbca6ab3c6eb39437f2b50a3c4254cd866d9b"
+    },
+    {
+      "path": "sources/cwi-polyeval-query-leeuwen.json",
+      "bytes": 15158,
+      "sha256": "03aff117ba3470d55352fba7503de760c21158081065c5908b3ac291a8286b5a"
+    },
+    {
+      "path": "sources/cwi-polyeval-query-multiplications.json",
+      "bytes": 64590,
+      "sha256": "b9a5f33b5e23baff3b3b3cf1bb451b11941499ee3a7ad0405a241a057c215410"
+    },
+    {
+      "path": "sources/cwi-polyeval-query-polynomial.json",
+      "bytes": 58416,
+      "sha256": "89d7a2cfa904e515215b96af42bf04461e21ee73e0d098ba2751181f99f73919"
+    },
+    {
+      "path": "sources/cwi-polyeval-query.json",
+      "bytes": 4216,
+      "sha256": "730f7f4ad6e8be83fca09f2c35d971dae276aa85d7c5441f0498ed7c325049e2"
+    },
+    {
+      "path": "sources/cwi-polyeval-search.html",
+      "bytes": 25441,
+      "sha256": "c8c3eac6d176f4872be064d6ffc62f19d4b748c1ee668391f15a6d870e570c54"
+    },
+    {
+      "path": "sources/jong-leeuwen-1975-acm.html",
+      "bytes": 5546,
+      "sha256": "83a55754117e2384cc7c64f3decbf59a76ca7fc926ec9c66a152ddd7499f580b"
+    },
+    {
+      "path": "sources/jong-leeuwen-1975-crossref.json",
+      "bytes": 21121,
+      "sha256": "c99870ef9a389d8be98426e060fa2b1503492b8b1dec2a906c69a7e31993ed36"
+    },
+    {
+      "path": "sources/jong-leeuwen-1975-dblp.html",
+      "bytes": 3265,
+      "sha256": "5119777ffdc6ecdad6c7386606ef4ec6c10215cd1a8b5fd76d34aefdd1bbdaba"
+    },
+    {
+      "path": "sources/polyeval-basic-access.json",
+      "bytes": 858,
+      "sha256": "b83ce781d8ce1e26e856f27d9bb1405521ad8f5e0836ab2a84ef7118e06983b6"
+    },
+    {
+      "path": "sources/polyeval-basic-more-access.json",
+      "bytes": 1337,
+      "sha256": "4c5630d526b7c00d748ffd26e2c72c297132ae590fbe9fa97d6a23d1571f918c"
+    },
+    {
+      "path": "sources/shaw-traub-1974.pdf",
+      "bytes": 962922,
+      "sha256": "49037f148cf893e000a9f973fdc8d6104171a2e5203ef5daaf07bff3e40d9c04"
+    },
+    {
+      "path": "sources/shaw-traub-1974.txt",
+      "bytes": 22678,
+      "sha256": "de4b61c03d55fc7c6de6a27f3167ea8e9e70d912bdf159aa1d7f90c4640441f1"
+    },
+    {
+      "path": "sources/shaw-traub-1975-analysis.pdf",
+      "bytes": 3084206,
+      "sha256": "a1c53b9760d9cc30dc654d82f4a99f939fb8254501f45e1601e720664ee7a6c9"
+    },
+    {
+      "path": "sources/shaw-traub-1975-analysis.txt",
+      "bytes": 117901,
+      "sha256": "cebac519a10ae06dd44b5e6eaa42edc2374ab2befd9b60cb572a1e6b90cdf75b"
+    },
+    {
+      "path": "sources/wozniakowski-1974-stability.html",
+      "bytes": 5527,
+      "sha256": "cc2e38917e4060dd368773d470299139560d4336b597e4bd3f4fac0418f72c4d"
+    },
+    {
+      "path": "sources/wozniakowski-1974-web-abstract.txt",
+      "bytes": 719,
+      "sha256": "3b909ea7a7880f77defef33143f4866e277174b06a6f9193b67644ac913727f0"
+    },
+    {
+      "path": "verify_polyeval_basic.py",
+      "bytes": 15113,
+      "sha256": "e2900dcac7fdca00e7e766aec0e836a8f207dbbafaa4022fee3f2973cd801ab9"
+    }
+  ]
+}

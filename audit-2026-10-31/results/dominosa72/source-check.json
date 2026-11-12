@@ -1,0 +1,55 @@
+{
+  "status": "verified",
+  "checked_at_utc": "2026-11-01T23:10:56.573288+00:00",
+  "source_sha256": "03245d9eee804f0e5c150745550c58230063d8e48cde31e7000def9ec6fe87ba",
+  "files": {
+    "../text/vol4b.txt": "26976b27f732b83bb047c39c007e653e89f00a6ba77c416f28fdaddfba46f7dc",
+    "sources/fasc5c.txt": "bcf4d8240bcc535187405c335147e626c2712b4ac82bbbb3d0bcf728beaf1639",
+    "../errata/originals/err4b.textxt": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+    "sources/dominosa72/latvian-record.html": "621f13b4eb88057d09dd3daa2f2b23d658249700f282304db574dfabb60a5659",
+    "sources/dominosa72/olympiads-volume3.txt": "808269181c49f55ba7ec4a176ef1a93464084d6e983a5153a59fdd5da3329bb1",
+    "sources/dominosa72/sources.json": "024ae2763afc73b52d58b7fb3fef17d267533931576311d95b5d9f992510dfc4",
+    "../books/taocp-vol4b-ed1-print2-2022.pdf": "6ce7187daa4f7dfa09814551a461fac81a833c93c140699fced8fd5897347552",
+    "sources/fasc5c.ps.gz": "1d0cb9e96f5066e05836fefe70157f13b9de244da0ce95b6884cb110d7b256ca",
+    "images/vol4b-p131.png": "c3db2422535e3527624185bfe32ed2ae04e219d1ff2eafe8f5fd069c1c6be1f3",
+    "images/vol4b-p132.png": "495387a67968488e0a9ba10a2d12a132c5df1f8b3e7bde31d17171d2e259c7f6",
+    "images/vol4b-p431.png": "3a8cbb79d9f3cd3f7edf2aa578878b1a255babcce2a933a823f46d09d5a6c1db",
+    "images/vol4b-p432.png": "37d1dd7718b069fd1e0a9804fd4882b8d6463b1f08d0ec2cf31451d1ca50bf95",
+    "images/fasc5c-dominosa-p67.png": "73c7bbebbb9de4687a3b28da72ffe266eee025cbda27cac2a3c8433dd1f73efd",
+    "images/fasc5c-bitland-p135.png": "803c4b3f9b127430e126ee6541fc4cb0dcbf57c34df5654238282c7ecaf27030",
+    "images/fasc5c-dominosa-p136.png": "7d013bb5b574040e1ba1ab6e458472e9b69cfccb1c18a98682127dda042e0a73",
+    "images/all4b-dominosa-p11.png": "20c0cef5697861ddc37ab5b48a4ebb0fb50ffc27fd7404c0593a0a01f42b6cfa",
+    "images/opmanis2009-p96.png": "9d9330b49a789c7321142db7d8ca0f9551a5f3b86b3185cad2e94d73b30f8739",
+    "images/vol4a-tatami-p274.png": "b0b0645899c4c01d0686b7a0694d0e0ff2ea14cc0cf38e8c5f874233d041eeb3"
+  },
+  "board_matches": [
+    "Original4B and authorPS: Keller2004 and Knuth74.",
+    "Official10Aug2023 TeX replacement and Latvian contest site: Gonzalez2023.",
+    "Latvian contest site and Opmanis2009 printed96/Fig8: Sermulins2005."
+  ],
+  "manual_visual_checks": [
+    "Original4B131/132/431/432 and PS67/135/136 viewed; matrix digits and model(ii) wording agree with transcriptions.",
+    "Official all4b.pdf page11 viewed: replacement date10Aug2023, count807752, minimum35082.",
+    "Both Keller-site record images viewed; their pips agree with the two verified numeric boards.",
+    "Opmanis2009 printed96 viewed: all56 digits, count793648 and attribution to Sermulins.",
+    "Volume4A274,7.1.4--215 viewed: tatami means no four dominoes meet at a vertex."
+  ],
+  "bibliography": {
+    "opmanis": {
+      "author": "Martins Opmanis",
+      "year": 2009,
+      "title": "Team Competition in Mathematics and Informatics Ugale -- Finding New Task Types",
+      "journal": "Olympiads in Informatics",
+      "volume": 3,
+      "pages": "80--100",
+      "used_page": 96
+    },
+    "keller": {
+      "url": "https://www.solitairelaboratory.com/puzzlelaboratory/DominoGG.html",
+      "last_edited_as_stated": "2024-06-10",
+      "access": "Web tool read succeeded; direct HTML archiveHTTP406. Images archived.",
+      "claims_checked": "Problem74 posed inWGR7(October1987,8--9); author says unique example found12Sep1996 and publishedWGR12(February1998,9). Original issues not obtained."
+    }
+  },
+  "open_scope": "No proof of global optimality. Keller discovery year2004 is asserted in4B/authorPS but not independently dated by the retrieved Keller page. Original72/74 random samples and seeds unavailable."
+}

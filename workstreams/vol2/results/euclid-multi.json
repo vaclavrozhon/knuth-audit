@@ -1,0 +1,282 @@
+{
+  "scope": "4.5.3-36, C0135, general proof in notes",
+  "checkpoints": {
+    "explicit_and_families": {
+      "counterexamples": [
+        {
+          "values": [
+            5,
+            3,
+            3
+          ],
+          "N": 4,
+          "calls": [
+            {
+              "index_zero_based": 1,
+              "input": [
+                3,
+                3
+              ],
+              "gcd": 3,
+              "divisions": [
+                [
+                  3,
+                  3,
+                  1,
+                  0
+                ]
+              ]
+            },
+            {
+              "index_zero_based": 0,
+              "input": [
+                5,
+                3
+              ],
+              "gcd": 1,
+              "divisions": [
+                [
+                  5,
+                  3,
+                  1,
+                  2
+                ],
+                [
+                  3,
+                  2,
+                  1,
+                  1
+                ],
+                [
+                  2,
+                  1,
+                  2,
+                  0
+                ]
+              ]
+            }
+          ],
+          "printed_min_last": 4,
+          "printed_min_first": 7
+        },
+        {
+          "values": [
+            3,
+            2,
+            2
+          ],
+          "N": 3,
+          "calls": [
+            {
+              "index_zero_based": 1,
+              "input": [
+                2,
+                2
+              ],
+              "gcd": 2,
+              "divisions": [
+                [
+                  2,
+                  2,
+                  1,
+                  0
+                ]
+              ]
+            },
+            {
+              "index_zero_based": 0,
+              "input": [
+                3,
+                2
+              ],
+              "gcd": 1,
+              "divisions": [
+                [
+                  3,
+                  2,
+                  1,
+                  1
+                ],
+                [
+                  2,
+                  1,
+                  2,
+                  0
+                ]
+              ]
+            }
+          ],
+          "printed_min_last": 2,
+          "printed_min_first": 5
+        }
+      ],
+      "attainment_families": 854,
+      "n_range": "3..16",
+      "N_range": "n..n+60"
+    },
+    "all_residue_transitions": {
+      "max_last_input": 144,
+      "max_call_slots": 8,
+      "unbounded_other_inputs": "all possible residues are represented",
+      "total_distinct_transitions": 2576,
+      "reachable_cost_bound_checks": 7886,
+      "minima": [
+        {
+          "n": 3,
+          "minimum_last_by_N": {
+            "3": 2,
+            "4": 3,
+            "5": 5,
+            "6": 8,
+            "7": 13,
+            "8": 21,
+            "9": 34,
+            "10": 55,
+            "11": 89,
+            "12": 144
+          }
+        },
+        {
+          "n": 4,
+          "minimum_last_by_N": {
+            "4": 2,
+            "5": 3,
+            "6": 5,
+            "7": 8,
+            "8": 13,
+            "9": 21,
+            "10": 34,
+            "11": 55,
+            "12": 89,
+            "13": 144
+          }
+        },
+        {
+          "n": 5,
+          "minimum_last_by_N": {
+            "5": 2,
+            "6": 3,
+            "7": 5,
+            "8": 8,
+            "9": 13,
+            "10": 21,
+            "11": 34,
+            "12": 55,
+            "13": 89,
+            "14": 144
+          }
+        },
+        {
+          "n": 6,
+          "minimum_last_by_N": {
+            "6": 2,
+            "7": 3,
+            "8": 5,
+            "9": 8,
+            "10": 13,
+            "11": 21,
+            "12": 34,
+            "13": 55,
+            "14": 89,
+            "15": 144
+          }
+        },
+        {
+          "n": 7,
+          "minimum_last_by_N": {
+            "7": 2,
+            "8": 3,
+            "9": 5,
+            "10": 8,
+            "11": 13,
+            "12": 21,
+            "13": 34,
+            "14": 55,
+            "15": 89,
+            "16": 144
+          }
+        },
+        {
+          "n": 8,
+          "minimum_last_by_N": {
+            "8": 2,
+            "9": 3,
+            "10": 5,
+            "11": 8,
+            "12": 13,
+            "13": 21,
+            "14": 34,
+            "15": 55,
+            "16": 89,
+            "17": 144
+          }
+        },
+        {
+          "n": 9,
+          "minimum_last_by_N": {
+            "9": 2,
+            "10": 3,
+            "11": 5,
+            "12": 8,
+            "13": 13,
+            "14": 21,
+            "15": 34,
+            "16": 55,
+            "17": 89,
+            "18": 144
+          }
+        }
+      ]
+    },
+    "ordered_lower_lemmas": {
+      "second_operand_bounds": 320400,
+      "first_operand_bounds_j_ge_2": 314918,
+      "fibonacci_product_checks": 12961,
+      "preserved_ordered_pilots": [
+        {
+          "n": 3,
+          "max_input": 90,
+          "ordered_tuples": 125580,
+          "observed_minimum_first_by_N": {
+            "3": 3,
+            "4": 5,
+            "5": 8,
+            "6": 13,
+            "7": 21,
+            "8": 34,
+            "9": 55,
+            "10": 89
+          },
+          "provenance": "Successful earlier exhaustive combinations_with_replacement pilot, session66705; results printed before this runner."
+        },
+        {
+          "n": 4,
+          "max_input": 35,
+          "ordered_tuples": 73815,
+          "observed_minimum_first_by_N": {
+            "4": 3,
+            "5": 5,
+            "6": 8,
+            "7": 13,
+            "8": 21,
+            "9": 34
+          },
+          "provenance": "Successful earlier exhaustive combinations_with_replacement pilot, session66705; results printed before this runner."
+        },
+        {
+          "n": 5,
+          "max_input": 21,
+          "ordered_tuples": 53130,
+          "observed_minimum_first_by_N": {
+            "5": 3,
+            "6": 5,
+            "7": 8,
+            "8": 13,
+            "9": 21
+          },
+          "provenance": "Successful earlier exhaustive combinations_with_replacement pilot, session66705; results printed before this runner."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1219 @@
+{
+  "source_sha256": "24ec8734521ed1b0897c8a1fd08231a6e32d8a1ea3ca11d050989d04d74b8a62",
+  "cases": [
+    {
+      "n": 1,
+      "mode": "full",
+      "items": 1,
+      "options": 1,
+      "native": {
+        "solutions": 1,
+        "initialization_mems": 50,
+        "search_mems": 26,
+        "updates": 1,
+        "bytes": 100,
+        "nodes": 2,
+        "profile": [
+          1,
+          1
+        ],
+        "label": "n1-full",
+        "command": [
+          "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+          "v129",
+          "m1"
+        ],
+        "input_sha256": "ef9ce904c6f4e8f228da7262cc9eb56f1adaa7ec88bf76a3e5c9b473ba798172",
+        "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+        "elapsed_seconds": 0.0037764439766760916
+      },
+      "models": {
+        "path": "results/gropes75/n1-full-tables.json.gz",
+        "sha256": "34212ac253ddf31da6b94aa421d82ed85d87d11027525bc2e7f4c025d51ab882",
+        "table_count": 1,
+        "uncompressed_sha256": "3aa8ac761c5a23906d30fb86ca2db09c9b391142a956cdb4263570adb94bfbe6"
+      }
+    },
+    {
+      "n": 1,
+      "mode": "idempotent",
+      "items": 0,
+      "options": 0,
+      "native": {
+        "solutions": 1,
+        "scope": "Empty-universe XC has the single empty solution; native DLX1 requires a nonempty header."
+      },
+      "models": {
+        "path": "results/gropes75/n1-idempotent-tables.json.gz",
+        "sha256": "34212ac253ddf31da6b94aa421d82ed85d87d11027525bc2e7f4c025d51ab882",
+        "table_count": 1,
+        "uncompressed_sha256": "3aa8ac761c5a23906d30fb86ca2db09c9b391142a956cdb4263570adb94bfbe6"
+      }
+    },
+    {
+      "n": 1,
+      "mode": "commutative",
+      "items": 1,
+      "options": 1,
+      "native": {
+        "solutions": 1,
+        "initialization_mems": 50,
+        "search_mems": 26,
+        "updates": 1,
+        "bytes": 100,
+        "nodes": 2,
+        "profile": [
+          1,
+          1
+        ],
+        "label": "n1-commutative",
+        "command": [
+          "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+          "v129",
+          "m1"
+        ],
+        "input_sha256": "ef9ce904c6f4e8f228da7262cc9eb56f1adaa7ec88bf76a3e5c9b473ba798172",
+        "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+        "elapsed_seconds": 0.005042664997745305
+      },
+      "models": {
+        "path": "results/gropes75/n1-commutative-tables.json.gz",
+        "sha256": "34212ac253ddf31da6b94aa421d82ed85d87d11027525bc2e7f4c025d51ab882",
+        "table_count": 1,
+        "uncompressed_sha256": "3aa8ac761c5a23906d30fb86ca2db09c9b391142a956cdb4263570adb94bfbe6"
+      }
+    },
+    {
+      "n": 1,
+      "mode": "loop",
+      "items": 0,
+      "options": 0,
+      "native": {
+        "solutions": 1,
+        "scope": "Empty-universe XC has the single empty solution; native DLX1 requires a nonempty header."
+      },
+      "models": {
+        "path": "results/gropes75/n1-loop-tables.json.gz",
+        "sha256": "34212ac253ddf31da6b94aa421d82ed85d87d11027525bc2e7f4c025d51ab882",
+        "table_count": 1,
+        "uncompressed_sha256": "3aa8ac761c5a23906d30fb86ca2db09c9b391142a956cdb4263570adb94bfbe6"
+      }
+    },
+    {
+      "n": 1,
+      "mode": "loop_literal",
+      "items": 0,
+      "options": 0,
+      "native": {
+        "solutions": 1,
+        "scope": "Empty-universe XC has the single empty solution; native DLX1 requires a nonempty header."
+      },
+      "models": {
+        "path": "results/gropes75/n1-loop_literal-tables.json.gz",
+        "sha256": "34212ac253ddf31da6b94aa421d82ed85d87d11027525bc2e7f4c025d51ab882",
+        "table_count": 1,
+        "uncompressed_sha256": "3aa8ac761c5a23906d30fb86ca2db09c9b391142a956cdb4263570adb94bfbe6"
+      }
+    },
+    {
+      "n": 2,
+      "mode": "full",
+      "items": 4,
+      "options": 4,
+      "native": {
+        "solutions": 2,
+        "initialization_mems": 275,
+        "search_mems": 229,
+        "updates": 13,
+        "bytes": 360,
+        "nodes": 5,
+        "profile": [
+          1,
+          2,
+          2
+        ],
+        "label": "n2-full",
+        "command": [
+          "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+          "v129",
+          "m1"
+        ],
+        "input_sha256": "2a2471f4ee2e56b119667915da99de2c4df0ebe85e3eef5c50a10a7c4d8f2ed9",
+        "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+        "elapsed_seconds": 0.004054578981595114
+      },
+      "models": {
+        "path": "results/gropes75/n2-full-tables.json.gz",
+        "sha256": "4ec42fc28bfe19b590bc4e530fed6d5f40d500b41d313d1c7486eea813074007",
+        "table_count": 2,
+        "uncompressed_sha256": "e7ec25c76bf6f023536cbdc16b1200b0eeb962ab643a72955092778c737d74a6"
+      }
+    },
+    {
+      "n": 2,
+      "mode": "idempotent",
+      "items": 2,
+      "options": 0,
+      "native": {
+        "solutions": 0,
+        "initialization_mems": 40,
+        "search_mems": 13,
+        "updates": 1,
+        "bytes": 96,
+        "nodes": 1,
+        "profile": [
+          1
+        ],
+        "label": "n2-idempotent",
+        "command": [
+          "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+          "v129",
+          "m1"
+        ],
+        "input_sha256": "654b12645f2c599b484f6b4c307ee04c70a80eba58c1c67a4ede55990378959b",
+        "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+        "elapsed_seconds": 0.003639964008470997
+      },
+      "models": {
+        "path": "results/gropes75/n2-idempotent-tables.json.gz",
+        "sha256": "2ca4529576310b626c1bd48352d283b521d029d54f195d8416536872d826e4c6",
+        "table_count": 0,
+        "uncompressed_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      }
+    },
+    {
+      "n": 2,
+      "mode": "commutative",
+      "items": 3,
+      "options": 4,
+      "native": {
+        "solutions": 2,
+        "initialization_mems": 209,
+        "search_mems": 169,
+        "updates": 8,
+        "bytes": 296,
+        "nodes": 5,
+        "profile": [
+          1,
+          2,
+          2
+        ],
+        "label": "n2-commutative",
+        "command": [
+          "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+          "v129",
+          "m1"
+        ],
+        "input_sha256": "215c89b0b155f7254f12f6e08abec20dbada9f1f036f08be3d6d0b830945ccb2",
+        "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+        "elapsed_seconds": 0.004832472011912614
+      },
+      "models": {
+        "path": "results/gropes75/n2-commutative-tables.json.gz",
+        "sha256": "4ec42fc28bfe19b590bc4e530fed6d5f40d500b41d313d1c7486eea813074007",
+        "table_count": 2,
+        "uncompressed_sha256": "e7ec25c76bf6f023536cbdc16b1200b0eeb962ab643a72955092778c737d74a6"
+      }
+    },
+    {
+      "n": 2,
+      "mode": "loop",
+      "items": 0,
+      "options": 0,
+      "native": {
+        "solutions": 1,
+        "scope": "Empty-universe XC has the single empty solution; native DLX1 requires a nonempty header."
+      },
+      "models": {
+        "path": "results/gropes75/n2-loop-tables.json.gz",
+        "sha256": "6f22ce7b487923af85dacaac240661cb1a61129f68d198e38b9a073d6acfbc24",
+        "table_count": 1,
+        "uncompressed_sha256": "af15af93a45146355cf2699af59a612c15a568316ec87f538cff8c19808e001b"
+      }
+    },
+    {
+      "n": 2,
+      "mode": "loop_literal",
+      "items": 1,
+      "options": 0,
+      "native": {
+        "solutions": 0,
+        "initialization_mems": 24,
+        "search_mems": 13,
+        "updates": 1,
+        "bytes": 64,
+        "nodes": 1,
+        "profile": [
+          1
+        ],
+        "label": "n2-loop_literal",
+        "command": [
+          "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+          "v129",
+          "m1"
+        ],
+        "input_sha256": "0437a71e208a9550cc8641e706badb1c55786868daf0b494d2973e31e8b16859",
+        "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+        "elapsed_seconds": 0.0019799740111920983
+      },
+      "models": {
+        "path": "results/gropes75/n2-loop_literal-tables.json.gz",
+        "sha256": "2ca4529576310b626c1bd48352d283b521d029d54f195d8416536872d826e4c6",
+        "table_count": 0,
+        "uncompressed_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      }
+    },
+    {
+      "n": 3,
+      "mode": "full",
+      "items": 9,
+      "options": 11,
+      "native": {
+        "solutions": 3,
+        "initialization_mems": 910,
+        "search_mems": 1304,
+        "updates": 79,
+        "bytes": 948,
+        "nodes": 14,
+        "profile": [
+          1,
+          3,
+          4,
+          4,
+          1,
+          1
+        ],
+        "label": "n3-full",
+        "command": [
+          "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+          "v129",
+          "m1"
+        ],
+        "input_sha256": "3e0b66e9159d3733dc273548dd0e3436bf291da717cbdbfdd0bfe42b311fdd32",
+        "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+        "elapsed_seconds": 0.0022675590007565916
+      },
+      "models": {
+        "path": "results/gropes75/n3-full-tables.json.gz",
+        "sha256": "4f060fa25f94fb28922878433416241d662991e6323df1332c6fcd717a0909a4",
+        "table_count": 3,
+        "uncompressed_sha256": "91f6a5b733988f6eea37fb6bfde4ad099ca5f1e587c5d3b7f7011013cfe4da26"
+      }
+    },
+    {
+      "n": 3,
+      "mode": "idempotent",
+      "items": 6,
+      "options": 2,
+      "native": {
+        "solutions": 1,
+        "initialization_mems": 265,
+        "search_mems": 156,
+        "updates": 10,
+        "bytes": 360,
+        "nodes": 3,
+        "profile": [
+          1,
+          1,
+          1
+        ],
+        "label": "n3-idempotent",
+        "command": [
+          "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+          "v129",
+          "m1"
+        ],
+        "input_sha256": "91d7e1b1858f5b14465bad93e6d29c62538a35a53bbf6ca3d924ee83c5dbf9f9",
+        "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+        "elapsed_seconds": 0.0017782629875000566
+      },
+      "models": {
+        "path": "results/gropes75/n3-idempotent-tables.json.gz",
+        "sha256": "36e5bdac69db3959017928c1532b5cb3aaebd99eda83bf27f82e4d06dd4a173b",
+        "table_count": 1,
+        "uncompressed_sha256": "88321919d0b37c3b247cbc3f920bb41567c2e17a0ae158a10386b652ad4be1f2"
+      }
+    },
+    {
+      "n": 3,
+      "mode": "commutative",
+      "items": 6,
+      "options": 10,
+      "native": {
+        "solutions": 3,
+        "initialization_mems": 587,
+        "search_mems": 822,
+        "updates": 43,
+        "bytes": 688,
+        "nodes": 13,
+        "profile": [
+          1,
+          3,
+          4,
+          4,
+          1
+        ],
+        "label": "n3-commutative",
+        "command": [
+          "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+          "v129",
+          "m1"
+        ],
+        "input_sha256": "144a01ffdb979a547f37b5b412ca26a9739fe0ca7df2aca409fd62f8d25a1d74",
+        "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+        "elapsed_seconds": 0.0017601980071049184
+      },
+      "models": {
+        "path": "results/gropes75/n3-commutative-tables.json.gz",
+        "sha256": "4f060fa25f94fb28922878433416241d662991e6323df1332c6fcd717a0909a4",
+        "table_count": 3,
+        "uncompressed_sha256": "91f6a5b733988f6eea37fb6bfde4ad099ca5f1e587c5d3b7f7011013cfe4da26"
+      }
+    },
+    {
+      "n": 3,
+      "mode": "loop",
+      "items": 2,
+      "options": 0,
+      "native": {
+        "solutions": 0,
+        "initialization_mems": 40,
+        "search_mems": 13,
+        "updates": 1,
+        "bytes": 96,
+        "nodes": 1,
+        "profile": [
+          1
+        ],
+        "label": "n3-loop",
+        "command": [
+          "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+          "v129",
+          "m1"
+        ],
+        "input_sha256": "2a65a75a6d3e637a7a5dac19d2a66e70244ef10705b40cb25aeb2369c88e0041",
+        "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+        "elapsed_seconds": 0.0017045170243363827
+      },
+      "models": {
+        "path": "results/gropes75/n3-loop-tables.json.gz",
+        "sha256": "2ca4529576310b626c1bd48352d283b521d029d54f195d8416536872d826e4c6",
+        "table_count": 0,
+        "uncompressed_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      }
+    },
+    {
+      "n": 3,
+      "mode": "loop_literal",
+      "items": 4,
+      "options": 0,
+      "native": {
+        "solutions": 0,
+        "initialization_mems": 75,
+        "search_mems": 13,
+        "updates": 1,
+        "bytes": 160,
+        "nodes": 1,
+        "profile": [
+          1
+        ],
+        "label": "n3-loop_literal",
+        "command": [
+          "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+          "v129",
+          "m1"
+        ],
+        "input_sha256": "6fe2a1cca8283a416e5dceb45b2b1da8daddfe51e1b4cd28f01653abda73aa24",
+        "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+        "elapsed_seconds": 0.004155055998126045
+      },
+      "models": {
+        "path": "results/gropes75/n3-loop_literal-tables.json.gz",
+        "sha256": "2ca4529576310b626c1bd48352d283b521d029d54f195d8416536872d826e4c6",
+        "table_count": 0,
+        "uncompressed_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      }
+    },
+    {
+      "n": 4,
+      "mode": "full",
+      "items": 16,
+      "options": 24,
+      "native": {
+        "solutions": 18,
+        "initialization_mems": 2313,
+        "search_mems": 8513,
+        "updates": 509,
+        "bytes": 1984,
+        "nodes": 81,
+        "profile": [
+          1,
+          4,
+          9,
+          12,
+          15,
+          18,
+          18,
+          2,
+          2
+        ],
+        "label": "n4-full",
+        "command": [
+          "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+          "v129",
+          "m1"
+        ],
+        "input_sha256": "aa405214287e6c89c9bd97b6ee912fb1bc465745d06b54b77f287778d5bf1f1f",
+        "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+        "elapsed_seconds": 0.00768787699053064
+      },
+      "models": {
+        "path": "results/gropes75/n4-full-tables.json.gz",
+        "sha256": "2663b738259fbce0d56ebc37472c5baeb4e70e4b8f291334805ad1a9397b52fe",
+        "table_count": 18,
+        "uncompressed_sha256": "fe07ef91d12c5bca5a10bd4c17aedaa21b45adb5b71640c8b5245dec75d7db2d"
+      }
+    },
+    {
+      "n": 4,
+      "mode": "idempotent",
+      "items": 12,
+      "options": 8,
+      "native": {
+        "solutions": 2,
+        "initialization_mems": 931,
+        "search_mems": 821,
+        "updates": 51,
+        "bytes": 944,
+        "nodes": 9,
+        "profile": [
+          1,
+          2,
+          2,
+          2,
+          2
+        ],
+        "label": "n4-idempotent",
+        "command": [
+          "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+          "v129",
+          "m1"
+        ],
+        "input_sha256": "eb786a856196addb19410596cf246ada74294e843e24d2507ca82622203df320",
+        "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+        "elapsed_seconds": 0.002197444991907105
+      },
+      "models": {
+        "path": "results/gropes75/n4-idempotent-tables.json.gz",
+        "sha256": "7e5f647fbe815cf383d8eda9ffa7e9ba87d0b4aa264ddfa6f752e56bf552acde",
+        "table_count": 2,
+        "uncompressed_sha256": "b60013ef4b4d34b6cd9c076a34af278a4cfef8752b5c2ca511237cc4c84ff603"
+      }
+    },
+    {
+      "n": 4,
+      "mode": "commutative",
+      "items": 10,
+      "options": 20,
+      "native": {
+        "solutions": 16,
+        "initialization_mems": 1324,
+        "search_mems": 4469,
+        "updates": 238,
+        "bytes": 1332,
+        "nodes": 59,
+        "profile": [
+          1,
+          4,
+          9,
+          13,
+          16,
+          16
+        ],
+        "label": "n4-commutative",
+        "command": [
+          "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+          "v129",
+          "m1"
+        ],
+        "input_sha256": "cca4fc319902f863d40ebc88fe04ff80cd640487ac503e11ae5ea1ccc6ad97b7",
+        "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+        "elapsed_seconds": 0.008818105008685961
+      },
+      "models": {
+        "path": "results/gropes75/n4-commutative-tables.json.gz",
+        "sha256": "9f7be3307467a73fb9f44f550b540a44a4ceb021a5aba66891b010af5e6e99b8",
+        "table_count": 16,
+        "uncompressed_sha256": "d8319832ee686a5d27d529d2aca31f8f60898515c89422602024ce235d9bda69"
+      }
+    },
+    {
+      "n": 4,
+      "mode": "loop",
+      "items": 6,
+      "options": 2,
+      "native": {
+        "solutions": 1,
+        "initialization_mems": 265,
+        "search_mems": 156,
+        "updates": 10,
+        "bytes": 360,
+        "nodes": 3,
+        "profile": [
+          1,
+          1,
+          1
+        ],
+        "label": "n4-loop",
+        "command": [
+          "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+          "v129",
+          "m1"
+        ],
+        "input_sha256": "569eee8ccd12e8aea3e40cd089894591aff1e0a6eda29d8307a84ab82d76bb6b",
+        "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+        "elapsed_seconds": 0.00196087101357989
+      },
+      "models": {
+        "path": "results/gropes75/n4-loop-tables.json.gz",
+        "sha256": "fe5abde8dcfec09afc0d5a71cb7752b7d158ae3ca2ff910932f8d1ba0e760a0d",
+        "table_count": 1,
+        "uncompressed_sha256": "e85a2ed8dcc7a94de26789b6d2078c4071492ba3a8bbd6d9da9084a5f9ef0833"
+      }
+    },
+    {
+      "n": 4,
+      "mode": "loop_literal",
+      "items": 9,
+      "options": 2,
+      "native": {
+        "solutions": 0,
+        "initialization_mems": 340,
+        "search_mems": 13,
+        "updates": 1,
+        "bytes": 448,
+        "nodes": 1,
+        "profile": [
+          1
+        ],
+        "label": "n4-loop_literal",
+        "command": [
+          "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+          "v129",
+          "m1"
+        ],
+        "input_sha256": "0fdf786a79b7ba3ae2bfced39e9f7ff038de15b661f27821f3b48f81a1574cd7",
+        "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+        "elapsed_seconds": 0.001674273022217676
+      },
+      "models": {
+        "path": "results/gropes75/n4-loop_literal-tables.json.gz",
+        "sha256": "2ca4529576310b626c1bd48352d283b521d029d54f195d8416536872d826e4c6",
+        "table_count": 0,
+        "uncompressed_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      }
+    },
+    {
+      "n": 5,
+      "mode": "full",
+      "items": 25,
+      "options": 45,
+      "native": {
+        "solutions": 120,
+        "initialization_mems": 5034,
+        "search_mems": 81245,
+        "updates": 4770,
+        "bytes": 3596,
+        "nodes": 716,
+        "profile": [
+          1,
+          5,
+          16,
+          36,
+          48,
+          72,
+          108,
+          114,
+          119,
+          117,
+          40,
+          40
+        ],
+        "label": "n5-full",
+        "command": [
+          "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+          "v129",
+          "m1"
+        ],
+        "input_sha256": "5503a7fd914969fe13866f235ec2a949307601c57b1679ac48066467fe3ea49a",
+        "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+        "elapsed_seconds": 0.004385928012197837
+      },
+      "models": {
+        "path": "results/gropes75/n5-full-tables.json.gz",
+        "sha256": "11991d81bc3fc06de606b2f685a349a29d70d6f085b48133f30be6db06c3c683",
+        "table_count": 120,
+        "uncompressed_sha256": "ce8e4ebc1394b2e3870bd1a4f5bd44e24d1e4f3fef278a43fc6521d40bbfe4ab"
+      }
+    },
+    {
+      "n": 5,
+      "mode": "idempotent",
+      "items": 20,
+      "options": 20,
+      "native": {
+        "solutions": 0,
+        "initialization_mems": 2429,
+        "search_mems": 3495,
+        "updates": 208,
+        "bytes": 1972,
+        "nodes": 22,
+        "profile": [
+          1,
+          3,
+          6,
+          6,
+          3,
+          3
+        ],
+        "label": "n5-idempotent",
+        "command": [
+          "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+          "v129",
+          "m1"
+        ],
+        "input_sha256": "07a76634a16f1035b5a622713376d46f1a6b7cfedaa7fc343f2e5a5b4b47e0fb",
+        "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+        "elapsed_seconds": 0.002138615003786981
+      },
+      "models": {
+        "path": "results/gropes75/n5-idempotent-tables.json.gz",
+        "sha256": "2ca4529576310b626c1bd48352d283b521d029d54f195d8416536872d826e4c6",
+        "table_count": 0,
+        "uncompressed_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      }
+    },
+    {
+      "n": 5,
+      "mode": "commutative",
+      "items": 15,
+      "options": 35,
+      "native": {
+        "solutions": 30,
+        "initialization_mems": 2614,
+        "search_mems": 22355,
+        "updates": 1221,
+        "bytes": 2300,
+        "nodes": 215,
+        "profile": [
+          1,
+          5,
+          16,
+          25,
+          41,
+          51,
+          43,
+          33
+        ],
+        "label": "n5-commutative",
+        "command": [
+          "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+          "v129",
+          "m1"
+        ],
+        "input_sha256": "4096fb05f863d2027a09d35ee441dab1eb46dde58f34fad874411f4bc0af4e76",
+        "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+        "elapsed_seconds": 0.0026690500089898705
+      },
+      "models": {
+        "path": "results/gropes75/n5-commutative-tables.json.gz",
+        "sha256": "91334b17ee6e3137ab1804c7c73c921136981dcb97dfd3e297ca19d408c66d58",
+        "table_count": 30,
+        "uncompressed_sha256": "35098c922a3ddbb934f48929bffd75dff02f241c9d6f48581f16dc97fc2166dc"
+      }
+    },
+    {
+      "n": 5,
+      "mode": "loop",
+      "items": 12,
+      "options": 8,
+      "native": {
+        "solutions": 2,
+        "initialization_mems": 931,
+        "search_mems": 821,
+        "updates": 51,
+        "bytes": 944,
+        "nodes": 9,
+        "profile": [
+          1,
+          2,
+          2,
+          2,
+          2
+        ],
+        "label": "n5-loop",
+        "command": [
+          "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+          "v129",
+          "m1"
+        ],
+        "input_sha256": "82cadebb8ae9fb9fd8a1ad4da22844fc10a58b5d5059f7d20a5389bd8653e271",
+        "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+        "elapsed_seconds": 0.0017311590199824423
+      },
+      "models": {
+        "path": "results/gropes75/n5-loop-tables.json.gz",
+        "sha256": "cc877f28c87e6d7bd7b86428cb0f41cb860f107b928cb376d49ba7210415a7eb",
+        "table_count": 2,
+        "uncompressed_sha256": "c1a3745674e90393f78a3fac248f036ba58eaf66346b7e47c19c8c623ec22949"
+      }
+    },
+    {
+      "n": 5,
+      "mode": "loop_literal",
+      "items": 16,
+      "options": 8,
+      "native": {
+        "solutions": 0,
+        "initialization_mems": 1093,
+        "search_mems": 13,
+        "updates": 1,
+        "bytes": 1056,
+        "nodes": 1,
+        "profile": [
+          1
+        ],
+        "label": "n5-loop_literal",
+        "command": [
+          "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+          "v129",
+          "m1"
+        ],
+        "input_sha256": "b6b70ab2b60cdb18e0f0392908dc3fb33edc63968f73a116d1d43230af4b163c",
+        "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+        "elapsed_seconds": 0.0016451140108983964
+      },
+      "models": {
+        "path": "results/gropes75/n5-loop_literal-tables.json.gz",
+        "sha256": "2ca4529576310b626c1bd48352d283b521d029d54f195d8416536872d826e4c6",
+        "table_count": 0,
+        "uncompressed_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      }
+    },
+    {
+      "n": 6,
+      "mode": "full",
+      "items": 36,
+      "options": 76,
+      "native": {
+        "solutions": 2880,
+        "initialization_mems": 9875,
+        "search_mems": 2037789,
+        "updates": 118486,
+        "bytes": 5912,
+        "nodes": 18160,
+        "profile": [
+          1,
+          6,
+          25,
+          80,
+          180,
+          240,
+          480,
+          1030,
+          1465,
+          1903,
+          2389,
+          2762,
+          2799,
+          2400,
+          2400
+        ],
+        "label": "n6-full",
+        "command": [
+          "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+          "v129",
+          "m1"
+        ],
+        "input_sha256": "b11364a2ffe843db8ab06295b35915a0a02abdac164667884b59581d6d2a3b6f",
+        "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+        "elapsed_seconds": 0.06399777700426057
+      },
+      "models": {
+        "path": "results/gropes75/n6-full-tables.json.gz",
+        "sha256": "1e7b52d19ccb87363c86472531a2532e8a8fd862d6c6a58857bab88f97279a56",
+        "table_count": 2880,
+        "uncompressed_sha256": "b7c40f31ac0429a67fb17b63440b4502b51788ee58cb0847b6114156b2ce6a32"
+      }
+    },
+    {
+      "n": 6,
+      "mode": "idempotent",
+      "items": 30,
+      "options": 40,
+      "native": {
+        "solutions": 0,
+        "initialization_mems": 5354,
+        "search_mems": 20253,
+        "updates": 1165,
+        "bytes": 3576,
+        "nodes": 93,
+        "profile": [
+          1,
+          4,
+          12,
+          24,
+          24,
+          24,
+          4
+        ],
+        "label": "n6-idempotent",
+        "command": [
+          "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+          "v129",
+          "m1"
+        ],
+        "input_sha256": "0c917851504772c3df1a5e9637987f2af9223cacc089e29e3b4418e17e639de6",
+        "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+        "elapsed_seconds": 0.0029600650013890117
+      },
+      "models": {
+        "path": "results/gropes75/n6-idempotent-tables.json.gz",
+        "sha256": "2ca4529576310b626c1bd48352d283b521d029d54f195d8416536872d826e4c6",
+        "table_count": 0,
+        "uncompressed_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      }
+    },
+    {
+      "n": 6,
+      "mode": "commutative",
+      "items": 21,
+      "options": 56,
+      "native": {
+        "solutions": 480,
+        "initialization_mems": 4720,
+        "search_mems": 254913,
+        "updates": 13706,
+        "bytes": 3656,
+        "nodes": 2766,
+        "profile": [
+          1,
+          6,
+          25,
+          61,
+          105,
+          241,
+          373,
+          528,
+          597,
+          589,
+          240
+        ],
+        "label": "n6-commutative",
+        "command": [
+          "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+          "v129",
+          "m1"
+        ],
+        "input_sha256": "860c399f797a5adc6d61648136912be485e3e00976e2450024ea51c8bb71bdca",
+        "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+        "elapsed_seconds": 0.008174924994818866
+      },
+      "models": {
+        "path": "results/gropes75/n6-commutative-tables.json.gz",
+        "sha256": "1aff7ad045debc4b9c25fd02a876a6e86b268c34c6f69106f06e44d6928169a2",
+        "table_count": 480,
+        "uncompressed_sha256": "3e05b15c7a9fe986193f95d20137556ee5fce69b10827037bc6bc6e838af66c9"
+      }
+    },
+    {
+      "n": 6,
+      "mode": "loop",
+      "items": 20,
+      "options": 20,
+      "native": {
+        "solutions": 0,
+        "initialization_mems": 2429,
+        "search_mems": 3495,
+        "updates": 208,
+        "bytes": 1972,
+        "nodes": 22,
+        "profile": [
+          1,
+          3,
+          6,
+          6,
+          3,
+          3
+        ],
+        "label": "n6-loop",
+        "command": [
+          "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+          "v129",
+          "m1"
+        ],
+        "input_sha256": "fa63613539dba56d2410673649d29a03c4a6387528b816900ce4dc84431c0a5a",
+        "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+        "elapsed_seconds": 0.0032060149824246764
+      },
+      "models": {
+        "path": "results/gropes75/n6-loop-tables.json.gz",
+        "sha256": "2ca4529576310b626c1bd48352d283b521d029d54f195d8416536872d826e4c6",
+        "table_count": 0,
+        "uncompressed_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      }
+    },
+    {
+      "n": 6,
+      "mode": "loop_literal",
+      "items": 25,
+      "options": 20,
+      "native": {
+        "solutions": 0,
+        "initialization_mems": 2764,
+        "search_mems": 13,
+        "updates": 1,
+        "bytes": 2112,
+        "nodes": 1,
+        "profile": [
+          1
+        ],
+        "label": "n6-loop_literal",
+        "command": [
+          "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+          "v129",
+          "m1"
+        ],
+        "input_sha256": "53182a464dceabadc0505def4004ffe1fdf379b5a9f502741d1c876a0156afb0",
+        "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+        "elapsed_seconds": 0.0015557240112684667
+      },
+      "models": {
+        "path": "results/gropes75/n6-loop_literal-tables.json.gz",
+        "sha256": "2ca4529576310b626c1bd48352d283b521d029d54f195d8416536872d826e4c6",
+        "table_count": 0,
+        "uncompressed_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      }
+    }
+  ],
+  "printed_tables": {
+    "tables": [
+      [
+        0,
+        1,
+        2,
+        3,
+        1,
+        0,
+        3,
+        2,
+        2,
+        3,
+        0,
+        1,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        3,
+        2,
+        1,
+        3,
+        2,
+        1,
+        0,
+        2,
+        1,
+        0,
+        3,
+        1,
+        0,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2,
+        1,
+        0,
+        2,
+        3,
+        3,
+        2,
+        1,
+        0,
+        2,
+        3,
+        0,
+        1
+      ],
+      [
+        0,
+        2,
+        3,
+        1,
+        3,
+        1,
+        0,
+        2,
+        1,
+        3,
+        2,
+        0,
+        2,
+        0,
+        1,
+        3
+      ],
+      [
+        0,
+        3,
+        1,
+        2,
+        2,
+        1,
+        3,
+        0,
+        3,
+        0,
+        2,
+        1,
+        1,
+        2,
+        0,
+        3
+      ]
+    ],
+    "isomorphism_class_sizes": [
+      4,
+      12,
+      2
+    ],
+    "all_six_transpositions_swap_last_two": true,
+    "functions": [
+      {
+        "f": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "xor_arguments": [
+          0,
+          3,
+          1,
+          2
+        ],
+        "ordinary_arguments": [
+          0,
+          3,
+          5,
+          4
+        ],
+        "mod4_values": [
+          0,
+          1,
+          2,
+          0
+        ]
+      },
+      {
+        "f": [
+          0,
+          3,
+          1,
+          2
+        ],
+        "xor_arguments": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "ordinary_arguments": [
+          0,
+          4,
+          3,
+          5
+        ],
+        "mod4_values": [
+          0,
+          0,
+          2,
+          3
+        ]
+      }
+    ]
+  },
+  "idempotent_spectrum": {
+    "1": {
+      "1": 1
+    },
+    "2": {
+      "1": 2
+    },
+    "3": {
+      "0": 2,
+      "3": 1
+    },
+    "4": {
+      "1": 16,
+      "4": 2
+    },
+    "5": {
+      "1": 80,
+      "4": 40
+    },
+    "6": {
+      "0": 480,
+      "3": 2400
+    }
+  },
+  "group_constructions": {
+    "noncommutative": [
+      {
+        "group": "S1",
+        "order": 1,
+        "identity_checks": 1
+      },
+      {
+        "group": "S2",
+        "order": 2,
+        "identity_checks": 8
+      },
+      {
+        "group": "S3",
+        "order": 6,
+        "identity_checks": 144
+      },
+      {
+        "group": "S4",
+        "order": 24,
+        "identity_checks": 5760
+      }
+    ],
+    "cyclic_groups_all_alpha_up_to": 40,
+    "scope": "Finite regression checks supplement the general symbolic proof in GROPES_NOTES.md."
+  },
+  "counterexample_76c": {
+    "n": 2,
+    "table": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "literal_remaining_items": [
+      "11"
+    ],
+    "literal_options": [],
+    "corrected_items": [],
+    "corrected_options": []
+  },
+  "scope": "Complete labelled table sets through n=5 from independent Latin enumeration, and through n=6 from independent mask and original DLX1 cover searches; general proofs are separate."
+}

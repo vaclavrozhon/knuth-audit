@@ -1,0 +1,268 @@
+{
+  "block": "V2-X0078",
+  "status": "checked_mathematical_scope",
+  "checked_at_utc": "2026-11-04T13:05:06.140225+00:00",
+  "edition": 3,
+  "printing": 1,
+  "physical_copy_verified": false,
+  "findings": [
+    "V2-C0238"
+  ],
+  "scope": "Polynomial-chain definitions494 through496 and first sentence497; exercises25–31. Remaining claims497 and matrix material498–499 deferred.",
+  "source_read": "sources/polyeval-chains-source-review.json",
+  "known_errata": [
+    {
+      "date": "2019-09-13",
+      "page": 496,
+      "description": "Preceding paragraph rewording does not correct final union."
+    },
+    {
+      "date": "1997-07-05",
+      "description": "Exercise25 multiplication already correct in this printing."
+    }
+  ],
+  "open": [
+    "Motzkin1955 abstract full text and1954 attribution.",
+    "Belaga1961 primary full paper; separate download is pending."
+  ],
+  "errata_source_hashes": [
+    {
+      "path_from_repository": "errata/text/all2-prepre.txt",
+      "sha256": "62a1ff323ca421f2640e2337f922dbf8cfc8e86c20d9b11acfc91221721c6f58"
+    },
+    {
+      "path_from_repository": "errata/text/all2-pre.txt",
+      "sha256": "c1735b70547678d739eae3a8d7b02872c737218eed7706a0aba8fb6fc21a6529"
+    },
+    {
+      "path_from_repository": "errata/text/all2.txt",
+      "sha256": "1c4d7f2259e147db0ebe84b4bf0ce8864b307afb4ccfbe48efcb1f5f5999ac58"
+    },
+    {
+      "path_from_repository": "errata/text/err2.txt",
+      "sha256": "1b5c93712c3c467a48679e0040ba6c5869998b25184dbd125a5d096ce96e9ab0"
+    },
+    {
+      "path_from_repository": "errata/text/err2-2e.txt",
+      "sha256": "cf2d9ced25e86f6fd9be0e4f82700a979fc174dff6860e7a4b7950292c24e154"
+    },
+    {
+      "path_from_repository": "errata/originals/err2.textxt",
+      "sha256": "8faa21566312314ec6bda0f8956913deb312517fd9fa688dcc0bf19e1f21962e"
+    }
+  ],
+  "verification": {
+    "examples": {
+      "exercise25_intermediate_products": 4,
+      "exercise25_output": "2*a1**2*a2 + 4*a1*a2*x + 2*a1 + 2*a2*x**2 - a8 + 2*x",
+      "exercise26_generic_map": true,
+      "exercise26_missing_polynomial": "x^3+1",
+      "C0238": "lambda1=x+x, lambda2=a*lambda1; A1=1, R1 empty, R-prime excludes0"
+    },
+    "normalization": {
+      "normalization_identities": 4,
+      "equation27": [
+        {
+          "n": 3,
+          "multiplications": 3,
+          "additions": 3,
+          "chain_steps": 2,
+          "parameter_steps": 4
+        },
+        {
+          "n": 5,
+          "multiplications": 4,
+          "additions": 5,
+          "chain_steps": 3,
+          "parameter_steps": 6
+        },
+        {
+          "n": 7,
+          "multiplications": 5,
+          "additions": 7,
+          "chain_steps": 4,
+          "parameter_steps": 8
+        },
+        {
+          "n": 9,
+          "multiplications": 6,
+          "additions": 9,
+          "chain_steps": 5,
+          "parameter_steps": 10
+        },
+        {
+          "n": 11,
+          "multiplications": 7,
+          "additions": 11,
+          "chain_steps": 6,
+          "parameter_steps": 12
+        }
+      ]
+    },
+    "algebraic_relations": [
+      {
+        "inputs": [
+          "a**2",
+          "a**3"
+        ],
+        "degree": 3,
+        "relation": "X0**3 - X1**2",
+        "matrix_shape": [
+          9,
+          10
+        ],
+        "integer_coefficients": true
+      },
+      {
+        "inputs": [
+          "a + b",
+          "a*b",
+          "a**2 + b**2"
+        ],
+        "degree": 2,
+        "relation": "X0**2 - 2*X1 - X2",
+        "matrix_shape": [
+          15,
+          10
+        ],
+        "integer_coefficients": true
+      },
+      {
+        "inputs": [
+          "a**2 + b",
+          "a*b",
+          "a + b**2"
+        ],
+        "degree": 4,
+        "relation": "-X0**3 + X0**2*X2**2 - 2*X0*X1**2*X2 + X0*X1*X2 + X0*X2 + X1**4 - 3*X1**3 + 3*X1**2 - X1 - X2**3",
+        "matrix_shape": [
+          45,
+          35
+        ],
+        "integer_coefficients": true
+      }
+    ],
+    "status": "passed",
+    "pid": 1596703,
+    "seconds": 0.2389428879832849,
+    "completed_at_utc": "2026-11-04T12:53:51.596443+00:00",
+    "scope": "Exact witnesses, not a finite-case proof of general lower bounds."
+  },
+  "artifacts": [
+    {
+      "path": "notes/polyeval-chains.md",
+      "bytes": 14853,
+      "sha256": "6f4e6c53f673811b58b70d4d4114f59b84aca4f6a3c3f135e1254c940bd88c58"
+    },
+    {
+      "path": "verify_polyeval_chains.py",
+      "bytes": 5351,
+      "sha256": "2bd7e24c4077cf0629ed356f81b75a9cd9daca314109ce5948bcfb465b720d0a"
+    },
+    {
+      "path": "reports/C0238-addition-bound-result-set-union.txt",
+      "bytes": 1291,
+      "sha256": "0223e4ba8180452659806e90233f3731378f71e5bd50982ab79d386c76e8d3f9"
+    },
+    {
+      "path": "results/polyeval-chains.json",
+      "bytes": 2133,
+      "sha256": "f25800e90f6f4720b26f1c1ecbda35d9f96c577e582699282c5a9cdac725d314"
+    },
+    {
+      "path": "results/polyeval-chains.log",
+      "bytes": 1519,
+      "sha256": "650954f512d02c926e1febb87a258b6acad269bfc80c071d0f21b391c4504986"
+    },
+    {
+      "path": "results/polyeval-chains-run.json",
+      "bytes": 451,
+      "sha256": "f75469de275217443c77302bf78d590546397bd4f5a49780dd55bcf72c24d551"
+    },
+    {
+      "path": "sources/polyeval-chains-source-review.json",
+      "bytes": 1515,
+      "sha256": "683aa88de1250e4c3fbf585bce9039895b75dfc72ec0d35d9905fa1de4966e5b"
+    },
+    {
+      "path": "sources/polyeval-chains-early-access.json",
+      "bytes": 794,
+      "sha256": "8705fa9bce1c080a154f43a32726b507639d17056eaed0308e88e701fb14d97c"
+    },
+    {
+      "path": "sources/polyeval-chains-errata.txt",
+      "bytes": 12303,
+      "sha256": "c1f1b7835df2f047d8c46dfe27bac91d1fe0a52a14b856ecc4efb68bf4a7753d"
+    },
+    {
+      "path": "sources/ams-1955-61-02.html",
+      "bytes": 28808,
+      "sha256": "8d9ada3c58da78a44d58b30276f91a8ef587fdd6d171835853e85da2df42be2c"
+    },
+    {
+      "path": "sources/belaga-1958-mathnet.html",
+      "bytes": 11231,
+      "sha256": "5940cea55158afcc20ed5ffc92e6fe38fde9fa4056de7ee535f93852d2df05fb"
+    },
+    {
+      "path": "sources/belaga-1958-download.html",
+      "bytes": 11355,
+      "sha256": "be865fe770df9a876d8a07bb2474c2dee772922f0c7196e65725e1a873e4b3f1"
+    },
+    {
+      "path": "sources/motzkin-1955-crossref.json",
+      "bytes": 11443,
+      "sha256": "ca86d49cd046a2631e7d5c49aa98cd501a367bd888a36fa9a0d3de427437de2f"
+    },
+    {
+      "path": "sources/motzkin-1955-meeting-download.html",
+      "bytes": 29047,
+      "sha256": "7db00660a2d5bf534ee3ab32175e2293a2c293e6c329b74c5f6a35da965ead8e"
+    },
+    {
+      "path": "sources/problemy-kibernetiki-index.html",
+      "bytes": 92265,
+      "sha256": "1f5ac3b8a107bd84a46fbe75a98e568a8a512a35ada34fe941e1fdb0800e10ed"
+    },
+    {
+      "path": "images/vol2-p494.png",
+      "bytes": 328701,
+      "sha256": "1da2f24aceba93a52ae28a4300efa1a727a4b6ff420c8a7c5d438726fb136bcb"
+    },
+    {
+      "path": "images/vol2-p495.png",
+      "bytes": 286918,
+      "sha256": "8850fa109cd164785f63aaae34eef732240ce25cc4df6087fe945c6e2330ec9f"
+    },
+    {
+      "path": "images/vol2-p496.png",
+      "bytes": 342901,
+      "sha256": "36b7c007f8d7c287e1830f6a98ec3590454ca5031266d8ce1bee34c80a5cb083"
+    },
+    {
+      "path": "images/vol2-p497.png",
+      "bytes": 364552,
+      "sha256": "4508c56ea317ab7f07ea149bfef3ca1c75d394a81f274d56b73ba8be77b7efac"
+    },
+    {
+      "path": "images/vol2-p517.png",
+      "bytes": 241111,
+      "sha256": "35f479399de47f1a69638646b9388d14bfd9bf1288fae2fc1826fd16e13344b1"
+    },
+    {
+      "path": "images/vol2-p518.png",
+      "bytes": 355363,
+      "sha256": "54ab295d922c66c0757d128bb92ab11483b1924117cbe36f679f03c7d0d34e93"
+    },
+    {
+      "path": "images/vol2-p702.png",
+      "bytes": 377433,
+      "sha256": "bf8357f4374e9b6e554435baf0ccdfd5e02a2adcff2cc45f3a9b83727c19977c"
+    },
+    {
+      "path": "images/vol2-p703.png",
+      "bytes": 321084,
+      "sha256": "57e49b8ecac650a7c1b2cf7506e97634a5d586f424a8b85c8a6b9763408d4fd4"
+    }
+  ]
+}

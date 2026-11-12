@@ -1,0 +1,103 @@
+{
+  "reviewed_at_utc": "2026-11-06T11:28:30.074080+00:00",
+  "read_original_pages": [
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    587,
+    588,
+    589,
+    590
+  ],
+  "scope": "F and exercises 17–19, 22–23, 25–30, 32–33; G, exercise 24 and exercise 31 continue separately. Original 139 was read in the preceding normal-methods block.",
+  "cross_references": [
+    {
+      "volume": "Volume 3 edition 2 (1998)",
+      "pages": [
+        137,
+        636
+      ],
+      "scope": "Definition of V_n and explicit periodic delta_0 formula in 5.2.2-46/48 visually reread. First edition unavailable; notation difference is not a new finding."
+    }
+  ],
+  "primary_records_read": [
+    {
+      "url": "https://link.springer.com/article/10.1007/BF02241999",
+      "title": "Sampling from binomial and poisson distributions: A method with bounded computation times",
+      "authors": [
+        "J. H. Ahrens",
+        "U. Dieter"
+      ],
+      "publication": "Computing 25 (1980), 193–208",
+      "scope": "Publisher metadata and abstract; full text requires access. Alternative rejection method, not a proof of the book’s particular quantile approximation g."
+    },
+    {
+      "url": "https://tugraz.elsevierpure.com/de/publications/sampling-from-binomial-and-poisson-distributions-a-method-with-bo/",
+      "scope": "Institutional metadata and abstract agree with publisher; no full-text reading."
+    },
+    {
+      "url": "https://tugraz.elsevierpure.com/en/publications/generating-gamma-variates-by-a-modified-rejection-technique/",
+      "authors": [
+        "Joachim Ahrens",
+        "Ulrich Dieter"
+      ],
+      "publication": "Communications of the ACM 25 (1982), 47–54",
+      "scope": "Institutional metadata and abstract. Does not establish the original 134 historical timing ratio."
+    }
+  ],
+  "quick_access_attempts": [
+    {
+      "url": "https://dl.acm.org/doi/pdf/10.1145/358315.358390",
+      "result": "403 Forbidden"
+    }
+  ],
+  "errata": {
+    "layers": [
+      "all2-prepre",
+      "all2-pre",
+      "all2",
+      "err2",
+      "err2.textxt"
+    ],
+    "freshness": "6 November 2026 copies; no new fetch needed.",
+    "search": "Original 136–142 and 587–590; Poisson, geometric, binomial, mean, iterations, continuous CDF and index terms.",
+    "visually_inspected": [
+      "all2-prepre 8",
+      "all2-prepre 33",
+      "all2 3"
+    ],
+    "known": [
+      "N2 cumulative-boundary comparison and explicit return, 1999-06-29.",
+      "B1/B2 renamed N1/N2, 2011-01-06.",
+      "Seneschol → Seneschal, 2006-03-25."
+    ],
+    "editorial": [
+      "Bitwise notation 2005 and 2024.",
+      "Find added to exercise 29 in 1997.",
+      "Cross-reference 7.1 → 7.1.3 in 2006.",
+      "Integer-valued wording 2009."
+    ],
+    "no_matching_correction_found": [
+      "V2-C0056",
+      "V2-C0057"
+    ]
+  },
+  "factual_gaps": [
+    "Original 137: historical experimental recommendation alpha=7/8 not independently checked.",
+    "Original 134 timing ratio remains unverified despite new metadata check."
+  ],
+  "bibliography_skips": [
+    "Full Tocher 1954 and Bentley–Saxe/Seneschal sources and priority claims not independently audited.",
+    "Personal attributions to Ahrens, Léger, Brent and Wallace not independently established.",
+    "Full Ahrens–Dieter 1980 and 1982 articles not read."
+  ],
+  "mathematical_scope_limits": [
+    "Quantile correction is proved under the stated efficient-approximation premise with epsilon<1/2; no concrete globally accurate g constructed.",
+    "Finite bit-grid constructions approximate ideal continuous laws.",
+    "Exponential pair bijections and multiplicities hold almost everywhere; boundary null sets do not affect density proofs."
+  ]
+}

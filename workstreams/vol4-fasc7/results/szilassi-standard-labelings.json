@@ -1,0 +1,307 @@
+{
+  "scope": "Complete standard count and each possible interpretation of changing one Y to---; original coordinates retained for the word lower.",
+  "solutions": [
+    {
+      "j00_j01": "+",
+      "j00_j02": ">",
+      "j01_j02": ">",
+      "j01_j14": "<",
+      "j02_j03": ">",
+      "j03_j05": ">",
+      "j04_j05": "<",
+      "j04_j06": "-",
+      "j04_j07": ">",
+      "j05_j12": "+",
+      "j06_j09": "-",
+      "j06_j10": "-",
+      "j07_j11": "+",
+      "j07_j13": ">",
+      "j08_j09": ">",
+      "j08_j12": "-",
+      "j09_j10": ">",
+      "j10_j11": ">",
+      "j12_j14": "+",
+      "j13_j14": ">"
+    },
+    {
+      "j00_j01": "+",
+      "j00_j02": ">",
+      "j01_j02": ">",
+      "j01_j14": "<",
+      "j02_j03": ">",
+      "j03_j05": ">",
+      "j04_j05": "<",
+      "j04_j06": "-",
+      "j04_j07": ">",
+      "j05_j12": "+",
+      "j06_j09": ">",
+      "j06_j10": "<",
+      "j07_j11": "+",
+      "j07_j13": ">",
+      "j08_j09": ">",
+      "j08_j12": "-",
+      "j09_j10": ">",
+      "j10_j11": ">",
+      "j12_j14": "+",
+      "j13_j14": ">"
+    }
+  ],
+  "tree": [
+    {
+      "parent": null,
+      "branch": null,
+      "propagation": [
+        {
+          "constraint": "j01",
+          "variable": "j00_j01",
+          "before": "+-<>",
+          "after": "+",
+          "supporting_rows": [
+            ">+<"
+          ]
+        },
+        {
+          "constraint": "j02",
+          "variable": "j00_j02",
+          "before": "+-<>",
+          "after": ">",
+          "supporting_rows": [
+            ">>>"
+          ]
+        },
+        {
+          "constraint": "j04",
+          "variable": "j04_j06",
+          "before": "+-<>",
+          "after": "-",
+          "supporting_rows": [
+            "<>-"
+          ]
+        },
+        {
+          "constraint": "j05",
+          "variable": "j05_j12",
+          "before": "+-<>",
+          "after": "+",
+          "supporting_rows": [
+            "<+>"
+          ]
+        },
+        {
+          "constraint": "j06",
+          "variable": "j06_j10",
+          "before": "+-<>",
+          "after": "-<",
+          "supporting_rows": [
+            "-<>",
+            "---"
+          ]
+        },
+        {
+          "constraint": "j06",
+          "variable": "j06_j09",
+          "before": "+-<>",
+          "after": "->",
+          "supporting_rows": [
+            "-<>",
+            "---"
+          ]
+        },
+        {
+          "constraint": "j07",
+          "variable": "j07_j11",
+          "before": "+-<>",
+          "after": "+",
+          "supporting_rows": [
+            ">+>"
+          ]
+        },
+        {
+          "constraint": "j09",
+          "variable": "j09_j10",
+          "before": "+-<>",
+          "after": ">",
+          "supporting_rows": [
+            ">->",
+            ">>>"
+          ]
+        },
+        {
+          "constraint": "j09",
+          "variable": "j08_j09",
+          "before": "+-<>",
+          "after": ">",
+          "supporting_rows": [
+            ">->",
+            ">>>"
+          ]
+        },
+        {
+          "constraint": "j10",
+          "variable": "j10_j11",
+          "before": "+-<>",
+          "after": ">",
+          "supporting_rows": [
+            ">->",
+            "><>"
+          ]
+        },
+        {
+          "constraint": "j12",
+          "variable": "j08_j12",
+          "before": "+-<>",
+          "after": "-",
+          "supporting_rows": [
+            "+-+"
+          ]
+        },
+        {
+          "constraint": "j12",
+          "variable": "j12_j14",
+          "before": "+-<>",
+          "after": "+",
+          "supporting_rows": [
+            "+-+"
+          ]
+        }
+      ],
+      "fixed_point": {
+        "j00_j01": "+",
+        "j00_j02": ">",
+        "j01_j02": ">",
+        "j01_j14": "<",
+        "j02_j03": ">",
+        "j03_j05": ">",
+        "j04_j05": "<",
+        "j04_j06": "-",
+        "j04_j07": ">",
+        "j05_j12": "+",
+        "j06_j09": "->",
+        "j06_j10": "-<",
+        "j07_j11": "+",
+        "j07_j13": ">",
+        "j08_j09": ">",
+        "j08_j12": "-",
+        "j09_j10": ">",
+        "j10_j11": ">",
+        "j12_j14": "+",
+        "j13_j14": ">"
+      },
+      "split_variable": "j06_j09"
+    },
+    {
+      "parent": 0,
+      "branch": {
+        "j06_j09": "-"
+      },
+      "propagation": [
+        {
+          "constraint": "j06",
+          "variable": "j06_j10",
+          "before": "-<",
+          "after": "-",
+          "supporting_rows": [
+            "---"
+          ]
+        }
+      ],
+      "fixed_point": {
+        "j00_j01": "+",
+        "j00_j02": ">",
+        "j01_j02": ">",
+        "j01_j14": "<",
+        "j02_j03": ">",
+        "j03_j05": ">",
+        "j04_j05": "<",
+        "j04_j06": "-",
+        "j04_j07": ">",
+        "j05_j12": "+",
+        "j06_j09": "-",
+        "j06_j10": "-",
+        "j07_j11": "+",
+        "j07_j13": ">",
+        "j08_j09": ">",
+        "j08_j12": "-",
+        "j09_j10": ">",
+        "j10_j11": ">",
+        "j12_j14": "+",
+        "j13_j14": ">"
+      },
+      "result": "solution"
+    },
+    {
+      "parent": 0,
+      "branch": {
+        "j06_j09": ">"
+      },
+      "propagation": [
+        {
+          "constraint": "j06",
+          "variable": "j06_j10",
+          "before": "-<",
+          "after": "<",
+          "supporting_rows": [
+            "-<>"
+          ]
+        }
+      ],
+      "fixed_point": {
+        "j00_j01": "+",
+        "j00_j02": ">",
+        "j01_j02": ">",
+        "j01_j14": "<",
+        "j02_j03": ">",
+        "j03_j05": ">",
+        "j04_j05": "<",
+        "j04_j06": "-",
+        "j04_j07": ">",
+        "j05_j12": "+",
+        "j06_j09": ">",
+        "j06_j10": "<",
+        "j07_j11": "+",
+        "j07_j13": ">",
+        "j08_j09": ">",
+        "j08_j12": "-",
+        "j09_j10": ">",
+        "j10_j11": ">",
+        "j12_j14": "+",
+        "j13_j14": ">"
+      },
+      "result": "solution"
+    }
+  ],
+  "Y_changes": [
+    {
+      "junction": "j04",
+      "point": [
+        "314480469/1000000",
+        "7154541/62500"
+      ],
+      "local_before": "<>-",
+      "local_after": "---",
+      "invalid_junctions": [
+        "j05",
+        "j07"
+      ],
+      "changed_boundary_lines": [
+        "j04_j05",
+        "j04_j07"
+      ],
+      "is_other_standard_solution": false
+    },
+    {
+      "junction": "j06",
+      "point": [
+        "85877578113/280000000",
+        "31780546853/280000000"
+      ],
+      "local_before": "-<>",
+      "local_after": "---",
+      "invalid_junctions": [],
+      "changed_boundary_lines": [],
+      "is_other_standard_solution": true
+    }
+  ],
+  "valid_changed_Y": "j06",
+  "lower_on_page_Y": "j04"
+}

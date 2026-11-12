@@ -1,0 +1,48 @@
+{
+  "retrieved_utc": "2026-11-01T16:22:02.749868+00:00",
+  "access": "web tool; bibliographic/read-scope record, not a raw page snapshot",
+  "sources": [
+    {
+      "url": "https://www.newadvent.org/fathers/250106.htm",
+      "read_scope": "VI.22.1\u20132, Hippolytus sixteen-year paschal canon; Eusebius primary historical account in English translation. Direct urllib fetch403; read through web tool."
+    },
+    {
+      "url": "https://link.springer.com/book/10.1007/978-1-4613-0079-3",
+      "read_scope": "Title, translator and copyright2002 metadata."
+    },
+    {
+      "url": "https://www.reingold.co/calendars.shtml",
+      "read_scope": "Book titles, edition years and scope descriptions; no whole book read."
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.3172",
+      "read_scope": "Authors,volume53,issue4,pages937\u2013970,online date2022-12-03,abstract."
+    },
+    {
+      "url": "https://books.google.com/books/about/Puzzles_and_paradoxes.html?id=07w-AAAAIAAJ",
+      "read_scope": "Original1965 bibliography only."
+    },
+    {
+      "url": "https://books.google.com/books?id=P-gvDwAAQBAJ",
+      "read_scope": "Reprint table of contents, chapter10 starts168 and next chapter185; chapter not read."
+    }
+  ],
+  "failed_accesses": [
+    {
+      "url": "https://www.tara.tcd.ie/bitstreams/b030bd51-98e8-4e85-8fbf-7ac403e6ea7f/download",
+      "status": 403
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1002/spe.3172",
+      "status": 429
+    },
+    {
+      "url": "https://dl.acm.org/doi/10.1145/368996.369018",
+      "status": "web tool unavailable"
+    },
+    {
+      "url": "https://dl.acm.org/doi/10.1145/366920.366980",
+      "status": 403
+    }
+  ]
+}

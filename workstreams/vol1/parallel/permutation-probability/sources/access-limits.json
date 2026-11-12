@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-01T18:18:30.918559+00:00",
+  "limits": [
+    {
+      "source": "Mitchell1968",
+      "attempts": [
+        {
+          "url": "https://www.ams.org/mcom/1968-22-102/S0025-5718-68-99877-3/S0025-5718-68-99877-3.pdf",
+          "status": 403
+        },
+        {
+          "url": "https://www.ams.org/journals/mcom/1968-22-102/S0025-5718-68-99877-3/S0025-5718-68-99877-3.pdf",
+          "status": 403
+        },
+        {
+          "url": "https://www.jstor.org/stable/pdf/2004669.pdf",
+          "status": 420
+        },
+        {
+          "url": "https://electronicsandbooks.com/edt/manual/Magazine/M/Mathematics%20of%20Computation/1960-2002/pdf/1968_v022_n102/2004669.pdf",
+          "status": "No route to host; no document acquired"
+        }
+      ],
+      "available": "Primary Crossref metadata saved; uncertified independent high-precision numerical cross-check"
+    },
+    {
+      "source": "Todhunter1860 Algebra2nd edition§762",
+      "url": "https://books.google.cz/books?id=3jADAAAAQAAJ&pg=RA2-PA486",
+      "available": "Public Google Books SearchWithinVolume2 returns section762 on printed page486",
+      "limits": "Public PDF download429; image endpointreturns image not available placeholder",
+      "searched_archive": "No 1860 item found;1858/later editions are different witnesses"
+    },
+    {
+      "source": "Dickman1930 original",
+      "limits": "Original paper not located in accessible primary scan by title, author and journal searches; Knuth and TrabbPardo1976 primary report§§9–10 available",
+      "additional_attempts": [
+        "ADS abstract returned405; articles.adsabs.harvard.edu PDF/full not accessible",
+        "zbmath bibliographic link403"
+      ]
+    },
+    {
+      "source": "DeMoivre1967 Chelsea reprint",
+      "limits": "Known official erratum, but physical reprint title/copyright page not acquired"
+    },
+    {
+      "source": "Knuth-Trabb Pardo1976 journal printing",
+      "available": "Primary Stanford report pages39-43 read; DOI metadata and known page343 erratum",
+      "limits": "Published journal page343 image not independently acquired"
+    }
+  ]
+}

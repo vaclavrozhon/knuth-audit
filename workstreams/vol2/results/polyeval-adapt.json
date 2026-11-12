@@ -1,0 +1,45 @@
+{
+  "low_degrees": {
+    "quartic_symbolic_identities": 2,
+    "quintic_generic_cubic_reduction": true,
+    "quintic_examples": 3,
+    "mix_instructions": {
+      "LDA": 1,
+      "FADD": 5,
+      "STA": 3,
+      "FMUL": 4
+    },
+    "quintic_residual": "-x**2*(40*t**3 - 24*t**2*u4 + 2*t*u3 + 4*t*u4**2 + u2 - u3*u4)",
+    "scope": "Exact algebra and instruction/data-flow counts; no universal floating-point stability or instruction-minimality claim.",
+    "status": "passed",
+    "pid": 1595155,
+    "seconds": 0.19508830300765112,
+    "completed_at_utc": "2026-11-04T12:38:51.793183+00:00"
+  },
+  "sextics": {
+    "knuth_generic_cubic_reduction": true,
+    "knuth_examples": 3,
+    "pan_residual_identity": "x*(243*t*u3 - 162*t*u4*u5 + 45*t*u5**3 - 243*u1 + 81*u2*u5 - 27*u3*u5**2 + 9*u4*u5**3 - 2*u5**5)/243",
+    "pan_example_and_optimization": true,
+    "pan_even_family_D_N_zero": true,
+    "pan_impossible_D_zero_N_nonzero": "x^6+x",
+    "scope": "All identities are symbolic; general sextic leading coefficient is restored by one final multiplication.",
+    "status": "passed",
+    "pid": 1595159,
+    "seconds": 0.5365262720151804,
+    "completed_at_utc": "2026-11-04T12:38:53.056923+00:00"
+  },
+  "eve": {
+    "exercise24_solutions": 2,
+    "c3_q": "20*W + 20",
+    "constant_remainder_symbolic_checks": 7,
+    "operation_counts_n3_through9": true,
+    "clockwise_witness": "f(z)=(z-1)^4; d arg f(it)/dt=-4/(1+t^2)",
+    "odd_degree_boundary": "x^3+x: c=0, a2=0, q(W)=W+1",
+    "scope": "Finite symbolic checks supplement, but do not replace, the general proof of Eve's root-location lemma.",
+    "status": "passed",
+    "pid": 1595161,
+    "seconds": 0.25991619302658364,
+    "completed_at_utc": "2026-11-04T12:38:54.034053+00:00"
+  }
+}

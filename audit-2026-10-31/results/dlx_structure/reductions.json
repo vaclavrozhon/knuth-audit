@@ -1,0 +1,133 @@
+{
+  "status": "verified",
+  "checked_at_utc": "2026-11-01T18:16:26.361157+00:00",
+  "source_sha256": "3a8d0e0225efe32650d229fa953aba8e0b56bbaaa3e75b6879550c5fc61965b7",
+  "independent_subset_sha256": "d2cba63121d207596f5a70f4056bbe175aa70539578eda0afca6b83c028210d1",
+  "counts": {
+    "cases": 5217,
+    "original_solutions": 5379,
+    "total_splits": 3379,
+    "max_output_rows": 58,
+    "max_output_columns": 52
+  },
+  "known_2025_01_02_erratum": [
+    {
+      "broken": true,
+      "solutions": 2
+    },
+    {
+      "broken": false,
+      "solutions": 4
+    }
+  ],
+  "author_dlx_examples": [
+    {
+      "n": 3,
+      "row_masks": [
+        1,
+        3,
+        5,
+        7,
+        2,
+        4
+      ],
+      "solutions": 4,
+      "initialization_mems": 254,
+      "search_mems": 303,
+      "updates": 14,
+      "bytes": 396,
+      "nodes": 8,
+      "profile": [
+        1,
+        3,
+        3,
+        1
+      ],
+      "label": "reduction-original",
+      "command": [
+        "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+        "v129",
+        "m1"
+      ],
+      "input_sha256": "4935bb0fb177c5bb4a2cca7c595320ea4ce17c002d986c16deefeb1aea4b51bf",
+      "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+      "elapsed_seconds": 0.0022922150092199445
+    },
+    {
+      "n": 5,
+      "row_masks": [
+        2,
+        10,
+        22,
+        30,
+        8,
+        16,
+        3,
+        5
+      ],
+      "solutions": 2,
+      "initialization_mems": 418,
+      "search_mems": 405,
+      "updates": 22,
+      "bytes": 592,
+      "nodes": 7,
+      "profile": [
+        1,
+        2,
+        1,
+        2,
+        1
+      ],
+      "label": "reduction-broken",
+      "command": [
+        "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+        "v129",
+        "m1"
+      ],
+      "input_sha256": "67840b794b8ed387f714119d5af302bc080da29a5eb8bc0830d120ade5bb74bd",
+      "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+      "elapsed_seconds": 0.0015470510115846992
+    },
+    {
+      "n": 5,
+      "row_masks": [
+        2,
+        10,
+        20,
+        28,
+        8,
+        16,
+        3,
+        5
+      ],
+      "solutions": 4,
+      "initialization_mems": 382,
+      "search_mems": 451,
+      "updates": 22,
+      "bytes": 560,
+      "nodes": 10,
+      "profile": [
+        1,
+        2,
+        3,
+        3,
+        1
+      ],
+      "label": "reduction-corrected",
+      "command": [
+        "/tmp/knuth-vol4b-dlx1-0gl4dsmo/dlx1",
+        "v129",
+        "m1"
+      ],
+      "input_sha256": "d85c76ff60581c2077d50cf37ffd2a0b1f43a5df301da3327d5c6d7f28df1cd0",
+      "binary_sha256": "77a90f6f612217bce88cba0043d5038911f5e616036ff1c3a31490bbdfdf4323",
+      "elapsed_seconds": 0.001909101993078366
+    }
+  ],
+  "zero_dimension": {
+    "matsui_valid": true,
+    "posting_empty_row_violates_input_definition": true,
+    "resolution": "Use the original construction for 0x0; current replacement needs n>0."
+  },
+  "scope": "Every transformed solution projects uniquely to an original solution; all generated solutions compared, including duplicates, empty columns and 0x0. General bijections and exact truncated-subtraction size bound are proved in notes."
+}

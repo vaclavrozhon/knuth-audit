@@ -1,0 +1,121 @@
+{
+  "at_utc": "2026-11-02T14:07:51.377985+00:00",
+  "source_sha256": "f63d5ef5aecb424fb49e2b9a849e7a2173a43e2ff0baa16618c8e9f07a02d2db",
+  "experiment_sha256": "d5c6ee51a14c47ff1da42b9112dfdb26a5552a9ca383475d9f614554b492a39c",
+  "calibration_sha256": "e5d5e8aa97aff1b111cdec85ecbb6941c00814f7ef6a2bcbc7d3c3beeb0b6291",
+  "records": 1000000,
+  "all_records_well_formed": true,
+  "finite_population": 59487568920,
+  "equal": [
+    {
+      "hits": 932090,
+      "probability": 0.93209,
+      "iid_95pct_wilson_interval": [
+        0.9315952282236967,
+        0.9325814520771721
+      ]
+    },
+    {
+      "hits": 53421,
+      "probability": 0.053421,
+      "iid_95pct_wilson_interval": [
+        0.05298197295211326,
+        0.05386345806438402
+      ]
+    },
+    {
+      "hits": 11057,
+      "probability": 0.011057,
+      "iid_95pct_wilson_interval": [
+        0.010853917932870013,
+        0.011263838561499906
+      ]
+    },
+    {
+      "hits": 3432,
+      "probability": 0.003432,
+      "iid_95pct_wilson_interval": [
+        0.003319267982177171,
+        0.00354854709421472
+      ]
+    }
+  ],
+  "sum7": [
+    {
+      "hits": 897172,
+      "probability": 0.897172,
+      "iid_95pct_wilson_interval": [
+        0.8965751655809042,
+        0.8977657829910524
+      ]
+    },
+    {
+      "hits": 87453,
+      "probability": 0.087453,
+      "iid_95pct_wilson_interval": [
+        0.08690089817667812,
+        0.08800827137577039
+      ]
+    },
+    {
+      "hits": 13000,
+      "probability": 0.013,
+      "iid_95pct_wilson_interval": [
+        0.012779850359391247,
+        0.013223891207127038
+      ]
+    },
+    {
+      "hits": 2375,
+      "probability": 0.002375,
+      "iid_95pct_wilson_interval": [
+        0.0022814892966197,
+        0.0024723339005849414
+      ]
+    }
+  ],
+  "unique_both": {
+    "hits": 4242,
+    "probability": 0.004242,
+    "iid_95pct_wilson_interval": [
+      0.004116507772631857,
+      0.004371301080620651
+    ]
+  },
+  "histogram": [
+    [
+      835489,
+      82061,
+      12292,
+      2248
+    ],
+    [
+      48543,
+      4242,
+      545,
+      91
+    ],
+    [
+      10027,
+      876,
+      123,
+      31
+    ],
+    [
+      3113,
+      274,
+      40,
+      5
+    ]
+  ],
+  "strata_cross_checked": 16,
+  "exact_native_cases": 454,
+  "statistical_scope": "Pseudorandom Monte Carlo, not exhaustive finite-population counting. Wilson intervals assume independent uniform samples, not a proof of MT19937 independence or a certified bound. Selection is uniform over120 choose7 under that assumption.",
+  "book_percentages": [
+    93,
+    5,
+    1,
+    1
+  ],
+  "conclusion": "The first three coarse book percentages and0.4% joint uniqueness are supported. The final remaining1% is materially higher than the observed0.3432%; retain a candidate about coarse rounding, not a confirmed exact mathematical error."
+}

@@ -1,0 +1,34 @@
+{
+  "checked_at_utc": "2026-11-06",
+  "source": "https://arxiv.org/pdf/math/9810105v2",
+  "metadata": "https://arxiv.org/abs/math/9810105",
+  "title": "On the Distribution of the Length of the Longest Increasing Subsequence of Random Permutations",
+  "authors": [
+    "Jinho Baik",
+    "Percy Deift",
+    "Kurt Johansson"
+  ],
+  "version": "v2, 26 March 1999",
+  "journal": "J. Amer. Math. Soc. 12 (1999), no. 4, 1119–1178",
+  "locations": [
+    {
+      "pdf_file_page": 2,
+      "items": [
+        "(1.4)–(1.6)",
+        "Theorem 1.1"
+      ],
+      "scope": "Uniform permutations; centered n^(1/6) distributional limit and its Painleve-II representation."
+    },
+    {
+      "pdf_file_page": 3,
+      "items": [
+        "Theorem 1.2",
+        "(1.9)–(1.10)"
+      ],
+      "scope": "Convergence of every fixed positive integer moment, including normalized variance and expectation."
+    }
+  ],
+  "verified_application": "The book uses the same uniform-permutation model. First and second moments imply E L_n~2 sqrt(n) and standard deviation Theta(n^(1/6)). Changing u to -u matches the book's Airy sign and leaves u squared unchanged. Continuity of the limit handles strict versus non-strict thresholds.",
+  "boundary": "The primary theorem statements and exact applicability were checked. The full sixty-page analytic proof and its numerical constants were not independently rederived or computed; these are explicit external dependencies.",
+  "evidence": "workstreams/vol3/notes/tableaux-proof-27-29.md"
+}

@@ -1,0 +1,551 @@
+{
+  "status": "passed",
+  "pid": 1225243,
+  "best_approximation_cases": 586465,
+  "basis_cases": 586465,
+  "format_count": 91,
+  "rounding_inputs": 33765,
+  "exact_mediant_ties": 6673,
+  "overflow_results": 5602,
+  "formats": [
+    {
+      "name": "rectangle-2-2",
+      "representables": 2,
+      "inputs": 88
+    },
+    {
+      "name": "rectangle-2-3",
+      "representables": 3,
+      "inputs": 92
+    },
+    {
+      "name": "rectangle-2-4",
+      "representables": 4,
+      "inputs": 95
+    },
+    {
+      "name": "rectangle-2-5",
+      "representables": 5,
+      "inputs": 99
+    },
+    {
+      "name": "rectangle-2-6",
+      "representables": 6,
+      "inputs": 103
+    },
+    {
+      "name": "rectangle-2-7",
+      "representables": 7,
+      "inputs": 107
+    },
+    {
+      "name": "rectangle-2-8",
+      "representables": 8,
+      "inputs": 111
+    },
+    {
+      "name": "rectangle-2-9",
+      "representables": 9,
+      "inputs": 115
+    },
+    {
+      "name": "rectangle-2-10",
+      "representables": 10,
+      "inputs": 119
+    },
+    {
+      "name": "rectangle-3-2",
+      "representables": 3,
+      "inputs": 91
+    },
+    {
+      "name": "rectangle-3-3",
+      "representables": 4,
+      "inputs": 95
+    },
+    {
+      "name": "rectangle-3-4",
+      "representables": 6,
+      "inputs": 102
+    },
+    {
+      "name": "rectangle-3-5",
+      "representables": 7,
+      "inputs": 106
+    },
+    {
+      "name": "rectangle-3-6",
+      "representables": 9,
+      "inputs": 114
+    },
+    {
+      "name": "rectangle-3-7",
+      "representables": 10,
+      "inputs": 118
+    },
+    {
+      "name": "rectangle-3-8",
+      "representables": 12,
+      "inputs": 126
+    },
+    {
+      "name": "rectangle-3-9",
+      "representables": 13,
+      "inputs": 130
+    },
+    {
+      "name": "rectangle-3-10",
+      "representables": 15,
+      "inputs": 138
+    },
+    {
+      "name": "rectangle-4-2",
+      "representables": 4,
+      "inputs": 95
+    },
+    {
+      "name": "rectangle-4-3",
+      "representables": 6,
+      "inputs": 103
+    },
+    {
+      "name": "rectangle-4-4",
+      "representables": 8,
+      "inputs": 110
+    },
+    {
+      "name": "rectangle-4-5",
+      "representables": 10,
+      "inputs": 118
+    },
+    {
+      "name": "rectangle-4-6",
+      "representables": 13,
+      "inputs": 129
+    },
+    {
+      "name": "rectangle-4-7",
+      "representables": 14,
+      "inputs": 133
+    },
+    {
+      "name": "rectangle-4-8",
+      "representables": 17,
+      "inputs": 145
+    },
+    {
+      "name": "rectangle-4-9",
+      "representables": 19,
+      "inputs": 153
+    },
+    {
+      "name": "rectangle-4-10",
+      "representables": 21,
+      "inputs": 161
+    },
+    {
+      "name": "rectangle-5-2",
+      "representables": 5,
+      "inputs": 99
+    },
+    {
+      "name": "rectangle-5-3",
+      "representables": 7,
+      "inputs": 107
+    },
+    {
+      "name": "rectangle-5-4",
+      "representables": 10,
+      "inputs": 118
+    },
+    {
+      "name": "rectangle-5-5",
+      "representables": 12,
+      "inputs": 126
+    },
+    {
+      "name": "rectangle-5-6",
+      "representables": 16,
+      "inputs": 141
+    },
+    {
+      "name": "rectangle-5-7",
+      "representables": 17,
+      "inputs": 145
+    },
+    {
+      "name": "rectangle-5-8",
+      "representables": 21,
+      "inputs": 161
+    },
+    {
+      "name": "rectangle-5-9",
+      "representables": 23,
+      "inputs": 169
+    },
+    {
+      "name": "rectangle-5-10",
+      "representables": 26,
+      "inputs": 181
+    },
+    {
+      "name": "rectangle-6-2",
+      "representables": 6,
+      "inputs": 103
+    },
+    {
+      "name": "rectangle-6-3",
+      "representables": 9,
+      "inputs": 115
+    },
+    {
+      "name": "rectangle-6-4",
+      "representables": 13,
+      "inputs": 130
+    },
+    {
+      "name": "rectangle-6-5",
+      "representables": 16,
+      "inputs": 142
+    },
+    {
+      "name": "rectangle-6-6",
+      "representables": 20,
+      "inputs": 157
+    },
+    {
+      "name": "rectangle-6-7",
+      "representables": 22,
+      "inputs": 165
+    },
+    {
+      "name": "rectangle-6-8",
+      "representables": 27,
+      "inputs": 185
+    },
+    {
+      "name": "rectangle-6-9",
+      "representables": 30,
+      "inputs": 197
+    },
+    {
+      "name": "rectangle-6-10",
+      "representables": 34,
+      "inputs": 213
+    },
+    {
+      "name": "rectangle-7-2",
+      "representables": 7,
+      "inputs": 107
+    },
+    {
+      "name": "rectangle-7-3",
+      "representables": 10,
+      "inputs": 119
+    },
+    {
+      "name": "rectangle-7-4",
+      "representables": 14,
+      "inputs": 134
+    },
+    {
+      "name": "rectangle-7-5",
+      "representables": 17,
+      "inputs": 146
+    },
+    {
+      "name": "rectangle-7-6",
+      "representables": 22,
+      "inputs": 165
+    },
+    {
+      "name": "rectangle-7-7",
+      "representables": 24,
+      "inputs": 173
+    },
+    {
+      "name": "rectangle-7-8",
+      "representables": 30,
+      "inputs": 197
+    },
+    {
+      "name": "rectangle-7-9",
+      "representables": 33,
+      "inputs": 209
+    },
+    {
+      "name": "rectangle-7-10",
+      "representables": 37,
+      "inputs": 225
+    },
+    {
+      "name": "rectangle-8-2",
+      "representables": 8,
+      "inputs": 111
+    },
+    {
+      "name": "rectangle-8-3",
+      "representables": 12,
+      "inputs": 127
+    },
+    {
+      "name": "rectangle-8-4",
+      "representables": 17,
+      "inputs": 146
+    },
+    {
+      "name": "rectangle-8-5",
+      "representables": 21,
+      "inputs": 162
+    },
+    {
+      "name": "rectangle-8-6",
+      "representables": 27,
+      "inputs": 185
+    },
+    {
+      "name": "rectangle-8-7",
+      "representables": 30,
+      "inputs": 197
+    },
+    {
+      "name": "rectangle-8-8",
+      "representables": 36,
+      "inputs": 221
+    },
+    {
+      "name": "rectangle-8-9",
+      "representables": 40,
+      "inputs": 237
+    },
+    {
+      "name": "rectangle-8-10",
+      "representables": 45,
+      "inputs": 257
+    },
+    {
+      "name": "rectangle-9-2",
+      "representables": 9,
+      "inputs": 115
+    },
+    {
+      "name": "rectangle-9-3",
+      "representables": 13,
+      "inputs": 131
+    },
+    {
+      "name": "rectangle-9-4",
+      "representables": 19,
+      "inputs": 154
+    },
+    {
+      "name": "rectangle-9-5",
+      "representables": 23,
+      "inputs": 170
+    },
+    {
+      "name": "rectangle-9-6",
+      "representables": 30,
+      "inputs": 197
+    },
+    {
+      "name": "rectangle-9-7",
+      "representables": 33,
+      "inputs": 209
+    },
+    {
+      "name": "rectangle-9-8",
+      "representables": 40,
+      "inputs": 237
+    },
+    {
+      "name": "rectangle-9-9",
+      "representables": 44,
+      "inputs": 253
+    },
+    {
+      "name": "rectangle-9-10",
+      "representables": 50,
+      "inputs": 277
+    },
+    {
+      "name": "rectangle-10-2",
+      "representables": 10,
+      "inputs": 119
+    },
+    {
+      "name": "rectangle-10-3",
+      "representables": 15,
+      "inputs": 139
+    },
+    {
+      "name": "rectangle-10-4",
+      "representables": 21,
+      "inputs": 162
+    },
+    {
+      "name": "rectangle-10-5",
+      "representables": 26,
+      "inputs": 182
+    },
+    {
+      "name": "rectangle-10-6",
+      "representables": 34,
+      "inputs": 213
+    },
+    {
+      "name": "rectangle-10-7",
+      "representables": 37,
+      "inputs": 225
+    },
+    {
+      "name": "rectangle-10-8",
+      "representables": 45,
+      "inputs": 257
+    },
+    {
+      "name": "rectangle-10-9",
+      "representables": 50,
+      "inputs": 277
+    },
+    {
+      "name": "rectangle-10-10",
+      "representables": 56,
+      "inputs": 301
+    },
+    {
+      "name": "floating-1",
+      "representables": 1,
+      "inputs": 84
+    },
+    {
+      "name": "floating-2",
+      "representables": 2,
+      "inputs": 88
+    },
+    {
+      "name": "floating-3",
+      "representables": 6,
+      "inputs": 102
+    },
+    {
+      "name": "floating-4",
+      "representables": 16,
+      "inputs": 142
+    },
+    {
+      "name": "floating-5",
+      "representables": 42,
+      "inputs": 245
+    },
+    {
+      "name": "floating-6",
+      "representables": 102,
+      "inputs": 485
+    },
+    {
+      "name": "floating-7",
+      "representables": 242,
+      "inputs": 1045
+    },
+    {
+      "name": "floating-8",
+      "representables": 562,
+      "inputs": 2321
+    },
+    {
+      "name": "floating-9",
+      "representables": 1282,
+      "inputs": 5200
+    },
+    {
+      "name": "floating-10",
+      "representables": 2874,
+      "inputs": 11567
+    }
+  ],
+  "inverse_addition_family": [
+    {
+      "k": 3,
+      "M": 10,
+      "N": 10,
+      "u": "1/3",
+      "v": "7/9",
+      "result": "2/9"
+    },
+    {
+      "k": 4,
+      "M": 13,
+      "N": 13,
+      "u": "1/3",
+      "v": "3/4",
+      "result": "1/4"
+    },
+    {
+      "k": 5,
+      "M": 16,
+      "N": 16,
+      "u": "1/3",
+      "v": "11/15",
+      "result": "4/15"
+    },
+    {
+      "k": 7,
+      "M": 22,
+      "N": 22,
+      "u": "1/3",
+      "v": "5/7",
+      "result": "2/7"
+    },
+    {
+      "k": 11,
+      "M": 34,
+      "N": 34,
+      "u": "1/3",
+      "v": "23/33",
+      "result": "10/33"
+    },
+    {
+      "k": 17,
+      "M": 52,
+      "N": 52,
+      "u": "1/3",
+      "v": "35/51",
+      "result": "16/51"
+    },
+    {
+      "k": 23,
+      "M": 70,
+      "N": 70,
+      "u": "1/3",
+      "v": "47/69",
+      "result": "22/69"
+    },
+    {
+      "k": 33,
+      "M": 100,
+      "N": 100,
+      "u": "1/3",
+      "v": "67/99",
+      "result": "32/99"
+    },
+    {
+      "k": 47,
+      "M": 142,
+      "N": 142,
+      "u": "1/3",
+      "v": "95/141",
+      "result": "46/141"
+    },
+    {
+      "k": 67,
+      "M": 202,
+      "N": 202,
+      "u": "1/3",
+      "v": "45/67",
+      "result": "22/67"
+    }
+  ],
+  "seconds": 4.227540774998488,
+  "scope": "Finite exact comparisons with direct enumeration; general mathematical proofs are in notes/euclid-approximation.md."
+}

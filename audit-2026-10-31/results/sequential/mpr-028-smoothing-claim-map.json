@@ -1,0 +1,240 @@
+{
+  "description": "Complete MPR28(a–c), reusing F016 and valid P028 evidence while filling all printed intermediate and boundary arguments.",
+  "ledger_ids": [
+    "D130",
+    "F016",
+    "P028"
+  ],
+  "claims": [
+    {
+      "id": "MPR028.01",
+      "file_pages": [
+        35,
+        394,
+        395
+      ],
+      "claim": "All two-bit coefficients and convolution/expectation formulas",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex028.md"
+    },
+    {
+      "id": "MPR028.02",
+      "file_pages": [
+        35,
+        394,
+        395
+      ],
+      "claim": "Exact delta=epsilon(v−u)−epsilon² and all three changed coefficients",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex028.md"
+    },
+    {
+      "id": "MPR028.03",
+      "file_pages": [
+        35,
+        394,
+        395
+      ],
+      "claim": "Convex second difference and exact delta=(v−p)(p−u)",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex028.md"
+    },
+    {
+      "id": "MPR028.04",
+      "file_pages": [
+        35,
+        394,
+        395
+      ],
+      "claim": "Invariant, existence of each below/above pair and finite n−1 termination in(a)",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex028.md"
+    },
+    {
+      "id": "MPR028.05",
+      "file_pages": [
+        35,
+        394,
+        395
+      ],
+      "claim": "All n=0/1,p=0/1 cases in(a)",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex028.md"
+    },
+    {
+      "id": "MPR028.06",
+      "file_pages": [
+        35,
+        394,
+        395
+      ],
+      "claim": "Compact feasible slice and continuous finite expectation ensure a maximum",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex028.md"
+    },
+    {
+      "id": "MPR028.07",
+      "file_pages": [
+        35,
+        394,
+        395
+      ],
+      "claim": "All h=0/1 and strict interior-average cases in(b)",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex028.md"
+    },
+    {
+      "id": "MPR028.08",
+      "file_pages": [
+        35,
+        394,
+        395
+      ],
+      "claim": "Both signs of K and feasible positive/negative displacements",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex028.md"
+    },
+    {
+      "id": "MPR028.09",
+      "file_pages": [
+        35,
+        394,
+        395
+      ],
+      "claim": "Finite h−1 interior equalization preserving maxima and boundary counts",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex028.md"
+    },
+    {
+      "id": "MPR028.10",
+      "file_pages": [
+        35,
+        394,
+        395
+      ],
+      "claim": "ExistingF016 exact witness and symbol repair inherited without rerunning",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex028.md"
+    },
+    {
+      "id": "MPR028.11",
+      "file_pages": [
+        35,
+        394,
+        395
+      ],
+      "claim": "All admissible m,p boundaries for(c), positive maximum andh≥2",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex028.md"
+    },
+    {
+      "id": "MPR028.12",
+      "file_pages": [
+        35,
+        394,
+        395
+      ],
+      "claim": "Correct selected-unequal-pair scope of K≤0; terminal uniform branch",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex028.md"
+    },
+    {
+      "id": "MPR028.13",
+      "file_pages": [
+        35,
+        394,
+        395
+      ],
+      "claim": "Exact cumulative differenceK=P(Z=m)−P(Z=m−1)",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex028.md"
+    },
+    {
+      "id": "MPR028.14",
+      "file_pages": [
+        35,
+        394,
+        395
+      ],
+      "claim": "Zero-parameter branch withs=m handled without dividing byzero",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex028.md"
+    },
+    {
+      "id": "MPR028.15",
+      "file_pages": [
+        35,
+        394,
+        395
+      ],
+      "claim": "Every first-pair binomial coefficient/exponent and exact R0−1",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex028.md"
+    },
+    {
+      "id": "MPR028.16",
+      "file_pages": [
+        35,
+        394,
+        395
+      ],
+      "claim": "Full nonterminal s=m exclusion, including two-step strict improvement atnp=m+1",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex028.md"
+    },
+    {
+      "id": "MPR028.17",
+      "file_pages": [
+        35,
+        394,
+        395
+      ],
+      "claim": "Every second-pair binomial ratio and exact equality condition R1=1",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex028.md"
+    },
+    {
+      "id": "MPR028.18",
+      "file_pages": [
+        35,
+        394,
+        395
+      ],
+      "claim": "Finite removal of ones at equality, with renewed interior equalization and preserved mean",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex028.md"
+    },
+    {
+      "id": "MPR028.19",
+      "file_pages": [
+        35,
+        394,
+        395
+      ],
+      "claim": "All old finite certificate scopes retained, with Samuels29 still separately open",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex028.md"
+    },
+    {
+      "id": "MPR028.20",
+      "file_pages": [
+        35,
+        394,
+        395
+      ],
+      "claim": "Primary bibliography metadata and exact4A reference object verified without claiming full external exercise completion",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex028.md"
+    }
+  ],
+  "new_findings": [],
+  "reused_findings": [
+    "F016"
+  ],
+  "known_corrections": [],
+  "bibliography_skips": [],
+  "external_reference_scope": "Metadata and the actual coefficient-family reference checked; complete outside articles and4A63(a–e) are not claimed as audited or used as premises.",
+  "new_calculations": 0,
+  "old_runs_repeated": 0,
+  "updated_at_utc": "2026-11-06T22:34:53.222141+00:00"
+}

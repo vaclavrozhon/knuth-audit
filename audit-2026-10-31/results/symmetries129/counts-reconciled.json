@@ -1,0 +1,523 @@
+{
+  "checked_at_utc": "2026-11-02T09:15:23.606310+00:00",
+  "source_sha256": "357ac79ad89caf59c128c3aab654640970cd8bcbe222883a7d51e74853507f17",
+  "dependencies_sha256": {
+    "symmetries129.py": "3c43c9cd09ae013828cfeff63ffd1a19ab379ff09284a22b67908cbfbd0178a6",
+    "check_macmahon.py": "7a63b70fbdd0d19db5e3948343e6ea494b30a70b44247aa8ddedaca6cac64a27",
+    "run_symmetry129_literal.py": "32787539ef76401c942c8434e1180c21d16ad195dbcb045263c155a7ff7f086a"
+  },
+  "reused_evidence_sha256": {
+    "results/macmahon/strong-bitset-counts.json": "8f56ec90b4dc54d7f29dc9876862709e6030503c0bcc318d0da77a2b3293a84b",
+    "results/macmahon/strong-counts.json": "d52b7393ff146b12cca3d32d96eb769af25be924d5aaca0ecad9c385ddac5533",
+    "results/macmahon/strong-1.dlx2.txt": "d609f950a7657ec438ff4db8d705e07b5604853d834e6508a67065b27331e40c",
+    "results/macmahon/strong-2.dlx2.txt": "9684a523680b2828b9ca4c5fa48f0697c402c522f075443d479d790aa31eda5e",
+    "results/macmahon/strong-3.dlx2.txt": "2152758b1ee4c2306bd692f4d898c72928f65d3068b71c837e1861f83c661351",
+    "results/macmahon/strong-4.dlx2.txt": "0471905c363e7251fccf949ef4c7cba1a2df5b2b80477c0aa4487b6cb59713b7",
+    "results/macmahon/strong-5.dlx2.txt": "d3596a46ebdcc2cfbab4f310d61c2cee68659b4280e86f87e1b4f6d6d6730b26",
+    "results/macmahon/strong-6.dlx2.txt": "babbd8f95caa1241e135a7310b47e1919b9cdda045d216aa697bd2793f9ef66d",
+    "results/macmahon/strong-1-periodic.dlx2.txt": "ede397afa1a39927e183df19f1471d36c28c535e3638320f898edf4dc3c2ea96",
+    "results/macmahon/strong-2-periodic.dlx2.txt": "bdb66e7ed685058e80a90b2d50fef22c9990eadaa04850df618be72016856b1a",
+    "results/macmahon/strong-3-periodic.dlx2.txt": "e011141fa35f409151f2b21717a38ef8bdb661f347f2ac8ee1db0215d033cff0",
+    "results/macmahon/strong-4-periodic.dlx2.txt": "47569ca818a94ee768fc0d7f25366d84687aedbe4cd5d66dda4d376ea92da461",
+    "results/macmahon/strong-5-periodic.dlx2.txt": "a7e5ae3624ff925ae8bbf2113b2b42e091b357908fbc8e5c333d00c4433e0fc6",
+    "results/macmahon/strong-6-periodic.dlx2.txt": "9179c754d954325b5e19c47b524c908c17bdf449aeca5f23976b3e20ed42f8c0",
+    "results/macmahon/additional-bitset-counts.json": "0473d39aaff725db70542b5c97c31e508f0941fd1e3054a95020b5f2ddda2862",
+    "results/macmahon/weak-counts.json": "166320a9f7da9a70fc4a972d4c5faae7ed0409c7c30061e003eeed866ed74abd",
+    "results/macmahon/weak-1.dlx2.txt": "40115f683613467c5f895f976461fdd33ac1a3f1b751b97e7e01763b48afbe8a",
+    "results/macmahon/weak-2.dlx2.txt": "9f835568fbe1379958941b8bedc1d30475e462962ee931e22e0f6633ec268d31",
+    "results/macmahon/weak-3.dlx2.txt": "8ee69545517fe68bdeb897427ba074cbada9efeb103175344884cad732931b7f",
+    "results/macmahon/weak-4.dlx2.txt": "daac9fc878d93a93dd56f33b0da5fecfe2d63df0ce301a77d8faa5188469eb28",
+    "results/macmahon/weak-5.dlx2.txt": "83774ee6ea1483a042d396a816c7ba0a12f4455f6583c5d87780fd15d815233b",
+    "results/macmahon/weak-6.dlx2.txt": "3e88ccc3a5ec047fde1e7ba1778bac3ef0921815bed550a3c8f6e3b5e177232a",
+    "results/macmahon/reflection-bitset-counts.json": "c1b0b7888ef7a7c572c53fefe308a19931f624f11b44e107988ed9f9462dabf7",
+    "results/macmahon/lr/metadata.json": "3f40d7542b7bf156c34de3e5cac29b38624dac300fa20ca7a665fe04136cdcd0",
+    "results/macmahon/lr-canonical-models.json": "957d09979885fd85821f4945bd154767e747d7d19236b0c187a41b73159206e2"
+  },
+  "strong_types": [
+    80768,
+    164964,
+    77660,
+    819832,
+    88772,
+    185172
+  ],
+  "periodic_types": [
+    0,
+    5219,
+    2426,
+    24918,
+    2426,
+    5219
+  ],
+  "weak_rotation_raw": [
+    129800,
+    256600,
+    122064,
+    1502434,
+    178152,
+    446524
+  ],
+  "weak_not_strong_rotation_types": [
+    24516,
+    45818,
+    22202,
+    341301,
+    44690,
+    130676
+  ],
+  "tb_strong_types": [
+    88,
+    0,
+    0,
+    98,
+    0,
+    75
+  ],
+  "tb_raw": [
+    2304,
+    25654,
+    16172,
+    6604,
+    24290,
+    8453
+  ],
+  "tb_weak_not_strong_types": [
+    1108,
+    12827,
+    8086,
+    3253,
+    12145,
+    4189
+  ],
+  "fixed_lr_types": {
+    "12',20'": {
+      "raw": 187900,
+      "indices": [
+        6,
+        9,
+        17,
+        20,
+        26,
+        29,
+        35,
+        38,
+        44,
+        49,
+        52,
+        54,
+        57,
+        59,
+        63,
+        66
+      ],
+      "orbits": 46975
+    },
+    "12',21": {
+      "raw": 101044,
+      "indices": [
+        7,
+        18,
+        27,
+        36,
+        45,
+        50,
+        55,
+        65
+      ],
+      "orbits": 25261
+    },
+    "13,20'": {
+      "raw": 141500,
+      "indices": [
+        8,
+        19,
+        28,
+        37,
+        51,
+        56,
+        60,
+        62
+      ],
+      "orbits": 35375
+    }
+  },
+  "free_lr_raw": 747906,
+  "fixed_lr_raw": 430444,
+  "free_lr_weak_not_strong": 186846,
+  "total_lr_weak_not_strong": 294457,
+  "both_axes_raw": 1298,
+  "both_axes_weak_not_strong": 194,
+  "totals": {
+    "strong_rotation": 1417168,
+    "weak_not_strong_rotation": 609203,
+    "weak_not_strong_tb": 41608,
+    "weak_not_strong_lr": 294457,
+    "strong_periodic": 40208,
+    "special_strong": 261,
+    "any_symmetry_essentially_distinct": 2362048
+  },
+  "printed_lr_total": 281618,
+  "corrected_lr_difference": 12839,
+  "printed_option": [
+    "02",
+    "abc",
+    "-02:a",
+    "/02:b",
+    "\\02:c",
+    "31'",
+    "bdc",
+    "-32:d",
+    "/41:c",
+    "\\31:b"
+  ],
+  "mask_relabeling": [
+    {
+      "colors": "aaa",
+      "encoded_mask": 0,
+      "printed_mask": 0
+    },
+    {
+      "colors": "aab",
+      "encoded_mask": 6,
+      "printed_mask": 5
+    },
+    {
+      "colors": "aac",
+      "encoded_mask": 6,
+      "printed_mask": 5
+    },
+    {
+      "colors": "aad",
+      "encoded_mask": 6,
+      "printed_mask": 5
+    },
+    {
+      "colors": "aba",
+      "encoded_mask": 3,
+      "printed_mask": 3
+    },
+    {
+      "colors": "abb",
+      "encoded_mask": 5,
+      "printed_mask": 6
+    },
+    {
+      "colors": "abc",
+      "encoded_mask": 7,
+      "printed_mask": 7
+    },
+    {
+      "colors": "abd",
+      "encoded_mask": 7,
+      "printed_mask": 7
+    },
+    {
+      "colors": "aca",
+      "encoded_mask": 3,
+      "printed_mask": 3
+    },
+    {
+      "colors": "acb",
+      "encoded_mask": 7,
+      "printed_mask": 7
+    },
+    {
+      "colors": "acc",
+      "encoded_mask": 5,
+      "printed_mask": 6
+    },
+    {
+      "colors": "acd",
+      "encoded_mask": 7,
+      "printed_mask": 7
+    },
+    {
+      "colors": "ada",
+      "encoded_mask": 3,
+      "printed_mask": 3
+    },
+    {
+      "colors": "adb",
+      "encoded_mask": 7,
+      "printed_mask": 7
+    },
+    {
+      "colors": "adc",
+      "encoded_mask": 7,
+      "printed_mask": 7
+    },
+    {
+      "colors": "add",
+      "encoded_mask": 5,
+      "printed_mask": 6
+    },
+    {
+      "colors": "baa",
+      "encoded_mask": 5,
+      "printed_mask": 6
+    },
+    {
+      "colors": "bab",
+      "encoded_mask": 3,
+      "printed_mask": 3
+    },
+    {
+      "colors": "bac",
+      "encoded_mask": 7,
+      "printed_mask": 7
+    },
+    {
+      "colors": "bad",
+      "encoded_mask": 7,
+      "printed_mask": 7
+    },
+    {
+      "colors": "bba",
+      "encoded_mask": 6,
+      "printed_mask": 5
+    },
+    {
+      "colors": "bbb",
+      "encoded_mask": 0,
+      "printed_mask": 0
+    },
+    {
+      "colors": "bbc",
+      "encoded_mask": 6,
+      "printed_mask": 5
+    },
+    {
+      "colors": "bbd",
+      "encoded_mask": 6,
+      "printed_mask": 5
+    },
+    {
+      "colors": "bca",
+      "encoded_mask": 7,
+      "printed_mask": 7
+    },
+    {
+      "colors": "bcb",
+      "encoded_mask": 3,
+      "printed_mask": 3
+    },
+    {
+      "colors": "bcc",
+      "encoded_mask": 5,
+      "printed_mask": 6
+    },
+    {
+      "colors": "bcd",
+      "encoded_mask": 7,
+      "printed_mask": 7
+    },
+    {
+      "colors": "bda",
+      "encoded_mask": 7,
+      "printed_mask": 7
+    },
+    {
+      "colors": "bdb",
+      "encoded_mask": 3,
+      "printed_mask": 3
+    },
+    {
+      "colors": "bdc",
+      "encoded_mask": 7,
+      "printed_mask": 7
+    },
+    {
+      "colors": "bdd",
+      "encoded_mask": 5,
+      "printed_mask": 6
+    },
+    {
+      "colors": "caa",
+      "encoded_mask": 5,
+      "printed_mask": 6
+    },
+    {
+      "colors": "cab",
+      "encoded_mask": 7,
+      "printed_mask": 7
+    },
+    {
+      "colors": "cac",
+      "encoded_mask": 3,
+      "printed_mask": 3
+    },
+    {
+      "colors": "cad",
+      "encoded_mask": 7,
+      "printed_mask": 7
+    },
+    {
+      "colors": "cba",
+      "encoded_mask": 7,
+      "printed_mask": 7
+    },
+    {
+      "colors": "cbb",
+      "encoded_mask": 5,
+      "printed_mask": 6
+    },
+    {
+      "colors": "cbc",
+      "encoded_mask": 3,
+      "printed_mask": 3
+    },
+    {
+      "colors": "cbd",
+      "encoded_mask": 7,
+      "printed_mask": 7
+    },
+    {
+      "colors": "cca",
+      "encoded_mask": 6,
+      "printed_mask": 5
+    },
+    {
+      "colors": "ccb",
+      "encoded_mask": 6,
+      "printed_mask": 5
+    },
+    {
+      "colors": "ccc",
+      "encoded_mask": 0,
+      "printed_mask": 0
+    },
+    {
+      "colors": "ccd",
+      "encoded_mask": 6,
+      "printed_mask": 5
+    },
+    {
+      "colors": "cda",
+      "encoded_mask": 7,
+      "printed_mask": 7
+    },
+    {
+      "colors": "cdb",
+      "encoded_mask": 7,
+      "printed_mask": 7
+    },
+    {
+      "colors": "cdc",
+      "encoded_mask": 3,
+      "printed_mask": 3
+    },
+    {
+      "colors": "cdd",
+      "encoded_mask": 5,
+      "printed_mask": 6
+    },
+    {
+      "colors": "daa",
+      "encoded_mask": 5,
+      "printed_mask": 6
+    },
+    {
+      "colors": "dab",
+      "encoded_mask": 7,
+      "printed_mask": 7
+    },
+    {
+      "colors": "dac",
+      "encoded_mask": 7,
+      "printed_mask": 7
+    },
+    {
+      "colors": "dad",
+      "encoded_mask": 3,
+      "printed_mask": 3
+    },
+    {
+      "colors": "dba",
+      "encoded_mask": 7,
+      "printed_mask": 7
+    },
+    {
+      "colors": "dbb",
+      "encoded_mask": 5,
+      "printed_mask": 6
+    },
+    {
+      "colors": "dbc",
+      "encoded_mask": 7,
+      "printed_mask": 7
+    },
+    {
+      "colors": "dbd",
+      "encoded_mask": 3,
+      "printed_mask": 3
+    },
+    {
+      "colors": "dca",
+      "encoded_mask": 7,
+      "printed_mask": 7
+    },
+    {
+      "colors": "dcb",
+      "encoded_mask": 7,
+      "printed_mask": 7
+    },
+    {
+      "colors": "dcc",
+      "encoded_mask": 5,
+      "printed_mask": 6
+    },
+    {
+      "colors": "dcd",
+      "encoded_mask": 3,
+      "printed_mask": 3
+    },
+    {
+      "colors": "dda",
+      "encoded_mask": 6,
+      "printed_mask": 5
+    },
+    {
+      "colors": "ddb",
+      "encoded_mask": 6,
+      "printed_mask": 5
+    },
+    {
+      "colors": "ddc",
+      "encoded_mask": 6,
+      "printed_mask": 5
+    },
+    {
+      "colors": "ddd",
+      "encoded_mask": 0,
+      "printed_mask": 0
+    }
+  ],
+  "canonical_parentheses": {
+    "type1": {
+      "action": "f4",
+      "colors": "badc",
+      "selector_edge": [
+        "/",
+        1,
+        2
+      ],
+      "swaps_allowed_and_excluded": true
+    },
+    "type2": {
+      "action": "r2",
+      "colors": "cadb",
+      "source_bbb": [
+        2,
+        3,
+        0
+      ],
+      "target_bbb": [
+        0,
+        3,
+        1
+      ]
+    }
+  },
+  "union_proof": "Among nonstrong colorings, any two of halfturn/TB/LR imply the third. Each pairwise and the triple intersection has194 orbits, so add the four disjoint-strong/class counts and subtract2*194.",
+  "limitation": "Arithmetic reuses completed searches. Old DLX2 terminal logs establish exhaustion but some old C builds returned arbitrary positive exit codes; their counts agree with independent bitset searches. New literal and fixed-branch runs have separately recorded zero-exit acceptance. No complete enumeration is repeated here."
+}

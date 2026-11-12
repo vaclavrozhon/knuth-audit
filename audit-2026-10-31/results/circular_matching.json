@@ -1,0 +1,206 @@
+{
+  "exercise": "7.2.2.1-201",
+  "book_pages": [
+    149,
+    471
+  ],
+  "finding": "The partition in answer (b) is false for every even n>=4; the total L_n+2 is correct.",
+  "counterexample": {
+    "n": 4,
+    "derangements": [
+      [
+        2,
+        1,
+        4,
+        3
+      ],
+      [
+        2,
+        3,
+        4,
+        1
+      ],
+      [
+        4,
+        1,
+        2,
+        3
+      ],
+      [
+        4,
+        3,
+        2,
+        1
+      ]
+    ],
+    "actual_with_fixed_point": 5,
+    "claimed_with_fixed_point": 7
+  },
+  "correct_partition": "Two cyclic shifts, plus L_n products of disjoint adjacent transpositions, including the empty product.",
+  "correct_partition_by_fixed_points": "Odd n: 2 derangements and L_n with a fixed point. Even n: 4 derangements and L_n-2 with a fixed point.",
+  "exhaustive_permutation_results": [
+    {
+      "n": 3,
+      "solutions": 6,
+      "no_fixed_point": 2,
+      "at_least_one_fixed_point": 4,
+      "Lucas_number": 4
+    },
+    {
+      "n": 4,
+      "solutions": 9,
+      "no_fixed_point": 4,
+      "at_least_one_fixed_point": 5,
+      "Lucas_number": 7
+    },
+    {
+      "n": 5,
+      "solutions": 13,
+      "no_fixed_point": 2,
+      "at_least_one_fixed_point": 11,
+      "Lucas_number": 11
+    },
+    {
+      "n": 6,
+      "solutions": 20,
+      "no_fixed_point": 4,
+      "at_least_one_fixed_point": 16,
+      "Lucas_number": 18
+    },
+    {
+      "n": 7,
+      "solutions": 31,
+      "no_fixed_point": 2,
+      "at_least_one_fixed_point": 29,
+      "Lucas_number": 29
+    },
+    {
+      "n": 8,
+      "solutions": 49,
+      "no_fixed_point": 4,
+      "at_least_one_fixed_point": 45,
+      "Lucas_number": 47
+    },
+    {
+      "n": 9,
+      "solutions": 78,
+      "no_fixed_point": 2,
+      "at_least_one_fixed_point": 76,
+      "Lucas_number": 76
+    }
+  ],
+  "part_c_operation_counts": [
+    {
+      "n": 3,
+      "solutions": 6,
+      "updates": 52
+    },
+    {
+      "n": 4,
+      "solutions": 9,
+      "updates": 97
+    },
+    {
+      "n": 5,
+      "solutions": 13,
+      "updates": 162
+    },
+    {
+      "n": 6,
+      "solutions": 20,
+      "updates": 262
+    },
+    {
+      "n": 7,
+      "solutions": 31,
+      "updates": 417
+    },
+    {
+      "n": 8,
+      "solutions": 49,
+      "updates": 662
+    },
+    {
+      "n": 9,
+      "solutions": 78,
+      "updates": 1052
+    },
+    {
+      "n": 10,
+      "solutions": 125,
+      "updates": 1677
+    },
+    {
+      "n": 11,
+      "solutions": 201,
+      "updates": 2682
+    },
+    {
+      "n": 12,
+      "solutions": 324,
+      "updates": 4302
+    },
+    {
+      "n": 13,
+      "solutions": 523,
+      "updates": 6917
+    },
+    {
+      "n": 14,
+      "solutions": 845,
+      "updates": 11142
+    },
+    {
+      "n": 15,
+      "solutions": 1366,
+      "updates": 17972
+    },
+    {
+      "n": 16,
+      "solutions": 2209,
+      "updates": 29017
+    },
+    {
+      "n": 17,
+      "solutions": 3573,
+      "updates": 46882
+    },
+    {
+      "n": 18,
+      "solutions": 5780,
+      "updates": 75782
+    },
+    {
+      "n": 19,
+      "solutions": 9351,
+      "updates": 122537
+    },
+    {
+      "n": 20,
+      "solutions": 15129,
+      "updates": 198182
+    },
+    {
+      "n": 21,
+      "solutions": 24478,
+      "updates": 320572
+    },
+    {
+      "n": 22,
+      "solutions": 39605,
+      "updates": 518597
+    },
+    {
+      "n": 23,
+      "solutions": 64081,
+      "updates": 839002
+    },
+    {
+      "n": 24,
+      "solutions": 103684,
+      "updates": 1357422
+    }
+  ],
+  "part_c_status": "Printed formula 5 L_(n+2) + 10 n - 33 passes measured Algorithm X for 3<=n<=24; this is not a general proof.",
+  "seconds": 4.654
+}

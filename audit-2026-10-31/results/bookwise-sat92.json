@@ -1,0 +1,52 @@
+{
+  "states": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      0
+    ],
+    [
+      3,
+      0,
+      1
+    ],
+    [
+      3,
+      1,
+      1
+    ],
+    [
+      3,
+      3,
+      1
+    ]
+  ],
+  "alice_bumps": [
+    1,
+    1,
+    1,
+    0,
+    0
+  ],
+  "all_states_distinct": true,
+  "original_transition_clauses_evaluated": 150,
+  "original_unsatisfied_clauses": [
+    {
+      "t": 4,
+      "clause": "B-wait"
+    }
+  ],
+  "modified_transition_clauses_satisfied": 145,
+  "at_most_one_clauses_satisfied": 100,
+  "repair": "Remove B1_(t+1) from the waiting clause, preserving its guard."
+}

@@ -1,0 +1,16 @@
+{
+  "checked_at_utc": "2026-11-07T02:56:04.340969+00:00",
+  "sources": [
+    {
+      "url": "https://mmix.cs.hm.edu/bugs/bug_ri.html",
+      "path": "sources/mmix-upstream-bug_ri.html",
+      "sha256": "14dfeb405236110857f7d986de44e9b9f96609fe8dbf340f9b9a21966f5db352"
+    },
+    {
+      "url": "https://mmix.cs.hm.edu/bugs/bug_rU.html",
+      "path": "sources/mmix-upstream-bug_rU.html",
+      "sha256": "2533d811d414371ff81987cb31966f7012bb70782ecb65d68df32b9f2cf496ed"
+    }
+  ],
+  "review": "Both complete reports read. The2012 correction changes the C simulator bootstrap discriminator from usage count to clock while adding usage filtering/time semantics;2015 fixes a C precedence error. Neither supplies the printed exercise12 dedicated initialization flag, and the simplified book model is kept separate. No separate new finding card is created for the rare wrap boundary."
+}

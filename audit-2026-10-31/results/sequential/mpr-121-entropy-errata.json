@@ -1,0 +1,585 @@
+{
+  "updated_at_utc": "2026-11-07T03:38:58.535063+00:00",
+  "scope": "Complete MPR121 and renewed exact evidence for original F006/F008",
+  "snapshot": "Local official snapshots including all4b dated16April2026; no live refresh claimed.",
+  "search_patterns": "(?:Page\\s+(?:24|46|47|201|202|390)\\b|4(?:b|f5|f6)\\.(?:24|46|47|201|202|390)\\b|(?:answer|exer\\s*ise|exercise)\\s+\\{?121\\b|entropy|Kullback|Leibler|density|Jensen|rho)",
+  "text_sources": [
+    {
+      "path": "errata/text/err4b.txt",
+      "sha256": "2a3450bf3c79d28ad3c2d96468344c96995cf0afb74961f257c311bb9c821e1c",
+      "matches": [
+        {
+          "line": 185,
+          "context": [
+            "     23.)",
+            "xPage 138 line 8 of exer ise 121                                                           07 Jan 2023",
+            "  (2, 3, 3, 57) y (2, 2, 3, 57)",
+            "xPage 145 line 4 of exer ise 165                                                           02 Jan 2025",
+            "  Would it better y Would it be better",
+            " Page 145 new rating for exer ise 171                                                      02 Jan 2025",
+            "x171. [35 ℄",
+            ""
+          ]
+        },
+        {
+          "line": 442,
+          "context": [
+            "x",
+            "Page 446       new solution for answer 121( )                                    08 Jan 2023",
+            "         ( ) With ÆRU in the middle, another solution has Ck 1 , Dk 1 , Ak 1 , Bk 1 at",
+            "    the orners. With ÆLD, another solution has orners Bk 1 , Ak 1 , Dk 1 , Ck 1 . Both",
+            "    of those solutions work with ÆLU and ÆSU ; and ÆSU also has 54 additional solutions,",
+            "    with Ck 2 in the upper left orner. They use Æ ffL; P; S; T gfJ; U g; RU g in the middle",
+            "    of row 2k 2 , and independently Æ fL; K; P; R; S; T gU in the middle of row 3 \u0001 2k 2 .",
+            "x"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all4b.txt",
+      "sha256": "b1a3425486f403fb4158585d5bbfef0159fd20b12e2e7d47b64e393e1ae8a303",
+      "matches": [
+        {
+          "line": 211,
+          "context": [
+            "     23.)",
+            "xPage 138 line 8 of exer ise 121                                                           07 Jan 2023",
+            "  (2, 3, 3, 57) y (2, 2, 3, 57)",
+            "Page 142 line 7                                                                            13 Feb 2023",
+            "     the boundary of    y the boundary path of",
+            "Page 145 line 3 of exer ise 162                                                           04 Nov 2023",
+            "     eight of the possible   y eight of the ten possible",
+            "xPage 145 line 4 of exer ise 165                                                           02 Jan 2025"
+          ]
+        },
+        {
+          "line": 491,
+          "context": [
+            "x",
+            "Page 446 new solution for answer 121( )                                       08 Jan 2023",
+            "       ( ) With ÆRU in the middle, another solution has Ck 1 , Dk 1 , Ak 1 , Bk 1 at",
+            " the orners. With ÆLD, another solution has orners Bk 1 , Ak 1 , Dk 1 , Ck 1 . Both",
+            " of those solutions work with ÆLU and ÆSU ; and ÆSU also has 54 additional solutions,",
+            " with Ck 2 in the upper left orner. They use Æ ffL; P; S; T gfJ; U g; RU g in the middle",
+            " of row 2k 2 , and independently Æ fL; K; P; R; S; T gU in the middle of row 3 \u0001 2k 2 .",
+            "x"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "errata/text/err4f5.txt",
+      "sha256": "5a716c34e2063eb46005593d53e89dbbd912b5677e0a6ab11753f2a5ee38b557",
+      "matches": [
+        {
+          "line": 132,
+          "context": [
+            "    mina2\u0019 a\u0019 = 1 y mina2A a\u0019 = 1",
+            " Page 24 line 4 of exer ise 121                                                   31 May 2021",
+            "               Y from X, y divergen e of X from Y ,",
+            "    divergen e of",
+            "",
+            "xPage 26 bottom line                                                              06 May 2021",
+            "    pk 1 \u0014 pk \u0015 pk 1 y pk 1 \u0014 pk \u0015 pk+1",
+            " Page 27      new exer ise                                                         18 Sep 2021"
+          ]
+        },
+        {
+          "line": 146,
+          "context": [
+            "136.  [HM20 ℄ Let f (x) = x ln x be the fundamental onvex fun tion that underlies",
+            "  formulas for entropy. Prove or disprove: If 0 \u0014 x \u0014 y \u0014 1 then jf (y) f (x)j \u0014 jf (y x)j.",
+            " Page 39 new opy for two lines after (23)                                      16 Aug 2020",
+            "    (This data-stru turing te hnique has been alled a sparse-set representation ; see",
+            "    P. Briggs and L. Tor zon, ACM Letters Prog. Lang. and Syst. 2 (1993), 59{69.)",
+            "                                                3",
+            "",
+            "    4        CHANGES TO V4F5: MATH PRELIMINARIES, BACKTRACKING ET AL"
+          ]
+        },
+        {
+          "line": 161,
+          "context": [
+            "  f f 1 y f f +1",
+            "xPage 47 line 6                                                05 Jun 2020",
+            "    y1 y2 : : : y y0 y1 : : :",
+            " Page 48  line 2 before (34)                                                        19 Jan 2020",
+            "  P. Dia onis and S. Chatterjee y S. Chatterjee and P. Dia onis",
+            " Page 48 and 49                                                                      19 Jan 2020",
+            "    [I'm now using the notation \u001fbN instead of QN , for eventual agreement with Se tion 7.2.2.9℄",
+            " Page 51   line 16                                                      27 O t 2021"
+          ]
+        },
+        {
+          "line": 961,
+          "context": [
+            "a.s.: Asymptoti ally almost surely, 11{12,   Embedded graphs, 130.",
+            "      20, 21, 26, 195, 196.                  Entropy, 24, 25, 27.",
+            "A kerman, Eyal (ONXW\b LII\b), 331.            f \" (maximal elements of family f ), 353{354.",
+            "Agarwal, Akshay Kumar (a\"y kmAr              Floorplans, 169{170, 384.",
+            "      ag}vAl), 207.                          Franel, J\u0013er^ome, 207.",
+            "As ents of a permutation, 330, 384.          Fujiyoshi, Kunihiro (              ), 331.",
+            "Ase, Mitsuhiro (            ), 346.          Games, 8, 13.",
+            "Asymptoti methods, 11, 12, 16, 26, 53,       Ghost pentominoes, 303."
+          ]
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all4f5.txt",
+      "sha256": "0dd38c4cda72b01baefb797611c9bbab7713ff0c107a1df884afc89fe9bb91c3",
+      "matches": [
+        {
+          "line": 143,
+          "context": [
+            "    mina2\u0019 a\u0019 = 1 y mina2A a\u0019 = 1",
+            " Page 24   line 4 of exer ise 121                                                      31 May 2021",
+            "  divergen e of Y from X , y divergen e of X from Y ,",
+            "",
+            "xPage 26 bottom line                                                                   06 May 2021",
+            "    pk 1 \u0014 pk \u0015 pk 1 y pk 1 \u0014 pk \u0015 pk+1",
+            "                                                   3",
+            ""
+          ]
+        },
+        {
+          "line": 160,
+          "context": [
+            "136.    [HM20 ℄ Let f (x) = x ln x be the fundamental onvex fun tion that underlies",
+            "    formulas for entropy. Prove or disprove: If 0 \u0014 x \u0014 y \u0014 1 then jf (y) f (x)j \u0014 jf (y x)j.",
+            "Page 30 line 2                                                                    14 Nov 2020",
+            " level 5 y level 5 below the root.",
+            "Page 35 lines 19 and 17                                                           15 May 2020",
+            " line 19: four-letter words y four-letter odewords",
+            " line 17: from words of the set y from strings of the set",
+            "Page 36 lines 2 and 3                                                             15 May 2020"
+          ]
+        },
+        {
+          "line": 188,
+          "context": [
+            "  f f 1 y f f +1",
+            "xPage 47 line 6                                                                    05 Jun 2020",
+            "    y1 y2 : : : y y0 y1 : : :",
+            "Page 48 line 19                                                                   14 Nov 2020",
+            " shaky grounds y shaky ground",
+            "Page 48 line 2 before (34)                                                         19 Jan 2020",
+            "    P. Dia onis and S. Chatterjee y S. Chatterjee and P. Dia onis",
+            ""
+          ]
+        },
+        {
+          "line": 1020,
+          "context": [
+            "a.s.: Asymptoti ally almost surely, 11{12,   Embedded graphs, 130.",
+            "      20, 21, 26, 195, 196.                  Entropy, 24, 25, 27.",
+            "A kerman, Eyal (ONXW\b LII\b), 331.            f \" (maximal elements of family f ), 353{354.",
+            "Agarwal, Akshay Kumar (a\"y kmAr              Floorplans, 169{170, 384.",
+            "      ag}vAl), 207.                          Franel, J\u0013er^ome, 207.",
+            "As ents of a permutation, 330, 384.          Fujiyoshi, Kunihiro (              ), 331.",
+            "Ase, Mitsuhiro (            ), 346.          Games, 8, 13.",
+            "Asymptoti methods, 11, 12, 16, 26, 53,       Ghost pentominoes, 303."
+          ]
+        }
+      ]
+    },
+    {
+      "path": "errata/text/err4f6.txt",
+      "sha256": "0a065b32ef4f8e427a178a77e0fe81b7caad77389ecec060c8793567cd5a3eb2",
+      "matches": [
+        {
+          "line": 200,
+          "context": [
+            "                           BASE + 2S \u0015 PT (beware of over ow).",
+            " xPage 46 line 1 of step Y3                                               30 Jan 2020",
+            "   Set l LL[j ℄ and T BASE + LO[j ℄.                                          y",
+            "                                                 Set l LL[|^℄ and T BASE + LO[|^℄.",
+            " xPage 46 in step Y7                                                      11 Nov 2020",
+            "   [Make ^l0 false.℄      y",
+            "                         [Assume also l.℄",
+            "   with l ^l0 and T DT.                     y"
+          ]
+        },
+        {
+          "line": 203,
+          "context": [
+            "                                                 Set l LL[|^℄ and T BASE + LO[|^℄.",
+            " xPage 46 in step Y7                                                      11 Nov 2020",
+            "   [Make ^l0 false.℄      y",
+            "                         [Assume also l.℄",
+            "   with l ^l0 and T DT.                     y",
+            "                                    with T DT.",
+            " xPage 46 in step Y8                                                      30 Jan 2020",
+            "   set CONFLICT        X13 and exit       set BASE       y"
+          ]
+        },
+        {
+          "line": 208,
+          "context": [
+            "                                    with T DT.",
+            " xPage 46 in step Y8                                                      30 Jan 2020",
+            "   set CONFLICT        X13 and exit       set BASE       y",
+            "                                                        LBASE, CONFLICT    X13, and",
+            "   exit",
+            "  Page 51 the line after (82)                                             12 Aug 2019",
+            "   [See A. C. Kaporis          y",
+            "                            [See M. Hajiaghayi and G. B. Sorkin, arXiv:math/0310193"
+          ]
+        },
+        {
+          "line": 457,
+          "context": [
+            "  size less than 16 \u0002 18. y size 15 \u0002 18 or 16 \u0002 17.",
+            " Page 202 line       3 of answer 85                                           03 Mar 2021",
+            "  (August 2013), #P16 y (2013), #P16, 1{19",
+            "xPage 204 bottom line and top lines of page 205                                11 Jan 2016",
+            "  nonzero top row : : : (n k), whi h y nonzero rst row and olumn has all entries",
+            "  zero ex ept that y1t = yt1 = y(k+1 t)1 = ykt = yk(k+1 t) = y(k+1 t)k =",
+            "  ytkP = y1(k+1 t) , for some t and k with 1 < t \u0014 k=2 \u0014 m=2. So the answer is",
+            "  2 mk=4 bk=2 1 (m + 1 k)(n + 1 k), whi h"
+          ]
+        },
+        {
+          "line": 803,
+          "context": [
+            "  n = 4q + 1, while the one in part ( ) belongs to another family of onstru tions that",
+            "  a hieve the higher asymptoti density 487 n2 .",
+            " Page 283 repla ement for the nal lines of answer 488                         12 Aug 2019",
+            "  respe tively. [See Martin Gardner : : : y respe tively. [B. M. Smith, K. E. Petrie, and",
+            "  I. P. Gent obtained similar results using CSP methods in LNCS 3011 (2004), 271{286.℄",
+            "        (This problem was posed by S. Ainley in his Mathemati al Puzzles (1977), problem",
+            "  C1. He mentioned solutions for n \u0014 30 that have never yet been beaten, although he",
+            "  obtained them by hand. See also Martin Gardner, Math Horizons 7, 2 (November"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all4f6.txt",
+      "sha256": "468af6337a650d3b8b132fa854a21a4a460d891d3497986318ba1830581dddb8",
+      "matches": [
+        {
+          "line": 224,
+          "context": [
+            "x",
+            "Page 46        line 1 of step Y3                                                   30 Jan 2020",
+            "    Set l     LL[j ℄ and T     BASE + LO[j ℄.      y Set l     LL[|^℄ and T     BASE + LO[|^℄.",
+            "x",
+            "Page 46      in step Y7                                                           11 Nov 2020",
+            "          ^",
+            "    [Make l0 false.℄     y",
+            "                        [Assume also l.℄"
+          ]
+        },
+        {
+          "line": 227,
+          "context": [
+            "x",
+            "Page 46      in step Y7                                                           11 Nov 2020",
+            "          ^",
+            "    [Make l0 false.℄     y",
+            "                        [Assume also l.℄",
+            "              ^",
+            "    with l l0 and T DT.             y",
+            "                                 with T              DT."
+          ]
+        },
+        {
+          "line": 235,
+          "context": [
+            "x",
+            "Page 46     in step Y8                                                             30 Jan 2020",
+            "    set CONFLICT     X13 and exit          y set BASE         LBASE, CONFLICT       X13, and",
+            "    exit",
+            "Page 51      the line after (82)                                          12 Aug 2019",
+            "    [See A. C. Kaporis     y[See M. Hajiaghayi and G. B. Sorkin, arXiv:math/0310193",
+            "    [math.CO℄ (2003), 8 pages; A. C. Kaporis",
+            "Page 51     line 9                                                                 05 Apr 2018"
+          ]
+        },
+        {
+          "line": 523,
+          "context": [
+            "  size less than 16 \u0002 18. y size 15 \u0002 18 or 16 \u0002 17.",
+            " Page 202 line      3 of answer 85                                            03 Mar 2021",
+            "  (August 2013), #P16 y (2013), #P16, 1{19",
+            "xPage 204 bottom line and top lines of page 205                                11 Jan 2016",
+            "  nonzero top row : : : (n k), whi h y nonzero rst row and olumn has all entries",
+            "  zero ex ept that y1t = yt1 = y(k+1 t)1 = ykt = yk(k+1 t) = y(k+1 t)k =",
+            "  ytkP = y1(k+1 t) , for some t and k with 1 < t \u0014 k=2 \u0014 m=2. So the answer is",
+            "  2 mk=4 bk=2 1 (m + 1 k)(n + 1 k), whi h"
+          ]
+        },
+        {
+          "line": 888,
+          "context": [
+            "  n = 4q + 1, while the one in part ( ) belongs to another family of onstru tions that",
+            "  a hieve the higher asymptoti density 487 n2 .",
+            "",
+            "                                            CHANGES TO V4F6: SATISFIABILITY                    19",
+            "",
+            " Page 283    repla ement for the nal lines of answer 488                     12 Aug 2019",
+            "  respe tively. [See Martin Gardner : : : y respe tively. [B. M. Smith, K. E. Petrie, and",
+            "  I. P. Gent obtained similar results using CSP methods in LNCS 3011 (2004), 271{286.℄"
+          ]
+        }
+      ]
+    }
+  ],
+  "tex_sources": [
+    {
+      "path": "errata/originals/err4b.textxt",
+      "sha256": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+      "matches": [
+        {
+          "line": 221,
+          "context": [
+            "\\improvepage 4b.x line $-3$ (23.11.24)",
+            "For example, $\\nu@10=2$, $\\lambda@10=3$, $\\rho@10=1$. \\becomes\\nl",
+            "For example, $\\nu@18=2$, $\\lambda@18=4$, $\\rho@18=1$.",
+            "\\endchange",
+            "",
+            "\\improvepage 4b.xiv running head (23.04.09)",
+            "[delete this page number and running head; put `xiv' at bottom, centered]",
+            "\\endchange"
+          ]
+        },
+        {
+          "line": 222,
+          "context": [
+            "For example, $\\nu@10=2$, $\\lambda@10=3$, $\\rho@10=1$. \\becomes\\nl",
+            "For example, $\\nu@18=2$, $\\lambda@18=4$, $\\rho@18=1$.",
+            "\\endchange",
+            "",
+            "\\improvepage 4b.xiv running head (23.04.09)",
+            "[delete this page number and running head; put `xiv' at bottom, centered]",
+            "\\endchange",
+            ""
+          ]
+        },
+        {
+          "line": 429,
+          "context": [
+            "",
+            "\\bugonpage 4b.138 line 8 of exercise 121 (23.01.07)",
+            "\\ninepoint (2, 3, 3, 57) \\becomes (2, 2, 3, 57)",
+            "\\endchange",
+            "",
+            "\\improvepage 4b.142 line 7 (23.02.13)",
+            "\\ninepoint the boundary of \\becomes the boundary path of",
+            "\\endchange"
+          ]
+        },
+        {
+          "line": 892,
+          "context": [
+            "",
+            "\\bugonpage 4b.446 new solution for answer {121(c)} (23.01.08)",
+            "\\indent(c) With $\\delta RU$ in the middle, another solution has",
+            "$C_{k-1}$, $D_{k-1}$, $A_{k-1}$, $B_{k-1}$ at the corners. With $\\delta LD$,",
+            "another solution has corners $B_{k-1}$, $A_{k-1}$, $D_{k-1}$, $C_{k-1}$.",
+            "Both of those solutions work with $\\delta LU$ and $\\delta SU\\?$;",
+            "and $\\delta SU$ also has 54 additional solutions, with $C_{k-2}$ in the",
+            "upper left corner. They use"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "errata/originals/err4f5.textxt",
+      "sha256": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b",
+      "matches": [
+        {
+          "line": 281,
+          "context": [
+            "",
+            "\\amendpage 4f5.24 line 4 of exercise 121 (21.05.31)",
+            "{\\it divergence of\\/ $Y\\!$ from~$X\\?$}, \\becomes",
+            "{\\it divergence of\\/ $X\\!$ from~$Y\\!$},",
+            "\\endchange",
+            "",
+            "\\bugonpage 4f5.26 bottom line (21.05.06)",
+            "$p_{k-1}\\le p_k\\ge p_{k-1}$ \\becomes"
+          ]
+        },
+        {
+          "line": 307,
+          "context": [
+            "\\ex136. [\\HM20] Let $f(x)=x\\ln x$ be the fundamental convex function",
+            "that underlies formulas for entropy. Prove or disprove: If $0\\le x\\le y\\le 1$",
+            "then $\\vert f(y)-f(x)\\vert\\le\\vert f(y-x)\\vert$.",
+            "\\endchange",
+            "",
+            "\\improvepage 4f5.30 line 2 (20.11.14)",
+            "level 5 \\becomes level 5 below the root.",
+            "\\endchange"
+          ]
+        },
+        {
+          "line": 354,
+          "context": [
+            "",
+            "\\bugonpage 4f5.47 line 6 (20.06.05)",
+            "$y_1y_2\\ldots{}$ \\becomes $y_0y_1\\ldots{}$",
+            "\\endchange",
+            "",
+            "\\improvepage 4f5.48 line 19 (20.11.14)",
+            "shaky grounds \\becomes shaky ground",
+            "\\endchange"
+          ]
+        },
+        {
+          "line": 1869,
+          "context": [
+            "Embedded graphs, 130. % 3rd",
+            "Entropy, 24, 25, 27. % 3rd",
+            "$f^\\uparrow$ (maximal elements of family~$f$), 353--354. % 2nd",
+            "Floorplans, 169--170, 384. % 3rd",
+            "Franel, J\\'er\\^ome, 207. % 2nd",
+            "Fujiyoshi, Kunihiro (\\JC48:48:0:40% J3803",
+            "<0000c00c00000000f00f00000000f80f800c0000f00f001effffffffffff7fffffffffff%",
+            " 0000f00f00000000f00f00000000f00600000000600000000c06000c03000f0f3e0f07c0%"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "errata/originals/err4f6.textxt",
+      "sha256": "150809ff5caee54008a0a52523130b723ec1fdea7fe5cb8259b2a8349c4a8bfa",
+      "matches": [
+        {
+          "line": 397,
+          "context": [
+            "",
+            "\\bugonpage 4f6.46 line 1 of step Y3 (20.01.30)",
+            "\\def\\jhat{{\\hat\\jmath}}%",
+            "Set $l\\gets\\.{LL[$j$]}$ and $T\\gets\\.{BASE}+\\.{LO[$j$]}$. \\becomes",
+            "Set $l\\gets\\.{LL[$\\jhat@$]}$ and $T\\gets\\.{BASE}+\\.{LO[$\\jhat@$]}$.",
+            "\\endchange",
+            "",
+            "\\bugonpage 4f6.46 in step Y7 (20.11.11)"
+          ]
+        },
+        {
+          "line": 403,
+          "context": [
+            "",
+            "\\bugonpage 4f6.46 in step Y7 (20.11.11)",
+            "[Make $\\hat l_0$ false.] \\becomes [Assume also $l$.]\\nl",
+            "with $l\\gets\\hat l_0$ and $T\\gets\\.{DT}$. \\becomes with $T\\gets\\.{DT}$.",
+            "\\endchange",
+            "",
+            "\\bugonpage 4f6.46 in step Y8 (20.01.30)",
+            "set $\\.{CONFLICT}\\gets\\rm X13$ and exit \\becomes"
+          ]
+        },
+        {
+          "line": 408,
+          "context": [
+            "",
+            "\\bugonpage 4f6.46 in step Y8 (20.01.30)",
+            "set $\\.{CONFLICT}\\gets\\rm X13$ and exit \\becomes",
+            "set $\\.{BASE}\\gets\\.{LBASE}$, $\\.{CONFLICT}\\gets\\rm X13$, and exit",
+            "\\endchange",
+            "",
+            "\\amendpage 4f6.51 the line after {\\eq(82)} (19.08.12)",
+            "[See A. C. Kaporis \\becomes"
+          ]
+        },
+        {
+          "line": 431,
+          "context": [
+            "",
+            "\\amendpage 46.57 line 10 (20.04.22)",
+            "$\\bar1\\bar2\\bar3,\\bar12\\bar4,$ \\becomes",
+            "$\\bar12\\bar4,\\bar1\\bar2\\bar3,$",
+            "\\endchange",
+            "",
+            "\\bugonpage 4f6.65 replacement for last line of Table 3 (22.06.21)",
+            "\\def\\\\#1#2{\\overline{#1#2}}%"
+          ]
+        },
+        {
+          "line": 468,
+          "context": [
+            "100 conflicts \\becomes $M=100$ conflicts\\nl",
+            "$\\rho^{-100}$ times \\becomes $\\rho^{-M}=\\rho^{-100}$ times",
+            "\\endchange",
+            "",
+            "\\bugonpage 4f6.68 line $-2$ (19.04.21)",
+            "$L_F\\gets l'$, \\becomes",
+            "$L_F\\gets \\bar l'$,",
+            "$\\.{VAL($\\vert l'\\vert$)}\\gets 2d+(\\bar l'\\band1)$,"
+          ]
+        },
+        {
+          "line": 559,
+          "context": [
+            "\\bugonpage 4f6.126 line 16 (18.07.17)",
+            "$(\\alpha_i,\\rho_i,\\ldots,\\psi_i)$ \\becomes",
+            "$(\\alpha,\\rho,\\ldots,\\psi)$",
+            "\\endchange",
+            "",
+            "\\improvepage 4f6.129 line 11 (21.02.07)",
+            "conflict-driven \\becomes conflict driven",
+            "\\endchange"
+          ]
+        },
+        {
+          "line": 560,
+          "context": [
+            "$(\\alpha_i,\\rho_i,\\ldots,\\psi_i)$ \\becomes",
+            "$(\\alpha,\\rho,\\ldots,\\psi)$",
+            "\\endchange",
+            "",
+            "\\improvepage 4f6.129 line 11 (21.02.07)",
+            "conflict-driven \\becomes conflict driven",
+            "\\endchange",
+            ""
+          ]
+        },
+        {
+          "line": 876,
+          "context": [
+            "",
+            "\\amendpage 4f6.202 line $-3$ of answer 85 (21.03.03)",
+            "(August 2013), \\#P16 \\becomes",
+            "(2013), \\#P16, 1--19",
+            "\\endchange",
+            "",
+            "\\bugonpage 4f6.204 bottom line and top lines of page 205 (16.01.11)",
+            "nonzero top row \\dots\\ $(n-k)$, which \\becomes"
+          ]
+        },
+        {
+          "line": 890,
+          "context": [
+            "",
+            "\\bugonpage 46.205 line 4 of answer {105(e)} (22.06.21)",
+            "for $n=(5,7,9)$ \\becomes for $m=n=(5,7,9)$",
+            "\\endchange",
+            "",
+            "\\bugonpage 4f6.209 replacement for answer 128 (16.02.10)",
+            "\\ans128. $\\vtop{\\halign{\\hfil$#$\\hfil\\quad&",
+            "\\tt\\hfil#\\hfil&"
+          ]
+        },
+        {
+          "line": 1501,
+          "context": [
+            "belongs to another family of constructions that achieve the higher",
+            "asymptotic density ${7\\over48}n^2$.\\par",
+            "\\endchange",
+            "",
+            "\\amendpage 4f6.283 replacement for the final lines of answer 488 (19.08.12)",
+            "respectively. [See Martin Gardner \\dots\\ \\becomes",
+            "respectively. [B.~M. Smith, K.~E. Petrie, and I.~P. Gent obtained similar",
+            "results using {\\mc CSP} methods in {\\sl LNCS \\bf3011} (2004), 271--286.]\\par"
+          ]
+        }
+      ]
+    }
+  ],
+  "decision": "E135: known31May2021 terminology amendment, already present in4B, viewed in all4f5 physical3 and TeX281–285. No applicable correction to F006/F008 or other mathematics121. Other exercise121 matches belong to Dancing Links; other page/rho/entropy hits are unrelated."
+}

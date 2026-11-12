@@ -1,0 +1,470 @@
+{
+  "checked_at_utc": "2026-11-07T01:02:47.279180+00:00",
+  "scope": "First native runs of one new MMIX implementation on four targeted cases, all output bytes and exact costs. Prior MIX census and checker are not rerun.",
+  "source_sha256": "883112846d52ac32a33d89ab8cd9e2967ce3a9c08d1cbaa1c972864147ce4fd0",
+  "runs": {
+    "example": {
+      "removed_black": 593,
+      "retained_black": 4,
+      "white": 28,
+      "labels": 14,
+      "label_coordinates": [
+        [
+          1,
+          2,
+          1
+        ],
+        [
+          1,
+          4,
+          2
+        ],
+        [
+          1,
+          5,
+          3
+        ],
+        [
+          2,
+          1,
+          4
+        ],
+        [
+          2,
+          4,
+          5
+        ],
+        [
+          2,
+          6,
+          6
+        ],
+        [
+          3,
+          1,
+          7
+        ],
+        [
+          3,
+          3,
+          8
+        ],
+        [
+          4,
+          3,
+          9
+        ],
+        [
+          4,
+          5,
+          10
+        ],
+        [
+          5,
+          1,
+          11
+        ],
+        [
+          5,
+          2,
+          12
+        ],
+        [
+          5,
+          5,
+          13
+        ],
+        [
+          6,
+          2,
+          14
+        ]
+      ],
+      "neighbor_test_oops": 298,
+      "neighbor_test_mems": 78,
+      "expected_oops": 61754,
+      "expected_mems": 7212,
+      "input_sha256": "112a47e6b9e2d0d43bdee8615bbf21004cabe8abcf7c95a388a64cd09c808bac",
+      "every_output_byte_agrees": true,
+      "output_bytes": 879,
+      "instructions": 38098,
+      "mems": 7212,
+      "oops": 61754
+    },
+    "all-white": {
+      "removed_black": 0,
+      "retained_black": 0,
+      "white": 625,
+      "labels": 49,
+      "label_coordinates": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          1,
+          3,
+          3
+        ],
+        [
+          1,
+          4,
+          4
+        ],
+        [
+          1,
+          5,
+          5
+        ],
+        [
+          1,
+          6,
+          6
+        ],
+        [
+          1,
+          7,
+          7
+        ],
+        [
+          1,
+          8,
+          8
+        ],
+        [
+          1,
+          9,
+          9
+        ],
+        [
+          1,
+          10,
+          10
+        ],
+        [
+          1,
+          11,
+          11
+        ],
+        [
+          1,
+          12,
+          12
+        ],
+        [
+          1,
+          13,
+          13
+        ],
+        [
+          1,
+          14,
+          14
+        ],
+        [
+          1,
+          15,
+          15
+        ],
+        [
+          1,
+          16,
+          16
+        ],
+        [
+          1,
+          17,
+          17
+        ],
+        [
+          1,
+          18,
+          18
+        ],
+        [
+          1,
+          19,
+          19
+        ],
+        [
+          1,
+          20,
+          20
+        ],
+        [
+          1,
+          21,
+          21
+        ],
+        [
+          1,
+          22,
+          22
+        ],
+        [
+          1,
+          23,
+          23
+        ],
+        [
+          1,
+          24,
+          24
+        ],
+        [
+          1,
+          25,
+          25
+        ],
+        [
+          2,
+          1,
+          26
+        ],
+        [
+          3,
+          1,
+          27
+        ],
+        [
+          4,
+          1,
+          28
+        ],
+        [
+          5,
+          1,
+          29
+        ],
+        [
+          6,
+          1,
+          30
+        ],
+        [
+          7,
+          1,
+          31
+        ],
+        [
+          8,
+          1,
+          32
+        ],
+        [
+          9,
+          1,
+          33
+        ],
+        [
+          10,
+          1,
+          34
+        ],
+        [
+          11,
+          1,
+          35
+        ],
+        [
+          12,
+          1,
+          36
+        ],
+        [
+          13,
+          1,
+          37
+        ],
+        [
+          14,
+          1,
+          38
+        ],
+        [
+          15,
+          1,
+          39
+        ],
+        [
+          16,
+          1,
+          40
+        ],
+        [
+          17,
+          1,
+          41
+        ],
+        [
+          18,
+          1,
+          42
+        ],
+        [
+          19,
+          1,
+          43
+        ],
+        [
+          20,
+          1,
+          44
+        ],
+        [
+          21,
+          1,
+          45
+        ],
+        [
+          22,
+          1,
+          46
+        ],
+        [
+          23,
+          1,
+          47
+        ],
+        [
+          24,
+          1,
+          48
+        ],
+        [
+          25,
+          1,
+          49
+        ]
+      ],
+      "neighbor_test_oops": 8455,
+      "neighbor_test_mems": 2401,
+      "expected_oops": 134607,
+      "expected_mems": 8594,
+      "input_sha256": "b860079cfb2a1466646f9389a6ada84448ae37e84d36b66d5971761a5808fc23",
+      "every_output_byte_agrees": true,
+      "output_bytes": 7299,
+      "instructions": 40745,
+      "mems": 8594,
+      "oops": 134607
+    },
+    "all-black": {
+      "removed_black": 625,
+      "retained_black": 0,
+      "white": 0,
+      "labels": 0,
+      "label_coordinates": [],
+      "neighbor_test_oops": 0,
+      "neighbor_test_mems": 0,
+      "expected_oops": 54650,
+      "expected_mems": 7100,
+      "input_sha256": "b31dd400f9f83a2e8abe1f7a5fe89956f7f1a682d41a303bd4fd5394bc077a1b",
+      "every_output_byte_agrees": true,
+      "output_bytes": 363,
+      "instructions": 37746,
+      "mems": 7100,
+      "oops": 54650
+    },
+    "long-path": {
+      "removed_black": 288,
+      "retained_black": 0,
+      "white": 337,
+      "labels": 15,
+      "label_coordinates": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          3,
+          2
+        ],
+        [
+          1,
+          25,
+          3
+        ],
+        [
+          3,
+          1,
+          4
+        ],
+        [
+          5,
+          3,
+          5
+        ],
+        [
+          7,
+          1,
+          6
+        ],
+        [
+          9,
+          3,
+          7
+        ],
+        [
+          11,
+          1,
+          8
+        ],
+        [
+          13,
+          3,
+          9
+        ],
+        [
+          15,
+          1,
+          10
+        ],
+        [
+          17,
+          3,
+          11
+        ],
+        [
+          19,
+          1,
+          12
+        ],
+        [
+          21,
+          3,
+          13
+        ],
+        [
+          23,
+          1,
+          14
+        ],
+        [
+          25,
+          1,
+          15
+        ]
+      ],
+      "neighbor_test_oops": 4250,
+      "neighbor_test_mems": 1008,
+      "expected_oops": 94336,
+      "expected_mems": 7539,
+      "input_sha256": "e6371f9e9ed542a13d811d35d077c27a5464ca44b4b45ce4249ef2d81690d33d",
+      "every_output_byte_agrees": true,
+      "output_bytes": 3943,
+      "instructions": 38172,
+      "mems": 7539,
+      "oops": 94336
+    }
+  },
+  "object_sha256": "dcb3267218e6a1e4db32b16568c385d748e5bc836e9c99d468a82e5d5a6a4aed",
+  "elapsed_seconds": 1.496945985010825
+}

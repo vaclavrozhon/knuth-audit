@@ -1,0 +1,67 @@
+{
+  "checked_at_utc": "2026-11-06T09:36:28.710007+00:00",
+  "scope": "Stored transforms, basis determinants, orthogonal norms, witnesses and rounding-interval inclusion; no new LLL or lattice enumeration.",
+  "minimum_lower_bound_scope": "Accepted from reviewed original rational sphere-enumeration program and archived successful run; witness validation alone is not a minimum proof.",
+  "table_certificates": 145,
+  "minimum_witnesses": 336,
+  "stored_intervals_checked": 303,
+  "approximation_candidate": [
+    [
+      29,
+      5,
+      "2e165"
+    ]
+  ],
+  "randu_stronger_congruence_witnesses": 8,
+  "new_primitive_root_witnesses": {
+    "314159269": {
+      "2": 2147483646,
+      "3": 634005911,
+      "7": 1752599774,
+      "11": 1969212174,
+      "31": 2097152,
+      "151": 709324280,
+      "331": 1095913182
+    },
+    "62089911": {
+      "2": 2147483646,
+      "3": 1513477735,
+      "7": 894255406,
+      "11": 2080850853,
+      "31": 8388608,
+      "151": 112267111,
+      "331": 1744044722
+    },
+    "16807": {
+      "2": 2147483646,
+      "3": 634005911,
+      "7": 1600955193,
+      "11": 298192073,
+      "31": 16384,
+      "151": 1013763951,
+      "331": 759513457
+    }
+  },
+  "combined_output_period": {
+    "value": 74382023826798534,
+    "p1": 2147483647,
+    "p2": 2147483399,
+    "a1_power_p2_minus_1_mod_p1": 1896473185,
+    "proof": "For nonzero seeds, output period T implies (a1^T-1)X_n = Y_(n+T)-Y_n mod p1. Comparing n and n+p2-1 forces a1^T=1. Then Y_(n+T)=Y_n as both are between1 and p2-1<p1, forcing a2^T=1."
+  },
+  "inputs": [
+    {
+      "path": "workstreams/vol2/results/spectral-table.json",
+      "sha256": "a4d77943c8813393060366b9f44ae6f473f59e95a0936a8660456ebcd9f1d1c9"
+    },
+    {
+      "path": "workstreams/vol2/results/spectral-details.json",
+      "sha256": "bbf90c7fca121b7ce6b504a18d349b5b04bfaee5647e378a585512e130368910"
+    },
+    {
+      "path": "workstreams/vol2/results/spectral-extensions.json",
+      "sha256": "c116178e3334a6ae8d6844439eb6d49f5ffae1afcd82469ae1eafcd9ec3d78c0"
+    }
+  ],
+  "seconds": 0.23957788100233302
+}

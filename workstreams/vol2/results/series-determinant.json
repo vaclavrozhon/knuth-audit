@@ -1,0 +1,65 @@
+{
+  "status": "passed",
+  "seconds": 0.6745502590201795,
+  "transformation_cases": 1024,
+  "cases_with_zero_constant": 700,
+  "sizes": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "counterexample": {
+    "n": 1,
+    "A": "1",
+    "p": 1,
+    "q": 1,
+    "r": 2,
+    "s": 2,
+    "actual_det": 1,
+    "printed_rhs": 4,
+    "corrected_rhs": 1
+  },
+  "part_b_direct_coefficient_determinants": [
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1"
+  ],
+  "part_b_first4matrix": [
+    [
+      "1",
+      "1",
+      "1/2",
+      "1/6"
+    ],
+    [
+      "1",
+      "2",
+      "2",
+      "4/3"
+    ],
+    [
+      "1/2",
+      "2",
+      "7/2",
+      "23/6"
+    ],
+    [
+      "1/6",
+      "4/3",
+      "23/6",
+      "115/18"
+    ]
+  ],
+  "scope": "Finite exact checks supplement the general triangular-factor proof; b coefficients derived independently from denominator recurrence.",
+  "completed_at_utc": "2026-11-04T09:37:59.543974+00:00"
+}

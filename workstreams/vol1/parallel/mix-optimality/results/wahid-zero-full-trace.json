@@ -1,0 +1,796 @@
+{
+  "radix": 64,
+  "initial_A": {
+    "sign": -1,
+    "digits": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "input_at_200": {
+    "sign": 1,
+    "digits": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "initial_I1_through_I6": -4095,
+  "initial_X": {
+    "sign": -1,
+    "digits": [
+      63,
+      63,
+      63,
+      63,
+      63
+    ]
+  },
+  "initial_J": 0,
+  "initial_overflow": false,
+  "initial_comparison": "EQUAL",
+  "other_memory": "positive zero; unused except the specified code and input",
+  "trace": [
+    {
+      "step": 1,
+      "pc": 3000,
+      "op": "ENT1",
+      "instruction_sign": 1,
+      "instruction_digits": [
+        0,
+        45,
+        0,
+        2,
+        49
+      ],
+      "next_pc": 3001,
+      "A_sign": -1,
+      "A_digits": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "I1": 45,
+      "J": 0,
+      "overflow": false,
+      "comparison": 0,
+      "halted": false,
+      "elapsed_time": 1
+    },
+    {
+      "step": 2,
+      "pc": 3001,
+      "op": "SLA",
+      "instruction_sign": 1,
+      "instruction_digits": [
+        0,
+        1,
+        0,
+        0,
+        6
+      ],
+      "next_pc": 3002,
+      "A_sign": -1,
+      "A_digits": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "I1": 45,
+      "J": 0,
+      "overflow": false,
+      "comparison": 0,
+      "halted": false,
+      "elapsed_time": 3
+    },
+    {
+      "step": 3,
+      "pc": 3002,
+      "op": "ST1",
+      "instruction_sign": 1,
+      "instruction_digits": [
+        46,
+        59,
+        0,
+        36,
+        25
+      ],
+      "next_pc": 3003,
+      "A_sign": -1,
+      "A_digits": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "I1": 45,
+      "J": 0,
+      "overflow": false,
+      "comparison": 0,
+      "halted": false,
+      "elapsed_time": 5
+    },
+    {
+      "step": 4,
+      "pc": 3003,
+      "op": "ADD",
+      "instruction_sign": 1,
+      "instruction_digits": [
+        3,
+        8,
+        0,
+        45,
+        1
+      ],
+      "next_pc": 3004,
+      "A_sign": -1,
+      "A_digits": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "I1": 45,
+      "J": 0,
+      "overflow": false,
+      "comparison": 0,
+      "halted": false,
+      "elapsed_time": 7
+    },
+    {
+      "step": 5,
+      "pc": 3004,
+      "op": "DEC1",
+      "instruction_sign": 1,
+      "instruction_digits": [
+        0,
+        9,
+        0,
+        1,
+        49
+      ],
+      "next_pc": 3005,
+      "A_sign": -1,
+      "A_digits": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "I1": 36,
+      "J": 0,
+      "overflow": false,
+      "comparison": 0,
+      "halted": false,
+      "elapsed_time": 8
+    },
+    {
+      "step": 6,
+      "pc": 3005,
+      "op": "J1P",
+      "instruction_sign": 1,
+      "instruction_digits": [
+        46,
+        57,
+        0,
+        2,
+        41
+      ],
+      "next_pc": 3001,
+      "A_sign": -1,
+      "A_digits": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "I1": 36,
+      "J": 3006,
+      "overflow": false,
+      "comparison": 0,
+      "halted": false,
+      "elapsed_time": 9
+    },
+    {
+      "step": 7,
+      "pc": 3001,
+      "op": "SLA",
+      "instruction_sign": 1,
+      "instruction_digits": [
+        0,
+        1,
+        0,
+        0,
+        6
+      ],
+      "next_pc": 3002,
+      "A_sign": -1,
+      "A_digits": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "I1": 36,
+      "J": 3006,
+      "overflow": false,
+      "comparison": 0,
+      "halted": false,
+      "elapsed_time": 11
+    },
+    {
+      "step": 8,
+      "pc": 3002,
+      "op": "ST1",
+      "instruction_sign": 1,
+      "instruction_digits": [
+        46,
+        59,
+        0,
+        36,
+        25
+      ],
+      "next_pc": 3003,
+      "A_sign": -1,
+      "A_digits": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "I1": 36,
+      "J": 3006,
+      "overflow": false,
+      "comparison": 0,
+      "halted": false,
+      "elapsed_time": 13
+    },
+    {
+      "step": 9,
+      "pc": 3003,
+      "op": "ADD",
+      "instruction_sign": 1,
+      "instruction_digits": [
+        3,
+        8,
+        0,
+        36,
+        1
+      ],
+      "next_pc": 3004,
+      "A_sign": -1,
+      "A_digits": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "I1": 36,
+      "J": 3006,
+      "overflow": false,
+      "comparison": 0,
+      "halted": false,
+      "elapsed_time": 15
+    },
+    {
+      "step": 10,
+      "pc": 3004,
+      "op": "DEC1",
+      "instruction_sign": 1,
+      "instruction_digits": [
+        0,
+        9,
+        0,
+        1,
+        49
+      ],
+      "next_pc": 3005,
+      "A_sign": -1,
+      "A_digits": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "I1": 27,
+      "J": 3006,
+      "overflow": false,
+      "comparison": 0,
+      "halted": false,
+      "elapsed_time": 16
+    },
+    {
+      "step": 11,
+      "pc": 3005,
+      "op": "J1P",
+      "instruction_sign": 1,
+      "instruction_digits": [
+        46,
+        57,
+        0,
+        2,
+        41
+      ],
+      "next_pc": 3001,
+      "A_sign": -1,
+      "A_digits": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "I1": 27,
+      "J": 3006,
+      "overflow": false,
+      "comparison": 0,
+      "halted": false,
+      "elapsed_time": 17
+    },
+    {
+      "step": 12,
+      "pc": 3001,
+      "op": "SLA",
+      "instruction_sign": 1,
+      "instruction_digits": [
+        0,
+        1,
+        0,
+        0,
+        6
+      ],
+      "next_pc": 3002,
+      "A_sign": -1,
+      "A_digits": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "I1": 27,
+      "J": 3006,
+      "overflow": false,
+      "comparison": 0,
+      "halted": false,
+      "elapsed_time": 19
+    },
+    {
+      "step": 13,
+      "pc": 3002,
+      "op": "ST1",
+      "instruction_sign": 1,
+      "instruction_digits": [
+        46,
+        59,
+        0,
+        36,
+        25
+      ],
+      "next_pc": 3003,
+      "A_sign": -1,
+      "A_digits": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "I1": 27,
+      "J": 3006,
+      "overflow": false,
+      "comparison": 0,
+      "halted": false,
+      "elapsed_time": 21
+    },
+    {
+      "step": 14,
+      "pc": 3003,
+      "op": "ADD",
+      "instruction_sign": 1,
+      "instruction_digits": [
+        3,
+        8,
+        0,
+        27,
+        1
+      ],
+      "next_pc": 3004,
+      "A_sign": -1,
+      "A_digits": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "I1": 27,
+      "J": 3006,
+      "overflow": false,
+      "comparison": 0,
+      "halted": false,
+      "elapsed_time": 23
+    },
+    {
+      "step": 15,
+      "pc": 3004,
+      "op": "DEC1",
+      "instruction_sign": 1,
+      "instruction_digits": [
+        0,
+        9,
+        0,
+        1,
+        49
+      ],
+      "next_pc": 3005,
+      "A_sign": -1,
+      "A_digits": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "I1": 18,
+      "J": 3006,
+      "overflow": false,
+      "comparison": 0,
+      "halted": false,
+      "elapsed_time": 24
+    },
+    {
+      "step": 16,
+      "pc": 3005,
+      "op": "J1P",
+      "instruction_sign": 1,
+      "instruction_digits": [
+        46,
+        57,
+        0,
+        2,
+        41
+      ],
+      "next_pc": 3001,
+      "A_sign": -1,
+      "A_digits": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "I1": 18,
+      "J": 3006,
+      "overflow": false,
+      "comparison": 0,
+      "halted": false,
+      "elapsed_time": 25
+    },
+    {
+      "step": 17,
+      "pc": 3001,
+      "op": "SLA",
+      "instruction_sign": 1,
+      "instruction_digits": [
+        0,
+        1,
+        0,
+        0,
+        6
+      ],
+      "next_pc": 3002,
+      "A_sign": -1,
+      "A_digits": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "I1": 18,
+      "J": 3006,
+      "overflow": false,
+      "comparison": 0,
+      "halted": false,
+      "elapsed_time": 27
+    },
+    {
+      "step": 18,
+      "pc": 3002,
+      "op": "ST1",
+      "instruction_sign": 1,
+      "instruction_digits": [
+        46,
+        59,
+        0,
+        36,
+        25
+      ],
+      "next_pc": 3003,
+      "A_sign": -1,
+      "A_digits": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "I1": 18,
+      "J": 3006,
+      "overflow": false,
+      "comparison": 0,
+      "halted": false,
+      "elapsed_time": 29
+    },
+    {
+      "step": 19,
+      "pc": 3003,
+      "op": "ADD",
+      "instruction_sign": 1,
+      "instruction_digits": [
+        3,
+        8,
+        0,
+        18,
+        1
+      ],
+      "next_pc": 3004,
+      "A_sign": -1,
+      "A_digits": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "I1": 18,
+      "J": 3006,
+      "overflow": false,
+      "comparison": 0,
+      "halted": false,
+      "elapsed_time": 31
+    },
+    {
+      "step": 20,
+      "pc": 3004,
+      "op": "DEC1",
+      "instruction_sign": 1,
+      "instruction_digits": [
+        0,
+        9,
+        0,
+        1,
+        49
+      ],
+      "next_pc": 3005,
+      "A_sign": -1,
+      "A_digits": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "I1": 9,
+      "J": 3006,
+      "overflow": false,
+      "comparison": 0,
+      "halted": false,
+      "elapsed_time": 32
+    },
+    {
+      "step": 21,
+      "pc": 3005,
+      "op": "J1P",
+      "instruction_sign": 1,
+      "instruction_digits": [
+        46,
+        57,
+        0,
+        2,
+        41
+      ],
+      "next_pc": 3001,
+      "A_sign": -1,
+      "A_digits": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "I1": 9,
+      "J": 3006,
+      "overflow": false,
+      "comparison": 0,
+      "halted": false,
+      "elapsed_time": 33
+    },
+    {
+      "step": 22,
+      "pc": 3001,
+      "op": "SLA",
+      "instruction_sign": 1,
+      "instruction_digits": [
+        0,
+        1,
+        0,
+        0,
+        6
+      ],
+      "next_pc": 3002,
+      "A_sign": -1,
+      "A_digits": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "I1": 9,
+      "J": 3006,
+      "overflow": false,
+      "comparison": 0,
+      "halted": false,
+      "elapsed_time": 35
+    },
+    {
+      "step": 23,
+      "pc": 3002,
+      "op": "ST1",
+      "instruction_sign": 1,
+      "instruction_digits": [
+        46,
+        59,
+        0,
+        36,
+        25
+      ],
+      "next_pc": 3003,
+      "A_sign": -1,
+      "A_digits": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "I1": 9,
+      "J": 3006,
+      "overflow": false,
+      "comparison": 0,
+      "halted": false,
+      "elapsed_time": 37
+    },
+    {
+      "step": 24,
+      "pc": 3003,
+      "op": "ADD",
+      "instruction_sign": 1,
+      "instruction_digits": [
+        3,
+        8,
+        0,
+        9,
+        1
+      ],
+      "next_pc": 3004,
+      "A_sign": -1,
+      "A_digits": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "I1": 9,
+      "J": 3006,
+      "overflow": false,
+      "comparison": 0,
+      "halted": false,
+      "elapsed_time": 39
+    },
+    {
+      "step": 25,
+      "pc": 3004,
+      "op": "DEC1",
+      "instruction_sign": 1,
+      "instruction_digits": [
+        0,
+        9,
+        0,
+        1,
+        49
+      ],
+      "next_pc": 3005,
+      "A_sign": -1,
+      "A_digits": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "I1": 0,
+      "J": 3006,
+      "overflow": false,
+      "comparison": 0,
+      "halted": false,
+      "elapsed_time": 40
+    },
+    {
+      "step": 26,
+      "pc": 3005,
+      "op": "J1P",
+      "instruction_sign": 1,
+      "instruction_digits": [
+        46,
+        57,
+        0,
+        2,
+        41
+      ],
+      "next_pc": 3006,
+      "A_sign": -1,
+      "A_digits": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "I1": 0,
+      "J": 3006,
+      "overflow": false,
+      "comparison": 0,
+      "halted": false,
+      "elapsed_time": 41
+    },
+    {
+      "step": 27,
+      "pc": 3006,
+      "op": "HLT",
+      "instruction_sign": 1,
+      "instruction_digits": [
+        0,
+        0,
+        0,
+        2,
+        5
+      ],
+      "next_pc": 3007,
+      "A_sign": -1,
+      "A_digits": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "I1": 0,
+      "J": 3006,
+      "overflow": false,
+      "comparison": 0,
+      "halted": true,
+      "elapsed_time": 42
+    }
+  ]
+}

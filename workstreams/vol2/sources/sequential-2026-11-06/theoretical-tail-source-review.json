@@ -1,0 +1,59 @@
+{
+  "reviewed_at_utc": "2026-11-06T09:08:40.604032+00:00",
+  "purpose": "Short source check for the unresolved exact discrepancy constant, not an audit of all retrieved papers.",
+  "queries": [
+    "discrepancy Dieter partial quotients 4",
+    "Ostrowski sum 1/8 Birkhoff rational bound",
+    "Dieter 1971 855 883 random PDF",
+    "discrepancy partial quotients 1/4 Knuth",
+    "centered sum partial quotients Dedekind bound"
+  ],
+  "sources": [
+    {
+      "url": "https://academic.oup.com/imrn/article/2023/22/19340/7193654",
+      "title": "Limit Laws of Maximal Birkhoff Sums for Circle Rotations via Quantum Modular Forms",
+      "read_scope": "Publisher-extracted Lemma9 and its surrounding Ostrowski notation; compared with cached preprint text page12. Later limit-law proofs not audited.",
+      "assessment": "Confirms the exact coupled-digit formula already recorded; no proof of R<=sum(quotients)/8 obtained."
+    },
+    {
+      "url": "https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society/volume-84/issue-6/Quasi-Monte-Carlo-methods-and-pseudo-random-numbers/bams/1183541461.pdf",
+      "read_scope": "Search-indexed paragraph introducing Dieter and nearest-integer quotients only; not a new complete PDF reading.",
+      "assessment": "Does not settle the exact finite constant in the exercise."
+    },
+    {
+      "url": "https://www.tugraz.at/fileadmin/user_upload/Institute/STAT/documents/Nachruf_Dieter/UlrichDieter_Schriften-1.pdf",
+      "read_scope": "Indexed publication-list entries; no original Dieter1971 proof obtained.",
+      "assessment": "Metadata-only endpoint discrepancy already recorded; no book error inferred."
+    }
+  ],
+  "errata_review": {
+    "window": "sources/sequential-2026-11-06/theoretical-tests-errata.json",
+    "layers": [
+      "all2-prepre",
+      "all2-pre",
+      "all2",
+      "err2",
+      "err2.textxt"
+    ],
+    "additional_terms": [
+      "Fibonacci",
+      "descending",
+      "permutation",
+      "answer19",
+      "answer20",
+      "answer22",
+      "answer23",
+      "answer24",
+      "answer27"
+    ],
+    "no_matching_correction": [
+      "V2-C0033",
+      "V2-C0034",
+      "V2-C0035"
+    ],
+    "known_changes": [
+      "2005 uniform distribution in exercise22",
+      "1999 difficulty label M28 for exercise23"
+    ]
+  }
+}

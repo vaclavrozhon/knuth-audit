@@ -1,0 +1,78 @@
+{
+  "status": "verified",
+  "checked_at_utc": "2026-11-01T18:27:07.045087+00:00",
+  "source_sha256": "e147365a9f786a923dc7c9b0cea75164b5729eb262cafcff1bb5b280ea9afa10",
+  "wrapper_sha256": "522c569d05a1324e3a73b173ce091ec8f639400e4b51c5ec6d953e65b2e772d1",
+  "cases": {
+    "special": {
+      "solutions": 326721800,
+      "initialization_mems": 47099,
+      "search_mems": 1123272951633,
+      "updates": 70526170851,
+      "bytes": 24160,
+      "nodes": 5087679409,
+      "profile": [
+        1,
+        8,
+        105,
+        1259,
+        13039,
+        114856,
+        845569,
+        5148209,
+        25468237,
+        100114222,
+        303127379,
+        677106895,
+        1066312322,
+        1160663885,
+        906869114,
+        515172509,
+        326721800
+      ]
+    },
+    "one": {
+      "solutions": 326721800,
+      "initialization_mems": 46203,
+      "search_mems": 1219554377149,
+      "updates": 76415321567,
+      "bytes": 23712,
+      "nodes": 5459538827,
+      "profile": [
+        1,
+        15,
+        195,
+        2203,
+        21300,
+        174072,
+        1203154,
+        6931100,
+        32636728,
+        122826281,
+        358151151,
+        775316959,
+        1187058101,
+        1238144635,
+        911580280,
+        498770852,
+        326721800
+      ]
+    }
+  },
+  "saving_fraction": {
+    "numerator": 3105852436,
+    "denominator": 39340463779,
+    "decimal": 0.07894803816872918
+  },
+  "mems_per_solution": {
+    "numerator": 1123272951633,
+    "denominator": 326721800,
+    "decimal": 3438.0104163021874
+  },
+  "relative_difference_from_printed_1_13T": {
+    "numerator": 6727048367,
+    "denominator": 1130000000000,
+    "decimal": 0.00595314014778761
+  },
+  "scope": "Complete originalDLX1 runs, both cuts, authenticated logs and full node profiles. The 7.895% saving supports the informal about10% statement alongside n11/12. This does not claim exact reproduction of the separate book memory accounting on p70."
+}

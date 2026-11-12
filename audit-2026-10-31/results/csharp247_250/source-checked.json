@@ -1,0 +1,144 @@
+{
+  "at_utc": "2026-11-03T19:29:00.538786+00:00",
+  "elapsed_seconds": 0.16880245902575552,
+  "nice": 15,
+  "checker_sha256": "fc6e02003afb4c38f36a8f59646024e71144f3761fe813a9a5c2b8719713ae98",
+  "heap_examples": {
+    "3": {
+      "cutoffs": [
+        "infinity",
+        "infinity",
+        4,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2
+      ],
+      "accepted": [
+        3,
+        1,
+        4,
+        1,
+        2
+      ],
+      "best": [
+        1,
+        1,
+        2
+      ]
+    },
+    "4": {
+      "cutoffs": [
+        "infinity",
+        "infinity",
+        "infinity",
+        4,
+        4,
+        4,
+        3,
+        3,
+        3,
+        3
+      ],
+      "accepted": [
+        3,
+        1,
+        4,
+        1,
+        2
+      ],
+      "best": [
+        1,
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  "choice248_checks": 3600,
+  "example249": {
+    "costs": [
+      3,
+      1,
+      4,
+      1,
+      5,
+      9,
+      2,
+      6,
+      5,
+      3,
+      5,
+      8
+    ],
+    "lower_bounds": [
+      0,
+      3,
+      3,
+      5,
+      5,
+      9,
+      14,
+      16,
+      18,
+      21,
+      22,
+      25,
+      28
+    ],
+    "earliest_bad_prefix": 7
+  },
+  "f150": {
+    "versions": {
+      "book": {
+        "source": "sources/words_primes231_238/original-173.txt",
+        "source_sha256": "3a3f592e4b03c74fddf24fe6029fe033771dbca40d2036ed9c2cd6819b47ed9d"
+      },
+      "draft": {
+        "source": "sources/words_primes231_238/draft-95.txt",
+        "source_sha256": "8cd9751e90568fd6b85d0085d3deb61ab2e408dd377dcb5843e96a3903c650a9"
+      }
+    },
+    "witness_options": [
+      [
+        "a",
+        "b"
+      ],
+      [
+        "a",
+        "c"
+      ],
+      [
+        "a",
+        "d"
+      ]
+    ],
+    "item": "a",
+    "LEN": 3,
+    "correction": "such items -> such options",
+    "severity": "low",
+    "scope": "editorial"
+  },
+  "E108": "Both published249 corrections applied in book480; missing in draft184.",
+  "accepted_old_tests_rerun": false,
+  "accepted_hashes": {
+    "colored_dlx.py": "2fb1fef298021343a6d56cdb7fac2ec91f926e0967dc76a5381a98aa62464845",
+    "DANCING_LINKS_FOUNDATIONS.md": "a9dd0a5ecd0db90f61eedd5ee2c36987efee187c2669d08ac3a62cba4c1b00bc",
+    "COLORED_BASICS_NOTES.md": "5d23439b2b58e2901724497901405197dd0c56a6a53bc4aa1eb8a2f1ca955396",
+    "COST_REDUCTION_NOTES.md": "ead3d2a94fa50be679dbdecc7d48ebb8e329cb35c008963556e0cf36c0308085",
+    "check_cost_reductions.py": "4f9560602301dc19ac852133976f44ad4b29c40b88941c52da6b2420247a09a3",
+    "results/cost_reductions/verified.json": "a790347fb99899b942e334b3787b50d6d19b7466bb6a06fda4ea8a0981c4a59b",
+    "sources/knuth-programs/dlx5.w": "187a2ebecf63a795eba9903ab539a2700eac68a5d1252b60a844714afc6b6892"
+  },
+  "current_hashes": {
+    "csharp_spacer.py": "ea81ebfea821b4a19f63774b048862ab13d4d8821613d38562d2ed28fe58729a",
+    "check_csharp_spacer.py": "2094bfc0946d6c2c551a6aa58d71e76c1227c7ab1d6d61e3f64602c8f0484f0e",
+    "results/csharp247_250/spacer-checked.json": "9ae1c59fedbe593c9b5297a07f20d52889cfd545f8c818d834fb00f2e4e4fcd3",
+    "sources/csharp247_250/gondran-lauriere1974.pdf": "8af47970943a012e3553c53bf792168d5113216c11a0f7168dbad8c88590f9f8",
+    "sources/csharp247_250/source-observations.json": "d89567228b403e0a135bd7c3c82ee920b74636e9e2de27ccf2a73119eefa9ed6",
+    "results/csharp247_250/errata-search.json": "94a7502b80c36cb3da16d2de657e208685cb4d60b65bf383991069d1c2e64ffa"
+  }
+}

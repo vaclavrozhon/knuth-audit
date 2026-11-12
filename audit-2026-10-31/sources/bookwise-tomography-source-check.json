@@ -1,0 +1,38 @@
+{
+  "checked_at_utc": "2026-11-12T00:45:53.998707+00:00",
+  "fresh_errata_manifests": [
+    "integration/2026-11-10-bookwise/errata/vol4b-manifest.json",
+    "integration/2026-11-10-bookwise/errata/vol4b-sat-manifest.json"
+  ],
+  "scope": "4B main208–210, questions325–327, answers568–572; Fascicle6 main24–26, questions141–143, answers204–208.",
+  "known_corrections": [
+    "105(d) 2016 formula already incorporated",
+    "105(e) m=n wording 2022 already incorporated"
+  ],
+  "originals_inspected": [
+    "images/bookwise-protocol-p208.png",
+    "images/bookwise-protocol-p568.png",
+    "images/bookwise-tomo-p209.png",
+    "images/bookwise-tomo-p569.png",
+    "images/bookwise-runs-p572.png"
+  ],
+  "author_draft": {
+    "url": "https://www-cs-faculty.stanford.edu/~knuth/fasc6a.ps.gz",
+    "printed_page": 208,
+    "inspection": "text extraction",
+    "result": "Same adjacent-pair subscripts and three-leaf identity."
+  },
+  "author_program": {
+    "local": "sources/bookwise-sat-tomography-2nd.ch",
+    "provenance": "sources/bookwise-sat-tomography-2nd.provenance.json",
+    "result": "Helper n is explicitly the number of adjacent pairs, called with input length minus one. Only the indexing correspondence was used; no whole-program certification."
+  },
+  "public_queries": [
+    "Knuth 117 runs clauses errata",
+    "Knuth 2k n − 1 117"
+  ],
+  "public_result": "No matching public correction located.",
+  "finding_ids": [
+    "F204"
+  ]
+}

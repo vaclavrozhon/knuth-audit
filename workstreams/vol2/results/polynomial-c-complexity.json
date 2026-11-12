@@ -1,0 +1,1094 @@
+{
+  "family_parameters": 35,
+  "algorithm_runs": 70,
+  "rows": [
+    {
+      "D": 1,
+      "input_degree": 4,
+      "input_coefficient_bound": 2,
+      "variants": {
+        "literal": {
+          "m": 2,
+          "n": 1,
+          "delta": 1,
+          "raw_bits": 10,
+          "selected": true,
+          "nonzero_integer_products": 3,
+          "schoolbook_bit_products": 15,
+          "core_subset_products": 0,
+          "core_subset_bit_products": 0,
+          "peak_bits": 10
+        },
+        "optimized": {
+          "m": 2,
+          "n": 1,
+          "delta": 1,
+          "raw_bits": 10,
+          "selected": true,
+          "nonzero_integer_products": 2,
+          "schoolbook_bit_products": 12,
+          "core_subset_products": 0,
+          "core_subset_bit_products": 0,
+          "peak_bits": 10
+        }
+      }
+    },
+    {
+      "D": 2,
+      "input_degree": 9,
+      "input_coefficient_bound": 2,
+      "variants": {
+        "literal": {
+          "m": 5,
+          "n": 3,
+          "delta": 2,
+          "raw_bits": 18,
+          "selected": true,
+          "nonzero_integer_products": 12,
+          "schoolbook_bit_products": 330,
+          "core_subset_products": 0,
+          "core_subset_bit_products": 0,
+          "peak_bits": 18
+        },
+        "optimized": {
+          "m": 5,
+          "n": 3,
+          "delta": 2,
+          "raw_bits": 18,
+          "selected": true,
+          "nonzero_integer_products": 9,
+          "schoolbook_bit_products": 295,
+          "core_subset_products": 0,
+          "core_subset_bit_products": 0,
+          "peak_bits": 18
+        }
+      }
+    },
+    {
+      "D": 3,
+      "input_degree": 14,
+      "input_coefficient_bound": 2,
+      "variants": {
+        "literal": {
+          "m": 8,
+          "n": 5,
+          "delta": 3,
+          "raw_bits": 31,
+          "selected": true,
+          "nonzero_integer_products": 25,
+          "schoolbook_bit_products": 1869,
+          "core_subset_products": 0,
+          "core_subset_bit_products": 0,
+          "peak_bits": 31
+        },
+        "optimized": {
+          "m": 8,
+          "n": 5,
+          "delta": 3,
+          "raw_bits": 31,
+          "selected": true,
+          "nonzero_integer_products": 19,
+          "schoolbook_bit_products": 1652,
+          "core_subset_products": 0,
+          "core_subset_bit_products": 0,
+          "peak_bits": 31
+        }
+      }
+    },
+    {
+      "D": 4,
+      "input_degree": 19,
+      "input_coefficient_bound": 2,
+      "variants": {
+        "literal": {
+          "m": 11,
+          "n": 7,
+          "delta": 4,
+          "raw_bits": 48,
+          "selected": true,
+          "nonzero_integer_products": 42,
+          "schoolbook_bit_products": 6714,
+          "core_subset_products": 2,
+          "core_subset_bit_products": 486,
+          "peak_bits": 48
+        },
+        "optimized": {
+          "m": 11,
+          "n": 7,
+          "delta": 4,
+          "raw_bits": 48,
+          "selected": true,
+          "nonzero_integer_products": 32,
+          "schoolbook_bit_products": 5868,
+          "core_subset_products": 2,
+          "core_subset_bit_products": 486,
+          "peak_bits": 48
+        }
+      }
+    },
+    {
+      "D": 5,
+      "input_degree": 24,
+      "input_coefficient_bound": 2,
+      "variants": {
+        "literal": {
+          "m": 14,
+          "n": 9,
+          "delta": 5,
+          "raw_bits": 69,
+          "selected": true,
+          "nonzero_integer_products": 63,
+          "schoolbook_bit_products": 18535,
+          "core_subset_products": 2,
+          "core_subset_bit_products": 968,
+          "peak_bits": 69
+        },
+        "optimized": {
+          "m": 14,
+          "n": 9,
+          "delta": 5,
+          "raw_bits": 69,
+          "selected": true,
+          "nonzero_integer_products": 48,
+          "schoolbook_bit_products": 16060,
+          "core_subset_products": 2,
+          "core_subset_bit_products": 968,
+          "peak_bits": 69
+        }
+      }
+    },
+    {
+      "D": 6,
+      "input_degree": 29,
+      "input_coefficient_bound": 2,
+      "variants": {
+        "literal": {
+          "m": 17,
+          "n": 11,
+          "delta": 6,
+          "raw_bits": 94,
+          "selected": true,
+          "nonzero_integer_products": 88,
+          "schoolbook_bit_products": 43069,
+          "core_subset_products": 3,
+          "core_subset_bit_products": 2535,
+          "peak_bits": 94
+        },
+        "optimized": {
+          "m": 17,
+          "n": 11,
+          "delta": 6,
+          "raw_bits": 94,
+          "selected": true,
+          "nonzero_integer_products": 67,
+          "schoolbook_bit_products": 37076,
+          "core_subset_products": 3,
+          "core_subset_bit_products": 2535,
+          "peak_bits": 94
+        }
+      }
+    },
+    {
+      "D": 7,
+      "input_degree": 34,
+      "input_coefficient_bound": 2,
+      "variants": {
+        "literal": {
+          "m": 20,
+          "n": 13,
+          "delta": 7,
+          "raw_bits": 122,
+          "selected": true,
+          "nonzero_integer_products": 117,
+          "schoolbook_bit_products": 88755,
+          "core_subset_products": 3,
+          "core_subset_bit_products": 4005,
+          "peak_bits": 122
+        },
+        "optimized": {
+          "m": 20,
+          "n": 13,
+          "delta": 7,
+          "raw_bits": 122,
+          "selected": true,
+          "nonzero_integer_products": 89,
+          "schoolbook_bit_products": 76065,
+          "core_subset_products": 3,
+          "core_subset_bit_products": 4005,
+          "peak_bits": 122
+        }
+      }
+    },
+    {
+      "D": 8,
+      "input_degree": 39,
+      "input_coefficient_bound": 2,
+      "variants": {
+        "literal": {
+          "m": 23,
+          "n": 15,
+          "delta": 8,
+          "raw_bits": 155,
+          "selected": true,
+          "nonzero_integer_products": 150,
+          "schoolbook_bit_products": 167059,
+          "core_subset_products": 8,
+          "core_subset_bit_products": 14892,
+          "peak_bits": 155
+        },
+        "optimized": {
+          "m": 23,
+          "n": 15,
+          "delta": 8,
+          "raw_bits": 155,
+          "selected": true,
+          "nonzero_integer_products": 114,
+          "schoolbook_bit_products": 142698,
+          "core_subset_products": 8,
+          "core_subset_bit_products": 14892,
+          "peak_bits": 155
+        }
+      }
+    },
+    {
+      "D": 9,
+      "input_degree": 44,
+      "input_coefficient_bound": 2,
+      "variants": {
+        "literal": {
+          "m": 26,
+          "n": 17,
+          "delta": 9,
+          "raw_bits": 192,
+          "selected": true,
+          "nonzero_integer_products": 187,
+          "schoolbook_bit_products": 292999,
+          "core_subset_products": 8,
+          "core_subset_bit_products": 21508,
+          "peak_bits": 192
+        },
+        "optimized": {
+          "m": 26,
+          "n": 17,
+          "delta": 9,
+          "raw_bits": 192,
+          "selected": true,
+          "nonzero_integer_products": 142,
+          "schoolbook_bit_products": 249622,
+          "core_subset_products": 8,
+          "core_subset_bit_products": 21508,
+          "peak_bits": 192
+        }
+      }
+    },
+    {
+      "D": 10,
+      "input_degree": 49,
+      "input_coefficient_bound": 2,
+      "variants": {
+        "literal": {
+          "m": 29,
+          "n": 19,
+          "delta": 10,
+          "raw_bits": 233,
+          "selected": true,
+          "nonzero_integer_products": 228,
+          "schoolbook_bit_products": 485436,
+          "core_subset_products": 10,
+          "core_subset_bit_products": 37275,
+          "peak_bits": 233
+        },
+        "optimized": {
+          "m": 29,
+          "n": 19,
+          "delta": 10,
+          "raw_bits": 233,
+          "selected": true,
+          "nonzero_integer_products": 173,
+          "schoolbook_bit_products": 412671,
+          "core_subset_products": 10,
+          "core_subset_bit_products": 37275,
+          "peak_bits": 233
+        }
+      }
+    },
+    {
+      "D": 11,
+      "input_degree": 54,
+      "input_coefficient_bound": 2,
+      "variants": {
+        "literal": {
+          "m": 32,
+          "n": 21,
+          "delta": 11,
+          "raw_bits": 278,
+          "selected": true,
+          "nonzero_integer_products": 273,
+          "schoolbook_bit_products": 767763,
+          "core_subset_products": 10,
+          "core_subset_bit_products": 50025,
+          "peak_bits": 278
+        },
+        "optimized": {
+          "m": 32,
+          "n": 21,
+          "delta": 11,
+          "raw_bits": 278,
+          "selected": true,
+          "nonzero_integer_products": 207,
+          "schoolbook_bit_products": 651475,
+          "core_subset_products": 10,
+          "core_subset_bit_products": 50025,
+          "peak_bits": 278
+        }
+      }
+    },
+    {
+      "D": 12,
+      "input_degree": 59,
+      "input_coefficient_bound": 2,
+      "variants": {
+        "literal": {
+          "m": 35,
+          "n": 23,
+          "delta": 12,
+          "raw_bits": 326,
+          "selected": true,
+          "nonzero_integer_products": 322,
+          "schoolbook_bit_products": 1168700,
+          "core_subset_products": 18,
+          "core_subset_bit_products": 111900,
+          "peak_bits": 326
+        },
+        "optimized": {
+          "m": 35,
+          "n": 23,
+          "delta": 12,
+          "raw_bits": 326,
+          "selected": true,
+          "nonzero_integer_products": 244,
+          "schoolbook_bit_products": 990200,
+          "core_subset_products": 18,
+          "core_subset_bit_products": 111900,
+          "peak_bits": 326
+        }
+      }
+    },
+    {
+      "D": 13,
+      "input_degree": 64,
+      "input_coefficient_bound": 2,
+      "variants": {
+        "literal": {
+          "m": 38,
+          "n": 25,
+          "delta": 13,
+          "raw_bits": 379,
+          "selected": true,
+          "nonzero_integer_products": 375,
+          "schoolbook_bit_products": 1722249,
+          "core_subset_products": 18,
+          "core_subset_bit_products": 143532,
+          "peak_bits": 379
+        },
+        "optimized": {
+          "m": 38,
+          "n": 25,
+          "delta": 13,
+          "raw_bits": 379,
+          "selected": true,
+          "nonzero_integer_products": 284,
+          "schoolbook_bit_products": 1457379,
+          "core_subset_products": 18,
+          "core_subset_bit_products": 143532,
+          "peak_bits": 379
+        }
+      }
+    },
+    {
+      "D": 14,
+      "input_degree": 69,
+      "input_coefficient_bound": 2,
+      "variants": {
+        "literal": {
+          "m": 41,
+          "n": 27,
+          "delta": 14,
+          "raw_bits": 436,
+          "selected": true,
+          "nonzero_integer_products": 432,
+          "schoolbook_bit_products": 2468364,
+          "core_subset_products": 21,
+          "core_subset_bit_products": 210714,
+          "peak_bits": 436
+        },
+        "optimized": {
+          "m": 41,
+          "n": 27,
+          "delta": 14,
+          "raw_bits": 436,
+          "selected": true,
+          "nonzero_integer_products": 327,
+          "schoolbook_bit_products": 2086521,
+          "core_subset_products": 21,
+          "core_subset_bit_products": 210714,
+          "peak_bits": 436
+        }
+      }
+    },
+    {
+      "D": 15,
+      "input_degree": 74,
+      "input_coefficient_bound": 2,
+      "variants": {
+        "literal": {
+          "m": 44,
+          "n": 29,
+          "delta": 15,
+          "raw_bits": 497,
+          "selected": true,
+          "nonzero_integer_products": 493,
+          "schoolbook_bit_products": 3452997,
+          "core_subset_products": 21,
+          "core_subset_bit_products": 261051,
+          "peak_bits": 497
+        },
+        "optimized": {
+          "m": 44,
+          "n": 29,
+          "delta": 15,
+          "raw_bits": 497,
+          "selected": true,
+          "nonzero_integer_products": 373,
+          "schoolbook_bit_products": 2916077,
+          "core_subset_products": 21,
+          "core_subset_bit_products": 261051,
+          "peak_bits": 497
+        }
+      }
+    },
+    {
+      "D": 16,
+      "input_degree": 79,
+      "input_coefficient_bound": 2,
+      "variants": {
+        "literal": {
+          "m": 47,
+          "n": 31,
+          "delta": 16,
+          "raw_bits": 562,
+          "selected": true,
+          "nonzero_integer_products": 558,
+          "schoolbook_bit_products": 4729197,
+          "core_subset_products": 32,
+          "core_subset_bit_products": 468336,
+          "peak_bits": 562
+        },
+        "optimized": {
+          "m": 47,
+          "n": 31,
+          "delta": 16,
+          "raw_bits": 562,
+          "selected": true,
+          "nonzero_integer_products": 422,
+          "schoolbook_bit_products": 3990459,
+          "core_subset_products": 32,
+          "core_subset_bit_products": 468336,
+          "peak_bits": 562
+        }
+      }
+    },
+    {
+      "D": 17,
+      "input_degree": 84,
+      "input_coefficient_bound": 2,
+      "variants": {
+        "literal": {
+          "m": 50,
+          "n": 33,
+          "delta": 17,
+          "raw_bits": 630,
+          "selected": true,
+          "nonzero_integer_products": 627,
+          "schoolbook_bit_products": 6358065,
+          "core_subset_products": 32,
+          "core_subset_bit_products": 565880,
+          "peak_bits": 630
+        },
+        "optimized": {
+          "m": 50,
+          "n": 33,
+          "delta": 17,
+          "raw_bits": 630,
+          "selected": true,
+          "nonzero_integer_products": 474,
+          "schoolbook_bit_products": 5360950,
+          "core_subset_products": 32,
+          "core_subset_bit_products": 565880,
+          "peak_bits": 630
+        }
+      }
+    },
+    {
+      "D": 18,
+      "input_degree": 89,
+      "input_coefficient_bound": 2,
+      "variants": {
+        "literal": {
+          "m": 53,
+          "n": 35,
+          "delta": 18,
+          "raw_bits": 703,
+          "selected": true,
+          "nonzero_integer_products": 700,
+          "schoolbook_bit_products": 8408139,
+          "core_subset_products": 36,
+          "core_subset_bit_products": 760572,
+          "peak_bits": 703
+        },
+        "optimized": {
+          "m": 53,
+          "n": 35,
+          "delta": 18,
+          "raw_bits": 703,
+          "selected": true,
+          "nonzero_integer_products": 529,
+          "schoolbook_bit_products": 7084945,
+          "core_subset_products": 36,
+          "core_subset_bit_products": 760572,
+          "peak_bits": 703
+        }
+      }
+    },
+    {
+      "D": 19,
+      "input_degree": 94,
+      "input_coefficient_bound": 2,
+      "variants": {
+        "literal": {
+          "m": 56,
+          "n": 37,
+          "delta": 19,
+          "raw_bits": 780,
+          "selected": true,
+          "nonzero_integer_products": 777,
+          "schoolbook_bit_products": 10956309,
+          "core_subset_products": 36,
+          "core_subset_bit_products": 899613,
+          "peak_bits": 780
+        },
+        "optimized": {
+          "m": 56,
+          "n": 37,
+          "delta": 19,
+          "raw_bits": 780,
+          "selected": true,
+          "nonzero_integer_products": 587,
+          "schoolbook_bit_products": 9226815,
+          "core_subset_products": 36,
+          "core_subset_bit_products": 899613,
+          "peak_bits": 780
+        }
+      }
+    },
+    {
+      "D": 20,
+      "input_degree": 99,
+      "input_coefficient_bound": 2,
+      "variants": {
+        "literal": {
+          "m": 59,
+          "n": 39,
+          "delta": 20,
+          "raw_bits": 861,
+          "selected": true,
+          "nonzero_integer_products": 858,
+          "schoolbook_bit_products": 14088297,
+          "core_subset_products": 50,
+          "core_subset_bit_products": 1423110,
+          "peak_bits": 861
+        },
+        "optimized": {
+          "m": 59,
+          "n": 39,
+          "delta": 20,
+          "raw_bits": 861,
+          "selected": true,
+          "nonzero_integer_products": 648,
+          "schoolbook_bit_products": 11858307,
+          "core_subset_products": 50,
+          "core_subset_bit_products": 1423110,
+          "peak_bits": 861
+        }
+      }
+    },
+    {
+      "D": 21,
+      "input_degree": 104,
+      "input_coefficient_bound": 2,
+      "variants": {
+        "literal": {
+          "m": 62,
+          "n": 41,
+          "delta": 21,
+          "raw_bits": 946,
+          "selected": true,
+          "nonzero_integer_products": 943,
+          "schoolbook_bit_products": 17897374,
+          "core_subset_products": 50,
+          "core_subset_bit_products": 1657650,
+          "peak_bits": 946
+        },
+        "optimized": {
+          "m": 62,
+          "n": 41,
+          "delta": 21,
+          "raw_bits": 946,
+          "selected": true,
+          "nonzero_integer_products": 712,
+          "schoolbook_bit_products": 15057181,
+          "core_subset_products": 50,
+          "core_subset_bit_products": 1657650,
+          "peak_bits": 946
+        }
+      }
+    },
+    {
+      "D": 22,
+      "input_degree": 109,
+      "input_coefficient_bound": 2,
+      "variants": {
+        "literal": {
+          "m": 65,
+          "n": 43,
+          "delta": 22,
+          "raw_bits": 1034,
+          "selected": true,
+          "nonzero_integer_products": 1032,
+          "schoolbook_bit_products": 22489740,
+          "core_subset_products": 55,
+          "core_subset_bit_products": 2108205,
+          "peak_bits": 1034
+        },
+        "optimized": {
+          "m": 65,
+          "n": 43,
+          "delta": 22,
+          "raw_bits": 1034,
+          "selected": true,
+          "nonzero_integer_products": 779,
+          "schoolbook_bit_products": 18912555,
+          "core_subset_products": 55,
+          "core_subset_bit_products": 2108205,
+          "peak_bits": 1034
+        }
+      }
+    },
+    {
+      "D": 23,
+      "input_degree": 114,
+      "input_coefficient_bound": 2,
+      "variants": {
+        "literal": {
+          "m": 68,
+          "n": 45,
+          "delta": 23,
+          "raw_bits": 1127,
+          "selected": true,
+          "nonzero_integer_products": 1125,
+          "schoolbook_bit_products": 27980510,
+          "core_subset_products": 55,
+          "core_subset_bit_products": 2421111,
+          "peak_bits": 1127
+        },
+        "optimized": {
+          "m": 68,
+          "n": 45,
+          "delta": 23,
+          "raw_bits": 1127,
+          "selected": true,
+          "nonzero_integer_products": 849,
+          "schoolbook_bit_products": 23520727,
+          "core_subset_products": 55,
+          "core_subset_bit_products": 2421111,
+          "peak_bits": 1127
+        }
+      }
+    },
+    {
+      "D": 24,
+      "input_degree": 119,
+      "input_coefficient_bound": 2,
+      "variants": {
+        "literal": {
+          "m": 71,
+          "n": 47,
+          "delta": 24,
+          "raw_bits": 1224,
+          "selected": true,
+          "nonzero_integer_products": 1222,
+          "schoolbook_bit_products": 34495510,
+          "core_subset_products": 72,
+          "core_subset_bit_products": 3531528,
+          "peak_bits": 1224
+        },
+        "optimized": {
+          "m": 71,
+          "n": 47,
+          "delta": 24,
+          "raw_bits": 1224,
+          "selected": true,
+          "nonzero_integer_products": 922,
+          "schoolbook_bit_products": 28986930,
+          "core_subset_products": 72,
+          "core_subset_bit_products": 3531528,
+          "peak_bits": 1224
+        }
+      }
+    },
+    {
+      "D": 25,
+      "input_degree": 124,
+      "input_coefficient_bound": 2,
+      "variants": {
+        "literal": {
+          "m": 74,
+          "n": 49,
+          "delta": 25,
+          "raw_bits": 1325,
+          "selected": true,
+          "nonzero_integer_products": 1323,
+          "schoolbook_bit_products": 42171798,
+          "core_subset_products": 72,
+          "core_subset_bit_products": 4012884,
+          "peak_bits": 1325
+        },
+        "optimized": {
+          "m": 74,
+          "n": 49,
+          "delta": 25,
+          "raw_bits": 1325,
+          "selected": true,
+          "nonzero_integer_products": 998,
+          "schoolbook_bit_products": 35425773,
+          "core_subset_products": 72,
+          "core_subset_bit_products": 4012884,
+          "peak_bits": 1325
+        }
+      }
+    },
+    {
+      "D": 26,
+      "input_degree": 129,
+      "input_coefficient_bound": 2,
+      "variants": {
+        "literal": {
+          "m": 77,
+          "n": 51,
+          "delta": 26,
+          "raw_bits": 1430,
+          "selected": true,
+          "nonzero_integer_products": 1428,
+          "schoolbook_bit_products": 51155441,
+          "core_subset_products": 78,
+          "core_subset_bit_products": 4913948,
+          "peak_bits": 1430
+        },
+        "optimized": {
+          "m": 77,
+          "n": 51,
+          "delta": 26,
+          "raw_bits": 1430,
+          "selected": true,
+          "nonzero_integer_products": 1077,
+          "schoolbook_bit_products": 42958938,
+          "core_subset_products": 78,
+          "core_subset_bit_products": 4913948,
+          "peak_bits": 1430
+        }
+      }
+    },
+    {
+      "D": 27,
+      "input_degree": 134,
+      "input_coefficient_bound": 2,
+      "variants": {
+        "literal": {
+          "m": 80,
+          "n": 53,
+          "delta": 27,
+          "raw_bits": 1538,
+          "selected": true,
+          "nonzero_integer_products": 1537,
+          "schoolbook_bit_products": 61609625,
+          "core_subset_products": 78,
+          "core_subset_bit_products": 5526950,
+          "peak_bits": 1538
+        },
+        "optimized": {
+          "m": 80,
+          "n": 53,
+          "delta": 27,
+          "raw_bits": 1538,
+          "selected": true,
+          "nonzero_integer_products": 1159,
+          "schoolbook_bit_products": 51723265,
+          "core_subset_products": 78,
+          "core_subset_bit_products": 5526950,
+          "peak_bits": 1538
+        }
+      }
+    },
+    {
+      "D": 28,
+      "input_degree": 139,
+      "input_coefficient_bound": 2,
+      "variants": {
+        "literal": {
+          "m": 83,
+          "n": 55,
+          "delta": 28,
+          "raw_bits": 1651,
+          "selected": true,
+          "nonzero_integer_products": 1650,
+          "schoolbook_bit_products": 73708011,
+          "core_subset_products": 98,
+          "core_subset_bit_products": 7617708,
+          "peak_bits": 1651
+        },
+        "optimized": {
+          "m": 83,
+          "n": 55,
+          "delta": 28,
+          "raw_bits": 1651,
+          "selected": true,
+          "nonzero_integer_products": 1244,
+          "schoolbook_bit_products": 61863924,
+          "core_subset_products": 98,
+          "core_subset_bit_products": 7617708,
+          "peak_bits": 1651
+        }
+      }
+    },
+    {
+      "D": 29,
+      "input_degree": 144,
+      "input_coefficient_bound": 2,
+      "variants": {
+        "literal": {
+          "m": 86,
+          "n": 57,
+          "delta": 29,
+          "raw_bits": 1768,
+          "selected": true,
+          "nonzero_integer_products": 1767,
+          "schoolbook_bit_products": 87637361,
+          "core_subset_products": 98,
+          "core_subset_bit_products": 8502844,
+          "peak_bits": 1768
+        },
+        "optimized": {
+          "m": 86,
+          "n": 57,
+          "delta": 29,
+          "raw_bits": 1768,
+          "selected": true,
+          "nonzero_integer_products": 1332,
+          "schoolbook_bit_products": 73537010,
+          "core_subset_products": 98,
+          "core_subset_bit_products": 8502844,
+          "peak_bits": 1768
+        }
+      }
+    },
+    {
+      "D": 30,
+      "input_degree": 149,
+      "input_coefficient_bound": 2,
+      "variants": {
+        "literal": {
+          "m": 89,
+          "n": 59,
+          "delta": 30,
+          "raw_bits": 1889,
+          "selected": true,
+          "nonzero_integer_products": 1888,
+          "schoolbook_bit_products": 103598069,
+          "core_subset_products": 105,
+          "core_subset_bit_products": 10129050,
+          "peak_bits": 1889
+        },
+        "optimized": {
+          "m": 89,
+          "n": 59,
+          "delta": 30,
+          "raw_bits": 1889,
+          "selected": true,
+          "nonzero_integer_products": 1423,
+          "schoolbook_bit_products": 86909994,
+          "core_subset_products": 105,
+          "core_subset_bit_products": 10129050,
+          "peak_bits": 1889
+        }
+      }
+    },
+    {
+      "D": 31,
+      "input_degree": 154,
+      "input_coefficient_bound": 2,
+      "variants": {
+        "literal": {
+          "m": 92,
+          "n": 61,
+          "delta": 31,
+          "raw_bits": 2014,
+          "selected": true,
+          "nonzero_integer_products": 2013,
+          "schoolbook_bit_products": 121802751,
+          "core_subset_products": 105,
+          "core_subset_bit_products": 11220930,
+          "peak_bits": 2014
+        },
+        "optimized": {
+          "m": 92,
+          "n": 61,
+          "delta": 31,
+          "raw_bits": 2014,
+          "selected": true,
+          "nonzero_integer_products": 1517,
+          "schoolbook_bit_products": 102160233,
+          "core_subset_products": 105,
+          "core_subset_bit_products": 11220930,
+          "peak_bits": 2014
+        }
+      }
+    },
+    {
+      "D": 32,
+      "input_degree": 159,
+      "input_coefficient_bound": 2,
+      "variants": {
+        "literal": {
+          "m": 95,
+          "n": 63,
+          "delta": 32,
+          "raw_bits": 2143,
+          "selected": true,
+          "nonzero_integer_products": 2142,
+          "schoolbook_bit_products": 142480000,
+          "core_subset_products": 128,
+          "core_subset_bit_products": 14832480,
+          "peak_bits": 2143
+        },
+        "optimized": {
+          "m": 95,
+          "n": 63,
+          "delta": 32,
+          "raw_bits": 2143,
+          "selected": true,
+          "nonzero_integer_products": 1614,
+          "schoolbook_bit_products": 119478645,
+          "core_subset_products": 128,
+          "core_subset_bit_products": 14832480,
+          "peak_bits": 2143
+        }
+      }
+    },
+    {
+      "D": 48,
+      "input_degree": 239,
+      "input_coefficient_bound": 2,
+      "variants": {
+        "literal": {
+          "m": 143,
+          "n": 95,
+          "delta": 48,
+          "raw_bits": 4747,
+          "selected": true,
+          "nonzero_integer_products": 4750,
+          "schoolbook_bit_products": 1060562595,
+          "core_subset_products": 288,
+          "core_subset_bit_products": 112246848,
+          "peak_bits": 4747
+        },
+        "optimized": {
+          "m": 143,
+          "n": 95,
+          "delta": 48,
+          "raw_bits": 4747,
+          "selected": true,
+          "nonzero_integer_products": 3574,
+          "schoolbook_bit_products": 887496456,
+          "core_subset_products": 288,
+          "core_subset_bit_products": 112246848,
+          "peak_bits": 4747
+        }
+      }
+    },
+    {
+      "D": 64,
+      "input_degree": 319,
+      "input_coefficient_bound": 2,
+      "variants": {
+        "literal": {
+          "m": 191,
+          "n": 127,
+          "delta": 64,
+          "raw_bits": 8376,
+          "selected": true,
+          "nonzero_integer_products": 8382,
+          "schoolbook_bit_products": 4424903046,
+          "core_subset_products": 512,
+          "core_subset_bit_products": 472197792,
+          "peak_bits": 8376
+        },
+        "optimized": {
+          "m": 191,
+          "n": 127,
+          "delta": 64,
+          "raw_bits": 8376,
+          "selected": true,
+          "nonzero_integer_products": 6302,
+          "schoolbook_bit_products": 3698972703,
+          "core_subset_products": 512,
+          "core_subset_bit_products": 472197792,
+          "peak_bits": 8376
+        }
+      }
+    },
+    {
+      "D": 96,
+      "input_degree": 479,
+      "input_coefficient_bound": 2,
+      "variants": {
+        "literal": {
+          "m": 287,
+          "n": 191,
+          "delta": 96,
+          "raw_bits": 18706,
+          "selected": true,
+          "nonzero_integer_products": 18718,
+          "schoolbook_bit_products": 33268971756,
+          "core_subset_products": 1152,
+          "core_subset_bit_products": 3579591072,
+          "peak_bits": 18706
+        },
+        "optimized": {
+          "m": 287,
+          "n": 191,
+          "delta": 96,
+          "raw_bits": 18706,
+          "selected": true,
+          "nonzero_integer_products": 14062,
+          "schoolbook_bit_products": 27782005495,
+          "core_subset_products": 1152,
+          "core_subset_bit_products": 3579591072,
+          "peak_bits": 18706
+        }
+      }
+    }
+  ],
+  "cost_model": "Exact count of digit-pair iterations in dense binary schoolbook multiplication for the first product lc*r_j only. Zero operands omitted. Pre-scaling, second products, divisions, additions and quotient formation excluded from lower count.",
+  "status": "passed",
+  "seconds": 1.4338650839636102
+}

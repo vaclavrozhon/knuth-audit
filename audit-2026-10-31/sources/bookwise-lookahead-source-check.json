@@ -1,0 +1,54 @@
+{
+  "checked_at_utc": "2026-11-12T01:06:18.001031+00:00",
+  "official_program": "https://www-cs-faculty.stanford.edu/~knuth/programs/sat11.w",
+  "program_provenance": "audit-2026-10-31/sources/bookwise-sat11.provenance.json",
+  "errata_ranges": {
+    "4B": [
+      [
+        220,
+        230
+      ],
+      [
+        574,
+        580
+      ]
+    ],
+    "4F6": [
+      [
+        36,
+        46
+      ],
+      [
+        210,
+        216
+      ]
+    ]
+  },
+  "new_findings": [
+    "F205",
+    "F206",
+    "F207"
+  ],
+  "draft": {
+    "F205": "2015 page210/file218, same omission",
+    "F207": "2015 page38/file46, same conditional save",
+    "F206": "Reset line absent in2015; introduced by2020-07-09 erratum, whose TeX still has VAL[l]."
+  },
+  "source_locations": {
+    "F205": "line1261 updates alloc and k",
+    "F206": "lines2215–2217 iterate free variables and reset stamp[x]",
+    "F207": "lines1400–1403 save before testing bestlit; line1943 later reads the backup"
+  },
+  "web_queries": [
+    "site.cs.stanford.edu/~knuth \"VAL\" \"228\"",
+    "site.cs.stanford.edu/~knuth \"Page 574\" \"134\""
+  ],
+  "public_search_result": "No relevant additional correction retrieved; substantive comparison uses official source and archived errata.",
+  "prior_results_reused": [
+    "S162",
+    "S163",
+    "F024",
+    "F025",
+    "F026"
+  ]
+}

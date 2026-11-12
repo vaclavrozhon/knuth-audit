@@ -1,0 +1,38 @@
+{
+  "at_utc": "2026-11-02T15:23:48.579047+00:00",
+  "source_sha256": "cda503e7bce1abb84b16b6286aa59987a2c05705ac65f763ba12ba9b66a23d52",
+  "local_files": {
+    "errata/text/all4b.txt": "b1a3425486f403fb4158585d5bbfef0159fd20b12e2e7d47b64e393e1ae8a303",
+    "errata/text/err4b.txt": "2a3450bf3c79d28ad3c2d96468344c96995cf0afb74961f257c311bb9c821e1c",
+    "errata/text/all4f5.txt": "0dd38c4cda72b01baefb797611c9bbab7713ff0c107a1df884afc89fe9bb91c3",
+    "errata/text/err4f5.txt": "5a716c34e2063eb46005593d53e89dbbd912b5677e0a6ab11753f2a5ee38b557",
+    "errata/originals/err4b.textxt": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+    "errata/originals/err4f5.textxt": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b"
+  },
+  "search_patterns": [
+    "(?:Page|page)\\s+(?:140|452|138|260|76|156)\\b",
+    "(?:4b|4f5)\\.(?:140|452|138|260)\\b",
+    "(?:answer|exercise)\\s+138\\b",
+    "heads.{0,20}tails|tails.{0,20}heads|42680|42[ ,]680|2118|1056|Swift"
+  ],
+  "remote_check_sha256": "ee2901f732fa17fb478daf23ff7f25ae5c1fa07da0357410121f81e5cbc83dea",
+  "contexts_sha256": "371393be83668a02bfcf14f50bd2ff9cc8bf78d0b2dae315c22e4358dc76c7c5",
+  "context_count": 6,
+  "known_erratum": {
+    "id": "E068",
+    "date": "2020-07-23",
+    "location": "Fascicle5 p260, answer138 line9",
+    "before": "96/6=12",
+    "after": "96/6=16",
+    "already_in_local4B": true
+  },
+  "explicit_global_polarity_symmetry_erratum_found": false,
+  "page_mapping": {
+    "question4B": 140,
+    "answer4B": 452,
+    "questionF5": 138,
+    "answerF5": 260,
+    "questionDraft5C": 76,
+    "answerDraft5C": 156
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "checked_at_utc": "2026-11-02T04:56:15.763998+00:00",
+  "script_sha256": "a824ea9caff910ff67bdbc60f13cc7cfcf28b7fd585ccdf78cf5c9239cb3a6af",
+  "accepted": [
+    {
+      "label": "torto112-dancing",
+      "path_models": 18,
+      "distinct_boards": 10,
+      "reflection_classes": 10,
+      "net_mems": 711231759119,
+      "run_sha256": "f2dcafd0b3fa3a1ed7bf3f75eb4a15c2982d313c48f701bb792ceb0ea00c4dc6"
+    },
+    {
+      "label": "torto112-programming",
+      "path_models": 1877,
+      "distinct_boards": 1540,
+      "reflection_classes": 1444,
+      "net_mems": 55523877046,
+      "run_sha256": "d25280b0662c7264d217c612c4c51c324dac7d61a5910f1320d35dbb8bd804d1"
+    }
+  ],
+  "interrupted_queue": {
+    "original_queue": {
+      "status": "running",
+      "wrapper_pid": 902988,
+      "started_utc": "2026-11-02T03:53:21.889476+00:00",
+      "cases": [
+        "torto112-dancing",
+        "torto112-programming",
+        "torto112-one-ten",
+        "torto112-zero-eight",
+        "torto112-ordinals"
+      ],
+      "done": [
+        "torto112-dancing",
+        "torto112-programming"
+      ],
+      "script_sha256": "1e0010c588aafbf2acc774deef65f5b4b7b7288c5ca8fa775448d3be5f079da7",
+      "timeout_seconds_per_case": 172800,
+      "current": "torto112-one-ten"
+    },
+    "current_run_metadata": {
+      "status": "running",
+      "wrapper_pid": 902988,
+      "command": [
+        "timeout",
+        "172800",
+        "/tmp/knuth-vol4b-colored-4ulh1ceo/dlx2-original",
+        "v129",
+        "m1"
+      ],
+      "started_utc": "2026-11-02T04:33:01.582777+00:00",
+      "timeout_seconds": 172800,
+      "input_sha256": "28de4fe4a4a392cd831d2c3272a51ece3561f6dd27e6f212fd5a80b7b108ed20",
+      "binary_sha256": "317a401448733049a4577e5d86bbd1b6bf2f230c89754697bd175ae515cfcd38",
+      "source_sha256": "02333262bfc49008cb132ee68efbad72157fec3722ea7b7c004e67dd98b5bcdb",
+      "source": "audit-2026-10-31/sources/knuth-programs/dlx2.w",
+      "runner_sha256": "2abcb3d8eb5179fb96ae423c382437eb00e17b130bd0048d2a546e0905d76fc5",
+      "model_output_period": 1,
+      "pid": 912693
+    },
+    "wrapper_ps": "",
+    "timer_ps": "912693    1620 S    timeout 172800 /tmp/knuth-vol4b-colored-4ulh1ceo/dlx2-original v129 m1",
+    "status": "wrapper_absent_child_running",
+    "accepted_as_complete": false,
+    "cause": "unknown; no wrapper terminal record",
+    "policy": "Retain old output and metadata. Do not restart the live one-ten child. Start only the two never-started later cases in a separate detached queue."
+  }
+}

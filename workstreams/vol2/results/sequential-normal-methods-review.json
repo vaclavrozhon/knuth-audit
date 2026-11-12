@@ -1,0 +1,177 @@
+{
+  "reviewed_at_utc": "2026-11-06T11:06:55.940461+00:00",
+  "scope": "Normal P/M/F/R, Leva improvement and exercises10–12,20–21. Global exterior-area optimum remains a gap and exercise21 is partial.",
+  "reaffirmed_findings": [
+    "V2-C0054",
+    "V2-C0055"
+  ],
+  "new_candidates": [
+    "V2-C0246"
+  ],
+  "known_errata": [
+    "V2-X0118"
+  ],
+  "accepted_archived_counts": {
+    "mixture_numbers": 226,
+    "ratio_table_numbers": 16,
+    "ratio_areas": 4,
+    "brent_quantiles": 40,
+    "leva_boundary_intervals": 296
+  },
+  "new_mathematical_computation": "None. Complete normal and Leva verifier programs, logs and stated result scopes reviewed; prior successful runs not restarted.",
+  "severity_review": {
+    "V2-C0054": "high to medium: general area formula is wrong, actual parameter and generator remain valid.",
+    "V2-C0055": "medium to low: numerical cost correction only.",
+    "V2-C0246": "low candidate: caption wording, algorithm proof remains valid."
+  },
+  "inputs": [
+    {
+      "path": "workstreams/vol2/notes/sequential-normal-methods-2026-11-06.md",
+      "sha256": "db876e35d678cec7598dc3698534e7316a94440ba00b3ba6433d1b3a80bb722d"
+    },
+    {
+      "path": "workstreams/vol2/sources/sequential-2026-11-06/normal-methods-source-review.json",
+      "sha256": "157f52184c708bb63fa7ef8c9f6a796f7035c021d6c54a1d232e33a25a44d429"
+    },
+    {
+      "path": "workstreams/vol2/notes/normal-methods.md",
+      "sha256": "7ac4401a74edfad7f084299ab29ef5cf4b20a924b7412833da3b1a06c557b161"
+    },
+    {
+      "path": "workstreams/vol2/notes/distribution-context.md",
+      "sha256": "15e15de43e438b29c8b00d73dcf9881528aaba80fe084f0287164962cdba141d"
+    },
+    {
+      "path": "workstreams/vol2/verify_normal_methods.py",
+      "sha256": "6120b18ffc4d0d6530b270366f671e4e246a6c8510ac51179b04f77d804668a0"
+    },
+    {
+      "path": "workstreams/vol2/verify_leva.py",
+      "sha256": "7af9c412b92555761952ed2cafaf230ee858b7abe658380bc39ecce5515bc715"
+    },
+    {
+      "path": "workstreams/vol2/results/normal-methods.json",
+      "sha256": "2ec888a47255facd0dacdcbe66278398ffe77d4a36d07cd10da00fb0894e7d31"
+    },
+    {
+      "path": "workstreams/vol2/results/normal-methods.log",
+      "sha256": "2fae528de3d346ade9d15c83e2f2803eb4ca380879b49a008e83fd50ae347cfd"
+    },
+    {
+      "path": "workstreams/vol2/results/leva.json",
+      "sha256": "988097416a736d7238ae6d0d210b68af9a2667423ed720c67077acab135558e4"
+    },
+    {
+      "path": "workstreams/vol2/results/leva.log",
+      "sha256": "9a2dbf44e71ac562f914f007e13fc81623bf2af83795ad9fe81a0b15fbb05e87"
+    },
+    {
+      "path": "workstreams/vol2/sources/brent-1974-normal.json",
+      "sha256": "7a47ecb5a39d1c184a1c8dd4203ca752ae3cb746896136149789ac69e6c32a94"
+    },
+    {
+      "path": "workstreams/vol2/sources/brent-1974-normal.pdf",
+      "sha256": "3e5caceb6725e8c908b03cd3af65f70896fb10b11d7db8e82d35304d717a281d"
+    },
+    {
+      "path": "workstreams/vol2/sources/brent-1974-normal.txt",
+      "sha256": "a93de46e664842f0085cef716ec84457819a1f5e7047ceec4de8ddebcc9849b9"
+    },
+    {
+      "path": "workstreams/vol2/sources/leva-1992-algorithm712.json",
+      "sha256": "ba5c87d2efaad81cc6fc3727149ed7516e0d5216a3dd2bb9682cb7933af92d1f"
+    },
+    {
+      "path": "workstreams/vol2/sources/leva-1992-algorithm712.txt",
+      "sha256": "5ff87cef6cbe917826843ee0f2bbbc9462d99a36fea15b9c2da2b599ee477857"
+    },
+    {
+      "path": "workstreams/vol2/images/brent1974-normal-1.png",
+      "sha256": "b2d690228347a564d85ca4d1ac10151b42ff212b4fa5e8917a852f845e63b5fa"
+    },
+    {
+      "path": "workstreams/vol2/images/brent1974-normal-2.png",
+      "sha256": "2eb7060964cfba0d5e954267ff5e2e3a071afad76140ec0e05e2eb1d88921d0a"
+    },
+    {
+      "path": "workstreams/vol2/images/normal-errata-prepre-p7.png",
+      "sha256": "e211fd98a1a30b082dce60c67764700069801a6c923be42513d0257056297216"
+    },
+    {
+      "path": "workstreams/vol2/images/normal-errata-prepre-p8.png",
+      "sha256": "5df58fc959c5a6b6c19eada60f42a17122c00d641cc5483d4bac1edfc764384a"
+    },
+    {
+      "path": "workstreams/vol2/images/normal-errata-prepre-p33.png",
+      "sha256": "6e3d5729bfc5f2ff26d838247cc7f141c8a32686a2e3306ed867b92254e47316"
+    },
+    {
+      "path": "workstreams/vol2/images/normal-errata-all2-p10.png",
+      "sha256": "9a627c486593474ec3e1446bef6f4cf2867619674fe487e9de6dafd455ab8b66"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p122.png",
+      "sha256": "baf04012c7eb9974d12cdaa0b504450d4dc0d5dc7c7db31c2e0e3a882d997e9a"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p123.png",
+      "sha256": "d30308fc25acb05f6f9daf5a34714fca896c123da6669c1bf68ed38c24a2f41a"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p124.png",
+      "sha256": "845854a730c78cd4fde414dce09448e8f124f1d4c870b447844b5713f6ac8a0f"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p125.png",
+      "sha256": "5868a2b4db9e08b57473a15fa01c23832be9259736572d5d1e4d60df4e4be145"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p126.png",
+      "sha256": "1690ede67fa738d072922f22b5bdf717bab931f7bcf5f61da336ab25c2367252"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p127.png",
+      "sha256": "8269786796e479cbd3cf0e4fd180726e926bd4d75c4aca6a76985481a0f89a2e"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p128.png",
+      "sha256": "45cb8b55179987df0eb4191fd8415adb736524373eb50d12f4882c943b22ffc1"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p129.png",
+      "sha256": "44f267ba620e5f58322dbea5adb19c5d2caa3de86439f7866f7c04e1556c41f6"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p130.png",
+      "sha256": "0402b06a5c914845e94aa568ca3abf1fd93c716cc64f007effd03af1e1cb001d"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p131.png",
+      "sha256": "1602a42cfd70100ce8799dffafb25e3cfbf711cd2535351720cd7bb29f5bb1b9"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p132.png",
+      "sha256": "3fa537f3a2fffd333af968da4735e6bb906283ae15fc805b14d455f971085c89"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p139.png",
+      "sha256": "6596493ef7a7a7000b799eb7c53fe3c47b3dba2a3869309afba8946fef54865f"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p140.png",
+      "sha256": "c9e02123557af4d23e531b331b3963f10019154431ab3a5b33ed82c8dae8aa6e"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p586.png",
+      "sha256": "3ee10729b319572e334986df53c5fbdfe525ae5b67c74142c460ecb5013833bd"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p587.png",
+      "sha256": "49b573bc53161c431a5a8084b51469a05c7ad061a720a91cfa5ebfa9373e6152"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p588.png",
+      "sha256": "2cfe19d70c4ce19e52decd71eb4298ecfb7b0c941707dbbf02b850e3abc17ddb"
+    }
+  ]
+}

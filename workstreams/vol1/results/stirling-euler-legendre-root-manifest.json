@@ -1,0 +1,800 @@
+{
+  "reviewed_utc": "2026-11-02T06:25:28.485367+00:00",
+  "paths_relative_to": "repository root",
+  "scope": "X0760 positive factorial history sources; X0761 exact remaining gaps; C0089 qualified priority candidate",
+  "successful_tests_repeated": false,
+  "files": [
+    {
+      "path": "workstreams/vol1/notes/euler-priority-root-candidate.md",
+      "bytes": 2192,
+      "sha256": "63a30803e1b2b36d40332ac2c1ab630d90b68a0b5f7c3f5d84f2bd7c032dc61d"
+    },
+    {
+      "path": "workstreams/vol1/notes/stirling-euler-legendre-root-review.md",
+      "bytes": 5054,
+      "sha256": "6388e97a6df6dd396b0bab83594ee42a25e122dac178986f362f376263fcd072"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/HANDOFF.md",
+      "bytes": 3343,
+      "sha256": "e9277d4c9d8912ecb059fc8ae652780e6fe9160baa10aba1a50e17e7b1aed1c7"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/INPUTS.json",
+      "bytes": 5812,
+      "sha256": "8c16ed07de980f4ac7a63030383640c92cff83487dbbac6f5f8785b2bb84ded4"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/MANIFEST.json",
+      "bytes": 20670,
+      "sha256": "3515236237b2710ed28e53e705865e2e5dde7d0d5a7df9705b135881ebe3cc9d"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/UNIT_STATUS.json",
+      "bytes": 4626,
+      "sha256": "a0a7b5f6b741c9007c26ec2b9c3197ffcc48434d9a166f6f7bd50c23782d068a"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-E421-pdf1.png",
+      "bytes": 154207,
+      "sha256": "eabd2199caeb8bbe84957cdcb6a2ebf84fa07e2d1f89b5a04d70138c7e7e12c2"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-E421-pdf10.png",
+      "bytes": 144711,
+      "sha256": "72141760cf20d112c3973ea3865321fb37bf4801c057f565a37c2b7035928c82"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-E421-pdf11.png",
+      "bytes": 138293,
+      "sha256": "7d7c548cccaf539153b71d6a99cacddc0296897b9eb5540626b825a6bea61dfe"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-E421-pdf12.png",
+      "bytes": 141271,
+      "sha256": "97d18fb7a9914bc42758e32d17c3d3373895e8e817c8ef8c0cdbf23436424bf2"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-E421-pdf13.png",
+      "bytes": 152238,
+      "sha256": "acd34abaf796c42cac588145320d066f731e08fa90d6cd0fb81b7e5a8c922d25"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-E421-pdf14.png",
+      "bytes": 133631,
+      "sha256": "78c8b93927bce236a807de91476f87f9ed1e4d86263cdeb640eff027f540805f"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-E421-pdf15.png",
+      "bytes": 138851,
+      "sha256": "aa2411bf5b79cb6d518511169e44792e31892816122a19b7579005a3daa3b358"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-E421-pdf16.png",
+      "bytes": 126600,
+      "sha256": "afd813c21a77b0791a71c4ea62a7c571661ccd6e1654184a7e3509997ffdda9d"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-E421-pdf17.png",
+      "bytes": 122451,
+      "sha256": "5a3f8ca4d23a1d23400c9f96a51bb7c8a4a2574d6fb42bbd8c7184ec61449377"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-E421-pdf18.png",
+      "bytes": 131663,
+      "sha256": "a80387eadf2dab8faf5798958d3c5090376e02b9564b07cd619b797c33f34806"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-E421-pdf19.png",
+      "bytes": 174096,
+      "sha256": "be99396e23eeb64d7026df4aed612407a217871919c3250662684400b561483e"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-E421-pdf2.png",
+      "bytes": 164851,
+      "sha256": "8ac3c2b120ec42fc3f996fb5dbc3c10a17abd3cfea33fe726765a301c7d8a77c"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-E421-pdf20.png",
+      "bytes": 127391,
+      "sha256": "84c3225a995f5eccc4afbfe10958df99e33117735a038f5bedcea1d341904318"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-E421-pdf21.png",
+      "bytes": 140804,
+      "sha256": "55b58680addaca9ae57b0a04eab6d646a32f06e5f08168ac211bb6c104bfdf3a"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-E421-pdf22.png",
+      "bytes": 119711,
+      "sha256": "a1e9d6bed3097590f0fd74290458cf66f11659afc686fdacebbeb4dafa0d074b"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-E421-pdf23.png",
+      "bytes": 138167,
+      "sha256": "89a84aabb6fa238e80b20547ddbf23e9f32b0964e1f4abce4e3ecadf8f6f0354"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-E421-pdf24.png",
+      "bytes": 119153,
+      "sha256": "30e869ae910fd1e59289e35fa5d2738e7f0b833fae8cab5d5c792d61ee4b5b78"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-E421-pdf28.png",
+      "bytes": 144591,
+      "sha256": "c74b80842b65843462397c6cdb4405f9c4b7514316dc91e4d01c72c494699a39"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-E421-pdf29.png",
+      "bytes": 124710,
+      "sha256": "b3a0a48416ccf5b94329edbefa2194071a9de0f10b47eb9cc49352c505115e31"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-E421-pdf3.png",
+      "bytes": 179779,
+      "sha256": "78c78ed500a90c14f2e0b909c51c3a5d00c733d7795b851865c49bd5da2b202f"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-E421-pdf30.png",
+      "bytes": 153141,
+      "sha256": "8cf65aee872452ca2d9d5d2a9a29505aefc2f01103a45287122fdd44f40bb75e"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-E421-pdf31.png",
+      "bytes": 125049,
+      "sha256": "34978280e91686b3abdc94c37948988938feb9be95032dd7bdd777dc9452fd21"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-E421-pdf32.png",
+      "bytes": 161377,
+      "sha256": "0b8de6a232f4b5a7c173d9424be570eada951767fcd1cdc870e2a6ae01bcef9b"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-E421-pdf33.png",
+      "bytes": 170775,
+      "sha256": "894e56fe21a9c8ebd9d9e237c1cf25e23261309c2ae3dc7de2a49fda378af48f"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-E421-pdf34.png",
+      "bytes": 140172,
+      "sha256": "1200e23bf5e78f745e53d32f04d28a4debe2749bc19248dfc32143f7b3012456"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-E421-pdf35.png",
+      "bytes": 147308,
+      "sha256": "889e4e79c8b3c996d3cb30991236bcb3c63e5ff02383724fe500493f9d1860ef"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-E421-pdf36.png",
+      "bytes": 158080,
+      "sha256": "3bd5650248197e66836f50d097d9119c0eada9c0bee999d9b1069e59490f3b22"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-E421-pdf37.png",
+      "bytes": 155528,
+      "sha256": "753f2a021851a9d217d2eaec31b1dbe352bb5c8ab7a9f17fbf9c6d1fba1a4b29"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-E421-pdf38.png",
+      "bytes": 152012,
+      "sha256": "706b090518ad4ac2b18026cb761c62ba72f1711c024dca11805bc42070563878"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-E421-pdf39.png",
+      "bytes": 142191,
+      "sha256": "b6df562b196fc11e2349e63fa93b72728276dcbf3c54545deda01d7b393ad3bf"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-E421-pdf4.png",
+      "bytes": 118149,
+      "sha256": "ec76b74dff8dae703f1667ff3906b76676654618889fa7a9ea16096dcba64e19"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-E421-pdf40.png",
+      "bytes": 150928,
+      "sha256": "171c9a9203fe4f3204f32dedea247287531d5d5b32e1c418e06ce073abda282c"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-E421-pdf5.png",
+      "bytes": 159024,
+      "sha256": "622b2c1720247c8b37d2164cc5f89b22df1a83537a2d4948e135c2339be6f203"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-E421-pdf6.png",
+      "bytes": 147664,
+      "sha256": "859bfb347cb5d63540631d9ce7678de91aecd2be0d5c71a5f523caa0972ccd79"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-E421-pdf7.png",
+      "bytes": 155152,
+      "sha256": "2bbe3593358b24517c6c57e1faf687e39436fd03698ae34900bc5b3d8c948b1d"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-E421-pdf8.png",
+      "bytes": 173682,
+      "sha256": "414b321ee6f411aba8e59cf4affa7963bb3bf5987c10d68343d1d0e0d43c2c73"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-E421-pdf9.png",
+      "bytes": 133576,
+      "sha256": "1e8df784d2aa092d2c7e728884ea3074fba91c1a2474d461b201f5a24a14efc4"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-goldbach2016-pdf1.png",
+      "bytes": 175211,
+      "sha256": "5f89a8d6326e14433527e61ec4350483e334eb29b4f5af8daeac6afe7b3625cc"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-goldbach2016-pdf108.png",
+      "bytes": 314482,
+      "sha256": "a6d2ce947bdcba745dc4abf2a8ca678c4a1d437ffc9efed1b325a603ee3d7454"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-goldbach2016-pdf109.png",
+      "bytes": 1034961,
+      "sha256": "b375d8abd5678515dea4f942ea2d33cf3eb29c9e52696a8837a6b0c5ac83b475"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-goldbach2016-pdf111.png",
+      "bytes": 249021,
+      "sha256": "ca70cd0a9817abf1f62bb22d39f675ab852652f3d18bd84cfd4e07ea5a153b35"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-goldbach2016-pdf3.png",
+      "bytes": 60921,
+      "sha256": "7278b893ca64a59b5111488e2f5093c77ee3a2698f1e43df6de88a995b3f7c52"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-goldbach2016-pdf4.png",
+      "bytes": 115844,
+      "sha256": "36a7c81e2f7e2a7050b2e39e2e3125b59879132c837a90fa7f30797ce7e19d0d"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-goldbach2016-pdf592.png",
+      "bytes": 308595,
+      "sha256": "e95b96c79fc322fc60ee566337eeae2f9a12cf958a7caa9ecbb3e88dd2b46a5e"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-goldbach2016-pdf594.png",
+      "bytes": 406120,
+      "sha256": "58703f89a5176446b8843549c206be9cde67cfdd15d7a3f5c7b4c43ae6e196e0"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-goldbach2016-pdf595.png",
+      "bytes": 318139,
+      "sha256": "2656bd9eb55dcd37b0971c1a464f28a98c7a5ec7aebd940e317dbca40c9c35e6"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-goldbach2016-pdf596.png",
+      "bytes": 406876,
+      "sha256": "068df5462b63b9603f7d794e61331f53a6aa578dcd3236a90fb2ceca248ce091"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler-goldbach2016-pdf597.png",
+      "bytes": 268646,
+      "sha256": "1b4696befa0de9e37821110e38626713a991b7be151691269ba71c56a97da118"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler1729-pdf1.png",
+      "bytes": 62895,
+      "sha256": "79ee2931d0ee1417afe683dbd14a677f4c1ac856ead0aa76b0c7eb2b5d384a0a"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler1729-pdf2.png",
+      "bytes": 156774,
+      "sha256": "8daf1c0a497c30078bd036cacee2cdaf3cc26054f68358a085fc7aeab6a2cec0"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/euler1729-pdf3.png",
+      "bytes": 119306,
+      "sha256": "f52036b8b216356198f169a3f03c42969473b3951f36a0f9ec39b05b72873f40"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/fuss1843-vol2-pdf11.png",
+      "bytes": 360045,
+      "sha256": "af6d61e88488c83ade71caa1f6967eac5ac9e97355de2e97fb8362615c4c15c8"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/fuss1843-vol2-pdf12.png",
+      "bytes": 50534,
+      "sha256": "72e67ade757c492f9b724fdef5c35470a414648344790890de9ca7055fb8c440"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/fuss1843-vol2-pdf362.png",
+      "bytes": 263472,
+      "sha256": "4399e64bc2e1e88dacddca0f7c53305b5ffdadd028eb3c4aab6743b2231f605c"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/fuss1843-vol2-pdf363.png",
+      "bytes": 494525,
+      "sha256": "68088d0d0f385e1b42a93e3b9a2dc0503c40c479e8b2214d400e2c3bbf0cbf1e"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/fuss1843-vol2-pdf364.png",
+      "bytes": 462210,
+      "sha256": "889eb13959c9c1fff464aec9d22904b01fe49f65b5ae585a155ebea4d719d051"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/gauss-werke3-pdf158.png",
+      "bytes": 695162,
+      "sha256": "cafda806fb450799ddd09a9554fb7c01e5a5af0ec020d157c50b6b59e038f93e"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/gauss-werke3-pdf159.png",
+      "bytes": 957370,
+      "sha256": "8257e936b9936df4e4fd12df1c9ccd59cc76c56c8b4f3d2e9dc06f070ffc5501"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/gauss-werke3-pdf160.png",
+      "bytes": 686691,
+      "sha256": "e0b665fe66f02504c1997b2319f5a8b83f489b05747594cd9d0afa8ae1ecb041"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/legendre1811-pdf284.png",
+      "bytes": 909188,
+      "sha256": "01f1f782d90091506fa8b96da8f55cb2711d9da491a79c7b33ef1b349f4440ab"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/legendre1811-pdf285.png",
+      "bytes": 1018601,
+      "sha256": "1c923ff985594bb91bf25e861422e3e7cbb1f731a31f664cc731d0d0f45ea51d"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/legendre1811-pdf288.png",
+      "bytes": 946285,
+      "sha256": "e439aa2fa674b7069258f1ea6eeb73698ba12d939766a0b72c4c4e5240e46406"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/legendre1811-pdf7.png",
+      "bytes": 1826523,
+      "sha256": "37c262806ce5d4785f31928f7069d71af56594edb6130e14ba2f052547c00e45"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/stirling1730-pdf120.png",
+      "bytes": 1020256,
+      "sha256": "52656476334f4857dc20b9d3a2d4e9978240d85368a6d352256a7c4173858785"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/stirling1730-pdf121.png",
+      "bytes": 1132493,
+      "sha256": "d4f2dfeb1ae8e1c321c1cc5e85c365ca9d13bb92188136f1523bc33499c97272"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/stirling1730-pdf122.png",
+      "bytes": 1104613,
+      "sha256": "c16c7135337038baa9f8dded21ef202f3517d36f6123b6f374542a655676915f"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/stirling1730-pdf123.png",
+      "bytes": 1078438,
+      "sha256": "33aea6c3bd9fa3ace0858120283cd781a9412dd8a7a063242e67fbef49409f6f"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/stirling1730-pdf124.png",
+      "bytes": 959713,
+      "sha256": "e08c09ea9a09472687d7897d81a2710445df17f0937985d5c63d2c46439ab553"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/stirling1730-pdf125.png",
+      "bytes": 1206220,
+      "sha256": "8dd2f2f4dfd2ae6009f42ec3b253ac29425d1d5bc6c3fb181ba655da7f96157b"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/stirling1730-pdf147.png",
+      "bytes": 1100470,
+      "sha256": "822338a4d6036a322b7de8e51ba06ccc4aeb2bad2024c177fffce5b9b36f3efc"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/stirling1730-pdf148.png",
+      "bytes": 1177581,
+      "sha256": "ce350287e6cdc310ec221ff51dc6b59f358a50cce8f3a1a45476d4aaf6c2ae53"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/stirling1730-pdf149.png",
+      "bytes": 1379020,
+      "sha256": "0bc41fd0740064ea7cc9924acf5fa3d0360b48ea0fc62e8bd16bcec4269e42f8"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/stirling1730-pdf150.png",
+      "bytes": 1227232,
+      "sha256": "3e4c89fd9d1a2b32f0f40e73c24cda97b38d7b52b21cf403e6c63f211fcd69c9"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/stirling1730-pdf151.png",
+      "bytes": 1139368,
+      "sha256": "31eba6a6931c1c58d82d0e423ae3e8283f85684249685f9c634adec127c580a9"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/stirling1730-pdf166.png",
+      "bytes": 1183769,
+      "sha256": "597d287f2af2baf0a58c3db88a79513d48b9095c3570c2c7adbbd424501758f8"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/images/stirling1730-pdf7.png",
+      "bytes": 2469681,
+      "sha256": "c31ec802e344d85fd4329d634e9c3b9740e85645fdb71232d3b682864f4a8c66"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/notes/bernoulli-priority-candidate.md",
+      "bytes": 4651,
+      "sha256": "53091440e166c71a457d9a9337a399563f9dabb7dc30adef5ae92ec592db43dc"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/notes/euler-brackets.md",
+      "bytes": 2604,
+      "sha256": "d28a4645b5d5f55e94386f242c92986b3406353fa8146851837dd006cf46f229"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/notes/euler-letter.md",
+      "bytes": 5003,
+      "sha256": "aff23b3f739aa031c1376dd1fea77dc99f7645c9edfefcb82a50e5bf07e96bf4"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/notes/legendre-gauss-notation.md",
+      "bytes": 3291,
+      "sha256": "fc3d85a21470ee991beaa65a63673c69bf7b90a7fb9825c73230beb3ee53098b"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/notes/remaining-gaps.md",
+      "bytes": 2293,
+      "sha256": "adce38489c96aebddc0a6b3218f09b6476cb2068af9e7b01d6da62524a919e90"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/notes/stirling.md",
+      "bytes": 4556,
+      "sha256": "5ae1739bf5efbb8a299c69b9df61f0984ac5d0c216dbf86dc4ff61d2230b0ba7"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/progress.json",
+      "bytes": 480,
+      "sha256": "f6ead414ecff3b96106228f3bc8a715942ba19310a6699328d0e7a1145580702"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/reports/euler-first-generalization.txt",
+      "bytes": 1359,
+      "sha256": "27df579f59d71fa949eaa96d016cdca52b9c7d49c704f6cbcfe8e7e3efa8a43c"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/results/err1-tex-navigation.json",
+      "bytes": 467,
+      "sha256": "cd3414aa62d7fa3873354397edaaebd6c024f042e8621a93c50a44896489f5d4"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/results/errata-navigation.json",
+      "bytes": 19724,
+      "sha256": "08dea91a6bdc42a182faa7d44ac071357c87e5303f2a2d3f671e42fad4be27dc"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/results/errata-review.json",
+      "bytes": 1913,
+      "sha256": "e44c355df8d5e77022999905a7687980e1d6c33e6bc05d14c4c39d260bdb54dd"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/results/package-validation.json",
+      "bytes": 5382,
+      "sha256": "c11d398736920e97c4c8458fbf1d029803b07e81896817f842228c68627ec6cb"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/results/read-log.json",
+      "bytes": 5680,
+      "sha256": "b213e3bf4354949d678abd4e6c054b6108f721015256a4fc38d84d23fd05ae47"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/sources/euler-E421-record.html",
+      "bytes": 30133,
+      "sha256": "7ef4534e7f73ea074ddaea060300358d10a47fbe8dcd47655e3605487ffd93b1"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/sources/euler-E421.pdf",
+      "bytes": 3113098,
+      "sha256": "575f096c21b66ec763bfb074e9cb1b12ea82a78a542230c923a34a7ef87728cc"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/sources/euler-E421.txt",
+      "bytes": 49,
+      "sha256": "edb4aaea9b65bacb46dc671049b897c79e90404213a44012aec249be5df95183"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/sources/euler-E421en-response.html",
+      "bytes": 312,
+      "sha256": "08a5ed94d619c54041f6d701c08d69a5bbf87429102b4688bd27c02f09615841"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/sources/euler-goldbach-core-api-response.json",
+      "bytes": 2754,
+      "sha256": "aa6079bf5e48cd37137a149c7b8e0820e0668edad781341d5296ef1bf1f62053"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/sources/euler-goldbach-core-response.html",
+      "bytes": 5514,
+      "sha256": "49635e52c29d2fc9a1b45e2f2e24a0c492774b7f3b8a0df1c6d1b98ee4a1ceab"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/sources/euler-goldbach2015-landing.html",
+      "bytes": 491504,
+      "sha256": "57cc93132b607ff4af2436895db42524007f6c9eab1556371c8ee6115a054646"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/sources/euler-goldbach2015-response.html",
+      "bytes": 391546,
+      "sha256": "16538abbd70de21d25051ba4ecd44e8a957d586a47db5bea23f2aa5eec0fba0e"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/sources/euler-goldbach2016-landing.html",
+      "bytes": 20116,
+      "sha256": "fc98cd5b705cedded6220c9bce90775695158b2b1f9ed1957c280fc6ae06566a"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/sources/euler-goldbach2016.pdf",
+      "bytes": 31981720,
+      "sha256": "addcc426ad2d610779252c8e08d66a22cc790d739c9d816e677188f4d7c0c443"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/sources/euler-goldbach2016.txt",
+      "bytes": 3864890,
+      "sha256": "70c72a3935c072229a1cf39c73dd78b2c5cd0b5ecf7d4bc2784c4de7b7879f21"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/sources/euler-letter-old-response.pdf",
+      "bytes": 119831,
+      "sha256": "45565a64f9fc3b2597a803fd5a01535f9f0859d4c3ec2964b75569341589a7d5"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/sources/euler-letter-old-response.txt",
+      "bytes": 3,
+      "sha256": "9478ac3ef61ae9df286d951edbfce4c24049f65e860f053ed9eb2c3fbd78d051"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/sources/fuss-bsb-a-metadata.json",
+      "bytes": 148830,
+      "sha256": "be2089f62325eae01c3e1bbd4373a1c86c5c6d0041da9417e63e297101ddd405"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/sources/fuss-bsb-b-metadata.json",
+      "bytes": 163933,
+      "sha256": "734d52490ec38db65e8edc267a3e6cf08c4b68014c5dee29118501ce1f2678b2"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/sources/fuss-vol2-ia-metadata.json",
+      "bytes": 7475,
+      "sha256": "81be103efc6c64f8c73fc67107ace6be9ae7177ba1fc8f4e845b33c8dca9e1cc"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/sources/fuss1843-search.json",
+      "bytes": 4103,
+      "sha256": "1170daefe498f9b0aaabe9f164c66b37c6b9daae96a5a966b138cac2c5d98b9f"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/sources/fuss1843-vol2-ocr.txt",
+      "bytes": 1164747,
+      "sha256": "3b75b43f5c9814f567c8f52a5488781700af5d921a13df4b5e389efde46fe705"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/sources/fuss1843-vol2-scandata.xml",
+      "bytes": 251705,
+      "sha256": "2561d0cf2b855af2c1dc40d95b86d6a6f217a0f3520f8b9c4bf37b3ee8fd609a"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/sources/fuss1843-vol2.pdf",
+      "bytes": 23201761,
+      "sha256": "bb3d260e7001f3f62b63f68b24b7348ab3000e6524e01710684e638c96bb888d"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/sources/legendre1811-ia-metadata.json",
+      "bytes": 75123,
+      "sha256": "5f211adf27f23caf91a3829d151f5d303aefd2b9530fd7ff624ed5c9d3c40e2a"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/sources/legendre1811-scandata.xml",
+      "bytes": 142437,
+      "sha256": "0096a6ba6b41e2822015736c2a79ca6e2d83432dfa83d779cbf897fa7b686bf4"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/sources/legendre1811.pdf",
+      "bytes": 20387113,
+      "sha256": "3d8bbe637a8c0f30d95a9f30a2c7a5ef32c4bf42360d9f9e66a24ef6482c18a9"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/sources/legendre1811.txt",
+      "bytes": 924478,
+      "sha256": "404f0dec590aed80853b4312150b57f21d20544c2af9d6be4a78e170df37e800"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/sources/retrieval-01.json",
+      "bytes": 1238,
+      "sha256": "9e879909bc38d51c8e54264ccda708c34406fdcc9915cfd5c7e8d4ff6ede595a"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/sources/retrieval-02.json",
+      "bytes": 432,
+      "sha256": "17b5c14180f1cf2996b369eb9abd1948515edca3f2d947dede4888658f714757"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/sources/retrieval-03.json",
+      "bytes": 1014,
+      "sha256": "66980940c0fe4f69214341c0b8786e1d65d6e6a30826dbae7de66ee903ca0116"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/sources/retrieval-04.json",
+      "bytes": 1776,
+      "sha256": "70903d62d65613ed5df8082ece68090f2eeee7ac92560d67f5eff3cba3229253"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/sources/retrieval-05.json",
+      "bytes": 2344,
+      "sha256": "9c35df8adff0e6712b933977e6ee2daf098867cc31959095c73f393909388a5a"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/sources/retrieval-06.json",
+      "bytes": 850,
+      "sha256": "5be194e081cd9efca547dce86f5dc87b6758340f1711a9b90657f843469bbd6f"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/sources/retrieval-07.json",
+      "bytes": 409,
+      "sha256": "a0525845d0a7e338e96c379948bef487c9d05cabcc04a9986a8e28c8b92e6c51"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/stirling-euler-legendre/sources/retrieval-08.json",
+      "bytes": 855,
+      "sha256": "bdc30d8f66904d1397fb52063dc10151259629d60b4ecfae3b39f849256c57fd"
+    }
+  ],
+  "external_readonly_dependencies": [
+    {
+      "path": "books/taocp-vol1-ed3-print1-1997.djvu",
+      "bytes": 6341591,
+      "sha256": "e2c5ee120bad91e33f617614b846849c4801115b2e7aa820f56fc5ffb9bbebb9"
+    },
+    {
+      "path": "errata/originals/err1.textxt",
+      "bytes": 46729,
+      "sha256": "f752c0a5fcf49686906e39fa5a1dab28b53adc8226b0a7e1a1b6cf850592bc91"
+    },
+    {
+      "path": "errata/pdf/all1-pre.pdf",
+      "bytes": 427651,
+      "sha256": "1c6ec5dac1660f3146d7e603b4a3ddec0d36dc1d65efeffa6287d1626c2166bd"
+    },
+    {
+      "path": "errata/pdf/all1-prepre.pdf",
+      "bytes": 637571,
+      "sha256": "bc043d4dc0e3043296f198d6795eee85d8823c38c58322230a5faf876a42e80a"
+    },
+    {
+      "path": "errata/pdf/all1.pdf",
+      "bytes": 350766,
+      "sha256": "0d580a6a396dc8431316b4550886cd5757502ebdf76f62ea406bfdeec170d16f"
+    },
+    {
+      "path": "errata/pdf/err1.pdf",
+      "bytes": 343310,
+      "sha256": "a9b2f75775ecba1ba82290a796d9690e0ff5ebf93ff15cf4d153b997515401e5"
+    },
+    {
+      "path": "errata/text/all1-pre.txt",
+      "bytes": 63766,
+      "sha256": "89d231245ff44164e09a39903faac35a2dc5e89956857abcc974991c99a887e5"
+    },
+    {
+      "path": "errata/text/all1-prepre.txt",
+      "bytes": 143588,
+      "sha256": "1a3c3ac6137b9e98f427de0a344efca46fd83b7a3e6e8fe2fa38e94525ca0c31"
+    },
+    {
+      "path": "errata/text/all1.txt",
+      "bytes": 45229,
+      "sha256": "b641d6e48aaf2d77fc98a3c4a8a798d8156516b97095ec345a976e65d9c79aef"
+    },
+    {
+      "path": "errata/text/err1.txt",
+      "bytes": 41067,
+      "sha256": "ecae8755d7d9f86c5dbcbd782767f0cf8e6bf7f89d9c57ed0a27ad2344461f30"
+    },
+    {
+      "path": "text/vol1.txt",
+      "bytes": 1652363,
+      "sha256": "94c9fd1fac433d0e11d4590daa764ea339efda2148b89be44202f3f757f68936"
+    },
+    {
+      "path": "workstreams/vol1/images/vol1-file062-p47.png",
+      "bytes": 252984,
+      "sha256": "f8615ae8745a0af3f7a496b17d888bb277f0dc4672a13f33193beb218ca6e41e"
+    },
+    {
+      "path": "workstreams/vol1/images/vol1-file063-p48.png",
+      "bytes": 255918,
+      "sha256": "fdad867838fce59dd5f811999937397758dfbd54a78594e58a89018e5c102a24"
+    },
+    {
+      "path": "workstreams/vol1/images/vol1-file064-p49.png",
+      "bytes": 259577,
+      "sha256": "f652c0e8da9f70fca1693bb85af280041c9af3bd6c9c69daf18395560c8bb6ad"
+    },
+    {
+      "path": "workstreams/vol1/notes/gamma-functions.md",
+      "bytes": 14193,
+      "sha256": "eaba75a6c9a95991cc9a90a233bfb148c7b1d74742fef548462071199ccac2ac"
+    },
+    {
+      "path": "workstreams/vol1/parallel/errata-additions/images/all1-13.png",
+      "bytes": 149305,
+      "sha256": "2679d21bf5e704cd320329046b322344ef03cc09576edad06c24aa923536bd85"
+    },
+    {
+      "path": "workstreams/vol1/parallel/errata-additions/images/all1-pre-06.png",
+      "bytes": 163119,
+      "sha256": "8604b514443567b8ae57d6c32f74efa051e102fbf4afb7194b9c3f333399a7ca"
+    },
+    {
+      "path": "workstreams/vol1/parallel/errata-additions/images/all1-prepre-07.png",
+      "bytes": 111833,
+      "sha256": "05cb17b7e0df7f9043b170ad5af62bda2fc3abe098d2252dc20e285cd33216da"
+    },
+    {
+      "path": "workstreams/vol1/parallel/errata-additions/images/err1-11.png",
+      "bytes": 150933,
+      "sha256": "30240d77679da112b585f83a06c34ea7d6ae6567dd08ca2af24cb03b5e35fe57"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/main-text-sources/results/errata-review.json",
+      "bytes": 1332,
+      "sha256": "4cdb88e6effd927fe1348510b44b654514b58058dce3379e199b1da047965cab"
+    },
+    {
+      "path": "workstreams/vol1/parallel/factorial-primary-followup/main-text-sources/results/read-log.json",
+      "bytes": 3429,
+      "sha256": "97c25a1e73c3672c3b422ab375ededc6c0ac869af4db9dcd0f20492b7cf9da31"
+    },
+    {
+      "path": "workstreams/vol1/parallel/generating-primary-followup/notes/gauss-abel-19.md",
+      "bytes": 7441,
+      "sha256": "cf90246a3ad0a10ba83f268c9c1d62822386d15ff2fff1a1edbd2e5211c1f6d9"
+    },
+    {
+      "path": "workstreams/vol1/parallel/generating-primary-followup/sources/gauss-werke3-file155-177.txt",
+      "bytes": 57650,
+      "sha256": "77cd05e08a55cb3ba0a61cbfae1b4201acdffac55cb25b67ac20e5e5944850ee"
+    },
+    {
+      "path": "workstreams/vol1/parallel/generating-primary-followup/sources/werkecarlf03gausrich.pdf",
+      "bytes": 34848812,
+      "sha256": "a61ae9306778e9f91a09e7df8ba1155d2786105bbab8a8b326d08ec0f205d983"
+    },
+    {
+      "path": "workstreams/vol1/parallel/generating-primary-followup/sources/werkecarlf03gausrich.pdf.metadata.json",
+      "bytes": 246,
+      "sha256": "67ccc98d9e119ea336a73b8cb704d51ae8d72291c21d53c1e477adbfd13dc0e8"
+    },
+    {
+      "path": "workstreams/vol1/parallel/generating-remaining-sources/notes/demoivre-stirling-laplace.md",
+      "bytes": 8267,
+      "sha256": "50c6f3f9819c79fa9c8de232fe9694dd6f300bc3d8e4da3325c262784b34838f"
+    },
+    {
+      "path": "workstreams/vol1/parallel/generating-remaining-sources/sources/historical-retrieval2.json",
+      "bytes": 1840,
+      "sha256": "c9b5cd917c0d377768fa053f947055da15fa4ff08a9a75340e200119c0743d1b"
+    },
+    {
+      "path": "workstreams/vol1/parallel/generating-remaining-sources/sources/stirling1730-meta.json",
+      "bytes": 37162,
+      "sha256": "8f7b75d78120e9065cfeacd267697b0f2c3ad688815373a1fa63823d92a1db63"
+    },
+    {
+      "path": "workstreams/vol1/parallel/generating-remaining-sources/sources/stirling1730.pdf",
+      "bytes": 9890957,
+      "sha256": "789bea4f0ab40e428bfd8d7666f4c204eb3f481d8f685d8d0472b0b2af1758e7"
+    },
+    {
+      "path": "workstreams/vol1/parallel/generating-remaining-sources/sources/stirling1730.txt",
+      "bytes": 407018,
+      "sha256": "391499dd82c6faff46bcc96c30b59bee26552093f28c24313498f0736f098d08"
+    },
+    {
+      "path": "workstreams/vol1/sources/factorials-primary-source-access.json",
+      "bytes": 4227,
+      "sha256": "919a985fff5f581bf879856c2f8937c0204a5a33a98c2dc7fc1229e9667578c6"
+    }
+  ]
+}

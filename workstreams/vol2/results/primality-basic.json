@@ -1,0 +1,157 @@
+{
+  "checks": {
+    "certificates": {
+      "status": "passed",
+      "seconds": 0.003919996990589425,
+      "result": {
+        "nodes": 39,
+        "modular_power_checks": 154,
+        "all_targets": [
+          3,
+          5,
+          17,
+          257,
+          65537,
+          857,
+          843589,
+          8174912477117,
+          23528569104401,
+          37866809061660057264219253397,
+          1009,
+          2341,
+          16381
+        ],
+        "printed_pratt_tree_nodes": 13,
+        "largest_unfolded_tree": [
+          37866809061660057264219253397,
+          133
+        ]
+      }
+    },
+    "printed_example": {
+      "status": "passed",
+      "seconds": 0.0018397849926259369,
+      "result": {
+        "fermat_remainders": [
+          1,
+          12346330842015364008789,
+          1,
+          1527852257227,
+          1,
+          43364179560026952317517299954583,
+          181705897546165034210519386
+        ],
+        "n4_table_rows": [
+          [
+            2,
+            2,
+            1
+          ],
+          [
+            2,
+            7,
+            766408626
+          ],
+          [
+            2,
+            19,
+            332952683
+          ],
+          [
+            2,
+            23,
+            1154237810
+          ],
+          [
+            2,
+            137,
+            373782186
+          ],
+          [
+            2,
+            1973,
+            490790919
+          ],
+          [
+            3,
+            2,
+            1
+          ],
+          [
+            5,
+            2,
+            1
+          ],
+          [
+            7,
+            2,
+            1653701518
+          ]
+        ],
+        "full_factorization": [
+          5,
+          857,
+          843589,
+          8174912477117,
+          23528569104401,
+          37866809061660057264219253397
+        ],
+        "partial_factor": 45379,
+        "F5_remainder": 3029026160,
+        "base3_pseudoprime": 38347921
+      }
+    },
+    "rho_example": {
+      "status": "passed",
+      "seconds": 5.201141706987983,
+      "result": {
+        "prime_orbit_rows": [
+          [
+            8174912477117,
+            680381,
+            2238663,
+            6432966
+          ],
+          [
+            23528569104401,
+            2300986,
+            3971912,
+            8166215
+          ]
+        ],
+        "first_iteration": 6432966,
+        "anchor_index": 4194303,
+        "gcd_factor": 8174912477117
+      }
+    },
+    "carmichael_census": {
+      "status": "passed",
+      "seconds": 1.468613256001845,
+      "result": {
+        "count": 8241,
+        "by_prime_factor_count": {
+          "3": 1000,
+          "4": 2102,
+          "5": 3156,
+          "6": 1714,
+          "7": 262,
+          "8": 7
+        },
+        "distinct_primes_trial_proved": 2649,
+        "smallest": 561,
+        "largest": 999629786233,
+        "independent_direct_limit": 1000000,
+        "direct_count": 43,
+        "composite_unit_checks": 332,
+        "examples": [
+          561,
+          1105,
+          41041,
+          825265,
+          413631505
+        ],
+        "census_sha256": "ec9e319aed331bbbcf10e0fba38e2a89c626fcabc555377cfcd1bb45321dd311"
+      }
+    }
+  }
+}

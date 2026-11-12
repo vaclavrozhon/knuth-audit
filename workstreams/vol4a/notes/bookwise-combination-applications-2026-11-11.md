@@ -1,0 +1,9 @@
+# Combination applications: completion of section 7.2.1.3
+
+Reviewed exercises 97–111 on printed 387–389 with answers 743–746. Main text and exercises 1–96 were completed in X0156 and earlier blocks. This completes the section under the stated scope.
+
+The simplicial-complex/dual and clutter correspondences, Linusson recurrence, compression argument for maximum weight, probability-to-complex translation, leading-monomial ideal construction and growth argument were read together with their definitions. The shadow-minimization answers are cited results; the statement/answer interface and examples were checked. The universal-cycle necessary divisibility, cyclic-difference construction for pairs, triple-gap construction and multiset variant were checked at the printed argument level. The cribbage bit encoding, maximal runs and 17-point example were checked with the known 2022 starter correction. The Erdos–Ko–Rado complement/shadow proof was checked using the previously reviewed nonempty Lovasz bound.
+
+Eight original-print errors are documented separately: F0073 octahedron edges; F0074 dual shadow degree; F0075 probability weight convention; F0076 ideal variable range; F0077 omitted comparison shadows in two neighboring tasks; F0078 one-shadow weight; F0079 missing root factors in the Eulerian determinant product; F0080 kappa_3(5). The original pages and relevant current/historical errata were inspected. The cited McKay–Robinson PDF confirms F0079's product range; a triangle already suffices to disprove the printed formula. No new mathematical code or census was run.
+
+Known corrections (including the 2010 dual pair, 2006 2-combinations text and 2022 cribbage changes) are not new findings. Detailed exceptions are in the matching results JSON. Next: section 7.2.1.4, printed 390/file 407, with answers beginning 747/file 764.

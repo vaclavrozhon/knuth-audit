@@ -1,0 +1,108 @@
+{
+  "finding": "V3-C0028",
+  "checked_at_utc": "2026-11-07T02:35:14.861136+00:00",
+  "scope": "1998 first-print Volume3 p636, answer5.2.2-44: the exact equality involving H_(m-1) and sum_(t>0) f_-1(t). Its tail diverges; the correct finite range0<t<m is already stated on130.",
+  "original_evidence": [
+    "workstreams/vol3/images/exchanging-file-140.png",
+    "workstreams/vol3/images/exchanging-file-141.png",
+    "workstreams/vol3/images/exchanging-file-647.png",
+    "workstreams/vol3/images/bubble-all3-pre-check-11.png"
+  ],
+  "query_scope": [
+    "all modern129-130/636 entries",
+    "historical corresponding131/611-612 block",
+    "answer44, r_-1, f_-1, H_(m-1), summation-bound semantic check"
+  ],
+  "layers": [
+    {
+      "name": "all3-prepre",
+      "source": "errata/text/all3-prepre.txt",
+      "conclusion": "The130 function-argument correction and636 spacing/other-answer changes do not add an upper limit to the regularized sum in answer44.",
+      "relevant_entries": [
+        {
+          "page": 130,
+          "text": "xPage 130 line 1                                                                  21 Sep 2001\n  f 1 y f 1 (x)"
+        },
+        {
+          "page": 636,
+          "text": "Page 636   last line of answer 41                                                                      15 Aug 1999\n  Chapter 11 y Chapter 14"
+        },
+        {
+          "page": 636,
+          "text": "Page 636 lines 7 and 8 of answer 44                                                                     15 Aug 1999\n  [insert a bit of spa e between these lines℄"
+        },
+        {
+          "page": 636,
+          "text": "xPage 636    line 5 of answer 48                                           05 Jun 2000\n     Æ (n) y Æ (n) + O(n )\n          0                         0\n                                                     100"
+        },
+        {
+          "page": 636,
+          "text": "xPage 636    repla ement for answer 49                                     05 Jun 2000\n    49.The right-hand side of Eq. (40) an be improved to the estimate e x(1 x =n +                         1   2\n\n  O((x +x )n )). The e e t is to subtra t half the sum in exer ise 47, repla ing O(1)\n                                                                                                           2\n              3        4    2\n\n  in (50) by 2 (1= ln 2 + Æ (n)) + O(n ). (The \\2\" omes from the \\2=n\" in (46).)\n                                1\n                                2               1\n                                                                       1\n\f    32      CHANGES TO VOLUME 3: SORTING AND SEARCHING"
+        }
+      ]
+    },
+    {
+      "name": "all3-pre",
+      "source": "errata/text/all3-pre.txt",
+      "conclusion": "The2021 changes insert(-1)^j in(33), replace the endpoint convention in(36), and delete-delta_k0 in line1 of answer44. The last correction was visually inspected in the original PDF page11 and does not change the later sum_(t>0).",
+      "relevant_entries": [
+        {
+          "page": 129,
+          "text": "Page 129 in (33)                                                       22 Mar 2021\n  Bj   y( 1)j Bj"
+        },
+        {
+          "page": 129,
+          "text": "Page 129 in (36)                                                       22 Mar 2021\n      X\n             y       X\n\n  0   \u0014t<m       0   <t\u0014m"
+        },
+        {
+          "page": 129,
+          "text": "Page 129 line 5                                                         16 Jul 2011\n  used before        y\n               used at the end of Se tion 5.1.4"
+        },
+        {
+          "page": 636,
+          "text": "Page 636 line 1 of answer 44                                                  22 Mar 2021\n    Æk 0   y\n\f  12       EARLIER CHANGES TO VOLUME 3: SORTING AND SEARCHING"
+        }
+      ]
+    },
+    {
+      "name": "all3",
+      "source": "errata/text/all3.txt",
+      "conclusion": "No matching correction to this identity found.",
+      "relevant_entries": []
+    },
+    {
+      "name": "err3",
+      "source": "errata/text/err3.txt",
+      "conclusion": "No matching correction to this identity found.",
+      "relevant_entries": []
+    },
+    {
+      "name": "err3-1e",
+      "source": "errata/text/err3-1e.txt",
+      "conclusion": "The corresponding older block is131 equation(37),611 answer43 and612 answer44. Its1986 line1 and line9 corrections concern the Gaussian endpoint term and a constant, not the upper limit in the regularized sum. Historical636 concerns a different exercise.",
+      "relevant_entries": [
+        {
+          "page": 131,
+          "text": "xPage 131 in (37)                                                         19 Feb 1986\n  31\n  36   y 4936"
+        },
+        {
+          "page": 611,
+          "text": "Page 611 append a new paragraph to answer 32                                   22 Jul 1996\n        Another solution follows from the theory of Section 6.2.2: Suppose the keys are\n  f1; 2; : : : ; ng, and let Xjk be the number of common ancestors of nodes j and k in the\n  binary search tree corresponding to quicksort. Then thePnumber of comparisons made\n  by the algorithm of exercise 31 can be shown to be nj=1 Xjm + Xmm 2[node m\n  is a leaf]. The probability that node i is a common ancestor of nodes j and k in a\n  random binary search tree is 1=(maxfi; j; kg minfi; j; kg + 1). We obtain the average\n  number of comparisons from the facts that E Xjk = Hj + Hn+1 k + 1 2Hk j+1 for\n  1 \u0014 j \u0014 k, and Pr(node m is a leaf) = Pr(m isn't followed by m \u0006 1 in a random\n  permutation) = 13 + 16 \u000em1 + 61 \u000emn + 13 \u000em1 \u000emn . [Cf. R. Raman, SIGACT News 25, 2\n  (June 1994), 86{89.]"
+        },
+        {
+          "page": 611,
+          "text": "xPage 611 the bottom two (clobbered) lines should start respectively thus: 14 May 1976\n  43. As a ! 00+,\n    (1))=a ! (1) = ,\n  [This correction has already been made, in su\u000eciently recent printings.]"
+        },
+        {
+          "page": 612,
+          "text": "xPage 612 answer 44                                                            19 Feb 1986\n  line 1: ((k + 1)=2) y ((k + 1)=2) \u000ek0\n  line 9: 61 y + 13"
+        },
+        {
+          "page": 612,
+          "text": "xPage   612 answer  48 line 4                                                  28 Feb 1978\n  R 1=2+i1\n    1=2 i1 y   R 1=2+i1\n                  1=2 i1\n\f  78        CHANGES TO VOLUME 3: SORTING AND SEARCHING"
+        }
+      ]
+    }
+  ],
+  "conclusion": "No matching correction to the missing finite upper limit found in any of the five supplied layers. Known endpoint and constant corrections are explicitly retained, not counted as new findings."
+}

@@ -1,0 +1,58 @@
+{
+  "at_utc": "2026-11-03T19:03:57.134193+00:00",
+  "checker_sha256": "f5d42290e8a8ecddf717413915ac5e1d62e4a84948f0393ad3e7b4905d03e8f5",
+  "source_sha256": "30de8d26098cf620bf8e1a8835ba316bf1ffea9b4893a75475d5a880c4e00a11",
+  "derived_source_sha256": "afae6683ffa4291abbe99415f5ca5515c087ac255957966d6370670685da0bec",
+  "binary_sha256": "e8bf7427667bb880c0bbfcaa2dc9d48442217641970d1a9fe108f24e7af1f868",
+  "replacement": {
+    "before": "if(total<low*((total+high-2)/(high-1))) return false;",
+    "after": "auto possible = [&](long long t) { return t>=0 && t>=low*((t+high-2)/(high-1)); };\n    if(!(possible(total) || ((component & 8867094528032ULL)==8867094528032ULL && possible(total-33823525LL)) || ((component & 8867362963488ULL)==8867362963488ULL && possible(total-42615461LL)))) return false;"
+  },
+  "exceptions": [
+    {
+      "mask": 8867094528032,
+      "population": 33823525,
+      "states": [
+        "NY",
+        "ME",
+        "NH",
+        "VT",
+        "MA",
+        "CT",
+        "RI"
+      ]
+    },
+    {
+      "mask": 8867362963488,
+      "population": 42615461,
+      "states": [
+        "NY",
+        "ME",
+        "NH",
+        "VT",
+        "MA",
+        "CT",
+        "RI",
+        "NJ"
+      ]
+    }
+  ],
+  "temp": "/tmp/knuth-vol4b-usa-exceptions-6hp_h_6w",
+  "nice": 15,
+  "limit_seconds": 20,
+  "pid": 1291131,
+  "returncode": 0,
+  "status": "complete",
+  "seconds": 0.16555755300214514,
+  "input_sha256": "8318ccbde34e36d8bb2b8e31a29f98f19209d9a2eea5ddf8e65c64db98a37af2",
+  "output_sha256": "ee1ee6acc83653d480979e18203cad772c013f4fa976090f6a64e65c73a504bd",
+  "log_sha256": "1f7083cecfca060e41f0a76c6811b0fe724976b3f92a1c33d54492ecbd2c9b3f",
+  "reason": "New residual feasibility convention, motivated by the unresolved34111 discrepancy; no accepted cover optimization repeated.",
+  "terminal": {
+    "complete": true,
+    "nodes": 840254,
+    "interval_count": 291282,
+    "reduced_count": 33716
+  },
+  "all_output_masks_unique": true
+}

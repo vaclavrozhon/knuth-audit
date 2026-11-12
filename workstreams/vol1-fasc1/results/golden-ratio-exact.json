@@ -1,0 +1,16 @@
+{
+  "checked_at_utc": "2026-11-06T12:53:52.218607+00:00",
+  "claim": "The first 64 bits of phi^-1 are 0x9e3779b97f4a7c16",
+  "B": 18446744073709551616,
+  "a": 11400714819323198486,
+  "a_minus_1_hex": "0x9e3779b97f4a7c15",
+  "f_definition": "f(x)=x*x+B*x-B*B; f is strictly increasing for x>=0; positive root=B/phi",
+  "f_a_minus_1": -39252198824741414471,
+  "f_a": 1995974887614534116,
+  "f_at_half_integer_times_4": -74512447874253760711,
+  "square_hex": "0x61c8864680b583ea1bb32095ccdd51e4",
+  "hi_square_hex": "0x61c8864680b583ea",
+  "lo_square_hex": "0x1bb32095ccdd51e4",
+  "B_minus_a_hex": "0x61c8864680b583ea",
+  "conclusion": "a-1 < B/phi < a and a-1/2 < B/phi, so a is nearest rounding but first 64 digits are a-1. Book Eq. (7) product and high-half identity are correct."
+}

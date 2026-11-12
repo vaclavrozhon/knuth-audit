@@ -1,0 +1,77 @@
+{
+  "reviewed_at_utc": "2026-11-06T09:58:50.377370+00:00",
+  "errata_inputs": [
+    {
+      "path": "errata/text/all2-prepre.txt",
+      "sha256": "62a1ff323ca421f2640e2337f922dbf8cfc8e86c20d9b11acfc91221721c6f58"
+    },
+    {
+      "path": "errata/text/all2-pre.txt",
+      "sha256": "c1735b70547678d739eae3a8d7b02872c737218eed7706a0aba8fb6fc21a6529"
+    },
+    {
+      "path": "errata/text/all2.txt",
+      "sha256": "1c4d7f2259e147db0ebe84b4bf0ce8864b307afb4ccfbe48efcb1f5f5999ac58"
+    },
+    {
+      "path": "errata/text/err2.txt",
+      "sha256": "1b5c93712c3c467a48679e0040ba6c5869998b25184dbd125a5d096ce96e9ab0"
+    },
+    {
+      "path": "errata/originals/err2.textxt",
+      "sha256": "8faa21566312314ec6bda0f8956913deb312517fd9fa688dcc0bf19e1f21962e"
+    }
+  ],
+  "entries": [
+    {
+      "source": "errata/text/all2-prepre.txt",
+      "printed_page": 117,
+      "entry": "Page 117 exer ise 26                                                              06 Feb 2005\n    line 2: N 1 y\n    line 3: Where does : : : m = 1? y\n\f                CHANGES TO VOLUME 2: SEMINUMERICAL ALGORITHMS                             7",
+      "scope": "Handed to discrepancy/exercises25–32 block"
+    },
+    {
+      "source": "errata/text/all2-prepre.txt",
+      "printed_page": 117,
+      "entry": "Page 117    last line of exer ise 23                                            05 Jan 2001\n  Alekseev y Alexeev",
+      "scope": "Applied in this block"
+    },
+    {
+      "source": "errata/text/all2-prepre.txt",
+      "printed_page": 581,
+      "entry": "Page 581 in answer 20                                                          25 Jul 2005\n    lines 2 and 3:e plus (X0 mod 4)=2 , where \u001b(y) = (ay + ba=e 42) mod 2 .\n                              e                                           e 2\n                                                                             y\n         plus 2 (t; : : : ; t), where \u001b(y) = (ay + ba=4 t) mod 2 e 2and t = X0 mod 4.\n    line 9: ( ay da=4e) mod 2 e 2     y      ( ay da=4e t) mod 2",
+      "scope": "Applied in this block"
+    },
+    {
+      "source": "errata/text/all2-prepre.txt",
+      "printed_page": 582,
+      "entry": "Page 582 new senten e to append to answer 26                           06 Feb 2005\n  Sin e m=d > 1, we an also repla e N by N mod (m=d). [And delete the rst senten e,\n  `When m = 1, : : : zero.'℄",
+      "scope": "Handed to discrepancy/exercises25–32 block"
+    },
+    {
+      "source": "errata/text/all2-pre.txt",
+      "printed_page": 117,
+      "entry": "Page 117 line          4                                                          02 Apr 2013\n    [HM47 ℄ (I. Borosh.)    y [HM48 ℄ (I. Borosh and H. Niederreiter.)",
+      "scope": "Handed to discrepancy/exercises25–32 block"
+    }
+  ],
+  "visual_errata_evidence": "workstreams/vol2/images/all2-prepre-p32.png",
+  "search_scope": "Printed116–117/580–582; answer numbers16–24; S7, combinatorial, exactly one, hyperplane, non-shortening, Alekseev/Alexeev. No applicable correction to C0044–48 found.",
+  "cached_source": {
+    "metadata": "workstreams/vol2/sources/steele-vigna-2022.json",
+    "pdf": {
+      "path": "workstreams/vol2/sources/steele-vigna-2022.pdf",
+      "sha256": "5529e2d8911991c1c0e8c6f069a13f3d184c01e43aa2c4aba41f8fb74aebea45"
+    },
+    "scope": "Passages in sections2/7 about spectral conventions and type3/type5 orbits reread. Not an independent proof of the m/2 correction."
+  },
+  "bibliography_skips": [
+    "Dieter1975 exact paragraphs not newly retrieved.",
+    "Personal Gosper attribution not independently sourced.",
+    "Grube1973 and L’Ecuyer–Blouin–Couture1993 numerical examples not newly read."
+  ],
+  "limits": [
+    "No new claim that research questions22/23 remain open today.",
+    "No new minimum search or old enumeration rerun.",
+    "Physical later printing and priority unverified."
+  ]
+}

@@ -1,0 +1,1098 @@
+{
+  "scope": "Exactly two printed finite edges and Vancouver hull membership; no global degeneracy check or triangulation run.",
+  "city_count": 128,
+  "distinct_coordinates": 128,
+  "coordinate_transform": "x=12312-lon; a=lat-2672; y=a+floor(a/2)",
+  "pairs": [
+    {
+      "ends": [
+        "Seattle, WA",
+        "Vancouver, BC"
+      ],
+      "coordinates": [
+        [
+          79,
+          3132
+        ],
+        [
+          0,
+          3382
+        ]
+      ],
+      "t_interval": [
+        "-21253/32078",
+        "7863/6766"
+      ],
+      "limiting_cities": [
+        "Wenatchee, WA",
+        "Tacoma, WA"
+      ],
+      "chosen_t": "0",
+      "center": [
+        "79/2",
+        "3257"
+      ],
+      "radius_squared": "68741/4",
+      "minimum_outside_gap": {
+        "city": "Tacoma, WA",
+        "value": "15726"
+      },
+      "all_outside_gaps": [
+        {
+          "city": "Youngstown, OH",
+          "gap": "18895871"
+        },
+        {
+          "city": "Yankton, SD",
+          "gap": "7095326"
+        },
+        {
+          "city": "Yakima, WA",
+          "gap": "107502"
+        },
+        {
+          "city": "Worcester, MA",
+          "gap": "26771996"
+        },
+        {
+          "city": "Wisconsin Dells, WI",
+          "gap": "11362976"
+        },
+        {
+          "city": "Winston-Salem, NC",
+          "gap": "21446571"
+        },
+        {
+          "city": "Winnipeg, MB",
+          "gap": "6570710"
+        },
+        {
+          "city": "Winchester, VA",
+          "gap": "21766976"
+        },
+        {
+          "city": "Wilmington, NC",
+          "gap": "24590336"
+        },
+        {
+          "city": "Wilmington, DE",
+          "gap": "23935430"
+        },
+        {
+          "city": "Williston, ND",
+          "gap": "3634674"
+        },
+        {
+          "city": "Williamsport, PA",
+          "gap": "22052655"
+        },
+        {
+          "city": "Williamson, WV",
+          "gap": "18942564"
+        },
+        {
+          "city": "Wichita Falls, TX",
+          "gap": "10608567"
+        },
+        {
+          "city": "Wichita, KS",
+          "gap": "9025341"
+        },
+        {
+          "city": "Wheeling, WV",
+          "gap": "19202040"
+        },
+        {
+          "city": "West Palm Beach, FL",
+          "gap": "28802420"
+        },
+        {
+          "city": "Wenatchee, WA",
+          "gap": "63759"
+        },
+        {
+          "city": "Weed, CA",
+          "gap": "1090641"
+        },
+        {
+          "city": "Waycross, GA",
+          "gap": "22950945"
+        },
+        {
+          "city": "Wausau, WI",
+          "gap": "11200428"
+        },
+        {
+          "city": "Waukegan, IL",
+          "gap": "12989346"
+        },
+        {
+          "city": "Watertown, SD",
+          "gap": "6824997"
+        },
+        {
+          "city": "Watertown, NY",
+          "gap": "22336119"
+        },
+        {
+          "city": "Waterloo, IA",
+          "gap": "10007397"
+        },
+        {
+          "city": "Waterbury, CT",
+          "gap": "25725960"
+        },
+        {
+          "city": "Washington, DC",
+          "gap": "22913769"
+        },
+        {
+          "city": "Warren, PA",
+          "gap": "19955481"
+        },
+        {
+          "city": "Walla Walla, WA",
+          "gap": "302000"
+        },
+        {
+          "city": "Waco, TX",
+          "gap": "12944826"
+        },
+        {
+          "city": "Vincennes, IN",
+          "gap": "14510064"
+        },
+        {
+          "city": "Victoria, TX",
+          "gap": "15262563"
+        },
+        {
+          "city": "Vicksburg, MS",
+          "gap": "15946424"
+        },
+        {
+          "city": "Valley City, ND",
+          "gap": "6142656"
+        },
+        {
+          "city": "Valdosta, GA",
+          "gap": "22516776"
+        },
+        {
+          "city": "Utica, NY",
+          "gap": "23178966"
+        },
+        {
+          "city": "Uniontown, PA",
+          "gap": "20106915"
+        },
+        {
+          "city": "Tyler, TX",
+          "gap": "13326690"
+        },
+        {
+          "city": "Twin Falls, ID",
+          "gap": "1440426"
+        },
+        {
+          "city": "Tuscaloosa, AL",
+          "gap": "17558211"
+        },
+        {
+          "city": "Tupelo, MS",
+          "gap": "16072893"
+        },
+        {
+          "city": "Tulsa, OK",
+          "gap": "10562538"
+        },
+        {
+          "city": "Tucson, AZ",
+          "gap": "7279239"
+        },
+        {
+          "city": "Trinidad, CO",
+          "gap": "6156777"
+        },
+        {
+          "city": "Trenton, NJ",
+          "gap": "24494996"
+        },
+        {
+          "city": "Traverse City, MI",
+          "gap": "14046806"
+        },
+        {
+          "city": "Toronto, ON",
+          "gap": "19286229"
+        },
+        {
+          "city": "Topeka, KS",
+          "gap": "9285009"
+        },
+        {
+          "city": "Toledo, OH",
+          "gap": "16373781"
+        },
+        {
+          "city": "Texarkana, TX",
+          "gap": "13272372"
+        },
+        {
+          "city": "Terre Haute, IN",
+          "gap": "14263332"
+        },
+        {
+          "city": "Tampa, FL",
+          "gap": "25646900"
+        },
+        {
+          "city": "Tallahassee, FL",
+          "gap": "22042199"
+        },
+        {
+          "city": "Tacoma, WA",
+          "gap": "15726"
+        },
+        {
+          "city": "Syracuse, NY",
+          "gap": "22327985"
+        },
+        {
+          "city": "Swainsboro, GA",
+          "gap": "21932922"
+        },
+        {
+          "city": "Sumter, SC",
+          "gap": "22678550"
+        },
+        {
+          "city": "Stroudsburg, PA",
+          "gap": "23826266"
+        },
+        {
+          "city": "Stockton, CA",
+          "gap": "2471448"
+        },
+        {
+          "city": "Stevens Point, WI",
+          "gap": "11319924"
+        },
+        {
+          "city": "Steubenville, OH",
+          "gap": "19177646"
+        },
+        {
+          "city": "Sterling, CO",
+          "gap": "5160849"
+        },
+        {
+          "city": "Staunton, VA",
+          "gap": "21421254"
+        },
+        {
+          "city": "Springfield, OH",
+          "gap": "16757316"
+        },
+        {
+          "city": "Springfield, MO",
+          "gap": "11476131"
+        },
+        {
+          "city": "Springfield, MA",
+          "gap": "26020497"
+        },
+        {
+          "city": "Springfield, IL",
+          "gap": "12599396"
+        },
+        {
+          "city": "Spokane, WA",
+          "gap": "278532"
+        },
+        {
+          "city": "South Bend, IN",
+          "gap": "14313240"
+        },
+        {
+          "city": "Sioux Falls, SD",
+          "gap": "7278971"
+        },
+        {
+          "city": "Sioux City, IA",
+          "gap": "7713801"
+        },
+        {
+          "city": "Shreveport, LA",
+          "gap": "14085642"
+        },
+        {
+          "city": "Sherman, TX",
+          "gap": "11726708"
+        },
+        {
+          "city": "Sheridan, WY",
+          "gap": "2765192"
+        },
+        {
+          "city": "Seminole, OK",
+          "gap": "10690596"
+        },
+        {
+          "city": "Selma, AL",
+          "gap": "18500889"
+        },
+        {
+          "city": "Sedalia, MO",
+          "gap": "10811046"
+        },
+        {
+          "city": "Scranton, PA",
+          "gap": "23235461"
+        },
+        {
+          "city": "Scottsbluff, NE",
+          "gap": "4587782"
+        },
+        {
+          "city": "Schenectady, NY",
+          "gap": "24481785"
+        },
+        {
+          "city": "Savannah, GA",
+          "gap": "23334756"
+        },
+        {
+          "city": "Sault Sainte Marie, MI",
+          "gap": "14794485"
+        },
+        {
+          "city": "Sarasota, FL",
+          "gap": "26150091"
+        },
+        {
+          "city": "Santa Rosa, CA",
+          "gap": "2229816"
+        },
+        {
+          "city": "Santa Fe, NM",
+          "gap": "6456390"
+        },
+        {
+          "city": "Santa Barbara, CA",
+          "gap": "4492725"
+        },
+        {
+          "city": "Santa Ana, CA",
+          "gap": "5062926"
+        },
+        {
+          "city": "San Jose, CA",
+          "gap": "2758851"
+        },
+        {
+          "city": "San Francisco, CA",
+          "gap": "2537349"
+        },
+        {
+          "city": "Sandusky, OH",
+          "gap": "17093121"
+        },
+        {
+          "city": "San Diego, CA",
+          "gap": "5858502"
+        },
+        {
+          "city": "San Bernardino, CA",
+          "gap": "4894238"
+        },
+        {
+          "city": "San Antonio, TX",
+          "gap": "13985225"
+        },
+        {
+          "city": "San Angelo, TX",
+          "gap": "11431143"
+        },
+        {
+          "city": "Salt Lake City, UT",
+          "gap": "2483756"
+        },
+        {
+          "city": "Salisbury, MD",
+          "gap": "24470571"
+        },
+        {
+          "city": "Salinas, CA",
+          "gap": "3109596"
+        },
+        {
+          "city": "Salina, KS",
+          "gap": "8361168"
+        },
+        {
+          "city": "Salida, CO",
+          "gap": "4988267"
+        },
+        {
+          "city": "Salem, OR",
+          "gap": "258321"
+        },
+        {
+          "city": "Saint Paul, MN",
+          "gap": "9032750"
+        },
+        {
+          "city": "Saint Louis, MO",
+          "gap": "12734861"
+        },
+        {
+          "city": "Saint Joseph, MO",
+          "gap": "9448547"
+        },
+        {
+          "city": "Saint Joseph, MI",
+          "gap": "14022315"
+        },
+        {
+          "city": "Saint Johnsbury, VT",
+          "gap": "26055189"
+        },
+        {
+          "city": "Saint Cloud, MN",
+          "gap": "8321595"
+        },
+        {
+          "city": "Saint Augustine, FL",
+          "gap": "24866079"
+        },
+        {
+          "city": "Saginaw, MI",
+          "gap": "15589578"
+        },
+        {
+          "city": "Sacramento, CA",
+          "gap": "2179596"
+        },
+        {
+          "city": "Rutland, VT",
+          "gap": "25262591"
+        },
+        {
+          "city": "Roswell, NM",
+          "gap": "8378420"
+        },
+        {
+          "city": "Rocky Mount, NC",
+          "gap": "23677247"
+        },
+        {
+          "city": "Rock Springs, WY",
+          "gap": "2858694"
+        },
+        {
+          "city": "Rockford, IL",
+          "gap": "12144846"
+        },
+        {
+          "city": "Rochester, NY",
+          "gap": "20962128"
+        },
+        {
+          "city": "Rochester, MN",
+          "gap": "9580761"
+        },
+        {
+          "city": "Roanoke, VA",
+          "gap": "21094002"
+        },
+        {
+          "city": "Richmond, VA",
+          "gap": "23151027"
+        },
+        {
+          "city": "Richmond, IN",
+          "gap": "15964368"
+        },
+        {
+          "city": "Richfield, UT",
+          "gap": "3216347"
+        },
+        {
+          "city": "Rhinelander, WI",
+          "gap": "11250606"
+        },
+        {
+          "city": "Reno, NV",
+          "gap": "1855356"
+        },
+        {
+          "city": "Regina, SK",
+          "gap": "3338675"
+        },
+        {
+          "city": "Red Bluff, CA",
+          "gap": "1517811"
+        },
+        {
+          "city": "Reading, PA",
+          "gap": "23359191"
+        },
+        {
+          "city": "Ravenna, OH",
+          "gap": "18383148"
+        }
+      ]
+    },
+    {
+      "ends": [
+        "Toronto, ON",
+        "Rochester, NY"
+      ],
+      "coordinates": [
+        [
+          4374,
+          2539
+        ],
+        [
+          4551,
+          2466
+        ]
+      ],
+      "t_interval": [
+        "-8253/15346",
+        "8078/8527"
+      ],
+      "limiting_cities": [
+        "Warren, PA",
+        "Watertown, NY"
+      ],
+      "chosen_t": "0",
+      "center": [
+        "8925/2",
+        "5005/2"
+      ],
+      "radius_squared": "18329/2",
+      "minimum_outside_gap": {
+        "city": "Syracuse, NY",
+        "value": "48688"
+      },
+      "all_outside_gaps": [
+        {
+          "city": "Youngstown, OH",
+          "gap": "156646"
+        },
+        {
+          "city": "Yankton, SD",
+          "gap": "3567208"
+        },
+        {
+          "city": "Yakima, WA",
+          "gap": "17873358"
+        },
+        {
+          "city": "Worcester, MA",
+          "gap": "468136"
+        },
+        {
+          "city": "Wisconsin Dells, WI",
+          "gap": "1263214"
+        },
+        {
+          "city": "Winston-Salem, NC",
+          "gap": "1221756"
+        },
+        {
+          "city": "Winnipeg, MB",
+          "gap": "4414738"
+        },
+        {
+          "city": "Winchester, VA",
+          "gap": "392014"
+        },
+        {
+          "city": "Wilmington, NC",
+          "gap": "1883392"
+        },
+        {
+          "city": "Wilmington, DE",
+          "gap": "378418"
+        },
+        {
+          "city": "Williston, ND",
+          "gap": "6809724"
+        },
+        {
+          "city": "Williamsport, PA",
+          "gap": "117838"
+        },
+        {
+          "city": "Williamson, WV",
+          "gap": "871120"
+        },
+        {
+          "city": "Wichita Falls, TX",
+          "gap": "6020886"
+        },
+        {
+          "city": "Wichita, KS",
+          "gap": "4277482"
+        },
+        {
+          "city": "Wheeling, WV",
+          "gap": "290842"
+        },
+        {
+          "city": "West Palm Beach, FL",
+          "gap": "6277522"
+        },
+        {
+          "city": "Wenatchee, WA",
+          "gap": "17847148"
+        },
+        {
+          "city": "Weed, CA",
+          "gap": "19347052"
+        },
+        {
+          "city": "Waycross, GA",
+          "gap": "3479202"
+        },
+        {
+          "city": "Wausau, WI",
+          "gap": "1287468"
+        },
+        {
+          "city": "Waukegan, IL",
+          "gap": "886750"
+        },
+        {
+          "city": "Watertown, SD",
+          "gap": "3506418"
+        },
+        {
+          "city": "Watertown, NY",
+          "gap": "64624"
+        },
+        {
+          "city": "Waterloo, IA",
+          "gap": "1926036"
+        },
+        {
+          "city": "Waterbury, CT",
+          "gap": "364878"
+        },
+        {
+          "city": "Washington, DC",
+          "gap": "471304"
+        },
+        {
+          "city": "Warren, PA",
+          "gap": "49518"
+        },
+        {
+          "city": "Walla Walla, WA",
+          "gap": "16018708"
+        },
+        {
+          "city": "Waco, TX",
+          "gap": "6630258"
+        },
+        {
+          "city": "Vincennes, IN",
+          "gap": "1309120"
+        },
+        {
+          "city": "Victoria, TX",
+          "gap": "8212798"
+        },
+        {
+          "city": "Vicksburg, MS",
+          "gap": "4275340"
+        },
+        {
+          "city": "Vancouver, BC",
+          "gap": "20678262"
+        },
+        {
+          "city": "Valley City, ND",
+          "gap": "4077444"
+        },
+        {
+          "city": "Valdosta, GA",
+          "gap": "3778680"
+        },
+        {
+          "city": "Utica, NY",
+          "gap": "99418"
+        },
+        {
+          "city": "Uniontown, PA",
+          "gap": "282238"
+        },
+        {
+          "city": "Tyler, TX",
+          "gap": "5565538"
+        },
+        {
+          "city": "Twin Falls, ID",
+          "gap": "12948844"
+        },
+        {
+          "city": "Tuscaloosa, AL",
+          "gap": "3153762"
+        },
+        {
+          "city": "Tupelo, MS",
+          "gap": "2915310"
+        },
+        {
+          "city": "Tulsa, OK",
+          "gap": "4204140"
+        },
+        {
+          "city": "Tucson, AZ",
+          "gap": "13351098"
+        },
+        {
+          "city": "Trinidad, CO",
+          "gap": "7633798"
+        },
+        {
+          "city": "Trenton, NJ",
+          "gap": "356644"
+        },
+        {
+          "city": "Traverse City, MI",
+          "gap": "541330"
+        },
+        {
+          "city": "Topeka, KS",
+          "gap": "3367704"
+        },
+        {
+          "city": "Toledo, OH",
+          "gap": "314788"
+        },
+        {
+          "city": "Texarkana, TX",
+          "gap": "4649928"
+        },
+        {
+          "city": "Terre Haute, IN",
+          "gap": "1134298"
+        },
+        {
+          "city": "Tampa, FL",
+          "gap": "5522698"
+        },
+        {
+          "city": "Tallahassee, FL",
+          "gap": "4102690"
+        },
+        {
+          "city": "Tacoma, WA",
+          "gap": "19624878"
+        },
+        {
+          "city": "Syracuse, NY",
+          "gap": "48688"
+        },
+        {
+          "city": "Swainsboro, GA",
+          "gap": "2764696"
+        },
+        {
+          "city": "Sumter, SC",
+          "gap": "2048752"
+        },
+        {
+          "city": "Stroudsburg, PA",
+          "gap": "231472"
+        },
+        {
+          "city": "Stockton, CA",
+          "gap": "18971628"
+        },
+        {
+          "city": "Stevens Point, WI",
+          "gap": "1245448"
+        },
+        {
+          "city": "Steubenville, OH",
+          "gap": "244384"
+        },
+        {
+          "city": "Sterling, CO",
+          "gap": "6278398"
+        },
+        {
+          "city": "Staunton, VA",
+          "gap": "615874"
+        },
+        {
+          "city": "Springfield, OH",
+          "gap": "546334"
+        },
+        {
+          "city": "Springfield, MO",
+          "gap": "3040012"
+        },
+        {
+          "city": "Springfield, MA",
+          "gap": "377746"
+        },
+        {
+          "city": "Springfield, IL",
+          "gap": "1527316"
+        },
+        {
+          "city": "Spokane, WA",
+          "gap": "15543568"
+        },
+        {
+          "city": "South Bend, IN",
+          "gap": "659058"
+        },
+        {
+          "city": "Sioux Falls, SD",
+          "gap": "3316408"
+        },
+        {
+          "city": "Sioux City, IA",
+          "gap": "3212052"
+        },
+        {
+          "city": "Shreveport, LA",
+          "gap": "4989576"
+        },
+        {
+          "city": "Sherman, TX",
+          "gap": "5417128"
+        },
+        {
+          "city": "Sheridan, WY",
+          "gap": "8137288"
+        },
+        {
+          "city": "Seminole, OK",
+          "gap": "4802080"
+        },
+        {
+          "city": "Selma, AL",
+          "gap": "3431848"
+        },
+        {
+          "city": "Sedalia, MO",
+          "gap": "2658358"
+        },
+        {
+          "city": "Seattle, WA",
+          "gap": "19602178"
+        },
+        {
+          "city": "Scranton, PA",
+          "gap": "160342"
+        },
+        {
+          "city": "Scottsbluff, NE",
+          "gap": "6376738"
+        },
+        {
+          "city": "Schenectady, NY",
+          "gap": "205062"
+        },
+        {
+          "city": "Savannah, GA",
+          "gap": "2943078"
+        },
+        {
+          "city": "Sault Sainte Marie, MI",
+          "gap": "547552"
+        },
+        {
+          "city": "Sarasota, FL",
+          "gap": "5959338"
+        },
+        {
+          "city": "Santa Rosa, CA",
+          "gap": "20103622"
+        },
+        {
+          "city": "Santa Fe, NM",
+          "gap": "8870728"
+        },
+        {
+          "city": "Santa Barbara, CA",
+          "gap": "18785112"
+        },
+        {
+          "city": "Santa Ana, CA",
+          "gap": "17587104"
+        },
+        {
+          "city": "San Jose, CA",
+          "gap": "19640608"
+        },
+        {
+          "city": "San Francisco, CA",
+          "gap": "19996384"
+        },
+        {
+          "city": "Sandusky, OH",
+          "gap": "254640"
+        },
+        {
+          "city": "San Diego, CA",
+          "gap": "17507346"
+        },
+        {
+          "city": "San Bernardino, CA",
+          "gap": "17001508"
+        },
+        {
+          "city": "San Antonio, TX",
+          "gap": "8392342"
+        },
+        {
+          "city": "San Angelo, TX",
+          "gap": "8016138"
+        },
+        {
+          "city": "Salt Lake City, UT",
+          "gap": "11293630"
+        },
+        {
+          "city": "Salisbury, MD",
+          "gap": "645426"
+        },
+        {
+          "city": "Salinas, CA",
+          "gap": "19635486"
+        },
+        {
+          "city": "Salina, KS",
+          "gap": "4113208"
+        },
+        {
+          "city": "Salida, CO",
+          "gap": "8091178"
+        },
+        {
+          "city": "Salem, OR",
+          "gap": "19877628"
+        },
+        {
+          "city": "Saint Paul, MN",
+          "gap": "2177488"
+        },
+        {
+          "city": "Saint Louis, MO",
+          "gap": "1873372"
+        },
+        {
+          "city": "Saint Joseph, MO",
+          "gap": "2959996"
+        },
+        {
+          "city": "Saint Joseph, MI",
+          "gap": "666658"
+        },
+        {
+          "city": "Saint Johnsbury, VT",
+          "gap": "433348"
+        },
+        {
+          "city": "Saint Cloud, MN",
+          "gap": "2553192"
+        },
+        {
+          "city": "Saint Augustine, FL",
+          "gap": "4181398"
+        },
+        {
+          "city": "Saginaw, MI",
+          "gap": "287328"
+        },
+        {
+          "city": "Sacramento, CA",
+          "gap": "18998542"
+        },
+        {
+          "city": "Rutland, VT",
+          "gap": "297022"
+        },
+        {
+          "city": "Roswell, NM",
+          "gap": "9020548"
+        },
+        {
+          "city": "Rocky Mount, NC",
+          "gap": "1248946"
+        },
+        {
+          "city": "Rock Springs, WY",
+          "gap": "9511494"
+        },
+        {
+          "city": "Rockford, IL",
+          "gap": "1144566"
+        },
+        {
+          "city": "Rochester, MN",
+          "gap": "1949604"
+        },
+        {
+          "city": "Roanoke, VA",
+          "gap": "859036"
+        },
+        {
+          "city": "Richmond, VA",
+          "gap": "775276"
+        },
+        {
+          "city": "Richmond, IN",
+          "gap": "687628"
+        },
+        {
+          "city": "Richfield, UT",
+          "gap": "11760796"
+        },
+        {
+          "city": "Rhinelander, WI",
+          "gap": "1296952"
+        },
+        {
+          "city": "Reno, NV",
+          "gap": "17399434"
+        },
+        {
+          "city": "Regina, SK",
+          "gap": "7939432"
+        },
+        {
+          "city": "Red Bluff, CA",
+          "gap": "19360858"
+        },
+        {
+          "city": "Reading, PA",
+          "gap": "269610"
+        },
+        {
+          "city": "Ravenna, OH",
+          "gap": "179418"
+        }
+      ]
+    }
+  ],
+  "hull": {
+    "vertex": "Vancouver, BC",
+    "coordinates": [
+      0,
+      3382
+    ],
+    "supporting_line": "x=0",
+    "others_in": "x>0",
+    "minimum_other_x": 9
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "checks": 29520,
+  "cases": {
+    "general": 2,
+    "saved_i3": 2,
+    "max50": 2,
+    "max50_without_jsj": 2,
+    "inline": 2,
+    "no_j": 2,
+    "two_exit": 960,
+    "stride": 240,
+    "ex3_positive_CI": 720,
+    "MOVE": 4592
+  },
+  "findings": [
+    {
+      "label": "SMAX1-unlisted-I1",
+      "b": 64,
+      "input_I1": 2,
+      "output_I1": 1,
+      "n": 1
+    },
+    {
+      "label": "SMAX1-unlisted-I1",
+      "b": 100,
+      "input_I1": 2,
+      "output_I1": 1,
+      "n": 1
+    },
+    {
+      "label": "MAXIMUM-nonpositive-input",
+      "b": 64,
+      "input_I1": 0,
+      "Xn": 5,
+      "X1": 7,
+      "actual_A_I2_I3": [
+        5,
+        0,
+        -1
+      ],
+      "printed_A_I2_I3": [
+        7,
+        1,
+        0
+      ]
+    },
+    {
+      "label": "MAXIMUM-nonpositive-input",
+      "b": 64,
+      "input_I1": -1,
+      "Xn": 5,
+      "X1": 7,
+      "actual_A_I2_I3": [
+        5,
+        -1,
+        -2
+      ],
+      "printed_A_I2_I3": [
+        7,
+        1,
+        -1
+      ]
+    },
+    {
+      "label": "MAXIMUM-nonpositive-input",
+      "b": 64,
+      "input_I1": -1000,
+      "Xn": 5,
+      "X1": 7,
+      "actual_A_I2_I3": [
+        5,
+        -1000,
+        -1001
+      ],
+      "printed_A_I2_I3": [
+        7,
+        1,
+        -1000
+      ]
+    },
+    {
+      "label": "MAXIMUM-nonpositive-input",
+      "b": 100,
+      "input_I1": 0,
+      "Xn": 5,
+      "X1": 7,
+      "actual_A_I2_I3": [
+        5,
+        0,
+        -1
+      ],
+      "printed_A_I2_I3": [
+        7,
+        1,
+        0
+      ]
+    },
+    {
+      "label": "MAXIMUM-nonpositive-input",
+      "b": 100,
+      "input_I1": -1,
+      "Xn": 5,
+      "X1": 7,
+      "actual_A_I2_I3": [
+        5,
+        -1,
+        -2
+      ],
+      "printed_A_I2_I3": [
+        7,
+        1,
+        -1
+      ]
+    },
+    {
+      "label": "MAXIMUM-nonpositive-input",
+      "b": 100,
+      "input_I1": -1000,
+      "Xn": 5,
+      "X1": 7,
+      "actual_A_I2_I3": [
+        5,
+        -1000,
+        -1001
+      ],
+      "printed_A_I2_I3": [
+        7,
+        1,
+        -1000
+      ]
+    }
+  ],
+  "method": "Original-page transcription; invariant proofs in notes; independent mathematical expectations, no second simulator claimed.",
+  "limits": "MIX data/calling code/routine storage are disjoint; valid source and destination ranges; finite checks supplement general proofs."
+}

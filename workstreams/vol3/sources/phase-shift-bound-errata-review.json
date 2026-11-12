@@ -1,0 +1,33 @@
+{
+  "checked_at_utc": "2026-11-07T01:21:34.549123+00:00",
+  "finding": "V3-C0024",
+  "status": "candidate",
+  "scope": "The two explicit phase-shift8N/(gh) inequalities in5.2.1-42(a),627/file638",
+  "layers": [
+    {
+      "path": "errata/text/all3-prepre.txt",
+      "assessment": "Known2000-05-22 correction on627 changes the diagonal remainder N/(gh) to N/(gh)+1. Original errata PDF31 viewed. It does not change either following8N/(gh) estimate. The105 N^(3/2) correction is separately respected."
+    },
+    {
+      "path": "errata/text/all3-pre.txt",
+      "assessment": "Target627/answer42, historical605/answer40 and terms8N,gh,phase-shift inequalities checked; no applicable correction."
+    },
+    {
+      "path": "errata/text/all3.txt",
+      "assessment": "Target627/answer42, historical605/answer40 and terms8N,gh,phase-shift inequalities checked; no applicable correction."
+    },
+    {
+      "path": "errata/text/err3.txt",
+      "assessment": "Target627/answer42, historical605/answer40 and terms8N,gh,phase-shift inequalities checked; no applicable correction."
+    },
+    {
+      "path": "errata/text/err3-1e.txt",
+      "assessment": "Historical new answer40 on605 (1995-05-30) contains both unchanged8N/(gh) estimates; mapped by exercise content, not modern page number."
+    }
+  ],
+  "typesetting": [
+    "workstreams/vol3/images/insertion-file-638.png",
+    "workstreams/vol3/images/insertion-errata-41-file031.png"
+  ],
+  "conclusion": "The unrestricted estimate has a concrete valid-context counterexample, but it is correct for N>=gh and the surrounding asymptotic proof can use that regime. Candidate scope qualification only; main result proved, known diagonal correction is not a finding."
+}

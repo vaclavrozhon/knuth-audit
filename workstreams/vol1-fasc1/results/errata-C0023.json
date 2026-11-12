@@ -1,0 +1,172 @@
+{
+  "checked_at_utc": "2026-11-07T02:51:18.531773+00:00",
+  "target": "Ropcode2 rejects the ignored original opcode RESUME; book p122 answer1.4.3-14. C0015 ropcode1 is distinct.",
+  "sources": [
+    {
+      "path": "errata/originals/err1f1.textxt",
+      "sha256": "07db671be6fcbc6c473ddc6593f6a16cce5833fb5f8a499ab7e2e3eee163dae3",
+      "matches": [
+        {
+          "line": 602,
+          "context": "\\bugonpage 1f1.90 line 5 (23.03.29)\n\\ninepoint\nOtherwise set $\\.t\\gets\\[\\.{op}=\\.{RESUME}]$. \\becomes\nOtherwise set $\\vert\\.t\\vert\\gets\\[\\.{op}=\\.{RESUME}]$.\n\\endchange"
+        },
+        {
+          "line": 603,
+          "context": "\\ninepoint\nOtherwise set $\\.t\\gets\\[\\.{op}=\\.{RESUME}]$. \\becomes\nOtherwise set $\\vert\\.t\\vert\\gets\\[\\.{op}=\\.{RESUME}]$.\n\\endchange\n"
+        },
+        {
+          "line": 854,
+          "context": "\\bugonpage 1f1.114 lines 2 and 3 of answer 9 (07.01.07)\ntwo additional instructions\n``\\.{GET}~\\.{\\$255,rB;} \\.{RESUME}\\hair'' will \\becomes\\nl\n``\\.{PUT}~\\.{rJ,\\$255;} \\.{GET} \\.{\\$255,rB;} \\.{RESUME}\\hair''\nafter the \\.{PUSHJ} will"
+        },
+        {
+          "line": 855,
+          "context": "two additional instructions\n``\\.{GET}~\\.{\\$255,rB;} \\.{RESUME}\\hair'' will \\becomes\\nl\n``\\.{PUT}~\\.{rJ,\\$255;} \\.{GET} \\.{\\$255,rB;} \\.{RESUME}\\hair''\nafter the \\.{PUSHJ} will\n\\endchange"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/err1f1.txt",
+      "sha256": "7d6366838076d106c09e85a4f93f1b151e94c9af9f6874ea27aa6f106cdf84b6",
+      "matches": [
+        {
+          "line": 280,
+          "context": "     lo k, rC.   y lo k.\nxPage 90 line 5                                                                         29 Mar 2023\n    Otherwise set t        [ op = RESUME ℄.   y Otherwise set jtj    [ op = RESUME ℄.\n Page 90 lines 580{584 of the program                                                   04 Jun 2011\n    90   y f0 (four times)"
+        },
+        {
+          "line": 461,
+          "context": " Page 114\n\n  two additional instru tions \\GET $255,rB; RESUME \" will\n  \\PUT rJ,$255; GET $255,rB; RESUME \" after the PUSHJ will\nxPage 116 answer 4                                                            29 Mar 2023"
+        },
+        {
+          "line": 462,
+          "context": "\n  two additional instru tions \\GET $255,rB; RESUME \" will\n  \\PUT rJ,$255; GET $255,rB; RESUME \" after the PUSHJ will\nxPage 116 answer 4                                                            29 Mar 2023\n  [the ode should be properly indented, with GREGs lined up℄"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all1f1.txt",
+      "sha256": "c0b1a7c575ffcbced2bc6a7048143a16286a081908850ad0956258dd2f84b18e",
+      "matches": [
+        {
+          "line": 337,
+          "context": "   lo k, rC.   y lo k.\nxPage 90 line 5                                                                    29 Mar 2023\n  Otherwise set t      [ op = RESUME ℄.   y Otherwise set jtj   [ op = RESUME ℄.\n Page 90 lines 580{584 of the program                                              04 Jun 2011\n  90   y f0 (four times)"
+        },
+        {
+          "line": 519,
+          "context": "x\nPage 114      lines 2 and 3 of answer 9                                                 07 Jan 2007\n    two additional instru tions \\GET $255,rB; RESUME \" will         y\n    \\PUT rJ,$255; GET $255,rB; RESUME \" after the PUSHJ will\nPage 115 last line of answer 16                                                         11 Jan 2009"
+        },
+        {
+          "line": 520,
+          "context": "Page 114      lines 2 and 3 of answer 9                                                 07 Jan 2007\n    two additional instru tions \\GET $255,rB; RESUME \" will         y\n    \\PUT rJ,$255; GET $255,rB; RESUME \" after the PUSHJ will\nPage 115 last line of answer 16                                                         11 Jan 2009\n of (15)    yof exer ise 15"
+        }
+      ]
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmixware-errata.html",
+      "sha256": "740b68475c94774ee2d143b0baa2d98111664e2e2c69ce3a29117311f8c4957e",
+      "matches": [
+        {
+          "line": 889,
+          "context": "<dd>change \"INTERACTION\" to \"BINARY INPUT TO MEMORY\"</dd>\n<dt>page 501, the mini-index (13 Feb 2000)***</dt>\n<dd>GET=#fe, NEGI=#35, PUTI=#f7, RESUME=#f9, UNSAVE=#f6, all defined in MMIX-PIPE &#167;47</dd>\n<dt>page 502, new line to follow line 5 (19 Jul 2011)</dt>\n<dd>$\\bullet$ <b>k</b>: Toggle the sign bit of the instruction pointer.</dd>"
+        }
+      ]
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmixware-current.html",
+      "sha256": "13614aa34f4ad039b12d331064d993292837bc12bf7fd2073ff34bfa41ae9834",
+      "matches": []
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmix-upstream-bugs.html",
+      "sha256": "a9b8c36c7fe466afd03a42ac900cd1e3c13250b7bd9ef575d0f331e31960a61a",
+      "matches": []
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmix-upstream-rounding.html",
+      "sha256": "f864c5fc573f7049aaf2d3682c72ee09f78dfb3d7445a19dc891282f99314c1b",
+      "matches": []
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmix-arith-upstream-warnings.ch",
+      "sha256": "b4a916e0962e2f79828d6afca1a5a40775e82b725f45ec28664a3e66f6b093b4",
+      "matches": []
+    },
+    {
+      "path": "errata/text/all1.txt",
+      "sha256": "b641d6e48aaf2d77fc98a3c4a8a798d8156516b97095ec345a976e65d9c79aef",
+      "matches": [
+        {
+          "line": 654,
+          "context": "  (m)! y m!\nxPage 504 line 6 of answer 7                                                    29 Mar 2023\n  122{158 y 122{138\n\n    14       CHANGES TO VOLUME 1: FUNDAMENTAL ALGORITHMS"
+        }
+      ]
+    },
+    {
+      "path": "errata/originals/err1.textxt",
+      "sha256": "f752c0a5fcf49686906e39fa5a1dab28b53adc8226b0a7e1a1b6cf850592bc91",
+      "matches": [
+        {
+          "line": 1029,
+          "context": "\n\\bugonpage 1.504 line 6 of answer 7 (23.03.29)\n122--158 \\becomes 122--138\n\\endchange\n"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all1-pre.txt",
+      "sha256": "89d231245ff44164e09a39903faac35a2dc5e89956857abcc974991c99a887e5",
+      "matches": [
+        {
+          "line": 963,
+          "context": "Page 628      new entries for Appendix C                                    17 Apr 2011\n    Program 1.2.10M, 145, 186.\n    Program 1.4.3.1M, 204{211, 530.\n    Program 2.1A, 236.\n    Program 2.1B, 535."
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all1-prepre.txt",
+      "sha256": "1a3c3ac6137b9e98f427de0a344efca46fd83b7a3e6e8fe2fa38e94525ca0c31",
+      "matches": [
+        {
+          "line": 541,
+          "context": "    1      16\n\nPage 123 the displayed equation of exer ise 17                                   27 Mar 1998\n  X\n           y    X"
+        },
+        {
+          "line": 1785,
+          "context": "Page 504       line 5 of answer 7                                             20 May 2005\n    The number A is \\Glaisher's onstant\" 1:2824271 : : : [Messenger  y    In these formu-\n    las, A is the \\Kinkelin{Glaisher onstant\" 1:2824271 : : : [Crelle 57 (1860), 122{158;\n    Messenger\nx"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/err1-2e.txt",
+      "sha256": "1778c2089c0d317e283c6d28203b3a03b8db531c0d23faa9558661074e78a52a",
+      "matches": [
+        {
+          "line": 128,
+          "context": "  \\algebra,\" stems from the title of his book, which was a systematic study of the\n  solution of linear and quadratic equations. [For notes on al-Khw\u0016arizm\u0016\u0010's life and\n  work, see H. Zemanek, Lecture Notes in Computer Science 122 (1981), 1{81.]\n                                                     3\n"
+        },
+        {
+          "line": 1245,
+          "context": "  e\u000ecient algorithm that constructs a doubly linked circular list containing the nodes of\n  this ordered tree in preorder. For example, given\n                                         j=12345678\n                                 FATHER[j ] = 3 8 4 0 4 8 3 4\n  your algorithm should produce"
+        }
+      ]
+    }
+  ],
+  "original_pages": [
+    "images/resume-answer-file130-p122.png",
+    "images/file-131-p123.png",
+    "images/resume-statement-file100-p092.png"
+  ],
+  "semantic_review": "All matching contexts read. The p90 correction changes only the AllDone explanatory comment; p114 adds correct trip-handler return code. Neither fixes the unconditional RESUME guard in the answer. All13 layers and the current upstream bug list contain no matching repair. The instruction-set primary page explicitly limits the inserted-RESUME prohibition to ropcodes0/3. MMIX-PIPE replaces the opcode before its common guard; MMIX-SIM has the same excess guard as the book.",
+  "current_primary_web_checks": [
+    {
+      "url": "https://mmix.cs.hm.edu/doc/instructions/gitraptrip.html",
+      "result": "Explicit ropcode2 set semantics and restrictions0/3 verified."
+    },
+    {
+      "url": "https://mmix.cs.hm.edu/bugs/index.html",
+      "result": "Current upstream report index read; no corresponding report."
+    },
+    {
+      "url": "https://cs.stanford.edu/~knuth/mmixware-errata.html",
+      "result": "Current correction list checked against saved full source; no matching correction."
+    }
+  ]
+}

@@ -1,0 +1,347 @@
+{
+  "kind": "right",
+  "W": 1000,
+  "source_sha256": "9dc4520597b04c6df2e6959e8250080f0d1d2582f7e778e0d70f602563f2e253",
+  "script_sha256": "f721e104ebd0316b903677e1cb5e730e11b538b8ac2d8acc0cc37dcb225af5f3",
+  "completed_utc": "2026-11-02T01:25:22.807419+00:00",
+  "rounds": [
+    {
+      "before_vertices": 20,
+      "before_edges": 22,
+      "queries": [
+        {
+          "vertex": "DRYSKIESE",
+          "nodes": 5,
+          "complete": true,
+          "cycle": [
+            2,
+            21,
+            14,
+            6,
+            3
+          ],
+          "verdict": "SAT"
+        },
+        {
+          "vertex": "MADMERRSK",
+          "nodes": 5,
+          "complete": true,
+          "cycle": [
+            3,
+            2,
+            21,
+            14,
+            6
+          ],
+          "verdict": "SAT"
+        },
+        {
+          "vertex": "MESMARKDR",
+          "nodes": 7,
+          "complete": true,
+          "cycle": [
+            4,
+            10,
+            9,
+            1,
+            7
+          ],
+          "verdict": "SAT"
+        },
+        {
+          "vertex": "MESTELLST",
+          "nodes": 6,
+          "complete": true,
+          "cycle": null,
+          "verdict": "UNSAT"
+        },
+        {
+          "vertex": "SAMSALAME",
+          "nodes": 5,
+          "complete": true,
+          "cycle": [
+            6,
+            3,
+            2,
+            21,
+            14
+          ],
+          "verdict": "SAT"
+        },
+        {
+          "vertex": "SAMSALEMA",
+          "nodes": 6,
+          "complete": true,
+          "cycle": [
+            7,
+            4,
+            10,
+            9,
+            1
+          ],
+          "verdict": "SAT"
+        },
+        {
+          "vertex": "SATTALEME",
+          "nodes": 6,
+          "complete": true,
+          "cycle": null,
+          "verdict": "UNSAT"
+        },
+        {
+          "vertex": "SEDYEARST",
+          "nodes": 9,
+          "complete": true,
+          "cycle": [
+            9,
+            1,
+            7,
+            4,
+            10
+          ],
+          "verdict": "SAT"
+        },
+        {
+          "vertex": "SKSDRIEYE",
+          "nodes": 8,
+          "complete": true,
+          "cycle": [
+            10,
+            9,
+            1,
+            7,
+            4
+          ],
+          "verdict": "SAT"
+        },
+        {
+          "vertex": "SLSSTEPSP",
+          "nodes": 6,
+          "complete": true,
+          "cycle": null,
+          "verdict": "UNSAT"
+        },
+        {
+          "vertex": "SPSSPOTTR",
+          "nodes": 6,
+          "complete": true,
+          "cycle": null,
+          "verdict": "UNSAT"
+        },
+        {
+          "vertex": "SPTSPORST",
+          "nodes": 6,
+          "complete": true,
+          "cycle": null,
+          "verdict": "UNSAT"
+        },
+        {
+          "vertex": "STSSLEPSP",
+          "nodes": 6,
+          "complete": true,
+          "cycle": null,
+          "verdict": "UNSAT"
+        },
+        {
+          "vertex": "STSTREATA",
+          "nodes": 6,
+          "complete": true,
+          "cycle": null,
+          "verdict": "UNSAT"
+        },
+        {
+          "vertex": "TAMSALETE",
+          "nodes": 6,
+          "complete": true,
+          "cycle": null,
+          "verdict": "UNSAT"
+        },
+        {
+          "vertex": "TESMELTSL",
+          "nodes": 6,
+          "complete": true,
+          "cycle": null,
+          "verdict": "UNSAT"
+        },
+        {
+          "vertex": "TRTSTEASA",
+          "nodes": 6,
+          "complete": true,
+          "cycle": null,
+          "verdict": "UNSAT"
+        },
+        {
+          "vertex": "YESSEATDR",
+          "nodes": 5,
+          "complete": true,
+          "cycle": [
+            21,
+            14,
+            6,
+            3,
+            2
+          ],
+          "verdict": "SAT"
+        }
+      ],
+      "removed": [
+        "MESTELLST",
+        "SATTALEME",
+        "SLSSTEPSP",
+        "SPSSPOTTR",
+        "SPTSPORST",
+        "STSSLEPSP",
+        "STSTREATA",
+        "TAMSALETE",
+        "TESMELTSL",
+        "TRTSTEASA"
+      ]
+    },
+    {
+      "before_vertices": 10,
+      "before_edges": 12,
+      "queries": [
+        {
+          "vertex": "DRYSKIESE",
+          "nodes": 5,
+          "complete": true,
+          "cycle": [
+            2,
+            11,
+            9,
+            5,
+            3
+          ],
+          "verdict": "SAT"
+        },
+        {
+          "vertex": "MADMERRSK",
+          "nodes": 5,
+          "complete": true,
+          "cycle": [
+            3,
+            2,
+            11,
+            9,
+            5
+          ],
+          "verdict": "SAT"
+        },
+        {
+          "vertex": "MESMARKDR",
+          "nodes": 7,
+          "complete": true,
+          "cycle": [
+            4,
+            8,
+            7,
+            1,
+            6
+          ],
+          "verdict": "SAT"
+        },
+        {
+          "vertex": "SAMSALAME",
+          "nodes": 5,
+          "complete": true,
+          "cycle": [
+            5,
+            3,
+            2,
+            11,
+            9
+          ],
+          "verdict": "SAT"
+        },
+        {
+          "vertex": "SAMSALEMA",
+          "nodes": 6,
+          "complete": true,
+          "cycle": [
+            6,
+            4,
+            8,
+            7,
+            1
+          ],
+          "verdict": "SAT"
+        },
+        {
+          "vertex": "SEDYEARST",
+          "nodes": 9,
+          "complete": true,
+          "cycle": [
+            7,
+            1,
+            6,
+            4,
+            8
+          ],
+          "verdict": "SAT"
+        },
+        {
+          "vertex": "SKSDRIEYE",
+          "nodes": 8,
+          "complete": true,
+          "cycle": [
+            8,
+            7,
+            1,
+            6,
+            4
+          ],
+          "verdict": "SAT"
+        },
+        {
+          "vertex": "YESSEATDR",
+          "nodes": 5,
+          "complete": true,
+          "cycle": [
+            11,
+            9,
+            5,
+            3,
+            2
+          ],
+          "verdict": "SAT"
+        }
+      ],
+      "removed": []
+    }
+  ],
+  "final_vertices": 10,
+  "final_edges": 12,
+  "cycle_histogram": {
+    "5": 2
+  },
+  "enumeration_nodes": 30,
+  "models": [
+    {
+      "period": 5,
+      "rows": [
+        "STEAM",
+        "SALES",
+        "MARKS",
+        "DRIED",
+        "YEARS"
+      ],
+      "rank": 908,
+      "simple": true
+    },
+    {
+      "period": 5,
+      "rows": [
+        "SKIES",
+        "SEATS",
+        "DREAM",
+        "SALAD",
+        "MERRY"
+      ],
+      "rank": 908,
+      "simple": true
+    }
+  ],
+  "maximum_period": 5,
+  "seconds": 3.6016311699931975,
+  "short_periods_note": "Eight distinct local slots applies to p>=4; p<4 cannot improve either attained optimum."
+}

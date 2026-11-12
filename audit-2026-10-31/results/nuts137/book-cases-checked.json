@@ -1,0 +1,235 @@
+{
+  "at_utc": "2026-11-02T13:52:39.687706+00:00",
+  "source_sha256": "7738404021f54e2b6f9b1676348cb50e936a0b71178195511fb033060f315e2e",
+  "geometry_sha256": "53582505855b8460103de58b46bd1caa70af466e1c388adb195cb4fefe97e872",
+  "figure_sha256": "ff294843254810e953a506078a151a1e544fb0c527fd9b2a2847c99e7ecc7e3b",
+  "cases": [
+    {
+      "case": "a",
+      "rule": "equal",
+      "nuts": [
+        "123456",
+        "125634",
+        "135246",
+        "135426",
+        "142356",
+        "153264",
+        "165432"
+      ],
+      "models": [
+        "135426/264153/561234/246135/432165/125634/356142"
+      ],
+      "solutions": 1,
+      "full_set_equality": true,
+      "independent_centers": [
+        {
+          "center": "123456",
+          "nodes": 26,
+          "solutions": 0
+        },
+        {
+          "center": "125634",
+          "nodes": 18,
+          "solutions": 0
+        },
+        {
+          "center": "135246",
+          "nodes": 14,
+          "solutions": 0
+        },
+        {
+          "center": "135426",
+          "nodes": 20,
+          "solutions": 1
+        },
+        {
+          "center": "142356",
+          "nodes": 11,
+          "solutions": 0
+        },
+        {
+          "center": "153264",
+          "nodes": 32,
+          "solutions": 0
+        },
+        {
+          "center": "165432",
+          "nodes": 9,
+          "solutions": 0
+        }
+      ],
+      "native_metadata_sha256": "fb838fdcfbf3b8a5cf38a3ee373736780be6cd5cf26cf07361080626a09f38dd"
+    },
+    {
+      "case": "b",
+      "rule": "sum7",
+      "nuts": [
+        "123456",
+        "125634",
+        "135246",
+        "135426",
+        "142356",
+        "153264",
+        "165432"
+      ],
+      "models": [],
+      "solutions": 0,
+      "full_set_equality": true,
+      "independent_centers": [
+        {
+          "center": "123456",
+          "nodes": 12,
+          "solutions": 0
+        },
+        {
+          "center": "125634",
+          "nodes": 21,
+          "solutions": 0
+        },
+        {
+          "center": "135246",
+          "nodes": 26,
+          "solutions": 0
+        },
+        {
+          "center": "135426",
+          "nodes": 19,
+          "solutions": 0
+        },
+        {
+          "center": "142356",
+          "nodes": 34,
+          "solutions": 0
+        },
+        {
+          "center": "153264",
+          "nodes": 13,
+          "solutions": 0
+        },
+        {
+          "center": "165432",
+          "nodes": 17,
+          "solutions": 0
+        }
+      ],
+      "native_metadata_sha256": "77ce715579acdcac2995cfdfb9d7159c7dd2d1a33fa0d3da8a55b76a42deee93"
+    },
+    {
+      "case": "d-equal",
+      "rule": "equal",
+      "nuts": [
+        "125463",
+        "135642",
+        "142563",
+        "145326",
+        "146325",
+        "146352",
+        "164235"
+      ],
+      "models": [
+        "164235/463125/142563/532614/214635/135642/325146"
+      ],
+      "solutions": 1,
+      "full_set_equality": true,
+      "independent_centers": [
+        {
+          "center": "125463",
+          "nodes": 12,
+          "solutions": 0
+        },
+        {
+          "center": "135642",
+          "nodes": 19,
+          "solutions": 0
+        },
+        {
+          "center": "142563",
+          "nodes": 30,
+          "solutions": 0
+        },
+        {
+          "center": "145326",
+          "nodes": 23,
+          "solutions": 0
+        },
+        {
+          "center": "146325",
+          "nodes": 17,
+          "solutions": 0
+        },
+        {
+          "center": "146352",
+          "nodes": 15,
+          "solutions": 0
+        },
+        {
+          "center": "164235",
+          "nodes": 18,
+          "solutions": 1
+        }
+      ],
+      "native_metadata_sha256": "f35e68ff32b1db6950712cb8211fff01ea1d95734c983fdbee3d0406114d9bea"
+    },
+    {
+      "case": "d-sum7",
+      "rule": "sum7",
+      "nuts": [
+        "125463",
+        "135642",
+        "142563",
+        "145326",
+        "146325",
+        "146352",
+        "164235"
+      ],
+      "models": [
+        "142563/532614/214635/146325/254631/516423/564213"
+      ],
+      "solutions": 1,
+      "full_set_equality": true,
+      "independent_centers": [
+        {
+          "center": "125463",
+          "nodes": 16,
+          "solutions": 0
+        },
+        {
+          "center": "135642",
+          "nodes": 19,
+          "solutions": 0
+        },
+        {
+          "center": "142563",
+          "nodes": 19,
+          "solutions": 1
+        },
+        {
+          "center": "145326",
+          "nodes": 17,
+          "solutions": 0
+        },
+        {
+          "center": "146325",
+          "nodes": 16,
+          "solutions": 0
+        },
+        {
+          "center": "146352",
+          "nodes": 17,
+          "solutions": 0
+        },
+        {
+          "center": "164235",
+          "nodes": 16,
+          "solutions": 0
+        }
+      ],
+      "native_metadata_sha256": "9aaa60048f548f30c1bc8046ed529edf61b1e0087e64dfb7bf65837b5caf5249"
+    }
+  ],
+  "primary_items": 14,
+  "secondary_items": 12,
+  "options": 259,
+  "rotations_only": true,
+  "global_rotation_removed_by_fixed_center_orientation": true
+}

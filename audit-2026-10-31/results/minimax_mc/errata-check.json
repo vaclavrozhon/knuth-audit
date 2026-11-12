@@ -1,0 +1,360 @@
+{
+  "checked_at_utc": "2026-11-02T00:20:06.125329+00:00",
+  "source_sha256": "362e4de639696177924e76bbac2d77836b76fb39a05661de6a2a2a1818bed71c",
+  "local_files": {
+    "errata/text/all4b.txt": "b1a3425486f403fb4158585d5bbfef0159fd20b12e2e7d47b64e393e1ae8a303",
+    "errata/text/err4b.txt": "2a3450bf3c79d28ad3c2d96468344c96995cf0afb74961f257c311bb9c821e1c",
+    "errata/text/all4f5.txt": "0dd38c4cda72b01baefb797611c9bbab7713ff0c107a1df884afc89fe9bb91c3",
+    "errata/text/err4f5.txt": "5a716c34e2063eb46005593d53e89dbbd912b5677e0a6ab11753f2a5ee38b557",
+    "errata/originals/err4b.textxt": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+    "errata/originals/err4f5.textxt": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b"
+  },
+  "remote_files": [
+    {
+      "file": "all4b.ps.gz",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/all4b.ps.gz",
+      "sha256": "61c41e43dc337c1259f9ff690bfef718da2a656abdb110c6e7875c11f9566eea",
+      "unchanged": true
+    },
+    {
+      "file": "all4f5.ps.gz",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/all4f5.ps.gz",
+      "sha256": "4c3edee8aa4c92f69bc5eb243ffe03779ae56c1e89a0ad36f85a2ac770fcbb83",
+      "unchanged": true
+    },
+    {
+      "file": "err4b.textxt",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/err4b.textxt",
+      "sha256": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+      "unchanged": true
+    },
+    {
+      "file": "err4f5.textxt",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/err4f5.textxt",
+      "sha256": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b",
+      "unchanged": true
+    }
+  ],
+  "search_hits": [
+    {
+      "file": "errata/text/all4b.txt",
+      "line": 133,
+      "context": "  200 through 204 y 20 through 24\n Page 49 rst line of step E5                                               28 Jan 2024\n  If d = 0, terminate. Otherwise set D D \u0001 d and X l yI ,        y\n  Set D D \u0001 d, and terminate if d = 0. Otherwise set X l yI ,\n Page 49 repla ement for the nal six lines                              28 Jan 2024\n  know roughly how many there are; Algorithm E will tell us the approximate\n  number. Indeed, the expe ted nal value of D is exa tly the total number\n  of solutions, be ause every solution X1 : : : X l onstru ted by the algorithm is\n  obtained with probability 1=D, in a ase where D > 0. Note that there may be\n  another riterion for su essful termination in step E2, even though l might still"
+    },
+    {
+      "file": "errata/text/all4b.txt",
+      "line": 136,
+      "context": "  Set D D \u0001 d, and terminate if d = 0. Otherwise set X l yI ,\n Page 49 repla ement for the nal six lines                              28 Jan 2024\n  know roughly how many there are; Algorithm E will tell us the approximate\n  number. Indeed, the expe ted nal value of D is exa tly the total number\n  of solutions, be ause every solution X1 : : : X l onstru ted by the algorithm is\n  obtained with probability 1=D, in a ase where D > 0. Note that there may be\n  another riterion for su essful termination in step E2, even though l might still\n  be \u0014 n.\nxPage 50 line 2 before the footnote                                       11 Nov 2023\n  they defend y they de ned"
+    },
+    {
+      "file": "errata/text/all4b.txt",
+      "line": 156,
+      "context": "  to over a given item i:   y to over the item whose number is i:\n Page 69 line 2 of Algorithm X                                             17 Nov 2024\n  des ribed. y  des ribed, together with global variables N , Z , i, j , l, and p.\n\n     CHANGES TO VOLUME 4B: COMBINATORIAL ALGORITHMS, PART 2                           5\n\nxPage 88 line 10                                                            06 De 2024\n  the olor of any other option      y its olor in any other option\nPage 90 near the top                                                        30 Sep 2022\n  line 2: like over(i)   y like over(i) in (12)"
+    },
+    {
+      "file": "errata/text/all4b.txt",
+      "line": 163,
+      "context": "  the olor of any other option      y its olor in any other option\nPage 90 near the top                                                        30 Sep 2022\n  line 2: like over(i)   y like over(i) in (12)\n  line 3: like hide(p)   y like hide(p) in (13)\nxPage 91 line 6                                                             17 De 2022\n  only 5.2 G\u0016 y only 4.5 G\u0016\n Page 95 the line after (66)                                         10 Jan 2026\n  to nd them       y\n                  to nd them, and to show that seven distin t letters is impos-\n  sible,"
+    },
+    {
+      "file": "errata/text/all4b.txt",
+      "line": 184,
+      "context": "xPage 109 in (105)                                                          02 Jan 2025\n  unhide(i) y unhide(p)\nxPage 110 in step P3                                                       11 Mar 2026\n  If i = N y If i > N\nxPage 110 line 1 of step P5                                                 02 Jan 2023\n  of its option, go y of its option, or if COLOR(x) 6= 0, go\nxPage 111 line 11                                                           14 De 2022\n  30,286,432 solutions y 30,258,432 solutions\nPage 112 the line before (108)                                              03 Jul 2023\n  remarkable pairing     y remarkable Langford pairing"
+    },
+    {
+      "file": "errata/text/all4b.txt",
+      "line": 211,
+      "context": "     23.)\nxPage 138 line 8 of exer ise 121                                                           07 Jan 2023\n  (2, 3, 3, 57) y (2, 2, 3, 57)\nPage 142 line 7                                                                            13 Feb 2023\n     the boundary of    y the boundary path of\nPage 145 line 3 of exer ise 162                                                           04 Nov 2023\n     eight of the possible   y eight of the ten possible\nxPage 145 line 4 of exer ise 165                                                           02 Jan 2025\n  Would it better y Would it be better\n Page 145 new rating for exer ise 171                                                      02 Jan 2025"
+    },
+    {
+      "file": "errata/text/all4b.txt",
+      "line": 1090,
+      "context": " end up (too dead, too live, immobile, still, out-of-bounds), respe tively.\nPage 565 at end of answer 84                                                           10 Jan 2024\n There's no known way : : : for all j \u0015 0.\u2104     y           There's no known way to prove even the\n spe ial ases that, say, f \u0003 (j; 2j ) = 6j for all j \u0015 0. There has, however, been a re ent\n spe ta ular breakthrough: As of February 2024, Tomas Roki ki has veri ed equality\n for all ells (i; j ) with i \u0014 6 or j \u0014 6.\u2104\nPage 588 in nal paragraph of answer 205                                                 22 Jul 2024\n delete `Is there a shorter solution?' at the beginning; add this at the end:\n See T. Zhang, T. Peitl, and S. Szeider, arXiv:2405.16149 [ s.DM\u2104 (2024), 25 pages.\nx"
+    },
+    {
+      "file": "errata/text/all4b.txt",
+      "line": 1100,
+      "context": "Page 598 repla ement for se ond paragraph of answer 263                                26 Mar 2026\n When step C7 is entered from C4, assuming that d > 0, set d                  0    r 0, q        1,\n s s +3, and do blit (lj ) for 0 \u0014 j < k. Also set t max(TLOC(jl0 j); : : : ; TLOC(jlk 1 j)).\n Then, while q > 0, set l Lt , t t 1; if S(jlj) = s then set q q 1, and if Rl 6= \u0003\n let lause Rl be l0 l1 : : : lk 1 and do blit (lj ) for 1 \u0014 j < k. Finally set l0 Lt , and\n while S(jl0 j) 6= s set t t 1 and l0 Lt .\nPage 602 append new senten e to answer 283                                             26 O t 2024\n Note: Exer ise 7.2.2.3{232 has further information.\nPage 610 line 1 of answer 313                                                          02 Jan 2025\n If l is ipped   y         If l hanges to 1"
+    },
+    {
+      "file": "errata/text/all4b.txt",
+      "line": 1366,
+      "context": " Bugs, 200, 253, 261, 317, 329, 604.                   problem, Tilings by dominoes.\n Burnside, William, lemma, 450, 465.              CUTOFF, 434.\n Cannon, James Weldon, 432.                       Cy les, requiring just one, 178.\n Carlsen, Ingwer Curt, 482.                       de La Vall\u0013ee Poussin, Charles E\u0013 tienne\n Cartier, Pierre Emile Jean, 267, 270, 347.            Jean Gustave Ni olas, 388.\n Cha\u00c6n, Benjamin Crawford, 561.                   Dia onis, Persi Warren, 50, 390.\n\n    CHANGES TO VOLUME 4B: COMBINATORIAL ALGORITHMS, PART 2                                         25\n\nDLINK     eld, 67{69, 88{90, 95{98, 109{110,                  389, 397, 401, 406, 412, 413, 419, 420,"
+    },
+    {
+      "file": "errata/text/all4b.txt",
+      "line": 1399,
+      "context": "Generating fun tions, 15, 22, 24, 28, 58, 148,           Mikusi\u0013nski, Jan Geniusz, Cube, 509.\n      149, 160, 269, 273{274, 335, 342{344,              Minimax solutions, 133, 402, 434{435,\n      348, 376, 378, 381, 384, 385, 392, 393,                 476{477.\n      406, 408, 415, 418, 430, 481, 552, 558,            Model RB, 333{334.\n      561, 583, 586, 594, 617, 648.                      Modi ations of Algorithm 7.2.2.1C and\nGallery of hitori overs, 546.                                 related algorithms, 126, 127, 132, 133,\nGallery of knight{bishop puzzles, 466.                        138, 183, 422, 442, 445, 463, 542.\nGallery of masyu puzzles, 541.                           Multiple overing with olors, see\nGallery of poly ubes, 165.                                    MCC problem.\nGonz\u0013alez-Morris, Germ\u0013an Antonio,                       My ielski, Jan Stanislaw, 444."
+    },
+    {
+      "file": "errata/text/err4b.txt",
+      "line": 124,
+      "context": "  200 through 204 y 20 through 24\n Page 49 rst line of step E5                                               28 Jan 2024\n  If d = 0, terminate. Otherwise set D D \u0001 d and X l yI ,        y\n  Set D D \u0001 d, and terminate if d = 0. Otherwise set X l yI ,\n Page 49 repla ement for the nal six lines                              28 Jan 2024\n  know roughly how many there are; Algorithm E will tell us the approximate\n  number. Indeed, the expe ted nal value of D is exa tly the total number\n  of solutions, be ause every solution X1 : : : X l onstru ted by the algorithm is\n  obtained with probability 1=D, in a ase where D > 0. Note that there may be\n  another riterion for su essful termination in step E2, even though l might still"
+    },
+    {
+      "file": "errata/text/err4b.txt",
+      "line": 127,
+      "context": "  Set D D \u0001 d, and terminate if d = 0. Otherwise set X l yI ,\n Page 49 repla ement for the nal six lines                              28 Jan 2024\n  know roughly how many there are; Algorithm E will tell us the approximate\n  number. Indeed, the expe ted nal value of D is exa tly the total number\n  of solutions, be ause every solution X1 : : : X l onstru ted by the algorithm is\n  obtained with probability 1=D, in a ase where D > 0. Note that there may be\n  another riterion for su essful termination in step E2, even though l might still\n  be \u0014 n.\nxPage 50 line 2 before the footnote                                       11 Nov 2023\n  they defend y they de ned"
+    },
+    {
+      "file": "errata/text/err4b.txt",
+      "line": 145,
+      "context": "\n Page 69 line 2 of Algorithm X                                             17 Nov 2024\n  des ribed. y  des ribed, together with global variables N , Z , i, j , l, and p.\nxPage 88 line 10                                                           06 De 2024\n  the olor of any other option   y its olor in any other option\nxPage 91 line 6                                                            17 De 2022\n  only 5.2 G\u0016 y only 4.5 G\u0016\n Page 95 the line after (66)                                         10 Jan 2026\n  to nd them    y to nd them, and to show that seven distin t letters is impos-\n  sible,"
+    },
+    {
+      "file": "errata/text/err4b.txt",
+      "line": 169,
+      "context": "xPage 109 in (105)                                                                         02 Jan 2025\n  unhide(i) y unhide(p)\nxPage 110 in step P3                                                                      11 Mar 2026\n  If i = N y If i > N\nxPage 110 line 1 of step P5                                                                02 Jan 2023\n  of its option, go y of its option, or if COLOR(x) 6= 0, go\nxPage 111 line 11                                                                          14 De 2022\n  30,286,432 solutions y 30,258,432 solutions\n    Page 127 line 1 of exer ise 33                                                         12 O t 2025\n     onstru t      y"
+    },
+    {
+      "file": "errata/text/err4b.txt",
+      "line": 185,
+      "context": "     23.)\nxPage 138 line 8 of exer ise 121                                                           07 Jan 2023\n  (2, 3, 3, 57) y (2, 2, 3, 57)\nxPage 145 line 4 of exer ise 165                                                           02 Jan 2025\n  Would it better y Would it be better\n Page 145 new rating for exer ise 171                                                      02 Jan 2025\nx171. [35 \u2104\n\n    Page 145 and 146 in exer ise 172                                                       03 Jan 2023\n     [ hange `snake-in-the-box' to simply `snake', in ve pla es\u2104"
+    },
+    {
+      "file": "errata/text/err4b.txt",
+      "line": 1045,
+      "context": "    end up (too dead, too live, immobile, still, out-of-bounds), respe tively.\nPage 565       at end of answer 84                                                 10 Jan 2024\n    There's no known way : : : for all j \u0015 0.\u2104     y   There's no known way to prove even the\n    spe ial ases that, say, f \u0003 (j; 2j ) = 6j for all j \u0015 0. There has, however, been a re ent\n    spe ta ular breakthrough: As of February 2024, Tomas Roki ki has veri ed equality\n    for all ells (i; j ) with i \u0014 6 or j \u0014 6.\u2104\nPage 588        in nal paragraph of answer 205                                   22 Jul 2024\n    delete `Is there a shorter solution?' at the beginning; add this at the end:\n    See T. Zhang, T. Peitl, and S. Szeider, arXiv:2405.16149 [ s.DM\u2104 (2024), 25 pages.\n"
+    },
+    {
+      "file": "errata/text/err4b.txt",
+      "line": 1058,
+      "context": "Page 598        repla ement for se ond paragraph of answer 263                      26 Mar 2026\n    When step C7 is entered from C4, assuming that d > 0, set d          0    r 0, q          1,\n    s s +3, and do blit (lj ) for 0 \u0014 j < k. Also set t max(TLOC(jl0 j); : : : ; TLOC(jlk 1 j)).\n    Then, while q > 0, set l Lt , t t 1; if S(jlj) = s then set q q 1, and if Rl 6= \u0003\n    let lause Rl be l0 l1 : : : lk 1 and do blit (lj ) for 1 \u0014 j < k. Finally set l0 Lt , and\n    while S(jl0 j) 6= s set t t 1 and l0 Lt .\nPage 602         append new senten e to answer 283                                       26 O t 2024\n    Note: Exer ise 7.2.2.3{232 has further information.\nx\nPage 610     repla ement for the last line of answer 313                                  04 Jan 2025"
+    },
+    {
+      "file": "errata/text/err4b.txt",
+      "line": 1334,
+      "context": "     problem, Tilings by dominoes.               Indu ed subgraphs, 63, 114, 145{146,\nCUTOFF, 434.                                          153, 183, 265, 436, 626.\nCy les, requiring just one, 178.                 inf: in mum (greatest lower bound),\nde La Vall\u0013ee Poussin, Charles E\u0013 tienne              343, 395.\n     Jean Gustave Ni olas, 388.                  In nite mean, 380{382.\n\n24        CHANGES TO VOLUME 4B: COMBINATORIAL ALGORITHMS, PART 2\n\nk - lauses: k -ary lauses, 187, 231.                     Parent in a tree, 63, 105.\nKeller, Mi hael, 132, 432, 494, 505.                     Path length of a tree: this entry leaves"
+    },
+    {
+      "file": "errata/text/err4b.txt",
+      "line": 1378,
+      "context": "Mikusi\u0013nski, Jan Geniusz, Cube, 509.                     Sear h trees, 31, 32, 35, 37{39, 46{48, 52,\nMinimax solutions, 133, 402, 434{435,                         54, 73, 98{100, 104{107, 126, 147,\n      476{477.                                                212{213, 216{218, 239, 308, 336,\nModel RB, 333{334.                                            399, 406, 407, 412, 434.\nModi ations of Algorithm 7.2.2.1C and                    Self-equivalent sudoku solutions, 111, 137.\n      related algorithms, 126, 127, 132, 133,            Sequential lists, 39{43, 220{221, 328, 534.\n      138, 183, 422, 442, 445, 463, 542.                 Set splitting, see 2- olorability of\nMultiple overing with olors, see                              hypergraphs.\n      MCC problem.                                       Shu\u000fes, 1, 8, 364.\nMy ielski, Jan Stanislaw, 444.                           Signature of a subproblem, 120{122,"
+    },
+    {
+      "file": "errata/text/all4f5.txt",
+      "line": 186,
+      "context": "  we must ba ktra k y we mustn't pro eed\nxPage 44 line 2 of step C6                                                        30 May 2020\n  f f 1 y f f +1\nxPage 47 line 6                                                                    05 Jun 2020\n    y1 y2 : : : y y0 y1 : : :\nPage 48 line 19                                                                   14 Nov 2020\n shaky grounds y shaky ground\nPage 48 line 2 before (34)                                                         19 Jan 2020\n    P. Dia onis and S. Chatterjee y S. Chatterjee and P. Dia onis\n"
+    },
+    {
+      "file": "errata/text/all4f5.txt",
+      "line": 190,
+      "context": "    y1 y2 : : : y y0 y1 : : :\nPage 48 line 19                                                                   14 Nov 2020\n shaky grounds y shaky ground\nPage 48 line 2 before (34)                                                         19 Jan 2020\n    P. Dia onis and S. Chatterjee y S. Chatterjee and P. Dia onis\n\n       CHANGES TO V4F5: MATH PRELIMINARIES, BACKTRACKING ET AL                                5\nPage 48       and 49                                                                 19 Jan 2020\n    [I'm now using the notation \u001fbN instead of QN , for eventual agreement with Se tion 7.2.2.9\u2104\nPage 51   line 16                                                      27 O t 2021"
+    },
+    {
+      "file": "errata/text/all4f5.txt",
+      "line": 192,
+      "context": " shaky grounds y shaky ground\nPage 48 line 2 before (34)                                                         19 Jan 2020\n    P. Dia onis and S. Chatterjee y S. Chatterjee and P. Dia onis\n\n       CHANGES TO V4F5: MATH PRELIMINARIES, BACKTRACKING ET AL                                5\nPage 48       and 49                                                                 19 Jan 2020\n    [I'm now using the notation \u001fbN instead of QN , for eventual agreement with Se tion 7.2.2.9\u2104\nPage 51   line 16                                                      27 O t 2021\n a student named y a telegraph engineer named\nPage 53 repla ement for exer ise 15                                    19 De 2021"
+    },
+    {
+      "file": "errata/text/all4f5.txt",
+      "line": 196,
+      "context": "       CHANGES TO V4F5: MATH PRELIMINARIES, BACKTRACKING ET AL                                5\nPage 48       and 49                                                                 19 Jan 2020\n    [I'm now using the notation \u001fbN instead of QN , for eventual agreement with Se tion 7.2.2.9\u2104\nPage 51   line 16                                                      27 O t 2021\n a student named y a telegraph engineer named\nPage 53 repla ement for exer ise 15                                    19 De 2021\n 15. [HM42 \u2104 (M. Simkin, 2021.) Show that Q(n) \u0019 \u001b n! as n !1, where \u001b \u0019 0:389068.\n                                                  n\n\nPage 54 new rating for exer ise 19                                     14 Nov 2020"
+    },
+    {
+      "file": "errata/text/all4f5.txt",
+      "line": 253,
+      "context": "  This overs y This ommits\n Page 88 third line of step C6                                           15 Jul 2020\n  This un overs y This un ommits\n Page 96 line 1                                                          15 Jul 2020\n  partially overs y ommits\n Page 96 line 4 of step M7                                               15 Jul 2020\n  un overs y un overs or un ommits\nxPage 100 line 9                                                         11 Jul 2022\n  (see exer ise 188) y (see exer ise 189)\nxPage 102 line 6                                                         10 Jul 2021"
+    },
+    {
+      "file": "errata/text/all4f5.txt",
+      "line": 286,
+      "context": " (In su h a ase we say that G is embedded in H .)\nPage 133 in exer ise 103(b)                                                          30 Mar 2022\n How many solutions y How many inequivalent solutions\nPage 135 line 1 of exer ise 116                                                      25 May 2021\n    Given a graph on verti es V y Given a graph G on verti es V\nPage 135       better illustrations in exer ise 116                                  19 Feb 2020\n\n\n       M2 =          ;     M3 =            ;           M4 =                      ;       ::: :\n"
+    },
+    {
+      "file": "errata/text/all4f5.txt",
+      "line": 578,
+      "context": "      [See www.solitairelaboratory. om/puzzlelaboratory/DominoGG.html.\u2104\nxPage 241 line 2 of answer 77                                      02 Mar 2020\n  ea h pair of verti es y ea h pair of edges\nxPage 241 in the table for answer 80, to mat h page 87             27 Mar 2020\n    LEN(x)   y    LEN(x), TOP(x)\n    [the entries for COLOR(x) in nodes x = 6; 11; 16; 19; 22; 25 should be zero, not `|'.\u2104\nxPage 241      line 2 of answer 83                                                         01 Jan 2020\n    j>N      yj>N      1\n\n Page 242     line 6 of answer 87                                                        25 May 2021"
+    },
+    {
+      "file": "errata/text/all4f5.txt",
+      "line": 580,
+      "context": "  ea h pair of verti es y ea h pair of edges\nxPage 241 in the table for answer 80, to mat h page 87             27 Mar 2020\n    LEN(x)   y    LEN(x), TOP(x)\n    [the entries for COLOR(x) in nodes x = 6; 11; 16; 19; 22; 25 should be zero, not `|'.\u2104\nxPage 241      line 2 of answer 83                                                         01 Jan 2020\n    j>N      yj>N      1\n\n Page 242     line 6 of answer 87                                                        25 May 2021\n  items w0 and appending 1 : : : n 0 y items w\b and appending 1 : : : n\b\nxPage 243 in answer 90                                                                    18 Apr 2021"
+    },
+    {
+      "file": "errata/text/all4f5.txt",
+      "line": 583,
+      "context": "    [the entries for COLOR(x) in nodes x = 6; 11; 16; 19; 22; 25 should be zero, not `|'.\u2104\nxPage 241      line 2 of answer 83                                                         01 Jan 2020\n    j>N      yj>N      1\n\n Page 242     line 6 of answer 87                                                        25 May 2021\n  items w0 and appending 1 : : : n 0 y items w\b and appending 1 : : : n\b\nxPage 243 in answer 90                                                                    18 Apr 2021\n  line 12: LOVED|GIVES y LOVED|GIVEN\n  line 13: BONES y TONES and WHILE y WHOLE\n Page 244 in answer 91                                                                    06 Jun 2021"
+    },
+    {
+      "file": "errata/text/all4f5.txt",
+      "line": 586,
+      "context": "\n Page 242     line 6 of answer 87                                                        25 May 2021\n  items w0 and appending 1 : : : n 0 y items w\b and appending 1 : : : n\b\nxPage 243 in answer 90                                                                    18 Apr 2021\n  line 12: LOVED|GIVES y LOVED|GIVEN\n  line 13: BONES y TONES and WHILE y WHOLE\n Page 244 in answer 91                                                                    06 Jun 2021\n  line 8: the shortest y an optimum\n  line 5: FALLS y WALLS\n Page 244 line 2 of answer 92                                                            25 May 2021"
+    },
+    {
+      "file": "errata/text/all4f5.txt",
+      "line": 883,
+      "context": " hand, it will lose the loop if F = 1, also setting E i.\n        All of these operations are ni ely and easily undone when we need to `unpurify'.\n For example, suppose edge i loses olor 1 when u = U(i) and v = V(i). If v = MATE(u),\n we un lose the loop (and set E 0) if i = E; otherwise we zero the mates and set\n F     F 1. If MATE(u) 6= MATE(v ), we set MATE(u)          u, MATE(v ) v , INNER(u)\n INNER(v )      0, F F + 1. The ase MATE(u) = MATE(v) is easy too.\n        Caution: Algorithm P must be modi ed so that it never dis ards redundant\n items, when it is used to prepro ess a problem for this extension of Algorithm C.\nPage 346 additional material for answer 416                                     21 De 2021\n But (2) remains unknown. y"
+    },
+    {
+      "file": "errata/text/err4f5.txt",
+      "line": 159,
+      "context": "  we must ba ktra k y we mustn't pro eed\nxPage 44 line 2 of step C6                                    30 May 2020\n  f f 1 y f f +1\nxPage 47 line 6                                                05 Jun 2020\n    y1 y2 : : : y y0 y1 : : :\n Page 48  line 2 before (34)                                                        19 Jan 2020\n  P. Dia onis and S. Chatterjee y S. Chatterjee and P. Dia onis\n Page 48 and 49                                                                      19 Jan 2020\n    [I'm now using the notation \u001fbN instead of QN , for eventual agreement with Se tion 7.2.2.9\u2104\n Page 51   line 16                                                      27 O t 2021"
+    },
+    {
+      "file": "errata/text/err4f5.txt",
+      "line": 163,
+      "context": "    y1 y2 : : : y y0 y1 : : :\n Page 48  line 2 before (34)                                                        19 Jan 2020\n  P. Dia onis and S. Chatterjee y S. Chatterjee and P. Dia onis\n Page 48 and 49                                                                      19 Jan 2020\n    [I'm now using the notation \u001fbN instead of QN , for eventual agreement with Se tion 7.2.2.9\u2104\n Page 51   line 16                                                      27 O t 2021\n  a student named y a telegraph engineer named\n Page 53 repla ement for exer ise 15                                    19 De 2021\n  15. [HM42 \u2104 (M. Simkin, 2021.) Show that Q(n) \u0019 \u001b n! as n !1, where \u001b \u0019 0:389068.\n                                                   n"
+    },
+    {
+      "file": "errata/text/err4f5.txt",
+      "line": 165,
+      "context": "  P. Dia onis and S. Chatterjee y S. Chatterjee and P. Dia onis\n Page 48 and 49                                                                      19 Jan 2020\n    [I'm now using the notation \u001fbN instead of QN , for eventual agreement with Se tion 7.2.2.9\u2104\n Page 51   line 16                                                      27 O t 2021\n  a student named y a telegraph engineer named\n Page 53 repla ement for exer ise 15                                    19 De 2021\n  15. [HM42 \u2104 (M. Simkin, 2021.) Show that Q(n) \u0019 \u001b n! as n !1, where \u001b \u0019 0:389068.\n                                                   n\n\n Page 54 new rating for exer ise 19                                     14 Nov 2020"
+    },
+    {
+      "file": "errata/text/err4f5.txt",
+      "line": 210,
+      "context": "  This overs y This ommits\n Page 88 third line of step C6                                           15 Jul 2020\n  This un overs y This un ommits\n Page 96 line 1                                                          15 Jul 2020\n  partially overs y ommits\n Page 96 line 4 of step M7                                               15 Jul 2020\n  un overs y un overs or un ommits\nxPage 100 line 9                                                         11 Jul 2022\n  (see exer ise 188) y (see exer ise 189)\nxPage 102 line 6                                                         10 Jul 2021"
+    },
+    {
+      "file": "errata/text/err4f5.txt",
+      "line": 241,
+      "context": " (In su h a ase we say that G is embedded in H .)\nPage 133 in exer ise 103(b)                                                          30 Mar 2022\n How many solutions y How many inequivalent solutions\nPage 135 line 1 of exer ise 116                                                      25 May 2021\n    Given a graph on verti es V y Given a graph G on verti es V\nPage 135       better illustrations in exer ise 116                                  19 Feb 2020\n\n\n        M2 =         ;     M3 =            ;           M4 =                      ;       ::: :\n"
+    },
+    {
+      "file": "errata/text/err4f5.txt",
+      "line": 524,
+      "context": "       [See www.solitairelaboratory. om/puzzlelaboratory/DominoGG.html.\u2104\nxPage 241 line 2 of answer 77                                                02 Mar 2020\n  ea h pair of verti es y ea h pair of edges\nxPage 241 in the table for answer 80, to mat h page 87                       27 Mar 2020\n    LEN(x)   y    LEN(x), TOP(x)\n    [the entries for COLOR(x) in nodes x = 6; 11; 16; 19; 22; 25 should be zero, not `|'.\u2104\nxPage 241      line 2 of answer 83                                                       01 Jan 2020\n    j>N      yj>N      1\n\n Page 242      line 6 of answer 87                                                      25 May 2021"
+    },
+    {
+      "file": "errata/text/err4f5.txt",
+      "line": 526,
+      "context": "  ea h pair of verti es y ea h pair of edges\nxPage 241 in the table for answer 80, to mat h page 87                       27 Mar 2020\n    LEN(x)   y    LEN(x), TOP(x)\n    [the entries for COLOR(x) in nodes x = 6; 11; 16; 19; 22; 25 should be zero, not `|'.\u2104\nxPage 241      line 2 of answer 83                                                       01 Jan 2020\n    j>N      yj>N      1\n\n Page 242      line 6 of answer 87                                                      25 May 2021\n    items w0 and appending 1 : : : n 0    y items w\b and appending : : : n\b   1\n"
+    },
+    {
+      "file": "errata/text/err4f5.txt",
+      "line": 529,
+      "context": "    [the entries for COLOR(x) in nodes x = 6; 11; 16; 19; 22; 25 should be zero, not `|'.\u2104\nxPage 241      line 2 of answer 83                                                       01 Jan 2020\n    j>N      yj>N      1\n\n Page 242      line 6 of answer 87                                                      25 May 2021\n    items w0 and appending 1 : : : n 0    y items w\b and appending : : : n\b   1\n\nxPage 243      in answer 90                                                              18 Apr 2021\n    line 12: LOVED|GIVES y LOVED|GIVEN\n    line 13: BONES y TONES and WHILE y WHOLE"
+    },
+    {
+      "file": "errata/text/err4f5.txt",
+      "line": 532,
+      "context": "\n Page 242      line 6 of answer 87                                                      25 May 2021\n    items w0 and appending 1 : : : n 0    y items w\b and appending : : : n\b   1\n\nxPage 243      in answer 90                                                              18 Apr 2021\n    line 12: LOVED|GIVES y LOVED|GIVEN\n    line 13: BONES y TONES and WHILE y WHOLE\n\n    12      CHANGES TO V4F5: MATH PRELIMINARIES, BACKTRACKING ET AL\n"
+    },
+    {
+      "file": "errata/text/err4f5.txt",
+      "line": 828,
+      "context": " hand, it will lose the loop if F = 1, also setting E i.\n        All of these operations are ni ely and easily undone when we need to `unpurify'.\n For example, suppose edge i loses olor 1 when u = U(i) and v = V(i). If v = MATE(u),\n we un lose the loop (and set E 0) if i = E; otherwise we zero the mates and set\n F     F 1. If MATE(u) 6= MATE(v ), we set MATE(u)          u, MATE(v ) v , INNER(u)\n INNER(v )      0, F F + 1. The ase MATE(u) = MATE(v) is easy too.\n        Caution: Algorithm P must be modi ed so that it never dis ards redundant\n items, when it is used to prepro ess a problem for this extension of Algorithm C.\nPage 346 additional material for answer 416                                     21 De 2021\n But (2) remains unknown. y"
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "line": 304,
+      "context": "\n\\amendpage 4b.49 first line of step E5 (24.01.28)\nIf $d=0$, terminate.\nOtherwise set $D\\gets D\\cdot d$ and $X_{@l}\\gets y_I$, \\becomes\\nl\nSet $D\\gets D\\cdot d$, and terminate if $d=0$.\nOtherwise set $X_{@l}\\gets y_I$,\n\\endchange\n\n\\amendpage 4b.49 replacement for the final six lines (24.01.28)\n\\noindent know roughly how many there are;"
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "line": 311,
+      "context": "\n\\amendpage 4b.49 replacement for the final six lines (24.01.28)\n\\noindent know roughly how many there are;\nAlgorithm E will tell us the approximate number.\nIndeed, the expected final value of~$D$ is exactly the\ntotal number of solutions, because every solution $X_1\\ldots\nX_{@l}$ constructed by the algorithm is obtained with probability $1/D$,\nin a case where $D>0$.\nNote that there may be another criterion for successful termination\nin step~E2, even though $l$~might still be $\\le n$."
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "line": 347,
+      "context": "\n\\amendpage 4b.69 line 2 of Algorithm X (24.11.17)\ndescribed. \\becomes\ndescribed, together with global variables $N$, $Z$, $i$, $j$, $l$, and~$p$.\n\\endchange\n\n\\bugonpage 4b.88 line $-10$ (24.12.06)\nthe color of any other option \\becomes\nits color in any other option\n\\endchange"
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "line": 357,
+      "context": "\n\\improvepage 4b.90 near the top (22.09.30)\nline 2: like cover$(i)$ \\becomes like cover$(i)$ in \\eq(12)\\nl\nline 3: like hide$(p)$ \\becomes like hide$(p)$ in \\eq(13)\n\\endchange\n\n\\bugonpage 4b.91 line $-6$ (22.12.17)\nonly 5.2 G$\\mu$ \\becomes only 4.5 G$\\mu$\n\\endchange\n"
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "line": 384,
+      "context": "\\bugonpage 4b.109 in {\\eq(105)} (25.01.02)\nunhide$(i)$ \\becomes unhide$(p)$\n\\endchange\n\n\\bugonpage 4b.110 in step P3 (26.03.11)\nIf $i=N$ \\becomes If $i>N$\n\\endchange\n\n\\bugonpage 4b.110 line 1 of step P5 (23.01.02)\nof its option, go \\becomes"
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "line": 1630,
+      "context": "\n\\amendpage 4b.565 at end of answer 84 (24.01.10)\nThere's no known way \\dots\\ for all $j\\ge0$.] \\becomes\nThere's no known way to prove even the special cases that, say, $f^*(j,2j)=6j$\nfor all $j\\ge0$. There has, however, been a recent spectacular breakthrough:\nAs of February 2024, Tomas Rokicki has verified equality for all\ncells $(i,j)$ with  $i\\le6$ or $j\\le6$.]\n\\endchange\n\n\\amendpage 4b.588 in final paragraph of answer 205 (24.07.22)"
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "line": 1645,
+      "context": "\\bugonpage 4b.598 replacement for second paragraph of answer 263 (26.03.26)\nWhen step C7 is entered from C4, assuming that $d>0$,\nset $d'\\gets r\\gets 0$, $q\\gets-1$, $s\\gets s+3$, and do\n\\id{blit}$(l_j)$ for $0\\le j<k$. Also set\n$t\\gets\\max\\bigl(\\.{TLOC($\\vert l_0\\vert$)}, \\dots,\n                 \\.{TLOC($\\vert l_{k-1}\\vert$)}\\bigr)$.\nThen, while $q>0$, set $l\\gets L_t$, $t\\gets t-1$;\nif $\\.{S($\\vert l\\vert$)}=s$ then set $q\\gets q-1$, and\nif $R_l\\ne\\Lambda$ let clause $R_l$ be $l_0l_1\\ldots l_{k-1}$ and\ndo \\id{blit}($l_j$) for $1\\le j<k$."
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "line": 1893,
+      "context": "Covering problems, 93--94, 153, 186, 443, 557, 558, 668; \\also Exact cover problem, Tilings by dominoes. % 3rd\n\\.{CUTOFF}, 434. % 3rd\nCycles, requiring just one, 178. % 3rd\nde La Vall\\'ee Poussin, Charles \\'Etienne Jean Gustave Nicolas, 388. % 3rd\nDiaconis, Persi Warren, 50, 390. % 3rd\n\\.{DLINK} field, 67--69, 88--90, 95--98, 109--110, 117--118, 120, 125, 417--418, 433--434, 474--475, 480--481. % 3rd\nDownloadable programs and data, iv, viii, 302, 523. % 3rd\nElkies, Noam David ({\\heb\\Hss/\\Hqq/\\Hll/\\Haa/ \\Hdd/\\Haa/$\\?$\\Hdd/ \\Hfm/\\Hai/\\Hnn/}), 482. % 3rd\nElton, John Hancock, III, 375. % 3rd\nEmbedded graphs, 132, 353, 626. % 4th"
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "line": 2055,
+      "context": "Mikusi\\'nski, Jan Geniusz, Cube, 509. % 4th\nMinimax solutions, 133, 402, 434--435, 476--477. % 3rd\nModel RB, 333--334. % 2nd\nModifications of Algorithm 7\\period2\\period2\\period1C and related algorithms, 126, 127, 132, 133, 138, 183, 422, 442, 445, 463, 542. % 3rd\nMultiple covering with colors, \\see {\\mc MCC} problem. % 3rd\nMycielski, Jan Stanis{\\l}aw, 444. % 4th\nNawrotzki, Kurt, 386. % 3rd\nNot-all-equal {\\mc SAT}: this entry leaves the index. % 3rd\nNullstellensatz (zero point theorem), combinatorial, 23. % 3rd\nOak, Gabriel, 548. % 3rd"
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "line": 2218,
+      "context": "page 87, footnote, Uppsala: -> Uppsala,\npage 90, in (55) and (57), if -> If\npage 188, line 11, ; thus -> . Thus\npage 188, line after (8), these -> those\npage 203, second grid in bottom row of Life figures was too light\npage 241, line 19, well-known\npage 296, comma after the displayed clauses\npage 338, line -3 of ex 245, If -> if\npage 393, line 2 of answer 132(a), (39) should be oldstyle numerals\npage 412, first display: punctuation at end of (i), (ii), (iii)"
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "line": 2222,
+      "context": "page 203, second grid in bottom row of Life figures was too light\npage 241, line 19, well-known\npage 296, comma after the displayed clauses\npage 338, line -3 of ex 245, If -> if\npage 393, line 2 of answer 132(a), (39) should be oldstyle numerals\npage 412, first display: punctuation at end of (i), (ii), (iii)\npage 413, top line, But wait.\npage 467, in answer 177(a), 2's -> 2s\npage 489, line -1 of answer 281: June, -> June\npage 509, line 8, spring -> Spring"
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "line": 350,
+      "context": "\n\\bugonpage 4f5.44 line 2 of step C6 (20.05.30)\n$f\\gets f-1$ \\becomes $f\\gets f+1$\n\\endchange\n\n\\bugonpage 4f5.47 line 6 (20.06.05)\n$y_1y_2\\ldots{}$ \\becomes $y_0y_1\\ldots{}$\n\\endchange\n\n\\improvepage 4f5.48 line 19 (20.11.14)"
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "line": 358,
+      "context": "\n\\improvepage 4f5.48 line 19 (20.11.14)\nshaky grounds \\becomes shaky ground\n\\endchange\n\n\\amendpage 4f5.48 line 2 before {\\eq(34)} (20.01.19)\nP.~Diaconis and S.~Chatterjee \\becomes\nS.~Chatterjee and P.~Diaconis\n\\endchange\n"
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "line": 362,
+      "context": "\n\\amendpage 4f5.48 line 2 before {\\eq(34)} (20.01.19)\nP.~Diaconis and S.~Chatterjee \\becomes\nS.~Chatterjee and P.~Diaconis\n\\endchange\n\n\\amendpage 4f5.48 and 49 (20.01.19)\n\\eightpoint\\noindent\n[I'm now using the notation $\\widehat\\chi_N$ instead of $Q_N$,\nfor eventual agreement with Section 7.2.2.9]"
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "line": 367,
+      "context": "\n\\amendpage 4f5.48 and 49 (20.01.19)\n\\eightpoint\\noindent\n[I'm now using the notation $\\widehat\\chi_N$ instead of $Q_N$,\nfor eventual agreement with Section 7.2.2.9]\n\\endchange\n\n\\amendpage 4f5.51 line $-16$ (21.10.27)\na student named \\becomes a telegraph engineer named\n\\endchange"
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "line": 482,
+      "context": "\n\\amendpage 4f5.88 third line of step C6 (20.07.15)\nThis uncovers \\becomes This uncommits\n\\endchange\n\n\\amendpage 4f5.96 line 1 (20.07.15)\npartially covers \\becomes commits\n\\endchange\n\n\\amendpage 4f5.96 line 4 of step M7 (20.07.15)"
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "line": 544,
+      "context": "\n\\amendpage 4f5.133 in exercise {103(b) } (22.03.30)\nHow many solutions \\becomes How many inequivalent solutions\n\\endchange\n\n\\amendpage 4f5.135 line 1 of exercise 116 (21.05.25)\n\\ninepoint\nGiven a graph on vertices $V$ \\becomes\nGiven a graph $G$ on vertices $V$\n\\endchange"
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "line": 991,
+      "context": "\n\\bugonpage 4f5.241 line 2 of answer 77 (20.03.02)\neach pair of vertices \\becomes each pair of edges\n\\endchange\n\n\\bugonpage 4f5.241 in the table for answer 80, to match page 87 (20.03.27)\n\\eightpoint\n\\.{LEN($x$)} \\becomes \\.{LEN($x$)},\\thinspace\\.{TOP($x$)}\\nl\n[the entries for \\.{COLOR($x$)} in nodes $x=6, 11, 16, 19, 22, 25$ should\nbe zero, not `\\hbox{---}'.]"
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "line": 995,
+      "context": "\n\\bugonpage 4f5.241 in the table for answer 80, to match page 87 (20.03.27)\n\\eightpoint\n\\.{LEN($x$)} \\becomes \\.{LEN($x$)},\\thinspace\\.{TOP($x$)}\\nl\n[the entries for \\.{COLOR($x$)} in nodes $x=6, 11, 16, 19, 22, 25$ should\nbe zero, not `\\hbox{---}'.]\n\\endchange\n\n\\bugonpage 4f5.241 line 2 of answer 83 (20.01.01)\n$j>N$ \\becomes $j>N_1$"
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "line": 1002,
+      "context": "\n\\bugonpage 4f5.241 line 2 of answer 83 (20.01.01)\n$j>N$ \\becomes $j>N_1$\n\\endchange\n\n\\amendpage 4f5.242 line 6 of answer 87 (21.05.25)\nitems~$w'$ and appending $c_1\\ldots c_n{}'$ \\becomes\nitems~$w\\@$ and appending $c_1\\ldots c_n\\!\\@$\n\\endchange\n"
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "line": 1006,
+      "context": "\n\\amendpage 4f5.242 line 6 of answer 87 (21.05.25)\nitems~$w'$ and appending $c_1\\ldots c_n{}'$ \\becomes\nitems~$w\\@$ and appending $c_1\\ldots c_n\\!\\@$\n\\endchange\n\n\\bugonpage 4f5.243 in answer 90 (21.04.18)\nline 12: \\.{LOVED}\\kern.5pt\\.{\\char`\\|}\\kern.5pt\\.{GIVES} \\becomes\n         \\.{LOVED}\\kern.5pt\\.{\\char`\\|}\\kern.5pt\\.{GIVEN}\\nl\nline 13: \\.{BONES} \\becomes \\.{TONES}\\qquad and\\qquad"
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "line": 1479,
+      "context": "All of these operations are nicely and easily undone\nwhen we need to `unpurify'.\nFor example, suppose edge~$i$ loses color~1 when $u=\\.{U($i$)}$\nand $v=\\.{V($i$)}$. If $v=\\.{MATE($u$)}$, we unclose the loop\n(and set $\\.E\\gets0$) if $i=\\.E$;\notherwise we zero the mates and set $\\.F\\gets\\.F-1$.\nIf $\\.{MATE($u$)}\\ne\\.{MATE($v$)}$, we set\n$\\.{MATE($u$)}\\gets u$,\n$\\.{MATE($v$)}\\gets v$,\n$\\.{INNER($u$)}\\gets\\.{INNER($v$)}\\gets0$, $\\.F\\gets\\.F+1$."
+    }
+  ],
+  "mapping": "4B question133=publishedF5 131=preF5c69; answers433--434=publishedF5 241--242=preF5c137--138.",
+  "conclusions": [
+    "No matching correction for answer86 empty C6, missing theta on cleansings, or skipped update at a zero-degree node.",
+    "No matching correction for answers84--85. Both cutoff variants agree with independent complete subset oracles.",
+    "25May2021 correction on publishedF5 p242 concerns answer87 marker names, not84--86.",
+    "4B p565 answer84 is in the SAT section and is unrelated.",
+    "General AlgorithmC color-header and uncommit wording corrections are already incorporated in local4B; see E041.",
+    "Theorem7.2.2E and its earlier audit ESTIMATION_NOTES.md support inverse path probabilities. No MonteCarlo sampling claim is used as a proof here.",
+    "Unchanged source archives were searched in full. Negative search does not establish novelty or physical-print verification."
+  ]
+}

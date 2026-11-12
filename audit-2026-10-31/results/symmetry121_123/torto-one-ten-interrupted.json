@@ -1,0 +1,39 @@
+{
+  "observed_at_utc": "2026-11-02T06:27:32.431502+00:00",
+  "status": "interrupted_without_terminal",
+  "cause": "unknown",
+  "accepted_as_complete": false,
+  "pids_observed_absent": [
+    902988,
+    912693,
+    912694
+  ],
+  "ps_returncode": 1,
+  "ps_stdout": "",
+  "ps_stderr": "",
+  "last_log_lines": [
+    " after 1750000003180 mems: 0 sols, 2q 22 12 33 kM 33 pA 12 15 5f 23 46 0.06543",
+    " after 1760000004921 mems: 0 sols, 2q 22 12 33 FM 24 4w 23 45 7h 45 33 45 0.06679",
+    " after 1770000006115 mems: 0 sols, 2q 22 22 16 6O 34 qq 33 22 3f 12 67 0.06749"
+  ],
+  "terminal_present": false,
+  "partial_files": {
+    "results/layouts108_114/torto112-one-ten.log": {
+      "bytes": 13886,
+      "sha256": "d19933151ad932fd6bdea529188bb6c89acfeb4be559ed2f92f3cd61f4bc4939"
+    },
+    "results/layouts108_114/torto112-one-ten.out.gz": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "results/layouts108_114/torto112-one-ten-run.json": {
+      "bytes": 736,
+      "sha256": "87ae87c66c0f93f89c26a0290404a9f92726f48caf4556e884c50944049ee32e"
+    },
+    "results/layouts108_114/torto-queue.json": {
+      "bytes": 475,
+      "sha256": "425f3ded870270da67f93c3d9536506ab5d3da0410e8febf5257595a94bbf4b1"
+    }
+  },
+  "interpretation": "The original ONE-to-TEN search stopped without an accepted terminal result. Zero partial solutions does not imply UNSAT or exhaustion. Preserve partial files; no implicit restart. The distinct zero-eight/ordinals queue is separate."
+}

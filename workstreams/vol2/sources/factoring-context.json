@@ -1,0 +1,182 @@
+{
+  "accessed_utc": "2026-11-03T16:21:59.852790+00:00",
+  "scope": "Lehman worstcase arithmetic bound387; historical context386-391; C0152 rate conversion390.",
+  "book": {
+    "edition": "3rd,firstprinting1997",
+    "printed_visually_read": [
+      386,
+      387,
+      388,
+      389,
+      390,
+      391
+    ],
+    "offset": 12
+  },
+  "primary_sources": [
+    {
+      "name": "Lukes1995 thesis",
+      "url": "https://mspace.lib.umanitoba.ca/bitstream/1993/12210/1/Lukes_A_very.pdf",
+      "visually_read": "Printed10-18,23-24,30,38,41-42;PDF26-34,39-40,46,54,57-58 only",
+      "file": "sources/lukes-1995-sieve-thesis.pdf",
+      "bytes": 12925030,
+      "sha256": "4a176902c290d70a18181d9e51d03c006a2ef466bafaace3cf382a4a7172d235"
+    },
+    {
+      "name": "Lukes–Patterson–Williams1996 SomeResultsOnPseudosquares",
+      "url": "https://cr.yp.to/bib/1996/lukes.pdf",
+      "visually_read": "Printed361,366;PDF1,6 only; tables not verified",
+      "file": "sources/lukes-1996-pseudosquares.pdf",
+      "bytes": 295690,
+      "sha256": "61383d62eb464a9510ac517f75a7f2e8dc5201d64bbc7fcc3981beb359071b5c"
+    },
+    {
+      "name": "Srinivas NPTEL Lecture27",
+      "url": "https://archive.nptel.ac.in/content/storage2/courses/111101080/Downloads/27%20Ganitakaumudi%20III%20(MDS).pdf",
+      "visually_read": "Slides1,3-4,12-15 only; original verses and explanation, no independent full Sanskrit translation",
+      "file": "sources/srinivas-narayana-lecture27.pdf",
+      "bytes": 336828,
+      "sha256": "589ef30c0ac4f297d754772c7fb763118157834cbc54c02c865278226610182d"
+    },
+    {
+      "name": "Williams–Shallit1994 FactoringIntegersBeforeComputers",
+      "url": "https://cs.uwaterloo.ca/~shallit/Papers/williams-shallit-94.pdf",
+      "visually_read": "Printed481,520-529 only; doublepagePDF1,21-25; page480 unrelated preceding article not part of claimed scope",
+      "file": "sources/williams-shallit-1994-history.pdf",
+      "bytes": 5659985,
+      "sha256": "6ef121db3aa446df8d1f6c385ba7073630a8ec012585498cbd62deaa78324920"
+    },
+    {
+      "name": "Dickson1919vol1",
+      "url": "https://archive.org/download/historyoftheoryo01dick/historyoftheoryo01dick.pdf",
+      "visually_read": "Printed357,originalPDF375; unmodified one-page excerpt, original40MB cached from earlier gcd work",
+      "original_sha256": "6568600faf73728c2c93b4f583b74b6cd2788290c9c6d8c4eab69adbb1af499a",
+      "file": "sources/dickson-1919-factor-p375.pdf",
+      "bytes": 95880,
+      "sha256": "5ed3ba9972c501980ad027c7f5977fb5acbdb1cd306889ebac031120912eb81e"
+    },
+    {
+      "name": "Jevons1874volI",
+      "url": "https://archive.org/download/principlesofscie01jevouoft/principlesofscie01jevouoft.pdf",
+      "visually_read": "Title and printed139/141; originalPDF7/159/161, unmodified three-page excerpt",
+      "original_file": {
+        "file": "sources/jevons-1874-science.pdf",
+        "bytes": 26578195,
+        "sha256": "259dda0a26095f112b9ecf0f93a417e11bea40a8134978a2bada315ba53255e4"
+      },
+      "file": "sources/jevons-1874-excerpts.pdf",
+      "bytes": 286683,
+      "sha256": "6096d14e68a655fb148fe2310cf95bd5cb985e5c14ae2dc2d8fb99d277fab523"
+    }
+  ],
+  "bibliography_only": [
+    {
+      "name": "Lehman1974 MathComp28,637-646 and Lehmer–Lehmer1974 MathComp28,625-635",
+      "url": "https://www.jstor.org/stable/i334549",
+      "scope": "Original issue contents; no full papers read."
+    },
+    {
+      "name": "Wunderlich1967 JACM14,10-19",
+      "url": "https://sigmod.org/publications/dblp/db/journals/jacm/jacm14.html",
+      "doi": "10.1145/321371.321373",
+      "scope": "ACM SIGMOD and MIT issue bibliographies; publisher403."
+    },
+    {
+      "name": "Shallit–Williams–Morain1995",
+      "url": "https://cs.uwaterloo.ca/~shallit/Papers/carissan.html",
+      "scope": "Author abstract and publication metadata; complete7pages not read."
+    },
+    {
+      "name": "Lukes–Patterson–Williams1995 NieuwArchief13,113-139",
+      "url": "https://doi.org/10.1090/S0025-5718-02-01418-7",
+      "scope": "Publisher bibliography in later paper; original27pages not obtained."
+    }
+  ],
+  "errata": {
+    "layers": [
+      "all2-prepre",
+      "all2-pre",
+      "all2",
+      "err2"
+    ],
+    "known": [
+      "Narayana1356 added2005",
+      "C5return1997,variables2004/2005,searchwording2011",
+      "Moduli2005",
+      "ANDsymbol3902005"
+    ],
+    "new_finding": "C0152 factor8 in time conversion; absent in all4layers and currenterr2TeX",
+    "older_occurrence": "err2-2e PDF58:1996-02-27 amendment to2nd-ed page374, visually read"
+  },
+  "files": [
+    {
+      "file": "verify_factoring_lehman.py",
+      "bytes": 4908,
+      "sha256": "374b259cd4c3635e3b509bd69a7777b17522dd073b3bba4916bd689f2f0c90c9"
+    },
+    {
+      "file": "results/factoring-lehman.json",
+      "bytes": 758,
+      "sha256": "fe61b58e5c74d4c1a50f133af29bd3b8316ebc836dba9905175cce83e19f9bde"
+    },
+    {
+      "file": "results/factoring-lehman.log",
+      "bytes": 82,
+      "sha256": "d4c4455b44131ae0592f855aab1de103840865b5b8bb6f9205769a5bdcd80e1c"
+    },
+    {
+      "file": "sources/lukes-1995-sieve-thesis.txt",
+      "bytes": 576087,
+      "sha256": "39f9494861b4702f0f430631e0cdb7bf0162b5045432096e359a61baa78c979b"
+    },
+    {
+      "file": "sources/lukes-1996-pseudosquares.txt",
+      "bytes": 36387,
+      "sha256": "a962e0ebdffd6aa34baf29edfe01dff359702bd2e4f39953812f24e686731a5e"
+    },
+    {
+      "file": "sources/srinivas-narayana-lecture27.txt",
+      "bytes": 38057,
+      "sha256": "e54b9efd53751c93932becf066afe1cd97e04d93424e29fe99ba64bba951b510"
+    },
+    {
+      "file": "sources/jevons-1874-excerpts.txt",
+      "bytes": 4497,
+      "sha256": "edde0fccb55b03a7922367b470f2a98ddf86e6cdbb77162c61a3a12f1fe7d755"
+    },
+    {
+      "file": "sources/dickson-1919-factor-p375.txt",
+      "bytes": 3227,
+      "sha256": "dc0388d420aea9e2e45ae2fd9fde0955e8d72516b9dc058dd297380b6bf2dbbe"
+    }
+  ],
+  "verification": {
+    "wrapper_pid": 1266404,
+    "python_pid": 1266405,
+    "tool_session": 19600,
+    "time_limit_seconds": 120,
+    "exit_code": 0,
+    "seconds": 3.191155255015474,
+    "checkpoints": 2,
+    "integer_inputs": 99999,
+    "independent_Dirichlet_witnesses": 42914,
+    "scope": "Own slightly enlarged integer search, not original optimized Algol."
+  },
+  "unavailable": [
+    "AMSLehmanPDF403",
+    "electronicsandbooksLehmanPDF network failure/time out",
+    "cr.yp.to/bib/1974/lehman.pdf404",
+    "WikimediaJevonsPDF403; public Archive original succeeded",
+    "NPTELoldcourseURL404; archived public course asset succeeded",
+    "IITBSinghtranslationindex502",
+    "ACMWunderlichDOI403"
+  ],
+  "limitations": [
+    "Physical latest printing and priority not checked.",
+    "No full original Lehman1974 proof or program inspected; independent proof covers book asymptotic assertion.",
+    "Historical paragraphs checked at specified source scope, not all original historical works or exhaustive machine census.",
+    "Lukes1996 own in-excess-of6.4billion sentence not used for arithmetic claim.",
+    "Original manuscript and full Sanskrit translation not independently audited.",
+    "Jevons ten-minute manual time not empirically measured."
+  ]
+}

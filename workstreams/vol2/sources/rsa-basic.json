@@ -1,0 +1,385 @@
+{
+  "accessed_at_utc": "2026-11-03T20:07:39.734289+00:00",
+  "scope": "TAOCP2 ed3 print1 RSA403–407 through SQRT paragraph, exercises32–35, answers664–665. Exercise44 separately completed in rsa-advanced; historical references completed in rsa-history.",
+  "book_visually_read": [
+    403,
+    404,
+    405,
+    406,
+    407,
+    415,
+    664,
+    665
+  ],
+  "book_file_offset": 12,
+  "downloads_manifest": "sources/rsa-basic-downloads.json",
+  "primary_reading": [
+    {
+      "source": "RSAauthortranscription",
+      "url": "https://people.csail.mit.edu/rivest/Rsapaper.pdf",
+      "pages": "Introduction,II–VI and startVII text;5–7 visual",
+      "limitations": "Author retypesetting, not original journal pagination;not whole paper"
+    },
+    {
+      "source": "RabinTR212",
+      "url": "https://publications.csail.mit.edu/lcs/pubs/pdf/MIT-LCS-TR-212.pdf",
+      "pages": "PDF3title,5–6abstract visual",
+      "limitations": "Text extraction empty; full external proof not audited"
+    },
+    {
+      "source": "Williams1980",
+      "url": "https://www.researchgate.net/publication/3083444_A_modification_of_the_RSA_public-key_encryption_procedure_Corresp",
+      "pages": "Selected original OCR726–728; received17July1979 and unit assumption",
+      "limitations": "PDF direct403;screenshot timeout;no visual claim"
+    },
+    {
+      "source": "DachmanSoledLossONeill2024",
+      "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITC.2024.8",
+      "pages": "8:1–8:3text,8:2visual",
+      "limitations": "Generic ring models with preprocessing,not unrestricted RSA equivalence"
+    }
+  ],
+  "errata_search": {
+    "files": [
+      "../../errata/text/all2-prepre.txt",
+      "../../errata/text/all2-pre.txt",
+      "../../errata/text/all2.txt",
+      "../../errata/text/err2.txt",
+      "../../errata/originals/err2.textxt"
+    ],
+    "date": "2026-11-03T20:07:39.734289+00:00",
+    "terms": [
+      "404",
+      "405",
+      "406",
+      "407",
+      "664",
+      "665",
+      "RSA",
+      "Rabin",
+      "Williams",
+      "cube",
+      "probability",
+      "Jacobi",
+      "p1",
+      "q1",
+      "32",
+      "34",
+      "35"
+    ],
+    "known_corrections": [
+      "404range/index2011",
+      "404quickly2000",
+      "406published1999",
+      "407Cocks2010",
+      "664answer32strictuppery2004",
+      "664–665Jacobi>=0/possiblecoincidence2004"
+    ],
+    "new_findings": [
+      "V2-C0166",
+      "V2-C0167"
+    ]
+  },
+  "checks": {
+    "rsa": {
+      "status": "passed",
+      "seconds": 1.573674293991644,
+      "result": {
+        "rsa_moduli": 66,
+        "all_residue_roundtrips": 123474,
+        "broadcast_moduli": [
+          55,
+          391,
+          1189
+        ],
+        "broadcast_messages": 55,
+        "binary_power_multiplications": {
+          "3": 2,
+          "65537": 17
+        }
+      }
+    },
+    "orders": {
+      "status": "passed",
+      "seconds": 3.0897826770087704,
+      "result": {
+        "order_instances": 4992,
+        "enumerated_residues": 2226816,
+        "unit_ladders": 31524,
+        "C0166": {
+          "p": 23,
+          "q": 47,
+          "p1": 11,
+          "q1": 23,
+          "m": 22,
+          "N": 1081,
+          "root_count": 44,
+          "actual_probability": "44/1081",
+          "claimed_upper_bound": "1/253"
+        }
+      }
+    },
+    "padding": {
+      "status": "passed",
+      "seconds": 0.5189887220039964,
+      "result": {
+        "moduli": 66,
+        "messages": 102338,
+        "corrected_representatives": 110040,
+        "unpadded_boundary_leaks": 66,
+        "C0167": {
+          "N": 55,
+          "p": 5,
+          "q": 11,
+          "M": 3,
+          "message": 3,
+          "ciphertext": 27
+        },
+        "known_2004_endpoint_error": {
+          "failing_messages": 10,
+          "example": {
+            "N": 517,
+            "p": 11,
+            "q": 47,
+            "M": 8,
+            "x": 5,
+            "y": 64,
+            "z": 517,
+            "decoded": 0
+          }
+        }
+      }
+    },
+    "williams": {
+      "status": "passed",
+      "seconds": 39.140620060032234,
+      "result": {
+        "moduli": 144,
+        "square_root_inputs": 1200784,
+        "corrected_encodings": 153416,
+        "zero_symbol_choices": 6528,
+        "false_unit_inputs": 587264,
+        "false_inputs_with_valid_ciphertext": 293776,
+        "known_2004_zero_symbol_error": {
+          "p": 3,
+          "q": 7,
+          "N": 21,
+          "x": 1,
+          "choices": [
+            6,
+            12
+          ]
+        }
+      }
+    },
+    "padding_randomized": {
+      "status": "passed",
+      "seconds": 0.13679122098255903,
+      "result": {
+        "moduli": 66,
+        "messages": 113277,
+        "representatives": 122377,
+        "formula": "B=ceil(cuberoot(N));J=floor(N/B);H=(J-B)B;0<=x<H;if x<B use z=x+yB with J-B<=y<J;otherwise z=x;decode z>=H by z mod B"
+      }
+    }
+  },
+  "limitations": [
+    "Physical latest printing and priority not verified",
+    "Exercise33 audited as open, not solved",
+    "Historical security estimates not current recommendations",
+    "Minimal deterministic padding checkpoint superseded by uniform random repair"
+  ],
+  "artifacts": [
+    {
+      "file": "images/all2-prepre-rsa-p41.png",
+      "bytes": 118954,
+      "sha256": "2796d532e40dd2d61250166a603b2adc19d2d9c6011d7fdeec3325fe66eca5e2"
+    },
+    {
+      "file": "images/all2-prepre-rsa-p42.png",
+      "bytes": 134420,
+      "sha256": "b83cf51ad8fdb07ce0e5ed80153d46de55c6994f7ea61bcb37a389e08578612f"
+    },
+    {
+      "file": "images/rabin-tr212-1979-p1.png",
+      "bytes": 23828,
+      "sha256": "717af01263c18fbcca586846b6e59cad7af0afe38c9554e6d781cd7dac08667a"
+    },
+    {
+      "file": "images/rabin-tr212-1979-p3.png",
+      "bytes": 35172,
+      "sha256": "07d1ae3c8b4bff11e8dc61b304ac88c2aa46454b1e412ed9ad249529ce3a161d"
+    },
+    {
+      "file": "images/rabin-tr212-1979-p4.png",
+      "bytes": 18529,
+      "sha256": "936187bdbfb48ccb426c42aafb770958d1435372d88aad9a146269e12f921cbb"
+    },
+    {
+      "file": "images/rabin-tr212-1979-p5.png",
+      "bytes": 104647,
+      "sha256": "43420a74352401c954a36d9a0c743ef109a9c5e51c316d62d6dc195e3188787d"
+    },
+    {
+      "file": "images/rabin-tr212-1979-p6.png",
+      "bytes": 59955,
+      "sha256": "7243cfb7126e0dfc4789be07e134a0d12c414ec72cc6e618b6b2878b86f5f823"
+    },
+    {
+      "file": "images/rsa-generically-factoring-2024-p1.png",
+      "bytes": 300004,
+      "sha256": "909c74a3ab9cfb0179125232f52b1233de3b038a55c6f011f9b665e16f2cff55"
+    },
+    {
+      "file": "images/rsa-generically-factoring-2024-p2.png",
+      "bytes": 349642,
+      "sha256": "517de88d6881a9a4a0b521b2c183fb515369e367de6eb30e28cdc2a2f943cff7"
+    },
+    {
+      "file": "images/rsa-original-author-transcription-p1.png",
+      "bytes": 255900,
+      "sha256": "3795450484b19f5d6aa03e1c332be62d72c50325b95b8d7c650bbb801f49e7e8"
+    },
+    {
+      "file": "images/rsa-original-author-transcription-p5.png",
+      "bytes": 304826,
+      "sha256": "b196218ae06cebb151599d5e8845ad46b1b799321a277aa289d2ef4786b06d14"
+    },
+    {
+      "file": "images/rsa-original-author-transcription-p6.png",
+      "bytes": 245874,
+      "sha256": "4da594e28182c90c5dd1fd8bdcd97d2a4b7981205e1d1c8906a36a7cbc85b450"
+    },
+    {
+      "file": "images/rsa-original-author-transcription-p7.png",
+      "bytes": 187925,
+      "sha256": "1c3a191833a0e763f78ca9bd7c76290c919567cc896698be6dc80558fc63914f"
+    },
+    {
+      "file": "images/vol2-p403.png",
+      "bytes": 617718,
+      "sha256": "41c751d2d9da6410f5c2478477fbcbf824f53abf09ce43658ae42f6e45c97b8f"
+    },
+    {
+      "file": "images/vol2-p404.png",
+      "bytes": 732235,
+      "sha256": "b2d01b524d10a5b6ae6d01addab598ba2fb0865a5738692ba9bf09ea39980854"
+    },
+    {
+      "file": "images/vol2-p405.png",
+      "bytes": 802583,
+      "sha256": "c7b274aa72d4daf3dfa4e93170a2b18eb9ba713ad9c865f7fe532a14d3c3955d"
+    },
+    {
+      "file": "images/vol2-p406.png",
+      "bytes": 766489,
+      "sha256": "1ed98084b1848bd4daa82779a058b96acedcaefc7665783602d152df0a0c9e0f"
+    },
+    {
+      "file": "images/vol2-p407.png",
+      "bytes": 768215,
+      "sha256": "866e43575fc0d360aa92709f5caa535af948014bf02b71ad7fb92b0d64a2373b"
+    },
+    {
+      "file": "images/vol2-p415.png",
+      "bytes": 446628,
+      "sha256": "a88682dd8c5d0a33a4cd716d3d3f91e89a0c99d7cca1e5bee96c1731bfaed482"
+    },
+    {
+      "file": "images/vol2-p664-answer32-detail.png",
+      "bytes": 211119,
+      "sha256": "dcfba2e58f8a6c41eee5beb92ef72f6ebbb57b686fda19cc1a5f56849d661857"
+    },
+    {
+      "file": "images/vol2-p664.png",
+      "bytes": 463391,
+      "sha256": "d5703b25fbae544e4c8b20a3b539750841dc486d458235c9a101e29f8a0a442d"
+    },
+    {
+      "file": "images/vol2-p665.png",
+      "bytes": 762100,
+      "sha256": "f14a0f846889b43c7d00ca50055929002e10bbf7db1ac2e0fae373118558bedb"
+    },
+    {
+      "file": "notes/C0166-rsa-root-density.md",
+      "bytes": 2064,
+      "sha256": "b5174bca54020132b834d654a91cac4cf11acc401781e0358395d3576edf7ff1"
+    },
+    {
+      "file": "notes/C0167-rsa-padding-boundary.md",
+      "bytes": 2151,
+      "sha256": "80e751927b60852e147e1f1bb3db42de06505281571b75d77c85ee28d5ef73f7"
+    },
+    {
+      "file": "notes/rsa-basic.md",
+      "bytes": 14227,
+      "sha256": "834ff6b82c764ba3a3519c3baa16ba514194b2d1595b2b85f2490066e6260010"
+    },
+    {
+      "file": "reports/C0166-rsa-root-density-draft.txt",
+      "bytes": 952,
+      "sha256": "3a1ccab966af984d5d5990ce2377e6def2becf1a82b0926ee67ec18fc75194f6"
+    },
+    {
+      "file": "reports/C0167-rsa-padding-boundary-draft.txt",
+      "bytes": 1189,
+      "sha256": "d4c15d506771fe1e4013eb9d62790a32bbb611dcd478682f31c2b69d72f71cee"
+    },
+    {
+      "file": "results/rsa-basic-padding-refinement.log",
+      "bytes": 471,
+      "sha256": "269c63549f4dd78c52aa6043bdc8f23c1c25a46f3e130b52140692cee46a2516"
+    },
+    {
+      "file": "results/rsa-basic.json",
+      "bytes": 2662,
+      "sha256": "341018f9db79726c2422574c019b77fe18560e05ac70059f44ad208869c8eaca"
+    },
+    {
+      "file": "results/rsa-basic.log",
+      "bytes": 1335,
+      "sha256": "e5d69b6d995daac7620297ff0e7a30e27f8dd1884ca85faacf0641d900fb5a50"
+    },
+    {
+      "file": "sources/rabin-tr212-1979.pdf",
+      "bytes": 457188,
+      "sha256": "e8b37a44d25af96fbb48b3578f58fb2409e2288acedef5ca2a1e7a4603c5d044"
+    },
+    {
+      "file": "sources/rabin-tr212-1979.txt",
+      "bytes": 20,
+      "sha256": "d5387627a5266472bfb0b90d754c9d2c18ed6046796ddb3ed7dc3564f83b101f"
+    },
+    {
+      "file": "sources/rsa-basic-downloads.json",
+      "bytes": 1621,
+      "sha256": "3b3ef215fdfbcb36b8f8609cd80e917018930efd45f8729f37d1fafe945b8d91"
+    },
+    {
+      "file": "sources/rsa-generically-factoring-2024.pdf",
+      "bytes": 907307,
+      "sha256": "8d61e02c47d1cbe2596128b7c13dd0ec11d16b82227fc72d91bcf156fc20d990"
+    },
+    {
+      "file": "sources/rsa-generically-factoring-2024.txt",
+      "bytes": 95173,
+      "sha256": "fdc5d190d3f6a8db8125ff1c71097f7eef5306da8516174617e4ce0d4e913b0b"
+    },
+    {
+      "file": "sources/rsa-original-author-transcription.pdf",
+      "bytes": 182059,
+      "sha256": "f7b1f78d9a7cbeb85e32b8c563a6db60771a5cc4bdc55580645f7cb778a4966b"
+    },
+    {
+      "file": "sources/rsa-original-author-transcription.txt",
+      "bytes": 38605,
+      "sha256": "667a5954e81c54a40c163fafeda59d99492c1e8c182ec2f4cbc6de7e01fca822"
+    },
+    {
+      "file": "verify_rsa_basic.py",
+      "bytes": 10935,
+      "sha256": "1bea566c4900c4bd46c4887c2f0cc220b129397e776302f66602177284f301c0"
+    }
+  ],
+  "historical_followup": "sources/rsa-history.json"
+}

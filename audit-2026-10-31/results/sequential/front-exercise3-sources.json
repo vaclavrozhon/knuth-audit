@@ -1,0 +1,46 @@
+{
+  "checked_at_utc": "2026-11-06T19:27:07.791500+00:00",
+  "scope": "Bibliographic records and theorem statements only, not a complete proof audit. Front-matter exercise3 remains partial.",
+  "sources": [
+    {
+      "url": "https://arxiv.org/abs/math/0211159",
+      "author": "Grisha Perelman",
+      "date": "2002-11-11",
+      "pages_as_recorded": 39,
+      "checked": "Author, title, year, page-count metadata and abstract."
+    },
+    {
+      "url": "https://arxiv.org/abs/math/0303109",
+      "author": "Grisha Perelman",
+      "date": "2003-03-10",
+      "pages_as_recorded": 22,
+      "checked": "Author, title, year, page-count metadata and abstract."
+    },
+    {
+      "url": "https://arxiv.org/abs/math/0307245",
+      "author": "Grisha Perelman",
+      "date": "2003-07-17",
+      "pages_as_recorded": 7,
+      "checked": "Metadata; PDF first-page Theorem1.1 gives finite extinction under an additional prime-decomposition assumption."
+    },
+    {
+      "url": "https://arxiv.org/pdf/math/0607607",
+      "authors": [
+        "John W. Morgan",
+        "Gang Tian"
+      ],
+      "version": "v2,2007-03-21",
+      "locations": [
+        "Introduction p.5 (PDF8), Poincare statement",
+        "Corollary0.2(a),p.6 (PDF9)",
+        "Proof from Theorems15.9 and18.1,p.399 (PDF402)"
+      ],
+      "checked": "Statement and proof dependency path, not the intervening Ricci-flow proof. Smooth category and topological conclusion must be distinguished."
+    }
+  ],
+  "unverified": [
+    "Full Ricci-flow argument and its prerequisites",
+    "Moise smoothing/triangulation passage for arbitrary topological3-manifolds",
+    "Original Poincare1904 and Bing1958 bibliographic details"
+  ]
+}

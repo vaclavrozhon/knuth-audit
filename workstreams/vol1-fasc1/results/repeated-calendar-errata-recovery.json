@@ -1,0 +1,91 @@
+{
+  "checked_at_utc": "2026-11-07T00:35:41.739604+00:00",
+  "scope": "MMIX repeated occurrences of already confirmed V1-C0025/C0026; no new MMIX finding ID. Root primary contradiction/original/Volume1 errata review is inherited exactly; MMIX-specific original and cumulative/current text layers checked here.",
+  "sources": [
+    {
+      "path": "errata/originals/err1f1.textxt",
+      "sha256": "07db671be6fcbc6c473ddc6593f6a16cce5833fb5f8a499ab7e2e3eee163dae3",
+      "matches": [
+        {
+          "line": 731,
+          "text": "\\amendpage 1f1.111 line 10 (14.08.27)"
+        },
+        {
+          "line": 732,
+          "text": "Victorius of Aquitania \\becomes"
+        },
+        {
+          "line": 733,
+          "text": "Victorius of Aquitaine"
+        },
+        {
+          "line": 736,
+          "text": "\\amendpage 1f1.111 replacement for answer 34 {(continues to page 113)} (11.06.04)"
+        },
+        {
+          "line": 1021,
+          "text": "O'Beirne, Thomas Hay, 94, 111. % 2nd"
+        },
+        {
+          "line": 1054,
+          "text": "Victorius of Aquitaine, 111. % 2nd"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/err1f1.txt",
+      "sha256": "7d6366838076d106c09e85a4f93f1b151e94c9af9f6874ea27aa6f106cdf84b6",
+      "matches": [
+        {
+          "line": 299,
+          "text": "Page 111      line 10                                                                  27 Aug 2014"
+        },
+        {
+          "line": 300,
+          "text": "    Vi torius of Aquitania        y Vi torius of Aquitaine"
+        },
+        {
+          "line": 301,
+          "text": "Page 111       repla ement for answer 34 ( ontinues to page 113)                  04 Jun 2011"
+        },
+        {
+          "line": 450,
+          "text": "BDIF (byte di eren e), 11, 26, 95, 101.        O'Beirne, Thomas Hay, 94, 111."
+        },
+        {
+          "line": 485,
+          "text": "LOC ( hange lo ation), 29{30, 39.              Vi torius of Aquitaine, 111."
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all1f1.txt",
+      "sha256": "c0b1a7c575ffcbced2bc6a7048143a16286a081908850ad0956258dd2f84b18e",
+      "matches": [
+        {
+          "line": 364,
+          "text": " Page 111   line 10                                                            27 Aug 2014"
+        },
+        {
+          "line": 365,
+          "text": "  Vi torius of Aquitania y Vi torius of Aquitaine"
+        },
+        {
+          "line": 366,
+          "text": " Page 111    repla ement for answer 34 ( ontinues to page 113)                  04 Jun 2011"
+        },
+        {
+          "line": 542,
+          "text": "O'Beirne, Thomas Hay, 94, 111.                 Usage ounter, 20."
+        },
+        {
+          "line": 543,
+          "text": "OP eld of MMIXAL line, 28{30, 38.              Vi torius of Aquitaine, 111."
+        }
+      ]
+    }
+  ],
+  "accepted_primary_review": "workstreams/vol1/notes/calendar-primary-root-review.md",
+  "original_mmix_page": "images/file-119-p111.png",
+  "semantic_review": "Aquitania to Aquitaine is the only relevant historical-name correction; no correction to the first-systematic or sole-nontrivial claims. Traffic-light replacement on111 is separate. Original MMIX119 viewed and both sentences are the same inherited claims."
+}

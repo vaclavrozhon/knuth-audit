@@ -1,0 +1,90 @@
+{
+  "reviewed_at_utc": "2026-11-06T11:06:55.940461+00:00",
+  "original_scan": "Volume2 edition3 printing1 1997; printed page +12 = file page.",
+  "read_original_pages": [
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    139,
+    140,
+    586,
+    587,
+    588
+  ],
+  "primary_reading": [
+    {
+      "source": "https://maths-people.anu.edu.au/brent/pd/rpb023.pdf",
+      "local": "sources/brent-1974-normal.pdf",
+      "scope": "Algorithm outline and analysis on704–705, both original pages visually inspected; equation4 and Fortran header differ. Full Fortran and historical benchmarks not audited."
+    },
+    {
+      "source": "https://netlib.org/toms/712",
+      "local": "sources/leva-1992-algorithm712.txt",
+      "scope": "RANDN/RANDN0 contracts, constants and branches; test input table not replayed."
+    }
+  ],
+  "quick_access_attempts": [
+    {
+      "url": "https://www.ams.org/journals/mcom/1973-27-124/S0025-5718-1973-0329190-8/S0025-5718-1973-0329190-8.pdf",
+      "result": "403 Forbidden"
+    },
+    {
+      "url": "https://i.stanford.edu/pub/cstr/reports/cs/tr/72/254/CS-TR-72-254.pdf",
+      "result": "TimeoutError"
+    },
+    {
+      "url": "https://dl.acm.org/doi/10.1145/355604.361593",
+      "result": "403 Forbidden"
+    }
+  ],
+  "errata": {
+    "layers": [
+      "all2-prepre",
+      "all2-pre",
+      "all2",
+      "err2",
+      "err2.textxt"
+    ],
+    "freshness": "Archive fetched6November2026; unchanged from preserved source.",
+    "search": "Original122–132,139–140,586–588; Brent,1.37446,1.37746,Fig13,lengths,coordinate ratio,exterior,29410 and algorithm terms.",
+    "visually_inspected": "all2-prepre7,8,33 and all2 10; all2-prepre32 also inspected in preceding A/B block.",
+    "known": [
+      "P4 zero-radius branch (2000-02-07).",
+      "Figure9 replacement (2000-02-07).",
+      "M3 comment lower index16 (1999-12-02).",
+      "Y4/Y5/Z4/Z5 and unused Y9/Z9 (2000-07-28).",
+      "F4 fresh proposal U (2003-09-30).",
+      "Exercise12 reversed hint inequality (1999-10-19).",
+      "Answer21 primitive factor a and area factors2 (2005-02-03)."
+    ],
+    "clarifications": [
+      "Assignment arrows and concavity wording are editorial.",
+      "Answer10 root wording changed2024-06-30; unique root on the required interval independently justified.",
+      "Leva paragraph2005 is a correct improvement, not an error finding."
+    ],
+    "no_matching_correction_found": [
+      "V2-C0054",
+      "V2-C0055",
+      "V2-C0246"
+    ]
+  },
+  "factual_or_mathematical_gaps": [
+    "Global maximum of actual exterior area E near x=-.35 not certified.",
+    "Figure13 length wording remains candidate.",
+    "Wallace practical/empirical statements on132 deferred to exercise31."
+  ],
+  "bibliography_skips": [
+    "Full external47-value table and historical speed comparisons.",
+    "Original Boeing report and priority claims.",
+    "Complete Box–Muller1958, Marsaglia1961/1964/1976, Kinderman–Monahan1977, Ahrens–Dieter1972/1973/1988 papers.",
+    "Leva journal PDF; primary code and stated improvement independently analyzed."
+  ]
+}

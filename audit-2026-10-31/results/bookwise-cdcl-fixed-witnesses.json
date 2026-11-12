@@ -1,0 +1,313 @@
+{
+  "F215": {
+    "printed": {
+      "trail": [
+        null
+      ],
+      "val": {
+        "1": 0
+      },
+      "tloc": {
+        "1": 0
+      },
+      "F": 1
+    },
+    "corrected": {
+      "trail": [
+        2
+      ],
+      "val": {
+        "1": 0
+      },
+      "tloc": {
+        "1": 0
+      },
+      "F": 1
+    }
+  },
+  "F216": {
+    "printed": {
+      "c": 3,
+      "steps": [
+        {
+          "c": 3,
+          "q": 3,
+          "next": 0,
+          "link": 0
+        },
+        {
+          "c": 3,
+          "q": 3,
+          "next": 0,
+          "link": 3
+        },
+        {
+          "c": 3,
+          "q": 3,
+          "next": 3,
+          "link": 3
+        }
+      ],
+      "terminated": false
+    },
+    "corrected": {
+      "c": 0,
+      "steps": [
+        {
+          "c": 3,
+          "q": 3,
+          "next": 0,
+          "link": 0
+        }
+      ],
+      "terminated": true
+    }
+  },
+  "F217": {
+    "printed": {
+      "heap": [
+        1,
+        2
+      ],
+      "activity": {
+        "1": 0.0,
+        "2": 1.0
+      },
+      "invariant": false
+    },
+    "corrected": {
+      "heap": [
+        2,
+        1
+      ],
+      "activity": {
+        "1": 0.0,
+        "2": 1.0
+      },
+      "invariant": true
+    }
+  },
+  "F218": {
+    "clause": [
+      -1,
+      2,
+      3
+    ],
+    "watches": [
+      -1,
+      2
+    ],
+    "trail": [
+      -1,
+      -2,
+      -3
+    ],
+    "levels": [
+      1,
+      2,
+      3
+    ],
+    "false_watch_level": 2,
+    "maximum_clause_level": 3,
+    "reason_watch_is_retained": "Other watch -x1 is true when x2 becomes false."
+  },
+  "F219": {
+    "cnf_signed": [
+      [
+        1
+      ],
+      [
+        -2
+      ],
+      [
+        -1,
+        2
+      ]
+    ],
+    "printed": {
+      "outcome": "SAT",
+      "checked": [
+        3,
+        4
+      ]
+    },
+    "corrected": {
+      "outcome": "UNSAT",
+      "checked": [
+        2
+      ]
+    }
+  },
+  "F220": {
+    "cnf_signed": [
+      [
+        -1,
+        -2,
+        3
+      ],
+      [
+        -3,
+        4
+      ]
+    ],
+    "outer_trigger": 2,
+    "binary_source": 3,
+    "forced": 4,
+    "printed_reason_clause": [
+      -2,
+      4
+    ],
+    "correct_reason_clause": [
+      -3,
+      4
+    ],
+    "countermodel_to_printed_reason": {
+      "1": false,
+      "2": true,
+      "3": false,
+      "4": false
+    }
+  },
+  "F221": {
+    "mem_literals": [
+      12,
+      11,
+      9,
+      3
+    ],
+    "values": {
+      "1": 2,
+      "2": 4,
+      "3": 4,
+      "4": 4,
+      "5": 4,
+      "6": 4
+    },
+    "printed_index": 3,
+    "corrected_index": 2,
+    "printed_watch": 3,
+    "corrected_watch": 9
+  },
+  "F222": {
+    "formula": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        -3
+      ],
+      [
+        6,
+        5,
+        4
+      ],
+      [
+        6,
+        5,
+        -4
+      ]
+    ],
+    "trace": {
+      "trail": [
+        -1,
+        -2,
+        3
+      ],
+      "levels": {
+        "1": 1,
+        "2": 2,
+        "3": 2
+      },
+      "conflict": [
+        1,
+        2,
+        -3
+      ]
+    },
+    "learned": [
+      1,
+      2
+    ],
+    "reflected": [
+      6,
+      5
+    ],
+    "backjump_trail": [
+      -1,
+      2
+    ],
+    "d": 1,
+    "d_prime": 1,
+    "printed_ranks": [
+      1,
+      1
+    ],
+    "printed_action": "C7 on a clause with two free literals",
+    "correct_action": "Store and watch; no conflict or propagation."
+  },
+  "F223": {
+    "formula": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        -3
+      ],
+      [
+        6,
+        5,
+        4
+      ],
+      [
+        6,
+        5,
+        -4
+      ]
+    ],
+    "trace": {
+      "trail": [
+        -6,
+        -1,
+        -2,
+        3
+      ],
+      "levels": {
+        "6": 1,
+        "1": 2,
+        "2": 3,
+        "3": 3
+      },
+      "conflict": [
+        1,
+        2,
+        -3
+      ]
+    },
+    "learned": [
+      1,
+      2
+    ],
+    "reflected": [
+      6,
+      5
+    ],
+    "ranks_before_extra_backjump": {
+      "5": 2,
+      "6": 1
+    },
+    "trail_after_append": [
+      -6,
+      5
+    ],
+    "printed_VAL5": -1,
+    "correct_VAL5": 2
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "blocks": {
+    "brown": {
+      "strict_degree_cases": 150,
+      "C0199": {
+        "u": [
+          1,
+          1,
+          0,
+          2
+        ],
+        "v": [
+          1,
+          0,
+          1,
+          2
+        ],
+        "q": [
+          2
+        ],
+        "r": [
+          0,
+          2,
+          -2
+        ],
+        "first_normalized_remainder": [
+          0,
+          1,
+          -1
+        ],
+        "first_h": "1/2"
+      },
+      "seconds": 0.028071031032595783
+    },
+    "exact_division": {
+      "constructed_exact_divisions": 180,
+      "methods": "Low coefficients and independent two-ended triangular solves; compare with prescribed quotient.",
+      "seconds": 0.03798414103221148
+    },
+    "transform_division": {
+      "finite_field_transforms": 60,
+      "modulus": 257,
+      "length": 16,
+      "needed_nontrivial_twist": 4,
+      "seconds": 0.013700518989935517
+    }
+  },
+  "status": "passed"
+}

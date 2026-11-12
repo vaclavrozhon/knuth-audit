@@ -1,0 +1,159 @@
+{
+  "description": "Complete MPR109, including all printed intermediate claims and a self-contained finite flow theorem",
+  "ledger_ids": [
+    "D207",
+    "F171",
+    "F172",
+    "D205",
+    "D206"
+  ],
+  "claims": [
+    {
+      "id": "MPR109.01",
+      "file_pages": [
+        42,
+        406
+      ],
+      "claim": "Every partial-order, upper-set and coupling-support definition; necessity",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex109.md"
+    },
+    {
+      "id": "MPR109.02",
+      "file_pages": [
+        42,
+        406
+      ],
+      "claim": "Complete list of upper sets and all inequalities in109(a)",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex109.md"
+    },
+    {
+      "id": "MPR109.03",
+      "file_pages": [
+        42,
+        406
+      ],
+      "claim": "Explicit valid three-state coupling and comparison with the chain case108",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex109.md"
+    },
+    {
+      "id": "MPR109.04",
+      "file_pages": [
+        42,
+        406
+      ],
+      "claim": "Every lower-set/complement argument and zero/full boundary in109(b)",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex109.md"
+    },
+    {
+      "id": "MPR109.05",
+      "file_pages": [
+        42,
+        406
+      ],
+      "claim": "Precise2n+2-vertex network, capacities and flow/marginal equivalence",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex109.md"
+    },
+    {
+      "id": "MPR109.06",
+      "file_pages": [
+        42,
+        406
+      ],
+      "claim": "Compactness, maximum existence, residual reachability and exact cut-capacity identity",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex109.md"
+    },
+    {
+      "id": "MPR109.07",
+      "file_pages": [
+        42,
+        406
+      ],
+      "claim": "Both directions of the supplied blocking-pair criterion, including real/zero capacities",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex109.md"
+    },
+    {
+      "id": "MPR109.08",
+      "file_pages": [
+        42,
+        406
+      ],
+      "claim": "Every corrected closure inclusion and probability inequality",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex109.md"
+    },
+    {
+      "id": "MPR109.09",
+      "file_pages": [
+        42,
+        406
+      ],
+      "claim": "Exact two-state witness and repair for wrong target vertex F171",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex109.md"
+    },
+    {
+      "id": "MPR109.10",
+      "file_pages": [
+        42,
+        406
+      ],
+      "claim": "Exact positive-weight counterexample and closure repair for F172",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex109.md"
+    },
+    {
+      "id": "MPR109.11",
+      "file_pages": [
+        42,
+        406
+      ],
+      "claim": "Complete corrected existence theorem, separately scoped bibliography omissions",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex109.md"
+    }
+  ],
+  "bibliography_skips": [
+    {
+      "exercise": "MPR:109",
+      "file_pages": [
+        406
+      ],
+      "reference": "Complete historical theorem/proof scope of Nawrotzki, Mathematische Nachrichten24(1962),193–200",
+      "reason": "Publisher metadata and the original first page were quickly available and inspected; the complete article was not. The finite mathematical claim has a complete independent proof.",
+      "mathematical_dependency": false
+    },
+    {
+      "exercise": "MPR:109",
+      "file_pages": [
+        406
+      ],
+      "reference": "Complete historical theorem/proof scope of Strassen, Annals of Mathematical Statistics36(1965),423–439",
+      "reason": "The IMS archive table of contents confirms the citation. Project Euclid returned a service/security page and the direct download was not a PDF; no invalid PDF was saved. The finite result is proved independently.",
+      "mathematical_dependency": false
+    },
+    {
+      "exercise": "MPR:109",
+      "file_pages": [
+        42
+      ],
+      "reference": "Exact placement and full scope of the forward cross-reference to Section7.5.3",
+      "reason": "The referenced section was not independently inspected. The exact finite max-flow/min-cut statement explicitly supplied by this exercise is proved from compactness and residual reachability, so no mathematical premise is left unproved.",
+      "mathematical_dependency": false
+    }
+  ],
+  "known_errata": [],
+  "new_findings": [
+    "F171",
+    "F172"
+  ],
+  "new_calculations": 0,
+  "old_runs_repeated": 0,
+  "updated_at_utc": "2026-11-07T02:27:05.083648+00:00"
+}

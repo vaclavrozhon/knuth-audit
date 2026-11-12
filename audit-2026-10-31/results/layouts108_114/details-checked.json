@@ -1,0 +1,172 @@
+{
+  "script_sha256": "c39a0a0b680ba1e5a49a5b68f7d65dbdaf5c99c9bbee9b9299e1c427657c6c45",
+  "F129": {
+    "selected_zero": {
+      "word": 0,
+      "direction": 1,
+      "cells": [
+        0,
+        8,
+        16,
+        24
+      ]
+    },
+    "printed_undefined": [
+      "H00",
+      "H20",
+      "V30"
+    ],
+    "correct_forced": {
+      "H11": {
+        "edge": "H11",
+        "endpoints": [
+          0,
+          1
+        ],
+        "occupancy": [
+          1,
+          0
+        ]
+      },
+      "H31": {
+        "edge": "H31",
+        "endpoints": [
+          16,
+          17
+        ],
+        "occupancy": [
+          1,
+          0
+        ]
+      },
+      "V41": {
+        "edge": "V41",
+        "endpoints": [
+          24,
+          32
+        ],
+        "occupancy": [
+          1,
+          0
+        ]
+      }
+    }
+  },
+  "F130": {
+    "witness": {
+      "board": "ZERO.ONE.TWO.THREE.FOUR.FIVE.SIX.SEVEN.EIGHT.NINE.TEN",
+      "components": 11,
+      "intersections": 0
+    },
+    "area": 53,
+    "claimed_minimum_area": 55,
+    "true_minimum_not_asserted": true
+  },
+  "sudoku114": {
+    "source_sha256": "37714cde9cfb1f7f6017e0c53bb1267760cda5e60130a3006cc904904d5f0ba1",
+    "class_number": 37,
+    "source_count": 30258432,
+    "conjugacy_all81_cells_verified": true,
+    "examples": {
+      "28a": {
+        "permutation": {
+          "1": 1,
+          "2": 4,
+          "3": 7,
+          "4": 2,
+          "5": 5,
+          "6": 8,
+          "7": 3,
+          "8": 6,
+          "9": 9
+        },
+        "violations": [
+          [
+            2,
+            7,
+            4,
+            1
+          ],
+          [
+            2,
+            8,
+            7,
+            4
+          ],
+          [
+            2,
+            9,
+            1,
+            7
+          ]
+        ],
+        "is_automorphism": false
+      },
+      "28b": {
+        "permutation": {
+          "1": 1,
+          "2": 4,
+          "3": 7,
+          "4": 2,
+          "5": 5,
+          "6": 8,
+          "7": 3,
+          "8": 6,
+          "9": 9
+        },
+        "violations": [],
+        "is_automorphism": true
+      },
+      "28c": {
+        "permutation": {
+          "1": 1,
+          "2": 5,
+          "3": 9,
+          "4": 6,
+          "5": 7,
+          "6": 2,
+          "7": 8,
+          "8": 3,
+          "9": 4
+        },
+        "violations": [
+          [
+            2,
+            1,
+            2,
+            7
+          ],
+          [
+            2,
+            2,
+            6,
+            2
+          ],
+          [
+            2,
+            3,
+            7,
+            6
+          ]
+        ],
+        "is_automorphism": false
+      }
+    },
+    "independent_terminals": [
+      {
+        "n": 4,
+        "solutions": 2,
+        "witnesses": 2,
+        "nodes": 14,
+        "hashes_verified": true
+      },
+      {
+        "n": 9,
+        "solutions": 30258432,
+        "witnesses": 8,
+        "nodes": 371122851,
+        "hashes_verified": true
+      }
+    ]
+  }
+}

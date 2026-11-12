@@ -1,0 +1,44 @@
+{
+  "checked_at_utc": "2026-11-11T20:56:13.339569+00:00",
+  "edition": "Volume 4A, first edition, first printing, 2011; inventory/books.json",
+  "originals": [
+    "images/bookwise-p420.png",
+    "images/bookwise-p423.png",
+    "images/bookwise-p437.png",
+    "images/bookwise-p771.png",
+    "images/bookwise-p772.png",
+    "images/bookwise-p773.png"
+  ],
+  "errata": [
+    "errata/text/all4a-pre.txt",
+    "errata/text/all4a.txt",
+    "errata/text/err4a.txt",
+    "errata/text/all4f3.txt",
+    "errata/text/err4f3.txt"
+  ],
+  "pages_screened": "4A main 419–423, exercises 437–438, answers 771–774; corresponding Fascicle 3 main 65–69, exercises 83–84, answers 134–137",
+  "retrieval_manifests": [
+    "integration/2026-11-10-bookwise/errata/vol4a-manifest.json",
+    "integration/2026-11-10-bookwise/errata/vol4a-fasc3-manifest.json"
+  ],
+  "public_queries": [
+    "Knuth \"423\" \"Bell\" error",
+    "Knuth \"answer 40\" \"771\" errata",
+    "Knuth \"772\" \"46\" errata",
+    "Knuth \"answer 42\" \"gamma\" errata",
+    "Knuth \"773\" \"48\" errata",
+    "\"Bell numbers\" \"12n\" correction",
+    "Knuth Bell numbers \"exercise 45\" errata",
+    "Knuth \"437\" \"45\" errata asymptotic"
+  ],
+  "public_result": "No matching report found. The 2018 changes to a main-text cross-reference and the strict inequality in answer 43 are known and excluded. Hwang 2023, A curious identity arising from Stirling’s formula and saddle-point method on two different contours, pages 7–8, discusses the choice of Bell saddle points and cites Knuth but does not report these specific errors in the inspected passage.",
+  "screened_public_paper": "https://pdfs.semanticscholar.org/12c8/a43d99c2327396958cd9ccff9f2db045a18b.pdf",
+  "findings": [
+    "V4A-F0095",
+    "V4A-F0096",
+    "V4A-F0097",
+    "V4A-F0098",
+    "V4A-F0099",
+    "V4A-F0100"
+  ]
+}

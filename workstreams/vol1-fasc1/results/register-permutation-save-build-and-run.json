@@ -1,0 +1,67 @@
+[
+  {
+    "command": [
+      "make",
+      "basic",
+      "CFLAGS=-O0"
+    ],
+    "returncode": 0,
+    "stdout": "make mmix-arith.c\nmake[1]: Entering directory 'workstreams/vol1-fasc1/results/register-permutation-first-mxy11ljq'\nif test -r mmix-arith.ch; then ctangle mmix-arith.w mmix-arith.ch; else ctangle mmix-arith.w; fi\nmake[1]: Leaving directory 'workstreams/vol1-fasc1/results/register-permutation-first-mxy11ljq'\nmake mmix-arith.o\nmake[1]: Entering directory 'workstreams/vol1-fasc1/results/register-permutation-first-mxy11ljq'\ncc -O0   -c -o mmix-arith.o mmix-arith.c\nmake[1]: Leaving directory 'workstreams/vol1-fasc1/results/register-permutation-first-mxy11ljq'\nif test -r mmixal.ch; then ctangle mmixal.w mmixal.ch; else ctangle mmixal.w; fi\ncc -O0 mmixal.c mmix-arith.o -o mmixal\nmake mmix-io.c\nmake[1]: Entering directory 'workstreams/vol1-fasc1/results/register-permutation-first-mxy11ljq'\nif test -r mmix-io.ch; then ctangle mmix-io.w mmix-io.ch; else ctangle mmix-io.w; fi\nmake[1]: Leaving directory 'workstreams/vol1-fasc1/results/register-permutation-first-mxy11ljq'\nmake mmix-io.o\nmake[1]: Entering directory 'workstreams/vol1-fasc1/results/register-permutation-first-mxy11ljq'\ncc -O0   -c -o mmix-io.o mmix-io.c\nmake[1]: Leaving directory 'workstreams/vol1-fasc1/results/register-permutation-first-mxy11ljq'\nif test -r mmix-sim.ch; then ctangle mmix-sim.w mmix-sim.ch; else ctangle mmix-sim.w; fi\nmake abstime.c\nmake[1]: Entering directory 'workstreams/vol1-fasc1/results/register-permutation-first-mxy11ljq'\nif test -r abstime.ch; then ctangle abstime.w abstime.ch; else ctangle abstime.w; fi\nmake[1]: Leaving directory 'workstreams/vol1-fasc1/results/register-permutation-first-mxy11ljq'\nmake abstime\nmake[1]: Entering directory 'workstreams/vol1-fasc1/results/register-permutation-first-mxy11ljq'\ncc -O0    abstime.c   -o abstime\nmake[1]: Leaving directory 'workstreams/vol1-fasc1/results/register-permutation-first-mxy11ljq'\n./abstime > abstime.h\ncc -O0 mmix-sim.c mmix-arith.o mmix-io.o -o mmix\nrm abstime.h\n",
+    "stderr": "abstime.w:21:1: warning: return type defaults to \u2018int\u2019 [-Wimplicit-int]\n   21 | main()\n      | ^~~~\nmmix-sim.w: In function \u2018trace_print\u2019:\nmmix-sim.w:2835:1: warning: format not a string literal and no format arguments [-Wformat-security]\n 2835 |  case handle:@+if (o.h==0 && o.l<3) printf(stream_name[o.l]);\n      | ^~~~\nmmix-sim.w: In function \u2018scan_option\u2019:\nmmix-sim.w:2987:1: warning: format not a string literal and no format arguments [-Wformat-security]\n 2987 |     for (k=0;usage_help[k][0];k++) fprintf(stderr,usage_help[k]);\n      | ^  \nmmix-sim.w:2989:1: warning: format not a string literal and no format arguments [-Wformat-security]\n 2989 |   }@+else@+ for (k=0;usage_help[k][1]!='b';k++) printf(usage_help[k]);\n      | ^\nmmix-sim.w: In function \u2018main\u2019:\nmmix-sim.w:3093:1: warning: format not a string literal and no format arguments [-Wformat-security]\n 3093 |   case 'h':@+ for (k=0;interactive_help[k][0];k++) printf(interactive_help[k]);\n      | ^ ~~\nmmix-sim.w:2846:1: warning: format not a string literal and no format arguments [-Wformat-security]\n 2846 | case 's': printf(special_name[zz]);@+break;\n      | ^~~~\nmmix-sim.w:2848:16: warning: format not a string literal and no format arguments [-Wformat-security]\n 2848 | case 'l': printf(lhs);@+break;\n      |                ^~~\nmmix-sim.w: In function \u2018print_line\u2019:\nmmix-sim.w:1157:13: warning: \u2018:    \u2019 directive writing 5 bytes into a region of size between 0 and 10 [-Wformat-overflow=]\n 1157 |   sprintf(buf,\"%d:    \",k);\n      |             ^~~~~~~~~\nmmix-sim.w:1157:1: note: \u2018sprintf\u2019 output between 7 and 17 bytes into a destination of size 11\n 1157 |   sprintf(buf,\"%d:    \",k);\n      | ^ ~~~~~~~~~~~~~~~~~~~~~~\n",
+    "elapsed_seconds": 1.3840500520309433
+  },
+  {
+    "command": [
+      "workstreams/vol1-fasc1/results/register-permutation-first-mxy11ljq/mmixal",
+      "-b250",
+      "-l",
+      "local.lst",
+      "-o",
+      "local.mmo",
+      "register-permutation-local.mms"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "elapsed_seconds": 0.0013613909832201898
+  },
+  {
+    "command": [
+      "workstreams/vol1-fasc1/results/register-permutation-first-mxy11ljq/mmix",
+      "-q",
+      "-P",
+      "local.mmo"
+    ],
+    "returncode": 0,
+    "stdout": "\nProgram profile:\n         1. 0000000000000100: e3020005 (SETL)\n         1. 0000000000000104: faff0000 (SAVE)\n         1. 0000000000000108: c1ff0200 (ORI)\n         1. 000000000000010c: 00000000 (TRAP)\n  4 instructions, 20 mems, 8 oops; 0 good guesses, 0 bad\n  (halted at location #000000000000010c)\n",
+    "stderr": "",
+    "elapsed_seconds": 0.0010694049997255206
+  },
+  {
+    "command": [
+      "workstreams/vol1-fasc1/results/register-permutation-first-mxy11ljq/mmixal",
+      "-b250",
+      "-l",
+      "global.lst",
+      "-o",
+      "global.mmo",
+      "register-permutation-global.mms"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "elapsed_seconds": 0.0012541809701360762
+  },
+  {
+    "command": [
+      "workstreams/vol1-fasc1/results/register-permutation-first-mxy11ljq/mmix",
+      "-q",
+      "-P",
+      "global.mmo"
+    ],
+    "returncode": 5,
+    "stdout": "\nProgram profile:\n         1. 0000000000000100: e3fe0005 (SETL)\n         1. 0000000000000104: faff0000 (SAVE)\n         1. 0000000000000108: c1fffe00 (ORI)\n         1. 000000000000010c: 00000000 (TRAP)\n  4 instructions, 20 mems, 8 oops; 0 good guesses, 0 bad\n  (halted at location #000000000000010c)\n",
+    "stderr": "",
+    "elapsed_seconds": 0.0012080490123480558
+  }
+]

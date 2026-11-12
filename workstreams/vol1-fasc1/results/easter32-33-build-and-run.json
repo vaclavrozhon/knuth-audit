@@ -1,0 +1,67 @@
+[
+  {
+    "command": [
+      "make",
+      "basic",
+      "CFLAGS=-O0"
+    ],
+    "returncode": 0,
+    "stdout": "make mmix-arith.c\nmake[1]: Entering directory 'workstreams/vol1-fasc1/results/easter32-33-new-build-nyqv4nnr'\nif test -r mmix-arith.ch; then ctangle mmix-arith.w mmix-arith.ch; else ctangle mmix-arith.w; fi\nmake[1]: Leaving directory 'workstreams/vol1-fasc1/results/easter32-33-new-build-nyqv4nnr'\nmake mmix-arith.o\nmake[1]: Entering directory 'workstreams/vol1-fasc1/results/easter32-33-new-build-nyqv4nnr'\ncc -O0   -c -o mmix-arith.o mmix-arith.c\nmake[1]: Leaving directory 'workstreams/vol1-fasc1/results/easter32-33-new-build-nyqv4nnr'\nif test -r mmixal.ch; then ctangle mmixal.w mmixal.ch; else ctangle mmixal.w; fi\ncc -O0 mmixal.c mmix-arith.o -o mmixal\nmake mmix-io.c\nmake[1]: Entering directory 'workstreams/vol1-fasc1/results/easter32-33-new-build-nyqv4nnr'\nif test -r mmix-io.ch; then ctangle mmix-io.w mmix-io.ch; else ctangle mmix-io.w; fi\nmake[1]: Leaving directory 'workstreams/vol1-fasc1/results/easter32-33-new-build-nyqv4nnr'\nmake mmix-io.o\nmake[1]: Entering directory 'workstreams/vol1-fasc1/results/easter32-33-new-build-nyqv4nnr'\ncc -O0   -c -o mmix-io.o mmix-io.c\nmake[1]: Leaving directory 'workstreams/vol1-fasc1/results/easter32-33-new-build-nyqv4nnr'\nif test -r mmix-sim.ch; then ctangle mmix-sim.w mmix-sim.ch; else ctangle mmix-sim.w; fi\nmake abstime.c\nmake[1]: Entering directory 'workstreams/vol1-fasc1/results/easter32-33-new-build-nyqv4nnr'\nif test -r abstime.ch; then ctangle abstime.w abstime.ch; else ctangle abstime.w; fi\nmake[1]: Leaving directory 'workstreams/vol1-fasc1/results/easter32-33-new-build-nyqv4nnr'\nmake abstime\nmake[1]: Entering directory 'workstreams/vol1-fasc1/results/easter32-33-new-build-nyqv4nnr'\ncc -O0    abstime.c   -o abstime\nmake[1]: Leaving directory 'workstreams/vol1-fasc1/results/easter32-33-new-build-nyqv4nnr'\n./abstime > abstime.h\ncc -O0 mmix-sim.c mmix-arith.o mmix-io.o -o mmix\nrm abstime.h\n",
+    "stderr": "abstime.w:21:1: warning: return type defaults to \u2018int\u2019 [-Wimplicit-int]\n   21 | main()\n      | ^~~~\nmmix-sim.w: In function \u2018trace_print\u2019:\nmmix-sim.w:2835:1: warning: format not a string literal and no format arguments [-Wformat-security]\n 2835 |  case handle:@+if (o.h==0 && o.l<3) printf(stream_name[o.l]);\n      | ^~~~\nmmix-sim.w: In function \u2018scan_option\u2019:\nmmix-sim.w:2987:1: warning: format not a string literal and no format arguments [-Wformat-security]\n 2987 |     for (k=0;usage_help[k][0];k++) fprintf(stderr,usage_help[k]);\n      | ^  \nmmix-sim.w:2989:1: warning: format not a string literal and no format arguments [-Wformat-security]\n 2989 |   }@+else@+ for (k=0;usage_help[k][1]!='b';k++) printf(usage_help[k]);\n      | ^\nmmix-sim.w: In function \u2018main\u2019:\nmmix-sim.w:3093:1: warning: format not a string literal and no format arguments [-Wformat-security]\n 3093 |   case 'h':@+ for (k=0;interactive_help[k][0];k++) printf(interactive_help[k]);\n      | ^ ~~\nmmix-sim.w:2846:1: warning: format not a string literal and no format arguments [-Wformat-security]\n 2846 | case 's': printf(special_name[zz]);@+break;\n      | ^~~~\nmmix-sim.w:2848:16: warning: format not a string literal and no format arguments [-Wformat-security]\n 2848 | case 'l': printf(lhs);@+break;\n      |                ^~~\nmmix-sim.w: In function \u2018print_line\u2019:\nmmix-sim.w:1157:13: warning: \u2018:    \u2019 directive writing 5 bytes into a region of size between 0 and 10 [-Wformat-overflow=]\n 1157 |   sprintf(buf,\"%d:    \",k);\n      |             ^~~~~~~~~\nmmix-sim.w:1157:1: note: \u2018sprintf\u2019 output between 7 and 17 bytes into a destination of size 11\n 1157 |   sprintf(buf,\"%d:    \",k);\n      | ^ ~~~~~~~~~~~~~~~~~~~~~~\n",
+    "elapsed_seconds": 1.3809803879703395
+  },
+  {
+    "command": [
+      "workstreams/vol1-fasc1/results/easter32-33-new-build-nyqv4nnr/mmixal",
+      "-b250",
+      "-o",
+      "easter32-table.mmo",
+      "-l",
+      "easter32-table.lst",
+      "easter32-table.mms"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "elapsed_seconds": 0.0018225209787487984
+  },
+  {
+    "command": [
+      "workstreams/vol1-fasc1/results/easter32-33-new-build-nyqv4nnr/mmix",
+      "-q",
+      "-P",
+      "easter32-table.mmo"
+    ],
+    "returncode": 0,
+    "stdout": "09 APRIL, 01950\n25 MARCH, 01951\n13 APRIL, 01952\n05 APRIL, 01953\n18 APRIL, 01954\n10 APRIL, 01955\n01 APRIL, 01956\n21 APRIL, 01957\n06 APRIL, 01958\n29 MARCH, 01959\n17 APRIL, 01960\n02 APRIL, 01961\n22 APRIL, 01962\n14 APRIL, 01963\n29 MARCH, 01964\n18 APRIL, 01965\n10 APRIL, 01966\n26 MARCH, 01967\n14 APRIL, 01968\n06 APRIL, 01969\n29 MARCH, 01970\n11 APRIL, 01971\n02 APRIL, 01972\n22 APRIL, 01973\n14 APRIL, 01974\n30 MARCH, 01975\n18 APRIL, 01976\n10 APRIL, 01977\n26 MARCH, 01978\n15 APRIL, 01979\n06 APRIL, 01980\n19 APRIL, 01981\n11 APRIL, 01982\n03 APRIL, 01983\n22 APRIL, 01984\n07 APRIL, 01985\n30 MARCH, 01986\n19 APRIL, 01987\n03 APRIL, 01988\n26 MARCH, 01989\n15 APRIL, 01990\n31 MARCH, 01991\n19 APRIL, 01992\n11 APRIL, 01993\n03 APRIL, 01994\n16 APRIL, 01995\n07 APRIL, 01996\n30 MARCH, 01997\n12 APRIL, 01998\n04 APRIL, 01999\n23 APRIL, 02000\n\nProgram profile:\n         1. 0000000000000100: e300079e (SETL)\n        51. 0000000000000104: f40a000a (GETA)\n        51. 0000000000000108: 9ff90a00 (GOI)\n        51. 000000000000010c: 4a140006 (BNZ)\n        51. 0000000000000110: e7000001 (INCL)\n        51. 0000000000000114: 300a00fb (CMP)\n        51. 0000000000000118: 510afffb (PBNB)\n         1. 000000000000011c: e3ff0000 (SETL)\n         1. 0000000000000120: 00000000 (TRAP)\n         0.        ...\n        51. 000000000000012c: e3010000 (SETL)\n        51. 0000000000000130: f40a0023 (GETA)\n        51. 0000000000000134: 9ffa0a00 (GOI)\n        51. 0000000000000138: c10d0200 (ORI)\n        51. 000000000000013c: 310a021f (CMPI)\n        51. 0000000000000140: 250f021f (SUBI)\n        51. 0000000000000144: 640d0a0f (CSP)\n        51. 0000000000000148: c10efd00 (ORI)\n        51. 000000000000014c: 640e0afc (CSP)\n        51. 0000000000000150: e30f004d (SETL)\n        51. 0000000000000154: 650f0a41 (CSPI)\n        51. 0000000000000158: a10ffe03 (STBI)\n        51. 000000000000015c: ab0efe04 (STTUI)\n        51. 0000000000000160: 1d0b0d0a (DIVI)\n        51. 0000000000000164: fe0c0006 (GET)\n        51. 0000000000000168: 210f0b30 (ADDI)\n        51. 000000000000016c: a10ffe00 (STBI)\n        51. 0000000000000170: 210f0c30 (ADDI)\n        51. 0000000000000174: a10ffe01 (STBI)\n        51. 0000000000000178: c1100000 (ORI)\n        51. 000000000000017c: e311000e (SETL)\n        51. 0000000000000180: e3120005 (SETL)\n       255. 0000000000000184: 1d10100a (DIVI)\n       255. 0000000000000188: fe0f0006 (GET)\n       255. 000000000000018c: 210f0f30 (ADDI)\n       255. 0000000000000190: a00ffe11 (STB)\n       255. 0000000000000194: 25111101 (SUBI)\n       255. 0000000000000198: 25121201 (SUBI)\n       255. 000000000000019c: 5b12fffa (PBNZB)\n        51. 00000000000001a0: c1fffe00 (ORI)\n        51. 00000000000001a4: 00000701 (TRAP)\n        51. 00000000000001a8: 40ff0003 (BN)\n        51. 00000000000001ac: e3140000 (SETL)\n        51. 00000000000001b0: 9ffff900 (GOI)\n         0.        ...\n        51. 00000000000001bc: 1d0b0013 (DIVI)\n        51. 00000000000001c0: fe030006 (GET)\n        51. 00000000000001c4: e7030001 (INCL)\n        51. 00000000000001c8: 1d040064 (DIVI)\n        51. 00000000000001cc: e7040001 (INCL)\n        51. 00000000000001d0: 19050403 (MULI)\n        51. 00000000000001d4: 3d050502 (SRI)\n        51. 00000000000001d8: 2505050c (SUBI)\n        51. 00000000000001dc: 39060403 (SLI)\n        51. 00000000000001e0: 21060605 (ADDI)\n        51. 00000000000001e4: 1d060619 (DIVI)\n        51. 00000000000001e8: 25060605 (SUBI)\n        51. 00000000000001ec: 19070005 (MULI)\n        51. 00000000000001f0: 3d070702 (SRI)\n        51. 00000000000001f4: 24070705 (SUB)\n        51. 00000000000001f8: 2507070a (SUBI)\n        51. 00000000000001fc: 1908030b (MULI)\n        51. 0000000000000200: 21080814 (ADDI)\n        51. 0000000000000204: 20080806 (ADD)\n        51. 0000000000000208: 24080805 (SUB)\n        51. 000000000000020c: 1d0b081e (DIVI)\n        51. 0000000000000210: fe090006 (GET)\n        51. 0000000000000214: 52010004 (PBZ)\n         0.        ...\n        51. 0000000000000224: 310a0918 (CMPI)\n        51. 0000000000000228: 420a0005 (BZ)\n        48. 000000000000022c: 310a0919 (CMPI)\n        48. 0000000000000230: 5a0a0004 (PBNZ)\n         3. 0000000000000234: 310a030b (CMPI)\n         3. 0000000000000238: 4c0a0002 (BNP)\n         6. 000000000000023c: e7090001 (INCL)\n        51. 0000000000000240: e302002c (SETL)\n        51. 0000000000000244: 24020209 (SUB)\n        51. 0000000000000248: 310a0215 (CMPI)\n        51. 000000000000024c: 580a0002 (PBNN)\n        11. 0000000000000250: e702001e (INCL)\n        51. 0000000000000254: 200b0702 (ADD)\n        51. 0000000000000258: 1d0b0b07 (DIVI)\n        51. 000000000000025c: fe0c0006 (GET)\n        51. 0000000000000260: e7020007 (INCL)\n        51. 0000000000000264: 2402020c (SUB)\n        51. 0000000000000268: 9ffffa00 (GOI)\n  5375 instructions, 459 mems, 40605 oops; 543 good guesses, 69 bad\n  (halted at location #0000000000000120)\n",
+    "stderr": "",
+    "elapsed_seconds": 0.0025057779857888818
+  },
+  {
+    "command": [
+      "workstreams/vol1-fasc1/results/easter32-33-new-build-nyqv4nnr/mmixal",
+      "-b250",
+      "-o",
+      "easter33-search.mmo",
+      "-l",
+      "easter33-search.lst",
+      "easter33-search.mms"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "elapsed_seconds": 0.0014879630180075765
+  },
+  {
+    "command": [
+      "workstreams/vol1-fasc1/results/easter32-33-new-build-nyqv4nnr/mmix",
+      "-q",
+      "-P",
+      "easter33-search.mmo"
+    ],
+    "returncode": 0,
+    "stdout": "10317\n\nProgram profile:\n         1. 0000000000000100: e300277c (SETL)\n        12. 0000000000000104: e3010000 (SETL)\n        12. 0000000000000108: f40a001b (GETA)\n        12. 000000000000010c: 9ffd0a00 (GOI)\n        12. 0000000000000110: c1130200 (ORI)\n        12. 0000000000000114: e3010001 (SETL)\n        12. 0000000000000118: f40a0017 (GETA)\n        12. 000000000000011c: 9ffd0a00 (GOI)\n        12. 0000000000000120: 300a0213 (CMP)\n        12. 0000000000000124: 4a0a0003 (BNZ)\n        11. 0000000000000128: e7000013 (INCL)\n        11. 000000000000012c: f1fffff6 (JMPB)\n         1. 0000000000000130: c1100000 (ORI)\n         1. 0000000000000134: e3110004 (SETL)\n         1. 0000000000000138: e3120005 (SETL)\n         5. 000000000000013c: 1d10100a (DIVI)\n         5. 0000000000000140: fe0f0006 (GET)\n         5. 0000000000000144: 210f0f30 (ADDI)\n         5. 0000000000000148: a00ffe11 (STB)\n         5. 000000000000014c: 25111101 (SUBI)\n         5. 0000000000000150: 25121201 (SUBI)\n         5. 0000000000000154: 5b12fffa (PBNZB)\n         1. 0000000000000158: c1fffe00 (ORI)\n         1. 000000000000015c: 00000701 (TRAP)\n         1. 0000000000000160: 40ff0003 (BN)\n         1. 0000000000000164: e3ff0000 (SETL)\n         1. 0000000000000168: 00000000 (TRAP)\n         0.        ...\n        24. 0000000000000174: 1d0b0013 (DIVI)\n        24. 0000000000000178: fe030006 (GET)\n        24. 000000000000017c: e7030001 (INCL)\n        24. 0000000000000180: 1d040064 (DIVI)\n        24. 0000000000000184: e7040001 (INCL)\n        24. 0000000000000188: 19050403 (MULI)\n        24. 000000000000018c: 3d050502 (SRI)\n        24. 0000000000000190: 2505050c (SUBI)\n        24. 0000000000000194: 39060403 (SLI)\n        24. 0000000000000198: 21060605 (ADDI)\n        24. 000000000000019c: 1d060619 (DIVI)\n        24. 00000000000001a0: 25060605 (SUBI)\n        24. 00000000000001a4: 19070005 (MULI)\n        24. 00000000000001a8: 3d070702 (SRI)\n        24. 00000000000001ac: 24070705 (SUB)\n        24. 00000000000001b0: 2507070a (SUBI)\n        24. 00000000000001b4: 1908030b (MULI)\n        24. 00000000000001b8: 21080814 (ADDI)\n        24. 00000000000001bc: 20080806 (ADD)\n        24. 00000000000001c0: 24080805 (SUB)\n        24. 00000000000001c4: 1d0b081e (DIVI)\n        24. 00000000000001c8: fe090006 (GET)\n        24. 00000000000001cc: 52010004 (PBZ)\n        12. 00000000000001d0: 48080003 (BNN)\n        12. 00000000000001d4: 42090002 (BZ)\n        12. 00000000000001d8: 2509091e (SUBI)\n        24. 00000000000001dc: 310a0918 (CMPI)\n        24. 00000000000001e0: 420a0005 (BZ)\n        13. 00000000000001e4: 310a0919 (CMPI)\n        13. 00000000000001e8: 5a0a0004 (PBNZ)\n         0.        ...\n        11. 00000000000001f4: e7090001 (INCL)\n        24. 00000000000001f8: e302002c (SETL)\n        24. 00000000000001fc: 24020209 (SUB)\n        24. 0000000000000200: 310a0215 (CMPI)\n        24. 0000000000000204: 580a0002 (PBNN)\n        11. 0000000000000208: e702001e (INCL)\n        24. 000000000000020c: 200b0702 (ADD)\n        24. 0000000000000210: 1d0b0b07 (DIVI)\n        24. 0000000000000214: fe0c0006 (GET)\n        24. 0000000000000218: e7020007 (INCL)\n        24. 000000000000021c: 2402020c (SUB)\n        24. 0000000000000220: 9ffffd00 (GOI)\n  1098 instructions, 5 mems, 9297 oops; 91 good guesses, 36 bad\n  (halted at location #0000000000000168)\n",
+    "stderr": "",
+    "elapsed_seconds": 0.0015298769576475024
+  }
+]

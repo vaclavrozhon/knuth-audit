@@ -1,0 +1,69 @@
+--- sim-20250620.mms
++++ sim-resume-audit-fixed.mms
+@@ -183,14 +183,41 @@
+            SL     t,yz,2
+            ADDU   yz,loc,t
+ 1H         PBNN   resuming,Install_X    Install operands \S71
+-           LDOU   y,g,8*rY       Install special operands \S127
++           LDOU   y,g,8*rY       Saved operand, not a register number
+            LDOU   z,g,8*rZ
+-           BOD    resuming,Install_Y
++           BOD    resuming,Rop1
+ 0H    GREG #C1<<56+(x-$0)<<48+(z-$0)<<40+1<<16+X_is_dest_bit
+-           SET    f,0B           Change to ORI instruction
++           SET    f,0B           Ropcode2: ORI x,z,0
++           SET    op,#C1         Executed opcode, also for AllDone
+            LDOU   exc,g,8*rX
+            MOR    exc,exc,#20
+            JMP    XDest
++Rop1YMask GREG #FF<<40
++Rop1YReg  GREG (y-$0)<<40
++Rop1OMask GREG #FF<<56
++Rop1       AND    t,op,#F0
++           CMPU   t,t,#E0
++           BNZ    t,Rop1NotWyde
++           CMPU   t,op,#E4
++           BN     t,InstallDest  SET wyde ignores saved Y
++           JMP    Rop1SetY       INC/OR/ANDN use saved Y
++Rop1NotWyde AND   t,f,Y_is_immed_bit
++           BZ     t,InstallDest  Ordinary register operators
++           CMPU   t,op,#34
++           BN     t,Rop1Round    FP rounding-operand family
++           AND    t,op,2        NEG/NEGU -> SUB/SUBU
++           OR     t,t,#24
++           SLU    t,t,56
++           ANDN   f,f,Rop1OMask
++           OR     f,f,t
++Rop1SetY   ANDN   f,f,Rop1YMask
++           OR     f,f,Rop1YReg
++           JMP    InstallDest
++Rop1Round  CMPU   t,y,5
++           BNN    t,Error       Saved rounding operand must be0..4
++           SLU    t,y,40
++           OR     f,f,t         Original host Y byte is zero
++           JMP    InstallDest
+ Install_X  AND    t,f,X_is_source_bit
+            PBZ    t,1F
+            SET    arg,xxx
+@@ -225,6 +252,7 @@
+            SLU    arg,yy,3
+            PUSHJ  res,GetReg
+            SET    y,res          (end of \S71)
++InstallDest IS @
+ 1H         AND    t,f,X_is_dest_bit
+            BZ     t,1F
+ XDest      CMPU   t,xxx,gg      Install X as dest, \S80
+@@ -498,9 +526,12 @@
+            BN     y,2F
+            CMPU   y,t,gg
+            BN     y,Error
+-2H         MOR    t,x,#8
++2H         CMPU   t,xx,2
++           BZ     t,RopReady    Ropcode2 does not insert its opcode
++           MOR    t,x,#8
+            CMPU   t,t,#F9  RESUME
+            BZ     t,Error
++RopReady   IS     @
+            NEG    resuming,xx
+            CSNN   resuming,resuming,1
+            JMP    Update

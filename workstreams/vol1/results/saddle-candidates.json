@@ -1,0 +1,110 @@
+{
+  "checks": 6126,
+  "exhaustive": [
+    {
+      "kind": "binary",
+      "m": 1,
+      "n": 1,
+      "matrices": 2,
+      "mean_time": "30"
+    },
+    {
+      "kind": "binary",
+      "m": 1,
+      "n": 4,
+      "matrices": 16,
+      "mean_time": "1461/16"
+    },
+    {
+      "kind": "binary",
+      "m": 4,
+      "n": 1,
+      "matrices": 16,
+      "mean_time": "50"
+    },
+    {
+      "kind": "binary",
+      "m": 2,
+      "n": 2,
+      "matrices": 16,
+      "mean_time": "1029/16"
+    },
+    {
+      "kind": "binary",
+      "m": 2,
+      "n": 3,
+      "matrices": 64,
+      "mean_time": "5755/64"
+    },
+    {
+      "kind": "binary",
+      "m": 3,
+      "n": 2,
+      "matrices": 64,
+      "mean_time": "5089/64"
+    },
+    {
+      "kind": "binary",
+      "m": 3,
+      "n": 3,
+      "matrices": 512,
+      "mean_time": "57371/512"
+    },
+    {
+      "kind": "distinct",
+      "m": 1,
+      "n": 3,
+      "matrices": 6,
+      "mean_time": "145/2"
+    },
+    {
+      "kind": "distinct",
+      "m": 3,
+      "n": 1,
+      "matrices": 6,
+      "mean_time": "143/3"
+    },
+    {
+      "kind": "distinct",
+      "m": 2,
+      "n": 2,
+      "matrices": 24,
+      "mean_time": "401/6"
+    },
+    {
+      "kind": "distinct",
+      "m": 2,
+      "n": 3,
+      "matrices": 720,
+      "mean_time": "921/10"
+    },
+    {
+      "kind": "distinct",
+      "m": 3,
+      "n": 2,
+      "matrices": 720,
+      "mean_time": "497/6"
+    },
+    {
+      "kind": "ternary",
+      "m": 2,
+      "n": 2,
+      "matrices": 81,
+      "mean_time": "5303/81"
+    },
+    {
+      "kind": "ternary",
+      "m": 2,
+      "n": 3,
+      "matrices": 729,
+      "mean_time": "22225/243"
+    }
+  ],
+  "9x8_including_hlt": {
+    "binary": "2722238257925623591942129/4722366482869645213696",
+    "binary_decimal": 576.4563736847883,
+    "distinct": "5788361188114057/10821709910880",
+    "distinct_decimal": 534.8841574744595
+  },
+  "scope": "General ordered-word inputs with ties; lazy candidate rows from one minmax column. Not a global optimality claim."
+}

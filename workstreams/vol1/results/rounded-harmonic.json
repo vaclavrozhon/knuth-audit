@@ -1,0 +1,589 @@
+{
+  "checks": 43994,
+  "radices": [
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100
+  ],
+  "io_delay": 500,
+  "values": [
+    {
+      "n": 1,
+      "scaled_sum": 39,
+      "groups_after_first": 4,
+      "layer_blocks": 5,
+      "asymptotic": 3.843310783917002,
+      "error": 0.05668921608299771
+    },
+    {
+      "n": 2,
+      "scaled_sum": 616,
+      "groups_after_first": 18,
+      "layer_blocks": 19,
+      "asymptotic": 6.145895876911048,
+      "error": 0.014104123088952036
+    },
+    {
+      "n": 3,
+      "scaled_sum": 8449,
+      "groups_after_first": 61,
+      "layer_blocks": 62,
+      "asymptotic": 8.448480969905095,
+      "error": 0.0005190300949049487
+    },
+    {
+      "n": 4,
+      "scaled_sum": 107509,
+      "groups_after_first": 198,
+      "layer_blocks": 199,
+      "asymptotic": 10.75106606289914,
+      "error": -0.0001660628991402291
+    },
+    {
+      "n": 5,
+      "scaled_sum": 1305363,
+      "groups_after_first": 630,
+      "layer_blocks": 631,
+      "asymptotic": 13.053651155893187,
+      "error": -2.1155893186630692e-05
+    },
+    {
+      "n": 6,
+      "scaled_sum": 15356262,
+      "groups_after_first": 1998,
+      "layer_blocks": 1999,
+      "asymptotic": 15.356236248887232,
+      "error": 2.5751112767480322e-05
+    },
+    {
+      "n": 7,
+      "scaled_sum": 176588276,
+      "groups_after_first": 6323,
+      "layer_blocks": 6324,
+      "asymptotic": 17.65882134188128,
+      "error": 6.258118720126049e-06
+    },
+    {
+      "n": 8,
+      "scaled_sum": 1996140690,
+      "groups_after_first": 19998,
+      "layer_blocks": 19999,
+      "asymptotic": 19.961406434875325,
+      "error": 4.651246747755522e-07
+    },
+    {
+      "n": 9,
+      "scaled_sum": 22263991779,
+      "groups_after_first": 63244,
+      "layer_blocks": 63245,
+      "asymptotic": 22.263991527869372,
+      "error": 2.5113062918080686e-07
+    },
+    {
+      "n": 10,
+      "scaled_sum": 245665766353,
+      "groups_after_first": 199998,
+      "layer_blocks": 199999,
+      "asymptotic": 24.56657662086342,
+      "error": 1.4436579931498272e-08
+    }
+  ],
+  "groups_n2_to5": [
+    18,
+    61,
+    198,
+    630
+  ],
+  "cpu_time_including_out_and_hlt": 65633,
+  "time_before_out": 65631,
+  "printed_time": 65595,
+  "instructions": 21877,
+  "output": "0006.16        0008.449       0010.7509      0013.05363                                                                 ",
+  "profile_radix64": [
+    {
+      "address": 24,
+      "row": [
+        "START",
+        "ENT2",
+        "0"
+      ],
+      "executions": 1,
+      "time": 1
+    },
+    {
+      "address": 25,
+      "row": [
+        "",
+        "ENT1",
+        "3"
+      ],
+      "executions": 1,
+      "time": 1
+    },
+    {
+      "address": 26,
+      "row": [
+        "",
+        "ENTA",
+        "20"
+      ],
+      "executions": 1,
+      "time": 1
+    },
+    {
+      "address": 27,
+      "row": [
+        "OUTER",
+        "MUL",
+        "=10="
+      ],
+      "executions": 4,
+      "time": 40
+    },
+    {
+      "address": 28,
+      "row": [
+        "",
+        "STX",
+        "CONST"
+      ],
+      "executions": 4,
+      "time": 8
+    },
+    {
+      "address": 29,
+      "row": [
+        "",
+        "DIV",
+        "=2="
+      ],
+      "executions": 4,
+      "time": 48
+    },
+    {
+      "address": 30,
+      "row": [
+        "",
+        "ENTX",
+        "2"
+      ],
+      "executions": 4,
+      "time": 4
+    },
+    {
+      "address": 31,
+      "row": [
+        "",
+        "JMP",
+        "1F"
+      ],
+      "executions": 4,
+      "time": 4
+    },
+    {
+      "address": 32,
+      "row": [
+        "INNER",
+        "STA",
+        "R"
+      ],
+      "executions": 907,
+      "time": 1814
+    },
+    {
+      "address": 33,
+      "row": [
+        "",
+        "ADD",
+        "R"
+      ],
+      "executions": 907,
+      "time": 1814
+    },
+    {
+      "address": 34,
+      "row": [
+        "",
+        "DECA",
+        "1"
+      ],
+      "executions": 907,
+      "time": 907
+    },
+    {
+      "address": 35,
+      "row": [
+        "",
+        "STA",
+        "TEMP"
+      ],
+      "executions": 907,
+      "time": 1814
+    },
+    {
+      "address": 36,
+      "row": [
+        "",
+        "LDX",
+        "CONST"
+      ],
+      "executions": 907,
+      "time": 1814
+    },
+    {
+      "address": 37,
+      "row": [
+        "",
+        "ENTA",
+        "0"
+      ],
+      "executions": 907,
+      "time": 907
+    },
+    {
+      "address": 38,
+      "row": [
+        "",
+        "DIV",
+        "TEMP"
+      ],
+      "executions": 907,
+      "time": 10884
+    },
+    {
+      "address": 39,
+      "row": [
+        "",
+        "INCA",
+        "1"
+      ],
+      "executions": 907,
+      "time": 907
+    },
+    {
+      "address": 40,
+      "row": [
+        "",
+        "STA",
+        "TEMP"
+      ],
+      "executions": 907,
+      "time": 1814
+    },
+    {
+      "address": 41,
+      "row": [
+        "",
+        "SUB",
+        "M"
+      ],
+      "executions": 907,
+      "time": 1814
+    },
+    {
+      "address": 42,
+      "row": [
+        "",
+        "MUL",
+        "R"
+      ],
+      "executions": 907,
+      "time": 9070
+    },
+    {
+      "address": 43,
+      "row": [
+        "",
+        "SLAX",
+        "5"
+      ],
+      "executions": 907,
+      "time": 1814
+    },
+    {
+      "address": 44,
+      "row": [
+        "",
+        "ADD",
+        "S"
+      ],
+      "executions": 907,
+      "time": 1814
+    },
+    {
+      "address": 45,
+      "row": [
+        "",
+        "LDX",
+        "TEMP"
+      ],
+      "executions": 907,
+      "time": 1814
+    },
+    {
+      "address": 46,
+      "row": [
+        "1H",
+        "STA",
+        "S"
+      ],
+      "executions": 911,
+      "time": 1822
+    },
+    {
+      "address": 47,
+      "row": [
+        "",
+        "STX",
+        "M"
+      ],
+      "executions": 911,
+      "time": 1822
+    },
+    {
+      "address": 48,
+      "row": [
+        "",
+        "LDA",
+        "M"
+      ],
+      "executions": 911,
+      "time": 1822
+    },
+    {
+      "address": 49,
+      "row": [
+        "",
+        "ADD",
+        "M"
+      ],
+      "executions": 911,
+      "time": 1822
+    },
+    {
+      "address": 50,
+      "row": [
+        "",
+        "STA",
+        "TEMP"
+      ],
+      "executions": 911,
+      "time": 1822
+    },
+    {
+      "address": 51,
+      "row": [
+        "",
+        "LDA",
+        "CONST"
+      ],
+      "executions": 911,
+      "time": 1822
+    },
+    {
+      "address": 52,
+      "row": [
+        "",
+        "ADD",
+        "M"
+      ],
+      "executions": 911,
+      "time": 1822
+    },
+    {
+      "address": 53,
+      "row": [
+        "",
+        "SRAX",
+        "5"
+      ],
+      "executions": 911,
+      "time": 1822
+    },
+    {
+      "address": 54,
+      "row": [
+        "",
+        "DIV",
+        "TEMP"
+      ],
+      "executions": 911,
+      "time": 10932
+    },
+    {
+      "address": 55,
+      "row": [
+        "",
+        "JAP",
+        "INNER"
+      ],
+      "executions": 911,
+      "time": 911
+    },
+    {
+      "address": 56,
+      "row": [
+        "",
+        "LDA",
+        "S"
+      ],
+      "executions": 4,
+      "time": 8
+    },
+    {
+      "address": 57,
+      "row": [
+        "",
+        "CHAR",
+        ""
+      ],
+      "executions": 4,
+      "time": 40
+    },
+    {
+      "address": 58,
+      "row": [
+        "",
+        "SLAX",
+        "0,1"
+      ],
+      "executions": 4,
+      "time": 8
+    },
+    {
+      "address": 59,
+      "row": [
+        "",
+        "SLA",
+        "1"
+      ],
+      "executions": 4,
+      "time": 8
+    },
+    {
+      "address": 60,
+      "row": [
+        "",
+        "INCA",
+        "40"
+      ],
+      "executions": 4,
+      "time": 4
+    },
+    {
+      "address": 61,
+      "row": [
+        "",
+        "STA",
+        "BUF,2"
+      ],
+      "executions": 4,
+      "time": 8
+    },
+    {
+      "address": 62,
+      "row": [
+        "",
+        "STX",
+        "BUF+1,2"
+      ],
+      "executions": 4,
+      "time": 8
+    },
+    {
+      "address": 63,
+      "row": [
+        "",
+        "INC2",
+        "3"
+      ],
+      "executions": 4,
+      "time": 4
+    },
+    {
+      "address": 64,
+      "row": [
+        "",
+        "DEC1",
+        "1"
+      ],
+      "executions": 4,
+      "time": 4
+    },
+    {
+      "address": 65,
+      "row": [
+        "",
+        "LDA",
+        "CONST"
+      ],
+      "executions": 4,
+      "time": 8
+    },
+    {
+      "address": 66,
+      "row": [
+        "",
+        "J1NN",
+        "OUTER"
+      ],
+      "executions": 4,
+      "time": 4
+    },
+    {
+      "address": 67,
+      "row": [
+        "",
+        "OUT",
+        "BUF(18)"
+      ],
+      "executions": 1,
+      "time": 1
+    },
+    {
+      "address": 68,
+      "row": [
+        "",
+        "HLT",
+        ""
+      ],
+      "executions": 1,
+      "time": 1
+    }
+  ],
+  "scope": "Complete MIX output and timing; exact scalar sums through n10 and general proofs in notes. Published asymptotic typo already in1999 errata."
+}

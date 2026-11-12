@@ -1,0 +1,241 @@
+{
+  "updated_at_utc": "2026-11-03T22:24:21.783790+00:00",
+  "scope": "4.5.4-39: certified finite chain, least successors, coverings, historical source audit; C0181 bibliographic correction.",
+  "visual_reads": [
+    "images/keller-1983-p661.png",
+    "images/keller-1983-p668.png",
+    "images/keller-1983-p669.png",
+    "images/keller-1983-p670.png",
+    "images/keller-1983-p673.png",
+    "images/selfridge-1963-p101.png",
+    "images/sierpinski-1960-file2.png",
+    "images/sierpinski-1960-file3.png",
+    "images/sierpinski-1962-p85.jpg",
+    "images/vol2-p415.png",
+    "images/vol2-p665.png",
+    "images/vol2-p666.png"
+  ],
+  "run": {
+    "label": "prime-chains",
+    "pid": 1313351,
+    "child_pid": 1313352,
+    "command": "timeout 240 python3 -u workstreams/vol2/verify_prime_chains.py",
+    "time_limit_seconds": 240,
+    "started_at_utc": "2026-11-03T22:12:45.046464+00:00",
+    "log": "results/prime-chains.log",
+    "status": "passed",
+    "exit_code": 0,
+    "finished_at_utc": "2026-11-03T22:15:21.930406+00:00",
+    "tool_session": 21318
+  },
+  "source_text_normalization": [
+    {
+      "path": "sources/keller-1983-fermat.txt",
+      "before_sha256": "c739677b21309e2f34f8a0c966a44574131820c55d95c5b31d2fe69dc152c9f8",
+      "transformation": "pdftotext or cached display; trailing horizontal whitespace removed; final newline normalized"
+    },
+    {
+      "path": "sources/selfridge-1963-solution4995.txt",
+      "before_sha256": "720af56df21511417d13fb824e5d6ecfb8d0cc9300a022f0d8841ad4914227cc",
+      "transformation": "pdftotext or cached display; trailing horizontal whitespace removed; final newline normalized"
+    },
+    {
+      "path": "sources/sierpinski-1960.txt",
+      "before_sha256": "dfdafa3fcc930c5a109386172fdb6b304ed2f3a63b2458493e6aa3bbb1c562be",
+      "transformation": "pdftotext or cached display; trailing horizontal whitespace removed; final newline normalized"
+    },
+    {
+      "path": "sources/keller-1983-web-extract.txt",
+      "before_sha256": "b0be6a8c32924ad07ef41a847463a3c2573619e83a5717ed8f14c74c02d8f5eb",
+      "transformation": "pdftotext or cached display; trailing horizontal whitespace removed; final newline normalized"
+    }
+  ],
+  "errata": {
+    "searched": [
+      "all2-prepre",
+      "all2-pre",
+      "all2",
+      "err2",
+      "sources/err2.textxt",
+      "err2-2e"
+    ],
+    "result": "No correction to answer39 or Keller volume found; old2e answer41 dated1995-09-10 has the same reference. Adjacent corrections35/40 and illustrative666 are unrelated."
+  },
+  "source_scope": {
+    "sierpinski1960": "Complete original printed73–74 visually read; official bot download link used. Exact271129 not printed there.",
+    "sierpinski1962": "Original corrigendum85, GDZ file89, visually read; requires k>P for proper divisors.",
+    "selfridge1963": "Only original printed101 containing solutionI read; downloaded file also includes adjacent problem4994 and100;102 absent.",
+    "keller1983": "Original661,668–670,673 visually read. 661 proves volume41;670 explicitly69. Full historical census not reproduced. DOI10.1090/S0025-5718-1983-0717710-7; PDF recovered through public studyres embed after AMS403.",
+    "jaeschke": "1983 original and1985 corrigendum publisher metadata via Crossref; full PDFs unavailable.",
+    "loh1989": "Original cached PDF text751,753–755 read, tables1–3; no localPDF/visual claim. https://electronicsandbooks.com/edt/manual/Magazine/M/Mathematics%20of%20Computation/1960-2002/pdf/1989_v053_n188/2008735.pdf",
+    "jones_white2012": "Original research article INTEGERS12A A10, abstract/introduction webPDF text; localPDF403. Historical Selfridge1962 attribution only. https://www.kurims.kyoto-u.ac.jp/EMIS/journals/INTEGERS/papers/a10self/a10self.pdf",
+    "crossref_urls": [
+      "https://api.crossref.org/works/10.1090/S0025-5718-1983-0717710-7",
+      "https://api.crossref.org/works/10.1090/S0025-5718-1985-0804951-5",
+      "https://api.crossref.org/works/10.2307/2007382"
+    ],
+    "gdz_manifest": "https://manifests.sub.uni-goettingen.de/iiif/presentation/PPN378850199_0017/manifest?version=29486bf2"
+  },
+  "limitations": [
+    "No globally longest chain or general successor-decision result claimed.",
+    "No current record or present Sierpinski-problem status claimed.",
+    "Physical book and priority of correction not checked; report unsent."
+  ],
+  "artifacts": [
+    {
+      "path": "images/keller-1983-p661.png",
+      "bytes": 285819,
+      "sha256": "b35e8be251e34316e1849f67ed551e7d8e7125f2a6cabc59eb406cac3dc4518d"
+    },
+    {
+      "path": "images/keller-1983-p668.png",
+      "bytes": 258584,
+      "sha256": "d91ad6c355ea9f5e252ab7f913063de22c2a3304e73a0fbf64b3df351e39b7c1"
+    },
+    {
+      "path": "images/keller-1983-p669.png",
+      "bytes": 312704,
+      "sha256": "cb231b5fa7b0f6cf0e94100e06a4ed88c9df51e019ca1f24f584fbbc5a834931"
+    },
+    {
+      "path": "images/keller-1983-p670.png",
+      "bytes": 316798,
+      "sha256": "48c62b3f7c00aa62d2c8ec23598f6c5ea8c627fb7679666971259b9a97dd4fbf"
+    },
+    {
+      "path": "images/keller-1983-p673.png",
+      "bytes": 157290,
+      "sha256": "a026d90a21dc1402b213b188679d7ed1d2cbf83e734f98a3200e415c780eecc8"
+    },
+    {
+      "path": "images/selfridge-1963-p101.png",
+      "bytes": 338603,
+      "sha256": "35f0a5f6a6c8e469c4d4a1f5afeb859018fe7e3ef4e42497d22d2301dccb9134"
+    },
+    {
+      "path": "images/sierpinski-1960-file2.png",
+      "bytes": 713264,
+      "sha256": "cf4144e46c13e6eb5965c1fdc5fd3b706714967325292f8f522f9674b5d0a11c"
+    },
+    {
+      "path": "images/sierpinski-1960-file3.png",
+      "bytes": 802384,
+      "sha256": "b465f1436690ac710291f4484b1675723c8f69febcb6306f241c48bfabaa4243"
+    },
+    {
+      "path": "images/sierpinski-1962-p85.jpg",
+      "bytes": 763142,
+      "sha256": "e92dae4c28d76bd64353976daa28bbc7fa218a211c1baea5385d6c70044dffda"
+    },
+    {
+      "path": "images/vol2-p415.png",
+      "bytes": 446628,
+      "sha256": "a88682dd8c5d0a33a4cd716d3d3f91e89a0c99d7cca1e5bee96c1731bfaed482"
+    },
+    {
+      "path": "images/vol2-p665.png",
+      "bytes": 762100,
+      "sha256": "f14a0f846889b43c7d00ca50055929002e10bbf7db1ac2e0fae373118558bedb"
+    },
+    {
+      "path": "images/vol2-p666.png",
+      "bytes": 706386,
+      "sha256": "e937ae55d509ae420dff3de2092653913ccd5309df2e8256b79633561a5984ed"
+    },
+    {
+      "path": "notes/C0181-keller-volume.md",
+      "bytes": 1153,
+      "sha256": "793d48e6107b4b1abbbbc065a1c39286558ce3af286caa4882c52edcf891c74d"
+    },
+    {
+      "path": "notes/prime-chains.md",
+      "bytes": 11023,
+      "sha256": "a6b2cb849e98b9065952bdd4a932bdb46f6899ad135dbdfe4e8c92d01b3094b2"
+    },
+    {
+      "path": "reports/C0181-keller-volume-draft.txt",
+      "bytes": 1003,
+      "sha256": "074f6a066a06c78ade5a02aa1c5acf5a4ca115b4b5938cd56cfefe69e9a81f83"
+    },
+    {
+      "path": "results/prime-chains.json",
+      "bytes": 103280,
+      "sha256": "24bf8bbd104edd2a3f0be2622bcd040a2a703d5f1d7464c34046cc4b620077be"
+    },
+    {
+      "path": "results/prime-chains.log",
+      "bytes": 223,
+      "sha256": "9e5439775003ff42333c40c9b20c2fc116599538c4bf0a65ae179a3af6cbe7fa"
+    },
+    {
+      "path": "sources/keller-1983-fermat.pdf",
+      "bytes": 1165632,
+      "sha256": "5b38d702374379c3a673d99395d6dd24157a6fea5622a50305c42afded837ae0"
+    },
+    {
+      "path": "sources/keller-1983-fermat.txt",
+      "bytes": 52588,
+      "sha256": "f767a343e9f335449a7462d1f67bbc876e21be45f70f53b13048317031066707"
+    },
+    {
+      "path": "sources/keller-1983-web-extract.txt",
+      "bytes": 4129,
+      "sha256": "bd8217f387fc11cebfacc971a8f959b6ac0f87029f3767727c865a9eb4dcc581"
+    },
+    {
+      "path": "sources/prime-chains-crossref-2007382.json",
+      "bytes": 1488,
+      "sha256": "11e3ba850d0b6148110c8d1d1044a9e86c0ac7813929c33985ca8e88f761398f"
+    },
+    {
+      "path": "sources/prime-chains-crossref-S0025-5718-1983-0717710-7.json",
+      "bytes": 23343,
+      "sha256": "278bfb12a4a15a9a1c55011aafc919ce29d082d5c7413032c65a46a624c2dd86"
+    },
+    {
+      "path": "sources/prime-chains-crossref-S0025-5718-1985-0804951-5.json",
+      "bytes": 2232,
+      "sha256": "7332032dfff305224ebd513d5dc946d5d22ff604747a503db59f89b1ffed740a"
+    },
+    {
+      "path": "sources/prime-chains-downloads.json",
+      "bytes": 6534,
+      "sha256": "4882238871e539cdab0b996ddc56cef628c6d7234ab0db360043d0ca751a984f"
+    },
+    {
+      "path": "sources/selfridge-1963-solution4995.pdf",
+      "bytes": 440921,
+      "sha256": "1480ced058839fe313ed16bc6813b4d2cb659bd04a3912a087c837fb5654d114"
+    },
+    {
+      "path": "sources/selfridge-1963-solution4995.txt",
+      "bytes": 6578,
+      "sha256": "b64d8dee93d842c6aee248e2b32b9f5ff0684756dd3466de97e568415c55f954"
+    },
+    {
+      "path": "sources/sierpinski-1960.pdf",
+      "bytes": 3476680,
+      "sha256": "8fdafcee872e46400ce264c38fc1819998f6a92291541e2b92db14633e8ed9a3"
+    },
+    {
+      "path": "sources/sierpinski-1960.txt",
+      "bytes": 8759,
+      "sha256": "f27fc009adedf06bef6ff7313b8a3610f60cf5ecd4b0785ba46b43a7a53fde20"
+    },
+    {
+      "path": "sources/sierpinski-1962-gdz-manifest.json",
+      "bytes": 286499,
+      "sha256": "955826d130381f6f9390fb44c9427f99f8a4b541c25d431ab25bfe81b23af5f9"
+    },
+    {
+      "path": "sources/sierpinski-1962-gdz.html",
+      "bytes": 5890,
+      "sha256": "5c5c95f083516512e56961a1ada382808f4a114ad8e650b264942a55b5a08644"
+    },
+    {
+      "path": "verify_prime_chains.py",
+      "bytes": 7481,
+      "sha256": "076324ca351672fe6215246eafce79f473d1058a0a12992f147a4ec7c8bb8f68"
+    }
+  ]
+}

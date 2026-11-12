@@ -1,0 +1,181 @@
+{
+  "block": "V2-X0069",
+  "checked_at_utc": "2026-11-04T07:02:01.010833+00:00",
+  "edition": 3,
+  "printing": 1,
+  "physical_copy_verified": false,
+  "book_visual_pages": [
+    467,
+    480,
+    481,
+    484,
+    696
+  ],
+  "scope": "Complete own proofs of graph constructions, binary duality, and counts33/35; C0228confirmed, C0229interpretivecandidate. General graphical converse uses computations with repeated values. No failure of minimum-length duality.",
+  "primary_read": {
+    "Bernstein": "Pippenger algorithm,2002-01-18,retypeset2022-03-27,section5,printed10–13 complete text; not a claim to have checked all historical priority statements.",
+    "Knuth": "Author bibliography Q58 and selected-papers index; original Q58 full article not obtained. Its bibliographic citation in answer39 deferred to the later block."
+  },
+  "verification": {
+    "blocks": [
+      "graphs",
+      "binary",
+      "counting"
+    ],
+    "block_seconds": {
+      "graphs": 16.896442780969664,
+      "binary": 19.057634071970824,
+      "counting": 14.49956652498804
+    },
+    "wrapper_seconds": 51.046644032001495,
+    "tool_session": 41637,
+    "pids": [
+      1400252,
+      1408544,
+      1415535
+    ],
+    "exit_codes": [
+      0,
+      0,
+      0
+    ],
+    "timeout_seconds_per_block": 300,
+    "mathematical_tests_repeated": false
+  },
+  "errata": {
+    "new_confirmed": [
+      "V2-C0228"
+    ],
+    "new_candidates": [
+      "V2-C0229"
+    ],
+    "known_unrelated": [
+      "2003-01-11 p481 exercise5: (k+1)-st -> (k+1)st.",
+      "2005-09-17 exercise42/answer42 dual example; unrelated to34 and graphical conventions."
+    ],
+    "searched": "Six full layers, relevant3e467/480–481/484/696 and2e447/460–462/464/638–639; also reduced/graph/dual/topological/ascending keywords. No matching correction found."
+  },
+  "errata_source_hashes": [
+    {
+      "path_from_repository": "errata/text/all2-prepre.txt",
+      "sha256": "62a1ff323ca421f2640e2337f922dbf8cfc8e86c20d9b11acfc91221721c6f58"
+    },
+    {
+      "path_from_repository": "errata/text/all2-pre.txt",
+      "sha256": "c1735b70547678d739eae3a8d7b02872c737218eed7706a0aba8fb6fc21a6529"
+    },
+    {
+      "path_from_repository": "errata/text/all2.txt",
+      "sha256": "1c4d7f2259e147db0ebe84b4bf0ce8864b307afb4ccfbe48efcb1f5f5999ac58"
+    },
+    {
+      "path_from_repository": "errata/text/err2.txt",
+      "sha256": "1b5c93712c3c467a48679e0040ba6c5869998b25184dbd125a5d096ce96e9ab0"
+    },
+    {
+      "path_from_repository": "errata/text/err2-2e.txt",
+      "sha256": "cf2d9ced25e86f6fd9be0e4f82700a979fc174dff6860e7a4b7950292c24e154"
+    },
+    {
+      "path_from_repository": "errata/originals/err2.textxt",
+      "sha256": "8faa21566312314ec6bda0f8956913deb312517fd9fa688dcc0bf19e1f21962e"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "notes/powers-graphs.md",
+      "sha256": "04218e90c543df73b753fecd98151460bdc38398524fd1c6f1bc99cf3cc58321",
+      "bytes": 14843
+    },
+    {
+      "path": "verify_powers_graphs.py",
+      "sha256": "74d359bdf7f547b5605e16b3ed32dec0c8e13023f9d4b0e762b58c74868a9838",
+      "bytes": 12340
+    },
+    {
+      "path": "results/powers-graphs.json",
+      "sha256": "faa63ca96e401f4dccca8dc6ae7492952b3f27c58308d6d5a723bc9089981c4a",
+      "bytes": 16598
+    },
+    {
+      "path": "results/powers-graphs.log",
+      "sha256": "690c3626839f89aa0227dcffca804861ec75ae6f7cb062f134fdc5d6a63b604d",
+      "bytes": 100
+    },
+    {
+      "path": "reports/C0228-dual-binary-label.txt",
+      "sha256": "73b4397c08ab79b612d3770609d8aa4e710f6b6494a6fbc8b2b177e7d3c09bf3",
+      "bytes": 1161
+    },
+    {
+      "path": "reports/C0229-graph-conventions.txt",
+      "sha256": "70f7a834bd9c4da629ccfa1c38f686b0e7f33a75839d6013503a74dc5782da6b",
+      "bytes": 2138
+    },
+    {
+      "path": "sources/powers-graphs-source-access.json",
+      "sha256": "00cbf1e7fd6fbccb871fb21bc3f1f35abf95e4323ef082fe485c9344c62a5ddd",
+      "bytes": 1627
+    },
+    {
+      "path": "sources/bernstein-pippenger-2002.pdf",
+      "sha256": "be00217ef7c7c513ba7da9eb05922271b015d4b6c362d205eafa5b293823a42c",
+      "bytes": 357011
+    },
+    {
+      "path": "sources/bernstein-pippenger-2002.txt",
+      "sha256": "49aa9ba79917934f081aa2d5c6ad7a3abed8954603089bb6afd6f78d70c57558",
+      "bytes": 69358
+    },
+    {
+      "path": "sources/knuth-preprints-graphs.html",
+      "sha256": "13389d214c3772b2c2e2ea26d955d24773a8b7fb4e626439b515f6f6ce0399d5",
+      "bytes": 13827
+    },
+    {
+      "path": "sources/knuth-aa-graphs.html",
+      "sha256": "5b00db9582e60dc8c6ede3b8f5a1cf88a19933228f9afc776b61a3add3c7112e",
+      "bytes": 22172
+    },
+    {
+      "path": "sources/knuth-vita-graphs.pdf",
+      "sha256": "5b53e469a33094cce5a776c91c7297108b08249cb3b1dd043494a0b6db320ae4",
+      "bytes": 330116
+    },
+    {
+      "path": "sources/knuth-vita-graphs.txt",
+      "sha256": "e67b94f837e81986f17ea4de59d5ee735611cbfd1023e9d7d3e8ba47f69c1e12",
+      "bytes": 167418
+    },
+    {
+      "path": "sources/powers-basic-errata.txt",
+      "sha256": "8b5f49e0db8cda41d67694029f01f512ca3e81553fe089f35b35ee3a26eec0f3",
+      "bytes": 39852
+    },
+    {
+      "path": "images/vol2-p467.png",
+      "sha256": "f3589efa09dd63db7fcf8599f3a4a615c19e73752017bd30cb47dbb6a86bf907",
+      "bytes": 316429
+    },
+    {
+      "path": "images/vol2-p480.png",
+      "sha256": "fd202661ec6d4431f74cae40559c8f9b958deac56ce6167725e915f102372c16",
+      "bytes": 325167
+    },
+    {
+      "path": "images/vol2-p481.png",
+      "sha256": "d1bffb6493844184998470908dd085aa307d6b856bc4501e39b53f94e7673a0e",
+      "bytes": 316344
+    },
+    {
+      "path": "images/vol2-p484.png",
+      "sha256": "d13acc5ab62cc317fbcfe7a8be203532aea9b0a2db37711b68f8c42888c0452d",
+      "bytes": 363811
+    },
+    {
+      "path": "images/vol2-p696.png",
+      "sha256": "3fb1e24143e2eed5d6a17a12331ad2d398cb66df552a5b8f65f20eb923423101",
+      "bytes": 388218
+    }
+  ]
+}

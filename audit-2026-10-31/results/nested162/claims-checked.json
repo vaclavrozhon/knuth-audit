@@ -1,0 +1,102 @@
+{
+  "at_utc": "2026-11-03T12:09:50.073552+00:00",
+  "checker_sha256": "7bd70973f540d43724d4c14404ce2363b13a2f7a4d17fcd84c751defa34814d2",
+  "source_hashes": {
+    "check_nested_queens.py": "7ce7fca609f05db1cd5a967bb4f550625b32171d0f996cb724c0d4d54f3d49f1",
+    "results/nested_queens/overlap.json": "f005290fbaff25ef67c3775c3d2e47dbe8053bf5e96969f843f43eb3f22cb6ce",
+    "results/nested_queens/n5-q4-t1.json": "1ee53675c82317214f696ac20506879473d7bc66d856aa06985f6d1ce0510068",
+    "results/nested_queens/classification.json": "f0d2c9e52e3cd490c95595d4eac7337c51512dab7d86a8cb2eef53859090e997",
+    "results/nested_queens/independent-n17-q4-t4.jsonl": "7a3c7319f2a856fa9459c2ba57245213aa5a5e1e273bfa680772366ca20ef726",
+    "images/nested162-ahrens-pdf271.png": "f8e92345545f9bddc4fbb3443e9febeff8dcebc8204bcc09202c7a984cc39e6c"
+  },
+  "ahrens": {
+    "edition": 3,
+    "year": 1921,
+    "printed_page": 258,
+    "pdf_page": 271,
+    "figure": 24,
+    "columns": [
+      5,
+      7,
+      4,
+      6,
+      14,
+      16,
+      13,
+      15,
+      8,
+      1,
+      3,
+      0,
+      2,
+      10,
+      12,
+      9,
+      11
+    ],
+    "Q4_blocks": [
+      [
+        0,
+        4
+      ],
+      [
+        4,
+        13
+      ],
+      [
+        9,
+        0
+      ],
+      [
+        13,
+        9
+      ]
+    ],
+    "central_queen": [
+      8,
+      8
+    ],
+    "quarter_turn_invariant": true,
+    "accepted_archive_line": 1
+  },
+  "question_Q5_patterns": 10,
+  "containing_Q4": 8,
+  "printed_diagonal_offsets": [
+    [
+      1,
+      -1
+    ],
+    [
+      3,
+      -3
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      5,
+      1
+    ]
+  ],
+  "corrected_diagonal_offsets": [
+    [
+      1,
+      -1
+    ],
+    [
+      4,
+      -2
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      5,
+      1
+    ]
+  ],
+  "all_census_results_preserved": true,
+  "new_placement_searches": 0
+}

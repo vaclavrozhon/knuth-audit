@@ -1,0 +1,21 @@
+{
+  "compile_command": [
+    "g++",
+    "-O3",
+    "-std=c++17",
+    "audit-2026-10-31/instant_insanity_distribution.cpp",
+    "-o",
+    "/tmp/knuth-vol4b-simpath-v775lnym/instant-insanity-distribution"
+  ],
+  "command": [
+    "timeout",
+    "3600",
+    "/tmp/knuth-vol4b-simpath-v775lnym/instant-insanity-distribution"
+  ],
+  "timeout_seconds": 3600,
+  "started_at_utc": "2026-11-01T08:59:11.624473+00:00",
+  "pid": 628087,
+  "returncode": 0,
+  "elapsed_seconds": 262.309561571994,
+  "finished_at_utc": "2026-11-01T09:03:33.934329+00:00"
+}

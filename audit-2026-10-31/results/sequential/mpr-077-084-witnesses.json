@@ -1,0 +1,58 @@
+{
+  "checked_at_utc": "2026-11-06T19:57:32.866776+00:00",
+  "method": "Exact rational calculation on two and three positive atoms; no search.",
+  "F158": {
+    "atoms": [
+      {
+        "probability": "1/2",
+        "Z0": 0,
+        "Zn_for_n_ge_1": -1
+      },
+      {
+        "probability": "1/2",
+        "Z0": 0,
+        "Zn_for_n_ge_1": 1
+      }
+    ],
+    "own_history_first_mean": "0",
+    "deterministic_auxiliary_history_time1_mean": "0",
+    "Z1_values": [
+      -1,
+      1
+    ],
+    "random_constant_auxiliary": "Adaptedness would reveal Z1 already at time0, forcing E(Z1|Y)=Z1, not Z0=0."
+  },
+  "F159": {
+    "atoms": [
+      {
+        "probability": "1/2",
+        "Z0": -1,
+        "Zn_for_n_ge_1": -1
+      },
+      {
+        "probability": "1/4",
+        "Z0": 1,
+        "Zn_for_n_ge_1": 0
+      },
+      {
+        "probability": "1/4",
+        "Z0": 1,
+        "Zn_for_n_ge_1": 2
+      }
+    ],
+    "conditional_on_Z0": {
+      "-1": {
+        "probability": "1/2",
+        "conditional_mean": "-1",
+        "conditional_square": "1"
+      },
+      "1": {
+        "probability": "1/2",
+        "conditional_mean": "1",
+        "conditional_square": "2"
+      }
+    },
+    "conditional_on_square_Z0": "3/2",
+    "convex_function": "z^2 on[-1,2]"
+  }
+}

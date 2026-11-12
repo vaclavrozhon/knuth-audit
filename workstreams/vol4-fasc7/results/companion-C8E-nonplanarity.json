@@ -1,0 +1,80 @@
+{
+  "status": "companion_source_discrepancy",
+  "not_a_book_finding": true,
+  "source": "https://www-cs-faculty.stanford.edu/~knuth/js/DEK.js",
+  "local_file": "sources/DEK.js",
+  "sha256": "644b9fccfad216221ccdab5536120b63082de6974abda548a9b5212e89d8adce",
+  "unmodified_vertex7": [
+    "-957/1820",
+    "252/2197",
+    "-1/169"
+  ],
+  "evidence": {
+    "scope": "Explicit audit construction; not a claim that the downloaded coordinates are planar.",
+    "three_defining_face_triples": [
+      [
+        1,
+        5,
+        3
+      ],
+      [
+        2,
+        3,
+        6
+      ],
+      [
+        5,
+        4,
+        6
+      ]
+    ],
+    "plane_normals": [
+      [
+        "-285/728",
+        "-1653/560",
+        "9817/3640"
+      ],
+      [
+        "-126/221",
+        "-87/425",
+        "696/5525"
+      ],
+      [
+        "45/119",
+        "-14481/133280",
+        "1461/133280"
+      ]
+    ],
+    "plane_rhs": [
+      "-3071/20384",
+      "609/2210",
+      "-5613/26656"
+    ],
+    "unmodified_nonplanar_face_determinants": [
+      {
+        "face": [
+          1,
+          5,
+          7,
+          3
+        ],
+        "scalar_triple": "-243/123032"
+      },
+      {
+        "face": [
+          5,
+          4,
+          6,
+          7
+        ],
+        "scalar_triple": "-1458/1830101"
+      }
+    ]
+  },
+  "separate_valid_realization_vertex7": [
+    "-2066409123/3934112140",
+    "3052179/28100801",
+    "-371726/28100801"
+  ],
+  "scope": "Two advertised faces of the downloaded C8E model are nonplanar. The amended book lower bound6 remains true by a separately certified explicit repair. No finding card created."
+}

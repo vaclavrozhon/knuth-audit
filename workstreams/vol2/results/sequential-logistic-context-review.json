@@ -1,0 +1,211 @@
+{
+  "reviewed_at_utc": "2026-11-06T11:40:50.281515+00:00",
+  "checked_item": "V2-X0123",
+  "reaffirmed_findings": [
+    "V2-C0053"
+  ],
+  "new_findings": [],
+  "scope": "3.4.1 G and exercise 24, with explicit bibliography and expensive-reproduction limits.",
+  "accepted_archived_counts": {
+    "rejection_pairs": 1024,
+    "rejection_accepted": 579,
+    "fixed_point_graphs": 38,
+    "fixed_point_states": 4194334,
+    "floating_point_cases": 40,
+    "exact_edge_probes": 9185,
+    "complete_binary32_trajectories": 20,
+    "exact_binary32_states": 27491,
+    "binary64_replay_steps": 30086200,
+    "binary64_detector_limits": 8
+  },
+  "severity_review": {
+    "V2-C0053": "high to medium: invalid density normalization; logistic recurrence and intended arcsine law unaffected."
+  },
+  "new_mathematical_computation": "None. Proofs, complete verifier code, existing PASS logs and result scopes reviewed; no census or trajectory replay.",
+  "inputs": [
+    {
+      "path": "workstreams/vol2/notes/sequential-logistic-context-2026-11-06.md",
+      "sha256": "ca7a5db720fb83a3c0c655ddb0be0a26f7b735e084d093c5a3eaf0a4061cc469"
+    },
+    {
+      "path": "workstreams/vol2/sources/sequential-2026-11-06/logistic-context-source-review.json",
+      "sha256": "d55580db6aa7d1eb379b54c510d7b03a66b131ce6f2b7dbeacca075f58e7870d"
+    },
+    {
+      "path": "workstreams/vol2/notes/distribution-context.md",
+      "sha256": "15e15de43e438b29c8b00d73dcf9881528aaba80fe084f0287164962cdba141d"
+    },
+    {
+      "path": "workstreams/vol2/notes/logistic-finite.md",
+      "sha256": "e0f67b98d7f0b21a39346cd9e80471b722730e0f225a78ae9f99f228f2d1dace"
+    },
+    {
+      "path": "workstreams/vol2/verify_distribution_context.py",
+      "sha256": "998b781fc87aff7a859f1ea4b0678b7a5bb6330146d92fdb9b165ed98ca5c020"
+    },
+    {
+      "path": "workstreams/vol2/verify_logistic.py",
+      "sha256": "4f74cc9ea5563017e130176f4e565c2b7db53eed7deece433e5f8e26debd43d5"
+    },
+    {
+      "path": "workstreams/vol2/experiment_logistic.cpp",
+      "sha256": "1890affc22dc3c37561b7927762670e687e66f2cd38d0553d37a88497f686997"
+    },
+    {
+      "path": "workstreams/vol2/validate_logistic_float.py",
+      "sha256": "aa655838c67c61ff998432f0d383c522035f24dfae02541792f83a5c86c72d54"
+    },
+    {
+      "path": "workstreams/vol2/results/distribution-context.json",
+      "sha256": "b3a5f8e218edc5c2ea07ebd9aee8b2d0068d516c60b2181544986d7f2842b416"
+    },
+    {
+      "path": "workstreams/vol2/results/distribution-context.log",
+      "sha256": "b3a5f8e218edc5c2ea07ebd9aee8b2d0068d516c60b2181544986d7f2842b416"
+    },
+    {
+      "path": "workstreams/vol2/results/logistic-fixed.json",
+      "sha256": "dd024728eaec9d796f902bfdb8e98adf74522aefb86919590dc15c9ee56d29ed"
+    },
+    {
+      "path": "workstreams/vol2/results/logistic-fixed.log",
+      "sha256": "a2bc3f3ddce7596d313ab47ff768b183925d80dc1d9ee4c6e0c2d037737b9808"
+    },
+    {
+      "path": "workstreams/vol2/results/logistic-float.jsonl",
+      "sha256": "a9da04e3f555401d18c6e2ef2f28b58a1fc9d870e1b47f0ce7f015ced3e80816"
+    },
+    {
+      "path": "workstreams/vol2/results/logistic-float-validation.json",
+      "sha256": "fa91dbd936aa68c3fc9a031ff33f4015394ec8cb5944ed198c3bf73bf660dedb"
+    },
+    {
+      "path": "workstreams/vol2/results/logistic-float-validation.log",
+      "sha256": "b9d5941aa817d5f02f43340800eb16390b8f97647f0bffc230cd2e85e9134303"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p138.png",
+      "sha256": "27f3338d16d54c4538f55e3aa88cebcdbb873b3895fb111ca8f9abe7c9fd742a"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p140.png",
+      "sha256": "c9e02123557af4d23e531b331b3963f10019154431ab3a5b33ed82c8dae8aa6e"
+    },
+    {
+      "path": "workstreams/vol2/images/vol2-p588.png",
+      "sha256": "2cfe19d70c4ce19e52decd71eb4298ecfb7b0c941707dbbf02b850e3abc17ddb"
+    },
+    {
+      "path": "workstreams/vol2/sources/eckhardt-1987-monte-carlo.pdf",
+      "sha256": "1473d104cceb469839cf60987ca7a99cd8aa9de416d84b67ef061c956753de75"
+    },
+    {
+      "path": "workstreams/vol2/sources/eckhardt-1987-monte-carlo.txt",
+      "sha256": "19e7c4952679a81bb82f9295c77dbca2c35313f78b1e72836e6e197b849f4c0f"
+    },
+    {
+      "path": "workstreams/vol2/sources/eckhardt-1987-monte-carlo.json",
+      "sha256": "880d60254d7270a9d338e9d5d715a79e9f7f2903a99db066ce2cceb1e3c16c35"
+    },
+    {
+      "path": "workstreams/vol2/sources/hormann-derflinger-1993-rejection.pdf",
+      "sha256": "7881ccd99dc4d8816fc13b4fb34563010f716ec194b973d129b9051ce35bf2e1"
+    },
+    {
+      "path": "workstreams/vol2/sources/hormann-derflinger-1993-rejection.txt",
+      "sha256": "d5ca1de835d61eccffab8fe51822627a9778a97a7ea47851adf5e7d5ebf753e0"
+    },
+    {
+      "path": "workstreams/vol2/sources/hormann-derflinger-1993-rejection.json",
+      "sha256": "461517130e9e611faffc04e545c7e4182613858a3afea8bb9c20de110ccc049d"
+    },
+    {
+      "path": "workstreams/vol2/sources/devroye-1986.pdf",
+      "sha256": "a7c2ef2863fd1b0592021ba75eae9928bee0950e92baff1f9aa7675eccbce656"
+    },
+    {
+      "path": "workstreams/vol2/sources/devroye-1986.txt",
+      "sha256": "88a9833ffd223701e8db3bfb5a9b3bb4847c68390267b84ffbdfad7fcf198d9b"
+    },
+    {
+      "path": "workstreams/vol2/sources/devroye-1986.json",
+      "sha256": "62d708de7cdefe696766624fb6a05a0cfef103c5f16dd9c92ed887a1ad7b00ad"
+    },
+    {
+      "path": "workstreams/vol2/sources/von-neumann-1951-random-digits.pdf",
+      "sha256": "662943f84a8c0808159755e874cf3470f3e411043eb980a31df0f7392ec6aa4a"
+    },
+    {
+      "path": "workstreams/vol2/sources/von-neumann-1951-random-digits.txt",
+      "sha256": "7c3a399d93887e48567998451992ee502f72899b213b9044658d9a6b96cac193"
+    },
+    {
+      "path": "workstreams/vol2/sources/von-neumann-1951-random-digits.json",
+      "sha256": "6e0c74c76bf54bd381df41a76dce362c8186ffb40ea98a0d606877887bff5b82"
+    },
+    {
+      "path": "workstreams/vol2/sources/galias-2021-logistic.pdf",
+      "sha256": "a0a7c0c0d67bf3e0edfcf1f92bca50cf05e7a0c86f4a707d6bf82b024972c197"
+    },
+    {
+      "path": "workstreams/vol2/sources/galias-2021-logistic.txt",
+      "sha256": "a0c7cc9a9e1682d3a64b102f5b8e234ed8d21c8f0adc6d17cec90fe775af788e"
+    },
+    {
+      "path": "workstreams/vol2/sources/galias-2021-logistic.json",
+      "sha256": "ec41d4df873d32740be35c000a7bd10fa1686c12565678f6087aa98d6d7ed5ae"
+    },
+    {
+      "path": "workstreams/vol2/images/eckhardt-1987-p135.png",
+      "sha256": "d793b12d31ad9a187cf87f855c26a061416ee862816cc0e53bd0c5f99207a8a7"
+    },
+    {
+      "path": "workstreams/vol2/images/eckhardt-1987-p136.png",
+      "sha256": "260f4e3d93a98af46f53c4d0cb5944e1f9555b6799a945365e7684c86fc3a35c"
+    },
+    {
+      "path": "workstreams/vol2/images/hormann-derflinger-1993-p2.png",
+      "sha256": "45d4f7909c48869ad3b84f5cdba125c306d8a6c8cc0ab020f03d215a757c530e"
+    },
+    {
+      "path": "workstreams/vol2/images/von-neumann-1951-random-digits-p1.png",
+      "sha256": "721946f48bee115cb0c9501b82355ea2e1e660ee67ae4912ab096c8e4d71aed3"
+    },
+    {
+      "path": "workstreams/vol2/images/von-neumann-1951-random-digits-p2.png",
+      "sha256": "c268df05334f8d9b7af371d2e998ab2f3163cc57d7dfe9c6977d76b640d99752"
+    },
+    {
+      "path": "workstreams/vol2/images/von-neumann-1951-random-digits-p3.png",
+      "sha256": "6aba53a955d6b60391505b29659dc6b58a4d87b263f8a93b5527b205de894339"
+    },
+    {
+      "path": "workstreams/vol2/images/galias-2021-logistic-p3.png",
+      "sha256": "d69f25e88908344a6b36134e26774adb9a39d8a7ab5c3e4c2668d952e45cb16b"
+    },
+    {
+      "path": "workstreams/vol2/images/galias-2021-logistic-p4.png",
+      "sha256": "54631d791dd5051ce89cd0640a730a8f3f39652707b5c073b2b7696ffa1d0ebc"
+    },
+    {
+      "path": "errata/text/all2-prepre.txt",
+      "sha256": "62a1ff323ca421f2640e2337f922dbf8cfc8e86c20d9b11acfc91221721c6f58"
+    },
+    {
+      "path": "errata/text/all2-pre.txt",
+      "sha256": "c1735b70547678d739eae3a8d7b02872c737218eed7706a0aba8fb6fc21a6529"
+    },
+    {
+      "path": "errata/text/all2.txt",
+      "sha256": "1c4d7f2259e147db0ebe84b4bf0ce8864b307afb4ccfbe48efcb1f5f5999ac58"
+    },
+    {
+      "path": "errata/text/err2.txt",
+      "sha256": "1b5c93712c3c467a48679e0040ba6c5869998b25184dbd125a5d096ce96e9ab0"
+    },
+    {
+      "path": "errata/originals/err2.textxt",
+      "sha256": "8faa21566312314ec6bda0f8956913deb312517fd9fa688dcc0bf19e1f21962e"
+    }
+  ]
+}

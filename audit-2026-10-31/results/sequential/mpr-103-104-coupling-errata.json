@@ -1,0 +1,639 @@
+{
+  "updated_at_utc": "2026-11-07T02:02:31.298878+00:00",
+  "scope": "Complete MPR103(a–f),104; local wrong transition subscript F170 in103(b)",
+  "snapshot": "Local official snapshots including all4b dated16April2026; no live errata refresh claimed.",
+  "search_patterns": "(?:Page\\s+(?:21|196|197|385)\\b|4(?:b|f5|f6)\\.(?:21|196|197|385)\\b|(?:answer|exer\\s*ise|exercise)\\s+\\{?10[34]\\b|g_?\\{?(?:012|001|011|112|122)|coalesc|coupling|consistent bits|random number generator)",
+  "text_sources": [
+    {
+      "path": "errata/text/err4b.txt",
+      "sha256": "2a3450bf3c79d28ad3c2d96468344c96995cf0afb74961f257c311bb9c821e1c",
+      "matches": [
+        {
+          "line": 96,
+          "context": [
+            "  707{716 y 707{714",
+            " Page 21 append a new senten e to exer ise 102                            04 Apr 2026",
+            "  (Here `a.s.' and `q.s.' refer to an impli it parameter n.)",
+            "xPage 21 line 17 of exer ise 103                                          02 Jan 2025",
+            "  X random bit y X          nrandom bit",
+            "xPage 25 line 9 of exer ise 124                                           15 Jul 2025",
+            "  jE (f ) E (f )j y E jE (f ) E (f )j",
+            "            n                n"
+          ]
+        },
+        {
+          "line": 98,
+          "context": [
+            "  (Here `a.s.' and `q.s.' refer to an impli it parameter n.)",
+            "xPage 21 line 17 of exer ise 103                                          02 Jan 2025",
+            "  X random bit y X          nrandom bit",
+            "xPage 25 line 9 of exer ise 124                                           15 Jul 2025",
+            "  jE (f ) E (f )j y E jE (f ) E (f )j",
+            "            n                n",
+            "",
+            " Page 27 lines 3 and 4 of exer ise 135                                    05 De 2022"
+          ]
+        },
+        {
+          "line": 179,
+          "context": [
+            "                 eÆ iently onstru t",
+            "    Page 135 in exer ise 104                                                               15 Sep 2025",
+            "     line 2: whenever k is not a multiple of p      y",
+            "     line 3: (if xn is blank)  y (where xn is onsidered to be blank)",
+            "    Page 136 append a senten e to exer ise 111                                30 Mar 2023",
+            "     (Crossword puzzle diagrams are bla k-and-white grids su h as those in exer ise 1.3.2{",
+            "     23.)",
+            "xPage 138 line 8 of exer ise 121                                                           07 Jan 2023"
+          ]
+        },
+        {
+          "line": 303,
+          "context": [
+            "  x\u00161 x\u00164 + x\u00162 x\u00164 + x\u00163 x\u00164 + x\u00162 x\u00165 + x\u00163 x\u00165 y x\u00161 x\u00164 _ x\u00162 x\u00164 _ x\u00163 x\u00164 _ x\u00162 x\u00165 _ x\u00163 x\u00165",
+            "xPage 385        line 2 of answer 100                                                               19 Jun 2023",
+            "  0). y 0).)",
+            "xPage 385        in answer 104                                                                      03 Mar 2026",
+            "  line 1: (q ; 2pq; p ) y (q ; pq; p )=(1 pq )",
+            "              2          2            2        2",
+            "  line 2: (p2 + pq 2 ; 0; q 2 + qp2 ) y (q 2 (1 + p); 0; p2 (1 + q ))=(1 pq )",
+            "xPage 394        last line of answer 133                                                            10 Nov 2022"
+          ]
+        },
+        {
+          "line": 305,
+          "context": [
+            "  0). y 0).)",
+            "xPage 385        in answer 104                                                                      03 Mar 2026",
+            "  line 1: (q ; 2pq; p ) y (q ; pq; p )=(1 pq )",
+            "              2          2            2        2",
+            "  line 2: (p2 + pq 2 ; 0; q 2 + qp2 ) y (q 2 (1 + p); 0; p2 (1 + q ))=(1 pq )",
+            "xPage 394        last line of answer 133                                                            10 Nov 2022",
+            "  143{145 y 145{147",
+            "xPage 394        in answer 135                                                                      10 Nov 2022"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all4b.txt",
+      "sha256": "b1a3425486f403fb4158585d5bbfef0159fd20b12e2e7d47b64e393e1ae8a303",
+      "matches": [
+        {
+          "line": 103,
+          "context": [
+            "  707{716 y 707{714",
+            " Page 21 append a new senten e to exer ise 102                               04 Apr 2026",
+            "  (Here `a.s.' and `q.s.' refer to an impli it parameter n.)",
+            "xPage 21 line 17 of exer ise 103                                             02 Jan 2025",
+            "  X random bit y X          nrandom bit",
+            "xPage 25 line 9 of exer ise 124                                              15 Jul 2025",
+            "  jE (f ) E (f )j y E jE (f ) E (f )j",
+            "            n                n"
+          ]
+        },
+        {
+          "line": 105,
+          "context": [
+            "  (Here `a.s.' and `q.s.' refer to an impli it parameter n.)",
+            "xPage 21 line 17 of exer ise 103                                             02 Jan 2025",
+            "  X random bit y X          nrandom bit",
+            "xPage 25 line 9 of exer ise 124                                              15 Jul 2025",
+            "  jE (f ) E (f )j y E jE (f ) E (f )j",
+            "            n                n",
+            "",
+            " Page 27 lines 3 and 4 of exer ise 135                                    05 De 2022"
+          ]
+        },
+        {
+          "line": 200,
+          "context": [
+            "              eÆ iently onstru t",
+            "Page 135 lines 8 and 9 of exer ise 103                                      03 Jan 2023",
+            " twelve-tone row   y  twelve-tone row",
+            " Page 135 in exer ise 104                                                   15 Sep 2025",
+            "  line 2: whenever k is not a multiple of p y",
+            "  line 3: (if xn is blank)  y (where xn is onsidered to be blank)",
+            "",
+            "     6        CHANGES TO VOLUME 4B: COMBINATORIAL ALGORITHMS, PART 2"
+          ]
+        },
+        {
+          "line": 202,
+          "context": [
+            " twelve-tone row   y  twelve-tone row",
+            " Page 135 in exer ise 104                                                   15 Sep 2025",
+            "  line 2: whenever k is not a multiple of p y",
+            "  line 3: (if xn is blank)  y (where xn is onsidered to be blank)",
+            "",
+            "     6        CHANGES TO VOLUME 4B: COMBINATORIAL ALGORITHMS, PART 2",
+            "",
+            "    Page 136 append a senten e to exer ise 111                                30 Mar 2023"
+          ]
+        },
+        {
+          "line": 355,
+          "context": [
+            "  x\u00161 x\u00164 + x\u00162 x\u00164 + x\u00163 x\u00164 + x\u00162 x\u00165 + x\u00163 x\u00165y       x\u00161 x\u00164 _ x\u00162 x\u00164 _ x\u00163 x\u00164 _ x\u00162 x\u00165 _ x\u00163 x\u00165",
+            "xPage 385 line 2 of answer 100                                                                           19 Jun 2023",
+            "  0).  y     0).)",
+            "xPage 385 in answer 104                                                                                  03 Mar 2026",
+            "              2",
+            "  line 1: (q ; 2pq; p )  2  y         2        2",
+            "                                  (q ; pq; p )=(1 pq )",
+            "  line 2: (p2 + pq 2 ; 0; q 2 + qp2 )    y       (q 2 (1 + p); 0; p2 (1 + q ))=(1 pq )"
+          ]
+        },
+        {
+          "line": 357,
+          "context": [
+            "  0).  y     0).)",
+            "xPage 385 in answer 104                                                                                  03 Mar 2026",
+            "              2",
+            "  line 1: (q ; 2pq; p )  2  y         2        2",
+            "                                  (q ; pq; p )=(1 pq )",
+            "  line 2: (p2 + pq 2 ; 0; q 2 + qp2 )    y       (q 2 (1 + p); 0; p2 (1 + q ))=(1 pq )",
+            "xPage 394 last line of answer 133                                                                        10 Nov 2022",
+            "  143{145     y     145{147"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "errata/text/err4f5.txt",
+      "sha256": "5a716c34e2063eb46005593d53e89dbbd912b5677e0a6ab11753f2a5ee38b557",
+      "matches": [
+        {
+          "line": 241,
+          "context": [
+            " (In su h a ase we say that G is embedded in H .)",
+            "Page 133 in exer ise 103(b)                                                          30 Mar 2022",
+            " How many solutions y How many inequivalent solutions",
+            "Page 135 line 1 of exer ise 116                                                      25 May 2021",
+            "    Given a graph on verti es V y Given a graph G on verti es V",
+            "Page 135       better illustrations in exer ise 116                                  19 Feb 2020",
+            "",
+            ""
+          ]
+        },
+        {
+          "line": 406,
+          "context": [
+            "  line 3: Sn y SN",
+            " Page 196 in answer 101                                                              09 Jun 2022",
+            "  By 1.2.10{(25), therefore, and setting t = \u0012=\u0016, y Set t = \u0012=\u0016, and note that pk ln(1",
+            "  t=pk ) \u0015 p ln(1 t=p) \u0015 \u00161 ln(1 t\u0016) = \u0012t ln(1 \u0012). By 1.2.10{(25), therefore,",
+            " Page 200 lines 7 and 8 of answer 114                                                05 Jan 2022",
+            "  we ould nd subsets : : : avoids them all y we ould eliminate them one (or more)",
+            "  at a time, by removing an element from any Sj for whi h jSj j > dj + 1",
+            "xPage 205 line 4 of answer 133                                                        06 Jul 2022"
+          ]
+        },
+        {
+          "line": 549,
+          "context": [
+            "  line 3: items w0 y items w\b",
+            "xPage 247 and 248, repla ement for rst paragraph of answer 103(e) 30 Mar 2022",
+            "         (e) The solution for n = 2 has every possible symmetry; and both solutions x for",
+            "  n = 4 are equivalent to xR , xQ , and xQR . But for n > 4 one an show that x is equiv-",
+            "  alent to at most one of the 4'(n) rows x, xR , xQ , xQR besides itself. We obviously",
+            "    an't have x \u0011 x when 6= 1. An elementary but nontrivial proof shows also that x \u0011",
+            "    xR implies mod n = 1; x \u0011 xQ implies mod n = n 1; x \u0011 xQR implies mod n =",
+            "  n=2 + 1 and n mod 8 = 4. (See Ri hard Stong in AMM, to appear.) Gilbert stated"
+          ]
+        },
+        {
+          "line": 556,
+          "context": [
+            "  n=2 + 1 and n mod 8 = 4. (See Ri hard Stong in AMM, to appear.) Gilbert stated",
+            "  in orre tly [page 196℄ that no solutions of the latter kind exist; he had overlooked 12-",
+            "  tone rows su h as 0 3 9 1 2 4 11 8 7 5 10 6, 0 1 4 9 3 11 10 8 5 7 2 6, 0 1 8 11 10 3 9 5 7 4 2 6, for",
+            "  whi h x \u0011 7xQR . Similarly, the 20-tone row 0 1 3 11 2 19 13 9 12 7 14 18 4 17 16 8 6 15 5 10",
+            "  satis es x \u0011 11xQR .)",
+            "xPage 248 last line of answer 103                                                         30 Mar 2022",
+            "  5xQR y 7xQR",
+            "xPage 248 line 1 of answer 104                                                            16 De 2019"
+          ]
+        },
+        {
+          "line": 560,
+          "context": [
+            "  satis es x \u0011 11xQR .)",
+            "xPage 248 last line of answer 103                                                         30 Mar 2022",
+            "  5xQR y 7xQR",
+            "xPage 248 line 1 of answer 104                                                            16 De 2019",
+            "  We may y (a) We may",
+            " Page 250 new opy following the displayed solutions in answer 109                          16 Sep 2021",
+            "         Suppose there are w words of total length s. Aaron Windsor suggests adding",
+            "  options `E ij :. ij 0 :0' for 1 \u0014 i \u0014 m and 1 \u0014 j \u0014 n, where E is a new primary item"
+          ]
+        },
+        {
+          "line": 562,
+          "context": [
+            "  5xQR y 7xQR",
+            "xPage 248 line 1 of answer 104                                                            16 De 2019",
+            "  We may y (a) We may",
+            " Page 250 new opy following the displayed solutions in answer 109                          16 Sep 2021",
+            "         Suppose there are w words of total length s. Aaron Windsor suggests adding",
+            "  options `E ij :. ij 0 :0' for 1 \u0014 i \u0014 m and 1 \u0014 j \u0014 n, where E is a new primary item",
+            "  representing an empty ell. All solutions to the MCC problem with the number of E's",
+            "  in the interval [mn s + w 1 : : mn℄ are then either onne ted or ontain a y le."
+          ]
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all4f5.txt",
+      "sha256": "0dd38c4cda72b01baefb797611c9bbab7713ff0c107a1df884afc89fe9bb91c3",
+      "matches": [
+        {
+          "line": 286,
+          "context": [
+            " (In su h a ase we say that G is embedded in H .)",
+            "Page 133 in exer ise 103(b)                                                          30 Mar 2022",
+            " How many solutions y How many inequivalent solutions",
+            "Page 135 line 1 of exer ise 116                                                      25 May 2021",
+            "    Given a graph on verti es V y Given a graph G on verti es V",
+            "Page 135       better illustrations in exer ise 116                                  19 Feb 2020",
+            "",
+            ""
+          ]
+        },
+        {
+          "line": 457,
+          "context": [
+            "  line 3: Sn y SN",
+            " Page 196 in answer 101                                                              09 Jun 2022",
+            "  By 1.2.10{(25), therefore, and setting t = \u0012=\u0016, y Set t = \u0012=\u0016, and note that pk ln(1",
+            "  t=pk ) \u0015 p ln(1 t=p) \u0015 \u00161 ln(1 t\u0016) = \u0012t ln(1 \u0012). By 1.2.10{(25), therefore,",
+            " Page 200 lines 7 and 8 of answer 114                                                05 Jan 2022",
+            "  we ould nd subsets : : : avoids them all y we ould eliminate them one (or more)",
+            "  at a time, by removing an element from any Sj for whi h jSj j > dj + 1",
+            "xPage 205 line 4 of answer 133                                                        06 Jul 2022"
+          ]
+        },
+        {
+          "line": 599,
+          "context": [
+            "  line 3: items w0 y items w\b",
+            "xPage 247 and 248, repla ement for rst paragraph of answer 103(e) 30 Mar 2022",
+            "         (e) The solution for n = 2 has every possible symmetry; and both solutions x for",
+            "  n = 4 are equivalent to xR , xQ , and xQR . But for n > 4 one an show that x is equiv-",
+            "  alent to at most one of the 4'(n) rows x, xR , xQ , xQR besides itself. We obviously",
+            "    an't have x \u0011 x when 6= 1. An elementary but nontrivial proof shows also that x \u0011",
+            "    xR implies mod n = 1; x \u0011 xQ implies mod n = n 1; x \u0011 xQR implies mod n =",
+            "  n=2 + 1 and n mod 8 = 4. (See Ri hard Stong in AMM, to appear.) Gilbert stated"
+          ]
+        },
+        {
+          "line": 606,
+          "context": [
+            "  n=2 + 1 and n mod 8 = 4. (See Ri hard Stong in AMM, to appear.) Gilbert stated",
+            "  in orre tly [page 196℄ that no solutions of the latter kind exist; he had overlooked 12-",
+            "  tone rows su h as 0 3 9 1 2 4 11 8 7 5 10 6, 0 1 4 9 3 11 10 8 5 7 2 6, 0 1 8 11 10 3 9 5 7 4 2 6, for",
+            "  whi h x \u0011 7xQR . Similarly, the 20-tone row 0 1 3 11 2 19 13 9 12 7 14 18 4 17 16 8 6 15 5 10",
+            "  satis es x \u0011 11xQR .)",
+            "xPage 248 last line of answer 103                                                         30 Mar 2022",
+            "  5xQR y 7xQR",
+            "xPage 248 line 1 of answer 104                                                            16 De 2019"
+          ]
+        },
+        {
+          "line": 610,
+          "context": [
+            "  satis es x \u0011 11xQR .)",
+            "xPage 248 last line of answer 103                                                         30 Mar 2022",
+            "  5xQR y 7xQR",
+            "xPage 248 line 1 of answer 104                                                            16 De 2019",
+            "  We may y (a) We may",
+            "",
+            "    14     CHANGES TO V4F5: MATH PRELIMINARIES, BACKTRACKING ET AL",
+            ""
+          ]
+        },
+        {
+          "line": 612,
+          "context": [
+            "  5xQR y 7xQR",
+            "xPage 248 line 1 of answer 104                                                            16 De 2019",
+            "  We may y (a) We may",
+            "",
+            "    14     CHANGES TO V4F5: MATH PRELIMINARIES, BACKTRACKING ET AL",
+            "",
+            " Page 249 lines 6, 7, 10, 15, 16, 17 of answer 109                            25 May 2021",
+            "  [en lose ea h option in single quotes; for example, line 6 should begin with `#k and"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "errata/text/err4f6.txt",
+      "sha256": "0a065b32ef4f8e427a178a77e0fe81b7caad77389ecec060c8793567cd5a3eb2",
+      "matches": [
+        {
+          "line": 453,
+          "context": [
+            "  on the left be uk and vl as y on the left be uk and those on the right be vl , as",
+            " Page 196 lines 17{18                                                          15 De 2016",
+            "  arXiv:1410.2736 [ s.DS℄ (2014), 10 pages y LNCS 9136 (2015), 167{176",
+            " Page 200 line 2                                                              08 Apr 2017",
+            "  size less than 16 \u0002 18. y size 15 \u0002 18 or 16 \u0002 17.",
+            " Page 202 line       3 of answer 85                                           03 Mar 2021",
+            "  (August 2013), #P16 y (2013), #P16, 1{19",
+            "xPage 204 bottom line and top lines of page 205                                11 Jan 2016"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all4f6.txt",
+      "sha256": "468af6337a650d3b8b132fa854a21a4a460d891d3497986318ba1830581dddb8",
+      "matches": [
+        {
+          "line": 517,
+          "context": [
+            "  on the left be uk and vl as y on the left be uk and those on the right be vl , as",
+            " Page 196 lines 17{18                                                          15 De 2016",
+            "  arXiv:1410.2736 [ s.DS℄ (2014), 10 pages y LNCS 9136 (2015), 167{176",
+            " Page 199 lines 11 and 7                                                      08 Apr 2017",
+            "  tarnishing y tainting",
+            " Page 200 line 2                                                              08 Apr 2017",
+            "  size less than 16 \u0002 18. y size 15 \u0002 18 or 16 \u0002 17.",
+            " Page 202 line      3 of answer 85                                            03 Mar 2021"
+          ]
+        }
+      ]
+    }
+  ],
+  "tex_sources": [
+    {
+      "path": "errata/originals/err4b.textxt",
+      "sha256": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+      "matches": [
+        {
+          "line": 257,
+          "context": [
+            "",
+            "\\amendpage 4b.21 append a new sentence to exercise 102 (26.04.04)",
+            "(Here `a.s.'\\ and `q.s.'\\ refer to an implicit parameter $n$.)",
+            "\\endchange",
+            "",
+            "\\bugonpage 4b.21 line 17 of exercise 103 (25.01.02)",
+            "\\ninepoint $X\\gets{}$random bit \\becomes $X_n\\gets{}$random bit",
+            "\\endchange"
+          ]
+        },
+        {
+          "line": 261,
+          "context": [
+            "",
+            "\\bugonpage 4b.21 line 17 of exercise 103 (25.01.02)",
+            "\\ninepoint $X\\gets{}$random bit \\becomes $X_n\\gets{}$random bit",
+            "\\endchange",
+            "",
+            "\\bugonpage 4b.25 line 9 of exercise 124 (25.07.15)",
+            "\\ninepoint $\\bigl\\vert E(f)-E_n(f)\\bigr\\vert$ \\becomes",
+            "$\\E\\,\\bigl\\vert E_n(f)-E(f)\\bigr\\vert$"
+          ]
+        },
+        {
+          "line": 414,
+          "context": [
+            "",
+            "\\improvepage 4b.135 lines 8 and 9 of exercise 103 (23.01.03)",
+            "\\ninepoint twelve-tone row \\becomes {\\it twelve-tone row}",
+            "\\endchange",
+            "",
+            "\\amendpage 4b.135 in exercise 104 (25.09.15)",
+            "\\ninepoint line 2: whenever $k$ is not a multiple of~$p$ \\becomes\\nl",
+            "line 3: (if $x_n$ is blank) \\becomes"
+          ]
+        },
+        {
+          "line": 418,
+          "context": [
+            "",
+            "\\amendpage 4b.135 in exercise 104 (25.09.15)",
+            "\\ninepoint line 2: whenever $k$ is not a multiple of~$p$ \\becomes\\nl",
+            "line 3: (if $x_n$ is blank) \\becomes",
+            "(where $x_n$ is considered to be blank)",
+            "\\endchange",
+            "",
+            "\\amendpage 4b.136 append a sentence to exercise 111 (23.03.30)"
+          ]
+        },
+        {
+          "line": 690,
+          "context": [
+            "",
+            "\\bugonpage 4b.385 line 2 of answer 100 (23.06.19)",
+            "0). \\becomes 0).)",
+            "\\endchange",
+            "",
+            "\\bugonpage 4b.385 in answer 104 (26.03.03)",
+            "line 1: $(q^2,2pq,p^2)$ \\becomes $(q^2,pq,p^2)/(1-pq)$\\nl",
+            "line 2: $(p^2+pq^2,0,q^2+qp^2)$ \\becomes $(q^2(1+p),0,p^2(1+q))/(1-pq)$"
+          ]
+        },
+        {
+          "line": 694,
+          "context": [
+            "",
+            "\\bugonpage 4b.385 in answer 104 (26.03.03)",
+            "line 1: $(q^2,2pq,p^2)$ \\becomes $(q^2,pq,p^2)/(1-pq)$\\nl",
+            "line 2: $(p^2+pq^2,0,q^2+qp^2)$ \\becomes $(q^2(1+p),0,p^2(1+q))/(1-pq)$",
+            "\\endchange",
+            "",
+            "\\bugonpage 4b.394 last line of answer 133 (22.11.10)",
+            "143--145 \\becomes 145--147"
+          ]
+        },
+        {
+          "line": 1106,
+          "context": [
+            "$$\\def\\epsfsize#1#2{.3#1}",
+            "\\def\\\\#1#2{\\epsfbox{\\figdir/v4b.21#1#2}}",
+            "\\centerline{\\\\51\\enspace\\\\52\\enspace\\\\53\\enspace\\\\54\\enspace\\\\55\\quad\\\\57}$$",
+            "$$\\def\\epsfsize#1#2{.32#1}",
+            "\\def\\\\#1#2{\\epsfbox{\\figdir/v4b.21#1#2}}",
+            "\\centerline{\\\\31\\enspace\\\\32\\enspace\\\\33\\enspace\\\\34\\enspace\\\\35}$$",
+            "$$\\def\\epsfsize#1#2{.32#1}",
+            "\\def\\\\#1#2{\\epsfbox{\\figdir/v4b.21#1#2}}"
+          ]
+        },
+        {
+          "line": 1109,
+          "context": [
+            "$$\\def\\epsfsize#1#2{.32#1}",
+            "\\def\\\\#1#2{\\epsfbox{\\figdir/v4b.21#1#2}}",
+            "\\centerline{\\\\31\\enspace\\\\32\\enspace\\\\33\\enspace\\\\34\\enspace\\\\35}$$",
+            "$$\\def\\epsfsize#1#2{.32#1}",
+            "\\def\\\\#1#2{\\epsfbox{\\figdir/v4b.21#1#2}}",
+            "\\centerline{\\\\36\\enspace\\\\37\\enspace\\\\38\\enspace\\\\39\\enspace\\\\59}$$",
+            "\\endchange",
+            ""
+          ]
+        },
+        {
+          "line": 1112,
+          "context": [
+            "$$\\def\\epsfsize#1#2{.32#1}",
+            "\\def\\\\#1#2{\\epsfbox{\\figdir/v4b.21#1#2}}",
+            "\\centerline{\\\\36\\enspace\\\\37\\enspace\\\\38\\enspace\\\\39\\enspace\\\\59}$$",
+            "\\endchange",
+            "",
+            "\\amendpage 4b.467 in answer 175 (24.03.27)",
+            "line 5: $a_i=a+1$ \\becomes $r_i=r+1$\\nl",
+            "line 5: $2a+1$ \\becomes $2r+1$\\nl"
+          ]
+        },
+        {
+          "line": 1812,
+          "context": [
+            "$$\\def\\epsfsize#1#2{.22#1}",
+            "\\def\\\\#1#2{\\epsfbox{\\figdir/v4b.21#1#2}}",
+            "\\centerline{\\\\60\\enspace\\\\61\\enspace\\\\62\\enspace\\\\63\\enspace\\\\64\\enspace\\\\65\\enspace\\\\66\\quad\\\\67}$$",
+            "$$\\def\\epsfsize#1#2{.22#1}",
+            "\\setbox0=\\hbox{\\epsfbox{\\figdir/v4b.2140}}",
+            "\\def\\\\#1#2{\\epsfbox{\\figdir/v4b.21#1#2}}",
+            "\\centerline{\\\\40\\enspace\\\\41\\enspace\\\\42\\enspace\\\\43\\enspace\\\\44\\enspace\\\\45",
+            "\\quad\\vbox to\\ht0{\\vss"
+          ]
+        },
+        {
+          "line": 1816,
+          "context": [
+            "\\setbox0=\\hbox{\\epsfbox{\\figdir/v4b.2140}}",
+            "\\def\\\\#1#2{\\epsfbox{\\figdir/v4b.21#1#2}}",
+            "\\centerline{\\\\40\\enspace\\\\41\\enspace\\\\42\\enspace\\\\43\\enspace\\\\44\\enspace\\\\45",
+            "\\quad\\vbox to\\ht0{\\vss",
+            "  \\halign{\\hbox to\\wd0{\\hfil#\\hfil}\\cr\\llap(see\\cr answer\\cr 173\\rlap)\\cr}\\vss}}$$",
+            "$$\\def\\epsfsize#1#2{.22#1}",
+            "\\def\\\\#1#2{\\epsfbox{\\figdir/v4b.21#1#2}}",
+            "\\setbox0=\\hbox{\\epsfbox{\\figdir/v4b.2140}}"
+          ]
+        },
+        {
+          "line": 1821,
+          "context": [
+            "$$\\def\\epsfsize#1#2{.22#1}",
+            "\\def\\\\#1#2{\\epsfbox{\\figdir/v4b.21#1#2}}",
+            "\\setbox0=\\hbox{\\epsfbox{\\figdir/v4b.2140}}",
+            "\\centerline{\\\\46\\enspace\\\\47\\enspace\\\\48\\enspace\\\\49\\enspace\\\\69\\enspace\\\\29",
+            "\\quad\\vbox to\\ht0{\\vss",
+            "  \\halign{\\hbox to\\wd0{\\hfil#\\hfil}\\cr\\cr}\\vss}}$$",
+            "\\endchange",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "path": "errata/originals/err4f5.textxt",
+      "sha256": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b",
+      "matches": [
+        {
+          "line": 544,
+          "context": [
+            "",
+            "\\amendpage 4f5.133 in exercise {103(b) } (22.03.30)",
+            "How many solutions \\becomes How many inequivalent solutions",
+            "\\endchange",
+            "",
+            "\\amendpage 4f5.135 line 1 of exercise 116 (21.05.25)",
+            "\\ninepoint",
+            "Given a graph on vertices $V$ \\becomes"
+          ]
+        },
+        {
+          "line": 774,
+          "context": [
+            "",
+            "\\amendpage 4f5.196 in answer 101 (22.06.09)",
+            "By 1.2.10--\\eq(25), therefore, and setting $t=\\theta/\\mu$, \\becomes",
+            "Set $t=\\theta/\\mu$, and note that $p_k\\ln(1-t/p_k)\\ge p\\ln(1-t/p)",
+            "\\ge\\smash{1\\over\\mu}\\ln(1-t\\mu)={t\\over\\theta}\\ln(1-\\theta)$.",
+            "By 1.2.10--\\eq(25), therefore,",
+            "\\endchange",
+            ""
+          ]
+        },
+        {
+          "line": 1033,
+          "context": [
+            "\\advance\\parindent by 4pt % for them BIG answer numbers",
+            "\\bugonpage 4f5.247 and 248, replacement for first paragraph of answer {103(e)} (22.03.30)",
+            "\\indent (e) The solution for $n=2$ has every possible symmetry; and both",
+            "solutions~$x$ for $n=4$ are equivalent to $x^R$, $-x^Q$, and $-x^{QR}$.",
+            "But for $n>4$ one can show that $x$ is equivalent to",
+            "at most one of the $4\\varphi(n)$",
+            "rows $cx$, $cx^R$, $cx^Q$, $cx^{QR}$ besides itself. We obviously can't have",
+            "$x\\equiv cx$ when $c\\ne1$. An elementary but nontrivial proof"
+          ]
+        },
+        {
+          "line": 1055,
+          "context": [
+            "",
+            "\\bugonpage 4f5.248 last line of answer 103 (22.03.30)",
+            "$5x^{QR}$ \\becomes $7x^{QR}$",
+            "\\endchange",
+            "",
+            "\\bugonpage 4f5.248 line 1 of answer 104 (19.12.16)",
+            "We may \\becomes (a) We may",
+            "\\endchange"
+          ]
+        },
+        {
+          "line": 1059,
+          "context": [
+            "",
+            "\\bugonpage 4f5.248 line 1 of answer 104 (19.12.16)",
+            "We may \\becomes (a) We may",
+            "\\endchange",
+            "",
+            "\\improvepage 4f5.249 lines 6, 7, 10, 15, 16, 17 of answer 109 (21.05.25)",
+            "[enclose each option in single quotes; for example, line 6 should begin with",
+            "`$@\\#k$ and line 7 should end with $\\.0@$']"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "errata/originals/err4f6.textxt",
+      "sha256": "150809ff5caee54008a0a52523130b723ec1fdea7fe5cb8259b2a8349c4a8bfa",
+      "matches": [
+        {
+          "line": 862,
+          "context": [
+            "",
+            "\\amendpage 4f6.196 lines 17--18 (16.12.15)",
+            "{\\ninepoint{\\tt arXiv:1410.2736} [cs.DS]} (2014), 10~pages \\becomes",
+            "{\\sl LNCS \\bf9136} (2015), 167--176",
+            "\\endchange",
+            "",
+            "\\improvepage 4f6.199 lines $-11$ and $-7$ (17.04.08)",
+            "tarnishing \\becomes tainting"
+          ]
+        }
+      ]
+    }
+  ],
+  "originals_viewed": [
+    "audit-2026-10-31/images/sequential/ref-041.png",
+    "audit-2026-10-31/images/sequential/ref-405.png",
+    "audit-2026-10-31/images/sequential/fasc5a-27.png",
+    "audit-2026-10-31/images/sequential/fasc5a-48.png",
+    "audit-2026-10-31/images/sequential/all4b-03.png",
+    "audit-2026-10-31/images/sequential/all4b-09.png"
+  ],
+  "conclusion": "Every hit assessed. E131 is the02Jan2025 X→X_n change in103(e); E132 is both03Mar2026 output-law corrections in104. The385/100 and196/101 changes were already incorporated as E128/E129. Fascicle5 pages133/247/248 refer to unrelated exercises103/104 in another section; Fascicle6 page196 is unrelated bibliography. No correction of g112→g122 in103(b), no coalescence/composition correction or equivalent wording found in any of the six layers or threeTeXsources. F170 is distinct from both known corrections. Volume4B p135 exercise103/104 changes concern tone rows in7.2.2.1, not MPR; TeX figure-directory v4b.21 hits are unrelated filenames.",
+  "known_errata": [
+    "E131",
+    "E132"
+  ],
+  "new_findings": [
+    "F170"
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "reviewed_at_utc": "2026-11-06T08:34:11.684220+00:00",
+  "source_sha256": "97f20229e4e06ef20e67ad30c7564dde1943611259a7fe72f2551c900b910cd1",
+  "printed_pages_fully_reviewed": [
+    73,
+    79,
+    571
+  ],
+  "printed_pages_partially_reviewed": [
+    74,
+    75,
+    80,
+    570,
+    572
+  ],
+  "exercises_reviewed": [
+    31,
+    32,
+    33,
+    34,
+    35
+  ],
+  "exercise31": "partial: exact main result and diagram checked; scope of near-period prose remains candidate C0241",
+  "findings_reaffirmed": [
+    "V2-C0029",
+    "V2-C0030",
+    "V2-C0031"
+  ],
+  "new_candidates": [
+    "V2-C0241"
+  ],
+  "new_confirmed_findings": [],
+  "old_computations_restarted": false,
+  "seed_manifests_regenerated_and_hashes_matched": [
+    "walk-experiment",
+    "even-walk-experiment"
+  ],
+  "accepted_artifacts": [
+    {
+      "path": "notes/lfsr-walks.md",
+      "sha256": "103c492a1ef2fd6b265d2d40a74bf985671e86efc76049eadc5e8e1899d68bc0"
+    },
+    {
+      "path": "notes/monkey-test.md",
+      "sha256": "5d3f84450ed47a41b7d9355ec041e9676cebbb94238f0c3a9fb33b6b2301866f"
+    },
+    {
+      "path": "notes/empirical-subsequences.md",
+      "sha256": "6ca2b8370cf8d53b5a964dc2a8112314e106ce6b14fe9a0c55ea8ff8f37887a5"
+    },
+    {
+      "path": "notes/empirical-history.md",
+      "sha256": "5f6d0491587701743bfd92fe35cd220f6c5ba50e64b2c20fe54339c01e8fce35"
+    },
+    {
+      "path": "notes/C0029-lfsr-third-moment-denominator.md",
+      "sha256": "b79050aa814097dc336f365ab579b323c11ab18ac94861029ff3485608818b00"
+    },
+    {
+      "path": "notes/C0030-monkey-chain-numerator.md",
+      "sha256": "e5a21afca22b0889a89a03338c19c84021b8da5019535bf868a1b5a936954c9c"
+    },
+    {
+      "path": "notes/C0031-walk-asymptotic-auxiliaries.md",
+      "sha256": "85ef2df8fc9ea02ac0dd2b8fe8d5595d6b3177e868293c4542881214cae59a57"
+    },
+    {
+      "path": "verify_lfsr_walks.py",
+      "sha256": "0806b11796167035693cd36046ef8c6dd6ef6e60a90ee6febcafc577bc2bd951"
+    },
+    {
+      "path": "verify_monkey_test.py",
+      "sha256": "91e3a93e979e6ea34e499e5f4d7ee4a6580b801fe4b341ef4c1f567407a84fce"
+    },
+    {
+      "path": "experiment_empirical_tail.cpp",
+      "sha256": "9c7510720f2fa2c17b9ca3b26738c2848093fbc543c78151fd18f5ee506798d0"
+    },
+    {
+      "path": "validate_monkey_experiment.py",
+      "sha256": "f162acb55c20d225e9ed19c595cf5b6ccce48e31587ac92c22129fcf20db6628"
+    },
+    {
+      "path": "results/lfsr-walks.json",
+      "sha256": "9d1c1b87220a5bfaed60d84819d61870d5b5f9e95b67e315116990bb45b1831d"
+    },
+    {
+      "path": "results/lfsr-walks.log",
+      "sha256": "62998151cc2fe1f35e231feebae5a6e9feaf30a309d676e0f9888bde6f26be53"
+    },
+    {
+      "path": "results/lfsr-walk-curve.png",
+      "sha256": "567db199616a6641b231a5be5d252a3ce947956d9bf5fe90671c1a754eeb3d56"
+    },
+    {
+      "path": "results/monkey-test.json",
+      "sha256": "3df2bba10a1e9b176648b5fd06cb624f6618be34ac33a00bead6ee98148a8a0f"
+    },
+    {
+      "path": "results/monkey-test.log",
+      "sha256": "36aa0412d85aa2d0df2d335eca09d438938b3e3f1b3b057fe59295435f7c639e"
+    },
+    {
+      "path": "results/walk-experiment.json",
+      "sha256": "744e6cd80e156276c992c11c690e9c90022f218f3427429f920249edc83d1d7c"
+    },
+    {
+      "path": "results/even-walk-experiment.json",
+      "sha256": "6f694e98cef0311ff6d1e507d43c8222d4ee62e7267986fb12a17fcf1c2021b5"
+    },
+    {
+      "path": "results/walk-experiment-seeds.json",
+      "sha256": "314aea05f908def1bc97cb8af7f502bffdeb11dc4a86079e56c4b29fd08c04e0"
+    },
+    {
+      "path": "results/even-walk-experiment-seeds.json",
+      "sha256": "0d5da312bb6a23e67bcc3341b5da3a83ec56cfec355559ed52de003d4dd32f9a"
+    },
+    {
+      "path": "results/monkey-experiment.json",
+      "sha256": "28a2234f525b5865ed760cc1af979dc534692531caa9fad7327ecbdd71928e50"
+    },
+    {
+      "path": "results/monkey-experiment-validation.json",
+      "sha256": "38e96c4c79962e9940985e8423c9cc3ef798203392d89b16a3afcfdfb8c2a222"
+    },
+    {
+      "path": "sources/empirical-tail-bibliography.json",
+      "sha256": "1b40079e3e0b74a27949df764f39fc049d52bac4307ffcf474748fae3849c4fc"
+    },
+    {
+      "path": "sources/empirical-history-bibliography.json",
+      "sha256": "54ddc71e92dae6b5a12e431d7c8e8f64482522815b7bc6ab00f50638452b8ca9"
+    },
+    {
+      "path": "sources/cover-1989-longer-games.pdf",
+      "sha256": "83b532d309d61aa27afde06ce784e93f87f7c560bed20439e2c7d7ff2e6a0a9f"
+    },
+    {
+      "path": "sources/cover-1989-longer-games.json",
+      "sha256": "1c73bc91547cdf8d485fdbd4d9c882176654954bb1e4c5ecdab15510c69ea3f2"
+    },
+    {
+      "path": "sources/prse-volume57-front-matter.pdf",
+      "sha256": "98c3e572e8518d7367073d440d85261229814926c026e4c6d98038efea12185d"
+    },
+    {
+      "path": "sources/prse-volume57-front-matter.json",
+      "sha256": "d4de17092e01b9f2d05f6139b934eb8529a4ae78e4e80952236016c9047d5969"
+    },
+    {
+      "path": "sources/bienayme-1875-reprint.json",
+      "sha256": "e5354f9b3b9fdcecf1a51fd23662d48842621467bc32c58876af177f54e1bc8b"
+    },
+    {
+      "path": "sources/vattulainen-1994-physical-tests.pdf",
+      "sha256": "b42cd8d810ba25a3790250fcce8d81f0c10f4ac72f4cb62566a1c1dc50929434"
+    },
+    {
+      "path": "sources/vattulainen-1994-physical-tests.json",
+      "sha256": "9a1f176c70a9a344dc3d345ccd307a3628be619e6ac4f18520e6e7842234f345"
+    },
+    {
+      "path": "sources/vattulainen-1995-comparative.json",
+      "sha256": "8245ca540a92f64be17ef0e98460ac9be1b8ecadc0343472411f44e062b3fb57"
+    },
+    {
+      "path": "sources/greenwood-1955-metadata.json",
+      "sha256": "620e2d5f2fff0a25e595d398037cb047438e65bb6ccd54ebceee6c04cb7e1f6f"
+    },
+    {
+      "path": "sources/levene-wolfowitz-1944-metadata.json",
+      "sha256": "71c774e9ef2e440fe5a77b3aa73fe5fd11d041d7f2f3c5f74d741ca330f19fa2"
+    },
+    {
+      "path": "sources/barton-mallows-1965-metadata.json",
+      "sha256": "94967541c879087468e55e627d37990325bc96982c93454da71055a465b44a1b"
+    },
+    {
+      "path": "sources/lindholm-1968-metadata.json",
+      "sha256": "856b39b490324a452cfa1b887a5f7e355bc8a224f178e7b44918218980d7ad1b"
+    },
+    {
+      "path": "sources/vattulainen-1994-publisher-metadata.json",
+      "sha256": "851216fef3e584146bfa38e9631dfca1cae120c063c5fe7c4e37c86a97a9062d"
+    },
+    {
+      "path": "sources/matsumoto-kurita-1992.pdf",
+      "sha256": "26af00f18ecc9d61396c59c66127f61681621fed3d938f949849ddf23e0935e5"
+    },
+    {
+      "path": "sources/matsumoto-kurita-1992.json",
+      "sha256": "d67e98778e152d5489d233cb1df0faf234705ffc95ff336910989ccb1012927f"
+    },
+    {
+      "path": "sources/matsumoto-kurita-1994.pdf",
+      "sha256": "640f54d2bb8d96ab1557b0db827671e0c742c66c0a72ac68a9d789b55dc467af"
+    },
+    {
+      "path": "sources/matsumoto-kurita-1994.json",
+      "sha256": "c10092c17da3c54adaa3c4233fbceed7f7fd3aa69d2d133d7e683d60afb88e05"
+    },
+    {
+      "path": "sources/matsumoto-kurita-1996.pdf",
+      "sha256": "57751d319e0f47e9448fb7cfde7dc879f7d5b1ce2b4dd9ac71fc92d5851f2f8a"
+    },
+    {
+      "path": "sources/matsumoto-kurita-1996.json",
+      "sha256": "98bb7e852811ac562c7dd762fb7ba302cb62941edffe5284df80b6be86a690c5"
+    }
+  ],
+  "limitations": [
+    "Exercise25 explanation and page72 historical R-prime experiment remain unresolved.",
+    "Page75 incomplete historical generator parameters remain unresolved.",
+    "Cross-references to3.3.3-23/24,3.5-26 and3.6-14 continue with those sections.",
+    "Unavailable bibliography explicitly skipped; metadata is not a full-source audit.",
+    "Latest physical printing and novelty unverified."
+  ]
+}

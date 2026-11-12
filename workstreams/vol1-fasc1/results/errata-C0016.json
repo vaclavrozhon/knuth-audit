@@ -1,0 +1,236 @@
+{
+  "checked_at_utc": "2026-11-06T21:18:56.517901+00:00",
+  "target": "Program P page37: the two memory coefficients are 10037 and2803, not10036 and2804; total and both oops counts unchanged.",
+  "search_terms": "10036|10037|9538|9537|641543|124559|2804|2803|Program.?P|program.?P|500.?primes|prime table|\\b37\\b|\\b148\\b",
+  "sources": [
+    {
+      "path": "errata/originals/err1f1.textxt",
+      "sha256": "07db671be6fcbc6c473ddc6593f6a16cce5833fb5f8a499ab7e2e3eee163dae3",
+      "matches": [
+        {
+          "line": 327,
+          "context": "\\amendpage 1f1.12 line 20 (08.03.04)\nExercises 33--37 \\becomes Exercises 31--37\n\\endchange\n\n\\amendpage 1f1.12 line $-11$ (06.07.16)"
+        },
+        {
+          "line": 418,
+          "context": "\n\\improvepage 1f1.37 line $-17$ (10.01.22)\nhash mark~\\.\\# \\becomes\nnumber sign or hash mark~\\.\\#\n\\endchange"
+        },
+        {
+          "line": 673,
+          "context": "\n\\amendpage 1f1.96 line 4 of answer 37 (06.05.29)\nrespectively. \\becomes\nrespectively. This construction works because $x^8+x^6+x^5+x^4+1$\nis a primitive polynomial modulo~2 (see Section 3.2.2)."
+        },
+        {
+          "line": 901,
+          "context": "\\.; (semicolon), 40. % 3rd\n\\.\\# (number sign or hash mark), 37. % 2nd\n\\Hex{f0} (alternative starting location), 90--91. % 2nd\n\\Hex{100} (usual starting location), 29. % 3rd\n@ (at sign), 15, 35, 38, 81, 97. % 2nd"
+        },
+        {
+          "line": 908,
+          "context": "\\ALGOL/ W language, iv. % 3rd\nASCII: American Standard Code for Information Interchange, iv, 3, 24, 26, 32, 34, 37, 44. % 3rd\n\\sub table, inside back cover. % 3rd\nAt sign (@), 15, 35, 38, 81, 97. % 2nd\n\\.{BDIF} (byte difference), 11, 26, 95, 101. % 2nd"
+        },
+        {
+          "line": 915,
+          "context": "\\.{BinaryWrite} mode, 41--43, 112. % 2nd\nCharacter constant, 37, 67. % 2nd\nComments, 29, 34, 40. % 2nd\nCommutative law: $a\\circ b=b\\circ a$, 96. % 5th\nConstants in \\.{MMIXAL}, 37, 67. % 2nd"
+        },
+        {
+          "line": 918,
+          "context": "Commutative law: $a\\circ b=b\\circ a$, 96. % 5th\nConstants in \\.{MMIXAL}, 37, 67. % 2nd\nContinuation register, 19. % 2nd\nCoxeter, Harold Scott MacDonald, 48. % 2nd\nCycle counter, \\see rI. % 2nd"
+        },
+        {
+          "line": 934,
+          "context": "Hamming, Richard Wesley, distance, 26. % 2nd\nHexadecimal constants, iii, 37. % 2nd\nIngalls, Daniel Henry Holmes, Jr\\period, 109. % 5th\nInput-output operations, 18, 31, 40--43, 92. % 2nd\n\\.{IS} (define a symbol), 29--30, 34, 39. % 2nd"
+        },
+        {
+          "line": 1051,
+          "context": "Two's complement notation, 4, 6, 24. % 3rd\nUnicode, ii, 3--4, 26, 37, 44. % 2nd\nUnrolling a loop, 107--108. % 3rd\nUsage counter, 20. % 2nd\nVictorius of Aquitaine, 111. % 2nd"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/err1f1.txt",
+      "sha256": "7d6366838076d106c09e85a4f93f1b151e94c9af9f6874ea27aa6f106cdf84b6",
+      "matches": [
+        {
+          "line": 167,
+          "context": "Page 12 line 20                                                                  04 Mar 2008\n Exer ises 33{37      yExer ises 31{37\nPage 12 line 11                                                                   16 Jul 2006\n (denormal)   y   (subnormal)\nPage 14 lines 18 through 7                                                       19 May 2005"
+        },
+        {
+          "line": 311,
+          "context": "    NOR $X,$Y,0; BDIF $X,$X,$Z; NOR $X,$X,0.\n Page 96     line 4 of answer 37                                             29 May 2006\n    respe tively.  y   respe tively. This onstru tion works be ause x8 + x6 + x5 + x4 + 1\n    is a primitive polynomial modulo 2 (see Se tion 3.2.2).\nxPage 97       answer 42                                                                08 De 2006"
+        },
+        {
+          "line": 487,
+          "context": "\n# (number sign or hash mark), 37.              Meton of Athens (Mètwn å >AjhnaØo ),\n# f0 (alternative starting lo ation), 90{91.          y le, 49.\n# 100 (usual starting lo ation), 29.           Montgomery, Peter Lawren e, 95.\n\b (at sign), 15, 35, 38, 81, 97.               Monus, 11."
+        },
+        {
+          "line": 497,
+          "context": "     Information Inter hange, iv, 3, 24,          m(x), mT (x), 11.\n     26, 32, 34, 37, 44.                          M[x℄, Mt [x℄, 4{5.\n   table, inside ba k over.                       x & y, 10.\nAt sign (\b), 15, 35, 38, 81, 97.                  x j y, 10.\nBDIF (byte di eren e), 11, 26, 95, 101.        O'Beirne, Thomas Hay, 94, 111."
+        },
+        {
+          "line": 504,
+          "context": "BinaryWrite mode, 41{43, 112.                  Parsing Ma hine, 73{74.\nChara ter onstant, 37, 67.                     Pool_Segment , 36.\nComments, 29, 34, 40.                          Primitive polynomial modulo 2, 96.\nCommutative law: a Æ b = b Æ a, 96.            Program ounter, see At sign.\nConstants in MMIXAL, 37, 67.                   PUSHJ (push registers and jump), 16, 53,"
+        },
+        {
+          "line": 507,
+          "context": "Commutative law: a Æ b = b Æ a, 96.            Program ounter, see At sign.\nConstants in MMIXAL, 37, 67.                   PUSHJ (push registers and jump), 16, 53,\nContinuation register, 19.                           59, 73, 85{86, 114.\nCoxeter, Harold S ott Ma Donald, 48.           Quettabyte, 94.\nCy le ounter, see rI.                          rC ( ontinuation register), 19."
+        },
+        {
+          "line": 525,
+          "context": "Hamming, Ri hard Wesley, distan e, 26.         Sta k_Segment , 36, 117.\nHexade imal onstants, iii, 37.                 Subnormal oating point numbers, 12, 89.\nIngalls, Daniel Henry Holmes, Jr., 109.        SUBU (subtra t unsigned), 8, 113.\nInput-output operations, 18, 31, 40{43, 92.    Text segment of memory, 36, 77, 81, 126.\nIS (de ne a symbol), 29{30, 34, 39.            TextRead mode, 41{43."
+        },
+        {
+          "line": 533,
+          "context": "LABEL eld of MMIXAL line, 28{29, 38, 40, 89.   Two's omplement notation, 4, 6, 24.\nLeaf subroutines, 57, 65, 80.                  Uni ode, ii, 3{4, 26, 37, 44.\nLilius, Aloysius (= Aloigi Giglio, Luigi       Unrolling a loop, 107{108.\n     Lilio), 49.                               Usage ounter, 20.\nLOC ( hange lo ation), 29{30, 39.              Vi torius of Aquitaine, 111."
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all1f1.txt",
+      "sha256": "c0b1a7c575ffcbced2bc6a7048143a16286a081908850ad0956258dd2f84b18e",
+      "matches": [
+        {
+          "line": 177,
+          "context": "Page 12 line 20                                                             04 Mar 2008\n Exer ises 33{37    y  Exer ises 31{37\nPage 12 line 11                                                              16 Jul 2006\n (denormal)     y\n              (subnormal)"
+        },
+        {
+          "line": 233,
+          "context": " Initialize m.   y Initialize m by setting mm       2.\nPage 37 line 17                                                              22 Jan 2010\n hash mark #     y\n                number sign or hash mark #\nxPage 39 lines 12{15 from the bottom                                         21 Sep 2006"
+        },
+        {
+          "line": 375,
+          "context": "    NOR $X,$Y,0; BDIF $X,$X,$Z; NOR $X,$X,0.\nPage 96      line 4 of answer 37                                           29 May 2006\n    respe tively.  y   respe tively. This onstru tion works be ause x + x + x5 + x4 + 1\n                                                                     8   6\n    is a primitive polynomial modulo 2 (see Se tion 3.2.2)."
+        },
+        {
+          "line": 544,
+          "context": "    ; (semi olon), 40.                                  BinaryReadWrite mode, 41{43.\n    # (number sign or hash mark), 37.                   BinaryWrite mode, 41{43, 112.\n    # f0 (alternative starting lo ation), 90{91.        Chara ter onstant, 37, 67.\n    # 100 (usual starting lo ation), 29.                Comments, 29, 34, 40.\n    \b (at sign), 15, 35, 38, 81, 97.                    Commutative law: a Æ b = b Æ a, 96."
+        },
+        {
+          "line": 545,
+          "context": "    # (number sign or hash mark), 37.                   BinaryWrite mode, 41{43, 112.\n    # f0 (alternative starting lo ation), 90{91.        Chara ter onstant, 37, 67.\n    # 100 (usual starting lo ation), 29.                Comments, 29, 34, 40.\n    \b (at sign), 15, 35, 38, 81, 97.                    Commutative law: a Æ b = b Æ a, 96.\n    \u0017 x (number of 1s in the binary                     Constants in MMIXAL, 37, 67."
+        },
+        {
+          "line": 548,
+          "context": "    \b (at sign), 15, 35, 38, 81, 97.                    Commutative law: a Æ b = b Æ a, 96.\n    \u0017 x (number of 1s in the binary                     Constants in MMIXAL, 37, 67.\n         representation of x), 11.                      Continuation register, 19.\n    ADD (add), 8.                                       Coxeter, Harold S ott Ma Donald, 48.\n    ALGOL W language, iv.                               Cy le ounter, see rI."
+        },
+        {
+          "line": 554,
+          "context": "         Information Inter hange, iv, 3, 24,            Debugging, 52, 64{65, 73, 91.\n         26, 32, 34, 37, 44.                            Dijkstra, Edsger Wybe, 63.\n       table, inside ba k over.                         Division, 8{9, 13, 24{25, 49, 91.\n    At sign (\b), 15, 35, 38, 81, 97.                    Dot minus, 11.\n    BDIF (byte di eren e), 11, 26, 95, 101.             EXPR eld of MMIXAL line, 28{29, 38."
+        },
+        {
+          "line": 569,
+          "context": "Hamming, Ri hard Wesley, distan e, 26.         PUSHJ (push registers and jump), 16, 53,\nHexade imal onstants, iii, 37.                      59, 73, 85{86, 114.\nIngalls, Daniel Henry Holmes, Jr., 109.        Quettabyte, 94.\nInput-output operations, 18, 31, 40{43, 92.    rC ( ontinuation register), 19.\nIS (de ne a symbol), 29{30, 34, 39.            Relative addresses, 15{16, 20, 30, 44,"
+        },
+        {
+          "line": 593,
+          "context": "  M[x℄, Mt [x℄, 4{5.                           Two's omplement notation, 4, 6, 24.\n  x & y, 10.                                   Uni ode, ii, 3{4, 26, 37, 44.\n  x j y, 10.                                   Unrolling a loop, 107{108.\nO'Beirne, Thomas Hay, 94, 111.                 Usage ounter, 20.\nOP eld of MMIXAL line, 28{30, 38.              Vi torius of Aquitaine, 111."
+        }
+      ]
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmixware-errata.html",
+      "sha256": "740b68475c94774ee2d143b0baa2d98111664e2e2c69ce3a29117311f8c4957e",
+      "matches": [
+        {
+          "line": 109,
+          "context": "a forced trap aborts its instruction as soon as possible.</dd>\n<dt>page 42, line 2 of section 37 (15 Jun 2002)</dt>\n<dd>change \"the the\" to \"the\"</dd>\n<dt>page 43, line 11 (15 Jun 2002)</dt>\n<dd>change \"<tt>GET $1,rK</tt>\" to \"<tt>LDOU $1,savedK</tt>\"</dd>"
+        },
+        {
+          "line": 281,
+          "context": "<dd>insert a copy of line 6 (\"if (sfile[handle].mode ... ~#1;\") here</dd>\n<dt>page 148, new paragraph to follow line 7 (19 Jul 2011)</dt>\n<dd>Many I/O devices communicate via bytes or wydes or tetras instead of octabytes. So these prototype routines have a <i>size</i> parameter, to distinguish between the various kinds of quantities that <tt>MMIX</tt> wants to read from and write to the memory-mapped addresses.</dd>\n<dt>page 148, additional changes (19 Jul 2011)</dt>\n<dd>(The new <i>spec_read</i> and <i>spec_write</i> involve a couple dozen"
+        },
+        {
+          "line": 283,
+          "context": "<dd>Many I/O devices communicate via bytes or wydes or tetras instead of octabytes. So these prototype routines have a <i>size</i> parameter, to distinguish between the various kinds of quantities that <tt>MMIX</tt> wants to read from and write to the memory-mapped addresses.</dd>\n<dt>page 148, additional changes (19 Jul 2011)</dt>\n<dd>(The new <i>spec_read</i> and <i>spec_write</i> involve a couple dozen\nrather tedious new lines of code, which can be found in the source file\n<a href=\"programs/mmix-mem.w\"><tt>mmix-mem.w</tt></a>.)</dd>"
+        },
+        {
+          "line": 403,
+          "context": "}</tt></dd>\n<dt>page 219, new line for end of section 148 (01 Jun 2011)</dt>\n<dd><b>bool</b> <i>stack_overflow</i>; /* stack overflow not yet reported */</dd>\n<dt>page 222, line 8 (27 Sep 2001)***</dt>\n<dd>change \"(cool_hist&amp;bp_bcmask)&lt;&lt;bp_b\" to"
+        },
+        {
+          "line": 817,
+          "context": "<dd>change \"do ... EOF)\" to \"while (j!='\\n' && j!=EOF) j=fgetc(src_file)\"</dd>\n<dt>page 444, line 5 of section 37 (10 May 2000)</dt>\n<dd>change \"char\" to \"Char\"</dd>\n<dt>page 444, line 6 of section 38 (15 Aug 2011)***</dt>\n<dd>change <tt>j=*p++-'0'</tt> to <tt>j=0</tt></dd>"
+        }
+      ]
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmixware-current.html",
+      "sha256": "13614aa34f4ad039b12d331064d993292837bc12bf7fd2073ff34bfa41ae9834",
+      "matches": []
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmix-upstream-bugs.html",
+      "sha256": "a9b8c36c7fe466afd03a42ac900cd1e3c13250b7bd9ef575d0f331e31960a61a",
+      "matches": []
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmix-upstream-rounding.html",
+      "sha256": "f864c5fc573f7049aaf2d3682c72ee09f78dfb3d7445a19dc891282f99314c1b",
+      "matches": []
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmix-arith-upstream-warnings.ch",
+      "sha256": "b4a916e0962e2f79828d6afca1a5a40775e82b725f45ec28664a3e66f6b093b4",
+      "matches": []
+    },
+    {
+      "path": "errata/text/all1.txt",
+      "sha256": "b641d6e48aaf2d77fc98a3c4a8a798d8156516b97095ec345a976e65d9c79aef",
+      "matches": [
+        {
+          "line": 340,
+          "context": "  always greater than 100 y always 0100 or more\nxPage 148 line 05 of Program P                                            28 Aug 2022\n      EQU -1 y EQU 99\nxPage 149 line 7                                                          27 Mar 2026\n  this ase, 499 y this ase, 599"
+        },
+        {
+          "line": 541,
+          "context": "  where A is m \u0002 n and B is n \u0002 m, and for related information.℄\n Page 478 line 3 of answer 37                                                                 12 May 2026\n  This formula would y The value of this sum-of- eilings would\n\n    12      CHANGES TO VOLUME 1: FUNDAMENTAL ALGORITHMS"
+        },
+        {
+          "line": 577,
+          "context": "xPage 486 line 2 of answer 31                                             29 Mar 2023\n  38{57 y 37{57\nxPage 489 line 1 of answer 58                                             29 Mar 2023\n    Arithmetik   y Arithmetik    2\n"
+        },
+        {
+          "line": 600,
+          "context": "\nxPage 495   line 1 of answer 37                                                 15 Nov 2023\n  1 (De ember y 1, 4 (De ember\n\nxPage 495 repla ement for last line of answer 37                                29 Mar 2023"
+        },
+        {
+          "line": 603,
+          "context": "\nxPage 495 repla ement for last line of answer 37                                29 Mar 2023\n  by A. J. S hwenk [Fibona i Quarterly 8 (1970), 225{234, 241℄.\nxPage 497 line 5 of answer 11                                                   29 Mar 2023\n    Invention Nouvelle en Alg\u0013ebre   y Invention Nouvelle en l'Algebre"
+        }
+      ]
+    },
+    {
+      "path": "errata/originals/err1.textxt",
+      "sha256": "f752c0a5fcf49686906e39fa5a1dab28b53adc8226b0a7e1a1b6cf850592bc91",
+      "matches": [
+        {
+          "line": 578,
+          "context": "\n\\bugonpage 1.148 line {\\it 05\\/} of Program P (22.08.28)\n\\indent\\.{EQU} \\ \\.{-1} \\becomes\n       \\.{EQU} \\ \\.{99} % because of exercise 1.3.1--26\n\\endchange"
+        },
+        {
+          "line": 881,
+          "context": "\n\\improvepage 1.478 line $-3$ of answer 37 (26.05.12)\nThis formula would \\becomes The value of this sum-of-ceilings would\n\\endchange\n"
+        },
+        {
+          "line": 925,
+          "context": "\\bugonpage 1.486 line 2 of answer 31 (23.03.29)\n38--57 \\becomes 37--57\n\\endchange\n\n\\bugonpage 1.489 line 1 of answer 58 (23.03.29)"
+        },
+        {
+          "line": 955,
+          "context": "\n\\bugonpage 1.495 line 1 of answer 37 (23.11.15)\n{\\bf 1} (December \\becomes {\\bf 1},\\thinspace4 (December\n\\endchange\n"
+        },
+        {
+          "line": 959,
+          "context": "\n\\bugonpage 1.495 replacement for last line of answer 37 (23.03.29)\n\\noindent by A. J. Schwenk\n[{\\sl Fibonacci Quarterly\\/ \\bf 8} (1970), 225--234, 241].\n\\endchange"
+        }
+      ]
+    }
+  ],
+  "semantic_review": "All matched contexts read. Fascicle page34 correction only clarifies mm=-2; page37 changes the term for #. The related MIX Program P page148 changes EQU -1 to99. MMIXware page148 discusses memory-mapped I/O; section37 hits are grammar/type corrections. None changes these MMIX timing coefficients. Exact numeral searches have no correction hit. No world-priority claim.",
+  "additional_web_queries": [
+    "site:www-cs-faculty.stanford.edu/~knuth \"10036\"",
+    "site:mmix.cs.hm.edu \"641543\""
+  ],
+  "additional_web_result": "No directly matching primary correction returned.",
+  "additional_contexts_read": [
+    "errata/originals/err1f1.textxt:392–432"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "updated_at_utc": "2026-11-07T02:22:25.340095+00:00",
+  "proof": "notes/recovery-pages-081-086.md",
+  "peer_reuse": "workstreams/vol1/notes/quality-recovery-section-1.4.3.1-2026-11-07.md section1 only; no MIX implementation imported",
+  "sources": [
+    {
+      "path": "workstreams/vol1/parallel/interpretive/sources/randell-russell1964.pdf",
+      "sha256": "1f913634448d98f4c9f7a7215f68f0b7bb253dad39a9eeb7f6bfe644e5ba1f0c",
+      "scope": "Exact p34–36 Whetstone Control Routine claim reused from peer recovery section1; no whole-book claim."
+    },
+    {
+      "path": "workstreams/vol1/parallel/interpretive/sources/tex.web",
+      "sha256": "c62ab513ef167e93f71a23bd34f311e243210afd7c7a0f9b779614b71e398324",
+      "scope": "Complete module545 and Part31/module583: ligature/kerning bytecode, DVI and explicit Fuchs1979 attribution; successor source, not exact1986 typesetting."
+    },
+    {
+      "path": "workstreams/vol1/parallel/interpretive/sources/dvips.texi",
+      "sha256": "e2e784ac9d619dfadef8ed2f8442636ed6133dcdb41e611a29e638dbab488051",
+      "scope": "Title/authorship and Invoking Dvips: DVI to PostScript; successor source, not historical binary."
+    },
+    {
+      "path": "workstreams/vol1/parallel/interpretive/sources/postscript1999.pdf",
+      "sha256": "6b29e79e4ab64aaa61a3fb27a0f36838c01f2530362873ac316bdb493a1bab6b",
+      "scope": "Exact third edition1999; original title/copyright and section3.1/p24/file38 displayed. Correct edition for MMIX."
+    }
+  ],
+  "postscript_primary_url": "https://www.adobe.com/jp/print/postscript/pdfs/PLRM.pdf",
+  "postscript_images": [
+    "images/postscript1999-file-001.png",
+    "images/postscript1999-file-002.png",
+    "images/postscript1999-file-038.png"
+  ],
+  "pipeline_excerpt": {
+    "archive": "sources/mmix-20250620.tar.gz",
+    "archive_member": "mmix-pipe.w",
+    "lines": [
+      1,
+      125
+    ],
+    "saved": "sources/mmix-pipe-20250620-introduction.txt",
+    "sha256": "188baa07972de91aba1dbdb1f80d89162f2a623810ade5b489dc4503567ab16c",
+    "scope": "Existence and stated purpose of the cited pipeline meta-simulator only."
+  },
+  "explicit_exclusions": [
+    "Knuth1963 and Evans1964 full technical article content unavailable; primary metadata and403 evidence inherited.",
+    "Exact1986 TeX printed edition not obtained.",
+    "Historical first-use/growth generalizations, author anecdotes and actual book production path."
+  ],
+  "new_program_execution": false,
+  "old_run_repeated": false
+}

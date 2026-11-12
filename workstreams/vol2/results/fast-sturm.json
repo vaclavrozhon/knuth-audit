@@ -1,0 +1,66 @@
+{
+  "blocks": {
+    "modular": {
+      "status": "passed",
+      "started_utc": "2026-11-04T01:32:51.077919+00:00",
+      "elapsed_seconds": 1.3086075999890454,
+      "pid": 1331432,
+      "counts": {
+        "half_calls": 4278,
+        "max_depth": 6,
+        "half_certificates": 4278,
+        "compact_certificates": 916,
+        "abnormal_quotients": 1003,
+        "sylvester_determinants": 460,
+        "reference_pairs": 916
+      }
+    },
+    "rational": {
+      "status": "passed",
+      "started_utc": "2026-11-04T01:33:21.938256+00:00",
+      "elapsed_seconds": 0.22526777704479173,
+      "pid": 1331517,
+      "counts": {
+        "half_calls": 111,
+        "max_depth": 3,
+        "half_certificates": 111,
+        "compact_certificates": 30,
+        "abnormal_quotients": 17,
+        "sylvester_determinants": 28,
+        "reference_pairs": 30
+      }
+    },
+    "sturm": {
+      "status": "passed",
+      "started_utc": "2026-11-04T01:33:22.722904+00:00",
+      "elapsed_seconds": 0.6211686099995859,
+      "pid": 1331519,
+      "counts": {
+        "half_calls": 426,
+        "max_depth": 3,
+        "half_certificates": 426,
+        "compact_certificates": 70,
+        "abnormal_quotients": 0,
+        "endpoint_value_checks": 1420,
+        "root_intervals": 13766,
+        "sturm_polynomials": 70
+      }
+    },
+    "gaps": {
+      "status": "passed",
+      "started_utc": "2026-11-04T01:34:45.970143+00:00",
+      "elapsed_seconds": 0.47622297500493005,
+      "pid": 1331613,
+      "counts": {
+        "half_calls": 440,
+        "max_depth": 7,
+        "half_certificates": 440,
+        "compact_certificates": 76,
+        "abnormal_quotients": 71,
+        "root_intervals": 6441,
+        "sturm_polynomials": 76
+      }
+    }
+  },
+  "scope": "Exact algebraic checks; schoolbook implementation is not a timing validation of FFT bounds."
+}

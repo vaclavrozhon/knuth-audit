@@ -1,0 +1,65 @@
+{
+  "at_utc": "2026-11-03T19:46:11.829333+00:00",
+  "pattern": "(?:[Pp]age\\s+(?:11[7-9]|12[0-2]|15[24]|480|481|288|289)\\b)|(?:\\b25[1-9]\\b)|(?:\\b260\\b)|(?:ROOT\\(0\\))|(?:Fibonacci)|(?:ZDD)|(?:sqrt)|(?:approximately)|(?:CODE)|(?:LEN)|(?:01111011)|(?:6n)",
+  "files": [
+    {
+      "file": "errata/text/all4b.txt",
+      "sha256": "b1a3425486f403fb4158585d5bbfef0159fd20b12e2e7d47b64e393e1ae8a303",
+      "matches": 12
+    },
+    {
+      "file": "errata/text/err4b.txt",
+      "sha256": "2a3450bf3c79d28ad3c2d96468344c96995cf0afb74961f257c311bb9c821e1c",
+      "matches": 12
+    },
+    {
+      "file": "errata/text/all4f5.txt",
+      "sha256": "0dd38c4cda72b01baefb797611c9bbab7713ff0c107a1df884afc89fe9bb91c3",
+      "matches": 20
+    },
+    {
+      "file": "errata/text/err4f5.txt",
+      "sha256": "5a716c34e2063eb46005593d53e89dbbd912b5677e0a6ab11753f2a5ee38b557",
+      "matches": 19
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "sha256": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+      "matches": 10
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "sha256": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b",
+      "matches": 17
+    }
+  ],
+  "context": "sources/zdd251_260/errata-contexts.txt",
+  "freshness_evidence": "results/csharp247_250/errata-search.json",
+  "scope": "main book119-122 / Fascicle5 printed117-120 / draft55-58; questions book154 / Fascicle5 printed152 / draft90; answers book480-481 / Fascicle5 printed288-289 / draft184-185.",
+  "superseded_initial_page_aliases": "main119-122,251-260; Fascicle5 corresponding214-218,246,288-289; text terms also searched",
+  "relevant_known_correction": {
+    "id": "E109",
+    "date": "2022-07-25",
+    "location": "Fascicle5 printed152, exercise252 line2",
+    "change": "ROOT(0) to RLINK(0)",
+    "book_applied": true,
+    "draft_applied": false
+  },
+  "findings_without_matching_correction": [
+    "F151",
+    "F152",
+    "F153"
+  ],
+  "candidates_without_matching_correction": [
+    "C041",
+    "C042"
+  ],
+  "targeted_web_search": {
+    "queries": [
+      "site-cs-faculty.stanford.edu/~knuth \"121\" \"approximately\" ZDD",
+      "\"Knuth\" \"ZDD\" \"sqrt\" \"255\"",
+      "\"Knuth\" \"256\" \"ZDD\" errata"
+    ],
+    "result": "No directly relevant correction returned. Search results do not establish novelty."
+  }
+}

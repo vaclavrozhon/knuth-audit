@@ -1,0 +1,89 @@
+{
+  "checked_at_utc": "2026-11-06T19:49:48.331587+00:00",
+  "target": "Directed overflow saturation in fpack/sfpack, O/X trips disabled.",
+  "search_terms": [
+    "fpack",
+    "sfpack",
+    "finteger",
+    "ROUND_OFF",
+    "STSF",
+    "floating overflow"
+  ],
+  "sources": [
+    {
+      "path": "errata/originals/err1f1.textxt",
+      "sha256": "07db671be6fcbc6c473ddc6593f6a16cce5833fb5f8a499ab7e2e3eee163dae3",
+      "matches": []
+    },
+    {
+      "path": "errata/text/err1f1.txt",
+      "sha256": "7d6366838076d106c09e85a4f93f1b151e94c9af9f6874ea27aa6f106cdf84b6",
+      "matches": []
+    },
+    {
+      "path": "errata/text/all1f1.txt",
+      "sha256": "c0b1a7c575ffcbced2bc6a7048143a16286a081908850ad0956258dd2f84b18e",
+      "matches": []
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmixware-errata.html",
+      "sha256": "740b68475c94774ee2d143b0baa2d98111664e2e2c69ce3a29117311f8c4957e",
+      "matches": [
+        {
+          "line": 483,
+          "text": "&nbsp; if (hot->op&gt;=STB&amp;&amp;hot->op&lt;STSF) q->size=(hot->op&amp;0xf)&gt;&gt;2;<br>"
+        },
+        {
+          "line": 484,
+          "text": "&nbsp; else if (hot->op&gt=STSF&amp;&amp;hot->op&gt;STCO) q->size=2;<br>"
+        }
+      ]
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmixware-current.html",
+      "sha256": "13614aa34f4ad039b12d331064d993292837bc12bf7fd2073ff34bfa41ae9834",
+      "matches": []
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmix-upstream-bugs.html",
+      "sha256": "a9b8c36c7fe466afd03a42ac900cd1e3c13250b7bd9ef575d0f331e31960a61a",
+      "matches": []
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmix-upstream-rounding.html",
+      "sha256": "f864c5fc573f7049aaf2d3682c72ee09f78dfb3d7445a19dc891282f99314c1b",
+      "matches": []
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmix-arith-upstream-warnings.ch",
+      "sha256": "b4a916e0962e2f79828d6afca1a5a40775e82b725f45ec28664a3e66f6b093b4",
+      "matches": [
+        {
+          "line": 25,
+          "text": "octa fpack @,@,@[ARGS((octa,int,char,int))@];@+@t}\\6{@>"
+        },
+        {
+          "line": 27,
+          "text": "octa fpack @,@,@[ARGS((octa,int,int,int))@];@+@t}\\6{@>"
+        },
+        {
+          "line": 30,
+          "text": "the sign is used in fpack and funpack which where changed to use ints"
+        },
+        {
+          "line": 46,
+          "text": "same as fpack (see above)"
+        },
+        {
+          "line": 49,
+          "text": "tetra sfpack @,@,@[ARGS((octa,int,char,int))@];@+@t}\\6{@>"
+        },
+        {
+          "line": 51,
+          "text": "tetra sfpack @,@,@[ARGS((octa,int,int,int))@];@+@t}\\6{@>"
+        }
+      ]
+    }
+  ],
+  "semantic_review": "MMIX architecture standard-convention, rounding-mode, status and handler paragraphs were read in full; historical and current arithmetic corrections were compared. Known sfpack tininess and fplus guard fixes do not supply directed overflow saturation. No matching public correction in these layers; no claim of global novelty."
+}

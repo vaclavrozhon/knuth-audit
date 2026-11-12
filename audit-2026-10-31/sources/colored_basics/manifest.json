@@ -1,0 +1,41 @@
+{
+  "checked_at_utc": "2026-11-01T23:57:29.732607+00:00",
+  "sources": [
+    {
+      "file": "sources/colored_basics/mittag-publications.html",
+      "url": "https://www.mittag-leffler.se/publications/",
+      "final_url": "https://www.mittag-leffler.se/publications/",
+      "bytes": 40593,
+      "sha256": "3df61836d86e18ff3da76d37d235b7a6689734d2db0e207c0e8234a5284d4273",
+      "scope": "The issuing institute dates the founding of Acta Mathematica to1882.",
+      "status": "archived"
+    },
+    {
+      "url": "https://math.nist.gov/opsf/misc/op2616.html",
+      "status": "unavailable",
+      "reason": "HTTP Error 403: Forbidden",
+      "intended_scope": "First-person library account: Riesz table published1913, biographies, article lists and portraits."
+    },
+    {
+      "file": "sources/colored_basics/bibliography1913.pdf",
+      "url": "https://www.e-periodica.ch/cntmng?bot=1&pid=ens-001%3A1913%3A15%3A%3A304",
+      "final_url": "https://www.e-periodica.ch/cntmng?bot=1&pid=ens-001%3A1913%3A15%3A%3A304",
+      "bytes": 11975616,
+      "sha256": "05ca1b180116d737f52d9cf7c1bc36b2adb6773dd79d706718688c5e85d20c15",
+      "scope": "Contemporary1913 bulletin, printedp528: Riesz supplement has179pages, contents and portraits.",
+      "status": "archived"
+    },
+    {
+      "file": "sources/colored_basics/domar1982.pdf",
+      "url": "https://archive.ymsc.tsinghua.edu.cn/pacm_download/117/6309-11511_2006_Article_BF02392722.pdf",
+      "final_url": "https://archive.ymsc.tsinghua.edu.cn/pacm_download/117/6309-11511_2006_Article_BF02392722.pdf",
+      "bytes": 361076,
+      "sha256": "df4c1fa3a76475d4c571f082f69f29df5e3b280f17f510bac87e9627f3aa8be0",
+      "scope": "History published by Acta Mathematica, printedp8: first issue presented12December1882.",
+      "status": "archived"
+    }
+  ],
+  "conclusion": "Candidate C025:1882+21=1903, not1913. The cited table covers1882--1912, three decades. Verify its original preface and the commemorative occasion before confirming.",
+  "limitations": "The full Riesz1913 table and its preface have not been obtained; the exhaustiveness of27 names relative to contributors and TAOCP1\u20133 indexes remains unverified. NIST readable via web tool, direct download403. E-periodica public bot=1 link yielded the10-page original bulletin after the initial HTML verification response; printedp528 visually checked.",
+  "script_sha256": "89806574557723df69f190cd29076dddb719e34a47b192f30be1de1ebfa074a2"
+}

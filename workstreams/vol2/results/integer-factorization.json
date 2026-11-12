@@ -1,0 +1,198 @@
+{
+  "blocks": {
+    "hensel": {
+      "status": "passed",
+      "started_at_utc": "2026-11-04T02:53:48.027459+00:00",
+      "elapsed_seconds": null,
+      "stats": {
+        "enumerated_lift_candidates": 2760,
+        "unique_lifts": 60,
+        "doubling_lifts": 108
+      },
+      "scope": "Recovered completed assertions before separate book-example failure. Trace reached line181 after both loops; no new arithmetic run. Individual elapsed time and Python PID not recorded; driver PID1337860, timeout PID1337861.",
+      "source_log": "results/integer-factorization-hensel-transcription.log"
+    },
+    "hensel_book": {
+      "status": "passed",
+      "started_at_utc": "2026-11-04T02:54:54.675247+00:00",
+      "pid": 1337937,
+      "elapsed_seconds": 0.0015913280076347291,
+      "stats": {},
+      "binary_lift_mod16": [
+        [
+          -1,
+          3,
+          1
+        ],
+        [
+          5,
+          -3,
+          4,
+          -4,
+          -5,
+          -3,
+          1
+        ]
+      ]
+    },
+    "recombine": {
+      "status": "passed",
+      "started_at_utc": "2026-11-04T02:54:55.211770+00:00",
+      "pid": 1337939,
+      "elapsed_seconds": 0.22584213700611144,
+      "stats": {
+        "multifactor_lifts": 185,
+        "recombination_trials": 85,
+        "integer_factorizations": 36
+      },
+      "lift_mod169": [
+        [
+          -36,
+          1
+        ],
+        [
+          -66,
+          82,
+          -18,
+          1
+        ],
+        [
+          84,
+          69,
+          -10,
+          54,
+          1
+        ]
+      ],
+      "weak_bound_filter_counterexample": {
+        "u": [
+          100,
+          101,
+          2,
+          1
+        ],
+        "p": 41,
+        "B": 20,
+        "ordered_factors": [
+          [
+            18,
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "rejected_constant": 18,
+        "actual_factor": [
+          1,
+          1
+        ]
+      }
+    },
+    "bounds": {
+      "status": "passed",
+      "started_at_utc": "2026-11-04T02:54:55.541303+00:00",
+      "elapsed_seconds": null,
+      "stats": {
+        "exact_coefficient_bounds": 2766,
+        "complex_reflection_identities": 50
+      },
+      "scope": "Recovered completed assertions before separate rounding comparison. Source trace reached line320 after all general checks; no repeated checks. Count reconstructed only from RNG draws, without polynomial arithmetic. Individual elapsed time not recorded.",
+      "source_log": "results/integer-factorization-bounds-rounding.log"
+    },
+    "graeffe": {
+      "status": "passed",
+      "started_at_utc": "2026-11-04T02:57:38.222885+00:00",
+      "pid": 1338198,
+      "elapsed_seconds": 0.0041584669961594045,
+      "stats": {
+        "graeffe_sign_counterexample_steps": 8
+      },
+      "graeffe_norm_upper_bounds": [
+        "10.6301458127346494079991219149293142219672643",
+        "12.4155561557045288728601769346214659175791882",
+        "6.8537603165226484364546160504097691011079002",
+        "6.63562412935014487966738745566905047453311335",
+        "6.64530716318791100874563771249134944880096878",
+        "6.6227476915618595014855619615736686565423827",
+        "6.6224569058788292931714137830296661269505343",
+        "6.62245658854296342693939115424899632411642939"
+      ],
+      "printed_roundings": [
+        "10.63",
+        "12.42",
+        "6.85",
+        "6.64",
+        "6.65",
+        "6.6228",
+        "6.62246",
+        "6.62246"
+      ],
+      "precision_candidate": "t=5: nearest rounding6.6227, printed6.6228; absolute error0.000052308438..., less than one unit in last place. No explicit rounding convention.",
+      "graeffe_limit_counterexample": "u=2x-1; normalized t-th iterate=(1-2^(2^t)x)/sqrt(1+2^(2^(t+1))) -> -x."
+    },
+    "modular": {
+      "status": "passed",
+      "started_at_utc": "2026-11-04T02:57:38.773104+00:00",
+      "pid": 1338200,
+      "elapsed_seconds": 0.19050716800848022,
+      "stats": {
+        "crt_degree_resets": 150,
+        "modular_gcd_primes": 236,
+        "modular_gcd_inputs": 100
+      },
+      "book_discriminant": "-5869831203567",
+      "bad_primes": [
+        3,
+        23,
+        233,
+        121702457
+      ],
+      "discriminant_degree_drop_examples": [
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          1,
+          1,
+          2,
+          2
+        ]
+      ]
+    },
+    "basic": {
+      "status": "passed",
+      "started_at_utc": "2026-11-04T02:57:39.523417+00:00",
+      "pid": 1338202,
+      "elapsed_seconds": 0.441769327968359,
+      "stats": {
+        "subset_degree_vectors": 3279,
+        "reconstructed_coefficients": 524,
+        "reconstructed_polynomial_factors": 120
+      },
+      "exercise18_transformed": [
+        -36,
+        12,
+        -3,
+        1
+      ],
+      "exercise25_factors": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          -1,
+          0,
+          1
+        ]
+      ]
+    }
+  }
+}

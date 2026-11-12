@@ -1,0 +1,437 @@
+{
+  "dekker_p2": {
+    "cases": 4,
+    "exhaustive": true,
+    "maximum_first_difference": "8",
+    "small_precision_cases": [
+      {
+        "u": 2,
+        "v": 2,
+        "uh": "2",
+        "ul": "0",
+        "vh": "2",
+        "vl": "0",
+        "w": "4",
+        "first_subtraction": "0",
+        "residual": "0"
+      },
+      {
+        "u": 2,
+        "v": 3,
+        "uh": "2",
+        "ul": "0",
+        "vh": "4",
+        "vl": "-1",
+        "w": "6",
+        "first_subtraction": "2",
+        "residual": "0"
+      },
+      {
+        "u": 3,
+        "v": 2,
+        "uh": "4",
+        "ul": "-1",
+        "vh": "2",
+        "vl": "0",
+        "w": "6",
+        "first_subtraction": "2",
+        "residual": "0"
+      },
+      {
+        "u": 3,
+        "v": 3,
+        "uh": "4",
+        "ul": "-1",
+        "vh": "4",
+        "vl": "-1",
+        "w": "8",
+        "first_subtraction": "8",
+        "residual": "1"
+      }
+    ]
+  },
+  "dekker_p3": {
+    "cases": 16,
+    "exhaustive": true,
+    "maximum_first_difference": "32",
+    "small_precision_cases": [
+      {
+        "u": 4,
+        "v": 4,
+        "uh": "4",
+        "ul": "0",
+        "vh": "4",
+        "vl": "0",
+        "w": "16",
+        "first_subtraction": "0",
+        "residual": "0"
+      },
+      {
+        "u": 4,
+        "v": 5,
+        "uh": "4",
+        "ul": "0",
+        "vh": "4",
+        "vl": "1",
+        "w": "20",
+        "first_subtraction": "-4",
+        "residual": "0"
+      },
+      {
+        "u": 4,
+        "v": 6,
+        "uh": "4",
+        "ul": "0",
+        "vh": "8",
+        "vl": "-2",
+        "w": "24",
+        "first_subtraction": "8",
+        "residual": "0"
+      },
+      {
+        "u": 4,
+        "v": 7,
+        "uh": "4",
+        "ul": "0",
+        "vh": "8",
+        "vl": "-1",
+        "w": "28",
+        "first_subtraction": "4",
+        "residual": "0"
+      },
+      {
+        "u": 5,
+        "v": 4,
+        "uh": "4",
+        "ul": "1",
+        "vh": "4",
+        "vl": "0",
+        "w": "20",
+        "first_subtraction": "-4",
+        "residual": "0"
+      },
+      {
+        "u": 5,
+        "v": 5,
+        "uh": "4",
+        "ul": "1",
+        "vh": "4",
+        "vl": "1",
+        "w": "24",
+        "first_subtraction": "-8",
+        "residual": "1"
+      },
+      {
+        "u": 5,
+        "v": 6,
+        "uh": "4",
+        "ul": "1",
+        "vh": "8",
+        "vl": "-2",
+        "w": "32",
+        "first_subtraction": "0",
+        "residual": "-2"
+      },
+      {
+        "u": 5,
+        "v": 7,
+        "uh": "4",
+        "ul": "1",
+        "vh": "8",
+        "vl": "-1",
+        "w": "32",
+        "first_subtraction": "0",
+        "residual": "3"
+      },
+      {
+        "u": 6,
+        "v": 4,
+        "uh": "8",
+        "ul": "-2",
+        "vh": "4",
+        "vl": "0",
+        "w": "24",
+        "first_subtraction": "8",
+        "residual": "0"
+      },
+      {
+        "u": 6,
+        "v": 5,
+        "uh": "8",
+        "ul": "-2",
+        "vh": "4",
+        "vl": "1",
+        "w": "32",
+        "first_subtraction": "0",
+        "residual": "-2"
+      },
+      {
+        "u": 6,
+        "v": 6,
+        "uh": "8",
+        "ul": "-2",
+        "vh": "8",
+        "vl": "-2",
+        "w": "32",
+        "first_subtraction": "32",
+        "residual": "4"
+      },
+      {
+        "u": 6,
+        "v": 7,
+        "uh": "8",
+        "ul": "-2",
+        "vh": "8",
+        "vl": "-1",
+        "w": "40",
+        "first_subtraction": "24",
+        "residual": "2"
+      },
+      {
+        "u": 7,
+        "v": 4,
+        "uh": "8",
+        "ul": "-1",
+        "vh": "4",
+        "vl": "0",
+        "w": "28",
+        "first_subtraction": "4",
+        "residual": "0"
+      },
+      {
+        "u": 7,
+        "v": 5,
+        "uh": "8",
+        "ul": "-1",
+        "vh": "4",
+        "vl": "1",
+        "w": "32",
+        "first_subtraction": "0",
+        "residual": "3"
+      },
+      {
+        "u": 7,
+        "v": 6,
+        "uh": "8",
+        "ul": "-1",
+        "vh": "8",
+        "vl": "-2",
+        "w": "40",
+        "first_subtraction": "24",
+        "residual": "2"
+      },
+      {
+        "u": 7,
+        "v": 7,
+        "uh": "8",
+        "ul": "-1",
+        "vh": "8",
+        "vl": "-1",
+        "w": "48",
+        "first_subtraction": "16",
+        "residual": "1"
+      }
+    ]
+  },
+  "dekker_p4": {
+    "cases": 64,
+    "exhaustive": true,
+    "maximum_first_difference": "64",
+    "small_precision_cases": []
+  },
+  "dekker_p5": {
+    "cases": 256,
+    "exhaustive": true,
+    "maximum_first_difference": "256",
+    "small_precision_cases": []
+  },
+  "dekker_p6": {
+    "cases": 1024,
+    "exhaustive": true,
+    "maximum_first_difference": "512",
+    "small_precision_cases": []
+  },
+  "dekker_p7": {
+    "cases": 4096,
+    "exhaustive": true,
+    "maximum_first_difference": "2048",
+    "small_precision_cases": []
+  },
+  "dekker_p8": {
+    "cases": 1036,
+    "exhaustive": false,
+    "maximum_first_difference": "4096",
+    "small_precision_cases": []
+  },
+  "dekker_p9": {
+    "cases": 1036,
+    "exhaustive": false,
+    "maximum_first_difference": "16384",
+    "small_precision_cases": []
+  },
+  "mod_b2_p1": {
+    "cases": 12,
+    "book_rule_failures": 0,
+    "witness": null
+  },
+  "mod_b2_p2": {
+    "cases": 28,
+    "book_rule_failures": 0,
+    "witness": null
+  },
+  "mod_b2_p3": {
+    "cases": 64,
+    "book_rule_failures": 0,
+    "witness": null
+  },
+  "mod_b3_p1": {
+    "cases": 24,
+    "book_rule_failures": 0,
+    "witness": null
+  },
+  "mod_b3_p2": {
+    "cases": 84,
+    "book_rule_failures": 0,
+    "witness": null
+  },
+  "mod_b3_p3": {
+    "cases": 288,
+    "book_rule_failures": 0,
+    "witness": null
+  },
+  "mod_b4_p1": {
+    "cases": 36,
+    "book_rule_failures": 1,
+    "witness": {
+      "u": "-1/8",
+      "rounded_fraction": "3/4",
+      "computed_floor": "-3/4",
+      "true_floor": "-1"
+    }
+  },
+  "mod_b4_p2": {
+    "cases": 168,
+    "book_rule_failures": 2,
+    "witness": {
+      "u": "-1/32",
+      "rounded_fraction": "15/16",
+      "computed_floor": "-15/16",
+      "true_floor": "-1"
+    }
+  },
+  "mod_b4_p3": {
+    "cases": 768,
+    "book_rule_failures": 8,
+    "witness": {
+      "u": "-9/128",
+      "rounded_fraction": "59/64",
+      "computed_floor": "-63/64",
+      "true_floor": "-1"
+    }
+  },
+  "mod_b5_p1": {
+    "cases": 48,
+    "book_rule_failures": 0,
+    "witness": null
+  },
+  "mod_b5_p2": {
+    "cases": 280,
+    "book_rule_failures": 0,
+    "witness": null
+  },
+  "mod_b5_p3": {
+    "cases": 1600,
+    "book_rule_failures": 0,
+    "witness": null
+  },
+  "mod_b6_p1": {
+    "cases": 60,
+    "book_rule_failures": 0,
+    "witness": null
+  },
+  "mod_b6_p2": {
+    "cases": 420,
+    "book_rule_failures": 0,
+    "witness": null
+  },
+  "mod_b6_p3": {
+    "cases": 2880,
+    "book_rule_failures": 0,
+    "witness": null
+  },
+  "mod_b7_p1": {
+    "cases": 72,
+    "book_rule_failures": 0,
+    "witness": null
+  },
+  "mod_b7_p2": {
+    "cases": 588,
+    "book_rule_failures": 0,
+    "witness": null
+  },
+  "mod_b7_p3": {
+    "cases": 4704,
+    "book_rule_failures": 0,
+    "witness": null
+  },
+  "mod_b8_p1": {
+    "cases": 84,
+    "book_rule_failures": 1,
+    "witness": {
+      "u": "-1/16",
+      "rounded_fraction": "7/8",
+      "computed_floor": "-7/8",
+      "true_floor": "-1"
+    }
+  },
+  "mod_b8_p2": {
+    "cases": 784,
+    "book_rule_failures": 4,
+    "witness": {
+      "u": "-5/128",
+      "rounded_fraction": "61/64",
+      "computed_floor": "-63/64",
+      "true_floor": "-1"
+    }
+  },
+  "mod_b8_p3": {
+    "cases": 7168,
+    "book_rule_failures": 32,
+    "witness": {
+      "u": "-17/1024",
+      "rounded_fraction": "503/512",
+      "computed_floor": "-511/512",
+      "true_floor": "-1"
+    }
+  },
+  "mod_b9_p1": {
+    "cases": 96,
+    "book_rule_failures": 0,
+    "witness": null
+  },
+  "mod_b9_p2": {
+    "cases": 1008,
+    "book_rule_failures": 0,
+    "witness": null
+  },
+  "mod_b9_p3": {
+    "cases": 10368,
+    "book_rule_failures": 0,
+    "witness": null
+  },
+  "mod_b10_p1": {
+    "cases": 108,
+    "book_rule_failures": 0,
+    "witness": null
+  },
+  "mod_b10_p2": {
+    "cases": 1260,
+    "book_rule_failures": 0,
+    "witness": null
+  },
+  "mod_b10_p3": {
+    "cases": 14400,
+    "book_rule_failures": 0,
+    "witness": null
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "checked_at_utc": "2026-11-12T03:56:40.355522+00:00",
+  "original": "books/taocp-vol4b-ed1-print2-2022.pdf",
+  "images": [
+    "audit-2026-10-31/sources/bookwise-hard-sat-p654.png",
+    "audit-2026-10-31/sources/bookwise-permanent-p367.png",
+    "audit-2026-10-31/sources/bookwise-fasc6a-hard-sat-p291.png"
+  ],
+  "errata": [
+    "errata/text/all4b.txt",
+    "errata/text/err4b.txt",
+    "errata/text/all4f6.txt",
+    "errata/text/err4f6.txt"
+  ],
+  "errata_scopes": {
+    "4B": [
+      [
+        313,
+        317
+      ],
+      [
+        367,
+        369
+      ],
+      [
+        651,
+        655
+      ]
+    ],
+    "F6": [
+      [
+        129,
+        133
+      ],
+      [
+        183,
+        185
+      ],
+      [
+        287,
+        291
+      ]
+    ]
+  },
+  "refresh_manifests": [
+    "integration/2026-11-10-bookwise/errata/vol4b-manifest.json",
+    "integration/2026-11-10-bookwise/errata/vol4b-sat-manifest.json"
+  ],
+  "public_queries": [
+    "Knuth \"525\" \"3n variables\" \"5n\"",
+    "Knuth \"654\" \"525\" errata variables"
+  ],
+  "public_result": "No matching correction found. Not a priority guarantee.",
+  "related_primary_paper": {
+    "url": "https://citeseerx.ist.psu.edu/document?doi=4a2c3ef0ba427b0edc67c8fe92bbd594c5bb0e31&repid=rep1&type=pdf",
+    "title": "Klas Markström, Locality and Hard SAT-Instances (2006)",
+    "scope": "Section 2, especially subdividing an edge; not used as evidence of a book error."
+  },
+  "author_source": {
+    "archive": "audit-2026-10-31/sources/knuth-programs/SATexamples.tgz",
+    "sha256": "4d9cc6a62a06e47e6f1cc04adf93d146649e274bfe1705392c494e17263b2305",
+    "url": "https://www-cs-faculty.stanford.edu/~knuth/programs/SATexamples.tgz",
+    "extracted": [
+      "audit-2026-10-31/sources/bookwise-sat-tseytin.w",
+      "audit-2026-10-31/sources/bookwise-sat-eulerian-balance.w"
+    ],
+    "executed": false
+  },
+  "retained_findings": [
+    "F064"
+  ],
+  "new_findings": [
+    "F254"
+  ],
+  "not_promoted": [
+    "C001: n naturally counts occurring variables",
+    "525 odd-vertex construction: resolved by the author source"
+  ],
+  "known_not_new": [
+    "521 Forget -> Keep, F6 erratum 2022-06-21",
+    "521 citation updated 2023-01-19",
+    "313 heavy dot",
+    "317 exercise5 replacement",
+    "518 earlier matrix and parameter fixes"
+  ]
+}

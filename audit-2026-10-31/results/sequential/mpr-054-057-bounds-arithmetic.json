@@ -1,0 +1,78 @@
+{
+  "checked_at_utc": "2026-11-06T23:46:01.349422+00:00",
+  "purpose": "Two exact rational-bound calculations and numerical comparisons only",
+  "cases": [
+    {
+      "p": "1/2",
+      "first_moment": "15",
+      "second_moment": "555/2",
+      "conditional_mean": "37/2",
+      "lower_bound": "30/37",
+      "upper_bound": "15",
+      "printed_fraction": "35165158461687/35184372088832",
+      "printed_fraction_is_true_probability_verified": false,
+      "rounding": [
+        {
+          "label": "derived lower bound",
+          "value": "30/37",
+          "decimal_to_3_places": 811,
+          "rounding_interval": [
+            "1621/2000",
+            "1623/2000"
+          ],
+          "positive_lower_cross_product": 23,
+          "positive_upper_cross_product": 51
+        },
+        {
+          "label": "unverified printed probability fraction",
+          "value": "35165158461687/35184372088832",
+          "decimal_to_3_places": 999,
+          "rounding_interval": [
+            "1997/2000",
+            "1999/2000"
+          ],
+          "positive_lower_cross_product": 67125861976496,
+          "positive_upper_cross_product": 3242882201168
+        }
+      ]
+    },
+    {
+      "p": "1/10",
+      "first_moment": "3/25",
+      "second_moment": "981/6250",
+      "conditional_mean": "327/250",
+      "lower_bound": "10/109",
+      "upper_bound": "3/25",
+      "printed_fraction": "4180246784470862526910349589019919032987399/40000000000000000000000000000000000000000000",
+      "printed_fraction_is_true_probability_verified": false,
+      "rounding": [
+        {
+          "label": "derived lower bound",
+          "value": "10/109",
+          "decimal_to_3_places": 92,
+          "rounding_interval": [
+            "183/2000",
+            "37/400"
+          ],
+          "positive_lower_cross_product": 53,
+          "positive_upper_cross_product": 33
+        },
+        {
+          "label": "unverified printed probability fraction",
+          "value": "4180246784470862526910349589019919032987399/40000000000000000000000000000000000000000000",
+          "decimal_to_3_places": 105,
+          "rounding_interval": [
+            "209/2000",
+            "211/2000"
+          ],
+          "positive_lower_cross_product": 493568941725053820699178039838065974798000,
+          "positive_upper_cross_product": 79506431058274946179300821960161934025202000
+        }
+      ]
+    }
+  ],
+  "graph_enumerations": 0,
+  "bdd_constructions": 0,
+  "historical_node_count_verified": false,
+  "elapsed_seconds": 0.0003376919776201248
+}

@@ -1,0 +1,52 @@
+{
+  "status": "all corrected assertions passed",
+  "counts": {
+    "SAT_oracle_truth_table_checks": 512,
+    "unfiltered_embedding_pairs": 1954,
+    "embedding_pairs_with_isolate_preprocessing": 5776,
+    "sinz_at_most_two_assignments": 508,
+    "connectivity_encodings": 10810,
+    "unbounded_path_encodings": 53410,
+    "bounded_path_encodings": 557217,
+    "printed_390d_mismatches": 27929
+  },
+  "390d_first_distinct_endpoint_counterexample": {
+    "n": 2,
+    "edges": [
+      [
+        0,
+        1
+      ]
+    ],
+    "s": 0,
+    "t": 1,
+    "k": 2,
+    "distance": 1,
+    "printed_clauses": [
+      [
+        1
+      ],
+      [
+        -1,
+        4
+      ],
+      [
+        -2,
+        3
+      ],
+      [
+        -3,
+        6
+      ],
+      [
+        -4,
+        5
+      ],
+      [
+        -6
+      ]
+    ]
+  },
+  "390b_auxiliary_variables_for_degree_4": 4,
+  "scope": "All graphs through five vertices for path/connectivity encodings; embedding pairs through four vertices; Sinz r=2 through eight inputs."
+}

@@ -1,0 +1,144 @@
+{
+  "counts": {
+    "binary_tensors": 258,
+    "balanced_inputs": 40,
+    "margin_inputs": 4104,
+    "definition_mismatches": 912,
+    "gadget_inputs": 614,
+    "grid_solutions": 659,
+    "printed_gadget_false_negatives": 69
+  },
+  "definition_witnesses": [
+    {
+      "n": 1,
+      "R": [],
+      "C": [
+        [
+          0,
+          0
+        ]
+      ],
+      "P": [],
+      "loose_count": 1,
+      "exact_count": 0
+    },
+    {
+      "n": 1,
+      "R": [
+        [
+          0,
+          0
+        ]
+      ],
+      "C": [],
+      "P": [],
+      "loose_count": 1,
+      "exact_count": 0
+    },
+    {
+      "n": 1,
+      "R": [
+        [
+          0,
+          0
+        ]
+      ],
+      "C": [
+        [
+          0,
+          0
+        ]
+      ],
+      "P": [],
+      "loose_count": 1,
+      "exact_count": 0
+    },
+    {
+      "n": 2,
+      "R": [],
+      "C": [
+        [
+          0,
+          0
+        ]
+      ],
+      "P": [],
+      "loose_count": 1,
+      "exact_count": 0
+    }
+  ],
+  "minimal_gadget_input": {
+    "N": 1,
+    "list_11": [
+      1
+    ]
+  },
+  "printed_output": {
+    "R": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "C": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "P": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "solutions": 0
+  },
+  "corrected_output": {
+    "R": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "C": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "P": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "solutions": 1
+  },
+  "correction": "In answer212(d), replace k=(I,J,Kprime) with k=Kprime.",
+  "status": "all assertions passed"
+}

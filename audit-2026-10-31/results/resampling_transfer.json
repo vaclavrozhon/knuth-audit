@@ -1,0 +1,16 @@
+{
+  "transfer_sizes_checked": 40,
+  "independent_moment_sizes_checked": 9,
+  "transfer_matrix": [
+    [
+      "1/2",
+      "1/2"
+    ],
+    [
+      "(4+z)/(2(4-z))",
+      "z/(2(4-z))"
+    ]
+  ],
+  "pgf_recurrence": "(4-z)G_n=2G_(n-1)+G_(n-2); G_0=G_1=1",
+  "mean": "(n-1)/4 + (1-(-1/3)^(n-1))/16"
+}

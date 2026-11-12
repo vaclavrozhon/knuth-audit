@@ -1,0 +1,105 @@
+{
+  "purpose": "Named companion polynomials in answer1.3.1\u2032\u201337 only. General proof inherited from workstreams/vol2/notes/primitive-polynomials.md.",
+  "method": "Exact GF(2) shift/XOR multiplication and repeated squaring, no enumeration.",
+  "certificates": [
+    {
+      "degree": 2,
+      "polynomial_mask": "0x7",
+      "order": 3,
+      "distinct_prime_factors": [
+        3
+      ],
+      "power_residues": {
+        "3": "0x1",
+        "1": "0x2"
+      },
+      "criterion_satisfied": true
+    },
+    {
+      "degree": 3,
+      "polynomial_mask": "0xd",
+      "order": 7,
+      "distinct_prime_factors": [
+        7
+      ],
+      "power_residues": {
+        "7": "0x1",
+        "1": "0x2"
+      },
+      "criterion_satisfied": true
+    },
+    {
+      "degree": 4,
+      "polynomial_mask": "0x19",
+      "order": 15,
+      "distinct_prime_factors": [
+        3,
+        5
+      ],
+      "power_residues": {
+        "15": "0x1",
+        "5": "0xb",
+        "3": "0x8"
+      },
+      "criterion_satisfied": true
+    },
+    {
+      "degree": 5,
+      "polynomial_mask": "0x29",
+      "order": 31,
+      "distinct_prime_factors": [
+        31
+      ],
+      "power_residues": {
+        "31": "0x1",
+        "1": "0x2"
+      },
+      "criterion_satisfied": true
+    },
+    {
+      "degree": 6,
+      "polynomial_mask": "0x61",
+      "order": 63,
+      "distinct_prime_factors": [
+        3,
+        7
+      ],
+      "power_residues": {
+        "63": "0x1",
+        "21": "0x39",
+        "9": "0x2f"
+      },
+      "criterion_satisfied": true
+    },
+    {
+      "degree": 7,
+      "polynomial_mask": "0xc1",
+      "order": 127,
+      "distinct_prime_factors": [
+        127
+      ],
+      "power_residues": {
+        "127": "0x1",
+        "1": "0x2"
+      },
+      "criterion_satisfied": true
+    },
+    {
+      "degree": 8,
+      "polynomial_mask": "0x171",
+      "order": 255,
+      "distinct_prime_factors": [
+        3,
+        5,
+        17
+      ],
+      "power_residues": {
+        "255": "0x1",
+        "85": "0xdb",
+        "51": "0x4d",
+        "15": "0xc1"
+      },
+      "criterion_satisfied": true
+    }
+  ]
+}

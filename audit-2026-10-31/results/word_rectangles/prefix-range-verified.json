@@ -1,0 +1,35 @@
+{
+  "verified": true,
+  "checked_at_utc": "2026-11-01T15:29:17.125266+00:00",
+  "dictionary": "sources/wordlists/words6-from-OSPD4",
+  "dictionary_sha256": "a1cd9eceab7eaabe9470f470fb6b26b042b9fe80a7e04c03ae2307dec0b01af8",
+  "minimal_example": {
+    "word_length": 1,
+    "words": 1,
+    "prefixes_by_length": [
+      1,
+      1
+    ],
+    "nodes_for_printed_closed_range": 2,
+    "nodes_for_corrected_half_open_range": 1,
+    "extra_terminal_nodes": 1
+  },
+  "six_letter_dictionary": {
+    "word_length": 6,
+    "words": 15727,
+    "prefixes_by_length": [
+      1,
+      26,
+      279,
+      2501,
+      8297,
+      12563,
+      15727
+    ],
+    "nodes_for_printed_closed_range": 39394,
+    "nodes_for_corrected_half_open_range": 23667,
+    "extra_terminal_nodes": 15727
+  },
+  "correction": "For allocated 26-entry nodes on p.36, use 0 <= l < n.",
+  "scope": "The printed count 23667 and terminal-rank convention are correct."
+}

@@ -1,0 +1,44 @@
+{
+  "identities": {
+    "continuants": 4096,
+    "folds": 5460,
+    "seconds": 0.22183613400557078
+  },
+  "first_number": {
+    "exact_partial_sums": 13,
+    "exact_coefficients": 20476,
+    "symbolic_coefficients": 81920,
+    "seconds": 0.14819874800741673
+  },
+  "liouville_exact": {
+    "partial_sums": 54,
+    "coefficients": 2108,
+    "bases": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "max_factorial": 7,
+    "seconds": 0.016136650985572487
+  },
+  "liouville_symbolic": {
+    "coefficients": 491414,
+    "raw_binary_coefficients": 131036,
+    "max_stage": 16,
+    "scope": "Huge powers represented by exponent-stage tokens; these are exact symbolic comparisons, not enormous integer construction.",
+    "seconds": 16.529620051005622
+  },
+  "dragon": {
+    "reflections": 65519,
+    "odd_jacobi": 5000
+  },
+  "status": "passed",
+  "final_pid": 1231692,
+  "scope": "General proofs are in euclid-folding.md; finite checks independently use Euclidean CF extraction and exact series sums."
+}

@@ -1,0 +1,103 @@
+{
+  "exercise": "7.2.2.1-193-195",
+  "status": "All checks pass; no discrepancy found in the stated positive-parameter range.",
+  "recurrence_calibration": "Measured complete graphs K_0 through K_11 recorded in algorithm_x_validation.json.",
+  "floor_formulas_checked": "194(a,b), every 1<=q<=100 with 500-decimal arithmetic; 194(a) also holds at q=0. The written sum in (b) is treated for q>=1.",
+  "C": "8.24360635350064073424325393907081785826888050355074005",
+  "C_prime": "10.0534306732122399884541235570955752066173931281259609",
+  "asymptotic_residuals": [
+    {
+      "q": 1,
+      "odd_error_after_linear_term": "-5.4872127070012814684865078781416357165",
+      "even_error_after_linear_term": "-5.0534306732122399884541235570955752066"
+    },
+    {
+      "q": 2,
+      "odd_error_after_linear_term": "-4.9488508280051258739460315125665428661",
+      "even_error_after_linear_term": "-4.1602920196367199653623706712867256198"
+    },
+    {
+      "q": 5,
+      "odd_error_after_linear_term": "-4.4483974424604194940951260319405757525",
+      "even_error_after_linear_term": "-3.4919861855667890891467614553185702534"
+    },
+    {
+      "q": 10,
+      "odd_error_after_linear_term": "-4.2371200987360459715585882563441802969",
+      "even_error_after_linear_term": "-3.2488771663185789964728956416215396816"
+    },
+    {
+      "q": 20,
+      "odd_error_after_linear_term": "-4.1218133151093957203564799057396637800",
+      "even_error_after_linear_term": "-3.1248516871172649849377319690071655202"
+    },
+    {
+      "q": 50,
+      "odd_error_after_linear_term": "-4.0494954384026320321836563743006971744",
+      "even_error_after_linear_term": "-3.0499902016923459110236288554338656702"
+    },
+    {
+      "q": 100,
+      "odd_error_after_linear_term": "-4.0248744027638936267039160086131167035",
+      "even_error_after_linear_term": "-3.0249987625575967201135207439474928263"
+    }
+  ],
+  "graph89_exact_tests": [
+    {
+      "q": 2,
+      "r": 2,
+      "solutions": 9,
+      "updates": 109
+    },
+    {
+      "q": 2,
+      "r": 3,
+      "solutions": 45,
+      "updates": 516
+    },
+    {
+      "q": 2,
+      "r": 4,
+      "solutions": 315,
+      "updates": 3227
+    },
+    {
+      "q": 3,
+      "r": 2,
+      "solutions": 45,
+      "updates": 468
+    },
+    {
+      "q": 3,
+      "r": 3,
+      "solutions": 225,
+      "updates": 2329
+    },
+    {
+      "q": 3,
+      "r": 4,
+      "solutions": 1575,
+      "updates": 16204
+    },
+    {
+      "q": 4,
+      "r": 2,
+      "solutions": 315,
+      "updates": 3179
+    },
+    {
+      "q": 4,
+      "r": 3,
+      "solutions": 1575,
+      "updates": 15876
+    },
+    {
+      "q": 4,
+      "r": 4,
+      "solutions": 11025,
+      "updates": 111069
+    }
+  ],
+  "graph89_exact_formula": "4+2q+2r+U(2s)+M(2s)U(2t)+U(2 min(q,r-1)+1), s=min(q,r), t=max(q,r), M(2s)=(2s-1)!!.",
+  "seconds": 0.196
+}

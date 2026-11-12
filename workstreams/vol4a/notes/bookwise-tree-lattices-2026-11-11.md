@@ -1,0 +1,11 @@
+# Three lattices of forests
+
+Reviewed exercises 26–35 on 473–476 and answers 786–790 through answer 35. This completes whole answer page 790, whose remaining material was checked in X0168. Other material sharing exercise page 476 remains pending.
+
+Checked the noncrossing-partition correspondence, restricted-growth reconstruction, refinement join, covering operation and leaf rank of the Kreweras lattice; the duality description and displayed 15-node diagram; and the stated four-node failure of semimodularity. Checked scope-interval validity, coordinatewise Tamari meet, rotation covers, dual join, the two lattice comparisons and their concrete counterexample, and the shortest/longest maximal-chain lengths. Answer 27(f)'s result is right but its printed proof has reversed inequalities: F0117.
+
+Checked the Stanley lattice's coordinate minima/maxima, distributivity, cover operation and reflected worm paths, and the implication from Tamari order. Checked a nonplanar quadrilateral in the supplied associahedron coordinates. The 2020 canopy erratum replaces the old false product formula: the new recurrence separates a unary root at either end from a binary root at an internal separator and has the correct binomial base case. Checked canopy duality, meet/join behavior, complements, all degenerate-tree encodings and their Boolean sublattice property. Known corrections are excluded from findings.
+
+Checked the frozen-coordinate construction and both directions of the meet-fiber interval proof in answer 32. The construction is sound; F0118 records a reversed concluding inequality and an incomplete substitution in the semidistributivity application. Checked the single-permutation link representation, descending family cycles, dual formula, transposition split and the factorization recurrence. F0119 corrects the last derivative limit, which then gives the stated n^(n-2). Checked the staircase-tableau interpretation and hook product in answer 34. Cited, census and extended-geometric exceptions are recorded separately.
+
+Next: main 451/file 468, counting and random trees; exercises 39,41–43,46 onward and answers from 792. Already checked: exercises 1–38,40,44,45; main through 450.

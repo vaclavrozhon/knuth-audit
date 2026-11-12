@@ -1,0 +1,375 @@
+{
+  "id": "F7-C0009",
+  "status": "candidate",
+  "severity": "low",
+  "original": {
+    "file_page": 185,
+    "printed_page": 170,
+    "target": "Answer55(c), final equality in the p1=pm=−1 reduction paragraph; exponent p3+1.",
+    "context_file_pages": [
+      133
+    ],
+    "images": [
+      "images/file-185.png",
+      "images/file-185-answer55c.png",
+      "images/file-133.png"
+    ]
+  },
+  "witness": {
+    "m": 6,
+    "p": [
+      -1,
+      0,
+      1,
+      0,
+      0,
+      -1
+    ],
+    "q": 11,
+    "normal_form_matrix": [
+      [
+        -2,
+        1
+      ],
+      [
+        7,
+        -3
+      ]
+    ],
+    "original": {
+      "word": "ABAABBBAABB",
+      "matrix": [
+        [
+          -2,
+          1
+        ],
+        [
+          7,
+          -3
+        ]
+      ],
+      "trace": -5
+    },
+    "printed_reduced": {
+      "word": "ABBAABBBB",
+      "matrix": [
+        [
+          7,
+          -4
+        ],
+        [
+          12,
+          -7
+        ]
+      ],
+      "trace": 0
+    },
+    "corrected_reduced": {
+      "word": "ABBBBAABBBB",
+      "matrix": [
+        [
+          12,
+          -7
+        ],
+        [
+          29,
+          -17
+        ]
+      ],
+      "trace": -5
+    },
+    "realizable_boundary": {
+      "polygon": [
+        [
+          0,
+          0
+        ],
+        [
+          3,
+          "3/200"
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          8,
+          6
+        ],
+        [
+          "2797/400",
+          "2797/400"
+        ],
+        [
+          "599/100",
+          "799/100"
+        ],
+        [
+          "1997/400",
+          "3597/400"
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          -2,
+          6
+        ],
+        [
+          "-33/25",
+          "901/225"
+        ],
+        [
+          "-49/75",
+          "451/225"
+        ]
+      ],
+      "case_word": "VΛVVΛΛΛVVΛΛ",
+      "source_corners": [
+        [
+          0,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          8,
+          6
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          -2,
+          6
+        ]
+      ],
+      "inward_subdivisions": [
+        1,
+        0,
+        3,
+        0,
+        2
+      ],
+      "points": {
+        "v00": [
+          -2,
+          6
+        ],
+        "v01": [
+          "-33/25",
+          "901/225"
+        ],
+        "v02": [
+          "-49/75",
+          "451/225"
+        ],
+        "v03": [
+          0,
+          0
+        ],
+        "v04": [
+          3,
+          "3/200"
+        ],
+        "v05": [
+          4,
+          10
+        ],
+        "v06": [
+          "1997/400",
+          "3597/400"
+        ],
+        "v07": [
+          "599/100",
+          "799/100"
+        ],
+        "v08": [
+          6,
+          0
+        ],
+        "v09": [
+          "2797/400",
+          "2797/400"
+        ],
+        "v10": [
+          8,
+          6
+        ]
+      },
+      "junctions": {
+        "v03": {
+          "type": "V",
+          "neighbors": [
+            "v04",
+            "v02"
+          ]
+        },
+        "v04": {
+          "type": "V",
+          "neighbors": [
+            "v03",
+            "v08"
+          ]
+        },
+        "v08": {
+          "type": "V",
+          "neighbors": [
+            "v10",
+            "v04"
+          ]
+        },
+        "v10": {
+          "type": "V",
+          "neighbors": [
+            "v09",
+            "v08"
+          ]
+        },
+        "v09": {
+          "type": "V",
+          "neighbors": [
+            "v10",
+            "v07"
+          ]
+        },
+        "v07": {
+          "type": "V",
+          "neighbors": [
+            "v09",
+            "v06"
+          ]
+        },
+        "v06": {
+          "type": "V",
+          "neighbors": [
+            "v07",
+            "v05"
+          ]
+        },
+        "v05": {
+          "type": "V",
+          "neighbors": [
+            "v00",
+            "v06"
+          ]
+        },
+        "v00": {
+          "type": "V",
+          "neighbors": [
+            "v01",
+            "v05"
+          ]
+        },
+        "v01": {
+          "type": "V",
+          "neighbors": [
+            "v00",
+            "v02"
+          ]
+        },
+        "v02": {
+          "type": "V",
+          "neighbors": [
+            "v01",
+            "v03"
+          ]
+        }
+      },
+      "faces": [
+        {
+          "walk": [
+            "v00",
+            "v01",
+            "v02",
+            "v03",
+            "v04",
+            "v08",
+            "v10",
+            "v09",
+            "v07",
+            "v06",
+            "v05"
+          ],
+          "area_twice": "366367/2700"
+        },
+        {
+          "walk": [
+            "v00",
+            "v05",
+            "v06",
+            "v07",
+            "v09",
+            "v10",
+            "v08",
+            "v04",
+            "v03",
+            "v02",
+            "v01"
+          ],
+          "area_twice": "-366367/2700"
+        }
+      ],
+      "boundary": [
+        "v00",
+        "v01",
+        "v02",
+        "v03",
+        "v04",
+        "v08",
+        "v10",
+        "v09",
+        "v07",
+        "v06",
+        "v05"
+      ]
+    }
+  },
+  "support": [
+    "notes/F7-C0009.md",
+    "notes/hc-boundary-matrix-bounds-055.md",
+    "check_reduction55c.py",
+    "results/reduction55c.json"
+  ],
+  "errata": [
+    {
+      "path": "workstreams/vol4-fasc7/sources/err4f7-2026-11-06.textxt",
+      "sha256": "5367c0ddd98ba05c1384dbf36a261c8492442aed6eb9d12cf3a9874258c55661",
+      "check": "Full source searched for170,118,55,reduction and exponent; the20Aug2026 answer55 entry only changes M to M or XMX and five n to q. No change to p3+1. Both PDF entries also visually inspected."
+    },
+    {
+      "path": "errata/pdf/err4f7.pdf",
+      "sha256": "f117610d9e040d2543739e9fdb1e3c7947d6a63f7b99c2d9b21ecc1e21c13864",
+      "check": "Full source searched for170,118,55,reduction and exponent; the20Aug2026 answer55 entry only changes M to M or XMX and five n to q. No change to p3+1. Both PDF entries also visually inspected."
+    },
+    {
+      "path": "errata/pdf/all4f7.pdf",
+      "sha256": "6675df9e26dd9d8cefbf3b8d722c88a701206c8c704ce499d5f86ac1c1d64039",
+      "check": "Full source searched for170,118,55,reduction and exponent; the20Aug2026 answer55 entry only changes M to M or XMX and five n to q. No change to p3+1. Both PDF entries also visually inspected."
+    },
+    {
+      "path": "workstreams/vol4-fasc7/sources/err4f7-C0007-2026-11-07.txt",
+      "sha256": "0afe5f3e8fb61612c2f8370a3bb6280fd560e183cac2d745ec66386d3af5cca3",
+      "check": "Full source searched for170,118,55,reduction and exponent; the20Aug2026 answer55 entry only changes M to M or XMX and five n to q. No change to p3+1. Both PDF entries also visually inspected."
+    },
+    {
+      "path": "workstreams/vol4-fasc7/sources/all4f7-C0007-2026-11-07.txt",
+      "sha256": "ef32430ffd04c186e1a332f2fae10a37f5813e8f383cbb61c5c42fc1ad91598e",
+      "check": "Full source searched for170,118,55,reduction and exponent; the20Aug2026 answer55 entry only changes M to M or XMX and five n to q. No change to p3+1. Both PDF entries also visually inspected."
+    }
+  ],
+  "errata_images": [
+    "images/err4f7-page13-C0009.png",
+    "images/all4f7-page14-C0009-cairo.png"
+  ],
+  "limits": [
+    "The final bounds55(b–c) are true and have a complete repaired proof.",
+    "The finding is one incorrect intermediate trace equality; replace the first reduced exponent p3+1 by p3+3."
+  ],
+  "independent_review": "Awaiting coordinator review",
+  "updated_at_utc": "2026-11-07T01:02:53.517081+00:00"
+}

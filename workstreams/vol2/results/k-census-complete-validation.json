@@ -1,0 +1,24 @@
+{
+  "g_cycles_lengths": [
+    2,
+    5,
+    7,
+    5215,
+    5699,
+    8751,
+    17345
+  ],
+  "algorithm_k_cycles_lengths": [
+    1,
+    1,
+    3,
+    943,
+    1024,
+    1606,
+    3178
+  ],
+  "independent_f_graph_vertices": 37024,
+  "independent_f_cycle_decomposition": "indegree peeling; all cycles agree",
+  "completeness": "Exhaustive census plus the graph proof in notes; validator checks every cycle edge independently.",
+  "status": "all assertions passed"
+}

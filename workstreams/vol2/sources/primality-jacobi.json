@@ -1,0 +1,113 @@
+{
+  "accessed_utc": "2026-11-03T17:35:35.624194+00:00",
+  "scope": "Exercise4.5.4-23 pp413-414,662-663; second location of C0129.",
+  "book_visually_read": [
+    413,
+    414,
+    662,
+    663
+  ],
+  "book_djvu_offset": 12,
+  "primary_sources": [
+    {
+      "name": "Lebesgue1847",
+      "url": "https://www.numdam.org/item/JMPA_1847_1_12__497_0.pdf",
+      "read_scope": "Printed497,503-507,517 visually; sectionIII computation fully read. Applications508-517 not audited. Same stored PDF as gcd-context block; repeated download was byte-identical and removed.",
+      "path": "sources/lebesgue-1847.pdf",
+      "bytes": 833717,
+      "sha256": "9e562b66632da9161a7ff8976e43c33abb90606a707f8d9ad3afc6ac2c24517e"
+    }
+  ],
+  "web_sources": [
+    {
+      "url": "https://epubs.siam.org/doi/10.1137/0206006",
+      "scope": "Publisher abstract, bibliography, submitted12June1974. Full1977paper not obtained."
+    },
+    {
+      "url": "https://epubs.siam.org/doi/pdf/10.1137/0207009?download=true",
+      "scope": "Complete one-page1978erratum read in web text extraction; not visually read. Direct local download403; no PDF stored."
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/0304397580900079",
+      "scope": "Indexed publisher metadata and author abstract. FullMonier1980paper not obtained; landing403."
+    },
+    {
+      "url": "https://www.numdam.org/item/JMPA_1850_1_15__215_0/",
+      "scope": "Metadata only: linked continuation is1850pp215-237, not1847pp518-520."
+    }
+  ],
+  "unavailable_sources": [
+    {
+      "url": "https://www.digizeitschriften.de/download/pdf/243919689_0030/log16.pdf",
+      "reason": "404; Jacobi1837reprint1846 not obtained"
+    },
+    {
+      "url": "https://academic.hep.com.cn/foe/CN/chapter/971058/chapter23",
+      "reason": "Timeout; Jacobi collected-works chapter not obtained"
+    },
+    {
+      "url": "https://gallica.bnf.fr/ark:/12148/bpt6k16391k/f526.highres",
+      "reason": "403. Existing Serret518 local source from earlier block already establishes next article; no retry needed."
+    }
+  ],
+  "errata_files": [
+    {
+      "path": "errata/text/all2-prepre.txt",
+      "bytes": 137797,
+      "sha256": "62a1ff323ca421f2640e2337f922dbf8cfc8e86c20d9b11acfc91221721c6f58"
+    },
+    {
+      "path": "errata/text/all2-pre.txt",
+      "bytes": 58401,
+      "sha256": "c1735b70547678d739eae3a8d7b02872c737218eed7706a0aba8fb6fc21a6529"
+    },
+    {
+      "path": "errata/text/all2.txt",
+      "bytes": 38902,
+      "sha256": "1c4d7f2259e147db0ebe84b4bf0ce8864b307afb4ccfbe48efcb1f5f5999ac58"
+    },
+    {
+      "path": "errata/text/err2.txt",
+      "bytes": 35603,
+      "sha256": "1b5c93712c3c467a48679e0040ba6c5869998b25184dbd125a5d096ce96e9ab0"
+    },
+    {
+      "path": "errata/originals/err2.textxt",
+      "bytes": 48721,
+      "sha256": "8faa21566312314ec6bda0f8956913deb312517fd9fa688dcc0bf19e1f21962e"
+    }
+  ],
+  "errata_visual_pdf_pages": {
+    "all2_prepre": [
+      24
+    ]
+  },
+  "errata_result": "20Apr1998 spacing before t on414. No correction to mathematics23 or Lebesgue range662 in any layer/currentTeX.",
+  "artifacts": [
+    {
+      "path": "verify_primality_jacobi.py",
+      "bytes": 5240,
+      "sha256": "f2a68f0fec4d3dca95b4e056115791178a0ef1bd7c977f97cc091346aeda7a18"
+    },
+    {
+      "path": "results/primality-jacobi.json",
+      "bytes": 2582,
+      "sha256": "33cbc922847674b3534f7bc613ec837775dccbd8d8478ce077bc311c6c36fce3"
+    },
+    {
+      "path": "results/primality-jacobi-counts.csv",
+      "bytes": 53244,
+      "sha256": "a5cf2653b2ae801a8bd0264776af57e41057f311464aa42f62c0fb4b705f186d"
+    },
+    {
+      "path": "results/primality-jacobi.log",
+      "bytes": 2582,
+      "sha256": "33cbc922847674b3534f7bc613ec837775dccbd8d8478ce077bc311c6c36fce3"
+    }
+  ],
+  "findings_updated": [
+    "V2-C0129"
+  ],
+  "new_findings": [],
+  "limitations": "Finite check is not the general proof. Physical latest printing and priority unverified. No report sent."
+}

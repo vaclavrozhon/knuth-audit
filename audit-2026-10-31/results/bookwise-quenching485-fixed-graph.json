@@ -1,0 +1,111 @@
+{
+  "scope": "Two fixed five-vertex graphs only",
+  "edges": [
+    [
+      1,
+      5
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "initial_moves": [
+    [
+      "q",
+      2
+    ],
+    [
+      "q",
+      4
+    ],
+    [
+      "s",
+      2
+    ]
+  ],
+  "winning_sequences": [
+    [
+      [
+        "q",
+        4
+      ],
+      [
+        "s",
+        1
+      ],
+      [
+        "q",
+        1
+      ],
+      [
+        "q",
+        1
+      ]
+    ]
+  ],
+  "survivors_with_printed_unconditional_clause": 0,
+  "survivors_with_missing_edge_guard": 1,
+  "card_variant": {
+    "cards": [
+      "AH",
+      "KH",
+      "KC",
+      "QD",
+      "QH"
+    ],
+    "edges": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "winning_sequences": [
+      [
+        [
+          "q",
+          4
+        ],
+        [
+          "s",
+          1
+        ],
+        [
+          "q",
+          1
+        ],
+        [
+          "q",
+          1
+        ]
+      ]
+    ],
+    "printed_clause_eliminates_all": true,
+    "guarded_clause_preserves_solution": true
+  },
+  "seconds": 0.0004176470683887601
+}

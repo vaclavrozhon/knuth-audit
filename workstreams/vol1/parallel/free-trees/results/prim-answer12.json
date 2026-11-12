@@ -1,0 +1,171 @@
+{
+  "counterexample_costs": {
+    "1,2": 2,
+    "1,3": 30,
+    "1,4": 1,
+    "2,3": 20,
+    "2,4": 3,
+    "3,4": 10
+  },
+  "literal_original_trace": [
+    {
+      "step": 1,
+      "edge": [
+        1,
+        4
+      ],
+      "before": {
+        "1": 1,
+        "2": 3,
+        "3": 10
+      },
+      "after": {
+        "1": "infinity",
+        "2": 2,
+        "3": 10
+      },
+      "parents_after": {
+        "1": 4,
+        "2": 1,
+        "3": 4
+      }
+    },
+    {
+      "step": 2,
+      "edge": [
+        2,
+        1
+      ],
+      "before": {
+        "1": "infinity",
+        "2": 2,
+        "3": 10
+      },
+      "after": {
+        "1": 2,
+        "2": "infinity",
+        "3": 10
+      },
+      "parents_after": {
+        "1": 2,
+        "2": 1,
+        "3": 4
+      }
+    },
+    {
+      "step": 3,
+      "edge": [
+        1,
+        2
+      ],
+      "before": {
+        "1": 2,
+        "2": "infinity",
+        "3": 10
+      },
+      "after": {
+        "1": "infinity",
+        "2": 2,
+        "3": 10
+      },
+      "parents_after": {
+        "1": 2,
+        "2": 1,
+        "3": 4
+      }
+    }
+  ],
+  "corrected_trace": [
+    {
+      "step": 1,
+      "edge": [
+        1,
+        4
+      ],
+      "before": {
+        "1": 1,
+        "2": 3,
+        "3": 10
+      },
+      "after": {
+        "1": "infinity",
+        "2": 2,
+        "3": 10
+      },
+      "parents_after": {
+        "1": 4,
+        "2": 1,
+        "3": 4
+      }
+    },
+    {
+      "step": 2,
+      "edge": [
+        2,
+        1
+      ],
+      "before": {
+        "1": "infinity",
+        "2": 2,
+        "3": 10
+      },
+      "after": {
+        "1": "infinity",
+        "2": "infinity",
+        "3": 10
+      },
+      "parents_after": {
+        "1": 4,
+        "2": 1,
+        "3": 4
+      }
+    },
+    {
+      "step": 3,
+      "edge": [
+        3,
+        4
+      ],
+      "before": {
+        "1": "infinity",
+        "2": "infinity",
+        "3": 10
+      },
+      "after": {
+        "1": "infinity",
+        "2": "infinity",
+        "3": "infinity"
+      },
+      "parents_after": {
+        "1": 4,
+        "2": 1,
+        "3": 4
+      }
+    }
+  ],
+  "original_components": 2,
+  "correct_minimum_cost": 13,
+  "exhaustive_complete_graph_checks": {
+    "1": {
+      "instances": 1,
+      "original_disconnected_outputs": 0,
+      "corrected_outputs_match_independent_kruskal": 1
+    },
+    "2": {
+      "instances": 3,
+      "original_disconnected_outputs": 0,
+      "corrected_outputs_match_independent_kruskal": 3
+    },
+    "3": {
+      "instances": 27,
+      "original_disconnected_outputs": 0,
+      "corrected_outputs_match_independent_kruskal": 27
+    },
+    "4": {
+      "instances": 729,
+      "original_disconnected_outputs": 445,
+      "corrected_outputs_match_independent_kruskal": 729
+    }
+  },
+  "proof_not_replaced_by_tests": "notes/prim-answer12.md"
+}

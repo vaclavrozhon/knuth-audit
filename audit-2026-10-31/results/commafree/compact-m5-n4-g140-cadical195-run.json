@@ -1,0 +1,63 @@
+{
+  "m": 5,
+  "n": 4,
+  "goal": 140,
+  "words": 600,
+  "cycle_classes": 150,
+  "prefix_suffix_variables": 310,
+  "variables": 2460,
+  "clauses": 9691,
+  "raw_three_word_negative_clauses": 1041600,
+  "raw_positive_class_clauses": 150,
+  "symmetry_words": [
+    "0010",
+    "0001"
+  ],
+  "pid": 688888,
+  "started_at_utc": "2026-11-01T15:04:29.104296+00:00",
+  "status": "UNSAT",
+  "command": [
+    "/tmp/knuth-audit-sat-venv/bin/python",
+    "audit-2026-10-31/check_commafree_large.py",
+    "solve",
+    "--m",
+    "5",
+    "--n",
+    "4",
+    "--goal",
+    "140",
+    "--expected",
+    "UNSAT",
+    "--proof"
+  ],
+  "time_limit_seconds": 172800,
+  "solver": "cadical195",
+  "proof_requested": true,
+  "cnf_sha256": "1f02cd9e3999ee4627c3b884a2306ed6b23a1daccc880d72f402715c72ee40d7",
+  "solver_stats": {
+    "restarts": 424263,
+    "conflicts": 10924245,
+    "decisions": 17898579,
+    "propagations": 1370965460
+  },
+  "proof_file": "compact-m5-n4-g140-cadical195.drat",
+  "proof_bytes": 934925204,
+  "proof_format": "binary DRAT",
+  "proof_check": "verified",
+  "finished_at_utc": "2026-11-01T16:06:18.308555+00:00",
+  "elapsed_seconds": 3709.216312646866,
+  "expected": "UNSAT",
+  "proof_returncode": 0,
+  "proof_archive": "compact-m5-n4-g140-cadical195.drat.gz",
+  "proof_sha256": "ad7d6ff8d703e0d1e2468526657dbfe99ece5210494b71d89d5c966e58f874ef",
+  "proof_archive_sha256": "4d520f537d10ad46a99973d2e8c3e955b25cd64e4bdbebb1ffcf71c5a8f5fed8",
+  "proof_archive_bytes": 473058160,
+  "proof_archive_verified_at_utc": "2026-11-01T17:44:05.162093+00:00",
+  "proof_archive_command": [
+    "/usr/bin/python3",
+    "audit-2026-10-31/archive_drat.py",
+    "audit-2026-10-31/results/commafree/compact-m5-n4-g140-cadical195-run.json"
+  ],
+  "proof_archive_script_sha256": "c8ff5a3eb0c1b89f103bc0c4fd37498fd10f1ae77005a67257f280b9683cf551",
+  "proof_reproduction": "Decompress gzip to the original .drat path before invoking the recorded drat-trim command."
+}

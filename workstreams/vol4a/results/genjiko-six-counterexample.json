@@ -1,0 +1,32 @@
+{
+  "n": 6,
+  "minimum_crossing_counts": {
+    "0": 132,
+    "1": 64,
+    "2": 6,
+    "3": 1
+  },
+  "single_crossing_by_number_of_blocks": {
+    "2": 13,
+    "3": 36,
+    "4": 15
+  },
+  "printed_single_crossing_count": 63,
+  "actual_single_crossing_count": 64,
+  "actual_at_most_one_crossing_count": 196,
+  "omitted_partition": [
+    [
+      1,
+      6
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      5
+    ]
+  ],
+  "omitted_partition_crossings_at_heights_3_1_2": 1
+}

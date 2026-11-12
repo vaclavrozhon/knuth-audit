@@ -1,0 +1,42 @@
+{
+  "checked_at_utc": "2026-11-11T18:09:13.173348+00:00",
+  "edition": "Volume4A, first edition, first printing, 2011; inventory/books.json",
+  "originals": [
+    "images/bookwise-p273.png",
+    "images/bookwise-p274.png",
+    "images/bookwise-p660.png",
+    "images/bookwise-p661.png",
+    "images/bookwise-p662.png",
+    "images/bookwise-p663.png",
+    "images/bookwise-p665.png"
+  ],
+  "errata": [
+    "errata/text/all4a-pre.txt",
+    "errata/text/all4a.txt",
+    "errata/text/err4a.txt",
+    "errata/text/all4f1.txt",
+    "errata/text/err4f1.txt"
+  ],
+  "pages_screened": "4A251–252,273–274,660–665; Fascicle1 corresponding pages, including226–230",
+  "retrieval_manifests": [
+    "integration/2026-11-10-bookwise/errata/vol4a-manifest.json",
+    "integration/2026-11-10-bookwise/errata/vol4a-fasc1-manifest.json"
+  ],
+  "known_excluded": [
+    "206 polynomial complexity bounds replaced by exponential worst-case answer (2025)",
+    "215 external bibliography update",
+    "217 strongly separated covering count corrected before this edition; wording correction2013"
+  ],
+  "public_queries": [
+    "Knuth \"663\" \"211\" \"profile\"",
+    "Knuth \"213\" \"(2,1)\" \"(3,2)\"",
+    "\"mutilated chessboard\" \"324,480\"",
+    "\"exact cover\" \"q_k\" \"z_k\" Knuth"
+  ],
+  "public_result": "No matching independent correction located. Results included the book draft and unrelated mathematical material. Absolute novelty is not established.",
+  "findings": [
+    "V4A-F0047",
+    "V4A-F0048"
+  ],
+  "dismissed": "203(c)(iv) correctly mixes ordinary union and family join; original enlarged to disambiguate."
+}

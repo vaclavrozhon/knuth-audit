@@ -1,0 +1,38 @@
+{
+  "checked_at_utc": "2026-11-07T00:50:47.799450+00:00",
+  "target": "Volume3, printed92/file103, the statement that increments3,2,1 minimize average moves for N=8; contextual scope may be Table5 only.",
+  "typesetting": "workstreams/vol3/images/insertion-file-103.png",
+  "queries": [
+    "printed92 and93, including first-edition page93",
+    "minimize/minimi, average number of moves, three-pass",
+    "3 2 1;5 2 1;817/105;7.78"
+  ],
+  "layers": [
+    {
+      "path": "errata/text/all3-prepre.txt",
+      "checked": true,
+      "result": "No relevant statement/minimum correction found in the target-page and terminology checks. Nearby page92 corrections fix formula9 and TheoremI; neither changes the practical minimum sentence."
+    },
+    {
+      "path": "errata/text/all3-pre.txt",
+      "checked": true,
+      "result": "No relevant statement/minimum correction found in the target-page and terminology checks."
+    },
+    {
+      "path": "errata/text/all3.txt",
+      "checked": true,
+      "result": "No relevant statement/minimum correction found in the target-page and terminology checks. Known2023-03-15 correction changes274.42u to274.41u for4,2,1; known2025-05-26 replacement concerns the Sedgewick sequence theorem, not this minimum."
+    },
+    {
+      "path": "errata/text/err3.txt",
+      "checked": true,
+      "result": "No relevant statement/minimum correction found in the target-page and terminology checks. Known2023-03-15 correction changes274.42u to274.41u for4,2,1; known2025-05-26 replacement concerns the Sedgewick sequence theorem, not this minimum."
+    },
+    {
+      "path": "errata/text/err3-1e.txt",
+      "checked": true,
+      "result": "No relevant statement/minimum correction found in the target-page and terminology checks. Historical page93 notation changes rename h indices; no5,2,1 comparison or qualification of the minimum. Numerical8170 and other distant minima are unrelated matches."
+    }
+  ],
+  "conclusion": "No supplied layer corrects or narrows this sentence. This is a candidate concerning its implicit domain, not a confirmed error. The unrelated Table5 rounding correction is known errata."
+}

@@ -1,0 +1,19 @@
+{
+  "accessed_utc": "2026-11-03",
+  "book_visual": [
+    "images/euclid-approx-p379.png",
+    "images/euclid-approx-p656.png"
+  ],
+  "errata": {
+    "searched": [
+      "all2-prepre",
+      "all2-pre",
+      "all2",
+      "err2",
+      "sources/err2.textxt"
+    ],
+    "scope": "Page379/656, answer50, first-hit and endpoint wording searched. No correction found."
+  },
+  "proof_scope": "Own exact counterexample and general corrected two-function recursion. No external source needed beyond provided book. Termination proved directly from interval widths, without relying on an unverified density theorem.",
+  "validation_scope": "Exact quadratic numbers; helper gamma<=1 tested. Original task gamma<1 counterexample separately exact."
+}

@@ -1,0 +1,43 @@
+{
+  "finding": "V3-C0031",
+  "checked_at_utc": "2026-11-07T03:38:43.716878+00:00",
+  "scope": "Volume3 ProgramQ p117 lines25/27, whether the stated threshold domain includes large M on binary MIX.",
+  "original_evidence": [
+    "workstreams/vol3/images/exchanging-file-128.png",
+    "workstreams/vol3/images/exchanging-file-129.png",
+    "workstreams/vol3/images/quicksort-mix-effective-address.png"
+  ],
+  "query_scope": [
+    "All modern115-119 entries and historical117-120 entries for Algorithm/ProgramQ.",
+    "Semantic searches for DEC4, DEC1, overflow, address, threshold and4095 across all five volume3 layers.",
+    "The local volume1 p127 effective-address definition was visually checked; page/semantic checks in its supplied standard-edition errata found no change to this definition. Fascicle1 p127 entries concern its index, not MIX."
+  ],
+  "layers": [
+    {
+      "name": "all3-prepre",
+      "source": "errata/text/all3-prepre.txt",
+      "conclusion": "Known116 parenthesis,118 comment punctuation and119 first-s-keys clarification do not change25/27 or restrict M. No matching address correction found."
+    },
+    {
+      "name": "all3-pre",
+      "source": "errata/text/all3-pre.txt",
+      "conclusion": "No matching program-line or threshold-domain correction. Other program changes concern Batcher and separate algorithms."
+    },
+    {
+      "name": "all3",
+      "source": "errata/text/all3.txt",
+      "conclusion": "No matching page or semantic correction."
+    },
+    {
+      "name": "err3",
+      "source": "errata/text/err3.txt",
+      "conclusion": "No matching page or semantic correction."
+    },
+    {
+      "name": "err3-1e",
+      "source": "errata/text/err3-1e.txt",
+      "conclusion": "Historical117-118 changes remove redundant R and repair the line15 arrow;120 changes a citation. No restriction or correction of the effective-address sums M+j/M+l."
+    }
+  ],
+  "conclusion": "No supplied correction resolves the literal large-threshold counterexample. Candidate status is retained because the surrounding prose may intend only small recommended thresholds."
+}

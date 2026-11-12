@@ -1,0 +1,71 @@
+{
+  "checked_at_utc": "2026-11-12T03:08:15.404348+00:00",
+  "new_findings": [
+    "F242"
+  ],
+  "reused_findings": [
+    "F053",
+    "F054"
+  ],
+  "historical_wording_candidate": "C010; natural both-polarity convention used, no promotion.",
+  "errata_ranges": {
+    "4B": [
+      [
+        289,
+        292
+      ],
+      [
+        359,
+        361
+      ],
+      [
+        636,
+        639
+      ]
+    ],
+    "4F6": [
+      [
+        105,
+        108
+      ],
+      [
+        175,
+        177
+      ],
+      [
+        272,
+        275
+      ]
+    ]
+  },
+  "errata_files": [
+    "errata/text/all4b.txt",
+    "errata/text/err4b.txt",
+    "errata/text/all4f6.txt",
+    "errata/text/err4f6.txt",
+    "errata/originals/err4b.textxt",
+    "errata/originals/err4f6.textxt"
+  ],
+  "known_errata": [
+    "2026-03-17 Table5 Z(13,22):80->70.",
+    "2024-11-20 answer456:0.06%->0.62%.",
+    "2019 Horsley citation448 incorporated.",
+    "2017 answer455:1101->1011 incorporated."
+  ],
+  "refresh_manifests": [
+    "integration/2026-11-10-bookwise/errata/vol4b-manifest.json",
+    "integration/2026-11-10-bookwise/errata/vol4b-sat-manifest.json"
+  ],
+  "old_evidence_read": [
+    "audit-2026-10-31/HARDNESS_NOTES.md"
+  ],
+  "new_check": "audit-2026-10-31/results/bookwise-sat450-fixed-matrix.json",
+  "public_searches": [
+    "Knuth \"450\" \"unary clause\" errata",
+    "Knuth \"four points lie on such lines\""
+  ],
+  "public_search_result": "No relevant correction; unrelated search hits not used as evidence.",
+  "forward_dependencies": [
+    "main181–186 -> SAT495/498"
+  ]
+}

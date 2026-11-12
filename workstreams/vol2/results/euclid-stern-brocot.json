@@ -1,0 +1,68 @@
+{
+  "status": "passed",
+  "pid": 1223915,
+  "endpoints": 179,
+  "intervals": 15931,
+  "raw_rule_failures": 131,
+  "prefix_intervals": 131,
+  "examples": [
+    {
+      "lo": "2/23",
+      "hi": "1/11",
+      "raw": "2/23",
+      "correct": "1/11"
+    },
+    {
+      "lo": "2/21",
+      "hi": "1/10",
+      "raw": "2/21",
+      "correct": "1/10"
+    },
+    {
+      "lo": "2/19",
+      "hi": "1/9",
+      "raw": "2/19",
+      "correct": "1/9"
+    },
+    {
+      "lo": "2/17",
+      "hi": "1/8",
+      "raw": "2/17",
+      "correct": "1/8"
+    },
+    {
+      "lo": "3/23",
+      "hi": "1/7",
+      "raw": "2/15",
+      "correct": "1/7"
+    },
+    {
+      "lo": "2/15",
+      "hi": "1/7",
+      "raw": "2/15",
+      "correct": "1/7"
+    },
+    {
+      "lo": "3/22",
+      "hi": "1/7",
+      "raw": "3/22",
+      "correct": "1/7"
+    },
+    {
+      "lo": "3/20",
+      "hi": "1/6",
+      "raw": "2/13",
+      "correct": "1/6"
+    }
+  ],
+  "counterexample_family": 961,
+  "baseball": {
+    "result": "96/287",
+    "path": "LLRLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL"
+  },
+  "target_fractions": 10043,
+  "coordinate_steps": 181714,
+  "finite_tree_nodes": 2047,
+  "seconds": 1.4675670400029048,
+  "scope": "Exact finite independent checks supplement the general written proofs; no historical claim tested."
+}

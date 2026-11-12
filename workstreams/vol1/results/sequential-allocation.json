@@ -1,0 +1,1218 @@
+{
+  "figure4": {
+    "bases": [
+      0,
+      3,
+      5,
+      6,
+      20
+    ],
+    "tops": [
+      2,
+      4,
+      6,
+      8
+    ],
+    "overflow_operations": [
+      1,
+      2,
+      4,
+      6,
+      8,
+      9
+    ]
+  },
+  "insertion_models": {
+    "sequences": 6688,
+    "printed_examples": {
+      "0": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        3,
+        2,
+        0,
+        3,
+        6
+      ],
+      "2": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        3,
+        6
+      ]
+    }
+  },
+  "relocations": 6608,
+  "comparison17_prefixes": {
+    "prefixes": 719146,
+    "printed_hint_failures": [
+      {
+        "capacities": [
+          0,
+          2,
+          1
+        ],
+        "sequence": [
+          2,
+          3,
+          0,
+          1,
+          0,
+          2
+        ],
+        "stack": 2,
+        "size": 1,
+        "previous_max": 1
+      },
+      {
+        "capacities": [
+          0,
+          2,
+          1
+        ],
+        "sequence": [
+          2,
+          3,
+          0,
+          1,
+          2,
+          0
+        ],
+        "stack": 2,
+        "size": 1,
+        "previous_max": 1
+      },
+      {
+        "capacities": [
+          0,
+          2,
+          1
+        ],
+        "sequence": [
+          2,
+          3,
+          0,
+          1,
+          2,
+          1
+        ],
+        "stack": 2,
+        "size": 1,
+        "previous_max": 1
+      },
+      {
+        "capacities": [
+          0,
+          2,
+          1
+        ],
+        "sequence": [
+          2,
+          3,
+          0,
+          1,
+          2,
+          2
+        ],
+        "stack": 2,
+        "size": 1,
+        "previous_max": 1
+      },
+      {
+        "capacities": [
+          0,
+          2,
+          1
+        ],
+        "sequence": [
+          2,
+          3,
+          0,
+          1,
+          2,
+          3
+        ],
+        "stack": 2,
+        "size": 1,
+        "previous_max": 1
+      }
+    ],
+    "printed_bound_failures": [
+      {
+        "capacities": [
+          1,
+          2,
+          0
+        ],
+        "sequence": [
+          2,
+          2,
+          3,
+          0,
+          1,
+          2
+        ],
+        "overflows0": 4,
+        "overflows1": 0,
+        "M": 3
+      },
+      {
+        "capacities": [
+          1,
+          2,
+          0
+        ],
+        "sequence": [
+          2,
+          2,
+          3,
+          0,
+          2
+        ],
+        "overflows0": 4,
+        "overflows1": 0,
+        "M": 3
+      },
+      {
+        "capacities": [
+          1,
+          2,
+          0
+        ],
+        "sequence": [
+          2,
+          2,
+          3,
+          0,
+          2
+        ],
+        "overflows0": 4,
+        "overflows1": 0,
+        "M": 3
+      },
+      {
+        "capacities": [
+          1,
+          2,
+          0
+        ],
+        "sequence": [
+          2,
+          2,
+          3,
+          0,
+          2,
+          1
+        ],
+        "overflows0": 4,
+        "overflows1": 0,
+        "M": 3
+      },
+      {
+        "capacities": [
+          1,
+          2,
+          0
+        ],
+        "sequence": [
+          2,
+          2,
+          3,
+          0,
+          2
+        ],
+        "overflows0": 4,
+        "overflows1": 0,
+        "M": 3
+      }
+    ]
+  },
+  "monte_carlo": {
+    "seed": 20261101,
+    "verified_operations": 241554,
+    "runs": [
+      {
+        "n": 2,
+        "M": 40,
+        "distribution": "uniform",
+        "target": 0.5,
+        "replicate": 0,
+        "operations": 3000,
+        "simple_moves": 151,
+        "garwick_moves": 177,
+        "simple_overflows": 25,
+        "garwick_repackings": 29
+      },
+      {
+        "n": 2,
+        "M": 40,
+        "distribution": "uniform",
+        "target": 0.5,
+        "replicate": 1,
+        "operations": 3000,
+        "simple_moves": 78,
+        "garwick_moves": 237,
+        "simple_overflows": 22,
+        "garwick_repackings": 23
+      },
+      {
+        "n": 2,
+        "M": 40,
+        "distribution": "uniform",
+        "target": 0.5,
+        "replicate": 2,
+        "operations": 3000,
+        "simple_moves": 75,
+        "garwick_moves": 109,
+        "simple_overflows": 22,
+        "garwick_repackings": 10
+      },
+      {
+        "n": 2,
+        "M": 40,
+        "distribution": "uniform",
+        "target": 0.9,
+        "replicate": 0,
+        "operations": 3000,
+        "simple_moves": 1804,
+        "garwick_moves": 1349,
+        "simple_overflows": 181,
+        "garwick_repackings": 140
+      },
+      {
+        "n": 2,
+        "M": 40,
+        "distribution": "uniform",
+        "target": 0.9,
+        "replicate": 1,
+        "operations": 3000,
+        "simple_moves": 3584,
+        "garwick_moves": 2298,
+        "simple_overflows": 187,
+        "garwick_repackings": 124
+      },
+      {
+        "n": 2,
+        "M": 40,
+        "distribution": "uniform",
+        "target": 0.9,
+        "replicate": 2,
+        "operations": 3000,
+        "simple_moves": 3684,
+        "garwick_moves": 2613,
+        "simple_overflows": 196,
+        "garwick_repackings": 143
+      },
+      {
+        "n": 2,
+        "M": 40,
+        "distribution": "uniform",
+        "target": 0.99,
+        "replicate": 0,
+        "operations": 3000,
+        "simple_moves": 5630,
+        "garwick_moves": 5503,
+        "simple_overflows": 615,
+        "garwick_repackings": 610
+      },
+      {
+        "n": 2,
+        "M": 40,
+        "distribution": "uniform",
+        "target": 0.99,
+        "replicate": 1,
+        "operations": 3000,
+        "simple_moves": 7850,
+        "garwick_moves": 7642,
+        "simple_overflows": 629,
+        "garwick_repackings": 623
+      },
+      {
+        "n": 2,
+        "M": 40,
+        "distribution": "uniform",
+        "target": 0.99,
+        "replicate": 2,
+        "operations": 3000,
+        "simple_moves": 14257,
+        "garwick_moves": 14140,
+        "simple_overflows": 638,
+        "garwick_repackings": 624
+      },
+      {
+        "n": 2,
+        "M": 40,
+        "distribution": "skewed",
+        "target": 0.5,
+        "replicate": 0,
+        "operations": 3000,
+        "simple_moves": 42,
+        "garwick_moves": 48,
+        "simple_overflows": 25,
+        "garwick_repackings": 6
+      },
+      {
+        "n": 2,
+        "M": 40,
+        "distribution": "skewed",
+        "target": 0.5,
+        "replicate": 1,
+        "operations": 3000,
+        "simple_moves": 1,
+        "garwick_moves": 36,
+        "simple_overflows": 23,
+        "garwick_repackings": 6
+      },
+      {
+        "n": 2,
+        "M": 40,
+        "distribution": "skewed",
+        "target": 0.5,
+        "replicate": 2,
+        "operations": 3000,
+        "simple_moves": 17,
+        "garwick_moves": 105,
+        "simple_overflows": 19,
+        "garwick_repackings": 14
+      },
+      {
+        "n": 2,
+        "M": 40,
+        "distribution": "skewed",
+        "target": 0.9,
+        "replicate": 0,
+        "operations": 3000,
+        "simple_moves": 259,
+        "garwick_moves": 201,
+        "simple_overflows": 89,
+        "garwick_repackings": 50
+      },
+      {
+        "n": 2,
+        "M": 40,
+        "distribution": "skewed",
+        "target": 0.9,
+        "replicate": 1,
+        "operations": 3000,
+        "simple_moves": 367,
+        "garwick_moves": 280,
+        "simple_overflows": 88,
+        "garwick_repackings": 59
+      },
+      {
+        "n": 2,
+        "M": 40,
+        "distribution": "skewed",
+        "target": 0.9,
+        "replicate": 2,
+        "operations": 3000,
+        "simple_moves": 701,
+        "garwick_moves": 568,
+        "simple_overflows": 107,
+        "garwick_repackings": 62
+      },
+      {
+        "n": 2,
+        "M": 40,
+        "distribution": "skewed",
+        "target": 0.99,
+        "replicate": 0,
+        "operations": 3000,
+        "simple_moves": 2583,
+        "garwick_moves": 2806,
+        "simple_overflows": 273,
+        "garwick_repackings": 263
+      },
+      {
+        "n": 2,
+        "M": 40,
+        "distribution": "skewed",
+        "target": 0.99,
+        "replicate": 1,
+        "operations": 3000,
+        "simple_moves": 946,
+        "garwick_moves": 970,
+        "simple_overflows": 250,
+        "garwick_repackings": 234
+      },
+      {
+        "n": 2,
+        "M": 40,
+        "distribution": "skewed",
+        "target": 0.99,
+        "replicate": 2,
+        "operations": 3000,
+        "simple_moves": 1524,
+        "garwick_moves": 1690,
+        "simple_overflows": 266,
+        "garwick_repackings": 254
+      },
+      {
+        "n": 2,
+        "M": 40,
+        "distribution": "changing",
+        "target": 0.5,
+        "replicate": 0,
+        "operations": 3000,
+        "simple_moves": 18,
+        "garwick_moves": 23,
+        "simple_overflows": 23,
+        "garwick_repackings": 8
+      },
+      {
+        "n": 2,
+        "M": 40,
+        "distribution": "changing",
+        "target": 0.5,
+        "replicate": 1,
+        "operations": 3000,
+        "simple_moves": 108,
+        "garwick_moves": 52,
+        "simple_overflows": 28,
+        "garwick_repackings": 9
+      },
+      {
+        "n": 2,
+        "M": 40,
+        "distribution": "changing",
+        "target": 0.5,
+        "replicate": 2,
+        "operations": 3000,
+        "simple_moves": 25,
+        "garwick_moves": 81,
+        "simple_overflows": 23,
+        "garwick_repackings": 10
+      },
+      {
+        "n": 2,
+        "M": 40,
+        "distribution": "changing",
+        "target": 0.9,
+        "replicate": 0,
+        "operations": 3000,
+        "simple_moves": 930,
+        "garwick_moves": 667,
+        "simple_overflows": 94,
+        "garwick_repackings": 55
+      },
+      {
+        "n": 2,
+        "M": 40,
+        "distribution": "changing",
+        "target": 0.9,
+        "replicate": 1,
+        "operations": 3000,
+        "simple_moves": 495,
+        "garwick_moves": 405,
+        "simple_overflows": 101,
+        "garwick_repackings": 71
+      },
+      {
+        "n": 2,
+        "M": 40,
+        "distribution": "changing",
+        "target": 0.9,
+        "replicate": 2,
+        "operations": 3000,
+        "simple_moves": 474,
+        "garwick_moves": 282,
+        "simple_overflows": 99,
+        "garwick_repackings": 60
+      },
+      {
+        "n": 2,
+        "M": 40,
+        "distribution": "changing",
+        "target": 0.99,
+        "replicate": 0,
+        "operations": 3000,
+        "simple_moves": 564,
+        "garwick_moves": 541,
+        "simple_overflows": 260,
+        "garwick_repackings": 236
+      },
+      {
+        "n": 2,
+        "M": 40,
+        "distribution": "changing",
+        "target": 0.99,
+        "replicate": 1,
+        "operations": 3000,
+        "simple_moves": 1834,
+        "garwick_moves": 1926,
+        "simple_overflows": 265,
+        "garwick_repackings": 244
+      },
+      {
+        "n": 2,
+        "M": 40,
+        "distribution": "changing",
+        "target": 0.99,
+        "replicate": 2,
+        "operations": 3000,
+        "simple_moves": 1095,
+        "garwick_moves": 1115,
+        "simple_overflows": 267,
+        "garwick_repackings": 251
+      },
+      {
+        "n": 5,
+        "M": 200,
+        "distribution": "uniform",
+        "target": 0.5,
+        "replicate": 0,
+        "operations": 3000,
+        "simple_moves": 3018,
+        "garwick_moves": 4757,
+        "simple_overflows": 157,
+        "garwick_repackings": 60
+      },
+      {
+        "n": 5,
+        "M": 200,
+        "distribution": "uniform",
+        "target": 0.5,
+        "replicate": 1,
+        "operations": 3000,
+        "simple_moves": 3956,
+        "garwick_moves": 995,
+        "simple_overflows": 211,
+        "garwick_repackings": 18
+      },
+      {
+        "n": 5,
+        "M": 200,
+        "distribution": "uniform",
+        "target": 0.5,
+        "replicate": 2,
+        "operations": 3000,
+        "simple_moves": 3378,
+        "garwick_moves": 3599,
+        "simple_overflows": 163,
+        "garwick_repackings": 42
+      },
+      {
+        "n": 5,
+        "M": 200,
+        "distribution": "uniform",
+        "target": 0.9,
+        "replicate": 0,
+        "operations": 3000,
+        "simple_moves": 26164,
+        "garwick_moves": 44468,
+        "simple_overflows": 570,
+        "garwick_repackings": 400
+      },
+      {
+        "n": 5,
+        "M": 200,
+        "distribution": "uniform",
+        "target": 0.9,
+        "replicate": 1,
+        "operations": 3000,
+        "simple_moves": 19032,
+        "garwick_moves": 32044,
+        "simple_overflows": 457,
+        "garwick_repackings": 298
+      },
+      {
+        "n": 5,
+        "M": 200,
+        "distribution": "uniform",
+        "target": 0.9,
+        "replicate": 2,
+        "operations": 3000,
+        "simple_moves": 16041,
+        "garwick_moves": 42971,
+        "simple_overflows": 347,
+        "garwick_repackings": 336
+      },
+      {
+        "n": 5,
+        "M": 200,
+        "distribution": "uniform",
+        "target": 0.99,
+        "replicate": 0,
+        "operations": 3000,
+        "simple_moves": 51733,
+        "garwick_moves": 66852,
+        "simple_overflows": 879,
+        "garwick_repackings": 692
+      },
+      {
+        "n": 5,
+        "M": 200,
+        "distribution": "uniform",
+        "target": 0.99,
+        "replicate": 1,
+        "operations": 3000,
+        "simple_moves": 54600,
+        "garwick_moves": 69690,
+        "simple_overflows": 877,
+        "garwick_repackings": 672
+      },
+      {
+        "n": 5,
+        "M": 200,
+        "distribution": "uniform",
+        "target": 0.99,
+        "replicate": 2,
+        "operations": 3000,
+        "simple_moves": 55315,
+        "garwick_moves": 72797,
+        "simple_overflows": 899,
+        "garwick_repackings": 715
+      },
+      {
+        "n": 5,
+        "M": 200,
+        "distribution": "skewed",
+        "target": 0.5,
+        "replicate": 0,
+        "operations": 3000,
+        "simple_moves": 2680,
+        "garwick_moves": 1425,
+        "simple_overflows": 177,
+        "garwick_repackings": 30
+      },
+      {
+        "n": 5,
+        "M": 200,
+        "distribution": "skewed",
+        "target": 0.5,
+        "replicate": 1,
+        "operations": 3000,
+        "simple_moves": 1994,
+        "garwick_moves": 66,
+        "simple_overflows": 169,
+        "garwick_repackings": 3
+      },
+      {
+        "n": 5,
+        "M": 200,
+        "distribution": "skewed",
+        "target": 0.5,
+        "replicate": 2,
+        "operations": 3000,
+        "simple_moves": 2368,
+        "garwick_moves": 581,
+        "simple_overflows": 198,
+        "garwick_repackings": 12
+      },
+      {
+        "n": 5,
+        "M": 200,
+        "distribution": "skewed",
+        "target": 0.9,
+        "replicate": 0,
+        "operations": 3000,
+        "simple_moves": 5333,
+        "garwick_moves": 5226,
+        "simple_overflows": 298,
+        "garwick_repackings": 165
+      },
+      {
+        "n": 5,
+        "M": 200,
+        "distribution": "skewed",
+        "target": 0.9,
+        "replicate": 1,
+        "operations": 3000,
+        "simple_moves": 7454,
+        "garwick_moves": 9101,
+        "simple_overflows": 306,
+        "garwick_repackings": 201
+      },
+      {
+        "n": 5,
+        "M": 200,
+        "distribution": "skewed",
+        "target": 0.9,
+        "replicate": 2,
+        "operations": 3000,
+        "simple_moves": 6650,
+        "garwick_moves": 7621,
+        "simple_overflows": 281,
+        "garwick_repackings": 161
+      },
+      {
+        "n": 5,
+        "M": 200,
+        "distribution": "skewed",
+        "target": 0.99,
+        "replicate": 0,
+        "operations": 3000,
+        "simple_moves": 15494,
+        "garwick_moves": 18165,
+        "simple_overflows": 610,
+        "garwick_repackings": 475
+      },
+      {
+        "n": 5,
+        "M": 200,
+        "distribution": "skewed",
+        "target": 0.99,
+        "replicate": 1,
+        "operations": 3000,
+        "simple_moves": 15147,
+        "garwick_moves": 17611,
+        "simple_overflows": 609,
+        "garwick_repackings": 466
+      },
+      {
+        "n": 5,
+        "M": 200,
+        "distribution": "skewed",
+        "target": 0.99,
+        "replicate": 2,
+        "operations": 3000,
+        "simple_moves": 16181,
+        "garwick_moves": 18585,
+        "simple_overflows": 614,
+        "garwick_repackings": 495
+      },
+      {
+        "n": 5,
+        "M": 200,
+        "distribution": "changing",
+        "target": 0.5,
+        "replicate": 0,
+        "operations": 3000,
+        "simple_moves": 1788,
+        "garwick_moves": 940,
+        "simple_overflows": 160,
+        "garwick_repackings": 26
+      },
+      {
+        "n": 5,
+        "M": 200,
+        "distribution": "changing",
+        "target": 0.5,
+        "replicate": 1,
+        "operations": 3000,
+        "simple_moves": 2169,
+        "garwick_moves": 1028,
+        "simple_overflows": 173,
+        "garwick_repackings": 31
+      },
+      {
+        "n": 5,
+        "M": 200,
+        "distribution": "changing",
+        "target": 0.5,
+        "replicate": 2,
+        "operations": 3000,
+        "simple_moves": 1825,
+        "garwick_moves": 1112,
+        "simple_overflows": 156,
+        "garwick_repackings": 31
+      },
+      {
+        "n": 5,
+        "M": 200,
+        "distribution": "changing",
+        "target": 0.9,
+        "replicate": 0,
+        "operations": 3000,
+        "simple_moves": 7193,
+        "garwick_moves": 7719,
+        "simple_overflows": 319,
+        "garwick_repackings": 171
+      },
+      {
+        "n": 5,
+        "M": 200,
+        "distribution": "changing",
+        "target": 0.9,
+        "replicate": 1,
+        "operations": 3000,
+        "simple_moves": 5474,
+        "garwick_moves": 5125,
+        "simple_overflows": 292,
+        "garwick_repackings": 156
+      },
+      {
+        "n": 5,
+        "M": 200,
+        "distribution": "changing",
+        "target": 0.9,
+        "replicate": 2,
+        "operations": 3000,
+        "simple_moves": 5140,
+        "garwick_moves": 6218,
+        "simple_overflows": 342,
+        "garwick_repackings": 210
+      },
+      {
+        "n": 5,
+        "M": 200,
+        "distribution": "changing",
+        "target": 0.99,
+        "replicate": 0,
+        "operations": 3000,
+        "simple_moves": 10725,
+        "garwick_moves": 9957,
+        "simple_overflows": 621,
+        "garwick_repackings": 415
+      },
+      {
+        "n": 5,
+        "M": 200,
+        "distribution": "changing",
+        "target": 0.99,
+        "replicate": 1,
+        "operations": 3000,
+        "simple_moves": 18729,
+        "garwick_moves": 20915,
+        "simple_overflows": 577,
+        "garwick_repackings": 414
+      },
+      {
+        "n": 5,
+        "M": 200,
+        "distribution": "changing",
+        "target": 0.99,
+        "replicate": 2,
+        "operations": 3000,
+        "simple_moves": 16756,
+        "garwick_moves": 17534,
+        "simple_overflows": 626,
+        "garwick_repackings": 458
+      },
+      {
+        "n": 10,
+        "M": 1000,
+        "distribution": "uniform",
+        "target": 0.5,
+        "replicate": 0,
+        "operations": 3000,
+        "simple_moves": 63721,
+        "garwick_moves": 330,
+        "simple_overflows": 706,
+        "garwick_repackings": 3
+      },
+      {
+        "n": 10,
+        "M": 1000,
+        "distribution": "uniform",
+        "target": 0.5,
+        "replicate": 1,
+        "operations": 3000,
+        "simple_moves": 66277,
+        "garwick_moves": 346,
+        "simple_overflows": 694,
+        "garwick_repackings": 3
+      },
+      {
+        "n": 10,
+        "M": 1000,
+        "distribution": "uniform",
+        "target": 0.5,
+        "replicate": 2,
+        "operations": 3000,
+        "simple_moves": 76288,
+        "garwick_moves": 494,
+        "simple_overflows": 776,
+        "garwick_repackings": 3
+      },
+      {
+        "n": 10,
+        "M": 1000,
+        "distribution": "uniform",
+        "target": 0.9,
+        "replicate": 0,
+        "operations": 3000,
+        "simple_moves": 207881,
+        "garwick_moves": 76167,
+        "simple_overflows": 1111,
+        "garwick_repackings": 106
+      },
+      {
+        "n": 10,
+        "M": 1000,
+        "distribution": "uniform",
+        "target": 0.9,
+        "replicate": 1,
+        "operations": 3000,
+        "simple_moves": 208071,
+        "garwick_moves": 56116,
+        "simple_overflows": 1150,
+        "garwick_repackings": 79
+      },
+      {
+        "n": 10,
+        "M": 1000,
+        "distribution": "uniform",
+        "target": 0.9,
+        "replicate": 2,
+        "operations": 3000,
+        "simple_moves": 215269,
+        "garwick_moves": 53248,
+        "simple_overflows": 1137,
+        "garwick_repackings": 75
+      },
+      {
+        "n": 10,
+        "M": 1000,
+        "distribution": "uniform",
+        "target": 0.99,
+        "replicate": 0,
+        "operations": 3000,
+        "simple_moves": 270076,
+        "garwick_moves": 236896,
+        "simple_overflows": 1381,
+        "garwick_repackings": 463
+      },
+      {
+        "n": 10,
+        "M": 1000,
+        "distribution": "uniform",
+        "target": 0.99,
+        "replicate": 1,
+        "operations": 3000,
+        "simple_moves": 318503,
+        "garwick_moves": 245391,
+        "simple_overflows": 1449,
+        "garwick_repackings": 474
+      },
+      {
+        "n": 10,
+        "M": 1000,
+        "distribution": "uniform",
+        "target": 0.99,
+        "replicate": 2,
+        "operations": 3000,
+        "simple_moves": 326489,
+        "garwick_moves": 274468,
+        "simple_overflows": 1502,
+        "garwick_repackings": 507
+      },
+      {
+        "n": 10,
+        "M": 1000,
+        "distribution": "skewed",
+        "target": 0.5,
+        "replicate": 0,
+        "operations": 3000,
+        "simple_moves": 53196,
+        "garwick_moves": 282,
+        "simple_overflows": 689,
+        "garwick_repackings": 3
+      },
+      {
+        "n": 10,
+        "M": 1000,
+        "distribution": "skewed",
+        "target": 0.5,
+        "replicate": 1,
+        "operations": 3000,
+        "simple_moves": 58727,
+        "garwick_moves": 224,
+        "simple_overflows": 667,
+        "garwick_repackings": 4
+      },
+      {
+        "n": 10,
+        "M": 1000,
+        "distribution": "skewed",
+        "target": 0.5,
+        "replicate": 2,
+        "operations": 3000,
+        "simple_moves": 55697,
+        "garwick_moves": 276,
+        "simple_overflows": 692,
+        "garwick_repackings": 3
+      },
+      {
+        "n": 10,
+        "M": 1000,
+        "distribution": "skewed",
+        "target": 0.9,
+        "replicate": 0,
+        "operations": 3000,
+        "simple_moves": 134797,
+        "garwick_moves": 18495,
+        "simple_overflows": 1095,
+        "garwick_repackings": 52
+      },
+      {
+        "n": 10,
+        "M": 1000,
+        "distribution": "skewed",
+        "target": 0.9,
+        "replicate": 1,
+        "operations": 3000,
+        "simple_moves": 160190,
+        "garwick_moves": 11981,
+        "simple_overflows": 1118,
+        "garwick_repackings": 35
+      },
+      {
+        "n": 10,
+        "M": 1000,
+        "distribution": "skewed",
+        "target": 0.9,
+        "replicate": 2,
+        "operations": 3000,
+        "simple_moves": 156334,
+        "garwick_moves": 19297,
+        "simple_overflows": 1089,
+        "garwick_repackings": 51
+      },
+      {
+        "n": 10,
+        "M": 1000,
+        "distribution": "skewed",
+        "target": 0.99,
+        "replicate": 0,
+        "operations": 3000,
+        "simple_moves": 191948,
+        "garwick_moves": 89096,
+        "simple_overflows": 1262,
+        "garwick_repackings": 309
+      },
+      {
+        "n": 10,
+        "M": 1000,
+        "distribution": "skewed",
+        "target": 0.99,
+        "replicate": 1,
+        "operations": 3000,
+        "simple_moves": 201975,
+        "garwick_moves": 102174,
+        "simple_overflows": 1295,
+        "garwick_repackings": 334
+      },
+      {
+        "n": 10,
+        "M": 1000,
+        "distribution": "skewed",
+        "target": 0.99,
+        "replicate": 2,
+        "operations": 3000,
+        "simple_moves": 199064,
+        "garwick_moves": 99384,
+        "simple_overflows": 1284,
+        "garwick_repackings": 309
+      },
+      {
+        "n": 10,
+        "M": 1000,
+        "distribution": "changing",
+        "target": 0.5,
+        "replicate": 0,
+        "operations": 3000,
+        "simple_moves": 53759,
+        "garwick_moves": 1294,
+        "simple_overflows": 720,
+        "garwick_repackings": 6
+      },
+      {
+        "n": 10,
+        "M": 1000,
+        "distribution": "changing",
+        "target": 0.5,
+        "replicate": 1,
+        "operations": 3000,
+        "simple_moves": 53111,
+        "garwick_moves": 1011,
+        "simple_overflows": 706,
+        "garwick_repackings": 6
+      },
+      {
+        "n": 10,
+        "M": 1000,
+        "distribution": "changing",
+        "target": 0.5,
+        "replicate": 2,
+        "operations": 3000,
+        "simple_moves": 50567,
+        "garwick_moves": 1836,
+        "simple_overflows": 726,
+        "garwick_repackings": 8
+      },
+      {
+        "n": 10,
+        "M": 1000,
+        "distribution": "changing",
+        "target": 0.9,
+        "replicate": 0,
+        "operations": 3000,
+        "simple_moves": 147937,
+        "garwick_moves": 38922,
+        "simple_overflows": 1066,
+        "garwick_repackings": 70
+      },
+      {
+        "n": 10,
+        "M": 1000,
+        "distribution": "changing",
+        "target": 0.9,
+        "replicate": 1,
+        "operations": 3000,
+        "simple_moves": 166450,
+        "garwick_moves": 36811,
+        "simple_overflows": 1104,
+        "garwick_repackings": 61
+      },
+      {
+        "n": 10,
+        "M": 1000,
+        "distribution": "changing",
+        "target": 0.9,
+        "replicate": 2,
+        "operations": 3000,
+        "simple_moves": 146724,
+        "garwick_moves": 41554,
+        "simple_overflows": 1102,
+        "garwick_repackings": 67
+      },
+      {
+        "n": 10,
+        "M": 1000,
+        "distribution": "changing",
+        "target": 0.99,
+        "replicate": 0,
+        "operations": 3000,
+        "simple_moves": 176631,
+        "garwick_moves": 129581,
+        "simple_overflows": 1292,
+        "garwick_repackings": 377
+      },
+      {
+        "n": 10,
+        "M": 1000,
+        "distribution": "changing",
+        "target": 0.99,
+        "replicate": 1,
+        "operations": 3000,
+        "simple_moves": 199682,
+        "garwick_moves": 134612,
+        "simple_overflows": 1335,
+        "garwick_repackings": 353
+      },
+      {
+        "n": 10,
+        "M": 1000,
+        "distribution": "changing",
+        "target": 0.99,
+        "replicate": 2,
+        "operations": 3000,
+        "simple_moves": 212279,
+        "garwick_moves": 135362,
+        "simple_overflows": 1347,
+        "garwick_repackings": 343
+      }
+    ]
+  },
+  "elapsed_seconds": 17.206273207993945
+}

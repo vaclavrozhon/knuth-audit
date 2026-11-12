@@ -1,0 +1,223 @@
+{
+  "printed_numbers": {
+    "checks": 36,
+    "records": [
+      {
+        "label": "p195 base6",
+        "value": "385/2"
+      },
+      {
+        "label": "p196 reciprocal81 with scale60^4",
+        "value": "1/81"
+      },
+      {
+        "label": "p196 reciprocal81 squared with scale60^8",
+        "value": "1/6561"
+      },
+      {
+        "label": "p197 unique real root (strictly increasing polynomial)",
+        "lower": "827665919577540943/604661760000000000",
+        "upper": "51729119973596309/37791360000000000"
+      },
+      {
+        "label": "p198 Turkish multiplication",
+        "value": "19955/8"
+      },
+      {
+        "label": "p200 binary314",
+        "value": "314"
+      },
+      {
+        "label": "p203 tens complement",
+        "value": "8765432110"
+      },
+      {
+        "label": "p203 nines complement",
+        "value": "8765432109"
+      },
+      {
+        "label": "p204 positive negadecimal",
+        "value": "1234567890"
+      },
+      {
+        "label": "p204 negative negadecimal",
+        "value": "-1234567890"
+      },
+      {
+        "label": "balanced T11TT",
+        "value": "-49"
+      },
+      {
+        "label": "balanced 10T",
+        "value": "8"
+      },
+      {
+        "label": "balanced TT10",
+        "value": "-33"
+      },
+      {
+        "label": "answer2 binary -49",
+        "value": "-49"
+      },
+      {
+        "label": "answer2 binary -22/7",
+        "value": "-22/7"
+      },
+      {
+        "label": "answer2 negabinary -49",
+        "value": "-49"
+      },
+      {
+        "label": "answer2 negabinary -22/7",
+        "value": "-22/7"
+      },
+      {
+        "label": "answer2 balanced -22/7",
+        "value": "-22/7"
+      },
+      {
+        "label": "answer2 reciprocal-base -49",
+        "value": "-49"
+      },
+      {
+        "label": "answer2 reversed decimal cycle",
+        "value": "-22/7"
+      },
+      {
+        "label": "p207 ordinary ternary 208.3",
+        "value": "2083/10"
+      },
+      {
+        "label": "p207 balanced ternary 208.3",
+        "value": "2083/10"
+      },
+      {
+        "label": "answer13 first ambiguity",
+        "value": "1/11"
+      },
+      {
+        "label": "answer13 second ambiguity",
+        "value": "1/11"
+      },
+      {
+        "label": "p207 positive table fraction",
+        "value": "293/9"
+      },
+      {
+        "label": "p207 negative table fraction",
+        "value": "-293/9"
+      },
+      {
+        "label": "answer9 12",
+        "value": "A"
+      },
+      {
+        "label": "answer9 5655",
+        "value": "BAD"
+      },
+      {
+        "label": "answer9 2550276",
+        "value": "AD0BE"
+      },
+      {
+        "label": "answer9 76545336",
+        "value": "FACADE"
+      },
+      {
+        "label": "answer9 3726755",
+        "value": "FADED"
+      },
+      {
+        "label": "answer2 binary pi",
+        "lower": "26353589/8388608",
+        "upper": "13176795/4194304"
+      },
+      {
+        "label": "answer2 negabinary pi",
+        "lower": "308831/98304",
+        "upper": "4941299/1572864"
+      },
+      {
+        "label": "answer2 balanced pi",
+        "lower": "143739126228407/45753584909922",
+        "upper": "143739126228409/45753584909922"
+      },
+      {
+        "label": "answer2 reversed decimal pi",
+        "lower": "3141592653589793238462643/1000000000000000000000000",
+        "upper": "785398163397448309615661/250000000000000000000000"
+      },
+      {
+        "label": "p198 2pi accurate to16 decimal places",
+        "absolute_error_bound": "1/10^16"
+      }
+    ],
+    "pi_certificate": "Machin identity; alternating rational arctangent bounds"
+  },
+  "complements_and_scaling": {
+    "signed_shifts": 11140,
+    "modular_additions": 10538,
+    "MIX_radix_point_cases": 98
+  },
+  "negative_and_balanced": {
+    "negative_conversions": 15375,
+    "complete_add_sub_pairs": 43688,
+    "bit_separation_conversions": 4096,
+    "balanced_conversions": 4097,
+    "printed_ternary_addition_columns": 27,
+    "p208_corrected_partial_products": [
+      -17,
+      -153,
+      459
+    ],
+    "errata_applied": [
+      "p210 exercise12 output n+2 (1999)",
+      "p208 redundant zero (2000)"
+    ]
+  },
+  "quater_imaginary": {
+    "complete_three_digit_products": 4096,
+    "printed_squares": [
+      {
+        "word": "12231",
+        "value": [
+          9,
+          -10
+        ],
+        "square": "021333121",
+        "all_partial_products_checked": true
+      },
+      {
+        "word": "11321",
+        "value": [
+          5,
+          -4
+        ],
+        "square": "010311201",
+        "all_partial_products_checked": true
+      }
+    ],
+    "answer3": [
+      -49,
+      1
+    ],
+    "fundamental_rectangle": [
+      "-4/5",
+      "1/5",
+      "-8/5",
+      "2/5"
+    ]
+  },
+  "mixed_and_factorial": {
+    "mixed_groupings": 400,
+    "factorial_integers": 10001,
+    "p209_seconds": "505244373/250",
+    "p209_pence": "4951/2"
+  },
+  "minimal_signed_and_reversing": {
+    "all_ten_digit_signed_words": 59049,
+    "pattern_formula_cases": 65536,
+    "reversing_integers": 4097,
+    "proof_scope": "General optimality and the pattern automaton are proved separately in the note."
+  }
+}

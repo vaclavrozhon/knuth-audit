@@ -1,0 +1,151 @@
+{
+  "checked_at_utc": "2026-11-01T19:27:31.317597+00:00",
+  "remote_freshness_evidence": "../dlx_structure/errata-check.json",
+  "remote_checked_at_utc": "2026-11-01T18:17:54.561862+00:00",
+  "remote_checks": [
+    {
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/all4b.ps.gz",
+      "file": "errata/originals/all4b.ps.gz",
+      "sha256": "61c41e43dc337c1259f9ff690bfef718da2a656abdb110c6e7875c11f9566eea",
+      "local_sha256": "61c41e43dc337c1259f9ff690bfef718da2a656abdb110c6e7875c11f9566eea",
+      "status": "unchanged",
+      "http_last_modified": "Fri, 17 Apr 2026 06:28:39 GMT"
+    },
+    {
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/all4f5.ps.gz",
+      "file": "errata/originals/all4f5.ps.gz",
+      "sha256": "4c3edee8aa4c92f69bc5eb243ffe03779ae56c1e89a0ad36f85a2ac770fcbb83",
+      "local_sha256": "4c3edee8aa4c92f69bc5eb243ffe03779ae56c1e89a0ad36f85a2ac770fcbb83",
+      "status": "unchanged",
+      "http_last_modified": "Wed, 27 Jul 2022 05:22:26 GMT"
+    },
+    {
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/err4b.textxt",
+      "file": "errata/originals/err4b.textxt",
+      "sha256": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+      "local_sha256": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+      "status": "unchanged",
+      "http_last_modified": "Fri, 17 Apr 2026 06:27:21 GMT"
+    },
+    {
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/err4f5.textxt",
+      "file": "errata/originals/err4f5.textxt",
+      "sha256": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b",
+      "local_sha256": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b",
+      "status": "unchanged",
+      "http_last_modified": "Wed, 27 Jul 2022 05:22:16 GMT"
+    }
+  ],
+  "pattern": "4b\\.(127|128|422|424)\\b|4f5\\.(123|124|126|127|128|230|232)\\b|Page (127|128|422|424|123|124|126|230|232)\\b|frontier|Lamping|Rivin|75.?009|364.?864|596.?483|\\bLL\\b|answer (36|40|41|42)\\b|ans(36|40|41|42)\\b",
+  "files": [
+    {
+      "path": "errata/originals/err4b.textxt",
+      "sha256": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+      "hits": [
+        {
+          "line": 410,
+          "context": "\n\\amendpage 4b.127 line 1 of exercise 33 (25.10.12)\n\\ninepoint construct \\becomes efficiently construct\n\\endchange\n\n\\improvepage 4b.135 lines 8 and 9 of exercise 103 (23.01.03)\n\\ninepoint twelve-tone row \\becomes {\\it twelve-tone row}\n\\endchange\n\n\\amendpage 4b.135 in exercise 104 (25.09.15)\n\\ninepoint line 2: whenever $k$ is not a multiple of~$p$ \\becomes\\nl"
+        },
+        {
+          "line": 794,
+          "context": "\n\\amendpage 4b.422 replacement for answer 33 (25.12.20)\n\\ans33. (Solution by N. {Posting}.) Add a new row at the bottom of $A$,\nall $1$s. This $(m+1)\\times n$ matrix $A'$\nhas one solution that chooses only the last row.\nAll other solutions choose rows that solve~$A$.\n(Another construction, which adds a new column,\ncan be used if the all-$1$s row is already present.)\n\\endchange\n\n\\bugonpage 4b.422 line 4 of answer 34 (25.01.02)"
+        },
+        {
+          "line": 803,
+          "context": "\n\\bugonpage 4b.422 line 4 of answer 34 (25.01.02)\n$011\\alpha_k$ if $k>t/2$ \\becomes $001\\alpha_k$ if $k>t/2$\n\\endchange\n\n\\amendpage 4b.431 and 432, replacement for answer 73 (23.08.10)\n\\ans73. \\def\\\\{\\mkern.25mu/\\mkern.25mu}From\n$06151146\\\\66611014\\\\56132144\\\\55326224\\\\53632022\\\\34300525\\\\33040054$\nwe get 807,752 solutions, which is the current record. This array, found in\n2023 by Germ\\'an Gonz\\'alez-Morris based on previous work by Michael Keller,\nhas the surprising property that {\\it every\\/}"
+        },
+        {
+          "line": 955,
+          "context": "\\bugonpage 4b.462 in answer 162 (23.10.13)\nline 5: multiplicity. \\becomes multiplcity, and we'll use the\nsharp preference heuristic.\\nl\nline 8: 1.2 teramems. \\becomes 150 megamems.\\nl\nline 10: Only 35 G$\\mu$ \\becomes Less than 200 M$\\mu$\\nl\nline 13: 6 teramems \\becomes 180 megamems\\nl\nand in the largest displayed solution, put shading on the ${\\cal Q}_5$.\n\\endchange\n\n\\bugonpage 4b.463 last line of answer 166 (24.11.26)\n\\.{RLINK($p$)}.\\becomes"
+        }
+      ]
+    },
+    {
+      "path": "errata/originals/err4f5.textxt",
+      "sha256": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b",
+      "hits": [
+        {
+          "line": 522,
+          "context": "\n\\bugonpage 4f5.126 in exercise 49 (21.08.09)\n[the bipartite graph should have an edge between $u_7$ and $v_1$]\n\\endchange\n\n\\amendpage 4f5.127 last sentence of exercise 53 (22.03.21)\n\\ninepoint Show that \\dots\\ problems. \\becomes\nShow that exactly 13 essentially different 4-clue shidoku problems\nhave a unique solution.\n\\endchange\n"
+        },
+        {
+          "line": 526,
+          "context": "\n\\amendpage 4f5.127 last sentence of exercise 53 (22.03.21)\n\\ninepoint Show that \\dots\\ problems. \\becomes\nShow that exactly 13 essentially different 4-clue shidoku problems\nhave a unique solution.\n\\endchange\n\n\\bugonpage 4f5.127 line 1 of exercise 57 (21.09.10)\n\\ninepoint has 27 \\becomes has at most\n\\endchange\n"
+        },
+        {
+          "line": 532,
+          "context": "\n\\bugonpage 4f5.127 line 1 of exercise 57 (21.09.10)\n\\ninepoint has 27 \\becomes has at most\n\\endchange\n\n\\amendpage 4f5.130 last line of exercise 76 (21.09.19)\n\\ninepoint an identity element \\becomes the identity element 0\n\\endchange\n\n\\amendpage 4f5.130 an additional sentence in exercise 77 (20.03.02)\n(In such a case we say that $G$ is {\\it embedded\\/} in~$H$.)"
+        },
+        {
+          "line": 1676,
+          "context": "Brotchie, Alastair, 245. % 2nd\nBucket elimination, \\see Frontier. % 2nd\nChen, Hongyu (\\GC73:79:-6:64% G1934\n<000000000060000000000000000000780000000000000000007c0000000000000000007f%\n 0000000000000000007f80000000e0003800007f80000000f800fc00007f00000000fe01%\n fe0000fe00000000ffffff0000fc00000000ffffff8001f800000000ffffff8001f00000%\n 7000fc01ff8003f00000f800fc01ff8007e00001fc00fc01fe000fc00003fe00fc03ffff%\n ffffffffff00fc03f3ffffffffffff80fc03f1ffffffffffff80fc07e0801f8000000000%\n fc07e0003f0000000000fc07c0003f0000000000fc07c0007e0000000000fc0f80007e00%\n 00000000fc0f8000fe0e00000000fc0f8000fc0f80000000fc1f0001fc07e0000000fc1f%\n 0001fc07f8000000fc1e0003f807f8000000fc3e0003f807f0000000fc3c0007f007e000%"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all4b.txt",
+      "sha256": "b1a3425486f403fb4158585d5bbfef0159fd20b12e2e7d47b64e393e1ae8a303",
+      "hits": [
+        {
+          "line": 193,
+          "context": "  remarkable pairing     y remarkable Langford pairing\nPage 126 in exer ise 20                                                      03 Apr 2026\n Hint:     y\n           (Option j should be ompatible with option       k if and only if 0 \u0014j\u0014k<\n m.) Hint:\n Page 127 line 1 of exer ise 33                                             12 O t 2025\n  onstru t     y\n              eÆ iently onstru t\nPage 135 lines 8 and 9 of exer ise 103                                      03 Jan 2023\n twelve-tone row   y  twelve-tone row\n Page 135 in exer ise 104                                                   15 Sep 2025"
+        },
+        {
+          "line": 197,
+          "context": " m.) Hint:\n Page 127 line 1 of exer ise 33                                             12 O t 2025\n  onstru t     y\n              eÆ iently onstru t\nPage 135 lines 8 and 9 of exer ise 103                                      03 Jan 2023\n twelve-tone row   y  twelve-tone row\n Page 135 in exer ise 104                                                   15 Sep 2025\n  line 2: whenever k is not a multiple of p y\n  line 3: (if xn is blank)  y (where xn is onsidered to be blank)\n\n     6        CHANGES TO VOLUME 4B: COMBINATORIAL ALGORITHMS, PART 2"
+        },
+        {
+          "line": 427,
+          "context": " if T is just a root node marked as a solution, let there be no rows and no olumns.\nPage 422 repla ement for answer 33                                              20 De 2025\n 33. (Solution by N. Posting.) Add a new row at the bottom of A, all 1s. This (m+1)\u0002n\n matrix A0 has one solution that hooses only the last row. All other solutions hoose\n rows that solve A. (Another onstru tion, whi h adds a new olumn, an be used if\n the all-1s row is already present.)\n\n        CHANGES TO VOLUME 4B: COMBINATORIAL ALGORITHMS, PART 2                                           11\n\nxPage 422      line 4 of answer 34                                                        02 Jan 2025\n  011 k if k > t=2       y   001 k if k > t=2"
+        },
+        {
+          "line": 435,
+          "context": "\nxPage 422      line 4 of answer 34                                                        02 Jan 2025\n  011 k if k > t=2       y   001 k if k > t=2\n Page 431 and 432, repla ement for answer 73                                              10 Aug 2023\n  73. From 06151146=66611014=56132144 =55326224= 53632022= 34300525 =33040054 we\n  get 807,752 solutions, whi h is the urrent re ord. This array, found in 2023 by Germ\u0013an\n  Gonz\u0013alez-Morris based on previous work by Mi hael Keller, has the surprising property\n  that every andidate pla ement o urs in at least 35,082 solutions!\n Page 432 append to answer 75                                                             13 Feb 2024\n  \\Gropes\" of a ompletely di erent kind were introdu ed into the theory of topologi al\n  manifolds by J. W. Cannon, Bull. Amer. Math. So . 84 (1978), 832{866."
+        },
+        {
+          "line": 540,
+          "context": "                     y\n line 5: multipli ity.     multipl ity, and we'll use the sharp preferen e heuristi .\n line 8: 1.2 teramems.y      150 megamems.\n line 10: Only 35 G\u0016 y      Less than 200 M\u0016\n line 13: 6 teramems y      180 megamems\n and in the largest displayed solution, put shading on the Q5 .\n\n       CHANGES TO VOLUME 4B: COMBINATORIAL ALGORITHMS, PART 2                            13\n\nx\nPage 463      last line of answer 166                                           26 Nov 2024"
+        },
+        {
+          "line": 805,
+          "context": " [The H-grid representation of the L tetrabolo should be\n                                                                \u0001 \u0001 \u0001\u0001 \u0001\u0001 LL\n                                                                \u0001\u0001 \u0001\u0001 LL LL \u0001\u0001\n                                                                LL\n\n\n and the rightmost illustration in the two-layer tetrabolo pa king displayed on line 4\n should be ipped verti ally.℄\nPage 506 lines 3 and 4                                                      23 Jan 2023\n    userpages.monmouth. om/~ olonel/poly ur.html                                     y\n    si herman.net/poly ur.html"
+        },
+        {
+          "line": 806,
+          "context": "                                                                \u0001 \u0001 \u0001\u0001 \u0001\u0001 LL\n                                                                \u0001\u0001 \u0001\u0001 LL LL \u0001\u0001\n                                                                LL\n\n\n and the rightmost illustration in the two-layer tetrabolo pa king displayed on line 4\n should be ipped verti ally.℄\nPage 506 lines 3 and 4                                                      23 Jan 2023\n    userpages.monmouth. om/~ olonel/poly ur.html                                     y\n    si herman.net/poly ur.html\nPage 506           repla ement for four paragraphs in answer 325                                                         13 Nov 2023"
+        },
+        {
+          "line": 807,
+          "context": "                                                                \u0001\u0001 \u0001\u0001 LL LL \u0001\u0001\n                                                                LL\n\n\n and the rightmost illustration in the two-layer tetrabolo pa king displayed on line 4\n should be ipped verti ally.℄\nPage 506 lines 3 and 4                                                      23 Jan 2023\n    userpages.monmouth. om/~ olonel/poly ur.html                                     y\n    si herman.net/poly ur.html\nPage 506           repla ement for four paragraphs in answer 325                                                         13 Nov 2023\n                                                                           1"
+        },
+        {
+          "line": 1394,
+          "context": "      William), 381.                                          the elder, 4, 87{88.\nFlood ll algorithm, see Rea hability                     Meka, Raghu Vardhan Reddy (g J  k §gZ\n      in a graph.                                             gS\n                                                               ¡ eG ), 549.\n                                                                 \nGenerating fun tions, 15, 22, 24, 28, 58, 148,           Mikusi\u0013nski, Jan Geniusz, Cube, 509.\n      149, 160, 269, 273{274, 335, 342{344,              Minimax solutions, 133, 402, 434{435,\n      348, 376, 378, 381, 384, 385, 392, 393,                 476{477.\n      406, 408, 415, 418, 430, 481, 552, 558,            Model RB, 333{334.\n      561, 583, 586, 594, 617, 648.                      Modi ations of Algorithm 7.2.2.1C and\nGallery of hitori overs, 546.                                 related algorithms, 126, 127, 132, 133,"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all4f5.txt",
+      "sha256": "0dd38c4cda72b01baefb797611c9bbab7713ff0c107a1df884afc89fe9bb91c3",
+      "hits": [
+        {
+          "line": 272,
+          "context": "    say a1 , : : : , ak , then undelete them in exa tly the same order a1 , : : : , ak .\nxPage 126      in exer ise 49                                                              09 Aug 2021\n    [the bipartite graph should have an edge between u7 and v1 ℄\n\n      CHANGES TO V4F5: MATH PRELIMINARIES, BACKTRACKING ET AL                                    7\nPage 127       last senten e of exer ise 53                                          21 Mar 2022\n    Show that : : : problems. y Show that exa tly 13 essentially di erent 4- lue shidoku\n    problems have a unique solution.\nx\nPage 127       line 1 of exer ise 57                                                 10 Sep 2021\n    has 27 y has at most"
+        },
+        {
+          "line": 276,
+          "context": "      CHANGES TO V4F5: MATH PRELIMINARIES, BACKTRACKING ET AL                                    7\nPage 127       last senten e of exer ise 53                                          21 Mar 2022\n    Show that : : : problems. y Show that exa tly 13 essentially di erent 4- lue shidoku\n    problems have a unique solution.\nx\nPage 127       line 1 of exer ise 57                                                 10 Sep 2021\n    has 27 y has at most\nPage 130       last line of exer ise 76                                              19 Sep 2021\n    an identity element y the identity element 0\nPage 130   an additional senten e in exer ise 77                                     02 Mar 2020\n (In su h a ase we say that G is embedded in H .)"
+        },
+        {
+          "line": 280,
+          "context": "x\nPage 127       line 1 of exer ise 57                                                 10 Sep 2021\n    has 27 y has at most\nPage 130       last line of exer ise 76                                              19 Sep 2021\n    an identity element y the identity element 0\nPage 130   an additional senten e in exer ise 77                                     02 Mar 2020\n (In su h a ase we say that G is embedded in H .)\nPage 133 in exer ise 103(b)                                                          30 Mar 2022\n How many solutions y How many inequivalent solutions\nPage 135 line 1 of exer ise 116                                                      25 May 2021\n    Given a graph on verti es V y Given a graph G on verti es V"
+        },
+        {
+          "line": 1043,
+          "context": "Brot hie, Alastair, 245.                     Hypergeometri fun tions, 205, 384.\nBu ket elimination, see Frontier.            In iden e matri es, 122.\nChen, Hongyu (           ), 331.             Inorder traversal, 170.\nCheng, Chung-Kuan (             ), 331.      Inverse permutations, 27, 38{39, 146.\nChung Graham, Fan Rong King                  Janson, Carl Svante, vi, 186, 194, 196, 200.\n      (          ), 384.                     Kajitani, Yoji (            ), 331.\nChuzzlewit, Martin, 356.                     Kernels of a graph (maximal independent\nClique hints, 100, 114, 171.                      sets), 143, 244, 269.\nCoÆn, Stewart Temple, 324.                   Kleiman, Mark Philip, 384.\nConne ted omponents, 134, 142{143, 151,      Kilomem (K\u0016): One thousand memory\n      162, 167, 244, 248, 250.                    a esses, 75."
+        }
+      ]
+    }
+  ],
+  "assessment": "No correction of DLX36 empty-root handling or DLX40 transient database bound found. Nearby known changes concern reductions33/34 and other exercises; no claim of unpublished-priority verification."
+}

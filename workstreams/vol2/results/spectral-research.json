@@ -1,0 +1,146 @@
+{
+  "C": [
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      0,
+      1,
+      -1,
+      -1,
+      1
+    ],
+    [
+      1,
+      1,
+      0,
+      1,
+      -1,
+      -1
+    ],
+    [
+      1,
+      -1,
+      1,
+      0,
+      1,
+      -1
+    ],
+    [
+      1,
+      -1,
+      -1,
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      0
+    ]
+  ],
+  "alexeev": [
+    {
+      "t": 1,
+      "squared": "1"
+    },
+    {
+      "t": 2,
+      "squared": "4/3"
+    },
+    {
+      "t": 3,
+      "squared": "5/3"
+    },
+    {
+      "t": 4,
+      "squared": "2"
+    },
+    {
+      "t": 5,
+      "squared": "7/3"
+    },
+    {
+      "t": 6,
+      "squared": "8/3"
+    },
+    {
+      "t": 7,
+      "squared": "3"
+    },
+    {
+      "t": 8,
+      "squared": "10/3"
+    },
+    {
+      "t": 9,
+      "squared": "11/3"
+    },
+    {
+      "t": 10,
+      "squared": "4"
+    },
+    {
+      "t": 11,
+      "squared": "13/3"
+    },
+    {
+      "t": 12,
+      "squared": "14/3"
+    }
+  ],
+  "pell": [
+    {
+      "n": 1,
+      "p": 9,
+      "q": 4,
+      "normalizing_squared": 161,
+      "dual_squared": 25921,
+      "twice_off_diagonal_ratio": "144/161"
+    },
+    {
+      "n": 2,
+      "p": 161,
+      "q": 72,
+      "normalizing_squared": 51841,
+      "dual_squared": 2687489281,
+      "twice_off_diagonal_ratio": "46368/51841"
+    },
+    {
+      "n": 3,
+      "p": 2889,
+      "q": 1292,
+      "normalizing_squared": 16692641,
+      "dual_squared": 278644263554881,
+      "twice_off_diagonal_ratio": "14930352/16692641"
+    },
+    {
+      "n": 4,
+      "p": 51841,
+      "q": 23184,
+      "normalizing_squared": 5374978561,
+      "dual_squared": 28890394531209630721,
+      "twice_off_diagonal_ratio": "4807526976/5374978561"
+    },
+    {
+      "n": 5,
+      "p": 930249,
+      "q": 416020,
+      "normalizing_squared": 1730726404001,
+      "dual_squared": 2995413885506232668808001,
+      "twice_off_diagonal_ratio": "1548008755920/1730726404001"
+    }
+  ],
+  "symbolic_gram": "(I+rC)^(-1)=(I-rC)/(1-5r^2)",
+  "conclusion": "Unbounded for every t>=6 by an identity block extension. No optimum for t=3,4,5 is claimed. Not classified as a book error; priority unverified."
+}

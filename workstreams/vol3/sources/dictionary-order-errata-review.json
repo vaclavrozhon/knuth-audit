@@ -1,0 +1,62 @@
+{
+  "checked_at_utc": "2026-11-06T14:04:39.427704+00:00",
+  "finding": "V3-C0016",
+  "scope": "Dictionary-order answer §5-4, current p.585; historical answer region p.571–576",
+  "layers": [
+    {
+      "source": "errata/text/all3-prepre.txt",
+      "entries": [],
+      "conclusion": "No correction of the dictionary-order mapping or punctuation example."
+    },
+    {
+      "source": "errata/text/all3-pre.txt",
+      "entries": [
+        {
+          "page": 585,
+          "text": "Page 585    additional omments for the ode in answer 8           14 Sep 2019\n line 2 (after SRAX 1): SRAX 5 would also work\n line 5 (after SLAX 5): sign(a b)"
+        }
+      ],
+      "conclusion": "No correction of the dictionary-order mapping or punctuation example."
+    },
+    {
+      "source": "errata/text/all3.txt",
+      "entries": [],
+      "conclusion": "No correction of the dictionary-order mapping or punctuation example."
+    },
+    {
+      "source": "errata/text/err3.txt",
+      "entries": [],
+      "conclusion": "No correction of the dictionary-order mapping or punctuation example."
+    },
+    {
+      "source": "errata/text/err3-1e.txt",
+      "entries": [
+        {
+          "page": 571,
+          "text": "Page 571 replacement for lines 9{12                                    25 Mar 1995\n   3. See W. J. LeVeque, Topics in Number Theory 2 (Reading, Mass.: Addison-Wesley,\n  1956), Chapter 3; P. Ribenboim, 13 Lectures on Fermat's Last Theorem (Springer,\n  1979); Andrew Wiles, Annals of Math. 141 (1995), 443{551."
+        },
+        {
+          "page": 575,
+          "text": "Page 575 the coding of answer 16                                       04 Jan 1997\n  line 1: key, using MIX : : : uses y key uses\n  lines 3 and following: change , ., ,, (, ), +, -, *, / respectively to 0, 1,\n    2, 3 , 4, 5 , 6, 7, 8 ."
+        },
+        {
+          "page": 576,
+          "text": "Page 576 lines 1{3                                                                  05 May 1981\n  So we may : : : (p 1)=2. y In general if f is any divisor of p 1 and d is any divisor of\n  gcd(f; n), we can similarly determine (n=d) mod f by looking up the value of b(p 1)=f\n  in a table of length f=d. If p 1 has the prime factors q1 \u0014 q2 \u0014 \u0001 \u0001 \u0001 \u0014 qt and if qt\n  is small, we can therefore compute n rapidly by nding the digits from right to left in\n  its mixed-radix representation, for radices q1 , : : : , qt . (This idea is due to R. L. Silver,\n  1975; see S. C. Pohlig and M. Hellman, IEEE Transactions IT-24 (1978), 106{110.)\n       John M. Pollard discovered an elegant way to compute discrete logs with about\n  O(pp ) operations mod p, requiring very little memory, based on the theory of random\n  mappings. See Math. Comp. 32 (1978), 918{924, where he also suggests another\n  method based on numbers nj = rj mod p that have only small prime factors.\n       Asymptotically faster methods are discussed in exercise 4.5.4{39."
+        },
+        {
+          "page": 576,
+          "text": "xPage 576 lines 7 and 8 of answer 19                                                  27 Sep 1997\n  exercises 16 and 17 y exercises 17 and 18"
+        },
+        {
+          "page": 576,
+          "text": "Page 576 new paragraph after answer 19                                              12 Nov 1976\n       A similar algorithm can be used to nd maxfxi + xj j xi + xj \u0014 cg; or to nd, e.g.,\n  minfxi + yj j xi + yj > tg given t and two sorted les x1 \u0014 \u0001 \u0001 \u0001 \u0014 xm , y1 \u0014 \u0001 \u0001 \u0001 \u0014 yn ."
+        },
+        {
+          "page": 576,
+          "text": "Page 576 line 6                                                                      19 Dec 1976\n  induction. y induction; STELA, an alternative spelling of `stele'; LATES, a Nile perch."
+        }
+      ],
+      "conclusion": "No correction of the dictionary-order mapping or punctuation example."
+    }
+  ]
+}

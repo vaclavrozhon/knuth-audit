@@ -1,0 +1,49 @@
+{
+  "checked_at_utc": "2026-11-11T20:20:48.380213+00:00",
+  "edition": "Volume 4A, first edition, first printing, 2011; inventory/books.json",
+  "originals": [
+    "images/bookwise-p396.png",
+    "images/bookwise-p397.png",
+    "images/bookwise-p750.png",
+    "images/bookwise-p751.png",
+    "images/bookwise-p752.png",
+    "images/bookwise-p755.png",
+    "images/bookwise-all4f3-p13.png"
+  ],
+  "errata": [
+    "errata/text/all4a-pre.txt",
+    "errata/text/all4a.txt",
+    "errata/text/err4a.txt",
+    "errata/text/all4f3.txt",
+    "errata/text/err4f3.txt"
+  ],
+  "pages_screened": "4A 395–405,409–412,750–755; Fascicle 3 41–51,55–58,113–118",
+  "retrieval_manifests": [
+    "integration/2026-11-10-bookwise/errata/vol4a-manifest.json",
+    "integration/2026-11-10-bookwise/errata/vol4a-fasc3-manifest.json"
+  ],
+  "public_queries": [
+    "Knuth \"answer 23\" \"750\" errata",
+    "Knuth \"Jacobi\" \"van Leeuwen\" correction",
+    "Knuth \"755\" \"50\" partitions errata",
+    "Knuth \"Fristedt\" \"correction\"",
+    "Knuth \"751\" \"derivative\" errata",
+    "Knuth \"Mellin\" \"751\"",
+    "Knuth \"answer 25\" \"dilogarithm\"",
+    "Knuth \"752\" \"polynomial\" errata",
+    "Knuth \"answer 31\" \"partition\" correction"
+  ],
+  "public_result": "No matching repair found. The 2010 Fascicle 3 replacement of answer 23 contains the same missing power; original errata typesetting inspected. Known 2021 Bernoulli factor, 2022 reference date and historical answer-50(e) wording corrections are separate.",
+  "unavailable_primary_source": {
+    "url": "https://www.ams.org/journals/tran/1993-337-02/S0002-9947-1993-1094553-1/S0002-9947-1993-1094553-1.pdf",
+    "result": "HTTP 403 in both browser and direct retrieval. F0083 instead uses the exact partition-removal identity and book equation (45)."
+  },
+  "findings": [
+    "V4A-F0081",
+    "V4A-F0082",
+    "V4A-F0083",
+    "V4A-F0084",
+    "V4A-F0085",
+    "V4A-F0086"
+  ]
+}

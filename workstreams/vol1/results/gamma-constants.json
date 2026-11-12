@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "arithmetic": "exact rational outward intervals on a 10^-50 grid",
+  "reused_constants": "results/elementary-constants.json, certified 40-place intervals",
+  "analytic_remainder": "DLMF 5.11(ii), first neglected term; shift 64, omit k=18",
+  "root_interval": {
+    "lower": "1.461632144968362341262659540000000000000000000",
+    "upper": "1.461632144968362341262659550000000000000000000"
+  },
+  "psi_left": {
+    "lower": "-0.000000000000000000000000002250535980204244742",
+    "upper": "-0.000000000000000000000000002250535980203644741"
+  },
+  "psi_right": {
+    "lower": "0.000000000000000000000000007426186474271966963",
+    "upper": "0.000000000000000000000000007426186474272566964"
+  },
+  "minimum_interval": {
+    "lower": "0.885603194410888700278815900582588733184546743",
+    "upper": "0.885603194410888700278815900582588733242547461"
+  },
+  "minimum_prefix_25": "0.8856031944108887002788159",
+  "log10_1000_factorial": {
+    "lower": "2567.604644222132848771423057804523691677004165790",
+    "upper": "2567.604644222132848771423057804523691677486085208"
+  },
+  "stirling_8": {
+    "lower": "39902.395452656707907301710638107334646900595482935",
+    "upper": "39902.395452656707907301710638107334646912973966038"
+  },
+  "corrected_stirling_8": {
+    "lower": "40318.045405288548614669436790587619382805810019216",
+    "upper": "40318.045405288548614669436790587619382818317444851"
+  },
+  "scope": "25 printed decimal places of both coordinates in Fig. 7, log10(1000!), and the numerical Stirling example; no claim about historical tables."
+}

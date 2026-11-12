@@ -1,0 +1,153 @@
+{
+  "status": "all assertions passed",
+  "counts": {
+    "formulas": 4952,
+    "reconstructed_assignments": 323220,
+    "variable_eliminations": 18856,
+    "stamp_detection_checks": 37712,
+    "blocked_erp_assignments": 197523,
+    "blocked_eliminations": 26760,
+    "substitution_erp_assignments": 25936,
+    "substitutions": 2857,
+    "subsumption_pairs": 58564,
+    "self_subsumption_pairs": 196020,
+    "merged_resolvents": 65610,
+    "366_reconstructions": 2,
+    "370_truth_tables": 1,
+    "372_irreducible_variables": 8,
+    "381_reconstructions": 42,
+    "379_forward_repairs": 882,
+    "380_reconstructions": 21,
+    "377_graphs": 1099
+  },
+  "376_printed": {
+    "clauses": {
+      "C": [
+        1,
+        2
+      ],
+      "E": [
+        1,
+        2,
+        4
+      ],
+      "N": [
+        -4,
+        -2,
+        -1
+      ]
+    },
+    "trace": [
+      [
+        "pop",
+        "C"
+      ],
+      [
+        "pop",
+        "E"
+      ],
+      [
+        "pop",
+        "N"
+      ],
+      [
+        "pop",
+        "D"
+      ],
+      [
+        "skip_push",
+        "C",
+        "E"
+      ],
+      [
+        "strengthen",
+        "D",
+        "C",
+        [
+          1,
+          2
+        ]
+      ],
+      [
+        "condition",
+        -3
+      ]
+    ],
+    "links": {
+      "C": "E",
+      "E": "N",
+      "N": "D",
+      "D": "END"
+    }
+  },
+  "376_corrected": {
+    "clauses": {},
+    "trace": [
+      [
+        "pop",
+        "C"
+      ],
+      [
+        "pop",
+        "E"
+      ],
+      [
+        "pop",
+        "N"
+      ],
+      [
+        "pop",
+        "D"
+      ],
+      [
+        "push",
+        "C"
+      ],
+      [
+        "strengthen",
+        "D",
+        "C",
+        [
+          1,
+          2
+        ]
+      ],
+      [
+        "condition",
+        -3
+      ],
+      [
+        "pop",
+        "C"
+      ],
+      [
+        "subsume",
+        "C",
+        "E"
+      ],
+      [
+        "condition",
+        -4
+      ],
+      [
+        "condition",
+        1
+      ]
+    ],
+    "links": {
+      "C": 0,
+      "E": 0,
+      "N": 0,
+      "D": 0
+    }
+  },
+  "374_copy_links": {
+    "S(1)": 100,
+    "S(100)": 101,
+    "p": 101,
+    "correct_traversal": [
+      100,
+      101
+    ]
+  }
+}

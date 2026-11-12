@@ -1,0 +1,505 @@
+{
+  "at_utc": "2026-11-03T07:31:39.418286+00:00",
+  "checker_sha256": "b5fdcbc95cff696526bfa15b6618e03c033d73615aa36be16cd3c857cab9b783",
+  "geometry_sha256": "140542c1806da220d16df7b301e586a493d3b3eeb695ec8b7d5c24a9366bd1a2",
+  "cube_geometry_sha256": "73498bb603079a7e9f2b5c8a7b7f812e7d9a0a538ab243580ae764c0958a14bf",
+  "trace_hashes": {
+    "results/bricks147/original-476.xml": "f942658e55e19b7ad0a4ac9c49b158773f9f98d252bf06f56fb7b1e246efb528",
+    "results/bricks147/draft-166.xml": "7dd79fc640ca432138f9b2af2e52494ee24553f67704bc74f2cf645fcdadca32",
+    "results/bricks147/original-477.xml": "e64cebc399b8431759ed332292ac726bfdea4e2e263f272b06e75fc3fcdde94b",
+    "results/bricks147/draft-167.xml": "6903a498febffc35ff47b7e98a85e7c9ea4e68c8f3eb804991498fb975ed14f4"
+  },
+  "figures": {
+    "small": {
+      "dims": [
+        1,
+        2,
+        2
+      ],
+      "model": [
+        "dfabce",
+        "dfabec",
+        "feabcd",
+        "feabdc"
+      ],
+      "names": [
+        "abcedf",
+        "abcefd",
+        "abcdfe",
+        "abcdef"
+      ],
+      "boundary": [
+        "a",
+        "b",
+        "d",
+        "e",
+        "c",
+        "c"
+      ],
+      "face_count": 20,
+      "characters": 75,
+      "tensor": [
+        [
+          ".....",
+          ".a.a.",
+          ".....",
+          ".a.a.",
+          "....."
+        ],
+        [
+          ".d.d.",
+          "c.e.c",
+          ".f.f.",
+          "c.d.c",
+          ".e.e."
+        ],
+        [
+          ".....",
+          ".b.b.",
+          ".....",
+          ".b.b.",
+          "....."
+        ]
+      ],
+      "automorphisms": 8,
+      "spatial_group_size": 16
+    },
+    "magnificent": {
+      "dims": [
+        2,
+        3,
+        5
+      ],
+      "model": [
+        "ceadbf",
+        "ceabfd",
+        "cbaedf",
+        "cbaefd",
+        "cfaedb",
+        "efadbc",
+        "efabcd",
+        "beacdf",
+        "bdacfe",
+        "fdaceb",
+        "fcadbe",
+        "fcabed",
+        "ecafdb",
+        "dcafbe",
+        "dcafeb",
+        "cedabf",
+        "cebafd",
+        "cfeadb",
+        "cdeabf",
+        "cdeafb",
+        "efdabc",
+        "efbacd",
+        "fbcade",
+        "dbcaef",
+        "decafb",
+        "fcdabe",
+        "fcbaed",
+        "bcfade",
+        "bcfaed",
+        "ecfadb"
+      ],
+      "names": [
+        "adbfce",
+        "abcedf",
+        "aebcdf",
+        "aebcfd",
+        "aebdfc",
+        "adbcef",
+        "abcdef",
+        "acbefd",
+        "acbdef",
+        "acbedf",
+        "adbefc",
+        "abcfed",
+        "afbdce",
+        "afbedc",
+        "afbecd",
+        "adbfec",
+        "abcefd",
+        "aebdcf",
+        "aebfdc",
+        "aebfcd",
+        "adbcfe",
+        "abcdfe",
+        "acbfed",
+        "acbdfe",
+        "acbfde",
+        "adbecf",
+        "abcfde",
+        "afbcde",
+        "afbced",
+        "afbdec"
+      ],
+      "boundary": [
+        "a",
+        "a",
+        "c",
+        "c",
+        "b",
+        "b"
+      ],
+      "face_count": 121,
+      "characters": 385,
+      "tensor": [
+        [
+          "...........",
+          ".a.a.a.a.a.",
+          "...........",
+          ".a.a.a.a.a.",
+          "...........",
+          ".a.a.a.a.a.",
+          "..........."
+        ],
+        [
+          ".c.c.c.c.c.",
+          "b.f.d.f.d.b",
+          ".e.e.b.b.f.",
+          "b.c.d.f.e.b",
+          ".f.f.e.d.d.",
+          "b.e.d.b.e.b",
+          ".c.c.c.c.c."
+        ],
+        [
+          "...........",
+          ".d.b.e.e.e.",
+          "...........",
+          ".d.b.c.c.c.",
+          "...........",
+          ".d.b.f.f.f.",
+          "..........."
+        ],
+        [
+          ".c.c.c.c.c.",
+          "b.f.d.b.f.b",
+          ".e.e.f.d.d.",
+          "b.c.d.e.f.b",
+          ".f.f.b.b.e.",
+          "b.e.d.e.d.b",
+          ".c.c.c.c.c."
+        ],
+        [
+          "...........",
+          ".a.a.a.a.a.",
+          "...........",
+          ".a.a.a.a.a.",
+          "...........",
+          ".a.a.a.a.a.",
+          "..........."
+        ]
+      ],
+      "automorphisms": 2,
+      "spatial_group_size": 8
+    },
+    "macmahon": {
+      "dims": [
+        2,
+        2,
+        2
+      ],
+      "model": [
+        "cfadeb",
+        "ceadbf",
+        "fdaceb",
+        "edacbf",
+        "cfdbea",
+        "cedbaf",
+        "fdcbea",
+        "edcbaf"
+      ],
+      "names": [
+        "adbefc",
+        "adbfce",
+        "acbedf",
+        "acbfed",
+        "aebdfc",
+        "afbdce",
+        "aebcdf",
+        "afbced"
+      ],
+      "boundary": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f"
+      ],
+      "face_count": 36,
+      "characters": 125,
+      "tensor": [
+        [
+          ".....",
+          ".a.a.",
+          ".....",
+          ".a.a.",
+          "....."
+        ],
+        [
+          ".c.c.",
+          "e.b.f",
+          ".f.e.",
+          "e.b.f",
+          ".d.d."
+        ],
+        [
+          ".....",
+          ".d.d.",
+          ".....",
+          ".c.c.",
+          "....."
+        ],
+        [
+          ".c.c.",
+          "e.a.f",
+          ".f.e.",
+          "e.a.f",
+          ".d.d."
+        ],
+        [
+          ".....",
+          ".b.b.",
+          ".....",
+          ".b.b.",
+          "....."
+        ]
+      ],
+      "automorphisms": 24,
+      "spatial_group_size": 48
+    },
+    "kowalewski": {
+      "dims": [
+        2,
+        2,
+        2
+      ],
+      "model": [
+        "bfadce",
+        "bfaced",
+        "fbadce",
+        "fbaced",
+        "bedacf",
+        "becafd",
+        "ebdacf",
+        "ebcafd"
+      ],
+      "names": [
+        "adbfec",
+        "acbfde",
+        "adbfce",
+        "acbfed",
+        "adbecf",
+        "acbefd",
+        "adbefc",
+        "acbedf"
+      ],
+      "boundary": [
+        "a",
+        "a",
+        "b",
+        "b",
+        "c",
+        "d"
+      ],
+      "face_count": 36,
+      "characters": 125,
+      "tensor": [
+        [
+          ".....",
+          ".a.a.",
+          ".....",
+          ".a.a.",
+          "....."
+        ],
+        [
+          ".b.b.",
+          "c.e.d",
+          ".f.f.",
+          "c.e.d",
+          ".b.b."
+        ],
+        [
+          ".....",
+          ".d.c.",
+          ".....",
+          ".d.c.",
+          "....."
+        ],
+        [
+          ".b.b.",
+          "c.f.d",
+          ".e.e.",
+          "c.f.d",
+          ".b.b."
+        ],
+        [
+          ".....",
+          ".a.a.",
+          ".....",
+          ".a.a.",
+          "....."
+        ]
+      ],
+      "automorphisms": 8,
+      "spatial_group_size": 48
+    },
+    "winter": {
+      "dims": [
+        2,
+        2,
+        2
+      ],
+      "model": [
+        "beafdc",
+        "bdafce",
+        "ecabdf",
+        "dcabfe",
+        "befadc",
+        "bdface",
+        "ecbadf",
+        "dcbafe"
+      ],
+      "names": [
+        "afbecd",
+        "afbdec",
+        "abcedf",
+        "abcdfe",
+        "afbedc",
+        "afbdce",
+        "abcefd",
+        "abcdef"
+      ],
+      "boundary": [
+        "a",
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "face_count": 36,
+      "characters": 125,
+      "tensor": [
+        [
+          ".....",
+          ".a.a.",
+          ".....",
+          ".a.a.",
+          "....."
+        ],
+        [
+          ".b.b.",
+          "d.c.e",
+          ".e.d.",
+          "d.f.e",
+          ".c.c."
+        ],
+        [
+          ".....",
+          ".f.f.",
+          ".....",
+          ".b.b.",
+          "....."
+        ],
+        [
+          ".b.b.",
+          "d.c.e",
+          ".e.d.",
+          "d.f.e",
+          ".c.c."
+        ],
+        [
+          ".....",
+          ".a.a.",
+          ".....",
+          ".a.a.",
+          "....."
+        ]
+      ],
+      "automorphisms": 4,
+      "spatial_group_size": 48
+    },
+    "fourth": {
+      "dims": [
+        2,
+        2,
+        2
+      ],
+      "model": [
+        "beacdf",
+        "bdacfe",
+        "ecabdf",
+        "dcabfe",
+        "becadf",
+        "bdcafe",
+        "ecbadf",
+        "dcbafe"
+      ],
+      "names": [
+        "acbefd",
+        "acbdef",
+        "abcedf",
+        "abcdfe",
+        "acbedf",
+        "acbdfe",
+        "abcefd",
+        "abcdef"
+      ],
+      "boundary": [
+        "a",
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "face_count": 36,
+      "characters": 125,
+      "tensor": [
+        [
+          ".....",
+          ".a.a.",
+          ".....",
+          ".a.a.",
+          "....."
+        ],
+        [
+          ".b.b.",
+          "d.f.e",
+          ".e.d.",
+          "d.f.e",
+          ".c.c."
+        ],
+        [
+          ".....",
+          ".c.c.",
+          ".....",
+          ".b.b.",
+          "....."
+        ],
+        [
+          ".b.b.",
+          "d.f.e",
+          ".e.d.",
+          "d.f.e",
+          ".c.c."
+        ],
+        [
+          ".....",
+          ".a.a.",
+          ".....",
+          ".a.a.",
+          "....."
+        ]
+      ],
+      "automorphisms": 8,
+      "spatial_group_size": 48
+    }
+  },
+  "all_original_and_draft_characters_equal": true,
+  "total_characters": 960,
+  "all_cubes_contacts_and_boundaries_valid": true
+}

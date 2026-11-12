@@ -1,0 +1,28 @@
+{
+  "scope": "4.5.3-33/34; general proofs in notes/euclid-heilbronn.md",
+  "checkpoints": {
+    "representations": {
+      "max_n": 128,
+      "relaxed_representations": 13054,
+      "strict_cuts": 9022,
+      "boundary_representations": 4032,
+      "all_parts_33": true
+    },
+    "uniform_counts": {
+      "uniform_count_checks": 8384,
+      "tie_cases": 1627,
+      "absolute_error_bound_checked": "4*n, proved independently in notes",
+      "largest_error_over_n": "11/15",
+      "worst_n_d": [
+        12,
+        1
+      ],
+      "all_parts_34a": true
+    },
+    "divisor_identities": {
+      "harmonic_and_mobius_inputs": 512,
+      "final_convolution_inputs": 1024,
+      "logarithms": "exact rational coefficient of each ln(p)"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "blocks": {
+    "division": {
+      "division_cases": 160,
+      "homogeneous_factor_cases": 80,
+      "prefix_descent_steps": 504,
+      "zero_witness_counterexample": true,
+      "seconds": 0.3023415339994244
+    },
+    "homogeneous": {
+      "commuting_pairs": 80,
+      "constant_input_unbounded_degree_witnesses": 10,
+      "seconds": 0.05420850799418986
+    },
+    "extended": {
+      "book_example": {
+        "gcrd": {
+          "ab": "1",
+          "": "1"
+        },
+        "lclm": {
+          "abbbabbabab": "-1",
+          "abbabbabab": "-1",
+          "abbbababab": "-1",
+          "abbababab": "-1",
+          "bbabbabab": "1",
+          "abbbabab": "-1",
+          "bbababab": "1",
+          "abbabab": "-2",
+          "abbbabb": "1",
+          "ababab": "-1",
+          "abbabb": "1",
+          "bbabab": "1",
+          "babab": "1",
+          "bbabb": "-1",
+          "abb": "1",
+          "ab": "1",
+          "b": "-1"
+        },
+        "iterations": 4,
+        "printed_product_terms": 17
+      },
+      "constructed_pairs": 90,
+      "zero_input_pairs": 2,
+      "iterations": 239,
+      "invariant_states": 332,
+      "prefix_descent_steps": 853,
+      "noncommutative_matrix_identity": true,
+      "seconds": 2.2144774600164965
+    },
+    "matrices": {
+      "matrix_pairs": 240,
+      "singular_or_zero_cases": 49,
+      "row_passes": 1517,
+      "book_certificates": true,
+      "seconds": 0.39199421601369977
+    }
+  },
+  "status": "passed"
+}

@@ -1,0 +1,241 @@
+{
+  "description": "Complete MPR103(a–f) and104, every printed intermediate, algorithm invariant, termination/cost and general addition",
+  "ledger_ids": [
+    "D201",
+    "D202",
+    "P103",
+    "E131",
+    "E132",
+    "F170"
+  ],
+  "claims": [
+    {
+      "id": "MPR103.01",
+      "file_pages": [
+        41,
+        405
+      ],
+      "claim": "Fixed-time word reversal, every transition, initial condition and GF equation",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex103-104.md"
+    },
+    {
+      "id": "MPR103.02",
+      "file_pages": [
+        41,
+        405
+      ],
+      "claim": "Complete eigenvector decomposition and every parity/floor boundary including n0",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex103-104.md"
+    },
+    {
+      "id": "MPR103.03",
+      "file_pages": [
+        41,
+        405
+      ],
+      "claim": "Simultaneous-update and monotonicity invariants, complete transition tables in both directions",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex103-104.md"
+    },
+    {
+      "id": "MPR103.04",
+      "file_pages": [
+        41,
+        405
+      ],
+      "claim": "Every marked GF in103(b), uniform law and both moments",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex103-104.md"
+    },
+    {
+      "id": "MPR103.05",
+      "file_pages": [
+        41,
+        405
+      ],
+      "claim": "Exact two-bit contradiction to the printed successor112, corrected122 recurrence",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/F170-coupling-transition-subscript.md"
+    },
+    {
+      "id": "MPR103.06",
+      "file_pages": [
+        41,
+        405
+      ],
+      "claim": "Complete103(c) system, impossibility of first111, symmetry and complete stopping law",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex103-104.md"
+    },
+    {
+      "id": "MPR103.07",
+      "file_pages": [
+        41,
+        405
+      ],
+      "claim": "Noncommutation, stable versus changing constants and fixed-time/stopping distinction",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex103-104.md"
+    },
+    {
+      "id": "MPR103.08",
+      "file_pages": [
+        41,
+        405
+      ],
+      "claim": "Complete sub(T) return law, two surviving alternating words and all even boundaries",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex103-104.md"
+    },
+    {
+      "id": "MPR103.09",
+      "file_pages": [
+        41,
+        405
+      ],
+      "claim": "Every restart probability, exact series and rational certificate of0.427 rounding",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex103-104.md"
+    },
+    {
+      "id": "MPR103.10",
+      "file_pages": [
+        41,
+        405
+      ],
+      "claim": "Termination and finite expected work even for the incorrect algorithm",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex103-104.md"
+    },
+    {
+      "id": "MPR103.11",
+      "file_pages": [
+        41,
+        405
+      ],
+      "claim": "Concrete consistent-bit cache algorithm, preserved indices and pathwise equality with103(b)",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex103-104.md"
+    },
+    {
+      "id": "MPR103.12",
+      "file_pages": [
+        41,
+        405
+      ],
+      "claim": "Every dyadic work/memory bound and precise PRNG replay scope",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex103-104.md"
+    },
+    {
+      "id": "MPR103.13",
+      "file_pages": [
+        41,
+        405
+      ],
+      "claim": "Complete finite ordered-state CFTP correctness, stationary existence and coalescence condition",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex103-cftp.md"
+    },
+    {
+      "id": "MPR103.14",
+      "file_pages": [
+        41,
+        405
+      ],
+      "claim": "Explicit terminating uniform samplers for paths, arbitrary poset ideals and antichains",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex103-cftp.md"
+    },
+    {
+      "id": "MPR103.15",
+      "file_pages": [
+        41,
+        405
+      ],
+      "claim": "Precise cost comparison with full-state method(b), assumptions and memory tradeoff",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex103-cftp.md"
+    },
+    {
+      "id": "MPR103.16",
+      "file_pages": [
+        41,
+        405
+      ],
+      "claim": "Primary bibliographic provenance, original algorithm and seed-block passage",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex103-cftp.md"
+    },
+    {
+      "id": "MPR104.01",
+      "file_pages": [
+        41,
+        405
+      ],
+      "claim": "Complete biased transition elimination for every0≤p≤1 in both directions",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex103-104.md"
+    },
+    {
+      "id": "MPR104.02",
+      "file_pages": [
+        41,
+        405
+      ],
+      "claim": "Both corrected marked output laws and all normalizations",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex103-104.md"
+    },
+    {
+      "id": "MPR104.03",
+      "file_pages": [
+        41,
+        405
+      ],
+      "claim": "Common GF, all even/odd coefficients, almost-sure termination and analytic domain",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex103-104.md"
+    },
+    {
+      "id": "MPR104.04",
+      "file_pages": [
+        41,
+        405
+      ],
+      "claim": "Every logarithmic derivative and moment identity",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex103-104.md"
+    },
+    {
+      "id": "MPR104.05",
+      "file_pages": [
+        41,
+        405
+      ],
+      "claim": "All p0,p1,p1/2 boundaries and positive denominators",
+      "status": "checked",
+      "proof": "audit-2026-10-31/notes/sequential-mpr-ex103-104.md"
+    }
+  ],
+  "bibliography_skips": [],
+  "known_errata": [
+    "E131",
+    "E132"
+  ],
+  "new_findings": [
+    "F170"
+  ],
+  "preserved_old_evidence": {
+    "absorbing_chains": 94,
+    "distinct_bias_probabilities": 47,
+    "finite_time_probability_entries": 189,
+    "path": "audit-2026-10-31/results/ternary_coupling.json",
+    "limitations": "Finite old tests preserved without rerun; new general written arguments cover all parameters and103(f)."
+  },
+  "new_calculations": 0,
+  "old_runs_repeated": 0,
+  "updated_at_utc": "2026-11-07T02:07:46.826064+00:00"
+}

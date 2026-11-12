@@ -1,0 +1,76 @@
+{
+  "vertices": [
+    "s",
+    "v",
+    "t"
+  ],
+  "arcs": [
+    [
+      "s",
+      "t"
+    ],
+    [
+      "s",
+      "v"
+    ],
+    [
+      "v",
+      "t"
+    ]
+  ],
+  "primary": [
+    "s+",
+    "v-",
+    "v+",
+    "t-"
+  ],
+  "arc_options": [
+    [
+      "s+",
+      "t-",
+      "s:1",
+      "t:1"
+    ],
+    [
+      "s+",
+      "v-",
+      "s:1",
+      "v:1"
+    ],
+    [
+      "v+",
+      "t-",
+      "v:1",
+      "t:1"
+    ]
+  ],
+  "needed_slack": [
+    [
+      "v-",
+      "v:0"
+    ],
+    [
+      "v+",
+      "v:0"
+    ]
+  ],
+  "all_paths": [
+    [
+      "s",
+      "t"
+    ],
+    [
+      "s",
+      "v",
+      "t"
+    ]
+  ],
+  "arc_only_paths": [
+    [
+      "s",
+      "v",
+      "t"
+    ]
+  ],
+  "reason": "The direct path leaves v- and v+ uncovered. Literal color 0 is a matchable color, not an uncolored occurrence."
+}

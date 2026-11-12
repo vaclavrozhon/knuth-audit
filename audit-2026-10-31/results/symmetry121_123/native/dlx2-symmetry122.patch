@@ -1,0 +1,90 @@
+--- dlx2-original.w
++++ dlx2-symmetry122.w
+@@ -192,6 +192,7 @@
+ 
+ @<Process the command line@>=
+ for (j=argc-1,k=0;j;j--) switch (argv[j][0]) {
++case 'y': k|=(sscanf(argv[j]+1,""O"d",&theta)-1);@+break;
+ case 'v': k|=(sscanf(argv[j]+1,""O"d",&vbose)-1);@+break;
+ case 'm': k|=(sscanf(argv[j]+1,""O"d",&spacing)-1);@+break;
+ case 's': k|=(sscanf(argv[j]+1,""O"d",&random_seed)-1),randomizing=1;@+break;
+@@ -299,6 +300,7 @@
+ typedef struct itm_struct {
+   char name[8]; /* symbolic identification of the item, for printing */
+   int prev,next; /* neighbors of this item */
++  int cth; /* answer122: primary eligibility or secondary undo cache */
+ } item;
+ 
+ @ @<Glob...@>=
+@@ -568,6 +570,7 @@
+ if (sanity_checking) sanity();
+ @<Do special things if enough |mems| have accumulated@>;
+ @<Set |best_itm| to the best item for branching@>;
++if (best_itm==root) goto retreat;
+ cover(best_itm);
+ oo,cur_node=choice[level]=nd[best_itm].down;
+ advance:@+if (cur_node==best_itm) goto backup;
+@@ -586,13 +589,14 @@
+ }
+ goto forward;
+ backup: uncover(best_itm);
+-if (level==0) goto done;
++retreat: if (level==0) goto done;
+ level--;
+ oo,cur_node=choice[level],best_itm=nd[cur_node].itm;
+ recover: @<Uncover all other items of |cur_node|@>;
+ oo,cur_node=choice[level]=nd[cur_node].down;@+goto advance;
+ 
+ @ @<Glob...@>=
++int theta=49; /* answer122: ASCII color threshold, default color 1 */
+ int level; /* number of choices in current partial solution */
+ int choice[max_level]; /* the node chosen on each level */
+ ullng profile[max_level]; /* number of search tree nodes on each level */
+@@ -680,6 +684,7 @@
+   o,cc=nd[pp].itm;
+   if (cc<=0) o,pp=nd[pp].up;
+   else {
++    if (nd[pp].color>theta) goto reject122;
+     if (!nd[pp].color) cover(cc);
+     else if (nd[pp].color>0) purify(pp);
+     pp++;
+@@ -696,7 +701,7 @@
+   else {
+     if (!nd[pp].color) uncover(cc);
+     else if (nd[pp].color>0) unpurify(pp);
+-    pp--;
++reject122: pp--;
+   }
+ }
+ 
+@@ -709,6 +714,8 @@
+ void purify(int p) {
+   register int cc,rr,nn,uu,dd,t,x;
+   o,cc=nd[p].itm,x=nd[p].color;
++  o,cl[cc].cth=theta;
++  if (x==theta) theta++;
+   nd[cc].color=x; /* no mem charged, because this is for |print_option| only */
+   cleansings++;
+   for (o,rr=nd[cc].down;rr>=last_itm;o,rr=nd[rr].down) {
+@@ -740,6 +747,7 @@
+ void unpurify(int p) {
+   register int cc,rr,nn,uu,dd,t,x;
+   o,cc=nd[p].itm,x=nd[p].color; /* there's no need to clear |nd[cc].color| */
++  o,theta=cl[cc].cth;
+   for (o,rr=nd[cc].up;rr>=last_itm;o,rr=nd[rr].up) {
+     if (rr==p) fprintf(stderr,"confusion!\n");
+     if (o,nd[rr].color<0) o,nd[rr].color=x;
+@@ -768,11 +776,13 @@
+ select one of them at random.
+ 
+ @<Set |best_itm| to the best item for branching@>=
++best_itm=root;
+ t=max_nodes,tmems=mems;
+ if ((vbose&show_details) &&
+     level<show_choices_max && level>=maxl-show_choices_gap)
+   fprintf(stderr,"Level "O"d:",level);
+ for (o,k=cl[root].next;t&&k!=root;o,k=cl[k].next) {
++  if (o,cl[k].cth>theta) continue;
+   if ((vbose&show_details) &&
+       level<show_choices_max && level>=maxl-show_choices_gap)
+     fprintf(stderr," "O".8s("O"d)",cl[k].name,nd[k].len);

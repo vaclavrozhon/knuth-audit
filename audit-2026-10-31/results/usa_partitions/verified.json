@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "case": "n48-k6",
+      "count": 4536539,
+      "minimum_cost": 72,
+      "optimal_count": 2,
+      "memo_states": 675182,
+      "seconds": 3.74556,
+      "witness_rows": [
+        1953,
+        2453,
+        3645,
+        5910,
+        3637,
+        3317,
+        4069,
+        4393
+      ],
+      "accepted_models": 28,
+      "native_count_complete": true
+    },
+    {
+      "case": "n48-k8",
+      "count": 4177616,
+      "minimum_cost": 54,
+      "optimal_count": 2,
+      "memo_states": 1245141,
+      "seconds": 20.1092,
+      "witness_rows": [
+        5752,
+        8455,
+        37400,
+        16178,
+        24409,
+        17924
+      ],
+      "accepted_models": 23,
+      "native_count_complete": false
+    },
+    {
+      "case": "n49-k7",
+      "count": 4517463,
+      "minimum_cost": 58,
+      "optimal_count": 1,
+      "memo_states": 1026852,
+      "seconds": 8.91929,
+      "witness_rows": [
+        3704,
+        4908,
+        7954,
+        7806,
+        17140,
+        12642,
+        8305
+      ],
+      "accepted_models": 26,
+      "native_count_complete": true
+    }
+  ],
+  "interval_checks": 36000,
+  "exercise240_six_options_correct": true
+}

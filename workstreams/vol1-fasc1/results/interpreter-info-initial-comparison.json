@@ -1,0 +1,6 @@
+{
+  "status": "own_checker_correction",
+  "initial_failure": "At opcode0x50, compared Info probable-branch3 directly to previously accepted base1; forgot that Info subtracts2 on taken while architecture adds2 on miss.",
+  "impact": "Checker expectation corrected. No simulator execution, no new book/program finding, no previous successful check repeated.",
+  "second_failure": "All256 entries passed; printed-table regex accidentally consumed the preceding CONTROL heading because its first whitespace matcher included newline. Changed that matcher to horizontal whitespace."
+}

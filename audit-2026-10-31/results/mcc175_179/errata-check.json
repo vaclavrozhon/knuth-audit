@@ -1,0 +1,116 @@
+{
+  "at_utc": "2026-11-03T13:46:06.071128+00:00",
+  "files": [
+    {
+      "file": "errata/text/all4b.txt",
+      "sha256": "b1a3425486f403fb4158585d5bbfef0159fd20b12e2e7d47b64e393e1ae8a303",
+      "matching_lines": [
+        215,
+        217,
+        219,
+        223,
+        225,
+        227,
+        230,
+        732
+      ]
+    },
+    {
+      "file": "errata/text/err4b.txt",
+      "sha256": "2a3450bf3c79d28ad3c2d96468344c96995cf0afb74961f257c311bb9c821e1c",
+      "matching_lines": [
+        187,
+        189,
+        192,
+        194,
+        197,
+        200,
+        682
+      ]
+    },
+    {
+      "file": "errata/text/all4f5.txt",
+      "sha256": "0dd38c4cda72b01baefb797611c9bbab7713ff0c107a1df884afc89fe9bb91c3",
+      "matching_lines": [
+        300,
+        329,
+        334,
+        662,
+        1034,
+        1145
+      ]
+    },
+    {
+      "file": "errata/text/err4f5.txt",
+      "sha256": "5a716c34e2063eb46005593d53e89dbbd912b5677e0a6ab11753f2a5ee38b557",
+      "matching_lines": [
+        255,
+        284,
+        289,
+        608,
+        975,
+        1086
+      ]
+    },
+    {
+      "file": "errata/originals/err4b.textxt",
+      "sha256": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+      "matching_lines": [
+        437,
+        441,
+        445,
+        449,
+        453,
+        457,
+        461,
+        1116,
+        2228
+      ]
+    },
+    {
+      "file": "errata/originals/err4f5.textxt",
+      "sha256": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b",
+      "matching_lines": [
+        567,
+        572,
+        582,
+        1118,
+        1668,
+        2566
+      ]
+    }
+  ],
+  "pattern": "(?:[Pp]age\\s+|(?:4b|4f5)\\.)(?:146|147|467|144|145|275)\\b|(?:answer|exercise|exer ise)\\s+17[5-9]\\b|multipartition|Wallis|zero row|nonzero row|binom",
+  "known_entries": [
+    {
+      "id": "E087",
+      "date": "2024-03-27",
+      "pages": [
+        146,
+        467
+      ],
+      "applied_original_pdf": false,
+      "applied_author_draft": false
+    },
+    {
+      "id": "E088",
+      "date": "2022-07-11",
+      "book_page": 467,
+      "fascicle_page": 275,
+      "applied_original_pdf": true,
+      "applied_author_draft": false
+    },
+    {
+      "id": "E089",
+      "date": "2021-11-17",
+      "book_page": 146,
+      "fascicle_page": 144,
+      "applied_original_pdf": true,
+      "applied_author_draft": false
+    }
+  ],
+  "F070": "No published correction of undefined n to t in the binomial coefficient found in six relevant layers.",
+  "C037": "No published zero-row preprocessing or domain restriction found for175–176.",
+  "excluded_comment": "err4b.textxt line2228: internal plural-style note for177(a), not a published erratum.",
+  "live_4b_archive_match": "results/snakes172/errata-check.json (same day; current TeX and PS agree with archive)."
+}

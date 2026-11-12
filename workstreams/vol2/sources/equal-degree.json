@@ -1,0 +1,281 @@
+{
+  "accessed_utc": "2026-11-04T02:28:54.288162+00:00",
+  "scope": "Own mathematics of D and exercises28–31,37. Advanced449 algorithms and historical attribution remain separate open subblocks.",
+  "book": {
+    "edition": 3,
+    "printing": 1,
+    "printed_pages": [
+      447,
+      448,
+      449,
+      459,
+      460,
+      686,
+      687,
+      688,
+      689,
+      690
+    ],
+    "scope": "449 and historical portions are not closed by this block."
+  },
+  "sources": [
+    {
+      "id": "lehmer-1972-partitions",
+      "url": "https://matwbn.icm.edu.pl/ksiazki/aa/aa21/aa21123.pdf",
+      "local": "sources/lehmer-1972-partitions.pdf",
+      "printed_pages_visually_read": [
+        379,
+        380,
+        381,
+        382,
+        383,
+        384,
+        385,
+        386,
+        387,
+        388
+      ],
+      "scope": "Whole article read; Theorem2 used for attribution of the limit. Other arithmetic-progression results and numerical tables not independently audited. Six PDF spreads, not six printed pages."
+    },
+    {
+      "id": "kaltofen-shoup-1998",
+      "local": "sources/kaltofen-shoup-1998.pdf",
+      "scope": "Downloaded for next block; text1182–1185 skimmed, not yet visually audited."
+    },
+    {
+      "id": "gathen-shoup-1992",
+      "local": "sources/gathen-shoup-1992.pdf",
+      "scope": "Downloaded for next block, not yet audited."
+    }
+  ],
+  "errata": {
+    "layers": [
+      "all2-prepre",
+      "all2-pre",
+      "all2",
+      "err2",
+      "err2-2e",
+      "err2.textxt"
+    ],
+    "log": "sources/polynomial-factorization-errata.txt",
+    "negative_search": "No correction found for C0209–C0212. Known1999 alpha typo on688 is different; 2011D formatting and 2000fast-bound correction separated."
+  },
+  "verification": {
+    "result": "results/equal-degree.json",
+    "successful_blocks": 5,
+    "elapsed_seconds": 8.523767632024828,
+    "timing_scope": "Exact correctness checks; constants uses80digit numerical evaluation with analytic tail, no interval-library-certified rounding."
+  },
+  "artifacts": [
+    {
+      "path": "images/lehmer-1972-partitions-1.png",
+      "bytes": 70937,
+      "sha256": "19f1cf9a47f7f2d3b5ba73418ce5c57c85b061f03829c390b851d064a121278a"
+    },
+    {
+      "path": "images/lehmer-1972-partitions-2.png",
+      "bytes": 133608,
+      "sha256": "d40b58a2808b16dd9e35d3dfe171824f095317665165abcfcddcae611ffad193"
+    },
+    {
+      "path": "images/lehmer-1972-partitions-3.png",
+      "bytes": 120441,
+      "sha256": "38df7418ae9644b13c99153221cdcdb20698497429dc22e379f71407d2a8802c"
+    },
+    {
+      "path": "images/lehmer-1972-partitions-4.png",
+      "bytes": 95157,
+      "sha256": "c2d2bcf784e79582d724885177e6c522ce18abc4ece601c2b7c4347d1c362e17"
+    },
+    {
+      "path": "images/lehmer-1972-partitions-5.png",
+      "bytes": 117747,
+      "sha256": "c8e36041565f35154b12972886cd27c816f251fc4122ebc9e416ad638a03e6a8"
+    },
+    {
+      "path": "images/lehmer-1972-partitions-6.png",
+      "bytes": 105747,
+      "sha256": "c2be514703a82111331c6b05744e7ad6a93f46e479b2ff098782aeb926166a29"
+    },
+    {
+      "path": "images/vol2-p447.png",
+      "bytes": 331473,
+      "sha256": "96b3552a3ff8c5501e9fa5657c7896465b75fe94fe6e08d4a30c87a56f41df04"
+    },
+    {
+      "path": "images/vol2-p448.png",
+      "bytes": 318881,
+      "sha256": "b4187379840807feef2b2f7472904c92a3d745e16fc5a70c8872623c5bf3288c"
+    },
+    {
+      "path": "images/vol2-p449.png",
+      "bytes": 390714,
+      "sha256": "b432ad2e26ad777dd244ad3c119529dcd3171df825c2812bb80f6c5154895c54"
+    },
+    {
+      "path": "images/vol2-p459.png",
+      "bytes": 337516,
+      "sha256": "d7a20260a475a3806bde87b79deac3b0693d4bc50f97ef9ca4950e8673b3ee41"
+    },
+    {
+      "path": "images/vol2-p460.png",
+      "bytes": 386711,
+      "sha256": "b0833604e2609d5aeafc62a88f411db710409052da6754172516f834e4fbcb6a"
+    },
+    {
+      "path": "images/vol2-p686.png",
+      "bytes": 376719,
+      "sha256": "0232e1be8e78774de74643d69265e7b2827cfdd2e3dbac62c7991449637653d9"
+    },
+    {
+      "path": "images/vol2-p687.png",
+      "bytes": 396161,
+      "sha256": "0583e4f1680c6c114459096fb1755e55737b238f023d9f7280dffbe4c6a35a28"
+    },
+    {
+      "path": "images/vol2-p688.png",
+      "bytes": 389130,
+      "sha256": "c176e89e5f54a5a8ce3ba6e021a348013d8b484c1b16f773fb920c755a555f15"
+    },
+    {
+      "path": "images/vol2-p689.png",
+      "bytes": 390731,
+      "sha256": "d224fef95c6c26603e628512d372fbb3c93f024a1e86bf333aea1e5b2142aa9b"
+    },
+    {
+      "path": "notes/C0209-degree-one-character-count.md",
+      "bytes": 786,
+      "sha256": "46fa6ed0d4aa192ae1527e2a5aa39744105c9c28af22c60fa3b8b93ba7077499"
+    },
+    {
+      "path": "notes/C0210-factor-degree-probability.md",
+      "bytes": 933,
+      "sha256": "dc171fdc67ef9eff9feb7890598fad238c67caee1a9e2c660c6fd5725ed528bb"
+    },
+    {
+      "path": "notes/C0211-biased-splitting-bit.md",
+      "bytes": 1007,
+      "sha256": "f40037667e0fe78ad034734a6f9b0d71bc5176895b991b81e7aece59b522bc94"
+    },
+    {
+      "path": "notes/C0212-second-residue-modulus.md",
+      "bytes": 694,
+      "sha256": "7509ef52a75353affe2e2e7d84e412bd1ef615d4702d055756284d38d0409f21"
+    },
+    {
+      "path": "notes/equal-degree.md",
+      "bytes": 16584,
+      "sha256": "e0a2069e822ce2bf5258e43620231760f57ba9e6b95d3229d8fbe69c12c12771"
+    },
+    {
+      "path": "reports/C0209-degree-one-character-count-draft.txt",
+      "bytes": 533,
+      "sha256": "cb769fa633a5b77012374ef68f21338cad43ccf16d356af78334900e734bac07"
+    },
+    {
+      "path": "reports/C0210-factor-degree-probability-draft.txt",
+      "bytes": 674,
+      "sha256": "6d81a1acdeb32dafaac8646c1e56dd76e4ede65b15f42073e99ede40df337e3b"
+    },
+    {
+      "path": "reports/C0211-biased-splitting-bit-draft.txt",
+      "bytes": 756,
+      "sha256": "460db5bcc69caf327277167d28d6a8068721d77f6f5efcca4da946e290452fc7"
+    },
+    {
+      "path": "reports/C0212-second-residue-modulus-draft.txt",
+      "bytes": 536,
+      "sha256": "6be7c7f04474454dd55f8025e29ef5af1e8aa2842871d1ae8f23e83cb1aef59b"
+    },
+    {
+      "path": "results/equal-degree-constants.log",
+      "bytes": 497,
+      "sha256": "a9bfeb1371ae4ec757d83969b35f58ea8e21949988b959338501cc3ea4fd4444"
+    },
+    {
+      "path": "results/equal-degree-counts.log",
+      "bytes": 1116,
+      "sha256": "3607adb287213f28493e5f9dcfb572bbb8c482b7807ac41e272d14af1a6bdfb7"
+    },
+    {
+      "path": "results/equal-degree-distinct.log",
+      "bytes": 460,
+      "sha256": "e3b2903fd3f225463816896e7ff047ab66082fe19fcd98d073eea7d3abc1ae97"
+    },
+    {
+      "path": "results/equal-degree-split.log",
+      "bytes": 834,
+      "sha256": "9daea4fa586807c9267d84d1afd561c5088d59a05e6cad872b0a8f56be990d5e"
+    },
+    {
+      "path": "results/equal-degree-trace.log",
+      "bytes": 235,
+      "sha256": "1035ede8a5e0de99ebaba8bb2c5b727a2bccb2d4cf55bf2cd204d806d06527bf"
+    },
+    {
+      "path": "results/equal-degree.json",
+      "bytes": 6101,
+      "sha256": "020b74355d7d05da2b17c2ad256bb24dc40b0e8c39a0ece0fdf2e447af5d6101"
+    },
+    {
+      "path": "sources/equal-degree-downloads.json",
+      "bytes": 1970,
+      "sha256": "f6134896d8cb68e50a55b417ddaba0d24c21cc6e86b6b731fd60a807764eabc9"
+    },
+    {
+      "path": "sources/gathen-shoup-1992.pdf",
+      "bytes": 6805408,
+      "sha256": "431ccfa641dd6dd76ed0a04abb3aa0e0f19e0e7826d564b1bd88dc5aa1318544"
+    },
+    {
+      "path": "sources/gathen-shoup-1992.txt",
+      "bytes": 850,
+      "sha256": "d706a4e4b8a47b4e8365de25ab6508b3bda9e5fef0708656a618aa2d1c09af5b"
+    },
+    {
+      "path": "sources/kaltofen-shoup-1998.pdf",
+      "bytes": 342289,
+      "sha256": "8d9b188c763ad6297df57987167a1bbec9c7ad0ff6dcb8b63b7131aba7cfcac2"
+    },
+    {
+      "path": "sources/kaltofen-shoup-1998.txt",
+      "bytes": 64320,
+      "sha256": "eb0cc183c1130453024d7fe9f3f8a923bbd838819cc7ad4e27f5db019c951b9d"
+    },
+    {
+      "path": "sources/lehmer-1972-partitions.pdf",
+      "bytes": 330744,
+      "sha256": "a820c85d80fda6a9a06b89f0cb3c923b58646d05e9afc5c8c7c3c9fd6fc74319"
+    },
+    {
+      "path": "sources/lehmer-1972-partitions.txt",
+      "bytes": 6,
+      "sha256": "7b2aa16484b6ad79ef5bec51da3501f5079367b625da44bf97468422d27e8e95"
+    },
+    {
+      "path": "sources/polynomial-factorization-errata.txt",
+      "bytes": 71419,
+      "sha256": "f89710743f4d0e130086a9c10b5be38f0932a97aa58792de07ed570ab10a4c72"
+    },
+    {
+      "path": "verify_berlekamp.py",
+      "bytes": 18458,
+      "sha256": "54b821a8c5b66725c67f1d7a63005ca429b5e26ea6aaa003b9158f8ea4462543"
+    },
+    {
+      "path": "verify_equal_degree.py",
+      "bytes": 11651,
+      "sha256": "72eb1278e5c86153fd820146c0e215fb8608e927979e38cb3a637c581601bc0f"
+    },
+    {
+      "path": "verify_fast_sturm.py",
+      "bytes": 13606,
+      "sha256": "126e5345b76f17096318143bf0a08420aeb3e9003666d6ed50bceaf53dc93635"
+    },
+    {
+      "path": "images/vol2-p690.png",
+      "bytes": 389228,
+      "sha256": "fc27f84b81f4989eb063a89b73a6aa91b6e2792415fab6d4f720c09dbe932034"
+    }
+  ]
+}

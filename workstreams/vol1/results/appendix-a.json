@@ -1,0 +1,700 @@
+{
+  "passed": true,
+  "flint_version": "0.9.0",
+  "arb_decimal_precision": 100,
+  "mpmath_version": "1.3.0",
+  "mpmath_decimal_precision": 90,
+  "independent_constant_comparisons": 34,
+  "certified_rounded_values": 78,
+  "rounded_values": [
+    {
+      "quantity": "sqrt2",
+      "radix": 10,
+      "places": 40,
+      "printed": "1.41421 35623 73095 04880 16887 24209 69807 85697-",
+      "exact_minus_printed": "[-2.81246230519268233202620092675215378929611496124656723584273e-41 +/- 6.15e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "sqrt3",
+      "radix": 10,
+      "places": 40,
+      "printed": "1.73205 08075 68877 29352 74463 41505 87236 69428+",
+      "exact_minus_printed": "[5.2538103806280558069794519330169088000370811461867572485757e-42 +/- 4.70e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "sqrt5",
+      "radix": 10,
+      "places": 40,
+      "printed": "2.23606 79774 99789 69640 91736 68731 27623 54406+",
+      "exact_minus_printed": "[1.83596115257242708972454105209256378048994144144083787822750e-41 +/- 8.07e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "sqrt10",
+      "radix": 10,
+      "places": 40,
+      "printed": "3.16227 76601 68379 33199 88935 44432 71853 37196-",
+      "exact_minus_printed": "[-4.48606747831731424951472074055613607617786557518916206997048e-41 +/- 6.19e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "cbrt2",
+      "radix": 10,
+      "places": 40,
+      "printed": "1.25992 10498 94873 16476 72106 07278 22835 05703-",
+      "exact_minus_printed": "[-4.85352984920199180248878447003234860405162706034375637449058e-41 +/- 6.83e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "cbrt3",
+      "radix": 10,
+      "places": 40,
+      "printed": "1.44224 95703 07408 38232 16383 10780 10958 83919-",
+      "exact_minus_printed": "[-3.07465006494224535838054583124031700026601452445202943547433e-41 +/- 3.12e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "fourthroot2",
+      "radix": 10,
+      "places": 40,
+      "printed": "1.18920 71150 02721 06671 74999 70560 47591 52930-",
+      "exact_minus_printed": "[-2.79075361825869809977752805333317730828401292186554618623263e-41 +/- 4.51e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "ln2",
+      "radix": 10,
+      "places": 40,
+      "printed": "0.69314 71805 59945 30941 72321 21458 17656 80755+",
+      "exact_minus_printed": "[1.343602552541206800094933936219696947156058633269964186875e-43 +/- 6.13e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "ln3",
+      "radix": 10,
+      "places": 40,
+      "printed": "1.09861 22886 68109 69139 52452 36922 52570 46475-",
+      "exact_minus_printed": "[-9.4421772505482653056663625057067813910331263842451862679112e-42 +/- 4.87e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "ln10",
+      "radix": 10,
+      "places": 40,
+      "printed": "2.30258 50929 94045 68401 79914 54684 36420 76011+",
+      "exact_minus_printed": "[1.488628772976033327900967572609677352480235997205089598298e-42 +/- 3.99e-100]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "invln2",
+      "radix": 10,
+      "places": 40,
+      "printed": "1.44269 50408 88963 40735 99246 81001 89213 74266+",
+      "exact_minus_printed": "[4.59541529859341354494069311092191811850798855266228935063445e-41 +/- 4.72e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "invln10",
+      "radix": 10,
+      "places": 40,
+      "printed": "0.43429 44819 03251 82765 11289 18916 60508 22944-",
+      "exact_minus_printed": "[-2.9941963334338855462168341353507911292252707750506615682517e-42 +/- 3.37e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "pi",
+      "radix": 10,
+      "places": 40,
+      "printed": "3.14159 26535 89793 23846 26433 83279 50288 41972-",
+      "exact_minus_printed": "[-3.06006248941790250554076921835937137910013719651746578829320e-41 +/- 4.64e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "degree",
+      "radix": 10,
+      "places": 40,
+      "printed": "0.01745 32925 19943 29576 92369 07684 88612 71344+",
+      "exact_minus_printed": "[2.8718885417254560971914401710091146034494436822415696345094822e-41 +/- 6.04e-103]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "invpi",
+      "radix": 10,
+      "places": 40,
+      "printed": "0.31830 98861 83790 67153 77675 26745 02872 40689+",
+      "exact_minus_printed": "[1.92914809128974953346881177935952684530701802276055325061719e-41 +/- 2.34e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "pi_squared",
+      "radix": 10,
+      "places": 40,
+      "printed": "9.86960 44010 89358 61883 44909 99876 15113 53137-",
+      "exact_minus_printed": "[-5.92759209373586650623779955177580794756998226596281447768e-43 +/- 5.88e-100]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "sqrtpi",
+      "radix": 10,
+      "places": 40,
+      "printed": "1.77245 38509 05516 02729 81674 83341 14518 27975+",
+      "exact_minus_printed": "[4.94561223871282138077898529112845910321813749506567385446654e-41 +/- 5.06e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "gamma_one_third",
+      "radix": 10,
+      "places": 40,
+      "printed": "2.67893 85347 07747 63365 56929 40974 67764 41287-",
+      "exact_minus_printed": "[-1.0622042698899049571672409582389832256180459017110958811211e-41 +/- 5.66e-100]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "gamma_two_thirds",
+      "radix": 10,
+      "places": 40,
+      "printed": "1.35411 79394 26400 41694 52880 28154 51378 55193+",
+      "exact_minus_printed": "[2.72660567936983940224679637829654017425416758341479529729111e-41 +/- 8.04e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "e",
+      "radix": 10,
+      "places": 40,
+      "printed": "2.71828 18284 59045 23536 02874 71352 66249 77572+",
+      "exact_minus_printed": "[4.70936999595749669676277240766303535475945713821785251664274e-41 +/- 6.98e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "inve",
+      "radix": 10,
+      "places": 40,
+      "printed": "0.36787 94411 71442 32159 55237 70161 46086 74458+",
+      "exact_minus_printed": "[1.11310317678345078368016974614957448998033571472743459196437e-41 +/- 5.32e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "e_squared",
+      "radix": 10,
+      "places": 40,
+      "printed": "7.38905 60989 30650 22723 04274 60575 00781 31803+",
+      "exact_minus_printed": "[1.5570551847324087127822522573796079057763384312485079121795e-41 +/- 3.72e-100]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "euler_gamma",
+      "radix": 10,
+      "places": 40,
+      "printed": "0.57721 56649 01532 86060 65120 90082 40243 10422-",
+      "exact_minus_printed": "[-4.06640600764011942327651151322732223353290630529367082532505e-41 +/- 2.90e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "lnpi",
+      "radix": 10,
+      "places": 40,
+      "printed": "1.14472 98858 49400 17414 34273 51353 05871 16473-",
+      "exact_minus_printed": "[-5.1870846884284863769285278622301151739202163767297245102923e-42 +/- 4.27e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "golden_ratio",
+      "radix": 10,
+      "places": 40,
+      "printed": "1.61803 39887 49894 84820 45868 34365 63811 77203+",
+      "exact_minus_printed": "[9.1798057628621354486227052604628189024497072072041893911375e-42 +/- 4.04e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "exp_gamma",
+      "radix": 10,
+      "places": 40,
+      "printed": "1.78107 24179 90197 98523 65041 03107 17954 91696+",
+      "exact_minus_printed": "[4.52143034302053576658765128410768135882937075742164884182803e-41 +/- 8.03e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "exp_pi_over4",
+      "radix": 10,
+      "places": 40,
+      "printed": "2.19328 00507 38015 45655 97696 59278 73822 34616+",
+      "exact_minus_printed": "[3.76419942723348580159186570268641892369341265228125781694047e-41 +/- 7.63e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "sin1",
+      "radix": 10,
+      "places": 40,
+      "printed": "0.84147 09848 07896 50665 25023 21630 29899 96226-",
+      "exact_minus_printed": "[-3.69392016289343272482900080895956087603310513602564569473041e-41 +/- 5.91e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "cos1",
+      "radix": 10,
+      "places": 40,
+      "printed": "0.54030 23058 68139 71740 09366 07442 97660 37323+",
+      "exact_minus_printed": "[1.04206179222276700972553811003947744717645179518560871830893e-41 +/- 6.22e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "negative_zeta_prime2",
+      "radix": 10,
+      "places": 40,
+      "printed": "0.93754 82543 15843 75370 25740 94567 86497 78979-",
+      "exact_minus_printed": "[-3.97113851700741145665196395561886872924772063105848588484825e-41 +/- 2.25e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "zeta3",
+      "radix": 10,
+      "places": 40,
+      "printed": "1.20205 69031 59594 28539 97381 61511 44999 07650-",
+      "exact_minus_printed": "[-1.37076595011182077284446581617942136869098135441263906647419e-41 +/- 7.30e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "lnphi",
+      "radix": 10,
+      "places": 40,
+      "printed": "0.48121 18250 59603 44749 77589 13424 36842 31352-",
+      "exact_minus_printed": "[-1.56656143394803389818311598361323917782255879905708772765250e-41 +/- 2.33e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "invlnphi",
+      "radix": 10,
+      "places": 40,
+      "printed": "2.07808 69212 35027 53760 13226 06117 79576 77422-",
+      "exact_minus_printed": "[-7.732216716519721860078080256130714464590985543845855463952e-42 +/- 3.58e-100]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "negative_lnln2",
+      "radix": 10,
+      "places": 40,
+      "printed": "0.36651 29205 81664 32701 24391 58232 66946 94543-",
+      "exact_minus_printed": "[-3.65521628947369463222863294383846806472614505441771433010916e-41 +/- 5.65e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "ten_power_minus1",
+      "radix": 8,
+      "places": 45,
+      "printed": "0.06314 63146 31463 14631 46314 63146 31463 14631 46315-",
+      "exact_minus_printed": "[-4.591774807899560578002877098524397178979162331140966880893562e-42 +/- 9.60e-103]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "ten_power_minus2",
+      "radix": 8,
+      "places": 45,
+      "printed": "0.00507 53412 17270 24365 60507 53412 17270 24365 60510-",
+      "exact_minus_printed": "[-7.346839692639296924804603357639035486366659729825547009429698e-42 +/- 2.81e-103]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "ten_power_minus3",
+      "radix": 8,
+      "places": 45,
+      "printed": "0.00040 61115 64570 65176 76355 44264 16254 02030 44672+",
+      "exact_minus_printed": "[8.4488656465351914635252938612848908093216586892993790608441529e-42 +/- 3.67e-104]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "ten_power_minus4",
+      "radix": 8,
+      "places": 45,
+      "printed": "0.00003 21556 13530 70414 54512 75170 33021 15002 35223-",
+      "exact_minus_printed": "[-8.338663051145602009653224810920305277026158793351995855702707417e-42 +/- 9.23e-106]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "ten_power_minus5",
+      "radix": 8,
+      "places": 45,
+      "printed": "0.00000 24761 32610 70664 36041 06077 17401 56063 34417-",
+      "exact_minus_printed": "[-7.721528516963901067969638128878626296171359376046649906910612771e-42 +/- 4.73e-106]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "ten_power_minus6",
+      "radix": 8,
+      "places": 45,
+      "printed": "0.00000 02061 57364 05536 66151 55323 07746 44470 26033+",
+      "exact_minus_printed": "[1.5237345522533901822044747363743359598724452279658184497557193993e-42 +/- 6.05e-107]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "ten_power_minus7",
+      "radix": 8,
+      "places": 45,
+      "printed": "0.00000 00153 27745 15274 53644 12741 72312 20354 02151+",
+      "exact_minus_printed": "[2.44826085917511930722188602289963218547682568836706528542235261625e-42 +/- 1.72e-108]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "ten_power_minus8",
+      "radix": 8,
+      "places": 45,
+      "printed": "0.00000 00012 57143 56106 04303 47374 77341 01512 63327+",
+      "exact_minus_printed": "[7.132488297766852797726504250076558987016426065548156849882577290600e-42 +/- 3.16e-109]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "ten_power_minus9",
+      "radix": 8,
+      "places": 45,
+      "printed": "0.00000 00001 04560 27640 46655 12262 71426 40124 21742+",
+      "exact_minus_printed": "[7.6009110416260261467769660727942516671703861032662660063285997580351e-42 +/- 3.80e-110]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "ten_power_minus10",
+      "radix": 8,
+      "places": 45,
+      "printed": "0.00000 00000 06676 33766 35367 55653 37265 34642 01627-",
+      "exact_minus_printed": "[-8.42345851163651854132805758976936919124128605195530716115426272949662e-42 +/- 3.37e-111]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "sqrt2",
+      "radix": 8,
+      "places": 45,
+      "printed": "1.32404 74631 77167 46220 42627 66115 46725 12575 17435+",
+      "exact_minus_printed": "[9.9887107200194032798057126693948599888694895396883031531338e-42 +/- 2.54e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "sqrt3",
+      "radix": 8,
+      "places": 45,
+      "printed": "1.56663 65641 30231 25163 54453 50265 60361 34073 42223-",
+      "exact_minus_printed": "[-1.7844137877350176061337273665672061666597334988439874670946e-42 +/- 4.80e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "sqrt5",
+      "radix": 8,
+      "places": 45,
+      "printed": "2.17067 36334 57722 47602 57471 63003 00563 55620 32021-",
+      "exact_minus_printed": "[-1.12862604291905885854791543729701475511274084902914403525023e-41 +/- 3.47e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "sqrt10",
+      "radix": 8,
+      "places": 45,
+      "printed": "3.12305 40726 64555 22444 02242 57101 41466 33775 22532+",
+      "exact_minus_printed": "[1.00745802449658708549088523220647163014537337282019118941248e-41 +/- 5.94e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "cbrt2",
+      "radix": 8,
+      "places": 45,
+      "printed": "1.20505 05746 15345 05342 10756 65334 25574 22415 03024+",
+      "exact_minus_printed": "[6.4151724823400843901171110448790188362540801309903717846521e-42 +/- 4.80e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "cbrt3",
+      "radix": 8,
+      "places": 45,
+      "printed": "1.34233 50444 22175 73134 67363 76133 05334 31147 60121-",
+      "exact_minus_printed": "[-5.3228028231874621009509726519015655130675500340968576481950e-42 +/- 4.75e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "fourthroot2",
+      "radix": 8,
+      "places": 45,
+      "printed": "1.14067 74050 61556 12455 72152 64430 60271 02755 73136+",
+      "exact_minus_printed": "[1.7579659839362278640009620225256264263815510031761791959902e-42 +/- 6.57e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "ln2",
+      "radix": 8,
+      "places": 45,
+      "printed": "0.54271 02775 75071 73632 57117 07316 30007 71366 53640+",
+      "exact_minus_printed": "[1.090825904017315844913408025027666743142904640800210417598731e-41 +/- 8.23e-102]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "ln3",
+      "radix": 8,
+      "places": 45,
+      "printed": "1.06237 24752 55006 05227 32440 63065 25012 35574 55337+",
+      "exact_minus_printed": "[9.085406983841374731793299123110000154549193540116202107276e-43 +/- 5.75e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "ln10",
+      "radix": 8,
+      "places": 45,
+      "printed": "2.23273 06735 52524 25405 56512 66542 56026 46050 50705+",
+      "exact_minus_printed": "[2.8565300957240153476073542785652838834924976674226084021698e-42 +/- 2.93e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "invln2",
+      "radix": 8,
+      "places": 45,
+      "printed": "1.34252 16624 53405 77027 35750 37766 40644 35175 04353+",
+      "exact_minus_printed": "[7.8454005366136650029894472403061176036143246819001379897330e-42 +/- 5.78e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "invln10",
+      "radix": 8,
+      "places": 45,
+      "printed": "0.33626 75425 11562 41614 52325 33525 27655 14756 06220-",
+      "exact_minus_printed": "[-6.3837895390490239156702707754295124963796686234975649756228e-42 +/- 5.48e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "pi",
+      "radix": 8,
+      "places": 45,
+      "printed": "3.11037 55242 10264 30215 14230 63050 56006 70163 21122+",
+      "exact_minus_printed": "[4.134064219652797647299380610320968938829326391596375774785e-43 +/- 2.62e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "degree",
+      "radix": 8,
+      "places": 45,
+      "printed": "0.01073 72152 11224 72344 25603 54276 63351 22056 11544+",
+      "exact_minus_printed": "[2.57395302783116030804215050257089270464858644169829479924523e-43 +/- 7.34e-103]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "invpi",
+      "radix": 8,
+      "places": 45,
+      "printed": "0.24276 30155 62344 20251 23760 47257 50765 15156 70067-",
+      "exact_minus_printed": "[-3.5293805019043909848215590298564276041623228718805948383365e-42 +/- 5.06e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "pi_squared",
+      "radix": 8,
+      "places": 45,
+      "printed": "11.67517 14467 62135 71322 25561 15466 30021 40654 34103-",
+      "exact_minus_printed": "[-6.876873547277817200642633478709211066783350421823551471882e-42 +/- 2.66e-100]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "sqrtpi",
+      "radix": 8,
+      "places": 45,
+      "printed": "1.61337 61106 64736 65247 47035 40510 15273 34470 17762-",
+      "exact_minus_printed": "[-4.9288436318932748969194453140174909139451492024526251820559e-42 +/- 5.35e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "gamma_one_third",
+      "radix": 8,
+      "places": 45,
+      "printed": "2.53347 35234 51013 61316 73106 47644 54653 00106 66046-",
+      "exact_minus_printed": "[-8.311329089582897577783349264383857082553028124396541531934e-42 +/- 2.12e-100]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "gamma_two_thirds",
+      "radix": 8,
+      "places": 45,
+      "printed": "1.26523 57112 14154 74312 54572 37655 60126 23231 02452+",
+      "exact_minus_printed": "[1.11175054259740439310190330900862741937955156928705897165709e-41 +/- 4.55e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "e",
+      "radix": 8,
+      "places": 45,
+      "printed": "2.55760 52130 50535 51246 52773 42542 00471 72363 61661+",
+      "exact_minus_printed": "[1.03622622340454437733664355559459517053791355824305670917372e-41 +/- 6.17e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "inve",
+      "radix": 8,
+      "places": 45,
+      "printed": "0.27426 53066 13167 46761 52726 75436 02440 52371 03355+",
+      "exact_minus_printed": "[6.81690834563914294468099463320635183755559232497366901698823e-42 +/- 3.61e-102]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "e_squared",
+      "radix": 8,
+      "places": 45,
+      "printed": "7.30714 45615 23355 33460 63507 35040 32664 25356 50217+",
+      "exact_minus_printed": "[8.3369986904085900718271869764356472408737169893156132330844e-42 +/- 7.05e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "euler_gamma",
+      "radix": 8,
+      "places": 45,
+      "printed": "0.44742 14770 67666 06172 23215 74376 01002 51313 25521-",
+      "exact_minus_printed": "[-2.20630408840053117331054012656591795311727056696265833358906e-42 +/- 4.55e-102]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "lnpi",
+      "radix": 8,
+      "places": 45,
+      "printed": "1.11206 40443 47503 36413 65374 52661 52410 37511 46057+",
+      "exact_minus_printed": "[4.9262563373283529612581049263619483622156263550007976337701e-42 +/- 4.27e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "golden_ratio",
+      "radix": 8,
+      "places": 45,
+      "printed": "1.47433 57156 27751 23701 27634 71401 40271 66710 15010+",
+      "exact_minus_printed": "[5.8363068051536071522676155598259191718842015827066970259828e-42 +/- 6.40e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "exp_gamma",
+      "radix": 8,
+      "places": 45,
+      "printed": "1.61772 13452 61152 65761 22477 36553 53327 17554 21260+",
+      "exact_minus_printed": "[7.5826354873505426319385196161477309912596496464656192857921e-42 +/- 6.25e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "exp_pi_over4",
+      "radix": 8,
+      "places": 45,
+      "printed": "2.14275 31512 16162 52370 35530 11342 53525 44307 02171-",
+      "exact_minus_printed": "[-2.8592986510280241337864974714120322875661408981288806555409e-42 +/- 4.40e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "sin1",
+      "radix": 8,
+      "places": 45,
+      "printed": "0.65665 24436 04414 73402 03067 23644 11612 07474 14505-",
+      "exact_minus_printed": "[-1.2077309871410997169382687288555532734648172852414131346866e-42 +/- 4.43e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "cos1",
+      "radix": 8,
+      "places": 45,
+      "printed": "0.42450 50037 32406 42711 07022 14666 27320 70675 12321+",
+      "exact_minus_printed": "[2.47653866300441251079478405641735626887235257477100508644730e-42 +/- 9.14e-102]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "negative_zeta_prime2",
+      "radix": 8,
+      "places": 45,
+      "printed": "0.74001 45144 53253 42362 42107 23350 50074 46100 27706+",
+      "exact_minus_printed": "[8.5479085589951292804819580569590524733904568827972211989286e-42 +/- 3.26e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "zeta3",
+      "radix": 8,
+      "places": 45,
+      "printed": "1.14735 00023 60014 20470 15613 42561 31715 10177 06614+",
+      "exact_minus_printed": "[5.152737678400376226177433114315182395112589863476507251611e-43 +/- 2.06e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "lnphi",
+      "radix": 8,
+      "places": 45,
+      "printed": "0.36630 26256 61213 01145 13700 41004 52264 30700 40646+",
+      "exact_minus_printed": "[7.1161789623079731583904172841123036398260234399030344942193e-42 +/- 4.83e-101]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "invlnphi",
+      "radix": 8,
+      "places": 45,
+      "printed": "2.04776 60111 17144 41512 11436 16575 00355 43630 40651+",
+      "exact_minus_printed": "[1.626648145401766369333324529995419702894124070293372791462e-42 +/- 2.14e-100]",
+      "rounding_and_direction_certified": true
+    },
+    {
+      "quantity": "negative_lnln2",
+      "radix": 8,
+      "places": 45,
+      "printed": "0.27351 71233 67265 63650 17401 56637 26334 31455 57005-",
+      "exact_minus_printed": "[-1.4499048219313025852928347352003508789737222884058064086926e-42 +/- 3.33e-101]",
+      "rounding_and_direction_certified": true
+    }
+  ],
+  "table3": {
+    "rows": 31,
+    "exact_equalities": 93,
+    "bernoulli_original_convention": "z/(exp(z)-1), B1=-1/2",
+    "bernoulli_2021_convention": "z/(1-exp(-z)), B1=+1/2",
+    "convention_change_identity": "z/(1-exp(-z)) = z + z/(exp(z)-1)"
+  },
+  "harmonic_specializations": [
+    {
+      "p": 1,
+      "q": 2,
+      "difference": "[+/- 3.48e-101]"
+    },
+    {
+      "p": 1,
+      "q": 3,
+      "difference": "[+/- 6.99e-100]"
+    },
+    {
+      "p": 2,
+      "q": 3,
+      "difference": "[+/- 3.06e-100]"
+    },
+    {
+      "p": 1,
+      "q": 4,
+      "difference": "[+/- 1.13e-100]"
+    },
+    {
+      "p": 3,
+      "q": 4,
+      "difference": "[+/- 1.23e-100]"
+    },
+    {
+      "p": 1,
+      "q": 5,
+      "difference": "[+/- 8.97e-100]"
+    },
+    {
+      "p": 2,
+      "q": 5,
+      "difference": "[+/- 2.74e-100]"
+    },
+    {
+      "p": 3,
+      "q": 5,
+      "difference": "[+/- 8.31e-100]"
+    },
+    {
+      "p": 4,
+      "q": 5,
+      "difference": "[+/- 4.62e-100]"
+    },
+    {
+      "p": 1,
+      "q": 6,
+      "difference": "[+/- 7.76e-100]"
+    },
+    {
+      "p": 5,
+      "q": 6,
+      "difference": "[+/- 8.14e-100]"
+    }
+  ],
+  "physical_copy_verified": false
+}

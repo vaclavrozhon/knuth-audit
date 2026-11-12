@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "primes": 50847534,
+  "segments_new": 999,
+  "sum_iterations": 2086324158209,
+  "maximum": {
+    "p": 850112303,
+    "m": 416784
+  },
+  "ratio_maximum": {
+    "p": 695361131,
+    "m": 406244
+  },
+  "ratio_squared_exact": "165034187536/695361131",
+  "ratio_decimal_descriptive": "15.40571127257629168342991730756230852251",
+  "strict_bound": "m(p)^2 < 256p for every prime p<10^9",
+  "sum_square_roots_descriptive": 1052347065256.1675,
+  "sum_m_div_sum_square_roots_descriptive": 1.982543808112523,
+  "mean_iterations_descriptive": 41030.98014957815,
+  "max_segment_root_sum_discrepancy": "0.00002821342",
+  "iteration_seconds_new": 26796.612924714,
+  "independent_prime_count_method": "Unsegmented odd-only Eratosthenes; exact per-segment counts match segmented census.",
+  "independent_iteration_scope": "Two methods for all p<10^6; new p>=10^6 use reviewed dyadic detector once. Published external records also agree.",
+  "source_sha256": {
+    "results/factoring-rho-extended.csv": "2b001208d44fb00f980813edc3f964fdf6fb4354fbbd490a08531edd5876b3b6",
+    "results/rho-prime-counts.csv": "d2bcaf4063b98b4f24911164c27616eb84033f17fd56f66851b6812dee6bf684",
+    "results/factoring-rho-census.csv": "8273aed1c190e49df8d0b7f0b30d825f73812c79dc58f8bdd44fd4854e039cbc",
+    "results/factoring-rho.json": "6fa2e205dbd2e559d22f1f33d6e1f7a77df7ab49fdc61fb60ec9211ba96fb736"
+  }
+}

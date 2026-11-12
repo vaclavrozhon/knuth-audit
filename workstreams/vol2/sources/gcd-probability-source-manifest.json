@@ -1,0 +1,52 @@
+{
+  "accessed_at": "2026-11-02",
+  "files": [
+    {
+      "file": "dirichlet-1849-reprint.pdf",
+      "url": "https://www.e-rara.ch/download/pdf/5688101.pdf",
+      "bytes": 2688685,
+      "sha256": "164b80d547aefebeacca5108e64d17354c547a177cbb77f25fe91cc14fecb6e4"
+    },
+    {
+      "file": "mertens-1874-p289.jpg",
+      "url": "https://images.sub.uni-goettingen.de/iiif/image/gdz:PPN243919689_0077:00000299/full/1800,/0/default.jpg",
+      "bytes": 562995,
+      "sha256": "6719ce6d9abbdded8dad4b438451d8cc7953682d0eea6a8f5cbb0cc04ea13429"
+    },
+    {
+      "file": "mertens-1874-p290.jpg",
+      "url": "https://images.sub.uni-goettingen.de/iiif/image/gdz:PPN243919689_0077:00000300/full/1800,/0/default.jpg",
+      "bytes": 417805,
+      "sha256": "e46cc0cc52eeac3b080e88da1319f1735044e8ed0b8377561534701c24e1a5c9"
+    },
+    {
+      "file": "mertens-1874-p291.jpg",
+      "url": "https://images.sub.uni-goettingen.de/iiif/image/gdz:PPN243919689_0077:00000301/full/1800,/0/default.jpg",
+      "bytes": 562095,
+      "sha256": "aa7d517991cd1c992be27eda72b70d65a6cc4b55559885b437f380d48a184221"
+    }
+  ],
+  "reading_scope": {
+    "Mertens1874": "Original images pp.289–291 read in full; article continues through338, not all audited.",
+    "Dirichlet1849": "1897 Werke II reprint: original title p49, introduction p51, section6 pp60–64 read visually. Remaining sections not audited. O(n^delta) error as printed, not a claimed little-o bound.",
+    "Cesaro1885": "Publisher metadata only; subscription preview, sections3 and12 not read. Mathematical results independently proved in notes/gcd-probability.md."
+  },
+  "metadata_sources": [
+    {
+      "url": "https://link.springer.com/article/10.1007/BF02420800",
+      "scope": "Author Ernest Cesaro, 1885, volume13 pp235–250, DOI. Full text unavailable."
+    },
+    {
+      "url": "https://geodesic.mathdoc.fr/item/JRAM_1874__77_148241/",
+      "scope": "Mertens1874 full article pp289–338."
+    },
+    {
+      "url": "https://doi.org/10.3931/e-rara-17606",
+      "scope": "Dirichlet WerkeII reprint1897."
+    }
+  ],
+  "iiif_manifest": {
+    "file": "mertens-1874-iiif.json",
+    "url": "https://manifests.sub.uni-goettingen.de/iiif/presentation/PPN243919689_0077/manifest?version=29486bf2"
+  }
+}

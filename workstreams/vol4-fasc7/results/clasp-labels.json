@@ -1,0 +1,563 @@
+{
+  "scope": "Compare every surviving red mark in Fig104(c) with the fixed public3D model. Saved visibility reused. Disagreements are not declared book errors without resolving the drawing interpretation.",
+  "checked_marks": 29,
+  "fully_hidden_marks": [
+    230,
+    231,
+    237,
+    240,
+    247,
+    252,
+    255
+  ],
+  "visible_edge_labels": [
+    {
+      "edge": [
+        0,
+        1
+      ],
+      "label": "b>a",
+      "front_faces": [
+        0
+      ]
+    },
+    {
+      "edge": [
+        1,
+        2
+      ],
+      "label": "+",
+      "front_faces": [
+        0,
+        3
+      ]
+    },
+    {
+      "edge": [
+        0,
+        2
+      ],
+      "label": "a>b",
+      "front_faces": [
+        0
+      ]
+    },
+    {
+      "edge": [
+        2,
+        3
+      ],
+      "label": "a>b",
+      "front_faces": [
+        3
+      ]
+    },
+    {
+      "edge": [
+        1,
+        3
+      ],
+      "label": "b>a",
+      "front_faces": [
+        3
+      ]
+    },
+    {
+      "edge": [
+        4,
+        5
+      ],
+      "label": "a>b",
+      "front_faces": [
+        0
+      ]
+    },
+    {
+      "edge": [
+        5,
+        6
+      ],
+      "label": "+",
+      "front_faces": [
+        0,
+        5
+      ]
+    },
+    {
+      "edge": [
+        4,
+        6
+      ],
+      "label": "+",
+      "front_faces": [
+        0,
+        6
+      ]
+    },
+    {
+      "edge": [
+        7,
+        9
+      ],
+      "label": "b>a",
+      "front_faces": [
+        6
+      ]
+    },
+    {
+      "edge": [
+        6,
+        9
+      ],
+      "label": "-",
+      "front_faces": [
+        5,
+        6
+      ]
+    },
+    {
+      "edge": [
+        8,
+        9
+      ],
+      "label": "a>b",
+      "front_faces": [
+        5
+      ]
+    },
+    {
+      "edge": [
+        10,
+        11
+      ],
+      "label": "a>b",
+      "front_faces": [
+        8
+      ]
+    },
+    {
+      "edge": [
+        10,
+        12
+      ],
+      "label": "b>a",
+      "front_faces": [
+        9
+      ]
+    },
+    {
+      "edge": [
+        10,
+        13
+      ],
+      "label": "+",
+      "front_faces": [
+        8,
+        9
+      ]
+    },
+    {
+      "edge": [
+        12,
+        13
+      ],
+      "label": "b>a",
+      "front_faces": [
+        9
+      ]
+    },
+    {
+      "edge": [
+        11,
+        13
+      ],
+      "label": "a>b",
+      "front_faces": [
+        8
+      ]
+    },
+    {
+      "edge": [
+        14,
+        15
+      ],
+      "label": "b>a",
+      "front_faces": [
+        11
+      ]
+    },
+    {
+      "edge": [
+        17,
+        19
+      ],
+      "label": "a>b",
+      "front_faces": [
+        9
+      ]
+    },
+    {
+      "edge": [
+        18,
+        19
+      ],
+      "label": "b>a",
+      "front_faces": [
+        9
+      ]
+    },
+    {
+      "edge": [
+        17,
+        18
+      ],
+      "label": "+",
+      "front_faces": [
+        9,
+        11
+      ]
+    }
+  ],
+  "visible_physical_edges_with_no_surviving_mark": [
+    [
+      6,
+      9
+    ],
+    [
+      14,
+      15
+    ]
+  ],
+  "model_disagreements": [
+    {
+      "path": 239,
+      "edge": [
+        17,
+        18
+      ],
+      "printed": "b>a",
+      "model": "+"
+    }
+  ],
+  "marks": [
+    {
+      "path": 234,
+      "edge": [
+        7,
+        9
+      ],
+      "label": "b>a",
+      "anchor_parameter": "397539212585406367/685948711913500036",
+      "anchor_distance_squared": "11757473293184249874750441/33611486883761501764000000000000",
+      "remaining_segment_length_squares_sum": "21650415825596350747694880051993398225222737/2484244512329989123128331632400000000000000"
+    },
+    {
+      "path": 238,
+      "edge": [
+        12,
+        13
+      ],
+      "label": "b>a",
+      "anchor_parameter": "9726306503226/15254015546875",
+      "anchor_distance_squared": "649175313408561/21868156688000000000000",
+      "remaining_segment_length_squares_sum": "48566956464847/4000000000000"
+    },
+    {
+      "path": 239,
+      "edge": [
+        17,
+        18
+      ],
+      "label": "b>a",
+      "anchor_parameter": "1232549651271/4358290156250",
+      "anchor_distance_squared": "21989707893711441/21868156688000000000000",
+      "remaining_segment_length_squares_sum": "12104413223633/1000000000000"
+    },
+    {
+      "path": 241,
+      "edge": [
+        18,
+        19
+      ],
+      "label": "b>a",
+      "anchor_parameter": "32283097003854193/134346294280364592",
+      "anchor_distance_squared": "11800157119968480851388889/4388645613158576672000000000000",
+      "remaining_segment_length_squares_sum": "1764683537803135911965379724787703525925728799056490513676464363158127865501/682652947143969770061872063959802981271843207231736833056870400000000000000"
+    },
+    {
+      "path": 242,
+      "edge": [
+        18,
+        19
+      ],
+      "label": "b>a",
+      "anchor_parameter": "77061149032591213/134346294280364592",
+      "anchor_distance_squared": "5229350381702153805972241/4388645613158576672000000000000",
+      "remaining_segment_length_squares_sum": "2423107082031403/200000000000000"
+    },
+    {
+      "path": 243,
+      "edge": [
+        10,
+        12
+      ],
+      "label": "b>a",
+      "anchor_parameter": "3247692285863095/33586573570091148",
+      "anchor_distance_squared": "3333734660512287128942289/4388645613158576672000000000000",
+      "remaining_segment_length_squares_sum": "4859477575234461/400000000000000"
+    },
+    {
+      "path": 246,
+      "edge": [
+        8,
+        9
+      ],
+      "label": "a>b",
+      "anchor_parameter": "225706777144343783/599453039942500036",
+      "anchor_distance_squared": "5008755778209509297967801/7343299739295625441000000000000",
+      "remaining_segment_length_squares_sum": "48486937585941/4000000000000"
+    },
+    {
+      "path": 251,
+      "edge": [
+        0,
+        2
+      ],
+      "label": "a>b",
+      "anchor_parameter": "103610982086531241/149863259985625009",
+      "anchor_distance_squared": "120070159268409/2455359651604480147456",
+      "remaining_segment_length_squares_sum": "193947680125009/16000000000000"
+    },
+    {
+      "path": 253,
+      "edge": [
+        4,
+        6
+      ],
+      "label": "+",
+      "anchor_parameter": "617671116787969040/1852953060404062657",
+      "anchor_distance_squared": "299416314406629968481200089/1452715199356785123088000000000000",
+      "remaining_segment_length_squares_sum": "91425021796877/16000000000000"
+    },
+    {
+      "path": 254,
+      "edge": [
+        4,
+        6
+      ],
+      "label": "+",
+      "anchor_parameter": "4940539815287422265/7411812241616250628",
+      "anchor_distance_squared": "3498662862249725259804770449/5810860797427140492352000000000000",
+      "remaining_segment_length_squares_sum": "91412354296877/16000000000000"
+    },
+    {
+      "path": 256,
+      "edge": [
+        5,
+        6
+      ],
+      "label": "+",
+      "anchor_parameter": "998885865536843693/2997265199712500180",
+      "anchor_distance_squared": "42323701469674422243623632569/11749279582873000705600000000000000",
+      "remaining_segment_length_squares_sum": "18253905375001/3200000000000"
+    },
+    {
+      "path": 257,
+      "edge": [
+        4,
+        5
+      ],
+      "label": "a>b",
+      "anchor_parameter": "2539857094773046815/3573014659780937552",
+      "anchor_distance_squared": "18422729225806693554649/280124349326825504076800000000",
+      "remaining_segment_length_squares_sum": "193581336671881/16000000000000"
+    },
+    {
+      "path": 258,
+      "edge": [
+        4,
+        5
+      ],
+      "label": "a>b",
+      "anchor_parameter": "1349001837652343655/3573014659780937552",
+      "anchor_distance_squared": "37089798130299790080084961/7003108733170637601920000000000",
+      "remaining_segment_length_squares_sum": "19385869107813/1600000000000"
+    },
+    {
+      "path": 259,
+      "edge": [
+        0,
+        1
+      ],
+      "label": "b>a",
+      "anchor_parameter": "552648926566562605/1852953060404062657",
+      "anchor_distance_squared": "476701529190524204253129/296472489664650025120000000000",
+      "remaining_segment_length_squares_sum": "193980651296881/16000000000000"
+    },
+    {
+      "path": 260,
+      "edge": [
+        0,
+        1
+      ],
+      "label": "b>a",
+      "anchor_parameter": "1170302884094218645/1852953060404062657",
+      "anchor_distance_squared": "97298490369087067153129/296472489664650025120000000000",
+      "remaining_segment_length_squares_sum": "97036782257817/8000000000000"
+    },
+    {
+      "path": 263,
+      "edge": [
+        2,
+        3
+      ],
+      "label": "a>b",
+      "anchor_parameter": "303206900937/435829015625",
+      "anchor_distance_squared": "16532559241/435829015625000000",
+      "remaining_segment_length_squares_sum": "12141733827149/1000000000000"
+    },
+    {
+      "path": 264,
+      "edge": [
+        2,
+        3
+      ],
+      "label": "a>b",
+      "anchor_parameter": "157917145829/435829015625",
+      "anchor_distance_squared": "1640943066049/278930570000000000",
+      "remaining_segment_length_squares_sum": "97023299085941/8000000000000"
+    },
+    {
+      "path": 265,
+      "edge": [
+        1,
+        2
+      ],
+      "label": "+",
+      "anchor_parameter": "297740320417617189/446626832472617194",
+      "anchor_distance_squared": "326189053015447530014649/893253664945234388000000000000",
+      "remaining_segment_length_squares_sum": "93605/16384"
+    },
+    {
+      "path": 266,
+      "edge": [
+        1,
+        2
+      ],
+      "label": "+",
+      "anchor_parameter": "74443253998974612/223313416236308597",
+      "anchor_distance_squared": "5222940104712256304515641/14292058639123750208000000000000",
+      "remaining_segment_length_squares_sum": "91411123937501/16000000000000"
+    },
+    {
+      "path": 267,
+      "edge": [
+        1,
+        3
+      ],
+      "label": "b>a",
+      "anchor_parameter": "2352059639658202/8396643392522787",
+      "anchor_distance_squared": "1720815900881102173801/5597762261681858000000000000",
+      "remaining_segment_length_squares_sum": "2423107890625163/200000000000000"
+    },
+    {
+      "path": 268,
+      "edge": [
+        1,
+        3
+      ],
+      "label": "b>a",
+      "anchor_parameter": "1717142589822049/2798881130840929",
+      "anchor_distance_squared": "377057535658172298801/1399440565420464500000000000",
+      "remaining_segment_length_squares_sum": "48462148906251/4000000000000"
+    },
+    {
+      "path": 271,
+      "edge": [
+        11,
+        13
+      ],
+      "label": "a>b",
+      "anchor_parameter": "3626093933613843501/5245214099496875315",
+      "anchor_distance_squared": "733591597681194899695107361/734329973929562544100000000000000",
+      "remaining_segment_length_squares_sum": "9697383445313/800000000000"
+    },
+    {
+      "path": 272,
+      "edge": [
+        11,
+        13
+      ],
+      "label": "a>b",
+      "anchor_parameter": "1877821389180875381/5245214099496875315",
+      "anchor_distance_squared": "1563339460715135000860578001/734329973929562544100000000000000",
+      "remaining_segment_length_squares_sum": "38789565456253/3200000000000"
+    },
+    {
+      "path": 273,
+      "edge": [
+        10,
+        11
+      ],
+      "label": "a>b",
+      "anchor_parameter": "9102248106016561290/12970671422828438599",
+      "anchor_distance_squared": "821547686400733741103576289/363178799839196280772000000000000",
+      "remaining_segment_length_squares_sum": "24259190669923/2000000000000"
+    },
+    {
+      "path": 274,
+      "edge": [
+        10,
+        11
+      ],
+      "label": "a>b",
+      "anchor_parameter": "4778732580235625050/12970671422828438599",
+      "anchor_distance_squared": "68821723228531533797703321/14527151993567851230880000000000",
+      "remaining_segment_length_squares_sum": "193980651296881/16000000000000"
+    },
+    {
+      "path": 278,
+      "edge": [
+        17,
+        19
+      ],
+      "label": "a>b",
+      "anchor_parameter": "1270078084229843899/1786507329890468776",
+      "anchor_distance_squared": "354786320889201670828129/1750777183292659400480000000000",
+      "remaining_segment_length_squares_sum": "96929301695317/8000000000000"
+    },
+    {
+      "path": 279,
+      "edge": [
+        17,
+        19
+      ],
+      "label": "a>b",
+      "anchor_parameter": "674530461931445339/1786507329890468776",
+      "anchor_distance_squared": "8963611605541229199750009/43769429582316485012000000000000",
+      "remaining_segment_length_squares_sum": "38730758462501/3200000000000"
+    },
+    {
+      "path": 280,
+      "edge": [
+        10,
+        13
+      ],
+      "label": "+",
+      "anchor_parameter": "4168728887429062595/6252775654616640716",
+      "anchor_distance_squared": "48339734169177465909794761/43769429582316485012000000000000",
+      "remaining_segment_length_squares_sum": "18282226400001/3200000000000"
+    },
+    {
+      "path": 281,
+      "edge": [
+        10,
+        13
+      ],
+      "label": "+",
+      "anchor_parameter": "521049440827910180/1563193913654160179",
+      "anchor_distance_squared": "971423722532928266382169/175077718329265940048000000000000",
+      "remaining_segment_length_squares_sum": "2278668191797/400000000000"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "exercises": "MPR 28-29",
+  "probability_vectors": 1286,
+  "scope": "All nondecreasing probability vectors of lengths 1..8 on {0,1/4,1/2,3/4,1}; sums are invariant under permutation.",
+  "convex_hinge_checks": 7294,
+  "lower_tail_comparisons": 3818,
+  "nonconvex_extremal_comparisons": 6430,
+  "samuels_exact_inequalities": 5950,
+  "symbolic_derivative_identities": 28,
+  "F016_step_symbol": {
+    "page": 374,
+    "answer": "MPR 28(b)",
+    "printed": "using delta = -min(p_(n-1),1-p_n)",
+    "corrected": "using epsilon = -min(p_(n-1),1-p_n)",
+    "example": "a=1/4,b=3/4: epsilon=-1/4, actual product increment delta=-3/16. Using printed delta would make A and C equal -1/16.",
+    "consequence": "The smoothing argument and theorem are correct after the symbol correction."
+  },
+  "limitations": "Finite checks supplement the smoothing proof and Samuels derivative proof; they are not a search over all real probability vectors."
+}

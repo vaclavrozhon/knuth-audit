@@ -1,0 +1,198 @@
+{
+  "checked_at_utc": "2026-11-06T23:22:54.308898+00:00",
+  "target": "Exercise24 strict speed comparison at n9, both addresses7mod8, mu=upsilon; exact all-alignment path costs.",
+  "search_terms": [
+    "StrCpy",
+    "1f1\\.106",
+    "Page 106",
+    "page 106",
+    "copy",
+    "copies",
+    "copying",
+    "n/4",
+    "n\\+40"
+  ],
+  "sources": [
+    {
+      "path": "errata/originals/err1f1.textxt",
+      "sha256": "07db671be6fcbc6c473ddc6593f6a16cce5833fb5f8a499ab7e2e3eee163dae3",
+      "matches": [
+        {
+          "line": 3,
+          "context": "% CHANGES TO FASCICLE V1F1 OF THE ART OF COMPUTER PROGRAMMING\n%\n% Copyright (C) 2005,2006,2007,...,2021,2022,2023,2024 by Donald E. Knuth\n% This file may be freely copied provided that no modifications are made.\n% All other rights are reserved.\n%\n% Three levels of changes to the books are distinguished here:"
+        },
+        {
+          "line": 13,
+          "context": "% \"\\improvepage\" introduces ameliorations of lesser importance.\n%\n% (Changes introduced by \\improvepage do not appear in the hardcopy listing.)\n%\n% Also, \"\\planforpage\" introduces some of the author's half-baked intentions.\n%\n"
+        },
+        {
+          "line": 93,
+          "context": "\n\\noindent This document is a transcript of the notes that I have been making\nin my personal copy of {\\sl The Art of Computer Programming}, Volume~1,\nFascicle~1, since it was first printed in 2005.\n\n\\ifall Four levels of updates\\dash---``errors,'' ``amendments,'' ``plans,''\n   and ``improvements''\\dash---appear, indicated by four"
+        },
+        {
+          "line": 199,
+          "context": "\\volheadline{MMIX} % the fascicle title\n\\bigskip\n\\rightline{Copyright \\copyright\\ 2005, 2006, \\dots, 2022, 2023, 2024\n Addison\\with Wesley}\n\\rightline{Last updated \\today}\n\\bigskip\n%\\rightline{\\sl Most of these corrections have already been made in"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/err1f1.txt",
+      "sha256": "7d6366838076d106c09e85a4f93f1b151e94c9af9f6874ea27aa6f106cdf84b6",
+      "matches": [
+        {
+          "line": 95,
+          "context": "\n\n                     Copyright     2005, 2006, : : : , 2022, 2023, 2024 Addison{Wesley\n                                                           Last updated 8 January 2025\n\nPage ii new line to follow line 6                                          01 Jan 2006\n    Uni ode is a trademark of Uni ode, In ."
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all1f1.txt",
+      "sha256": "c0b1a7c575ffcbced2bc6a7048143a16286a081908850ad0956258dd2f84b18e",
+      "matches": [
+        {
+          "line": 95,
+          "context": "\n\n                   Copyright     2005, 2006, : : : , 2022, 2023, 2024 Addison{Wesley\n                                                         Last updated 8 January 2025\n\n Page ii new line to follow line 6                                       01 Jan 2006\n  Uni ode is a trademark of Uni ode, In ."
+        }
+      ]
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmixware-errata.html",
+      "sha256": "740b68475c94774ee2d143b0baa2d98111664e2e2c69ce3a29117311f8c4957e",
+      "matches": [
+        {
+          "line": 280,
+          "context": "<dd>change \"buf\" to \"(unsigned char *)buf\"</dd>\n<dt>page 145, after line 11 of section 20 (15 Jun 2002)</dt>\n<dd>insert a copy of line 6 (\"if (sfile[handle].mode ... ~#1;\") here</dd>\n<dt>page 148, new paragraph to follow line 7 (19 Jul 2011)</dt>\n<dd>Many I/O devices communicate via bytes or wydes or tetras instead of octabytes. So these prototype routines have a <i>size</i> parameter, to distinguish between the various kinds of quantities that <tt>MMIX</tt> wants to read from and write to the memory-mapped addresses.</dd>\n<dt>page 148, additional changes (19 Jul 2011)</dt>\n<dd>(The new <i>spec_read</i> and <i>spec_write</i> involve a couple dozen"
+        }
+      ]
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmixware-current.html",
+      "sha256": "13614aa34f4ad039b12d331064d993292837bc12bf7fd2073ff34bfa41ae9834",
+      "matches": [
+        {
+          "line": 143,
+          "context": "<dd>change <tt>Scache->bb-c->bb</tt> to <tt>Scache->bb-c->outbuf.rank</tt></dd>\n<dt>page 244, second line of case 3 should become three lines</dt>\n<dd><tt>if (block_diff) @&lt;Copy |Scache->inbuf| to slot |p| 220@><br>\nelse for (j=0;j&lt;Scache->bb>>3;j++) d->data[j]=c->outbuf.data[j];<br>\nfor (j=0;j&lt;Scache->bb>>Scache->g;j++) p->dirty[j]=false;</tt></dd>\n<dt>page 252, lines 2, 22, 32; also page 264, line 18</dt>\n<dd>change <tt>(j=get_reader(Dcache)&lt;0)</tt> to"
+        }
+      ]
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmix-upstream-bugs.html",
+      "sha256": "a9b8c36c7fe466afd03a42ac900cd1e3c13250b7bd9ef575d0f331e31960a61a",
+      "matches": [
+        {
+          "line": 240,
+          "context": "<li> 17-11-2014, Laurent Desnogues, <a href=\"bug_ring_size.html\"><tt>ring_size</tt> is set incorrectly</a>, Status: fixed in the repository\n<li> 17-11-2014, Laurent Desnogues, <a href=\"bug_get_reader.html\"><tt>get_reader</tt> is used incorrectly</a>, Status: fixed in the repository\n<li> 27-11-2014, Laurent Desnogues, <a href=\"bug_copy_block.html\"><tt>copy_block</tt>  copies only dirty parts of a cache block</a>, Status:  fixed in the repository\n<li> 11-01-2016, Laurent Desnogues, <a href=\"bug_alloc_slot.html\"><tt>alloc_slot</tt>  can be improved using a smaller mask</a>, Status:  fixed in the repository\n<li> 30-07-2023, Andreas Scherer, <a href=\"bug_calloc.html\">return value of <tt>calloc</tt> is not tested.</a>, Status:  fixed in the repository\n</ul>\n"
+        }
+      ]
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmix-upstream-rounding.html",
+      "sha256": "f864c5fc573f7049aaf2d3682c72ee09f78dfb3d7445a19dc891282f99314c1b",
+      "matches": []
+    },
+    {
+      "path": "workstreams/vol1-fasc1/sources/mmix-arith-upstream-warnings.ch",
+      "sha256": "b4a916e0962e2f79828d6afca1a5a40775e82b725f45ec28664a3e66f6b093b4",
+      "matches": []
+    },
+    {
+      "path": "errata/text/all1.txt",
+      "sha256": "b641d6e48aaf2d77fc98a3c4a8a798d8156516b97095ec345a976e65d9c79aef",
+      "matches": [
+        {
+          "line": 103,
+          "context": "\n\n                       Copyright       2022, 2023, 2024, 2025, 2026 Addison{Wesley\n                                                          Last updated 31 May 2026\n            Most of these orre tions have already been made in re ent printings.\nPage 1 line 5                                                               03 Nov 2025\n that sea  ythat lake"
+        },
+        {
+          "line": 298,
+          "context": "xPage 105 bottom line                                                    29 Mar 2023\n  Reading, Mass. y Cambridge, Mass.\nPage 106 last line of exer ise 21                                         25 Apr 2023\n when \u000f \u0015 0, and obtain    y when q = 1 p and \u000f \u0015 0. Also obtain\nPage 107 line 2 of exer ise 22                                           21 May 2023\n pk + qk = 1   y pk + qk = 1 and 0 \u0014 pk \u0014 1\nPage 107 exer ise 23                                                      19 Sep 2024"
+        }
+      ]
+    },
+    {
+      "path": "errata/originals/err1.textxt",
+      "sha256": "f752c0a5fcf49686906e39fa5a1dab28b53adc8226b0a7e1a1b6cf850592bc91",
+      "matches": [
+        {
+          "line": 3,
+          "context": "% CHANGES TO VOLUME 1 OF THE ART OF COMPUTER PROGRAMMING\n%\n% Copyright (C) 2022, 2023, 2024, 2025, 2026 by Donald E. Knuth\n% This file may be freely copied provided that no modifications are made.\n% All other rights are reserved.\n%\n% Three levels of changes to the books are distinguished here:"
+        },
+        {
+          "line": 13,
+          "context": "% \"\\improvepage\" introduces ameliorations of lesser importance.\n%\n% (Changes introduced by \\improvepage do not appear in the hardcopy listing.)\n%\n% Also, \"\\planforpage\" introduces some of the author's half-baked intentions.\n%\n"
+        },
+        {
+          "line": 93,
+          "context": "\n\\noindent This document is a transcript of the notes that I have been making\nin my personal copy of {\\sl The Art of Computer Programming}, Volume~1 (third\nedition, 27th printing), since it was first printed in 2022.\nPrevious errata are recorded in another file `{\\tt all1-pre.ps}'.\n\n\\ifall Four levels of updates\\dash---``errors,'' ``amendments,'' ``plans,''"
+        },
+        {
+          "line": 229,
+          "context": "\\volheadline{FUNDAMENTAL ALGORITHMS}\n\\bigskip\n\\rightline{Copyright \\copyright\\ 2022, 2023, 2024, 2025, 2026\n Addison\\with Wesley}\n\\rightline{Last updated \\today}\n\\bigskip\n\\rightline{\\sl Most of these corrections have already been made in"
+        },
+        {
+          "line": 859,
+          "context": "\\endchange\n\n\\amendpage 1.472 new copy for end of answer 30 (22.07.01)\nexercise~46.) \\becomes\nexercise~46. Cauchy's sums were extended to integrals by\nV.~Bouniakowsky [{\\sl M\\'em.\\ Acad.\\ St.-P\\'etersbourg\\/ \\rm(7) \\bf1}\n(1859), No.~9, 4] % page 4 of 18"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all1-pre.txt",
+      "sha256": "89d231245ff44164e09a39903faac35a2dc5e89956857abcc974991c99a887e5",
+      "matches": [
+        {
+          "line": 103,
+          "context": "\n\n                     Copyright       2011, 2012, : : : , 2020, 2021, 2022 Addison{Wesley\n                                                            Last updated 16 August 2022\n\n                     All of these orre tions have been made in subsequent printings.\nx"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all1-prepre.txt",
+      "sha256": "1a3c3ac6137b9e98f427de0a344efca46fd83b7a3e6e8fe2fa38e94525ca0c31",
+      "matches": [
+        {
+          "line": 88,
+          "context": "\n\n           Copyright 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005,\n                2006, 2007, 2008, 2009, 2010, Addison{Wesley; all rights reserved\n                                                   Last updated 16 August 2022\n                    All of these orre tions have been made in subsequent printings.\n Page iv line 4 of the Library of Congress Data                            07 Jan 2011"
+        },
+        {
+          "line": 480,
+          "context": "Page 105 line         7                                                            01 Jan 2006\n    probability    y Pr\nPage 106 line 1 of exer ise 14                                                    17 Mar 1998\n    De Moivre      y de Moivre\nPage 106 line 1 of exer ise 18                                                     01 Jan 2006\n    distin t values   y values\nxPage\u0012106\u0013repla"
+        },
+        {
+          "line": 482,
+          "context": "Page 106 line 1 of exer ise 14                                                    17 Mar 1998\n    De Moivre      y de Moivre\nPage 106 line 1 of exer ise 18                                                     01 Jan 2006\n    distin t values   y values\nxPage\u0012106\u0013repla\n           \u0012\n                ement for"
+        },
+        {
+          "line": 494,
+          "context": "                                                        ::: 1                          z;\n          kn       kn 1 + kn         kn 2 + kn 1 + kn        k1 + k2 + \u0001 \u0001 \u0001 + kn\nxPage 106 lines 3 and 4 of exer ise 20                                           24 De 2001\n  a1 ; a2 : : : an  y a1 a2 : : : an\n Page 107 the line after (1)                                                      07 Sep 2001\n  Oiler's onstant y Euler's onstant [pronoun ed `Oiler's onstant'℄\nxPage 108 line 3                                                   31 Jul 1997"
+        },
+        {
+          "line": 1077,
+          "context": "  rI1 \u0011 P y rI2 \u0011 P\nxPage 345 line 180 of the program                                          01 Feb 2004\n  COPY2   y COPYP2\nxPage 346 line 1 of exer ise 7                                             21 Jul 1997\n  as a , y as a partial ordering,\n Page 348 line 1 of exer ise 20                                            29 Sep 2010\n  an an estor   y"
+        }
+      ]
+    },
+    {
+      "path": "errata/text/err1-2e.txt",
+      "sha256": "1778c2089c0d317e283c6d28203b3a03b8db531c0d23faa9558661074e78a52a",
+      "matches": [
+        {
+          "line": 11,
+          "context": "\n\n  This document is a transcript of the notes that I made in my personal copy of\n  The Art of Computer Programming, Volume 1 (second edition) between 1975 and\n  1996. When I prepared the third edition in 1997, I made thousands of additional\n  changes; but all of the major corrections and most of the major amendments are\n  reported here."
+        },
+        {
+          "line": 1445,
+          "context": "  garbage is quite small. When the pool of memory becomes full in such cases,\n  it might be best to move all the active List data to another memory pool of\n  equal size, using a copying technique (see exercise 10) but without bothering to\n  preserve the contents of the nodes being copied. Then when the second memory\n  pool lls up, we can move the data back to the rst one again. With this method\n  more data can be kept in high-speed memory at once, because link elds tend\n  to point to nearby nodes. Moreover, there's no need for a marking phase, and"
+        },
+        {
+          "line": 3423,
+          "context": "  lj > lj+1 y lj \u0015 lj+1\n Page 590 addendum to answer 10                                                  18 Oct 1979\n  (place the gure at the right margin and set the copy narrower, to its left)\n  The desired ternary is y\n  The desired ternary tree is shown at the\n  right. F. K. Hwang has observed [SIAM\n  J. Appl. Math. 37 (1979), 124{127] that"
+        },
+        {
+          "line": 3497,
+          "context": "  74      CHANGES TO VOLUME 1: FUNDAMENTAL ALGORITHMS\n Page 594 replacement for lines 19{21                                         14 May 1976\n        Several elegant List-moving and List-copying algorithms that make substantially\n  weaker assumptions about List representation have been devised. See D. W. Clark,\n  CACM 19 (1976), 352{354; J. M. Robson, CACM 20 (1977), 431{433.\n Page 594 bottom line                                                         14 May 1978\n  exhausted. y exhausted. [For further information, see Guy L. Steele Jr., CACM 18"
+        }
+      ]
+    }
+  ],
+  "semantic_review": "All matched contexts read. No StrCpy threshold correction found. MMIXware copy_block concerns a different cache routine; historical Volume1 page106 changes concern probability exercises. Original file114 viewed. Candidate remains interpretive because the sentence also says approximately."
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "version": "20131017",
+    "command": [
+      "ctangle",
+      "workstreams/vol1-fasc1/sources/mmix-arith-20131017.w",
+      "-",
+      "mmix-arith.c"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "version": "20131017",
+    "command": [
+      "gcc",
+      "-O0",
+      "-std=c11",
+      "driver.c",
+      "-o",
+      "driver"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "version": "20250620",
+    "command": [
+      "ctangle",
+      "workstreams/vol1-fasc1/sources/mmix-arith-20250620.w",
+      "-",
+      "mmix-arith.c"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "version": "20250620",
+    "command": [
+      "gcc",
+      "-O0",
+      "-std=c11",
+      "driver.c",
+      "-o",
+      "driver"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "version": "audit-corrected-20250620",
+    "command": [
+      "ctangle",
+      "workstreams/vol1-fasc1/sources/mmix-arith-20250620.w",
+      "workstreams/vol1-fasc1/sources/audit-scan-constant-integer-length.ch",
+      "mmix-arith.c"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "version": "audit-corrected-20250620",
+    "command": [
+      "gcc",
+      "-O0",
+      "-std=c11",
+      "driver.c",
+      "-o",
+      "driver"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+]

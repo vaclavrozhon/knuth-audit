@@ -1,0 +1,220 @@
+{
+  "pid": 649811,
+  "started_at_utc": "2026-11-01T10:33:19.664073+00:00",
+  "status": "finished",
+  "command": [
+    "/usr/bin/python3",
+    "audit-2026-10-31/run_commafree_large.py"
+  ],
+  "time_limit_seconds_per_solver": 172800,
+  "proof_check_limit_seconds": 10800,
+  "log": "results/commafree/large-wrapper.log",
+  "cases": [
+    {
+      "label": "compact-m2-n2-g1-cadical195",
+      "command": [
+        "/tmp/knuth-audit-sat-venv/bin/python",
+        "-u",
+        "audit-2026-10-31/check_commafree_large.py",
+        "solve",
+        "--m",
+        "2",
+        "--n",
+        "2",
+        "--goal",
+        "1",
+        "--expected",
+        "SAT"
+      ],
+      "started_at_utc": "2026-11-01T10:33:19.664166+00:00",
+      "pid": 649813,
+      "returncode": 0,
+      "elapsed_seconds": 0.16559910774230957,
+      "finished_at_utc": "2026-11-01T10:33:19.830086+00:00",
+      "status": "SAT"
+    },
+    {
+      "label": "compact-m2-n4-g3-cadical195",
+      "command": [
+        "/tmp/knuth-audit-sat-venv/bin/python",
+        "-u",
+        "audit-2026-10-31/check_commafree_large.py",
+        "solve",
+        "--m",
+        "2",
+        "--n",
+        "4",
+        "--goal",
+        "3",
+        "--expected",
+        "SAT"
+      ],
+      "started_at_utc": "2026-11-01T10:33:19.831489+00:00",
+      "pid": 649814,
+      "returncode": 0,
+      "elapsed_seconds": 0.1655576229095459,
+      "finished_at_utc": "2026-11-01T10:33:19.997385+00:00",
+      "status": "SAT"
+    },
+    {
+      "label": "compact-m2-n6-g9-cadical195",
+      "command": [
+        "/tmp/knuth-audit-sat-venv/bin/python",
+        "-u",
+        "audit-2026-10-31/check_commafree_large.py",
+        "solve",
+        "--m",
+        "2",
+        "--n",
+        "6",
+        "--goal",
+        "9",
+        "--expected",
+        "SAT"
+      ],
+      "started_at_utc": "2026-11-01T10:33:19.998348+00:00",
+      "pid": 649815,
+      "returncode": 0,
+      "elapsed_seconds": 0.16539812088012695,
+      "finished_at_utc": "2026-11-01T10:33:20.163981+00:00",
+      "status": "SAT"
+    },
+    {
+      "label": "compact-m2-n8-g30-cadical195",
+      "command": [
+        "/tmp/knuth-audit-sat-venv/bin/python",
+        "-u",
+        "audit-2026-10-31/check_commafree_large.py",
+        "solve",
+        "--m",
+        "2",
+        "--n",
+        "8",
+        "--goal",
+        "30",
+        "--expected",
+        "SAT"
+      ],
+      "started_at_utc": "2026-11-01T10:33:20.165454+00:00",
+      "pid": 649816,
+      "returncode": 0,
+      "elapsed_seconds": 0.1655724048614502,
+      "finished_at_utc": "2026-11-01T10:33:20.331386+00:00",
+      "status": "SAT"
+    },
+    {
+      "label": "compact-m2-n10-g99-cadical195",
+      "command": [
+        "/tmp/knuth-audit-sat-venv/bin/python",
+        "-u",
+        "audit-2026-10-31/check_commafree_large.py",
+        "solve",
+        "--m",
+        "2",
+        "--n",
+        "10",
+        "--goal",
+        "99",
+        "--expected",
+        "SAT"
+      ],
+      "started_at_utc": "2026-11-01T10:33:20.333101+00:00",
+      "pid": 649817,
+      "returncode": 0,
+      "elapsed_seconds": 0.4668850898742676,
+      "finished_at_utc": "2026-11-01T10:33:20.800701+00:00",
+      "status": "SAT"
+    },
+    {
+      "label": "compact-m3-n6-g114-cadical195",
+      "command": [
+        "/tmp/knuth-audit-sat-venv/bin/python",
+        "-u",
+        "audit-2026-10-31/check_commafree_large.py",
+        "solve",
+        "--m",
+        "3",
+        "--n",
+        "6",
+        "--goal",
+        "114",
+        "--expected",
+        "UNSAT",
+        "--proof"
+      ],
+      "started_at_utc": "2026-11-01T10:33:20.802430+00:00",
+      "pid": 649818,
+      "returncode": 0,
+      "elapsed_seconds": 113.72830080986023,
+      "finished_at_utc": "2026-11-01T10:35:14.531163+00:00",
+      "proof_command": [
+        "/tmp/knuth-drat-trim/drat-trim",
+        "audit-2026-10-31/results/commafree/compact-m3-n6-g114-cadical195.cnf",
+        "audit-2026-10-31/results/commafree/compact-m3-n6-g114-cadical195.drat"
+      ],
+      "proof_check": "verified",
+      "status": "UNSAT"
+    },
+    {
+      "label": "compact-m2-n12-g335-cadical195",
+      "command": [
+        "/tmp/knuth-audit-sat-venv/bin/python",
+        "-u",
+        "audit-2026-10-31/check_commafree_large.py",
+        "solve",
+        "--m",
+        "2",
+        "--n",
+        "12",
+        "--goal",
+        "335",
+        "--expected",
+        "UNSAT",
+        "--proof"
+      ],
+      "started_at_utc": "2026-11-01T10:37:18.327695+00:00",
+      "pid": 651146,
+      "returncode": 0,
+      "elapsed_seconds": 11639.195893526077,
+      "finished_at_utc": "2026-11-01T13:51:17.527139+00:00",
+      "proof_command": [
+        "/tmp/knuth-drat-trim/drat-trim",
+        "audit-2026-10-31/results/commafree/compact-m2-n12-g335-cadical195.cnf",
+        "audit-2026-10-31/results/commafree/compact-m2-n12-g335-cadical195.drat"
+      ],
+      "proof_check": "verified",
+      "status": "UNSAT"
+    },
+    {
+      "label": "compact-m5-n4-g140-cadical195",
+      "command": [
+        "/tmp/knuth-audit-sat-venv/bin/python",
+        "-u",
+        "audit-2026-10-31/check_commafree_large.py",
+        "solve",
+        "--m",
+        "5",
+        "--n",
+        "4",
+        "--goal",
+        "140",
+        "--expected",
+        "UNSAT",
+        "--proof"
+      ],
+      "started_at_utc": "2026-11-01T15:04:28.987804+00:00",
+      "pid": 688888,
+      "returncode": 0,
+      "elapsed_seconds": 3709.3787574768066,
+      "finished_at_utc": "2026-11-01T16:06:18.370137+00:00",
+      "proof_command": [
+        "/tmp/knuth-drat-trim/drat-trim",
+        "audit-2026-10-31/results/commafree/compact-m5-n4-g140-cadical195.cnf",
+        "audit-2026-10-31/results/commafree/compact-m5-n4-g140-cadical195.drat"
+      ],
+      "proof_check": "verified",
+      "status": "UNSAT"
+    }
+  ],
+  "finished_at_utc": "2026-11-01T17:36:39.923308+00:00"
+}

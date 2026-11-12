@@ -1,0 +1,86 @@
+{
+  "sparse_quartic": {
+    "multiplications": 3,
+    "additions": 2
+  },
+  "normalization34_intermediate_identities": 6,
+  "all_product_skeletons": {
+    "two_products": 3,
+    "three_products": 18
+  },
+  "degree4_skeletons": [
+    [
+      [
+        1,
+        2,
+        4
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    ]
+  ],
+  "degree6_skeletons": [
+    [
+      [
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ]
+    ],
+    [
+      [
+        1,
+        2,
+        4,
+        6
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    ]
+  ],
+  "generic_family_mappings": 3,
+  "coefficient_relations": 3,
+  "C0239": "The quartic final constant is a5; printed D=a6 is undefined.",
+  "quartic_missing_example": "x^4+x",
+  "sextic_missing_example": "x^6+x",
+  "scope": "Structural completeness is proved separately in the note; skeleton enumeration assumes the proved parameter-addition normal form.",
+  "status": "passed",
+  "pid": 1599332,
+  "seconds": 0.3133649539668113,
+  "completed_at_utc": "2026-11-04T13:13:25.646338+00:00"
+}

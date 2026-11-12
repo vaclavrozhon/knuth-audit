@@ -1,0 +1,185 @@
+{
+  "monotone_increasing_four": {
+    "status": "UNSAT",
+    "variables": 272,
+    "clauses": 1864,
+    "cnf_sha256": "8b68bcd09f28ccc5a0b7ce9b3a80feb8bfd619d67f03ba6dff19d84b0d0ba70d",
+    "proof_sha256": "bfd0d32057f2c42711dfc99875606ea98a6f1ce061c827cdaba29a517c46c72c",
+    "proof_verified": true
+  },
+  "answer60": {
+    "32": {
+      "support": [
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "differing_assignments": 102752,
+      "total_assignments": 262144,
+      "left_probability": "113/256",
+      "right_probability": "1027/4096",
+      "intersection_probability": "2459/16384",
+      "xor_probability": "3211/8192"
+    },
+    "64": {
+      "support": [
+        2,
+        3,
+        6,
+        8,
+        9,
+        10,
+        12,
+        13,
+        15,
+        19,
+        20
+      ],
+      "differing_assignments": 402,
+      "total_assignments": 2048,
+      "left_probability": "113/256",
+      "right_probability": "11/32",
+      "intersection_probability": "603/2048",
+      "xor_probability": "201/1024"
+    }
+  },
+  "answer61": {
+    "status": "UNSAT",
+    "variables": 5309,
+    "clauses": 9659,
+    "cnf_sha256": "ec5abf416ec6a040beaecabb507582e75bc315cf5aa0420a0c2207b29e3bb90e",
+    "proof_sha256": "e613367695702d8f31d9ca088fa0a436b346e743864b4e1576be40a5d2aaa551",
+    "proof_verified": true,
+    "implicants": 1065,
+    "positive_points": 113,
+    "support": [
+      2,
+      3,
+      6,
+      8,
+      10,
+      12,
+      13,
+      15
+    ],
+    "private_witnesses": [
+      "00000000000100000000",
+      "00100000000000000000",
+      "00000001010000000000",
+      "00000000010000000000"
+    ]
+  },
+  "answer58_raw_parameter_counts": [
+    {
+      "M": 1,
+      "N": 1,
+      "before": 4,
+      "after": 3
+    },
+    {
+      "M": 1,
+      "N": 2,
+      "before": 16,
+      "after": 9
+    },
+    {
+      "M": 1,
+      "N": 3,
+      "before": 64,
+      "after": 27
+    },
+    {
+      "M": 1,
+      "N": 4,
+      "before": 256,
+      "after": 81
+    },
+    {
+      "M": 2,
+      "N": 1,
+      "before": 16,
+      "after": 9
+    },
+    {
+      "M": 2,
+      "N": 2,
+      "before": 256,
+      "after": 81
+    },
+    {
+      "M": 2,
+      "N": 3,
+      "before": 4096,
+      "after": 729
+    },
+    {
+      "M": 2,
+      "N": 4,
+      "before": 65536,
+      "after": 6561
+    },
+    {
+      "M": 3,
+      "N": 1,
+      "before": 64,
+      "after": 27
+    },
+    {
+      "M": 3,
+      "N": 2,
+      "before": 4096,
+      "after": 729
+    },
+    {
+      "M": 3,
+      "N": 3,
+      "before": 262144,
+      "after": 19683
+    },
+    {
+      "M": 3,
+      "N": 4,
+      "before": 16777216,
+      "after": 531441
+    },
+    {
+      "M": 4,
+      "N": 1,
+      "before": 256,
+      "after": 81
+    },
+    {
+      "M": 4,
+      "N": 2,
+      "before": 65536,
+      "after": 6561
+    },
+    {
+      "M": 4,
+      "N": 3,
+      "before": 16777216,
+      "after": 531441
+    },
+    {
+      "M": 4,
+      "N": 4,
+      "before": 4294967296,
+      "after": 43046721
+    }
+  ]
+}

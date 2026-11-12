@@ -1,0 +1,25 @@
+{
+  "checked_at_utc": "2026-11-07T03:10:11.973808+00:00",
+  "scope": "First exact evaluation of the printed scalar upper-bound recurrence; not a simulation or proof that the recurrence bounds actual interpreter memory.",
+  "recurrence": "a[0]=0; a[k+1]=a[k]+5+ceil((3*a[k]+2)/512)",
+  "evaluated_terms": 6067,
+  "all_two_forms_agree": true,
+  "linear_6k_for_k_lt30": true,
+  "a29": 174,
+  "a30": 181,
+  "node_capacity": 559670633304293,
+  "first_above_node_capacity": {
+    "k": 4641,
+    "previous": 557373330226371,
+    "value": 560639189583172
+  },
+  "first_above_2pow61": {
+    "k": 6066,
+    "previous": 2300134210731528098,
+    "value": 2313611559622533151
+  },
+  "sequence_sha256": "bf96a16591ee5f99b018a82e079be6a43c61f5a03e9c722584f88ab25faa7a2e",
+  "elapsed_seconds": 0.00818254501791671,
+  "old_run_repeated": false,
+  "actual_interpreter_run": false
+}

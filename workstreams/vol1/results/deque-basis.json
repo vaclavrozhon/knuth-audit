@@ -1,0 +1,183 @@
+{
+  "status": "passed",
+  "rows": [
+    {
+      "n": 0,
+      "count": 1,
+      "operation_states": 1,
+      "minimal_basis_patterns": []
+    },
+    {
+      "n": 1,
+      "count": 1,
+      "operation_states": 3,
+      "minimal_basis_patterns": []
+    },
+    {
+      "n": 2,
+      "count": 2,
+      "operation_states": 8,
+      "minimal_basis_patterns": []
+    },
+    {
+      "n": 3,
+      "count": 6,
+      "operation_states": 22,
+      "minimal_basis_patterns": []
+    },
+    {
+      "n": 4,
+      "count": 24,
+      "operation_states": 63,
+      "minimal_basis_patterns": []
+    },
+    {
+      "n": 5,
+      "count": 116,
+      "operation_states": 185,
+      "minimal_basis_patterns": [
+        [
+          5,
+          1,
+          3,
+          2,
+          4
+        ],
+        [
+          5,
+          1,
+          3,
+          4,
+          2
+        ],
+        [
+          5,
+          2,
+          3,
+          1,
+          4
+        ],
+        [
+          5,
+          2,
+          3,
+          4,
+          1
+        ]
+      ]
+    },
+    {
+      "n": 6,
+      "count": 634,
+      "operation_states": 550,
+      "minimal_basis_patterns": []
+    },
+    {
+      "n": 7,
+      "count": 3762,
+      "operation_states": 1644,
+      "minimal_basis_patterns": [
+        [
+          5,
+          1,
+          7,
+          4,
+          2,
+          3,
+          6
+        ],
+        [
+          5,
+          1,
+          7,
+          4,
+          2,
+          6,
+          3
+        ],
+        [
+          5,
+          2,
+          7,
+          4,
+          1,
+          3,
+          6
+        ],
+        [
+          5,
+          2,
+          7,
+          4,
+          1,
+          6,
+          3
+        ]
+      ]
+    },
+    {
+      "n": 8,
+      "count": 23638,
+      "operation_states": 4925,
+      "minimal_basis_patterns": []
+    },
+    {
+      "n": 9,
+      "count": 154816,
+      "operation_states": 14767,
+      "minimal_basis_patterns": [
+        [
+          5,
+          1,
+          7,
+          4,
+          9,
+          6,
+          3,
+          2,
+          8
+        ],
+        [
+          5,
+          1,
+          7,
+          4,
+          9,
+          6,
+          3,
+          8,
+          2
+        ],
+        [
+          5,
+          2,
+          7,
+          4,
+          9,
+          6,
+          3,
+          1,
+          8
+        ],
+        [
+          5,
+          2,
+          7,
+          4,
+          9,
+          6,
+          3,
+          8,
+          1
+        ]
+      ]
+    }
+  ],
+  "book_vs_pratt_pattern_constructions_checked_odd_lengths": [
+    5,
+    101
+  ],
+  "elapsed_seconds": 11.65,
+  "peak_rss_kib": 550884,
+  "scope": "All permutations up to length 9; no claim of an independent proof of the infinite basis."
+}

@@ -1,0 +1,221 @@
+{
+  "checked_at_utc": "2026-11-06T22:40:04.723334+00:00",
+  "scope": "Complete MPR29, question p15/file35 and answer p375/file395; historical Fascicle5 p15,p187.",
+  "search_pattern": "Page\\s+(?:15|187|375)\\b|\\\\(?:bugonpage|amendpage|improvepage)\\s+4(?:b|f[56])\\.(?:15|187|375)\\b|(?:answer|exercise|exer\\s+ise)\\s+\\{?29\\b|Samuels",
+  "layers": [
+    {
+      "path": "errata/text/err4b.txt",
+      "sha256": "2a3450bf3c79d28ad3c2d96468344c96995cf0afb74961f257c311bb9c821e1c",
+      "matches": [
+        {
+          "line": 241,
+          "context": [
+            "                       Hint: Work bitwise.",
+            "Page 187 line 8                                                        19 Jun 2023",
+            " deals only with lauses whose        y",
+            "                                   deals only with \\k - lauses,\" whose",
+            "Page 192 in (20)                                                                   16 Sep 2025",
+            " 1 \u0014 i + j \u0014 tk +1   y 1 \u0014 i +j \u0014 r+1",
+            "xPage 193 line 12                                                                 13 Mar 2026",
+            "  34 (1964) y 34 (1965)",
+            "Page 214 lines 26 and 27                                                        16 Sep 2025"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all4b.txt",
+      "sha256": "b1a3425486f403fb4158585d5bbfef0159fd20b12e2e7d47b64e393e1ae8a303",
+      "matches": [
+        {
+          "line": 269,
+          "context": [
+            "  Hint: Use bitmaps.   y Hint: Work bitwise.",
+            " Page 187 line 8                                                                 19 Jun 2023",
+            "  deals only with lauses whose      y deals only with \\k- lauses,\" whose",
+            "Page 192 top line                                                                16 Sep 2025",
+            "  works well when   y works well even when",
+            " Page 192 in (20)                                                                16 Sep 2025",
+            "  1 \u0014 i + j \u0014 tk +1  y 1 \u0014 i +j \u0014 r+1",
+            "xPage 193 line 12                                                               13 Mar 2026",
+            "  34 (1964) y 34 (1965)"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "errata/text/err4f5.txt",
+      "sha256": "5a716c34e2063eb46005593d53e89dbbd912b5677e0a6ab11753f2a5ee38b557",
+      "matches": [
+        {
+          "line": 494,
+          "context": [
+            "       CHANGES TO V4F5: MATH PRELIMINARIES, BACKTRACKING ET AL                                   11",
+            "xPage 229      last line of answer 29                                                    14 De 2019",
+            "    f1; 2g y f0; 1g. [Also hange 01",
+            "                                 10 to 10",
+            "                                       01 in lines 4{5, 9{10, 13{14 of the matrix.℄",
+            " Page 231      last line of answer 37                                                    03 Mar 2021",
+            "    Combinatori s, to appear.     y Combinatori s        27   (2020), #P1.52, 1{27.",
+            " Page 231    repla ement for step G3 in answer 38                             07 Feb 2021",
+            "  G3. [Found?℄ If k > n      r go to G4. Otherwise if ak = bk+n = k n = 0, go to G5."
+          ]
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all4f5.txt",
+      "sha256": "0dd38c4cda72b01baefb797611c9bbab7713ff0c107a1df884afc89fe9bb91c3",
+      "matches": [
+        {
+          "line": 547,
+          "context": [
+            "  5 4 6 10 12 5 y 5 4 6 8 10 12 5",
+            "xPage 229 last line of answer 29                                                 14 De 2019",
+            "  f1; 2g y f0; 1g. [Also hange 01    to",
+            "                                  10 01 10 in lines 4{5, 9{10, 13{14 of the matrix.℄",
+            " Page 231 last line of answer 37                                                03 Mar 2021",
+            "  Combinatori s, to appear. y Combinatori s 27 (2020), #P1.52, 1{27.",
+            " Page 231 repla ement for step G3 in answer 38                                   07 Feb 2021",
+            "  G3. [Found?℄ If k > n      r go to G4. Otherwise if ak = bk+n = k n = 0, go to G5.",
+            "       Otherwise set k k + 1 and repeat this step."
+          ]
+        }
+      ]
+    },
+    {
+      "path": "errata/text/err4f6.txt",
+      "sha256": "0a065b32ef4f8e427a178a77e0fe81b7caad77389ecec060c8793567cd5a3eb2",
+      "matches": [
+        {
+          "line": 240,
+          "context": [
+            "                          (see exer ise 265)",
+            "  Page 66 new senten e at bottom of page                                                                                          15 Mar 2018",
+            "   The \\reason\" for literal l's urrent value is kept in variable Rl .",
+            "",
+            "    6        CHANGES TO V4F6: SATISFIABILITY",
+            "",
+            "x",
+            "Page 68          line 2                                                               21 Apr 2019",
+            "    LF l , y LF"
+          ]
+        },
+        {
+          "line": 425,
+          "context": [
+            "  Laurier, Arti ial Intelligen e 14 y Lauriere, Arti ial Intelligen e 10",
+            "xPage 187 line 1 of answer 17                                                     21 Jun 2022",
+            "  Add lauses (19) y Add lauses (18) and (19)",
+            " Page 189 simplifying the formula for f in answer 24                              15 Feb 2017",
+            "  r l < n ? : : : f (n ; 0; n )) for n \u0015 2 y f (n ; (n + l) r; n )+ f (n ; (n + l) . r; n00 ))",
+            "           00          00    00                    0   0    .    0       00   00",
+            "  for n \u0015 2",
+            "xPage 190 line 2 of answer 33                                                      28 Jul 2019",
+            "    vj 1 _ vj +1 _ vk   y vj _ vj _ \u0001 \u0001 \u0001 _ vk"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "errata/text/all4f6.txt",
+      "sha256": "468af6337a650d3b8b132fa854a21a4a460d891d3497986318ba1830581dddb8",
+      "matches": [
+        {
+          "line": 267,
+          "context": [
+            "                          (see exer ise 265)",
+            "  Page 66 new senten e at bottom of page                                                                                           15 Mar 2018",
+            "   The \\reason\" for literal l's urrent value is kept in variable Rl .",
+            "  Page 67 lines 10 and 22                                                                                                          06 May 2018",
+            "     100 on i ts y M = 100 on i ts",
+            "     \u001a 100 times y \u001a M = \u001a 100 times",
+            " xPage 68             line 2                                                                                                       21 Apr 2019",
+            "     LF  l , y LF \u0016l , VAL(jl j)",
+            "                 0                0                     0"
+          ]
+        },
+        {
+          "line": 491,
+          "context": [
+            "  Laurier, Arti ial Intelligen e 14 y Lauriere, Arti ial Intelligen e 10",
+            "xPage 187 line 1 of answer 17                                                                 21 Jun 2022",
+            "  Add lauses (19) y Add lauses (18) and (19)",
+            " Page 189 simplifying the formula for f in answer 24                                          15 Feb 2017",
+            "  r l < n00 ? : : : f (n00 ; 0; n00 )) for n \u0015 2 y f (n0 ; (n0 + l) . r; n0 )+ f (n00 ; (n00 + l) . r; n00 ))",
+            "  for n \u0015 2",
+            "xPage 190 line 2 of answer 33                                                                  28 Jul 2019",
+            "    vj 1 _ vj +1 _ vk   y vj _ vj _ \u0001 \u0001 \u0001 _ vk",
+            "                                 1      +1"
+          ]
+        }
+      ]
+    }
+  ],
+  "tex_sources": [
+    {
+      "path": "errata/originals/err4b.textxt",
+      "sha256": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+      "matches": [
+        {
+          "line": 539,
+          "context": [
+            "",
+            "\\amendpage 4b.187 line $-8$ (23.06.19)",
+            "deals only with clauses whose \\becomes",
+            "deals only with ``$k$-clauses,'' whose",
+            "\\endchange",
+            "",
+            "\\improvepage 4b.192 top line (25.09.16)",
+            "works well when \\becomes works well even when",
+            "\\endchange"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "errata/originals/err4f5.textxt",
+      "sha256": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b",
+      "matches": [
+        {
+          "line": 931,
+          "context": [
+            "",
+            "\\bugonpage 4f5.229 last line of answer 29 (19.12.14)",
+            "$\\{1,2\\}$ \\becomes $\\{0,1\\}$. [Also change",
+            "$\\vcenter{\\baselineskip6pt\\sevenrm\\halign{#\\hfil\\cr01\\cr10\\cr}}$ to",
+            "$\\vcenter{\\baselineskip6pt\\sevenrm\\halign{#\\hfil\\cr10\\cr01\\cr}}$ in",
+            "lines 4--5, 9--10, 13--14 of the matrix.]",
+            "\\endchange",
+            "",
+            "\\amendpage 4f5.231 last line of answer 37 (21.03.03)"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "errata/originals/err4f6.textxt",
+      "sha256": "150809ff5caee54008a0a52523130b723ec1fdea7fe5cb8259b2a8349c4a8bfa",
+      "matches": [
+        {
+          "line": 821,
+          "context": [
+            "",
+            "\\bugonpage 4f6.187 line 1 of answer 17 (22.06.21)",
+            "Add clauses \\eq(19) \\becomes",
+            "Add clauses \\eq(18) and \\eq(19)",
+            "\\endchange",
+            "",
+            "\\amendpage 4f6.189 simplifying the formula for $f$ in answer 24 (17.02.15)",
+            "$r-l<n''{?}$ \\dots $f(n'',0,n'')\\bigr)$ for $n\\ge2$ \\becomes",
+            "$f(n',(n'+l)\\monus r,n')+f(n'',(n''+l)\\monus r,n'')\\bigr)$ for $n\\ge2$"
+          ]
+        }
+      ]
+    }
+  ],
+  "known_corrections": [],
+  "new_findings": [],
+  "conclusion": "No published correction to MPR29 found. F5p229 answer29 is from a different section; 4Bp187 and F6p187 concern SAT content. All derivative endpoint statements have their precise one-sided interpretation in the proof note.",
+  "local_snapshot_note": "Saved all4b snapshot 16 April2026; no live refresh or priority claim."
+}

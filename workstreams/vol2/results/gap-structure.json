@@ -1,0 +1,179 @@
+{
+  "log_profiles": {
+    "prefixes": 512,
+    "gap_and_partial_product_checks": 131328,
+    "C0064": {
+      "original_first_nonzero_log_argument": "3/2",
+      "reflected_first_nonzero_log_argument": "4/3",
+      "same_gap_multisets": true
+    }
+  },
+  "interval_birth": {
+    "C0065": {
+      "sequence": [
+        "0",
+        "1/2",
+        "1/4",
+        "1/8"
+      ],
+      "failing_gaps": [
+        {
+          "gap": "1/8",
+          "endpoints": [
+            0,
+            3
+          ],
+          "printed_a": 1,
+          "printed_comparison_min": "1/4",
+          "fixed_a": 2
+        },
+        {
+          "gap": "1/8",
+          "endpoints": [
+            3,
+            2
+          ],
+          "printed_a": 1,
+          "printed_comparison_min": "1/4",
+          "fixed_a": 2
+        }
+      ]
+    },
+    "exhaustive_histories": 3255,
+    "birth_checks": 19260,
+    "largest_gap_checks": 9630
+  },
+  "oscillation": {
+    "prefix_length": 65536,
+    "rows": [
+      {
+        "m": 1,
+        "upper_prefix": 2,
+        "lower_prefix": 2,
+        "count": 1,
+        "upper_frequency": "1/2",
+        "lower_frequency": "1/2"
+      },
+      {
+        "m": 2,
+        "upper_prefix": 3,
+        "lower_prefix": 4,
+        "count": 2,
+        "upper_frequency": "2/3",
+        "lower_frequency": "1/2"
+      },
+      {
+        "m": 3,
+        "upper_prefix": 6,
+        "lower_prefix": 8,
+        "count": 4,
+        "upper_frequency": "2/3",
+        "lower_frequency": "1/2"
+      },
+      {
+        "m": 4,
+        "upper_prefix": 12,
+        "lower_prefix": 16,
+        "count": 7,
+        "upper_frequency": "7/12",
+        "lower_frequency": "7/16"
+      },
+      {
+        "m": 5,
+        "upper_prefix": 23,
+        "lower_prefix": 32,
+        "count": 14,
+        "upper_frequency": "14/23",
+        "lower_frequency": "7/16"
+      },
+      {
+        "m": 6,
+        "upper_prefix": 46,
+        "lower_prefix": 64,
+        "count": 27,
+        "upper_frequency": "27/46",
+        "lower_frequency": "27/64"
+      },
+      {
+        "m": 7,
+        "upper_prefix": 91,
+        "lower_prefix": 128,
+        "count": 54,
+        "upper_frequency": "54/91",
+        "lower_frequency": "27/64"
+      },
+      {
+        "m": 8,
+        "upper_prefix": 182,
+        "lower_prefix": 256,
+        "count": 107,
+        "upper_frequency": "107/182",
+        "lower_frequency": "107/256"
+      },
+      {
+        "m": 9,
+        "upper_prefix": 363,
+        "lower_prefix": 512,
+        "count": 213,
+        "upper_frequency": "71/121",
+        "lower_frequency": "213/512"
+      },
+      {
+        "m": 10,
+        "upper_prefix": 725,
+        "lower_prefix": 1024,
+        "count": 425,
+        "upper_frequency": "17/29",
+        "lower_frequency": "425/1024"
+      },
+      {
+        "m": 11,
+        "upper_prefix": 1449,
+        "lower_prefix": 2048,
+        "count": 849,
+        "upper_frequency": "283/483",
+        "lower_frequency": "849/2048"
+      },
+      {
+        "m": 12,
+        "upper_prefix": 2897,
+        "lower_prefix": 4096,
+        "count": 1697,
+        "upper_frequency": "1697/2897",
+        "lower_frequency": "1697/4096"
+      },
+      {
+        "m": 13,
+        "upper_prefix": 5793,
+        "lower_prefix": 8192,
+        "count": 3394,
+        "upper_frequency": "3394/5793",
+        "lower_frequency": "1697/4096"
+      },
+      {
+        "m": 14,
+        "upper_prefix": 11586,
+        "lower_prefix": 16384,
+        "count": 6787,
+        "upper_frequency": "6787/11586",
+        "lower_frequency": "6787/16384"
+      },
+      {
+        "m": 15,
+        "upper_prefix": 23171,
+        "lower_prefix": 32768,
+        "count": 13573,
+        "upper_frequency": "13573/23171",
+        "lower_frequency": "13573/32768"
+      },
+      {
+        "m": 16,
+        "upper_prefix": 46341,
+        "lower_prefix": 65536,
+        "count": 27146,
+        "upper_frequency": "27146/46341",
+        "lower_frequency": "13573/32768"
+      }
+    ]
+  }
+}

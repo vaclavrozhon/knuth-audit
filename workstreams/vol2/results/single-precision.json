@@ -1,0 +1,191 @@
+{
+  "algorithms": {
+    "operations": 170632,
+    "directed_additions": 114118,
+    "formats": [
+      {
+        "radix": 2,
+        "precision": 1,
+        "inputs": 7,
+        "operations": 140
+      },
+      {
+        "radix": 2,
+        "precision": 2,
+        "inputs": 13,
+        "operations": 494
+      },
+      {
+        "radix": 3,
+        "precision": 1,
+        "inputs": 13,
+        "operations": 494
+      },
+      {
+        "radix": 3,
+        "precision": 2,
+        "inputs": 37,
+        "operations": 4070
+      },
+      {
+        "radix": 4,
+        "precision": 1,
+        "inputs": 19,
+        "operations": 1064
+      },
+      {
+        "radix": 4,
+        "precision": 2,
+        "inputs": 73,
+        "operations": 15914
+      },
+      {
+        "radix": 5,
+        "precision": 1,
+        "inputs": 25,
+        "operations": 1850
+      },
+      {
+        "radix": 5,
+        "precision": 2,
+        "inputs": 121,
+        "operations": 43802
+      },
+      {
+        "radix": 6,
+        "precision": 1,
+        "inputs": 31,
+        "operations": 2852
+      },
+      {
+        "radix": 6,
+        "precision": 2,
+        "inputs": 181,
+        "operations": 98102
+      },
+      {
+        "radix": 2,
+        "precision": 3,
+        "inputs": 25,
+        "operations": 1850
+      }
+    ],
+    "method": "Algorithms A/N/M versus independently enumerated neighboring representable values; directed A disables its small-addend shortcut."
+  },
+  "guard_digits": {
+    "relation_checks": 712,
+    "compressed_additions": 95678,
+    "known_erratum": "Answer5 requires bx~by for equality after integer rounding."
+  },
+  "printed_examples": {
+    "exercise4": [
+      [
+        51,
+        10209877
+      ],
+      [
+        50,
+        12346000
+      ],
+      [
+        53,
+        99999999
+      ],
+      [
+        54,
+        10000000
+      ]
+    ],
+    "exercise8_exponents": [
+      -1,
+      -1,
+      100,
+      100
+    ],
+    "overflow_addition": {
+      "result": [
+        56,
+        10000000
+      ],
+      "trace": {
+        "left": 0,
+        "right": 1,
+        "fraction_overflow": false,
+        "rounding_overflow": true,
+        "rounded_up": true,
+        "tie": false
+      }
+    },
+    "overflow_multiplication": {
+      "result": [
+        50,
+        10000000
+      ],
+      "trace": {
+        "left": 1,
+        "right": 1,
+        "fraction_overflow": false,
+        "rounding_overflow": true,
+        "rounded_up": true,
+        "tie": false
+      }
+    },
+    "exercise9": {
+      "first": "66666667/100000000",
+      "second": "1"
+    },
+    "exercise1_note": "2020 answer converts the already rounded decimal values of (3). Direct rounding of exact10h in base100 would instead give66260701 at the tie; this is not classified as a book error.",
+    "range_cases": 72
+  },
+  "twos_complement": {
+    "printed": [
+      {
+        "input": "572|740000000|01",
+        "output": [
+          "0o575",
+          "0o400000000"
+        ],
+        "value": "-2"
+      },
+      {
+        "input": "572|740000000|05",
+        "output": [
+          "0o576",
+          "0o1"
+        ],
+        "value": "-134217727/67108864"
+      }
+    ],
+    "negative_normalizations": 4057
+  },
+  "balanced_and_auxiliary": {
+    "balanced_fixed_grid_cases": 9801,
+    "balanced_boundary": {
+      "precision": 2,
+      "u": "2/9",
+      "v": "-4/81",
+      "exact": "14/81",
+      "normalized_truncation": "2/9",
+      "nearest": "4/27",
+      "error_truncation": "4/81",
+      "error_nearest": "2/81"
+    },
+    "smith_symbolic_identities": 4,
+    "gradual_exact_tiny_sums": 1910
+  },
+  "tapered": {
+    "canonical_nonzero_words": 52224,
+    "zero_word": 8192,
+    "word_counts_by_exponent_bits": {
+      "8": 15360,
+      "4": 12288,
+      "2": 8192,
+      "1": 16384
+    },
+    "near_one_significant_bits": 13,
+    "extreme_significant_bits": 6,
+    "min_positive": "1/340282366920938463463374607431768211456",
+    "max_positive": "334965454937798799971759379190646833152",
+    "scope": "Explicit research-exercise example, with canonical encoding and exact range, not a claim of optimality or a transcription of the1971 article."
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "2048": {
+    "grid": 2048,
+    "zmax": "8.0",
+    "tail_terms": 80,
+    "iterations": 45,
+    "floating_mantissa_bits": 63,
+    "seconds": 12.880787391011836,
+    "diagnostics": [
+      {
+        "iteration": 1,
+        "max_change": "0.31107633741083062104"
+      },
+      {
+        "iteration": 2,
+        "max_change": "0.049236221994431017177"
+      },
+      {
+        "iteration": 5,
+        "max_change": "0.0003198326790524711914"
+      },
+      {
+        "iteration": 10,
+        "max_change": "1.0636745792009160913e-07"
+      },
+      {
+        "iteration": 15,
+        "max_change": "1.7817149069055543409e-11"
+      },
+      {
+        "iteration": 20,
+        "max_change": "1.5475088658428726163e-15"
+      },
+      {
+        "iteration": 25,
+        "max_change": "2.168404344971008868e-18"
+      },
+      {
+        "iteration": 30,
+        "max_change": "2.710505431213761085e-19"
+      },
+      {
+        "iteration": 35,
+        "max_change": "2.710505431213761085e-19"
+      },
+      {
+        "iteration": 40,
+        "max_change": "1.626303258728256651e-19"
+      },
+      {
+        "iteration": 45,
+        "max_change": "2.168404344971008868e-19"
+      }
+    ],
+    "b": "2.8329765709909285037",
+    "two_over_b": "0.7059712461019163916",
+    "lambda_from_boundary": "0.39792268118831776054",
+    "S1": "0.54325829588674532007",
+    "odd_coefficients": {
+      "1": "0.397922681188316645199535525646",
+      "3": "-0.0210096400449813450418950402188",
+      "5": "0.0013749841025695416071770008839",
+      "7": "-0.0000960351088080904088380742086189"
+    },
+    "vallee_ratio": "0.14046098554536614693",
+    "vallee_ratio_target": "0.14046098554536575281",
+    "bounds_note": "Floating-point interpolation and extrapolation diagnostics; not a rigorous interval certificate."
+  },
+  "4096": {
+    "grid": 4096,
+    "zmax": "8.0",
+    "tail_terms": 80,
+    "iterations": 45,
+    "floating_mantissa_bits": 63,
+    "seconds": 32.0002668859961,
+    "diagnostics": [
+      {
+        "iteration": 1,
+        "max_change": "0.3110772088166015508"
+      },
+      {
+        "iteration": 2,
+        "max_change": "0.04923635607383078681"
+      },
+      {
+        "iteration": 5,
+        "max_change": "0.0003198326790524712998"
+      },
+      {
+        "iteration": 10,
+        "max_change": "1.06368196245020148194e-07"
+      },
+      {
+        "iteration": 15,
+        "max_change": "1.781714896063532616e-11"
+      },
+      {
+        "iteration": 20,
+        "max_change": "1.5474004456256240658e-15"
+      },
+      {
+        "iteration": 25,
+        "max_change": "2.1141942363467336463e-18"
+      },
+      {
+        "iteration": 30,
+        "max_change": "3.252606517456513302e-19"
+      },
+      {
+        "iteration": 35,
+        "max_change": "2.710505431213761085e-19"
+      },
+      {
+        "iteration": 40,
+        "max_change": "2.710505431213761085e-19"
+      },
+      {
+        "iteration": 45,
+        "max_change": "2.710505431213761085e-19"
+      }
+    ],
+    "b": "2.8329765709909285041",
+    "two_over_b": "0.7059712461019163915",
+    "lambda_from_boundary": "0.39792268118832369565",
+    "S1": "0.54325829588674532007",
+    "odd_coefficients": {
+      "1": "0.397922681188316644031770080004",
+      "3": "-0.0210096400449812388348511895802",
+      "5": "0.00137498410256765208072670421094",
+      "7": "-0.0000960351087934084493182590198163"
+    },
+    "vallee_ratio": "0.1404609855453682419",
+    "vallee_ratio_target": "0.14046098554536575281",
+    "bounds_note": "Floating-point interpolation and extrapolation diagnostics; not a rigorous interval certificate."
+  }
+}

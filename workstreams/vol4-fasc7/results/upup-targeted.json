@@ -1,0 +1,120 @@
+{
+  "scope": "Printed small recurrence values; exact rational bounds for the40-digit constants and first imaginary pole; one fixed5-column bijection example. No permutation census.",
+  "proof": "notes/up-up-down-down-exercise-033.md",
+  "U_1_through_5": [
+    1,
+    2,
+    14,
+    204,
+    5104
+  ],
+  "p_rows_1_through_3": [
+    [
+      1,
+      0,
+      1
+    ],
+    [
+      4,
+      2,
+      2,
+      2,
+      4
+    ],
+    [
+      42,
+      28,
+      22,
+      20,
+      22,
+      28,
+      42
+    ]
+  ],
+  "mu_interval": {
+    "denominator_power10": 55,
+    "lower_numerator": 11996786402577338339163698486411419442614587884186072089,
+    "upper_numerator": 11996786402577338339163698486411419442614587884186072090,
+    "f_at_lower": {
+      "scale_power10": 65,
+      "lower_integer": -22311923763,
+      "upper_integer": -22311923762
+    },
+    "f_at_upper": {
+      "scale_power10": 65,
+      "lower_integer": 121842587509,
+      "upper_integer": 121842587510
+    }
+  },
+  "exp_certificate": "S_K≤exp(x)≤S_K+(x^(K+1)/(K+1)!)/(1−x/(K+2)), K80; f(x)=(x−1)exp(2x)−(x+1).",
+  "printed_mu_minus": "2399357280515467667832739697282283888523/2000000000000000000000000000000000000000",
+  "printed_lambda_plus": "3313717096745907904873710485546264535281/5000000000000000000000000000000000000000",
+  "lambda_certificate": "mu_lower²−1>printed_lambda² and mu_upper²−1<(printed_lambda+10^(−40))², checked with exact fractions.",
+  "first_imaginary_pole_interval": [
+    "559677/200000",
+    "559679/200000"
+  ],
+  "imaginary_function_at_lower": {
+    "scale_power10": 20,
+    "lower_integer": 275583345731396,
+    "upper_integer": 275583345731397
+  },
+  "imaginary_function_at_upper": {
+    "scale_power10": 20,
+    "lower_integer": -2359609555256576,
+    "upper_integer": -2359609555256575
+  },
+  "trig_certificate": "Degree60 cosine and degree61 sine Taylor polynomials, each with absolute geometric tail bound from its next term.",
+  "bijection_example": {
+    "matrix": [
+      [
+        5,
+        7,
+        6,
+        9,
+        3
+      ],
+      [
+        0,
+        8,
+        4,
+        1,
+        2
+      ]
+    ],
+    "pairs_k_x_y": [
+      [
+        5,
+        5,
+        7
+      ],
+      [
+        4,
+        7,
+        6
+      ],
+      [
+        3,
+        1,
+        2
+      ],
+      [
+        2,
+        3,
+        2
+      ]
+    ],
+    "sequence": [
+      5,
+      7,
+      9,
+      8,
+      1,
+      2,
+      6,
+      4,
+      3
+    ],
+    "inverse_matches": true
+  }
+}

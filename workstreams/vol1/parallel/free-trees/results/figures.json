@@ -1,0 +1,80 @@
+{
+  "status": "passed",
+  "figure29_cycles": [
+    "BACDB",
+    "BACDEB",
+    "BDCAB",
+    "BDEB",
+    "BEDB",
+    "BEDCAB"
+  ],
+  "figure30": {
+    "vertices": 14,
+    "edges": 13,
+    "tree": true
+  },
+  "figure31": {
+    "vertices": 19,
+    "edges": 27,
+    "free_parameters_with_unit_entry": 9
+  },
+  "figure32": {
+    "vertices": 21,
+    "edges": 30,
+    "fundamental_cycles": 10,
+    "all_printed_cycles_match_independent_tree_search": true,
+    "eq6_rows": 20,
+    "answer5_vertex_formulas": 15
+  },
+  "exercise7": {
+    "fundamental_cycles": 5,
+    "equations_checked": 5
+  },
+  "figure33": {
+    "chosen_edges": [
+      [
+        8,
+        9
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        7,
+        3
+      ],
+      [
+        4,
+        2
+      ]
+    ],
+    "squared_lengths": [
+      2,
+      5,
+      1,
+      4,
+      4,
+      2,
+      4,
+      5
+    ],
+    "length": "7+2*sqrt(2)+2*sqrt(5)"
+  }
+}

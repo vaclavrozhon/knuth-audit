@@ -1,0 +1,608 @@
+{
+  "reviewed_utc": "2026-11-02T02:16:45.210342+00:00",
+  "paths_relative_to": "repository root",
+  "frozen_content_files": 54,
+  "frozen_content_bytes": 3488486,
+  "external_inputs_verified": 60,
+  "agent_manifest_sha256": "1c9fa2e4223c25f2ac716ce6827e259de1e32d4667179de23fb4ecdf67d3a5e9",
+  "scope": "435 occurrence reviews accepted with three status overrides corresponding to two findings; six partial targets remain",
+  "files": [
+    {
+      "path": "workstreams/vol1/notes/index-errata-root-review.md",
+      "bytes": 5170,
+      "sha256": "a6fbc7f9233d6b8f52c18401224c5ecc90bbc0f5e45d878b9884ea4577fdae12"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/HANDOFF.md",
+      "bytes": 2436,
+      "sha256": "cfad6d2e05b6e93d708735e5c106ef1ddb3a4e8bb697e2fb90fb595ee94d3011"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/INPUTS.json",
+      "bytes": 17828,
+      "sha256": "c1a3d9b0536ad22902e8e61e3a6fc7d30a10ba01aa241a5130c22479eccc4f44"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/MANIFEST.json",
+      "bytes": 8732,
+      "sha256": "1c9fa2e4223c25f2ac716ce6827e259de1e32d4667179de23fb4ecdf67d3a5e9"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/REPORT.md",
+      "bytes": 5192,
+      "sha256": "c1b8a48beb53759ce26795edfa8fa4c50f5b67352d7e0cf4cbf425eefe237e19"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/UNIT_STATUS.json",
+      "bytes": 5738,
+      "sha256": "5897d1ff91a384912734e5db80d46650b833ea17de77cd177bf2f14f4d368865"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/assemble_review.py",
+      "bytes": 5984,
+      "sha256": "a05f90f5761534fda47a6277712878085f7a8138532d40cd5c283847c0d1e00c"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/freeze_package.py",
+      "bytes": 7655,
+      "sha256": "48672ec02a4b623b562a4be9d410a6242f60885587c91ba54486fd91caa3cf47"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/images/all2-pre-19.png",
+      "bytes": 207807,
+      "sha256": "cc283b53be5bd1fa92007bdd24aa044ed87815618cfa1ea7417e73844eaa4094"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/images/all4b-24.png",
+      "bytes": 155086,
+      "sha256": "dc0fd29c1b2ebc4328c811ff9b824a807cf15cb89ee0b76fd1efe698d63f7cc1"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/images/preview2026-p009.png",
+      "bytes": 173760,
+      "sha256": "1cb2ed9f1012de456bd27e1860e651b7f7cb09bf6f29c4cd2fb75e808b04094a"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/images/preview2026-pxi.png",
+      "bytes": 161653,
+      "sha256": "c9297ca3a4e2c16b20215226b43b6f80591ae5751cd83fe7481fd903bef74565"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/images/preview2026-pxx.png",
+      "bytes": 65220,
+      "sha256": "bf8514713c4901cb21f4b0bc7458b34fc86fc62a0445ff908a3e598ec2da0e6c"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/images/vol2-p362.png",
+      "bytes": 380844,
+      "sha256": "1bd7b69754c874b62357adbd1c1c11469b764b934e1aa6949398209284908c89"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/images/vol2-p363.png",
+      "bytes": 540832,
+      "sha256": "7aa6fd056b3880c4304bb9ea4fd03126c13ac48676d0760daf6432d745f3a4fc"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/images/vol4b-p377.png",
+      "bytes": 200148,
+      "sha256": "127356d5a03f5a633347534a1db8bedc46f2b81fb88933bf1d08d4157aa5b4fc"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/images/vol4b-p388.png",
+      "bytes": 194440,
+      "sha256": "ab080673eb6390f2877bfd58f581c141c6bdcab8633119c318df09b5e63158a1"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/notes/chebyshev-377-388.md",
+      "bytes": 2884,
+      "sha256": "d5eb2732aa844b664f746209350054c740b7be59b0f7ea7ac0b04b8145562a97"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/notes/chronology.md",
+      "bytes": 3088,
+      "sha256": "c538fa132daf12d0ab33a44c482c9110a59b7648b9d70f59098604fff681731a"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/notes/later-preview.md",
+      "bytes": 2438,
+      "sha256": "ae03354f9964e19c6bb68ab41d0f2ed5e1deca121a8a0068a60f3ed95d05651e"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/notes/levy-363.md",
+      "bytes": 2831,
+      "sha256": "55ee0911d0a9e410b53d6ca8f13c28f2df528d8e71a8e07fde2e413f09cdb758"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/notes/method.md",
+      "bytes": 2787,
+      "sha256": "8284e7545f2fabf7eef7375e03b1cb67f4ce4d3ee12548d192abe597f93bf698"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/notes/oeis.md",
+      "bytes": 1159,
+      "sha256": "172bfa8af823357652bdbf5e318ed4c0a1ba1b47b3766249b53f44edfc1e24b7"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/notes/read-scope.md",
+      "bytes": 5228,
+      "sha256": "0f9f6b3c29fd6857d61ec21b16b4ff3d5168c42398b2b7018314cf6d4b937eaa"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/progress.json",
+      "bytes": 1059,
+      "sha256": "52985a21b2d6f9d7457b2fad5e4335c140bed8ca87eb5d1d46c1d4c65267e5e7"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/reports/chebyshev-377-388.txt",
+      "bytes": 1513,
+      "sha256": "398b170f46ad319b273ca4f83291feabcce73700fd09836226b77ae134872df1"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/reports/levy-363.txt",
+      "bytes": 1166,
+      "sha256": "59b35e17a51be307b8ea992ebfb2eedcab03b6058983bdb15ee922e35c0718a0"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/results/all1-16-review.json",
+      "bytes": 36269,
+      "sha256": "996a5f987dde48d35fa7659e513c847232f99c2700d2adfdb065add2fbc39d3b"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/results/all1-pre-19-review.json",
+      "bytes": 51882,
+      "sha256": "2e7ff5d0b65abf9f5bccfa0008cd28fb4e1e9160425b37c267c8bbee7ed4ce57"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/results/all1-pre-20-review.json",
+      "bytes": 38566,
+      "sha256": "bc1cd3aec9030594fde3bba49900cd6addabbbdbf45e1465b3cc4fa8415f8343"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/results/all1-prepre-48-review.json",
+      "bytes": 57679,
+      "sha256": "38982ecbc93bcebe1fecc48c317cbee0d8341b7bc57d6377ecb500f0a86f70c4"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/results/all1-prepre-49-review.json",
+      "bytes": 73851,
+      "sha256": "5c7ff99a2d21e409e10d8e9c81161ab652c6a6a4e19a9efafaf0ee771c90140c"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/results/all1-prepre-50-review.json",
+      "bytes": 53093,
+      "sha256": "f96a2bbd15c40ed849a77db6b893e24ab3d91ff0ece3c512bb3b6b6b0ae44f66"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/results/chebyshev-errata-search.json",
+      "bytes": 6334,
+      "sha256": "dbbfdb17ab3ed6596d8efd468140ac9bc233a705739f7db45089f7c8d6eb0b7b"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/results/chronology.json",
+      "bytes": 242015,
+      "sha256": "cdcaec76882b86b8b0435c45882d6e61c718cb1773d1179a193f5e0b23b6d65d"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/results/err1-14-review.json",
+      "bytes": 16968,
+      "sha256": "796aa6d52163b2f97f3d29c863fc0007eaec60251944bc9fe690812714e770d6"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/results/err1-15-review.json",
+      "bytes": 28939,
+      "sha256": "9c6a3b330e28c4d69f5d8651ca7d7d0dcd759239c4ca5f6faf3ebf5cf42f9028"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/results/index-errata-reference-review.json",
+      "bytes": 380992,
+      "sha256": "33e8705cec71ce8a53fc524a2e1644aae9cacd50d22a8a7d3b4c03bd1c880a1a"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/results/levy-errata-search.json",
+      "bytes": 1052,
+      "sha256": "a023cdb2e04cc399ff08b45d4f73033e06d2132dbcee51042045a6dfedd43d82"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/results/short-full-crosswalk.json",
+      "bytes": 9067,
+      "sha256": "522cd1a1cb232a6d888eb64a2b7bb41d0ac55dfcd38d677a21beb1825ecc9c81"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/results/validation.json",
+      "bytes": 1034,
+      "sha256": "1cf2adb55a480291702c63b5125f14ccc302af20841895775e4702b804b81218"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/review_all16.py",
+      "bytes": 10365,
+      "sha256": "ac1db8bc5c3e90ac904b9b7dae540a81646adaf9293014886762a0982dd4182a"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/review_helpers.py",
+      "bytes": 2225,
+      "sha256": "b3aed94b17bf2d63e76a9aa91e9a35f874a5818f878acf34239bc1465836e907"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/review_pre19.py",
+      "bytes": 14301,
+      "sha256": "2a7237e50c0c0de40a3b40b4de190257d7b14c5ec7e1501a679f97362f265623"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/review_pre20.py",
+      "bytes": 10136,
+      "sha256": "d745a6d9e56d200c586904bd6966a2c67fa2ece7f95b1b1f4c3baa145ec04676"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/review_prepre48.py",
+      "bytes": 15260,
+      "sha256": "55fe3592d0bd7722ecaac4a0ea6aa5d9ef08cd7a41168de5c5d3d224f701d945"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/review_prepre49.py",
+      "bytes": 18569,
+      "sha256": "589888b7cee2cc24d37ce3aedd797a7d3bf5ed6209bada57ee5857c29af14465"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/review_prepre50.py",
+      "bytes": 13147,
+      "sha256": "cfa6bb5fee0674884217acbe354f7cb0a9b4f3d58624bb820454543bc03c50f7"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/review_short.py",
+      "bytes": 947,
+      "sha256": "616fdd26318f9b61a738ff1f731c1e6e2c1c83b172069dd5f52a58c5121e3e65"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/sources/all4b-24-render.json",
+      "bytes": 187,
+      "sha256": "60b8935ff68e7db07e0fb07c80e8f9c4e62bd24a69f0ee2b9cf910556d8e799c"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/sources/index-aggregate-inventory.json",
+      "bytes": 29065,
+      "sha256": "5b3b08b5a173023e8198751e657136e9f62ea545c6ced6ad6d3469d827b5b6ec"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/sources/oeis-web-read.txt",
+      "bytes": 27225,
+      "sha256": "5c6498d877985b10ae92a3a9fa1d4c95d6c122ceba31bf961afdbf4306fe54b9"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/sources/vol1-preview-navigation.txt",
+      "bytes": 199082,
+      "sha256": "bf96014a4084093f1635d834c027b7421537a270e0f61d1af8f52c93c78b05d6"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/sources/vol4b-p377-render.json",
+      "bytes": 144,
+      "sha256": "c7f74b97427cd5caa4d9c0931b74ef41d5439790347eed587330cf33f9dca33a"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/sources/vol4b-p388-render.json",
+      "bytes": 144,
+      "sha256": "2a6b854b089576ed5e3fe495c40ed08c3ff9c409c8490baab13e468d4791980a"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-errata-content/validate_package.py",
+      "bytes": 1172,
+      "sha256": "42ca6ba2b6207d401b24751a19ecb2738c9c107a5367b4b32ef775aff7332d14"
+    },
+    {
+      "path": "workstreams/vol1/reports/V1-C0085-levy-index-erratum-draft.txt",
+      "bytes": 840,
+      "sha256": "5f9e297bd87accb456a679398b24715d11d5b45abd9e5b4617889a100c38f86b"
+    },
+    {
+      "path": "workstreams/vol1/reports/V1-C0086-chebyshev-index-erratum-draft.txt",
+      "bytes": 1083,
+      "sha256": "bb534f2830edaa37a6dc303f02c8c50b7b1ee2c3ea36b8cbcbd88fa5dc3943eb"
+    },
+    {
+      "path": "workstreams/vol1/results/index-errata-root-overlay.json",
+      "bytes": 1058,
+      "sha256": "a751072101050a24ef0d58b35651c49bdd9ae4ef9ff8be639054502b0d672de5"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "books/taocp-vol1-ed3-print1-1997.djvu",
+      "bytes": 6341591,
+      "sha256": "e2c5ee120bad91e33f617614b846849c4801115b2e7aa820f56fc5ffb9bbebb9"
+    },
+    {
+      "path": "books/taocp-vol2-ed3-print1-1997.djvu",
+      "bytes": 7960446,
+      "sha256": "97f20229e4e06ef20e67ad30c7564dde1943611259a7fe72f2551c900b910cd1"
+    },
+    {
+      "path": "books/taocp-vol4b-ed1-print2-2022.pdf",
+      "bytes": 11431101,
+      "sha256": "6ce7187daa4f7dfa09814551a461fac81a833c93c140699fced8fd5897347552"
+    },
+    {
+      "path": "errata/manifest.json",
+      "bytes": 35061,
+      "sha256": "4ff54ebc60eb8a25e5642b3ec1d434e8c8f25e0226a7fa1ad9fbf35504fa48bf"
+    },
+    {
+      "path": "errata/originals/err1.textxt",
+      "bytes": 46729,
+      "sha256": "f752c0a5fcf49686906e39fa5a1dab28b53adc8226b0a7e1a1b6cf850592bc91"
+    },
+    {
+      "path": "errata/pdf/all1-pre.pdf",
+      "bytes": 427651,
+      "sha256": "1c6ec5dac1660f3146d7e603b4a3ddec0d36dc1d65efeffa6287d1626c2166bd"
+    },
+    {
+      "path": "errata/pdf/all1-prepre.pdf",
+      "bytes": 637571,
+      "sha256": "bc043d4dc0e3043296f198d6795eee85d8823c38c58322230a5faf876a42e80a"
+    },
+    {
+      "path": "errata/pdf/all1.pdf",
+      "bytes": 350766,
+      "sha256": "0d580a6a396dc8431316b4550886cd5757502ebdf76f62ea406bfdeec170d16f"
+    },
+    {
+      "path": "errata/pdf/all2-pre.pdf",
+      "bytes": 406051,
+      "sha256": "ec0f19ea998dce09634eb6172ea001852b80f3d4dc3162dce5faf03f0f5eb081"
+    },
+    {
+      "path": "errata/pdf/all4b.pdf",
+      "bytes": 482131,
+      "sha256": "c1f1490671c6a50561e06cccb2851899ebd620217f444a9bd65b0853a38b6719"
+    },
+    {
+      "path": "errata/pdf/err1.pdf",
+      "bytes": 343310,
+      "sha256": "a9b2f75775ecba1ba82290a796d9690e0ff5ebf93ff15cf4d153b997515401e5"
+    },
+    {
+      "path": "errata/text/all1-pre.txt",
+      "bytes": 63766,
+      "sha256": "89d231245ff44164e09a39903faac35a2dc5e89956857abcc974991c99a887e5"
+    },
+    {
+      "path": "errata/text/all1-prepre.txt",
+      "bytes": 143588,
+      "sha256": "1a3c3ac6137b9e98f427de0a344efca46fd83b7a3e6e8fe2fa38e94525ca0c31"
+    },
+    {
+      "path": "errata/text/all1.txt",
+      "bytes": 45229,
+      "sha256": "b641d6e48aaf2d77fc98a3c4a8a798d8156516b97095ec345a976e65d9c79aef"
+    },
+    {
+      "path": "errata/text/all2-pre.txt",
+      "bytes": 58401,
+      "sha256": "c1735b70547678d739eae3a8d7b02872c737218eed7706a0aba8fb6fc21a6529"
+    },
+    {
+      "path": "errata/text/all4b.txt",
+      "bytes": 96573,
+      "sha256": "b1a3425486f403fb4158585d5bbfef0159fd20b12e2e7d47b64e393e1ae8a303"
+    },
+    {
+      "path": "errata/text/err1.txt",
+      "bytes": 41067,
+      "sha256": "ecae8755d7d9f86c5dbcbd782767f0cf8e6bf7f89d9c57ed0a27ad2344461f30"
+    },
+    {
+      "path": "errata/text/err4b.txt",
+      "bytes": 90448,
+      "sha256": "2a3450bf3c79d28ad3c2d96468344c96995cf0afb74961f257c311bb9c821e1c"
+    },
+    {
+      "path": "inventory/books.json",
+      "bytes": 7536,
+      "sha256": "ccdeb1d97e6db82c7bc07f1fa847160f08e10768d95e259a7c8a4d02aac95803"
+    },
+    {
+      "path": "inventory/vol1-frontmatter.txt",
+      "bytes": 21508,
+      "sha256": "6d817079d36936053262fe1d62b92f9f9821f7a720d51864ee320737b382ccca"
+    },
+    {
+      "path": "text/vol1.txt",
+      "bytes": 1652363,
+      "sha256": "94c9fd1fac433d0e11d4590daa764ea339efda2148b89be44202f3f757f68936"
+    },
+    {
+      "path": "text/vol2.txt",
+      "bytes": 2130844,
+      "sha256": "c6da28775b5eb9d29c6acba3d77862500fb3f0f63b9e110e3a837fc70b4f0f0b"
+    },
+    {
+      "path": "text/vol4b.txt",
+      "bytes": 2441679,
+      "sha256": "26976b27f732b83bb047c39c007e653e89f00a6ba77c416f28fdaddfba46f7dc"
+    },
+    {
+      "path": "workstreams/vol1/images/frontmatter-preview-xx.png",
+      "bytes": 56527,
+      "sha256": "1a7e90b88e4c83d2fbebe0342af5e2d2a9da57062fc7bd1504240c71bbc71be1"
+    },
+    {
+      "path": "workstreams/vol1/images/vol1-file003-copyright.png",
+      "bytes": 122997,
+      "sha256": "1523b207b68ca2dc5366f38057974e255c409c90198e2a3a47685d771da3ca2a"
+    },
+    {
+      "path": "workstreams/vol1/images/vol1-file120-p105.png",
+      "bytes": 282979,
+      "sha256": "cd96cea21afb0c2ba67f850977b759074a84de1f9c19d728aa060cb8978470ba"
+    },
+    {
+      "path": "workstreams/vol1/notes/index-reference-review.md",
+      "bytes": 15979,
+      "sha256": "5cb76f0f9cd605b701556f6e90710884ff61563807f9e2cd397bb578d91c586e"
+    },
+    {
+      "path": "workstreams/vol1/parallel/errata-additions/MANIFEST.json",
+      "bytes": 20773,
+      "sha256": "c631f325f0ccd91377e4a9b4477990862454bae6a3b685e28aeb2955a2ebff6b"
+    },
+    {
+      "path": "workstreams/vol1/parallel/errata-additions/REPORT.md",
+      "bytes": 10064,
+      "sha256": "043b6154ce64b08ef9be4e804864d998f0e80d41d661e3e2baec96e2ad9638b0"
+    },
+    {
+      "path": "workstreams/vol1/parallel/errata-additions/curation.json",
+      "bytes": 77415,
+      "sha256": "fe4a42eac26710015fef15a0b89fa14a36cceadbbe93ec685767760d28e07dfe"
+    },
+    {
+      "path": "workstreams/vol1/parallel/errata-additions/images/all1-10.png",
+      "bytes": 128817,
+      "sha256": "409687d8ca082b371d486e035ccca56b6f96430636f1534796b59f6264625975"
+    },
+    {
+      "path": "workstreams/vol1/parallel/errata-additions/images/all1-16.png",
+      "bytes": 203795,
+      "sha256": "c1fcfa98dd808c48a3c693d3ed79cdd6ca34355df0f94407ee9fa9bb840b138e"
+    },
+    {
+      "path": "workstreams/vol1/parallel/errata-additions/images/all1-pre-14.png",
+      "bytes": 167053,
+      "sha256": "3c640cfa6fd73e3cfd3d10b11b2482c7790bbedeb3b48a2ee4e0bf8855ffb630"
+    },
+    {
+      "path": "workstreams/vol1/parallel/errata-additions/images/all1-pre-19.png",
+      "bytes": 241239,
+      "sha256": "db488c38a1ae15c7a2afaef1085eeb13ed2c778552e6b3306b2ff269e87b8513"
+    },
+    {
+      "path": "workstreams/vol1/parallel/errata-additions/images/all1-pre-20.png",
+      "bytes": 154399,
+      "sha256": "c32ced6307859b1265ff38fd9bf74273fd83b1d242be45926aa90666d241ec20"
+    },
+    {
+      "path": "workstreams/vol1/parallel/errata-additions/images/all1-prepre-24.png",
+      "bytes": 144563,
+      "sha256": "1905649199a700d50dc6cce95fbcbcd3b23ad1d444735f89eb2998a64d2c1d04"
+    },
+    {
+      "path": "workstreams/vol1/parallel/errata-additions/images/all1-prepre-26.png",
+      "bytes": 126760,
+      "sha256": "4a4d60d95b8dbaeb8cc3ae7d8aaea0ce28a528f5a9f04890e2e85608a6cc70ed"
+    },
+    {
+      "path": "workstreams/vol1/parallel/errata-additions/images/all1-prepre-48.png",
+      "bytes": 243523,
+      "sha256": "45a841b351e2e5ce73db82de342a302bb445497c588941930c711956387eb845"
+    },
+    {
+      "path": "workstreams/vol1/parallel/errata-additions/images/all1-prepre-49.png",
+      "bytes": 266397,
+      "sha256": "462bc65c16a513a5434234a9f98163275547df89e656bd4b407a431636111c91"
+    },
+    {
+      "path": "workstreams/vol1/parallel/errata-additions/images/all1-prepre-50.png",
+      "bytes": 196539,
+      "sha256": "5826e56fbdc4fed099f81d59db122b00fea09164b397256877102f40fd226a18"
+    },
+    {
+      "path": "workstreams/vol1/parallel/errata-additions/images/err1-14.png",
+      "bytes": 171598,
+      "sha256": "ed71be9f7df9df741e43ab896e0fef9d2c01f4bf9f3b7755ef501fb5e914755d"
+    },
+    {
+      "path": "workstreams/vol1/parallel/errata-additions/images/err1-15.png",
+      "bytes": 96558,
+      "sha256": "cc43b654a4207ed3f79fc45316739adaf78b3311179051142be1e45924fc2c9f"
+    },
+    {
+      "path": "workstreams/vol1/parallel/errata-additions/results/errata-records-reviewed.json",
+      "bytes": 815997,
+      "sha256": "179132da32de91b5f07978255486f58797372f2a9f2c387f3fbf1107f2b7c918"
+    },
+    {
+      "path": "workstreams/vol1/parallel/free-trees/images/vol1-file378-p363.png",
+      "bytes": 356959,
+      "sha256": "c09d4a64a0d11c3570c7583ba461c7a1b89eb9a5d8c01baf524beb46d85d143c"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-continuation/p631-635/MANIFEST.json",
+      "bytes": 4009,
+      "sha256": "c38c7c52ce5efa9efbf0176280e5cad6149c5f3329a958254e3f56a9a9c2dbd4"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-continuation/p631-635/results/index-reference-review.json",
+      "bytes": 178454,
+      "sha256": "f5fcbf15ac9b30bc225c374a033f5b016b2575e46fff8f0d7db77460fbf5fdd1"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-continuation/p636-640/MANIFEST.json",
+      "bytes": 5115,
+      "sha256": "1739cf9cb5865295ca4379ac27ccec41152898f11dfe3b4144e7bb72d8395da7"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-continuation/p636-640/results/index-reference-review.json",
+      "bytes": 182307,
+      "sha256": "70c6f619bf1fb45df9c62ee13a68e25603d03bd14cc0333758d4c961149bd3c9"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-continuation/p641-645/MANIFEST.json",
+      "bytes": 3038,
+      "sha256": "de647706142ee1a321ea4009e555a12ec2e8d2b09a53917bfad3af51b7e0ea60"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-continuation/p641-645/results/index-reference-review.json",
+      "bytes": 167201,
+      "sha256": "649b17b13cad655544bead8a67e1312459577f0017b60326499bbc48cb55d68f"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-continuation/p646-650/MANIFEST.json",
+      "bytes": 6353,
+      "sha256": "ab0db8e0488dadc3caef877ca88e5a5fc4cd894a77c6485113736176b44e4dd4"
+    },
+    {
+      "path": "workstreams/vol1/parallel/index-continuation/p646-650/results/index-reference-review.json",
+      "bytes": 138255,
+      "sha256": "eb80cb1027a099f79e1d094429f992d3c298683a4a5a06c48d2d5e19abf4b720"
+    },
+    {
+      "path": "workstreams/vol1/parallel/oriented-trees/images/vol1-file392-p377.png",
+      "bytes": 406465,
+      "sha256": "04160540bd784963bfe50600d4ef984533e01d2d8a70a0e5169f2b88ce44baf8"
+    },
+    {
+      "path": "workstreams/vol1/parallel/source-followup/notes/frontmatter-xv-xvii.md",
+      "bytes": 8267,
+      "sha256": "9d4d58c3d1186cdb310f94cdcbc5c9ad5a82686ce067f9246f48416732e2eac3"
+    },
+    {
+      "path": "workstreams/vol1/parallel/source-followup/sources/retrievals-74.json",
+      "bytes": 470,
+      "sha256": "0a6b466b773bc6096865cef7e4280aab6cce02b8c1237012e859078945d99bb3"
+    },
+    {
+      "path": "workstreams/vol1/parallel/source-followup/sources/vol1-pageplace-preview.pdf",
+      "bytes": 6896481,
+      "sha256": "12a7a5fc6e6fc0fcca93a3cde31ffcfba0bcd53209826b05f85a402a922b5396"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-enumeration/images/p388.png",
+      "bytes": 473145,
+      "sha256": "5493b4a8ff56c028e6716819e4fc133ebe4f98fd19eef6debc3297ffe1316786"
+    },
+    {
+      "path": "workstreams/vol1/parallel/tree-enumeration/images/p592.png",
+      "bytes": 672106,
+      "sha256": "3a6a711e2990f77c7b482f91e11a1cb0609d10776f31baf291b2646f7dedbe0b"
+    },
+    {
+      "path": "workstreams/vol1/results/index-navigation.json",
+      "bytes": 1357240,
+      "sha256": "82e62bc7433662e80260f91697cc45c1509bb8466587ab4a84517d9a1b5dc9d8"
+    },
+    {
+      "path": "workstreams/vol1/results/index-reference-review.json",
+      "bytes": 917973,
+      "sha256": "38b2f3750425606deb821cbfa75c2266a3b75d85f94b51a36886b36ca68eeed5"
+    }
+  ]
+}

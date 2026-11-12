@@ -1,0 +1,192 @@
+{
+  "review_date": "2026-11-10",
+  "ranges": {
+    "second_edition": [
+      [
+        409,
+        426
+      ],
+      [
+        705,
+        708
+      ]
+    ],
+    "first_edition_context": [
+      [
+        406,
+        422
+      ],
+      [
+        668,
+        671
+      ]
+    ]
+  },
+  "layers": {
+    "all3-prepre": [
+      {
+        "page": 410,
+        "text": "Page 410 line 16                                                        10 Jan 2003\n R R : : : RN y R , R , : : : , RN\n     1   2                    1      2"
+      },
+      {
+        "page": 412,
+        "text": "Page 412 equation number in wrong font                                  14 Nov 1999\n (1)     y\n        (1)"
+      },
+      {
+        "page": 414,
+        "text": "Page 414 line         9                                                 14 Nov 1999\n    number of y number of\n\f                      CHANGES TO VOLUME 3: SORTING AND SEARCHING                        19"
+      },
+      {
+        "page": 416,
+        "text": "xPage 416     lines 5 and 6 after the program                        14 Nov 1999\n    C1 is weighted more heavily than C2 y C 1 is weighted more heavily than C 2"
+      },
+      {
+        "page": 418,
+        "text": "Page 418 line 7                                                                 10 Jan 2003\n                y R , R , : : : , RN\n    R1 R2 : : : RN    1   2"
+      },
+      {
+        "page": 424,
+        "text": "xPage 424    line 7 of exer ise 20                                             28 Aug 2004\n  Fibona i sear h y Fibona ian sear h"
+      },
+      {
+        "page": 708,
+        "text": "xPage 708   line 3 of answer 2                                                     12 Jan 2006\n  \\RTAG(P) 6= 0\" y \\RTAG(P) = 0\"\nx Pn line 8 of answer"
+      }
+    ],
+    "all3-pre": [
+      {
+        "page": 410,
+        "text": "Page 410 append new line to step B2                                       03 Aug 2019\n                                                                  \u0004          \u0005\n (Note: If N an be really huge, it's safer to ompute i l + (u l)=2 .)"
+      },
+      {
+        "page": 411,
+        "text": "Page 411 line 07 of Program B                                              15 De 2014\n rA l + u.        y rA l + u. (Over ow annot o ur.)"
+      },
+      {
+        "page": 412,
+        "text": "Page 412 line 15 after Fig. 5                                             09 May 2019\n by means of omparisons        y    by means of omparisons alone, as in Se tion 5.3.1,\nx"
+      },
+      {
+        "page": 422,
+        "text": "Page 422 line 25                                                           05 Jan 2017\n n is extremely large     y    N is extremely large\nx"
+      },
+      {
+        "page": 423,
+        "text": "Page 423 line 2 of exer ise 8                                             27 Mar 2012\n Pblg N +2\n   j =0        y  Pblg N +2\n                    j =1\nx"
+      },
+      {
+        "page": 426,
+        "text": "Page 426 line 6 of exer ise 28                                             30 O t 2012\n                            y\n ((x \u0003 x) \u0003 x) \u0003 ((x \u0003 x) \u0003 x)     (x \u0003 (x \u0003 x)) \u0003 (x \u0003 (x \u0003 x))\n                                                                                   20 Jul 2015\n    Q \u0011 LLINK(P) or RLINK(P) y Q \u0011 LLINK(P) or Q \u0011 RLINK(P)"
+      }
+    ],
+    "all3": [],
+    "err3": [],
+    "err3-1e": [
+      {
+        "page": 408,
+        "text": "Page 408 annotation on line 08 of Program B                                    14 May 1976\n  rA brA=2c. y rA brA=2c. (rX changes too)"
+      },
+      {
+        "page": 410,
+        "text": "xPage 410 lines 3 and 4 after (2)                                                07 Nov 1984\n  The variance of CN can also be expressed in terms of the variance of CN0 y\n  The variance of successful-search comparisons can also be expressed in terms of\n  the corresponding variance for unsuccessful searches"
+      },
+      {
+        "page": 410,
+        "text": "xPage 410 line 7                                                          05 Jun 1975\n  if and only all y if and only if all"
+      },
+      {
+        "page": 413,
+        "text": "Page 413 lines 4 and 3                                                   19 Apr 1977\n  if K > Ki and N > 2 \u0006, we y if K >\u0007Ki we\n                         k\n  blg (N 2k )c + 1 y lg(N 2k + 1)"
+      },
+      {
+        "page": 416,
+        "text": "xPage 416 replacement for (9)              \u0001\n                                                                          03 Jan 1998\n                (3:6 + 0:8\u001e)k + 6:2 5:2\u001e u \u0019 (7:050 lg N + 1:08)u(9)\n  for a successful search, plus (9 3\u001e)u \u0019 4:15u for an unsuccessful search."
+      },
+      {
+        "page": 417,
+        "text": "Page 417 replace lines 15{21 by two new paragraphs                      14 May 1976\n       Interpolation search is asymptotically superior to binary search. One step of\n  binary search essentially reduces the amount of uncertainty\n                                                            p   from n to 12 n, while\n  one step of interpolation search essentially reduces it to n, when the keys in the\n  table are randomly distributed. Hence interpolation search takes about lg lg N\n  steps, on the average, to reduce the uncertainty from N to 2. (See exercise 22.)\n       However, computer simulation experiments show that interpolation search\n  does not decrease the number of comparisons enough to compensate for the\n  extra computing time involved, unless the table is rather large. Typical les\n  aren't su\u000eciently random, and the di erence between lg lg N and lg N is not\n  substantial unless N exceeds, say, 216 = 65;536. Interpolation is most successful\n  in the early stages of searching a large possibly external le; after the range has\n  been narrowed down, binary search nishes things o more quickly. (Note that\n  dictionary lookup by hand is essentially an external, not an internal, search. We\n  shall discuss external searching later.)\n\f 40      CHANGES TO VOLUME 3: SORTING AND SEARCHING"
+      },
+      {
+        "page": 417,
+        "text": "Page 417 lines 20 to 11                                                      14 May 1976\n lines 20 and 19: is apparently : : : 800 y contains more than 100 pairs of\n      values, which appear to be the beginning of a list of approximately 500\n the display on lines 16 to 12 should be:\n              01 13 09 34 29 08 08 53 20        49 12 27\n              01 13 14 31 52 30                 49 09 07 12\n              01 13 43 40 48                    48 49 41 15\n              01 13 48 40 30                    48 46 22 59 25 25 55 33 20\n              01 14 04 26 40                    48 36\n line 11: 800 y 500"
+      },
+      {
+        "page": 417,
+        "text": "Page 417 lines 10 and 9                                                    28 Dec 1995\n CACM 15 (1972), 671{677, y Selected Papers on Computer Science (Cam-\n bridge University Press, 1996), Chapter 11,"
+      },
+      {
+        "page": 418,
+        "text": "Page 418 bottom line, and line 2 of page 419                              24 May 1995\n It is interesting to note that Cawdrey was y Cawdrey seems to have been\n the last part : : : order! y the alphabetical order in the last part is fairly good."
+      },
+      {
+        "page": 419,
+        "text": "Page 419 lines 13{14                                                      02 Mar 1977\n H. Bottenbruch : : : He y D. H. Lehmer [Proc. Symp. Appl. Math. 10 (1960),\n 180{181] was apparently the rst to publish a binary search algorithm that works\n for all N . The next step was taken by H. Bottenbruch [JACM 9 (1962), 214],\n who"
+      },
+      {
+        "page": 419,
+        "text": "Page 419 line 22                                                           02 Jun 1980\n but : : : 23). y but a successful search will require about one more iteration,\n on the average, because of (2). Since the inner loop is performed only about\n lg N times, this tradeo between an extra iteration and a faster loop does not\n save time unless n is extremely large. (See exercise 23.) On the other hand\n Bottenbruch's algorithm will nd the rightmost occurrence of a given key when\n the table contains duplicates, and this property is occasionally important."
+      },
+      {
+        "page": 419,
+        "text": "Page 419 lines 11 and 10 before the exercises                             12 Nov 1991\n 648], but his owchart : : : as a curiosity y 648]. Binary trees similar to\n Fibonacci trees appeared in the pioneering work of the Norwegian mathematician\n Axel Thue as early as 1910 (see exercise 28). A Fibonacci tree without labels\n was also exhibited as a curiosity"
+      },
+      {
+        "page": 419,
+        "text": "Page 419 lines 6 through 3                                                24 May 1995\n 132]; he gave : : : experiments. y 132]. A correct analysis of its average behavior\n was not discovered until many years later (see exercise 22)."
+      },
+      {
+        "page": 422,
+        "text": "Page 422 replace exercise 22                                              14 May 1976\n 22. [M41 ] (A. C. Yao and F. F. Yao.) Show that an appropriate formulation of\n interpolation search requires asymptotically lg lg N comparisons, on the average, when\n applied to n independent uniform random keys that have been sorted. Furthermore\n all search algorithms on such tables must make asymptotically lg lg N comparisons, on\n the average.\n\f                       CHANGES TO VOLUME 3: SORTING AND SEARCHING                        41"
+      },
+      {
+        "page": 422,
+        "text": "Page 422 line 9                                                                02 Jun 1980\n  necessary! y necessary on a successful search!"
+      },
+      {
+        "page": 422,
+        "text": "xPage 422 exercise 27 line 6                                                     24 Jan 1979\n  1\u0014j\u0014ny1\u0014j\u0014k"
+      },
+      {
+        "page": 422,
+        "text": "Page 422 new exercise                                                           12 Nov 1991\n  28. [M23 ] De ne Thue trees Tn by means of algebraic expressions in a binary operator\n  \u0003 as follows: T0 (x) = x \u0003 x, T1 (x) = x, Tn+2 (x) = Tn+1 (x) \u0003 Tn (x). (a) The number of\n  leaves of Tn is the number of occurrences of x when Tn (x) is written out in full. Express\n  this number in terms of Fibonacci numbers. (b) Prove that if the binary operator \u0003\n  satis es the axiom\n                            ((x \u0003 x) \u0003 x) \u0003 ((x \u0003 x) \u0003 x) = x ;\n  then Tm (Tn (x)) = Tm+n 1 (x) for all m \u0015 0 and n \u0015 1."
+      },
+      {
+        "page": 422,
+        "text": "Page 422 new exercises                                                 21 Jun 1996\n x29. [22 ] (Paul Feldman.) Instead of assuming that K1 < K2 < \u0001 \u0001 \u0001 < KN , assume\n  only that Kp(1) < Kp(2) < \u0001 \u0001 \u0001 < Kp(N ) where the permutation p(1) p(2) : : : p(N ) is an\n  involution, and p(j ) = j for all even values of j . Show that we can locate any given\n  key K , or determine that K is not present, by making at most 2blg N c +1 comparisons.\n  30. [27 ] (Involution coding.) Using the idea of the previous exercise, nd a way to\n  arrange N distinct keys in such a way that their relative order implicitly encodes an\n  arbitrarily given array of t-bit numbers x1 , x2 , : : : , xm , when m \u0014 14 N + 1 2t .\n  With your arrangement it should be possible to determine the leading k bits of xj by\n  making only k comparisons, for any given j , as well as to look up an arbitrary key with\n  \u0014 2blg N c + 1 comparisons."
+      },
+      {
+        "page": 669,
+        "text": "xPage 669 answer 18                                                           03 Jan 1998\n  line 2: Ck 1 y Ck 1 (Fk 1)=(Fk+1 1)\n  line 3: Ck0 1 y Ck0 1 Fk =Fk+1"
+      },
+      {
+        "page": 670,
+        "text": "Page 670 new answer                                                          24 Aug 1996\n  22. FOCS 17 (1976), 173{177. See also Y. Perl, A. Itai, and H. Avni, CACM 21\n  (1978), 550{554; G. H. Gonnet, L. D. Rogers, and J. A. George, Acta Informatica\n  13 (1980), 39{52; G. Louchard, RAIRO Inform. Th\u0013eor. 17 (1983), 365{385. The\n\f  90       CHANGES TO VOLUME 3: SORTING AND SEARCHING\n  variance is O(log log N ). Extensive empirical tests by G. Marsaglia and B. Narasimhan,\n  Computers and Math. 26, 8 (1993), 31{42, show that the average number of table\n  accesses is very close to lg lg N , plus about 0.7 if the search is unsuccessful. When\n  N = 220 , for example, a random successful search in a random table takes about 4.29\n  accesses, while a random unsuccessful search takes about 5.05."
+      },
+      {
+        "page": 670,
+        "text": "Page 670 new answer                                                             12 Nov 1991\n  28. [Skrifter udgivne af Videnskabs-Selskabet i Christiania, Mathematisk-Naturviden-\n  skabelig Klasse (1910), No. 8; reprinted in Thue's Selected Mathematical Papers (Oslo:\n  Universitetsforlaget, 1977), 273{310.] (a) Tn has Fn+1 +Fn 1 = F2n =Fn leaves. (This is\n  the so-called Lucas number Ln = \u001en + \u001eb n .) (b) The axiom says that T0 (T2 (x)) = T1 (x),\n  and we obviously have Tm (Tn (x)) = Tm+n 1 (x) when m = 1 or n = 1. By induction\n  on n, the result holds when m = 0; for example, T0 (T3 (x)) = T0 (T2 (x) \u0003 T1 (x)) =\n  T0 (T1 (T2 (x)) \u0003 T0 (T2 (x))) = T0 (T2 (T2 (x))) = T2 (x). Finally we can use induction\n  on m."
+      },
+      {
+        "page": 670,
+        "text": "Page 670 new answers                                                             21 Jun 1991\n  29. Assume that K0 = 1 and KN +1 = KN +2 = 1. First do a binary search on\n  K2 < K4 < \u0001 \u0001 \u0001 ; this takes at most blg N c comparisons. If unsuccessful, it determines\n  an interval with K2j 2 < K < K2j ; and K is not present if 2j = N + 2. Otherwise, a\n  binary search for K2j 1 will determine i such that K2i 2 < K2j 1 < K2i . Then either\n  K = K2i 1 or K is not present.\n  30. Let n = bN=4c. Starting with K1 < K2 < \u0001 \u0001 \u0001 < KN , we can put K1, K3 ,\n  : : : , K2n 1 into any desired order by swapping them with a permutation of K2n+1 ,\n  K2n+3 , : : : , K4n 1 ; this arrangement satis es the conditions of the previous exercise.\n  Now we let K1 < K3 < \u0001 \u0001 \u0001 < K2t+1 3 represent the boundaries between all possible\n  t-bit numbers, and we insert K2t+1 1 , K2t+1 +1 , : : : , K2t+1 +2m 3 between these \\fence-\n  posts\" according to the values of x1 , x2 , : : : , xm . For example, if m = 4, t = 3,\n  x1 = (001)2 , x2 = (111)2 , and x3 = x4 = (100)2 , the desired order is\n             K1 < K15 < K3 < K5 < K7 < K19 < K21 < K9 < K11 < K13 < K17 :\n  (We could also let K21 precede K19 .) A binary search for K2t+1 +2j 3 in the subarray\n  K1 < K3 < \u0001 \u0001 \u0001 < K2t+1 3 will now nd the bits of xj from left to right. [Cf. Fiat,\n  Munro, Naor, Scha er, Schmidt, and Siegel, J. Comp. Syst. Sci. 43 (1991), 406{424.]"
+      },
+      {
+        "page": 671,
+        "text": "xPage 671 answer 2                                                                28 Feb 1978\n  line 1: RTAG y RTAG(Q)\n  line 2: RLINK(P). y RLINK(P) and RTAG(P) +. In step T4, change the test\n  \\RLINK(P) 6= \u0003\" to \\RTAG(P) 6= +\".\n  last line: .] y . Similar remarks apply with simultaneous left and right threading.]"
+      },
+      {
+        "page": 671,
+        "text": "xPage 671 line 1 of answer 4                                                      11 Jan 1998\n  C2n y C2n 1\n     0          0"
+      }
+    ]
+  },
+  "new_finding_screen": {
+    "finding": "V3-C0058",
+    "result": "No matching official correction in the screened layers.",
+    "public_queries": [
+      "\"Knuth\" \"loops if\" \"u\" \"705\"",
+      "\"6.2.1\" \"answer 2\" Knuth errata"
+    ],
+    "public_result": "No matching report located; no absolute priority claim."
+  }
+}

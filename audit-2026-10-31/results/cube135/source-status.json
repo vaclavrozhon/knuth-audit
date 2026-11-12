@@ -1,0 +1,39 @@
+{
+  "at_utc": "2026-11-02T12:39:14.024592+00:00",
+  "source_sha256": "5ff8cff0d9790bf3e485a80ae0daf912f4d0cf2a3db7245296c26362c70f9c7a",
+  "files": {
+    "images/vol4b-p139.png": "5b57a76515791ca0182f20db9b39ce2dc46d4a1d0b17dc3d1a8d578f69ddce76",
+    "images/vol4b-p450.png": "229866f96c7ca3d89618e19c1fed2da178292ef791c9146a0412d87a72fd9293",
+    "images/vol4b-p451.png": "12e1798bb69bd4e1ff23134eb5ffa9aad936c1faa7591883b3d3fb4c7207c985",
+    "sources/cube135/nelson-archive-metadata.json": "8f08e8207997824f821328fa9f83e8a28ca03045a46ce39e4f82ff87b03cbeee",
+    "sources/cube135/nelson-archive-web-extract.txt": "814e89133d27c0711138efe5c83fdc14e32a9e488d85b4f0a63348f30aa44fec",
+    "sources/cube135/retrieval.json": "5550bd9ae5b845633e7030b99619a194fb86f6ca6b2b3cafe969243dfb8c1fcf",
+    "sources/cube135/uri-knuth.jpg": "1695b53a6c840c71f87dc0557eaa796047163992c4fd8415685d335b91e16dd1",
+    "sources/cube135/uri-report-web-extract.txt": "57ee16a71675f42bf2a59d5e59884e18320eb3eeeaebbbfcf3699b0c1f61bef2",
+    "sources/cube135/uri-stellated-dodecahedron.jpg": "885399493e30dea926b3efcc27b226147ac79030331a5e8bcb39f86a40118604",
+    "sources/cube135/uri-triacontahedron.jpg": "26eda7dc892226ccd04c67ee7d0b0fb4f5dc6932340f5abed79c903a6380e4c1"
+  },
+  "uri": {
+    "url": "https://www.uriland.it/tessere-di-mac-mahon-su-superfici-tridimensionali/",
+    "access": "Direct HTML requests returned406; cached web-tool extraction archived with its provenance. Three public original image files downloaded successfully and visually inspected.",
+    "confirmed": "Report title, author-family site, named polyhedra and tile counts; numbered cases14,19,21 correspond to the stellated dodecahedron,cube,triacontahedron. The page explicitly announces39 problems.",
+    "limits": "The extracted table contains numbered rows1–38. Its website date2010 and an image quoting Knuth do not independently prove the origin date1993 or all39 constructions. No book error inferred from the missing web row.",
+    "photos": "Both source illustrations visibly present the same polyhedra and unfolded tile sheets. Hidden edges of the small printed3D photos are not independently recoverable."
+  },
+  "nelson_archive": {
+    "url": "https://searcharchives.ucalgary.ca/harry-l-nelson",
+    "reference": "CA ACU SPC F0154-S0004-FL0021",
+    "confirmed": "Indexed primary institutional metadata identifies1972–1978 correspondence including file30.07 about Covering a cube with MacMahon’s squares;254pages total across3files. See nelson-archive-metadata.json; direct open returned429.",
+    "limits": "Metadata only; original correspondence and Philpott JRM7(1974)266–275 not obtained. It does not establish the1970 priority/date or all three named investigators."
+  },
+  "polyhedron_inventory": {
+    "reversible_rhombi_distinct_five_colors": "5*4*3*2/4=30, quotient by two rotations and two reflections; the report uses familyD5.",
+    "one_sided_isosceles_triangles_distinct_five_colors": "5*4*3=60; the report uses familyB5."
+  },
+  "remaining": [
+    "Original Philpott1974 article and exact historical Nelson/Fink/Risueno claims",
+    "Independent primary evidence for Uri1993 and the full39-case list",
+    "Full edge/inventory reconstruction of the two ancillary photographed polyhedra; their small images occlude data"
+  ],
+  "no_new_error": true
+}
