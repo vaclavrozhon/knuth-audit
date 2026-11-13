@@ -13,6 +13,18 @@ The UI contains 931 visible records: 797 confirmed, 117 candidates, and
 confirmed-card recheck. Previously public findings and known errata are
 excluded from active finding cards.
 
+## Research questions
+
+The separate [TAOCP research catalogue](research/README.md) contains **236
+entries across all seven supplied publications**, including research exercises,
+questions in the main text and answers, and later-resolved questions. It records
+original and amended ratings, precise book locations, and a literature review
+as of **November 12, 2026**. Browse by volume or use the [CSV](research/catalog.csv).
+
+The assessments distinguish resolved questions, recent reported resolutions,
+partial results, dated statements of openness, and cases where a resolution
+was not located. The last category does **not** establish that a problem is open.
+
 ## Open the UI
 
 Python 3.10 or newer is sufficient. The compiled frontend is included.
