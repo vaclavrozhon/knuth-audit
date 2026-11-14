@@ -10,8 +10,9 @@ they do not repeat the saved mathematical computations.
 - All 931 visible cards have current English summaries and included evidence.
   Every linked review record and page-coverage record is present. The seven
   page maps contain 4,308 file pages.
-- The release includes exactly six documented PNGs: three original witness
-  diagrams and three small typesetting excerpts. It contains no book files,
+- The original private export included six PNGs. For the public release,
+  the three book-figure excerpts were removed from all published commits;
+  only the three original witness diagrams remain. It contains no book files,
   full-page image collection, original annotation database, correspondence,
   credentials or original Git history. File selection, private-data patterns
   and the actual Git inventory were checked before upload.
@@ -35,3 +36,18 @@ Four low-severity entries remain associated with KaTeX and the Markdown math
 dependency chain; see [the upstream advisory](https://github.com/advisories/GHSA-238p-pmpm-9mq7).
 The lockfile preserves the tested versions. Starting the included Python
 server does not require Node or a Vite development server.
+
+## Public-release checks - 13 November 2026
+
+- Removed the three book-figure excerpts from every published commit, the
+  catalog evidence lists, and the served-file allowlist. The three remaining
+  raster images were visually checked as original witness diagrams.
+- Scanned all 5,988 reachable historical blobs before the release commit:
+  no credential-pattern matches, PDF/DjVu/PostScript book signatures, or
+  SQLite database signatures were found. Exactly three original PNG objects
+  remained. Personal annotations stay ignored and local.
+- Updated image provenance, public-facing status explanations, and package
+  validation. All seven HTTP integration tests passed. The temporary-book
+  test now resolves its temporary directory to handle macOS path aliases.
+- Refreshed and verified the file hash manifest. The five selected examples
+  are linked from the README; the editable working PDF is not distributed.

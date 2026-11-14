@@ -59,7 +59,7 @@ def validate():
           'Wrong review decision counts')
     allowed = set(read('review-ui/evidence-files.json'))
     images = set(read('data/export-selection.json')['images'])
-    check(len(images) == 6, 'The release must contain exactly the six documented images')
+    check(len(images) == 3, 'The release must contain exactly the three original witness images')
     for path in allowed:
         p = ROOT / path
         check(not p.is_symlink() and p.is_file() and p.resolve().is_relative_to(ROOT),
@@ -122,7 +122,7 @@ def main():
         (ROOT / MANIFEST).write_text(json.dumps(hashes, indent=2) + '\n')
     else:
         check(read(MANIFEST) == hashes, 'Release files differ from the SHA-256 manifest')
-    print(f'Package verified: {len(files)} files; 806 reviews; 797 retained; 6 images; no bundled books or personal notes.')
+    print(f'Package verified: {len(files)} files; 806 reviews; 797 retained; 3 original images; no bundled books or personal notes.')
 
 
 if __name__ == '__main__':

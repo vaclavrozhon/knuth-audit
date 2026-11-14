@@ -1,7 +1,13 @@
 # Knuth audit notebook
 
 A portable local notebook for an audit of TAOCP volumes 1, 2, 3, 4A, 4B,
-the MMIX fascicle, and Fascicle 7. This repository is **private**.
+the MMIX fascicle, and Fascicle 7. This is a public record of an AI-assisted
+experiment in checking mathematical arguments and algorithms.
+
+The labels below describe the audit process, not confirmation by Donald Knuth
+or an independent human review of every item. In particular, **confirmed**
+means retained by the recorded audit review; it should not be read as a list
+of author-acknowledged errata.
 
 All **806 previously confirmed cards** were rechecked before this export:
 **797 retained, 4 previously public, 1 returned to candidate status, and
@@ -12,6 +18,16 @@ The UI contains 931 visible records: 797 confirmed, 117 candidates, and
 17 dismissed. Earlier candidates and dismissed records were outside the
 confirmed-card recheck. Previously public findings and known errata are
 excluded from active finding cards.
+
+## Five examples examined individually
+
+A selected example from each main volume:
+
+- [Volume 1: a selected MST vertex becomes eligible again](findings/V1-C0041.md).
+- [Volume 2: the circular gap containing zero has a biased label](findings/V2-C0018.md).
+- [Volume 3: the Quicksort tail threshold falls below the deterministic minimum](findings/V3-C0032.md).
+- [Volume 4A: a three-row torus needs six colors](findings/V4A-F0004.md).
+- [Volume 4B: Algorithm R can take exponential time on 2SAT](findings/F024.md).
 
 ## Research questions
 
@@ -35,8 +51,8 @@ cd knuth-audit
 python3 review-ui/server.py --port 4318
 ```
 
-Open **http://localhost:4318**. Cloning requires access to the private
-repository. The server listens only on the local computer. It does not start
+Open **http://localhost:4318**. The server listens only on the local computer.
+It does not start
 audit computations or send reports.
 
 Cards have English summaries, the latest publication-review decision,
@@ -50,10 +66,11 @@ are included.** Use **Export notes** in the UI to save your new notes.
 
 ## Books and excerpts
 
-The repository contains no books, full-page image collection, full-book OCR,
-private correspondence, credentials, or earlier Git history. Three small
-typesetting excerpts and three original witness diagrams are documented in
-[the image inventory](data/IMAGE_SOURCES.md).
+The public repository contains no book files, page scans, book-figure crops,
+full-book OCR, private correspondence, credentials, or personal annotations.
+The three included images are original witness diagrams, documented in
+[the image inventory](data/IMAGE_SOURCES.md). Book-figure excerpts were removed
+from both the working tree and all published Git history before publication.
 
 The arguments and page references work without books. To enable local book
 links, put your own copies in `books/` using the filenames in

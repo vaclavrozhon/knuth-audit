@@ -109,7 +109,7 @@ class ServerTests(unittest.TestCase):
         status, _, body = self.request('GET', '/api/document?path=findings/F7-C0006.md')
         self.assertEqual(status, 200)
         self.assertIn('F7-C0006', json.loads(body)['text'])
-        image = 'workstreams/vol4-fasc7/images/F7-C0006-transparent-clasp-excerpt.png'
+        image = 'workstreams/vol4-fasc7/images/F7-C0008-reflex-W.png'
         status, headers, body = self.request('GET', '/files?path=' + quote(image),
                                              headers={'Range': 'bytes=0-7'})
         self.assertEqual(status, 206)
@@ -121,7 +121,7 @@ class ServerTests(unittest.TestCase):
     def test_optional_books_are_detected_without_exposing_other_files(self):
         original_root = server.ROOT
         try:
-            server.ROOT = Path(self.directory.name)
+            server.ROOT = Path(self.directory.name).resolve()
             data, _ = server.read_data()
             volume = data['volumes'][-1]
             path = server.ROOT / volume['book_path']

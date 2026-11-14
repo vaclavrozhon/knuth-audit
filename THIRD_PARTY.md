@@ -1,8 +1,9 @@
 # Third-party material
 
-Donald E. Knuth's books are not included. The three necessary figure excerpts
-are attributed in [the image inventory](data/IMAGE_SOURCES.md); no ownership
-of those figures is claimed. They are evidence for the specific audit claims.
+Donald E. Knuth's books, scanned pages, and figure excerpts are not included.
+The three distributed images are original audit diagrams, listed in
+[the image inventory](data/IMAGE_SOURCES.md). Historical notes may refer to
+omitted source images; those references do not make the images available.
 
 Selected companion-program CWEB sources retain their original headers and
 attribution. Source URLs and hashes are recorded with the arguments and
