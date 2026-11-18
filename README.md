@@ -26,8 +26,7 @@ excluded from active finding cards.
 
 The [plain-text list](volume-4b-findings.txt) contains 274 working corrections,
 grouped by topic. It includes short explanations and the rectangle-packing
-ASCII diagram. XXX marks items already discussed during drafting, not a
-separate certification of correctness. The [item index](data/volume-4b-findings-index.json)
+ASCII diagram. The [item index](data/volume-4b-findings-index.json)
 links each numbered item to its detailed evidence card. This is a selected
 list; the full audit catalog also retains candidates and other records.
 

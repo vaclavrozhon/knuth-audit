@@ -74,8 +74,7 @@ def validate():
           'Wrong text selection or duplicate item')
     text = (ROOT / 'volume-4b-findings.txt').read_text()
     for row in index:
-        prefix = 'XXX ' if row['discussed'] else ''
-        heading = f"{prefix}{row['number']}. {row['location']}"
+        heading = f"{row['number']}. {row['location']}"
         check(heading in text.splitlines(), f'Missing text item: {row["id"]}')
         check(row['evidence'] == f'findings/{row["id"]}.md', 'Wrong text evidence mapping')
     allowed = set(read('review-ui/evidence-files.json'))

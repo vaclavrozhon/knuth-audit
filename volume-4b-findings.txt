@@ -4,7 +4,7 @@ These 274 notes come from an AI-assisted audit. I have checked only some
 of them myself; they are suggestions for review, not author-confirmed errata.
 The source is the first edition, second printing (2022). Page numbers refer
 to printed pages. The notes are grouped by topic, with exercise statements
-and answers kept together. XXX marks items we have already discussed.
+and answers kept together.
 Detailed evidence is in findings/; data/volume-4b-findings-index.json maps
 the item numbers below to those files. Updated after the November 17 audit.
 
@@ -243,7 +243,7 @@ The variance needs a factor K: n*K*(N-n)*(N-K)/(N^3-N^2). With N=4, K=2,
 n=1, the number of green balls drawn is 0 or 1 with equal probabilities, so
 its variance is 1/4. The printed formula gives 1/8.
 
-XXX 33. MPR Exercise 134(b) (pp. 27 and 394)
+33. MPR Exercise 134(b) (pp. 27 and 394)
 
 On p. 27, the bound should be 2 exp(-epsilon^2 m/2), rather than
 2 exp(-2 epsilon^2 m). With m=1, epsilon=0.9, and two independent
@@ -478,7 +478,7 @@ y1 is a real false conflict: the valid row-by-row placement
 3,5,8,10,13,2,6,1,16,11,15,4,7,9,12,14 satisfies the stated boundary
 inequalities but is rejected by that marker.
 
-XXX 64. Answer 7.2.2.1--24 (pp. 420--421)
+64. Answer 7.2.2.1--24 (pp. 420--421)
 
 Both filters at the end of the answer remove all solutions when n=4.
 The two solutions are 2413 and 3142, where the digits give the columns
@@ -749,7 +749,7 @@ used by all four answers.
 
 Dancing links: packing and multiple covers
 
-XXX 99. Answer 7.2.2.1--158 (p. 461)
+99. Answer 7.2.2.1--158 (p. 461)
 
 The 30x15 rectangle for n=6 is not optimal. Here is a packing in a
 28x16 rectangle, with area 448 instead of 450. The exercise on p. 144
@@ -987,7 +987,7 @@ test for the first option. This omits a possible reduction but does not
 remove a solution. Your C program already avoids the problem by using
 calloc.
 
-XXX 127. Answer 7.2.2.1--221 (p. 475)
+127. Answer 7.2.2.1--221 (p. 475)
 
 The deletion loop can process the first node twice. Run the body once,
 then repeat only while q>x. With the printed condition q>=x, returning
@@ -1053,7 +1053,7 @@ The approximation should be (N/sqrt(5))F_(N+1), not (N/5)F_(N+1), where F_k
 is the kth Fibonacci number. This follows from the exact formula in answer
 255 and 1+2/phi=sqrt(5), with phi the golden ratio.
 
-XXX 135. Exercise 7.2.2.1--243 (pp. 153 and 478)
+135. Exercise 7.2.2.1--243 (pp. 153 and 478)
 
 Secondary items should have weight zero. Otherwise the total weight
 can differ between solutions, so the argument on p. 478 does not apply.
@@ -1374,7 +1374,7 @@ again.
 
 SAT: recursive search and autarkies
 
-XXX 178. Answer 7.2.2.2--162(b) (p. 579)
+178. Answer 7.2.2.2--162(b) (p. 579)
 
 "Any strong component" should be "any consistent strong component."
 For the two clauses (a OR NOT b OR c) and (NOT a OR b OR NOT c), the
@@ -1429,7 +1429,7 @@ reduces the stored size. Undo increments the size for every processed false
 literal. With the printed conditional write, a three-literal clause can
 return from lookahead with stored size four.
 
-XXX 185. Answer 7.2.2.2--175 (p. 581)
+185. Answer 7.2.2.2--175 (p. 581)
 
 The temporary stack and conflict flag should be handled inside the
 G<E loop of (72), after scanning the clauses for the current literal.

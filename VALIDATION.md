@@ -61,8 +61,8 @@ server does not require Node or a Vite development server.
 - Published 274 selected corrections in `volume-4b-findings.txt`, with an
   index linking the numbered items to their evidence. All 272 existing
   descriptions and their layout were preserved, apart from renumbering;
-  F270 and F271 were inserted in topic order. The seven XXX marks and the
-  rectangle-packing ASCII diagram were preserved.
+  F270 and F271 were inserted in topic order. The rectangle-packing ASCII
+  diagram was preserved. Draft review markers were removed afterward.
 - Checked the changed files for correspondence, local paths and prohibited
   content. The package still includes only the three original witness images.
 - The frontend built with the existing Vite 7.3.8 lockfile. All seven HTTP
