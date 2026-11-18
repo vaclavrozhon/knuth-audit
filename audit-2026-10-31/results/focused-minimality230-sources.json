@@ -1,0 +1,37 @@
+{
+  "checked_at_utc": "2026-11-17T09:06:27.028567+00:00",
+  "volume4b": {
+    "edition": 1,
+    "printing": 2,
+    "printed_page": 592,
+    "file_page": 612,
+    "image_inspected": true
+  },
+  "author_draft": {
+    "date": "2015-09-23",
+    "printed_page": 228,
+    "file_page": 236,
+    "image_inspected": true,
+    "same_errors": true
+  },
+  "official_sources": [
+    "https://www-cs-faculty.stanford.edu/~knuth/err4b.textxt",
+    "https://www-cs-faculty.stanford.edu/~knuth/err4b.ps.gz",
+    "https://www-cs-faculty.stanford.edu/~knuth/all4b.ps.gz",
+    "https://www-cs-faculty.stanford.edu/~knuth/err4f6.textxt",
+    "https://www-cs-faculty.stanford.edu/~knuth/err4f6.ps.gz",
+    "https://www-cs-faculty.stanford.edu/~knuth/all4f6.ps.gz"
+  ],
+  "official_retrieval": "integration/2026-11-17-focused-4b/sources/retrieval.json",
+  "matching_official_correction": false,
+  "nearby_corrections": "Fascicle 6 page 228 correction concerns the final resolution step of answer 231, not the minimality witness in answer 230.",
+  "public_queries": [
+    "\"Knuth\" \"230\" \"permutation\" \"errata\"",
+    "\"Knuth\" \"592\" \"230\" error",
+    "\"TAOCP\" \"230\" \"minimal\""
+  ],
+  "public_search_result": "No matching prior report located; results concerned unrelated errata or number matches.",
+  "priority_established": false,
+  "physical_copy_verified": false,
+  "computation": "No computer search needed: the explicit three-element matrix falsifies an undeleted successor clause."
+}

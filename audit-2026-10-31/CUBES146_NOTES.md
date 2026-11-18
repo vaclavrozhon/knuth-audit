@@ -111,3 +111,8 @@ Tyto mezery nejsou omluveny výjimkou pro dlouhé výpočty.
 
 Výsledky: `results/cubes146/accepted.json`; úplné modely, akce symetrií,
 15 500 množin, svědek a metadata původních běhů jsou v `bounded/`.
+
+
+## Druhý průchod,17. listopadu2026
+
+C034 je nyní confirmed jako chybný odkaz(c)→(d); viz [aktuální argument](notes/C034-colored-cubes-cross-reference.md). Toto úzké zjištění nepotřebuje úplnou historii z roku1961. Originál Perjésova reportu1981 byl získán; jeho §5 na str.5 výslovně definuje rozdělení všech30 kostek do5 řad a uvádí konstrukce. Jeho celá klasifikace ani podrobnosti pěti symetrických řad se nově necertifikují. Staré výpočty nebyly zopakovány.

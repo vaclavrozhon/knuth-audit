@@ -235,3 +235,11 @@ nejvýše `4Aσ exp(−h²/4)/h=o(Aσ)`. Střední část má integrál
 `Aσ(sqrt(2π)+o(1))`. Po vydělení n! dostáváme přesně hlavní člen
 z odpovědi 192. Zanedbatelnost chvostů je tím doplněna obecně,
 nikoli jen numericky.
+
+## Změna klasifikace C006 — 17. listopadu 2026
+
+C006 je nově potvrzený nález. Dřívější vyloučení pouze kvůli tomu, že jde o doplnění publikovaného errata, bylo příliš opatrné: samotná náhrada z roku 2019 obsahuje chybný vzorec, neopravuje jej. Přímý rozpor 1/e versus e zůstává. Původní historii zachováváme; podrobnosti v [nové poznámce](notes/C006-exponential-modulus.md).
+
+## Doplnění F023 — 17. listopadu 2026
+
+Zadání191 na str.148 má set permutation místo set partition; definice ocasu a citovaný článek se týkají rozkladů množin. Doplněno do stejné karty bez nového ID. Viz [anglická poznámka](notes/F023-tail-generating-function.md).

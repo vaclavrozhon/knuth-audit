@@ -229,3 +229,8 @@ na file393 a tam zůstává partial. P14 lze uzavřít reviewed,
 s dříve vyjmenovanou bibliografickou výjimkou Bayesovy atribuce.
 Na file394 jsou nyní úplné zdejší odpovědi24–26;27–28 zůstávají
 neuzavřené. Žádný nový nález, žádný běh či restart censu.
+
+
+## Dodatečná kontrola historického tvrzení, 17. listopadu 2026
+
+Původní výjimka pro historii je částečně uzavřena nálezem F260: Maclaurinův originál z roku 1729, str. 68–70, již dokazuje příslušnou koeficientovou nerovnost. Sylvesterova práce z roku 1865 se týká silnějšího pravidla o počtu kořenů. Matematický důkaz v odpovědi zůstává správný. Přesný odkaz na Newtonovy strany 242–245 nadále není samostatně ověřen. Podrobnosti a originály: [F260](F260-newton-inequality-history.md).

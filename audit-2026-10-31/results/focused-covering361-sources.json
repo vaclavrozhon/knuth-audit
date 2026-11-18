@@ -1,0 +1,125 @@
+{
+  "finding_id": "C008",
+  "checked_at_utc": "2026-11-17T15:17:53.825133+00:00",
+  "status": "confirmed",
+  "scope": "Stable versus covering terminology only; omitted reinforcement restriction is excluded.",
+  "book": {
+    "printed_page": 619,
+    "file_page": 639,
+    "definition_printed_pages": [
+      349,
+      350
+    ],
+    "edition": "First edition, second printing, 2022"
+  },
+  "draft": {
+    "date": "2015-09-23",
+    "printed_page": 255,
+    "file_page": 263
+  },
+  "original_pages_visually_checked": true,
+  "witness": {
+    "clauses": [
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "assignment": {
+      "x": 1,
+      "y": 1
+    },
+    "reinforcement": {
+      "x": 1,
+      "not_x": 0,
+      "y": 1,
+      "not_y": 0
+    },
+    "clause_messages": [
+      0,
+      0
+    ],
+    "bias_messages": [
+      0,
+      0
+    ],
+    "stable": true,
+    "constrained_variables": [],
+    "covering": false,
+    "denominators": [
+      1,
+      1
+    ]
+  },
+  "known_errata_distinguished": [
+    "2024-02-10, p.350, strict to definite Horn clauses in exercise363(g)"
+  ],
+  "official_errata_result": "No matching correction in current and historical 4B/F5/F6 layers or relevant TeX blocks.",
+  "public_queries": [
+    "\"Knuth\" \"361\" \"covering\"",
+    "\"TAOCP\" \"stable\" \"covering\" error",
+    "\"Knuth\" \"619\" \"covering\""
+  ],
+  "public_search_result": "No matching prior correction located.",
+  "priority_established": false,
+  "later_complete_printing_checked": false,
+  "new_computation": false,
+  "sources": [
+    {
+      "path": "books/taocp-vol4b-ed1-print2-2022.pdf",
+      "sha256": "6ce7187daa4f7dfa09814551a461fac81a833c93c140699fced8fd5897347552"
+    },
+    {
+      "path": "audit-2026-10-31/sources/fasc6a.pdf",
+      "sha256": "f186c972c23410395685a02eca4cbbd66bb0853ec371402a768a9a5bcfe59ba8"
+    },
+    {
+      "path": "errata/text/err4b.txt",
+      "sha256": "2a3450bf3c79d28ad3c2d96468344c96995cf0afb74961f257c311bb9c821e1c"
+    },
+    {
+      "path": "errata/text/all4b.txt",
+      "sha256": "b1a3425486f403fb4158585d5bbfef0159fd20b12e2e7d47b64e393e1ae8a303"
+    },
+    {
+      "path": "errata/text/err4f5.txt",
+      "sha256": "5a716c34e2063eb46005593d53e89dbbd912b5677e0a6ab11753f2a5ee38b557"
+    },
+    {
+      "path": "errata/text/all4f5.txt",
+      "sha256": "0dd38c4cda72b01baefb797611c9bbab7713ff0c107a1df884afc89fe9bb91c3"
+    },
+    {
+      "path": "errata/text/err4f6.txt",
+      "sha256": "0a065b32ef4f8e427a178a77e0fe81b7caad77389ecec060c8793567cd5a3eb2"
+    },
+    {
+      "path": "errata/text/all4f6.txt",
+      "sha256": "468af6337a650d3b8b132fa854a21a4a460d891d3497986318ba1830581dddb8"
+    },
+    {
+      "path": "integration/2026-11-17-focused-4b/sources/err4b.textxt",
+      "sha256": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994"
+    },
+    {
+      "path": "integration/2026-11-17-focused-4b/sources/err4f5.textxt",
+      "sha256": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b"
+    },
+    {
+      "path": "integration/2026-11-17-focused-4b/sources/err4f6.textxt",
+      "sha256": "150809ff5caee54008a0a52523130b723ec1fdea7fe5cb8259b2a8349c4a8bfa"
+    },
+    {
+      "path": "integration/2026-11-17-focused-4b/sources/vol4b-p619-covering.png",
+      "sha256": "c2455e08d0896b5b88decd94894cb988f28f8cb3891b87e583f23c70ccdfd768"
+    },
+    {
+      "path": "integration/2026-11-17-focused-4b/sources/vol4b-p350-covering.png",
+      "sha256": "cb03c62d1a866f828d55920c14954ea768a1c1622c844f050921c12616f5f024"
+    },
+    {
+      "path": "integration/2026-11-17-focused-4b/sources/fasc6a-p255-covering.png",
+      "sha256": "95c0fd52afa44fc590751a75e67d286bd4df2d3be058747ca3a06ffcdff19bd5"
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "variables": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "u",
+    "v"
+  ],
+  "clauses": [
+    [
+      1,
+      -2
+    ],
+    [
+      -1,
+      -2,
+      3
+    ],
+    [
+      -3,
+      -4,
+      -5
+    ],
+    [
+      -3,
+      -4,
+      5
+    ],
+    [
+      -3,
+      4,
+      -5
+    ],
+    [
+      -3,
+      4,
+      5
+    ],
+    [
+      1,
+      -6,
+      -7
+    ],
+    [
+      1,
+      -6,
+      7
+    ],
+    [
+      1,
+      6,
+      -7
+    ],
+    [
+      1,
+      6,
+      7
+    ]
+  ],
+  "printed": [
+    {
+      "literal": 1,
+      "degree": 4,
+      "processed": [
+        1
+      ],
+      "R": [
+        1
+      ],
+      "G": 1,
+      "E": 1,
+      "new_weight": 1,
+      "windfalls": [],
+      "sizes": [
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "literal": 2,
+      "degree": 2,
+      "processed": [
+        2
+      ],
+      "R": [
+        1,
+        2,
+        3
+      ],
+      "G": 2,
+      "E": 3,
+      "new_weight": 0,
+      "windfalls": [
+        3
+      ],
+      "sizes": [
+        1,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "corrected": [
+    {
+      "literal": 1,
+      "degree": 4,
+      "processed": [
+        1
+      ],
+      "R": [
+        1
+      ],
+      "G": 1,
+      "E": 1,
+      "new_weight": 1,
+      "windfalls": [],
+      "sizes": [
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "literal": 2,
+      "degree": 2,
+      "processed": [
+        2,
+        3
+      ],
+      "R": [
+        1,
+        2,
+        3
+      ],
+      "G": 3,
+      "E": 3,
+      "new_weight": 4,
+      "windfalls": [
+        3
+      ],
+      "sizes": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "unsafe_X9_clause": [
+    2,
+    -1
+  ],
+  "original_model_count": 16,
+  "model_count_after_X9_clause": 0,
+  "example_original_model": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "assignments_checked": 128,
+  "elapsed_seconds": 0.0018594369994389126,
+  "scope": "Two fixed local lookaheads plus a 128-assignment truth table. Not a full L/X/Y implementation or a claim about SAT11K output."
+}

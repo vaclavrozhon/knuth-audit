@@ -1270,6 +1270,12 @@ function App() {
   ];
   const activeFilters =
     severity !== "all" || chapter !== "all" || audit !== "confirmed" || query;
+  if (!data) {
+    return <main className="loading-line" role="status" aria-live="polite">
+      {error ? <><AlertCircle size={22} /> {error} <button onClick={refresh}>Try again</button></>
+        : <><LoaderCircle size={22} className="spin" /> Loading findings…</>}
+    </main>;
+  }
   return (
     <>
       <div className="app-layout" inert={!!(selectedFinding || help)}>

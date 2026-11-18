@@ -144,3 +144,7 @@ Reprodukce: `check_surveys.py`, výstup `results/surveys.json`.
 protikladné jednotkové klauzule: seznam L se na počáteční rozpor
 výslovně nekontroluje a popsaný krok neřeší vznik prázdné klauzule.
 Nejprve zkontrolovat předpoklady Algorithm S / S8; zatím žádný nález.
+
+## Upřesnění 17. listopadu 2026: C008 potvrzen v užším rozsahu
+
+Označení všech stabilních ohodnocení jako covering je přímý rozpor s definicí364. Již uvedený příklad jediné klauzule x∨y a x=y=1 je zároveň regulérní binární pevný bod; implicitní omezení rovnic jej tedy nevylučuje. Potvrzuje se pouze tento terminologický rozpor. Vynechané omezení posílení přiπ_l=1 se za samostatnou chybu nepovažuje. Jde o přehodnocení starého důkazu, ne nový výpočet. Podrobný anglický doklad: notes/C008-stable-versus-covering.md.

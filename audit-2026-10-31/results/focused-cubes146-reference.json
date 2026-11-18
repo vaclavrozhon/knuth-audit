@@ -1,0 +1,65 @@
+{
+  "checked_at_utc": "2026-11-17T15:04:55.650107+00:00",
+  "finding_id": "C034",
+  "decision": "confirmed",
+  "scope": "Internal part-letter cross-reference only; not a complete historical attribution review.",
+  "volume4b": {
+    "edition": 1,
+    "printing": 2,
+    "error_printed_page": 456,
+    "error_file_page": 476,
+    "related_statement_page": 143,
+    "images_inspected": true
+  },
+  "author_draft": {
+    "date": "2019-09-11",
+    "printed_page": 160,
+    "file_page": 166,
+    "image_inspected": true,
+    "same_error": true
+  },
+  "gardner": {
+    "source": "Scientific American239(3), September1978, p.26",
+    "url": "https://www.wkbpic.com/wkbx/SA/1978/1978-09-01.pdf",
+    "printed_page": 26,
+    "file_page": 28,
+    "image_inspected": true,
+    "direct_question": "Partition the thirty cubes into five six-cube rows, matching exercise146(d).",
+    "retrieval": "audit-2026-10-31/sources/cubes146/sciam1978-09.pdf.source.json"
+  },
+  "perjes": {
+    "url": "https://real-eod.mtak.hu/7391/1/KFKIreports_81-057.pdf",
+    "printed_page": 5,
+    "file_page": 9,
+    "image_inspected": true,
+    "retrieval": "integration/2026-11-17-focused-4b/sources/perjes1981-retrieval.json",
+    "scope": "Section5 confirms the complete-set question and cites Gardner1978; full classification not independently checked."
+  },
+  "official_sources": [
+    "https://www-cs-faculty.stanford.edu/~knuth/err4b.textxt",
+    "https://www-cs-faculty.stanford.edu/~knuth/err4b.ps.gz",
+    "https://www-cs-faculty.stanford.edu/~knuth/all4b.ps.gz",
+    "https://www-cs-faculty.stanford.edu/~knuth/err4f5.textxt",
+    "https://www-cs-faculty.stanford.edu/~knuth/err4f5.ps.gz",
+    "https://www-cs-faculty.stanford.edu/~knuth/all4f5.ps.gz",
+    "https://www-cs-faculty.stanford.edu/~knuth/err4f6.textxt",
+    "https://www-cs-faculty.stanford.edu/~knuth/err4f6.ps.gz",
+    "https://www-cs-faculty.stanford.edu/~knuth/all4f6.ps.gz"
+  ],
+  "official_retrieval": "integration/2026-11-17-focused-4b/sources/retrieval.json",
+  "matching_official_correction": false,
+  "nearby_known_correction": "E073, March13,2026, changes Scientific American235 to239 on the same line, without changing question(c).",
+  "public_queries": [
+    "\"Knuth\" \"Gardner\" \"question (c)\" cubes errata",
+    "\"Knuth\" \"456\" \"question (d)\"",
+    "\"TAOCP\" \"Gardner\" \"1978\" error"
+  ],
+  "public_search_result": "No matching prior report located.",
+  "priority_established": false,
+  "physical_copy_verified": false,
+  "remaining_limits": [
+    "1961 article not independently read.",
+    "Full Perjes classification and the particular five symmetric arrangements not independently reconstructed.",
+    "No old computation was rerun."
+  ]
+}

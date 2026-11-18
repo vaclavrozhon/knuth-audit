@@ -53,8 +53,8 @@ class ServerTests(unittest.TestCase):
         status, _, body = self.request('GET', '/api/findings')
         self.assertEqual(status, 200)
         data = json.loads(body)
-        self.assertEqual(len(data['findings']), 931)
-        self.assertEqual(sum(f['status'] == 'confirmed' for f in data['findings']), 797)
+        self.assertEqual(len(data['findings']), 946)
+        self.assertEqual(sum(f['status'] == 'confirmed' for f in data['findings']), 817)
         self.assertTrue(all(f['annotation']['revision'] == 0 for f in data['findings']))
         self.assertEqual(self.request('GET', '/')[0], 200)
         for volume in data['volumes']:

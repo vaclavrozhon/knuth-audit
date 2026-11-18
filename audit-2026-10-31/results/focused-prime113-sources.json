@@ -1,0 +1,70 @@
+{
+  "checked_at_utc": "2026-11-17T10:08:21.661724+00:00",
+  "volume4b": {
+    "edition": 1,
+    "printing": 2,
+    "printed_page": 388,
+    "file_page": 408,
+    "image_inspected": true,
+    "image": "audit-2026-10-31/images/sequential/mpr113-notes-detail.png"
+  },
+  "author_draft": {
+    "date": "2019-09-11",
+    "printed_page": 45,
+    "file_page": 51,
+    "image_inspected": true,
+    "same_error": true
+  },
+  "primary_sources": [
+    {
+      "url": "https://archive.org/details/recherchesanaly00pousgoog",
+      "year": "1896, reprinted 1897",
+      "printed_page": 62,
+      "file_page": 71,
+      "image_inspected": true,
+      "result": "The article explicitly leaves the convergence rate, including a fixed power saving, unproved."
+    },
+    {
+      "url": "https://archive.org/details/surlafonctionze00pousgoog",
+      "year": 1899,
+      "inspected_printed_pages": [
+        6,
+        47,
+        54
+      ],
+      "inspected_file_pages": [
+        19,
+        60,
+        67
+      ],
+      "image_inspected": true,
+      "result": "Section55 gives the prime-power sum with a square-root logarithm exponential scale. The introduction distinguishes this estimate from the 1896 result."
+    }
+  ],
+  "primary_retrieval": "integration/2026-11-17-focused-4b/sources/vallee-originals-retrieval.json",
+  "official_sources": [
+    "https://www-cs-faculty.stanford.edu/~knuth/err4b.textxt",
+    "https://www-cs-faculty.stanford.edu/~knuth/err4b.ps.gz",
+    "https://www-cs-faculty.stanford.edu/~knuth/all4b.ps.gz",
+    "https://www-cs-faculty.stanford.edu/~knuth/err4f5.textxt",
+    "https://www-cs-faculty.stanford.edu/~knuth/err4f5.ps.gz",
+    "https://www-cs-faculty.stanford.edu/~knuth/all4f5.ps.gz",
+    "https://www-cs-faculty.stanford.edu/~knuth/err4f6.textxt",
+    "https://www-cs-faculty.stanford.edu/~knuth/err4f6.ps.gz",
+    "https://www-cs-faculty.stanford.edu/~knuth/all4f6.ps.gz"
+  ],
+  "official_retrieval": "integration/2026-11-17-focused-4b/sources/retrieval.json",
+  "matching_official_correction": false,
+  "public_queries": [
+    "Knuth \"388\" \"Poussin\" errata",
+    "Knuth \"psi\" \"exp\" \"square root\" 4B",
+    "\"Knuth\" \"MPR113\"",
+    "\"The Art of Computer Programming\" \"Poussin\" \"388\"",
+    "\"Knuth\" \"minwise\" \"Poussin\"",
+    "\"Knuth\" \"errata\" \"388\" \"prime\""
+  ],
+  "public_search_result": "No matching prior error report located; mostly unrelated results and a copy of the older Knuth draft.",
+  "priority_established": false,
+  "physical_copy_verified": false,
+  "scope": "Confirmed misstatement of the cited historical bound. No proof that the stronger asymptotic formula is false is claimed."
+}

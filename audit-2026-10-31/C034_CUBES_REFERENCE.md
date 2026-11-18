@@ -1,3 +1,7 @@
+# Aktualizace 17. listopadu 2026: C034 potvrzen
+
+Odkaz (c)→(d) je potvrzen přímým porovnáním citované stránky s oběma částmi zadání. Dřívější podmínka úplného historického došetření byla pro tento úzký závěr zbytečně silná. Článek z roku1961 zůstává neověřen; původní Perjésův report1981 se nyní podařilo získat. [Aktuální anglický argument](notes/C034-colored-cubes-cross-reference.md). Níže je zachována původní kandidátní poznámka.
+
 # C034 — odkaz na část otázky u barevných kostek
 
 **Candidate, nízká závažnost.** Odpověď 7.2.2.1–146, 4B str. 456,

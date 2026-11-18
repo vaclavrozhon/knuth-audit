@@ -51,3 +51,24 @@ server does not require Node or a Vite development server.
   test now resolves its temporary directory to handle macOS path aliases.
 - Refreshed and verified the file hash manifest. The five selected examples
   are linked from the README; the editable working PDF is not distributed.
+
+## Volume 4B update — November 17, 2026
+
+- Added the 15 new cards and five promoted candidates from the final focused
+  audit. The catalog has 946 records: 817 confirmed, 112 candidates and 17
+  dismissed. The original 806 review decisions remain unchanged; 20 additional
+  retained decisions are recorded separately.
+- Published 274 selected corrections in `volume-4b-findings.txt`, with an
+  index linking the numbered items to their evidence. All 272 existing
+  descriptions and their layout were preserved, apart from renumbering;
+  F270 and F271 were inserted in topic order. The seven XXX marks and the
+  rectangle-packing ASCII diagram were preserved.
+- Checked the changed files for correspondence, local paths and prohibited
+  content. The package still includes only the three original witness images.
+- The frontend built with the existing Vite 7.3.8 lockfile. All seven HTTP
+  integration tests passed. All three browser scenarios passed: the catalog
+  scenario was updated and rerun after its old expectation of removed book
+  excerpts failed; the note-persistence and mobile scenarios passed unchanged.
+- Parsed changed Python files and refreshed the package file manifest. These
+  checks validate the export and its UI; they do not independently prove the
+  mathematical findings.

@@ -9,15 +9,27 @@ or an independent human review of every item. In particular, **confirmed**
 means retained by the recorded audit review; it should not be read as a list
 of author-acknowledged errata.
 
-All **806 previously confirmed cards** were rechecked before this export:
+The November 12 review rechecked **806 previously confirmed cards**:
 **797 retained, 4 previously public, 1 returned to candidate status, and
 4 dismissed**. See [the review outcome](REVIEW.md) and
 [all review decisions](data/review-decisions.json).
 
-The UI contains 931 visible records: 797 confirmed, 117 candidates, and
-17 dismissed. Earlier candidates and dismissed records were outside the
-confirmed-card recheck. Previously public findings and known errata are
+The November 17 pass added 15 new findings and confirmed five earlier
+candidates in Volume 4B. See [the follow-up report](FOCUSED-4B-REVIEW.md) and
+[its 20 decisions](data/focused-4b-review-decisions.json). The UI now contains
+946 visible records: 817 confirmed, 112 candidates, and 17 dismissed. Earlier
+candidates and dismissed records were outside the November 12 confirmed-card
+recheck, except for the five candidates confirmed in this follow-up. Previously public findings and known errata are
 excluded from active finding cards.
+
+## Volume 4B corrections in plain text
+
+The [plain-text list](volume-4b-findings.txt) contains 274 working corrections,
+grouped by topic. It includes short explanations and the rectangle-packing
+ASCII diagram. XXX marks items already discussed during drafting, not a
+separate certification of correctness. The [item index](data/volume-4b-findings-index.json)
+links each numbered item to its detailed evidence card. This is a selected
+list; the full audit catalog also retains candidates and other records.
 
 ## Five examples examined individually
 

@@ -47,16 +47,37 @@ def check(condition, message):
 def validate():
     catalog = read('review-ui/catalog.json')
     review = read('data/review-decisions.json')
+    focused = read('data/focused-4b-review-decisions.json')
     findings = {f['id']: f for f in catalog['findings']}
     decisions = {r['id']: r for r in review['records']}
     expected = {'retained': 797, 'prior_public_found': 4, 'candidate': 1, 'dismissed': 4}
-    check(len(findings) == len(catalog['findings']) == 931, 'Wrong or duplicate card inventory')
+    check(len(findings) == len(catalog['findings']) == 946, 'Wrong or duplicate card inventory')
     check(Counter(f['status'] for f in findings.values()) ==
-          {'confirmed': 797, 'candidate': 117, 'dismissed': 17}, 'Wrong visible status counts')
+          {'confirmed': 817, 'candidate': 112, 'dismissed': 17}, 'Wrong visible status counts')
     check(len(decisions) == len(review['records']) == review['total'] == 806,
           'Wrong or duplicate review inventory')
     check(Counter(r['decision'] for r in decisions.values()) == expected == review['decisions'],
           'Wrong review decision counts')
+    focused_ids = {f'F{n}' for n in range(257, 272)} | {'C025', 'C048', 'C034', 'C008', 'C006'}
+    additional = {r['id']: r for r in focused['records']}
+    check(set(additional) == focused_ids and len(focused['records']) == focused['total'] == 20,
+          'Wrong focused-review inventory')
+    check(not (set(decisions) & set(additional)), 'Duplicate review across audit passes')
+    check(Counter(r['decision'] for r in additional.values()) == focused['decisions'] == {'retained': 20},
+          'Wrong focused-review decisions')
+    decisions.update(additional)
+    index = read('data/volume-4b-findings-index.json')
+    check([r['number'] for r in index] == list(range(1, 275)), 'Wrong text item numbering')
+    expected_text = {f['id'] for f in findings.values()
+                     if f['volume'] == 'vol4b' and f['status'] == 'confirmed'} - {'F024', 'F117'}
+    check({r['id'] for r in index} == expected_text and len(index) == 274,
+          'Wrong text selection or duplicate item')
+    text = (ROOT / 'volume-4b-findings.txt').read_text()
+    for row in index:
+        prefix = 'XXX ' if row['discussed'] else ''
+        heading = f"{prefix}{row['number']}. {row['location']}"
+        check(heading in text.splitlines(), f'Missing text item: {row["id"]}')
+        check(row['evidence'] == f'findings/{row["id"]}.md', 'Wrong text evidence mapping')
     allowed = set(read('review-ui/evidence-files.json'))
     images = set(read('data/export-selection.json')['images'])
     check(len(images) == 3, 'The release must contain exactly the three original witness images')
@@ -122,7 +143,7 @@ def main():
         (ROOT / MANIFEST).write_text(json.dumps(hashes, indent=2) + '\n')
     else:
         check(read(MANIFEST) == hashes, 'Release files differ from the SHA-256 manifest')
-    print(f'Package verified: {len(files)} files; 806 reviews; 797 retained; 3 original images; no bundled books or personal notes.')
+    print(f'Package verified: {len(files)} files; 826 reviews; 817 retained; 274 text items; 3 original images; no bundled books or personal notes.')
 
 
 if __name__ == '__main__':

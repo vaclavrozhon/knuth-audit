@@ -111,3 +111,7 @@ Jedna nová karta F142, anglicky, s krátkým ručním ověřením.
 Staré karty, nálezy, programy a osobní anotace se zachovávají.
 Vlastních 26 procesů pod 10 sledovanými kořeny má nice 15; žádný nový
 dlouhý běh ani restart. Následuje 193–198. Svazek 4B není dokončený.
+
+## Změna klasifikace C006 — 17. listopadu 2026
+
+C006 je nově potvrzený nález. Dřívější vyloučení pouze kvůli tomu, že jde o doplnění publikovaného errata, bylo příliš opatrné: samotná náhrada z roku 2019 obsahuje chybný vzorec, neopravuje jej. Přímý rozpor 1/e versus e zůstává. Původní historii zachováváme; podrobnosti v [nové poznámce](notes/C006-exponential-modulus.md).

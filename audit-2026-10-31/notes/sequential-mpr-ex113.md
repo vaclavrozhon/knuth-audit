@@ -1,5 +1,13 @@
 # MPR113: úplné pořadové pravděpodobnosti, otevřená prvočíselná poznámka
 
+**Aktualizace 17. listopadu 2026:** C048 je nyní potvrzen jako chybné
+znění a připsání historického výsledku. Původní práce z let 1896 a 1899
+byly získány a příslušné pasáže zobrazeny. Kvantitativní mez z roku 1899
+má v exponentu odmocninu z logaritmu. Nejde o důkaz nepravdivosti silnější
+tištěné asymptotiky. Podrobnosti a přesné stránky jsou v
+`C048-prime-number-error-exponent.md`; následující text zachovává stav
+původní kontroly ze 7. listopadu.
+
 7. listopadu 2026. Celé zadání p23/file43 a odpověď p388/file408
 přímo zobrazeny, stejně jako autorský PS11.9.2019 p44–45/files50–51.
 Detail exponentu z původního PDF potvrzuje absenci odmocniny.

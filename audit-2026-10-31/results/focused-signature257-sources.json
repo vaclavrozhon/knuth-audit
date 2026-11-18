@@ -1,0 +1,126 @@
+{
+  "finding": "F268",
+  "checked_at_utc": "2026-11-17T20:13:18.423843+00:00",
+  "original_pages": [
+    256,
+    257
+  ],
+  "original_pdf_sha256": "6ce7187daa4f7dfa09814551a461fac81a833c93c140699fced8fd5897347552",
+  "original_image": "integration/2026-11-17-focused-4b/sources/vol4b-p257-clause-signature.png",
+  "draft": {
+    "path": "audit-2026-10-31/sources/fasc6a.pdf",
+    "printed_page": 73,
+    "file_page": 81,
+    "sha256": "f186c972c23410395685a02eca4cbbd66bb0853ec371402a768a9a5bcfe59ba8",
+    "observation": "Same C-prime and p+1 assertion."
+  },
+  "author_program": {
+    "path": "audit-2026-10-31/sources/bookwise-sat13.w",
+    "url": "https://www-cs-faculty.stanford.edu/~knuth/programs/sat13.w",
+    "sha256": "756042ecf3323925a6516d2412c87ed70120d9d390658234e851e616be335231",
+    "observation": "Same definition of signature and heuristic score; does not repeat the changed-level bound."
+  },
+  "errata": [
+    {
+      "path": "errata/text/err4b.txt",
+      "sha256": "2a3450bf3c79d28ad3c2d96468344c96995cf0afb74961f257c311bb9c821e1c",
+      "relevant_blocks": [],
+      "matching_correction": false
+    },
+    {
+      "path": "errata/text/all4b.txt",
+      "sha256": "b1a3425486f403fb4158585d5bbfef0159fd20b12e2e7d47b64e393e1ae8a303",
+      "relevant_blocks": [],
+      "matching_correction": false
+    },
+    {
+      "path": "errata/text/err4f5.txt",
+      "sha256": "5a716c34e2063eb46005593d53e89dbbd912b5677e0a6ab11753f2a5ee38b557",
+      "relevant_blocks": [],
+      "matching_correction": false
+    },
+    {
+      "path": "errata/text/all4f5.txt",
+      "sha256": "0dd38c4cda72b01baefb797611c9bbab7713ff0c107a1df884afc89fe9bb91c3",
+      "relevant_blocks": [],
+      "matching_correction": false
+    },
+    {
+      "path": "errata/text/err4f6.txt",
+      "sha256": "0a065b32ef4f8e427a178a77e0fe81b7caad77389ecec060c8793567cd5a3eb2",
+      "relevant_blocks": [
+        "Page 74 in (124)                                                                      16 De 2019\n mj > 0 and y\n"
+      ],
+      "matching_correction": false
+    },
+    {
+      "path": "errata/text/all4f6.txt",
+      "sha256": "468af6337a650d3b8b132fa854a21a4a460d891d3497986318ba1830581dddb8",
+      "relevant_blocks": [
+        "  Page 74 in (124)                                                                                                                 16 De 2019\n   mj > 0 and y\n"
+      ],
+      "matching_correction": false
+    },
+    {
+      "path": "integration/2026-11-17-focused-4b/sources/err4b.textxt",
+      "sha256": "bb2ae47e307982105b3a3745e99953cff9568a13f0dd2270ae4b92cac0318994",
+      "relevant_blocks": [],
+      "matching_correction": false
+    },
+    {
+      "path": "integration/2026-11-17-focused-4b/sources/err4f5.textxt",
+      "sha256": "e7a1b178585816aa3d5193ff9d121920dc7be3c4010882963f8cc39e2c190a6b",
+      "relevant_blocks": [],
+      "matching_correction": false
+    },
+    {
+      "path": "integration/2026-11-17-focused-4b/sources/err4f6.textxt",
+      "sha256": "150809ff5caee54008a0a52523130b723ec1fdea7fe5cb8259b2a8349c4a8bfa",
+      "relevant_blocks": [
+        "\\amendpage 4f6.74 in {\\eq(124)} (19.12.16)\n$m_j>0$\\quad and \\quad \\becomes\n\\endchange\n\n"
+      ],
+      "matching_correction": false
+    }
+  ],
+  "retrieval_record": "integration/2026-11-17-focused-4b/sources/retrieval.json",
+  "public_searches": [
+    {
+      "query": "Knuth \"p + 1\" \"different levels\"",
+      "result": "No matching correction found; returned results were unrelated or original book material."
+    },
+    {
+      "query": "Knuth \"clause\" \"signature\" \"p - 1\"",
+      "result": "No matching correction found; returned results were unrelated or original book material."
+    },
+    {
+      "query": "Knuth errata \"257\" \"sign\"",
+      "result": "No matching correction found; returned results were unrelated or original book material."
+    },
+    {
+      "query": "Knuth \"won’t force anything\"",
+      "result": "No matching correction found; returned results were unrelated or original book material."
+    },
+    {
+      "query": "Knuth \"won't force anything\"",
+      "result": "No matching correction found; returned results were unrelated or original book material."
+    },
+    {
+      "query": "\"Knuth\" \"257\" \"signature\" errata",
+      "result": "No matching correction found; returned results were unrelated or original book material."
+    },
+    {
+      "query": "\"Knuth\" \"clause signature\" error",
+      "result": "No matching correction found; returned results were unrelated or original book material."
+    },
+    {
+      "query": "\"Knuth\" \"257\" \"purging\"",
+      "result": "No matching correction found; returned results were unrelated or original book material."
+    },
+    {
+      "query": "\"Knuth\" \"p+1\" \"change sign\"",
+      "result": "No matching correction found; returned results were unrelated or original book material."
+    }
+  ],
+  "priority_established": false,
+  "verification": "Direct three-variable, two-clause trail counterexample. No program execution needed."
+}

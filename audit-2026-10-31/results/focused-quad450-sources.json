@@ -1,0 +1,39 @@
+{
+  "checked_at_utc": "2026-11-17T09:23:05.918511+00:00",
+  "finding": "F242",
+  "component": "Final line AC contains ad instead of bd.",
+  "volume4b": {
+    "edition": 1,
+    "printing": 2,
+    "printed_page": 638,
+    "file_page": 658,
+    "image_inspected": true
+  },
+  "author_draft": {
+    "date": "2015-09-23",
+    "printed_page": 274,
+    "file_page": 282,
+    "image_inspected": true,
+    "same_error": true
+  },
+  "official_sources": [
+    "https://www-cs-faculty.stanford.edu/~knuth/err4b.textxt",
+    "https://www-cs-faculty.stanford.edu/~knuth/err4b.ps.gz",
+    "https://www-cs-faculty.stanford.edu/~knuth/all4b.ps.gz",
+    "https://www-cs-faculty.stanford.edu/~knuth/err4f6.textxt",
+    "https://www-cs-faculty.stanford.edu/~knuth/err4f6.ps.gz",
+    "https://www-cs-faculty.stanford.edu/~knuth/all4f6.ps.gz"
+  ],
+  "official_retrieval": "integration/2026-11-17-focused-4b/sources/retrieval.json",
+  "matching_official_correction": false,
+  "nearby_corrections": "Fascicle6 page274 updates the final result of answer448, not the lines in answer450.",
+  "public_queries": [
+    "Knuth \"450\" \"AC\" \"errata\"",
+    "Knuth \"638\" \"bd\" \"ad\"",
+    "Knuth \"quad-free\" \"450\""
+  ],
+  "public_search_result": "Author draft returned, along with irrelevant matches. No matching prior report found.",
+  "priority_established": false,
+  "physical_copy_verified": false,
+  "computation": "No code needed: A and the printed AC share the two points a and ad."
+}

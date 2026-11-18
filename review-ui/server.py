@@ -27,6 +27,7 @@ STATUSES = {'confirmed', 'candidate', 'dismissed'}
 SEVERITIES = {'critical', 'high', 'medium', 'low', 'unclassified'}
 REVIEWS = {'pending', 'verified', 'rejected', 'followup'}
 LOCK = threading.RLock()
+CATALOG_LOCK = threading.RLock()
 
 
 def now():
@@ -92,7 +93,9 @@ def catalog(fingerprint):
 
 
 def read_data():
-    data, allowed = catalog(catalog_fingerprint())
+    # Concurrent first requests must share one catalog construction.
+    with CATALOG_LOCK:
+        data, allowed = catalog(catalog_fingerprint())
     saved = annotations()
     books = {v['book_path']: bool(safe_file(v['book_path'])) for v in data['volumes']}
     allowed = allowed | {p for p, exists in books.items() if exists}

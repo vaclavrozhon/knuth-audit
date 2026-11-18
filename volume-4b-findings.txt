@@ -1,0 +1,2092 @@
+TAOCP Volume 4B: working corrections
+
+These 274 notes come from an AI-assisted audit. I have checked only some
+of them myself; they are suggestions for review, not author-confirmed errata.
+The source is the first edition, second printing (2022). Page numbers refer
+to printed pages. The notes are grouped by topic, with exercise statements
+and answers kept together. XXX marks items we have already discussed.
+Detailed evidence is in findings/; data/volume-4b-findings-index.json maps
+the item numbers below to those files. Updated after the November 17 audit.
+
+Mathematical preliminaries
+
+1. Mathematical Preliminaries Redux, p. 9, sentence after (38)
+
+History-dependent interval endpoints need a fixed upper bound v on the sum
+of squared widths; the valid tail bound is then exp(−2x^2/v). For a
+counterexample to the unrestricted statement, let (Y_1,Y_2) be (1,0),
+(−1,2), (−1,−3) with probabilities 1/2,3/10,1/5, respectively; both
+increments have conditional mean zero. Take the first interval as [−1,1],
+and the second as [−1/4,1/4] when Y_1=1 and [−3,2] otherwise. Then
+P(Y_1+Y_2≥1)=4/5, but even the average proposed bound,
+(exp(−8/17)+exp(−2/29))/2, is less than 11106/14167<4/5.
+
+2. Mathematical Preliminaries Redux, answer 11, p. 372
+
+The tie event must be |X_1−alpha|=|X_2−alpha|, not X_1=X_2. For independent
+fair signs with alpha=0, the distance comparison has probability 1, but
+(1+P(X_1=X_2))/2=3/4. The smallest repair is to change the printed equality
+to ≥; alternatively keep equality and use the equal-distance event. The
+argument then proves the stated conclusion.
+
+3. Mathematical Preliminaries Redux, answer 26 (p. 374)
+
+The statement that Newton's coefficient inequalities were finally proved by
+Sylvester in 1865 should credit Maclaurin's 1729 proof for the same-sign
+real-root case needed here. Sylvester's cited paper concerns the stronger
+root-counting rule and distinguishes it from the earlier coefficient
+criterion. The mathematical argument in the answer is unaffected.
+
+4. Answer MPR 28(b), p. 374
+
+The endpoint choice should be epsilon=-min(p_(n-1),1-p_n), not
+delta=-min(p_(n-1),1-p_n). For the two probabilities 1/4 and 3/4,
+epsilon=-1/4 changes their product by delta=-3/16. Substituting -1/4 for
+delta would make a probability negative.
+
+5. Mathematical Preliminaries Redux, answer 38, p. 376
+
+Remove X_0 from the final conditioning list. The restricted growth string
+and the specified prefix start at X_1; an added variable X_0 is undefined
+and could, if supplied arbitrarily, change the conditional expectation.
+
+6. Mathematical Preliminaries Redux, answer 67(c), p. 380
+
+For the profit after n trials, sum Y_0 through Y_(n−1), not through Y_n. Two
+initial losses make the printed expression at n=1 equal −3, although the
+profit after one trial is −1.
+
+7. Mathematical Preliminaries Redux, answer 68(d), p. 380
+
+The tail is asymptotic to sqrt(2/(pi n)), not 1/sqrt(pi n). The preceding
+exact expression is binomial(2k,k)/4^k with k=floor(n/2), whose asymptotic
+gives the missing factor sqrt(2).
+
+8. Mathematical Preliminaries Redux, answer 74, p. 381
+
+The level-n probability should be A(n+1,r−1)/(n+1)!, with A denoting the
+Eulerian numbers, rather than A(n,r−1)/n!. At level 1 the diagram gives
+probabilities 1/2,1/2, while the printed formula gives 1,0. The following
+permutation explanation also uses n+1 elements.
+
+9. Mathematical Preliminaries Redux, answer 77, p. 382
+
+The parenthetical example of a time-constant auxiliary sequence does not
+work for every martingale. Let Z_0=0 and Z_n=xi for n≥1, where xi is a fair
+±1 sign; this is a bounded martingale in its own history. If X_n=Y at every
+time, adaptedness would make xi determined by Y, giving E(Z_1|Y)=xi rather
+than Z_0=0. One can use the martingale’s own history instead of a
+time-constant helper.
+
+10. Mathematical Preliminaries Redux, exercise 82(a), p. 19
+
+The requested transition range should end at n=50, not n=51. The transition
+at n=51 would require Z_52, whose displayed ratio is 0/0 for every deck.
+Alternatively, an explicit constant continuation after the last defined term
+would be needed.
+
+11. Mathematical Preliminaries Redux, answer 83, p. 382
+
+The sum should have summand X_k−E(X_k), not X_n−E(X_n). As printed it is
+n(X_n−E(X_n)), which need not be a martingale: take X_1 to be a fair 0/1
+variable and all later X_n=0. The intended partial sum uses each centered
+increment once.
+
+12. Mathematical Preliminaries Redux, answer 84(a), p. 382
+
+Conditioning on the full Z history is not the same as conditioning on the
+transformed history. Take f(z)=z^2 and (Z_0,Z_1)=(-1,-1),(1,0),(1,2) with
+probabilities 1/2,1/4,1/4, then keep the process constant: E(Z_1^2|Z_0) is 1
+or 2, whereas E(Z_1^2|Z_0^2)=3/2. After applying conditional Jensen,
+condition both sides once more on the transformed history. This proves the
+intended submartingale claim without the false equality.
+
+13. Mathematical Preliminaries Redux, answer 90(e), p. 383
+
+In each factor of the displayed product, change exp(c_k^2 t^2/4) to
+exp(c_k^2 t^2/8). Since c=sum(c_k^2)/2, the printed constant terms multiply
+to exp(ct^2/2), not the claimed exp(ct^2/4). The final exponent ct^2/4 and
+the resulting fixed-width tail bound should remain unchanged.
+
+14. Mathematical Preliminaries Redux, answer 96, p. 384
+
+Center the binomial variable in the window: P(|X−n/2|<sqrt(n))=Theta(1).
+Here X counts heads, so the printed P(|X|<sqrt(n)) tends to zero; for n≥16
+it is at most exp(−n/8). The final classification does not change.
+
+15. Mathematical Preliminaries Redux, answer 103(b), p. 385
+
+Change g_112 to g_122 in the first transition from state 012: input bit 1
+sends that state to 122. For output 2, the word 11 has probability 1/4,
+whereas the printed recurrence gives coefficient [z^2]=0. The final
+generating function already uses the correct transition.
+
+16. Mathematical Preliminaries Redux, answer 109(c), p. 386, network arcs
+
+The arcs to remove are x_i→y_j, not x_i→x_j. The middle arcs of the stated
+network join the x layer to the y layer; deleting the named x-to-x arcs
+leaves forbidden couplings available. Even on a two-element chain, the
+resulting full crossed flow can violate the required order.
+
+17. Mathematical Preliminaries Redux, answer 109(c), p. 386, cut proof
+
+Use the lower closure A={x: x≤a for some a outside J}, not the upper
+closure, and put B=P\A. The accompanying closure statement should be A=A↓ or
+B=B↑, so that the lower-set inequality p(A)≥q(A) applies. On the chain
+{1<2}, with p=(3/4,1/4), q=(1/4,3/4), I={1,2}, J={1}, the printed choice
+makes the asserted chain of inequalities 5/4≥1/2≥1. The corrected closures
+give the intended cut argument.
+
+18. Mathematical Preliminaries Redux, answer 111(b), p. 387
+
+The sketch values belong to the image of A∪B under the permutation, not
+necessarily to A∪B itself. For A=B={1} and permutation 21, both sketches
+equal 2. Replace the union by its image, or apply the inverse permutation to
+the sketches; the stated collision probability is unchanged.
+
+19. Mathematical Preliminaries Redux, answer 112(b), p. 388
+
+In each of the first, third, and fourth tableaux, replace entries 3,9,12 by
+1032,3210,0321, respectively, using 0 for a blank; the printed entries are
+1302,0213,3021. They belong to the other branch and do not preserve the
+chosen placements. Completing the first printed branch makes position 2 beat
+position 3 in seven of twelve permutations instead of six, so these are not
+just harmless reorderings. The second tableau and the general construction
+are correct.
+
+20. Mathematical Preliminaries Redux, notes after exercise 113 (p. 388)
+
+The bound attributed to the 1896 paper has the wrong error term. With that
+reference, write psi(n)=n+o(n); the later 1899 result gives an error with
+exp(-c sqrt(log n)), rather than exp(-C log n). This corrects the statement
+of the cited result, without asserting that the stronger formula is false.
+
+21. Mathematical Preliminaries Redux, answer 113(a), p. 388
+
+The auxiliary probability is 1/(n−k+1+t), not 1/(n−k+t), because {k,…,n}
+together with t smaller elements has n−k+1+t elements. At n=5, k=4, the
+printed inclusion–exclusion sum is 1/4, whereas the event occurs in 6 of the
+120 permutations, giving 1/20. Inserting the missing +1 gives that value.
+
+22. Mathematical Preliminaries Redux, answer 116, p. 389
+
+The top coefficient is (−1)^(m+1), not (−1)^m, since the product of the
+(1−x_e) terms is subtracted. With five parallel edges over the field of
+three elements, the coefficient is 1 rather than 2. It is still nonzero, so
+the existence argument is unaffected.
+
+23. MPR exercise 121(d), p. 24
+
+The entropy formula should be E lg(1/y(Y)), not E lg(1/Y). If Y is always 2,
+its entropy is zero, while the printed expression gives -1.
+
+24. MPR exercises 121 and 124, pp. 24–25; answer 121(b), p. 390
+
+The expectation identities require y(t)=0 whenever x(t)=0. If X is always 0
+and Y is uniform on {0,1}, then E(rho(X) lg rho(X))=-1/2, while the
+divergence sum is infinite, and E rho(X)=1/2 rather than 1. The introductory
+identity in exercise 124 also fails for f=1: its two sides are 1 and 1/2.
+The finite-divergence assumptions in the later theorem already imply the
+missing support condition.
+
+25. MPR exercise 123, p. 25
+
+The mixture should be z_k(t)=p_k y(t)+(1-p_k)x(t), because A selects Y and
+Pr(A)=p_k. For x=(3/4,1/4), y=(1/4,3/4), and p_k=1/4, the correct mixture is
+(5/8,3/8), while the printed formula gives (3/8,5/8). The later Bayes
+calculation uses the intended weights.
+
+26. Answer MPR 124, p. 390
+
+The proof needs the triangle inequality with absolute values on all three
+terms, followed by expectations; the sample tail bound is not a pointwise
+bound. It also needs an expectation before identifying squared error with
+variance. For x=y=(1/2,1/2), f=(0,1), and n=2, the squared error is 0 or
+1/4, while its expectation is the variance 1/8. These are errors in the
+proof; the theorem with the published statement correction remains true.
+
+27. Mathematical Preliminaries Redux, answer 125(e), p. 391
+
+Change the reference from part (c) to part (d). The induction adds two
+log-convex sequences, and closure under addition is the result proved in
+(d).
+
+28. Answer MPR 127(b), p. 391
+
+The rounding of theta*n leaves a bounded term that cannot be included in
+O(1/n). Add -{theta*n} lg((1-theta)/theta), where braces denote the
+fractional part, or replace the remainder by O(1). For theta=1/3, the
+omitted term tends to -1/3 along n=3k+1 but is zero along n=3k. The final
+order estimate is unchanged.
+
+29. Answer MPR 130(e), p. 393
+
+In the joint-density factor, (z-q*y/p)^2 should be ((z-q*y)/p)^2: p divides
+the whole difference z-q*y. For p=q=1/2, z=1, y=0, the two expressions are 1
+and 4.
+
+30. Answer MPR 130(e), p. 393
+
+The value of the integral should be pi/[p(1+z^2)], not 1/[p(1+z^2)]. With
+p=q=1/2 and z=0, the integral is 4 times the integral of (1+y^2)^(-2), hence
+2*pi rather than 2. The final Cauchy distribution is correct.
+
+31. Answer MPR 132(a), p. 393
+
+The second upper parameter of the hypergeometric function should be -n
+rather than -N. For N=4, K=2, n=1, the printed expression is 1/2+2z+z^2,
+whereas the probability generating function is (1+z)/2.
+
+32. Answer MPR 132(b), p. 393
+
+The variance needs a factor K: n*K*(N-n)*(N-K)/(N^3-N^2). With N=4, K=2,
+n=1, the number of green balls drawn is 0 or 1 with equal probabilities, so
+its variance is 1/4. The printed formula gives 1/8.
+
+XXX 33. MPR Exercise 134(b) (pp. 27 and 394)
+
+On p. 27, the bound should be 2 exp(-epsilon^2 m/2), rather than
+2 exp(-2 epsilon^2 m). With m=1, epsilon=0.9, and two independent
+samples from a fair coin, the empirical frequencies differ with
+probability 1/2, but the printed bound is about 0.396.
+
+In the answer on p. 394, the tail threshold should be epsilon*m/2
+instead of epsilon*m. With this change, the proof gives the bound
+above, which is enough for part (c).
+
+34. Answer MPR 137(d), p. 395
+
+For x<m, the expression should be c-m+2 max(0,x-c). With m=1, c=0, x=-1, the
+difference of distances is -1, while the printed expression gives -3. The
+following lower bound and the theorem remain correct.
+
+35. Mathematical Preliminaries Redux, answer 140(a), p. 396
+
+For fixed 0<p<1 and q=1−p, the expected number of unmarked records is
+2q/p+2q/(p^2 n)+O(n^(-2)), not 2q/p+O(q^n/n). At p=q=1/2, the excess above 2
+is at least 1/(4n) for n≥16, already excluding an exponentially small
+remainder. The cited Banderier–Beier–Mehlhorn paper also includes the
+2q/(p^2 n) term (https://lipn.univ-paris13.fr/~cb/Papers/smoothed.pdf). The
+preceding estimate for marked records is unchanged.
+
+36. Mathematical Preliminaries Redux, answer 140(e), p. 396
+
+The comparison P(*)≤P(**) fails for fifty zeros followed by fifty ones,
+epsilon=1/4, and k=51, for which m=5 and Delta_k=1. Since the noise delta_k
+lies in [−1/4,1/4], event (*) always holds and (**) never holds, giving 1≤0.
+Instead bound the events separately: P(*)=min(Delta_k/(2 epsilon),1) and
+P(**)≤1/(m+1) for k>m. These bounds give the intended final estimate.
+
+37. Mathematical Preliminaries Redux, answer 145, p. 397
+
+The denominator in the coefficient ratio should be product from j=1 to n of
+(2k_j−1)!!, not the product through m. There is one factor per coordinate.
+For n=3, m=2, and (k_1,k_2,k_3)=(0,0,2), the printed ratio is 3 while the
+actual ratio is 1; including the third factor gives 1.
+
+Backtracking: search and enumeration
+
+38. §7.2.2, p. 36, trie description
+
+The prefix-length range should be 0≤l<n, not 0≤l≤n. Full words are already
+represented by the ranks on the final links, so they need no 26-entry nodes.
+The stated 23,667 nodes correctly counts proper prefixes; including full
+six-letter words would give 39,394.
+
+39. Main text, first paragraph, p. 37
+
+After SLUMS and TOTAL, 62 words in WORDS(5757) satisfy the five printed
+letter restrictions, not 221. Intersecting those five restrictions gives the
+corrected count.
+
+40. Algorithm C, pp. 45–46
+
+The algorithm visits codes with at least g words, not exactly g words as
+stated. With m=2,g=2, it visits fifteen two-word codes and fourteen
+three-word codes. Either change the description to "at least g", or visit a
+code only when the remaining slack s is zero.
+
+41. Answer 7.2.2–5, p. 398
+
+The recursive loop must run over values in the domain, not over every
+integer between its minimum and maximum. With one variable, domain {1,3},
+and an always-true predicate, the printed loop visits the forbidden value 2.
+The nonrecursive Algorithm B handles this domain correctly.
+
+42. Answer 7.2.2–22, p. 400
+
+The loose-Langford modification needs two more backtracking checks: reject
+conflicting symmetry and deadline choices, and also put "if ell=h and k=n',
+go to L5" at the start of L4. For n=6, the first missing check makes the
+algorithm output 13 representatives rather than 10. For n=10, the reachable
+prefix (1,-1,9) forces label 8 into an occupied second slot, and the scan
+repeats forever between labels 8 and 10. The added L4 check handles this
+failed placement; the existing L5 change handles only a placement that had
+succeeded.
+
+43. Answer 7.2.2–27, p. 401
+
+The memory-access count should be about 1.83 Tμ, not 18.3 Tμ. A completed
+run of the unmodified author program used 1,828,460,227,444 accesses and
+produced the stated 625,415 solutions, profile, and mean domain sizes. Even
+a conservative bound from the printed profile is below 6.636 Tμ, so the
+factor-of-ten discrepancy does not depend only on that run.
+
+44. Answer 7.2.2–32, p. 402, second Strand citation
+
+Change Strand 56 (1919), 74 to Strand 56 (1918), 74. The volume covers
+July–December 1918, and page 74 contains the cited NESTLES word square.
+
+45. Answer 7.2.2–33, p. 402
+
+The two word-length labels are exchanged. The trie with 6347 nodes belongs
+to the five-letter words, and the compressed trie with 63060 entries belongs
+to the six-letter words. The numerical sizes themselves are correct.
+
+46. Answer 7.2.2–38, p. 404
+
+For n=9, the probability should be 1-3*(r^3-r)/(m^9-m^3), where r=(m^3-m)/3,
+not 1-3/binom(m^3-1,3). For m=2, exactly 486 of the 504 aperiodic words
+finish in one round, giving 27/28 rather than 32/35. The generating function
+immediately above the probability is correct.
+
+47. Answer 7.2.2–44(b), p. 404
+
+The selection should use the class c chosen in part (a): if r=0, set x<- -1;
+otherwise set x<-MEM[CLOFF+4c]. The printed expression instead uses the
+class of the old x. For m=2,g=3, after choices 0001 and 0011 it returns the
+already selected 0011, rather than the sole available word 0111 in the new
+class. The BACK-COMMAFREE4 code already uses the selected class correctly.
+
+Backtracking: estimates and random walks
+
+48. §7.2.2, p. 49, binomial-tree example
+
+For n=100, the probability that the termination level l is at least 20 is
+1.9519870726687698 × 10^(-8). The printed 2.7 × 10^(-9) belongs to l≥21, so
+either the threshold or the probability should change.
+
+49. Answer 7.2.2–49, p. 406
+
+For a single uniform choice among five outcomes, starting without saved
+random state, 10/3 fresh fair bits on average is not enough. Just the
+initial terms of the bit-count lower bound sum to 27/8, already larger than
+10/3. The exact optimum for one choice is 18/5, achieved by recycling
+rejected bit patterns within that choice. This does not rule out lower
+average costs when saved random state is reused across several choices.
+
+50. Answer 7.2.2–53, p. 406
+
+The second-moment update needs +2*c(x_1...x_(ell-1))*COST[ell] rather than
++2*COST[ell]. A tree consisting of a root and one child, both of cost 2,
+always gives estimate 4, but the printed recurrence gives second moment 12
+and variance -4 instead of zero. The general recurrence above it is correct.
+
+51. Answer 7.2.2–54, p. 407
+
+In the last factor of the path probability, the conditioning prefix must end
+at x_(ell-1), not x_ell. The next choice is made from the parent node; the
+printed distribution can be undefined at the resulting leaf. The weighting
+rule itself is unchanged.
+
+52. Answer 7.2.2–58, p. 407
+
+Move the return label (*) past “Set u←T, T←S←Λ”, to the following loop over
+the neighbors of u. Otherwise returning to (*) overwrites the next vertex
+and clears the lists being built. For the star with edges 01,12,13 and
+target 0, deleting vertex 1 gives a layer containing vertices 3 and 2; after
+processing 3, the return replaces vertex 2 by Λ. The February 2025
+correction does not move this label; WALK-RANDOM already has the intended
+loop structure.
+
+Backtracking: other applications
+
+53. Figure (123), p. 121
+
+The edge from state 01111011 should end at 00101011, not 00101101. The
+source contains items 2,3,4,5,7,8; selecting pair {2,4} leaves {3,5,7,8},
+whereas the drawn destination wrongly introduces item 6.
+
+54. Answer 7.2.2–62, p. 409, first percentage distribution
+
+The percentages add to 110.9%. The final entry 12.2 should be about 1.2: the
+exact weighted count gives 1.2104667080%.
+
+55. Answer 7.2.2–64, p. 409, B/A/D illustration
+
+The B/A/D pattern described as impossible has eight valid orientations. Hide
+the rotated-A face and its opposite, and put O on the remaining unspecified
+faces; the visible letters can then all be valid. Rotating the displayed D
+by 90° gives the intended impossible pattern. The solution counts for the
+actual puzzle are unchanged.
+
+56. Answer 7.2.2–66, p. 410
+
+The intermediate claim that the north–south sum is never 24 fails because
+9+7+4+4=24. Two rotations meet that sum; they are instead excluded by their
+northeast–southwest sums, which are 19 and 20. The final puzzle solution is
+unchanged.
+
+57. Exercise 7.2.2–70, p. 60, final asymptotic estimate
+
+The additive error in rho_m=2^m+O(1) grows with m. The recurrence in answer
+70 gives the more precise expansion rho_m=2^m+3m−15/2+O(m^2/2^m), so O(m)
+would be a correct shorter replacement. For example, rho_m−2^m is about
+52.49857 at m=20 and 112.50000 at m=40. The initial polynomials and
+recurrence in the answer are correct.
+
+58. Answer 7.2.2–78, p. 414
+
+The initial singleton should be visited only when WT(v)≥L. With two adjacent
+vertices of weight 1 and bounds L=2, U=3, the printed procedure outputs
+singletons of weight 1. It should still search from an underweight
+singleton, since adding a vertex can bring its weight into range; only the
+visit needs the extra test.
+
+59. Answer 7.2.2–79(h), p. 415
+
+The subtraction of 1 in h(w,z) belongs outside the whole product:
+h(w,z)=(1+3wz^2+2w^2z^3+w^2z^4+w^3z^4)^8 (1+2wz^2+w^2z^3)^4−1.
+At switch setting 11, each of the 32 pedals gives a distinct new three-pipe sound, so the coefficient of z^3 in h(z,z) is 32; the printed expression gives only 8. Only the empty sound should be excluded, and the corrected formula agrees with the numerical examples in the answer.
+
+60. Answer 7.2.2–79(g,h), p. 415
+
+The number Q_811 is 8, not 12. The pedal that is turned off must have index
+12≤j<20, rather than 12≤j<24: turning off pedal 20, for example, silences
+three pipes, not one. The pedal polynomial also gives coefficient 8.
+
+Dancing links: basic algorithms and queens
+
+61. Answer 7.2.2.1–14, p. 418, expansion of u_n/n!
+
+In the expanded sum, change T_(n−1), T_(n−2), T_(n−3) to T_(n−2), T_(n−4),
+T_(n−6). The compact sum immediately before it already has the correct index
+n−2j. At n=3, the printed expansion gives −5/6 instead of the correct
+u_3/3!=1/6.
+
+62. Answer 7.2.2.1–22(c), p. 420, n=16 entry
+
+The last count should be 1,220,918, not 1,220,908. This also follows from
+the other printed counts: (14,772,512−454,376−8×568,849)/8=1,220,918.
+
+63. Answer 7.2.2.1–23(a), p. 420, sample options
+
+The sample group has a=2, not a=1, since its top-row queen is in column 2.
+Its bottom-row partner should be “r16 c15 a31 b1 y1 y2 y4”, rather than the
+printed option with c14; if c14 is retained, y1 must be removed. This extra
+y1 is a real false conflict: the valid row-by-row placement
+3,5,8,10,13,2,6,1,16,11,15,4,7,9,12,14 satisfies the stated boundary
+inequalities but is rejected by that marker.
+
+XXX 64. Answer 7.2.2.1--24 (pp. 420--421)
+
+Both filters at the end of the answer remove all solutions when n=4.
+The two solutions are 2413 and 3142, where the digits give the columns
+of the queens in successive rows. Both are unchanged by a 90-degree
+rotation, but neither survives the printed filters.
+
+For the 180-degree case, discard an option only if its actual queen
+in the first row is in a column k>n/2. The row and column items in a
+merged option can come from different queens, so their presence alone
+is not enough to make this test. For the 90-degree case, keep only
+one copy of each set of items instead of using the printed filter.
+
+65. Exercise 7.2.2.1–32(d), p. 127; answer p. 422
+
+The hypothesis should say that every option has the same positive number of
+primary items. Equal total size is insufficient: with primary a,b and
+secondary x,y, the options ab, ax, by all have size 2, but their two
+solutions are 100 and 011, at Hamming distance 3. The answer already uses
+the stronger primary-item condition, under which every solution has the same
+number of options.
+
+66. Answer 7.2.2.1–37(a), p. 423
+
+The relation should be a[q_i,i]=1, with the indices exchanged. Already
+q_2=3, while the displayed recurrence gives a[2,3]=5 and a[3,2]=1. The
+assertion that the queen sequence is a permutation is unchanged.
+
+67. Answer 7.2.2.1–39(b), p. 424; exercise p. 127
+
+Since sampling is with replacement, repeated options give separate indexed
+solutions. For n=kr, put N=binomial(n,r), P=n!/(k!(r!)^k), and let
+(m)_k=m(m−1)…(m−k+1); the expected number of solutions is P(m)_k/N^k, not
+the probability of seeing a partition multiplied by P. With n=2, r=1, m=3,
+the correct mean is 3/2 rather than 3/4: the particular input a,a,b has two
+indexed solutions. The change in the large numerical examples is small.
+
+Dancing links: sudoku and related puzzles
+
+68. §7.2.2.1, p. 78, figure (35b)
+
+In Behrens’s 9×7 rectangle, change the last entry of row 6 from 6 to 5. The
+printed row 6971426 repeats 6, as do its last column and box; 6971425
+satisfies all three conditions.
+
+69. §7.2.2.1, p. 82, second paragraph
+
+The last cell of the 20×3 board should be j2, not 2j, where j denotes 19.
+The row indices run from 0 to 19 and the column indices from 0 to 2, so 2j
+would lie outside the board.
+
+70. Answer 7.2.2.1–48(a), p. 425
+
+In the column chart, the entry for row 5 and value 5 should be 4, not 6. The
+original sudoku already fixes the 5 in cell (5,4).
+
+71. Answer 7.2.2.1–49(a,b), p. 425
+
+In the column construction in (a), the option p_(i,j0)c_(j0,k) gives the
+edge u_i–v_k, not u_j–v_k, because i is the varying row index. In (b),
+change n−q to r−q, using the size r defined in the question.
+
+72. Answer 7.2.2.1–57, p. 427, normalization count
+
+After fixing the first box and the first row 1472AB3CD as stated, there are
+432 solutions, not 864. The 864 count comes from a weaker condition that
+allows 2 and 3 to exchange the two right stacks; swapping those stacks pairs
+the solutions, with exactly one member meeting the printed first-row
+condition. Thus the count should be halved, or the normalization should be
+weakened.
+
+73. Answer 7.2.2.1–57, p. 427, isomorphism claim
+
+The claim that all these solutions are equivalent by row and column
+permutations also needs to allow a renaming of the digits. Without that
+operation there are six classes: each has 144 members under the weaker
+normalization, or 72 under the stated one. For example, one solution has the
+digit transition (1 2 3)(4 6 5)(7 8 9) between two rows, a transition absent
+from all ordered row pairs of the displayed grid; row and column
+permutations cannot remove that difference.
+
+74. Answer 7.2.2.1–65, p. 429, SUDOKU grid
+
+The second row should be DUSKO., not DUSK.O: exchange the O and the dot. The
+printed last column repeats O in rows 2 and 5. This is separate from the
+published June 2022 correction to the first row.
+
+75. Answer 7.2.2.1–69, p. 431, N6 count
+
+There are 1,647 admissible convex nonomino placements containing six B
+cells, not 1,467. This is a count of individual placements; the final counts
+of complete districtings are unchanged.
+
+76. Answer 7.2.2.1–75(b), p. 432
+
+The identity should be f(t XOR f(t))=t, using bitwise exclusive-or, rather
+than f(t+f(t))=t. For the fourth table, f=(0,2,3,1), ordinary addition at
+t=2 asks for the undefined f(5); interpreting the addition modulo 4 still
+fails at t=3. The multiplication tables themselves are correct.
+
+77. Answer 7.2.2.1–76(c), p. 432
+
+The reduced item set should also omit x=y, not just x=0 or y=0. Having
+identity 0 forces x∘x=0, so none of the remaining options covers a positive
+diagonal item xx. The two-element XOR table 01/10 is already a
+counterexample: it is a valid table, but the printed reduction leaves item
+11 with no option to cover it.
+
+Dancing links: colors, constraints and tilings
+
+78. §7.2.2.1, p. 87, footnote on the Acta Mathematica index
+
+The 1913 index cannot mark the journal’s 21st birthday: the first issue
+appeared in December 1882, so the 21st anniversary was in 1903. The index’s
+title page dates it 1913 and says that it covers 1882–1912. I suggest
+stating those dates and dropping the birthday claim.
+
+79. Exercise 7.2.2.1–83, p. 132; answer p. 433
+
+Distinct final secondary items are not a strong enough condition for the
+extension. With primary p,q and secondary a,b,c, consider options p a / p a
+b / p c / q a, choosing p first: the second branch covers a twice, and on
+return wrongly restores q a, so the third branch accepts p c together with q
+a even though its earlier marker a must remain unused. A sufficient extra
+condition is that each uncolored terminal marker occurs only in its own
+option among the options for the chosen item. The published j>N1 correction
+does not address this problem.
+
+80. Answer 7.2.2.1–86, p. 434, change to C6
+
+C6 cannot simply be emptied: it must still undo the chosen option in reverse
+order and restore i=TOP(x_l). With just the two singleton options p and q,
+the printed trial uncovers q twice and leaves p covered, so the next trial
+sees a different tree. Retain those restoration steps, then go to C7 without
+advancing to another option.
+
+81. Answer 7.2.2.1–86, p. 434, cleansing-cost estimate
+
+After choosing one of theta options, a cleansing cost C should contribute
+D×theta×C, not DC. With primary p, secondary x, and options p x:A and p x:B,
+full search performs two cleansings, but every trial has D=1, theta=2, C=1
+and the printed estimator is always 1. The missing factor theta accounts for
+sampling just one of the two branches.
+
+82. Answer 7.2.2.1–86, p. 434, zero-option case
+
+When theta=0, the trial still needs to account for C4 before returning.
+Covering an empty selected item performs the LLINK(r) update: an input with
+one primary item and no options therefore costs one update, whereas the
+printed estimator gives zero. This error also occurs in nonempty inputs;
+with primary p,q and options p x / q x, the cost is 5 but the estimate is 4.
+
+83. Answer 7.2.2.1–91, p. 436
+
+For WORDS(500), the left-stair graph core has 12,269 arcs, not 13,677. Its
+6,280 vertices and the stated largest strong component, with 6,150 vertices
+and 12,050 arcs, are correct.
+
+84. Answer 7.2.2.1–92, pp. 436–437
+
+In the d_i options for right-down words, replace the row offsets i+j by i−j
+modulo p, keeping the reversed letter order. With the across rows WAVES /
+LINED / LEPER, the printed offsets demand DEPIW / REVEL / SENAL, whereas the
+actual right-down words are SEPAL / DEVIL / RENEW. The earlier correction to
+a marker name does not fix this diagonal direction.
+
+85. Answer 7.2.2.1–109, p. 442, connected-search example
+
+With the one-based coordinates defined in the answer, the forced items are
+H11, H31, V41, not H00, H20, V30. ZERO occupies cells 11,21,31,41, with cell
+51 empty.
+
+86. Answer 7.2.2.1–109, p. 442, claim after dropping condition (iii)
+
+After connectedness is dropped, a 5×11 rectangle is not minimal. The single
+row ZERO.ONE.TWO.THREE.FOUR.FIVE.SIX.SEVEN.EIGHT.NINE.TEN, with dots
+denoting empty cells, uses 43 letters and 10 separators, hence only 53
+cells. It meets the remaining word conditions, and the question places no
+lower bound on either side length. This example refutes 55 as the minimum
+without determining the true minimum.
+
+87. Exercise 7.2.2.1–120, p. 138, Hao Wang citation
+
+Change Scientific American 231 to 213. “Games, Logic and Computers” appeared
+in volume 213, issue 5, November 1965, pp. 98–106 (DOI
+10.1038/scientificamerican1165-98).
+
+88. Answer 7.2.2.1–120(b), p. 445
+
+Family (b) also admits a tiling with a period cell of area 3, in addition to
+the displayed 13-cell pattern. Numbering the tiles as shown, repeat the rows
+246 / 462 / 624 in both directions; all touching edges match, with no
+rotations or reflections. The exercise does not require every tile type to
+occur, so this smaller pattern is allowed.
+
+89. Answer 7.2.2.1–125, p. 447
+
+In both expanded-triangle formulas, the second coordinate should contain ky
+rather than kx. Taking k=1 and (x,y)=(0,1) already contradicts the printed
+identity.
+
+90. Answer 7.2.2.1–129, p. 449
+
+The number of weak but not strong left-right symmetry classes should be
+294457, not 281618. The branch with no fixed monochromatic cell gives 186846
+classes, and the other branch gives 107611, totaling 294457. This changes
+the reported count, not the definitions of the symmetry classes.
+
+91. Answer 7.2.2.1–134, p. 450
+
+The component counts should be P=1,685 and Y=243, rather than P=1,672 and
+Y=242. A set of 1,734 explicit inequivalent tilings already contains these
+larger numbers of P and Y components, so it alone refutes the printed
+counts. The full count of 13,328 classes gives these exact replacements; the
+other ten entries are unchanged.
+
+92. Answer 7.2.2.1–140(c), p. 454, third tetrahex
+
+Rotate the rightmost downward-pointing triangle in the third tetrahex by
+120° clockwise, placing its white corner at the bottom instead of the right.
+This repairs both white/pink mismatches and still uses each of the 24 tile
+types once.
+
+93. Answer 7.2.2.1–140(c), p. 454, book title
+
+The title of Odier and Roussel’s book is Surprenants triangles, with a final
+s in Surprenants. The French national library record and the original
+Trioker rules give that spelling.
+
+94. Answer 7.2.2.1–142(ii), p. 454, cylinder count
+
+The cylinder count should be 2×55,980, not 2×5,980. The complete counts give
+111,960 arrangements, paired by reflection; a smaller certificate of 5,981
+representatives and their reflected partners already exceeds the printed
+total of 11,960. The convention keeps the cut distinguished and identifies
+global color renamings.
+
+95. Answer 7.2.2.1–143(b,c), p. 455
+
+The 12×1 strip, with parameters (12,12,1,0), can be tiled by all 24 Langford triangles, so four of the six convex shapes are possible, not three. Here is a vertex-coloring certificate, with positions 0 through 12 in each row:
+top:     abbadccabcddb
+bottom:  aabcabaddccdb
+For each x=0,…,11, its two triangles have counterclockwise color triples (bottom[x],bottom[x+1],top[x]) and (top[x+1],top[x],bottom[x+1]); these give all 24 types exactly once up to rotation. The shared vertices already have matching colors, so the certificate can be checked without any search.
+
+96. Answer 7.2.2.1–146, p. 456, Gardner reference
+
+Change “question (c)” to “question (d)” in the reference to Gardner’s
+September 1978 article. That article asks whether all thirty cubes can be
+partitioned into five six-cube rows, which is part (d); part (c) asks how
+many individual rows there are.
+
+97. Answer 7.2.2.1–147(b), p. 457, 2×2×4 table
+
+Four rows in the 2×2×4 symmetry table need the following replacements, with the columns still counting classes with 1,2,4,8 symmetries:
+aa×bc×dd: (0,3,4,2) → (0,3,4,1)
+aa×bc×de: (0,11,14,2) → (0,11,12,2)
+ab×cd×ee: (0,2,2,3) → (0,2,2,4)
+ab×cd×ef: (0,1,1,1) → (0,1,3,1).
+The errors cancel in the total, which remains 48 classes and 244 normalized arrangements. In particular, five explicit constructions with six distinct exterior colors already exceed the three classes printed in the last row.
+
+98. Exercise 7.2.2.1–150, p. 143; answers pp. 458–459
+
+The pictured Endless Chain set has one L-domino and two S-dominoes, while
+the answers use two L-dominoes and one S-domino. In the printed set, exactly
+three pieces have an odd number of horizontal path ends; rotation preserves
+this parity, but a closed chain must pair those ends, so no closed chain is
+possible. Replace one S-domino by a second L-domino to obtain the inventory
+used by all four answers.
+
+Dancing links: packing and multiple covers
+
+XXX 99. Answer 7.2.2.1--158 (p. 461)
+
+The 30x15 rectangle for n=6 is not optimal. Here is a packing in a
+28x16 rectangle, with area 448 instead of 450. The exercise on p. 144
+asks for a rectangle containing the squares without overlap, so empty
+cells are allowed.
+
+Each character is one unit cell. Cells with the same letter form one
+square, and dots are empty cells.
+
++----------------------------+
+|BBDDDKKKKKPPPPPPQQQQQQRRRRRR|
+|BBDDDKKKKKPPPPPPQQQQQQRRRRRR|
+|A.DDDKKKKKPPPPPPQQQQQQRRRRRR|
+|GGGG.KKKKKPPPPPPQQQQQQRRRRRR|
+|GGGG.KKKKKPPPPPPQQQQQQRRRRRR|
+|GGGGCC....PPPPPPQQQQQQRRRRRR|
+|GGGGCCLLLLLMMMMMSSSSSSTTTTTT|
+|UUUUUULLLLLMMMMMSSSSSSTTTTTT|
+|UUUUUULLLLLMMMMMSSSSSSTTTTTT|
+|UUUUUULLLLLMMMMMSSSSSSTTTTTT|
+|UUUUUULLLLLMMMMMSSSSSSTTTTTT|
+|UUUUUUNNNNNOOOOOSSSSSSTTTTTT|
+|UUUUUUNNNNNOOOOOHHHHIIIIJJJJ|
+|EEEFFFNNNNNOOOOOHHHHIIIIJJJJ|
+|EEEFFFNNNNNOOOOOHHHHIIIIJJJJ|
+|EEEFFFNNNNNOOOOOHHHHIIIIJJJJ|
++----------------------------+
+
+A           = 1x1
+B,C         = 2x2
+D,E,F       = 3x3
+G,H,I,J     = 4x4
+K,L,M,N,O   = 5x5
+P,Q,R,S,T,U = 6x6
+
+This uses one 1x1 square, two 2x2 squares, and so on up to six 6x6
+squares. Their total area is 441, leaving seven empty cells.
+
+100. Answer 7.2.2.1–160, p. 461
+
+The largest small component has 20 placements, not 12, and the component
+containing the last picture in (65) has 20 placements rather than 8. That
+component has 26 edges. The total of 589 components, the 388 isolated
+placements, and the large component of size 3804 remain correct.
+
+101. Answer 7.2.2.1–162(e,h), p. 462
+
+The counts up to the eight symmetries of the square should be 19 and 116 in
+parts (e) and (h), not 4 and 28. The labeled counts split as 144=17*8+2*4
+and 896=108*8+8*4. Even merging inner patterns according to the suggested
+encoding gives 5 and 30, so that interpretation does not recover the printed
+counts.
+
+102. Answer 7.2.2.1–167, p. 463
+
+Changing a nonbinding upper bound can change the SLACK tie breaker from
+answer 166, so it need not leave the search unchanged. With primary items B
+of multiplicity 2..6 and A of multiplicity 1..4, secondary items X,Y,U,V,W,
+and options AX,AY,BU,BV,BW, changing A's upper bound from 4 to 5 changes the
+first chosen item from A to B. Both inputs have the same 12 solutions, but
+their search trees have 37 and 35 nodes. The claimed equivalence needs the
+further assumption that item selection is unchanged.
+
+103. Volume 4B errata dated 13 March 2026, Kautz reference for answer 7.2.2.1–172, p. 465
+
+The new page range 179–189 in the erratum should be 179–180. IEEE’s metadata
+for DOI 10.1109/TEC.1958.5222529 identifies a two-page article.
+
+104. Answer 7.2.2.1–173, p. 466, historical paragraph
+
+The December 2018/January 2019 MAA Focus cannot be the first publication of
+these variants. Nacin posted knight sudoku on 16 May 2018 and bishop sudoku
+on 6 June 2018, and four of his Knightdoku puzzles appeared in the September
+2018 College Mathematics Journal. These dates give earlier public examples;
+they need not be claims about the earliest possible origin.
+
+105. Answer 7.2.2.1–177(b), p. 467
+
+The binomial coefficient in the recurrence should be binom(t,k), not
+binom(n,k). The variable n is not a parameter of this recurrence. The stated
+value of Q(5,5) is unchanged.
+
+Dancing links: analysis and counting
+
+106. §7.2.2.1, p. 104, introduction to example (90)
+
+Example (90) is an X2C problem, not a 2DM problem under the preceding
+definition. The options 14,15,45 form a triangle, so the graph is not
+bipartite. This change of name leaves the impossibility claim and the
+search-tree calculation unchanged.
+
+107. Answer 7.2.2.1–180, p. 468
+
+The displayed row o_6 should not contain i_2. The preceding argument puts
+i_2 in exactly o_2,o_3,o_4,o_5, so adding it to o_6 contradicts that count.
+The staircase rows 1000,1100,1110,1111,0111,0011,0001 give a strict example
+with the intended structure.
+
+108. Equation (76), pp. 99–100; exercise 7.2.2.1–181
+
+The initial value should be D(1)=2: the strict one-option problem {a} has a
+root and a solution leaf. The underestimate also affects larger instances:
+the five options a,b,c,ab,bc have seven search-tree nodes, while the table
+gives D(5)=6. With the same recurrence and corrected initial value,
+D(0),...,D(11) are 1,2,3,4,6,8,10,14,19,25,33,43, and the constants in
+exercise 181 become (200,263,350,464,608)/96. The exponential upper bound is
+unchanged.
+
+109. Answer 7.2.2.1–187(b), p. 468
+
+The general differential equation should be T_(r,s)'(z)=exp(z)T_(r,s)(z)+z^r
+exp(sz). The factor exp(sz) follows by differentiating the defining
+integral. Alternatively, restrict the displayed identity explicitly to s=0,
+which is the case needed here.
+
+110. Exercise 7.2.2.1–189, p. 148
+
+The integral defining R(z) needs a leading minus sign. Writing g for the
+Euler--Gompertz constant, the definition rho_n=G_n-g B_n gives R(0)=-g,
+while the printed integral gives +g. The estimates of absolute values are
+unaffected.
+
+111. Answer 7.2.2.1–189(a), p. 469
+
+For z=x+iy, |exp(-exp(z))| is exp(-exp(x) cos y), not exp(exp(-x) cos y). At
+z=0 the correct value is 1/e, while the printed expression gives e. The
+December 19, 2019 replacement answer contains the same misplaced minus sign.
+
+112. Answer 7.2.2.1–189(c), p. 469
+
+The first term should be g/e, not g/3, where g is the Euler--Gompertz
+constant. Substituting x=exp(t)-1 gives integral_0^infinity exp(-exp(t))
+dt=g/e. In the next sentence, the modulus being maximized should be
+|exp(-exp(uz))|, with the minus sign inside the outer exponential.
+
+113. After answer 7.2.2.1–189(d), p. 469
+
+The first integral for the limiting tail-size probability g_k needs (k-1)!
+rather than k! in its denominator. Integration by parts shows that the
+second displayed integral is k times the printed first one. The cited
+paper's Corollary 4 has the correct factor.
+
+114. Historical note after answer 7.2.2.1–189, p. 469
+
+The formula F(x)=1−a^(1−b^x) is not a distribution for all positive a,b.
+Taking a=4, b=1/2, x=1 gives F(1)=−1. For a proper distribution of the
+displayed form on x≥0, require a>1 and b>1.
+
+115. Exercise 7.2.2.1–191, p. 148; answer, p. 469
+
+The statement should say "set partition", not "set permutation": the tail is
+the last block of a partition. In the answer, the gamma-series expression
+for G(z) needs an additional constant -e. At z=0, the printed expression is
+e, but the defining probability generating function has G(0)=0. Its
+derivatives, and hence the stated mean and variance, are unchanged.
+
+116. Answer 7.2.2.1–196(i), p. 470
+
+The branch sequence should start Y_9, X_1, Y_8, not Y_9, X_2, Y_8. After the
+forced choice X_9 Y_9, X_1 has two options and X_2 has four, so the
+minimum-column rule cannot choose X_2.
+
+117. Answer 7.2.2.1–196(h), p. 470
+
+Both factorial signs are missing from Pi_n: the expression should be
+floor((n+1)/2)! floor((n+2)/2)!, as on p. 103. For n=4, the bounds are 2444
+and there are 2*3*2*1=12 permutations, while the printed product of floors
+gives 6.
+
+118. Answer 7.2.2.1–196(h), p. 470
+
+The series should start with 2 rather than 6: 2 + 4/1! + 5/2! + ... = 4e-1.
+The printed series sums to 4e+3. Equivalently, keep the initial 6 and omit
+4/1!.
+
+119. Exercise 7.2.2.1–197(a,b), p. 149
+
+The upper bound a_n should be a_j in both parts. For n=2 and bounds
+(a_1,a_2)=(1,2), only the permutation 12 is allowed. The printed condition
+permits t_1=t_2=2, which gives 21 and violates the first bound.
+
+120. Answer 7.2.2.1–200(b), p. 471
+
+The first strict probability bound should be non-strict. For the polynomial
+xy over the field with five elements, the probability of zero is 9/25,
+exactly 1-(1-1/5)^2. The next bound is also attained when there is only one
+variable, so that step needs <= too. These changes do not affect the final
+bound below 1/2.
+
+121. Answer 7.2.2.1–201(b), p. 471
+
+For even n>=4, four permutations move everyone, not two. At n=4 they are
+2143, 2341, 4123, and 4321. The two omitted cases are the perfect
+adjacent-swap matchings around the circle, so the number with fixed points
+is L_n-2 rather than L_n; the total L_n+2 is unchanged.
+
+122. Answer 7.2.2.1–207(c), p. 472
+
+The four-way branch should be on item 03 (or 05), not 04 (or 05). After
+choosing 00 01, the degrees of items 02,03,04,05 are 3,4,5,4. The wrong item
+also changes the score comparison: at mu=5/4 and rho=1/2, item 04 scores
+29/9, above the untouched component’s 3, whereas item 03 scores 25/9, below
+3.
+
+Dancing links: preprocessing and option order
+
+123. §7.2.2.1, p. 111, Y-pentomino preprocessing example
+
+Cell 22 cannot force 00 in this example: every Y pentomino fits a 2×4 or 4×2
+box, whereas containing both 00 and 22 requires a span of at least three in
+each direction. Deleting or shortening options cannot create such a
+placement. The recorded Algorithm P runs instead have cell 11 forcing 00 in
+round 2, which appears to be the intended cell.
+
+124. Answer 7.2.2.1–215(d), p. 473
+
+The number of nodes at level ell should be 2(q-ell+1), not 2(q-ell). Already
+q=1 has two children at level 1, while the printed formula gives zero.
+
+125. Answer 7.2.2.1–216, p. 473
+
+Lexicographic option order is not worst at every level. For K_7, put edges
+12,13,23 first and order the rest lexicographically: the level counts are
+(1,6,2,4), compared with (1,6,4,2) for lexicographic order. Level 3 is
+larger in the alternative, although both trees have 13 nodes. Only the claim
+about every level is refuted by this example.
+
+126. Algorithm P, step P1, p. 110, and answer 7.2.2.1–220, p. 474
+
+P1 should set COLOR(i)=0 for every primary-item header. The initialization
+inherited from page 89 leaves these fields unspecified, but answer 220 later
+reads them as marks: with primary items a,b, secondary item s, and options a
+s:1 / a / b s:2, an initial COLOR(b)=5 makes the procedure miss the blocking
+test for the first option. This omits a possible reduction but does not
+remove a solution. Your C program already avoids the problem by using
+calloc.
+
+XXX 127. Answer 7.2.2.1--221 (p. 475)
+
+The deletion loop can process the first node twice. Run the body once,
+then repeat only while q>x. With the printed condition q>=x, returning
+to the first node starts another pass.
+
+For example, take primary items a,b, secondary item s, and options
+{a,s:1}, {a}, {b,s:2}. Deleting the first option should leave the
+solution {a}, {b,s:2}, but the repeated visit makes the printed
+procedure report failure. The dlx-pre program already stops correctly.
+
+128. Answer 7.2.2.1–224, p. 475
+
+The proposed instance does not require n visits to P2. For n=6 it has four
+working passes and five visits to P2, including the final test, rather than
+six. In the first pass, removal of i_2 p_4 x_5 is followed by removal of i_3
+p_3 x_4 and i_4 p_2 x_3, so propagation runs backward sooner than the
+argument assumes. The construction needs to be replaced to establish the
+requested n-round example.
+
+129. Answer 7.2.2.1–229, p. 476
+
+The pairing (108) is not the lexicographic maximum. The following valid
+pairing is larger:
+
+16 14 15 11 9 7 13 4 2 12 10 2 4 7 9 11
+14 16 15 8 13 10 12 5 6 1 3 1 8 5 3 6.
+
+Each pair of k's has exactly k entries between them, and the first
+difference from (108) is 11 rather than 9 at position 4. This sequence is
+also the maximum obtained by the two independent searches.
+
+130. Answer 7.2.2.1–236, p. 477, 128-queen diagram
+
+The diagram contains only 127 queens; the last row is empty. Add the queen
+at row 128, column 65, counting from the top left. The resulting placement
+agrees with the complete list in Fischetti and Salvagnin’s original paper.
+
+131. Answer 7.2.2.1–236, p. 478
+
+Both costs quoted for N=20 are too large by a factor of 1024. The correct
+values are 130230066663839627189/64 and 130915446232517223025/64, about
+2.03*10^18 and 2.05*10^18. Their ordering is unchanged.
+
+132. Answer 7.2.2.1–236, p. 478
+
+The condition "if and only if N>=21" should be "if and only if N=2 or
+N>=21", for positive integer exponents N. At N=2, every queen permutation
+has the same cost 680, so the displayed placement is also optimal.
+
+Dancing links: costs, ZDDs and enumeration
+
+133. §7.2.2.1, p. 116, population summaries
+
+Using the stated data, New England has 14,445,438 people, or 14.4 million,
+and New York plus New England has 33,823,525, or 33.8 million; the printed
+14.3 and 33.7 should change accordingly. The smallest non-New-York group in
+the left diagram has 37,177,055 people, so the lower endpoint 37.3 should be
+37.2 million.
+
+134. §7.2.2.1, p. 121, asymptotic node count
+
+The approximation should be (N/sqrt(5))F_(N+1), not (N/5)F_(N+1), where F_k
+is the kth Fibonacci number. This follows from the exact formula in answer
+255 and 1+2/phi=sqrt(5), with phi the golden ratio.
+
+XXX 135. Exercise 7.2.2.1--243 (pp. 153 and 478)
+
+Secondary items should have weight zero. Otherwise the total weight
+can differ between solutions, so the argument on p. 478 does not apply.
+
+For example, let a,b be primary and s secondary, give each weight 1,
+and use the options {a}, {a,s}, {b}. Every solution uses two options.
+The two solutions have option weights (1,1) and (2,1), respectively:
+
+                              (1,1)     (2,1)
+    sum of x^2                   2         5
+    sum of (x-2)^2               2         1
+
+Thus the two objectives choose different solutions. Giving weight
+only to primary items makes the total weight fixed and the proof works.
+
+136. Figure (116), p. 116, and answer 7.2.2.1–246, p. 479
+
+Four dashed edges should be solid because their endpoints are already in the
+same component: AL–MS in the right diagram of (116), SD–WY in both left
+diagrams of answer 246, and IN–KY in its lower-right diagram. Solid two-edge
+paths AL–TN–MS, SD–NE–WY, and IN–IL–KY show this directly. The partitions
+and their stated costs are correct; the drawings omit these internal edges.
+
+137. Exercise 7.2.2.1–248, p. 153
+
+Change “LEN(i) such items” to “LEN(i) such options”. LEN(i) counts the
+options containing item i, as the opening sentence and the answer already
+require.
+
+138. Main text, p. 121; answer 7.2.2.1–255, p. 481
+
+For even positive N, the ZDD node count should be V_N+3, not V_N+2. The
+final summand contributes -1 although the completed solution creates no
+branch node; either omit that summand and add 2, or retain it and add 3. K_2
+has one branch node and two terminals, hence three nodes. The correction
+also gives the printed values 99 for K_8 and 10228 for K_16.
+
+139. Answer 7.2.2.1–259(b), p. 481
+
+The number of cached states should be binom(n+1,2)+1, not binom(n,2)+1. At
+level ell=0,...,n-1 there are ell+1 states, followed by the empty state, so
+n=2 already gives four states rather than two. For the active-item
+signature, the Y items in part (b) are Y_(ell+2),...,Y_n together with one
+of Y_1,...,Y_(ell+1); descriptions using covered Y items need to say that
+those bits are complemented. In part (a), the active Y set likewise has
+n-ell elements.
+
+140. Answer 7.2.2.1–260, p. 481
+
+The number of memos is 6n−9, not 6n+9, including the empty memo, for n≥3. At
+n=4 there are 15 memos rather than 33; classifying the reachable residual
+states gives the general formula. The printed ZDD size 8n−9 is correct,
+while the update formula 34n−58 needs n≥4: at n=3 there are 46 updates, not
+44.
+
+141. Answer 7.2.2.1–261(c), p. 482
+
+The product should be P_n=product over 1≤i≤j≤k≤n−1 of (i+j+k−1)/(i+j+k−2).
+At n=2 there is one path to choose, with two possibilities, while the
+product as printed gives five. Thus P_16=10606175914819584; the printed
+992340657705109416 is P_17. Your original note uses n paths in a square of
+side n+1, whereas the book uses n−1 paths in a square of side n, explaining
+the shift.
+
+142. Answer 7.2.2.1–262(b), p. 483
+
+The unprimed triangle coordinates also need the restriction x+y<n+16.
+Without it, the listed region has 28 extra items that no option covers, and
+its item count is 16n+92 instead of 16n+64.
+
+143. Answer 7.2.2.1–262(a), p. 483
+
+The asymptotic prefactor should be a_(2m)^(-1/2), not a_(2m). At m=1, a_2=5
+and the Fibonacci count requires 1/sqrt(5), not 5. The cited paper has the
+same error in its equation (9), although its earlier formula gives the
+correct factor.
+
+144. Answer 7.2.2.1–262(a), p. 483, Randall illustration
+
+Move the blue bend at (13.5,1) to (13.5,2), in cell coordinates measured
+from the upper-left corner. The printed path runs along the top edge of the
+horizontal domino covering cells (12,1) and (13,1), instead of following the
+required diagonal; this local move repairs it.
+
+145. Answer 7.2.2.1–262(b), p. 483
+
+In the first column of the array, rows 4–7 should read 3,5,5,6 rather than
+2,4,4,5. Those are the values given by the displayed middle tiling. Both
+arrays separately satisfy the reverse-plane-partition inequalities; the
+error is in their claimed correspondence.
+
+146. Answer 7.2.2.1–263(g), p. 484, Algorithm C memory entries
+
+The memory unit in the entries 509 MB and 537 MB should be KB. The stated
+input sizes and the original DLX2 structures give conservative bounds of
+904,708 and 950,204 bytes, both below 1 MB. I have not independently
+reproduced the precise rounded values 509 and 537 KB.
+
+Dancing links: further puzzles and geometric problems
+
+147. Answer 7.2.2.1–291 (p. 491)
+
+The exclusion rule rejects QTX, but the next sentence gives QTX as a valid
+choice. The rule also rejects 57 triples, rather than the stated 53. The
+rule and the stated totals cannot both be right; merely changing 53 to 57
+would not fix the QTX contradiction.
+
+148. Answer 7.2.2.1–343 (p. 512)
+
+The 27 largest listed weights sum to 8298, not 8296: the full sum is 8708,
+and the two smallest weights are 200 and 210. The height bound is unchanged,
+since 8298 is still below 311 times 27.
+
+149. Answer 7.2.2.1–354(f) (p. 515)
+
+The cases (i,j,i′,j′)=(1,3,3,2) and (1,4,4,2) are possible: TR fixes e_12
+and sends e_13 to e_32 and e_14 to e_42. Use TR for those two cases. Delete
+T^2RT as an alternative in the cases (1,3,4,2) and (1,4,3,2), since it sends
+e_12 to e_34; the other listed products, THR^3T^2 and HR, respectively,
+work. This repairs the case analysis, without changing the proposed
+generators.
+
+150. Answer 7.2.2.1–356(b) (p. 517)
+
+The set {i,j,n,o,p} packs R_(2×7) and S_(2×7), so the second roof should be
+S_(2×7), not S_(7×2). Its straight four-sphere piece i cannot fit in
+S_(7×2).
+
+151. Answer 7.2.2.1–370, case (v) (p. 521)
+
+The two rectangles share p12 and p22, not p22 and p23. The first rectangle
+(1,3,1,3) contains p11, p12, p21 and p22; the second, (1,3,2,4), contains
+p12, p13, p22 and p23. The conclusion that they overlap is still correct.
+
+152. Answer 7.2.2.1–371(a) (p. 521)
+
+For rho(a,b,c,d)=(c,d,n-b,n-a), the next two iterates are
+rho^2(a,b,c,d)=(n-b,n-a,n-d,n-c) and rho^3(a,b,c,d)=(n-d,n-c,a,b). Replace
+the printed second and third iterates by these expressions. The printed
+expressions can reverse an interval, already for n=4 and
+(a,b,c,d)=(0,1,2,4).
+
+153. Answer 7.2.2.1–371(a,b) (p. 522)
+
+In part (a), the third component of the merged option needs y_02 instead of
+y_24. In part (b), the first component of the third example needs x_01
+instead of x_34; the cell items specify these intervals.
+
+154. Answer 7.2.2.1–371(b) (p. 522)
+
+Apply the overlap tests only to distinct reflected images, or first remove
+repeated rectangles from the orbit. Otherwise a rectangle fixed by a
+reflection is rejected for overlapping itself. For example, at n=4,
+(a,b,c,d)=(0,1,3,4) gives a valid two-rectangle orbit that the printed
+filter rejects.
+
+155. Answer 7.2.2.1–392 (p. 530)
+
+The number of eight-member classes should be 44, not 46. The stated split
+gives 26+18=44, and these counts agree with 2976=173×16+26×8 and
+4000=241×16+18×8.
+
+156. Answer 7.2.2.1–393 (p. 530)
+
+Change “five cells” to “six cells” in the enumeration description. The
+problem has six clues, as also confirmed by the surrounding 5^6, Bell number
+203, and binomial coefficient.
+
+157. Exercise 7.2.2.1–394 (p. 175)
+
+The lower bound of four solutions needs the assumption that the puzzle is
+solvable; otherwise say “zero or at least four solutions.” Put 1,2,3,4 in
+the first four cells of the first column, and put 5 in row 5, column 2.
+These five clues have no immediate row or column conflict, but the first
+column forces a second 5 in the last row, so there is no completion.
+
+158. Answer 7.2.2.1–405 (p. 534)
+
+Require the new vertex w to lie outside S union {v}, where v is the starting
+vertex. Since S starts empty, excluding only S allows the walk v,u,v on a
+single edge, although a simple path cannot revisit v. In answer 404 this
+makes the preliminary filter too permissive; it does not by itself produce
+invalid final solutions.
+
+159. Answer 7.2.2.1–413 (p. 536)
+
+At completion, also require the loop-closing edge E to be nonzero. The
+printed tests examine only edges of color 1, so an all-zero edge assignment
+passes them and gives no loop at all. This includes the all-zero weak
+solution counted in 410(a).
+
+160. Answer 7.2.2.1–416 (p. 537)
+
+The finite bound |S|≤n^2/2 for 3-clues needs a boundary term: a 3×3 board
+with rows 333, ..., 333 has six clues and a unique loop. Use |S|≤n^2/2+O(n)
+for general n. In the zero-clue argument, replace the lower bound n^2+2n on
+deleted edges by n^2-1; a 2×2 board with a single corner 0 deletes only four
+edges and leaves exactly one cycle. Both limiting density conclusions remain
+unchanged.
+
+161. Answer 7.2.2.1–430(d) (p. 543)
+
+In the bitmap-intersection sentence, replace V_vq by Y_vq. Y_vq is the
+digit-set bitmap; V_vq is an item name.
+
+162. Answer 7.2.2.1–432(a), p. 544
+
+The displayed kakuro puzzle has row clues totaling 31 but column clues
+totaling 29, so it has no solution. Changing the column clue 11 to 13 gives
+the reported unique filling and the stated search count of 79 nodes.
+
+163. Answer 7.2.2.1–434 (p. 544)
+
+The leading block count should be 2n^2/3, not n^2/3. The displayed pattern
+has n^2/3 horizontal blocks and n^2/3 vertical blocks, up to O(n) boundary
+terms; the finite 9×9 count of 38 is unaffected.
+
+164. Answer 7.2.2.1–442, p. 546
+
+The first interval in the table of black-cell counts should be [0..0], not
+[1..1]. The only hitori cover of a 1 by 1 board is its single white cell.
+
+165. Exercise 7.2.2.1–443, p. 183; answer, p. 547
+
+The bound fails for a 3 by 3 board with all four corners black and the other
+five cells white. This is a valid hitori cover, but 4>(9+2)/3. A valid
+universal replacement is (mn+3)/3; more precisely, 3s<=mn+3-[m even]-[n
+even], where s counts black cells. In the answer, remove the final term -[mn
+odd] from the bound for b+2c.
+
+166. Addendum to answer 7.2.2.1–443, p. 547
+
+The proposed modulo-5 construction cannot always be completed within mn/5+2
+black cells by adding black cells. On a 7 by 7 board, every completion of
+each translated starting pattern needs at least 13 black cells, while the
+bound is 49/5+2=11.8. Thus the construction needs to be changed to prove
+that bound. This does not refute the existence claim: a different cover with
+11 black cells exists.
+
+SAT: basic encodings and examples
+
+167. Exercise 7.2.2.2–18 (p. 318)
+
+Replace 5n/6 by ceil(5n/6) in the bound on the number of uses of a color. At
+n=8 the printed bound allows only six uses, but every four-coloring needs at
+least seven of each color; the answer gives a coloring with class sizes
+(20,23,22,7).
+
+168. Answer 7.2.2.2–25 (p. 553)
+
+The number of internal nodes contributing seven clauses is floor(n/2)-2, not
+ceil(n/2). For n=7 the contributions are 3×3+1×5+1×7+2=23, agreeing with the
+final total 5n-12, which is correct.
+
+169. Answer 7.2.2.2–29 (p. 553)
+
+Before building the counter, set r_0=0 and replace each prefix cap r_i, in
+order, by min(r_i,r_(i-1)+1). The stated assumptions allow caps
+(1,1,1,3,4,5), which refer to the nonexistent counter variable s_2^2. Even
+adding that variable without its missing propagation clauses admits 101000,
+although its first three bits exceed the cap 1. Normalizing the caps to
+(1,1,1,2,3,4) fixes this problem without changing the allowed bit strings.
+
+170. Answer 7.2.2.2–45 (p. 556)
+
+Give both factors ceil(t/2) bits when encoding a t-bit square. If t is odd,
+force the extra product bit to zero. Using only floor(t/2) root bits wrongly
+excludes 25=5^2 when t=5.
+
+171. Answer 7.2.2.2–60, p. 559
+
+In the second example, the probability of disagreement is 402/2048, about
+0.196, not 404/2048, about 0.197. If h denotes the displayed approximation,
+the truth-table values are Pr(f)=113/256, Pr(h)=11/32, and Pr(f AND
+h)=603/2048, whose symmetric difference gives 402/2048. The first example is
+unchanged.
+
+172. Answer 7.2.2.2–64 (pp. 559–560)
+
+The trailing-one substitution needs the reflected wire index n+1-j, rather
+than j. Equivalently, wire j is known to be 1 when there are at least n+1-j
+trailing ones. On input 0101, the printed leading-zero and trailing-one
+rules give conflicting constants on wire 1.
+
+173. Answer 7.2.2.2–64 (pp. 559–560)
+
+Give the unused-wire preservation clauses their own range 1≤i≤n. The shared
+range i<j≤n omits wire n. On three wires this admits the trace
+110→111→111→110→011, although the actual comparator sequence leaves 101.
+
+174. Answer 7.2.2.2–77 (p. 564)
+
+Add the clause (NOT g OR NOT h) to the four boundary clauses. The assignment
+(f,g,h,i)=(0,1,1,0) satisfies all four printed clauses but violates the
+stated sum conditions. With the added clause, the two descriptions agree on
+all sixteen assignments.
+
+175. Answer 7.2.2.2–92 (p. 567)
+
+Do not delete the whole waiting implication when enforcing a path with
+distinct states. Delete only its successor literal, or keep the original
+waiting clause along with the distinct-state conditions. Deleting the whole
+clause loses the guard and permits an illegal B1→B3 jump while the light is
+on; a five-step trace then reaches both critical states.
+
+176. Answer 7.2.2.2–117(b,c) (p. 572)
+
+The adjacent-pair tree has n-1 leaves, not n. In both two-leaf cases,
+increase the displayed input subscripts by one, giving positions 2k-n+2,
+2k-n+3, 2k-n+4; in the three-leaf case use 2k=n-2. With the printed indices,
+n=6 and r=3 admit 011111 even though it has four adjacent 11 pairs.
+
+177. Answer 7.2.2.2–134 (p. 574)
+
+When doubling CAP to 2^(k+1), also set K←k+1. Otherwise a list grown from
+four slots to eight still has K=2, so its next resize requests eight slots
+again.
+
+SAT: recursive search and autarkies
+
+XXX 178. Answer 7.2.2.2--162(b) (p. 579)
+
+"Any strong component" should be "any consistent strong component."
+For the two clauses (a OR NOT b OR c) and (NOT a OR b OR NOT c), the
+blocking graph has one component containing all six literals. It
+cannot be an autarky, since it contains each variable together with
+its negation.
+
+SAT: lookahead
+
+179. Algorithm L, step L3 (p. 222)
+
+Save BACKF[d] and BACKI[d] before testing whether l=0. A level with no
+branching literal otherwise skips these saves, but L15 later reads BACKF[d]
+at that level. This is a reachable read of an unsaved value; it is not a
+demonstrated false SAT answer.
+
+180. Algorithm X, step X2 (p. 228)
+
+Use VAL[|l|], the value for the underlying variable, instead of VAL[l]. For
+example, when x1 is free and x2,x3 are fixed true, the encoded literals 2
+and 3 of x1 must not clear the values of variables x2 and x3.
+
+181. Double-lookahead example (p. 229)
+
+In the worked example, use S=16 and DT=258 instead of S=8 and DT=130.
+Equation (70) lists sixteen candidate literals, although there are only
+eight free variables. With Y=8 and T=LO[0]=2, step Y2 gives BASE=0,
+LBASE=256, and DT=258.
+
+182. Exercise 7.2.2.2–173(ii) (p. 331)
+
+To disable wraparound, let X finish normally at the first end of its pass,
+and send Y to Y6 at the first end of its pass so that its cleanup still
+runs. The printed jump from X7 to X6 at j=S immediately reads LL[S] and
+LO[S], although these arrays end at S-1. The jump from Y4 to Y3 has the same
+problem. This concerns the prescribed modifications, not the unmodified
+algorithms or the reported timings.
+
+183. Answer 7.2.2.2–175 (p. 582), routine (72) on p. 227
+
+After the restoration loop, replace G←E←F by E←G, retaining G and the
+visible queue prefix; make the corresponding change in (73) too. With binary
+implications b→a and NOT c→NOT d, and the clause (NOT a OR c OR d OR e), the
+printed reset can overwrite the undo record for a. A later lookahead can
+then call a clause a unit even though both NOT a and e remain unfixed.
+SAT11K already retains the prefix.
+
+184. Answer 7.2.2.2–175 (p. 581)
+
+Store CSIZE(c)←s before testing whether s≥2, so every virtual deletion
+reduces the stored size. Undo increments the size for every processed false
+literal. With the printed conditional write, a three-literal clause can
+return from lookahead with stored size four.
+
+XXX 185. Answer 7.2.2.2--175 (p. 581)
+
+The temporary stack and conflict flag should be handled inside the
+G<E loop of (72), after scanning the clauses for the current literal.
+Both should be reset before each scan. As written, new assignments
+can be added after the loop has ended, so their effects are missed.
+
+For example, take (a OR NOT b), (NOT a OR NOT b OR c), all four sign
+choices of (NOT c OR +/-d OR +/-e), and all four of (a OR +/-u OR +/-v).
+These clauses have sixteen solutions, all with a=1,b=0,c=0. Examine a
+then b at truth degrees 4 and 2, with double lookahead off, retaining
+the queue prefix and storing every clause-size decrease. The printed
+stack placement still skips c's effects and makes X9 add (b OR NOT a),
+which removes all sixteen solutions. SAT11K already handles the stack
+inside the loop.
+
+186. Answer 7.2.2.2–178 (p. 582)
+
+Replace 6kq levels by 6k levels in the color-first search. That prefix
+contains only 6k Boolean variables; for q=5 and k=4, the printed 120 levels
+even exceed the instance's total of 90 variables.
+
+SAT: random formulas and related constructions
+
+187. Answer 7.2.2.2–203(e) (p. 587)
+
+For fixed 0<p≤1/2 and sufficiently small positive epsilon, the sign is
+f(1/2)>0, not f(1/2)<0. For example, p=1/2 and r=7/5 give epsilon=1-(7/5)ln
+2>0 and f(1/2)=3/25. Also, the signs must match in
+g(1/2±1/N)=±f(1/2)N/4+O(1), rather than using the opposite paired sign. The
+accompanying root-location discussion needs these corrections; this is not a
+counterexample to the threshold theorem.
+
+188. Answer 7.2.2.2–204(c) (p. 587)
+
+The variable count is approximately 6m+30, not 7m+30. For m≥2, the stated
+pieces contribute 3m+35+2ceil(3m/2)-6 variables, giving 6m+29 for even m and
+6m+30 for odd m. The adjacent upper bound of 7m+39 clauses is unchanged.
+
+189. Answer 7.2.2.2–206 (p. 588)
+
+Delete the clause that arose from C in the joined formula: C or (x OR C), as
+appropriate. The printed deletion of C conditioned on NOT x can delete
+nothing, since the fresh variable x does not occur in C. For instance,
+joining {a, NOT a} and {b, NOT b} by adding x to the first pair and NOT x to
+the second gives no clause (a); the needed deletion is (x OR a).
+
+190. Exercise 7.2.2.2–212, introduction and (a,b), p. 335
+
+The definition only restricts which symbols may occur; it does not require
+all the symbols specified by the margins to occur. For n=1, r=c=[1], and
+p=[0], the blank partial square satisfies the printed restrictions, but
+there is no tensor with those three margins. Require the symbols present in
+row i and column j to be exactly {k:r_ik=1} and {k:c_jk=1}, respectively.
+This supplies the missing equalities needed in parts (a) and (b).
+
+191. Answer 7.2.2.2–212(d), p. 589
+
+The condition k=(I,J,K') should be k=K'. For N=1 and L(1,1)={1}, the printed
+construction gives r=c=[[1,0],[0,1]] and p=[[0,1],[1,0]], which is
+impossible although the input has a solution. The correction gives
+r=c=[[1,0],[1,0]] and restores the intended correspondence.
+
+192. Answer 7.2.2.2–215 (p. 590)
+
+The stationary-point asymptotic needs alpha>(7/6)ln 4. Below that value the
+maximum lies at the endpoint t=1/2, rather than at an interior stationary
+point; at equality the Gaussian contribution is one-sided. For example, at
+alpha=1 the proposed stationary depth lies beyond the end of the search
+tree. The exact profile and the alpha=4 example remain valid.
+
+SAT: resolution
+
+193. Answer 7.2.2.2–217 (p. 590)
+
+The answer should be false as stated. Take A=B={l}: both clauses are
+satisfiable, but deleting both signs of l leaves the empty clause. To use
+the usual resolution argument, require complementary pivot literals in the
+two clauses.
+
+194. Answer 7.2.2.2–225 (p. 592)
+
+The construction gives a smaller regular resolution tree, but it need not
+immediately give a non-awkward one, meaning a tree whose resolved variables
+are absent from its final clause. Resolve (x OR y OR z) with (x OR NOT y OR
+z) on y, resolve (NOT x OR y OR z) with (NOT x OR y OR NOT z) on z, then
+resolve the results on x. The printed pruning leaves a five-node tree for (y
+OR z) that still resolves on z. Apply size induction or repeat the pruning,
+also after combining the child trees in the next paragraph; here resolving
+the first and third clauses directly on x completes the repair.
+
+195. Answer 7.2.2.2–227 (p. 592)
+
+Swap the Delayer's unequal-label responses: choose 1 when m>m′, and 0 when
+m<m′. For {x, NOT x OR y, NOT x OR NOT y}, the printed choice takes the
+immediately contradictory branch and earns no point.
+
+196. Answer 7.2.2.2–230 (p. 592)
+
+Use the inverse permutation as the ranks in the minimality witness, or write
+x_(p_i,p_j)=[i<j]. For m=3 and j0=1, the printed ranks (2,3,1) leave the
+undeleted clause M_23 false. The correct ranks are (3,1,2).
+
+197. Answer 7.2.2.2–243(d) (p. 594)
+
+Replace V by C in the sentence saying which object contains the signed
+boundary variable. C is the clause chosen in the proof; V is a set of
+variables.
+
+SAT: clause learning
+
+198. Clause-purging example (p. 256)
+
+Forget 3126 of the 6240 unprotected clauses, or say to keep 3114 of them.
+Forgetting the printed 3114 while keeping all twelve protected clauses
+leaves 3138 clauses, above the target 3126.
+
+199. Clause-signature discussion (p. 257)
+
+The necessary number of changed old levels is p′-1, hence at least p, rather
+than the stated p+1. For C=(x OR NOT y) and C′=(y OR z), the trail x=true at
+level 1, y=true at level 2, z=true at level 3 gives signatures (1,1) and
+(2,0). Backtrack to level 1 and set y=false: C′ forces z=true, although only
+the old level 2 changed sign. This corrects the local explanation without
+changing the heuristic.
+
+200. Equation (126) (p. 260)
+
+Add the short-circuit condition d′<d before reading the activity at the next
+decision level. Without it, a root-level learned unit can make the flushing
+loop read a decision level that does not exist.
+
+201. Answer 7.2.2.2–260 (p. 597)
+
+In the input-unit case, add L_F←l_0 before incrementing F. Without that
+write, even the input (x1) leaves the trail slot read by C3 undefined.
+
+202. Answer 7.2.2.2–261 (p. 598)
+
+Move c←c′ to the end of every nonconflicting watch-list iteration, including
+the satisfied-clause and moved-watch cases. As printed, those cases can
+process the same clause again and can even link it to itself.
+
+203. Answer 7.2.2.2–262 (p. 598)
+
+Set alpha←ACT(k)+DEL, and use this new value both when storing the activity
+and when sifting upward. The printed code sifts with the old value. A heap
+of two zero-priority elements already loses its ordering after the child
+receives an increment of one.
+
+204. Answer 7.2.2.2–265 (p. 599)
+
+The maximum-level claim needs to be restricted to the conflict case where
+the whole clause is false during a full run. For (NOT x1 OR x2 OR x3), watch
+NOT x1 and x2 and make decisions NOT x1, NOT x2, NOT x3 at levels 1,2,3. The
+true first watch allows the false second watch to remain at level 2, below
+x3 at level 3. This is valid propagation behavior, so the general invariant
+is too strong.
+
+205. Answer 7.2.2.2–267 (p. 599)
+
+Initialize binary propagation with l_0←l, not l_0←NOT l, since l is the true
+trail literal. For units a, NOT b and the binary clause (NOT a OR b) stored
+in BIMP, the printed choice examines two empty lists and misses the
+contradiction. The reference to incrementing G should name C3, not C4.
+
+206. Answer 7.2.2.2–267 (p. 599)
+
+Inside the BIMP(l_0) loop, use l_0 rather than the outer trigger l in both
+the recorded reason -l_0 and the conflict clause (NOT l_0 OR l′). For (NOT a
+OR NOT s OR b) and (NOT b OR c), with a already true, setting s true forces
+b and then c. The printed reason for c is (NOT s OR c), which is not implied
+by the input: a=false, s=true, b=false, c=false is a counterexample. The
+correct reason is (NOT b OR c).
+
+207. Answer 7.2.2.2–270(b) (p. 600)
+
+In the replacement-watch scan, read VAL(|MEM[c+j′]|), not VAL(MEM[c+j′]).
+Literal code 3 denotes NOT x1, so using it directly reads variable 3 instead
+of variable 1.
+
+208. Answer 7.2.2.2–272 (p. 600)
+
+Give true or free literals rank infinity, and false literals their actual
+trail level. At this insertion point d already equals the backjumped level
+d′, so the printed default rank d can make two free literals look like a
+conflict. For the symmetric clauses (x1 OR x2 OR x3), (x1 OR x2 OR NOT x3),
+(x6 OR x5 OR x4), (x6 OR x5 OR NOT x4), learning (x1 OR x2) can produce the
+reflected clause (x6 OR x5) with both literals free. That clause must be
+stored, not sent to conflict analysis.
+
+209. Answer 7.2.2.2–272 (p. 600)
+
+When appending the reflected forced literal u, also set VAL(|u|)←2d+(u&1),
+with d the current level after any additional backjump. Here u&1 is the
+encoded literal's polarity bit. The printed code writes the trail, location,
+and reason but can leave the variable marked free; the recorded example
+appends x5 true at level 1 while VAL(5) remains -1 instead of 2.
+
+210. Answer 7.2.2.2–284 (p. 602)
+
+Initialize VAL(j) to -1, meaning unassigned, rather than 0, meaning true.
+Then assign only the dummy variable and the explicit assumptions for the
+candidate clause. With the printed initialization, the satisfiable input
+(NOT a) can accept a false empty-clause certificate.
+
+211. Answer 7.2.2.2–284 (pp. 602–603)
+
+Include TLOC(|l_0|) in the initial maximum for the backward reason scan.
+Omitting l_0 can make the contradictory units (a) and (NOT a) produce a
+claimed unsatisfiable core containing only one of them.
+
+212. Answer 7.2.2.2–288 (p. 603)
+
+Initialize m_0 and count every clause assigned RANGE zero, including
+protected clauses learned during the run. These clauses must be included
+before applying (124). With two protected and six ordinary clauses, omitting
+the zero bucket already miscounts a target of four retained clauses.
+
+213. Answer 7.2.2.2–288 (pp. 603–604)
+
+Discard s_j+m_j-T of the least active clauses at the boundary range, not
+T-s_j. The latter is the number to keep. For s_j=2, m_j=6, T=4, discard four
+of the six boundary clauses, leaving two plus the two earlier clauses; also
+handle T=s_j by discarding the whole boundary range.
+
+SAT: local search and survey propagation
+
+214. Main text, p. 267, citation to Viennot
+
+The year in the citation to Viennot’s chapter in Lecture Notes in
+Mathematics 1234 should be 1986, not 1985. The conference took place in
+1985, but the cited volume was published in 1986.
+
+215. Main text following (150), p. 273
+
+The comparison should say that Case 1 is slower, not faster, than Case 2.
+For the seven-bit examples, the exact mean times are 7 and 1139/729,
+respectively. The following discussion already has the correct direction.
+
+216. Answer 7.2.2.2–305 (p. 608)
+
+For twelve variables, zero greed avoidance, and restart cutoff N=8, the
+expected number of flips is 11457971/931768=12.297021..., not 16.1. The
+printed 16.1 is the correctly rounded value for cutoff N=12. Either change
+the expectation to 12.3 while keeping N=8, or change the cutoff to N=12.
+
+217. Answer 7.2.2.2–306(h), p. 609
+
+The argument should begin with E_infinity=infinity, not N*=infinity. The
+example in part (j) has N*=infinity and ell(2)=4, but q_N*ell(N)=3-2^(2-N)<3
+for every N>=2, so the claimed n' does not exist. Starting with infinite
+expectation and arguing by contraposition repairs this step; the theorem
+itself remains true.
+
+218. Answer 7.2.2.2–307(a), p. 609
+
+The term E_(N_j) must be multiplied by the old value of alpha. A valid
+update order is s <- s + alpha*(E_(N_j)+(1-q_(N_j))*N_j), followed by alpha
+<- alpha*(1-q_(N_j)). For p_1=p_infinity=1/2 and every N_j=1, the expected
+cost is 2, but the printed partial sums 1,7/4,19/8,47/16,... diverge.
+
+219. Answer 7.2.2.2–307(b), p. 609
+
+The product defining P_j is Pr(X>T_(j-1)), not Pr(X>T_j). It is the
+probability of reaching run j. For j=1, the empty product is 1, while a run
+that succeeds with probability 1/2 has Pr(X>T_1)=1/2.
+
+220. Answer 7.2.2.2–321, p. 611
+
+In the probability for an opposite pair, replace 2 theta' (1-c)^3 by 2
+theta' c(1-c)^2. In the probability for all four events, restore the factor
+2 before theta^2 c^2. At p=0.3, the printed probabilities, with
+multiplicities 1,4,4,2,4,1, sum to about 1.79553 rather than 1; the
+corrected expressions also agree with the numerical line.
+
+221. Answer 7.2.2.2–322(a), p. 611
+
+The labels W and Y should be interchanged in the right-hand diagram. After Z
+is fixed, C depends on Y and D depends on W. The product below the diagram
+is already correct.
+
+222. Answer 7.2.2.2–322(c), p. 612
+
+The second solution needs nu=1/3 rather than 2/3. With c=0, c'=1/2, d=1,
+d'=0, this gives both weighted means equal to 1/3. The printed value gives
+1/6 and 2/3, and the latter violates the bound.
+
+223. Exercise 7.2.2.2–339(b), p. 346
+
+The middle factor b_7 a_8 c_3 is not a pyramid: a_8 and c_3 commute and are
+both maximal pieces. The example should have four factors, b_6 c_2 e_4 d_1,
+b_7 c_3, f_5, and a_8, with top labels 1,3,5,8. The general factorization
+theorem is unaffected.
+
+224. Answer 7.2.2.2–341, p. 615
+
+The recurrence needs the factor w_ij before W(S minus {i,j}). With two
+vertices, diagonal weights 1, and off-diagonal weight 2, the defined
+polynomial is x^2-2, while the printed recurrence gives x^2-1. The next
+paragraph uses the weights correctly.
+
+225. Exercise 7.2.2.2–343, p. 347; answer, p. 615
+
+For a cograph, M_G(p)>0 does not by itself imply p belongs to R(G). Two
+disjoint edges have M_G(p)=(1-p_1-p_2)(1-p_3-p_4), which is 1/4 when all
+p_i=3/4, but becomes -1/2 after p_3=p_4=0. The criterion should require
+positivity at every node of the decomposition tree, not just at its root.
+
+226. Answer 7.2.2.2–345, p. 615
+
+Decreasing one coordinate at a boundary point need not make M_G strictly
+positive. For two disjoint edges with all probabilities 1/2, decreasing only
+p_1 to 1/4 leaves the second edge's factor zero, so M_G stays zero.
+Nonnegativity, followed by a limit argument, is enough for the intended
+construction.
+
+227. Answer 7.2.2.2–346(a), p. 616
+
+The last word of the sentence should be "increase", not "decrease": lowering
+a nonnegative probability cannot increase a trace's weight. For a single
+edge a--b, K_a=1/(1-p_b) falls from 2 to 4/3 when p_b falls from 1/2 to 1/4.
+Taking p_a=1/8 keeps both choices in the required region.
+
+228. Answer 7.2.2.2–348, p. 617
+
+The coefficient in the derivative sum indexed by m should be a_m, not a_n.
+For f(z)=1/(1-2z), n=0, and r=1/4, the printed sum gives 4/3 instead of 2.
+
+229. Answer 7.2.2.2–355, p. 618
+
+The concluding inequality for E_j is reversed: the bound should be
+E_j<=1/delta, not E_j>1/delta. For a single edge with p_1=p_2=1/4, delta=1
+and E_j=1/2. Non-strict inequalities also cover zero probabilities.
+
+230. Exercise 7.2.2.2–356(b), p. 349
+
+The minimum should range over clique indices j for which i belongs to U_j,
+not over vertices adjacent to i. For one edge 1--2 covered by the single
+clique U_1={1,2}, the printed minimum for i=1 refers to undefined
+theta_(1,2) and Sigma_2. The answer uses the intended membership condition.
+
+231. Exercise 7.2.2.2–356, p. 349
+
+The cliques must cover all vertices, not just all edges, unless separate
+conditions p_i<1 are imposed on uncovered isolated vertices. For two
+isolated vertices, U_1={1}, theta_(1,1)=0, and p=(0,1), all the printed
+conditions hold but M_G(p)=0. Requiring union_j U_j=V(G) also ensures that
+the minima in part (b) are defined.
+
+232. Answer 7.2.2.2–356(a), p. 618
+
+The sets used for conditioning need not be disjoint from the current clique,
+so the induction hypothesis does not apply. On the complete graph {i,a,b},
+take A_i empty and disjoint A_a,A_b of probability 2/5, with cliques
+U_0={i}, U_1={i,a}, U_2={i,a,b}, theta_(i,j)=0 for all j, theta_(a,1)=2/3,
+and theta_(a,2)=theta_(b,2)=2/5; the printed step then asserts Pr(A_b | NOT
+A_a)=2/3<=2/5. Assign each vertex to its last containing clique instead:
+X_k=(S intersect U_(j_k)) minus union_(h>k) U_(j_h). Use the same
+last-occurrence partition for the final avoidance product.
+
+233. Answer 7.2.2.2–357, p. 619
+
+For the endpoint (p,q)=(1,0), y should be 0 rather than 1. The printed
+x=1/2,y=1 gives the field (0,1/2,1/2), not the required endpoint.
+
+234. Answer 7.2.2.2–360, p. 619
+
+The case a=b=c=0,d=1 allows every solution x=y=z=t with 0<=t<=1, not just
+x=y=z=1. The fixed-point equations reduce to x=y=z there, while the
+displayed quotient is 0/0. This family needs to be included among the
+boundary cases.
+
+235. Answer 7.2.2.2–361 (p. 619)
+
+Replace “covering” by “stable” and refer to exercise 363. For the single
+clause (x OR y), the assignment x=y=1 is stable, but neither variable is
+forced by a clause, so it is not covering in the sense of exercise 364. This
+is a terminology correction; the survey equations are unaffected.
+
+236. Algorithm S, p. 277; answer 7.2.2.2–362, p. 619
+
+Algorithm S needs a contradiction check after S5 or before S8. Opposite unit
+clauses with initial messages 1/2 reach iteration 1 with both flexibilities
+zero and delta=0; S3 has been skipped because i<N0, so S8 uses an undefined
+field. Answer 362 also needs to reject conflicting units in its initial
+list. The SAT9 code already has a guard before the division.
+
+237. Answer 7.2.2.2–363(g), p. 620
+
+The negative literals in the constructed clause should be indexed by L, not
+L'. The positive literal belongs to L', so the printed clause contains both
+it and its negation and is always true. For the family empty,{1},{1,2}, the
+corrected clause x_1 OR NOT x_2 excludes the unwanted assignment.
+
+238. Answer 7.2.2.2–364(c), p. 620
+
+The empty assignment for R' should be written **** rather than *** because
+R' has four variables. The classification and weights are unchanged.
+
+SAT: further encodings, applications and tuning
+
+239. Text before equation (165) (p. 284)
+
+The reflected bit string should end at index d-1, not j-1. The displayed
+reflection formula is correct.
+
+240. Parameter-tuning discussion (p. 310)
+
+Change x100 to x99 in the reference to benchmark A1. Table 6 gives A1 length
+99 and A2 length 100.
+
+241. Answer 7.2.2.2–376, p. 623
+
+Set LINK(c)<-0 after removing c from the exploitation stack. Otherwise c
+still appears to be on the stack, so a later shortening cannot put it back
+for processing and a subsumption can be missed. The SAT12 code already
+clears the corresponding link.
+
+242. Answer 7.2.2.2–376, p. 624
+
+The timestamp test should use SIZE(c)-[TIME(l)!=T], not SIZE(c)-[TIME(l)=T].
+Every nonpivot literal must have the current timestamp, so the required
+count is SIZE(c)-1+[TIME(l)=T]. With C=(a OR b OR c) and a new clause (NOT a
+OR b OR c OR d), the printed test rejects the valid pivot a.
+
+243. Introduction and answer 7.2.2.2–390(b), pp. 626–627
+
+The claim of "just n variables" omits the auxiliary variables required by
+the counters (18) and (19). An internal vertex of degree 4 already uses four
+extra variables for the at-most-two condition. The variable count should
+include these counters; the O(m) clause bound is unchanged.
+
+244. Answer 7.2.2.2–390(d), p. 627
+
+The clauses describe walks of exactly j steps, rather than reachability in
+at most j steps. On the single edge s--t with k=2, the layer values
+(s_j,t_j)=(1,0),(0,1),(1,0) satisfy the clauses and NOT t_2, although t is
+only one step from s. Add the unit clauses s_j at every layer to keep s
+reachable and obtain the intended at-most-k condition.
+
+245. Answer 7.2.2.2–392(a)(iv) (p. 627)
+
+Change the G in row 5, column 11 to A. That G is isolated from the other 25
+G cells by A,A,H,H; the change preserves all twenty givens and makes every
+letter region connected.
+
+246. Answer 7.2.2.2–392(b) (p. 627)
+
+In the nine-column argument, replace the reference to diagram (vii) by (vi).
+Diagram (vii) has only eight columns and seven letters.
+
+247. Exercise 7.2.2.2–394 (p. 354)
+
+The clause count should be p*l+p-2^l, not n*l+n-2^l, since p is the number
+of inputs. For p=3 this gives five clauses; the encoding itself is
+unchanged.
+
+248. Answer 7.2.2.2–406(a) (p. 630)
+
+Use ceil(sqrt(a+1)) for the first upper summation limit. At d=5 and a=7, the
+printed clauses admit x=y=3, although xy=9>7. The rounded limit supplies the
+missing clause; the second endpoint has its own bound.
+
+249. Answer 7.2.2.2–407(b) (p. 630)
+
+For the described construction, replace d lg d+O(d) auxiliary bits by 2d lg
+d+O(d). Each merge introduces 2d-4 auxiliary bits, giving the extra factor
+two in the leading term; the separate clause count is unchanged.
+
+250. Answers 7.2.2.2–410–411 (p. 632)
+
+The relaxed full adder needs the extra clause (NOT p OR NOT q), where p and
+q are its two internal carry bits. The five printed inequalities allow three
+input ones with carry 1 and sum 0, counting 3 as 2. In the proposed 3×3-bit
+multiplier this permits 7×7 to have output 37, so the product upper-bound
+encoding is unsound. The particular final numerical inequality in exercise
+410 still gives the correct decision on all 64 input pairs; this example
+does not refute that decision result.
+
+251. Answer 7.2.2.2–411 (p. 632)
+
+For the printed relaxed construction, the clause count before the final
+comparison is 9mn-5m-8n, not 9mn-5m-10n. There are mn initial AND gates,
+mn-m-n full adders, and m half adders, contributing mn+8(mn-m-n)+3m clauses.
+At m=n=2 this is ten clauses, whereas the printed formula gives six; this
+count correction is separate from the full-adder relaxation error.
+
+252. Answer 7.2.2.2–414 (p. 633)
+
+The strict-comparison clause count is 2^n+2^(n-1)-1, rather than the
+expression ending in +1. At n=2 there are five clauses, not seven; the
+recurrence is T(n)=2T(n-1)+1 with T(1)=2.
+
+253. Answer 7.2.2.2–418 (p. 633)
+
+The column construction needs the opposite terminal bit from the row
+construction, and its initial unit should be c_(j,1,1), not c_(i,1,1).
+Replace the column terminal clauses by (c_(j,m+1,1)), (NOT c_(j,m+1,m+1)),
+and (NOT c_(j,m+1,i+1) OR NOT x_(i,j)) for 1≤i<m. After correcting that
+initial index, the remaining printed clauses accept the all-ones 3×3 matrix,
+although every column violates the required condition. It also rejects the
+valid matrix with rows 1000, 0110, 1000.
+
+254. Answer 7.2.2.2–428(b) (p. 634)
+
+Initialize g_(x_ij,0)=x_ij for each edge input, and set every other g_(l,0)
+to zero. The printed assignment g_(NOT x_ij,0)=NOT x_ij uses a negation and
+therefore is not a monotone circuit: increasing x_ij decreases that signal.
+Leaving absent edges unassigned in the simulated propagation lets the same
+recurrence give the claimed monotone construction and bound.
+
+255. Answer 7.2.2.2–432 (p. 634)
+
+The references to parts (a) and (b) of answer 404 are stale after its
+replacement, and the old counterexample now propagates correctly. For the
+current encoding, use d=4, a=2 and the partial assignment x^1=1, y^3=0
+instead. It logically forces x^2, but leaves five binary clauses and no unit
+clause, so unit propagation does not derive it. The conclusion that the
+encoding is not forcing remains correct.
+
+256. Answer 7.2.2.2–433 (p. 634)
+
+The minimum completion of 1***10**1 is 100010001, not 10010001. The missing
+zero changes the value from the printed 145 to 273, which exceeds 271 as the
+argument requires.
+
+257. Exercise 7.2.2.2–442, p. 359; answers (b,f), pp. 636–637
+
+The literal-sequence definition does not always derive every literal after
+it detects a contradiction. Take (a OR b), (a OR NOT b), and the four
+clauses (NOT a OR +/-c OR +/-d), using all four sign choices: only a can
+start a level-2 derivation, and (a,c) and (a,NOT c) detect a contradiction,
+but NOT a cannot be derived without violating strict distinctness. Allow a
+valid forcing sequence to end with a lower-level contradiction independently
+of its target literal. This repairs the stated inference relation; the issue
+is not the intended SAT/UNSAT decision procedure.
+
+258. Answer 7.2.2.2–443(e), p. 637
+
+The examples in part (c) all belong to UC_0, so they cannot show failure of
+membership in UC_(n-1). A counterexample is the two unit clauses (x) and
+(NOT x), with n=1: the formula is unsatisfiable but has no empty clause, so
+it is not in UC_0. The answer's conclusion that the assertion is false is
+correct.
+
+259. Answer 7.2.2.2–450 (p. 638)
+
+The added unit must be positive x15, not NOT x15, to rule out five points on
+a line; the printed negative unit is satisfied by the displayed 34-incidence
+example. Replace “lie on such lines” by “lie on four lines.” Finally, the
+listed line AC should be {a,c,bd}, not {a,c,ad}: the latter shares both a
+and ad with A={a,ab,ac,ad}, creating a forbidden quadrilateral. These
+changes repair the proof and final line list without changing the uniqueness
+conclusion.
+
+260. Answer 7.2.2.2–459 (p. 639)
+
+Use zero, rather than negative infinity, at the empty boundaries of the
+recurrence for this binary-matrix problem. With all empty boundaries set to
+negative infinity, the recurrence never obtains a finite starting value. The
+earlier author draft already uses zero.
+
+261. Answer 7.2.2.2–463 (p. 640)
+
+In the induction step advancing from row i to row i+1, replace i<n by i<m.
+There are m rows; the extremal count k(m+n-k) is unchanged.
+
+262. Answer 7.2.2.2–472 (p. 641)
+
+Replace every rank r in the displayed 4×4 array by 17-r, or reverse the
+comparison signs in the preceding formula. All 24 relevant comparisons
+currently point the opposite way. The nine intended domino flips remain
+valid.
+
+263. Answer 7.2.2.2–477 (p. 642)
+
+In the simplified clause, replace x_i1 by x_it, referring to the current
+truth-table column t. At n=4,t=2, the printed substitution can allow output
+1 on two zero inputs. The preceding general gate encoding is correct.
+
+264. Answer 7.2.2.2–478 (p. 642)
+
+The first-use restriction must also cover q as the smaller operand. Let
+E(i,p) be the disjunction of earlier gate selections that use p; add (NOT
+s_iqk OR E(i,p)) for q<k<i. For example, x4=x2 AND NOT x3 followed by x5=x1
+AND x4 uses interchangeable input 2 before input 1 while satisfying the
+printed restrictions. This leaves unnecessary symmetric cases in the search,
+rather than invalidating SAT answers.
+
+265. Answer 7.2.2.2–485 (p. 645)
+
+The last unconditional interchange needs an edge guard: replace its clause
+by (NOT q_(t,l+3) OR NOT s_(t+1,l) OR NOT x_(t,l,l+3)). The added term tests
+the missing edge between the vertices initially at l and l+3. On ordered
+vertices 1,2,3,4,5 with edges {15,23,25,45}, the only winning sequence is
+q4,s1,q1,q1, and the printed unguarded clause excludes it. The five cards
+AH,KH,KC,QD,QH give the same failure.
+
+266. Answer 7.2.2.2–492 (p. 648)
+
+Change the final index n in the transformed-literal list to k, the length of
+the clause. The closure argument is otherwise unchanged.
+
+267. Exercise 7.2.2.2–494(iii) (p. 365)
+
+Replace (i NOT j NOT k)(NOT i NOT j k) by (i NOT j NOT k)(NOT i j k). The
+printed cycles repeat NOT j and omit j; even read as overlapping cycles,
+they fix j while moving NOT j, so they do not define a signed permutation.
+The answer's clauses work for the corrected permutation.
+
+268. Answer 7.2.2.2–495 (p. 648)
+
+The column comparison should be 12 22 32 ≤ 13 23 33, not 12 22 13 ≤ 13 23
+33. The third entry on the left belongs to column 2.
+
+269. Answer 7.2.2.2–504(d) (p. 650)
+
+The last boilerplate string should be 11111100, not a second copy of
+00000011. The duplicated list admits 00000011 even for the unsatisfiable
+eight-clause example R. The corrected final string excludes this false
+solution.
+
+270. Answer 7.2.2.2–509 (p. 650)
+
+Fresh random solver seeds do not rule out overfitting to the chosen problem
+instances. For example, one parameter setting may cost 1+U on the training
+problems and 100+U elsewhere, while another costs 2+U everywhere, with a
+fresh uniform random U in [0,1] on every run. Rerandomizing U cannot reveal
+the first setting's poor performance on new problems. The justification
+should distinguish seed noise from performance on held-out instances; this
+is not evidence that the reported measurements actually overfit.
+
+271. Exercise 7.2.2.2–515(vi), p. 367; answer, pp. 651–652
+
+The alternating 2 by 2 rectangle in part (vi) must be restricted to two
+boxes. The printed clauses impose that restriction, but a puzzle satisfying
+those clauses and conditions (i)–(v) can have a blank rectangle 4,7 / 7,4
+spread across four boxes. Adding "in two boxes" makes the statement agree
+with the encoding.
+
+272. Answer 7.2.2.2–525 (p. 654)
+
+Replace 3n SAT variables by 5n. There is one variable per option, and this
+instance has 5n options but 3n items; the stated clause and literal counts
+remain correct.
+
+Appendices and index
+
+273. Appendix B, final two definitions (p. 664)
+
+Use “S is contained in some T in G” and “S contains some T in G” in the two
+set-family definitions. The printed implications require the inclusion for
+every T instead. For F={{1}} and G={{1},{2}}, {1} belongs to both intended
+outputs, but fails both printed tests at T={2}. The adjacent complement
+equalities need no change.
+
+274. Index and Glossary, Dell workstation entry (p. 683)
+
+Replace the page reference xi by ix, where the acknowledgement appears.
+Retain the second reference, 714.

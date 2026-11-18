@@ -200,6 +200,15 @@ Případný tisk sekundárních délek už samozřejmě neudává aktuální vel
 
 ## C025: historická poznámka o Acta Mathematica
 
+Aktualizace 17. listopadu 2026: **C025 je nyní potvrzený nález**.
+Získán původní rejstřík: titulní list uvádí1882–1912 a vydání1913.
+Předmluva, kterou starší zápis níže předpokládal, v jeho úvodních
+stranách není. Identitu a období však dokládá přímo titulní list;
+21. výročí připadá na1903. Oprava nemusí volit30. versus31. oslavu,
+stačí uvést vydání rejstříku po prvních30letech. Podrobnosti a limity:
+`notes/C025-acta-anniversary.md`. Následující odstavce zachycují
+dřívější stav před získáním tohoto pramene.
+
 Strana87 i autorův PS23 uvádějí21. výročí a tabulku vydanou1913.
 Vydávající Institut Mittag-Leffler na své stránce datuje založení do1882.
 Původní Domarův článek v Acta Mathematica148(1982),3–8, na poslední

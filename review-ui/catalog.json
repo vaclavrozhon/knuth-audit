@@ -49741,7 +49741,7 @@
           "path": "audit-2026-10-31/EXTREME_COVER_NOTES.md",
           "name": "EXTREME_COVER_NOTES.md",
           "kind": "document",
-          "bytes": 11896
+          "bytes": 12595
         },
         {
           "path": "audit-2026-10-31/check_extreme180_188_sources.py",
@@ -49863,7 +49863,7 @@
           "path": "audit-2026-10-31/EXTREME_COVER_NOTES.md",
           "name": "EXTREME_COVER_NOTES.md",
           "kind": "document",
-          "bytes": 11896
+          "bytes": 12595
         },
         {
           "path": "audit-2026-10-31/check_extreme_cover.py",
@@ -50011,7 +50011,7 @@
           "path": "audit-2026-10-31/EXTREME_COVER_NOTES.md",
           "name": "EXTREME_COVER_NOTES.md",
           "kind": "document",
-          "bytes": 11896
+          "bytes": 12595
         },
         {
           "path": "audit-2026-10-31/check_extreme_cover.py",
@@ -50159,7 +50159,7 @@
           "path": "audit-2026-10-31/EXTREME_COVER_NOTES.md",
           "name": "EXTREME_COVER_NOTES.md",
           "kind": "document",
-          "bytes": 11896
+          "bytes": 12595
         },
         {
           "path": "audit-2026-10-31/check_gould_constants.py",
@@ -50177,7 +50177,7 @@
           "path": "audit-2026-10-31/GOULD189_192_SOURCE_NOTES.md",
           "name": "GOULD189_192_SOURCE_NOTES.md",
           "kind": "document",
-          "bytes": 6635
+          "bytes": 7048
         },
         {
           "path": "audit-2026-10-31/F142_GOMPERTZ_DOMAIN.md",
@@ -50301,7 +50301,7 @@
           "path": "audit-2026-10-31/EXTREME_COVER_NOTES.md",
           "name": "EXTREME_COVER_NOTES.md",
           "kind": "document",
-          "bytes": 11896
+          "bytes": 12595
         },
         {
           "path": "audit-2026-10-31/check_gould_constants.py",
@@ -50319,7 +50319,7 @@
           "path": "audit-2026-10-31/GOULD189_192_SOURCE_NOTES.md",
           "name": "GOULD189_192_SOURCE_NOTES.md",
           "kind": "document",
-          "bytes": 6635
+          "bytes": 7048
         },
         {
           "path": "audit-2026-10-31/F142_GOMPERTZ_DOMAIN.md",
@@ -50443,7 +50443,7 @@
           "path": "audit-2026-10-31/EXTREME_COVER_NOTES.md",
           "name": "EXTREME_COVER_NOTES.md",
           "kind": "document",
-          "bytes": 11896
+          "bytes": 12595
         },
         {
           "path": "audit-2026-10-31/check_gould_constants.py",
@@ -50461,7 +50461,7 @@
           "path": "audit-2026-10-31/GOULD189_192_SOURCE_NOTES.md",
           "name": "GOULD189_192_SOURCE_NOTES.md",
           "kind": "document",
-          "bytes": 6635
+          "bytes": 7048
         },
         {
           "path": "audit-2026-10-31/F142_GOMPERTZ_DOMAIN.md",
@@ -50562,16 +50562,17 @@
       "book_path": "books/taocp-vol4b-ed1-print2-2022.pdf",
       "book_format": "pdf",
       "page_offset": 20,
-      "target": "4B / p. 469, answer 191",
+      "target": "4B / exercise 191, p.148, and answer p.469: tail object and generating-function constant",
       "status": "confirmed",
-      "summary": "The gamma series G(z) is missing the constant −e: at zero it gives e instead of 0. Checked by a general derivation and six numerical tests, and confirmed in the PDF and PostScript. The mean and variance are correct. No matching correction was found in the complete 4B and Fascicle 5 errata; the physical copy has not been checked.",
-      "title": "The series has the wrong constant term",
+      "summary": "Answer 191 needs an additional -e in the gamma-series expression for G(z). The question also calls the underlying set partition a set permutation.",
+      "title": "The tail-distribution series is missing its constant term",
       "severity": "medium",
-      "impact": "It gives e at zero rather than 0; subtracting e is missing.",
-      "verify": "",
+      "impact": "The printed series gives e at zero instead of 0. The intended mean and variance remain correct. The added wording correction identifies the intended combinatorial object.",
+      "verify": "The integral defining G gives G(0)=0. In the alternative series, Gamma(1)=1 and every summand contains z, so the printed value at zero is e. For the wording, compare the definition of a partition tail on pages 101–102 and Corollary 4 of the cited paper.",
       "chapter": "DLX",
       "kind": "book_or_errata",
       "pages": [
+        148,
         469
       ],
       "evidence": [
@@ -50579,13 +50580,13 @@
           "path": "findings/F023.md",
           "name": "F023 — current review.md",
           "kind": "document",
-          "bytes": 1550
+          "bytes": 1642
         },
         {
           "path": "audit-2026-10-31/EXTREME_COVER_NOTES.md",
           "name": "EXTREME_COVER_NOTES.md",
           "kind": "document",
-          "bytes": 11896
+          "bytes": 12595
         },
         {
           "path": "audit-2026-10-31/check_gould_constants.py",
@@ -50603,7 +50604,7 @@
           "path": "audit-2026-10-31/GOULD189_192_SOURCE_NOTES.md",
           "name": "GOULD189_192_SOURCE_NOTES.md",
           "kind": "document",
-          "bytes": 6635
+          "bytes": 7048
         },
         {
           "path": "audit-2026-10-31/F142_GOMPERTZ_DOMAIN.md",
@@ -50658,14 +50659,26 @@
           "name": "vol4b-second-cover-sat.md",
           "kind": "document",
           "bytes": 6718
+        },
+        {
+          "path": "audit-2026-10-31/notes/F023-tail-generating-function.md",
+          "name": "F023-tail-generating-function.md",
+          "kind": "document",
+          "bytes": 2600
+        },
+        {
+          "path": "audit-2026-10-31/results/focused-tail191-sources.json",
+          "name": "focused-tail191-sources.json",
+          "kind": "data",
+          "bytes": 3864
         }
       ],
       "novelty": null,
-      "updated_at": "2026-11-12T15:11:15.710980+00:00",
+      "updated_at": "2026-11-17T16:42:59.149461+00:00",
       "publication_review": {
         "decision": "retained",
         "correctness": "confirmed",
-        "evidence": "integration/2026-11-12-novelty-review/notes/vol4b-second-cover-sat.md",
+        "evidence": "audit-2026-10-31/notes/F023-tail-generating-function.md",
         "official_sources": [
           "https://www-cs-faculty.stanford.edu/~knuth/all4b.ps.gz",
           "https://www-cs-faculty.stanford.edu/~knuth/err4b.ps.gz",
@@ -50681,11 +50694,16 @@
         "priority_established": false,
         "public_search_log": "integration/2026-11-12-novelty-review/notes/vol4b-second-cover-sat.md",
         "reason": "Answer 191, p. 469: subtract e from the incomplete-gamma series. At z=0 the printed series equals e, although the probability generating function has zero constant coefficient. Its derivatives and reported moments are unaffected.",
-        "reviewed_at_utc": "2026-11-12T15:11:15.710980+00:00"
+        "reviewed_at_utc": "2026-11-17T16:42:59.149461+00:00",
+        "extended_scope": "Also correct set permutation to set partition in the question; no additional card."
       },
       "book_available": false,
       "imported": false,
       "page_locations": [
+        {
+          "file_page": 168,
+          "role": "error"
+        },
         {
           "file_page": 489,
           "role": "error"
@@ -50704,14 +50722,14 @@
       "book_path": "books/taocp-vol4b-ed1-print2-2022.pdf",
       "book_format": "pdf",
       "page_offset": 20,
-      "target": "4B / p. 469, answer 189(a); errata 4f5.277",
-      "status": "candidate",
-      "summary": "The correction dated December 19, 2019 itself gives exp(exp(−x) cos y) instead of exp(−exp(x) cos y). At z=0 this gives e instead of 1/e. The mathematical issue is unambiguous, but it is tracked as a supplement to a known erratum and excluded from the count of new findings.",
-      "title": "A published correction has an exponential sign error",
-      "severity": "medium",
-      "impact": "This is tracked as a supplement to an existing erratum.",
-      "verify": "",
-      "chapter": "Other",
+      "target": "4B / DLX answer 189(a), p.469: misplaced minus sign in the exponential modulus",
+      "status": "confirmed",
+      "summary": "Answer 189(a) gives exp(exp(-x) cos y), but the modulus is exp(-exp(x) cos y). The same typo survives in the 2019 replacement answer.",
+      "title": "The modulus formula puts the minus sign in the wrong exponent",
+      "severity": "low",
+      "impact": "A false intermediate identity; subsequent estimates use the intended negative exponent. The asymptotic conclusion is unaffected by this correction.",
+      "verify": "Set z=x+iy=0. The modulus |exp(-exp(0))| is 1/e, while the printed right side is e. In general, use |exp(w)|=exp(Re(w)).",
+      "chapter": "DLX",
       "kind": "book_or_errata",
       "pages": [
         469
@@ -50721,13 +50739,13 @@
           "path": "findings/C006.md",
           "name": "C006 — current review.md",
           "kind": "document",
-          "bytes": 1035
+          "bytes": 1369
         },
         {
           "path": "audit-2026-10-31/EXTREME_COVER_NOTES.md",
           "name": "EXTREME_COVER_NOTES.md",
           "kind": "document",
-          "bytes": 11896
+          "bytes": 12595
         },
         {
           "path": "audit-2026-10-31/results/gould_constants.json",
@@ -50739,7 +50757,7 @@
           "path": "audit-2026-10-31/GOULD189_192_SOURCE_NOTES.md",
           "name": "GOULD189_192_SOURCE_NOTES.md",
           "kind": "document",
-          "bytes": 6635
+          "bytes": 7048
         },
         {
           "path": "audit-2026-10-31/F142_GOMPERTZ_DOMAIN.md",
@@ -50788,17 +50806,47 @@
           "name": "gould_signs.json",
           "kind": "data",
           "bytes": 1157
+        },
+        {
+          "path": "audit-2026-10-31/notes/C006-exponential-modulus.md",
+          "name": "C006-exponential-modulus.md",
+          "kind": "document",
+          "bytes": 2383
+        },
+        {
+          "path": "audit-2026-10-31/results/focused-modulus189-sources.json",
+          "name": "focused-modulus189-sources.json",
+          "kind": "data",
+          "bytes": 3915
         }
       ],
       "novelty": null,
-      "updated_at": null,
-      "publication_review": null,
+      "updated_at": "2026-11-17T16:37:37.661391+00:00",
+      "publication_review": {
+        "decision": "retained",
+        "correctness": "confirmed",
+        "evidence": "audit-2026-10-31/notes/C006-exponential-modulus.md",
+        "official_sources": [
+          "https://www-cs-faculty.stanford.edu/~knuth/err4b.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4b.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f5.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f5.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f6.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f6.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4b.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4f5.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4f6.ps.gz"
+        ],
+        "novelty_result": "no_matching_prior_report_found",
+        "priority_established": false,
+        "reviewed_at_utc": "2026-11-17T16:37:37.661391+00:00"
+      },
       "book_available": false,
       "imported": false,
       "page_locations": [
         {
           "file_page": 489,
-          "role": "related"
+          "role": "error"
         }
       ],
       "export_omissions": {
@@ -52546,7 +52594,7 @@
           "path": "audit-2026-10-31/SURVEY_NOTES.md",
           "name": "SURVEY_NOTES.md",
           "kind": "document",
-          "bytes": 6586
+          "bytes": 7153
         },
         {
           "path": "audit-2026-10-31/results/surveys.json",
@@ -52628,7 +52676,7 @@
           "path": "audit-2026-10-31/SURVEY_NOTES.md",
           "name": "SURVEY_NOTES.md",
           "kind": "document",
-          "bytes": 6586
+          "bytes": 7153
         },
         {
           "path": "audit-2026-10-31/results/surveys.json",
@@ -52687,13 +52735,13 @@
       "book_path": "books/taocp-vol4b-ed1-print2-2022.pdf",
       "book_format": "pdf",
       "page_offset": 20,
-      "target": "4B / SAT 361, p. 619",
-      "status": "candidate",
-      "summary": "The verbal description omits η_l=0 when π_l=1 and calls every stable assignment covering, conflicting with the narrower definition in 364. The restriction may be implicit in (154); this remains a candidate clarification.",
-      "title": "The description may omit stability restrictions",
-      "severity": "high",
-      "impact": "The wording may rely on assumptions implicit in (154).",
-      "verify": "",
+      "target": "4B / SAT361, p.619: stable assignments are incorrectly called covering",
+      "status": "confirmed",
+      "summary": "Answer361 identifies two classes that exercise364 explicitly distinguishes. A stable assignment need not have each assigned variable constrained.",
+      "title": "Stable assignments are incorrectly called covering",
+      "severity": "low",
+      "impact": "This misstates the relationship between binary fixed points and covering assignments. The survey equations themselves are unaffected.",
+      "verify": "Take the single clause x OR y and assign x=y=1. Both variables are unconstrained, so the assignment is not covering. Reinforcement messages1 on x,y and0 on their negations, with both clause messages0, form a fully defined binary fixed point. Replace covering by stable and refer to exercise363.",
       "chapter": "SAT",
       "kind": "book_or_errata",
       "pages": [
@@ -52704,24 +52752,44 @@
           "path": "findings/C008.md",
           "name": "C008 — current review.md",
           "kind": "document",
-          "bytes": 779
+          "bytes": 1361
         },
         {
           "path": "audit-2026-10-31/SURVEY_NOTES.md",
           "name": "SURVEY_NOTES.md",
           "kind": "document",
-          "bytes": 6586
+          "bytes": 7153
         },
         {
           "path": "audit-2026-10-31/results/surveys.json",
           "name": "surveys.json",
           "kind": "data",
           "bytes": 456
+        },
+        {
+          "path": "audit-2026-10-31/notes/C008-stable-versus-covering.md",
+          "name": "C008-stable-versus-covering.md",
+          "kind": "document",
+          "bytes": 3366
+        },
+        {
+          "path": "audit-2026-10-31/results/focused-covering361-sources.json",
+          "name": "focused-covering361-sources.json",
+          "kind": "data",
+          "bytes": 3704
         }
       ],
       "novelty": null,
-      "updated_at": "2026-10-31T20:41:09+00:00",
-      "publication_review": null,
+      "updated_at": "2026-11-17T15:17:53.825133+00:00",
+      "publication_review": {
+        "decision": "retained",
+        "correctness": "confirmed",
+        "evidence": "audit-2026-10-31/notes/C008-stable-versus-covering.md",
+        "novelty_result": "no_matching_prior_report_found",
+        "priority_established": false,
+        "reviewed_at_utc": "2026-11-17T15:17:53.825133+00:00",
+        "scope": "Terminology identifying stable and covering assignments only."
+      },
       "book_available": false,
       "imported": false,
       "page_locations": [
@@ -57633,7 +57701,7 @@
           "path": "audit-2026-10-31/ESTIMATION_NOTES.md",
           "name": "ESTIMATION_NOTES.md",
           "kind": "document",
-          "bytes": 17477
+          "bytes": 18195
         },
         {
           "path": "audit-2026-10-31/check_estimation.py",
@@ -57718,7 +57786,7 @@
           "path": "audit-2026-10-31/ESTIMATION_NOTES.md",
           "name": "ESTIMATION_NOTES.md",
           "kind": "document",
-          "bytes": 17477
+          "bytes": 18195
         },
         {
           "path": "audit-2026-10-31/check_estimation.py",
@@ -57803,7 +57871,7 @@
           "path": "audit-2026-10-31/ESTIMATION_NOTES.md",
           "name": "ESTIMATION_NOTES.md",
           "kind": "document",
-          "bytes": 17477
+          "bytes": 18195
         },
         {
           "path": "audit-2026-10-31/check_estimation.py",
@@ -57888,7 +57956,7 @@
           "path": "audit-2026-10-31/ESTIMATION_NOTES.md",
           "name": "ESTIMATION_NOTES.md",
           "kind": "document",
-          "bytes": 17477
+          "bytes": 18195
         },
         {
           "path": "audit-2026-10-31/check_estimation.py",
@@ -57973,7 +58041,7 @@
           "path": "audit-2026-10-31/ESTIMATION_NOTES.md",
           "name": "ESTIMATION_NOTES.md",
           "kind": "document",
-          "bytes": 17477
+          "bytes": 18195
         },
         {
           "path": "audit-2026-10-31/check_dynamic_distances.py",
@@ -58056,7 +58124,7 @@
           "path": "audit-2026-10-31/ESTIMATION_NOTES.md",
           "name": "ESTIMATION_NOTES.md",
           "kind": "document",
-          "bytes": 17477
+          "bytes": 18195
         }
       ],
       "novelty": null,
@@ -61535,7 +61603,7 @@
           "path": "audit-2026-10-31/COLORED_BASICS_NOTES.md",
           "name": "COLORED_BASICS_NOTES.md",
           "kind": "document",
-          "bytes": 14126
+          "bytes": 14702
         },
         {
           "path": "audit-2026-10-31/colored_dlx.py",
@@ -61637,13 +61705,13 @@
       "book_path": "books/taocp-vol4b-ed1-print2-2022.pdf",
       "book_format": "pdf",
       "page_offset": 20,
-      "target": "4B / p. 87, historical footnote below Figure 71",
-      "status": "candidate",
-      "summary": "The footnote associates a 1913 index with the 21st birthday of Acta Mathematica, founded in 1882. The founding date and the contemporary 179-page index notice were checked in primary sources. The original Riesz preface and the exact commemorative occasion are still missing, so this remains a candidate; neither a 30th nor a 31st anniversary correction is asserted.",
-      "title": "The anniversary date needs historical verification",
+      "target": "4B / str.87, historická poznámka pod obrázkem71",
+      "status": "confirmed",
+      "summary": "The footnote links a 1913 index to the journal’s 21st birthday. The original index explicitly covers 1882–1912, and the first issue appeared in December 1882.",
+      "title": "The Acta Mathematica anniversary is ten years out",
       "severity": "low",
-      "impact": "The stated 21st birthday does not match the founding and publication years.",
-      "verify": "Compare the PDF footnote, Domar p. 8 and the 1913 bibliographic notice p. 528. Obtain the original Riesz preface before deciding the precise correction.",
+      "impact": "A historical date is wrong; the word-search construction is unaffected.",
+      "verify": "Compare the title page of the original Riesz index (PDF page 7) with Domar’s history, p. 8. The twenty-first anniversary was in 1903. A safe correction states that the index followed the first thirty years without guessing the exact name of a celebration.",
       "chapter": "Dancing links",
       "kind": "book_or_errata",
       "pages": [
@@ -61654,13 +61722,13 @@
           "path": "findings/C025.md",
           "name": "C025 — current review.md",
           "kind": "document",
-          "bytes": 988
+          "bytes": 1256
         },
         {
           "path": "audit-2026-10-31/COLORED_BASICS_NOTES.md",
           "name": "COLORED_BASICS_NOTES.md",
           "kind": "document",
-          "bytes": 14126
+          "bytes": 14702
         },
         {
           "path": "audit-2026-10-31/check_colored_sources.py",
@@ -61679,11 +61747,38 @@
           "name": "errata-check.json",
           "kind": "data",
           "bytes": 38567
+        },
+        {
+          "path": "audit-2026-10-31/notes/C025-acta-anniversary.md",
+          "name": "C025-acta-anniversary.md",
+          "kind": "document",
+          "bytes": 2672
+        },
+        {
+          "path": "audit-2026-10-31/results/focused-acta87-sources.json",
+          "name": "focused-acta87-sources.json",
+          "kind": "data",
+          "bytes": 1578
         }
       ],
       "novelty": null,
-      "updated_at": "2026-11-02T00:04:34.187152+00:00",
-      "publication_review": null,
+      "updated_at": "2026-11-17T09:52:34.358867+00:00",
+      "publication_review": {
+        "decision": "retained",
+        "correctness": "confirmed",
+        "evidence": "audit-2026-10-31/notes/C025-acta-anniversary.md",
+        "official_sources": [
+          "https://www-cs-faculty.stanford.edu/~knuth/err4b.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4b.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4b.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f5.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f5.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4f5.ps.gz"
+        ],
+        "novelty_result": "no_matching_prior_report_found",
+        "priority_established": false,
+        "reviewed_at_utc": "2026-11-17T09:52:34.358867+00:00"
+      },
       "book_available": false,
       "imported": false,
       "page_locations": [
@@ -61693,7 +61788,7 @@
         }
       ],
       "export_omissions": {
-        "count": 6,
+        "count": 9,
         "reason": "Full pages, books and external document copies are not included. Consult the original references or supply your own book locally."
       }
     },
@@ -64077,14 +64172,14 @@
       "book_path": "books/taocp-vol4b-ed1-print2-2022.pdf",
       "book_format": "pdf",
       "page_offset": 20,
-      "target": "4B / answer 7.2.2.1–146, p. 456, historical reference to part (c)",
-      "status": "candidate",
-      "summary": "The September 1978 article asks whether all 30 cubes can be divided into five valid rows. That matches 146(d); part (c) asks for the number of row arrangements. The same reference appears in the local Volume 4B PDF and the 2019 author draft. This remains an editorial candidate while the 1961 text and complete history are unresolved. The mathematical counts 2,176, 33 and 15,500 are correct.",
-      "title": "Possible wrong subquestion reference in the cube history",
+      "target": "4B / 7.2.2.1–146, p.456: Gardner cross-reference should be question(d)",
+      "status": "confirmed",
+      "summary": "The cited1978 article asks for five disjoint six-cube rows using all thirty cubes. The book instead points to the part asking how many individual rows there are.",
+      "title": "Gardner's extension is question(d), not question(c)",
       "severity": "low",
-      "impact": "The cited Gardner page asks the partition question in part (d), while the book refers to part (c).",
-      "verify": "Compare exercise 146(c,d) on page 143, the historical paragraph on page 456, and the bottom-right paragraph of the archived Scientific American page 26. Proposed change: question (c) to question (d).",
-      "chapter": "Dancing links",
+      "impact": "A one-letter cross-reference sends the reader to a different question. The mathematical solutions and counts are unaffected.",
+      "verify": "Compare parts(c) and(d) on p.143 with the final complete paragraph in the right column of Gardner1978, p.26. Change question(c) to question(d) on p.456. The published235→239 volume correction is separate.",
+      "chapter": "DLX",
       "kind": "book_or_errata",
       "pages": [
         456
@@ -64094,19 +64189,19 @@
           "path": "findings/C034.md",
           "name": "C034 — current review.md",
           "kind": "document",
-          "bytes": 1125
+          "bytes": 1381
         },
         {
           "path": "audit-2026-10-31/C034_CUBES_REFERENCE.md",
           "name": "C034_CUBES_REFERENCE.md",
           "kind": "document",
-          "bytes": 1656
+          "bytes": 2150
         },
         {
           "path": "audit-2026-10-31/CUBES146_NOTES.md",
           "name": "CUBES146_NOTES.md",
           "kind": "document",
-          "bytes": 6643
+          "bytes": 7144
         },
         {
           "path": "audit-2026-10-31/results/cubes146/errata-check.json",
@@ -64119,11 +64214,42 @@
           "name": "sources-checked.json",
           "kind": "data",
           "bytes": 4257
+        },
+        {
+          "path": "audit-2026-10-31/notes/C034-colored-cubes-cross-reference.md",
+          "name": "C034-colored-cubes-cross-reference.md",
+          "kind": "document",
+          "bytes": 3451
+        },
+        {
+          "path": "audit-2026-10-31/results/focused-cubes146-reference.json",
+          "name": "focused-cubes146-reference.json",
+          "kind": "data",
+          "bytes": 2711
         }
       ],
       "novelty": null,
-      "updated_at": "2026-11-03T07:23:24.873496+00:00",
-      "publication_review": null,
+      "updated_at": "2026-11-17T15:04:55.650107+00:00",
+      "publication_review": {
+        "decision": "retained",
+        "correctness": "confirmed",
+        "evidence": "audit-2026-10-31/notes/C034-colored-cubes-cross-reference.md",
+        "official_sources": [
+          "https://www-cs-faculty.stanford.edu/~knuth/err4b.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4b.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4b.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f5.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f5.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4f5.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f6.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f6.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4f6.ps.gz"
+        ],
+        "novelty_result": "no_matching_prior_report_found",
+        "priority_established": false,
+        "reviewed_at_utc": "2026-11-17T15:04:55.650107+00:00",
+        "scope": "Internal part-letter cross-reference only."
+      },
       "book_available": false,
       "imported": false,
       "page_locations": [
@@ -64133,7 +64259,7 @@
         }
       ],
       "export_omissions": {
-        "count": 7,
+        "count": 9,
         "reason": "Full pages, books and external document copies are not included. Consult the original references or supply your own book locally."
       }
     },
@@ -64486,7 +64612,7 @@
       ],
       "export_omissions": {
         "count": 5,
-        "reason": "Book pages, book figure excerpts, books and external document copies are not distributed. Consult the cited originals or supply your own book locally."
+        "reason": "Full pages, books and external document copies are not included. Consult the original references or supply your own book locally."
       }
     },
     {
@@ -64957,7 +65083,7 @@
           "path": "audit-2026-10-31/EXTREME_COVER_NOTES.md",
           "name": "EXTREME_COVER_NOTES.md",
           "kind": "document",
-          "bytes": 11896
+          "bytes": 12595
         },
         {
           "path": "audit-2026-10-31/check_extreme180_188_sources.py",
@@ -65059,7 +65185,7 @@
           "path": "audit-2026-10-31/GOULD189_192_SOURCE_NOTES.md",
           "name": "GOULD189_192_SOURCE_NOTES.md",
           "kind": "document",
-          "bytes": 6635
+          "bytes": 7048
         },
         {
           "path": "audit-2026-10-31/F142_GOMPERTZ_DOMAIN.md",
@@ -65071,7 +65197,7 @@
           "path": "audit-2026-10-31/EXTREME_COVER_NOTES.md",
           "name": "EXTREME_COVER_NOTES.md",
           "kind": "document",
-          "bytes": 11896
+          "bytes": 12595
         },
         {
           "path": "audit-2026-10-31/check_gould189_192_sources.py",
@@ -66230,7 +66356,7 @@
           "path": "findings/C039.md",
           "name": "C039 — current review.md",
           "kind": "document",
-          "bytes": 1423
+          "bytes": 1527
         },
         {
           "path": "audit-2026-10-31/USA239_246_SOURCE_NOTES.md",
@@ -66357,10 +66483,16 @@
           "name": "contiguous-usa.gb",
           "kind": "data",
           "bytes": 4235
+        },
+        {
+          "path": "integration/2026-11-17-focused-4b/notes/c039-population-vintages.md",
+          "name": "c039-population-vintages.md",
+          "kind": "document",
+          "bytes": 2475
         }
       ],
       "novelty": null,
-      "updated_at": "2026-11-03T19:13:45.325075+00:00",
+      "updated_at": "2026-11-17T18:27:35.363222+00:00",
       "publication_review": null,
       "book_available": false,
       "imported": false,
@@ -66666,7 +66798,7 @@
           "path": "audit-2026-10-31/COLORED_BASICS_NOTES.md",
           "name": "COLORED_BASICS_NOTES.md",
           "kind": "document",
-          "bytes": 14126
+          "bytes": 14702
         },
         {
           "path": "integration/2026-11-12-novelty-review/notes/vol4b-eighth-zdd-and-probability.md",
@@ -70795,7 +70927,7 @@
           "path": "audit-2026-10-31/notes/sequential-mpr-ex113.md",
           "name": "sequential-mpr-ex113.md",
           "kind": "document",
-          "bytes": 10484
+          "bytes": 10976
         },
         {
           "path": "audit-2026-10-31/notes/F175-minwise-probability-denominator.md",
@@ -70807,7 +70939,7 @@
           "path": "audit-2026-10-31/notes/C048-prime-number-error-exponent.md",
           "name": "C048-prime-number-error-exponent.md",
           "kind": "document",
-          "bytes": 1617
+          "bytes": 4904
         },
         {
           "path": "audit-2026-10-31/results/sequential/mpr-113-rank-claim-map.json",
@@ -70890,12 +71022,12 @@
       "book_format": "pdf",
       "page_offset": 20,
       "target": "4B / Mathematical Preliminaries Redux, notes after113, p.388",
-      "status": "candidate",
-      "summary": "Candidate only. Both original sources print exp(−C log n), a fixed power saving. The inspected primary theorem instead has sqrt(log n) in the exponent.",
-      "title": "The prime-number error exponent needs clarification",
+      "status": "confirmed",
+      "summary": "The note prints exp(−C log n) and attributes this fixed power saving to the 1896 paper. The original sources instead give a later bound with sqrt(log n) in the exponent.",
+      "title": "The cited prime-number error bound has the wrong exponent",
       "severity": "medium",
-      "impact": "A missing square root is plausible, but no counterexample to the stronger statement has been proved. The mathematical note remains open and exercise113 stays partial.",
-      "verify": "",
+      "impact": "The note overstates the cited mathematical result. Its exponential-growth conclusion and the combinatorial argument remain valid. No disproof of the stronger asymptotic formula is claimed.",
+      "verify": "Read the 1896 reprint, p.62 (PDF p.71), and the 1899 paper, §55, p.54 (PDF p.67), with its introduction on p.6. Use exp(−c sqrt(log n)) and cite 1899, or retain the 1896 reference and write psi(n)=n+o(n).",
       "chapter": "MPR",
       "kind": "book_or_errata",
       "pages": [
@@ -70906,13 +71038,13 @@
           "path": "findings/C048.md",
           "name": "C048 — current review.md",
           "kind": "document",
-          "bytes": 1262
+          "bytes": 1661
         },
         {
           "path": "audit-2026-10-31/notes/sequential-mpr-ex113.md",
           "name": "sequential-mpr-ex113.md",
           "kind": "document",
-          "bytes": 10484
+          "bytes": 10976
         },
         {
           "path": "audit-2026-10-31/notes/F175-minwise-probability-denominator.md",
@@ -70924,7 +71056,7 @@
           "path": "audit-2026-10-31/notes/C048-prime-number-error-exponent.md",
           "name": "C048-prime-number-error-exponent.md",
           "kind": "document",
-          "bytes": 1617
+          "bytes": 4904
         },
         {
           "path": "audit-2026-10-31/results/sequential/mpr-113-rank-claim-map.json",
@@ -70955,11 +71087,36 @@
           "name": "sequential-mpr-ex111.md",
           "kind": "document",
           "bytes": 9754
+        },
+        {
+          "path": "audit-2026-10-31/results/focused-prime113-sources.json",
+          "name": "focused-prime113-sources.json",
+          "kind": "data",
+          "bytes": 2658
         }
       ],
       "novelty": null,
-      "updated_at": "2026-11-07T02:59:34.489521+00:00",
-      "publication_review": null,
+      "updated_at": "2026-11-17T10:08:21.661724+00:00",
+      "publication_review": {
+        "decision": "retained",
+        "correctness": "confirmed",
+        "evidence": "audit-2026-10-31/notes/C048-prime-number-error-exponent.md",
+        "official_sources": [
+          "https://www-cs-faculty.stanford.edu/~knuth/err4b.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4b.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4b.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f5.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f5.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4f5.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f6.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f6.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4f6.ps.gz"
+        ],
+        "novelty_result": "no_matching_prior_report_found",
+        "priority_established": false,
+        "reviewed_at_utc": "2026-11-17T10:08:21.661724+00:00",
+        "scope": "Confirmed misstatement of the cited historical bound. No proof that the stronger asymptotic formula is false is claimed."
+      },
       "book_available": false,
       "imported": false,
       "page_locations": [
@@ -70969,7 +71126,7 @@
         }
       ],
       "export_omissions": {
-        "count": 11,
+        "count": 16,
         "reason": "Full pages, books and external document copies are not included. Consult the original references or supply your own book locally."
       }
     },
@@ -76919,28 +77076,30 @@
       "book_path": "books/taocp-vol4b-ed1-print2-2022.pdf",
       "book_format": "pdf",
       "page_offset": 20,
-      "target": "4B / SAT450, answer638/file658: unit polarity and degree wording",
+      "target": "4B / SAT450, answer638/file658: unit polarity, degree wording, and final line label",
       "status": "confirmed",
-      "summary": "The negative x15 unit is satisfiable in the displayed34-incidence matrix; the proof needs the positive unit.",
-      "title": "The uniqueness proof uses the opposite unit clause",
+      "summary": "The initial unit has the wrong sign, a degree sentence describes the wrong points, and the final line AC contains ad instead of bd.",
+      "title": "Three local errors in the 10-by-10 uniqueness proof",
       "severity": "low",
-      "impact": "Reverse the unit sign and replace “lie on such lines” by “lie on four lines”; the uniqueness conclusion remains valid.",
-      "verify": "",
+      "impact": "The printed AC and A share two points, creating a forbidden quad. Correcting the three local statements preserves the uniqueness theorem.",
+      "verify": "For the new line-label error, compare A={a,ab,ac,ad} with AC={a,c,ad}: both contain a and ad. The corrected line is AC={a,c,bd}. The note also gives the fixed 34-incidence witness for the earlier unit-sign error.",
       "chapter": "7.2.2.2",
       "kind": "book_or_errata",
-      "pages": [],
+      "pages": [
+        638
+      ],
       "evidence": [
         {
           "path": "findings/F242.md",
           "name": "F242 — current review.md",
           "kind": "document",
-          "bytes": 1571
+          "bytes": 1625
         },
         {
           "path": "audit-2026-10-31/notes/F242-quad-free-uniqueness-proof.md",
           "name": "F242-quad-free-uniqueness-proof.md",
           "kind": "document",
-          "bytes": 2068
+          "bytes": 4083
         },
         {
           "path": "audit-2026-10-31/notes/bookwise-sat442-456-2026-11-12.md",
@@ -76965,10 +77124,16 @@
           "name": "vol4b-twelfth-final-exercises-and-index.md",
           "kind": "document",
           "bytes": 7127
+        },
+        {
+          "path": "audit-2026-10-31/results/focused-quad450-sources.json",
+          "name": "focused-quad450-sources.json",
+          "kind": "data",
+          "bytes": 1470
         }
       ],
       "novelty": null,
-      "updated_at": "2026-11-12T16:00:10.681122+00:00",
+      "updated_at": "2026-11-17T09:23:05.918511+00:00",
       "publication_review": {
         "decision": "retained",
         "correctness": "confirmed",
@@ -76987,7 +77152,14 @@
         "priority_established": false,
         "public_search_log": "integration/2026-11-12-novelty-review/notes/vol4b-twelfth-final-exercises-and-index.md",
         "reason": "SAT450 must add positive x15 to rule out five points on a line. The printed negative unit is satisfied by the explicit 34-incidence matrix. Also, four points belong to four lines each; the four large lines together cover all ten points. Correct the polarity and the ambiguous degree wording, without disputing the uniqueness theorem.",
-        "reviewed_at_utc": "2026-11-12T16:00:10.681122+00:00"
+        "reviewed_at_utc": "2026-11-12T16:00:10.681122+00:00",
+        "additional_review": {
+          "reviewed_at_utc": "2026-11-17T09:23:05.918511+00:00",
+          "evidence": "audit-2026-10-31/results/focused-quad450-sources.json",
+          "component": "Wrong intersection point in the final AC line.",
+          "novelty_result": "no_matching_prior_report_found",
+          "priority_established": false
+        }
       },
       "book_available": false,
       "imported": false,
@@ -76998,7 +77170,7 @@
         }
       ],
       "export_omissions": {
-        "count": 2,
+        "count": 4,
         "reason": "Full pages, books and external document copies are not included. Consult the original references or supply your own book locally."
       }
     },
@@ -78229,6 +78401,1155 @@
       ],
       "export_omissions": {
         "count": 3,
+        "reason": "Full pages, books and external document copies are not included. Consult the original references or supply your own book locally."
+      }
+    },
+    {
+      "id": "F257",
+      "volume": "vol4b",
+      "volume_label": "4B",
+      "edition": "1st edition · 2nd printing · 2022",
+      "book_path": "books/taocp-vol4b-ed1-print2-2022.pdf",
+      "book_format": "pdf",
+      "page_offset": 20,
+      "target": "4B / 7.2.2.2–305, p.608: twelve-variable WalkSAT restart expectation",
+      "status": "confirmed",
+      "summary": "For the twelve-variable instance in answer 305, restarting after eight flips takes 12.297... flips on average, not the printed 16.1. An exact 33-state computation confirms the success probability and weighted duration already given in the book. The printed 16.1 instead corresponds to restarting after twelve flips.",
+      "title": "The restart example uses the cost for a different cutoff",
+      "severity": "low",
+      "impact": "Replace 16.1 by 12.3, or change the stated cutoff from eight to twelve. This numerical correction improves the reported restart performance; WalkSAT and the general restart analysis remain valid.",
+      "verify": "Use L = (g'(1) + N(1-g(1)))/g(1) with N=8, g(1)=116471/227328 and g'(1)=4363123/1818624.",
+      "chapter": "SAT",
+      "kind": "book_or_errata",
+      "pages": [
+        608
+      ],
+      "evidence": [
+        {
+          "path": "findings/F257.md",
+          "name": "F257 — current review.md",
+          "kind": "document",
+          "bytes": 1336
+        },
+        {
+          "path": "audit-2026-10-31/notes/F257-walksat-restart-cutoff.md",
+          "name": "F257-walksat-restart-cutoff.md",
+          "kind": "document",
+          "bytes": 4365
+        },
+        {
+          "path": "audit-2026-10-31/check_focused_walksat305.py",
+          "name": "check_focused_walksat305.py",
+          "kind": "code",
+          "bytes": 5785
+        },
+        {
+          "path": "audit-2026-10-31/results/focused-walksat305.json",
+          "name": "focused-walksat305.json",
+          "kind": "data",
+          "bytes": 4190
+        },
+        {
+          "path": "audit-2026-10-31/results/focused-walksat305-sources.json",
+          "name": "focused-walksat305-sources.json",
+          "kind": "data",
+          "bytes": 1398
+        },
+        {
+          "path": "integration/2026-11-17-focused-4b/sources/retrieval.json",
+          "name": "retrieval.json",
+          "kind": "data",
+          "bytes": 3169
+        }
+      ],
+      "novelty": null,
+      "updated_at": "2026-11-17T08:52:10.520593+00:00",
+      "publication_review": {
+        "decision": "retained",
+        "correctness": "confirmed",
+        "evidence": "audit-2026-10-31/notes/F257-walksat-restart-cutoff.md",
+        "official_sources": [
+          "https://www-cs-faculty.stanford.edu/~knuth/err4b.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4b.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4b.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f6.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f6.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4f6.ps.gz"
+        ],
+        "novelty_result": "no_matching_prior_report_found",
+        "priority_established": false,
+        "reviewed_at_utc": "2026-11-17T08:52:10.520593+00:00"
+      },
+      "book_available": false,
+      "imported": false,
+      "page_locations": [
+        {
+          "file_page": 628,
+          "role": "error"
+        }
+      ],
+      "export_omissions": {
+        "count": 2,
+        "reason": "Full pages, books and external document copies are not included. Consult the original references or supply your own book locally."
+      }
+    },
+    {
+      "id": "F258",
+      "volume": "vol4b",
+      "volume_label": "4B",
+      "edition": "1st edition · 2nd printing · 2022",
+      "book_path": "books/taocp-vol4b-ed1-print2-2022.pdf",
+      "book_format": "pdf",
+      "page_offset": 20,
+      "target": "4B / 7.2.2.2–203(e), p.587: signs in the overlap-ratio proof",
+      "status": "confirmed",
+      "summary": "Answer 203(e) asserts f(1/2)<0, but the allowed choice p=1/2, r=7/5 gives f(1/2)=3/25>0. The discrepancy persists for arbitrarily small positive epsilon. The following approximation near 1/2 also uses the opposite paired sign: g(1/2 +/- 1/N) has leading term +/- f(1/2)N/4. Both defects occur in one proof paragraph.",
+      "title": "Two sign claims in the overlap-ratio proof are incorrect",
+      "severity": "low",
+      "impact": "Correct the intermediate signs and the associated root-location discussion. This finding does not contradict the final satisfiability-threshold conclusion.",
+      "verify": "Substitute p=1/2 and r=7/5 into f(sigma)=2pr sigma/(1-p+p sigma^2)-1; then expand ln((1/2+h)/(1/2-h))=4h+O(h^3).",
+      "chapter": "SAT",
+      "kind": "book_or_errata",
+      "pages": [
+        587
+      ],
+      "evidence": [
+        {
+          "path": "findings/F258.md",
+          "name": "F258 — current review.md",
+          "kind": "document",
+          "bytes": 1304
+        },
+        {
+          "path": "audit-2026-10-31/notes/F258-overlap-ratio-signs.md",
+          "name": "F258-overlap-ratio-signs.md",
+          "kind": "document",
+          "bytes": 3644
+        },
+        {
+          "path": "audit-2026-10-31/results/focused-overlap203-sources.json",
+          "name": "focused-overlap203-sources.json",
+          "kind": "data",
+          "bytes": 1453
+        },
+        {
+          "path": "integration/2026-11-17-focused-4b/sources/retrieval.json",
+          "name": "retrieval.json",
+          "kind": "data",
+          "bytes": 3169
+        }
+      ],
+      "novelty": null,
+      "updated_at": "2026-11-17T08:57:28.205225+00:00",
+      "publication_review": {
+        "decision": "retained",
+        "correctness": "confirmed",
+        "evidence": "audit-2026-10-31/notes/F258-overlap-ratio-signs.md",
+        "official_sources": [
+          "https://www-cs-faculty.stanford.edu/~knuth/err4b.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4b.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4b.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f6.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f6.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4f6.ps.gz"
+        ],
+        "novelty_result": "no_matching_prior_report_found",
+        "priority_established": false,
+        "reviewed_at_utc": "2026-11-17T08:57:28.205225+00:00"
+      },
+      "book_available": false,
+      "imported": false,
+      "page_locations": [
+        {
+          "file_page": 607,
+          "role": "error"
+        }
+      ],
+      "export_omissions": {
+        "count": 2,
+        "reason": "Full pages, books and external document copies are not included. Consult the original references or supply your own book locally."
+      }
+    },
+    {
+      "id": "F259",
+      "volume": "vol4b",
+      "volume_label": "4B",
+      "edition": "1st edition · 2nd printing · 2022",
+      "book_path": "books/taocp-vol4b-ed1-print2-2022.pdf",
+      "book_format": "pdf",
+      "page_offset": 20,
+      "target": "4B / 7.2.2.2–230, p.592: permutation direction in the minimality witness",
+      "status": "confirmed",
+      "summary": "After deleting M_(j0,m), the listed permutation gives the wrong element the largest rank. For m=3 and j0=1, the proposed assignment still violates M_23.",
+      "title": "Minimality witness uses the wrong permutation direction",
+      "severity": "low",
+      "impact": "The explicit satisfying assignment is wrong. The minimal-unsatisfiability claim is repaired by reversing the permutation direction.",
+      "verify": "Set m=3 and j0=1. The printed ranks (2,3,1) make row 2 entirely false, so M_23 is false although only M_13 was removed. Replace the ranks by (3,1,2), or set x_(p_i,p_j)=[i<j].",
+      "chapter": "SAT",
+      "kind": "book_or_errata",
+      "pages": [
+        592
+      ],
+      "evidence": [
+        {
+          "path": "findings/F259.md",
+          "name": "F259 — current review.md",
+          "kind": "document",
+          "bytes": 1223
+        },
+        {
+          "path": "audit-2026-10-31/notes/F259-minimality-permutation-inverse.md",
+          "name": "F259-minimality-permutation-inverse.md",
+          "kind": "document",
+          "bytes": 3068
+        },
+        {
+          "path": "audit-2026-10-31/results/focused-minimality230-sources.json",
+          "name": "focused-minimality230-sources.json",
+          "kind": "data",
+          "bytes": 1484
+        },
+        {
+          "path": "integration/2026-11-17-focused-4b/sources/retrieval.json",
+          "name": "retrieval.json",
+          "kind": "data",
+          "bytes": 3169
+        }
+      ],
+      "novelty": null,
+      "updated_at": "2026-11-17T09:06:27.028567+00:00",
+      "publication_review": {
+        "decision": "retained",
+        "correctness": "confirmed",
+        "evidence": "audit-2026-10-31/notes/F259-minimality-permutation-inverse.md",
+        "official_sources": [
+          "https://www-cs-faculty.stanford.edu/~knuth/err4b.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4b.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4b.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f6.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f6.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4f6.ps.gz"
+        ],
+        "novelty_result": "no_matching_prior_report_found",
+        "priority_established": false,
+        "reviewed_at_utc": "2026-11-17T09:06:27.028567+00:00"
+      },
+      "book_available": false,
+      "imported": false,
+      "page_locations": [
+        {
+          "file_page": 612,
+          "role": "error"
+        }
+      ],
+      "export_omissions": {
+        "count": 2,
+        "reason": "Full pages, books and external document copies are not included. Consult the original references or supply your own book locally."
+      }
+    },
+    {
+      "id": "F260",
+      "volume": "vol4b",
+      "volume_label": "4B",
+      "edition": "1st edition · 2nd printing · 2022",
+      "book_path": "books/taocp-vol4b-ed1-print2-2022.pdf",
+      "book_format": "pdf",
+      "page_offset": 20,
+      "target": "4B / Mathematical Preliminaries Redux, answer26, p.374: history of Newton's inequalities",
+      "status": "confirmed",
+      "summary": "The answer credits the eventual proof to Sylvester in 1865, although Maclaurin's 1729 paper already proves the coefficient inequality used here.",
+      "title": "Newton's inequalities were proved before 1865",
+      "severity": "low",
+      "impact": "The historical attribution confuses coefficient inequalities with a stronger rule for counting nonreal roots. The inequality and printed mathematical proof remain valid.",
+      "verify": "Compare Maclaurin1729, Proposition IX and its corollary on pp.69–70, with the same-sign hypothesis on p.68. Normalize the coefficients by binomial coefficients. Sylvester's reprint pp.498–499 and 508 distinguish the root-counting rule from the earlier coefficient criterion.",
+      "chapter": "MPR",
+      "kind": "book_or_errata",
+      "pages": [
+        374
+      ],
+      "evidence": [
+        {
+          "path": "findings/F260.md",
+          "name": "F260 — current review.md",
+          "kind": "document",
+          "bytes": 1345
+        },
+        {
+          "path": "audit-2026-10-31/notes/F260-newton-inequality-history.md",
+          "name": "F260-newton-inequality-history.md",
+          "kind": "document",
+          "bytes": 4675
+        },
+        {
+          "path": "audit-2026-10-31/results/focused-newton26-sources.json",
+          "name": "focused-newton26-sources.json",
+          "kind": "data",
+          "bytes": 2958
+        }
+      ],
+      "novelty": null,
+      "updated_at": "2026-11-17T10:47:37.786078+00:00",
+      "publication_review": {
+        "decision": "retained",
+        "correctness": "confirmed",
+        "evidence": "audit-2026-10-31/notes/F260-newton-inequality-history.md",
+        "official_sources": [
+          "https://www-cs-faculty.stanford.edu/~knuth/err4b.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4b.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4b.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f5.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f5.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4f5.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f6.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f6.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4f6.ps.gz"
+        ],
+        "novelty_result": "no_matching_prior_report_found",
+        "priority_established": false,
+        "reviewed_at_utc": "2026-11-17T10:47:37.786078+00:00"
+      },
+      "book_available": false,
+      "imported": false,
+      "page_locations": [
+        {
+          "file_page": 394,
+          "role": "error"
+        }
+      ],
+      "export_omissions": {
+        "count": 9,
+        "reason": "Full pages, books and external document copies are not included. Consult the original references or supply your own book locally."
+      }
+    },
+    {
+      "id": "F261",
+      "volume": "vol4b",
+      "volume_label": "4B",
+      "edition": "1st edition · 2nd printing · 2022",
+      "book_path": "books/taocp-vol4b-ed1-print2-2022.pdf",
+      "book_format": "pdf",
+      "page_offset": 20,
+      "target": "4B / SAT answer 175, p.581: placement of deferred-unit propagation",
+      "status": "confirmed",
+      "summary": "Answer 175 processes deferred units after the loop that propagates their effects on nonbinary clauses. Step X9 can then add an unsafe clause.",
+      "title": "Deferred units skip the propagation loop",
+      "severity": "high",
+      "impact": "A seven-variable example has 16 solutions, but the incorrectly added clause eliminates all of them. This is independent of the earlier queue-prefix and clause-count omissions.",
+      "verify": "Follow the a-then-b lookahead in the linked argument, with b implying a and truth degrees 4 then 2. The printed placement returns w=0 and G=2<E=3; draining inside the loop returns w=4 and G=E=3. The fixed local script checks all 128 assignments. SAT11K has the correct placement.",
+      "chapter": "SAT",
+      "kind": "book_or_errata",
+      "pages": [
+        581
+      ],
+      "evidence": [
+        {
+          "path": "findings/F261.md",
+          "name": "F261 — current review.md",
+          "kind": "document",
+          "bytes": 1338
+        },
+        {
+          "path": "audit-2026-10-31/notes/F261-lookahead-deferred-propagation.md",
+          "name": "F261-lookahead-deferred-propagation.md",
+          "kind": "document",
+          "bytes": 5286
+        },
+        {
+          "path": "audit-2026-10-31/check_focused_sat175_deferred.py",
+          "name": "check_focused_sat175_deferred.py",
+          "kind": "code",
+          "bytes": 4833
+        },
+        {
+          "path": "audit-2026-10-31/results/focused-sat175-deferred.json",
+          "name": "focused-sat175-deferred.json",
+          "kind": "data",
+          "bytes": 2348
+        },
+        {
+          "path": "audit-2026-10-31/results/focused-sat175-deferred-sources.json",
+          "name": "focused-sat175-deferred-sources.json",
+          "kind": "data",
+          "bytes": 6726
+        }
+      ],
+      "novelty": null,
+      "updated_at": "2026-11-17T15:44:02.137459+00:00",
+      "publication_review": {
+        "decision": "retained",
+        "correctness": "confirmed",
+        "evidence": "audit-2026-10-31/notes/F261-lookahead-deferred-propagation.md",
+        "official_sources": [
+          "https://www-cs-faculty.stanford.edu/~knuth/programs/sat11.w",
+          "https://www-cs-faculty.stanford.edu/~knuth/programs/sat11k.ch",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4b.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4b.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4b.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f5.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f5.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4f5.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f6.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f6.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4f6.ps.gz"
+        ],
+        "novelty_result": "no_matching_prior_report_found",
+        "priority_established": false,
+        "reviewed_at_utc": "2026-11-17T15:44:02.137459+00:00"
+      },
+      "book_available": false,
+      "imported": false,
+      "page_locations": [
+        {
+          "file_page": 601,
+          "role": "error"
+        }
+      ],
+      "export_omissions": {
+        "count": 5,
+        "reason": "Full pages, books and external document copies are not included. Consult the original references or supply your own book locally."
+      }
+    },
+    {
+      "id": "F262",
+      "volume": "vol4b",
+      "volume_label": "4B",
+      "edition": "1st edition · 2nd printing · 2022",
+      "book_path": "books/taocp-vol4b-ed1-print2-2022.pdf",
+      "book_format": "pdf",
+      "page_offset": 20,
+      "target": "4B / SAT answer 206, p.588: wrong clause deletion in the minimality proof",
+      "status": "confirmed",
+      "summary": "Answer 206 conditions C on the fresh variable instead of removing the clause that C became in the joined formula.",
+      "title": "The minimality proof deletes the wrong clause",
+      "severity": "low",
+      "impact": "The displayed deletion may remove nothing, so this last proof step does not contradict minimality. The theorem is correct and the repair is local.",
+      "verify": "Use F={a, NOT a}, F'={b, NOT b}, and join them by adding x to the first two clauses and NOT x to the other two. For C=a, conditioning on NOT x leaves a, which is absent from the join. Deleting x OR a instead gives the satisfying assignment x=0, a=0.",
+      "chapter": "SAT",
+      "kind": "book_or_errata",
+      "pages": [
+        588
+      ],
+      "evidence": [
+        {
+          "path": "findings/F262.md",
+          "name": "F262 — current review.md",
+          "kind": "document",
+          "bytes": 1250
+        },
+        {
+          "path": "audit-2026-10-31/notes/F262-minimality-clause-deletion.md",
+          "name": "F262-minimality-clause-deletion.md",
+          "kind": "document",
+          "bytes": 3321
+        },
+        {
+          "path": "audit-2026-10-31/results/focused-minimality206-sources.json",
+          "name": "focused-minimality206-sources.json",
+          "kind": "data",
+          "bytes": 5810
+        }
+      ],
+      "novelty": null,
+      "updated_at": "2026-11-17T16:04:40.082930+00:00",
+      "publication_review": {
+        "decision": "retained",
+        "correctness": "confirmed",
+        "evidence": "audit-2026-10-31/notes/F262-minimality-clause-deletion.md",
+        "official_sources": [
+          "https://www-cs-faculty.stanford.edu/~knuth/fasc6a.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4b.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4b.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4b.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f5.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f5.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4f5.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f6.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f6.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4f6.ps.gz"
+        ],
+        "novelty_result": "no_matching_prior_report_found",
+        "priority_established": false,
+        "reviewed_at_utc": "2026-11-17T16:04:40.082930+00:00"
+      },
+      "book_available": false,
+      "imported": false,
+      "page_locations": [
+        {
+          "file_page": 608,
+          "role": "error"
+        }
+      ],
+      "export_omissions": {
+        "count": 2,
+        "reason": "Full pages, books and external document copies are not included. Consult the original references or supply your own book locally."
+      }
+    },
+    {
+      "id": "F263",
+      "volume": "vol4b",
+      "volume_label": "4B",
+      "edition": "1st edition · 2nd printing · 2022",
+      "book_path": "books/taocp-vol4b-ed1-print2-2022.pdf",
+      "book_format": "pdf",
+      "page_offset": 20,
+      "target": "4B / SAT answer 225, p.592: pruning does not immediately make the resolution tree non-awkward",
+      "status": "confirmed",
+      "summary": "The construction in answer 225 shortens the tree but does not necessarily eliminate every resolution variable from its conclusion.",
+      "title": "The pruned resolution tree can still be awkward",
+      "severity": "medium",
+      "impact": "The intermediate claim of non-awkwardness is false. The proof needs another pruning step or size induction; the regularization theorem remains valid.",
+      "verify": "Resolve D1=x OR y OR z with D2=x OR NOT y OR z on y, and D3=NOT x OR y OR z with D4=NOT x OR y OR NOT z on z; then resolve on x. The printed construction replaces the left subtree by D1 but retains the right subtree, so the result still resolves on z while concluding y OR z.",
+      "chapter": "SAT",
+      "kind": "book_or_errata",
+      "pages": [
+        592
+      ],
+      "evidence": [
+        {
+          "path": "findings/F263.md",
+          "name": "F263 — current review.md",
+          "kind": "document",
+          "bytes": 1339
+        },
+        {
+          "path": "audit-2026-10-31/notes/F263-resolution-pruning-still-awkward.md",
+          "name": "F263-resolution-pruning-still-awkward.md",
+          "kind": "document",
+          "bytes": 3597
+        },
+        {
+          "path": "audit-2026-10-31/results/focused-resolution225-sources.json",
+          "name": "focused-resolution225-sources.json",
+          "kind": "data",
+          "bytes": 3534
+        }
+      ],
+      "novelty": null,
+      "updated_at": "2026-11-17T16:10:01.100232+00:00",
+      "publication_review": {
+        "decision": "retained",
+        "correctness": "confirmed",
+        "evidence": "audit-2026-10-31/notes/F263-resolution-pruning-still-awkward.md",
+        "official_sources": [
+          "https://www-cs-faculty.stanford.edu/~knuth/fasc6a.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4b.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4b.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4b.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f5.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f5.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4f5.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f6.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f6.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4f6.ps.gz"
+        ],
+        "novelty_result": "no_matching_prior_report_found",
+        "priority_established": false,
+        "reviewed_at_utc": "2026-11-17T16:10:01.100232+00:00"
+      },
+      "book_available": false,
+      "imported": false,
+      "page_locations": [
+        {
+          "file_page": 612,
+          "role": "error"
+        }
+      ],
+      "export_omissions": {
+        "count": 3,
+        "reason": "Full pages, books and external document copies are not included. Consult the original references or supply your own book locally."
+      }
+    },
+    {
+      "id": "F264",
+      "volume": "vol4b",
+      "volume_label": "4B",
+      "edition": "1st edition · 2nd printing · 2022",
+      "book_path": "books/taocp-vol4b-ed1-print2-2022.pdf",
+      "book_format": "pdf",
+      "page_offset": 20,
+      "target": "4B / SAT answer 204(c), p.587: the variable count has leading coefficient 6, not 7",
+      "status": "confirmed",
+      "summary": "The final variable estimate in answer 204(c) counts one extra m; the displayed construction gives 6m+29 or 6m+30 variables.",
+      "title": "The construction uses about 6m variables, not 7m",
+      "severity": "low",
+      "impact": "A numerical typo in the size estimate. The clause bound, four-occurrence restriction, and reduction remain valid.",
+      "verify": "Add 3m occurrence variables, 35 variables from the gadget, and 2 ceil(3m/2)-6 new extension variables. For m >= 2, the total is 6m+29 if m is even and 6m+30 if m is odd.",
+      "chapter": "SAT",
+      "kind": "book_or_errata",
+      "pages": [
+        587
+      ],
+      "evidence": [
+        {
+          "path": "findings/F264.md",
+          "name": "F264 — current review.md",
+          "kind": "document",
+          "bytes": 1180
+        },
+        {
+          "path": "audit-2026-10-31/notes/F264-bounded-occurrence-variable-count.md",
+          "name": "F264-bounded-occurrence-variable-count.md",
+          "kind": "document",
+          "bytes": 2895
+        },
+        {
+          "path": "audit-2026-10-31/results/focused-bounded204-sources.json",
+          "name": "focused-bounded204-sources.json",
+          "kind": "data",
+          "bytes": 5100
+        }
+      ],
+      "novelty": null,
+      "updated_at": "2026-11-17T16:34:58.226239+00:00",
+      "publication_review": {
+        "decision": "retained",
+        "correctness": "confirmed",
+        "evidence": "audit-2026-10-31/notes/F264-bounded-occurrence-variable-count.md",
+        "official_sources": [
+          "https://www-cs-faculty.stanford.edu/~knuth/err4b.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4b.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f5.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f5.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f6.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f6.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4b.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4f5.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4f6.ps.gz"
+        ],
+        "novelty_result": "no_matching_prior_report_found",
+        "priority_established": false,
+        "reviewed_at_utc": "2026-11-17T16:34:58.226239+00:00"
+      },
+      "book_available": false,
+      "imported": false,
+      "page_locations": [
+        {
+          "file_page": 607,
+          "role": "error"
+        }
+      ],
+      "export_omissions": {
+        "count": 1,
+        "reason": "Full pages, books and external document copies are not included. Consult the original references or supply your own book locally."
+      }
+    },
+    {
+      "id": "F265",
+      "volume": "vol4b",
+      "volume_label": "4B",
+      "edition": "1st edition · 2nd printing · 2022",
+      "book_path": "books/taocp-vol4b-ed1-print2-2022.pdf",
+      "book_format": "pdf",
+      "page_offset": 20,
+      "target": "4B / SAT answer 411, p.632: the relaxed-product clause count is short by 2n",
+      "status": "confirmed",
+      "summary": "The relaxed multiplication construction yields 9mn-5m-8n clauses; the printed expression subtracts another 2n.",
+      "title": "The product construction uses more clauses than stated",
+      "severity": "low",
+      "impact": "A clause-count typo. The corrected count still fits the stated numerical upper bound. The separate unsound full-adder relaxation remains documented in F236.",
+      "verify": "Count one clause for each initial AND, eight for each full adder, and three for each half adder. With two-bit inputs there are four initial ANDs and two half adders: 10 clauses, versus the printed 6.",
+      "chapter": "SAT",
+      "kind": "book_or_errata",
+      "pages": [
+        632
+      ],
+      "evidence": [
+        {
+          "path": "findings/F265.md",
+          "name": "F265 — current review.md",
+          "kind": "document",
+          "bytes": 1224
+        },
+        {
+          "path": "audit-2026-10-31/notes/F265-relaxed-product-clause-count.md",
+          "name": "F265-relaxed-product-clause-count.md",
+          "kind": "document",
+          "bytes": 2882
+        },
+        {
+          "path": "audit-2026-10-31/results/focused-product411-sources.json",
+          "name": "focused-product411-sources.json",
+          "kind": "data",
+          "bytes": 3815
+        }
+      ],
+      "novelty": null,
+      "updated_at": "2026-11-17T18:14:33.574970+00:00",
+      "publication_review": {
+        "decision": "retained",
+        "correctness": "confirmed",
+        "evidence": "audit-2026-10-31/notes/F265-relaxed-product-clause-count.md",
+        "official_sources": [
+          "https://www-cs-faculty.stanford.edu/~knuth/err4b.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4b.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f5.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f5.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f6.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f6.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4b.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4f5.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4f6.ps.gz"
+        ],
+        "novelty_result": "no_matching_prior_report_found",
+        "priority_established": false,
+        "reviewed_at_utc": "2026-11-17T18:14:33.574970+00:00"
+      },
+      "book_available": false,
+      "imported": false,
+      "page_locations": [
+        {
+          "file_page": 652,
+          "role": "error"
+        }
+      ],
+      "export_omissions": {
+        "count": 1,
+        "reason": "Full pages, books and external document copies are not included. Consult the original references or supply your own book locally."
+      }
+    },
+    {
+      "id": "F266",
+      "volume": "vol4b",
+      "volume_label": "4B",
+      "edition": "1st edition · 2nd printing · 2022",
+      "book_path": "books/taocp-vol4b-ed1-print2-2022.pdf",
+      "book_format": "pdf",
+      "page_offset": 20,
+      "target": "4B / SAT main p.229: the double-lookahead example uses S=8 instead of S=16",
+      "status": "confirmed",
+      "summary": "The example should use S=16 and DT=258. It substitutes the number of free variables for the number of candidate literals.",
+      "title": "The double-lookahead example counts eight literals instead of sixteen",
+      "severity": "low",
+      "impact": "A numerical error in the worked example. The definition of S, the displayed lookahead forest, and Algorithm Y are consistent with the corrected values.",
+      "verify": "Count the sixteen entries in equation (70). At its first entry T=2 and LO[0]=2. With Y=8, step Y2 computes BASE=0, LBASE=2*16*8=256 and DT=256+2=258.",
+      "chapter": "SAT",
+      "kind": "book_or_errata",
+      "pages": [
+        229
+      ],
+      "evidence": [
+        {
+          "path": "findings/F266.md",
+          "name": "F266 — current review.md",
+          "kind": "document",
+          "bytes": 1197
+        },
+        {
+          "path": "audit-2026-10-31/notes/F266-double-lookahead-example-size.md",
+          "name": "F266-double-lookahead-example-size.md",
+          "kind": "document",
+          "bytes": 2426
+        },
+        {
+          "path": "audit-2026-10-31/results/focused-lookahead-dt-sources.json",
+          "name": "focused-lookahead-dt-sources.json",
+          "kind": "data",
+          "bytes": 9187
+        }
+      ],
+      "novelty": null,
+      "updated_at": "2026-11-17T18:47:07.336639+00:00",
+      "publication_review": {
+        "decision": "retained",
+        "correctness": "confirmed",
+        "evidence": "audit-2026-10-31/notes/F266-double-lookahead-example-size.md",
+        "official_sources": [
+          "https://www-cs-faculty.stanford.edu/~knuth/err4b.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f5.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f6.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4b.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4b.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f5.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4f5.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f6.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4f6.ps.gz"
+        ],
+        "novelty_result": "no_matching_prior_report_found",
+        "priority_established": false,
+        "reviewed_at_utc": "2026-11-17T18:47:07.336639+00:00"
+      },
+      "book_available": false,
+      "imported": false,
+      "page_locations": [
+        {
+          "file_page": 249,
+          "role": "error"
+        }
+      ],
+      "export_omissions": {
+        "count": 3,
+        "reason": "Full pages, books and external document copies are not included. Consult the original references or supply your own book locally."
+      }
+    },
+    {
+      "id": "F267",
+      "volume": "vol4b",
+      "volume_label": "4B",
+      "edition": "1st edition · 2nd printing · 2022",
+      "book_path": "books/taocp-vol4b-ed1-print2-2022.pdf",
+      "book_format": "pdf",
+      "page_offset": 20,
+      "target": "4B / SAT exercise 173(ii), p.331: disabling wraparound jumps past the arrays",
+      "status": "confirmed",
+      "summary": "Exercise 173(ii) sends an exhausted candidate scan to X6 or Y3, which reads the undefined entry at index S.",
+      "title": "Disabling wraparound jumps beyond the candidate arrays",
+      "severity": "low",
+      "impact": "An implementation error in the exercise instructions. The ordinary Algorithms X and Y handle the boundary correctly. Their reported timing measurements are not refuted.",
+      "verify": "X4 defines LL[j] and LO[j] only for 0<=j<S. Follow X7 with j=S, or Y4 with j_hat=S: X6 and Y3 immediately index those arrays. End X normally and route Y to its Y6 finish step instead.",
+      "chapter": "SAT",
+      "kind": "book_or_errata",
+      "pages": [
+        331
+      ],
+      "evidence": [
+        {
+          "path": "findings/F267.md",
+          "name": "F267 — current review.md",
+          "kind": "document",
+          "bytes": 1212
+        },
+        {
+          "path": "audit-2026-10-31/notes/F267-lookahead-wraparound-exits.md",
+          "name": "F267-lookahead-wraparound-exits.md",
+          "kind": "document",
+          "bytes": 2899
+        },
+        {
+          "path": "audit-2026-10-31/results/focused-wraparound173-sources.json",
+          "name": "focused-wraparound173-sources.json",
+          "kind": "data",
+          "bytes": 9072
+        }
+      ],
+      "novelty": null,
+      "updated_at": "2026-11-17T18:51:30.300025+00:00",
+      "publication_review": {
+        "decision": "retained",
+        "correctness": "confirmed",
+        "evidence": "audit-2026-10-31/notes/F267-lookahead-wraparound-exits.md",
+        "official_sources": [
+          "https://www-cs-faculty.stanford.edu/~knuth/err4b.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f5.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f6.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4b.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4b.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f5.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4f5.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f6.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4f6.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/programs/sat11.w"
+        ],
+        "novelty_result": "no_matching_prior_report_found",
+        "priority_established": false,
+        "reviewed_at_utc": "2026-11-17T18:51:30.300025+00:00"
+      },
+      "book_available": false,
+      "imported": false,
+      "page_locations": [
+        {
+          "file_page": 351,
+          "role": "error"
+        }
+      ],
+      "export_omissions": {
+        "count": 3,
+        "reason": "Full pages, books and external document copies are not included. Consult the original references or supply your own book locally."
+      }
+    },
+    {
+      "id": "F268",
+      "volume": "vol4b",
+      "volume_label": "4B",
+      "edition": "1st edition · 2nd printing · 2022",
+      "book_path": "books/taocp-vol4b-ed1-print2-2022.pdf",
+      "book_format": "pdf",
+      "page_offset": 20,
+      "target": "4B / main text p.257: changed-level bound in the clause-signature argument",
+      "status": "confirmed",
+      "summary": "The p+1 bound on p.257 is too large: a clause with signature (2,0) can force a literal after just one old level changes sign.",
+      "title": "Clause-signature argument requires one extra changed level",
+      "severity": "low",
+      "impact": "A local error in the rationale for selecting learned clauses. The corrected bound still supports the qualitative heuristic; the algorithm and empirical table are not refuted.",
+      "verify": "Use C=x OR NOT y and C'=y OR z. On x=true@1,y=true@2,z=true@3 their signatures are (1,1) and (2,0). Keep x, backtrack and set y=false: C' forces z=true. Only old level2 changed sign, although p+1=2. The general necessary bound is p'-1, hence at least p.",
+      "chapter": "SAT",
+      "kind": "book_or_errata",
+      "pages": [
+        257
+      ],
+      "evidence": [
+        {
+          "path": "findings/F268.md",
+          "name": "F268 — current review.md",
+          "kind": "document",
+          "bytes": 1317
+        },
+        {
+          "path": "audit-2026-10-31/notes/F268-clause-signature-change-bound.md",
+          "name": "F268-clause-signature-change-bound.md",
+          "kind": "document",
+          "bytes": 3220
+        },
+        {
+          "path": "audit-2026-10-31/results/focused-signature257-sources.json",
+          "name": "focused-signature257-sources.json",
+          "kind": "data",
+          "bytes": 5064
+        }
+      ],
+      "novelty": null,
+      "updated_at": "2026-11-17T20:13:57.141395+00:00",
+      "publication_review": {
+        "decision": "retained",
+        "correctness": "confirmed",
+        "evidence": "audit-2026-10-31/notes/F268-clause-signature-change-bound.md",
+        "official_sources": [
+          "https://www-cs-faculty.stanford.edu/~knuth/err4b.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f5.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f6.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4b.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4b.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f5.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4f5.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f6.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4f6.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/programs/sat13.w"
+        ],
+        "novelty_result": "no_matching_prior_report_found",
+        "priority_established": false,
+        "reviewed_at_utc": "2026-11-17T20:13:57.141395+00:00"
+      },
+      "book_available": false,
+      "imported": false,
+      "page_locations": [
+        {
+          "file_page": 277,
+          "role": "error"
+        }
+      ],
+      "export_omissions": {
+        "count": 1,
+        "reason": "Full pages, books and external document copies are not included. Consult the original references or supply your own book locally."
+      }
+    },
+    {
+      "id": "F269",
+      "volume": "vol4b",
+      "volume_label": "4B",
+      "edition": "1st edition · 2nd printing · 2022",
+      "book_path": "books/taocp-vol4b-ed1-print2-2022.pdf",
+      "book_format": "pdf",
+      "page_offset": 20,
+      "target": "4B / exercise 7.2.2.2–494(iii), p.365: signed cycle repeats a negated literal",
+      "status": "confirmed",
+      "summary": "Exercise494(iii) repeats NOT j in both cycles and omits j. The displayed object is not the required signed permutation.",
+      "title": "Signed cycle repeats a negated literal",
+      "severity": "low",
+      "impact": "A local notation error in the question. Removing one negation restores the intended symmetry and agrees with the printed answer.",
+      "verify": "Read the third cycle pair on p365. A signed permutation must map opposite literals to opposite literals. The printed overlapping cycles fix j but move NOT j. Change (i NOT j NOT k)(NOT i NOT j k) to (i NOT j NOT k)(NOT i j k).",
+      "chapter": "SAT",
+      "kind": "book_or_errata",
+      "pages": [
+        365
+      ],
+      "evidence": [
+        {
+          "path": "findings/F269.md",
+          "name": "F269 — current review.md",
+          "kind": "document",
+          "bytes": 1226
+        },
+        {
+          "path": "audit-2026-10-31/notes/F269-signed-cycle-repeated-negation.md",
+          "name": "F269-signed-cycle-repeated-negation.md",
+          "kind": "document",
+          "bytes": 1943
+        },
+        {
+          "path": "audit-2026-10-31/results/focused-signed494-sources.json",
+          "name": "focused-signed494-sources.json",
+          "kind": "data",
+          "bytes": 5094
+        }
+      ],
+      "novelty": null,
+      "updated_at": "2026-11-17T21:23:00.300085+00:00",
+      "publication_review": {
+        "decision": "retained",
+        "correctness": "confirmed",
+        "evidence": "audit-2026-10-31/notes/F269-signed-cycle-repeated-negation.md",
+        "official_sources": [
+          "https://www-cs-faculty.stanford.edu/~knuth/err4b.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f5.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f6.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4b.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4b.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f5.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4f5.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f6.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4f6.ps.gz"
+        ],
+        "novelty_result": "no_matching_prior_report_found",
+        "priority_established": false,
+        "reviewed_at_utc": "2026-11-17T21:23:00.300085+00:00"
+      },
+      "book_available": false,
+      "imported": false,
+      "page_locations": [
+        {
+          "file_page": 385,
+          "role": "error"
+        }
+      ],
+      "export_omissions": {
+        "count": 2,
+        "reason": "Full pages, books and external document copies are not included. Consult the original references or supply your own book locally."
+      }
+    },
+    {
+      "id": "F270",
+      "volume": "vol4b",
+      "volume_label": "4B",
+      "edition": "1st edition · 2nd printing · 2022",
+      "book_path": "books/taocp-vol4b-ed1-print2-2022.pdf",
+      "book_format": "pdf",
+      "page_offset": 20,
+      "target": "4B / main text p.267, Traces and pieces: Viennot publication year",
+      "status": "confirmed",
+      "summary": "The citation on p.267 dates Lecture Notes in Mathematics 1234 to 1985, the conference year. The cited volume was published in 1986.",
+      "title": "Viennot publication year is 1986",
+      "severity": "low",
+      "impact": "A bibliographic date error. The theory and its mathematical applications are unchanged.",
+      "verify": "Compare the original p.267 citation with the copyright page of Combinatoire enumerative, LNM 1234. It prints 1986. Springer also gives a print-publication date of December 1,1986 and cites Viennot's pp.321–350 chapter as 1986.",
+      "chapter": "SAT",
+      "kind": "book_or_errata",
+      "pages": [
+        267
+      ],
+      "evidence": [
+        {
+          "path": "findings/F270.md",
+          "name": "F270 — current review.md",
+          "kind": "document",
+          "bytes": 1161
+        },
+        {
+          "path": "audit-2026-10-31/notes/F270-viennot-publication-year.md",
+          "name": "F270-viennot-publication-year.md",
+          "kind": "document",
+          "bytes": 2051
+        },
+        {
+          "path": "audit-2026-10-31/results/focused-viennot267-sources.json",
+          "name": "focused-viennot267-sources.json",
+          "kind": "data",
+          "bytes": 4238
+        }
+      ],
+      "novelty": null,
+      "updated_at": "2026-11-17T22:27:37.577680+00:00",
+      "publication_review": {
+        "decision": "retained",
+        "correctness": "confirmed",
+        "evidence": "audit-2026-10-31/notes/F270-viennot-publication-year.md",
+        "official_sources": [
+          "https://www-cs-faculty.stanford.edu/~knuth/err4b.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f5.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f6.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4b.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4b.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f5.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4f5.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f6.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4f6.ps.gz"
+        ],
+        "novelty_result": "no_matching_prior_report_found",
+        "priority_established": false,
+        "reviewed_at_utc": "2026-11-17T22:27:37.577680+00:00"
+      },
+      "book_available": false,
+      "imported": false,
+      "page_locations": [
+        {
+          "file_page": 287,
+          "role": "error"
+        }
+      ],
+      "export_omissions": {
+        "count": 2,
+        "reason": "Full pages, books and external document copies are not included. Consult the original references or supply your own book locally."
+      }
+    },
+    {
+      "id": "F271",
+      "volume": "vol4b",
+      "volume_label": "4B",
+      "edition": "1st edition · 2nd printing · 2022",
+      "book_path": "books/taocp-vol4b-ed1-print2-2022.pdf",
+      "book_format": "pdf",
+      "page_offset": 20,
+      "target": "4B / answer 7.2.2.1–370, p. 521: overlap cells in case (v)",
+      "status": "confirmed",
+      "summary": "Answer 370 names p22 and p23 as shared cells. The stated rectangles actually share p12 and p22.",
+      "title": "Wrong overlap cell in the rectangle example",
+      "severity": "low",
+      "impact": "A local coordinate error in the illustrative example. The overlap rejection itself remains valid.",
+      "verify": "List the cells of (1,3,1,3): p11, p12, p21, p22. Its half-turn image (1,3,2,4) contains p12, p13, p22, p23. Their intersection is p12 and p22; p23 is outside the first rectangle.",
+      "chapter": "DLX",
+      "kind": "book_or_errata",
+      "pages": [
+        521
+      ],
+      "evidence": [
+        {
+          "path": "findings/F271.md",
+          "name": "F271 — current review.md",
+          "kind": "document",
+          "bytes": 1076
+        },
+        {
+          "path": "audit-2026-10-31/notes/F271-motley-overlap-cell.md",
+          "name": "F271-motley-overlap-cell.md",
+          "kind": "document",
+          "bytes": 1809
+        },
+        {
+          "path": "audit-2026-10-31/results/focused-motley370-sources.json",
+          "name": "focused-motley370-sources.json",
+          "kind": "data",
+          "bytes": 3101
+        }
+      ],
+      "novelty": null,
+      "updated_at": "2026-11-17T22:41:00.969565+00:00",
+      "publication_review": {
+        "decision": "retained",
+        "correctness": "confirmed",
+        "evidence": "audit-2026-10-31/notes/F271-motley-overlap-cell.md",
+        "official_sources": [
+          "https://www-cs-faculty.stanford.edu/~knuth/err4b.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f5.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f6.textxt",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4b.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4b.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f5.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4f5.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/err4f6.ps.gz",
+          "https://www-cs-faculty.stanford.edu/~knuth/all4f6.ps.gz"
+        ],
+        "novelty_result": "no_matching_prior_report_found",
+        "priority_established": false,
+        "reviewed_at_utc": "2026-11-17T22:41:00.969565+00:00"
+      },
+      "book_available": false,
+      "imported": false,
+      "page_locations": [
+        {
+          "file_page": 541,
+          "role": "error"
+        }
+      ],
+      "export_omissions": {
+        "count": 2,
         "reason": "Full pages, books and external document copies are not included. Consult the original references or supply your own book locally."
       }
     },
@@ -82018,8 +83339,8 @@
         }
       ],
       "export_omissions": {
-        "count": 3,
-        "reason": "Book pages, book figure excerpts, books and external document copies are not distributed. Consult the cited originals or supply your own book locally."
+        "count": 2,
+        "reason": "Full pages, books and external document copies are not included. Consult the original references or supply your own book locally."
       }
     },
     {
@@ -154499,12 +155820,12 @@
         "No unread range in the supplied volume. The completion and block notes preserve exact limitations."
       ],
       "ledger_counts": {
-        "confirmed": 256,
+        "confirmed": 276,
         "checked": 371,
         "rejected": 1,
         "known_erratum": 135,
         "partial": 113,
-        "candidate": 43,
+        "candidate": 38,
         "dismissed": 3
       },
       "source_paths": [],
@@ -154576,6 +155897,43 @@
       "review_summary": "All 734 supplied file pages, 1,202 main exercises and three introductory exercises reviewed, with exact exceptions.",
       "review_remaining": "No unread range in the supplied volume. The completion and block notes preserve exact limitations.",
       "review_evidence": "audit-2026-10-31/notes/bookwise-completion-2026-11-12.md",
+      "focused_audit": {
+        "status": "completed",
+        "checkpoint": "integration/2026-11-17-focused-4b/checkpoint.json",
+        "new_confirmed_ids": [
+          "F257",
+          "F258",
+          "F259",
+          "F260",
+          "F261",
+          "F262",
+          "F263",
+          "F264",
+          "F265",
+          "F266",
+          "F267",
+          "F268",
+          "F269",
+          "F270",
+          "F271"
+        ],
+        "promoted_candidate_ids": [
+          "C025",
+          "C048",
+          "C034",
+          "C008",
+          "C006"
+        ],
+        "extended_existing_ids": [
+          "F242",
+          "F023"
+        ],
+        "completed_at_utc": "2026-11-18T00:36:46.131845+00:00",
+        "completion_reason": "user_requested_early_finish",
+        "result": "integration/2026-11-17-focused-4b/RESULT.md",
+        "validation": "integration/2026-11-17-focused-4b/validation.json",
+        "automatic_follow_up": false
+      },
       "book_available": false,
       "page_map": {
         "total": 734,
@@ -157288,10 +158646,10 @@
             "file_page": 107,
             "printed_page": 87,
             "coverage": "reviewed",
-            "errors": [],
-            "candidates": [
+            "errors": [
               "C025"
             ],
+            "candidates": [],
             "related": [],
             "evidence": [
               "audit-2026-10-31/COLORED_BASICS_NOTES.md",
@@ -158802,7 +160160,8 @@
             "printed_page": 148,
             "coverage": "reviewed",
             "errors": [
-              "F020"
+              "F020",
+              "F023"
             ],
             "candidates": [],
             "related": [],
@@ -160471,11 +161830,14 @@
             "file_page": 249,
             "printed_page": 229,
             "coverage": "reviewed",
-            "errors": [],
+            "errors": [
+              "F266"
+            ],
             "candidates": [],
             "related": [],
             "evidence": [
               "audit-2026-10-31/notes/bookwise-sat134-168-2026-11-12.md",
+              "audit-2026-10-31/notes/F266-double-lookahead-example-size.md",
               "audit-2026-10-31/sources/bookwise-lookahead-source-check.json"
             ],
             "bibliography_skips": [],
@@ -161033,11 +162395,14 @@
             "file_page": 277,
             "printed_page": 257,
             "coverage": "reviewed",
-            "errors": [],
+            "errors": [
+              "F268"
+            ],
             "candidates": [],
             "related": [],
             "evidence": [
               "audit-2026-10-31/notes/bookwise-sat276-293-2026-11-12.md",
+              "audit-2026-10-31/notes/F268-clause-signature-change-bound.md",
               "audit-2026-10-31/sources/bookwise-cert-purge-source-check.json"
             ],
             "bibliography_skips": [],
@@ -161229,7 +162594,9 @@
             "file_page": 287,
             "printed_page": 267,
             "coverage": "reviewed",
-            "errors": [],
+            "errors": [
+              "F270"
+            ],
             "candidates": [],
             "related": [],
             "evidence": [
@@ -162506,11 +163873,14 @@
             "file_page": 351,
             "printed_page": 331,
             "coverage": "reviewed",
-            "errors": [],
+            "errors": [
+              "F267"
+            ],
             "candidates": [],
             "related": [],
             "evidence": [
               "audit-2026-10-31/notes/bookwise-sat169-202-2026-11-12.md",
+              "audit-2026-10-31/notes/F267-lookahead-wraparound-exits.md",
               "audit-2026-10-31/sources/bookwise-random-sat-source-check.json"
             ],
             "bibliography_skips": [],
@@ -163190,11 +164560,14 @@
             "file_page": 385,
             "printed_page": 365,
             "coverage": "reviewed",
-            "errors": [],
+            "errors": [
+              "F269"
+            ],
             "candidates": [],
             "related": [],
             "evidence": [
               "audit-2026-10-31/notes/bookwise-sat501-514-2026-11-12.md",
+              "audit-2026-10-31/notes/F269-signed-cycle-repeated-negation.md",
               "audit-2026-10-31/sources/bookwise-closest-tuning-source-check.json"
             ],
             "bibliography_skips": [],
@@ -163463,7 +164836,8 @@
             "printed_page": 374,
             "coverage": "reviewed",
             "errors": [
-              "F016"
+              "F016",
+              "F260"
             ],
             "candidates": [],
             "related": [],
@@ -164171,12 +165545,11 @@
             "printed_page": 388,
             "coverage": "reviewed",
             "errors": [
+              "C048",
               "F174",
               "F175"
             ],
-            "candidates": [
-              "C048"
-            ],
+            "candidates": [],
             "related": [],
             "evidence": [
               "audit-2026-10-31/notes/sequential-mpr-ex112.md",
@@ -166124,10 +167497,10 @@
             "file_page": 476,
             "printed_page": 456,
             "coverage": "reviewed",
-            "errors": [],
-            "candidates": [
+            "errors": [
               "C034"
             ],
+            "candidates": [],
             "related": [],
             "evidence": [
               "audit-2026-10-31/CUBES146_NOTES.md",
@@ -166470,15 +167843,14 @@
             "printed_page": 469,
             "coverage": "reviewed",
             "errors": [
+              "C006",
               "F021",
               "F022",
               "F023",
               "F142"
             ],
             "candidates": [],
-            "related": [
-              "C006"
-            ],
+            "related": [],
             "evidence": [
               "audit-2026-10-31/EXTREME180_188_SOURCE_NOTES.md",
               "audit-2026-10-31/GOULD189_192_SOURCE_NOTES.md",
@@ -167665,12 +169037,14 @@
             "printed_page": 521,
             "coverage": "reviewed",
             "errors": [
-              "F185"
+              "F185",
+              "F271"
             ],
             "candidates": [],
             "related": [],
             "evidence": [
               "audit-2026-10-31/notes/bookwise-dlx359-371-2026-11-11.md",
+              "audit-2026-10-31/notes/F271-motley-overlap-cell.md",
               "audit-2026-10-31/sources/bookwise-motley-source-check.json"
             ],
             "bibliography_skips": [],
@@ -168910,7 +170284,8 @@
             "printed_page": 581,
             "coverage": "reviewed",
             "errors": [
-              "F209"
+              "F209",
+              "F261"
             ],
             "candidates": [],
             "related": [],
@@ -169034,7 +170409,10 @@
             "file_page": 607,
             "printed_page": 587,
             "coverage": "reviewed",
-            "errors": [],
+            "errors": [
+              "F258",
+              "F264"
+            ],
             "candidates": [],
             "related": [],
             "evidence": [
@@ -169054,7 +170432,9 @@
             "file_page": 608,
             "printed_page": 588,
             "coverage": "reviewed",
-            "errors": [],
+            "errors": [
+              "F262"
+            ],
             "candidates": [],
             "related": [],
             "evidence": [
@@ -169140,7 +170520,9 @@
             "printed_page": 592,
             "coverage": "reviewed",
             "errors": [
-              "F213"
+              "F213",
+              "F259",
+              "F263"
             ],
             "candidates": [],
             "related": [],
@@ -169478,7 +170860,9 @@
             "file_page": 628,
             "printed_page": 608,
             "coverage": "reviewed",
-            "errors": [],
+            "errors": [
+              "F257"
+            ],
             "candidates": [],
             "related": [],
             "evidence": [
@@ -169709,12 +171093,11 @@
             "printed_page": 619,
             "coverage": "reviewed",
             "errors": [
+              "C008",
               "F044",
               "F045"
             ],
-            "candidates": [
-              "C008"
-            ],
+            "candidates": [],
             "related": [],
             "evidence": [
               "audit-2026-10-31/notes/bookwise-sat357-365-2026-11-12.md"
@@ -169983,7 +171366,8 @@
             "printed_page": 632,
             "coverage": "reviewed",
             "errors": [
-              "F236"
+              "F236",
+              "F265"
             ],
             "candidates": [],
             "related": [],
@@ -171684,10 +173068,9 @@
         ],
         "counts": {
           "reviewed": 734,
-          "with_errors": 187
+          "with_errors": 197
         },
         "unmapped_findings": [
-          "C006",
           "C015",
           "F140"
         ],
@@ -184074,7 +185457,7 @@
     }
   ],
   "progress": {
-    "updated_at_utc": "2026-11-12T16:11:35+00:00",
+    "updated_at_utc": "2026-11-18T00:36:46.131845+00:00",
     "status": "complete",
     "volumes": [
       {
@@ -255752,12 +257135,12 @@
           "No unread range in the supplied volume. The completion and block notes preserve exact limitations."
         ],
         "ledger_counts": {
-          "confirmed": 256,
+          "confirmed": 276,
           "checked": 371,
           "rejected": 1,
           "known_erratum": 135,
           "partial": 113,
-          "candidate": 43,
+          "candidate": 38,
           "dismissed": 3
         },
         "source_paths": [],
@@ -255829,6 +257212,43 @@
         "review_summary": "All 734 supplied file pages, 1,202 main exercises and three introductory exercises reviewed, with exact exceptions.",
         "review_remaining": "No unread range in the supplied volume. The completion and block notes preserve exact limitations.",
         "review_evidence": "audit-2026-10-31/notes/bookwise-completion-2026-11-12.md",
+        "focused_audit": {
+          "status": "completed",
+          "checkpoint": "integration/2026-11-17-focused-4b/checkpoint.json",
+          "new_confirmed_ids": [
+            "F257",
+            "F258",
+            "F259",
+            "F260",
+            "F261",
+            "F262",
+            "F263",
+            "F264",
+            "F265",
+            "F266",
+            "F267",
+            "F268",
+            "F269",
+            "F270",
+            "F271"
+          ],
+          "promoted_candidate_ids": [
+            "C025",
+            "C048",
+            "C034",
+            "C008",
+            "C006"
+          ],
+          "extended_existing_ids": [
+            "F242",
+            "F023"
+          ],
+          "completed_at_utc": "2026-11-18T00:36:46.131845+00:00",
+          "completion_reason": "user_requested_early_finish",
+          "result": "integration/2026-11-17-focused-4b/RESULT.md",
+          "validation": "integration/2026-11-17-focused-4b/validation.json",
+          "automatic_follow_up": false
+        },
         "book_available": false,
         "page_map": {
           "total": 734,
@@ -258541,10 +259961,10 @@
               "file_page": 107,
               "printed_page": 87,
               "coverage": "reviewed",
-              "errors": [],
-              "candidates": [
+              "errors": [
                 "C025"
               ],
+              "candidates": [],
               "related": [],
               "evidence": [
                 "audit-2026-10-31/COLORED_BASICS_NOTES.md",
@@ -260055,7 +261475,8 @@
               "printed_page": 148,
               "coverage": "reviewed",
               "errors": [
-                "F020"
+                "F020",
+                "F023"
               ],
               "candidates": [],
               "related": [],
@@ -261724,11 +263145,14 @@
               "file_page": 249,
               "printed_page": 229,
               "coverage": "reviewed",
-              "errors": [],
+              "errors": [
+                "F266"
+              ],
               "candidates": [],
               "related": [],
               "evidence": [
                 "audit-2026-10-31/notes/bookwise-sat134-168-2026-11-12.md",
+                "audit-2026-10-31/notes/F266-double-lookahead-example-size.md",
                 "audit-2026-10-31/sources/bookwise-lookahead-source-check.json"
               ],
               "bibliography_skips": [],
@@ -262286,11 +263710,14 @@
               "file_page": 277,
               "printed_page": 257,
               "coverage": "reviewed",
-              "errors": [],
+              "errors": [
+                "F268"
+              ],
               "candidates": [],
               "related": [],
               "evidence": [
                 "audit-2026-10-31/notes/bookwise-sat276-293-2026-11-12.md",
+                "audit-2026-10-31/notes/F268-clause-signature-change-bound.md",
                 "audit-2026-10-31/sources/bookwise-cert-purge-source-check.json"
               ],
               "bibliography_skips": [],
@@ -262482,7 +263909,9 @@
               "file_page": 287,
               "printed_page": 267,
               "coverage": "reviewed",
-              "errors": [],
+              "errors": [
+                "F270"
+              ],
               "candidates": [],
               "related": [],
               "evidence": [
@@ -263759,11 +265188,14 @@
               "file_page": 351,
               "printed_page": 331,
               "coverage": "reviewed",
-              "errors": [],
+              "errors": [
+                "F267"
+              ],
               "candidates": [],
               "related": [],
               "evidence": [
                 "audit-2026-10-31/notes/bookwise-sat169-202-2026-11-12.md",
+                "audit-2026-10-31/notes/F267-lookahead-wraparound-exits.md",
                 "audit-2026-10-31/sources/bookwise-random-sat-source-check.json"
               ],
               "bibliography_skips": [],
@@ -264443,11 +265875,14 @@
               "file_page": 385,
               "printed_page": 365,
               "coverage": "reviewed",
-              "errors": [],
+              "errors": [
+                "F269"
+              ],
               "candidates": [],
               "related": [],
               "evidence": [
                 "audit-2026-10-31/notes/bookwise-sat501-514-2026-11-12.md",
+                "audit-2026-10-31/notes/F269-signed-cycle-repeated-negation.md",
                 "audit-2026-10-31/sources/bookwise-closest-tuning-source-check.json"
               ],
               "bibliography_skips": [],
@@ -264716,7 +266151,8 @@
               "printed_page": 374,
               "coverage": "reviewed",
               "errors": [
-                "F016"
+                "F016",
+                "F260"
               ],
               "candidates": [],
               "related": [],
@@ -265424,12 +266860,11 @@
               "printed_page": 388,
               "coverage": "reviewed",
               "errors": [
+                "C048",
                 "F174",
                 "F175"
               ],
-              "candidates": [
-                "C048"
-              ],
+              "candidates": [],
               "related": [],
               "evidence": [
                 "audit-2026-10-31/notes/sequential-mpr-ex112.md",
@@ -267377,10 +268812,10 @@
               "file_page": 476,
               "printed_page": 456,
               "coverage": "reviewed",
-              "errors": [],
-              "candidates": [
+              "errors": [
                 "C034"
               ],
+              "candidates": [],
               "related": [],
               "evidence": [
                 "audit-2026-10-31/CUBES146_NOTES.md",
@@ -267723,15 +269158,14 @@
               "printed_page": 469,
               "coverage": "reviewed",
               "errors": [
+                "C006",
                 "F021",
                 "F022",
                 "F023",
                 "F142"
               ],
               "candidates": [],
-              "related": [
-                "C006"
-              ],
+              "related": [],
               "evidence": [
                 "audit-2026-10-31/EXTREME180_188_SOURCE_NOTES.md",
                 "audit-2026-10-31/GOULD189_192_SOURCE_NOTES.md",
@@ -268918,12 +270352,14 @@
               "printed_page": 521,
               "coverage": "reviewed",
               "errors": [
-                "F185"
+                "F185",
+                "F271"
               ],
               "candidates": [],
               "related": [],
               "evidence": [
                 "audit-2026-10-31/notes/bookwise-dlx359-371-2026-11-11.md",
+                "audit-2026-10-31/notes/F271-motley-overlap-cell.md",
                 "audit-2026-10-31/sources/bookwise-motley-source-check.json"
               ],
               "bibliography_skips": [],
@@ -270163,7 +271599,8 @@
               "printed_page": 581,
               "coverage": "reviewed",
               "errors": [
-                "F209"
+                "F209",
+                "F261"
               ],
               "candidates": [],
               "related": [],
@@ -270287,7 +271724,10 @@
               "file_page": 607,
               "printed_page": 587,
               "coverage": "reviewed",
-              "errors": [],
+              "errors": [
+                "F258",
+                "F264"
+              ],
               "candidates": [],
               "related": [],
               "evidence": [
@@ -270307,7 +271747,9 @@
               "file_page": 608,
               "printed_page": 588,
               "coverage": "reviewed",
-              "errors": [],
+              "errors": [
+                "F262"
+              ],
               "candidates": [],
               "related": [],
               "evidence": [
@@ -270393,7 +271835,9 @@
               "printed_page": 592,
               "coverage": "reviewed",
               "errors": [
-                "F213"
+                "F213",
+                "F259",
+                "F263"
               ],
               "candidates": [],
               "related": [],
@@ -270731,7 +272175,9 @@
               "file_page": 628,
               "printed_page": 608,
               "coverage": "reviewed",
-              "errors": [],
+              "errors": [
+                "F257"
+              ],
               "candidates": [],
               "related": [],
               "evidence": [
@@ -270962,12 +272408,11 @@
               "printed_page": 619,
               "coverage": "reviewed",
               "errors": [
+                "C008",
                 "F044",
                 "F045"
               ],
-              "candidates": [
-                "C008"
-              ],
+              "candidates": [],
               "related": [],
               "evidence": [
                 "audit-2026-10-31/notes/bookwise-sat357-365-2026-11-12.md"
@@ -271236,7 +272681,8 @@
               "printed_page": 632,
               "coverage": "reviewed",
               "errors": [
-                "F236"
+                "F236",
+                "F265"
               ],
               "candidates": [],
               "related": [],
@@ -272937,10 +274383,9 @@
           ],
           "counts": {
             "reviewed": 734,
-            "with_errors": 187
+            "with_errors": 197
           },
           "unmapped_findings": [
-            "C006",
             "C015",
             "F140"
           ],
@@ -285346,7 +286791,7 @@
       },
       {
         "path": "AUDIT_STATE.json",
-        "sha256": "2ace0bce5b1d82b8d195aa5928adca5a112def5db2c2931877236d90712a0549"
+        "sha256": "b856de65b58a025fc72d0600a1448c94dfe44540cba3dc5dc5e4fdec4651912b"
       },
       {
         "path": "quality-recovery.json",
@@ -285362,7 +286807,7 @@
       },
       {
         "path": "workstreams/vol2/ledger.json",
-        "sha256": "3585db9d49ac57dd7821232c25cb2b3c7c8125d4fe47d107c3e083b633c28e5d"
+        "sha256": "345bb78f4261cb0d90b58a9bd910201396688e44c4e1198eb8f6785ba16f5e68"
       },
       {
         "path": "workstreams/vol2/results/quality-recovery-2026-11-06.json",
@@ -285441,7 +286886,7 @@
   "volume": "all",
   "edition": "All audited editions",
   "book_path": "books/taocp-vol4b-ed1-print2-2022.pdf",
-  "ledger_updated_at": "2026-11-12T16:11:35+00:00",
+  "ledger_updated_at": "2026-11-18T00:36:46.131845+00:00",
   "classification_note": "Severity is a provisional impact rating. All 806 baseline-confirmed cards were rechecked for correctness and prior publication on November 12, 2026. Retained findings have no matching prior report in the checked sources; absolute priority is not established. Your personal review is separate.",
   "physical_copy_verified": false
 }

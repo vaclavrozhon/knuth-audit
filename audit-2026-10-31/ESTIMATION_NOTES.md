@@ -307,3 +307,16 @@ a při každém kroku cesty čerstvě počítá dosažitelnost cíle.
 
 Historickou kapitolu Knuth–Yao 1976 a obecné
 historické poznámky na stranách 53–54 zatím neoznačuji za dočtené.
+
+
+## Doplnění 17. listopadu 2026: C015 bez degenerovaného případu
+
+Knižní čtyřdámový strom(4) má šest listů s původními konečnými vahami
+8,8,4,4,8,8. Po změněE5 z28.1.2024 jsou váhy0,0,4,4,0,0,
+protože čtyři listy jsou slepé a dva řeší úlohu. Jejich geometrický
+průměr je0, ale původní úloha57 požaduje alespoň6. Tím je doložena
+neslučitelnost publikované změny s původním zadáním; nejde jen
+o kořen bez potomků. Aktuální úplné znění57 stále nemáme. C015
+zůstává kandidátem s tímto omezením. Náhled má74 souborových stran
+a toto zadání neobsahuje. Podrobnosti tohoto druhého průchodu:
+`../integration/2026-11-17-focused-4b/notes/second-pass-05.md`.

@@ -1,0 +1,37 @@
+{
+  "checked_at_utc": "2026-11-17T08:57:28.205225+00:00",
+  "volume4b": {
+    "edition": 1,
+    "printing": 2,
+    "printed_page": 587,
+    "file_page": 607,
+    "image_inspected": true
+  },
+  "author_draft": {
+    "date": "2015-09-23",
+    "printed_page": 223,
+    "file_page": 231,
+    "image_inspected": true,
+    "same_errors": true
+  },
+  "official_sources": [
+    "https://www-cs-faculty.stanford.edu/~knuth/err4b.textxt",
+    "https://www-cs-faculty.stanford.edu/~knuth/err4b.ps.gz",
+    "https://www-cs-faculty.stanford.edu/~knuth/all4b.ps.gz",
+    "https://www-cs-faculty.stanford.edu/~knuth/err4f6.textxt",
+    "https://www-cs-faculty.stanford.edu/~knuth/err4f6.ps.gz",
+    "https://www-cs-faculty.stanford.edu/~knuth/all4f6.ps.gz"
+  ],
+  "official_retrieval": "integration/2026-11-17-focused-4b/sources/retrieval.json",
+  "matching_official_correction": false,
+  "nearby_corrections": "Fascicle 6 page 223 changes concern answers 204 and 205, not 203(e).",
+  "public_queries": [
+    "Knuth \"203\" \"f(1/2)\"",
+    "Knuth \"587\" \"203\" errata",
+    "Knuth \"Model RB\" error"
+  ],
+  "public_search_result": "No matching prior report located. The primary Model RB paper was returned, without a report concerning these local book calculations.",
+  "priority_established": false,
+  "physical_copy_verified": false,
+  "computation": "No computer search needed: exact rational substitution and first-order expansion prove both discrepancies."
+}

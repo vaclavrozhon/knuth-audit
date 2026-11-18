@@ -1,10 +1,10 @@
 import { test, expect } from "@playwright/test";
 
-test("portable catalog, review records, excerpts and page coverage", async ({ page }) => {
+test("portable catalog, review records, book omission and page coverage", async ({ page }) => {
   const errors = [];
   page.on("pageerror", e => errors.push(e.message));
   await page.goto("/");
-  await expect(page.locator(".cards .finding-card")).toHaveCount(797);
+  await expect(page.locator(".cards .finding-card")).toHaveCount(817);
   await page.getByRole("textbox", { name: "Search findings" }).fill("F7-C0006");
   await expect(page.locator(".cards .finding-card")).toHaveCount(1);
   await page.locator(".finding-card").click();
@@ -13,11 +13,8 @@ test("portable catalog, review records, excerpts and page coverage", async ({ pa
   await expect(page.locator(".markdown")).toContainText("F7-C0006");
   await page.getByRole("button", { name: "Back to evidence" }).click();
   await page.getByRole("button", { name: "View page", exact: true }).click();
-  await expect(page.getByLabel("Select page").locator("option")).toHaveCount(2);
-  for (const option of ["0", "1"]) {
-    await page.getByLabel("Select page").selectOption(option);
-    await expect.poll(() => page.locator(".page-image img").evaluate(img => img.complete && img.naturalWidth > 0)).toBe(true);
-  }
+  await expect(page.getByLabel("Select page")).toHaveCount(0);
+  await expect(page.locator(".page-image img")).toHaveCount(0);
   await expect(page.getByRole("dialog")).toContainText("The book is not included");
   await page.getByRole("button", { name: "Close (Esc)", exact: true }).click();
   await page.getByRole("button", { name: "Volume progress", exact: true }).click();

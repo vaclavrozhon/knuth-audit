@@ -1,0 +1,95 @@
+{
+  "checked_at_utc": "2026-11-17T16:04:40.082930+00:00",
+  "finding": "F262",
+  "scope": "Incorrect clause deletion in the final proof step, not a false theorem or counterexample to its conditional unsatisfiability statement.",
+  "edition": "Volume 4B, first edition, second printing, November 2022",
+  "locations": {
+    "book_printed": 588,
+    "book_file": 608,
+    "draft_printed": 224,
+    "draft_file": 232
+  },
+  "source_files": [
+    {
+      "path": "books/taocp-vol4b-ed1-print2-2022.pdf",
+      "sha256": "6ce7187daa4f7dfa09814551a461fac81a833c93c140699fced8fd5897347552"
+    },
+    {
+      "path": "audit-2026-10-31/sources/fasc6a.pdf",
+      "sha256": "f186c972c23410395685a02eca4cbbd66bb0853ec371402a768a9a5bcfe59ba8"
+    },
+    {
+      "path": "integration/2026-11-17-focused-4b/sources/vol4b-p588-minimality.png",
+      "sha256": "e4fa4f088723c34d2a9b9d778ade3a88fc013d90149e8c71b0ac325115987fca"
+    },
+    {
+      "path": "integration/2026-11-17-focused-4b/sources/fasc6a-p224-minimality.png",
+      "sha256": "88ebfd6efbbe49bfff8a430227d7078234f7f82621ee737d0f3e782610651ed2"
+    },
+    {
+      "path": "errata/text/err4b.txt",
+      "sha256": "2a3450bf3c79d28ad3c2d96468344c96995cf0afb74961f257c311bb9c821e1c"
+    },
+    {
+      "path": "errata/text/all4b.txt",
+      "sha256": "b1a3425486f403fb4158585d5bbfef0159fd20b12e2e7d47b64e393e1ae8a303"
+    },
+    {
+      "path": "errata/text/err4f5.txt",
+      "sha256": "5a716c34e2063eb46005593d53e89dbbd912b5677e0a6ab11753f2a5ee38b557"
+    },
+    {
+      "path": "errata/text/all4f5.txt",
+      "sha256": "0dd38c4cda72b01baefb797611c9bbab7713ff0c107a1df884afc89fe9bb91c3"
+    },
+    {
+      "path": "errata/text/err4f6.txt",
+      "sha256": "0a065b32ef4f8e427a178a77e0fe81b7caad77389ecec060c8793567cd5a3eb2"
+    },
+    {
+      "path": "errata/text/all4f6.txt",
+      "sha256": "468af6337a650d3b8b132fa854a21a4a460d891d3497986318ba1830581dddb8"
+    }
+  ],
+  "official_sources": [
+    "https://www-cs-faculty.stanford.edu/~knuth/fasc6a.ps.gz",
+    "https://www-cs-faculty.stanford.edu/~knuth/err4b.textxt",
+    "https://www-cs-faculty.stanford.edu/~knuth/err4b.ps.gz",
+    "https://www-cs-faculty.stanford.edu/~knuth/all4b.ps.gz",
+    "https://www-cs-faculty.stanford.edu/~knuth/err4f5.textxt",
+    "https://www-cs-faculty.stanford.edu/~knuth/err4f5.ps.gz",
+    "https://www-cs-faculty.stanford.edu/~knuth/all4f5.ps.gz",
+    "https://www-cs-faculty.stanford.edu/~knuth/err4f6.textxt",
+    "https://www-cs-faculty.stanford.edu/~knuth/err4f6.ps.gz",
+    "https://www-cs-faculty.stanford.edu/~knuth/all4f6.ps.gz"
+  ],
+  "novelty": "No matching correction found in six errata layers, three current TeX sources, or focused public searches.",
+  "priority_established": false,
+  "later_complete_printing_checked": false,
+  "computation": "None; direct three-variable clause-deletion example.",
+  "public_queries": [
+    "Knuth \"206\" \"minimally unsatisfiable\" errata",
+    "\"TAOCP\" \"588\" \"206\"",
+    "\"Knuth\" \"206\" \"conditioned\" unsatisfiable",
+    "\"Knuth\" \"206\" \"clause\" \"errata\" minimal"
+  ],
+  "search_observation": "Searches returned copies of the draft and unrelated material, not a matching public correction.",
+  "related_errata": [
+    {
+      "source": "err4b.textxt",
+      "block": "\\amendpage 4b.588 in final paragraph of answer 205 (24.07.22)\ndelete `Is there a shorter solution?' at the beginning; add this at the end:\\nl\nSee T.~{Zhang}, T.~{Peitl}, and S.~{Szeider},\n\\arXiv:2405.16149 [cs.DM] (2024), 25~pages."
+    },
+    {
+      "source": "err4f6.textxt",
+      "block": "\\amendpage 4f6.150 replacement for exercise 204 (19.05.01)\n\\EX204. [28] Figure 89 might suggest that {\\mc 3SAT} problems\non $n$ variables are always easy when there are fewer than $2n$ clauses.\nWe shall prove, however, that~{\\it any\\/} set of $m$ ternary clauses\non $n$ variables can be transformed mechanically into another set of ternary\nclauses on $N=O(m)$ variables in which no variable occurs more than four times.\nThe transformed problem has the same number of solutions as the original one;\nthus it isn't any simpler, although (with at most $4N$ literals)\nit has at most ${4\\over3}N$ clauses.\\tighten\\breathe\n\\item{a)}First replace the original $m$ clauses by $m$ new clauses $(X_1\\lor\nX_2\\lor X_3)$, \\dots, $(X_{3m-2}\\lor X_{3m-1}\\lor X_{3m})$, on $3m$ new\nvariables, and show how to add $3m$ clauses of size~2 so that\nthe resulting $4m$ clauses have exactly as many solutions as the\noriginal.\\tighten\n\\breathe\\item{b)} Construct ternary clauses that have a unique solution, yet no\nvariable occurs more than four times.\n\\item{c)} Use (a) and (b) to prove the $N$-variable result claimed above."
+    },
+    {
+      "source": "err4f6.textxt",
+      "block": "\\amendpage 4f6.150 replacement for exercise 205 (19.05.01)\n\\ex205. [26] If $F$ and $F'$ are sets of clauses, let $F\\sqcup F'$ stand for\nany other set obtained\nfrom $F\\cup F'$ by replacing one or more clauses~$C$ of $F$\nby $x\\lor C$ and one or more clauses~$C'$ of $F'$ by $\\bar x\\lor C'$,\nwhere $x$ is a new variable. Then $F\\sqcup F'$ is unsatisfiable\nwhenever $F$ and $F'$ are both unsatisfiable.\nFor example, if $F=\\{\\epsilon\\}$ and $F'=\\{1,\\bar1\\}$, then\n$F\\sqcup F'$ is either\n$\\{2,1\\bar2,\\bar1\\bar2\\}$ or\n$\\{2,1,\\bar1\\bar2\\}$ or\n$\\{2,1\\bar2,\\bar1\\}$.\n\\item{a)} Construct 16 unsatisfiable ternary clauses on 15 variables,\nwhere each variable occurs at most four times.\n\\item{b)} Construct an unsatisfiable {\\mc4SAT} problem in which every\nvariable occurs at most five times."
+    },
+    {
+      "source": "err4f6.textxt",
+      "block": "\\amendpage 4f6.224 line $-2$ (17.05.08)\n{\\sl SODA\\/ \\bf22} (2011), 664--674 \\becomes\n{\\sl JACM\\/ \\bf63} (2016), 43:1--43:32"
+    }
+  ]
+}

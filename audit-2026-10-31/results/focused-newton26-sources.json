@@ -1,0 +1,82 @@
+{
+  "checked_at_utc": "2026-11-17T10:47:37.786078+00:00",
+  "volume4b": {
+    "edition": 1,
+    "printing": 2,
+    "printed_page": 374,
+    "file_page": 394,
+    "image_inspected": true
+  },
+  "author_draft": {
+    "date": "2019-09-11",
+    "printed_page": 31,
+    "file_page": 37,
+    "image_inspected": true,
+    "same_error": true
+  },
+  "maclaurin": {
+    "year": 1729,
+    "url": "https://archive.org/details/jstor-103506",
+    "doi": "10.1098/rstl.1729.0011",
+    "printed_pages_inspected": [
+      68,
+      69,
+      70
+    ],
+    "file_pages_inspected": [
+      11,
+      12,
+      13
+    ],
+    "evidence": "Proposition IX and its corollary, with Corollary I to Proposition VIII: the normalized adjacent-coefficient inequality, under a same-sign real-root hypothesis sufficient for MPR26.",
+    "retrieval": "integration/2026-11-17-focused-4b/sources/maclaurin1729-retrieval.json"
+  },
+  "sylvester": {
+    "original_year": 1865,
+    "url": "https://archive.org/details/SylvesterCollected2",
+    "reprint_volume": 2,
+    "reprint_pages": [
+      498,
+      513
+    ],
+    "printed_pages_inspected": [
+      498,
+      499,
+      508
+    ],
+    "file_pages_inspected": [
+      515,
+      516,
+      525
+    ],
+    "evidence": "The stronger rule counts roots; p.508 explicitly distinguishes earlier results detecting existence of a nonreal root.",
+    "retrieval": "integration/2026-11-17-focused-4b/sources/sylvester-collected2.pdf.retrieval.json"
+  },
+  "official_sources": [
+    "https://www-cs-faculty.stanford.edu/~knuth/err4b.textxt",
+    "https://www-cs-faculty.stanford.edu/~knuth/err4b.ps.gz",
+    "https://www-cs-faculty.stanford.edu/~knuth/all4b.ps.gz",
+    "https://www-cs-faculty.stanford.edu/~knuth/err4f5.textxt",
+    "https://www-cs-faculty.stanford.edu/~knuth/err4f5.ps.gz",
+    "https://www-cs-faculty.stanford.edu/~knuth/all4f5.ps.gz",
+    "https://www-cs-faculty.stanford.edu/~knuth/err4f6.textxt",
+    "https://www-cs-faculty.stanford.edu/~knuth/err4f6.ps.gz",
+    "https://www-cs-faculty.stanford.edu/~knuth/all4f6.ps.gz"
+  ],
+  "official_retrieval": "integration/2026-11-17-focused-4b/sources/retrieval.json",
+  "matching_official_correction": false,
+  "search_detail": "No Newton, Maclaurin or Sylvester match in any of the six short/complete errata text layers or relevant TeX sources; no 4B p.374 correction block.",
+  "public_queries": [
+    "\"Knuth\" \"Maclaurin\" \"374\"",
+    "\"Knuth\" \"finally proved\" \"Sylvester\"",
+    "\"Knuth\" \"Newton\" \"Maclaurin\" \"errata\""
+  ],
+  "public_search_result": "No matching correction located. Public drafts preserve the same attribution.",
+  "priority_established": false,
+  "physical_copy_verified": false,
+  "limitations": [
+    "Exact Newton 1707 page reference not independently checked.",
+    "No claim that Maclaurin supplied the earliest proof among all historical formulations.",
+    "No independent reconstruction of Sylvester's entire root-counting proof."
+  ]
+}
